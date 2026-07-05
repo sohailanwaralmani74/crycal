@@ -1,0 +1,281 @@
+# ============================================================
+# GROWTH & SAVINGS
+# ============================================================
+- url: /compound-interest-calculator
+  title: Compound Interest Calculator
+  category: growth
+  type: tool
+  short_name: Compound Interest
+
+- url: /simple-interest-calculator
+  title: Simple Interest Calculator
+  category: growth
+  type: tool
+  short_name: Simple Interest
+
+- url: /savings-goal-calculator
+  title: Savings Goal Calculator
+  category: growth
+  type: tool
+  short_name: Savings Goal
+
+- url: /high-yield-savings-calculator
+  title: High Yield Savings Calculator
+  category: growth
+  type: tool
+  short_name: HYSA Calculator
+
+- url: /rule-of-72-calculator
+  title: Rule of 72 Calculator
+  category: growth
+  type: tool
+  short_name: Rule of 72
+
+- url: /dividend-reinvestment-calculator
+  title: Dividend Reinvestment Calculator
+  category: growth
+  type: tool
+  short_name: DRIP Calculator
+
+- url: /dollar-cost-averaging-calculator
+  title: Dollar Cost Averaging Calculator
+  category: growth
+  type: tool
+  short_name: DCA Calculator
+
+- url: /investment-calculator
+  title: Investment Calculator
+  category: growth
+  type: tool
+  short_name: Investment Growth
+
+# ============================================================
+# RETIREMENT
+# ============================================================
+- url: /retirement-calculator
+  title: Retirement Calculator
+  category: retirement
+  type: tool
+  short_name: Retirement
+
+- url: /401k-calculator
+  title: 401k Calculator
+  category: retirement
+  type: tool
+  short_name: 401k
+
+- url: /ira-calculator
+  title: IRA Calculator
+  category: retirement
+  type: tool
+  short_name: IRA
+
+- url: /roth-ira-calculator
+  title: Roth IRA Calculator
+  category: retirement
+  type: tool
+  short_name: Roth IRA
+
+- url: /retirement-withdrawal-calculator
+  title: Retirement Withdrawal Calculator
+  category: retirement
+  type: tool
+  short_name: Withdrawal Rate
+
+- url: /fire-calculator
+  title: FIRE Calculator
+  category: retirement
+  type: tool
+  short_name: FIRE
+
+# ============================================================
+# MORTGAGE & REAL ESTATE
+# ============================================================
+- url: /mortgage-calculator
+  title: Mortgage Calculator
+  category: mortgage
+  type: tool
+  short_name: Mortgage
+
+- url: /rent-vs-buy-calculator
+  title: Rent vs Buy Calculator
+  category: mortgage
+  type: tool
+  short_name: Rent vs Buy
+
+- url: /refinance-calculator
+  title: Refinance Calculator
+  category: mortgage
+  type: tool
+  short_name: Refinance
+
+- url: /home-affordability-calculator
+  title: Home Affordability Calculator
+  category: mortgage
+  type: tool
+  short_name: Affordability
+
+- url: /mortgage-payoff-calculator
+  title: Mortgage Payoff Calculator
+  category: mortgage
+  type: tool
+  short_name: Mortgage Payoff
+
+# ============================================================
+# DEBT & LOANS
+# ============================================================
+- url: /loan-payoff-calculator
+  title: Loan Payoff Calculator
+  category: debt
+  type: tool
+  short_name: Loan Payoff
+
+- url: /credit-card-payoff-calculator
+  title: Credit Card Payoff Calculator
+  category: debt
+  type: tool
+  short_name: CC Payoff
+
+- url: /debt-snowball-calculator
+  title: Debt Snowball Calculator
+  category: debt
+  type: tool
+  short_name: Debt Snowball
+
+- url: /debt-avalanche-calculator
+  title: Debt Avalanche Calculator
+  category: debt
+  type: tool
+  short_name: Debt Avalanche
+
+- url: /amortization-calculator
+  title: Amortization Calculator
+  category: debt
+  type: tool
+  short_name: Amortization
+
+# ============================================================
+# INSURANCE
+# ============================================================
+- url: /life-insurance-calculator
+  title: Life Insurance Calculator
+  category: insurance
+  type: tool
+  short_name: Life Insurance
+
+- url: /disability-insurance-calculator
+  title: Disability Insurance Calculator
+  category: insurance
+  type: tool
+  short_name: Disability Insurance
+
+- url: /term-vs-whole-life-calculator
+  title: Term vs Whole Life Calculator
+  category: insurance
+  type: tool
+  short_name: Term vs Whole
+
+# ============================================================
+# TAX & INCOME
+# ============================================================
+- url: /tax-bracket-calculator
+  title: Tax Bracket Calculator
+  category: tax
+  type: tool
+  short_name: Tax Bracket
+
+- url: /take-home-pay-calculator
+  title: Take-Home Pay Calculator
+  category: tax
+  type: tool
+  short_name: Take-Home Pay
+
+- url: /capital-gains-calculator
+  title: Capital Gains Calculator
+  category: tax
+  type: tool
+  short_name: Capital Gains
+
+- url: /self-employment-tax-calculator
+  title: Self-Employment Tax Calculator
+  category: tax
+  type: tool
+  short_name: SE Tax
+
+# ============================================================
+# BUDGETING
+# ============================================================
+- url: /50-30-20-budget-calculator
+  title: 50/30/20 Budget Calculator
+  category: budgeting
+  type: tool
+  short_name: 50/30/20 Budget
+
+- url: /net-worth-calculator
+  title: Net Worth Calculator
+  category: budgeting
+  type: tool
+  short_name: Net Worth
+
+- url: /debt-to-income-calculator
+  title: Debt-to-Income Calculator
+  category: budgeting
+  type: tool
+  short_name: DTI Calculator
+
+- url: /emergency-fund-calculator
+  title: Emergency Fund Calculator
+  category: budgeting
+  type: tool
+  short_name: Emergency Fund
+
+# ============================================================
+# INVESTING
+# ============================================================
+- url: /position-size-calculator
+  title: Position Size Calculator
+  category: investing
+  type: tool
+  short_name: Position Sizer
+
+- url: /lot-size-calculator
+  title: Lot Size Calculator
+  category: investing
+  type: tool
+  short_name: Lot Sizer
+
+- url: /stock-position-size-calculator
+  title: Stock / ETF Position Size Calculator
+  category: investing
+  type: tool
+  short_name: Stock Sizer
+
+- url: /crypto-position-size-calculator
+  title: Crypto Position Size Calculator
+  category: investing
+  type: tool
+  short_name: Crypto Sizer
+
+- url: /options-position-size-calculator
+  title: Options Position Size Calculator
+  category: investing
+  type: tool
+  short_name: Options Sizer
+
+- url: /futures-position-size-calculator
+  title: Futures Position Size Calculator
+  category: investing
+  type: tool
+  short_name: Futures Sizer
+
+- url: /risk-reward-ratio-calculator
+  title: Risk/Reward Ratio Calculator
+  category: investing
+  type: tool
+  short_name: R/R Ratio
+
+- url: /kelly-criterion-calculator
+  title: Kelly Criterion Calculator
+  category: investing
+  type: tool
+  short_name: Kelly Criterion  

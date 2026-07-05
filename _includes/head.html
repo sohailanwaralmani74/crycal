@@ -1,0 +1,41 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+
+  <title>{% if page.title %}{{ page.title | escape }} — CryCal{% else %}CryCal — Free Position Size Calculators for Traders{% endif %}</title>
+  
+  {% if page.description %}
+    <meta name="description" content="{{ page.description | escape }}">
+  {% else %}
+    <meta name="description" content="Free, browser-based position size calculators for Forex, Stocks, Crypto, Options, and Futures. No signup, no server uploads — your data stays local.">
+  {% endif %}
+
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  
+  <!-- Favicon placeholder -->
+  <link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}CryCal — Trading Calculators{% endif %}">
+  <meta property="og:description" content="{% if page.description %}{{ page.description | escape }}{% else %}Free browser-based position size calculators for traders. No signup required.{% endif %}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://crycal.com/assets/img/og-image.jpg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title | escape }}{% else %}CryCal{% endif %}">
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description | escape }}{% else %}Free position size calculators — Forex, Stocks, Crypto, Options, Futures.{% endif %}">
+
+  <!-- Fonts: Georgia + system-ui (no external requests) -->
+  <style>
+    /* Preload system-ui fallback, no external fonts */
+  </style>
+
+  <!-- Global CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/tool.css">
+  <script src="/assets/js/data.js"></script>
+  <!-- Ahrefs Analytics -->
+</head>

@@ -1,0 +1,138 @@
+---
+layout: default
+title: Page Not Found — CryCal Financial Calculators
+description: The page you are looking for does not exist. Use our financial calculators to find your way back.
+permalink: /404.html
+is_homepage: true
+---
+
+<div class="error-page">
+  <div class="hero-section">
+    <h1 class="error-code" id="errorCode">404 - Not Found</h1>
+    <p class="error-sub">Calculation Not Found — Balance Hit $0.</p>
+    <p class="error-desc">
+      The page you're looking for has either been moved, spent, or never existed.
+      Don't worry — your budgeting discipline is still intact.
+    </p>
+  </div>
+
+  <!-- TICKER / BALANCE COUNTER -->
+  <div class="ticker-container" id="tickerContainer">
+    <div class="ticker-label">⏳ SEARCHING FOR YOUR PAGE...</div>
+    <div class="ticker-display" id="tickerDisplay">
+      <span class="ticker-symbol">SAVINGS BALANCE</span>
+      <span class="ticker-price" id="tickerPrice">$12,842.50</span>
+      <span class="ticker-change" id="tickerChange">+1.23%</span>
+    </div>
+    <div class="ticker-slippage" id="tickerSlippage">
+      Fees Lost: <span id="slippageValue">0.00</span>%
+    </div>
+  </div>
+
+  <!-- 404 MESSAGE -->
+
+  <!-- INTERACTIVE BUTTON -->
+  <button class="btn-primary btn-reroute" id="rerouteBtn">⟳ Reroute to Home</button>
+
+  <!-- BACKUP LINKS (for robots / users) -->
+  <div class="error-links">
+    <a href="/">Home</a>
+    <span>·</span>
+    <a href="/compound-interest-calculator">Compound Interest Calculator</a>
+    <span>·</span>
+    <a href="/growth">Growth</a>
+  </div>
+
+</div>
+
+<!-- ============================================================ -->
+<!-- INTERACTIVE JAVASCRIPT                                         -->
+<!-- ============================================================ -->
+
+<script>
+  (function() {
+    const tickerPrice = document.getElementById('tickerPrice');
+    const tickerChange = document.getElementById('tickerChange');
+    const slippageValue = document.getElementById('slippageValue');
+    const errorCode = document.getElementById('errorCode');
+    const rerouteBtn = document.getElementById('rerouteBtn');
+    const tickerContainer = document.getElementById('tickerContainer');
+
+    let interval = null;
+
+    // Simulate a balance draining to zero
+    function runChaos() {
+      let balance = 12842.50;
+      let change = 1.23;
+      let feesLost = 0.00;
+      let counter = 0;
+      const maxSteps = 20;
+
+      if (interval) clearInterval(interval);
+
+      interval = setInterval(function() {
+        counter++;
+
+        // Random walk, biased downward as it approaches the "crash"
+        const bias = -20 * (counter / maxSteps);
+        const move = (Math.random() - 0.5) * 400 + bias * 20;
+        balance = Math.max(0, balance + move);
+        change = (balance - 12842.50) / 128.425;
+        feesLost = Math.min(100, feesLost + (Math.random() * 5));
+
+        // Formatting
+        tickerPrice.textContent = '$' + balance.toFixed(2);
+        tickerChange.textContent = (change > 0 ? '+' : '') + change.toFixed(2) + '%';
+        tickerChange.style.color = change >= 0 ? 'var(--profit)' : 'var(--loss)';
+        slippageValue.textContent = feesLost.toFixed(2);
+
+        // Make container glitch
+        if (counter % 3 === 0) {
+          tickerContainer.style.transform = 'translateX(' + (Math.random() - 0.5) * 8 + 'px)';
+        }
+
+        // After maxSteps, crash to 404
+        if (counter >= maxSteps) {
+          clearInterval(interval);
+          // Crash effect
+          tickerContainer.style.transform = 'translateX(0)';
+          tickerPrice.textContent = '$0.00';
+          tickerChange.textContent = '—';
+          slippageValue.textContent = '100.00';
+          tickerContainer.style.borderColor = 'var(--loss)';
+          tickerContainer.style.backgroundColor = '#FFF8F0';
+          document.querySelector('.ticker-label').textContent = '⚠️ BALANCE DEPLETED — 404 NOT FOUND';
+          errorCode.textContent = '404';
+          errorCode.style.color = 'var(--loss)';
+          rerouteBtn.textContent = '↻ Return to Home';
+          rerouteBtn.style.backgroundColor = 'var(--profit)';
+          rerouteBtn.onclick = function() {
+            window.location.href = '/';
+          };
+        }
+      }, 180);
+    }
+
+    // Initial run
+    runChaos();
+
+    // Reroute button: reset and run again OR go home (after crash it changes)
+    rerouteBtn.addEventListener('click', function(e) {
+      if (this.textContent === '⟳ Reroute to Home') {
+        e.preventDefault();
+        // Reset everything and run chaos again
+        tickerContainer.style.borderColor = 'var(--border-default)';
+        tickerContainer.style.backgroundColor = 'var(--surface)';
+        document.querySelector('.ticker-label').textContent = '⏳ SEARCHING FOR YOUR PAGE...';
+        errorCode.textContent = '...';
+        errorCode.style.color = 'var(--ink)';
+        this.textContent = '⟳ Reroute to Home';
+        this.style.backgroundColor = 'var(--accent)';
+        this.onclick = null;
+        runChaos();
+      }
+      // After crash, the onclick is overwritten to redirect.
+    });
+
+  })();
+</script>

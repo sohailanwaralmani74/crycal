@@ -1,0 +1,398 @@
+---
+layout: default
+---
+
+<!-- ============================================================ -->
+<!-- 1. INTRO CONTENT (H1 + Intro Paragraph)                      -->
+<!-- ============================================================ -->
+<div class="hero-section">
+  {% assign content_parts = content | split: '<!-- more -->' %}
+  {{ content_parts[0] }}
+
+</div>
+
+<!-- ============================================================ -->
+<!-- 2. INTERACTIVE TOOL ENGINE                                   -->
+<!-- ============================================================ -->
+<div class="tool-container" id="toolContainer" data-tool-id="{{ page.tool_id }}">
+
+  <div class="tool-header">
+    {{ page.title }}
+    <button class="btn-history" id="historyBtn" >📜 History</button>
+  </div>
+
+  <!-- TOOLBAR -->
+  <div class="toolbar">
+    <select id="presetDropdown" class="presets-select">
+      <option value="">Load Preset</option>
+    </select>
+    <div class="header-actions">
+      <div class="currency-picker">
+        <label for="baseCurrency" class="sr-only">Account Currency</label>
+        <select id="baseCurrency" class="currency-select">
+        </select>
+      </div>
+    </div>
+    <input type="text" id="presetNameInput" placeholder="Name this setup..." class="preset-name-input">
+    <button id="resetBtn" class="btn">↺ Reset</button>
+    <button id="shareBtn" class="btn btn-primary">↗ Share</button>
+  </div>
+
+  <!-- INPUTS AREA — DYNAMIC SINGLE ROW -->
+  <div class="inputs-area" id="inputsArea">
+    <div class="input-row-single" id="inputRow">
+      {% for input in page.inputs %}
+      <div class="input-group">
+        <label for="input_{{ input.id }}">{{ input.label }}</label>
+        <div class="input-wrapper">
+          {% if input.prefix %}
+          <span class="input-prefix">{{ input.prefix }}</span>
+          {% endif %}
+
+          {% if input.type == "select" %}
+          <select id="input_{{ input.id }}" data-default="{{ input.default }}">
+            {% for option in input.options %}
+            <option value="{{ option }}" {% if option==input.default %}selected{% endif %}>{{ option }}</option>
+            {% endfor %}
+          </select>
+          {% elsif input.type == "text" %}
+          <input type="text" id="input_{{ input.id }}" value="{{ input.default }}" placeholder="{{ input.placeholder }}"
+            list="{{ input.datalist }}" data-default="{{ input.default }}">
+          {% else %}
+          <input type="number" id="input_{{ input.id }}" value="{{ input.default }}" step="{{ input.step }}"
+            min="{{ input.min }}" max="{{ input.max }}" placeholder="{{ input.placeholder }}"
+            data-default="{{ input.default }}">
+          {% endif %}
+
+          {% if input.suffix %}
+          <span class="input-suffix">{{ input.suffix }}</span>
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+    <!-- BRACKET LIST (for Tax Bracket Calculator) -->
+<div id="bracketSection" style="display: none;">
+  <div class="debt-list-container" id="bracketList"></div>
+  <button class="btn-add-debt" id="addBracketBtn">+ Add Bracket</button>
+</div>
+
+<script>
+  var toolId = document.getElementById('toolContainer').dataset.toolId;
+  if (toolId === 'tax-bracket-calculator') {
+    document.getElementById('bracketSection').style.display = 'block';
+  }
+</script>
+    <!-- DEBT LIST (for Debt Snowball only) -->
+<div id="debtSection" style="display: none;">
+  <div class="debt-list-container" id="debtList"></div>
+  <button class="btn-add-debt" id="addDebtBtn">+ Add Debt</button>
+</div>
+
+<script>
+  // Show debt section for debt-snowball and debt-avalanche
+  var toolId = document.getElementById('toolContainer').dataset.toolId;
+  if (toolId === 'debt-snowball' || toolId === 'debt-avalanche') {
+    document.getElementById('debtSection').style.display = 'block';
+  }
+</script>
+
+
+    <!-- Global datalist for currency inputs -->
+    <datalist id="currencyList"></datalist>
+  </div>
+
+  <!-- GRID: OUTPUTS (60%) + CHARTS (40%) -->
+  <div class="calculator-grid">
+
+    <div class="output-panel">
+      <div class="output-card">
+        {% for output in page.outputs %}
+        <div class="output-item">
+          <span class="output-label">{{ output.label }}</span>
+          <span class="output-value" id="output_{{ output.id }}">
+            <span class="output-number">—</span>
+            {% if output.unit %}<span class="output-unit">{{ output.unit }}</span>{% endif %}
+          </span>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="chart-panel">
+      <div class="chart-tabs" id="chartTabs">
+        {% for tab in page.charts.tabs %}
+        <button class="chart-tab-btn {% if forloop.first %}active{% endif %}" data-tab="{{ tab.id }}">{{ tab.label
+          }}</button>
+        {% endfor %}
+      </div>
+      <div class="chart-container" id="chartContainer">
+        <canvas id="chartCanvas"></canvas>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="tool-disclaimer">
+    ⚠️ <strong>Illustrative only.</strong> Not financial advice. Please delete history timely, it may impact your
+    browser performance.
+  </div>
+
+</div>
+
+<!-- ============================================================ -->
+<!-- 3. HISTORY POPUP                                              -->
+<!-- ============================================================ -->
+
+<div class="history-overlay" id="historyOverlay">
+  <div class="history-modal">
+    <div class="history-modal-header">
+      <h2>History — {{ page.title }}</h2>
+      <button class="btn-close" id="historyCloseBtn">✕</button>
+    </div>
+    <div class="history-toolbar">
+      <button class="btn btn-export-csv" id="exportCsvBtn">📥 .csv</button>
+      <button class="btn btn-export-excel" id="exportExcelBtn">📥 Excel</button>
+      <span class="spacer"></span>
+      <button class="btn btn-danger" id="clearHistoryBtn">🗑️ Clear All</button>
+    </div>
+    <div class="history-modal-body">
+      <div class="history-table-wrapper" id="historyTableWrapper">
+        <table class="history-table" id="historyTable">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Time</th>
+              {% for col in page.history_columns %}
+              <th>{{ col.label }}</th>
+              {% endfor %}
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody id="historyTableBody"></tbody>
+        </table>
+      </div>
+      <div class="history-footer" id="historyFooter">Showing 0 entries</div>
+    </div>
+  </div>
+</div>
+
+<!-- Column config for the history table/exports — read by data.js at runtime
+     so renderHistory()/exportHistoryCSV()/exportHistoryExcel() stay generic
+     across every tool instead of hardcoding one tool's fields. -->
+<script type="application/json" id="historyColumnsConfig">{{ page.history_columns | jsonify }}</script>
+
+<!-- ============================================================ -->
+<!-- 4. REST OF CONTENT (How-to, FAQs, etc.)                      -->
+<!-- ============================================================ -->
+<div class="content-section">
+  {% if content_parts[1] %}
+  <article>
+    {{ content_parts[1] }}
+  </article>
+  {% endif %}
+</div>
+<!-- ============================================================ -->
+<!-- 5. JSON-LD SCHEMA                                             -->
+<!-- ============================================================ -->
+
+{% if page.structured_data %}
+<script type="application/ld+json">
+    {{ page.structured_data | jsonify }}
+  </script>
+{% endif %}
+
+{% if page.faq %}
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {% for qa in page.faq %}
+        {
+          "@type": "Question",
+          "name": {{ qa.question | jsonify }},
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": {{ qa.answer | jsonify }}
+          }
+        }{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      ]
+    }
+  </script>
+{% endif %}
+{% if page.breadcrumb %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {% for item in page.breadcrumb %}
+    {
+      "@type": "ListItem",
+      "position": {{ forloop.index }},
+      "name": "{{ item.name }}",
+      "item": "{{ site.url }}{{ item.url }}"
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}
+</script>
+{% endif %}
+
+{% if page.howto %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "{{ page.howto.name }}",
+  "description": "{{ page.howto.description }}",
+  "step": [
+    {% for step in page.howto.step %}
+    {
+      "@type": "HowToStep",
+      "position": {{ forloop.index }},
+      "name": "{{ step.name }}",
+      "text": "{{ step.text }}"
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}
+</script>
+{% endif %}
+
+<!-- ============================================================ -->
+<!-- 6. SCRIPTS                                                   -->
+<!-- ============================================================ -->
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js" defer></script>
+<script src="{{ page.js_file }}" defer></script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var overlay = document.getElementById('historyOverlay');
+    var openBtn = document.getElementById('historyBtn');
+    var closeBtn = document.getElementById('historyCloseBtn');
+
+    function openHistory() {
+      overlay.classList.add('open');
+      document.body.style.overflow = 'hidden';
+      if (typeof window.renderHistory === 'function') window.renderHistory();
+    }
+    function closeHistory() {
+      overlay.classList.remove('open');
+      document.body.style.overflow = '';
+    }
+    if (openBtn) openBtn.addEventListener('click', openHistory);
+    if (closeBtn) closeBtn.addEventListener('click', closeHistory);
+    overlay.addEventListener('click', function (e) {
+      if (e.target === overlay) closeHistory();
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && overlay.classList.contains('open')) closeHistory();
+    });
+
+    document.getElementById('shareBtn').addEventListener('click', function () {
+      var shareURL = buildShareURL();
+      if (navigator.share) {
+        navigator.share({ title: document.title, url: shareURL });
+      } else {
+        navigator.clipboard.writeText(shareURL).then(function () {
+          alert('Shareable link copied!');
+        }).catch(function () {
+          prompt('Copy this link:', shareURL);
+        });
+      }
+    });
+
+    document.getElementById('exportCsvBtn').addEventListener('click', function () {
+      if (typeof window.exportHistoryCSV === 'function') window.exportHistoryCSV();
+    });
+    document.getElementById('exportExcelBtn').addEventListener('click', function () {
+      if (typeof window.exportHistoryExcel === 'function') window.exportHistoryExcel();
+    });
+    document.getElementById('clearHistoryBtn').addEventListener('click', function () {
+      if (confirm('Delete all history?')) {
+        if (typeof window.clearHistory === 'function') {
+          window.clearHistory();
+          if (typeof window.renderHistory === 'function') window.renderHistory();
+        }
+      }
+    });
+
+    document.getElementById('resetBtn').addEventListener('click', function () {
+      if (typeof window.resetTool === 'function') window.resetTool();
+    });
+
+    // ── Auto-Save Preset: User types name → saves automatically ──
+    var presetNameInput = document.getElementById('presetNameInput');
+    if (presetNameInput) {
+      presetNameInput.addEventListener('change', function () {
+        var name = this.value.trim();
+        if (name && typeof window.savePreset === 'function') {
+          window.savePreset(name);
+          this.value = '';
+          if (typeof window.renderPresetDropdown === 'function') {
+            window.renderPresetDropdown();
+          }
+        }
+      });
+      presetNameInput.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter') {
+          e.preventDefault();
+          this.blur();
+        }
+      });
+    }
+
+    // ── Load Preset ──
+    document.getElementById('presetDropdown').addEventListener('change', function () {
+      if (this.value && typeof window.loadPreset === 'function') {
+        window.loadPreset(this.value);
+        this.selectedIndex = 0;
+      }
+    });
+
+    // ── Render preset dropdown on load ──
+    if (typeof window.renderPresetDropdown === 'function') {
+      window.renderPresetDropdown();
+    }
+    // ── Apply URL parameters (if any) BEFORE initial update ──
+    if (typeof window.applyURLParams === 'function') {
+      window.applyURLParams();
+    }
+
+    // ── Initial update after DOM is ready ──
+    setTimeout(function () {
+      if (typeof window.updateTool === 'function') {
+        window.updateTool();
+      }
+    }, 150);
+    // ── Auto-update on input change (debounced on keystrokes to limit API calls) ──
+    var debouncedUpdate = typeof window.debounce === 'function'
+      ? window.debounce(function () { if (typeof window.updateTool === 'function') window.updateTool(); }, 350)
+      : function () { if (typeof window.updateTool === 'function') window.updateTool(); };
+
+    document.querySelectorAll('#inputsArea input, #inputsArea select').forEach(function (el) {
+      el.addEventListener('input', debouncedUpdate);
+      el.addEventListener('change', function () {
+        if (typeof window.updateTool === 'function') window.updateTool();
+      });
+    });
+
+    document.querySelectorAll('.chart-tab-btn').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        document.querySelectorAll('.chart-tab-btn').forEach(function (b) {
+          b.classList.remove('active');
+        });
+        this.classList.add('active');
+        if (typeof window.switchChartTab === 'function') {
+          window.switchChartTab(this.dataset.tab);
+        }
+      });
+    });
+  });
+</script>

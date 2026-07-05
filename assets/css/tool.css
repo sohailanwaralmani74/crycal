@@ -1,0 +1,827 @@
+/* ═══════════════════════════════════════════════════════════════════
+   CRYCAL — TOOL LAYOUT & HISTORY POPUP (MERGED & CLEANED)
+═══════════════════════════════════════════════════════════════════ */
+
+/* ──────────────────────────────────────────────────────────────
+   1. TOOL CONTAINER & HEADER
+   ────────────────────────────────────────────────────────────── */
+
+.tool-container {
+  background: var(--paper);
+  border-radius: 0.5rem;
+  border: 0.0625rem solid var(--border-default);
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+
+.tool-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.45rem;
+  background: var(--surface);
+  border-bottom: 0.0625rem solid var(--border-default);
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tool-header h2 {
+  font-size: 1.2rem;
+  margin: 0;
+  font-weight: 600;
+  font-family: var(--font-serif);
+}
+
+.btn-history {
+  border: 0.0625rem solid white;
+  border-radius: 0.25rem;
+  padding: 0.3rem 0.75rem;
+  font-size: 0.85rem;
+  font-family: var(--font-sans);
+  color:  var(--paper);
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s;
+  display: flex;
+  align-items: flex-end;
+  gap: 0.3rem;
+  background-color: var(--accent);
+}
+
+.btn-history:hover {
+  border-color: var(--paper);
+  background-color: var(--paper);
+  color: var(--accent);
+}
+
+/* ──────────────────────────────────────────────────────────────
+   2. TOOLBAR
+   ────────────────────────────────────────────────────────────── */
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  background: var(--paper);
+  border-bottom: 0.0625rem solid var(--accent);
+  flex-wrap: wrap;
+}
+
+.toolbar .btn {
+  padding: 0.3rem 0.8rem;
+  font-size: 0.85rem;
+  font-family: var(--font-sans);
+  border: 0.0625rem solid var(--border-default);
+  border-radius: 0.25rem;
+  background: var(--paper);
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.toolbar .btn:hover {
+  border-color: var(--accent);
+  background: var(--surface);
+}
+
+.toolbar .btn-primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--paper);
+}
+
+.toolbar .btn-primary:hover {
+  background: #A87520;
+  border-color: #A87520;
+}
+
+.toolbar .presets-select {
+  padding: 0.3rem 0.8rem;
+  font-size: 0.85rem;
+  font-family: var(--font-sans);
+  border: 0.0625rem solid var(--border-default);
+  border-radius: 0.25rem;
+  background: var(--paper);
+  color: var(--text-primary);
+  cursor: pointer;
+}
+
+.toolbar .presets-select:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.toolbar .preset-name-input {
+  padding: 0.3rem 0.6rem;
+  font-size: 0.85rem;
+  font-family: var(--font-sans);
+  border: 0.0625rem solid var(--border-default);
+  border-radius: 0.25rem;
+  background: var(--paper);
+  color: var(--text-primary);
+  outline: none;
+  min-width: 140px;
+  transition: border-color 0.15s;
+}
+
+.toolbar .preset-name-input:focus {
+  border-color: var(--accent);
+}
+
+.toolbar .preset-name-input::placeholder {
+  color: var(--text-light);
+}
+
+.toolbar .spacer {
+  flex: 1;
+}
+
+.btn-add-trade {
+  padding: 0.3rem 0.8rem;
+  font-size: 0.85rem;
+  font-family: var(--font-sans);
+  border: 0.0625rem dashed var(--accent);
+  border-radius: 0.25rem;
+  background: transparent;
+  color: var(--accent);
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+  margin-left: 0.5rem;
+}
+
+.btn-add-trade:hover {
+  background: var(--accent);
+  color: var(--paper);
+}
+
+/* ──────────────────────────────────────────────────────────────
+   3. INPUTS AREA — SINGLE ROW (MERGED)
+   ────────────────────────────────────────────────────────────── */
+
+.inputs-area {
+  padding: 0.75rem 1.5rem;
+  background: var(--paper);
+  border-bottom: 0.0625rem solid var(--border-default);
+}
+
+.input-row-single {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 0.75rem;
+  align-items: center;
+  padding-bottom: 0.25rem;
+}
+
+.input-group {
+  flex: 1 0 0;
+  max-width: 15rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.input-row-single .input-group label {
+  font-size: 0.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.input-row-single .input-wrapper {
+  display: flex;
+  align-items: center;
+  border: 0.0625rem solid var(--border-default);
+  border-radius: 0.25rem;
+  background: var(--paper);
+  width: 100%;
+  transition: border-color 0.15s;
+}
+
+.input-row-single .input-wrapper:focus-within {
+  border-color: var(--accent);
+}
+
+.input-row-single .input-wrapper input,
+.input-row-single .input-wrapper select {
+  width: 100%;
+  padding: 0.3rem 0.4rem;
+  font-size: 0.85rem;
+  font-family: var(--font-sans);
+  border: none;
+  background: transparent;
+  color: var(--text-primary);
+  outline: none;
+  min-width: 0;
+}
+
+.input-row-single .input-wrapper input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.input-row-single .input-wrapper input[type="number"]::-webkit-inner-spin-button,
+.input-row-single .input-wrapper input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input-row-single .input-wrapper .input-prefix,
+.input-row-single .input-wrapper .input-suffix {
+  padding: 0 0.4rem;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.input-row-single .input-wrapper select {
+  cursor: pointer;
+  padding-right: 1.5rem;
+}
+
+/* ──────────────────────────────────────────────────────────────
+   4. CALCULATOR GRID — OUTPUTS (50%) + CHARTS (50%)
+   ────────────────────────────────────────────────────────────── */
+
+.calculator-grid {
+  display: flex;
+  gap: 0;
+  background: var(--paper);
+}
+
+.output-panel {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 0.5rem;
+  border-right: 0.0625rem solid var(--border-default);
+}
+
+.output-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem 1.5rem;
+}
+
+.output-item {
+  padding: 0.4rem;
+  border-radius: 0.25rem;
+  border-left: 2px solid var(--accent);
+}
+
+.output-item .output-label {
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-light);
+  display: block;
+}
+
+.output-item .output-value {
+  font-size: 1rem;
+  font-family: var(--font-serif);
+  color: var(--accent);
+  line-height: 1.2;
+}
+
+.output-item .output-value .output-unit {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: var(--text-muted);
+  margin-left: 0.2rem;
+}
+
+.chart-panel {
+  flex: 0 0 50%;
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.chart-tabs {
+  display: flex;
+  gap: 0.25rem;
+  border-bottom: 0.0625rem solid var(--border-default);
+  flex-wrap: wrap;
+}
+
+.chart-tab-btn {
+  padding: 0.4rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  font-family: var(--font-sans);
+  background: none;
+  border: none;
+  border-bottom: 0.1875rem solid transparent;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.chart-tab-btn:hover {
+  color: var(--text-primary);
+}
+
+.chart-tab-btn.active {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+.chart-container {
+  flex: 1;
+  min-height: 12.5rem;
+  background: var(--surface);
+  border-radius: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-light);
+  font-size: 0.9rem;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.chart-container canvas {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* ──────────────────────────────────────────────────────────────
+   5. DISCLAIMER
+   ────────────────────────────────────────────────────────────── */
+
+.tool-disclaimer {
+  padding: 0.75rem 1.5rem;
+  background: #FFF8F0;
+  border-top: 0.0625rem solid var(--border-default);
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.tool-disclaimer strong {
+  color: var(--text-primary);
+}
+
+/* ──────────────────────────────────────────────────────────────
+   6. HISTORY POPUP
+   ────────────────────────────────────────────────────────────── */
+
+.history-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(11, 32, 39, 0.5);
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.25s ease, visibility 0.25s ease;
+}
+
+.history-overlay.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.history-modal {
+  background: var(--paper);
+  border-radius: 0.5rem;
+  max-width: 56.25rem;
+  width: 100%;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 1.25rem 3.75rem rgba(11, 32, 39, 0.2);
+  transform: scale(0.96);
+  transition: transform 0.25s ease;
+}
+
+.history-overlay.open .history-modal {
+  transform: scale(1);
+}
+
+.history-modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  border-bottom: 0.0625rem solid var(--border-default);
+  flex-shrink: 0;
+}
+
+.history-modal-header h2 {
+  font-size: 1.2rem;
+  font-family: var(--font-serif);
+  margin: 0;
+}
+
+.history-modal-header .btn-close {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  line-height: 1;
+  color: var(--text-light);
+  cursor: pointer;
+  padding: 0 0.25rem;
+  transition: color 0.15s;
+}
+
+.history-modal-header .btn-close:hover {
+  color: var(--loss);
+}
+
+.history-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border-bottom: 0.0625rem solid var(--border-default);
+  flex-shrink: 0;
+  flex-wrap: wrap;
+}
+
+.history-toolbar .btn {
+  padding: 0.3rem 0.8rem;
+  font-size: 0.8rem;
+  font-family: var(--font-sans);
+  border: 0.0625rem solid var(--border-default);
+  border-radius: 0.25rem;
+  background: var(--paper);
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.history-toolbar .btn:hover {
+  border-color: var(--accent);
+  background: var(--surface);
+}
+
+.history-toolbar .btn-export-csv {
+  background: var(--profit);
+  border-color: var(--profit);
+  color: var(--paper);
+}
+
+.history-toolbar .btn-export-csv:hover {
+  background: #1f4f42;
+  border-color: #1f4f42;
+}
+
+.history-toolbar .btn-export-excel {
+  background: #1d6f42;
+  border-color: #1d6f42;
+  color: var(--paper);
+}
+
+.history-toolbar .btn-export-excel:hover {
+  background: #14522e;
+  border-color: #14522e;
+}
+
+.history-toolbar .btn-danger {
+  background: transparent;
+  border-color: var(--loss);
+  color: var(--loss);
+}
+
+.history-toolbar .btn-danger:hover {
+  background: var(--loss);
+  color: var(--paper);
+}
+
+.history-toolbar .spacer {
+  flex: 1;
+}
+
+.history-modal-body {
+  padding: 0.75rem 1.5rem 1.5rem;
+  overflow: hidden;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.history-table-wrapper {
+  overflow: auto;
+  flex: 1;
+  max-height: 18.75rem;
+  border: 0.0625rem solid var(--border-default);
+  border-radius: 0.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.history-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 0.85rem;
+  min-width: 40rem;
+}
+
+.history-table thead {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+
+.history-table th {
+  background: var(--surface);
+  color: var(--text-primary);
+  font-weight: 600;
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+  border-bottom: 0.125rem solid var(--border-default);
+  white-space: nowrap;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+
+.history-table th:first-child,
+.history-table td:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 2;
+  background: var(--paper);
+  min-width: 2.5rem;
+  box-shadow: inset -0.0625rem 0 0 var(--border-default);
+}
+
+.history-table th:first-child {
+  z-index: 4;
+  background: var(--surface);
+  box-shadow: inset -0.0625rem 0 0 var(--border-default), inset 0 0.0625rem 0 var(--border-default);
+}
+
+.history-table td {
+  padding: 0.4rem 0.75rem;
+  border-bottom: 0.0625rem solid var(--border-default);
+  white-space: nowrap;
+  background: var(--paper);
+  vertical-align: middle;
+}
+
+.history-table tbody tr:hover td {
+  background: var(--surface);
+}
+
+.history-table tbody tr:hover td:first-child {
+  background: var(--surface);
+}
+
+.history-table .load-btn {
+  background: none;
+  border: 0.0625rem solid var(--accent);
+  color: var(--accent);
+  padding: 0.15rem 0.6rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  font-size: 0.7rem;
+  font-family: var(--font-sans);
+  transition: background 0.15s, color 0.15s;
+}
+
+.history-table .load-btn:hover {
+  background: var(--accent);
+  color: var(--paper);
+}
+
+.history-footer {
+  font-size: 0.8rem;
+  color: var(--text-light);
+  text-align: right;
+  flex-shrink: 0;
+}
+
+/* ──────────────────────────────────────────────────────────────
+   7. RESPONSIVE
+   ────────────────────────────────────────────────────────────── */
+
+@media (max-width: 64rem) {
+  .calculator-grid {
+    flex-direction: column;
+  }
+
+  .output-panel {
+    flex: 0 0 100%;
+    max-width: 100%;
+    border-right: none;
+    border-bottom: 0.0625rem solid var(--border-default);
+  }
+
+  .chart-panel {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .output-card {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .input-row-single .input-group {
+    flex: 1 0 calc(33.33% - 0.75rem);
+    min-width: 100px;
+  }
+}
+
+@media (max-width: 48rem) {
+  .tool-header {
+    padding: 0.5rem 1rem;
+  }
+  .tool-header h1 {
+    font-size: 1.1rem;
+  }
+  .toolbar {
+    padding: 0.5rem 1rem;
+  }
+  .inputs-area {
+    padding: 0.75rem 1rem;
+  }
+  .output-panel {
+    padding: 1rem;
+  }
+  .chart-panel {
+    padding: 1rem;
+  }
+
+  .input-row-single .input-group {
+    flex: 1 0 calc(50% - 0.75rem);
+  }
+
+  .history-modal {
+    max-width: 100%;
+    max-height: 95vh;
+    margin: 0.5rem;
+  }
+  .history-modal-header {
+    padding: 0.75rem 1rem;
+  }
+  .history-toolbar {
+    padding: 0.5rem 1rem;
+  }
+  .history-modal-body {
+    padding: 0.5rem 1rem 1rem;
+  }
+  .history-table-wrapper {
+    max-height: 12.5rem;
+  }
+  .history-table {
+    font-size: 0.75rem;
+    min-width: 30rem;
+  }
+  .history-table th,
+  .history-table td {
+    padding: 0.3rem 0.5rem;
+  }
+  .tool-disclaimer {
+    padding: 0.5rem 1rem;
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 30rem) {
+  .output-card {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
+  }
+  .output-item .output-value {
+    font-size: 1.2rem;
+  }
+  .chart-tab-btn {
+    font-size: 0.7rem;
+    padding: 0.3rem 0.5rem;
+  }
+
+  .input-row-single .input-group {
+    flex: 1 0 100%;
+  }
+
+  .history-table {
+    font-size: 0.65rem;
+    min-width: 24rem;
+  }
+  .history-table th,
+  .history-table td {
+    padding: 0.2rem 0.4rem;
+  }
+  .history-toolbar .btn {
+    font-size: 0.7rem;
+    padding: 0.2rem 0.5rem;
+  }
+  .history-modal-header h2 {
+    font-size: 1rem;
+  }
+  .inputs-area {
+    padding: 0.5rem 0.75rem;
+  }
+}
+/* ──────────────────────────────────────────────────────────────
+   DEBT SNOWBALL — Debt List
+   ────────────────────────────────────────────────────────────── */
+
+.debt-list-container {
+  margin: 0.75rem 0 1rem;
+}
+
+.debt-item {
+  background: var(--surface);
+  border: 0.0625rem solid var(--border-default);
+  border-radius: 0.25rem;
+  padding: 0.5rem 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.debt-item-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 0.75rem;
+  align-items: flex-end;
+}
+
+.debt-field {
+  flex: 1 0 0;
+  min-width: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.debt-field label {
+  font-size: 0.55rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+}
+
+.debt-field input {
+  width: 100%;
+  padding: 0.25rem 0.4rem;
+  font-size: 0.85rem;
+  font-family: var(--font-sans);
+  border: 0.0625rem solid var(--border-default);
+  border-radius: 0.25rem;
+  background: var(--paper);
+  color: var(--text-primary);
+  outline: none;
+  transition: border-color 0.15s;
+  box-sizing: border-box;
+}
+
+.debt-field input:focus {
+  border-color: var(--accent);
+}
+
+.btn-debt-remove {
+  background: none;
+  border: 0.0625rem solid var(--loss);
+  border-radius: 0.25rem;
+  color: var(--loss);
+  padding: 0.25rem 0.5rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+  align-self: center;
+  flex-shrink: 0;
+}
+
+.btn-debt-remove:hover {
+  background: var(--loss);
+  color: var(--paper);
+}
+
+.btn-add-debt {
+  padding: 0.4rem 1rem;
+  font-size: 0.85rem;
+  font-family: var(--font-sans);
+  border: 0.0625rem dashed var(--accent);
+  border-radius: 0.25rem;
+  background: transparent;
+  color: var(--accent);
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+.btn-add-debt:hover {
+  background: var(--accent);
+  color: var(--paper);
+}
+
+@media (max-width: 48rem) {
+  .debt-item-row {
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+  .debt-field {
+    min-width: 100%;
+  }
+  .btn-debt-remove {
+    align-self: flex-end;
+  }
+}

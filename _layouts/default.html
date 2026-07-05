@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+
+  <body>
+    <div class="wrapper">
+      {% include header.html %}
+
+      <!-- ============================================ -->
+      <!-- BREADCRUMB                                   -->
+      <!-- ============================================ -->
+
+      <nav class="breadcrumb" aria-label="breadcrumb">
+        {% if page.is_homepage %}
+          {% comment %} Homepage: no breadcrumb at all {% endcomment %}
+
+        {% elsif page.is_catpage %}
+          {% comment %} Category landing page: Home / Category {% endcomment %}
+          <a href="/">Home</a><span class="current">/</span>
+          <span class="current" aria-current="page">{{ page.title }}</span>
+
+        {% else %}
+          {% assign current_tool = site.data.tools | where: "url", page.url | first %}
+
+          {% if current_tool %}
+            {% comment %} Tool page found in tools.yml: Home / Category / Title {% endcomment %}
+            {% assign cat = site.data.categories[current_tool.category] %}
+
+            <a href="/">Home</a><span class="current">/</span>
+            {% if cat %}
+              <a href="{{ cat.parent_url }}">{{ cat.parent }}</a><span class="current">/</span>
+            {% endif %}
+            <span class="current" aria-current="page">{{ current_tool.title }}</span>
+
+          {% else %}
+            {% comment %} Regular page not in tools.yml: Home / Page Title {% endcomment %}
+            <a href="/">Home</a><span class="current">/</span>
+            <span class="current" aria-current="page">{{ page.title }}</span>
+          {% endif %}
+
+        {% endif %}
+      </nav>
+
+      <!-- ============================================ -->
+      <!-- MAIN CONTENT — HOMEPAGE VS TOOL PAGES        -->
+      <!-- ============================================ -->
+
+      {% if page.is_homepage %}
+
+        <main id="content" role="main">
+          {{ content }}
+        </main>
+
+      {% else %}
+
+        <div class="tool-grid">
+
+          <!-- Main Column (80%) -->
+          <div class="tool-main">
+            <main id="content" role="main">
+              {{ content }}
+            </main>
+          </div>
+
+          <!-- Sidebar (20%) -->
+          <div class="tool-sidebar">
+
+            <div class="sidebar-ad">
+              <!-- Ad space reserved -->
+            </div>
+
+            {% if page.type == "blog" %}
+
+              <div class="sidebar-card">
+                <h4>📚 Learn More</h4>
+                {% assign related_items = site.data.tools | where: "category", page.category | where: "type", "blog" %}
+                {% assign count = 0 %}
+                {% for item in related_items %}
+                  {% if item.url != page.url and count < 10 %}
+                    <a href="{{ item.url }}">{{ item.title }}</a>
+                    {% assign count = count | plus: 1 %}
+                  {% endif %}
+                {% endfor %}
+              </div>
+
+            {% else %}
+
+              <div class="sidebar-card">
+                <h4>🔗 Most Popular Tools</h4>
+                {% assign related_items = site.data.tools | where: "category", page.category %}
+                {% assign count = 0 %}
+                {% for item in related_items %}
+                  {% if item.url != page.url and item.type != "blog" and count < 10 %}
+                    <a href="{{ item.url }}">{{ item.title }}</a>
+                    {% assign count = count | plus: 1 %}
+                  {% endif %}
+                {% endfor %}
+              </div>
+
+            {% endif %}
+
+          </div>
+        </div>
+
+      {% endif %}
+
+      <!-- ============================================ -->
+      <!-- YMYL DISCLAIMER                              -->
+      <!-- ============================================ -->
+
+      {% if page.category %}
+        {% assign tool_label = page.short_name | default: page.title %}
+        <div class="content-block">
+          <p>
+            ⚠️ {{ tool_label }} results are for illustrative and educational purposes only and do not constitute financial or investment advice. Actual returns/rates depend on market conditions and are not guaranteed. Please consult a registered financial advisor before making investment decisions.
+          </p>
+          <p>Last updated: June - 30 - 2026</p>
+        </div>
+      {% endif %}
+
+      <!-- ============================================ -->
+      <!-- FOOTER                                       -->
+      <!-- ============================================ -->
+
+      {% include footer.html %}
+    </div>
+
+    <!-- ============================================ -->
+    <!-- MOBILE DRAWER + ACCORDION                    -->
+    <!-- Currency picker population/sync/persistence is owned by  -->
+    <!-- initCurrencyPickers() in data.js, not here — keeps one   -->
+    <!-- source of truth instead of two scripts doing the same job. -->
+    <!-- ============================================ -->
+
+    <script>
+      (function() {
+        const hamburger = document.getElementById('hamburger');
+        const drawer = document.getElementById('mobileDrawer');
+        const overlay = document.getElementById('overlay');
+
+        function closeDrawer() {
+          hamburger.classList.remove('active');
+          hamburger.setAttribute('aria-expanded', 'false');
+          drawer.classList.remove('active');
+          drawer.setAttribute('aria-hidden', 'true');
+          drawer.setAttribute('inert', '');
+          overlay.classList.remove('active');
+          document.body.style.overflow = '';
+        }
+
+        function openDrawer() {
+          hamburger.classList.add('active');
+          hamburger.setAttribute('aria-expanded', 'true');
+          drawer.classList.add('active');
+          drawer.setAttribute('aria-hidden', 'false');
+          drawer.removeAttribute('inert');
+          overlay.classList.add('active');
+          document.body.style.overflow = 'hidden';
+        }
+
+        // Ensure drawer starts closed
+        closeDrawer();
+
+        hamburger.addEventListener('click', function(e) {
+          e.stopPropagation();
+          if (drawer.classList.contains('active')) {
+            closeDrawer();
+          } else {
+            openDrawer();
+          }
+        });
+
+        overlay.addEventListener('click', closeDrawer);
+
+        document.addEventListener('keydown', function(e) {
+          if (e.key === 'Escape' && drawer.classList.contains('active')) {
+            closeDrawer();
+            hamburger.focus();
+          }
+        });
+
+        // Mobile accordion triggers
+        document.querySelectorAll('.mobile-accordion-trigger').forEach(function(btn) {
+          btn.addEventListener('click', function() {
+            var parent = this.closest('.mobile-accordion');
+            var sub = parent.querySelector('.mobile-sub-nav');
+            var isOpen = parent.classList.toggle('is-open');
+            this.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+            sub.style.maxHeight = isOpen ? sub.scrollHeight + 'px' : '0';
+          });
+        });
+      })();
+    </script>
+
+  </body>
+</html>
