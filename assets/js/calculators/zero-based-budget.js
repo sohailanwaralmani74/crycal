@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Zero-Based Budget Calculator
+   Wanjaaro — Zero-Based Budget Calculator
    Tool ID: zero-based-budget
 ═══════════════════════════════════════════════════════════ */
 

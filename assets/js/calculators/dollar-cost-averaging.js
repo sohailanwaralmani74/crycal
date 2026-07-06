@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Dollar Cost Averaging Calculator
+   Wanjaaro — Dollar Cost Averaging Calculator
    Tool ID: dollar-cost-averaging
 ═══════════════════════════════════════════════════════════ */
 

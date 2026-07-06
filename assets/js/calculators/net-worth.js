@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Net Worth Calculator
+   Wanjaaro — Net Worth Calculator
    Tool ID: net-worth
 ═══════════════════════════════════════════════════════════ */
 

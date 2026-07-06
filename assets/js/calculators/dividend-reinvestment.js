@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Dividend Reinvestment Calculator
+   Wanjaaro — Dividend Reinvestment Calculator
    Tool ID: dividend-reinvestment
 ═══════════════════════════════════════════════════════════ */
 

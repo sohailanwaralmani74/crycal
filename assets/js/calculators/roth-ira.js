@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Roth IRA Calculator
+   Wanjaaro — Roth IRA Calculator
    Tool ID: roth-ira
 ═══════════════════════════════════════════════════════════ */
 

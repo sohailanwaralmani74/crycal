@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Mortgage Payoff Calculator
+   Wanjaaro — Mortgage Payoff Calculator
    Tool ID: mortgage-payoff
 ═══════════════════════════════════════════════════════════ */
 

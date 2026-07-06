@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Debt Avalanche Calculator
+   Wanjaaro — Debt Avalanche Calculator
    Tool ID: debt-avalanche
    Sorts by highest interest rate first
 ═══════════════════════════════════════════════════════════ */

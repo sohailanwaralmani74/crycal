@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Crypto Position Size Calculator
+   Wanjaaro — Crypto Position Size Calculator
    Tool ID: crypto-position-size
    Supports: Linear (USDT-margined) & Inverse (Coin-margined)
 ═══════════════════════════════════════════════════════════ */

@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Mortgage Calculator
+   Wanjaaro — Mortgage Calculator
    Tool ID: mortgage
 ═══════════════════════════════════════════════════════════ */
 

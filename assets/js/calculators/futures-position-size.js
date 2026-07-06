@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Futures Position Size Calculator
+   Wanjaaro — Futures Position Size Calculator
    Tool ID: futures-position-size
    Supports: ES, NQ, CL, GC, and all futures contracts
 ═══════════════════════════════════════════════════════════ */

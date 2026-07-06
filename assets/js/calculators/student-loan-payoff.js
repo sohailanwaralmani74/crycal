@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Student Loan Payoff Calculator
+   Wanjaaro — Student Loan Payoff Calculator
    Tool ID: student-loan-payoff
    Reuses amortization logic
 ═══════════════════════════════════════════════════════════ */

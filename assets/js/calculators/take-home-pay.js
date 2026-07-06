@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Take-Home Pay Calculator
+   Wanjaaro — Take-Home Pay Calculator
    Tool ID: take-home-pay
 ═══════════════════════════════════════════════════════════ */
 

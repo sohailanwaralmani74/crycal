@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Retirement Calculator
+   Wanjaaro — Retirement Calculator
    Tool ID: retirement
 ═══════════════════════════════════════════════════════════ */
 

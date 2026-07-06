@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Down Payment Calculator
+   Wanjaaro — Down Payment Calculator
    Tool ID: down-payment
 ═══════════════════════════════════════════════════════════ */
 

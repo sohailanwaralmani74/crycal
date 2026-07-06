@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Tax Bracket Calculator
+   Wanjaaro — Tax Bracket Calculator
    Tool ID: tax-bracket-calculator
    Three default brackets loaded on page load
 ═══════════════════════════════════════════════════════════ */

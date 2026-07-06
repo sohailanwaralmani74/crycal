@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Loan Payoff Calculator
+   Wanjaaro — Loan Payoff Calculator
    Tool ID: loan-payoff
 ═══════════════════════════════════════════════════════════ */
 

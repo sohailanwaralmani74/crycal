@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Stock Position Size Calculator
+   Wanjaaro — Stock Position Size Calculator
    Tool ID: stock-position-size
 ═══════════════════════════════════════════════════════════ */
 

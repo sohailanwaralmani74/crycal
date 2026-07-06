@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Simple Interest Calculator
+   Wanjaaro — Simple Interest Calculator
    Tool ID: simple-interest
 ═══════════════════════════════════════════════════════════ */
 

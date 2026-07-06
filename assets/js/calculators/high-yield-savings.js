@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — High Yield Savings Calculator
+   Wanjaaro — High Yield Savings Calculator
    Tool ID: high-yield-savings
 ═══════════════════════════════════════════════════════════ */
 

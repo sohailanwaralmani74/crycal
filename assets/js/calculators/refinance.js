@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Refinance Calculator
+   Wanjaaro — Refinance Calculator
    Tool ID: refinance
 ═══════════════════════════════════════════════════════════ */
 

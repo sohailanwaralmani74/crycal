@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Debt-to-Income Calculator
+   Wanjaaro — Debt-to-Income Calculator
    Tool ID: debt-to-income
 ═══════════════════════════════════════════════════════════ */
 

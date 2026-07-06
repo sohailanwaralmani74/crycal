@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Term vs Whole Life Calculator
+   Wanjaaro — Term vs Whole Life Calculator
    Tool ID: term-vs-whole-life
 ═══════════════════════════════════════════════════════════ */
 

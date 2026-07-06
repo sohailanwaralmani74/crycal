@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — FIRE Calculator
+   Wanjaaro — FIRE Calculator
    - Closed-form annuity math (smooth, continuous in t) instead of
      a month-by-month loop, so Newton-Raphson's derivative is
      accurate and the solver converges reliably.

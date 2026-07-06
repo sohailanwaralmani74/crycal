@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Lot Size Calculator
+   Wanjaaro — Lot Size Calculator
    Tool ID: lot-size
 ═══════════════════════════════════════════════════════════ */
 

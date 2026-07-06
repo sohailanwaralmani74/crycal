@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Credit Card Payoff Calculator
+   Wanjaaro — Credit Card Payoff Calculator
    Tool ID: credit-card-payoff
 ═══════════════════════════════════════════════════════════ */
 

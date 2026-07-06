@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Salary Calculator
+   Wanjaaro — Salary Calculator
    Tool ID: salary
    Pure pay-period conversion math — no tax brackets, no region
    assumptions. Works with any currency and any work schedule.

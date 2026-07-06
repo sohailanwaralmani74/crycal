@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Capital Gains Calculator
+   Wanjaaro — Capital Gains Calculator
    Tool ID: capital-gains
 ═══════════════════════════════════════════════════════════ */
 

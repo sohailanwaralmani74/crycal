@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Self-Employment Tax Calculator
+   Wanjaaro — Self-Employment Tax Calculator
    Tool ID: self-employment-tax
 ═══════════════════════════════════════════════════════════ */
 

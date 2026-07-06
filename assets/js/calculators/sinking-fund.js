@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Sinking Fund Calculator
+   Wanjaaro — Sinking Fund Calculator
    Tool ID: sinking-fund
 ═══════════════════════════════════════════════════════════ */
 

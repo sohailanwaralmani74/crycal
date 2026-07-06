@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Life Insurance Calculator
+   Wanjaaro — Life Insurance Calculator
    Tool ID: life-insurance
 ═══════════════════════════════════════════════════════════ */
 

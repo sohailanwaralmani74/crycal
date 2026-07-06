@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Subscription Tracker Calculator
+   Wanjaaro — Subscription Tracker Calculator
    Tool ID: subscription-tracker
 ═══════════════════════════════════════════════════════════ */
 

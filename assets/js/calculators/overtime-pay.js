@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Overtime Pay Calculator
+   Wanjaaro — Overtime Pay Calculator
    Tool ID: overtime-pay
    Tiered pay: regular hours -> overtime hours -> double-time hours,
    all thresholds/multipliers user-editable (no hardcoded country rule).

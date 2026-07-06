@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Closing Costs Calculator
+   Wanjaaro — Closing Costs Calculator
    Tool ID: closing-costs
 ═══════════════════════════════════════════════════════════ */
 

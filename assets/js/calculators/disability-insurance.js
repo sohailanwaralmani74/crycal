@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Disability Insurance Calculator
+   Wanjaaro — Disability Insurance Calculator
    Tool ID: disability-insurance
 ═══════════════════════════════════════════════════════════ */
 

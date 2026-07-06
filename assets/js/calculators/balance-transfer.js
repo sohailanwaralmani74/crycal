@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Balance Transfer Calculator
+   Wanjaaro — Balance Transfer Calculator
    Tool ID: balance-transfer
 ═══════════════════════════════════════════════════════════ */
 

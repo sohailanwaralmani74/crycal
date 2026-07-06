@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Mortgage Points Calculator
+   Wanjaaro — Mortgage Points Calculator
    Tool ID: mortgage-points
 ═══════════════════════════════════════════════════════════ */
 

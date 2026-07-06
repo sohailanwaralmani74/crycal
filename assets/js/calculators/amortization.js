@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Amortization Calculator
+   Wanjaaro — Amortization Calculator
    Tool ID: amortization
 ═══════════════════════════════════════════════════════════ */
 

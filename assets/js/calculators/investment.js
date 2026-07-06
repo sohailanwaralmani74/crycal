@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Investment Calculator
+   Wanjaaro — Investment Calculator
    Tool ID: investment
 ═══════════════════════════════════════════════════════════ */
 

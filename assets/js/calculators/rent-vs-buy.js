@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Rent vs Buy Calculator
+   Wanjaaro — Rent vs Buy Calculator
    Tool ID: rent-vs-buy
 ═══════════════════════════════════════════════════════════ */
 

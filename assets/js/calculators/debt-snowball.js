@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Debt Snowball Calculator
+   Wanjaaro — Debt Snowball Calculator
    Tool ID: debt-snowball
 ═══════════════════════════════════════════════════════════ */
 

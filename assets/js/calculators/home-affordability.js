@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Home Affordability Calculator
+   Wanjaaro — Home Affordability Calculator
    Tool ID: home-affordability
    FIX: Compounding frequency now correctly impacts calculations
 ═══════════════════════════════════════════════════════════ */

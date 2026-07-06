@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Savings Goal Calculator
+   Wanjaaro — Savings Goal Calculator
    Tool ID: savings-goal
 ═══════════════════════════════════════════════════════════ */
 

@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Options Position Size Calculator
+   Wanjaaro — Options Position Size Calculator
    Tool ID: options-position-size
 ═══════════════════════════════════════════════════════════ */
 

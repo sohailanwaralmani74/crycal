@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Insurance Deductible Break-Even Calculator
+   Wanjaaro — Insurance Deductible Break-Even Calculator
    Tool ID: insurance-deductible-breakeven
 ═══════════════════════════════════════════════════════════ */
 

@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Home / Renters Insurance Calculator
+   Wanjaaro — Home / Renters Insurance Calculator
    Tool ID: home-renters-insurance
 ═══════════════════════════════════════════════════════════ */
 

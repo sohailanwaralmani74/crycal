@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Debt Consolidation Calculator
+   Wanjaaro — Debt Consolidation Calculator
    Tool ID: debt-consolidation
 ═══════════════════════════════════════════════════════════ */
 

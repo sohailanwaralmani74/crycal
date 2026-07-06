@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Umbrella Insurance Calculator
+   Wanjaaro — Umbrella Insurance Calculator
    Tool ID: umbrella-insurance
 ═══════════════════════════════════════════════════════════ */
 

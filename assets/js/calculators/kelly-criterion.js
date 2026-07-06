@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Kelly Criterion Calculator
+   Wanjaaro — Kelly Criterion Calculator
    Tool ID: kelly-criterion
 ═══════════════════════════════════════════════════════════ */
 

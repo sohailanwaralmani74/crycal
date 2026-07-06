@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Compound Interest Calculator
+   Wanjaaro — Compound Interest Calculator
    Tool ID: compound-interest
 ═══════════════════════════════════════════════════════════ */
 

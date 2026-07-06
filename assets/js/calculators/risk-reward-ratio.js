@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Risk Reward Ratio Calculator
+   Wanjaaro — Risk Reward Ratio Calculator
    Tool ID: risk-reward-ratio
 ═══════════════════════════════════════════════════════════ */
 

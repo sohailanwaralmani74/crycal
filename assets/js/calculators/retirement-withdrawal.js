@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Retirement Withdrawal Calculator
+   Wanjaaro — Retirement Withdrawal Calculator
    Tool ID: retirement-withdrawal
 ═══════════════════════════════════════════════════════════ */
 

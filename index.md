@@ -88,7 +88,7 @@ keywords: compound interest calculator, retirement calculator, mortgage calculat
 </section>
 
 <!-- ============================================================ -->
-<!-- WHY CRYCAL – DESCRIBED IN PROSE                              -->
+<!-- WHY Wanjaaro – DESCRIBED IN PROSE                              -->
 <!-- ============================================================ -->
 
 <section class="content-section">

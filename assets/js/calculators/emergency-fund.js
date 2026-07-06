@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Emergency Fund Calculator
+   Wanjaaro — Emergency Fund Calculator
    Tool ID: emergency-fund
 ═══════════════════════════════════════════════════════════ */
 
