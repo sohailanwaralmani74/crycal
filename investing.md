@@ -4,7 +4,8 @@ title: Investing — Position Sizing & Risk Management Tools
 description: Calculate position sizes, lot sizes, risk/reward ratios, and optimal betting fractions for stocks, ETFs, crypto, options, and futures.
 is_catpage: true
 category: investing
-permalink: /investing/
+permalink: /investing
+shortName: Investing
 ---
 
 <section class="hero-section">

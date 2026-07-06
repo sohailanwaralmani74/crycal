@@ -5,6 +5,7 @@ description: Calculate compound interest, savings goals, dollar cost averaging, 
 is_catpage: true
 category: growth
 permalink: /growth
+shortName: Growth
 ---
 
 <section class="hero-section">

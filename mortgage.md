@@ -5,6 +5,7 @@ description: Calculate mortgage payments, rent vs buy comparisons, refinance sav
 is_catpage: true
 category: mortgage
 permalink: /mortgage
+shortName: Mortgage
 ---
 
 <section class="hero-section">

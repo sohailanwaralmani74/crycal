@@ -5,6 +5,7 @@ description: Calculate life insurance coverage needs, disability insurance incom
 is_catpage: true
 category: insurance
 permalink: /insurance
+shortName: Insurance
 ---
 
 <section class="hero-section">

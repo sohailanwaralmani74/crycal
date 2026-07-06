@@ -1,0 +1,37 @@
+# _data/categories.yml
+growth:
+  parent: Growth
+  parent_url: /growth
+
+retirement:
+  parent: Retirement
+  parent_url: /retirement
+
+mortgage:
+  parent: Mortgage
+  parent_url: /mortgage
+
+debt:
+  parent: Debt
+  parent_url: /debt
+  shortName: Debt
+
+insurance:
+  parent: Insurance
+  parent_url: /insurance
+
+tax:
+  parent: Tax
+  parent_url: /tax
+
+budgeting:
+  parent: Budgeting
+  parent_url: /budgeting
+
+trading:
+  parent: Trading
+  parent_url: /trading
+
+investing:
+  parent: Investing
+  parent_url: /investing

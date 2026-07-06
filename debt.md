@@ -5,6 +5,7 @@ description: Calculate loan payoff timelines, credit card payoff, debt snowball 
 is_catpage: true
 category: debt
 permalink: /debt
+shortName: Debt
 ---
 
 <section class="hero-section">

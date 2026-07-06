@@ -5,6 +5,7 @@ description: Calculate 401k growth, IRA and Roth IRA projections, retirement wit
 is_catpage: true
 category: retirement
 permalink: /retirement
+shortName: Retirement
 ---
 
 <section class="hero-section">

@@ -73,7 +73,16 @@ keywords: compound interest calculator, retirement calculator, mortgage calculat
     ratio, and emergency fund targets.
   </p>
   <p>
-    In total, that is <strong>35 unique calculators</strong> — all free, all private,
+  For active investors, the <a href="/investing"><strong>Investing</strong></a> 
+  category provides eight essential tools for position sizing and risk management. 
+  Whether you're trading stocks, ETFs, crypto, options, or futures, you'll find 
+  dedicated calculators for position size, lot size, and contract sizing. The 
+  <a href="/risk-reward-ratio-calculator">Risk/Reward Ratio</a> and 
+  <a href="/kelly-criterion-calculator">Kelly Criterion</a> calculators help you 
+  evaluate trade setups and optimise your long-term growth strategy.
+</p>
+  <p>
+    In total, that is <strong> unique calculators</strong> — all free, all private,
     all running entirely in your browser.
   </p>
 </section>

@@ -5,6 +5,7 @@ description: Calculate your 50/30/20 budget, net worth, debt-to-income ratio, an
 is_catpage: true
 category: budgeting
 permalink: /budgeting
+shortName: Budgeting
 ---
 
 <section class="hero-section">

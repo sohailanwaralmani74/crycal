@@ -17,7 +17,7 @@
         {% elsif page.is_catpage %}
           {% comment %} Category landing page: Home / Category {% endcomment %}
           <a href="/">Home</a><span class="current">/</span>
-          <span class="current" aria-current="page">{{ page.title }}</span>
+          <span class="current" aria-current="page">{{ page.shortName }}</span>
 
         {% else %}
           {% assign current_tool = site.data.tools | where: "url", page.url | first %}
@@ -47,11 +47,35 @@
 
       {% if page.is_homepage %}
 
-        <main id="content" role="main">
-          {{ content }}
-        </main>
+  <div class="tool-grid">
+    <!-- Main Column (80%) -->
+    <div class="tool-main">
+      <main id="content" role="main">
+        {{ content }}
+      </main>
+    </div>
 
-      {% else %}
+    <!-- Sidebar (20%) — Global Message + Ad -->
+    <div class="tool-sidebar">
+      <div class="sidebar-card">
+        <h4>📢 Welcome to CryCal</h4>
+        <p style="font-size: 0.9rem; color: var(--text-muted);">
+          Free, browser‑based calculators for investors, traders, and 
+          financial planners. All tools run locally — no signup, no data uploads.
+        </p>
+        <p style="font-size: 0.9rem; color: var(--text-muted);">
+          <a href="/sitemap" style="color: var(--accent);">Explore all tools →</a>
+        </p>
+      </div>
+
+      <div class="sidebar-ad">
+        <!-- Ad space reserved -->
+        <p >We welcome Your suggestion or point out any error</p>
+      </div>
+    </div>
+  </div>
+
+{% else %}
 
         <div class="tool-grid">
 
@@ -65,8 +89,10 @@
           <!-- Sidebar (20%) -->
           <div class="tool-sidebar">
 
-            <div class="sidebar-ad">
+            <div class="sidebar-card">
               <!-- Ad space reserved -->
+                       <p>Suggest a feature or figure out the errors. Thanks</p>
+
             </div>
 
             {% if page.type == "blog" %}
@@ -86,7 +112,7 @@
             {% else %}
 
               <div class="sidebar-card">
-                <h4>🔗 Most Popular Tools</h4>
+                <h4>🔗 Related Tools</h4>
                 {% assign related_items = site.data.tools | where: "category", page.category %}
                 {% assign count = 0 %}
                 {% for item in related_items %}

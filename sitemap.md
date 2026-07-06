@@ -92,6 +92,18 @@ This page lists every public page on CryCal. Use these links to navigate the ful
 - <a href="/emergency-fund-calculator">Emergency Fund Calculator</a> — Estimates the savings needed to cover 3–6 months of essential expenses.
 
 ---
+### Investing (8 tools)
+
+- <a href="/position-size-calculator">Position Size Calculator</a> — Generic position sizing for any asset.
+- <a href="/lot-size-calculator">Lot Size Calculator</a> — Forex and CFD lot sizing (standard, mini, micro).
+- <a href="/stock-position-size-calculator">Stock / ETF Position Size Calculator</a> — Shares-based sizing with stop-loss.
+- <a href="/crypto-position-size-calculator">Crypto Position Size Calculator</a> — Linear and inverse futures sizing.
+- <a href="/options-position-size-calculator">Options Position Size Calculator</a> — Delta-adjusted contract sizing.
+- <a href="/futures-position-size-calculator">Futures Position Size Calculator</a> — Tick-based contract sizing.
+- <a href="/risk-reward-ratio-calculator">Risk/Reward Ratio Calculator</a> — Evaluate trade setups.
+- <a href="/kelly-criterion-calculator">Kelly Criterion Calculator</a> — Optimal position sizing for long-term growth.
+
+---
 
 ## Legal & Information
 

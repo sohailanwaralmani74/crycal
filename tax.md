@@ -5,6 +5,7 @@ description: Calculate your tax bracket, take-home pay, capital gains tax, and s
 is_catpage: true
 category: tax
 permalink: /tax
+shortName: Tax
 ---
 
 <section class="hero-section">
