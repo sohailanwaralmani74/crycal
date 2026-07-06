@@ -16,7 +16,7 @@
 
         {% elsif page.is_catpage %}
           {% comment %} Category landing page: Home / Category {% endcomment %}
-          <a href="">Home</a><span class="current">/</span>
+          <a href="./">Home</a><span class="current">/</span>
           <span class="current" aria-current="page">{{ page.shortName }}</span>
 
         {% else %}
@@ -26,7 +26,7 @@
             {% comment %} Tool page found in tools.yml: Home / Category / Title {% endcomment %}
             {% assign cat = site.data.categories[current_tool.category] %}
 
-            <a href="">Home</a><span class="current">/</span>
+            <a href="./">Home</a><span class="current">/</span>
             {% if cat %}
               <a href="{{ cat.parent_url }}">{{ cat.parent }}</a><span class="current">/</span>
             {% endif %}
@@ -34,7 +34,7 @@
 
           {% else %}
             {% comment %} Regular page not in tools.yml: Home / Page Title {% endcomment %}
-            <a href="">Home</a><span class="current">/</span>
+            <a href="./">Home</a><span class="current">/</span>
             <span class="current" aria-current="page">{{ page.title }}</span>
           {% endif %}
 
