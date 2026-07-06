@@ -55,4 +55,4 @@ You can also use the form below to send us a message directly. All messages are 
 
 ---
 
-**Privacy note:** We use Formspree to forward your message. Your data is not stored on our servers. For more details, see our <a href="/privacy-policy">Privacy Policy</a>.
+**Privacy note:** We use Formspree to forward your message. Your data is not stored on our servers. For more details, see our <a href="privacy-policy">Privacy Policy</a>.

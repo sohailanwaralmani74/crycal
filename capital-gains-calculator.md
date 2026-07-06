@@ -149,7 +149,7 @@ history_columns:
     label: Net Proceeds
     source: output
 
-js_file: /assets/js/calculators/capital-gains.js
+js_file: assets/js/calculators/capital-gains.js
 
 structured_data:
   "@context": "https://schema.org"

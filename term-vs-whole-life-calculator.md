@@ -113,7 +113,7 @@ history_columns:
     label: Recommendation
     source: output
 
-js_file: /assets/js/calculators/term-vs-whole-life.js
+js_file: assets/js/calculators/term-vs-whole-life.js
 
 structured_data:
   "@context": "https://schema.org"

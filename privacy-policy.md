@@ -25,7 +25,7 @@ If you contact us via the contact form, your message is forwarded through Formsp
 
 ## Your Rights
 
-Because we collect no personal data, there is nothing to access, correct, or delete. If you have questions about our privacy practices, you can <a href="/contact-us">contact us</a>.
+Because we collect no personal data, there is nothing to access, correct, or delete. If you have questions about our privacy practices, you can <a href="contact-us">contact us</a>.
 
 ## Changes to This Policy
 

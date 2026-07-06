@@ -128,7 +128,7 @@ history_columns:
     label: Total Interest
     source: output
 
-js_file: /assets/js/calculators/mortgage.js
+js_file: assets/js/calculators/mortgage.js
 
 structured_data:
   "@context": "https://schema.org"

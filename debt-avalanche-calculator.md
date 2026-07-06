@@ -70,7 +70,7 @@ history_columns:
     label: Debt-Free Date
     source: output
 
-js_file: /assets/js/calculators/debt-avalanche.js
+js_file: assets/js/calculators/debt-avalanche.js
 
 structured_data:
   "@context": "https://schema.org"

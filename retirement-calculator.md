@@ -123,7 +123,7 @@ history_columns:
     label: Annual Income
     source: output
 
-js_file: /assets/js/calculators/retirement.js
+js_file: assets/js/calculators/retirement.js
 
 structured_data:
   "@context": "https://schema.org"

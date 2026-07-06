@@ -119,7 +119,7 @@ history_columns:
     label: Savings
     source: output
 
-js_file: /assets/js/calculators/50-30-20-budget.js
+js_file: assets/js/calculators/50-30-20-budget.js
 
 structured_data:
   "@context": "https://schema.org"

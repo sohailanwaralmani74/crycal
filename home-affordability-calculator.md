@@ -152,7 +152,7 @@ history_columns:
     label: Monthly Payment
     source: output
 
-js_file: /assets/js/calculators/home-affordability.js
+js_file: assets/js/calculators/home-affordability.js
 
 structured_data:
   "@context": "https://schema.org"

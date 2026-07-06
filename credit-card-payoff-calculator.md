@@ -92,7 +92,7 @@ history_columns:
     label: Interest Saved
     source: output
 
-js_file: /assets/js/calculators/credit-card-payoff.js
+js_file: assets/js/calculators/credit-card-payoff.js
 
 structured_data:
   "@context": "https://schema.org"

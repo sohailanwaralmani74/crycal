@@ -23,7 +23,7 @@ keywords: compound interest calculator, retirement calculator, mortgage calculat
     and absolutely no cost. Just accurate, instant results.
   </p>
   <p class="hero-cta">
-    <a href="/compound-interest-calculator" class="btn-primary">Start with the Compound Interest Calculator</a>
+    <a href="compound-interest-calculator" class="btn-primary">Start with the Compound Interest Calculator</a>
   </p>
 </section>
 
@@ -35,50 +35,50 @@ keywords: compound interest calculator, retirement calculator, mortgage calculat
   <h2>Financial Calculators for Every Stage</h2>
   <p>
     CryCal is organised into seven clear areas, each addressing a specific financial
-    need. The <a href="/growth"><strong>Growth</strong></a> section covers eight
+    need. The <a href="growth"><strong>Growth</strong></a> section covers eight
     savings and investment calculators — Compound Interest, Rule of 72, Dollar Cost
     Averaging, Dividend Reinvestment, and more — each built around how money
     actually accumulates over time.
   </p>
   <p>
-    The <a href="/retirement"><strong>Retirement</strong></a> category brings
+    The <a href="retirement"><strong>Retirement</strong></a> category brings
     together six long-horizon tools, including 401k, IRA, Roth IRA, retirement
     withdrawal, and FIRE calculators. These help you plan for — and eventually
     draw down — a retirement account with confidence.
   </p>
   <p>
-    For homeownership, the <a href="/mortgage"><strong>Mortgage</strong></a> group
+    For homeownership, the <a href="mortgage"><strong>Mortgage</strong></a> group
     offers five calculators covering monthly payments, rent vs buy comparisons,
     refinancing, affordability, and early payoff strategy.
   </p>
   <p>
     Anyone working through debt will find five tools under
-    <a href="/debt"><strong>Debt</strong></a> — loan payoff, credit card payoff,
+    <a href="debt"><strong>Debt</strong></a> — loan payoff, credit card payoff,
     debt snowball, debt avalanche, and a full amortization breakdown.
   </p>
   <p>
-    The <a href="/insurance"><strong>Insurance</strong></a> section hosts three
+    The <a href="insurance"><strong>Insurance</strong></a> section hosts three
     calculators for life insurance, disability insurance, and comparing term versus
     whole life coverage — turning "I should probably get insurance" into an actual
     number.
   </p>
   <p>
-    <a href="/tax"><strong>Tax</strong></a> covers four calculators for tax
+    <a href="tax"><strong>Tax</strong></a> covers four calculators for tax
     brackets, take-home pay, capital gains, and self-employment tax — useful for
     employees, investors, and freelancers alike.
   </p>
   <p>
-    Finally, <a href="/budgeting"><strong>Budgeting</strong></a> rounds out the
+    Finally, <a href="budgeting"><strong>Budgeting</strong></a> rounds out the
     site with four everyday tools: the 50/30/20 budget rule, net worth, debt-to-income
     ratio, and emergency fund targets.
   </p>
   <p>
-  For active investors, the <a href="/investing"><strong>Investing</strong></a> 
+  For active investors, the <a href="investing"><strong>Investing</strong></a> 
   category provides eight essential tools for position sizing and risk management. 
   Whether you're trading stocks, ETFs, crypto, options, or futures, you'll find 
   dedicated calculators for position size, lot size, and contract sizing. The 
-  <a href="/risk-reward-ratio-calculator">Risk/Reward Ratio</a> and 
-  <a href="/kelly-criterion-calculator">Kelly Criterion</a> calculators help you 
+  <a href="risk-reward-ratio-calculator">Risk/Reward Ratio</a> and 
+  <a href="kelly-criterion-calculator">Kelly Criterion</a> calculators help you 
   evaluate trade setups and optimise your long-term growth strategy.
 </p>
   <p>
@@ -183,7 +183,7 @@ keywords: compound interest calculator, retirement calculator, mortgage calculat
     all available right now.
   </p>
   <p class="cta-buttons">
-    <a href="/compound-interest-calculator" class="btn-primary">Compound Interest Calculator</a>
-    <a href="/growth" class="btn-secondary">View All Growth Tools</a>
+    <a href="compound-interest-calculator" class="btn-primary">Compound Interest Calculator</a>
+    <a href="growth" class="btn-secondary">View All Growth Tools</a>
   </p>
 </section>

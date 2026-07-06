@@ -56,7 +56,7 @@ history_columns:
     label: Total Subscriptions
     source: output
 
-js_file: /assets/js/calculators/subscription-tracker.js
+js_file: assets/js/calculators/subscription-tracker.js
 
 structured_data:
   "@context": "https://schema.org"

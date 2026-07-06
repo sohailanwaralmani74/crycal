@@ -93,7 +93,7 @@ history_columns:
     label: Break-Even (months)
     source: output
 
-js_file: /assets/js/calculators/insurance-deductible-breakeven.js
+js_file: assets/js/calculators/insurance-deductible-breakeven.js
 
 structured_data:
   "@context": "https://schema.org"

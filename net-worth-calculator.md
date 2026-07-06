@@ -148,7 +148,7 @@ history_columns:
     label: Net Worth
     source: output
 
-js_file: /assets/js/calculators/net-worth.js
+js_file: assets/js/calculators/net-worth.js
 
 structured_data:
   "@context": "https://schema.org"

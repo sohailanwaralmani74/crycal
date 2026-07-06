@@ -108,7 +108,7 @@ history_columns:
     label: Risk Amount
     source: output
 
-js_file: /assets/js/calculators/lot-size.js
+js_file: assets/js/calculators/lot-size.js
 
 structured_data:
   "@context": "https://schema.org"

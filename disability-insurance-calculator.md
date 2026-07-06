@@ -130,7 +130,7 @@ history_columns:
     label: Recommended Monthly Benefit
     source: output
 
-js_file: /assets/js/calculators/disability-insurance.js
+js_file: assets/js/calculators/disability-insurance.js
 
 structured_data:
   "@context": "https://schema.org"

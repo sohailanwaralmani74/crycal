@@ -109,7 +109,7 @@ history_columns:
     label: Monthly Payment
     source: output
 
-js_file: /assets/js/calculators/down-payment.js
+js_file: assets/js/calculators/down-payment.js
 
 structured_data:
   "@context": "https://schema.org"

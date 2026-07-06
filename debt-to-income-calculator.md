@@ -128,7 +128,7 @@ history_columns:
     label: Category
     source: output
 
-js_file: /assets/js/calculators/debt-to-income.js
+js_file: assets/js/calculators/debt-to-income.js
 
 structured_data:
   "@context": "https://schema.org"

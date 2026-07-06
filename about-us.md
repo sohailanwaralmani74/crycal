@@ -40,7 +40,7 @@ Every tool is free to use, requires no registration, and works on any modern bro
 
 CryCal was built by a team of developers who believe that the right financial tools should be available to everyone — not locked behind expensive subscriptions, paywalled apps, or complex software.
 
-If you have questions, feedback, or suggestions, please <a href="/contact-us">get in touch</a>. We're always looking to improve.
+If you have questions, feedback, or suggestions, please <a href="contact-us">get in touch</a>. We're always looking to improve.
 
 ---
 

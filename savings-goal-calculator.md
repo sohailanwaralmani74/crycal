@@ -105,7 +105,7 @@ history_columns:
     label: Time to Goal
     source: output
 
-js_file: /assets/js/calculators/savings-goal.js
+js_file: assets/js/calculators/savings-goal.js
 
 structured_data:
   "@context": "https://schema.org"

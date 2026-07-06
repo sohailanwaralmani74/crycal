@@ -61,7 +61,7 @@ history_columns:
     label: Final Amount
     source: output
 
-js_file: /assets/js/calculators/simple-interest.js
+js_file: assets/js/calculators/simple-interest.js
 
 structured_data:
   "@context": "https://schema.org"

@@ -118,7 +118,7 @@ history_columns:
     label: Total Deductions
     source: output
 
-js_file: /assets/js/calculators/take-home-pay.js
+js_file: assets/js/calculators/take-home-pay.js
 
 structured_data:
   "@context": "https://schema.org"

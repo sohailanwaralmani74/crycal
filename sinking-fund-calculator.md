@@ -98,7 +98,7 @@ history_columns:
     label: Total Interest
     source: output
 
-js_file: /assets/js/calculators/sinking-fund.js
+js_file: assets/js/calculators/sinking-fund.js
 
 structured_data:
   "@context": "https://schema.org"

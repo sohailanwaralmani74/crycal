@@ -103,7 +103,7 @@ history_columns:
     label: Total Dividends
     source: output
 
-js_file: /assets/js/calculators/dividend-reinvestment.js
+js_file: assets/js/calculators/dividend-reinvestment.js
 
 structured_data:
   "@context": "https://schema.org"

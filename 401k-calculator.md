@@ -141,7 +141,7 @@ history_columns:
     label: Final Balance
     source: output
 
-js_file: /assets/js/calculators/401k.js
+js_file: assets/js/calculators/401k.js
 
 structured_data:
   "@context": "https://schema.org"

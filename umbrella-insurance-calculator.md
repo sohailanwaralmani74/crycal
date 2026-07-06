@@ -107,7 +107,7 @@ history_columns:
     label: Est. Premium
     source: output
 
-js_file: /assets/js/calculators/umbrella-insurance.js
+js_file: assets/js/calculators/umbrella-insurance.js
 
 structured_data:
   "@context": "https://schema.org"

@@ -133,7 +133,7 @@ history_columns:
     label: Progress (%)
     source: output
 
-js_file: /assets/js/calculators/emergency-fund.js
+js_file: assets/js/calculators/emergency-fund.js
 
 structured_data:
   "@context": "https://schema.org"

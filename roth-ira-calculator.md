@@ -131,7 +131,7 @@ history_columns:
     label: Returns
     source: output
 
-js_file: /assets/js/calculators/roth-ira.js
+js_file: assets/js/calculators/roth-ira.js
 
 structured_data:
   "@context": "https://schema.org"

@@ -120,7 +120,7 @@ history_columns:
     label: Reward Amount
     source: output
 
-js_file: /assets/js/calculators/risk-reward-ratio.js
+js_file: assets/js/calculators/risk-reward-ratio.js
 
 structured_data:
   "@context": "https://schema.org"

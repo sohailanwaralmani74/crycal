@@ -68,7 +68,7 @@ history_columns:
     label: Final Balance
     source: output
 
-js_file: /assets/js/calculators/rule-of-72.js
+js_file: assets/js/calculators/rule-of-72.js
 
 structured_data:
   "@context": "https://schema.org"

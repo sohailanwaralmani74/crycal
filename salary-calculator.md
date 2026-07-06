@@ -126,7 +126,7 @@ history_columns:
     label: Take-Home
     source: output
 
-js_file: /assets/js/calculators/salary-calculator.js
+js_file: assets/js/calculators/salary-calculator.js
 
 structured_data:
   "@context": "https://schema.org"

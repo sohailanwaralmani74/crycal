@@ -199,7 +199,7 @@ history_columns:
     label: Break-Even (months)
     source: output
 
-js_file: /assets/js/calculators/rent-vs-buy.js
+js_file: assets/js/calculators/rent-vs-buy.js
 
 structured_data:
   "@context": "https://schema.org"

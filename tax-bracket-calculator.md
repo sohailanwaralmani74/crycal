@@ -51,7 +51,7 @@ history_columns:
     label: Total Tax
     source: output
 
-js_file: /assets/js/calculators/tax-bracket.js
+js_file: assets/js/calculators/tax-bracket.js
 
 structured_data:
   "@context": "https://schema.org"

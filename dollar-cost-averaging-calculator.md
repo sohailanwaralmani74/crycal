@@ -101,7 +101,7 @@ history_columns:
     label: Lump Sum Value
     source: output
 
-js_file: /assets/js/calculators/dollar-cost-averaging.js
+js_file: assets/js/calculators/dollar-cost-averaging.js
 
 structured_data:
   "@context": "https://schema.org"

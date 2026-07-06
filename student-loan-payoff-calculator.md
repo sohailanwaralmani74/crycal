@@ -94,7 +94,7 @@ history_columns:
     label: Interest Saved
     source: output
 
-js_file: /assets/js/calculators/student-loan-payoff.js
+js_file: assets/js/calculators/student-loan-payoff.js
 
 structured_data:
   "@context": "https://schema.org"

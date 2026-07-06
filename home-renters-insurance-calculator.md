@@ -98,7 +98,7 @@ history_columns:
     label: Est. Monthly Premium
     source: output
 
-js_file: /assets/js/calculators/home-renters-insurance.js
+js_file: assets/js/calculators/home-renters-insurance.js
 
 structured_data:
   "@context": "https://schema.org"

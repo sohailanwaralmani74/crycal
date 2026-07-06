@@ -163,7 +163,7 @@ history_columns:
     label: Percent of Loan
     source: output
 
-js_file: /assets/js/calculators/closing-costs.js
+js_file: assets/js/calculators/closing-costs.js
 
 structured_data:
   "@context": "https://schema.org"

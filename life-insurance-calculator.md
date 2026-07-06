@@ -138,7 +138,7 @@ history_columns:
     label: Recommended Coverage
     source: output
 
-js_file: /assets/js/calculators/life-insurance.js
+js_file: assets/js/calculators/life-insurance.js
 
 structured_data:
   "@context": "https://schema.org"

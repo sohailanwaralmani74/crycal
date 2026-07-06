@@ -57,7 +57,7 @@ history_columns:
     label: Remaining
     source: output
 
-js_file: /assets/js/calculators/zero-based-budget.js
+js_file: assets/js/calculators/zero-based-budget.js
 
 structured_data:
   "@context": "https://schema.org"

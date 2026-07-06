@@ -70,7 +70,7 @@ history_columns:
     label: Debt-Free Date
     source: output
 
-js_file: /assets/js/calculators/debt-snowball.js
+js_file: assets/js/calculators/debt-snowball.js
 
 structured_data:
   "@context": "https://schema.org"

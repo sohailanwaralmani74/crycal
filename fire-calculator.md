@@ -143,7 +143,7 @@ history_columns:
     label: Age at FI
     source: output
 
-js_file: /assets/js/calculators/fire.js
+js_file: assets/js/calculators/fire.js
 
 structured_data:
   "@context": "https://schema.org"

@@ -101,7 +101,7 @@ history_columns:
     label: Interest
     source: output
 
-js_file: /assets/js/calculators/compound-interest.js
+js_file: assets/js/calculators/compound-interest.js
 
 structured_data:
   "@context": "https://schema.org"

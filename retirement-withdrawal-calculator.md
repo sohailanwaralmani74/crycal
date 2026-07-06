@@ -123,7 +123,7 @@ history_columns:
     label: Sustainable Withdrawal
     source: output
 
-js_file: /assets/js/calculators/retirement-withdrawal.js
+js_file: assets/js/calculators/retirement-withdrawal.js
 
 structured_data:
   "@context": "https://schema.org"

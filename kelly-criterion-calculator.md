@@ -91,7 +91,7 @@ history_columns:
     label: Optimal Amount
     source: output
 
-js_file: /assets/js/calculators/kelly-criterion.js
+js_file: assets/js/calculators/kelly-criterion.js
 
 structured_data:
   "@context": "https://schema.org"

@@ -94,7 +94,7 @@ history_columns:
     label: Interest
     source: output
 
-js_file: /assets/js/calculators/high-yield-savings.js
+js_file: assets/js/calculators/high-yield-savings.js
 
 structured_data:
   "@context": "https://schema.org"

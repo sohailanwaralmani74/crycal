@@ -105,7 +105,7 @@ history_columns:
     label: Total Pay
     source: output
 
-js_file: /assets/js/calculators/overtime-pay.js
+js_file: assets/js/calculators/overtime-pay.js
 
 structured_data:
   "@context": "https://schema.org"

@@ -118,7 +118,7 @@ history_columns:
     label: Risk Amount
     source: output
 
-js_file: /assets/js/calculators/stock-position-size.js
+js_file: assets/js/calculators/stock-position-size.js
 
 structured_data:
   "@context": "https://schema.org"

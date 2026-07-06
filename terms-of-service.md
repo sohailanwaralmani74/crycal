@@ -33,7 +33,7 @@ This includes, but is not limited to, financial losses or any other losses resul
 
 ## 5. No Data Collection
 
-We do not collect, store, or transmit your personal or financial data. All calculations run locally in your browser. For more details, see our <a href="/privacy-policy">Privacy Policy</a>.
+We do not collect, store, or transmit your personal or financial data. All calculations run locally in your browser. For more details, see our <a href="privacy-policy">Privacy Policy</a>.
 
 ## 6. Intellectual Property
 
@@ -45,7 +45,7 @@ We may update these Terms of Service occasionally. Any changes will be posted on
 
 ## 8. Contact
 
-If you have questions about these terms, please <a href="/contact-us">contact us</a>.
+If you have questions about these terms, please <a href="contact-us">contact us</a>.
 
 ---
 

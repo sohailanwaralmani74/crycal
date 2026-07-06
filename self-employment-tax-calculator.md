@@ -131,7 +131,7 @@ history_columns:
     label: Net Earnings
     source: output
 
-js_file: /assets/js/calculators/self-employment-tax.js
+js_file: assets/js/calculators/self-employment-tax.js
 
 structured_data:
   "@context": "https://schema.org"

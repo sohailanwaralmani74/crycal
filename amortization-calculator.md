@@ -94,7 +94,7 @@ history_columns:
     label: Payoff Date
     source: output
 
-js_file: /assets/js/calculators/amortization.js
+js_file: assets/js/calculators/amortization.js
 
 structured_data:
   "@context": "https://schema.org"

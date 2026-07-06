@@ -111,7 +111,7 @@ history_columns:
     label: Interest Saved
     source: output
 
-js_file: /assets/js/calculators/mortgage-points.js
+js_file: assets/js/calculators/mortgage-points.js
 
 structured_data:
   "@context": "https://schema.org"

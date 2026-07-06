@@ -93,7 +93,7 @@ history_columns:
     label: Returns
     source: output
 
-js_file: /assets/js/calculators/investment.js
+js_file: assets/js/calculators/investment.js
 
 structured_data:
   "@context": "https://schema.org"

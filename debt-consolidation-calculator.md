@@ -108,7 +108,7 @@ history_columns:
     label: Total Interest Saved
     source: output
 
-js_file: /assets/js/calculators/debt-consolidation.js
+js_file: assets/js/calculators/debt-consolidation.js
 
 structured_data:
   "@context": "https://schema.org"

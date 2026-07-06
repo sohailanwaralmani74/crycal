@@ -115,7 +115,7 @@ history_columns:
     label: Transfer Fee
     source: output
 
-js_file: /assets/js/calculators/balance-transfer.js
+js_file: assets/js/calculators/balance-transfer.js
 
 structured_data:
   "@context": "https://schema.org"
