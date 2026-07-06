@@ -275,4 +275,3 @@ A good net worth depends on your age, income, and financial goals. Generally, a 
 
 ---
 
-*Last updated: July 2026*

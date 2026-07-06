@@ -236,4 +236,3 @@ Yes. Use the **Share** button to generate a unique URL containing your exact inp
 
 ---
 
-*Last updated: July 2026*

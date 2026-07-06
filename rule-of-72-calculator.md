@@ -199,4 +199,3 @@ No. All calculations run locally in your browser. History and presets are saved 
 
 ---
 
-*Last updated: July 2026*

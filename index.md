@@ -14,7 +14,7 @@ keywords: compound interest calculator, retirement calculator, mortgage calculat
 <section class="hero-section">
   <h1>CryCal – Free Financial Calculators for Every Goal</h1>
   <p>
-    CryCal provides <strong>35+ free, browser-based financial calculators</strong>
+    CryCal provides <strong>free, browser-based financial calculators</strong>
     covering savings, retirement, mortgages, debt, insurance, tax, and budgeting.
     Each tool adapts to your currency, your numbers, and your goal.
   </p>

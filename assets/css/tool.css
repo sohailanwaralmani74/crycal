@@ -825,3 +825,188 @@
     align-self: flex-end;
   }
 }
+/* ── Subscription Items ── */
+.subscription-list-container {
+  margin: 0.75rem 0 1rem;
+}
+
+.subscription-item {
+  background: var(--surface);
+  border: 0.0625rem solid var(--border-default);
+  border-radius: 0.25rem;
+  padding: 0.5rem 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.subscription-item-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 0.75rem;
+  align-items: flex-end;
+}
+
+.sub-field {
+  flex: 1 0 0;
+  min-width: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.sub-field label {
+  font-size: 0.55rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+}
+
+.sub-field input {
+  width: 100%;
+  padding: 0.25rem 0.4rem;
+  font-size: 0.85rem;
+  border: 0.0625rem solid var(--border-default);
+  border-radius: 0.25rem;
+  background: var(--paper);
+  color: var(--text-primary);
+  outline: none;
+  box-sizing: border-box;
+}
+
+.sub-field input:focus {
+  border-color: var(--accent);
+}
+
+.btn-sub-remove {
+  background: none;
+  border: 0.0625rem solid var(--loss);
+  border-radius: 0.25rem;
+  color: var(--loss);
+  padding: 0.25rem 0.5rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+  align-self: center;
+  flex-shrink: 0;
+}
+
+.btn-sub-remove:hover {
+  background: var(--loss);
+  color: var(--paper);
+}
+
+.btn-add-sub {
+  padding: 0.4rem 1rem;
+  font-size: 0.85rem;
+  font-family: var(--font-sans);
+  border: 0.0625rem dashed var(--accent);
+  border-radius: 0.25rem;
+  background: transparent;
+  color: var(--accent);
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+.btn-add-sub:hover {
+  background: var(--accent);
+  color: var(--paper);
+}
+
+@media (max-width: 48rem) {
+  .subscription-item-row {
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+  .sub-field {
+    min-width: 100%;
+  }
+  .btn-sub-remove {
+    align-self: flex-end;
+  }
+}
+/* ── Zero-Based Budget Lists ── */
+.income-list-container, .expense-list-container {
+  margin: 0.5rem 0;
+}
+
+.income-item, .expense-item {
+  background: var(--surface);
+  border: 0.0625rem solid var(--border-default);
+  border-radius: 0.25rem;
+  padding: 0.4rem 0.6rem;
+  margin-bottom: 0.4rem;
+}
+
+.income-item-row, .expense-item-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 0.6rem;
+  align-items: flex-end;
+}
+
+.inc-field, .exp-field {
+  flex: 1 0 0;
+  min-width: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.inc-field label, .exp-field label {
+  font-size: 0.55rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+}
+
+.inc-field input, .exp-field input {
+  width: 100%;
+  padding: 0.2rem 0.3rem;
+  font-size: 0.85rem;
+  border: 0.0625rem solid var(--border-default);
+  border-radius: 0.25rem;
+  background: var(--paper);
+  color: var(--text-primary);
+  outline: none;
+  box-sizing: border-box;
+}
+
+.inc-field input:focus, .exp-field input:focus {
+  border-color: var(--accent);
+}
+
+.btn-inc-remove, .btn-exp-remove {
+  background: none;
+  border: 0.0625rem solid var(--loss);
+  border-radius: 0.25rem;
+  color: var(--loss);
+  padding: 0.2rem 0.4rem;
+  font-size: 0.7rem;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+  align-self: center;
+  flex-shrink: 0;
+}
+
+.btn-inc-remove:hover, .btn-exp-remove:hover {
+  background: var(--loss);
+  color: var(--paper);
+}
+
+.btn-add-income, .btn-add-expense {
+  padding: 0.3rem 0.8rem;
+  font-size: 0.8rem;
+  font-family: var(--font-sans);
+  border: 0.0625rem dashed var(--accent);
+  border-radius: 0.25rem;
+  background: transparent;
+  color: var(--accent);
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+.btn-add-income:hover, .btn-add-expense:hover {
+  background: var(--accent);
+  color: var(--paper);
+}

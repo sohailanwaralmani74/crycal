@@ -17,7 +17,7 @@ All our calculators run entirely in your browser. Your income, balances, and fin
 
 ## What We Offer
 
-CryCal provides 35+ unique financial calculators, grouped into seven categories:
+CryCal provides unique financial calculators, grouped into several categories:
 
 - **Growth**: Savings and investment tools including Compound Interest, Simple Interest, Savings Goal, Rule of 72, Dollar Cost Averaging, and more.
 - **Retirement**: Long-term planning calculators for 401(k), IRA, Roth IRA, retirement withdrawal rates, and FIRE.
@@ -44,4 +44,3 @@ If you have questions, feedback, or suggestions, please <a href="/contact-us">ge
 
 ---
 
-*Last updated: July 2026*

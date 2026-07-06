@@ -33,4 +33,3 @@ We may update this policy occasionally. Any changes will be posted on this page 
 
 ---
 
-*Last updated: July 2026*

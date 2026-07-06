@@ -202,6 +202,24 @@
   type: tool
   short_name: SE Tax
 
+- url: /salary-calculator
+  title: Salary Calculator
+  category: tax
+  type: tool
+  short_name: Salary Calculator  
+
+- url: /hourly-to-salary-calculator
+  title: Hourly To Salary Calculator
+  category: tax
+  type: tool
+  short_name: Hourly To Salary   
+
+- url: /overtime-pay-calculator
+  title: Overtime Pay Calculator
+  category: tax
+  type: tool
+  short_name: Overtime Calculator   
+
 # ============================================================
 # BUDGETING
 # ============================================================
@@ -236,37 +254,37 @@
   title: Position Size Calculator
   category: investing
   type: tool
-  short_name: Position Sizer
+  short_name: Position Size Calculator
 
 - url: /lot-size-calculator
   title: Lot Size Calculator
   category: investing
   type: tool
-  short_name: Lot Sizer
+  short_name: Lot Size Calculator
 
 - url: /stock-position-size-calculator
   title: Stock / ETF Position Size Calculator
   category: investing
   type: tool
-  short_name: Stock Sizer
+  short_name: Stock Size Calculator
 
 - url: /crypto-position-size-calculator
   title: Crypto Position Size Calculator
   category: investing
   type: tool
-  short_name: Crypto Sizer
+  short_name: Crypto Size Calculator
 
 - url: /options-position-size-calculator
   title: Options Position Size Calculator
   category: investing
   type: tool
-  short_name: Options Sizer
+  short_name: Options Size Calculator
 
 - url: /futures-position-size-calculator
   title: Futures Position Size Calculator
   category: investing
   type: tool
-  short_name: Futures Sizer
+  short_name: Futures Size Calculator
 
 - url: /risk-reward-ratio-calculator
   title: Risk/Reward Ratio Calculator
@@ -279,3 +297,87 @@
   category: investing
   type: tool
   short_name: Kelly Criterion  
+
+# ============================================================
+# DEBT (New Tools)
+# ============================================================
+- url: /student-loan-payoff-calculator
+  title: Student Loan Payoff Calculator
+  category: debt
+  type: tool
+  short_name: Student Loan Payoff
+
+- url: /debt-consolidation-calculator
+  title: Debt Consolidation Calculator
+  category: debt
+  type: tool
+  short_name: Debt Consolidation
+
+- url: /balance-transfer-calculator
+  title: Balance Transfer Calculator
+  category: debt
+  type: tool
+  short_name: Balance Transfer
+
+# ============================================================
+# MORTGAGE (New Tools)
+# ============================================================
+- url: /closing-costs-calculator
+  title: Closing Costs Calculator
+  category: mortgage
+  type: tool
+  short_name: Closing Costs
+
+- url: /down-payment-calculator
+  title: Down Payment Calculator
+  category: mortgage
+  type: tool
+  short_name: Down Payment
+
+- url: /mortgage-points-calculator
+  title: Mortgage Points Calculator
+  category: mortgage
+  type: tool
+  short_name: Mortgage Points
+
+# ============================================================
+# BUDGETING (New Tools)
+# ============================================================
+- url: /subscription-tracker-calculator
+  title: Subscription Tracker Calculator
+  category: budgeting
+  type: tool
+  short_name: Subscription Tracker
+
+- url: /sinking-fund-calculator
+  title: Sinking Fund Calculator
+  category: budgeting
+  type: tool
+  short_name: Sinking Fund
+
+- url: /zero-based-budget-calculator
+  title: Zero-Based Budget Calculator
+  category: budgeting
+  type: tool
+  short_name: Zero-Based Budget
+
+# ============================================================
+# INSURANCE (New Tools)
+# ============================================================
+- url: /insurance-deductible-breakeven-calculator
+  title: Insurance Deductible Break-Even Calculator
+  category: insurance
+  type: tool
+  short_name: Deductible Break-Even
+
+- url: /home-renters-insurance-calculator
+  title: Home / Renters Insurance Calculator
+  category: insurance
+  type: tool
+  short_name: Home Insurance
+
+- url: /umbrella-insurance-calculator
+  title: Umbrella Insurance Calculator
+  category: insurance
+  type: tool
+  short_name: Umbrella Insurance  

@@ -49,4 +49,3 @@ If you have questions about these terms, please <a href="/contact-us">contact us
 
 ---
 
-*Last updated: July 2026*

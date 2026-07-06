@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Sitemap — All CryCal Financial Calculators
-description: Complete sitemap of all CryCal pages — 35+ financial calculators, categories, and legal pages. Find every calculator in one place.
+description: Complete sitemap of all CryCal pages,  financial calculators, categories, and legal pages. Find every calculator in one place.
 permalink: /sitemap
 ---
 
@@ -103,4 +103,3 @@ This page lists every public page on CryCal. Use these links to navigate the ful
 
 ---
 
-*Last updated: July 2026*

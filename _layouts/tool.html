@@ -98,7 +98,38 @@ layout: default
   }
 </script>
 
+<!-- SUBSCRIPTION LIST (for Subscription Tracker) -->
+<div id="subscriptionSection" style="display: none;">
+  <div class="subscription-list-container" id="subscriptionList"></div>
+  <button class="btn-add-sub" id="addSubscriptionBtn">+ Add Subscription</button>
+</div>
 
+<script>
+  var toolId = document.getElementById('toolContainer').dataset.toolId;
+  if (toolId === 'subscription-tracker') {
+    document.getElementById('subscriptionSection').style.display = 'block';
+  }
+</script>
+<!-- ZERO-BASED BUDGET LISTS -->
+<div id="budgetSection" style="display: none;">
+  <div style="margin-top: 0.75rem;">
+    <h4 style="margin-bottom: 0.3rem;">Income</h4>
+    <div class="income-list-container" id="incomeList"></div>
+    <button class="btn-add-income" id="addIncomeBtn">+ Add Income</button>
+  </div>
+  <div style="margin-top: 1rem;">
+    <h4 style="margin-bottom: 0.3rem;">Expenses</h4>
+    <div class="expense-list-container" id="expenseList"></div>
+    <button class="btn-add-expense" id="addExpenseBtn">+ Add Expense</button>
+  </div>
+</div>
+
+<script>
+  var toolId = document.getElementById('toolContainer').dataset.toolId;
+  if (toolId === 'zero-based-budget') {
+    document.getElementById('budgetSection').style.display = 'block';
+  }
+</script>
     <!-- Global datalist for currency inputs -->
     <datalist id="currencyList"></datalist>
   </div>
@@ -131,9 +162,9 @@ layout: default
         <canvas id="chartCanvas"></canvas>
       </div>
     </div>
-
+  
   </div>
-
+  
   <div class="tool-disclaimer">
     ⚠️ <strong>Illustrative only.</strong> Not financial advice. Please delete history timely, it may impact your
     browser performance.
@@ -267,8 +298,8 @@ layout: default
 <!-- 6. SCRIPTS                                                   -->
 <!-- ============================================================ -->
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js" defer></script>
-<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js" defer></script>
+<script src="/assets/js/chart.umd.min.js" defer></script>
+<script src="/assets/js/xlsx.full.min.js" defer></script>
 <script src="{{ page.js_file }}" defer></script>
 
 <script>
