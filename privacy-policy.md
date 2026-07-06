@@ -1,19 +1,19 @@
 ---
 layout: default
-title: Privacy Policy — CryCal Financial Calculators
-description: CryCal does not collect, store, or share your personal or financial data. All calculations run locally in your browser. Read our full privacy policy.
+title: Privacy Policy — Wanjaaro Financial Calculators
+description: Wanjaaro does not collect, store, or share your personal or financial data. All calculations run locally in your browser. Read our full privacy policy.
 permalink: /privacy-policy
 ---
 
-# Privacy Policy – CryCal Financial Calculators
+# Privacy Policy – Wanjaaro Financial Calculators
 
-CryCal is committed to protecting your privacy. This policy explains how we handle your data when you use our website and tools.
+Wanjaaro is committed to protecting your privacy. This policy explains how we handle your data when you use our website and tools.
 
 ## Data Collection
 
 **We do not collect any personal or financial data.**
 
-All calculators on CryCal run entirely in your browser using JavaScript. Your income, account balance, loan amount, interest rate, and any other inputs are processed locally on your device. Nothing is transmitted to our servers.
+All calculators on Wanjaaro run entirely in your browser using JavaScript. Your income, account balance, loan amount, interest rate, and any other inputs are processed locally on your device. Nothing is transmitted to our servers.
 
 ## Cookies and Analytics
 

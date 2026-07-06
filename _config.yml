@@ -1,22 +1,22 @@
-title: "CryCal — Free Online Financial Calculators"
-description: "Calculate compound interest, retirement savings, mortgage payments, debt payoff, and more with CryCal. Free browser-based financial calculators — accurate, fast, and secure."
+title: "Wanjaaro — Free Online Financial Calculators"
+description: "Calculate compound interest, retirement savings, mortgage payments, debt payoff, and more with Wanjaaro. Free browser-based financial calculators — accurate, fast, and secure."
 permalink: ':title'
 baseurl: ""
-url: "https://crycal.tools" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://wanjaaro.tools" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
 image: 
 # Author Settings
-author: CryCal # add your name
-author-img: crycal.webp # add your photo
+author: Wanjaaro # add your name
+author-img: wanjaaro.webp # add your photo
 about-author: "Explore the right calculators for savings, retirement, mortgages, debt, and budgeting to plan smarter"
 social-twitter: # add your Twitter handle
 social-facebook: # add your Facebook handle
-social-github: crycal # add your Github handle
+social-github: wanjaaro # add your Github handle
 social-linkedin: # add your Linkedin handle
 social-email: # add your Email address
 
 # Disqus
-discus-identifier: sCryCal # add your discus identifier
+discus-identifier: sWanjaaro # add your discus identifier
 
 # Tracker
 analytics: # Google Analytics

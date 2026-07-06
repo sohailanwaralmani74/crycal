@@ -165,7 +165,7 @@ Know your hourly wage and want to see what it adds up to over a day, a week, a m
 3. Enter your actual **hours per day**, **days per week**, and **working weeks per year** — the defaults (8 hours, 5 days, 52 weeks) reflect a typical full-time schedule, but adjust them to match your real hours.
 4. Optionally enter a **tax rate** and **other deductions** to see an estimated take-home figure alongside your gross salary.
 
-Already know your annual salary and want your hourly rate instead? Use the full <a href="salary-calculator/">Salary Calculator</a>, which converts in either direction.
+Already know your annual salary and want your hourly rate instead? Use the full <a href="salary-calculator">Salary Calculator</a>, which converts in either direction.
 
 ## The Hourly-to-Salary Formula
 

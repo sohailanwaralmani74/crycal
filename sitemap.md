@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Sitemap — All CryCal Financial Calculators
-description: Complete sitemap of all CryCal pages,  financial calculators, categories, and legal pages. Find every calculator in one place.
+title: Sitemap — All Wanjaaro Financial Calculators
+description: Complete sitemap of all Wanjaaro pages,  financial calculators, categories, and legal pages. Find every calculator in one place.
 permalink: /sitemap
 ---
 
-# Sitemap – All CryCal Financial Calculators
+# Sitemap – All Wanjaaro Financial Calculators
 
-This page lists every public page on CryCal. Use these links to navigate the full suite of financial calculators.
+This page lists every public page on Wanjaaro. Use these links to navigate the full suite of financial calculators.
 
 ---
 
@@ -107,10 +107,10 @@ This page lists every public page on CryCal. Use these links to navigate the ful
 
 ## Legal & Information
 
-- <a href="about-us">About Us</a> — Learn about CryCal's mission and team.
-- <a href="contact-us">Contact Us</a> — Get in touch with the CryCal team.
+- <a href="about-us">About Us</a> — Learn about Wanjaaro's mission and team.
+- <a href="contact-us">Contact Us</a> — Get in touch with the Wanjaaro team.
 - <a href="privacy-policy">Privacy Policy</a> — How we handle your data (spoiler: we don't collect any).
-- <a href="terms-of-service">Terms of Service</a> — Terms and conditions for using CryCal.
+- <a href="terms-of-service">Terms of Service</a> — Terms and conditions for using Wanjaaro.
 - <a href="sitemap">Sitemap</a> — Complete list of all pages (you are here).
 
 ---

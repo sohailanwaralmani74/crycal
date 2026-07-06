@@ -1,23 +1,23 @@
 ---
 layout: default
-title: About CryCal — Free Financial Calculators
-description: CryCal provides free, browser-based calculators for savings, retirement, mortgages, debt, insurance, tax, and budgeting. Learn about our mission and privacy-first approach.
+title: About Wanjaaro — Free Financial Calculators
+description: Wanjaaro provides free, browser-based calculators for savings, retirement, mortgages, debt, insurance, tax, and budgeting. Learn about our mission and privacy-first approach.
 permalink: /about-us
 ---
 
-# About CryCal – Free Financial Calculators
+# About Wanjaaro – Free Financial Calculators
 
-CryCal is a collection of free, browser-based financial calculators built for anyone planning their money — from first savings goals to retirement, mortgages, and debt payoff. Our tools help you run the numbers with precision and confidence, whatever stage of your financial life you're in.
+Wanjaaro is a collection of free, browser-based financial calculators built for anyone planning their money — from first savings goals to retirement, mortgages, and debt payoff. Our tools help you run the numbers with precision and confidence, whatever stage of your financial life you're in.
 
 ## Our Mission
 
-Good financial decisions start with clear numbers. Yet many people rely on guesswork, outdated rules of thumb, or overly complex spreadsheets. CryCal exists to make accurate financial calculations simple, fast, and accessible to everyone.
+Good financial decisions start with clear numbers. Yet many people rely on guesswork, outdated rules of thumb, or overly complex spreadsheets. Wanjaaro exists to make accurate financial calculations simple, fast, and accessible to everyone.
 
 All our calculators run entirely in your browser. Your income, balances, and financial details never leave your device. We don't store, process, or transmit your financial data — because your privacy matters as much as your financial planning.
 
 ## What We Offer
 
-CryCal provides unique financial calculators, grouped into several categories:
+Wanjaaro provides unique financial calculators, grouped into several categories:
 
 - **Growth**: Savings and investment tools including Compound Interest, Simple Interest, Savings Goal, Rule of 72, Dollar Cost Averaging, and more.
 - **Retirement**: Long-term planning calculators for 401(k), IRA, Roth IRA, retirement withdrawal rates, and FIRE.
@@ -38,7 +38,7 @@ Every tool is free to use, requires no registration, and works on any modern bro
 
 ## Who We Are
 
-CryCal was built by a team of developers who believe that the right financial tools should be available to everyone — not locked behind expensive subscriptions, paywalled apps, or complex software.
+Wanjaaro was built by a team of developers who believe that the right financial tools should be available to everyone — not locked behind expensive subscriptions, paywalled apps, or complex software.
 
 If you have questions, feedback, or suggestions, please <a href="contact-us">get in touch</a>. We're always looking to improve.
 

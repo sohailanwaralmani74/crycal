@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Contact CryCal — Financial Calculator Help & Support
-description: Have questions about our financial calculators? Contact the CryCal team for support, feedback, or feature requests. We'd love to hear from you.
+title: Contact Wanjaaro — Financial Calculator Help & Support
+description: Have questions about our financial calculators? Contact the Wanjaaro team for support, feedback, or feature requests. We'd love to hear from you.
 permalink: /contact-us
 ---
 
-# Contact CryCal – Financial Calculator Help
+# Contact Wanjaaro – Financial Calculator Help
 
 We'd love to hear from you. Whether you have a question about a calculator, a feature request, or just want to share feedback — reach out.
 
@@ -13,7 +13,7 @@ We'd love to hear from you. Whether you have a question about a calculator, a fe
 
 For general inquiries, feedback, or support:
 
-**Email:** <a href="mailto:info@crycal.com">info@crycal.com</a>
+**Email:** <a href="mailto:info@wanjaaro.com">info@wanjaaro.com</a>
 
 We aim to respond within 24–48 hours.
 

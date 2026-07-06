@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CryCal — Free Financial Calculators
+title: Wanjaaro — Free Financial Calculators
 description: Free, browser-based financial calculators for savings, retirement, mortgages, debt, insurance, tax, and budgeting. No signup, no data uploads. Calculate in seconds.
 is_homepage: true
 permalink: /
@@ -12,9 +12,9 @@ keywords: compound interest calculator, retirement calculator, mortgage calculat
 <!-- ============================================================ -->
 
 <section class="hero-section">
-  <h1>CryCal – Free Financial Calculators for Every Goal</h1>
+  <h1>Wanjaaro – Free Financial Calculators for Every Goal</h1>
   <p>
-    CryCal provides <strong>free, browser-based financial calculators</strong>
+    Wanjaaro provides <strong>free, browser-based financial calculators</strong>
     covering savings, retirement, mortgages, debt, insurance, tax, and budgeting.
     Each tool adapts to your currency, your numbers, and your goal.
   </p>
@@ -34,7 +34,7 @@ keywords: compound interest calculator, retirement calculator, mortgage calculat
 <section class="content-section">
   <h2>Financial Calculators for Every Stage</h2>
   <p>
-    CryCal is organised into seven clear areas, each addressing a specific financial
+    Wanjaaro is organised into seven clear areas, each addressing a specific financial
     need. The <a href="growth"><strong>Growth</strong></a> section covers eight
     savings and investment calculators — Compound Interest, Rule of 72, Dollar Cost
     Averaging, Dividend Reinvestment, and more — each built around how money
@@ -92,10 +92,10 @@ keywords: compound interest calculator, retirement calculator, mortgage calculat
 <!-- ============================================================ -->
 
 <section class="content-section">
-  <h2>Why CryCal</h2>
+  <h2>Why Wanjaaro</h2>
   <p>
     Good financial decisions start with clear numbers. Without them, even sensible
-    habits can leave you guessing whether you're actually on track. CryCal removes
+    habits can leave you guessing whether you're actually on track. Wanjaaro removes
     the guesswork by giving you precise, currency-aware calculations in seconds.
   </p>
   <p>
@@ -107,7 +107,7 @@ keywords: compound interest calculator, retirement calculator, mortgage calculat
   </p>
   <p>
     Whether you're saving for a goal, planning retirement, buying a home, paying
-    off debt, or just building a budget, CryCal provides the right calculator for
+    off debt, or just building a budget, Wanjaaro provides the right calculator for
     the job.
   </p>
 </section>
@@ -129,7 +129,7 @@ keywords: compound interest calculator, retirement calculator, mortgage calculat
   </div>
 
   <div class="faq-item">
-    <h3>How accurate are CryCal calculators?</h3>
+    <h3>How accurate are Wanjaaro calculators?</h3>
     <p>
       They follow industry-standard formulas and are mathematically precise for
       the inputs you provide. That said, real-world rates, tax rules, and premiums
