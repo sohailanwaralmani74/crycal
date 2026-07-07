@@ -106,10 +106,10 @@ js_file: assets/js/calculators/compound-interest.js
 structured_data:
   "@context": "https://schema.org"
   "@type": "SoftwareApplication"
-  name: "Simple Interest Calculator"
+  name: "Compound Interest Calculator"
   applicationCategory: "FinancialApplication"
   operatingSystem: "All"
-  description: "Calculate simple interest quickly. Enter principal, annual interest rate, and time period to see total interest and final amount."
+  description: "Calculate Compound interest quickly. Enter principal, annual interest rate, and time period to see total interest and final amount."
   offers:
     "@type": "Offer"
     price: "0"
