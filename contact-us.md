@@ -9,17 +9,45 @@ permalink: /contact-us
 
 We'd love to hear from you. Whether you have a question about a calculator, a feature request, or just want to share feedback — reach out.
 
-## Email
-
-For general inquiries, feedback, or support:
-
-**Email:** <a href="mailto:info@wanjaaro.com">info@wanjaaro.com</a>
-
-We aim to respond within 24–48 hours.
-
 ## Contact Form
 
 You can also use the form below to send us a message directly. All messages are forwarded to our team via a secure, third-party form service. We do not store or retain your personal data beyond what's needed to respond.
+
+<form id="contactForm" action="https://formsubmit.co/aefed7cae4aaf06e0f4785c109bc6fba" method="POST">
+  
+  <!-- FormSubmit required fields -->
+  <input type="hidden" name="_captcha" value="true">
+  <input type="hidden" name="_template" value="table">
+  <input type="hidden" name="_next" value="/thank-you">
+
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required placeholder="Your name">
+  </div>
+
+  <div class="form-group">
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="email" required placeholder="you@example.com">
+  </div>
+
+  <div class="form-group">
+    <label for="subject">Subject</label>
+    <select id="subject" name="subject">
+      <option value="general">General Inquiry</option>
+      <option value="feedback">Feedback / Suggestion</option>
+      <option value="bug">Bug Report</option>
+      <option value="feature">Feature Request</option>
+      <option value="other">Other</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="6" required placeholder="Your message here..."></textarea>
+  </div>
+
+  <button type="submit" class="btn-primary">Send Message</button>
+</form>
 
 ---
 

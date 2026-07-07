@@ -1025,3 +1025,94 @@ h4 { font-size: 1.1rem;  border-left: 0.1500rem solid transparent; border-left-c
     padding: 0.8rem 1rem;
   }
 }
+/* ═══════════════════════════════════════════════════════════
+   CONTACT FORM
+═══════════════════════════════════════════════════════════ */
+
+#contactForm {
+  max-width: 40rem;
+  margin: 1.5rem 0;
+}
+
+#contactForm .form-group {
+  margin-bottom: 1.25rem;
+}
+
+#contactForm label {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  margin-bottom: 0.25rem;
+}
+
+#contactForm input,
+#contactForm select,
+#contactForm textarea {
+  width: 100%;
+  padding: 0.6rem 0.8rem;
+  font-size: 1rem;
+  font-family: var(--font-sans);
+  border: 0.0625rem solid var(--border-default);
+  border-radius: 0.25rem;
+  background: var(--paper);
+  color: var(--text-primary);
+  transition: border-color 0.15s, box-shadow 0.15s;
+  box-sizing: border-box;
+}
+
+#contactForm input:focus,
+#contactForm select:focus,
+#contactForm textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 0.1875rem rgba(192, 138, 46, 0.15);
+}
+
+#contactForm select {
+  cursor: pointer;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%234A5B64' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.8rem center;
+  padding-right: 2.5rem;
+}
+
+#contactForm textarea {
+  resize: vertical;
+  min-height: 8rem;
+}
+
+#contactForm .btn-primary {
+  padding: 0.6rem 2.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  background: var(--accent);
+  border: none;
+  border-radius: 0.25rem;
+  color: var(--paper);
+  cursor: pointer;
+  transition: background 0.15s, transform 0.1s;
+}
+
+#contactForm .btn-primary:hover {
+  background: #A87520;
+  transform: scale(1.02);
+}
+
+#contactForm .btn-primary:active {
+  transform: scale(0.97);
+}
+
+/* ── Responsive ── */
+@media (max-width: 48rem) {
+  #contactForm {
+    max-width: 100%;
+  }
+  #contactForm .btn-primary {
+    width: 100%;
+    text-align: center;
+  }
+}
