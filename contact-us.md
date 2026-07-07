@@ -18,7 +18,7 @@ You can also use the form below to send us a message directly. All messages are 
   <!-- FormSubmit required fields -->
   <input type="hidden" name="_captcha" value="true">
   <input type="hidden" name="_template" value="table">
-  <input type="hidden" name="_next" value="/thank-you">
+  <input type="hidden" name="_next" value="https://wanjaaro.com/contact-us?sent=true">
 
   <div class="form-group">
     <label for="name">Name</label>
@@ -48,6 +48,18 @@ You can also use the form below to send us a message directly. All messages are 
 
   <button type="submit" class="btn-primary">Send Message</button>
 </form>
+
+<div id="contactSuccessMessage" style="display:none;" class="content-block">
+  <h2>Thanks — your message is on its way</h2>
+  <p>I've received your message and will get back to you as soon as I can. Appreciate you reaching out.</p>
+</div>
+
+<script>
+  if (new URLSearchParams(window.location.search).get('sent') === 'true') {
+    document.getElementById('contactForm').style.display = 'none';
+    document.getElementById('contactSuccessMessage').style.display = 'block';
+  }
+</script>
 
 ---
 
