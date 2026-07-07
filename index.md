@@ -34,11 +34,12 @@ keywords: compound interest calculator, retirement calculator, mortgage calculat
 <section class="content-section">
   <h2>Financial Calculators for Every Stage</h2>
   <p>
-    Wanjaaro is organised into seven clear areas, each addressing a specific financial
+    Wanjaaro is organised into 8 clear areas, each addressing a specific financial
     need. The <a href="growth"><strong>Growth</strong></a> section covers eight
-    savings and investment calculators — Compound Interest, Rule of 72, Dollar Cost
-    Averaging, Dividend Reinvestment, and more — each built around how money
-    actually accumulates over time.
+    savings and investment calculators — Compound Interest, Simple Interest,
+    Savings Goal, High Yield Savings, Rule of 72, Dividend Reinvestment, and
+    Dollar Cost Averaging — each built around how money actually accumulates
+    over time.
   </p>
   <p>
     The <a href="retirement"><strong>Retirement</strong></a> category brings
@@ -48,42 +49,48 @@ keywords: compound interest calculator, retirement calculator, mortgage calculat
   </p>
   <p>
     For homeownership, the <a href="mortgage"><strong>Mortgage</strong></a> group
-    offers five calculators covering monthly payments, rent vs buy comparisons,
-    refinancing, affordability, and early payoff strategy.
+    offers eight calculators covering monthly payments, rent vs buy comparisons,
+    refinancing, affordability, early payoff strategy, closing costs, down
+    payment planning, and mortgage points.
   </p>
   <p>
-    Anyone working through debt will find five tools under
+    Anyone working through debt will find eight tools under
     <a href="debt"><strong>Debt</strong></a> — loan payoff, credit card payoff,
-    debt snowball, debt avalanche, and a full amortization breakdown.
+    debt snowball, debt avalanche, a full amortization breakdown, student loan
+    payoff, debt consolidation, and balance transfer planning.
   </p>
   <p>
-    The <a href="insurance"><strong>Insurance</strong></a> section hosts three
-    calculators for life insurance, disability insurance, and comparing term versus
-    whole life coverage — turning "I should probably get insurance" into an actual
-    number.
+    The <a href="insurance"><strong>Insurance</strong></a> section hosts six
+    calculators for life insurance, disability insurance, comparing term versus
+    whole life coverage, deductible break-even analysis, home and renters
+    coverage, and umbrella policy needs — turning "I should probably get
+    insurance" into an actual number.
   </p>
   <p>
-    <a href="tax"><strong>Tax</strong></a> covers four calculators for tax
-    brackets, take-home pay, capital gains, and self-employment tax — useful for
-    employees, investors, and freelancers alike.
+    <a href="tax"><strong>Tax</strong></a> covers seven calculators for salary
+    and hourly pay, overtime, take-home pay, tax brackets, capital gains, and
+    self-employment tax — useful for employees, investors, and freelancers
+    alike.
   </p>
   <p>
     Finally, <a href="budgeting"><strong>Budgeting</strong></a> rounds out the
-    site with four everyday tools: the 50/30/20 budget rule, net worth, debt-to-income
-    ratio, and emergency fund targets.
+    site with seven everyday tools: the 50/30/20 budget rule, net worth,
+    debt-to-income ratio, emergency fund targets, subscription tracking,
+    sinking funds, and zero-based budgeting.
   </p>
   <p>
-  For active investors, the <a href="investing"><strong>Investing</strong></a> 
-  category provides eight essential tools for position sizing and risk management. 
-  Whether you're trading stocks, ETFs, crypto, options, or futures, you'll find 
-  dedicated calculators for position size, lot size, and contract sizing. The 
-  <a href="risk-reward-ratio-calculator">Risk/Reward Ratio</a> and 
-  <a href="kelly-criterion-calculator">Kelly Criterion</a> calculators help you 
-  evaluate trade setups and optimise your long-term growth strategy.
-</p>
+    For active investors, the <a href="investing"><strong>Investing</strong></a>
+    category provides eight essential tools for position sizing and risk
+    management. Whether you're trading stocks, ETFs, crypto, options, or
+    futures, you'll find dedicated calculators for position size, lot size,
+    and contract sizing. The
+    <a href="risk-reward-ratio-calculator">Risk/Reward Ratio</a> and
+    <a href="kelly-criterion-calculator">Kelly Criterion</a> calculators help
+    you evaluate trade setups and optimise your long-term growth strategy.
+  </p>
   <p>
-    In total, that is <strong> unique calculators</strong> — all free, all private,
-    all running entirely in your browser.
+    In total, that's <strong>58 unique calculators</strong> — all free, all
+    private, all running entirely in your browser.
   </p>
 </section>
 
