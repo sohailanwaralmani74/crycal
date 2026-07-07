@@ -23,7 +23,7 @@ This page lists every public page on Wanjaaro. Use these links to navigate the f
 
 ---
 
-## Growth (8 tools)
+## Growth 
 
 - <a href="compound-interest-calculator">Compound Interest Calculator</a> — Projects savings growth with adjustable contribution frequency and compounding periods.
 - <a href="simple-interest-calculator">Simple Interest Calculator</a> — Calculates interest earned or owed without compounding.
@@ -33,10 +33,11 @@ This page lists every public page on Wanjaaro. Use these links to navigate the f
 - <a href="dividend-reinvestment-calculator">Dividend Reinvestment Calculator</a> — Projects portfolio growth when dividends are automatically reinvested (DRIP).
 - <a href="dollar-cost-averaging-calculator">Dollar Cost Averaging Calculator</a> — Compares lump-sum investing against fixed periodic contributions.
 - <a href="investment-calculator">Investment Calculator</a> — General-purpose growth projection for a one-time or recurring investment.
+- <a href="/compound-annual-growth-rate-calculator">Compound Annual Growth Rate Calculator</a> — Calculate annualized investment returns.
 
 ---
 
-## Retirement (6 tools)
+## Retirement
 
 - <a href="retirement-calculator">Retirement Calculator</a> — Projects retirement savings and identifies potential shortfalls based on current contributions.
 - <a href="401k-calculator">401k Calculator</a> — Models employer match, contribution limits, and long-term account growth.
@@ -47,17 +48,19 @@ This page lists every public page on Wanjaaro. Use these links to navigate the f
 
 ---
 
-## Mortgage (5 tools)
+## Mortgage 
 
 - <a href="mortgage-calculator">Mortgage Calculator</a> — Calculates monthly payment, interest, and amortization for a home loan.
 - <a href="rent-vs-buy-calculator">Rent vs Buy Calculator</a> — Compares the long-term cost of renting versus buying a home.
 - <a href="refinance-calculator">Refinance Calculator</a> — Estimates savings and break-even point from refinancing an existing mortgage.
 - <a href="home-affordability-calculator">Home Affordability Calculator</a> — Estimates a realistic home price range based on income and debt.
 - <a href="mortgage-payoff-calculator">Mortgage Payoff Calculator</a> — Shows time and interest saved from extra principal payments.
+- <a href="/pmi-calculator">PMI Calculator</a> — Calculate Private Mortgage Insurance costs and cancellation date.
+- <a href="/property-tax-calculator">Property Tax Calculator</a> — Estimate annual and monthly property taxes.
 
 ---
 
-## Debt (5 tools)
+## Debt 
 
 - <a href="loan-payoff-calculator">Loan Payoff Calculator</a> — Projects payoff timeline and total interest for any fixed-rate loan.
 - <a href="credit-card-payoff-calculator">Credit Card Payoff Calculator</a> — Calculates time to pay off a balance at a given interest rate and payment.
@@ -67,7 +70,7 @@ This page lists every public page on Wanjaaro. Use these links to navigate the f
 
 ---
 
-## Insurance (3 tools)
+## Insurance 
 
 - <a href="life-insurance-calculator">Life Insurance Calculator</a> — Estimates income-replacement coverage needed based on dependents and debts.
 - <a href="disability-insurance-calculator">Disability Insurance Calculator</a> — Estimates the income gap if unable to work for an extended period.
@@ -75,7 +78,7 @@ This page lists every public page on Wanjaaro. Use these links to navigate the f
 
 ---
 
-## Tax (4 tools)
+## Tax 
 
 - <a href="tax-bracket-calculator">Tax Bracket Calculator</a> — Shows marginal and effective tax rate based on income and filing status.
 - <a href="take-home-pay-calculator">Take-Home Pay Calculator</a> — Estimates net pay after taxes and standard deductions.
@@ -84,15 +87,15 @@ This page lists every public page on Wanjaaro. Use these links to navigate the f
 
 ---
 
-## Budgeting (4 tools)
+## Budgeting 
 
 - <a href="50-30-20-budget-calculator">50/30/20 Budget Calculator</a> — Splits income into needs, wants, and savings using the 50/30/20 rule.
 - <a href="net-worth-calculator">Net Worth Calculator</a> — Calculates total net worth from assets and liabilities.
 - <a href="debt-to-income-calculator">Debt-to-Income Calculator</a> — Calculates DTI ratio used by lenders to assess borrowing capacity.
 - <a href="emergency-fund-calculator">Emergency Fund Calculator</a> — Estimates the savings needed to cover 3–6 months of essential expenses.
-
+- <a href="/biweekly-budget-calculator">Biweekly Budget Calculator</a> — Plan your budget on a biweekly cycle.
 ---
-### Investing (8 tools)
+### Investing 
 
 - <a href="position-size-calculator">Position Size Calculator</a> — Generic position sizing for any asset.
 - <a href="lot-size-calculator">Lot Size Calculator</a> — Forex and CFD lot sizing (standard, mini, micro).
@@ -102,6 +105,7 @@ This page lists every public page on Wanjaaro. Use these links to navigate the f
 - <a href="futures-position-size-calculator">Futures Position Size Calculator</a> — Tick-based contract sizing.
 - <a href="risk-reward-ratio-calculator">Risk/Reward Ratio Calculator</a> — Evaluate trade setups.
 - <a href="kelly-criterion-calculator">Kelly Criterion Calculator</a> — Optimal position sizing for long-term growth.
+- <a href="/roi-calculator">ROI Calculator</a> — Calculate your return on investment.
 
 ---
 

@@ -49,6 +49,12 @@
   type: tool
   short_name: Investment Growth
 
+- url: /compound-annual-growth-rate-calculator
+  title: Compound Annual Growth Rate Calculator
+  category: growth
+  type: tool
+  short_name: CAGR Calculator   
+
 # ============================================================
 # RETIREMENT
 # ============================================================
@@ -247,6 +253,12 @@
   type: tool
   short_name: Emergency Fund
 
+- url: /biweekly-budget-calculator
+  title: Biweekly Budget Calculator
+  category: budgeting
+  type: tool
+  short_name: Biweekly Budget  
+
 # ============================================================
 # INVESTING
 # ============================================================
@@ -298,6 +310,12 @@
   type: tool
   short_name: Kelly Criterion  
 
+- url: /roi-calculator
+  title: ROI Calculator
+  category: investing
+  type: tool
+  short_name: ROI Calculator  
+
 # ============================================================
 # DEBT (New Tools)
 # ============================================================
@@ -339,6 +357,18 @@
   category: mortgage
   type: tool
   short_name: Mortgage Points
+
+- url: /pmi-calculator
+  title: PMI Calculator
+  category: mortgage
+  type: tool
+  short_name: PMI Calculator
+
+- url: /property-tax-calculator
+  title: Property Tax Calculator
+  category: mortgage
+  type: tool
+  short_name: Property Tax    
 
 # ============================================================
 # BUDGETING (New Tools)

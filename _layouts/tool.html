@@ -130,6 +130,19 @@ layout: default
     document.getElementById('budgetSection').style.display = 'block';
   }
 </script>
+
+<!-- EXPENSE LIST (for Biweekly Budget) -->
+<div id="expenseSection" style="display: none;">
+  <div class="debt-list-container" id="expenseListByWeekly"></div>
+  <button class="btn-add-debt" id="addExpenseBtnByWeekly">+ Add Expense</button>
+</div>
+
+<script>
+  var toolId = document.getElementById('toolContainer').dataset.toolId;
+  if (toolId === 'biweekly-budget') {
+    document.getElementById('expenseSection').style.display = 'block';
+  }
+</script>
     <!-- Global datalist for currency inputs -->
     <datalist id="currencyList"></datalist>
   </div>
