@@ -1,7 +1,7 @@
 ---
 layout: tool
 title: Refinance Calculator - Plan Your Refinancing
-description: Compare your current mortgage with a refinanced mortgage. See monthly savings, total interest savings, and break-even point. Estimate your refinance benefits today.
+description: Compare your current mortgage with a refinanced mortgage. See monthly savings, total interest savings, and break-even point.
 permalink: /refinance-calculator
 tool_id: refinance
 category: mortgage

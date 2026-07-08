@@ -1,7 +1,7 @@
 ---
 layout: tool
 title: Retirement Withdrawal Calculator
-description: Calculate how long your retirement savings will last with our retirement withdrawal calculator. Plan sustainable withdrawals, test different scenarios, and optimize your retirement income.
+description: With Retirement Withdrawal Calculator, Calculate how long your retirement savings will last. Plan sustainable withdrawals and optimize your retirement income.
 permalink: /retirement-withdrawal-calculator
 tool_id: retirement-withdrawal
 category: retirement

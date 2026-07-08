@@ -1,7 +1,7 @@
 ---
 layout: tool
 title: Biweekly Budget Calculator
-description: Plan your budget on a biweekly cycle. Enter your biweekly income and expenses to see your surplus or deficit.
+description: Plan your budget on a biweekly cycle. Enter your biweekly income and expenses to see your surplus or deficit. detailed analytics.
 permalink: /biweekly-budget-calculator
 tool_id: biweekly-budget
 category: budgeting

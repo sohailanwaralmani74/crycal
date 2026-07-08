@@ -1,7 +1,7 @@
 ---
 layout: tool
 title: Rule of 72 Calculator
-description: Estimate how long it takes to double your money using the Rule of 72. Enter your expected annual return rate to see doubling time, or enter a target time to find the required rate.
+description: Estimate how long it takes to double your money using the Rule of 72. Enter your expected annual return rate to see doubling time.
 permalink: /rule-of-72-calculator
 tool_id: rule-of-72
 category: growth

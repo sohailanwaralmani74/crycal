@@ -1,7 +1,7 @@
 ---
 layout: tool
 title: Mortgage Payoff Calculator
-description: Discover how extra payments can shorten your mortgage term and save thousands in interest. Use our mortgage payoff calculator to see your new payoff date and interest savings.
+description: Discover how extra payments can shorten your mortgage term and save thousands in interest. Use mortgage payoff calculator to see payoff date and interest savings.
 permalink: /mortgage-payoff-calculator
 tool_id: mortgage-payoff
 category: mortgage

@@ -1,7 +1,7 @@
 ---
 layout: tool
 title: Lot Size Calculator
-description: Calculate the optimal lot size for Forex and CFD trades. Enter your account balance, risk percentage, stop-loss distance, and pip value to find your ideal position size.
+description: Calculate the optimal lot size trades. Enter account balance, risk percentage, stop-loss distance, and pip value to find ideal position size.
 permalink: /lot-size-calculator
 tool_id: lot-size
 category: investing

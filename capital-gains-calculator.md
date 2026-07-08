@@ -1,7 +1,7 @@
 ---
 layout: tool
 title: Capital Gains Calculator
-description: Calculate your capital gains tax on stocks, real estate, crypto, and other assets. Enter your sale price, purchase price, costs, and exemptions — works for any country.
+description: Calculate your capital gains tax on stocks, real estate, crypto, and other assets. Enter your sale price, purchase price, costs, and exemptions.
 permalink: /capital-gains-calculator
 tool_id: capital-gains
 category: tax

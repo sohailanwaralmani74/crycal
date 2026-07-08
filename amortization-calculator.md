@@ -1,7 +1,7 @@
 ---
 layout: tool
 title: Amortization Calculator
-description: Generate a complete loan amortization schedule with our free amortization calculator. See monthly payments, total interest, and principal breakdown for any loan.
+description: Generate a complete loan amortization schedule with our amortization calculator. See monthly payments, total interest, and principal breakdown for any loan.
 permalink: /amortization-calculator
 tool_id: amortization
 category: debt

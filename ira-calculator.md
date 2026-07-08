@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: IRA Calculator
+title: IRA Calculator - Calculate Individual Retirement Account
 description: Estimate how much your IRA will grow by retirement. Use our IRA calculator to project your Traditional or Roth IRA balance over time.
 permalink: /ira-calculator
 tool_id: ira

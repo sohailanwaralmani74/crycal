@@ -1,7 +1,7 @@
 ---
 layout: tool
 title: Compound Interest Calculator – Free Online Growth Estimator
-description: Calculate compound interest with daily, monthly, or annual compounding. Includes inflation adjustment, monthly contributions, and interactive growth charts. 100% free, no sign-up.
+description: Calculate compound interest with daily, monthly, or annual compounding. Includes inflation adjustment, monthly contributions.
 permalink: /compound-interest-calculator
 tool_id: compound-interest
 category: growth

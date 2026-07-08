@@ -1,7 +1,7 @@
 ---
 layout: tool
 title: Sinking Fund Calculator
-description: Calculate how much you need to save each month to reach a financial goal by a specific date. Enter your target amount, current savings, time horizon, and expected return.
+description: Calculate how much you need to save each month to reach a financial goal by a specific date. Enter target amount, savings, time, and expected return.
 permalink: /sinking-fund-calculator
 tool_id: sinking-fund
 category: budgeting

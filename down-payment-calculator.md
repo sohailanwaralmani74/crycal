@@ -1,7 +1,7 @@
 ---
 layout: tool
 title: Down Payment Calculator
-description: Calculate how much down payment you need for a home purchase. Enter home price, down payment percentage, and see your required down payment and estimated monthly payment.
+description: Calculate how much down payment you need for a home purchase. Enter home price, down payment percentage, and see required monthly payments.
 permalink: /down-payment-calculator
 tool_id: down-payment
 category: mortgage

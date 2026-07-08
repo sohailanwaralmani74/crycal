@@ -1,7 +1,7 @@
 ---
 layout: tool
 title: Overtime Pay Calculator
-description: Calculate regular pay, overtime pay, and double-time pay from your hourly rate and hours worked. Fully editable thresholds and multipliers — works anywhere in the world.
+description: Calculate regular pay, overtime pay, and double-time pay from your hourly rate and hours worked. Fully editable thresholds and multipliers.
 permalink: /overtime-pay-calculator
 tool_id: overtime-pay
 category: tax
@@ -113,7 +113,6 @@ structured_data:
   name: "Overtime Pay Calculator"
   applicationCategory: "FinancialApplication"
   operatingSystem: "All"
-  browserRequirements: "Requires JavaScript"
   description: "Calculate regular pay, overtime pay, and double-time pay from your hourly rate and hours worked. Fully editable thresholds and multipliers — works anywhere in the world."
   offers:
     "@type": "Offer"

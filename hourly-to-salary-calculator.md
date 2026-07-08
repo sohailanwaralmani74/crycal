@@ -128,7 +128,6 @@ structured_data:
   name: "Hourly to Salary Calculator"
   applicationCategory: "FinancialApplication"
   operatingSystem: "All"
-  browserRequirements: "Requires JavaScript"
   description: "Convert your hourly wage into an annual salary — plus daily, weekly, and monthly pay. Works with any currency and any work schedule, anywhere in the world."
   offers:
     "@type": "Offer"

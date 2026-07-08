@@ -1,7 +1,7 @@
 ---
 layout: tool
 title: Emergency Fund Calculator
-description: Calculate how much you need to save for emergencies based on your monthly expenses. Find your ideal emergency fund target and track your progress.
+description: Calculate how much you need to save for emergencies based on monthly expenses. Find ideal emergency fund target and track progress.
 permalink: /emergency-fund-calculator
 tool_id: emergency-fund
 category: budgeting

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tax — Income & Capital Gains Calculators
-description: Calculate your tax bracket, take-home pay, capital gains tax, and self-employment tax obligations.
+description: Calculate your tax bracket, take-home pay, capital gains tax, and self-employment tax obligations. It also include take-home pay and self employement tax.
 is_catpage: true
 category: tax
 permalink: /tax

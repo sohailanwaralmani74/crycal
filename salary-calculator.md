@@ -134,7 +134,6 @@ structured_data:
   name: "Salary Calculator"
   applicationCategory: "FinancialApplication"
   operatingSystem: "All"
-  browserRequirements: "Requires JavaScript"
   description: "Convert your salary between hourly, daily, weekly, monthly, and annual pay — works with any currency and any work schedule, anywhere in the world."
   offers:
     "@type": "Offer"

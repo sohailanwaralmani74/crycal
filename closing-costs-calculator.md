@@ -1,7 +1,7 @@
 ---
 layout: tool
 title: Closing Costs Calculator
-description: Estimate total closing costs for a home purchase or refinance. Enter loan amount, origination fees, appraisal, title insurance, and more to see your total closing costs and percentage.
+description: Enter loan amount, origination fees, appraisal, title insurance, and more to see your total closing costs and percentage. Estimate Closing cost.
 permalink: /closing-costs-calculator
 tool_id: closing-costs
 category: mortgage

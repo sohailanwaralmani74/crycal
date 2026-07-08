@@ -1,7 +1,7 @@
 ---
 layout: tool
 title: Crypto Position Size Calculator
-description: Calculate position sizes for crypto perpetual futures. Supports both linear (USDT-margined) and inverse (Coin-margined) contracts. Works for all cryptocurrencies.
+description: Calculate position sizes for crypto perpetual futures. Supports both linear (USDT-margined) and inverse (Coin-margined) contracts.
 permalink: /crypto-position-size-calculator
 tool_id: crypto-position-size
 category: investing

@@ -1,7 +1,7 @@
 ---
 layout: tool
 title: ROI Calculator – Calculate Return on Investment
-description: Calculate your return on investment (ROI) with our free ROI calculator. Enter initial investment, final value, and holding period to see total ROI, annualized ROI, and net profit. Compare investments with precision.
+description: Calculate your return on investment (ROI) with our free ROI calculator. Enter initial investment, final value, and holding period to see total ROI.
 permalink: /roi-calculator
 tool_id: roi-calculator
 category: investing

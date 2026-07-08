@@ -1,7 +1,7 @@
 ---
 layout: tool
 title: Subscription Tracker Calculator
-description: Track all your recurring subscriptions and see your total monthly and annual costs. Add streaming, gym, software, and any other subscription services.
+description: Track all your recurring subscriptions and see total monthly and annual costs. Add streaming, gym, and any other subscription services.
 permalink: /subscription-tracker-calculator
 tool_id: subscription-tracker
 category: budgeting

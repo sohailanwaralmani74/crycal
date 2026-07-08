@@ -1,7 +1,7 @@
 ---
 layout: tool
 title: Rent vs Buy Calculator
-description: Compare the financial cost of renting versus buying a home. See which option makes more sense for your situation.
+description: Compare the financial cost of renting versus buying a home. See which option makes more sense for your situation. Calculate to grow.
 permalink: /rent-vs-buy-calculator
 tool_id: rent-vs-buy
 category: mortgage

@@ -1,7 +1,7 @@
 ---
 layout: tool
 title: Credit Card Payoff Calculator
-description: Calculate how long it will take to pay off your credit card balance and how much interest you'll save with extra payments. Free, private, and easy to use.
+description: Calculate how long it will take to pay off your credit card balance and how much interest you'll save with extra payments.
 permalink: /credit-card-payoff-calculator
 tool_id: credit-card-payoff
 category: debt

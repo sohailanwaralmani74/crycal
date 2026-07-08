@@ -1,7 +1,7 @@
 ---
 layout: tool
 title: Umbrella Insurance Calculator
-description: Estimate how much umbrella liability coverage you need. Enter your net worth, annual income, existing liability coverage, and assets to see your protection gap.
+description: Estimate how much umbrella liability coverage you need. Enter net worth, income, existing liability coverage, and assets to see protection gap.
 permalink: /umbrella-insurance-calculator
 tool_id: umbrella-insurance
 category: insurance

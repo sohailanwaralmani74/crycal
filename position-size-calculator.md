@@ -1,7 +1,7 @@
 ---
 layout: tool
 title: Position Size Calculator
-description: Calculate the optimal position size for any trade. Enter your account balance, risk percentage, stop-loss distance, and per-unit value — works for any asset class.
+description: Calculate the optimal position size for any trade. Enter your account balance, risk percentage, stop-loss distance, and per-unit value.
 permalink: /position-size-calculator
 tool_id: position-size
 category: investing

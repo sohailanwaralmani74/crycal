@@ -1,7 +1,7 @@
 ---
 layout: tool
 title: Property Tax Calculator – Estimate Your Real Estate Taxes
-description: Calculate your property taxes with our free Property Tax Calculator. Enter property value, assessment ratio, and tax rate to estimate your annual and monthly tax liability.
+description: Calculate your property taxes. Enter property value, assessment ratio, and tax rate to estimate your annual and monthly tax liability.
 permalink: /property-tax-calculator
 tool_id: property-tax-calculator
 category: mortgage

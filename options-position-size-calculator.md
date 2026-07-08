@@ -1,7 +1,7 @@
 ---
 layout: tool
 title: Options Position Size Calculator
-description: Calculate the optimal number of option contracts to trade. Enter your account balance, risk percentage, option premium, delta, and contract multiplier to size your options trades.
+description: Calculate the optimal number of option contracts to trade. Enter account balance, risk percentage, option premium, delta etc, to size options trades.
 permalink: /options-position-size-calculator
 tool_id: options-position-size
 category: investing

@@ -1,7 +1,7 @@
 ---
 layout: tool
 title: Balance Transfer Calculator
-description: Calculate how much you can save by transferring credit card debt to a new card with a 0% APR period. Compare your current interest costs with a balance transfer.
+description: Calculate how much you can save by transferring credit card debt to a new card with a 0% APR period. Compare current interest costs with a balance transfer.
 permalink: /balance-transfer-calculator
 tool_id: balance-transfer
 category: debt
