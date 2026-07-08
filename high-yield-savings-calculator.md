@@ -58,7 +58,7 @@ outputs:
     label: Total Interest Earned
   - id: effectiveYield
     label: Effective Annual Yield (%)
-    unit: '%'
+
   - id: monthlyEarnings
     label: Average Monthly Interest
 

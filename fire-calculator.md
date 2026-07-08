@@ -98,10 +98,10 @@ outputs:
     label: Age at Financial Independence
   - id: savingsRateCalculated
     label: Your Savings Rate (%)
-    unit: '%'
+
   - id: progressToFI
     label: Progress to FI (%)
-    unit: '%'
+
   - id: netWorth
     label: Current Net Worth
 

@@ -38,7 +38,7 @@ outputs:
     label: Time to Double
   - id: requiredRate
     label: Required Rate
-    unit: '%'
+
   - id: finalBalance
     label: Final Balance
   - id: totalGrowth

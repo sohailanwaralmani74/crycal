@@ -89,7 +89,7 @@ outputs:
     label: Ending Balance
   - id: withdrawalRate
     label: Your Current Withdrawal Rate (%)
-    unit: '%'
+
 
 charts:
   tabs:

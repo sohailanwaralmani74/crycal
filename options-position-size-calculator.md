@@ -84,7 +84,7 @@ outputs:
     label: Delta-Adjusted Exposure
   - id: effectiveDelta
     label: Effective Delta (%)
-    unit: '%'
+
 
 charts:
   tabs:

@@ -8,6 +8,58 @@ keywords: compound interest calculator, retirement calculator, mortgage calculat
 ---
 
 <!-- ============================================================ -->
+<!-- STRUCTURED DATA – FOR CRAWLERS / SEO BOTS                     -->
+<!-- ============================================================ -->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Wanjaaro",
+  "url": "https://wanjaaro.com/",
+  "applicationCategory": "FinanceApplication",
+  "operatingSystem": "Any (runs in browser)",
+  "browserRequirements": "Requires JavaScript",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "description": "Free, browser-based financial calculators for savings, retirement, mortgages, debt, insurance, tax, and budgeting. All calculations run locally — no signup, no server uploads, no data transmission.",
+  "featureList": [
+    "Clear, descriptive labels on every input and output",
+    "Compact layout that fits within the viewport with minimal scrolling",
+    "Consistent layout across all calculators",
+    "Live recalculation on every input change",
+    "Fully responsive on desktop and mobile",
+    "Prominent page title identifying the current calculator",
+    "Breadcrumb navigation for context",
+    "Calculation history",
+    "Share calculation with full state restoration via link",
+    "Export calculation history to CSV",
+    "Export calculation history to Excel",
+    "One-click reset",
+    "Preset selection for common scenarios",
+    "Interactive charts and visualizations",
+    "Mathematical results shown separately from visual results",
+    "Two-column output layout for easy comparison",
+    "100% local, client-side calculations",
+    "No server processing of financial data",
+    "No user data transmission",
+    "Automatic history cleanup",
+    "Minimal external dependencies for fast loading",
+    "Formula explanations for every calculator",
+    "Step-by-step how-to guidance",
+    "Frequently asked questions per calculator",
+    "Educational/illustrative disclaimer",
+    "Clearly labeled units throughout",
+    "Related tools sidebar for cross-navigation",
+    "Strong internal linking between related calculators"
+  ]
+}
+</script>
+
+<!-- ============================================================ -->
 <!-- HERO                                                          -->
 <!-- ============================================================ -->
 
@@ -95,6 +147,80 @@ keywords: compound interest calculator, retirement calculator, mortgage calculat
 </section>
 
 <!-- ============================================================ -->
+<!-- WHAT EVERY CALCULATOR INCLUDES – FEATURES FOR USERS & BOTS   -->
+<!-- ============================================================ -->
+
+<section class="content-section features-section">
+  <h2>What Every Calculator Includes</h2>
+  <p>
+    Every calculator on Wanjaaro is built to the same standard, so once you've
+    used one, you know your way around all 58.
+  </p>
+
+  <div class="feature-group">
+    <h3>Clear, Consistent Experience</h3>
+    <ul>
+      <li>Descriptive labels on every input and output</li>
+      <li>Compact layout that fits your screen with minimal scrolling</li>
+      <li>The same layout and controls across every calculator</li>
+      <li>Live recalculation as soon as you change a value</li>
+      <li>Fully responsive on desktop and mobile</li>
+      <li>A prominent title so you always know which calculator you're using</li>
+      <li>Breadcrumb navigation for context</li>
+    </ul>
+  </div>
+
+  <div class="feature-group">
+    <h3>Built for Repeat Use</h3>
+    <ul>
+      <li>Calculation history, so you can revisit past scenarios</li>
+      <li>Share a calculation via link with full state restoration</li>
+      <li>Export your history to CSV or Excel</li>
+      <li>One-click reset</li>
+      <li>Preset selection for common scenarios</li>
+    </ul>
+  </div>
+
+  <div class="feature-group">
+    <h3>See the Numbers, See the Picture</h3>
+    <ul>
+      <li>Interactive charts alongside every result</li>
+      <li>Mathematical results kept separate from visual results</li>
+      <li>Two-column output layout for easy comparison</li>
+    </ul>
+  </div>
+
+  <div class="feature-group">
+    <h3>Private by Design</h3>
+    <ul>
+      <li>100% local calculations — nothing is sent to a server</li>
+      <li>No user data transmission, ever</li>
+      <li>Automatic history cleanup</li>
+      <li>Minimal external dependencies for fast, lightweight pages</li>
+    </ul>
+  </div>
+
+  <div class="feature-group">
+    <h3>Learn as You Go</h3>
+    <ul>
+      <li>Plain-language formula explanations</li>
+      <li>A how-to section for every calculator</li>
+      <li>A calculator-specific FAQ</li>
+      <li>Clear labels and units throughout</li>
+    </ul>
+  </div>
+
+  <p class="disclaimer">
+    <strong>Educational/illustrative disclaimer:</strong> Wanjaaro's calculators
+    are provided for educational and illustrative purposes only. Results are
+    estimates based on the inputs you provide and standard formulas — they are
+    not financial, tax, or legal advice. Always confirm rates, terms, and
+    figures with your bank, lender, insurer, or a qualified advisor before
+    making a decision.
+  </p>
+</section>
+
+<!-- ============================================================ -->
 <!-- WHY Wanjaaro – DESCRIBED IN PROSE                              -->
 <!-- ============================================================ -->
 
@@ -175,6 +301,24 @@ keywords: compound interest calculator, retirement calculator, mortgage calculat
     <p>
       Fully responsive. All calculators work on smartphones, tablets, and desktops
       without any app download.
+    </p>
+  </div>
+
+  <div class="faq-item">
+    <h3>Can I save or share my calculation?</h3>
+    <p>
+      Yes. Every calculator keeps a local calculation history that you can export
+      to CSV or Excel, and you can share any calculation as a link that fully
+      restores your inputs and results for whoever opens it.
+    </p>
+  </div>
+
+  <div class="faq-item">
+    <h3>Is my financial data ever sent to your servers?</h3>
+    <p>
+      No. Every calculation runs 100% locally in your browser. Nothing you enter
+      is transmitted or stored on our servers, and calculation history is cleaned
+      up automatically.
     </p>
   </div>
 </section>

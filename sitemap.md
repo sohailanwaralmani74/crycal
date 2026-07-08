@@ -94,6 +94,8 @@ This page lists every public page on Wanjaaro. Use these links to navigate the f
 - <a href="debt-to-income-calculator">Debt-to-Income Calculator</a> — Calculates DTI ratio used by lenders to assess borrowing capacity.
 - <a href="emergency-fund-calculator">Emergency Fund Calculator</a> — Estimates the savings needed to cover 3–6 months of essential expenses.
 - <a href="/biweekly-budget-calculator">Biweekly Budget Calculator</a> — Plan your budget on a biweekly cycle.
+- <a href="/credit-limit-calculator">Credit Limit Calculator</a> — Estimate your credit card limit.
+
 ---
 ### Investing 
 

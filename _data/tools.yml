@@ -259,6 +259,18 @@
   type: tool
   short_name: Biweekly Budget  
 
+- url: /credit-score-simulator
+  title: Credit Score Simulator
+  category: budgeting
+  type: tool
+  short_name: Credit Score Simulator
+
+- url: /credit-limit-calculator
+  title: Credit Limit Calculator
+  category: budgeting
+  type: tool
+  short_name: Credit Limit
+
 # ============================================================
 # INVESTING
 # ============================================================

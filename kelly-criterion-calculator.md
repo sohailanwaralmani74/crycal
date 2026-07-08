@@ -58,15 +58,15 @@ inputs:
 outputs:
   - id: kellyFraction
     label: Kelly Fraction
-    unit: '%'
+
   - id: optimalBetSize
     label: Optimal Bet Size
-    unit: '%'
+
   - id: optimalAmount
     label: Optimal Amount to Risk
   - id: expectedGrowthRate
     label: Expected Growth Rate
-    unit: '%'
+
   - id: halfKellyAmount
     label: Half-Kelly Amount
   - id: quarterKellyAmount

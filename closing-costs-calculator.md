@@ -121,7 +121,7 @@ outputs:
     label: Total Closing Costs
   - id: percentOfLoan
     label: Percent of Loan Amount
-    unit: '%'
+
   - id: originationFeeDisplay
     label: Origination Fee
   - id: appraisalFeeDisplay

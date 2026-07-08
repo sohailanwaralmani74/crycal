@@ -113,10 +113,10 @@ outputs:
     label: Estimated Monthly Payment
   - id: frontEndRatio
     label: Front-End DTI (%)
-    unit: '%'
+
   - id: backEndRatio
     label: Back-End DTI (%)
-    unit: '%'
+
   - id: remainingIncome
     label: Remaining Monthly Income
 

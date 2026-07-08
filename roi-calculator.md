@@ -37,10 +37,10 @@ inputs:
 outputs:
   - id: totalROI
     label: Total ROI
-    unit: '%'
+
   - id: annualizedROI
     label: Annualized ROI (CAGR)
-    unit: '%'
+
   - id: netProfit
     label: Net Profit
   - id: totalInvested
