@@ -34,6 +34,7 @@ This page lists every public page on Wanjaaro. Use these links to navigate the f
 - <a href="dollar-cost-averaging-calculator">Dollar Cost Averaging Calculator</a> — Compares lump-sum investing against fixed periodic contributions.
 - <a href="investment-calculator">Investment Calculator</a> — General-purpose growth projection for a one-time or recurring investment.
 - <a href="/compound-annual-growth-rate-calculator">Compound Annual Growth Rate Calculator</a> — Calculate annualized investment returns.
+- <a href="/hysa-calculator">HYSA Calculator</a> — Calculate your high-yield savings growth with compound interest and monthly contributions.
 
 ---
 
@@ -57,6 +58,7 @@ This page lists every public page on Wanjaaro. Use these links to navigate the f
 - <a href="mortgage-payoff-calculator">Mortgage Payoff Calculator</a> — Shows time and interest saved from extra principal payments.
 - <a href="/pmi-calculator">PMI Calculator</a> — Calculate Private Mortgage Insurance costs and cancellation date.
 - <a href="/property-tax-calculator">Property Tax Calculator</a> — Estimate annual and monthly property taxes.
+- <a href="/long-island-closing-costs-calculator">Long Island Closing Costs Calculator</a> — Estimate buyer and seller closing costs for Nassau and Suffolk County properties, including mortgage recording tax, title insurance, and escrow deposits.
 
 ---
 
@@ -75,7 +77,7 @@ This page lists every public page on Wanjaaro. Use these links to navigate the f
 - <a href="life-insurance-calculator">Life Insurance Calculator</a> — Estimates income-replacement coverage needed based on dependents and debts.
 - <a href="disability-insurance-calculator">Disability Insurance Calculator</a> — Estimates the income gap if unable to work for an extended period.
 - <a href="term-vs-whole-life-calculator">Term vs Whole Life Calculator</a> — Compares cost and cash-value growth between term and whole life policies.
-
+- <a href="/idv-calculator">IDV Calculator</a> — Calculate your car's Insured Declared Value for insurance in India, US, UK, UAE, Canada, and Australia.
 ---
 
 ## Tax 
@@ -108,6 +110,7 @@ This page lists every public page on Wanjaaro. Use these links to navigate the f
 - <a href="risk-reward-ratio-calculator">Risk/Reward Ratio Calculator</a> — Evaluate trade setups.
 - <a href="kelly-criterion-calculator">Kelly Criterion Calculator</a> — Optimal position sizing for long-term growth.
 - <a href="/roi-calculator">ROI Calculator</a> — Calculate your return on investment.
+- <a href="/pip-calculator">Pip Calculator</a> — Calculate pip value for any Forex trade.
 
 ---
 

@@ -232,7 +232,7 @@ h4 { font-size: 1.1rem;  border-left: 0.1500rem solid transparent; border-left-c
   border-radius: 0 0 0.5rem 0.5rem;
   box-shadow: 0 0.75rem 1.875rem rgba(11, 32, 39, 0.12);
   padding: 1.5rem 1rem;
-  min-width: 33rem; /* 480px */
+  min-width: max-content; /* 480px */
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
@@ -249,7 +249,7 @@ h4 { font-size: 1.1rem;  border-left: 0.1500rem solid transparent; border-left-c
 
 .mega-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(3, minmax(max-content, auto));
   gap: 0.5rem 1rem;
 }
 
@@ -869,6 +869,7 @@ h4 { font-size: 1.1rem;  border-left: 0.1500rem solid transparent; border-left-c
   }
   .header-actions .currency-picker {
     display: none;
+    max-width: 10rem;
   }
   .header-inner {
     height: 3.75rem; /* 60px */

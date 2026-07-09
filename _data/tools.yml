@@ -55,6 +55,12 @@
   type: tool
   short_name: CAGR Calculator   
 
+- url: /hysa-calculator
+  title: HYSA Calculator
+  category: growth
+  type: tool
+  short_name: HYSA Calculator
+
 # ============================================================
 # RETIREMENT
 # ============================================================
@@ -127,6 +133,12 @@
   type: tool
   short_name: Mortgage Payoff
 
+- url: /long-island-closing-costs-calculator
+  title: Long Island Closing Costs Calculator
+  category: mortgage
+  type: tool
+  short_name: Closing Costs Calculator
+
 # ============================================================
 # DEBT & LOANS
 # ============================================================
@@ -181,6 +193,12 @@
   type: tool
   short_name: Term vs Whole
 
+- url: /idv-calculator
+  title: IDV Calculator
+  category: insurance
+  type: tool
+  short_name: IDV Calculator
+  
 # ============================================================
 # TAX & INCOME
 # ============================================================
@@ -327,6 +345,12 @@
   category: investing
   type: tool
   short_name: ROI Calculator  
+
+- url: /pip-calculator
+  title: Pip Calculator
+  category: trading
+  type: tool
+  short_name: Pip Calculator  
 
 # ============================================================
 # DEBT (New Tools)
