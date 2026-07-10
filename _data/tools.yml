@@ -172,6 +172,11 @@
   type: tool
   short_name: Amortization
 
+- url: /debt-to-income-ratio-calculator
+  title: Debt to Income Ratio Calculator
+  category: debt
+  type: tool
+  short_name: DTI Calculator
 # ============================================================
 # INSURANCE
 # ============================================================
@@ -198,7 +203,7 @@
   category: insurance
   type: tool
   short_name: IDV Calculator
-  
+
 # ============================================================
 # TAX & INCOME
 # ============================================================

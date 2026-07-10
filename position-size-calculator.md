@@ -128,8 +128,8 @@ structured_data:
 breadcrumb:
   - name: Home
     url: /
-  - name: Trading
-    url: /trading
+  - name: Investing
+    url: /investing
   - name: Position Size Calculator
 
 howto:

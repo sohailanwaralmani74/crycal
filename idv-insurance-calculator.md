@@ -226,4 +226,5 @@ Yes. Absolutely. All calculations run locally in your browser. We do not collect
 
 ### Can I use this for any country?
 Yes. The tool is country-agnostic. Use your local currency via the global picker and adjust the depreciation rate to match your country's insurance rules.
+
 ---

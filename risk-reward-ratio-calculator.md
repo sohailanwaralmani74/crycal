@@ -148,8 +148,8 @@ structured_data:
 breadcrumb:
   - name: Home
     url: /
-  - name: Trading
-    url: /trading
+  - name: Investing
+    url: /investing
   - name: Risk Reward Ratio Calculator
 
 howto:

@@ -69,6 +69,7 @@ This page lists every public page on Wanjaaro. Use these links to navigate the f
 - <a href="debt-snowball-calculator">Debt Snowball Calculator</a> — Orders multiple debts smallest-to-largest for fastest early wins.
 - <a href="debt-avalanche-calculator">Debt Avalanche Calculator</a> — Orders multiple debts by highest interest rate first to minimize total interest paid.
 - <a href="amortization-calculator">Amortization Calculator</a> — Generates a full payment-by-payment breakdown of principal and interest.
+- <a href="/debt-to-income-ratio-calculator">Debt to Income Ratio Calculator</a> — Calculate your debt-to-income ratio (DTI) and check loan eligibility instantly.
 
 ---
 
