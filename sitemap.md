@@ -35,18 +35,25 @@ This page lists every public page on Wanjaaro. Use these links to navigate the f
 - <a href="investment-calculator">Investment Calculator</a> — General-purpose growth projection for a one-time or recurring investment.
 - <a href="/compound-annual-growth-rate-calculator">Compound Annual Growth Rate Calculator</a> — Calculate annualized investment returns.
 - <a href="/hysa-calculator">HYSA Calculator</a> — Calculate your high-yield savings growth with compound interest and monthly contributions.
-
+- <a href="/cd-ladder-calculator">CD Ladder Calculator</a> — Build your certificate of deposit ladder strategy and optimize yield and liquidity.
+- <a href="/i-bond-calculator">I Bond Calculator</a> — Calculate the current value of your Series I Savings Bond and see how inflation affects your return.
+<li><a href="/stock-split-calculator">Stock Split Calculator</a></li>
+- <a href="/dividend-yield-on-cost-calculator">Dividend Yield on Cost Calculator</a> — Calculate your yield on cost (YOC) and see how dividend growth boosts your returns.
 ---
 
 ## Retirement
-
+- <a href="/rmd-calculator">RMD Calculator</a> — Calculate your Required Minimum Distribution from retirement accounts and avoid IRS penalties.
+- <a href="/social-security-break-even-calculator">Social Security Break-Even Calculator</a> — Compare claiming ages 62, 67, and 70 to find your break-even point.
+- <a href="/pension-lump-sum-vs-annuity-calculator">Pension Lump Sum vs Annuity Calculator</a> — Compare taking a lump sum payout versus a lifetime annuity pension.
+- <a href="/backdoor-roth-ira-calculator">Backdoor Roth IRA Calculator</a> — Determine your Backdoor Roth IRA eligibility and calculate tax implications.
 - <a href="retirement-calculator">Retirement Calculator</a> — Projects retirement savings and identifies potential shortfalls based on current contributions.
 - <a href="401k-calculator">401k Calculator</a> — Models employer match, contribution limits, and long-term account growth.
 - <a href="ira-calculator">IRA Calculator</a> — Projects traditional IRA growth and estimated tax-deferred value at retirement.
 - <a href="roth-ira-calculator">Roth IRA Calculator</a> — Projects tax-free growth and compares to a traditional IRA.
 - <a href="retirement-withdrawal-calculator">Retirement Withdrawal Calculator</a> — Estimates how long savings will last at a given withdrawal rate.
 - <a href="fire-calculator">FIRE Calculator</a> — Calculates the savings needed to reach financial independence based on target expenses.
-
+- <a href="/coast-fire-calculator">Coast FIRE Calculator</a> — Find your Coast FIRE number and discover when you can stop saving for retirement.
+- <a href="/barista-fire-calculator">Barista FIRE Calculator</a> — Calculate your Barista FIRE number and discover when you can semi-retire with part-time work.
 ---
 
 ## Mortgage 
@@ -70,7 +77,7 @@ This page lists every public page on Wanjaaro. Use these links to navigate the f
 - <a href="debt-avalanche-calculator">Debt Avalanche Calculator</a> — Orders multiple debts by highest interest rate first to minimize total interest paid.
 - <a href="amortization-calculator">Amortization Calculator</a> — Generates a full payment-by-payment breakdown of principal and interest.
 - <a href="/debt-to-income-ratio-calculator">Debt to Income Ratio Calculator</a> — Calculate your debt-to-income ratio (DTI) and check loan eligibility instantly.
-
+- <a href="/debt-to-credit-ratio-calculator">Debt to Credit Ratio Calculator</a> — Calculate your credit utilization and see how it affects your credit score.
 ---
 
 ## Insurance 

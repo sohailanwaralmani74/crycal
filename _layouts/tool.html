@@ -42,36 +42,46 @@ layout: default
   <!-- INPUTS AREA — DYNAMIC SINGLE ROW -->
   <div class="inputs-area" id="inputsArea">
     <div class="input-row-single" id="inputRow">
-      {% for input in page.inputs %}
-      <div class="input-group">
-        <label for="input_{{ input.id }}">{{ input.label }}</label>
-        <div class="input-wrapper">
-          {% if input.prefix %}
-          <span class="input-prefix">{{ input.prefix }}</span>
-          {% endif %}
+  {% for input in page.inputs %}
+  <div class="input-group">
+    <label for="input_{{ input.id }}">{{ input.label }}</label>
+    <div class="input-wrapper">
+      {% if input.prefix %}
+      <span class="input-prefix">{{ input.prefix }}</span>
+      {% endif %}
 
-          {% if input.type == "select" %}
-          <select id="input_{{ input.id }}" data-default="{{ input.default }}">
-            {% for option in input.options %}
-            <option value="{{ option }}" {% if option==input.default %}selected{% endif %}>{{ option }}</option>
-            {% endfor %}
-          </select>
-          {% elsif input.type == "text" %}
-          <input type="text" id="input_{{ input.id }}" value="{{ input.default }}" placeholder="{{ input.placeholder }}"
-            list="{{ input.datalist }}" data-default="{{ input.default }}">
-          {% else %}
-          <input type="number" id="input_{{ input.id }}" value="{{ input.default }}" step="{{ input.step }}"
-            min="{{ input.min }}" max="{{ input.max }}" placeholder="{{ input.placeholder }}"
-            data-default="{{ input.default }}">
-          {% endif %}
+      {% if input.type == "select" %}
+      <select id="input_{{ input.id }}" data-default="{{ input.default }}">
+        {% for option in input.options %}
+        <option value="{{ option }}" {% if option==input.default %}selected{% endif %}>{{ option }}</option>
+        {% endfor %}
+      </select>
 
-          {% if input.suffix %}
-          <span class="input-suffix">{{ input.suffix }}</span>
-          {% endif %}
-        </div>
-      </div>
-      {% endfor %}
+      {% elsif input.type == "date" %}
+      <input type="date" id="input_{{ input.id }}" value="{{ input.default }}" placeholder="{{ input.placeholder }}"
+        data-default="{{ input.default }}">
+
+      {% elsif input.type == "month" %}
+      <input type="month" id="input_{{ input.id }}" value="{{ input.default }}" placeholder="{{ input.placeholder }}"
+        data-default="{{ input.default }}">
+
+      {% elsif input.type == "text" %}
+      <input type="text" id="input_{{ input.id }}" value="{{ input.default }}" placeholder="{{ input.placeholder }}"
+        list="{{ input.datalist }}" data-default="{{ input.default }}">
+
+      {% else %}
+      <input type="number" id="input_{{ input.id }}" value="{{ input.default }}" step="{{ input.step }}"
+        min="{{ input.min }}" max="{{ input.max }}" placeholder="{{ input.placeholder }}"
+        data-default="{{ input.default }}">
+      {% endif %}
+
+      {% if input.suffix %}
+      <span class="input-suffix">{{ input.suffix }}</span>
+      {% endif %}
     </div>
+  </div>
+  {% endfor %}
+</div>
 
     <!-- BRACKET LIST (for Tax Bracket Calculator) -->
 <div id="bracketSection" style="display: none;">

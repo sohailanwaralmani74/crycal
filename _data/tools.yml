@@ -61,9 +61,57 @@
   type: tool
   short_name: HYSA Calculator
 
+- url: /cd-ladder-calculator
+  title: CD Ladder Calculator
+  category: growth
+  type: tool
+  short_name: CD Ladder Calculator
+
+- url: /i-bond-calculator
+  title: I Bond Calculator
+  category: growth
+  type: tool
+  short_name: I Bond Calculator
+
+- url: /stock-split-calculator
+  title: Stock Split Calculator
+  category: growth
+  type: tool
+  short_name: Stock Split Calculator
+
+- url: /dividend-yield-on-cost-calculator
+  title: Dividend Yield on Cost Calculator
+  category: growth
+  type: tool
+  short_name: YOC Calculator    
 # ============================================================
 # RETIREMENT
 # ============================================================
+
+- url: /rmd-calculator
+  title: RMD Calculator
+  category: retirement
+  type: tool
+  short_name: RMD Calculator
+
+- url: /backdoor-roth-ira-calculator
+  title: Backdoor Roth IRA Calculator
+  category: retirement
+  type: tool
+  short_name: Backdoor Roth IRA
+  
+- url: /pension-lump-sum-vs-annuity-calculator
+  title: Pension Lump Sum vs Annuity Calculator
+  category: retirement
+  type: tool
+  short_name: Lump Sum vs Annuity
+
+- url: /social-security-break-even-calculator
+  title: Social Security Break-Even Calculator
+  category: retirement
+  type: tool
+  short_name: SS Break-Even Calculator
+
 - url: /retirement-calculator
   title: Retirement Calculator
   category: retirement
@@ -99,6 +147,19 @@
   category: retirement
   type: tool
   short_name: FIRE
+
+- url: /coast-fire-calculator
+  title: Coast FIRE Calculator
+  category: retirement
+  type: tool
+  short_name: Coast FIRE Calculator
+
+- url: /barista-fire-calculator
+  title: Barista FIRE Calculator
+  category: retirement
+  type: tool
+  short_name: Barista FIRE Calculator
+
 
 # ============================================================
 # MORTGAGE & REAL ESTATE
@@ -177,6 +238,12 @@
   category: debt
   type: tool
   short_name: DTI Calculator
+
+- url: /debt-to-credit-ratio-calculator
+  title: Debt to Credit Ratio Calculator
+  category: debt
+  type: tool
+  short_name: Credit Utilization  
 # ============================================================
 # INSURANCE
 # ============================================================
