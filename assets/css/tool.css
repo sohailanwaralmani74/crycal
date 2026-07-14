@@ -629,7 +629,9 @@
     min-width: 100px;
   }
 }
-
+  .currency-select {
+    max-width: 10rem;
+  }
 @media (max-width: 48rem) {
   .tool-header {
     padding: 0.5rem 1rem;
@@ -637,8 +639,9 @@
   .tool-header h1 {
     font-size: 1.1rem;
   }
-  .toolbar {
-    padding: 0.5rem 1rem;
+  .toolbar .header-actions {
+    padding: 0.5rem;
+    flex-direction: column;
   }
   .inputs-area {
     padding: 0.75rem 1rem;
@@ -701,7 +704,10 @@
   .input-row-single .input-group {
     flex: 1 0 100%;
   }
-
+.toolbar .header-actions {
+    padding: 0.5rem;
+    flex-direction: column;
+  }
   .history-table {
     font-size: 0.65rem;
     min-width: 24rem;
@@ -824,6 +830,10 @@
   .btn-debt-remove {
     align-self: flex-end;
   }
+  .toolbar .header-actions {
+    padding: 0.5rem;
+    flex-direction: column;
+  }
 }
 /* ── Subscription Items ── */
 .subscription-list-container {
@@ -922,6 +932,10 @@
   }
   .btn-sub-remove {
     align-self: flex-end;
+  }
+  .toolbar .header-actions {
+    padding: 0.5rem;
+    flex-direction: column;
   }
 }
 /* ── Zero-Based Budget Lists ── */

@@ -1,6 +1,18 @@
 # ============================================================
 # GROWTH & SAVINGS
 # ============================================================
+- url: /us-inflation-calculator
+  title: US Inflation Calculator
+  category: growth
+  type: tool
+  short_name: Inflation Calculator
+
+- url: /fixed-deposit-monthly-return-calculator
+  title: Fixed Deposit Monthly Return Calculator
+  category: growth
+  type: tool
+  short_name: FD Monthly Return Calculator
+    
 - url: /compound-interest-calculator
   title: Compound Interest Calculator
   category: growth
@@ -274,6 +286,12 @@
 # ============================================================
 # TAX & INCOME
 # ============================================================
+- url: /vat-calculator
+  title: VAT Calculator
+  category: tax
+  type: tool
+  short_name: VAT Calculator
+
 - url: /tax-bracket-calculator
   title: Tax Bracket Calculator
   category: tax

@@ -39,6 +39,8 @@ This page lists every public page on Wanjaaro. Use these links to navigate the f
 - <a href="/i-bond-calculator">I Bond Calculator</a> — Calculate the current value of your Series I Savings Bond and see how inflation affects your return.
 <li><a href="/stock-split-calculator">Stock Split Calculator</a></li>
 - <a href="/dividend-yield-on-cost-calculator">Dividend Yield on Cost Calculator</a> — Calculate your yield on cost (YOC) and see how dividend growth boosts your returns.
+- <a href="/us-inflation-calculator">US Inflation Calculator</a> — Calculate the inflation-adjusted value of the US dollar over time.
+- <a href="/fixed-deposit-monthly-return-calculator">Fixed Deposit Monthly Return Calculator</a> — Calculate monthly interest, total interest, and maturity value for your fixed deposit investment.
 ---
 
 ## Retirement
@@ -94,7 +96,7 @@ This page lists every public page on Wanjaaro. Use these links to navigate the f
 - <a href="take-home-pay-calculator">Take-Home Pay Calculator</a> — Estimates net pay after taxes and standard deductions.
 - <a href="capital-gains-calculator">Capital Gains Calculator</a> — Calculates tax owed on short-term or long-term investment gains.
 - <a href="self-employment-tax-calculator">Self-Employment Tax Calculator</a> — Estimates quarterly tax obligations for freelancers and independent contractors.
-
+- <a href="/vat-calculator">VAT Calculator</a> — Calculate Value Added Tax (VAT) for any product or service.
 ---
 
 ## Budgeting 
