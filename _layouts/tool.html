@@ -183,7 +183,56 @@ layout: default
     </div>
   
   </div>
-  
+  <!-- ─── RETIREMENT PLANNER TIPS ─── -->
+{% if page.show_tips %}
+  <style>
+    /* Inline CSS for tips */
+    .tips-container {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      width: 100%;
+    }
+    .tip-item {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: 8px;
+      padding: 0.75rem 1rem;
+      text-align: left;
+    }
+    .tip-type {
+      font-size: 0.7rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #8899aa;
+      margin-bottom: 0.2rem;
+    }
+    .tip-title {
+      font-weight: 600;
+      font-size: 0.95rem;
+    }
+    .tip-advice {
+      font-size: 0.9rem;
+      margin: 0.25rem 0;
+    }
+    .tip-action {
+      color: #4ade80;
+      font-size: 0.85rem;
+      padding-top: 0.3rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.04);
+      margin-top: 0.3rem;
+    }
+  </style>
+  <div class="output-group" id="retirement-tips">
+    <label>💡 Personalized Tips</label>
+    <div class="output-value">
+      <div id="tips-container">
+        <span class="output-number">—</span>
+      </div>
+    </div>
+  </div>
+{% endif %}
   <div class="tool-disclaimer">
     ⚠️ <strong>Illustrative only.</strong> Not financial advice. Please delete history timely, it may impact your
     browser performance.

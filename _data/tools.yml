@@ -12,7 +12,7 @@
   category: growth
   type: tool
   short_name: FD Monthly Return Calculator
-    
+
 - url: /compound-interest-calculator
   title: Compound Interest Calculator
   category: growth
@@ -111,7 +111,13 @@
   category: retirement
   type: tool
   short_name: Backdoor Roth IRA
-  
+
+- url: /retirement-planner
+  title: Retirement Planner
+  category: retirement
+  type: tool
+  short_name: Retirement Planner
+    
 - url: /pension-lump-sum-vs-annuity-calculator
   title: Pension Lump Sum vs Annuity Calculator
   category: retirement
