@@ -3,6 +3,7 @@ layout: default
 title: Contact Wanjaaro — Financial Calculator Help & Support
 description: Have questions about our financial calculators? Contact the Wanjaaro team for support, feedback, or feature requests.
 permalink: /contact-us
+is_homepage: true
 ---
 
 # Contact Wanjaaro – Financial Calculator Help
