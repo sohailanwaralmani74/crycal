@@ -1,7 +1,7 @@
 ---
 layout: tool
 title: Coast FIRE Calculator – When Can You Stop Saving for Retirement?
-description: Use our free Coast FIRE Calculator to find your Coast FIRE number. Enter your current savings, retirement goals, and expected returns to see when you can stop contributing and coast to retirement.
+description: Enter your current savings, retirement goals, and expected returns to see when you can stop contributing and Coast FIRE number to retirement.
 permalink: /coast-fire-calculator
 tool_id: coast-fire-calculator
 category: retirement

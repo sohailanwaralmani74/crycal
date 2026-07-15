@@ -133,7 +133,7 @@ faq:
 
 ---
 
-# Compound Annual Growth Rate Calculator – Calculate Your Investment Return
+# CAGR Claulator - Calculate Compound Annual Growth Rate 
 
 Use this compound annual growth rate calculator to calculate the annualized return of your investments. Enter your initial value, final value, and time period — the tool shows your CAGR, total return, and total gain. This CAGR growth rate calculator helps you evaluate investment performance over time.
 

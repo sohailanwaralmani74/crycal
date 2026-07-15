@@ -44,13 +44,6 @@
                 {% if page.read_time %}
                   <span class="post-read-time"> · {{ page.read_time }} min read</span>
                 {% endif %}
-                {% if page.categories %}
-                  <span class="post-categories">
-                    · {% for cat in page.categories %}
-                      <a href="/blog/category/{{ cat | slugify }}">{{ cat }}</a>{% unless forloop.last %}, {% endunless %}
-                    {% endfor %}
-                  </span>
-                {% endif %}
               </div>
 
               {% if page.featured_image %}
@@ -194,15 +187,6 @@
             html += '<li><a href="' + tool.url + '">' + tool.icon + ' ' + tool.title + '</a></li>';
           });
           relatedList.innerHTML = html;
-        }
-
-        // ── POPULATE RELATED POSTS ──
-        var postsContainer = document.getElementById('relatedPosts');
-        if (postsContainer) {
-          // This will be populated from front matter categories
-          // For now, use a placeholder or let Jekyll handle it
-          var postsHtml = '<p class="no-related">Check back soon for more posts. <a href="/blog">Browse all posts →</a></p>';
-          postsContainer.innerHTML = postsHtml;
         }
 
       })();

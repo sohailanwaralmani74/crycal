@@ -1,7 +1,7 @@
 ---
 layout: tool
 title: HYSA Calculator – High-Yield Savings Interest Calculator
-description: Use our free HYSA interest calculator to estimate your savings growth with compound interest. Compare daily, monthly, and quarterly compounding for your high-yield savings account.
+description: Use our free HYSA interest calculator to estimate savings growth with compound interest. Compare compounding for high-yield savings account.
 permalink: /hysa-calculator
 tool_id: hysa-calculator
 category: growth

@@ -1,7 +1,7 @@
 ---
 layout: tool
 title: US Inflation Calculator – Calculate Dollar Value Over Time
-description: Use our free US Inflation Calculator to see how the value of the dollar has changed over time. Select a start year and end year to see the inflation-adjusted value.
+description: Use free US Inflation Calculator to see how the value of the dollar has changed over time. Select a start year and end year for inflation-adjusted value.
 permalink: /us-inflation-calculator
 tool_id: us-inflation-calculator
 category: growth

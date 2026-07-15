@@ -1,7 +1,7 @@
 ---
 layout: tool
 title: Debt to Income Ratio Calculator – Calculate Your DTI
-description: Use our free Debt to Income Ratio Calculator to determine your DTI. Enter your monthly debt payments and income to see your debt-to-income ratio and loan eligibility.
+description: Use Debt to Income Ratio Calculator to determine your DTI. Enter monthly debt payments and income to see debt-to-income ratio and loan eligibility.
 permalink: /debt-to-income-ratio-calculator
 tool_id: debt-to-income-ratio
 category: debt

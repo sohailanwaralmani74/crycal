@@ -28,9 +28,6 @@ budgeting:
   parent: Budgeting
   parent_url: /budgeting
 
-trading:
-  parent: Trading
-  parent_url: /trading
 
 investing:
   parent: Investing

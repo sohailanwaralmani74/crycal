@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: Long Island Closing Costs Calculator – Estimate Nassau & Suffolk County Fees
+title: Estimate Nassau & Suffolk County Fees
 description: Calculate buyer and seller closing costs for Long Island (Nassau & Suffolk County). Includes mortgage recording tax, title insurance, escrow, and more. 
 permalink: /long-island-closing-costs-calculator
 tool_id: long-island-closing-costs

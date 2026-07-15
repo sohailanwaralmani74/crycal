@@ -1,10 +1,10 @@
 ---
 layout: tool
-title: Pip Calculator – Calculate Pip Value for Any Market (with Live Conversion)
-description: Calculate the pip value for any market and convert it to your account currency using live exchange rates. Enter pip size, contract size, and trade size to see your pip value.
+title: Calculate Pip Value  | Wanjaaro Claculators
+description: Calculate the pip value for any market. Enter pip size, contract size, and trade size to see your pip value. Supports local currency exchange.
 permalink: /pip-calculator
 tool_id: pip-calculator
-category: trading
+category: investing
 hide_sidebar: true
 
 inputs:

@@ -1,7 +1,7 @@
 ---
 layout: tool
 title: I Bond Calculator – Calculate Your Series I Savings Bond Value
-description: Use our free I Bond Calculator to determine the current value of your Series I Savings Bond. Enter your purchase date, amount, and fixed rate to see your bond's redemption value and total interest earned.
+description: Enter your purchase date, amount, and fixed rate to see your bond's redemption value and total interest earned using I Bond Calculator.
 permalink: /i-bond-calculator
 tool_id: i-bond-calculator
 category: growth
