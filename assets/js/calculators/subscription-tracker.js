@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   Wanjaaro — Subscription Tracker Calculator
+   Wanjaaro — Subscription Calculator
    Tool ID: subscription-tracker
 ═══════════════════════════════════════════════════════════ */
 

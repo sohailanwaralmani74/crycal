@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Wanjaaro — Free Financial Calculators
-description: Free, browser-based financial calculators for savings, retirement, mortgages, debt, insurance, tax, and budgeting. No signup, no data uploads.
+title: Wanjaaro — Free Finance Calculators for Better decisions 
+description: Free, browser-based financial calculators for growth, saving, retirement, mortgage, debt, insurance, tax, investing, and budgeting. No signup, no uploads.
 is_homepage: true
 permalink: /
 keywords: compound interest calculator, retirement calculator, mortgage calculator, debt payoff calculator, financial calculators, budgeting tools

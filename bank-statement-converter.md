@@ -54,10 +54,6 @@ shortName: Bank Statement Converter
  h2, h3, h4 {
     margin-bottom: 1.5;
  }
-
- p, ul, li, ol {
-    margin-left: 3rem;
- }
   .converter-table thead th {
     text-align: left;
     padding: 0.75rem 1rem;

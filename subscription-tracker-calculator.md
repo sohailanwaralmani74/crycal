@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: Subscription Tracker Calculator
+title: Subscription Calculator - Check You Monthly Cost
 description: Track all your recurring subscriptions and see total monthly and annual costs. Add streaming, gym, and any other subscription services.
 permalink: /subscription-tracker-calculator
 tool_id: subscription-tracker
@@ -61,7 +61,7 @@ js_file: assets/js/calculators/subscription-tracker.js
 structured_data:
   "@context": "https://schema.org"
   "@type": "SoftwareApplication"
-  name: "Subscription Tracker Calculator"
+  name: "Subscription Calculator"
   applicationCategory: "FinancialApplication"
   operatingSystem: "All"
   description: "Track all your recurring subscriptions and see your total monthly and annual costs. Add streaming, gym, software, and any other subscription services."
@@ -84,10 +84,10 @@ breadcrumb:
     url: /
   - name: Budgeting
     url: /budgeting
-  - name: Subscription Tracker Calculator
+  - name: Subscription Calculator
 
 howto:
-  name: "How to Use the Subscription Tracker Calculator"
+  name: "How to Use the Subscription Calculator"
   description: "Follow these steps to track your subscriptions."
   step:
     - name: "Add your subscriptions"
@@ -107,13 +107,13 @@ faq:
 
 ---
 
-# Subscription Tracker Calculator – Track Your Recurring Expenses
+# Subscription Calculator – Track Your Recurring Expenses
 
-Use this subscription tracker calculator to track all your recurring subscriptions and see your total monthly and annual costs. Add streaming services, gym memberships, software subscriptions, and any other recurring expenses — the tool shows your total monthly cost, total yearly cost, and breakdown by category. This subscription cost tracker helps you understand where your money goes.
+Use this Subscription Calculator to track all your recurring subscriptions and see your total monthly and annual costs. Add streaming services, gym memberships, software subscriptions, and any other recurring expenses — the tool shows your total monthly cost, total yearly cost, and breakdown by category. This subscription cost tracker helps you understand where your money goes.
 
 <!-- more -->
 
-## Why Use This Subscription Tracker Calculator
+## Why Use This Subscription Calculator
 
 Subscriptions are one of the easiest expenses to overlook. This subscription tracker helps you:
 

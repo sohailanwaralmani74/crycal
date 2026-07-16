@@ -506,7 +506,7 @@
 # BUDGETING (New Tools)
 # ============================================================
 - url: /subscription-tracker-calculator
-  title: Subscription Tracker Calculator
+  title: Subscription Calculator
   category: budgeting
   type: tool
   short_name: Subscription Tracker
