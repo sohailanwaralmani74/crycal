@@ -7,6 +7,18 @@
   type: tool
   short_name: Inflation Calculator
 
+- url: /sustainable-growth-rate-calculator
+  title: Sustainable Growth Rate Calculator
+  category: growth
+  type: tool
+  short_name: SGR Calculator
+
+- url: /roe-calculator
+  title: ROE Calculator – Return on Equity Calculator
+  category: growth
+  type: tool
+  short_name: ROE Calculator
+
 - url: /fixed-deposit-monthly-return-calculator
   title: Fixed Deposit Monthly Return Calculator
   category: growth
@@ -187,6 +199,12 @@
   category: mortgage
   type: tool
   short_name: Rent vs Buy
+  
+- url: /mortgage-recasting-calculator
+  title: Mortgage Recasting Calculator – Recast Mortgage Payment Estimator
+  category: mortgage
+  type: tool
+  short_name: Mortgage Recast Calculator
 
 - url: /refinance-calculator
   title: Refinance Calculator

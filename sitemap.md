@@ -40,6 +40,8 @@ This page lists every public page on Wanjaaro. Use these links to navigate the f
 - <a href="/dividend-yield-on-cost-calculator">Dividend Yield on Cost Calculator</a> — Calculate your yield on cost (YOC) and see how dividend growth boosts your returns.
 - <a href="/us-inflation-calculator">US Inflation Calculator</a> — Calculate the inflation-adjusted value of the US dollar over time.
 - <a href="/fixed-deposit-monthly-return-calculator">Fixed Deposit Monthly Return Calculator</a> — Calculate monthly interest, total interest, and maturity value for your fixed deposit investment.
+- <a href="/sustainable-growth-rate-calculator">Sustainable Growth Rate Calculator</a> — Calculate the maximum organic growth rate a company can achieve without external equity financing.
+- <a href="/roe-calculator">ROE Calculator</a> — Calculate Return on Equity (ROE) and assess company profitability from shareholders' equity.
 ---
 
 ## Retirement
@@ -67,7 +69,7 @@ This page lists every public page on Wanjaaro. Use these links to navigate the f
 - <a href="/pmi-calculator">PMI Calculator</a> — Calculate Private Mortgage Insurance costs and cancellation date.
 - <a href="/property-tax-calculator">Property Tax Calculator</a> — Estimate annual and monthly property taxes.
 - <a href="/long-island-closing-costs-calculator">Long Island Closing Costs Calculator</a> — Estimate buyer and seller closing costs for Nassau and Suffolk County properties, including mortgage recording tax, title insurance, and escrow deposits.
-
+- <a href="/mortgage-recasting-calculator">Mortgage Recasting Calculator</a> — See how a lump‑sum payment reduces your monthly mortgage payment. Compare current vs recast payments instantly.
 ---
 
 ## Debt 
