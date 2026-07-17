@@ -34,7 +34,6 @@ This page lists every public page on Wanjaaro. Use these links to navigate the f
 - <a href="dollar-cost-averaging-calculator">Dollar Cost Averaging Calculator</a> — Compares lump-sum investing against fixed periodic contributions.
 - <a href="investment-calculator">Investment Calculator</a> — General-purpose growth projection for a one-time or recurring investment.
 - <a href="/compound-annual-growth-rate-calculator">Compound Annual Growth Rate Calculator</a> — Calculate annualized investment returns.
-- <a href="/hysa-calculator">HYSA Calculator</a> — Calculate your high-yield savings growth with compound interest and monthly contributions.
 - <a href="/cd-ladder-calculator">CD Ladder Calculator</a> — Build your certificate of deposit ladder strategy and optimize yield and liquidity.
 - <a href="/i-bond-calculator">I Bond Calculator</a> — Calculate the current value of your Series I Savings Bond and see how inflation affects your return.
 <li><a href="/stock-split-calculator">Stock Split Calculator</a></li>
@@ -78,7 +77,6 @@ This page lists every public page on Wanjaaro. Use these links to navigate the f
 - <a href="debt-snowball-calculator">Debt Snowball Calculator</a> — Orders multiple debts smallest-to-largest for fastest early wins.
 - <a href="debt-avalanche-calculator">Debt Avalanche Calculator</a> — Orders multiple debts by highest interest rate first to minimize total interest paid.
 - <a href="amortization-calculator">Amortization Calculator</a> — Generates a full payment-by-payment breakdown of principal and interest.
-- <a href="/debt-to-income-ratio-calculator">Debt to Income Ratio Calculator</a> — Calculate your debt-to-income ratio (DTI) and check loan eligibility instantly.
 - <a href="/debt-to-credit-ratio-calculator">Debt to Credit Ratio Calculator</a> — Calculate your credit utilization and see how it affects your credit score.
 ---
 

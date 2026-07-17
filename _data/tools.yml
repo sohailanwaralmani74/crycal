@@ -35,7 +35,7 @@
   title: High Yield Savings Calculator
   category: growth
   type: tool
-  short_name: HYSA Calculator
+  short_name: High Yield Savings Calculator
 
 - url: /rule-of-72-calculator
   title: Rule of 72 Calculator
@@ -66,12 +66,6 @@
   category: growth
   type: tool
   short_name: CAGR Calculator   
-
-- url: /hysa-calculator
-  title: HYSA Calculator
-  category: growth
-  type: tool
-  short_name: HYSA Calculator
 
 - url: /cd-ladder-calculator
   title: CD Ladder Calculator
@@ -251,11 +245,6 @@
   type: tool
   short_name: Amortization
 
-- url: /debt-to-income-ratio-calculator
-  title: Debt to Income Ratio Calculator
-  category: debt
-  type: tool
-  short_name: DTI Calculator
 
 - url: /debt-to-credit-ratio-calculator
   title: Debt to Credit Ratio Calculator
@@ -462,7 +451,7 @@
 
 - url: /pip-calculator
   title: Pip Calculator
-  category: trading
+  category: investing
   type: tool
   short_name: Pip Calculator  
 
