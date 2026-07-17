@@ -97,6 +97,9 @@ This page lists every public page on Wanjaaro. Use these links to navigate the f
 - <a href="capital-gains-calculator">Capital Gains Calculator</a> — Calculates tax owed on short-term or long-term investment gains.
 - <a href="self-employment-tax-calculator">Self-Employment Tax Calculator</a> — Estimates quarterly tax obligations for freelancers and independent contractors.
 - <a href="/vat-calculator">VAT Calculator</a> — Calculate Value Added Tax (VAT) for any product or service.
+- <a href="/1099-tax-calculator">1099 Tax Calculator</a> — Estimate self-employment tax, federal tax, state tax, and quarterly payments for independent contractors and freelancers.
+- <a href="/iht-calculator">IHT Calculator</a> — Estimate UK Inheritance Tax (IHT) with nil-rate bands, residence relief, gifts, and charity reduction.
+- <a href="/ato-calculator">ATO Calculator</a> — Estimate Australian BAS liabilities including GST, PAYG withholding, and Superannuation Guarantee.
 ---
 
 ## Budgeting 

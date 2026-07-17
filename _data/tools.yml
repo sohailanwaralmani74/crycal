@@ -298,6 +298,24 @@
   type: tool
   short_name: VAT Calculator
 
+- url: /1099-tax-calculator
+  title: 1099 Tax Calculator
+  category: tax
+  type: tool
+  short_name: 1099 Tax Calculator
+
+- url: /iht-calculator
+  title: IHT Calculator – UK Inheritance Tax Estimator
+  category: tax
+  type: tool
+  short_name: IHT Calculator
+
+- url: /ato-calculator
+  title: ATO Calculator – Australian BAS & GST Estimator
+  category: tax
+  type: tool
+  short_name: ATO Calculator
+  
 - url: /tax-bracket-calculator
   title: Tax Bracket Calculator
   category: tax

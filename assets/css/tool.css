@@ -306,7 +306,6 @@
   border-bottom: 0.0625rem solid var(--border-default);
   flex-wrap: wrap;
 }
-
 .chart-tab-btn {
   padding: 0.4rem;
   font-size: 0.8rem;
@@ -331,7 +330,7 @@
 
 .chart-container {
   flex: 1;
-  max-height: 12rem;
+  min-height: 12rem;
   background: var(--surface);
   border-radius: 0.25rem;
   display: flex;
