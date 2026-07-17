@@ -141,7 +141,7 @@ keywords: compound interest calculator, retirement calculator, mortgage calculat
     you evaluate trade setups and optimise your long-term growth strategy.
   </p>
   <p>
-    In total, that's <strong>60+ unique calculators</strong> — all free, all
+    In total, that's <strong>70+ unique calculators</strong> — all free, all
     private, all running entirely in your browser.
   </p>
 </section>
