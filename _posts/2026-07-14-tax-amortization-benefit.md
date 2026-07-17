@@ -5,6 +5,7 @@ description: "Learn how tax amortization benefit works, how to calculate it, and
 date: 2025-07-14
 categories: [tax, finance]
 featured_image: /assets/img/tax-amortization.webp
+image: /assets/img/tax-amortization.webp
 read_time: 18
 excerpt: "Learn how tax amortization benefit works, how to calculate it, and how it can reduce your tax liability."
 short_name: Tax Amortization Benefit

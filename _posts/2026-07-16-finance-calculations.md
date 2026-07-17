@@ -5,6 +5,7 @@ description: "A complete reference guide to financial formulas, tax rates, and c
 date: 2026-07-16
 categories: [resources, finance]
 featured_image: /assets/img/finance-calculations.webp
+image: /assets/img/finance-calculations.webp
 read_time: 25
 excerpt: "A complete reference guide to financial formulas, tax rates, and calculation methods used in personal finance, investing, retirement planning, and business accounting."
 short_name: Finance Calculations

@@ -5,6 +5,7 @@ description: "Download free finance Excel templates for budgeting, debt manageme
 date: 2025-07-15
 categories: [resources, finance]
 featured_image: /assets/img/finance-excel-templates.webp
+image: /assets/img/finance-excel-templates.webp
 read_time: 12
 excerpt: "Download free finance Excel templates for budgeting, debt management, retirement planning, investing, tax planning, mortgage, and business finance."
 short_name: Finance Excel Templates
