@@ -3,7 +3,7 @@ layout: blog
 title: "Tax Amortization Benefit: What It Is and How It Works"
 description: "Learn how tax amortization benefit works, how to calculate it, and how it can reduce your tax liability. A complete guide for investors and business owners."
 date: 2025-07-14
-categories: [tax, finance]
+category: growth
 featured_image: /assets/img/tax-amortization.webp
 image: /assets/img/tax-amortization.webp
 read_time: 18

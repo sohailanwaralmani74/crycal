@@ -1118,7 +1118,6 @@ h4 { font-size: 1.1rem;  border-left: 0.1500rem solid transparent; border-left-c
 
 .blog-container {
   display: grid;
-  grid-template-columns: 220px 1fr 240px;
   gap: 2rem;
   margin: 2rem 0 3rem;
   align-items: start;
@@ -1523,14 +1522,14 @@ h4 { font-size: 1.1rem;  border-left: 0.1500rem solid transparent; border-left-c
 
 @media (max-width: 1200px) {
   .blog-container {
-    grid-template-columns: 200px 1fr 200px;
+    grid-template-columns: 200px 1fr;
     gap: 1.5rem;
   }
 }
 
 @media (max-width: 1024px) {
   .blog-container {
-    grid-template-columns: 180px 1fr 180px;
+    grid-template-columns: 180px 1fr;
     gap: 1rem;
   }
 

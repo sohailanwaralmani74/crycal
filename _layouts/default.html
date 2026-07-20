@@ -94,19 +94,19 @@
 
             </div>
 
-            {% if page.type == "blog" %}
+            {% if page.type == "blog" or page.category == "blog" %}
 
               <div class="sidebar-card">
-                <h4>📚 Learn More</h4>
-                {% assign related_items = site.data.tools | where: "category", page.category | where: "type", "blog" %}
-                {% assign count = 0 %}
-                {% for item in related_items %}
-                  {% if item.url != page.url and count < 10 %}
-                    <a href="{{ item.url }}">{{ item.title }}</a>
-                    {% assign count = count | plus: 1 %}
-                  {% endif %}
-                {% endfor %}
-              </div>
+  <h4>📚 Learn More</h4>
+  {% assign related_posts = site.posts | where_exp: "post", "post.categories contains page.category" | sort: "date" | reverse %}
+  {% assign count = 0 %}
+  {% for post in related_posts %}
+    {% if post.url != page.url and count < 10 %}
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      {% assign count = count | plus: 1 %}
+    {% endif %}
+  {% endfor %}
+</div>
 
             {% else %}
 
