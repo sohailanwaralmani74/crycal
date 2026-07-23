@@ -30,7 +30,7 @@
             {% if cat %}
               <a href="{{ cat.parent_url }}">{{ cat.parent }}</a><span class="current">/</span>
             {% endif %}
-            <span class="current" aria-current="page">{{ current_tool.title }}</span>
+            <span class="current" aria-current="page">{{ current_tool.short_name }}</span>
 
           {% else %}
             {% comment %} Regular page not in tools.yml: Home / Page Title {% endcomment %}
@@ -115,8 +115,8 @@
                 {% assign related_items = site.data.tools | where: "category", page.category %}
                 {% assign count = 0 %}
                 {% for item in related_items %}
-                  {% if item.url != page.url and item.type != "blog" and count < 10 %}
-                    <a href="{{ item.url }}">{{ item.title }}</a>
+                  {% if item.url != page.url and item.type != "blog" %}
+                    <a href="{{ item.url }}">{{ item.short_name }}</a>
                     {% assign count = count | plus: 1 %}
                   {% endif %}
                 {% endfor %}
@@ -213,6 +213,33 @@
             this.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
             sub.style.maxHeight = isOpen ? sub.scrollHeight + 'px' : '0';
           });
+        });
+
+        // Desktop Mega Menu subcategory hover/focus switcher
+        document.querySelectorAll('.mega-sub-link').forEach(function(btn) {
+          function switchSubCategory() {
+            var megaMenu = btn.closest('.mega-menu');
+            if (!megaMenu) return;
+            var targetId = btn.getAttribute('data-target');
+
+            megaMenu.querySelectorAll('.mega-sub-link').forEach(function(link) {
+              link.classList.remove('is-active');
+              link.setAttribute('aria-selected', 'false');
+            });
+            megaMenu.querySelectorAll('.mega-tab-panel').forEach(function(panel) {
+              panel.classList.remove('is-active');
+            });
+
+            btn.classList.add('is-active');
+            btn.setAttribute('aria-selected', 'true');
+            var targetPanel = megaMenu.querySelector('#' + targetId);
+            if (targetPanel) {
+              targetPanel.classList.add('is-active');
+            }
+          }
+
+          btn.addEventListener('mouseenter', switchSubCategory);
+          btn.addEventListener('focus', switchSubCategory);
         });
       })();
     </script>

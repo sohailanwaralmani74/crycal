@@ -1,75 +1,83 @@
 ---
 layout: default
-title: Wanjaaro — Private, Browser-Based Financial Calculators (No Signup)
-description: 80+ financial browser-based calculators for growth, retirement, mortgage, debt, insurance, tax, and budgeting — built by a fintech engineer. 
+title: Crycal – 500+ Free Online Calculators for Finance, Construction, Automotive & SaaS
+description: Explore 500+ free, browser-based calculators across Finance, Construction, Automotive, and SaaS. 100% private, client-side math, no signup required. Instant estimates, local history, and exportable charts.
 is_homepage: true
 permalink: /
-keywords: browser-based financial calculators, financial calculators no signup, private financial calculator, offline financial calculator, no data collection calculator, compound interest calculator, retirement calculator, mortgage calculator, debt payoff calculator, budgeting tools
+keywords: free online calculators, private browser calculators, financial calculators no signup, construction material estimator, car loan calculator, saas unit economics calculator, mrr calculator, concrete yardage calculator, mortgage calculator, auto loan payoff calculator
 ---
 
 <!-- ============================================================ -->
-<!-- STRUCTURED DATA – WebApplication (trimmed to real features)   -->
+<!-- STRUCTURED DATA – WebSite with SearchAction (Google SERP Sitelinks) -->
 <!-- ============================================================ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Crycal",
+  "url": "https://crycal.com/",
+  "description": "500+ free, browser-based calculators across Finance, Construction, Automotive, and SaaS. 100% client-side calculation engine with zero data tracking.",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://crycal.com/sitemap?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
 
+<!-- ============================================================ -->
+<!-- STRUCTURED DATA – WebApplication                             -->
+<!-- ============================================================ -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebApplication",
-  "name": "Wanjaaro",
-  "url": "https://wanjaaro.com/",
-  "applicationCategory": "FinanceApplication",
-  "operatingSystem": "Any (runs in browser)",
-  "browserRequirements": "Requires JavaScript",
+  "name": "Crycal Calculator Engine",
+  "url": "https://crycal.com/",
+  "applicationCategory": "UtilitiesApplication",
+  "operatingSystem": "All modern Web Browsers (Desktop, Tablet, Mobile)",
+  "browserRequirements": "Requires JavaScript enabled",
   "offers": {
     "@type": "Offer",
     "price": "0",
     "priceCurrency": "USD"
   },
-  "description": "Free, browser-based financial calculators for savings, retirement, mortgages, debt, insurance, tax, and budgeting. All calculations run locally — no signup, no server uploads, no data transmission.",
+  "description": "Comprehensive suite of 500+ online calculators spanning Personal Finance, Heavy Construction & Building Materials, Automotive Ownership & EVs, and SaaS Unit Economics. All calculations execute client-side inside the user's browser with no server data logging.",
   "featureList": [
-    "Live recalculation on every input change",
-    "Fully responsive on desktop and mobile",
-    "Calculation history saved locally in your browser",
-    "Share calculation with full state restoration via link",
-    "Export calculation history to CSV",
-    "Export calculation history to Excel",
-    "One-click reset",
-    "Preset selection for common scenarios",
-    "Interactive charts and visualizations",
-    "100% local, client-side calculations",
-    "No server processing of financial data",
-    "No user data transmission",
-    "Automatic history cleanup",
-    "Formula explanation shown for every calculator",
-    "Step-by-step how-to guidance",
-    "Frequently asked questions per calculator"
+    "500+ specialized calculators across 36 subcategories",
+    "100% client-side local browser calculation execution",
+    "No user registration or account creation required",
+    "Real-time live recalculation on input changes",
+    "Interactive Chart.js visualizations and breakdown tables",
+    "Local calculation history storage with CSV/Excel export",
+    "URL-based calculation state sharing",
+    "Comprehensive step-by-step How-To guides and LaTeX formulas",
+    "Zero server uploads, cookies, or third-party data tracking"
   ]
 }
 </script>
 
 <!-- ============================================================ -->
-<!-- STRUCTURED DATA – Person (author / E-E-A-T signal)             -->
+<!-- STRUCTURED DATA – Person (E-E-A-T Trust Signals)             -->
 <!-- ============================================================ -->
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Person",
   "name": "Sohail Anwar",
-  "url": "https://wanjaaro.com/about-us",
+  "url": "https://crycal.com/about-us",
+  "jobTitle": "Lead Software Engineer & Platform Architect",
   "sameAs": [
     "https://www.linkedin.com/in/sohail-anwar-a63063162",
     "https://github.com/sohailanwaralmani74"
   ],
-  "jobTitle": "Software Engineer",
-  "description": "Fintech software engineer with 10+ years building mortgage, banking, and insurance systems. Creator of Wanjaaro."
+  "description": "Software engineer with 10+ years building financial modeling engines, mortgage underwriting algorithms, and high-performance trade calculation systems."
 }
 </script>
 
 <!-- ============================================================ -->
-<!-- STRUCTURED DATA – FAQPage (matches FAQ section below exactly) -->
+<!-- STRUCTURED DATA – FAQPage (SEO & Voice / AI Search Optimized) -->
 <!-- ============================================================ -->
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -77,42 +85,50 @@ keywords: browser-based financial calculators, financial calculators no signup, 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is a financial calculator?",
+      "name": "What is Crycal?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "It's a tool that turns a formula — compound interest, loan amortization, tax brackets, and so on — into an instant, personalized result based on the numbers you enter. It replaces manual spreadsheet work with a simple form."
+        "text": "Crycal is a free, browser-based multi-disciplinary calculator ecosystem. It hosts 500+ interactive calculators across four master hubs: Personal & Business Finance, Construction & Building Materials, Automotive & Vehicle Economics, and SaaS & Subscription Metrics."
       }
     },
     {
       "@type": "Question",
-      "name": "How accurate are Wanjaaro calculators?",
+      "name": "How does Crycal protect user data privacy?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "They follow industry-standard formulas and are mathematically precise for the inputs you provide. Real-world rates, tax rules, and premiums vary by bank, lender, insurer, and jurisdiction — treat results as a strong starting estimate, not a guaranteed offer."
+        "text": "Crycal operates on a 100% client-side architecture. Every mathematical calculation, chart generation, and data log executes locally inside your web browser. No personal inputs, loan balances, salary figures, or project measurements are ever uploaded, saved to a database, or transmitted to any external server."
       }
     },
     {
       "@type": "Question",
-      "name": "Do I need to create an account to use Wanjaaro?",
+      "name": "Do I need to sign up or create an account to use Crycal calculators?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. All tools are accessible without registration. Wanjaaro does not store any personal or financial data on its servers."
+        "text": "No. All 500+ calculators on Crycal are completely free and accessible without registration, email submission, or subscription fees."
       }
     },
     {
       "@type": "Question",
-      "name": "Is my financial data ever sent to Wanjaaro's servers?",
+      "name": "What master categories and industries does Crycal cover?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. Every calculation runs entirely locally in your browser. Nothing you enter is transmitted or stored on any server, and local calculation history is cleaned up automatically."
+        "text": "Crycal covers four master hubs: Personal Finance (Growth, Retirement, Mortgages, Debt, Taxes, Insurance, Budgeting, Investing), Construction & Building (Concrete, Framing, Roofing, Flooring, Drywall, HVAC, Landscaping, Electrical, Plumbing, Windows/Doors), Automotive (Car Loans, TCO, Fuel, EVs, Performance, Tires, Trip Planning, Repairs), and SaaS Business (Pricing, Unit Economics, MRR/ARR, Churn, Sales Funnel, Fundraising, Marketing ROI, Operations)."
       }
     },
     {
       "@type": "Question",
-      "name": "Who built Wanjaaro?",
+      "name": "How accurate are the mathematical formulas on Crycal?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Wanjaaro was built by Sohail Anwar, a software engineer with over a decade of experience building financial systems for mortgage underwriting, loan tracking, and insurance claims processing."
+        "text": "Crycal tools use standard industry financial compound interest formulas, building code volume calculations, ASTM material density constants, physics equations, and ASC 606 revenue recognition standards. Every calculator displays its exact mathematical formula, step-by-step guidance, and real-world benchmark tables."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I save, share, or export my calculation results?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. You can export your local calculation history to CSV or Excel spreadsheet format, or generate a unique shareable link that encodes your exact inputs for instant state restoration on any device."
       }
     }
   ]
@@ -120,289 +136,264 @@ keywords: browser-based financial calculators, financial calculators no signup, 
 </script>
 
 <!-- ============================================================ -->
-<!-- HERO                                                          -->
+<!-- HERO SECTION                                                 -->
 <!-- ============================================================ -->
 
 <section class="hero-section">
-  <h1>Private, Browser-Based Financial Calculators — No Signup</h1>
+  <h1>500+ Free Online Calculators — Instant, Accurate &amp; 100% Private</h1>
   <p>
-    <strong>88 free financial calculators</strong> for growth, retirement, mortgages,
-    debt, insurance, tax, and budgeting — built by a fintech software engineer.
-    Every calculation runs locally on your device. Nothing you type is ever
-    uploaded, stored, or seen by anyone but you.
+    Welcome to <strong>Crycal</strong>, the ultimate multi-disciplinary calculation engine. Access over <strong>500 specialized calculators</strong> across Personal Finance, Heavy Construction, Automotive Economics, and SaaS Business Metrics. Every calculation runs locally in your browser—no signup, no email required, and zero server data tracking.
   </p>
-  <p class="hero-cta">
-    <a href="compound-interest-calculator" class="btn-primary">Start with the Compound Interest Calculator</a>
-    <a href="sitemap" class="btn-secondary">Browse all calculators</a>
-  </p>
-  <p class="hero-trust">
-    Built by <a href="about-us">Sohail Anwar</a> — 10+ years in mortgage, banking &amp; insurance systems
-  </p>
+  
+  <div class="hero-cta">
+    <a href="/finance" class="btn-primary">Explore Finance Hub</a>
+    <a href="/construction" class="btn-secondary">Explore Construction Hub</a>
+    <a href="/automotive" class="btn-secondary">Explore Automotive Hub</a>
+    <a href="/saas" class="btn-secondary">Explore SaaS Hub</a>
+  </div>
+  
+  <!-- Platform Trust Stats Badges -->
+  <div class="finance-stats-grid">
+    <div class="stat-card">
+      <span class="stat-number">500+</span>
+      <span class="stat-label">Free Online Calculators</span>
+    </div>
+    <div class="stat-card">
+      <span class="stat-number">4</span>
+      <span class="stat-label">Master Industry Hubs</span>
+    </div>
+    <div class="stat-card">
+      <span class="stat-number">36</span>
+      <span class="stat-label">Specialized Categories</span>
+    </div>
+    <div class="stat-card">
+      <span class="stat-number">100%</span>
+      <span class="stat-label">Client-Side &amp; Private</span>
+    </div>
+  </div>
 </section>
 
 <!-- ============================================================ -->
-<!-- SITE OVERVIEW – DESCRIBED IN PROSE                            -->
+<!-- MASTER CATEGORIES HUBS GRID                                   -->
 <!-- ============================================================ -->
 
-<section class="content-section">
-  <h2>Financial Calculators for Every Stage — All Local, All Free</h2>
+<section class="content-section categories-section">
+  <h2>Explore Our Master Calculator Hubs</h2>
   <p>
-    Wanjaaro is organised into 8 areas, each addressing a specific financial
-    need without asking for an account or an email address. The
-    <a href="growth"><strong>Growth</strong></a> section covers savings and
-    investment calculators — Compound Interest, Simple Interest, Savings Goal,
-    High Yield Savings, Rule of 72, Dividend Reinvestment, and Dollar Cost
-    Averaging — each built around how money actually accumulates over time.
+    Whether you are balancing a family budget, estimating materials for a commercial construction site, calculating vehicle depreciation, or auditing SaaS subscription unit economics, Crycal provides dedicated tools built to exact industry standards.
   </p>
-  <p>
-    The <a href="retirement"><strong>Retirement</strong></a> category brings
-    together long-horizon tools, including 401k, IRA, Roth IRA, retirement
-    withdrawal, and FIRE calculators. These help you plan for — and eventually
-    draw down — a retirement account with confidence.
-  </p>
-  <p>
-    For homeownership, the <a href="mortgage"><strong>Mortgage</strong></a> group
-    offers calculators covering monthly payments, rent vs buy comparisons,
-    refinancing, affordability, early payoff strategy, closing costs, down
-    payment planning, and mortgage points.
-  </p>
-  <p>
-    Anyone working through debt will find tools under
-    <a href="debt"><strong>Debt</strong></a> — loan payoff, credit card payoff,
-    debt snowball, debt avalanche, a full amortization breakdown, student loan
-    payoff, debt consolidation, and balance transfer planning.
-  </p>
-  <p>
-    The <a href="insurance"><strong>Insurance</strong></a> section hosts
-    calculators for life insurance, disability insurance, comparing term versus
-    whole life coverage, deductible break-even analysis, home and renters
-    coverage, and umbrella policy needs — turning "I should probably get
-    insurance" into an actual number.
-  </p>
-  <p>
-    <a href="tax"><strong>Tax</strong></a> covers calculators for salary
-    and hourly pay, overtime, take-home pay, tax brackets, capital gains, and
-    self-employment tax — useful for employees, investors, and freelancers
-    alike, across US, UK, and Australian rules.
-  </p>
-  <p>
-    <a href="budgeting"><strong>Budgeting</strong></a> rounds out the everyday
-    tools: the 50/30/20 budget rule, net worth, debt-to-income ratio, emergency
-    fund targets, subscription tracking, sinking funds, and zero-based
-    budgeting.
-  </p>
-  <p>
-    For active investors, the <a href="investing"><strong>Investing</strong></a>
-    category provides position-sizing and risk-management tools. Whether you're
-    trading stocks, ETFs, crypto, options, or futures, you'll find dedicated
-    calculators for position size, lot size, and contract sizing. The
-    <a href="risk-reward-ratio-calculator">Risk/Reward Ratio</a> and
-    <a href="kelly-criterion-calculator">Kelly Criterion</a> calculators help
-    you evaluate trade setups and size positions for long-term growth.
-  </p>
-  <p>
-    In total, that's <strong>88 calculators</strong> — 16 in Growth, 13 in
-    Retirement, 11 in Mortgage, 10 in Debt, 7 in Insurance, 11 in Tax, 10 in
-    Budgeting, and 10 in Investing — all free, all private, all running
-    entirely in your browser, with no account required.
-  </p>
-  <!-- NOTE: confirm this count after resolving the likely duplicate pages —
-       high-yield-savings-calculator / hysa-calculator, and
-       debt-to-income-ratio-calculator / debt-to-income-calculator — since
-       consolidating those would change the true unique-tool count. -->
+
+  <div class="finance-categories-list">
+    
+    <!-- 1. FINANCE HUB -->
+    <div class="cat-section-card">
+      <div class="cat-header">
+        <div class="cat-header-title">
+          <span class="cat-icon">💰</span>
+          <h2><a href="/finance">Finance &amp; Investment Hub</a></h2>
+          <span class="tool-count-badge">169 Calculators</span>
+        </div>
+        <a href="/finance" class="cat-view-link">View Master Finance Hub &rarr;</a>
+      </div>
+      <p class="cat-description">
+        Comprehensive financial planning tools covering compound interest, retirement trajectories (401k/IRA/FIRE), mortgage payments, debt payoff (snowball/avalanche), tax brackets, income tax, budgeting, and active trading risk management.
+      </p>
+      <div class="cat-tool-grid">
+        <a href="/compound-interest-calculator" class="cat-tool-item"><span class="tool-name">Compound Interest Calculator</span><span class="tool-arrow">&rarr;</span></a>
+        <a href="/mortgage-payoff-calculator" class="cat-tool-item"><span class="tool-name">Mortgage Payoff Calculator</span><span class="tool-arrow">&rarr;</span></a>
+        <a href="/debt-snowball-calculator" class="cat-tool-item"><span class="tool-name">Debt Snowball Calculator</span><span class="tool-arrow">&rarr;</span></a>
+        <a href="/tax-bracket-calculator" class="cat-tool-item"><span class="tool-name">Tax Bracket Calculator</span><span class="tool-arrow">&rarr;</span></a>
+        <a href="/four-percent-rule-fire-calculator" class="cat-tool-item"><span class="tool-name">4% Rule FIRE Calculator</span><span class="tool-arrow">&rarr;</span></a>
+        <a href="/position-size-calculator" class="cat-tool-item"><span class="tool-name">Position Size Calculator</span><span class="tool-arrow">&rarr;</span></a>
+      </div>
+      <div class="cat-card-footer">
+        <a href="/finance" class="cat-view-all-btn">Browse All 169 Personal Finance Tools &rarr;</a>
+      </div>
+    </div>
+
+    <!-- 2. CONSTRUCTION & BUILDING HUB -->
+    <div class="cat-section-card">
+      <div class="cat-header">
+        <div class="cat-header-title">
+          <span class="cat-icon">🧱</span>
+          <h2><a href="/construction">Construction &amp; Building Hub</a></h2>
+          <span class="tool-count-badge">145 Calculators</span>
+        </div>
+        <a href="/construction" class="cat-view-link">View Master Construction Hub &rarr;</a>
+      </div>
+      <p class="cat-description">
+        Estimating tools for contractors, builders, trade specialists, and DIY home renovators. Calculate concrete yardage, framing studs, roof pitch &amp; shingles, flooring materials, drywall sheets, paint coverage, HVAC BTUs, electrical AWG wire sizes, and plumbing pipe flow.
+      </p>
+      <div class="cat-tool-grid">
+        <a href="/concrete-yardage-calculator" class="cat-tool-item"><span class="tool-name">Concrete Yardage Calculator</span><span class="tool-arrow">&rarr;</span></a>
+        <a href="/board-feet-calculator" class="cat-tool-item"><span class="tool-name">Board Feet Calculator</span><span class="tool-arrow">&rarr;</span></a>
+        <a href="/roofing-square-calculator" class="cat-tool-item"><span class="tool-name">Roofing Square Calculator</span><span class="tool-arrow">&rarr;</span></a>
+        <a href="/flooring-square-footage-calculator" class="cat-tool-item"><span class="tool-name">Flooring Sq Ft Calculator</span><span class="tool-arrow">&rarr;</span></a>
+        <a href="/drywall-sheet-calculator" class="cat-tool-item"><span class="tool-name">Drywall Sheet Calculator</span><span class="tool-arrow">&rarr;</span></a>
+        <a href="/btu-hvac-sizing-calculator" class="cat-tool-item"><span class="tool-name">HVAC BTU Sizing Calculator</span><span class="tool-arrow">&rarr;</span></a>
+      </div>
+      <div class="cat-card-footer">
+        <a href="/construction" class="cat-view-all-btn">Browse All 145 Construction &amp; Materials Tools &rarr;</a>
+      </div>
+    </div>
+
+    <!-- 3. AUTOMOTIVE HUB -->
+    <div class="cat-section-card">
+      <div class="cat-header">
+        <div class="cat-header-title">
+          <span class="cat-icon">🚘</span>
+          <h2><a href="/automotive">Automotive &amp; Vehicle Hub</a></h2>
+          <span class="tool-count-badge">61 Calculators</span>
+        </div>
+        <a href="/automotive" class="cat-view-link">View Master Automotive Hub &rarr;</a>
+      </div>
+      <p class="cat-description">
+        Car buyers, drivers, EV owners, and auto enthusiasts tools. Calculate monthly car payments, 5-year True Cost of Ownership (TCO), gas mileage (MPG), EV charging payback, 0-60 mph acceleration times, tire size comparisons, and vehicle maintenance intervals.
+      </p>
+      <div class="cat-tool-grid">
+        <a href="/car-loan-payment-calculator" class="cat-tool-item"><span class="tool-name">Car Loan Payment Calculator</span><span class="tool-arrow">&rarr;</span></a>
+        <a href="/car-true-cost-of-ownership-calculator" class="cat-tool-item"><span class="tool-name">5-Year TCO Calculator</span><span class="tool-arrow">&rarr;</span></a>
+        <a href="/mpg-calculator" class="cat-tool-item"><span class="tool-name">MPG Fuel Calculator</span><span class="tool-arrow">&rarr;</span></a>
+        <a href="/ev-charging-cost-calculator" class="cat-tool-item"><span class="tool-name">EV Charging Cost Calculator</span><span class="tool-arrow">&rarr;</span></a>
+        <a href="/zero-to-sixty-mph-estimator" class="cat-tool-item"><span class="tool-name">0-60 mph Acceleration Estimator</span><span class="tool-arrow">&rarr;</span></a>
+        <a href="/tire-size-comparison-calculator" class="cat-tool-item"><span class="tool-name">Tire Size Comparison</span><span class="tool-arrow">&rarr;</span></a>
+      </div>
+      <div class="cat-card-footer">
+        <a href="/automotive" class="cat-view-all-btn">Browse All 61 Automotive &amp; EV Tools &rarr;</a>
+      </div>
+    </div>
+
+    <!-- 4. SAAS & SUBSCRIPTION BUSINESS HUB -->
+    <div class="cat-section-card">
+      <div class="cat-header">
+        <div class="cat-header-title">
+          <span class="cat-icon">🚀</span>
+          <h2><a href="/saas">SaaS &amp; Subscription Business Hub</a></h2>
+          <span class="tool-count-badge">121 Calculators</span>
+        </div>
+        <a href="/saas" class="cat-view-link">View Master SaaS Hub &rarr;</a>
+      </div>
+      <p class="cat-description">
+        Calculators for software founders, operators, CFOs, and growth marketers. Model subscription pricing models, Customer Acquisition Cost (CAC), Lifetime Value (LTV), MRR/ARR trajectories, Net Revenue Retention (NRR), churn impact, sales pipeline win rates, cash runway, valuation multiples, and marketing ROAS.
+      </p>
+      <div class="cat-tool-grid">
+        <a href="/saas-pricing-calculator" class="cat-tool-item"><span class="tool-name">SaaS Pricing Calculator</span><span class="tool-arrow">&rarr;</span></a>
+        <a href="/cac-customer-acquisition-cost-calculator" class="cat-tool-item"><span class="tool-name">CAC Calculator</span><span class="tool-arrow">&rarr;</span></a>
+        <a href="/ltv-customer-lifetime-value-calculator" class="cat-tool-item"><span class="tool-name">LTV Calculator</span><span class="tool-arrow">&rarr;</span></a>
+        <a href="/mrr-calculator" class="cat-tool-item"><span class="tool-name">MRR Calculator</span><span class="tool-arrow">&rarr;</span></a>
+        <a href="/customer-churn-rate-calculator" class="cat-tool-item"><span class="tool-name">Customer Churn Rate</span><span class="tool-arrow">&rarr;</span></a>
+        <a href="/saas-valuation-calculator" class="cat-tool-item"><span class="tool-name">SaaS Valuation Calculator</span><span class="tool-arrow">&rarr;</span></a>
+      </div>
+      <div class="cat-card-footer">
+        <a href="/saas" class="cat-view-all-btn">Browse All 121 SaaS &amp; Business Metrics Tools &rarr;</a>
+      </div>
+    </div>
+
+  </div>
 </section>
 
 <!-- ============================================================ -->
-<!-- WHAT EVERY CALCULATOR INCLUDES – FEATURES FOR USERS & BOTS   -->
+<!-- WHY CRYCAL: ARCHITECTURE & PRIVACY STANDARD                   -->
 <!-- ============================================================ -->
 
 <section class="content-section features-section">
-  <h2>What Every Wanjaaro Calculator Includes</h2>
+  <h2>Why Choose Crycal – 100% Client-Side Engine</h2>
   <p>
-    Every calculator is built to the same standard, so once you've used one,
-    you know your way around all of them.
+    Unlike traditional web calculators that require account creation, submit your financial entries to external databases, or reload the page on every input change, Crycal is built on a <strong>pure client-side execution framework</strong>.
   </p>
 
   <div class="feature-group">
-    <h3>Clear, Consistent Experience</h3>
-    <ul>
-      <li>Descriptive labels on every input and output</li>
-      <li>Compact layout that fits your screen with minimal scrolling</li>
-      <li>The same layout and controls across every calculator</li>
-      <li>Live recalculation as soon as you change a value</li>
-      <li>Fully responsive on desktop and mobile</li>
-      <li>Breadcrumb navigation for context</li>
-    </ul>
+    <h3>🔒 Total Data Privacy &amp; Local Processing</h3>
+    <p>
+      Every formula is compiled in JavaScript and executed directly inside your web browser. Your confidential loan figures, salary numbers, trade-in valuations, and business metrics are never transmitted across the network or stored on server databases.
+    </p>
   </div>
 
   <div class="feature-group">
-    <h3>Built for Repeat Use</h3>
-    <ul>
-      <li>Local calculation history, so you can revisit past scenarios</li>
-      <li>Share a calculation via link with full state restoration</li>
-      <li>Export your history to CSV or Excel</li>
-      <li>One-click reset</li>
-      <li>Preset selection for common scenarios</li>
-    </ul>
+    <h3>⚡ Instant Live Recalculation &amp; Zero Latency</h3>
+    <p>
+      Sliders and input fields trigger live, millisecond calculations. Adjusting your interest rate, concrete slab thickness, EV battery capacity, or churn percentage immediately updates results and charts without reloading the page.
+    </p>
   </div>
 
   <div class="feature-group">
-    <h3>See the Numbers, See the Picture</h3>
-    <ul>
-      <li>Interactive charts alongside every result</li>
-      <li>Mathematical results kept separate from visual results</li>
-      <li>Two-column output layout for easy comparison</li>
-    </ul>
+    <h3>📊 Interactive Charting &amp; History Export</h3>
+    <p>
+      Compare scenarios side-by-side using interactive Chart.js visualizations. Save calculation runs to your local browser storage, export full audit histories to CSV or Excel formats, or generate state-encoded URL links to collaborate with team members or clients.
+    </p>
   </div>
 
   <div class="feature-group">
-    <h3>Private by Design</h3>
-    <ul>
-      <li>100% local calculations — nothing is sent to a server</li>
-      <li>No user data transmission, ever</li>
-      <li>Automatic history cleanup</li>
-      <li>Minimal external dependencies for fast, lightweight pages</li>
-    </ul>
+    <h3>📘 Plain-Language Formulas &amp; E-E-A-T Expertise</h3>
+    <p>
+      Crycal was architected by <a href="/about-us">Sohail Anwar</a>, a senior fintech systems engineer with over a decade of experience building mortgage underwriting algorithms, banking compliance tools, and trade execution engines. Every tool includes LaTeX formulas, step-by-step guides, and real-world benchmark tables.
+    </p>
   </div>
-
-  <div class="feature-group">
-    <h3>Learn as You Go</h3>
-    <ul>
-      <li>Plain-language formula explanations</li>
-      <li>A how-to section for every calculator</li>
-      <li>A calculator-specific FAQ</li>
-      <li>Clear labels and units throughout</li>
-    </ul>
-  </div>
-
-  <p class="disclaimer">
-    <strong>Educational/illustrative disclaimer:</strong> Wanjaaro's calculators
-    are provided for educational and illustrative purposes only. Results are
-    estimates based on the inputs you provide and standard formulas — they are
-    not financial, tax, or legal advice. Always confirm rates, terms, and
-    figures with your bank, lender, insurer, or a qualified advisor before
-    making a decision.
-  </p>
 </section>
 
 <!-- ============================================================ -->
-<!-- WHY Wanjaaro – DESCRIBED IN PROSE + AUTHOR TRUST              -->
-<!-- ============================================================ -->
-
-<section class="content-section">
-  <h2>Why Wanjaaro</h2>
-  <p>
-    Good financial decisions start with clear numbers. Wanjaaro removes the
-    guesswork by giving you precise, currency-aware calculations in seconds —
-    without asking for your email, your account, or your data.
-  </p>
-  <p>
-    Every tool is free, with no subscriptions, no hidden fees, and no
-    registration barriers. Because everything runs locally, your financial data
-    never touches our servers — privacy is built in by default, not bolted on
-    with a policy page. Calculators respond instantly, with no page reloads or
-    server round-trips, on desktop, tablet, or phone.
-  </p>
-  <p>
-    Wanjaaro is built and maintained by <a href="about-us">Sohail Anwar</a>,
-    a software engineer who has spent over a decade building the underlying
-    systems behind mortgage underwriting, insurance claims, and banking
-    compliance for financial institutions. Wanjaaro applies that same
-    engineering discipline to tools anyone can use for free.
-  </p>
-</section>
-
-<!-- ============================================================ -->
-<!-- FREQUENTLY ASKED QUESTIONS (matches FAQPage schema above)     -->
+<!-- GEO & AI SEARCH FAQ SECTION                                   -->
 <!-- ============================================================ -->
 
 <section class="content-section faq-section">
   <h2>Frequently Asked Questions</h2>
 
   <div class="faq-item">
-    <h3>What is a financial calculator?</h3>
+    <h3>What is Crycal?</h3>
     <p>
-      It's a tool that turns a formula — compound interest, loan amortization,
-      tax brackets, and so on — into an instant, personalized result based on the
-      numbers you enter. It replaces manual spreadsheet work with a simple form.
+      Crycal is a free, browser-based multi-disciplinary calculator platform. It provides over 500 specialized calculators across four core industries: Personal &amp; Corporate Finance, Heavy Construction &amp; Materials, Automotive &amp; Electric Vehicles, and SaaS Subscription Business Metrics.
     </p>
   </div>
 
   <div class="faq-item">
-    <h3>How accurate are Wanjaaro calculators?</h3>
+    <h3>Are Crycal calculators 100% free with no hidden fees?</h3>
     <p>
-      They follow industry-standard formulas and are mathematically precise for
-      the inputs you provide. Real-world rates, tax rules, and premiums vary by
-      bank, lender, insurer, and jurisdiction — treat results as a strong
-      starting estimate, not a guaranteed offer.
+      Yes. All 500+ calculators across all 36 subcategories are completely free to use. There are no registration forms, paid paywalls, credit card requirements, or premium tier restrictions.
     </p>
   </div>
 
   <div class="faq-item">
-    <h3>Do I need to create an account to use Wanjaaro?</h3>
+    <h3>Is my data secure and private when using Crycal?</h3>
     <p>
-      No. All tools are accessible without registration. Wanjaaro doesn't
-      store any personal or financial data on its servers.
+      Yes. Crycal is designed with privacy by default. All calculations execute client-side within your browser. Nothing you type is uploaded to server databases, shared with third parties, or logged remotely.
     </p>
   </div>
 
   <div class="faq-item">
-    <h3>Is my financial data ever sent to Wanjaaro's servers?</h3>
+    <h3>How does Crycal compare to basic online calculators?</h3>
     <p>
-      No. Every calculation runs 100% locally in your browser. Nothing you
-      enter is transmitted or stored on any server, and local calculation
-      history is cleaned up automatically.
+      While standard web calculators only show a single static output number, Crycal provides comprehensive multi-variable financial models, interactive breakdown charts, step-by-step formula explanations, local scenario history logging, CSV/Excel export, and state-restoration share links.
     </p>
   </div>
 
   <div class="faq-item">
-    <h3>Who built Wanjaaro?</h3>
+    <h3>How accurate are the mathematical formulas on Crycal?</h3>
     <p>
-      Wanjaaro was built by Sohail Anwar, a software engineer with over a
-      decade of experience building financial systems for mortgage
-      underwriting, loan tracking, and insurance claims processing.
+      All mathematical engines strictly adhere to standard financial compound interest models, building code volume calculations, ASTM material density constants, physics equations, and ASC 606 revenue recognition standards.
     </p>
   </div>
 
   <div class="faq-item">
-    <h3>What topics do you cover?</h3>
+    <h3>Can I save or share my calculation results?</h3>
     <p>
-      Savings and investment growth, retirement planning, mortgages, debt payoff,
-      insurance coverage, income tax, and everyday budgeting.
-    </p>
-  </div>
-
-  <div class="faq-item">
-    <h3>Can I enter my own interest rates instead of using a default?</h3>
-    <p>
-      Yes. Every rate-based calculator lets you type in the exact rate, APY, or
-      premium you were quoted — useful for comparing offers from different banks,
-      lenders, or insurers rather than relying on a single generic average.
-    </p>
-  </div>
-
-  <div class="faq-item">
-    <h3>Can I save or share my calculation?</h3>
-    <p>
-      Yes. Every calculator keeps a local calculation history that you can export
-      to CSV or Excel, and you can share any calculation as a link that fully
-      restores your inputs and results for whoever opens it.
+      Yes. Every calculator allows you to export your calculation history to a CSV spreadsheet or Excel file, or share a link that encodes your exact inputs for instant state restoration on any device.
     </p>
   </div>
 </section>
 
 <!-- ============================================================ -->
-<!-- FINAL CALL TO ACTION                                          -->
+<!-- CALL TO ACTION                                               -->
 <!-- ============================================================ -->
 
 <section class="content-section final-cta">
-  <h2>Ready to run your numbers?</h2>
+  <h2>Start Running Your Numbers Now</h2>
   <p>
-    Explore the full suite of financial calculators — all free, all private,
-    all available right now, with nothing to sign up for.
+    Explore 500+ free, instant, and private online calculators across Finance, Construction, Automotive, and SaaS.
   </p>
   <p class="cta-buttons">
-    <a href="compound-interest-calculator" class="btn-primary">Compound Interest Calculator</a>
-    <a href="growth" class="btn-secondary">View All Growth Tools</a>
+    <a href="/finance" class="btn-primary">Finance Calculators</a>
+    <a href="/construction" class="btn-secondary">Construction Calculators</a>
+    <a href="/automotive" class="btn-secondary">Automotive Calculators</a>
+    <a href="/saas" class="btn-secondary">SaaS Calculators</a>
   </p>
 </section>

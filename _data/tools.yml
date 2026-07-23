@@ -1,11 +1,89 @@
 # ============================================================
 # GROWTH & SAVINGS
 # ============================================================
+- url: /cd-early-withdrawal-penalty-calculator
+  title: CD Early Withdrawal Penalty Calculator – Estimate Your Penalty Cost
+  category: growth
+  type: tool
+  short_name: CD Penalty Calculator
+
+- url: /rule-of-70-calculator
+  title: Rule of 70 Calculator – Estimate Doubling Time for Growth
+  category: growth
+  type: tool
+  short_name: Rule of 70 Calculator
+
+- url: /present-value-calculator
+  title: Present Value Calculator – Find the Value of Future Money Today
+  category: growth
+  type: tool
+  short_name: Present Value Calculator
+
+- url: /future-value-calculator
+  title: Future Value Calculator – Project Your Investment Growth
+  category: growth
+  type: tool
+  short_name: Future Value Calculator
+
+- url: /perpetuity-calculator
+  title: Perpetuity Calculator – Value a Perpetual Cash Flow Stream
+  category: growth
+  type: tool
+  short_name: Perpetuity Calculator
+
+- url: /real-rate-of-return-calculator
+  title: Real Rate of Return Calculator – Inflation-Adjusted Returns
+  category: growth
+  type: tool
+  short_name: Real Rate of Return Calculator
+
+- url: /bond-yield-to-maturity-calculator
+  title: Bond Yield to Maturity (YTM) Calculator – Estimate Your Bond's Return
+  category: growth
+  type: tool
+  short_name: Bond YTM Calculator
+
+- url: /zero-coupon-bond-calculator
+  title: Zero-Coupon Bond Calculator – Price & Yield Estimator
+  category: growth
+  type: tool
+  short_name: Zero-Coupon Bond Calculator
+
+- url: /529-plan-growth-calculator
+  title: 529 Plan Growth Calculator – Project Your College Savings
+  category: growth
+  type: tool
+  short_name: 529 Plan Growth Calculator
+
+- url: /hsa-growth-calculator
+  title: HSA Growth Calculator – Project Your Health Savings Account
+  category: growth
+  type: tool
+  short_name: HSA Growth Calculator
+
 - url: /us-inflation-calculator
   title: US Inflation Calculator
   category: growth
   type: tool
   short_name: Inflation Calculator
+
+- url: /apy-vs-apr-calculator
+  title: APY vs APR Calculator – Convert APR to APY & Compare Rates
+  category: growth
+  type: tool
+  short_name: APY vs APR Calculator
+
+- url: /money-market-account-calculator
+  title: Money Market Account Calculator – Interest & Growth Estimator
+  category: growth
+  type: tool
+  short_name: Money Market Calculator
+
+- url: /t-bill-yield-calculator
+  title: T-Bill Yield Calculator – Treasury Bill Rate & Return Estimator
+  category: growth
+  type: tool
+  short_name: T-Bill Yield Calculator
 
 - url: /sustainable-growth-rate-calculator
   title: Sustainable Growth Rate Calculator
@@ -35,13 +113,13 @@
   title: Simple Interest Calculator
   category: growth
   type: tool
-  short_name: Simple Interest
+  short_name: Simple Interest Calculator
 
 - url: /savings-goal-calculator
   title: Savings Goal Calculator
   category: growth
   type: tool
-  short_name: Savings Goal
+  short_name: Savings Goal Calculator
 
 - url: /high-yield-savings-calculator
   title: High Yield Savings Calculator
@@ -53,7 +131,7 @@
   title: Rule of 72 Calculator
   category: growth
   type: tool
-  short_name: Rule of 72
+  short_name: Rule of 72 Calculator
 
 - url: /dividend-reinvestment-calculator
   title: Dividend Reinvestment Calculator
@@ -71,7 +149,7 @@
   title: Investment Calculator
   category: growth
   type: tool
-  short_name: Investment Growth
+  short_name: Investment Growth Calculator
 
 - url: /compound-annual-growth-rate-calculator
   title: Compound Annual Growth Rate Calculator
@@ -105,6 +183,65 @@
 # ============================================================
 # RETIREMENT
 # ============================================================
+- url: /sep-ira-calculator
+  title: SEP IRA Calculator – Maximum Contribution & Tax Savings Estimator
+  category: retirement
+  type: tool
+  short_name: SEP IRA Calculator
+
+- url: /solo-401k-contribution-calculator
+  title: Solo 401(k) Contribution Calculator – Employee + Employer Limits
+  category: retirement
+  type: tool
+  short_name: Solo 401(k) Calculator
+
+- url: /403b-calculator
+  title: 403(b) Calculator – Project Your Retirement Plan Growth
+  category: retirement
+  type: tool
+  short_name: 403(b) Calculator
+
+- url: /mega-backdoor-roth-calculator
+  title: Mega Backdoor Roth Calculator – Maximize After-Tax 401(k) Contributions
+  category: retirement
+  type: tool
+  short_name: Mega Backdoor Roth Calculator
+
+- url: /catch-up-contribution-calculator
+  title: Catch-Up Contribution Calculator – Age-Based Retirement Limits
+  category: retirement
+  type: tool
+  short_name: Catch-Up Contribution Calculator
+
+- url: /social-security-spousal-benefit-calculator
+  title: Social Security Spousal Benefit Calculator – Estimate Your Benefit
+  category: retirement
+  type: tool
+  short_name: SS Spousal Benefit Calculator
+
+- url: /4-percent-rule-calculator
+  title: 4% Rule Calculator – Safe Withdrawal Rate for Retirement
+  category: retirement
+  type: tool
+  short_name: 4% Rule Calculator
+
+- url: /annuity-payout-calculator
+  title: Annuity Payout Calculator – Estimate Your Fixed Payment
+  category: retirement
+  type: tool
+  short_name: Annuity Payout Calculator
+
+- url: /retirement-healthcare-cost-calculator
+  title: Retirement Healthcare Cost Calculator – Project Medical Expenses
+  category: retirement
+  type: tool
+  short_name: Retirement Healthcare Cost Calculator
+
+- url: /inherited-ira-rmd-calculator
+  title: Inherited IRA RMD Calculator – Required Minimum Distribution Estimator
+  category: retirement
+  type: tool
+  short_name: Inherited IRA RMD Calculator
 
 - url: /rmd-calculator
   title: RMD Calculator
@@ -128,7 +265,7 @@
   title: Pension Lump Sum vs Annuity Calculator
   category: retirement
   type: tool
-  short_name: Lump Sum vs Annuity
+  short_name: Lump Sum vs Annuity Calculator
 
 - url: /social-security-break-even-calculator
   title: Social Security Break-Even Calculator
@@ -140,37 +277,37 @@
   title: Retirement Calculator
   category: retirement
   type: tool
-  short_name: Retirement
+  short_name: Retirement Calculator
 
 - url: /401k-calculator
   title: 401k Calculator
   category: retirement
   type: tool
-  short_name: 401k
+  short_name: 401k Calculator
 
 - url: /ira-calculator
   title: IRA Calculator
   category: retirement
   type: tool
-  short_name: IRA
+  short_name: IRA Calculator
 
 - url: /roth-ira-calculator
   title: Roth IRA Calculator
   category: retirement
   type: tool
-  short_name: Roth IRA
+  short_name: Roth IRA Calculator
 
 - url: /retirement-withdrawal-calculator
   title: Retirement Withdrawal Calculator
   category: retirement
   type: tool
-  short_name: Withdrawal Rate
+  short_name: Withdrawal Rate Calculator
 
 - url: /fire-calculator
   title: FIRE Calculator
   category: retirement
   type: tool
-  short_name: FIRE
+  short_name: FIRE Calculator
 
 - url: /coast-fire-calculator
   title: Coast FIRE Calculator
@@ -188,6 +325,12 @@
 # ============================================================
 # MORTGAGE & REAL ESTATE
 # ============================================================
+- url: /reverse-mortgage-calculator
+  title: Reverse Mortgage Calculator – Estimate Your Home Equity Loan
+  category: mortgage
+  type: tool
+  short_name: Reverse Mortgage Calculator
+
 - url: /mortgage-calculator
   title: Mortgage Calculator
   category: mortgage
@@ -198,7 +341,7 @@
   title: Rent vs Buy Calculator
   category: mortgage
   type: tool
-  short_name: Rent vs Buy
+  short_name: Rent vs Buy Calculator
   
 - url: /mortgage-recasting-calculator
   title: Mortgage Recasting Calculator – Recast Mortgage Payment Estimator
@@ -210,19 +353,19 @@
   title: Refinance Calculator
   category: mortgage
   type: tool
-  short_name: Refinance
+  short_name: Refinance Calculator
 
 - url: /home-affordability-calculator
   title: Home Affordability Calculator
   category: mortgage
   type: tool
-  short_name: Affordability
+  short_name: Affordability Calculator
 
 - url: /mortgage-payoff-calculator
   title: Mortgage Payoff Calculator
   category: mortgage
   type: tool
-  short_name: Mortgage Payoff
+  short_name: Mortgage Payoff Calculator
 
 - url: /long-island-closing-costs-calculator
   title: Long Island Closing Costs Calculator
@@ -237,38 +380,38 @@
   title: Loan Payoff Calculator
   category: debt
   type: tool
-  short_name: Loan Payoff
+  short_name: Loan Payoff Calculator
 
 - url: /credit-card-payoff-calculator
   title: Credit Card Payoff Calculator
   category: debt
   type: tool
-  short_name: CC Payoff
+  short_name: CC Payoff Calculator
 
 - url: /debt-snowball-calculator
   title: Debt Snowball Calculator
   category: debt
   type: tool
-  short_name: Debt Snowball
+  short_name: Debt Snowball Calculator
 
 - url: /debt-avalanche-calculator
   title: Debt Avalanche Calculator
   category: debt
   type: tool
-  short_name: Debt Avalanche
+  short_name: Debt Avalanche Calculator
 
 - url: /amortization-calculator
   title: Amortization Calculator
   category: debt
   type: tool
-  short_name: Amortization
+  short_name: Amortization Calculator
 
 
 - url: /debt-to-credit-ratio-calculator
   title: Debt to Credit Ratio Calculator
   category: debt
   type: tool
-  short_name: Credit Utilization  
+  short_name: Credit Utilization  Calculator
 # ============================================================
 # INSURANCE
 # ============================================================
@@ -276,19 +419,31 @@
   title: Life Insurance Calculator
   category: insurance
   type: tool
-  short_name: Life Insurance
+  short_name: Life Insurance Calculator
+
+- url: /pet-insurance-cost-calculator
+  title: Pet Insurance Cost Calculator – Free Estimate for Dogs & Cats
+  category: insurance
+  type: tool
+  short_name: Pet Insurance Calculator
+
+- url: /long-term-care-insurance-calculator
+  title: Long-Term Care Insurance Calculator – Estimate Your Costs
+  category: insurance
+  type: tool
+  short_name: LTC Insurance Calculator
 
 - url: /disability-insurance-calculator
   title: Disability Insurance Calculator
   category: insurance
   type: tool
-  short_name: Disability Insurance
+  short_name: Disability Insurance Calculator
 
 - url: /term-vs-whole-life-calculator
   title: Term vs Whole Life Calculator
   category: insurance
   type: tool
-  short_name: Term vs Whole
+  short_name: Term vs Whole Calculator
 
 - url: /idv-calculator
   title: IDV Calculator
@@ -296,6 +451,11 @@
   type: tool
   short_name: IDV Calculator
 
+- url: /auto-insurance-premium-estimator
+  title: Auto Insurance Premium Estimator – Calculate Your Car Insurance Rate
+  category: insurance
+  type: tool
+  short_name: Auto Insurance Estimator
 # ============================================================
 # TAX & INCOME
 # ============================================================
@@ -327,13 +487,13 @@
   title: Tax Bracket Calculator
   category: tax
   type: tool
-  short_name: Tax Bracket
+  short_name: Tax Bracket Calculator
 
 - url: /take-home-pay-calculator
   title: Take-Home Pay Calculator
   category: tax
   type: tool
-  short_name: Take-Home Pay
+  short_name: Take-Home Pay Calculator
 
 - url: /capital-gains-calculator
   title: Capital Gains Calculator
@@ -345,7 +505,7 @@
   title: Self-Employment Tax Calculator
   category: tax
   type: tool
-  short_name: SE Tax
+  short_name: SE Tax Calculator
 
 - url: /salary-calculator
   title: Salary Calculator
@@ -372,13 +532,13 @@
   title: 50/30/20 Budget Calculator
   category: budgeting
   type: tool
-  short_name: 50/30/20 Budget
+  short_name: 50/30/20 Budget Calculator
 
 - url: /net-worth-calculator
   title: Net Worth Calculator
   category: budgeting
   type: tool
-  short_name: Net Worth
+  short_name: Net Worth Calculator
 
 - url: /debt-to-income-calculator
   title: Debt-to-Income Calculator
@@ -390,13 +550,13 @@
   title: Emergency Fund Calculator
   category: budgeting
   type: tool
-  short_name: Emergency Fund
+  short_name: Emergency Fund Calculator
 
 - url: /biweekly-budget-calculator
   title: Biweekly Budget Calculator
   category: budgeting
   type: tool
-  short_name: Biweekly Budget  
+  short_name: Biweekly Budget  Calculator
 
 - url: /credit-score-simulator
   title: Credit Score Simulator
@@ -408,8 +568,19 @@
   title: Credit Limit Calculator
   category: budgeting
   type: tool
-  short_name: Credit Limit
+  short_name: Credit Limit Calculator
 
+- url: /freelancer-rate-calculator
+  title: Freelancer Rate Calculator – Hourly Rate & Income Estimator
+  category: budgeting
+  type: tool
+  short_name: Freelancer Rate Calculator
+
+- url: /trucking-cost-per-mile-calculator
+  title: Trucking Cost Per Mile Calculator – Operating Cost & Rate Estimator
+  category: budgeting
+  type: tool
+  short_name: Trucking Cost Per Mile
 # ============================================================
 # INVESTING
 # ============================================================
@@ -453,13 +624,13 @@
   title: Risk/Reward Ratio Calculator
   category: investing
   type: tool
-  short_name: R/R Ratio
+  short_name: R/R Ratio Calculator
 
 - url: /kelly-criterion-calculator
   title: Kelly Criterion Calculator
   category: investing
   type: tool
-  short_name: Kelly Criterion  
+  short_name: Kelly Criterion  Calculator
 
 - url: /roi-calculator
   title: ROI Calculator
@@ -492,7 +663,7 @@
   title: Balance Transfer Calculator
   category: debt
   type: tool
-  short_name: Balance Transfer
+  short_name: Balance Transfer Calculator
 
 # ============================================================
 # MORTGAGE (New Tools)
@@ -501,19 +672,19 @@
   title: Closing Costs Calculator
   category: mortgage
   type: tool
-  short_name: Closing Costs
+  short_name: Closing Costs Calculator
 
 - url: /down-payment-calculator
   title: Down Payment Calculator
   category: mortgage
   type: tool
-  short_name: Down Payment
+  short_name: Down Payment Calculator
 
 - url: /mortgage-points-calculator
   title: Mortgage Points Calculator
   category: mortgage
   type: tool
-  short_name: Mortgage Points
+  short_name: Mortgage Points Calculator
 
 - url: /pmi-calculator
   title: PMI Calculator
@@ -525,13 +696,13 @@
   title: Property Tax Calculator
   category: mortgage
   type: tool
-  short_name: Property Tax    
+  short_name: Property Tax Calculator
 
 # ============================================================
 # BUDGETING (New Tools)
 # ============================================================
 - url: /subscription-tracker-calculator
-  title: Subscription Calculator
+  title: Subscription Tracker Calculator
   category: budgeting
   type: tool
   short_name: Subscription Tracker
@@ -540,13 +711,13 @@
   title: Sinking Fund Calculator
   category: budgeting
   type: tool
-  short_name: Sinking Fund
+  short_name: Sinking Fund Calculator
 
 - url: /zero-based-budget-calculator
   title: Zero-Based Budget Calculator
   category: budgeting
   type: tool
-  short_name: Zero-Based Budget
+  short_name: Zero-Based Budget Calculator
 
 # ============================================================
 # INSURANCE (New Tools)
@@ -555,16 +726,2367 @@
   title: Insurance Deductible Break-Even Calculator
   category: insurance
   type: tool
-  short_name: Deductible Break-Even
+  short_name: Deductible Break-Even Calculator
 
 - url: /home-renters-insurance-calculator
   title: Home / Renters Insurance Calculator
   category: insurance
   type: tool
-  short_name: Home Insurance
+  short_name: Home Insurance Calculator
 
 - url: /umbrella-insurance-calculator
   title: Umbrella Insurance Calculator
   category: insurance
   type: tool
-  short_name: Umbrella Insurance  
+  short_name: Umbrella Insurance  Calculator
+
+# ============================================================
+# NEW CALCULATORS (49 Tools Added)
+# ============================================================
+- url: /arm-vs-fixed-rate-mortgage-calculator
+  title: ARM vs Fixed-Rate Mortgage Calculator
+  category: mortgage
+  type: tool
+  short_name: ARM vs Fixed Mortgage
+
+- url: /biweekly-mortgage-payment-calculator
+  title: Biweekly Mortgage Payment Calculator
+  category: mortgage
+  type: tool
+  short_name: Biweekly Mortgage
+
+- url: /extra-mortgage-payment-calculator
+  title: Extra Mortgage Payment Calculator
+  category: mortgage
+  type: tool
+  short_name: Extra Mortgage Payment
+
+- url: /va-loan-calculator
+  title: VA Loan Calculator
+  category: mortgage
+  type: tool
+  short_name: VA Loan Calculator
+
+- url: /fha-loan-calculator
+  title: FHA Loan Calculator
+  category: mortgage
+  type: tool
+  short_name: FHA Loan Calculator
+
+- url: /usda-loan-calculator
+  title: USDA Loan Calculator
+  category: mortgage
+  type: tool
+  short_name: USDA Loan Calculator
+
+- url: /jumbo-loan-calculator
+  title: Jumbo Loan Calculator
+  category: mortgage
+  type: tool
+  short_name: Jumbo Loan Calculator
+
+- url: /heloc-calculator
+  title: HELOC Calculator
+  category: mortgage
+  type: tool
+  short_name: HELOC Calculator
+
+- url: /home-equity-loan-calculator
+  title: Home Equity Loan Calculator
+  category: mortgage
+  type: tool
+  short_name: Home Equity Loan
+
+- url: /construction-loan-calculator
+  title: Construction Loan Calculator
+  category: mortgage
+  type: tool
+  short_name: Construction Loan
+
+- url: /cash-out-refinance-calculator
+  title: Cash-Out Refinance Calculator
+  category: mortgage
+  type: tool
+  short_name: Cash-Out Refinance
+
+- url: /escrow-calculator
+  title: Escrow Calculator
+  category: mortgage
+  type: tool
+  short_name: Escrow Calculator
+
+- url: /personal-loan-calculator
+  title: Personal Loan Calculator
+  category: debt
+  type: tool
+  short_name: Personal Loan Calculator
+
+- url: /auto-loan-payoff-calculator
+  title: Auto Loan Payoff Calculator
+  category: debt
+  type: tool
+  short_name: Auto Loan Payoff
+
+- url: /debt-free-date-calculator
+  title: Debt-Free Date Calculator
+  category: debt
+  type: tool
+  short_name: Debt-Free Date Calculator
+
+- url: /credit-card-minimum-payment-calculator
+  title: Credit Card Minimum Payment Calculator
+  category: debt
+  type: tool
+  short_name: Credit Card Minimum Payment
+
+- url: /balance-transfer-payoff-calculator
+  title: 0% APR Balance Transfer Payoff Calculator
+  category: debt
+  type: tool
+  short_name: Balance Transfer Payoff
+
+- url: /medical-debt-payoff-calculator
+  title: Medical Debt Payoff Calculator
+  category: debt
+  type: tool
+  short_name: Medical Debt Payoff
+
+- url: /critical-illness-insurance-calculator
+  title: Critical Illness Insurance Calculator
+  category: insurance
+  type: tool
+  short_name: Critical Illness Insurance
+
+- url: /mortgage-protection-insurance-calculator
+  title: Mortgage Protection Insurance Calculator
+  category: insurance
+  type: tool
+  short_name: Mortgage Protection Insurance
+
+- url: /flood-insurance-cost-calculator
+  title: Flood Insurance Cost Calculator
+  category: insurance
+  type: tool
+  short_name: Flood Insurance Cost
+
+- url: /w4-withholding-calculator
+  title: W-4 Withholding Calculator
+  category: tax
+  type: tool
+  short_name: W-4 Withholding
+
+- url: /estimated-quarterly-tax-calculator
+  title: Estimated Quarterly Tax Calculator
+  category: tax
+  type: tool
+  short_name: Estimated Quarterly Tax
+
+- url: /standard-deduction-vs-itemized-calculator
+  title: Standard Deduction vs Itemized Calculator
+  category: tax
+  type: tool
+  short_name: Standard vs Itemized Tax
+
+- url: /rental-property-depreciation-calculator
+  title: Rental Property Depreciation Calculator
+  category: tax
+  type: tool
+  short_name: Rental Depreciation
+
+- url: /home-sale-capital-gains-exclusion-calculator
+  title: Home Sale Capital Gains Exclusion Calculator
+  category: tax
+  type: tool
+  short_name: Home Sale Gains Exemption
+
+- url: /gift-tax-calculator
+  title: Gift Tax Calculator
+  category: tax
+  type: tool
+  short_name: Gift Tax Calculator
+
+- url: /estate-tax-calculator
+  title: Estate Tax Calculator
+  category: tax
+  type: tool
+  short_name: Estate Tax Calculator
+
+- url: /crypto-tax-calculator
+  title: Crypto Tax Calculator
+  category: tax
+  type: tool
+  short_name: Crypto Tax Calculator
+
+- url: /state-income-tax-comparison-calculator
+  title: State Income Tax Comparison Calculator
+  category: tax
+  type: tool
+  short_name: State Tax Comparison
+
+- url: /gst-calculator
+  title: GST Calculator
+  category: tax
+  type: tool
+  short_name: GST Calculator
+
+- url: /sales-tax-calculator
+  title: Sales Tax Calculator
+  category: tax
+  type: tool
+  short_name: Sales Tax Calculator
+
+- url: /wedding-budget-calculator
+  title: Wedding Budget Calculator
+  category: budgeting
+  type: tool
+  short_name: Wedding Budget Calculator
+
+- url: /moving-cost-calculator
+  title: Moving Cost Calculator
+  category: budgeting
+  type: tool
+  short_name: Moving Cost Calculator
+
+- url: /baby-cost-calculator
+  title: Baby Cost Calculator
+  category: budgeting
+  type: tool
+  short_name: Baby Cost Calculator
+
+- url: /college-cost-calculator
+  title: College Cost Calculator
+  category: budgeting
+  type: tool
+  short_name: College Cost Calculator
+
+- url: /vacation-budget-calculator
+  title: Vacation Budget Calculator
+  category: budgeting
+  type: tool
+  short_name: Vacation Budget Calculator
+
+- url: /irregular-income-budget-calculator
+  title: Irregular Income Budget Calculator
+  category: budgeting
+  type: tool
+  short_name: Irregular Income Budget
+
+- url: /roommate-bill-split-calculator
+  title: Roommate Bill Split Calculator
+  category: budgeting
+  type: tool
+  short_name: Roommate Bill Split
+
+- url: /margin-calculator
+  title: Margin Calculator
+  category: investing
+  type: tool
+  short_name: Margin Calculator
+
+- url: /options-profit-calculator
+  title: Options Profit Calculator
+  category: investing
+  type: tool
+  short_name: Options Profit Calculator
+
+- url: /covered-call-calculator
+  title: Covered Call Calculator
+  category: investing
+  type: tool
+  short_name: Covered Call Calculator
+
+- url: /portfolio-rebalancing-calculator
+  title: Portfolio Rebalancing Calculator
+  category: investing
+  type: tool
+  short_name: Portfolio Rebalancing
+
+- url: /asset-allocation-calculator
+  title: Asset Allocation Calculator
+  category: investing
+  type: tool
+  short_name: Asset Allocation Calculator
+
+- url: /stock-average-cost-calculator
+  title: Stock Average Cost Calculator
+  category: investing
+  type: tool
+  short_name: Stock Average Cost
+
+- url: /break-even-stock-price-calculator
+  title: Break-Even Stock Price Calculator
+  category: investing
+  type: tool
+  short_name: Break-Even Stock Price
+
+- url: /rental-property-cap-rate-calculator
+  title: Rental Property Cap Rate Calculator
+  category: investing
+  type: tool
+  short_name: Rental Cap Rate
+
+- url: /cash-on-cash-return-calculator
+  title: Cash-on-Cash Return Calculator
+  category: investing
+  type: tool
+  short_name: Cash-on-Cash Return
+
+- url: /1031-exchange-calculator
+  title: Section 1031 Exchange Calculator
+  category: investing
+  type: tool
+  short_name: 1031 Exchange Calculator
+
+# ============================================================
+# CONCRETE & MASONRY
+# ============================================================
+- url: /concrete-yardage-calculator
+  title: Concrete Yardage Calculator – Calculate Cubic Yards & Bag Count
+  category: concrete-masonry
+  type: tool
+  short_name: Concrete Yardage Calculator
+
+- url: /concrete-slab-cost-calculator
+  title: Concrete Slab Cost Calculator – Material & Labor Cost Estimator
+  category: concrete-masonry
+  type: tool
+  short_name: Concrete Slab Cost Calculator
+
+- url: /concrete-bag-calculator
+  title: Concrete Bag Calculator (60lb / 80lb) – Premix Bag Estimator
+  category: concrete-masonry
+  type: tool
+  short_name: Concrete Bag Calculator
+
+- url: /concrete-block-cmu-calculator
+  title: Concrete Block (CMU) Calculator – Block & Mortar Count
+  category: concrete-masonry
+  type: tool
+  short_name: CMU Block Calculator
+
+- url: /rebar-calculator
+  title: Rebar Calculator – Slab & Footing Steel Rebar Estimator
+  category: concrete-masonry
+  type: tool
+  short_name: Rebar Calculator
+
+- url: /gravel-aggregate-calculator
+  title: Gravel & Aggregate Calculator – Cubic Yards & Tons Estimator
+  category: concrete-masonry
+  type: tool
+  short_name: Gravel Calculator
+
+- url: /sand-calculator
+  title: Sand Calculator – Base & Masonry Sand Volume Estimator
+  category: concrete-masonry
+  type: tool
+  short_name: Sand Calculator
+
+- url: /mortar-calculator
+  title: Mortar Calculator – Bags & Cubic Feet for Brick & Block
+  category: concrete-masonry
+  type: tool
+  short_name: Mortar Calculator
+
+- url: /brick-calculator
+  title: Brick Calculator – Wall & Paving Brick Count Estimator
+  category: concrete-masonry
+  type: tool
+  short_name: Brick Calculator
+
+- url: /stucco-calculator
+  title: Stucco Calculator – Scratch, Brown & Finish Coat Coverage
+  category: concrete-masonry
+  type: tool
+  short_name: Stucco Calculator
+
+- url: /footing-calculator
+  title: Concrete Footing Calculator – Foundation Concrete Volume
+  category: concrete-masonry
+  type: tool
+  short_name: Footing Calculator
+
+- url: /retaining-wall-calculator
+  title: Retaining Wall Calculator – Block, Gravel & Backfill Estimator
+  category: concrete-masonry
+  type: tool
+  short_name: Retaining Wall Calculator
+
+- url: /stamped-concrete-cost-calculator
+  title: Stamped Concrete Cost Calculator – Decorative Patio & Walkway Cost
+  category: concrete-masonry
+  type: tool
+  short_name: Stamped Concrete Cost
+
+- url: /concrete-driveway-cost-calculator
+  title: Concrete Driveway Cost Calculator – Volume & Cost Estimator
+  category: concrete-masonry
+  type: tool
+  short_name: Concrete Driveway Cost
+
+- url: /concrete-stairs-calculator
+  title: Concrete Stairs Calculator – Riser & Tread Volume Estimator
+  category: concrete-masonry
+  type: tool
+  short_name: Concrete Stairs Calculator
+
+# ============================================================
+# LUMBER & FRAMING
+# ============================================================
+- url: /board-feet-calculator
+  title: Board Feet Calculator – Hardwood & Lumber Volume Estimator
+  category: lumber-framing
+  type: tool
+  short_name: Board Feet Calculator
+
+- url: /lumber-cost-calculator
+  title: Lumber Cost Calculator – Total Framing Order Price
+  category: lumber-framing
+  type: tool
+  short_name: Lumber Cost Calculator
+
+- url: /stud-framing-calculator
+  title: Stud Framing Calculator – Wall Studs by Linear Feet
+  category: lumber-framing
+  type: tool
+  short_name: Wall Stud Calculator
+
+- url: /rafter-length-calculator
+  title: Rafter Length Calculator – Roof Rafter & Overhang Math
+  category: lumber-framing
+  type: tool
+  short_name: Rafter Length Calculator
+
+- url: /roof-pitch-calculator
+  title: Roof Pitch Calculator – Slope Ratio & Angle Estimator
+  category: lumber-framing
+  type: tool
+  short_name: Roof Pitch Calculator
+
+- url: /joist-span-calculator
+  title: Joist Span Calculator – Max Span for Floor & Ceiling Joists
+  category: lumber-framing
+  type: tool
+  short_name: Joist Span Calculator
+
+- url: /deck-board-calculator
+  title: Deck Board Calculator – Decking Board Quantity Estimator
+  category: lumber-framing
+  type: tool
+  short_name: Deck Board Calculator
+
+- url: /deck-footing-post-calculator
+  title: Deck Footing & Post Calculator – Concrete Footings & 4x4/6x6 Posts
+  category: lumber-framing
+  type: tool
+  short_name: Deck Footing & Post
+
+- url: /fence-post-calculator
+  title: Fence Post Calculator – Post Spacing & Concrete Bag Count
+  category: lumber-framing
+  type: tool
+  short_name: Fence Post Calculator
+
+- url: /fence-panel-picket-calculator
+  title: Fence Panel & Picket Calculator – Picket Count Estimator
+  category: lumber-framing
+  type: tool
+  short_name: Fence Picket Calculator
+
+- url: /plywood-sheet-calculator
+  title: Plywood Sheet Calculator – 4x8 Subfloor & Sheathing Panels
+  category: lumber-framing
+  type: tool
+  short_name: Plywood Sheet Calculator
+
+- url: /stair-stringer-calculator
+  title: Stair Stringer Calculator – Rise, Run & Stringer Cut Math
+  category: lumber-framing
+  type: tool
+  short_name: Stair Stringer Calculator
+
+- url: /truss-calculator
+  title: Roof Truss Calculator – Truss Count & Spacing Estimator
+  category: lumber-framing
+  type: tool
+  short_name: Roof Truss Calculator
+
+# ============================================================
+# ROOFING
+# ============================================================
+- url: /roofing-square-calculator
+  title: Roofing Square Calculator – Calculate Roof Area in Squares
+  category: roofing
+  type: tool
+  short_name: Roofing Square Calculator
+
+- url: /shingle-calculator
+  title: Shingle Calculator – Shingle Bundles & Starter Strips
+  category: roofing
+  type: tool
+  short_name: Shingle Bundle Calculator
+
+- url: /roofing-material-cost-calculator
+  title: Roofing Material Cost Calculator – Complete Replacement Cost
+  category: roofing
+  type: tool
+  short_name: Roofing Cost Calculator
+
+- url: /metal-roofing-calculator
+  title: Metal Roofing Calculator – Standing Seam Panel Estimator
+  category: roofing
+  type: tool
+  short_name: Metal Roofing Calculator
+
+- url: /roof-pitch-angle-calculator
+  title: Roof Pitch & Angle Calculator – Pitch Ratio to Degrees
+  category: roofing
+  type: tool
+  short_name: Roof Angle Calculator
+
+- url: /gutter-length-calculator
+  title: Gutter Length Calculator – Seamless Gutters & Downspouts
+  category: roofing
+  type: tool
+  short_name: Gutter Length Calculator
+
+- url: /underlayment-calculator
+  title: Roofing Underlayment Calculator – Felt Paper Roll Coverage
+  category: roofing
+  type: tool
+  short_name: Underlayment Calculator
+
+# ============================================================
+# FLOORING
+# ============================================================
+- url: /flooring-square-footage-calculator
+  title: Flooring Square Footage Calculator – Room Area + Waste Factor
+  category: flooring
+  type: tool
+  short_name: Flooring Sq Ft Calculator
+
+- url: /tile-calculator
+  title: Tile Calculator – Tile Count by Dimensions & Area
+  category: flooring
+  type: tool
+  short_name: Tile Calculator
+
+- url: /tile-grout-calculator
+  title: Tile Grout Calculator – Grout Coverage in Pounds
+  category: flooring
+  type: tool
+  short_name: Tile Grout Calculator
+
+- url: /hardwood-flooring-calculator
+  title: Hardwood Flooring Calculator – Plank Cartons & Subfloor Area
+  category: flooring
+  type: tool
+  short_name: Hardwood Flooring
+
+- url: /laminate-flooring-calculator
+  title: Laminate Flooring Calculator – Plank Boxes & Underlayment
+  category: flooring
+  type: tool
+  short_name: Laminate Flooring
+
+- url: /carpet-calculator
+  title: Carpet Calculator – Square Yards & Carpet Padding
+  category: flooring
+  type: tool
+  short_name: Carpet Calculator
+
+- url: /vinyl-plank-flooring-calculator
+  title: Vinyl Plank Flooring (LVP) Calculator – Carton Estimator
+  category: flooring
+  type: tool
+  short_name: LVP Vinyl Plank Calculator
+
+- url: /subfloor-calculator
+  title: Subfloor Calculator – 3/4" Subfloor Panels & Adhesive
+  category: flooring
+  type: tool
+  short_name: Subfloor Calculator
+
+- url: /baseboard-trim-calculator
+  title: Baseboard & Trim Calculator – Linear Feet + Waste Factor
+  category: flooring
+  type: tool
+  short_name: Baseboard Trim Calculator
+
+# ============================================================
+# DRYWALL & PAINT
+# ============================================================
+- url: /drywall-sheet-calculator
+  title: Drywall Sheet Calculator – 4x8 & 4x12 Panel Estimator
+  category: drywall-paint
+  type: tool
+  short_name: Drywall Sheet Calculator
+
+- url: /drywall-mud-joint-compound-calculator
+  title: Drywall Mud & Joint Compound Calculator – Buckets & Tape
+  category: drywall-paint
+  type: tool
+  short_name: Drywall Mud Calculator
+
+- url: /paint-calculator
+  title: Paint Calculator – Gallons of Paint Needed by Wall Area
+  category: drywall-paint
+  type: tool
+  short_name: Paint Calculator
+
+- url: /wallpaper-calculator
+  title: Wallpaper Calculator – Double Rolls Needed by Room Size
+  category: drywall-paint
+  type: tool
+  short_name: Wallpaper Calculator
+
+- url: /primer-coverage-calculator
+  title: Primer Coverage Calculator – Gallons for Raw Drywall & Wood
+  category: drywall-paint
+  type: tool
+  short_name: Primer Coverage
+
+- url: /ceiling-texture-calculator
+  title: Ceiling Texture Calculator – Texture Bags for Knockdown/Popcorn
+  category: drywall-paint
+  type: tool
+  short_name: Ceiling Texture
+
+# ============================================================
+# INSULATION & HVAC
+# ============================================================
+- url: /insulation-calculator
+  title: Insulation Calculator – Fiberglass Batt & Roll Packages
+  category: insulation-hvac
+  type: tool
+  short_name: Insulation Calculator
+
+- url: /spray-foam-insulation-calculator
+  title: Spray Foam Insulation Calculator – Board Feet Open/Closed Cell
+  category: insulation-hvac
+  type: tool
+  short_name: Spray Foam Calculator
+
+- url: /r-value-calculator
+  title: R-Value Calculator – Thermal Resistance Assembly Value
+  category: insulation-hvac
+  type: tool
+  short_name: R-Value Calculator
+
+- url: /btu-hvac-sizing-calculator
+  title: BTU / HVAC Sizing Calculator – AC Tonnage & Heating BTUs
+  category: insulation-hvac
+  type: tool
+  short_name: HVAC BTU Sizing
+
+- url: /duct-sizing-calculator
+  title: Duct Sizing Calculator – Airflow CFM & Round Duct Diameter
+  category: insulation-hvac
+  type: tool
+  short_name: Duct Sizing Calculator
+
+# ============================================================
+# LANDSCAPING & OUTDOOR
+# ============================================================
+- url: /mulch-calculator
+  title: Mulch Calculator – Cubic Yards & 2 cu ft Bag Count
+  category: landscaping-outdoor
+  type: tool
+  short_name: Mulch Calculator
+
+- url: /topsoil-calculator
+  title: Topsoil Calculator – Cubic Yards & Soil Tons
+  category: landscaping-outdoor
+  type: tool
+  short_name: Topsoil Calculator
+
+- url: /sod-grass-calculator
+  title: Sod & Grass Calculator – Pallets & Rolls of Turf
+  category: landscaping-outdoor
+  type: tool
+  short_name: Sod Grass Calculator
+
+- url: /paver-calculator
+  title: Paver Calculator – Patio Pavers, Sand Bed & Base Stone
+  category: landscaping-outdoor
+  type: tool
+  short_name: Paver Calculator
+
+- url: /retaining-wall-block-calculator
+  title: Retaining Wall Block Calculator – Blocks & Capstones
+  category: landscaping-outdoor
+  type: tool
+  short_name: Wall Block Calculator
+
+- url: /gravel-driveway-calculator
+  title: Gravel Driveway Calculator – Gravel Base Tons & Yards
+  category: landscaping-outdoor
+  type: tool
+  short_name: Gravel Driveway Calculator
+
+- url: /fire-pit-size-calculator
+  title: Fire Pit Size Calculator – Ring Blocks & Clearance
+  category: landscaping-outdoor
+  type: tool
+  short_name: Fire Pit Calculator
+
+- url: /pool-volume-calculator
+  title: Pool Volume Calculator – Water Gallons for Rectangular/Round Pools
+  category: landscaping-outdoor
+  type: tool
+  short_name: Pool Volume Calculator
+
+- url: /pool-water-fill-cost-calculator
+  title: Pool Water Fill Cost Calculator – Municipal Fill Cost
+  category: landscaping-outdoor
+  type: tool
+  short_name: Pool Water Fill Cost
+
+- url: /fencing-cost-calculator
+  title: Fencing Cost Calculator – Wood, Vinyl & Chain Link Price
+  category: landscaping-outdoor
+  type: tool
+  short_name: Fencing Cost Calculator
+
+- url: /deck-size-cost-calculator
+  title: Deck Size & Cost Calculator – Cost Per Sq Ft by Material
+  category: landscaping-outdoor
+  type: tool
+  short_name: Deck Size & Cost
+
+- url: /landscape-edging-calculator
+  title: Landscape Edging Calculator – Linear Feet & Stakes
+  category: landscaping-outdoor
+  type: tool
+  short_name: Landscape Edging
+
+- url: /irrigation-sprinkler-coverage-calculator
+  title: Irrigation Sprinkler Coverage Calculator – Head Count & GPM Flow
+  category: landscaping-outdoor
+  type: tool
+  short_name: Sprinkler Coverage
+
+# ============================================================
+# HOME DECOR & INTERIOR
+# ============================================================
+- url: /paint-color-coverage-calculator
+  title: Paint Color Coverage Calculator – Accent Wall Gallons
+  category: home-decor-interior
+  type: tool
+  short_name: Paint Color Coverage
+
+- url: /wall-art-gallery-wall-spacing-calculator
+  title: Wall Art & Gallery Wall Spacing Calculator – Frame Gap Math
+  category: home-decor-interior
+  type: tool
+  short_name: Gallery Wall Spacing
+
+- url: /curtain-drape-fabric-calculator
+  title: Curtain & Drape Fabric Calculator – Panel Width & Yards
+  category: home-decor-interior
+  type: tool
+  short_name: Curtain Fabric Calculator
+
+- url: /rug-size-calculator
+  title: Rug Size Calculator – Room-to-Rug Ratio & Clearance
+  category: home-decor-interior
+  type: tool
+  short_name: Rug Size Calculator
+
+- url: /furniture-layout-scale-calculator
+  title: Furniture Layout & Scale Calculator – Room Clearance Math
+  category: home-decor-interior
+  type: tool
+  short_name: Furniture Layout Scale
+
+- url: /room-square-footage-calculator
+  title: Room Square Footage Calculator – Multi-Room Area Math
+  category: home-decor-interior
+  type: tool
+  short_name: Room Sq Ft Calculator
+
+- url: /wallpaper-pattern-repeat-calculator
+  title: Wallpaper Pattern Repeat Calculator – Pattern Match Waste
+  category: home-decor-interior
+  type: tool
+  short_name: Wallpaper Pattern Repeat
+
+- url: /crown-molding-calculator
+  title: Crown Molding Calculator – Linear Feet & Corner Cuts
+  category: home-decor-interior
+  type: tool
+  short_name: Crown Molding Calculator
+
+- url: /shelving-closet-organizer-calculator
+  title: Shelving & Closet Organizer Calculator – Shelf Boards & Brackets
+  category: home-decor-interior
+  type: tool
+  short_name: Closet Shelving
+
+- url: /countertop-square-footage-calculator
+  title: Countertop Square Footage Calculator – Granite & Quartz Slabs
+  category: home-decor-interior
+  type: tool
+  short_name: Countertop Sq Ft
+
+- url: /backsplash-tile-calculator
+  title: Backsplash Tile Calculator – Kitchen Backsplash Tile Area
+  category: home-decor-interior
+  type: tool
+  short_name: Backsplash Tile
+
+# ============================================================
+# PROJECT COST & PLANNING
+# ============================================================
+- url: /home-renovation-cost-estimator
+  title: Home Renovation Cost Estimator – Whole House Remodel Cost
+  category: project-cost-planning
+  type: tool
+  short_name: Home Renovation Cost
+
+- url: /home-addition-cost-calculator
+  title: Home Addition Cost Calculator – Room Addition Cost Per Sq Ft
+  category: project-cost-planning
+  type: tool
+  short_name: Home Addition Cost
+
+- url: /kitchen-remodel-cost-calculator
+  title: Kitchen Remodel Cost Calculator – Cabinets, Counters & Labor
+  category: project-cost-planning
+  type: tool
+  short_name: Kitchen Remodel Cost
+
+- url: /bathroom-remodel-cost-calculator
+  title: Bathroom Remodel Cost Calculator – Bathroom Overhaul Cost
+  category: project-cost-planning
+  type: tool
+  short_name: Bathroom Remodel Cost
+
+- url: /cost-per-square-foot-calculator
+  title: Cost Per Square Foot Calculator – Building Construction Cost
+  category: project-cost-planning
+  type: tool
+  short_name: Building Cost Per Sq Ft
+
+- url: /contractor-labor-cost-calculator
+  title: Contractor Labor Cost Calculator – Labor vs Material Ratio
+  category: project-cost-planning
+  type: tool
+  short_name: Contractor Labor Cost
+
+- url: /material-waste-percentage-calculator
+  title: Material Waste Percentage Calculator – Overage Multiplier
+  category: project-cost-planning
+  type: tool
+  short_name: Material Waste Multiplier
+
+# Additional Concrete & Masonry
+- url: /concrete-mix-ratio-calculator
+  title: Concrete Mix Ratio Calculator – Water, Cement & Aggregate Proportions
+  category: concrete-masonry
+  type: tool
+  short_name: Concrete Mix Ratio
+
+- url: /asphalt-calculator
+  title: Asphalt Calculator – Tonnage & Volume for Driveways & Parking Lots
+  category: concrete-masonry
+  type: tool
+  short_name: Asphalt Calculator
+
+- url: /epoxy-garage-floor-calculator
+  title: Epoxy Garage Floor Coating Calculator – Kits, Sq Ft & Flakes
+  category: concrete-masonry
+  type: tool
+  short_name: Epoxy Floor Calculator
+
+- url: /masonry-grout-calculator
+  title: Masonry Grout Calculator – CMU Block Core Fill Bags & Volume
+  category: concrete-masonry
+  type: tool
+  short_name: Masonry Grout Calculator
+
+# Additional Lumber & Framing
+- url: /header-beam-size-calculator
+  title: Header & Beam Size Calculator – Structural LVL & Lumber Span
+  category: lumber-framing
+  type: tool
+  short_name: Header & Beam Sizing
+
+- url: /deck-railing-calculator
+  title: Deck Railing Calculator – Balusters, Posts & Rails Count
+  category: lumber-framing
+  type: tool
+  short_name: Deck Railing Calculator
+
+- url: /pergola-gazebo-calculator
+  title: Pergola & Gazebo Material Calculator – Rafters, Slats & Posts
+  category: lumber-framing
+  type: tool
+  short_name: Pergola Material Calculator
+
+- url: /stair-handrail-calculator
+  title: Stair Handrail Calculator – Linear Feet, Brackets & Returns
+  category: lumber-framing
+  type: tool
+  short_name: Stair Handrail Calculator
+
+- url: /siding-material-calculator
+  title: Siding Material Calculator – Lap Siding Squares & Corner Trim
+  category: lumber-framing
+  type: tool
+  short_name: Siding Material Calculator
+
+- url: /osb-sheathing-calculator
+  title: OSB Sheathing Calculator – 4x8 Sheathing Panels & Waste
+  category: lumber-framing
+  type: tool
+  short_name: OSB Sheathing Calculator
+
+- url: /screw-nail-quantity-calculator
+  title: Fastener Screw & Nail Quantity Calculator – Framing & Decking Nails
+  category: lumber-framing
+  type: tool
+  short_name: Fastener Quantity Calculator
+
+# Additional Roofing
+- url: /roof-valley-length-calculator
+  title: Roof Valley Length Calculator – Valley Pitch & Flashing Length
+  category: roofing
+  type: tool
+  short_name: Roof Valley Calculator
+
+- url: /roof-overhang-calculator
+  title: Roof Overhang Calculator – Eave Extension & Soffit Area
+  category: roofing
+  type: tool
+  short_name: Roof Overhang Calculator
+
+- url: /roof-snow-load-calculator
+  title: Roof Snow Load Calculator – Ground Snow to Roof Pressure PSF
+  category: roofing
+  type: tool
+  short_name: Roof Snow Load
+
+- url: /ridge-vent-calculator
+  title: Ridge Vent Calculator – Attic Net Free Vent Area & Feet Needed
+  category: roofing
+  type: tool
+  short_name: Ridge Vent Calculator
+
+- url: /roof-flashing-calculator
+  title: Roof Flashing Calculator – Step Flashing, Drip Edge & Valley Metal
+  category: roofing
+  type: tool
+  short_name: Roof Flashing Calculator
+
+- url: /skylight-sizing-calculator
+  title: Skylight Sizing Calculator – Window Area to Room Ratio
+  category: roofing
+  type: tool
+  short_name: Skylight Sizing Calculator
+
+- url: /ice-water-shield-calculator
+  title: Ice & Water Shield Calculator – Eave & Valley Membrane Rolls
+  category: roofing
+  type: tool
+  short_name: Ice & Water Shield
+
+# Additional Flooring
+- url: /floor-leveling-compound-calculator
+  title: Floor Leveling Compound Calculator – Self-Leveling Bags Needed
+  category: flooring
+  type: tool
+  short_name: Self-Leveler Calculator
+
+- url: /stair-tread-calculator
+  title: Stair Tread Calculator – Hardwood & Composite Tread Covers
+  category: flooring
+  type: tool
+  short_name: Stair Tread Calculator
+
+- url: /radiant-floor-heating-calculator
+  title: Radiant Floor Heating Coverage Calculator – Cable Length & Mat Sq Ft
+  category: flooring
+  type: tool
+  short_name: Radiant Floor Heating
+
+- url: /floor-transition-strip-calculator
+  title: Floor Transition Strip Calculator – T-Molding & Reducers
+  category: flooring
+  type: tool
+  short_name: Floor Transition Strip
+
+# Additional Drywall & Paint
+- url: /exterior-siding-paint-calculator
+  title: Exterior Siding Paint Calculator – Gallons for House Siding
+  category: drywall-paint
+  type: tool
+  short_name: Exterior Paint Calculator
+
+- url: /deck-wood-stain-calculator
+  title: Deck & Wood Stain Calculator – Gallons for Decks & Fences
+  category: drywall-paint
+  type: tool
+  short_name: Deck Stain Calculator
+
+- url: /spackle-patching-compound-calculator
+  title: Spackle & Patching Compound Calculator – Hole & Wall Repair
+  category: drywall-paint
+  type: tool
+  short_name: Spackle Compound
+
+- url: /caulk-calculator
+  title: Caulk Calculator – Tubes Needed by Joint Bead & Feet
+  category: drywall-paint
+  type: tool
+  short_name: Caulk Tube Calculator
+
+# Additional Insulation & HVAC
+- url: /attic-ventilation-calculator
+  title: Attic Ventilation Calculator – Soffit & Ridge Vent Area Ratio
+  category: insulation-hvac
+  type: tool
+  short_name: Attic Vent Calculator
+
+- url: /ac-tonnage-calculator
+  title: AC Tonnage Calculator – Room Size & Cooling Capacity Tons
+  category: insulation-hvac
+  type: tool
+  short_name: AC Tonnage Calculator
+
+- url: /heat-loss-gain-calculator
+  title: Heat Loss & Gain Calculator – Manual J Building Load BTU
+  category: insulation-hvac
+  type: tool
+  short_name: Heat Loss Gain
+
+- url: /vapor-barrier-calculator
+  title: Vapor Barrier Calculator – 6mil Poly Sheeting Crawlspace Rolls
+  category: insulation-hvac
+  type: tool
+  short_name: Vapor Barrier Calculator
+
+# Additional Landscaping & Outdoor
+- url: /artificial-turf-calculator
+  title: Artificial Turf Calculator – Synthetic Grass Rolls & Sand Infill
+  category: landscaping-outdoor
+  type: tool
+  short_name: Artificial Turf
+
+- url: /tree-shrub-spacing-calculator
+  title: Tree & Shrub Spacing Calculator – Hedge & Plant Count Grid
+  category: landscaping-outdoor
+  type: tool
+  short_name: Plant Spacing Calculator
+
+- url: /outdoor-lighting-spacing-calculator
+  title: Outdoor Lighting Spacing Calculator – Landscape Fixture Spacing
+  category: landscaping-outdoor
+  type: tool
+  short_name: Landscape Lighting
+
+- url: /hot-tub-pad-size-calculator
+  title: Hot Tub Pad Size Calculator – Concrete Slab Thickness & Weight
+  category: landscaping-outdoor
+  type: tool
+  short_name: Hot Tub Pad Calculator
+
+- url: /french-drain-calculator
+  title: French Drain Calculator – Pipe Length, Gravel Yards & Fabric
+  category: landscaping-outdoor
+  type: tool
+  short_name: French Drain Calculator
+
+- url: /rain-barrel-sizing-calculator
+  title: Rain Barrel Sizing Calculator – Roof Runoff Gallons & Storage
+  category: landscaping-outdoor
+  type: tool
+  short_name: Rain Barrel Sizing
+
+# Additional Home Decor & Interior
+- url: /kitchen-cabinet-linear-footage-calculator
+  title: Kitchen Cabinet Linear Footage Calculator – Upper & Base Run
+  category: home-decor-interior
+  type: tool
+  short_name: Kitchen Cabinet Footage
+
+- url: /picture-frame-mat-border-calculator
+  title: Picture Frame Mat & Border Calculator – Mat Cut & Frame Size
+  category: home-decor-interior
+  type: tool
+  short_name: Frame Mat Border
+
+- url: /lighting-fixture-spacing-calculator
+  title: Lighting Fixture Spacing Calculator – Recessed Can Downlight Grid
+  category: home-decor-interior
+  type: tool
+  short_name: Recessed Light Spacing
+
+- url: /window-blinds-treatment-calculator
+  title: Window Blinds & Treatment Calculator – Inside vs Outside Mount
+  category: home-decor-interior
+  type: tool
+  short_name: Window Blinds Calculator
+
+- url: /accent-wall-coverage-calculator
+  title: Accent Wall Coverage Calculator – Accent Paint & Board Batten Trim
+  category: home-decor-interior
+  type: tool
+  short_name: Accent Wall Calculator
+
+# Additional Project Cost & Planning
+- url: /demolition-cost-calculator
+  title: Demolition Cost Calculator – Tear-Out Sq Ft & Dumpster Volume
+  category: project-cost-planning
+  type: tool
+  short_name: Demolition Cost
+
+- url: /building-permit-cost-estimator
+  title: Building Permit Cost Estimator – Permit Fees by Project Value
+  category: project-cost-planning
+  type: tool
+  short_name: Building Permit Cost
+
+- url: /renovation-roi-calculator
+  title: Renovation ROI Calculator – Remodel Cost vs Resale Value
+  category: project-cost-planning
+  type: tool
+  short_name: Renovation ROI
+
+- url: /contractor-markup-calculator
+  title: Contractor Markup Calculator – Cost-Plus & Profit Margin Multiplier
+  category: project-cost-planning
+  type: tool
+  short_name: Contractor Markup
+
+- url: /project-timeline-duration-estimator
+  title: Project Timeline & Duration Estimator – Remodel Work Days
+  category: project-cost-planning
+  type: tool
+  short_name: Project Duration
+
+# ============================================================
+# ELECTRICAL
+# ============================================================
+- url: /wire-gauge-calculator
+  title: Wire Gauge (AWG) Calculator – Voltage Drop & Amperage Distance
+  category: electrical
+  type: tool
+  short_name: Wire Gauge Calculator
+
+- url: /electrical-load-amperage-calculator
+  title: Electrical Load & Amperage Calculator – House Amps & Panel Watts
+  category: electrical
+  type: tool
+  short_name: Electrical Load Amps
+
+- url: /circuit-breaker-sizing-calculator
+  title: Circuit Breaker Sizing Calculator – Breaker Amps & Wire Gauge
+  category: electrical
+  type: tool
+  short_name: Breaker Sizing Calculator
+
+- url: /outlet-spacing-calculator
+  title: Outlet Spacing Calculator – NEC Receptacle Code Count
+  category: electrical
+  type: tool
+  short_name: Outlet Spacing Calculator
+
+- url: /generator-sizing-calculator
+  title: Generator Sizing Calculator – Running & Surge Watts Backup
+  category: electrical
+  type: tool
+  short_name: Generator Sizing
+
+# ============================================================
+# PLUMBING
+# ============================================================
+- url: /pipe-sizing-calculator
+  title: Pipe Sizing Calculator – PEX & Copper Diameter by GPM
+  category: plumbing
+  type: tool
+  short_name: Pipe Sizing Calculator
+
+- url: /water-heater-sizing-calculator
+  title: Water Heater Sizing Calculator – Tank Gallons & Tankless GPM
+  category: plumbing
+  type: tool
+  short_name: Water Heater Sizing
+
+- url: /septic-tank-sizing-calculator
+  title: Septic Tank Sizing Calculator – Gallon Capacity by Bedroom Count
+  category: plumbing
+  type: tool
+  short_name: Septic Tank Sizing
+
+- url: /water-pressure-loss-calculator
+  title: Water Pressure Loss Calculator – Friction PSI Drop & Elevation
+  category: plumbing
+  type: tool
+  short_name: Water Pressure Loss
+
+# ============================================================
+# WINDOWS & DOORS
+# ============================================================
+- url: /window-trim-casing-calculator
+  title: Window Trim & Casing Calculator – Stool, Apron & Trim Linear Feet
+  category: windows-doors
+  type: tool
+  short_name: Window Trim Calculator
+
+- url: /door-frame-material-calculator
+  title: Door Frame Material Calculator – Jamb Width, Trim & Threshold
+  category: windows-doors
+  type: tool
+  short_name: Door Frame Calculator
+
+- url: /garage-door-size-calculator
+  title: Garage Door Size Calculator – Single vs Double Clearance Math
+  category: windows-doors
+  type: tool
+  short_name: Garage Door Size
+
+- url: /window-u-value-energy-loss-calculator
+  title: Window U-Value Energy Loss Calculator – Thermal Heat Loss BTU
+  category: windows-doors
+  type: tool
+  short_name: Window U-Value Loss
+
+# ============================================================
+# AUTOMOTIVE – LOAN & FINANCING
+# ============================================================
+- url: /car-loan-payment-calculator
+  title: Car Loan Payment Calculator – Monthly Auto Loan Estimator
+  category: auto-loan-financing
+  type: tool
+  short_name: Car Loan Payment Calculator
+
+- url: /auto-loan-payoff-calculator
+  title: Auto Loan Payoff Calculator – Outstanding Balance & Payoff Schedule
+  category: auto-loan-financing
+  type: tool
+  short_name: Auto Loan Payoff
+
+- url: /auto-loan-vs-lease-calculator
+  title: Loan vs. Lease Calculator – Auto Financing vs Leasing Comparison
+  category: auto-loan-financing
+  type: tool
+  short_name: Loan vs Lease Calculator
+
+- url: /auto-refinance-savings-calculator
+  title: Auto Refinance Savings Calculator – Refinance Interest Savings
+  category: auto-loan-financing
+  type: tool
+  short_name: Auto Refinance Savings
+
+- url: /car-down-payment-calculator
+  title: Car Down Payment Calculator – Down Payment Impact on Loan
+  category: auto-loan-financing
+  type: tool
+  short_name: Car Down Payment
+
+- url: /auto-loan-total-interest-calculator
+  title: Auto Loan Total Interest Calculator – Total Cost of Borrowing
+  category: auto-loan-financing
+  type: tool
+  short_name: Auto Loan Interest
+
+- url: /car-loan-early-payoff-calculator
+  title: Early Payoff Savings Calculator – Extra Payment Interest Savings
+  category: auto-loan-financing
+  type: tool
+  short_name: Early Payoff Savings
+
+- url: /auto-balloon-payment-calculator
+  title: Balloon Payment Calculator – Final Lump-Sum Auto Loan Payment
+  category: auto-loan-financing
+  type: tool
+  short_name: Balloon Payment Calculator
+
+- url: /negative-equity-car-loan-calculator
+  title: Negative Equity Calculator – Underwater Auto Loan Estimator
+  category: auto-loan-financing
+  type: tool
+  short_name: Negative Equity Calculator
+
+- url: /extended-warranty-cost-calculator
+  title: Extended Warranty Cost-Benefit Calculator – Repair vs Warranty
+  category: auto-loan-financing
+  type: tool
+  short_name: Extended Warranty Value
+
+# ============================================================
+# AUTOMOTIVE – COST OF OWNERSHIP
+# ============================================================
+- url: /car-true-cost-of-ownership-calculator
+  title: True Cost of Ownership Calculator – 5-Year Vehicle TCO Estimator
+  category: auto-cost-ownership
+  type: tool
+  short_name: 5-Year Car TCO
+
+- url: /car-depreciation-calculator
+  title: Car Depreciation Calculator – Vehicle Resale Value Drop
+  category: auto-cost-ownership
+  type: tool
+  short_name: Car Depreciation
+
+- url: /car-fuel-cost-calculator
+  title: Fuel Cost Calculator – Trip, Monthly & Annual Gas Spending
+  category: auto-cost-ownership
+  type: tool
+  short_name: Fuel Cost Calculator
+
+- url: /car-maintenance-cost-estimator
+  title: Car Maintenance Cost Estimator – Annual Repair & Upkeep Cost
+  category: auto-cost-ownership
+  type: tool
+  short_name: Maintenance Estimator
+
+- url: /car-insurance-cost-estimator
+  title: Car Insurance Cost Estimator – Ballpark Auto Insurance Premium
+  category: auto-cost-ownership
+  type: tool
+  short_name: Insurance Cost Estimator
+
+- url: /car-registration-tag-fee-calculator
+  title: Registration & Tag Fee Calculator – Annual Vehicle Tag Renewal
+  category: auto-cost-ownership
+  type: tool
+  short_name: Registration Tag Fee
+
+- url: /car-vs-public-transit-cost-calculator
+  title: Car vs. Public Transit Cost Calculator – Driving vs Bus/Train
+  category: auto-cost-ownership
+  type: tool
+  short_name: Car vs Public Transit
+
+- url: /car-cost-per-mile-calculator
+  title: Cost Per Mile Calculator – Total Operating Cost per Driving Mile
+  category: auto-cost-ownership
+  type: tool
+  short_name: Driving Cost Per Mile
+
+- url: /car-trade-in-value-estimator
+  title: Trade-In Value Estimator – Used Car Trade-in Equity
+  category: auto-cost-ownership
+  type: tool
+  short_name: Trade-in Value Estimator
+
+# ============================================================
+# AUTOMOTIVE – FUEL & EFFICIENCY
+# ============================================================
+- url: /mpg-calculator
+  title: MPG Calculator – Calculate Real-World Miles Per Gallon
+  category: auto-fuel-efficiency
+  type: tool
+  short_name: MPG Calculator
+
+- url: /fuel-cost-road-trip-calculator
+  title: Fuel Cost Road Trip Calculator – Road Trip Gas Expense
+  category: auto-fuel-efficiency
+  type: tool
+  short_name: Road Trip Fuel Cost
+
+- url: /gas-vs-electric-car-cost-calculator
+  title: Gas vs. Electric Cost Calculator – Fuel & Power Cost Comparison
+  category: auto-fuel-efficiency
+  type: tool
+  short_name: Gas vs Electric Fuel
+
+- url: /fuel-savings-mpg-upgrade-calculator
+  title: Fuel Savings Calculator – Annual Savings from MPG Upgrade
+  category: auto-fuel-efficiency
+  type: tool
+  short_name: MPG Upgrade Savings
+
+- url: /engine-idle-fuel-waste-calculator
+  title: Idle Fuel Waste Calculator – Engine Idling Cost & Gas Waste
+  category: auto-fuel-efficiency
+  type: tool
+  short_name: Idle Fuel Waste
+
+- url: /fuel-tank-fill-up-cost-calculator
+  title: Fuel Tank Fill-Up Cost Calculator – Full Tank Gas Cost
+  category: auto-fuel-efficiency
+  type: tool
+  short_name: Tank Fill-Up Cost
+
+- url: /car-co2-emissions-calculator
+  title: Vehicle CO2 Emissions Calculator – Carbon Footprint Estimator
+  category: auto-fuel-efficiency
+  type: tool
+  short_name: CO2 Emissions Calculator
+
+# ============================================================
+# AUTOMOTIVE – ELECTRIC VEHICLE (EV)
+# ============================================================
+- url: /ev-charging-cost-calculator
+  title: EV Charging Cost Calculator – Home & Public Charging Dollars
+  category: electric-vehicle-ev
+  type: tool
+  short_name: EV Charging Cost
+
+- url: /ev-range-estimator
+  title: EV Range Estimator – Real-World Electric Driving Distance
+  category: electric-vehicle-ev
+  type: tool
+  short_name: EV Range Estimator
+
+- url: /home-ev-charger-payback-calculator
+  title: Home EV Charger Payback Calculator – Level 2 Charger ROI
+  category: electric-vehicle-ev
+  type: tool
+  short_name: Home EV Charger ROI
+
+- url: /gas-vs-ev-total-cost-comparison
+  title: Gas vs. EV Total Cost Comparison – Multi-Year Cost Difference
+  category: electric-vehicle-ev
+  type: tool
+  short_name: Gas vs EV Total Cost
+
+- url: /ev-battery-degradation-estimator
+  title: EV Battery Degradation Estimator – Battery Health & Range Capacity
+  category: electric-vehicle-ev
+  type: tool
+  short_name: EV Battery Degradation
+
+- url: /ev-tax-credit-rebate-estimator
+  title: EV Tax Credit & Rebate Estimator – Federal & State Incentives
+  category: electric-vehicle-ev
+  type: tool
+  short_name: EV Tax Credit Rebate
+
+- url: /ev-charging-time-calculator
+  title: EV Charging Time Calculator – Level 1, 2 & DC Fast Charge Time
+  category: electric-vehicle-ev
+  type: tool
+  short_name: EV Charging Time
+
+- url: /public-vs-home-ev-charging-cost-calculator
+  title: Public vs. Home EV Charging Cost Calculator – Power Rates
+  category: electric-vehicle-ev
+  type: tool
+  short_name: Public vs Home EV Cost
+
+# ============================================================
+# AUTOMOTIVE – PERFORMANCE & SPECS
+# ============================================================
+- url: /zero-to-sixty-mph-estimator
+  title: 0-60 mph Estimator – Acceleration Time by HP & Weight
+  category: auto-performance-specs
+  type: tool
+  short_name: 0-60 mph Estimator
+
+- url: /horsepower-to-weight-ratio-calculator
+  title: Horsepower-to-Weight Ratio Calculator – Power-to-Weight Math
+  category: auto-performance-specs
+  type: tool
+  short_name: HP to Weight Ratio
+
+- url: /quarter-mile-time-estimator
+  title: Quarter-Mile Time Estimator – 1/4 Mile ET & Trap Speed
+  category: auto-performance-specs
+  type: tool
+  short_name: Quarter-Mile ET
+
+- url: /gear-ratio-calculator
+  title: Gear Ratio Calculator – Final Drive & Transmission Gearing
+  category: auto-performance-specs
+  type: tool
+  short_name: Gear Ratio Calculator
+
+- url: /car-top-speed-estimator
+  title: Top Speed Estimator – Theoretical Maximum MPH
+  category: auto-performance-specs
+  type: tool
+  short_name: Top Speed Estimator
+
+- url: /car-braking-distance-calculator
+  title: Braking Distance Calculator – Stopping Distance & Reaction Time
+  category: auto-performance-specs
+  type: tool
+  short_name: Braking Distance
+
+- url: /tire-size-speedometer-error-calculator
+  title: Speedometer Error Calculator – Tire Size Change Speed Error
+  category: auto-performance-specs
+  type: tool
+  short_name: Speedometer Error
+
+- url: /engine-displacement-calculator
+  title: Engine Displacement Calculator – Bore, Stroke & Cylinder Volume
+  category: auto-performance-specs
+  type: tool
+  short_name: Engine Displacement
+
+- url: /engine-compression-ratio-calculator
+  title: Compression Ratio Calculator – Static Engine Compression Math
+  category: auto-performance-specs
+  type: tool
+  short_name: Compression Ratio
+
+# ============================================================
+# AUTOMOTIVE – TIRES & WHEELS
+# ============================================================
+- url: /tire-size-comparison-calculator
+  title: Tire Size Comparison Calculator – Diameter & Width Difference
+  category: auto-tires-wheels
+  type: tool
+  short_name: Tire Size Comparison
+
+- url: /tire-pressure-calculator
+  title: Tire Pressure Calculator – Recommended PSI by Load & Temp
+  category: auto-tires-wheels
+  type: tool
+  short_name: Tire Pressure Calculator
+
+- url: /tire-wear-mileage-life-estimator
+  title: Tire Wear & Mileage Life Estimator – Remaining Tread Lifespan
+  category: auto-tires-wheels
+  type: tool
+  short_name: Tire Life Estimator
+
+- url: /wheel-offset-backspacing-calculator
+  title: Wheel Offset & Backspacing Calculator – Wheel Fitment Clearance
+  category: auto-tires-wheels
+  type: tool
+  short_name: Wheel Offset Calculator
+
+- url: /tire-revolutions-per-mile-calculator
+  title: Tire Revolutions Per Mile Calculator – Tire Circumference Math
+  category: auto-tires-wheels
+  type: tool
+  short_name: Tire Revs Per Mile
+
+- url: /plus-size-wheel-fitment-calculator
+  title: Plus-Size Wheel Fitment Calculator – Upsizing Wheels & Tires
+  category: auto-tires-wheels
+  type: tool
+  short_name: Plus-Size Wheel Fitment
+
+# ============================================================
+# AUTOMOTIVE – DRIVING & TRIP PLANNING
+# ============================================================
+- url: /road-trip-fuel-cost-calculator
+  title: Road Trip Fuel Cost Calculator – Multi-Stop Gas Cost Estimator
+  category: auto-driving-trip-planning
+  type: tool
+  short_name: Road Trip Fuel Calculator
+
+- url: /driving-time-distance-calculator
+  title: Driving Time & Distance Calculator – ETA & Distance Math
+  category: auto-driving-trip-planning
+  type: tool
+  short_name: Drive Time & Distance
+
+- url: /toll-cost-estimator
+  title: Toll Cost Estimator – Highway Route Toll Charges
+  category: auto-driving-trip-planning
+  type: tool
+  short_name: Toll Cost Estimator
+
+- url: /carpool-cost-split-calculator
+  title: Carpool Cost-Split Calculator – Fair Passenger Gas Sharing
+  category: auto-driving-trip-planning
+  type: tool
+  short_name: Carpool Cost Split
+
+- url: /rideshare-vs-own-car-cost-calculator
+  title: Rideshare vs. Own Car Cost Calculator – Uber/Lyft vs Driving
+  category: auto-driving-trip-planning
+  type: tool
+  short_name: Rideshare vs Car Cost
+
+- url: /car-parking-cost-calculator
+  title: Parking Cost Calculator – Daily vs Monthly Parking Expense
+  category: auto-driving-trip-planning
+  type: tool
+  short_name: Parking Cost Calculator
+
+# ============================================================
+# AUTOMOTIVE – MAINTENANCE & REPAIR
+# ============================================================
+- url: /oil-change-interval-calculator
+  title: Oil Change Interval Calculator – Synthetic vs Conventional Oil Due Date
+  category: auto-maintenance-repair
+  type: tool
+  short_name: Oil Change Interval
+
+- url: /brake-pad-life-estimator
+  title: Brake Pad Life Estimator – Remaining Brake Pad Wear & Miles
+  category: auto-maintenance-repair
+  type: tool
+  short_name: Brake Pad Lifespan
+
+- url: /car-battery-life-cost-estimator
+  title: Car Battery Life & Replacement Cost Estimator – Battery Health
+  category: auto-maintenance-repair
+  type: tool
+  short_name: Battery Life & Cost
+
+- url: /timing-belt-replacement-interval-calculator
+  title: Timing Belt Replacement Interval Calculator – Mileage Service
+  category: auto-maintenance-repair
+  type: tool
+  short_name: Timing Belt Interval
+
+- url: /car-detailing-cost-estimator
+  title: Car Detailing Cost Estimator – Interior & Exterior Detailing Prices
+  category: auto-maintenance-repair
+  type: tool
+  short_name: Detailing Cost Estimator
+
+- url: /diy-vs-mechanic-repair-cost-calculator
+  title: DIY vs. Mechanic Repair Cost Calculator – Labor & Parts Savings
+  category: auto-maintenance-repair
+  type: tool
+  short_name: DIY vs Mechanic Cost
+
+# ============================================================
+# SAAS – PRICING & PACKAGING
+# ============================================================
+- url: /saas-pricing-calculator
+  title: SaaS Pricing Calculator – Cost-Plus vs. Value-Based Pricing
+  category: saas-pricing-packaging
+  type: tool
+  short_name: SaaS Pricing Calculator
+
+- url: /per-seat-vs-usage-based-pricing-calculator
+  title: Per-Seat vs. Usage Pricing Calculator – Model Revenue Projection
+  category: saas-pricing-packaging
+  type: tool
+  short_name: Per-Seat vs Usage Pricing
+
+- url: /freemium-conversion-rate-calculator
+  title: Freemium Conversion Rate Calculator – Free-to-Paid Upgrade Revenue
+  category: saas-pricing-packaging
+  type: tool
+  short_name: Freemium Conversion Rate
+
+- url: /price-increase-impact-calculator
+  title: Price Increase Impact Calculator – Price Lift vs Churn Risk
+  category: saas-pricing-packaging
+  type: tool
+  short_name: Price Increase Impact
+
+- url: /discount-promo-code-revenue-calculator
+  title: Discount & Promo Code Revenue Calculator – Promo Campaign Margin
+  category: saas-pricing-packaging
+  type: tool
+  short_name: Discount Promo Impact
+
+- url: /tiered-pricing-revenue-estimator
+  title: Tiered Pricing Revenue Estimator – Multi-Tier Customer Mix
+  category: saas-pricing-packaging
+  type: tool
+  short_name: Tiered Pricing Estimator
+
+- url: /annual-vs-monthly-discount-calculator
+  title: Annual vs. Monthly Plan Discount Calculator – Billing Cash Flow
+  category: saas-pricing-packaging
+  type: tool
+  short_name: Annual vs Monthly Discount
+
+- url: /feature-gating-roi-calculator
+  title: Feature-Gating ROI Calculator – Paywall Upgrade Revenue
+  category: saas-pricing-packaging
+  type: tool
+  short_name: Feature-Gating ROI
+
+- url: /cost-plus-pricing-calculator
+  title: Cost-Plus Pricing Calculator – Target Margin Cost Pricing
+  category: saas-pricing-packaging
+  type: tool
+  short_name: Cost-Plus Pricing
+
+- url: /value-based-pricing-calculator
+  title: Value-Based Pricing Calculator – Customer Quantified Value
+  category: saas-pricing-packaging
+  type: tool
+  short_name: Value-Based Pricing
+
+- url: /competitor-pricing-benchmark-calculator
+  title: Competitor Pricing Benchmark Calculator – Price Position Math
+  category: saas-pricing-packaging
+  type: tool
+  short_name: Competitor Pricing Benchmark
+
+- url: /addon-upsell-revenue-calculator
+  title: Add-On & Upsell Revenue Calculator – Core Plan Expansion
+  category: saas-pricing-packaging
+  type: tool
+  short_name: Add-On Upsell Revenue
+
+- url: /grandfathering-cost-calculator
+  title: Grandfathering Cost Calculator – Legacy Customer Pricing Impact
+  category: saas-pricing-packaging
+  type: tool
+  short_name: Grandfathering Cost
+
+- url: /volume-discount-calculator
+  title: Volume Discount Calculator – Tiered Seat Bulk Discounting
+  category: saas-pricing-packaging
+  type: tool
+  short_name: Volume Discount Calculator
+
+- url: /enterprise-vs-smb-pricing-calculator
+  title: Enterprise vs. SMB Pricing Calculator – Tier Revenue Potential
+  category: saas-pricing-packaging
+  type: tool
+  short_name: Enterprise vs SMB Pricing
+
+- url: /localized-currency-pricing-calculator
+  title: Localized Currency Pricing Calculator – Regional Market Pricing
+  category: saas-pricing-packaging
+  type: tool
+  short_name: Localized Currency Pricing
+
+- url: /free-trial-length-roi-calculator
+  title: Free Trial Length ROI Calculator – Trial Days vs Conversion
+  category: saas-pricing-packaging
+  type: tool
+  short_name: Free Trial Length ROI
+
+- url: /setup-fee-vs-amortized-calculator
+  title: Setup Fee vs. Amortized Fee Calculator – Onboarding Fee Schedule
+  category: saas-pricing-packaging
+  type: tool
+  short_name: Setup Fee vs Amortized
+
+# ============================================================
+# SAAS – UNIT ECONOMICS
+# ============================================================
+- url: /cac-customer-acquisition-cost-calculator
+  title: CAC Calculator – Customer Acquisition Cost Estimator
+  category: saas-unit-economics
+  type: tool
+  short_name: CAC Calculator
+
+- url: /ltv-customer-lifetime-value-calculator
+  title: LTV Calculator – Customer Lifetime Value Estimator
+  category: saas-unit-economics
+  type: tool
+  short_name: LTV Calculator
+
+- url: /ltv-cac-ratio-calculator
+  title: LTV:CAC Ratio Calculator – Unit Economics Benchmark Ratio
+  category: saas-unit-economics
+  type: tool
+  short_name: LTV:CAC Ratio
+
+- url: /cac-payback-period-calculator
+  title: CAC Payback Period Calculator – Months to Recover Acquisition Cost
+  category: saas-unit-economics
+  type: tool
+  short_name: CAC Payback Period
+
+- url: /saas-gross-margin-calculator
+  title: SaaS Gross Margin Calculator – Subscription COGS Margin %
+  category: saas-unit-economics
+  type: tool
+  short_name: SaaS Gross Margin
+
+- url: /contribution-margin-calculator
+  title: Contribution Margin Calculator – Unit Variable Margin Per Customer
+  category: saas-unit-economics
+  type: tool
+  short_name: Contribution Margin
+
+- url: /rule-of-40-calculator
+  title: Rule of 40 Calculator – SaaS Growth + Margin Benchmark
+  category: saas-unit-economics
+  type: tool
+  short_name: Rule of 40 Calculator
+
+- url: /saas-magic-number-calculator
+  title: SaaS Magic Number Calculator – Sales & Marketing Efficiency Ratio
+  category: saas-unit-economics
+  type: tool
+  short_name: SaaS Magic Number
+
+- url: /burn-multiple-calculator
+  title: Burn Multiple Calculator – Net Burn per Net New ARR Dollar
+  category: saas-unit-economics
+  type: tool
+  short_name: Burn Multiple Calculator
+
+- url: /arpu-calculator
+  title: ARPU Calculator – Average Revenue Per User
+  category: saas-unit-economics
+  type: tool
+  short_name: ARPU Calculator
+
+- url: /arpa-calculator
+  title: ARPA Calculator – Average Revenue Per Account
+  category: saas-unit-economics
+  type: tool
+  short_name: ARPA Calculator
+
+- url: /blended-cac-calculator
+  title: Blended CAC Calculator – Paid & Organic Acquisition Cost
+  category: saas-unit-economics
+  type: tool
+  short_name: Blended CAC Calculator
+
+- url: /channel-payback-period-calculator
+  title: Payback Period by Channel Calculator – Channel Acquisition Payback
+  category: saas-unit-economics
+  type: tool
+  short_name: Channel Payback Period
+
+- url: /unit-contribution-calculator
+  title: Unit Contribution Calculator – Customer Segment Contribution
+  category: saas-unit-economics
+  type: tool
+  short_name: Unit Contribution
+
+- url: /cost-of-service-calculator
+  title: Fully-Loaded Cost of Service Calculator – True Cost to Serve
+  category: saas-unit-economics
+  type: tool
+  short_name: Cost of Service
+
+- url: /break-even-customer-count-calculator
+  title: Break-Even Customer Count Calculator – Fixed Cost Coverage
+  category: saas-unit-economics
+  type: tool
+  short_name: Break-Even Customer Count
+
+- url: /gross-margin-by-cohort-calculator
+  title: Gross Margin by Cohort Calculator – Customer Cohort Margins
+  category: saas-unit-economics
+  type: tool
+  short_name: Gross Margin by Cohort
+
+# ============================================================
+# SAAS – REVENUE & GROWTH METRICS
+# ============================================================
+- url: /mrr-calculator
+  title: MRR Calculator – Monthly Recurring Revenue Estimator
+  category: saas-revenue-growth-metrics
+  type: tool
+  short_name: MRR Calculator
+
+- url: /arr-calculator
+  title: ARR Calculator – Annual Recurring Revenue Estimator
+  category: saas-revenue-growth-metrics
+  type: tool
+  short_name: ARR Calculator
+
+- url: /mrr-growth-rate-calculator
+  title: MRR Growth Rate Calculator – Month-over-Month Growth %
+  category: saas-revenue-growth-metrics
+  type: tool
+  short_name: MRR Growth Rate
+
+- url: /net-revenue-retention-nrr-calculator
+  title: Net Revenue Retention (NRR) Calculator – Net Expansion Retention %
+  category: saas-revenue-growth-metrics
+  type: tool
+  short_name: NRR Calculator
+
+- url: /gross-revenue-retention-grr-calculator
+  title: Gross Revenue Retention (GRR) Calculator – Gross Churn Retention %
+  category: saas-revenue-growth-metrics
+  type: tool
+  short_name: GRR Calculator
+
+- url: /expansion-revenue-calculator
+  title: Expansion Revenue Calculator – Upgrades, Add-Ons & Seat Expansion
+  category: saas-revenue-growth-metrics
+  type: tool
+  short_name: Expansion Revenue
+
+- url: /revenue-churn-calculator
+  title: Revenue Churn Calculator – Recurring Revenue Loss %
+  category: saas-revenue-growth-metrics
+  type: tool
+  short_name: Revenue Churn Calculator
+
+- url: /logo-churn-calculator
+  title: Logo Churn Calculator – Customer Account Attrition %
+  category: saas-revenue-growth-metrics
+  type: tool
+  short_name: Logo Churn Calculator
+
+- url: /saas-quick-ratio-calculator
+  title: SaaS Quick Ratio Calculator – Revenue Growth Efficiency Ratio
+  category: saas-revenue-growth-metrics
+  type: tool
+  short_name: SaaS Quick Ratio
+
+- url: /bookings-vs-revenue-recognition-calculator
+  title: Bookings vs. Revenue Recognition Calculator – Contract Accounting
+  category: saas-revenue-growth-metrics
+  type: tool
+  short_name: Bookings vs Revenue Rec
+
+- url: /deferred-revenue-calculator
+  title: Deferred Revenue Calculator – Unearned Subscription Cash
+  category: saas-revenue-growth-metrics
+  type: tool
+  short_name: Deferred Revenue
+
+- url: /committed-mrr-calculator
+  title: Committed MRR Calculator – Signed Contract Contractual MRR
+  category: saas-revenue-growth-metrics
+  type: tool
+  short_name: Committed MRR Calculator
+
+- url: /new-vs-expansion-mrr-split-calculator
+  title: New vs. Expansion MRR Split Calculator – Revenue Growth Breakdown
+  category: saas-revenue-growth-metrics
+  type: tool
+  short_name: New vs Expansion MRR
+
+- url: /downgrade-contraction-mrr-calculator
+  title: Downgrade & Contraction MRR Calculator – Plan Downgrade Loss
+  category: saas-revenue-growth-metrics
+  type: tool
+  short_name: Contraction MRR
+
+- url: /revenue-run-rate-calculator
+  title: Revenue Run Rate Calculator – Annualized Revenue Projection
+  category: saas-revenue-growth-metrics
+  type: tool
+  short_name: Revenue Run Rate
+
+- url: /yoy-growth-rate-calculator
+  title: YoY Growth Rate Calculator – Year-over-Year Revenue Growth %
+  category: saas-revenue-growth-metrics
+  type: tool
+  short_name: YoY Growth Rate
+
+- url: /cmgr-compound-monthly-growth-rate-calculator
+  title: CMGR Calculator – Compound Monthly Growth Rate %
+  category: saas-revenue-growth-metrics
+  type: tool
+  short_name: CMGR Calculator
+
+- url: /saas-forecasting-projection-calculator
+  title: SaaS Forecasting & Projection Calculator – Multi-Year Revenue Model
+  category: saas-revenue-growth-metrics
+  type: tool
+  short_name: SaaS Forecasting
+
+# ============================================================
+# SAAS – CHURN & RETENTION
+# ============================================================
+- url: /customer-churn-rate-calculator
+  title: Customer Churn Rate Calculator – Monthly & Annual Customer Attrition
+  category: saas-churn-retention
+  type: tool
+  short_name: Customer Churn Rate
+
+- url: /revenue-churn-rate-calculator
+  title: Revenue Churn Rate Calculator – Subscription Revenue Attrition
+  category: saas-churn-retention
+  type: tool
+  short_name: Revenue Churn Rate
+
+- url: /cohort-retention-calculator
+  title: Cohort Retention Calculator – Customer Signup Cohort Curves
+  category: saas-churn-retention
+  type: tool
+  short_name: Cohort Retention
+
+- url: /churn-cost-calculator
+  title: Churn Cost Calculator – Annualized Churn Revenue Impact
+  category: saas-churn-retention
+  type: tool
+  short_name: Churn Cost Calculator
+
+- url: /time-to-churn-estimator
+  title: Time-to-Churn Estimator – Average Customer Tenure Before Cancellation
+  category: saas-churn-retention
+  type: tool
+  short_name: Time-to-Churn Estimator
+
+- url: /renewal-rate-calculator
+  title: Renewal Rate Calculator – Contract Term Renewal Percentage
+  category: saas-churn-retention
+  type: tool
+  short_name: Renewal Rate Calculator
+
+- url: /involuntary-vs-voluntary-churn-calculator
+  title: Involuntary vs. Voluntary Churn Calculator – Failed Payment Churn
+  category: saas-churn-retention
+  type: tool
+  short_name: Involuntary Churn
+
+- url: /churn-by-cohort-calculator
+  title: Churn by Cohort Calculator – Vintage Signup Churn Comparison
+  category: saas-churn-retention
+  type: tool
+  short_name: Churn by Cohort
+
+- url: /seat-based-churn-calculator
+  title: Seat-Based Churn Calculator – License Contraction Loss
+  category: saas-churn-retention
+  type: tool
+  short_name: Seat-Based Churn
+
+- url: /annual-contract-churn-timing-calculator
+  title: Annual Contract Churn Timing Calculator – Contract Month Churn Hazard
+  category: saas-churn-retention
+  type: tool
+  short_name: Contract Churn Timing
+
+- url: /win-back-rate-calculator
+  title: Win-Back Rate Calculator – Cancelled Customer Reactivation
+  category: saas-churn-retention
+  type: tool
+  short_name: Win-Back Rate
+
+- url: /customer-health-score-calculator
+  title: Customer Health Score Calculator – Renewal Risk Score
+  category: saas-churn-retention
+  type: tool
+  short_name: Customer Health Score
+
+- url: /time-to-value-calculator
+  title: Time-to-Value Calculator – Time to First Value Milestone
+  category: saas-churn-retention
+  type: tool
+  short_name: Time-to-Value Estimator
+
+# ============================================================
+# SAAS – SALES & FUNNEL
+# ============================================================
+- url: /sales-funnel-conversion-calculator
+  title: Sales Funnel Conversion Calculator – Full Funnel Stage Rates
+  category: saas-sales-funnel
+  type: tool
+  short_name: Sales Funnel Conversion
+
+- url: /lead-to-customer-conversion-calculator
+  title: Lead-to-Customer Conversion Calculator – Lead Conversion Rate
+  category: saas-sales-funnel
+  type: tool
+  short_name: Lead-to-Customer Rate
+
+- url: /sales-cycle-length-calculator
+  title: Sales Cycle Length Calculator – Average Days to Close Deal
+  category: saas-sales-funnel
+  type: tool
+  short_name: Sales Cycle Length
+
+- url: /win-rate-calculator
+  title: Win Rate Calculator – Opportunity Closing Win %
+  category: saas-sales-funnel
+  type: tool
+  short_name: Win Rate Calculator
+
+- url: /average-deal-size-calculator
+  title: Average Deal Size (ACV) Calculator – Contract ACV Value
+  category: saas-sales-funnel
+  type: tool
+  short_name: Average Deal Size
+
+- url: /sales-quota-attainment-calculator
+  title: Sales Quota Attainment Calculator – Rep Target Attainment %
+  category: saas-sales-funnel
+  type: tool
+  short_name: Quota Attainment
+
+- url: /pipeline-coverage-ratio-calculator
+  title: Pipeline Coverage Ratio Calculator – Pipeline vs Quota Coverage
+  category: saas-sales-funnel
+  type: tool
+  short_name: Pipeline Coverage
+
+- url: /mql-to-sql-conversion-calculator
+  title: MQL-to-SQL Conversion Calculator – Lead Qualification Rate
+  category: saas-sales-funnel
+  type: tool
+  short_name: MQL-to-SQL Rate
+
+- url: /quota-to-ote-ratio-calculator
+  title: Quota-to-OTE Ratio Calculator – Sales Compensation Benchmark Ratio
+  category: saas-sales-funnel
+  type: tool
+  short_name: Quota-to-OTE Ratio
+
+- url: /sales-cycle-cost-calculator
+  title: Sales Cycle Cost Calculator – Total Cost Per Closed Deal
+  category: saas-sales-funnel
+  type: tool
+  short_name: Sales Cycle Cost
+
+- url: /discount-approval-impact-calculator
+  title: Discount Approval Impact Calculator – Rep Discounting Margin Impact
+  category: saas-sales-funnel
+  type: tool
+  short_name: Discount Approval Impact
+
+- url: /channel-partner-sales-split-calculator
+  title: Channel & Partner Sales Split Calculator – Direct vs Partner Revenue
+  category: saas-sales-funnel
+  type: tool
+  short_name: Partner Sales Split
+
+- url: /demo-to-close-conversion-calculator
+  title: Demo-to-Close Conversion Calculator – Product Demo Conversion %
+  category: saas-sales-funnel
+  type: tool
+  short_name: Demo-to-Close Rate
+
+- url: /outbound-reply-rate-calculator
+  title: Outbound Reply Rate Calculator – Sales Outreach Response Rate
+  category: saas-sales-funnel
+  type: tool
+  short_name: Outbound Reply Rate
+
+# ============================================================
+# SAAS – FUNDRAISING & VALUATION
+# ============================================================
+- url: /saas-valuation-calculator
+  title: SaaS Valuation Calculator – Revenue Multiple Valuation Model
+  category: saas-fundraising-valuation
+  type: tool
+  short_name: SaaS Valuation
+
+- url: /runway-calculator
+  title: Runway Calculator – Cash Runway Survival Months
+  category: saas-fundraising-valuation
+  type: tool
+  short_name: Cash Runway Calculator
+
+- url: /burn-rate-calculator
+  title: Burn Rate Calculator – Net Monthly Cash Spend
+  category: saas-fundraising-valuation
+  type: tool
+  short_name: Net Burn Rate
+
+- url: /dilution-calculator
+  title: Equity Dilution Calculator – Investor Funding Round Dilution
+  category: saas-fundraising-valuation
+  type: tool
+  short_name: Equity Dilution
+
+- url: /safe-conversion-calculator
+  title: SAFE Conversion Calculator – SAFE Note Equity Conversion
+  category: saas-fundraising-valuation
+  type: tool
+  short_name: SAFE Conversion
+
+- url: /startup-equity-vesting-calculator
+  title: Startup Equity Vesting Calculator – Founder & Employee Vesting Schedule
+  category: saas-fundraising-valuation
+  type: tool
+  short_name: Equity Vesting Schedule
+
+- url: /arr-multiple-benchmark-calculator
+  title: ARR Multiple Benchmark Calculator – Valuation Multiple Comparison
+  category: saas-fundraising-valuation
+  type: tool
+  short_name: ARR Multiple Benchmark
+
+- url: /post-money-vs-pre-money-valuation-calculator
+  title: Post-Money vs. Pre-Money Valuation Calculator – Round Ownership
+  category: saas-fundraising-valuation
+  type: tool
+  short_name: Pre vs Post Valuation
+
+- url: /option-pool-shuffle-calculator
+  title: Option Pool Shuffle Calculator – Pre-Money Pool Dilution Impact
+  category: saas-fundraising-valuation
+  type: tool
+  short_name: Option Pool Shuffle
+
+- url: /convertible-note-interest-calculator
+  title: Convertible Note Interest Calculator – Accrued Note Interest
+  category: saas-fundraising-valuation
+  type: tool
+  short_name: Convertible Note Interest
+
+- url: /founder-dilution-multiple-rounds-calculator
+  title: Founder Dilution Calculator – Multi-Round Ownership Retention
+  category: saas-fundraising-valuation
+  type: tool
+  short_name: Multi-Round Dilution
+
+- url: /liquidation-preference-calculator
+  title: Liquidation Preference Calculator – Exit Waterfall Payouts
+  category: saas-fundraising-valuation
+  type: tool
+  short_name: Liquidation Preference
+
+- url: /employee-equity-value-estimator
+  title: Employee Equity Value Estimator – Stock Option Exit Value
+  category: saas-fundraising-valuation
+  type: tool
+  short_name: Employee Equity Value
+
+- url: /series-funding-benchmark-calculator
+  title: Series Funding Benchmark Calculator – Seed, Series A & B Metrics
+  category: saas-fundraising-valuation
+  type: tool
+  short_name: Funding Benchmarks
+
+# ============================================================
+# SAAS – MARKETING & ADS
+# ============================================================
+- url: /roas-return-on-ad-spend-calculator
+  title: ROAS Calculator – Return on Ad Spend Estimator
+  category: saas-marketing-ads
+  type: tool
+  short_name: ROAS Calculator
+
+- url: /cpl-cost-per-lead-calculator
+  title: Cost Per Lead (CPL) Calculator – Lead Generation Acquisition Cost
+  category: saas-marketing-ads
+  type: tool
+  short_name: CPL Calculator
+
+- url: /marketing-budget-allocation-calculator
+  title: Marketing Budget Allocation Calculator – Multi-Channel Spend Split
+  category: saas-marketing-ads
+  type: tool
+  short_name: Budget Allocation
+
+- url: /email-marketing-roi-calculator
+  title: Email Marketing ROI Calculator – Email Campaign Return
+  category: saas-marketing-ads
+  type: tool
+  short_name: Email Marketing ROI
+
+- url: /content-marketing-roi-estimator
+  title: Content Marketing ROI Estimator – Organic Content Return
+  category: saas-marketing-ads
+  type: tool
+  short_name: Content Marketing ROI
+
+- url: /seo-traffic-value-calculator
+  title: SEO Traffic Value Calculator – Equivalent PPC Search Value
+  category: saas-marketing-ads
+  type: tool
+  short_name: SEO Traffic Value
+
+- url: /trial-to-paid-conversion-calculator
+  title: Trial-to-Paid Conversion Calculator – Free Trial Conversion Rate
+  category: saas-marketing-ads
+  type: tool
+  short_name: Trial-to-Paid Rate
+
+- url: /blended-marketing-roi-calculator
+  title: Blended Marketing ROI Calculator – Combined Marketing Return
+  category: saas-marketing-ads
+  type: tool
+  short_name: Blended Marketing ROI
+
+- url: /attribution-model-comparator
+  title: Attribution Model Comparator – First-Touch vs Last-Touch Revenue
+  category: saas-marketing-ads
+  type: tool
+  short_name: Attribution Comparator
+
+- url: /landing-page-conversion-rate-calculator
+  title: Landing Page Conversion Rate Calculator – Page Visitor Conversion
+  category: saas-marketing-ads
+  type: tool
+  short_name: Landing Page Conversion
+
+- url: /webinar-roi-calculator
+  title: Webinar ROI Calculator – Event Lead & Customer Pipeline
+  category: saas-marketing-ads
+  type: tool
+  short_name: Webinar ROI Calculator
+
+- url: /affiliate-referral-payout-calculator
+  title: Affiliate & Referral Program Payout Calculator – Commission Payout
+  category: saas-marketing-ads
+  type: tool
+  short_name: Affiliate Payout
+
+- url: /brand-vs-performance-ad-spend-calculator
+  title: Brand vs. Performance Ad Spend Calculator – Marketing Split
+  category: saas-marketing-ads
+  type: tool
+  short_name: Brand vs Performance Spend
+
+- url: /acquisition-channel-comparison-calculator
+  title: Acquisition Channel Comparison Calculator – Channel CAC & Volume
+  category: saas-marketing-ads
+  type: tool
+  short_name: Channel Comparison
+
+# ============================================================
+# SAAS – TEAM & OPERATIONS
+# ============================================================
+- url: /employee-cost-calculator
+  title: Fully-Loaded Employee Cost Calculator – Total Salary & Overhead
+  category: saas-team-operations
+  type: tool
+  short_name: Fully-Loaded Employee Cost
+
+- url: /revenue-per-employee-calculator
+  title: Revenue Per Employee Calculator – Organizational Efficiency Ratio
+  category: saas-team-operations
+  type: tool
+  short_name: Revenue Per Employee
+
+- url: /headcount-planning-calculator
+  title: Headcount Planning Calculator – Revenue Target Hiring Model
+  category: saas-team-operations
+  type: tool
+  short_name: Headcount Planning
+
+- url: /saas-budget-opex-forecasting-calculator
+  title: SaaS Budget & OpEx Forecasting Calculator – Operational Expenses
+  category: saas-team-operations
+  type: tool
+  short_name: OpEx Forecasting
+
+- url: /support-ticket-cost-calculator
+  title: Support Ticket Cost Calculator – Average Cost Per Support Ticket
+  category: saas-team-operations
+  type: tool
+  short_name: Support Ticket Cost
+
+- url: /engineering-cost-per-feature-calculator
+  title: Engineering Cost Per Feature Calculator – R&D Feature Cost
+  category: saas-team-operations
+  type: tool
+  short_name: Engineering Feature Cost
+
+- url: /support-ticket-volume-forecasting-calculator
+  title: Support Ticket Volume Forecasting Calculator – Ticket Growth
+  category: saas-team-operations
+  type: tool
+  short_name: Ticket Volume Forecast
+
+- url: /employee-utilization-rate-calculator
+  title: Employee Utilization Rate Calculator – Billable & Productive Hours
+  category: saas-team-operations
+  type: tool
+  short_name: Employee Utilization
+
+- url: /contractor-vs-full-time-cost-calculator
+  title: Contractor vs. Full-Time Cost Calculator – Hiring Option Cost
+  category: saas-team-operations
+  type: tool
+  short_name: Contractor vs Full-Time
+
+- url: /saas-tool-stack-cost-calculator
+  title: SaaS Tool Stack Cost Calculator – Internal Software Spend Audit
+  category: saas-team-operations
+  type: tool
+  short_name: SaaS Tool Stack Cost
+
+- url: /office-vs-remote-cost-comparison-calculator
+  title: Office vs. Remote Cost Comparison Calculator – Overhead Savings
+  category: saas-team-operations
+  type: tool
+  short_name: Office vs Remote Cost
+
+- url: /time-to-hire-cost-calculator
+  title: Time-to-Hire Cost Calculator – Vacancy Productivity Loss
+  category: saas-team-operations
+  type: tool
+  short_name: Time-to-Hire Cost
+
+
+
+
+

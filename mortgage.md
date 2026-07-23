@@ -65,4 +65,16 @@ shortName: Mortgage
     time and interest saved from making extra principal payments — even a modest
     additional monthly payment can cut years off a 30-year loan.
   </p>
+
+  <!-- RELATED FINANCE CATEGORIES -->
+  <h3>Related Finance Categories</h3>
+  <div class="related-cats-grid">
+    <a href="/growth" class="cat-chip">📈 Growth &amp; Savings</a>
+    <a href="/retirement" class="cat-chip">🏖️ Retirement</a>
+    <a href="/debt" class="cat-chip">💳 Debt</a>
+    <a href="/insurance" class="cat-chip">🛡️ Insurance</a>
+    <a href="/tax" class="cat-chip">📊 Tax</a>
+    <a href="/budgeting" class="cat-chip">📝 Budgeting</a>
+    <a href="/investing" class="cat-chip">💵 Investing</a>
+  </div>
 </section>

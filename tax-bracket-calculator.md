@@ -89,7 +89,7 @@ howto:
     - name: "Enter your taxable income"
       text: "Enter your total taxable income for the year."
     - name: "Define your tax brackets"
-      text: "For each bracket, enter the From ($), To ($), and Rate (%). Leave To blank for the highest bracket."
+      text: "For each bracket, enter the From , To , and Rate (%). Leave To blank for the highest bracket."
     - name: "View your results"
       text: "See your total tax, marginal rate, effective rate, and a detailed breakdown of tax by bracket."
 
@@ -132,8 +132,8 @@ This tool is designed for global users who need to calculate taxes with their ow
 
 Tax brackets are applied progressively. Each bracket has:
 
-- **From ($)** — where this bracket starts
-- **To ($)** — where this bracket ends (leave blank for the highest bracket)
+- **From ** — where this bracket starts
+- **To ** — where this bracket ends (leave blank for the highest bracket)
 - **Rate (%)** — the tax rate for this bracket
 
 **Example (US 2024, Single):**
@@ -163,8 +163,8 @@ Tax brackets are applied progressively. Each bracket has:
 1.  Select your **account currency** from the picker in the site header.
 2.  Enter your **taxable income**.
 3.  **Add your tax brackets** — click "Add Bracket" and enter:
-    - **From ($)** — the starting income for this bracket
-    - **To ($)** — the ending income for this bracket (leave blank for ∞)
+    - **From ** — the starting income for this bracket
+    - **To ** — the ending income for this bracket (leave blank for ∞)
     - **Rate (%)** — the tax rate for this bracket
 4.  The tool updates instantly — see your total tax, marginal rate, effective rate, and detailed breakdown.
 

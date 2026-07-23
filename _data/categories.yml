@@ -36,3 +36,162 @@ investing:
 blog:
   parent: Blog
   parent_url: /blog
+
+construction:
+  parent: Construction
+  parent_url: /construction
+  shortName: Construction
+
+concrete-masonry:
+  parent: Concrete & Masonry
+  parent_url: /construction#concrete-masonry
+  shortName: Concrete & Masonry
+
+lumber-framing:
+  parent: Lumber & Framing
+  parent_url: /construction#lumber-framing
+  shortName: Lumber & Framing
+
+roofing:
+  parent: Roofing
+  parent_url: /construction#roofing
+  shortName: Roofing
+
+flooring:
+  parent: Flooring
+  parent_url: /construction#flooring
+  shortName: Flooring
+
+drywall-paint:
+  parent: Drywall & Paint
+  parent_url: /construction#drywall-paint
+  shortName: Drywall & Paint
+
+insulation-hvac:
+  parent: Insulation & HVAC
+  parent_url: /construction#insulation-hvac
+  shortName: Insulation & HVAC
+
+landscaping-outdoor:
+  parent: Landscaping & Outdoor
+  parent_url: /construction#landscaping-outdoor
+  shortName: Landscaping & Outdoor
+
+home-decor-interior:
+  parent: Home Decor & Interior
+  parent_url: /construction#home-decor-interior
+  shortName: Home Decor & Interior
+
+project-cost-planning:
+  parent: Project Cost & Planning
+  parent_url: /construction#project-cost-planning
+  shortName: Project Cost & Planning
+
+electrical:
+  parent: Electrical
+  parent_url: /construction#electrical
+  shortName: Electrical
+
+plumbing:
+  parent: Plumbing
+  parent_url: /construction#plumbing
+  shortName: Plumbing
+
+windows-doors:
+  parent: Windows & Doors
+  parent_url: /construction#windows-doors
+  shortName: Windows & Doors
+
+automotive:
+  parent: Automotive
+  parent_url: /automotive
+  shortName: Automotive
+
+auto-loan-financing:
+  parent: Loan & Financing
+  parent_url: /automotive#auto-loan-financing
+  shortName: Loan & Financing
+
+auto-cost-ownership:
+  parent: Cost of Ownership
+  parent_url: /automotive#auto-cost-ownership
+  shortName: Cost of Ownership
+
+auto-fuel-efficiency:
+  parent: Fuel & Efficiency
+  parent_url: /automotive#auto-fuel-efficiency
+  shortName: Fuel & Efficiency
+
+electric-vehicle-ev:
+  parent: Electric Vehicle (EV)
+  parent_url: /automotive#electric-vehicle-ev
+  shortName: Electric Vehicle (EV)
+
+auto-performance-specs:
+  parent: Performance & Specs
+  parent_url: /automotive#auto-performance-specs
+  shortName: Performance & Specs
+
+auto-tires-wheels:
+  parent: Tires & Wheels
+  parent_url: /automotive#auto-tires-wheels
+  shortName: Tires & Wheels
+
+auto-driving-trip-planning:
+  parent: Driving & Trip Planning
+  parent_url: /automotive#auto-driving-trip-planning
+  shortName: Driving & Trip Planning
+
+auto-maintenance-repair:
+  parent: Maintenance & Repair
+  parent_url: /automotive#auto-maintenance-repair
+  shortName: Maintenance & Repair
+
+saas:
+  parent: SaaS
+  parent_url: /saas
+  shortName: SaaS
+
+saas-pricing-packaging:
+  parent: Pricing & Packaging
+  parent_url: /saas#saas-pricing-packaging
+  shortName: Pricing & Packaging
+
+saas-unit-economics:
+  parent: Unit Economics
+  parent_url: /saas#saas-unit-economics
+  shortName: Unit Economics
+
+saas-revenue-growth-metrics:
+  parent: Revenue & Growth Metrics
+  parent_url: /saas#saas-revenue-growth-metrics
+  shortName: Revenue & Growth Metrics
+
+saas-churn-retention:
+  parent: Churn & Retention
+  parent_url: /saas#saas-churn-retention
+  shortName: Churn & Retention
+
+saas-sales-funnel:
+  parent: Sales & Funnel
+  parent_url: /saas#saas-sales-funnel
+  shortName: Sales & Funnel
+
+saas-fundraising-valuation:
+  parent: Fundraising & Valuation
+  parent_url: /saas#saas-fundraising-valuation
+  shortName: Fundraising & Valuation
+
+saas-marketing-ads:
+  parent: Marketing & Ads
+  parent_url: /saas#saas-marketing-ads
+  shortName: Marketing & Ads
+
+saas-team-operations:
+  parent: Team & Operations
+  parent_url: /saas#saas-team-operations
+  shortName: Team & Operations
+
+
+
+

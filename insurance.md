@@ -59,4 +59,16 @@ shortName: Insurance
     cash value but at a significantly higher premium. Seeing the numbers next to
     each other makes that tradeoff concrete rather than abstract.
   </p>
+
+  <!-- RELATED FINANCE CATEGORIES -->
+  <h3>Related Finance Categories</h3>
+  <div class="related-cats-grid">
+    <a href="/growth" class="cat-chip">📈 Growth &amp; Savings</a>
+    <a href="/retirement" class="cat-chip">🏖️ Retirement</a>
+    <a href="/mortgage" class="cat-chip">🏡 Mortgage</a>
+    <a href="/debt" class="cat-chip">💳 Debt</a>
+    <a href="/tax" class="cat-chip">📊 Tax</a>
+    <a href="/budgeting" class="cat-chip">📝 Budgeting</a>
+    <a href="/investing" class="cat-chip">💵 Investing</a>
+  </div>
 </section>

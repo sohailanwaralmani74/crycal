@@ -70,4 +70,16 @@ shortName: Retirement
     needed to sustain a target annual expense level indefinitely, the core number
     behind any FIRE plan.
   </p>
+
+  <!-- RELATED FINANCE CATEGORIES -->
+  <h3>Related Finance Categories</h3>
+  <div class="related-cats-grid">
+    <a href="/growth" class="cat-chip">📈 Growth &amp; Savings</a>
+    <a href="/mortgage" class="cat-chip">🏡 Mortgage</a>
+    <a href="/debt" class="cat-chip">💳 Debt</a>
+    <a href="/insurance" class="cat-chip">🛡️ Insurance</a>
+    <a href="/tax" class="cat-chip">📊 Tax</a>
+    <a href="/budgeting" class="cat-chip">📝 Budgeting</a>
+    <a href="/investing" class="cat-chip">💵 Investing</a>
+  </div>
 </section>

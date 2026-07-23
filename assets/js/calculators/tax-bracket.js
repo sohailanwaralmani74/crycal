@@ -323,11 +323,11 @@
       div.innerHTML = `
         <div class="debt-item-row">
           <div class="debt-field">
-            <label>From ($)</label>
+            <label>From </label>
             <input type="number" class="bracket-from" value="${bracket.from}" step="100" min="0">
           </div>
           <div class="debt-field">
-            <label>To ($) Leave blank for ∞</label>
+            <label>To  Leave blank for ∞</label>
             <input type="number" class="bracket-to" value="${bracket.to !== null ? bracket.to : ''}" step="100" min="0" placeholder="∞">
           </div>
           <div class="debt-field">

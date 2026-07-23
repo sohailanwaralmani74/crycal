@@ -64,4 +64,16 @@ shortName: Tax
     self-employment tax that traditional employees don't pay directly — a
     frequent surprise for anyone newly self-employed.
   </p>
+
+  <!-- RELATED FINANCE CATEGORIES -->
+  <h3>Related Finance Categories</h3>
+  <div class="related-cats-grid">
+    <a href="/growth" class="cat-chip">📈 Growth &amp; Savings</a>
+    <a href="/retirement" class="cat-chip">🏖️ Retirement</a>
+    <a href="/mortgage" class="cat-chip">🏡 Mortgage</a>
+    <a href="/debt" class="cat-chip">💳 Debt</a>
+    <a href="/insurance" class="cat-chip">🛡️ Insurance</a>
+    <a href="/budgeting" class="cat-chip">📝 Budgeting</a>
+    <a href="/investing" class="cat-chip">💵 Investing</a>
+  </div>
 </section>

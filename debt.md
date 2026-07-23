@@ -64,4 +64,16 @@ shortName: Debt
     — useful for understanding exactly how much of an early payment actually
     reduces your balance versus covering interest already accrued.
   </p>
+
+  <!-- RELATED FINANCE CATEGORIES -->
+  <h3>Related Finance Categories</h3>
+  <div class="related-cats-grid">
+    <a href="/growth" class="cat-chip">📈 Growth &amp; Savings</a>
+    <a href="/retirement" class="cat-chip">🏖️ Retirement</a>
+    <a href="/mortgage" class="cat-chip">🏡 Mortgage</a>
+    <a href="/insurance" class="cat-chip">🛡️ Insurance</a>
+    <a href="/tax" class="cat-chip">📊 Tax</a>
+    <a href="/budgeting" class="cat-chip">📝 Budgeting</a>
+    <a href="/investing" class="cat-chip">💵 Investing</a>
+  </div>
 </section>

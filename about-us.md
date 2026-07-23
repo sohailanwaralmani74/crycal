@@ -3,6 +3,7 @@ layout: default
 title: About Wanjaaro — Free Financial Calculators
 description: Wanjaaro provides free, browser-based calculators for savings, retirement, mortgages, debt, insurance, tax, and budgeting.
 permalink: /about-us
+is_homepage: true
 ---
 
 # About Wanjaaro – Free Financial Calculators

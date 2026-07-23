@@ -64,7 +64,7 @@ inputs:
     placeholder: "e.g., 2"
 
   - id: childTaxCredit
-    label: Child Tax Credit per Dependent ($)
+    label: Child Tax Credit per Dependent 
     type: number
     default: 2000
     step: 100

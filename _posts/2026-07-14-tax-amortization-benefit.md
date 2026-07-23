@@ -10,6 +10,7 @@ read_time: 18
 excerpt: "Learn how tax amortization benefit works, how to calculate it, and how it can reduce your tax liability."
 short_name: Tax Amortization Benefit
 h1: Tax Amortization Benefit (TAB) - Definition, Formula & Country Rules
+type: blog
 ---
 
 
