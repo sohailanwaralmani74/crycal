@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Mortgage Calculator
-description: Calculate your monthly mortgage payments with our free mortgage calculator. Estimate payments, total interest, and amortization schedule.
+title: "Mortgage | Interactive Online Tool"
+description: "Calculate your monthly mortgage payments with our free mortgage calculator. Estimate payments, total interest, and amortization schedule."
 permalink: /mortgage-calculator
 tool_id: mortgage
 category: mortgage
@@ -192,7 +192,7 @@ faq:
 
 ---
 
-# Mortgage Calculator – Estimate Your Monthly Payments
+# Mortgage Calculator
 
 Use this mortgage calculator to estimate your monthly mortgage payments, total interest, and amortization schedule. Enter the home price, down payment, loan term, interest rate, property taxes, insurance, and PMI — the tool shows your full payment breakdown, total loan cost, and visual amortization schedule. Whether you're buying your first home or refinancing, this mortgage calculator helps you plan your home purchase with confidence.
 

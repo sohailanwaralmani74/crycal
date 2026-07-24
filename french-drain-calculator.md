@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: French Drain Calculator – Perforated Pipe, Washed Gravel & Filter Fabric
-description: Calculate perforated drain pipe linear feet, washed gravel backfill (cu yds & tons), geotextile filter fabric rolls, and material costs for french drain trenches.
+title: "French Drain | Interactive Online Tool"
+description: "Calculate perforated drain pipe linear feet, washed gravel backfill (cu yds & tons), geotextile filter fabric rolls, and material costs for..."
 permalink: /french-drain-calculator
 tool_id: french-drain-calculator
 category: landscaping-outdoor
@@ -172,7 +172,7 @@ faq:
     answer: "No. All calculation logic operates locally in your web browser."
 ---
 
-# French Drain Calculator – Perforated Pipe, Washed Gravel & Filter Fabric
+# French Drain Calculator
 
 Determine perforated drain pipe linear feet, washed gravel backfill (#57 stone tons & cubic yards), non-woven geotextile filter fabric rolls, and total excavation volume with our free **French Drain Calculator**.
 

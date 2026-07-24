@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Crypto Position Size Calculator
-description: Calculate position sizes for crypto perpetual futures. Supports both linear (USDT-margined) and inverse (Coin-margined) contracts.
+title: "Crypto Position Size | Interactive Online Tool"
+description: "Calculate position sizes for crypto perpetual futures. Supports both linear (USDT-margined) and inverse (Coin-margined) contracts."
 permalink: /crypto-position-size-calculator
 tool_id: crypto-position-size
 category: investing
@@ -183,7 +183,7 @@ faq:
 
 ---
 
-# Crypto Position Size Calculator – Size Your Crypto Trades
+# Crypto Position Size Calculator
 
 Use this crypto position size calculator to determine the optimal position size for crypto perpetual futures. Enter your account balance, risk percentage, entry price, stop-loss price, and contract type — the tool works for both linear (USDT-margined) and inverse (Coin-margined) contracts. This crypto risk calculator helps you size your trades with precision.
 

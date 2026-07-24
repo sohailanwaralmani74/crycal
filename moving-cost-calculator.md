@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Moving Cost Calculator – Estimate Local & Long-Distance Relocation
-description: Estimate moving costs for local and long-distance relocation based on home size, distance, truck rental, and mover fees.
+title: "Moving Cost | Interactive Online Tool"
+description: "Estimate moving costs for local and long-distance relocation based on home size, distance, truck rental, and mover fees."
 permalink: /moving-cost-calculator
 tool_id: moving-cost-calculator
 category: budgeting
@@ -121,7 +121,7 @@ faq:
     answer: "No. All calculations run locally inside your web browser. History and saved presets are stored strictly in your browser's local storage."
 ---
 
-# Moving Cost Calculator – Estimate Local & Long-Distance Relocation
+# Moving Cost Calculator
 
 Calculate local and cross-country relocation expenses with our free **Moving Cost Calculator**.
 

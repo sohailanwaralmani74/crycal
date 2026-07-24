@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Biweekly Mortgage Payment Calculator – Accelerate Home Payoff
-description: Calculate how switching to biweekly mortgage payments saves tens of thousands in interest and shaves years off your home loan.
+title: "Biweekly Mortgage Payment | Interactive Online Tool"
+description: "Calculate how switching to biweekly mortgage payments saves tens of thousands in interest and shaves years off your home loan."
 permalink: /biweekly-mortgage-payment-calculator
 tool_id: biweekly-mortgage-payment
 category: mortgage
@@ -131,7 +131,7 @@ faq:
     answer: "No. All calculations execute locally inside your web browser. History and saved presets remain strictly in your local browser storage."
 ---
 
-# Biweekly Mortgage Payment Calculator – Accelerate Home Payoff
+# Biweekly Mortgage Payment Calculator
 
 Making **biweekly mortgage payments** is one of the simplest and most effective strategies to pay off your home loan years early while saving tens of thousands of dollars in interest. Our free **Biweekly Mortgage Payment Calculator** shows you exactly how much time and money you can save by splitting your monthly mortgage payment into two equal payments every two weeks.
 

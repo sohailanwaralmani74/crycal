@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: 1099 Tax Calculator – Estimate Self-Employment & Income Tax
-description: Use our free 1099 Tax Calculator to estimate federal and state self-employment tax, quarterly payments, and how much to save for taxes as an independent contractor or freelancer.
+title: "1099 Tax | Interactive Online Tool"
+description: "Use our free 1099 Tax Calculator to estimate federal and state self-employment tax, quarterly payments, and how much to save for taxes as an..."
 permalink: /1099-tax-calculator
 tool_id: 1099-tax-calculator
 category: tax
@@ -236,7 +236,7 @@ faq:
 
 ---
 
-# 1099 Tax Calculator – Estimate Self-Employment & Income Tax
+# 1099 Tax Calculator
 
 Estimate your 1099 tax liability with our free **1099 Tax Calculator**. Enter your income, business expenses, filing status, and deductions to see your self-employment tax, federal tax, state tax, and quarterly payments — all without your data leaving your browser.
 

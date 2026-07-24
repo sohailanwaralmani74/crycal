@@ -140,7 +140,7 @@ faq:
     a: "No. All calculations run strictly in your browser."
 ---
 
-# Unit Contribution Calculator
+# Calculate Unit Contribution Margin
 
 Calculate unit contribution margin by SMB vs Mid-Market vs Enterprise customer segments. Use our free **Unit Contribution Calculator** to evaluate your SaaS business performance and make data-driven growth decisions — without any data leaving your browser.
 

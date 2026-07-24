@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Material Waste Percentage Calculator – Construction Overage Tool
-description: Calculate total construction material order quantities with 5%, 10%, 15%, and 20% waste multipliers for flooring, drywall, lumber, and tile.
+title: "Material Waste Percentage | Interactive Online Tool"
+description: "Calculate total construction material order quantities with 5%, 10%, 15%, and 20% waste multipliers for flooring, drywall, lumber, and tile."
 permalink: /material-waste-percentage-calculator
 tool_id: material-waste-percentage-calculator
 category: project-cost-planning
@@ -144,7 +144,7 @@ faq:
   - question: "Is my personal data saved when using this calculator?"
 ---
 
-# Material Waste Percentage Calculator – Construction Overage Tool
+# Material Waste Percentage Calculator
 
 Calculate precise material order quantities, extra waste buffer units, and total order costs using **5%, 10%, 15%, and 20% waste percentage multipliers** for flooring, drywall, lumber, tile, and decking.
 

@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Stair Stringer Calculator – Riser Height, Tread Run & Board Length
-description: Calculate exact stair riser count, exact riser height, tread run depth, total stair run length, 2x12 stringer hypotenuse length, and lumber cost.
+title: "Stair Stringer | Interactive Online Tool"
+description: "Calculate exact stair riser count, exact riser height, tread run depth, total stair run length, 2x12 stringer hypotenuse length, and lumber cost."
 permalink: /stair-stringer-calculator
 tool_id: stair-stringer-calculator
 category: lumber-framing
@@ -156,7 +156,7 @@ faq:
     answer: "No. All calculations run locally in your web browser."
 ---
 
-# Stair Stringer Calculator – Riser Height, Tread Run & Board Length
+# Stair Stringer Calculator
 
 Calculate exact **stair riser counts**, individual **riser heights**, **tread depth run length**, 2x12 stringer diagonal hypotenuse, and total lumber expenses with our free **Stair Stringer Calculator**.
 

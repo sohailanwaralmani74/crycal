@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: AC Tonnage Calculator – Central Air Conditioning Sizing (BTU & Tons)
-description: Calculate required central AC tonnage (1.5 to 5.0 tons) and BTU cooling load based on home square footage, ceiling height, climate zone, and insulation.
+title: "Ac Tonnage | Interactive Online Tool"
+description: "Calculate required central AC tonnage (1.5 to 5.0 tons) and BTU cooling load based on home square footage, ceiling height, climate zone, and insulation."
 permalink: /ac-tonnage-calculator
 tool_id: ac-tonnage-calculator
 category: insulation-hvac
@@ -167,7 +167,7 @@ faq:
     answer: "No. All calculation formulas run locally in your browser."
 ---
 
-# AC Tonnage Calculator – Central Air Conditioning Sizing (BTU & Tons)
+# Ac Tonnage Calculator
 
 Estimate required central AC tonnage (1.5 to 5.0 tons), total BTU cooling load, blower airflow CFM, and summer energy usage with our free **AC Tonnage Calculator**.
 

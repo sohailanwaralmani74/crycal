@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Car Maintenance Cost Estimator – Estimate Vehicle Repairs & Upkeep
-description: Estimate annual repair and maintenance expenses for your vehicle based on vehicle age, odometer mileage, and brand tier.
+title: "Car Maintenance Cost Estimator | Interactive Online Tool"
+description: "Estimate annual repair and maintenance expenses for your vehicle based on vehicle age, odometer mileage, and brand tier."
 permalink: /car-maintenance-cost-estimator
 tool_id: car-maintenance-cost-estimator
 category: auto-cost-ownership
@@ -134,7 +134,7 @@ faq:
 
 ---
 
-# Car Maintenance Cost Estimator
+# Car Maintenance Cost Estimator Calculator
 
 Estimate your vehicle's annual maintenance, routine servicing, and major repair costs based on age, odometer reading, and vehicle brand tier.
 

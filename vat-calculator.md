@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: VAT Calculator – Calculate Value Added Tax (Net, Gross, VAT Amount)
-description: Use our free VAT Calculator to calculate Value Added Tax. Enter the net price, VAT rate, or gross price to see the VAT amount and total.
+title: "Vat | Interactive Online Tool"
+description: "Use our free VAT Calculator to calculate Value Added Tax. Enter the net price, VAT rate, or gross price to see the VAT amount and total."
 permalink: /vat-calculator
 tool_id: vat-calculator
 category: tax
@@ -143,7 +143,7 @@ faq:
 
 ---
 
-# VAT Calculator – Calculate Value Added Tax
+# Vat Calculator
 
 Calculate Value Added Tax with our free **VAT Calculator**. Enter the net price, VAT rate, or gross price to see the VAT amount and total — all without your data leaving your browser.
 

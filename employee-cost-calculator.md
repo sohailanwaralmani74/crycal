@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Employee Cost Calculator – Fully-Loaded Expense Estimator
-description: Calculate the total fully-loaded cost of an employee including base salary, payroll taxes, benefits, equipment, and office overhead.
+title: "Employee Cost | Interactive Online Tool"
+description: "Calculate the total fully-loaded cost of an employee including base salary, payroll taxes, benefits, equipment, and office overhead."
 permalink: /employee-cost-calculator
 tool_id: employee-cost-calculator
 category: saas-team-operations
@@ -133,7 +133,7 @@ faq:
     answer: "Optimize expenses by offering competitive flexible benefits, bundling enterprise software licensing, hiring contractors for short-term projects, and optimizing health plan structures."
 ---
 
-# Employee Cost Calculator – Fully-Loaded Expense Estimator
+# Employee Cost Calculator
 
 Determine the true, fully-loaded financial commitment of hiring a full-time employee with our **Employee Cost Calculator**. Include base salary, payroll taxes, benefits, equipment, and software overhead.
 

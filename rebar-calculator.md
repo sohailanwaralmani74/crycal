@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Rebar Calculator – Slab Grid, Linear Feet, Weight & Cost
-description: Calculate linear feet of #3, #4, and #5 rebar for slab reinforcement grids, grid spacing, lap splice overlaps, total 20ft sticks, weight, and cost.
+title: "Rebar | Interactive Online Tool"
+description: "Calculate linear feet of #3, #4, and #5 rebar for slab reinforcement grids, grid spacing, lap splice overlaps, total 20ft sticks, weight, and cost."
 permalink: /rebar-calculator
 tool_id: rebar-calculator
 category: concrete-masonry
@@ -157,7 +157,7 @@ faq:
   - answer: "No. All calculation logic runs locally inside your browser."
 ---
 
-# Rebar Calculator – Slab Grid, Linear Feet, Weight & Cost
+# Rebar Calculator
 
 Calculate total **Linear Feet**, **20 ft Sticks**, steel weight in **lbs**, and material cost for rebar reinforcement grids in concrete slabs and footings.
 

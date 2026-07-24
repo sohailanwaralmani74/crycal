@@ -135,7 +135,7 @@ faq:
     a: "No. All calculations run strictly inside your browser."
 ---
 
-# Gross Margin by Cohort Calculator
+# Calculate Gross Margin by Cohort
 
 Compare gross margin expansion across 2022 vs 2023 vs 2024 customer cohorts to analyze cloud hosting and support scale efficiencies. Use our free **Gross Margin by Cohort Calculator** to evaluate your SaaS business performance and make data-driven growth decisions — without any data leaving your browser.
 

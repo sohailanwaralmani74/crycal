@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Support Ticket Volume Forecasting Calculator – Capacity Planning Engine
-description: Project future monthly customer support ticket volume, ticket deflection rates, and required support agent headcount as account growth scales.
+title: "Support Ticket Volume Forecasting | Wanjaaro"
+description: "Project future monthly customer support ticket volume, ticket deflection rates, and required support agent headcount as account growth scales."
 permalink: /support-ticket-volume-forecasting-calculator
 tool_id: support-ticket-volume-forecasting-calculator
 category: saas-team-operations
@@ -137,7 +137,7 @@ faq:
     answer: "Reduce ticket volume growth by embedding contextual in-app guidance, optimizing error message copy, releasing video walk-throughs, and implementing AI auto-resolution bots."
 ---
 
-# Support Ticket Volume Forecasting Calculator – Capacity Planning Engine
+# Support Ticket Volume Forecasting Calculator
 
 Forecast future customer support demand, self-service deflection savings, and agent hiring needs with our **Support Ticket Volume Forecasting Calculator**.
 

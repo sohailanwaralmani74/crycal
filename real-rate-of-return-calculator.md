@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Real Rate of Return Calculator – Inflation-Adjusted Returns
-description: Use the Real Rate of Return Calculator to find your inflation-adjusted investment return using the exact Fisher equation and the quick approximation method.
+title: "Real Rate Of Return | Interactive Online Tool"
+description: "Free online Real Rate Of Return. Calculate loan payments, interest growth, taxes, and financial metrics with instant browser math and charts."
 permalink: /real-rate-of-return-calculator
 tool_id: real-rate-of-return-calculator
 category: growth
@@ -99,7 +99,7 @@ faq:
     answer: "No. All calculations run locally in your browser. No data is sent to any server."
 ---
 
-# Calculate Your Inflation-Adjusted Real Rate of Return
+# Real Rate Of Return Calculator
 
 Use the **Real Rate of Return Calculator** to find your inflation-adjusted investment return using the exact Fisher equation and the quick approximation method.
 

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Construction & Building Calculators – Materials, Estimating & Costs
-description: Free, browser-based construction calculators for concrete, framing, roofing, flooring, drywall, paint, HVAC, landscaping, interior decor, electrical, plumbing, windows, doors, and renovation costs.
+title: "Construction Calculators — Materials, Estimating & Costs"
+description: Free, browser-based construction calculators for concrete, framing, roofing, flooring, drywall, paint, HVAC, landscaping, etc.
 permalink: /construction
 shortName: Construction
 is_homepage: true

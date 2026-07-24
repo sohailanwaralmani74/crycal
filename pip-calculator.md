@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Calculate Pip Value  | Wanjaaro Claculators
-description: Calculate the pip value for any market. Enter pip size, contract size, and trade size to see your pip value. Supports local currency exchange.
+title: "Pip | Interactive Online Tool"
+description: "Calculate the pip value for any market. Enter pip size, contract size, and trade size to see your pip value. Supports local currency exchange."
 permalink: /pip-calculator
 tool_id: pip-calculator
 category: investing
@@ -151,7 +151,7 @@ faq:
 
 ---
 
-# Pip Calculator – Calculate Pip Value for Any Market
+# Pip Calculator
 
 Use this pip calculator to determine the pip value for any market — and convert it into your account currency using a live exchange rate. Enter the pip size, contract size, and trade size — the tool shows your pip value per lot, for your specific trade, and converted to your account currency. Works for Forex, commodities, indices, and any market with a defined pip or tick size.
 

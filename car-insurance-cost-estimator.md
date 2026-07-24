@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Car Insurance Cost Estimator – Estimate Auto Premium Rates
-description: Estimate annual and monthly car insurance premiums based on driver age, vehicle value, car class, coverage level, deductible, and driving history.
+title: "Car Insurance Cost Estimator | Interactive Online Tool"
+description: "Estimate annual and monthly car insurance premiums based on driver age, vehicle value, car class, coverage level, deductible, and driving history."
 permalink: /car-insurance-cost-estimator
 tool_id: car-insurance-cost-estimator
 category: auto-cost-ownership
@@ -158,7 +158,7 @@ faq:
 
 ---
 
-# Car Insurance Cost Estimator
+# Car Insurance Cost Estimator Calculator
 
 Estimate your annual and monthly auto insurance premiums based on driver profile, vehicle value, coverage tier, deductible, and driving history.
 

@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Lighting Fixture Spacing Calculator – Recessed Downlight Grid & Spacing
-description: Calculate recessed downlight fixture count, grid rows and columns, fixture-to-fixture spacing, and distance from walls in feet.
+title: "Lighting Fixture Spacing | Interactive Online Tool"
+description: "Calculate recessed downlight fixture count, grid rows and columns, fixture-to-fixture spacing, and distance from walls in feet."
 permalink: /lighting-fixture-spacing-calculator
 tool_id: lighting-fixture-spacing-calculator
 category: home-decor-interior
@@ -146,7 +146,7 @@ faq:
     answer: "No. All calculations run strictly inside your web browser."
 ---
 
-# Lighting Fixture Spacing Calculator – Recessed Downlight Grid & Spacing
+# Lighting Fixture Spacing Calculator
 
 Achieving even, shadow-free illumination across a room requires proper fixture placement and grid geometry. Use our **Lighting Fixture Spacing Calculator** to calculate exact recessed downlight fixture counts, row and column grid arrays, fixture-to-fixture spacing, and wall offset distances in feet.
 

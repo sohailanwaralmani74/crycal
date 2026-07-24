@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Backdoor Roth IRA Calculator – Roth Conversion & Tax Analysis
-description: Use our free Backdoor Roth IRA Calculator to determine your eligibility, calculate taxable amounts, and see the benefits of a Roth conversion.
+title: "Backdoor Roth Ira | Interactive Online Tool"
+description: "Use our free Backdoor Roth IRA Calculator to determine your eligibility, calculate taxable amounts, and see the benefits of a Roth conversion."
 permalink: /backdoor-roth-ira-calculator
 tool_id: backdoor-roth-ira-calculator
 category: retirement
@@ -174,7 +174,7 @@ faq:
 
 ---
 
-# Backdoor Roth IRA Calculator – Roth Conversion & Tax Analysis
+# Backdoor Roth Ira Calculator
 
 Determine your Backdoor Roth IRA eligibility and calculate tax implications with our free **Backdoor Roth IRA Calculator**. Enter your income, contribution amount, and existing IRA balance to see if a backdoor Roth conversion makes sense — all without your data leaving your browser.
 

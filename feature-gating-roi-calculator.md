@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Feature-Gating ROI Calculator – Paywall Upgrade Revenue
-description: Estimate expansion revenue gains and churn risks when moving a high-value feature behind a higher tier paywall in B2B SaaS.
+title: "Feature Gating Roi | Interactive Online Tool"
+description: "Estimate expansion revenue gains and churn risks when moving a high-value feature behind a higher tier paywall in B2B SaaS."
 permalink: /feature-gating-roi-calculator
 tool_id: feature-gating-roi-calculator
 category: saas-pricing-packaging
@@ -155,7 +155,7 @@ faq:
 
 ---
 
-# Feature-Gating ROI Calculator – Paywall Upgrade Revenue
+# Feature Gating Roi Calculator
 
 Estimate the net financial impact of **gating features behind paywalls**. Calculate **expansion MRR gains** versus **backlash churn risk**.
 

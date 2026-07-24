@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Outlet Spacing Calculator – NEC 12-Foot Rule Receptacle Count
-description: Calculate the minimum required electrical wall outlet receptacles and box counts for room perimeters under NEC 210.52 12-foot and 6-foot rules.
+title: "Outlet Spacing | Interactive Online Tool"
+description: "Calculate the minimum required electrical wall outlet receptacles and box counts for room perimeters under NEC 210.52 12-foot and 6-foot rules."
 permalink: /outlet-spacing-calculator
 tool_id: outlet-spacing-calculator
 category: electrical
@@ -141,7 +141,7 @@ faq:
 
 ---
 
-# Outlet Spacing Calculator – NEC 12-Foot Rule Receptacle Count
+# Outlet Spacing Calculator
 
 Calculate the **minimum required electrical wall outlet receptacles** for any room using our **Outlet Spacing Calculator**. Fully compliant with **NEC Article 210.52**, this tool helps homeowners and electricians plan electrical rough-ins according to **12-foot living room** and **4-foot kitchen countertop** spacing rules.
 

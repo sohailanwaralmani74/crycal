@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Simple Interest Calculator
-description: Calculate simple interest on your principal amount. Enter principal, annual interest rate, and time period to see total interest and final amount.
+title: "Simple Interest | Interactive Online Tool"
+description: "Calculate simple interest on your principal amount. Enter principal, annual interest rate, and time period to see total interest and final amount."
 permalink: /simple-interest-calculator
 tool_id: simple-interest
 category: growth
@@ -117,7 +117,7 @@ faq:
     answer: "No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server."
 ---
 
-# Calculate Simple Interest Quickly – Principal, Rate & Time
+# Simple Interest Calculator
 
 Calculate simple interest instantly with this simple interest calculator. Enter your principal, annual interest rate, and time period to see your total interest and final amount. Use it for savings accounts, personal loans, or any basic interest calculation.
 

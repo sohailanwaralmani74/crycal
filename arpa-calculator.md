@@ -113,7 +113,7 @@ faq:
     a: "No. All calculations process strictly inside your browser."
 ---
 
-# ARPA (Average Revenue Per Account) Calculator
+# Calculate Average Revenue Per Account (ARPA)
 
 Calculate Average Revenue Per Account (ARPA) for multi-seat B2B SaaS plans across company customer accounts. Use our free **ARPA (Average Revenue Per Account) Calculator** to evaluate your SaaS business performance and make data-driven growth decisions — without any data leaving your browser.
 

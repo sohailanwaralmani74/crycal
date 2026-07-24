@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Property Tax Calculator
+   Wanjaaro — Property Tax Calculator
    Tool ID: property-tax-calculator
 ═══════════════════════════════════════════════════════════ */
 

@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Tire Size Comparison Calculator – Compare Diameter, Width & Revs Per Mile
-description: Compare two tire sizes side-by-side. Calculate differences in diameter, sidewall height, section width, revolutions per mile, and speedometer error percentage instantly.
+title: "Tire Size Comparison | Interactive Online Tool"
+description: "Free online Tire Size Comparison. Calculate car payments, TCO, fuel MPG, and EV charging with instant client-side browser math and charts."
 permalink: /tire-size-comparison-calculator
 tool_id: tire-size-comparison-calculator
 category: auto-tires-wheels
@@ -163,7 +163,7 @@ faq:
 
 ---
 
-# Tire Size Comparison Calculator – Compare Diameter, Width & Revs Per Mile
+# Tire Size Comparison Calculator
 
 Use our free **Tire Size Comparison Calculator** to compare two tire specifications side-by-side. Calculate exact overall diameter, sidewall profile height, section width, revolutions per mile, and speedometer calibration variances in real-time.
 

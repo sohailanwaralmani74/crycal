@@ -114,7 +114,7 @@ faq:
     a: "No. All calculations execute locally inside your web browser."
 ---
 
-# ARPU (Average Revenue Per User) Calculator
+# Calculate Average Revenue Per User (ARPU)
 
 Calculate Average Revenue Per User across active subscribers to analyze customer tier density and monetization strength. Use our free **ARPU (Average Revenue Per User) Calculator** to evaluate your SaaS business performance and make data-driven growth decisions — without any data leaving your browser.
 

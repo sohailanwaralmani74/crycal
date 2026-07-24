@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: R-Value Calculator – Building Wall Thermal Resistance & U-Factor
-description: Calculate total assembly effective R-value, U-factor, stud thermal bridging loss, and insulation thermal performance.
+title: "R Value | Interactive Online Tool"
+description: "Calculate total assembly effective R-value, U-factor, stud thermal bridging loss, and insulation thermal performance."
 permalink: /r-value-calculator
 tool_id: r-value-calculator
 category: insulation-hvac
@@ -148,7 +148,7 @@ faq:
     answer: "No. All calculation logic runs strictly inside your local web browser environment."
 ---
 
-# R-Value Calculator – Building Wall Thermal Resistance & U-Factor
+# R Value Calculator
 
 Calculate total assembly effective thermal R-value, overall U-factor, wood/steel stud thermal bridging losses, and envelope insulation efficiency.
 

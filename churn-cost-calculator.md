@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Churn Cost Calculator – Cumulative 1-Year Lost Revenue
-description: Calculate the cumulative 1-year financial cost of customer churn. Model compounding lost MRR and wasted acquisition costs (CAC).
+title: "Churn Cost | Interactive Online Tool"
+description: "Calculate the cumulative 1-year financial cost of customer churn. Model compounding lost MRR and wasted acquisition costs (CAC)."
 permalink: /churn-cost-calculator
 tool_id: churn-cost-calculator
 category: saas-churn-retention

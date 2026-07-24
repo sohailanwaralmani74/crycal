@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Auto Loan Total Interest Calculator – Compare Costs Across 36 to 84 Months
-description: Calculate total borrowing interest costs and monthly payments across auto loan term lengths from 36 to 84 months.
+title: "Auto Loan Total Interest | Interactive Online Tool"
+description: "Calculate total borrowing interest costs and monthly payments across auto loan term lengths from 36 to 84 months."
 permalink: /auto-loan-total-interest-calculator
 tool_id: auto-loan-total-interest-calculator
 category: auto-loan-financing

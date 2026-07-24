@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Gross Revenue Retention (GRR) Calculator
+   Wanjaaro — Gross Revenue Retention (GRR) Calculator
    Tool ID: gross-revenue-retention-grr-calculator
 ═══════════════════════════════════════════════════════════ */
 

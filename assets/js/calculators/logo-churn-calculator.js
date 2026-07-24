@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Logo Churn Calculator
+   Wanjaaro — Logo Churn Calculator
    Tool ID: logo-churn-calculator
 ═══════════════════════════════════════════════════════════ */
 

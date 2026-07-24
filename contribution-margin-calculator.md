@@ -123,7 +123,7 @@ faq:
     a: "No. All calculations run strictly in your web browser."
 ---
 
-# Contribution Margin Calculator
+# Calculate SaaS Contribution Margin
 
 Calculate SaaS contribution margin remaining after variable customer costs (COGS, variable S&M, and customer success). Use our free **Contribution Margin Calculator** to evaluate your SaaS business performance and make data-driven growth decisions — without any data leaving your browser.
 

@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Floor Transition Strip Calculator – T-Molding, Reducer & End Caps
-description: Calculate transition strip linear feet, T-molding, reducer, end cap, and metal carpet gripper stick counts (72" or 94" lengths) for flooring transitions.
+title: "Floor Transition Strip | Interactive Online Tool"
+description: "Calculate transition strip linear feet, T-molding, reducer, end cap, and metal carpet gripper stick counts (72 or 94 lengths) for flooring transitions."
 permalink: /floor-transition-strip-calculator
 tool_id: floor-transition-strip-calculator
 category: flooring
@@ -141,7 +141,7 @@ faq:
     answer: "No. All calculations run strictly inside your local browser."
 ---
 
-# Floor Transition Strip Calculator – T-Molding, Reducer & End Caps
+# Floor Transition Strip Calculator
 
 Calculate exact **transition strip linear feet**, commercial **molding stick counts (72" or 94")**, **metal U-channel track feet**, and cutting offcut waste for T-moldings, reducers, end caps, and carpet grippers.
 

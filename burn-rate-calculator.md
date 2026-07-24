@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Burn Rate Calculator – Net Monthly Cash Spend
-description: Calculate your startup's gross monthly spend, net monthly cash burn, annualized burn rate, and capital efficiency ratio.
+title: "Burn Rate | Interactive Online Tool"
+description: "Calculate your startups gross monthly spend, net monthly cash burn, annualized burn rate, and capital efficiency ratio."
 permalink: /burn-rate-calculator
 tool_id: burn-rate-calculator
 category: saas-fundraising-valuation
@@ -142,7 +142,7 @@ faq:
 
 ---
 
-# Burn Rate Calculator – Net Monthly Cash Spend
+# Burn Rate Calculator
 
 Calculate your startup's gross monthly expenses and net cash burn with our free **Burn Rate Calculator**. Analyze expense allocations across payroll, hosting, marketing, and admin while tracking annualized burn metrics.
 

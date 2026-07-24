@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Committed MRR (CMRR) Calculator – SaaS Future Revenue
-description: Calculate Committed Monthly Recurring Revenue (CMRR). Include signed contracts with future start dates minus known pending cancellations.
+title: "Committed Mrr | Interactive Online Tool"
+description: "Calculate Committed Monthly Recurring Revenue (CMRR). Include signed contracts with future start dates minus known pending cancellations."
 permalink: /committed-mrr-calculator
 tool_id: committed-mrr-calculator
 category: saas-revenue-growth-metrics
@@ -142,7 +142,7 @@ faq:
 
 ---
 
-# Committed MRR (CMRR) Calculator
+# Committed Mrr Calculator
 
 Calculate your Committed Monthly Recurring Revenue (CMRR) and Committed Annual Recurring Revenue (CARR) to project locked-in future revenue from signed enterprise contracts.
 

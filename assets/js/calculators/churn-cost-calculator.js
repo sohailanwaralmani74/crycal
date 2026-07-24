@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Churn Cost Calculator
+   Wanjaaro — Churn Cost Calculator
    Tool ID: churn-cost-calculator
 ═══════════════════════════════════════════════════════════ */
 

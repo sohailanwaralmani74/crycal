@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Stamped Concrete Cost Calculator – Decorative Patio & Driveway Estimator
-description: Calculate decorative stamped concrete material costs, color hardener, release agent, acrylic sealer, and contractor labor rates per square foot.
+title: "Stamped Concrete Cost | Interactive Online Tool"
+description: "Calculate decorative stamped concrete material costs, color hardener, release agent, acrylic sealer, and contractor labor rates per square foot."
 permalink: /stamped-concrete-cost-calculator
 tool_id: stamped-concrete-cost-calculator
 category: concrete-masonry
@@ -146,7 +146,7 @@ faq:
     answer: "No. All calculation algorithms process locally inside your device browser."
 ---
 
-# Stamped Concrete Cost Calculator – Decorative Patio & Driveway Estimator
+# Stamped Concrete Cost Calculator
 
 Calculate total material, color hardener, release agent, sealer, and contractor labor costs for **decorative stamped concrete patios**, **walkways**, **pool decks**, and **driveways**.
 

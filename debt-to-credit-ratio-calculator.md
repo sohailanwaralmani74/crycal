@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Debt to Credit Ratio Calculator – Credit Utilization Calculator
-description: Calculate your debt to credit ratio instantly. Enter your total debt and total credit limit to see utilization percentage and credit score impact.
+title: "Debt To Credit Ratio | Interactive Online Tool"
+description: "Calculate your debt to credit ratio instantly. Enter your total debt and total credit limit to see utilization percentage and credit score impact."
 permalink: /debt-to-credit-ratio-calculator
 tool_id: debt-to-credit-ratio
 category: debt
@@ -114,7 +114,7 @@ faq:
 
 ---
 
-# Debt to Credit Ratio Calculator – Credit Utilization Calculator
+# Debt To Credit Ratio Calculator
 
 Calculate your debt to credit ratio (credit utilization) with our free **debt to credit ratio calculator**. Enter your total debt and total credit limit to see your utilization percentage, credit score impact, and actionable insights — all without your data leaving your browser.
 

@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Ceiling Texture Calculator – Popcorn, Knockdown & Orange Peel Compound
-description: Calculate ceiling texture compound bags (popcorn, knockdown, orange peel), total compound weight in pounds, and total material cost.
+title: "Ceiling Texture | Interactive Online Tool"
+description: "Calculate ceiling texture compound bags (popcorn, knockdown, orange peel), total compound weight in pounds, and total material cost."
 permalink: /ceiling-texture-calculator
 tool_id: ceiling-texture-calculator
 category: drywall-paint
@@ -140,7 +140,7 @@ faq:
     answer: "No. All calculations run locally in your web browser."
 ---
 
-# Ceiling Texture Calculator – Popcorn, Knockdown & Orange Peel Compound
+# Ceiling Texture Calculator
 
 Determine exact dry mix requirements for spraying or hand-applying **popcorn acoustic**, **knockdown**, **orange peel**, and **smooth skim coat** finishes with our **Ceiling Texture Calculator**.
 

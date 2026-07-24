@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Home Addition Cost Calculator – Room Addition Expense Estimator
-description: Calculate room addition costs based on added square footage, foundation type, story count, finish tier, HVAC extension, and permit fees.
+title: "Home Addition Cost | Interactive Online Tool"
+description: "Calculate room addition costs based on added square footage, foundation type, story count, finish tier, HVAC extension, and permit fees."
 permalink: /home-addition-cost-calculator
 tool_id: home-addition-cost-calculator
 category: project-cost-planning
@@ -153,7 +153,7 @@ faq:
   - question: "Is my personal data saved when using this calculator?"
 ---
 
-# Home Addition Cost Calculator – Room Addition Expense Estimator
+# Home Addition Cost Calculator
 
 Calculate room addition expenses based on square footage, story count, foundation structure, HVAC extensions, and finish quality tiers.
 

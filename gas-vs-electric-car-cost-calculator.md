@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Gas vs Electric Car Cost Calculator – Compare Fuel vs Electricity Costs
-description: Compare annual and 5-year fuel expenses for a gasoline vehicle versus an electric vehicle (EV) based on gas price, MPG, EV efficiency, and electricity rates.
+title: "Gas Vs Electric Car Cost | Interactive Online Tool"
+description: "Free online Gas Vs Electric Car Cost. Calculate car payments, TCO, fuel MPG, and EV charging with instant client-side browser math and charts."
 permalink: /gas-vs-electric-car-cost-calculator
 tool_id: gas-vs-electric-car-cost-calculator
 category: auto-fuel-efficiency
@@ -148,7 +148,7 @@ faq:
 
 ---
 
-# Gas vs Electric Car Cost Calculator
+# Gas Vs Electric Car Cost Calculator
 
 Compare annual and 5-year fuel spending for a gasoline vehicle versus an electric vehicle (EV) based on gas price, MPG, EV efficiency, and electricity tariffs.
 

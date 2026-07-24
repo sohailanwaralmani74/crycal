@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Electrical Load Amperage Calculator – Home Service Panel Size (NEC 220)
-description: Calculate total residential electrical service load in amperes and determine if a 100A, 200A, or 400A panel is required per NEC 220 demand factors.
+title: "Electrical Load Amperage | Interactive Online Tool"
+description: "Calculate total residential electrical service load in amperes and determine if a 100A, 200A, or 400A panel is required per NEC 220 demand factors."
 permalink: /electrical-load-amperage-calculator
 tool_id: electrical-load-amperage-calculator
 category: electrical
@@ -163,7 +163,7 @@ faq:
 
 ---
 
-# Electrical Load Amperage Calculator – Home Service Panel Size (NEC 220)
+# Electrical Load Amperage Calculator
 
 Calculate your home's **total electrical service load in amperes** using our **Electrical Load Amperage Calculator**. Based on **National Electrical Code (NEC) Article 220**, this tool determines whether your home requires a 100-amp, 200-amp, or 400-amp main breaker panel.
 

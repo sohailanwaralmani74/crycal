@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Accent Wall Coverage Calculator – Paint Gallons, Board & Batten Trim
-description: Calculate accent wall paint gallons, board & batten trim board quantities, 8ft lumber sticks, grid box spacing, and trim linear footage.
+title: "Accent Wall Coverage | Interactive Online Tool"
+description: "Calculate accent wall paint gallons, board & batten trim board quantities, 8ft lumber sticks, grid box spacing, and trim linear footage."
 permalink: /accent-wall-coverage-calculator
 tool_id: accent-wall-coverage-calculator
 category: home-decor-interior
@@ -162,7 +162,7 @@ faq:
     answer: "No. All calculations run strictly inside your web browser."
 ---
 
-# Accent Wall Coverage Calculator – Paint Gallons, Board & Batten Trim
+# Accent Wall Coverage Calculator
 
 Accent walls create bold focal points in bedrooms, dining rooms, and home offices. Use our **Accent Wall Coverage Calculator** to determine paint gallon requirements, board & batten trim board quantities, 8-foot lumber sticks, and clear inner grid box spacing dimensions.
 

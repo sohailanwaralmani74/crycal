@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Revenue Run Rate Calculator – Annualize SaaS Revenue
-description: Calculate your Annual Run Rate (ARR) from recent monthly or quarterly revenue performance and model compounding annual revenue run rates.
+title: "Revenue Run Rate | Interactive Online Tool"
+description: "Calculate your Annual Run Rate (ARR) from recent monthly or quarterly revenue performance and model compounding annual revenue run rates."
 permalink: /revenue-run-rate-calculator
 tool_id: revenue-run-rate-calculator
 category: saas-revenue-growth-metrics

@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Renewal Rate Calculator
+   Wanjaaro — Renewal Rate Calculator
    Tool ID: renewal-rate-calculator
 ═══════════════════════════════════════════════════════════ */
 

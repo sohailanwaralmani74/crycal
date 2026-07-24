@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Retirement Planner – Plan Your Financial Future
-description: Plan your retirement with our free Retirement Planner. Enter your age, income, savings, and retirement goals to see if you're on track.
+title: "Retirement Planner | Interactive Online Tool"
+description: "Plan your retirement with our free Retirement Planner. Enter your age, income, savings, and retirement goals to see if youre on track."
 permalink: /retirement-planner
 tool_id: retirement-planner
 category: retirement
@@ -273,7 +273,7 @@ faq:
     answer: "No. All calculations run locally in your browser. No data is sent to any server. Your privacy is 100% protected."
 ---
 
-# Retirement Planner – Plan Your Financial Future
+# Retirement Planner Calculator
 
 Plan your retirement with our free **Retirement Planner**. Enter your age, income, savings, and retirement goals to see if you're on track with detailed analysis and personalized tips — all without your data leaving your browser.
 

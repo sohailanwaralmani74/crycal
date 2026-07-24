@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Automotive Calculators – Auto Loans, Fuel, EV Charging, Cost of Ownership & Specs
-description: Free, browser-based automotive calculators for car loan payments, 5-year TCO, MPG fuel costs, EV charging economics, 0-60 mph specs, tire sizing, and maintenance schedules.
+title: "Automotive Calculators — Auto Loans, Fuel & EV Specs"
+description: Free, browser-based automotive calculators for car loan payments, 5-year TCO, MPG fuel costs, EV charging economics, 0-60 mph specs.
 permalink: /automotive
 shortName: Automotive
 is_homepage: true

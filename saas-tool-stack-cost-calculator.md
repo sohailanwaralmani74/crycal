@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: SaaS Tool Stack Cost Calculator – Internal Software Spend Engine
-description: Calculate total company expenditure on internal software tools (Slack, Jira, GitHub, Salesforce, Notion), per-seat costs, and unused license waste.
+title: "Saas Tool Stack Cost | Interactive Online Tool"
+description: "Calculate total company expenditure on internal software tools (Slack, Jira, GitHub, Salesforce, Notion), per-seat costs, and unused license waste."
 permalink: /saas-tool-stack-cost-calculator
 tool_id: saas-tool-stack-cost-calculator
 category: saas-team-operations
@@ -131,7 +131,7 @@ faq:
     answer: "Reduce SaaS spend by performing quarterly license audits (pruning inactive seats), consolidating duplicate tools, negotiating annual upfront enterprise discounts, and centralizing procurement."
 ---
 
-# SaaS Tool Stack Cost Calculator – Internal Software Spend Engine
+# Saas Tool Stack Cost Calculator
 
 Calculate total company spend on internal software applications (Slack, Jira, GitHub, Salesforce, Notion, Google Workspace) and quantify license waste with our **SaaS Tool Stack Cost Calculator**.
 

@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Sustainable Growth Rate Calculator – Measure Organic Growth Potential
-description: Calculate the sustainable growth rate for any company. Enter ROE, retention ratio, or dividend payout ratio to see maximum organic growth rate without external equity.
+title: "Sustainable Growth Rate Calculator | Interactive Online Tool"
+description: "Calculate the sustainable growth rate for any company. Sustainable Growth Rate Calculator works in browser and free."
 permalink: /sustainable-growth-rate-calculator
 tool_id: sustainable-growth-rate-calculator
 category: growth
@@ -171,7 +171,7 @@ faq:
 
 ---
 
-# Sustainable Growth Rate Calculator – Measure Organic Growth Potential
+# Sustainable Growth Rate Calculator
 
 Calculate the sustainable growth rate (SGR) for any company with our free **Sustainable Growth Rate Calculator**. Enter ROE and retention ratio to see the maximum organic growth rate without external equity — all without your data leaving your browser.
 

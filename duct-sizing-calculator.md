@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Duct Sizing Calculator – Round Flex Duct Diameter (CFM & FPM)
-description: Calculate required round flex duct diameter in inches based on HVAC airflow (CFM), recommended air velocity (FPM), and pressure drop loss.
+title: "Duct Sizing | Interactive Online Tool"
+description: "Calculate required round flex duct diameter in inches based on HVAC airflow (CFM), recommended air velocity (FPM), and pressure drop loss."
 permalink: /duct-sizing-calculator
 tool_id: duct-sizing-calculator
 category: insulation-hvac
@@ -132,7 +132,7 @@ faq:
     answer: "No. All calculations run locally in your web browser."
 ---
 
-# Duct Sizing Calculator – Round Flex Duct Diameter (CFM & FPM)
+# Duct Sizing Calculator
 
 Calculate required **round HVAC duct diameters in inches**, cross-sectional airflow area, and estimated **friction pressure drop** using our **Duct Sizing Calculator**.
 

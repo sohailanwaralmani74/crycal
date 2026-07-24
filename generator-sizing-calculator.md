@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Generator Sizing Calculator – Running & Starting Surge Wattage
-description: Calculate required home standby or portable generator wattage capacity in running watts and starting surge watts for essential household circuits.
+title: "Generator Sizing | Interactive Online Tool"
+description: "Calculate required home standby or portable generator wattage capacity in running watts and starting surge watts for essential household circuits."
 permalink: /generator-sizing-calculator
 tool_id: generator-sizing-calculator
 category: electrical
@@ -180,7 +180,7 @@ faq:
 
 ---
 
-# Generator Sizing Calculator – Running & Starting Surge Wattage
+# Generator Sizing Calculator
 
 Determine the **exact generator size (kW)** required to power your home during power outages with our **Generator Sizing Calculator**. Calculate continuous **running watts** and peak **starting surge watts** for essential household appliances, HVAC units, and water pumps.
 

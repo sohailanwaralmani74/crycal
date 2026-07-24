@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Cost Per Square Foot Calculator – Building & Real Estate Rate Tool
-description: Calculate building cost per square foot for finished living space vs gross area and compare spec home vs custom home construction rates.
+title: "Cost Per Square Foot | Interactive Online Tool"
+description: "Calculate building cost per square foot for finished living space vs gross area and compare spec home vs custom home construction rates."
 permalink: /cost-per-square-foot-calculator
 tool_id: cost-per-square-foot-calculator
 category: project-cost-planning
@@ -131,7 +131,7 @@ faq:
   - question: "Is my personal data saved when using this calculator?"
 ---
 
-# Cost Per Square Foot Calculator – Building & Real Estate Rate Tool
+# Cost Per Square Foot Calculator
 
 Calculate construction cost per square foot for finished living area versus total gross building area and benchmark your project against spec home ($150/sq ft) and custom builder ($250/sq ft) rates.
 

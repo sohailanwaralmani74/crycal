@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: SAFE Conversion Calculator – SAFE Note Equity Conversion
-description: Calculate SAFE note conversion share price, equity ownership, and share issuance at a valuation cap or discount rate during a priced funding round.
+title: "Safe Conversion | Interactive Online Tool"
+description: "Calculate SAFE note conversion share price, equity ownership, and share issuance at a valuation cap or discount rate during a priced funding round."
 permalink: /safe-conversion-calculator
 tool_id: safe-conversion-calculator
 category: saas-fundraising-valuation
@@ -146,7 +146,7 @@ faq:
 
 ---
 
-# SAFE Conversion Calculator – SAFE Note Equity Conversion
+# Safe Conversion Calculator
 
 Calculate SAFE note equity conversion price and share ownership with our free **SAFE Conversion Calculator**. Compare Valuation Cap vs Discount Rate mechanisms to determine effective share prices and equity percentages during priced funding rounds.
 

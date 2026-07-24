@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Deck Wood Stain Calculator – Stain Gallons & Surface Area Estimator
-description: Calculate deck stain gallons, quarts, and container counts for deck floor boards, railing balusters, and steps based on wood condition and coats.
+title: "Deck Wood Stain | Interactive Online Tool"
+description: "Calculate deck stain gallons, quarts, and container counts for deck floor boards, railing balusters, and steps based on wood condition and coats."
 permalink: /deck-wood-stain-calculator
 tool_id: deck-wood-stain-calculator
 category: drywall-paint
@@ -174,7 +174,7 @@ faq:
     answer: "No. All calculations are performed entirely in your browser."
 ---
 
-# Deck Wood Stain Calculator – Stain Gallons & Surface Area Estimator
+# Deck Wood Stain Calculator
 
 Determine wood stain gallons, quart containers, and total material cost for deck floor boards, railings, balusters, and steps with our free **Deck Wood Stain Calculator**.
 

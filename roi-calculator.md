@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: ROI Calculator – Calculate Return on Investment
-description: Calculate your return on investment (ROI) with our free ROI calculator. Enter initial investment, final value, and holding period to see total ROI.
+title: "Roi | Interactive Online Tool"
+description: "Calculate your return on investment (ROI) with our free ROI calculator. Enter initial investment, final value, and holding period to see total ROI."
 permalink: /roi-calculator
 tool_id: roi-calculator
 category: investing
@@ -129,11 +129,9 @@ faq:
 
 ---
 
-# ROI Calculator – Measure Your Investment Returns
+# Roi Calculator
 
-Return on Investment (ROI) is one of the most common and widely used metrics for evaluating the profitability of an investment. Before committing capital to any opportunity — whether stocks, real estate, business ventures, or even a sheep farm — ROI provides a solid foundation for decision-making. While more intricate formulas exist, ROI remains popular for its simplicity and versatility.
-
-This ROI calculator helps you measure your investment returns quickly and accurately. Enter your initial investment, final value, and holding period to see your total ROI, annualized ROI (CAGR), and net profit. Whether you're comparing opportunities or evaluating past performance, this return on investment calculator gives you the numbers you need.
+Return on Investment (ROI) is one of the most common and widely used metrics for evaluating the profitability of an investment. Before committing capital to any opportunity — whether stocks, real estate, business ventures, or even a sheep farm — ROI provides a solid foundation for decision-making. While more intricate formulas exist, ROI remains popular for its simplicity and versatility. This ROI calculator helps you measure your investment returns quickly and accurately. Enter your initial investment, final value, and holding period to see your total ROI, annualized ROI (CAGR), and net profit. Whether you're comparing opportunities or evaluating past performance, this return on investment calculator gives you the numbers you need.
 
 <!-- more -->
 

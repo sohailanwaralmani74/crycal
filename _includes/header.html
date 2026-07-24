@@ -1,4 +1,105 @@
 <header class="site-header" role="banner">
+  <style>
+    @media (max-width: 64rem) {
+      .header-inner .desktop-search-container,
+      .header-inner .header-search-container {
+        display: none !important;
+      }
+    }
+    .mobile-search-container {
+      display: block;
+      margin-bottom: 1.25rem;
+      width: 100%;
+      position: relative;
+    }
+    .mobile-search-container .header-search-input-wrapper {
+      position: relative;
+      display: flex;
+      align-items: center;
+      background: var(--surface, #f8fafc);
+      border: 1px solid var(--border-default, #cbd5e1);
+      border-radius: 20px;
+      padding: 0.4rem 0.75rem 0.4rem 2.2rem;
+    }
+    .mobile-search-container .header-search-input {
+      width: 100%;
+      border: none;
+      background: transparent;
+      font-size: 0.875rem;
+      color: var(--text-primary, #0f172a);
+      outline: none;
+    }
+    .mobile-search-container .search-icon {
+      position: absolute;
+      left: 0.75rem;
+      color: var(--text-muted, #64748b);
+      pointer-events: none;
+    }
+    .mobile-search-container .search-clear-btn {
+      background: none;
+      border: none;
+      font-size: 1.2rem;
+      color: var(--text-muted, #64748b);
+      cursor: pointer;
+      padding: 0 0.25rem;
+      line-height: 1;
+    }
+    .mobile-search-container .header-search-results {
+      position: relative;
+      top: 0.5rem;
+      left: 0;
+      right: 0;
+      width: 100%;
+      z-index: 1010;
+      background: var(--paper, #ffffff);
+      border: 1px solid var(--border-default, #cbd5e1);
+      border-radius: 8px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+      max-height: 320px;
+      overflow-y: auto;
+      margin-bottom: 1rem;
+    }
+    .mobile-search-container .search-result-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.65rem 0.9rem;
+      border-bottom: 1px solid var(--border-default, #e2e8f0);
+      color: var(--text-primary, #0f172a);
+      text-decoration: none;
+      transition: background 0.15s;
+    }
+    .mobile-search-container .search-result-item:last-child {
+      border-bottom: none;
+    }
+    .mobile-search-container .search-result-item:hover,
+    .mobile-search-container .search-result-item:focus {
+      background: var(--surface, #f1f5f9);
+    }
+    .mobile-search-container .search-result-info {
+      display: flex;
+      flex-direction: column;
+      gap: 0.15rem;
+    }
+    .mobile-search-container .search-result-title {
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: var(--text-primary, #0f172a);
+    }
+    .mobile-search-container .search-result-cat {
+      font-size: 0.7rem;
+      font-weight: 700;
+      color: var(--accent, #0284c7);
+      letter-spacing: 0.05em;
+    }
+    .mobile-search-container .search-no-results {
+      padding: 0.8rem 1rem;
+      font-size: 0.85rem;
+      color: var(--text-muted, #64748b);
+      text-align: center;
+    }
+  </style>
+
   <div class="header-inner">
 
     <!-- Logo -->
@@ -8,7 +109,8 @@
       </a>
       <span class="logo-tagline">Calculate | Convert | Grow</span>
     </div>
-    <!-- Desktop Navigation with Mega Menu -->
+
+    <!-- Desktop Navigation -->
     <nav class="desktop-nav" role="navigation" aria-label="Main navigation">
       <ul class="nav-list">
 
@@ -41,8 +143,9 @@
         </li>
       </ul>
     </nav>
-    <!-- Header Search Bar -->
-    <div class="header-search-container">
+
+    <!-- Header Search Bar (Desktop Only) -->
+    <div class="header-search-container desktop-search-container">
       <div class="header-search-input-wrapper">
         <svg class="search-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
           <circle cx="11" cy="11" r="8"></circle>
@@ -65,6 +168,96 @@
   <!-- Gold Rule -->
   <div class="gold-rule"></div>
 
+  <!-- ═══ MOBILE DRAWER ═══ -->
+  <nav class="mobile-drawer" id="mobileDrawer" aria-label="Mobile navigation" aria-hidden="true" inert>
+    
+    <!-- Mobile Search Bar (Only inside drawer on mobile) -->
+    <div class="header-search-container mobile-search-container">
+      <div class="header-search-input-wrapper">
+        <svg class="search-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input type="text" id="mobileSearchInput" class="header-search-input" placeholder="Search 590+ calculators..." aria-label="Search calculators" autocomplete="off" />
+        <button type="button" id="mobileSearchClear" class="search-clear-btn" aria-label="Clear search" style="display: none;">&times;</button>
+      </div>
+      <div id="mobileSearchResults" class="header-search-results" style="display: none;" role="listbox"></div>
+    </div>
+
+    <ul class="mobile-nav-list">
+
+      <!-- Finance Category & Subcategories -->
+      <li class="mobile-accordion">
+        <button class="mobile-accordion-trigger" aria-expanded="false">Finance</button>
+        <ul class="mobile-sub-nav">
+          <li><a href="/finance"><strong>All Finance Calculators</strong></a></li>
+          <li><a href="/growth">Growth &amp; Savings</a></li>
+          <li><a href="/retirement">Retirement Planning</a></li>
+          <li><a href="/mortgage">Mortgage &amp; Real Estate</a></li>
+          <li><a href="/debt">Debt &amp; Loans</a></li>
+          <li><a href="/insurance">Insurance &amp; Protection</a></li>
+          <li><a href="/tax">Tax Calculators</a></li>
+          <li><a href="/budgeting">Budgeting &amp; Income</a></li>
+          <li><a href="/investing">Investing &amp; Trading</a></li>
+        </ul>
+      </li>
+
+      <!-- Construction Category & Subcategories -->
+      <li class="mobile-accordion">
+        <button class="mobile-accordion-trigger" aria-expanded="false">Construction</button>
+        <ul class="mobile-sub-nav">
+          <li><a href="/construction"><strong>All Construction Calculators</strong></a></li>
+          <li><a href="/concrete-masonry">Concrete &amp; Masonry</a></li>
+          <li><a href="/lumber-framing">Lumber &amp; Framing</a></li>
+          <li><a href="/roofing">Roofing</a></li>
+          <li><a href="/flooring">Flooring</a></li>
+          <li><a href="/drywall-paint">Drywall &amp; Paint</a></li>
+          <li><a href="/insulation-hvac">Insulation &amp; HVAC</a></li>
+          <li><a href="/landscaping-outdoor">Landscaping &amp; Outdoor</a></li>
+          <li><a href="/home-decor-interior">Home Decor &amp; Interior</a></li>
+          <li><a href="/project-cost-planning">Project Cost &amp; Planning</a></li>
+          <li><a href="/electrical">Electrical</a></li>
+          <li><a href="/plumbing">Plumbing</a></li>
+          <li><a href="/windows-doors">Windows &amp; Doors</a></li>
+        </ul>
+      </li>
+
+      <!-- Automotive Category & Subcategories -->
+      <li class="mobile-accordion">
+        <button class="mobile-accordion-trigger" aria-expanded="false">Automotive</button>
+        <ul class="mobile-sub-nav">
+          <li><a href="/automotive"><strong>All Automotive Calculators</strong></a></li>
+          <li><a href="/auto-loan-financing">Loan &amp; Financing</a></li>
+          <li><a href="/auto-cost-ownership">Cost of Ownership</a></li>
+          <li><a href="/auto-fuel-efficiency">Fuel &amp; Efficiency</a></li>
+          <li><a href="/electric-vehicle-ev">Electric Vehicle (EV)</a></li>
+          <li><a href="/auto-performance-specs">Performance &amp; Specs</a></li>
+          <li><a href="/auto-tires-wheels">Tires &amp; Wheels</a></li>
+          <li><a href="/auto-driving-trip-planning">Driving &amp; Trip Planning</a></li>
+          <li><a href="/auto-maintenance-repair">Maintenance &amp; Repair</a></li>
+        </ul>
+      </li>
+
+      <!-- SaaS Category & Subcategories -->
+      <li class="mobile-accordion">
+        <button class="mobile-accordion-trigger" aria-expanded="false">SaaS</button>
+        <ul class="mobile-sub-nav">
+          <li><a href="/saas"><strong>All SaaS Calculators</strong></a></li>
+          <li><a href="/saas-pricing-packaging">Pricing &amp; Packaging</a></li>
+          <li><a href="/saas-unit-economics">Unit Economics</a></li>
+          <li><a href="/saas-revenue-growth-metrics">Revenue &amp; Growth Metrics</a></li>
+          <li><a href="/saas-churn-retention">Churn &amp; Retention</a></li>
+          <li><a href="/saas-sales-funnel">Sales &amp; Funnel</a></li>
+          <li><a href="/saas-fundraising-valuation">Fundraising &amp; Valuation</a></li>
+          <li><a href="/saas-marketing-ads">Marketing &amp; Ads</a></li>
+          <li><a href="/saas-team-operations">Team &amp; Operations</a></li>
+        </ul>
+      </li>
+
+    </ul>
+  </nav>
+  <div class="overlay" id="overlay"></div>
+
   <!-- JSON Data for Live Search Filtering -->
   <script id="site-tools-json" type="application/json">
   {{ site.data.tools | jsonify }}
@@ -72,382 +265,120 @@
 
   <script>
   (function() {
-    var searchInput = document.getElementById('headerSearchInput');
-    var searchClear = document.getElementById('headerSearchClear');
-    var searchResults = document.getElementById('headerSearchResults');
-    var toolsDataEl = document.getElementById('site-tools-json');
+    function setupSearch() {
+      var toolsDataEl = document.getElementById('site-tools-json');
+      if (!toolsDataEl) return;
 
-    if (!searchInput || !searchResults || !toolsDataEl) return;
-
-    var tools = [];
-    try {
-      tools = JSON.parse(toolsDataEl.textContent || '[]');
-    } catch (e) {
-      tools = [];
-    }
-
-    function handleSearch() {
-      var query = searchInput.value.trim().toLowerCase();
-      if (!query) {
-        searchResults.style.display = 'none';
-        searchClear.style.display = 'none';
-        searchResults.innerHTML = '';
-        return;
+      var tools = [];
+      try {
+        tools = JSON.parse(toolsDataEl.textContent || '[]');
+      } catch (e) {
+        tools = [];
       }
 
-      searchClear.style.display = 'block';
+      function initSearch(inputId, clearId, resultsId) {
+        var searchInput = document.getElementById(inputId);
+        var searchClear = document.getElementById(clearId);
+        var searchResults = document.getElementById(resultsId);
 
-      var matches = tools.filter(function(t) {
-        if (!t || !t.title) return false;
-        var title = (t.title || '').toLowerCase();
-        var shortName = (t.short_name || '').toLowerCase();
-        var cat = (t.category || '').toLowerCase();
-        var url = (t.url || '').toLowerCase();
-        return title.indexOf(query) !== -1 || shortName.indexOf(query) !== -1 || cat.indexOf(query) !== -1 || url.indexOf(query) !== -1;
-      });
+        if (!searchInput || !searchResults) return;
 
-      matches.sort(function(a, b) {
-        var aTitle = (a.short_name || a.title).toLowerCase();
-        var bTitle = (b.short_name || b.title).toLowerCase();
-        var aStarts = aTitle.indexOf(query) === 0;
-        var bStarts = bTitle.indexOf(query) === 0;
-        if (aStarts && !bStarts) return -1;
-        if (!aStarts && bStarts) return 1;
-        return 0;
-      });
+        function handleSearch() {
+          var query = searchInput.value.trim().toLowerCase();
+          if (!query) {
+            searchResults.style.display = 'none';
+            if (searchClear) searchClear.style.display = 'none';
+            searchResults.innerHTML = '';
+            return;
+          }
 
-      renderResults(matches.slice(0, 10), query);
-    }
+          if (searchClear) searchClear.style.display = 'block';
 
-    function renderResults(list, query) {
-      if (list.length === 0) {
-        searchResults.innerHTML = '<div class="search-no-results">No calculators found matching "<strong>' + escapeHtml(query) + '</strong>"</div>';
-        searchResults.style.display = 'block';
-        return;
+          var matches = tools.filter(function(t) {
+            if (!t) return false;
+            var title = (t.title || '').toLowerCase();
+            var shortName = (t.short_name || '').toLowerCase();
+            var cat = (t.category || '').toLowerCase();
+            var url = (t.url || '').toLowerCase();
+            return title.indexOf(query) !== -1 || shortName.indexOf(query) !== -1 || cat.indexOf(query) !== -1 || url.indexOf(query) !== -1;
+          });
+
+          matches.sort(function(a, b) {
+            var aTitle = (a.short_name || a.title || '').toLowerCase();
+            var bTitle = (b.short_name || b.title || '').toLowerCase();
+            var aStarts = aTitle.indexOf(query) === 0;
+            var bStarts = bTitle.indexOf(query) === 0;
+            if (aStarts && !bStarts) return -1;
+            if (!aStarts && bStarts) return 1;
+            return 0;
+          });
+
+          renderResults(searchResults, matches.slice(0, 10), query);
+        }
+
+        searchInput.addEventListener('input', handleSearch);
+        searchInput.addEventListener('focus', function() {
+          if (searchInput.value.trim()) handleSearch();
+        });
+
+        if (searchClear) {
+          searchClear.addEventListener('click', function() {
+            searchInput.value = '';
+            handleSearch();
+            searchInput.focus();
+          });
+        }
+
+        document.addEventListener('click', function(e) {
+          if (!searchInput.contains(e.target) && !searchResults.contains(e.target)) {
+            searchResults.style.display = 'none';
+          }
+        });
+
+        document.addEventListener('keydown', function(e) {
+          if (e.key === 'Escape') {
+            searchResults.style.display = 'none';
+          }
+        });
       }
 
-      var html = '';
-      list.forEach(function(item) {
-        var catName = item.category ? item.category.toUpperCase() : 'CALCULATOR';
-        var title = item.short_name || item.title;
-        html += '<a href="' + item.url + '" class="search-result-item">' +
-                  '<div class="search-result-info">' +
-                    '<span class="search-result-title">' + escapeHtml(title) + '</span>' +
-                    '<span class="search-result-cat">' + escapeHtml(catName) + '</span>' +
-                  '</div>' +
-                  '<svg class="search-result-arrow" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>' +
-                '</a>';
-      });
+      function renderResults(container, list, query) {
+        if (list.length === 0) {
+          container.innerHTML = '<div class="search-no-results">No calculators found matching "<strong>' + escapeHtml(query) + '</strong>"</div>';
+          container.style.display = 'block';
+          return;
+        }
 
-      searchResults.innerHTML = html;
-      searchResults.style.display = 'block';
+        var html = '';
+        list.forEach(function(item) {
+          var catName = item.category ? item.category.toUpperCase() : 'CALCULATOR';
+          var title = item.short_name || item.title || 'Calculator';
+          html += '<a href="' + item.url + '" class="search-result-item">' +
+                    '<div class="search-result-info">' +
+                      '<span class="search-result-title">' + escapeHtml(title) + '</span>' +
+                      '<span class="search-result-cat">' + escapeHtml(catName) + '</span>' +
+                    '</div>' +
+                    '<svg class="search-result-arrow" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>' +
+                  '</a>';
+        });
+
+        container.innerHTML = html;
+        container.style.display = 'block';
+      }
+
+      function escapeHtml(str) {
+        return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+      }
+
+      initSearch('headerSearchInput', 'headerSearchClear', 'headerSearchResults');
+      initSearch('mobileSearchInput', 'mobileSearchClear', 'mobileSearchResults');
     }
 
-    function escapeHtml(str) {
-      return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', setupSearch);
+    } else {
+      setupSearch();
     }
-
-    searchInput.addEventListener('input', handleSearch);
-    searchInput.addEventListener('focus', function() {
-      if (searchInput.value.trim()) searchResults.style.display = 'block';
-    });
-
-    searchClear.addEventListener('click', function() {
-      searchInput.value = '';
-      handleSearch();
-      searchInput.focus();
-    });
-
-    document.addEventListener('click', function(e) {
-      if (!searchInput.contains(e.target) && !searchResults.contains(e.target)) {
-        searchResults.style.display = 'none';
-      }
-    });
-
-    document.addEventListener('keydown', function(e) {
-      if (e.key === 'Escape') {
-        searchResults.style.display = 'none';
-      }
-    });
   })();
   </script>
-
-
-  <!-- ═══ MOBILE DRAWER ═══ -->
-  <nav class="mobile-drawer" id="mobileDrawer" aria-label="Mobile navigation" aria-hidden="true" inert>
-    <ul class="mobile-nav-list">
-
-      <!-- Construction Hub & Tools -->
-      <li class="mobile-accordion">
-        <button class="mobile-accordion-trigger" aria-expanded="false">Construction</button>
-        <ul class="mobile-sub-nav">
-          <li><a href="/construction"><strong>Construction Hub (All Tools)</strong></a></li>
-          <li><a href="/concrete-yardage-calculator">Concrete Yardage Calculator</a></li>
-          <li><a href="/concrete-slab-cost-calculator">Concrete Slab Cost Calculator</a></li>
-          <li><a href="/board-feet-calculator">Board Feet Calculator</a></li>
-          <li><a href="/roofing-square-calculator">Roofing Square Calculator</a></li>
-          <li><a href="/flooring-square-footage-calculator">Flooring Sq Ft Calculator</a></li>
-          <li><a href="/drywall-sheet-calculator">Drywall Sheet Calculator</a></li>
-          <li><a href="/wire-gauge-calculator">Wire Gauge Calculator</a></li>
-          <li><a href="/pipe-sizing-calculator">Pipe Sizing Calculator</a></li>
-        </ul>
-      </li>
-
-      <!-- Automotive Hub & Tools -->
-      <li class="mobile-accordion">
-        <button class="mobile-accordion-trigger" aria-expanded="false">Automotive</button>
-        <ul class="mobile-sub-nav">
-          <li><a href="/automotive"><strong>Automotive Hub (All Tools)</strong></a></li>
-          <li><a href="/car-loan-payment-calculator">Car Loan Payment Calculator</a></li>
-          <li><a href="/car-true-cost-of-ownership-calculator">5-Year TCO Calculator</a></li>
-          <li><a href="/mpg-calculator">MPG Calculator</a></li>
-          <li><a href="/ev-charging-cost-calculator">EV Charging Cost Calculator</a></li>
-          <li><a href="/zero-to-sixty-mph-estimator">0-60 mph Estimator</a></li>
-          <li><a href="/tire-size-comparison-calculator">Tire Size Comparison</a></li>
-          <li><a href="/road-trip-fuel-cost-calculator">Road Trip Fuel Cost</a></li>
-          <li><a href="/oil-change-interval-calculator">Oil Change Interval</a></li>
-        </ul>
-      </li>
-
-      <!-- SaaS Hub & Tools -->
-      <li class="mobile-accordion">
-        <button class="mobile-accordion-trigger" aria-expanded="false">SaaS</button>
-        <ul class="mobile-sub-nav">
-          <li><a href="/saas"><strong>SaaS Hub (All Tools)</strong></a></li>
-          <li><a href="/saas-pricing-calculator">SaaS Pricing Calculator</a></li>
-          <li><a href="/cac-customer-acquisition-cost-calculator">CAC Calculator</a></li>
-          <li><a href="/ltv-customer-lifetime-value-calculator">LTV Calculator</a></li>
-          <li><a href="/mrr-calculator">MRR Calculator</a></li>
-          <li><a href="/arr-calculator">ARR Calculator</a></li>
-          <li><a href="/customer-churn-rate-calculator">Churn Rate Calculator</a></li>
-          <li><a href="/saas-valuation-calculator">SaaS Valuation Calculator</a></li>
-          <li><a href="/runway-calculator">Runway Calculator</a></li>
-        </ul>
-      </li>
-
-      <!-- Growth & Savings -->
-      <li class="mobile-accordion">
-        <button class="mobile-accordion-trigger" aria-expanded="false">Growth</button>
-        <ul class="mobile-sub-nav">
-          <li><a href="/sustainable-growth-rate-calculator">Sustainable Growth Rate Calculator</a></li>
-          <li><a href="/us-inflation-calculator">US Inflation Calculator</a></li>
-          <li><a href="compound-interest-calculator">Compound Interest Calculator</a></li>
-          <li><a href="/compound-annual-growth-rate-calculator">CAGR Calculator</a></li>
-          <li><a href="/fixed-deposit-monthly-return-calculator">Fixed Deposit Monthly Return Calculator</a></li>
-          <li><a href="simple-interest-calculator">Simple Interest Calculator</a></li>
-          <li><a href="savings-goal-calculator">Savings Goal Calculator</a></li>
-          <li><a href="high-yield-savings-calculator">High Yield Savings Calculator</a></li>
-          <li><a href="rule-of-72-calculator">Rule of 72 Calculator</a></li>
-          <li><a href="dividend-reinvestment-calculator">Dividend Reinvestment Calculator</a></li>
-          <li><a href="dollar-cost-averaging-calculator">Dollar Cost Averaging Calculator</a></li>
-          <li><a href="investment-calculator">Investment Calculator</a></li>
-          <li><a href="/cd-ladder-calculator">CD Ladder Calculator</a></li>
-          <li><a href="/i-bond-calculator">I Bond Calculator</a></li>
-          <li><a href="/stock-split-calculator">Stock Split Calculator</a></li>
-          <li><a href="/dividend-yield-on-cost-calculator">Dividend Yield on Cost Calculator</a></li>
-          <li><a href="/roe-calculator">ROE Calculator</a></li>
-          <li><a href="/apy-vs-apr-calculator">APY vs APR Calculator</a></li>
-          <li><a href="/t-bill-yield-calculator">T-Bill Yield Calculator</a></li>
-          <li><a href="/money-market-account-calculator">Money Market Account Calculator</a></li>
-          <li><a href="/cd-early-withdrawal-penalty-calculator">CD Early Withdrawal Penalty Calculator</a></li>
-          <li><a href="/rule-of-70-calculator">Rule of 70 Calculator</a></li>
-          <li><a href="/present-value-calculator">Present Value Calculator</a></li>
-          <li><a href="/future-value-calculator">Future Value Calculator</a></li>
-          <li><a href="/perpetuity-calculator">Perpetuity Calculator</a></li>
-          <li><a href="/real-rate-of-return-calculator">Real Rate of Return Calculator</a></li>
-          <li><a href="/bond-yield-to-maturity-calculator">Bond Yield to Maturity Calculator</a></li>
-          <li><a href="/zero-coupon-bond-calculator">Zero-Coupon Bond Calculator</a></li>
-          <li><a href="/529-plan-growth-calculator">529 Plan Growth Calculator</a></li>
-          <li><a href="/hsa-growth-calculator">HSA Growth Calculator</a></li>
-        </ul>
-      </li>
-
-      <!-- Retirement -->
-      <li class="mobile-accordion">
-        <button class="mobile-accordion-trigger" aria-expanded="false">Retirement</button>
-        <ul class="mobile-sub-nav">
-          <li><a href="/pension-lump-sum-vs-annuity-calculator">Pension Lump Sum vs Annuity Calculator</a></li>
-          <li><a href="retirement-calculator">Retirement Calculator</a></li>
-          <li><a href="401k-calculator">401k Calculator</a></li>
-          <li><a href="ira-calculator">IRA Calculator</a></li>
-          <li><a href="roth-ira-calculator">Roth IRA Calculator</a></li>
-          <li><a href="retirement-withdrawal-calculator">Retirement Withdrawal Calculator</a></li>
-          <li><a href="fire-calculator">FIRE Calculator</a></li>
-          <li><a href="/coast-fire-calculator">Coast FIRE Calculator</a></li>
-          <li><a href="/barista-fire-calculator">Barista FIRE Calculator</a></li>
-          <li><a href="/rmd-calculator">RMD Calculator</a></li>
-          <li><a href="/social-security-break-even-calculator">Social Security Break-Even Calculator</a></li>
-          <li><a href="/backdoor-roth-ira-calculator">Backdoor Roth IRA Calculator</a></li>
-          <li><a href="/retirement-planner">Retirement Planner</a></li>
-          <li><a href="/sep-ira-calculator">SEP IRA Calculator</a></li>
-          <li><a href="/solo-401k-contribution-calculator">Solo 401(k) Contribution Calculator</a></li>
-          <li><a href="/403b-calculator">403(b) Calculator</a></li>
-          <li><a href="/mega-backdoor-roth-calculator">Mega Backdoor Roth Calculator</a></li>
-          <li><a href="/catch-up-contribution-calculator">Catch-Up Contribution Calculator</a></li>
-          <li><a href="/social-security-spousal-benefit-calculator">Social Security Spousal Benefit Calculator</a></li>
-          <li><a href="/4-percent-rule-calculator">4% Rule Calculator</a></li>
-          <li><a href="/annuity-payout-calculator">Annuity Payout Calculator</a></li>
-          <li><a href="/retirement-healthcare-cost-calculator">Retirement Healthcare Cost Calculator</a></li>
-          <li><a href="/inherited-ira-rmd-calculator">Inherited IRA RMD Calculator</a></li>
-        </ul>
-      </li>
-
-      <!-- Mortgage & Real Estate -->
-      <li class="mobile-accordion">
-        <button class="mobile-accordion-trigger" aria-expanded="false">Mortgage</button>
-        <ul class="mobile-sub-nav">
-          <li><a href="mortgage-calculator">Mortgage Calculator</a></li>
-          <li><a href="rent-vs-buy-calculator">Rent vs Buy Calculator</a></li>
-          <li><a href="refinance-calculator">Refinance Calculator</a></li>
-          <li><a href="home-affordability-calculator">Home Affordability Calculator</a></li>
-          <li><a href="mortgage-payoff-calculator">Mortgage Payoff Calculator</a></li>
-          <li><a href="closing-costs-calculator">Closing Costs Calculator</a></li>
-          <li><a href="down-payment-calculator">Down Payment Calculator</a></li>
-          <li><a href="mortgage-points-calculator">Mortgage Points Calculator</a></li>
-          <li><a href="pmi-calculator">PMI Calculator</a></li>
-          <li><a href="property-tax-calculator">Property Tax Calculator</a></li>
-          <li><a href="/mortgage-recasting-calculator">Mortgage Recasting Calculator</a></li>
-          <li><a href="/reverse-mortgage-calculator">Reverse Mortgage Calculator</a></li>
-          <li><a href="/arm-vs-fixed-rate-mortgage-calculator">ARM vs Fixed-Rate Mortgage Calculator</a></li>
-          <li><a href="/biweekly-mortgage-payment-calculator">Biweekly Mortgage Payment Calculator</a></li>
-          <li><a href="/extra-mortgage-payment-calculator">Extra Mortgage Payment Calculator</a></li>
-          <li><a href="/va-loan-calculator">VA Loan Calculator</a></li>
-          <li><a href="/fha-loan-calculator">FHA Loan Calculator</a></li>
-          <li><a href="/usda-loan-calculator">USDA Loan Calculator</a></li>
-          <li><a href="/jumbo-loan-calculator">Jumbo Loan Calculator</a></li>
-          <li><a href="/heloc-calculator">HELOC Calculator</a></li>
-          <li><a href="/home-equity-loan-calculator">Home Equity Loan Calculator</a></li>
-          <li><a href="/construction-loan-calculator">Construction Loan Calculator</a></li>
-          <li><a href="/cash-out-refinance-calculator">Cash-Out Refinance Calculator</a></li>
-          <li><a href="/escrow-calculator">Escrow Calculator</a></li>
-        </ul>
-      </li>
-
-      <!-- Debt & Loans -->
-      <li class="mobile-accordion">
-        <button class="mobile-accordion-trigger" aria-expanded="false">Debt</button>
-        <ul class="mobile-sub-nav">
-          <li><a href="loan-payoff-calculator">Loan Payoff Calculator</a></li>
-          <li><a href="credit-card-payoff-calculator">Credit Card Payoff Calculator</a></li>
-          <li><a href="debt-snowball-calculator">Debt Snowball Calculator</a></li>
-          <li><a href="debt-avalanche-calculator">Debt Avalanche Calculator</a></li>
-          <li><a href="amortization-calculator">Amortization Calculator</a></li>
-          <li><a href="student-loan-payoff-calculator">Student Loan Payoff Calculator</a></li>
-          <li><a href="debt-consolidation-calculator">Debt Consolidation Calculator</a></li>
-          <li><a href="balance-transfer-calculator">Balance Transfer Calculator</a></li>
-          <li><a href="/debt-to-credit-ratio-calculator">Debt to Credit Ratio Calculator</a></li>
-          <li><a href="/personal-loan-calculator">Personal Loan Calculator</a></li>
-          <li><a href="/auto-loan-payoff-calculator">Auto Loan Payoff Calculator</a></li>
-          <li><a href="/debt-free-date-calculator">Debt-Free Date Calculator</a></li>
-          <li><a href="/credit-card-minimum-payment-calculator">Credit Card Minimum Payment Calculator</a></li>
-          <li><a href="/balance-transfer-payoff-calculator">0% APR Balance Transfer Payoff Calculator</a></li>
-          <li><a href="/medical-debt-payoff-calculator">Medical Debt Payoff Calculator</a></li>
-        </ul>
-      </li>
-
-      <!-- Insurance -->
-      <li class="mobile-accordion">
-        <button class="mobile-accordion-trigger" aria-expanded="false">Insurance</button>
-        <ul class="mobile-sub-nav">
-          <li><a href="life-insurance-calculator">Life Insurance Calculator</a></li>
-          <li><a href="disability-insurance-calculator">Disability Insurance Calculator</a></li>
-          <li><a href="term-vs-whole-life-calculator">Term vs Whole Life Calculator</a></li>
-          <li><a href="insurance-deductible-breakeven-calculator">Deductible Break-Even Calculator</a></li>
-          <li><a href="home-renters-insurance-calculator">Home / Renters Insurance Calculator</a></li>
-          <li><a href="umbrella-insurance-calculator">Umbrella Insurance Calculator</a></li>
-          <li><a href="/idv-calculator">IDV Calculator</a></li>
-          <li><a href="/auto-insurance-premium-estimator">Auto Insurance Premium Estimator</a></li>
-          <li><a href="/pet-insurance-cost-calculator">Pet Insurance Cost Calculator</a></li>
-          <li><a href="/long-term-care-insurance-calculator">Long-Term Care Insurance Calculator</a></li>
-          <li><a href="/critical-illness-insurance-calculator">Critical Illness Insurance Calculator</a></li>
-          <li><a href="/mortgage-protection-insurance-calculator">Mortgage Protection Insurance Calculator</a></li>
-          <li><a href="/flood-insurance-cost-calculator">Flood Insurance Cost Calculator</a></li>
-        </ul>
-      </li>
-
-      <!-- Tax & Income -->
-      <li class="mobile-accordion">
-        <button class="mobile-accordion-trigger" aria-expanded="false">Tax</button>
-        <ul class="mobile-sub-nav">
-          <li><a href="/1099-tax-calculator">1099 Tax Calculator</a></li>
-          <li><a href="/iht-calculator">IHT Calculator</a></li>
-          <li><a href="tax-bracket-calculator">Tax Bracket Calculator</a></li>
-          <li><a href="take-home-pay-calculator">Take-Home Pay Calculator</a></li>
-          <li><a href="capital-gains-calculator">Capital Gains Calculator</a></li>
-          <li><a href="self-employment-tax-calculator">Self-Employment Tax Calculator</a></li>
-          <li><a href="salary-calculator">Salary Calculator</a></li>
-          <li><a href="hourly-to-salary-calculator">Hourly To Salary Calculator</a></li>
-          <li><a href="overtime-pay-calculator">Overtime Pay Calculator</a></li>
-          <li><a href="/vat-calculator">VAT Calculator</a></li>
-          <li><a href="/ato-calculator">ATO Calculator</a></li>
-          <li><a href="/w4-withholding-calculator">W-4 Withholding Calculator</a></li>
-          <li><a href="/estimated-quarterly-tax-calculator">Estimated Quarterly Tax Calculator</a></li>
-          <li><a href="/standard-deduction-vs-itemized-calculator">Standard Deduction vs Itemized Calculator</a></li>
-          <li><a href="/rental-property-depreciation-calculator">Rental Property Depreciation Calculator</a></li>
-          <li><a href="/home-sale-capital-gains-exclusion-calculator">Home Sale Capital Gains Exclusion Calculator</a></li>
-          <li><a href="/gift-tax-calculator">Gift Tax Calculator</a></li>
-          <li><a href="/estate-tax-calculator">Estate Tax Calculator</a></li>
-          <li><a href="/crypto-tax-calculator">Crypto Tax Calculator</a></li>
-          <li><a href="/state-income-tax-comparison-calculator">State Income Tax Comparison Calculator</a></li>
-          <li><a href="/gst-calculator">GST Calculator</a></li>
-          <li><a href="/sales-tax-calculator">Sales Tax Calculator</a></li>
-        </ul>
-      </li>
-
-      <!-- Budgeting -->
-      <li class="mobile-accordion">
-        <button class="mobile-accordion-trigger" aria-expanded="false">Budgeting</button>
-        <ul class="mobile-sub-nav">
-          <li><a href="50-30-20-budget-calculator">50/30/20 Budget Calculator</a></li>
-          <li><a href="net-worth-calculator">Net Worth Calculator</a></li>
-          <li><a href="debt-to-income-calculator">Debt-to-Income Calculator</a></li>
-          <li><a href="emergency-fund-calculator">Emergency Fund Calculator</a></li>
-          <li><a href="subscription-tracker-calculator">Subscription Calculator</a></li>
-          <li><a href="sinking-fund-calculator">Sinking Fund Calculator</a></li>
-          <li><a href="zero-based-budget-calculator">Zero-Based Budget Calculator</a></li>
-          <li><a href="/biweekly-budget-calculator">Biweekly Budget Calculator</a></li>
-          <li><a href="/credit-score-simulator">Credit Score Simulator</a></li>
-          <li><a href="/credit-limit-calculator">Credit Limit Calculator</a></li>
-          <li><a href="/freelancer-rate-calculator">Freelancer Rate Calculator</a></li>
-          <li><a href="/trucking-cost-per-mile-calculator">Trucking Cost Per Mile Calculator</a></li>
-          <li><a href="/wedding-budget-calculator">Wedding Budget Calculator</a></li>
-          <li><a href="/moving-cost-calculator">Moving Cost Calculator</a></li>
-          <li><a href="/baby-cost-calculator">Baby Cost Calculator</a></li>
-          <li><a href="/college-cost-calculator">College Cost Calculator</a></li>
-          <li><a href="/vacation-budget-calculator">Vacation Budget Calculator</a></li>
-          <li><a href="/irregular-income-budget-calculator">Freelancer / Irregular Income Budget Calculator</a></li>
-          <li><a href="/roommate-bill-split-calculator">Roommate Bill Split Calculator</a></li>
-        </ul>
-      </li>
-
-      <!-- Investing -->
-      <li class="mobile-accordion">
-        <button class="mobile-accordion-trigger" aria-expanded="false">Investing</button>
-        <ul class="mobile-sub-nav">
-          <li><a href="position-size-calculator">Position Size Calculator</a></li>
-          <li><a href="/pip-calculator">Pip Calculator</a></li>
-          <li><a href="lot-size-calculator">Lot Size Calculator</a></li>
-          <li><a href="stock-position-size-calculator">Stock / ETF Position Size Calculator</a></li>
-          <li><a href="crypto-position-size-calculator">Crypto Position Size Calculator</a></li>
-          <li><a href="options-position-size-calculator">Options Position Size Calculator</a></li>
-          <li><a href="futures-position-size-calculator">Futures Position Size Calculator</a></li>
-          <li><a href="risk-reward-ratio-calculator">Risk/Reward Ratio Calculator</a></li>
-          <li><a href="kelly-criterion-calculator">Kelly Criterion Calculator</a></li>
-          <li><a href="roi-calculator">ROI Calculator</a></li>
-          <li><a href="/margin-calculator">Margin Calculator</a></li>
-          <li><a href="/options-profit-calculator">Options Profit Calculator</a></li>
-          <li><a href="/covered-call-calculator">Covered Call Calculator</a></li>
-          <li><a href="/portfolio-rebalancing-calculator">Portfolio Rebalancing Calculator</a></li>
-          <li><a href="/asset-allocation-calculator">Asset Allocation Calculator</a></li>
-          <li><a href="/stock-average-cost-calculator">Stock Average Cost Calculator</a></li>
-          <li><a href="/break-even-stock-price-calculator">Break-Even Stock Price Calculator</a></li>
-          <li><a href="/rental-property-cap-rate-calculator">Rental Property Cap Rate Calculator</a></li>
-          <li><a href="/cash-on-cash-return-calculator">Cash-on-Cash Return Calculator</a></li>
-          <li><a href="/1031-exchange-calculator">1031 Exchange Calculator</a></li>
-        </ul>
-      </li>
-
-    </ul>
-  </nav>
-  <div class="overlay" id="overlay"></div>
 </header>

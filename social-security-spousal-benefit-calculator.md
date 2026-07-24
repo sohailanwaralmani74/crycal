@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Social Security Spousal Benefit Calculator – Estimate Your Benefit
-description: Use the Social Security Spousal Benefit Calculator to estimate your monthly spousal benefit based on your spouse's Primary Insurance Amount and your claiming age.
+title: "Social Security Spousal Benefit | Interactive Online Tool"
+description: "Use the Social Security Spousal Benefit Calculator to estimate your monthly spousal benefit based on your spouses Primary Insurance Amount and..."
 permalink: /social-security-spousal-benefit-calculator
 tool_id: social-security-spousal-benefit-calculator
 category: retirement
@@ -108,7 +108,7 @@ faq:
     answer: "No. All calculations run locally in your browser. No data is sent to any server."
 ---
 
-# Estimate Your Social Security Spousal Benefit
+# Social Security Spousal Benefit Calculator
 
 Use the **Social Security Spousal Benefit Calculator** to estimate your monthly spousal benefit based on your spouse's Primary Insurance Amount and your claiming age.
 

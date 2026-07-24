@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Stock Position Size Calculator
-description: Calculate the optimal number of shares to trade for stocks and ETFs. Enter account balance, risk percentage, and stop-loss distance per share.
+title: "Stock Position Size | Interactive Online Tool"
+description: "Calculate the optimal number of shares to trade for stocks and ETFs. Enter account balance, risk percentage, and stop-loss distance per share."
 permalink: /stock-position-size-calculator
 tool_id: stock-position-size
 category: investing
@@ -180,7 +180,7 @@ faq:
 
 ---
 
-# Stock Position Size Calculator – Size Your Trades with Confidence
+# Stock Position Size Calculator
 
 Use this stock position size calculator to determine the optimal number of shares to trade for stocks and ETFs. Enter your account balance, risk percentage, and stop-loss per share — the tool shows the exact number of shares to buy, your risk amount, and total cost. This stock risk management calculator helps you protect your capital and trade with discipline.
 

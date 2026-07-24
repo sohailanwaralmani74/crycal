@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Crown Molding Calculator – Estimate Linear Feet, Sticks & Miter Waste
-description: Calculate linear footage of crown molding, 8ft, 12ft, or 16ft stick counts, corner miter cutting waste (15%), corner counts, and material costs.
+title: "Crown Molding | Interactive Online Tool"
+description: "Calculate linear footage of crown molding, 8ft, 12ft, or 16ft stick counts, corner miter cutting waste (15%), corner counts, and material costs."
 permalink: /crown-molding-calculator
 tool_id: crown-molding-calculator
 category: home-decor-interior
@@ -151,7 +151,7 @@ faq:
     answer: "No. All calculations run strictly inside your web browser."
 ---
 
-# Crown Molding Calculator – Estimate Linear Feet, Sticks & Miter Waste
+# Crown Molding Calculator
 
 Installing crown molding at the junction between walls and ceilings adds architectural elegance and increases property value. Use our **Crown Molding Calculator** to determine total linear footage, required 8 ft, 12 ft, or 16 ft board sticks, corner mitering waste (15%), and material costs.
 

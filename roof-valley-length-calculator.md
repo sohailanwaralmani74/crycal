@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Roof Valley Length Calculator – 3D Pitch Multiplier & Metal Flashing
-description: Calculate roof valley rafter lengths, 3D pitch multiplier factors, and W-valley metal flashing linear feet for intersecting roof gables.
+title: "Roof Valley Length | Interactive Online Tool"
+description: "Calculate roof valley rafter lengths, 3D pitch multiplier factors, and W-valley metal flashing linear feet for intersecting roof gables."
 permalink: /roof-valley-length-calculator
 tool_id: roof-valley-length-calculator
 category: roofing
@@ -147,7 +147,7 @@ faq:
     answer: "No. All calculation logic runs strictly inside your web browser locally."
 ---
 
-# Roof Valley Length Calculator – 3D Pitch Multiplier & Metal Flashing
+# Roof Valley Length Calculator
 
 Calculate exact **roof valley rafter lengths**, 3D pitch multiplier factors, overhang tail extensions, and **W-valley metal flashing linear feet** for intersecting roof gables.
 

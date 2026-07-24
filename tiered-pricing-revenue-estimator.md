@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Tiered Pricing Revenue Estimator – Multi-Tier Customer Mix
-description: Estimate blended Monthly Recurring Revenue (MRR) and Annual Recurring Revenue (ARR) across Starter, Pro, and Enterprise tiers based on customer mix percentages.
+title: "Tiered Pricing Revenue Estimator | Interactive Online Tool"
+description: "Estimate blended Monthly Recurring Revenue (MRR) and Annual Recurring Revenue (ARR) across Starter, Pro, and Enterprise tiers based on customer..."
 permalink: /tiered-pricing-revenue-estimator
 tool_id: tiered-pricing-revenue-estimator
 category: saas-pricing-packaging
@@ -164,7 +164,7 @@ faq:
 
 ---
 
-# Tiered Pricing Revenue Estimator – Multi-Tier Customer Mix
+# Tiered Pricing Revenue Estimator Calculator
 
 Model and project your **Monthly Recurring Revenue (MRR)** and **Blended ARPU** across **Starter**, **Pro**, and **Enterprise** subscription tiers.
 

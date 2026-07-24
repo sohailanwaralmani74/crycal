@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: BTU / HVAC Sizing Calculator – Heating & AC Tonnage Estimator
-description: Calculate required heating and cooling BTUs, AC tonnage, and HVAC equipment sizing based on room area, climate zone, and insulation.
+title: "Btu Hvac Sizing | Interactive Online Tool"
+description: "Calculate required heating and cooling BTUs, AC tonnage, and HVAC equipment sizing based on room area, climate zone, and insulation."
 permalink: /btu-hvac-sizing-calculator
 tool_id: btu-hvac-sizing-calculator
 category: insulation-hvac
@@ -162,7 +162,7 @@ faq:
     answer: "No. All calculation models execute locally within your web browser."
 ---
 
-# BTU / HVAC Sizing Calculator – Heating & AC Tonnage Estimator
+# Btu Hvac Sizing Calculator
 
 Calculate required heating and cooling BTUs, air conditioner tonnage, and equipment sizing based on floor area, ceiling height, climate zone, and building insulation.
 

@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: EV Battery Degradation Estimator – Battery Health & Capacity Loss
-description: Estimate electric vehicle battery capacity retention percentage, remaining usable kWh capacity, and lost range over 1 to 10 years based on charging habits and climate.
+title: "Ev Battery Degradation Estimator | Interactive Online Tool"
+description: "Estimate electric vehicle battery capacity retention percentage, remaining usable kWh capacity, and lost range over 1 to 10 years based on..."
 permalink: /ev-battery-degradation-estimator
 tool_id: ev-battery-degradation-estimator
 category: electric-vehicle-ev
@@ -155,7 +155,7 @@ faq:
 
 ---
 
-# EV Battery Degradation Estimator
+# Ev Battery Degradation Estimator Calculator
 
 Estimate electric vehicle (EV) battery capacity retention percentage, remaining State of Health (SOH), usable kWh, and lost driving range over 1 to 10 years.
 

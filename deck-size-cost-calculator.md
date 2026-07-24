@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Deck Size & Build Cost Calculator – Estimate Decking Materials & Labor
-description: Calculate deck square footage, material costs (pressure-treated pine, cedar, Trex composite), railing expenses, framing substructure, labor costs, and cost per sq ft.
+title: "Deck Size Cost | Interactive Online Tool"
+description: "Calculate deck square footage, material costs (pressure-treated pine, cedar, Trex composite), railing expenses, framing substructure, labor..."
 permalink: /deck-size-cost-calculator
 tool_id: deck-size-cost-calculator
 category: landscaping-outdoor
@@ -165,7 +165,7 @@ faq:
     answer: "No. All calculations run entirely inside your browser and no data is sent to external servers."
 ---
 
-# Deck Size & Build Cost Calculator – Estimate Decking Materials & Labor
+# Deck Size Cost Calculator
 
 Planning a new outdoor deck requires balancing surface area, premium materials, structural joist framing, and professional labor costs. Use our **Deck Size & Build Cost Calculator** to instantly calculate your deck’s total square footage, material expenses across wood and composite options, perimeter railing costs, and total projected budget.
 

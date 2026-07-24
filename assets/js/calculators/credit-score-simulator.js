@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Credit Score Simulator
+   Wanjaaro — Credit Score Simulator
    Tool ID: credit-score-simulator
 ═══════════════════════════════════════════════════════════ */
 

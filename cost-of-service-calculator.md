@@ -126,7 +126,7 @@ faq:
     a: "No. All calculations run strictly in your browser."
 ---
 
-# Cost of Service Calculator
+# Calculate SaaS Cost of Service (COS)
 
 Calculate fully-loaded cost to serve one account including AWS hosting, customer support reps, and third-party SaaS tools. Use our free **Cost of Service Calculator** to evaluate your SaaS business performance and make data-driven growth decisions — without any data leaving your browser.
 

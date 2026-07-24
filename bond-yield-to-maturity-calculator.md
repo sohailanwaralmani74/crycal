@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Bond Yield to Maturity (YTM) Calculator – Estimate Your Bond's Return
-description: Use the Bond Yield to Maturity Calculator to estimate the total return you'll earn if you hold a bond until it matures, based on price, coupon rate, and time to maturity.
+title: "Bond Yield To Maturity | Interactive Online Tool"
+description: "Use the Bond Yield to Maturity Calculator to estimate the total return youll earn if you hold a bond until it matures, based on price, coupon..."
 permalink: /bond-yield-to-maturity-calculator
 tool_id: bond-yield-to-maturity-calculator
 category: growth
@@ -123,7 +123,7 @@ faq:
     answer: "No. All calculations run locally in your browser. No data is sent to any server."
 ---
 
-# Calculate Your Bond's Yield to Maturity
+# Bond Yield To Maturity Calculator
 
 Use the **Bond Yield to Maturity Calculator** to estimate the total return you'll earn if you hold a bond until it matures, based on price, coupon rate, and time to maturity.
 

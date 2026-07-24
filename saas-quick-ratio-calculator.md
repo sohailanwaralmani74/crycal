@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: SaaS Quick Ratio Calculator – Growth Efficiency Metric
-description: Calculate your SaaS Quick Ratio - (New MRR + Expansion MRR) / (Contraction MRR + Churned MRR). Measure revenue growth efficiency against churn.
+title: "Saas Quick Ratio | Interactive Online Tool"
+description: "Calculate your SaaS Quick Ratio - (New MRR + Expansion MRR) / (Contraction MRR + Churned MRR). Measure revenue growth efficiency against churn."
 permalink: /saas-quick-ratio-calculator
 tool_id: saas-quick-ratio-calculator
 category: saas-revenue-growth-metrics
@@ -135,7 +135,7 @@ faq:
 
 ---
 
-# SaaS Quick Ratio Calculator
+# Saas Quick Ratio Calculator
 
 Calculate your SaaS Quick Ratio to evaluate how efficiently your revenue growth outpaces monthly churn and contraction losses.
 

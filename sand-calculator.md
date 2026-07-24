@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Sand Calculator – Cubic Yards, Tons, 50lb Bags & Cost
-description: Calculate cubic yards, tons, and 50 lb bags of sand for paver bedding, patio subbase, pool liners, sandboxes, and masonry mortar with total cost.
+title: "Sand | Interactive Online Tool"
+description: "Calculate cubic yards, tons, and 50 lb bags of sand for paver bedding, patio subbase, pool liners, sandboxes, and masonry mortar with total cost."
 permalink: /sand-calculator
 tool_id: sand-calculator
 category: concrete-masonry
@@ -143,7 +143,7 @@ faq:
   - answer: "No. All computations execute locally inside your web browser."
 ---
 
-# Sand Calculator – Cubic Yards, Tons, 50lb Bags & Cost
+# Sand Calculator
 
 Calculate total **Cubic Yards**, weight in **Tons**, **50 lb Bags**, and total material cost for paver bedding sand, masonry sand, and sandboxes.
 

@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Risk Reward Ratio Calculator
-description: Calculate the risk-reward ratio for any trade. Enter entry price, stop-loss, take-profit, and account details to see your risk and reward.
+title: "Risk Reward Ratio | Interactive Online Tool"
+description: "Calculate the risk-reward ratio for any trade. Enter entry price, stop-loss, take-profit, and account details to see your risk and reward."
 permalink: /risk-reward-ratio-calculator
 tool_id: risk-reward-ratio
 category: investing
@@ -181,7 +181,7 @@ faq:
 
 ---
 
-# Risk Reward Ratio Calculator – Evaluate Your Trade Setup
+# Risk Reward Ratio Calculator
 
 Use this risk reward ratio calculator to evaluate the potential of any trade setup. Enter your entry price, stop-loss price, take-profit price, and optional account details — the tool shows your risk-reward ratio, dollar amounts, and risk percentage. This R:R calculator helps you make smarter trading decisions.
 

@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Auto Refinance Savings Calculator – Calculate Interest & Payment Savings
-description: Calculate your monthly payment reduction, net interest savings, and break-even timeline by refinancing your existing auto loan to a lower interest rate.
+title: "Auto Refinance Savings | Interactive Online Tool"
+description: "Calculate your monthly payment reduction, net interest savings, and break-even timeline by refinancing your existing auto loan to a lower interest rate."
 permalink: /auto-refinance-savings-calculator
 tool_id: auto-refinance-savings-calculator
 category: auto-loan-financing

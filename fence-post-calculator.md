@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Fence Post Calculator – Estimate Posts & Concrete Bags
-description: Calculate total fence posts, corner/gate post counts, 6ft vs 8ft spacing rules, concrete bags per post, and material costs for wood, vinyl, or chain link fences.
+title: "Fence Post | Interactive Online Tool"
+description: "Calculate total fence posts, corner/gate post counts, 6ft vs 8ft spacing rules, concrete bags per post, and material costs for wood, vinyl, or..."
 permalink: /fence-post-calculator
 tool_id: fence-post-calculator
 category: lumber-framing
@@ -160,7 +160,7 @@ faq:
     answer: "No. All calculations run locally in your web browser."
 ---
 
-# Fence Post Calculator – Estimate Posts & Concrete Bags
+# Fence Post Calculator
 
 Calculate total fence posts, **6 ft vs 8 ft post spacing**, corner and gate post requirements, **concrete bags per post hole**, and total project costs with our free **Fence Post Calculator**.
 

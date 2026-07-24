@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Roof Flashing Calculator – Drip Edge, Step Flashing & Valley Metal
-description: Calculate step flashing pieces, drip edge 10-ft metal strips, W-valley metal flashing, and chimney flashing kits for complete roof re-roofing projects.
+title: "Roof Flashing | Interactive Online Tool"
+description: "Calculate step flashing pieces, drip edge 10-ft metal strips, W-valley metal flashing, and chimney flashing kits for complete roof re-roofing projects."
 permalink: /roof-flashing-calculator
 tool_id: roof-flashing-calculator
 category: roofing
@@ -150,7 +150,7 @@ faq:
     answer: "No. All calculations run strictly inside your local browser."
 ---
 
-# Roof Flashing Calculator – Drip Edge, Step Flashing & Valley Metal
+# Roof Flashing Calculator
 
 Calculate required **step flashing pieces**, **10-ft drip edge metal strips**, **W-valley metal flashing**, and complete **chimney flashing kit materials** for residential roof replacements.
 

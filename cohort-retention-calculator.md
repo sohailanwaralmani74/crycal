@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Cohort Retention Calculator – Signup Cohort Curves
-description: Track customer signup cohort retention percentages across Month 1, Month 3, Month 6, and Month 12 milestone curves.
+title: "Cohort Retention | Interactive Online Tool"
+description: "Track customer signup cohort retention percentages across Month 1, Month 3, Month 6, and Month 12 milestone curves."
 permalink: /cohort-retention-calculator
 tool_id: cohort-retention-calculator
 category: saas-churn-retention

@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Auto Balloon Payment Calculator – Calculate Monthly Savings & Lump Sum
-description: Calculate lower monthly car loan payments with a final balloon lump-sum payment at the end of your financing term.
+title: "Auto Balloon Payment | Interactive Online Tool"
+description: "Calculate lower monthly car loan payments with a final balloon lump-sum payment at the end of your financing term."
 permalink: /auto-balloon-payment-calculator
 tool_id: auto-balloon-payment-calculator
 category: auto-loan-financing

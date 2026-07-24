@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Wedding Budget Calculator – Allocate Vendor Expenses
-description: Estimate and allocate total wedding budget across venue, catering, photography, attire, entertainment, and decor vendor categories.
+title: "Wedding Budget | Interactive Online Tool"
+description: "Estimate and allocate total wedding budget across venue, catering, photography, attire, entertainment, and decor vendor categories."
 permalink: /wedding-budget-calculator
 tool_id: wedding-budget-calculator
 category: budgeting
@@ -115,7 +115,7 @@ faq:
     answer: "No. All calculations run locally inside your web browser. History and saved presets are stored strictly in your browser's local storage."
 ---
 
-# Wedding Budget Calculator – Allocate Vendor Expenses
+# Wedding Budget Calculator
 
 Estimate and allocate your total wedding budget across venue, catering, photography, attire, and decor with our free **Wedding Budget Calculator**.
 

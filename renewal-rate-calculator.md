@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Renewal Rate Calculator – Annual Contract Renewal Metric
-description: Calculate the percentage of annual or multi-year contracts successfully renewed at term expiration. Evaluate gross and net contract renewals.
+title: "Renewal Rate | Interactive Online Tool"
+description: "Calculate the percentage of annual or multi-year contracts successfully renewed at term expiration. Evaluate gross and net contract renewals."
 permalink: /renewal-rate-calculator
 tool_id: renewal-rate-calculator
 category: saas-churn-retention

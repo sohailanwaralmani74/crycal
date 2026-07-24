@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: FIRE Calculator
-description: Calculate your Financial Independence (FI) number and track your progress toward early retirement with our FIRE calculator.
+title: "Fire | Interactive Online Tool"
+description: "Calculate your Financial Independence (FI) number and track your progress toward early retirement with our FIRE calculator."
 permalink: /fire-calculator
 tool_id: fire
 category: retirement
@@ -212,7 +212,7 @@ faq:
 
 ---
 
-# FIRE Calculator – Plan Your Financial Independence
+# Fire Calculator
 
 Use this FIRE calculator to calculate your Financial Independence (FI) number and track your progress toward early retirement. Enter your annual expenses, current savings, income, expected return, and safe withdrawal rate — the tool shows your FI Number, time to reach FI, age at FI, and your progress percentage. Whether you're pursuing leanFIRE, regular FIRE, or fatFIRE, this financial independence calculator helps you plan your journey.
 

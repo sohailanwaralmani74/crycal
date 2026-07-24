@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Pool Water Fill Cost Calculator – Municipal Utility & Truck Delivery Cost
-description: Calculate the cost to fill or top off your swimming pool based on pool volume in gallons, municipal water utility rates per 1,000 gallons, sewer surcharges, and optional water truck delivery.
+title: "Pool Water Fill Cost | Interactive Online Tool"
+description: "Calculate the cost to fill or top off your swimming pool based on pool volume in gallons, municipal water utility rates per 1,000 gallons, sewer..."
 permalink: /pool-water-fill-cost-calculator
 tool_id: pool-water-fill-cost-calculator
 category: landscaping-outdoor
@@ -128,7 +128,7 @@ faq:
     answer: "Yes. Filling a pool from a private well can burn out your well pump motor or temporarily dry out your aquifer. It is often recommended to fill in stages or hire a bulk water truck."
 ---
 
-# Pool Water Fill Cost Calculator – Municipal Utility & Truck Delivery Cost
+# Pool Water Fill Cost Calculator
 
 Calculate the total expense to fill or top off your swimming pool with our free **Pool Water Fill Cost Calculator**, including municipal tap water rates, sewer surcharges, and bulk water truck delivery.
 

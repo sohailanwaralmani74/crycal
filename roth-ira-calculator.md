@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Roth IRA Calculator
-description: Estimate the growth of your Roth IRA with our free Roth IRA calculator. See how tax‑free compounding can boost your retirement savings.
+title: "Roth Ira | Interactive Online Tool"
+description: "Estimate the growth of your Roth IRA with our free Roth IRA calculator. See how tax‑free compounding can boost your retirement savings."
 permalink: /roth-ira-calculator
 tool_id: roth-ira
 category: retirement
@@ -200,7 +200,7 @@ faq:
 
 ---
 
-# Roth IRA Calculator – Estimate Tax‑Free Growth
+# Roth Ira Calculator
 
 Use this Roth IRA calculator to see how your contributions can grow completely tax‑free. Enter your current age, retirement age, current balance, annual contribution, expected return, and fees — the tool projects your Roth IRA balance at retirement, total contributions, and total investment returns. Whether you're comparing a Roth vs Traditional IRA or planning your retirement savings, this Roth IRA growth calculator gives you the clarity you need.
 

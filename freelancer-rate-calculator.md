@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Freelancer Rate Calculator – Hourly Rate & Income Estimator
-description: Calculate your optimal freelance hourly rate with our free Freelancer Rate Calculator. Enter desired income, taxes, expenses, and billable hours to find your rate.
+title: "Freelancer Rate | Interactive Online Tool"
+description: "Calculate your optimal freelance hourly rate with our free Freelancer Rate Calculator."
 permalink: /freelancer-rate-calculator
 tool_id: freelancer-rate-calculator
 category: budgeting
@@ -180,7 +180,7 @@ faq:
 
 ---
 
-# Freelancer Rate Calculator – Hourly Rate & Income Estimator
+# Freelancer Rate Calculator
 
 Calculate your optimal freelance hourly rate with our free **Freelancer Rate Calculator**. Enter desired income, taxes, expenses, and billable hours to find your rate — all without your data leaving your browser.
 

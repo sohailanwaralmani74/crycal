@@ -1,109 +1,96 @@
 ---
 layout: tool
-title: Header Beam Size Calculator – Door & Window Opening Structural Sizing
-description: Calculate structural header sizes, max clear spans, design loads, and required jack/trimmer studs for door and window wall openings.
+title: "Header & Beam Sizing Calculator | Wood Framing Tool"
+description: "Calculate required header beam size, ply count, and span limits for load-bearing door and window wall openings based on building loads."
 permalink: /header-beam-size-calculator
 tool_id: header-beam-size-calculator
 category: lumber-framing
 hide_sidebar: true
 
 inputs:
-  - id: openingWidth
+  - id: openingWidthFt
     label: Rough Opening Width (Feet)
     type: number
-    default: 6.0
+    default: 6
     step: 0.5
     min: 2
     max: 20
-    placeholder: "e.g., 6.0"
+    placeholder: "e.g., 6"
 
-  - id: loadBearing
-    label: Wall Load Condition
-    type: select
-    default: "one_floor"
-    options:
-      - value: "non_bearing"
-        label: "Non-Load Bearing Interior Wall (Partition Wall)"
-      - value: "one_floor"
-        label: "Load Bearing — Single Story / Roof Only Load"
-      - value: "two_floor"
-        label: "Load Bearing — Two Story (1 Floor + Roof Load)"
-
-  - id: buildingWidth
-    label: Building Span / Tributary Width (Feet)
+  - id: buildingWidthFt
+    label: Building Width / Tributary Width (Feet)
     type: number
     default: 28
     step: 2
-    min: 10
+    min: 12
     max: 60
     placeholder: "e.g., 28"
 
-  - id: snowLoad
-    label: Ground Snow / Live Load (PSF)
+  - id: storiesSupported
+    label: Supported Loading Condition
     type: select
-    default: "30"
+    default: "roof_one_floor"
     options:
-      - value: "20"
-        label: "20 PSF (Southern Climates / Low Live Load)"
-      - value: "30"
-        label: "30 PSF (Standard Moderate Climate)"
-      - value: "50"
-        label: "50 PSF (Heavy Northern Snow Load)"
+      - value: "roof_only"
+        label: "Roof & Ceiling Only (Single Story Roof Load)"
+      - value: "roof_one_floor"
+        label: "Roof + 1 Clear-Span Floor (2-Story Wall)"
+      - value: "roof_two_floors"
+        label: "Roof + 2 Clear-Span Floors (3-Story Wall)"
 
-  - id: lumberType
-    label: Header Material & Depth
+  - id: lumberSpecies
+    label: Framing Lumber Species & Grade
     type: select
-    default: "double_2x10"
+    default: "spf_2"
     options:
-      - value: "double_2x6"
-        label: "Double 2x6 Dimensional Lumber (#2 SPF/DF)"
-      - value: "double_2x8"
-        label: "Double 2x8 Dimensional Lumber (#2 SPF/DF)"
-      - value: "double_2x10"
-        label: "Double 2x10 Dimensional Lumber (#2 SPF/DF)"
-      - value: "double_2x12"
-        label: "Double 2x12 Dimensional Lumber (#2 SPF/DF)"
-      - value: "triple_2x10"
-        label: "Triple 2x10 Dimensional Lumber"
-      - value: "triple_2x12"
-        label: "Triple 2x12 Dimensional Lumber"
-      - value: "lami_lumber"
-        label: "3.5\" x 9.25\" Engineered LVL (1.9E Laminated Veneer)"
-      - value: "lami_lumber_11"
-        label: "3.5\" x 11.875\" Engineered LVL (1.9E Laminated Veneer)"
+      - value: "spf_2"
+        label: "Spruce-Pine-Fir (SPF) #2"
+      - value: "syp_2"
+        label: "Southern Yellow Pine (SYP) #2"
+      - value: "df_2"
+        label: "Douglas Fir-Larch (DF-L) #2"
+      - value: "lvl_20e"
+        label: "Engineered LVL (2.0E Laminated Veneer)"
+
+  - id: snowLoadPsf
+    label: Ground / Roof Snow Load (PSF)
+    type: number
+    default: 30
+    step: 5
+    min: 0
+    max: 100
+    suffix: 'psf'
+    placeholder: "e.g., 30"
 
 outputs:
-  - id: maxAllowableSpan
-    label: Max Allowable Header Clear Span
-  - id: structuralStatus
-    label: Header Capacity Assessment
-  - id: totalDesignLoad
-    label: Total Uniform Load (lbs / lin ft)
-  - id: jackStudRecommendation
-    label: Minimum Required Jack Studs
+  - id: recommendedHeader
+    label: Recommended Header Beam Size
+  - id: maxSpanFt
+    label: Maximum Allowable Span (Feet)
+  - id: totalLoadPli
+    label: Total Uniform Linear Load (Lbs/Ft)
+  - id: jackStudsNeeded
+    label: Required Jack / Trimmer Studs per Side
 
 charts:
   tabs:
+    - id: loadVsCapacity
+      label: Bending Capacity vs Applied Load
     - id: spanComparison
-      label: Opening Width vs Max Span Capacity
-    - id: loadDistribution
-      label: Design Load Breakdown (lbs/ft)
+      label: Max Allowable Span by Wood Species
 
 history_columns:
-  - key: openingWidth
+  - key: openingWidthFt
     label: Opening Width (ft)
     source: input
-  - key: loadBearing
-    label: Load Type
+  - key: storiesSupported
+    label: Loading Condition
     source: input
-  - key: lumberType
-    label: Header Material
-    source: input
-  - key: maxAllowableSpan
-    label: Max Span
+  - key: recommendedHeader
+    label: Header Recommendation
     source: output
-  - key: structuralStatus
-    label: Structural Status
+  - key: jackStudsNeeded
+    label: Jack Studs / Side
     source: output
 
 js_file: assets/js/calculators/header-beam-size-calculator.js
@@ -114,140 +101,141 @@ structured_data:
   name: "Header Beam Size Calculator"
   applicationCategory: "BusinessApplication"
   operatingSystem: "All"
-  description: "Calculate structural door and window header sizes, maximum allowable clear spans, uniform design loads, and trimmer stud counts."
+  description: "Determine header beam depth, ply thickness, maximum span limits, and trimmer stud counts for load-bearing wall openings."
   offers:
     "@type": "Offer"
     price: "0"
     priceCurrency: "USD"
   featureList:
-    - "Calculates maximum allowable span for double/triple 2x6 to 2x12 and engineered LVL headers"
-    - "Evaluates single-story, two-story, and non-load bearing wall conditions"
-    - "Computes uniform lineal design loads based on tributary building width and snow loads"
-    - "Determines required number of jack/trimmer studs per side per IRC code"
+    - "Calculates header sizes for doors, windows, and garage openings"
+    - "Supports dimensional lumber (#2 SPF, SYP, DF-L) and 2.0E LVL beams"
+    - "Computes tributary loading based on building width and roof snow loads"
+    - "Determines required jack / trimmer studs for bearing support"
 
 breadcrumb:
   - name: Home
     url: /
-  - name: Construction
-    url: /construction
+  - name: Lumber & Framing
+    url: /lumber-framing
   - name: Header Beam Size Calculator
 
 howto:
-  name: "How to Size Door and Window Headers per IRC Framing Codes"
-  description: "Determine proper header depth, lumber type, and jack stud supports for structural wall openings."
+  name: "How to Size a Load-Bearing Wall Header Beam"
+  description: "Calculate required header depth, number of plies, and trimmer studs for structural wall openings."
   step:
     - name: "Measure rough opening width"
-      text: "Measure distance between king studs (door or window rough opening plus frame clearance)."
-    - name: "Determine wall load type"
-      text: "Check blueprints to verify if the wall carries roof loads, floor loads from upper levels, or is non-bearing."
-    - name: "Calculate tributary building span"
-      text: "Determine building width perpendicular to the load-bearing wall to establish total roof/floor tributary area."
-    - name: "Select header material and size jack studs"
-      text: "Choose dimensional lumber (double 2x8, 2x10, 2x12) or engineered LVL and verify required trimmer/jack stud counts."
+      text: "Determine clear span distance of window, door, or patio opening in feet."
+    - name: "Determine tributary building load"
+      text: "Measure total building width (rafter/joist span) to calculate tributary floor and roof loads."
+    - name: "Select lumber species & grade"
+      text: "Choose dimensional framing lumber (#2 SPF, SYP, DF-L) or engineered LVL headers."
+    - name: "Verify deflection and bearing limits"
+      text: "Calculate bending moments and shear to determine required header plies and jack stud bearing counts."
 
 faq:
-  - question: "What size header do I need for a 6 ft sliding patio door?"
-    answer: "For a standard 6 ft opening in a single-story 28 ft wide house, IRC Table R602.7 requires a minimum double 2x10 header (#2 Southern Pine / Douglas Fir) supported by 2 jack studs at each end."
-  - question: "What is the difference between a king stud and a jack (trimmer) stud?"
-    answer: "A king stud runs continuously from sole plate to top plate alongside the opening. A jack stud (or trimmer) is nailed directly inside the king stud to physically support the weight of the header beam."
-  - question: "When are two jack studs required at each end of a header?"
-    answer: "Per International Residential Code (IRC), headers spanning over 6 feet in load-bearing walls, or headers carrying heavy two-story roof/floor loads, require a minimum of 2 jack studs at each supporting jamb."
-  - question: "What is the maximum span for a double 2x6 header?"
-    answer: "In a load-bearing exterior wall carrying a single-story roof load, a double 2x6 header has a maximum clear span of approximately 3 ft 11 in (or up to 6 ft in non-load bearing interior partition walls)."
+  - question: "Rule of thumb for door and window header sizing?"
+    answer: "A common traditional rule of thumb is header depth in inches equals opening width in feet plus 2 inches (e.g., 4-ft opening = double 2x6; 6-ft opening = double 2x8; 8-ft opening = double 2x10). However, heavy snow or multi-story loads require calculated engineering."
+  - question: "How many jack studs (trimmers) are required per side for a header?"
+    answer: "Openings up to 6 feet wide supporting a single story typically require 1 jack stud per side. Openings from 6 to 10 feet wide require 2 jack studs per side. Spans over 10 feet or heavy multi-story loads require 3 jack studs or steel bearing plates."
   - question: "When should engineered LVL headers be used instead of dimensional lumber?"
-    answer: "Engineered Laminated Veneer Lumber (LVL) beams are recommended for large openings exceeding 8 to 10 feet, garage doors (16 ft spans), or heavy multi-story load points where dimensional lumber would deflect excessively."
-  - question: "Can a header be built with a 1/2-inch plywood spacer sandwich?"
-    answer: "Yes. In standard 2x4 wall framing (3.5 inches thick), double 2x lumber (1.5 + 1.5 = 3.0 inches) is combined with a 1/2-inch OSB or plywood spacer to match the 3.5-inch wall depth flush with studs."
-  - question: "How does roof snow load impact header sizing?"
-    answer: "Higher ground snow loads (such as 50 PSF vs 20 PSF) increase the total uniform lineal load ($w$) transferred down from roof rafters, requiring deeper header lumber or shorter maximum spans."
+    answer: "Engineered LVL headers (Laminated Veneer Lumber) should be used for spans exceeding 8 to 10 feet, wide garage door openings (16 ft), or heavily loaded exterior walls where dimensional lumber exceeds maximum depth limits."
+  - question: "What is tributary width in header load calculations?"
+    answer: "Tributary width is half the span of joists or rafters supported by the wall containing the header. For a 28-foot wide building where rafters span center-to-ridge, the tributary roof width supported by an exterior wall is 14 feet."
+  - question: "What deflection limits apply to window and door headers?"
+    answer: "Building codes (IRC) mandate a maximum deflection limit of L/240 for total load and L/360 for live load on standard exterior walls. Openings with sensitive glass or sliding doors often require L/480 to prevent binding."
+  - question: "Can non-bearing interior wall headers be smaller?"
+    answer: "Yes, non-load-bearing interior partition wall headers do not support floor or roof loads. Double 2x4 headers are structurally sufficient for non-bearing spans up to 8 feet wide."
+  - question: "How is a double 2x header insulated in exterior framing?"
+    answer: "Standard 2x dimensional lumber headers are 3.5 inches thick in a 2x6 wall (5.5 inches deep), leaving a 2-inch interior gap that should be filled with rigid foam insulation (R-10 to R-13) to prevent thermal bridging."
 ---
 
-Determine structural header sizes, clear spans, total lineal design loads, and jack stud requirements for exterior and interior door/window wall openings.
+# Header Beam Size Calculator
+
+Determine structural header beam depth, ply count, maximum span allowances, and bearing jack stud requirements for door and window wall openings.
+
+This 100% private, client-side calculator processes structural load math directly inside your browser without external server transmission.
 
 <!-- more -->
 
 ## Why Use the Header Beam Size Calculator?
 
-Over-framing wall headers wastes expensive lumber and reduces insulation space (creating thermal bridges), while under-sizing headers causes sagging window frames, jammed doors, and roof structural failure. Standard IRC framing tables require precise adjustments for load-bearing conditions, building tributary width, and local snow loads.
+Framing open spans in load-bearing exterior and interior walls requires careful structural calculations to prevent ceiling sag, binding doors, cracked drywall, and structural framing failure. A header acts as a short horizontal beam transferring roof, floor, and wall loads around wall openings down to the foundation.
 
-This **Header Beam Size Calculator** enables builders, architects, and DIY framers to:
-1. Instantly verify if a proposed header size meets structural clear span requirements.
-2. Determine required jack/trimmer stud support counts per jamb.
-3. Compare dimensional lumber headers against engineered Laminated Veneer Lumber (LVL).
+Using this **Header Beam Size Calculator** allows builders, framers, and engineers to:
 
----
-
-## Structural Header Sizing Formulas
-
-### 1. Uniform Lineal Load ($w$)
-$$w = L_{\text{trib}} \times (\text{Dead Load} + \text{Live/Snow Load})$$
-
-Where tributary span ($L_{\text{trib}}$) is half the building width ($\frac{W_{\text{bldg}}}{2}$).
-
-### 2. Maximum Bending Moment ($M_{\max}$)
-$$M_{\max} = \frac{w \times S^2}{8}$$
-
-Where $S$ is the rough opening span in feet.
-
-### 3. Maximum Allowable Span ($S_{\text{max}}$) per Lumber Section
-$$S_{\text{max}} = S_{\text{base}} \times K_{\text{load}} \times K_{\text{snow}}$$
-
-Where base spans ($S_{\text{base}}$) for double 2x lumber in 28 ft building width single-story load bearing are:
-* **Double 2x6:** $3.9\text{ ft}$
-* **Double 2x8:** $5.2\text{ ft}$
-* **Double 2x10:** $6.4\text{ ft}$
-* **Double 2x12:** $7.6\text{ ft}$
-* **3.5" x 9.25" LVL:** $9.8\text{ ft}$
-* **3.5" x 11.875" LVL:** $12.5\text{ ft}$
-
-### 4. Jack Stud Rule per End
-$$\text{Jack Studs} = \begin{cases} 1 & \text{if } S \le 6.0\text{ ft (or Non-Bearing)} \\ 2 & \text{if } S > 6.0\text{ ft (or 2-Story Load)} \end{cases}$$
+1. **Calculate Precise Header Depths:** Size double 2x6, 2x8, 2x10, 2x12, or engineered LVL beams based on exact building span loads.
+2. **Determine Jack Stud Bearing Counts:** Ensure adequate end-bearing support by identifying when 1, 2, or 3 trimmer studs are required per side.
+3. **Account for Snow & Live Loads:** Incorporate local ground snow loads ($0 - 100\text{ psf}$) and multi-story floor live loads into span limits.
+4. **Comply with Building Codes:** Verify structural compliance under International Residential Code (IRC Table R602.7) span standards.
 
 ---
 
-## IRC Header Span Capacity Table (28 ft House Span)
+## Mathematical Formulas & Mechanics
 
-| Header Lumber Specification | Non-Bearing Interior Wall Span | 1-Story + Roof Load Span (30 PSF) | 2-Story Load Span | Minimum Jack Studs per Jamb |
-| :--- | :--- | :--- | :--- | :--- |
-| **Double 2x6 (#2 SPF)** | 6 ft 0 in | 3 ft 11 in | 2 ft 8 in | 1 Jack Stud |
-| **Double 2x8 (#2 SPF)** | 8 ft 0 in | 5 ft 3 in | 3 ft 7 in | 1 Jack Stud (2 if >6 ft) |
-| **Double 2x10 (#2 SPF)** | 10 ft 0 in | 6 ft 5 in | 4 ft 7 in | 2 Jack Studs |
-| **Double 2x12 (#2 SPF)** | 12 ft 0 in | 7 ft 8 in | 5 ft 5 in | 2 Jack Studs |
-| **Triple 2x10 Lumber** | 12 ft 0 in | 8 ft 2 in | 6 ft 0 in | 2 Jack Studs |
-| **3.5" x 9.25" LVL Beam** | 16 ft 0 in | 9 ft 10 in | 7 ft 3 in | 2 Jack Studs |
-| **3.5" x 11.875" LVL Beam**| 20 ft 0 in | 12 ft 6 in | 9 ft 4 in | 3 Jack Studs |
+### 1. Tributary Load Calculation
+$$\text{Tributary Width } W_{\text{trib}} = \frac{\text{Building Width}}{2}$$
+$$w_{\text{total}} = W_{\text{trib}} \times \left( q_{\text{roof\_dead}} + q_{\text{roof\_snow}} + q_{\text{floor\_live}} \right) + q_{\text{wall}}$$
 
----
+Where typical design loads are:
+- Roof Dead Load: $15\text{ psf}$
+- Floor Live Load (if applicable): $40\text{ psf}$
+- Floor Dead Load: $10\text{ psf}$
 
-## Step-by-Step Framing Guide
+### 2. Bending Moment & Shear Equations
+$$M_{\text{max}} = \frac{w_{\text{total}} \times L^2}{8}$$
+$$V_{\text{max}} = \frac{w_{\text{total}} \times L}{2}$$
 
-1. **Establish Rough Opening (R.O.):** Measure door or window frame width and add manufacturer rough opening margins (typically +3/4" to +1" width and height).
-2. **Verify Load Path:** Identify if wall plates support roof trusses/rafters or upper floor joists.
-3. **Assemble Sandwich Header:** Nail two 2x header members together with a 1/2" OSB sandwich plate using 3" framing nails @ 16" o.c. staggered.
-4. **Install King and Jack Studs:** Fasten continuous king stud to bottom/top plates, then cut jack stud to fit snugly beneath the header beam.
-5. **Install Cripple Studs:** Space cripple studs above the header at 16" o.c. to support the top wall plate continuous load path.
+### 3. Deflection Limitation (L/240 Total Load)
+$$\Delta_{\text{actual}} = \frac{5 \cdot w_{\text{total}} \cdot L^4}{384 \cdot E \cdot I} \le \Delta_{\text{allowable}} = \frac{L \cdot 12}{240}$$
+
+Where $E$ is Modulus of Elasticity ($1.4 \times 10^6\text{ psi}$ for SPF #2; $2.0 \times 10^6\text{ psi}$ for LVL) and $I = \frac{b h^3}{12}$ is Moment of Inertia.
 
 ---
 
-## Frequently Asked Questions (FAQ)
+## Real-World Comparison & Benchmark Table
 
-### What size header do I need for a 6 ft sliding patio door?
-For a standard 6 ft opening in a single-story 28 ft wide house, IRC Table R602.7 requires a minimum double 2x10 header (#2 Southern Pine / Douglas Fir) supported by 2 jack studs at each end.
+Maximum allowable clear spans for double $2\times$ headers supporting roof + 1 clear-span floor ($28\text{ ft}$ building width, $30\text{ psf}$ snow load):
 
-### What is the difference between a king stud and a jack (trimmer) stud?
-A king stud runs continuously from sole plate to top plate alongside the opening. A jack stud (or trimmer) is nailed directly inside the king stud to physically support the weight of the header beam.
+| Header Size | SPF #2 Max Span | SYP #2 Max Span | 2.0E LVL (Double 1-3/4") | Req. Jack Studs ($\le 6\text{ ft}$) | Req. Jack Studs ($> 6\text{ ft}$) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Double 2x6** | $3\text{ ft } 2\text{ in}$ | $3\text{ ft } 8\text{ in}$ | $4\text{ ft } 6\text{ in}$ | 1 Jack Stud | N/A |
+| **Double 2x8** | $4\text{ ft } 1\text{ in}$ | $4\text{ ft } 9\text{ in}$ | $5\text{ ft } 10\text{ in}$ | 1 Jack Stud | 2 Jack Studs |
+| **Double 2x10** | $4\text{ ft } 11\text{ in}$ | $5\text{ ft } 9\text{ in}$ | $7\text{ ft } 2\text{ in}$ | 1 Jack Stud | 2 Jack Studs |
+| **Double 2x12** | $5\text{ ft } 9\text{ in}$ | $6\text{ ft } 9\text{ in}$ | $8\text{ ft } 5\text{ in}$ | 1 Jack Stud | 2 Jack Studs |
+| **Double 11-7/8" LVL** | $7\text{ ft } 4\text{ in}$ | $8\text{ ft } 2\text{ in}$ | $10\text{ ft } 8\text{ in}$ | 2 Jack Studs | 2 Jack Studs |
+| **Triple 11-7/8" LVL** | $9\text{ ft } 6\text{ in}$ | $10\text{ ft } 8\text{ in}$ | $14\text{ ft } 2\text{ in}$ | 2 Jack Studs | 3 Jack Studs |
 
-### When are two jack studs required at each end of a header?
-Per International Residential Code (IRC), headers spanning over 6 feet in load-bearing walls, or headers carrying heavy two-story roof/floor loads, require a minimum of 2 jack studs at each supporting jamb.
+---
 
-### What is the maximum span for a double 2x6 header?
-In a load-bearing exterior wall carrying a single-story roof load, a double 2x6 header has a maximum clear span of approximately 3 ft 11 in (or up to 6 ft in non-load bearing interior partition walls).
+## Step-by-Step How-To Guide
+
+1. **Measure Opening Clear Span:** Measure exact rough opening width in feet for door, window, or garage framed opening.
+2. **Determine Tributary Building Span:** Input building width to determine weight transferred from ceiling joists and roof rafters.
+3. **Select Loading Condition:** Choose single story (roof load only), 2-story (roof + 1 floor), or 3-story (roof + 2 floors).
+4. **Choose Wood Species & Grade:** Select dimensional framing lumber (#2 SPF, SYP, DF-L) or engineered LVL.
+5. **Review Header Size & Jack Stud Requirement:** Inspect calculated header depth, required plies, and trimmer stud counts per side.
+
+---
+
+## Frequently Asked Questions
+
+### Rule of thumb for door and window header sizing?
+A common traditional rule of thumb is header depth in inches equals opening width in feet plus 2 inches (e.g., 4-ft opening = double 2x6; 6-ft opening = double 2x8; 8-ft opening = double 2x10). However, heavy snow or multi-story loads require calculated engineering.
+
+### How many jack studs (trimmers) are required per side for a header?
+Openings up to 6 feet wide supporting a single story typically require 1 jack stud per side. Openings from 6 to 10 feet wide require 2 jack studs per side. Spans over 10 feet or heavy multi-story loads require 3 jack studs or steel bearing plates.
 
 ### When should engineered LVL headers be used instead of dimensional lumber?
-Engineered Laminated Veneer Lumber (LVL) beams are recommended for large openings exceeding 8 to 10 feet, garage doors (16 ft spans), or heavy multi-story load points where dimensional lumber would deflect excessively.
+Engineered LVL headers (Laminated Veneer Lumber) should be used for spans exceeding 8 to 10 feet, wide garage door openings (16 ft), or heavily loaded exterior walls where dimensional lumber exceeds maximum depth limits.
 
-### Can a header be built with a 1/2-inch plywood spacer sandwich?
-Yes. In standard 2x4 wall framing (3.5 inches thick), double 2x lumber (1.5 + 1.5 = 3.0 inches) is combined with a 1/2-inch OSB or plywood spacer to match the 3.5-inch wall depth flush with studs.
+### What is tributary width in header load calculations?
+Tributary width is half the span of joists or rafters supported by the wall containing the header. For a 28-foot wide building where rafters span center-to-ridge, the tributary roof width supported by an exterior wall is 14 feet.
 
-### How does roof snow load impact header sizing?
-Higher ground snow loads (such as 50 PSF vs 20 PSF) increase the total uniform lineal load ($w$) transferred down from roof rafters, requiring deeper header lumber or shorter maximum spans.
+### What deflection limits apply to window and door headers?
+Building codes (IRC) mandate a maximum deflection limit of L/240 for total load and L/360 for live load on standard exterior walls. Openings with sensitive glass or sliding doors often require L/480 to prevent binding.
+
+### Can non-bearing interior wall headers be smaller?
+Yes, non-load-bearing interior partition wall headers do not support floor or roof loads. Double 2x4 headers are structurally sufficient for non-bearing spans up to 8 feet wide.
+
+### How is a double 2x header insulated in exterior framing?
+Standard 2x dimensional lumber headers are 3.5 inches thick in a 2x6 wall (5.5 inches deep), leaving a 2-inch interior gap that should be filled with rigid foam insulation (R-10 to R-13) to prevent thermal bridging.

@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Wallpaper Pattern Repeat Calculator – Calculate Rolls & Pattern Waste
-description: Calculate wallpaper rolls needed, vertical pattern match repeat adjustments, cutting waste percentage, usable strips per roll, and total material cost.
+title: "Wallpaper Pattern Repeat | Interactive Online Tool"
+description: "Calculate wallpaper rolls needed, vertical pattern match repeat adjustments, cutting waste percentage, usable strips per roll, and total material cost."
 permalink: /wallpaper-pattern-repeat-calculator
 tool_id: wallpaper-pattern-repeat-calculator
 category: home-decor-interior
@@ -154,7 +154,7 @@ faq:
     answer: "No. All calculations run strictly inside your web browser."
 ---
 
-# Wallpaper Pattern Repeat Calculator – Calculate Rolls & Pattern Waste
+# Wallpaper Pattern Repeat Calculator
 
 Hanging decorative wallpaper with large floral, damask, or geometric patterns requires calculating the vertical pattern repeat to ensure seamless motif alignment across seams. Use our **Wallpaper Pattern Repeat Calculator** to determine exact strip cut lengths, usable strips per roll, pattern waste percentages, and total rolls needed.
 

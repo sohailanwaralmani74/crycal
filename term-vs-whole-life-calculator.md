@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Term vs Whole Life Calculator
-description: Compare the costs and benefits of term life insurance versus whole life insurance. See the difference in premiums, cash value, and investment returns.
+title: "Term Vs Whole Life | Interactive Online Tool"
+description: "Compare the costs and benefits of term life insurance versus whole life insurance. See the difference in premiums, cash value, and investment returns."
 permalink: /term-vs-whole-life-calculator
 tool_id: term-vs-whole-life
 category: insurance
@@ -175,7 +175,7 @@ faq:
 
 ---
 
-# Term vs Whole Life Calculator – Compare Your Insurance Options
+# Term Vs Whole Life Calculator
 
 Use this term vs whole life calculator to compare the costs and benefits of term life insurance versus whole life insurance. Enter your age, coverage amount, term length, and expected investment return — the tool shows the premium difference, whole life cash value, and the "buy term and invest the difference" comparison. Whether you're deciding between term and whole life or evaluating your existing coverage, this term vs whole life insurance calculator helps you make an informed decision.
 

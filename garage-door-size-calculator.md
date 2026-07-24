@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Garage Door Size Calculator – Opening Clearance, Headroom & Springs
-description: Calculate single (8x7, 9x7) vs double (16x7, 18x7) garage door opening dimensions, track headroom clearance, backroom, and torsion springs.
+title: "Garage Door Size | Interactive Online Tool"
+description: "Calculate single (8x7, 9x7) vs double (16x7, 18x7) garage door opening dimensions, track headroom clearance, backroom, and torsion springs."
 permalink: /garage-door-size-calculator
 tool_id: garage-door-size-calculator
 category: windows-doors
@@ -145,7 +145,7 @@ faq:
 
 ---
 
-# Garage Door Size Calculator – Opening Clearance, Headroom & Springs
+# Garage Door Size Calculator
 
 Calculate exact **garage door opening dimensions**, **track headroom clearance**, **backroom depth**, and **torsion spring requirements** using our **Garage Door Size Calculator**. Select between single-car (8x7, 9x7) and double-car (16x7, 18x7) garage door configurations.
 

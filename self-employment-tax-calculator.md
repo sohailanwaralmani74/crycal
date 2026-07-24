@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Self-Employment Tax Calculator
-description: Calculate your self-employment tax, income tax, and net earnings. Enter your net profit, tax rates, and deductions — works for any country.
+title: "Self Employment Tax | Interactive Online Tool"
+description: "Calculate your self-employment tax, income tax, and net earnings. Enter your net profit, tax rates, and deductions — works for any country."
 permalink: /self-employment-tax-calculator
 tool_id: self-employment-tax
 category: tax
@@ -197,7 +197,7 @@ faq:
 
 ---
 
-# Self-Employment Tax Calculator – Calculate Your Freelance Tax
+# Self Employment Tax Calculator
 
 Use this self-employment tax calculator to estimate your tax liability as a freelancer, contractor, or small business owner. Enter your net profit, income tax rate, social security rate, medicare rate, and deductions — the tool works for any country. This self-employed tax calculator gives you an accurate breakdown of your tax obligations and net earnings.
 

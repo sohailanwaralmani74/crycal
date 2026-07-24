@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Trucking Cost Per Mile Calculator – Operating Cost & Rate Estimator
-description: Calculate your trucking cost per mile with our free calculator. Enter truck payment, insurance, fuel, MPG, maintenance, tires, and driver pay to find your break‑even rate and net profit per load.
+title: "Trucking Cost Per Mile | Interactive Online Tool"
+description: "Calculate your trucking cost per mile with our free calculator. Calculate truck cost per mile, analysis benefit free and easy to use tool."
 permalink: /trucking-cost-per-mile-calculator
 tool_id: trucking-cost-per-mile-calculator
 category: budgeting
@@ -204,7 +204,7 @@ faq:
 
 ---
 
-# Trucking Cost Per Mile Calculator – Operating Cost & Rate Estimator
+# Trucking Cost Per Mile Calculator
 
 Calculate your trucking cost per mile with our free **Trucking Cost Per Mile Calculator**. Enter truck payment, insurance, fuel, MPG, maintenance, tires, and driver pay to find your break‑even rate and net profit per load — all without your data leaving your browser.
 

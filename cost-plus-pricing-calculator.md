@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Cost-Plus Pricing Calculator – Target Margin Cost Pricing
-description: Calculate subscription plan pricing based on hosting, support, and licensing COGS plus target gross margin percentage.
+title: "Cost Plus Pricing | Interactive Online Tool"
+description: "Calculate subscription plan pricing based on hosting, support, and licensing COGS plus target gross margin percentage."
 permalink: /cost-plus-pricing-calculator
 tool_id: cost-plus-pricing-calculator
 category: saas-pricing-packaging
@@ -154,7 +154,7 @@ faq:
 
 ---
 
-# Cost-Plus Pricing Calculator – Target Margin Cost Pricing
+# Cost Plus Pricing Calculator
 
 Calculate the minimum **subscription price** required to hit your target **gross margin percentage** based on direct infrastructure, support, and licensing costs.
 

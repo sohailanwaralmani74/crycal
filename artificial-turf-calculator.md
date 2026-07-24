@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Artificial Turf Calculator – Synthetic Grass Rolls, Sand Infill & Accessories
-description: Calculate synthetic grass roll square footage (15ft rolls), silica sand infill bags (lbs/sq ft), seam tape, turf nails, and total installation material costs.
+title: "Artificial Turf | Interactive Online Tool"
+description: "Free online Artificial Turf. Calculate exact building material counts, unit costs, and coverage with instant browser math and charts."
 permalink: /artificial-turf-calculator
 tool_id: artificial-turf-calculator
 category: landscaping-outdoor
@@ -177,7 +177,7 @@ faq:
     answer: "No. All logic operates locally in your web browser."
 ---
 
-# Artificial Turf Calculator – Synthetic Grass Rolls, Sand Infill & Accessories
+# Artificial Turf Calculator
 
 Estimate synthetic grass rolls, 15-foot roll layouts, silica sand infill 50lb bags, seam tape, and galvanized turf nails with our free **Artificial Turf Calculator**.
 

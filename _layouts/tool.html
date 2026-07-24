@@ -48,7 +48,11 @@ layout: default
       {% if input.type == "select" %}
       <select id="input_{{ input.id }}" data-default="{{ input.default }}">
         {% for option in input.options %}
-        <option value="{{ option }}" {% if option==input.default %}selected{% endif %}>{{ option }}</option>
+        {% if option.value %}
+        <option value="{{ option.value }}" {% if option.value == input.default %}selected{% endif %}>{{ option.label }}</option>
+        {% else %}
+        <option value="{{ option }}" {% if option == input.default %}selected{% endif %}>{{ option }}</option>
+        {% endif %}
         {% endfor %}
       </select>
 

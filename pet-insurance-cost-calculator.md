@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Pet Insurance Cost Calculator – Free Estimate
-description: Estimate your pet insurance cost with our free calculator. Enter your pet's age, breed, location, and coverage type to see your monthly premium.
+title: "Pet Insurance Cost | Interactive Online Tool"
+description: "Estimate your pet insurance cost with our free calculator. Enter your pets age, breed, location, and coverage type to see your monthly premium."
 permalink: /pet-insurance-cost-calculator
 tool_id: pet-insurance-cost-calculator
 category: insurance
@@ -156,7 +156,7 @@ faq:
 
 ---
 
-# Estimate Your Pet Insurance Premium
+# Pet Insurance Cost Calculator
 
 Estimate your pet insurance cost with our free calculator. Enter your pet's age, breed, location, and coverage type to see your monthly premium — all without your data leaving your browser.
 

@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Inherited IRA RMD Calculator – Required Minimum Distribution Estimator
-description: Use the Inherited IRA RMD Calculator to estimate your required minimum distribution as a beneficiary, based on the applicable IRS distribution rule and your life expectancy.
+title: "Inherited Ira Rmd | Interactive Online Tool"
+description: "Use the Inherited IRA RMD Calculator to estimate your required minimum distribution as a beneficiary, based on the applicable IRS distribution..."
 permalink: /inherited-ira-rmd-calculator
 tool_id: inherited-ira-rmd-calculator
 category: retirement
@@ -109,7 +109,7 @@ faq:
     answer: "No. All calculations run locally in your browser. No data is sent to any server."
 ---
 
-# Estimate Your Inherited IRA Required Minimum Distribution
+# Inherited Ira Rmd Calculator
 
 Use the **Inherited IRA RMD Calculator** to estimate your required minimum distribution as a beneficiary, based on the applicable IRS distribution rule and your life expectancy.
 

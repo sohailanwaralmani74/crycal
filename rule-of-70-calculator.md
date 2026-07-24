@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Rule of 70 Calculator – Estimate Doubling Time for Growth
-description: Use the Rule of 70 Calculator to estimate how many years it takes for an investment, economy, or population to double at a given growth rate.
+title: "Rule Of 70 | Interactive Online Tool"
+description: "Use the Rule of 70 Calculator to estimate how many years it takes for an investment, economy, or population to double at a given growth rate."
 permalink: /rule-of-70-calculator
 tool_id: rule-of-70-calculator
 category: growth
@@ -87,7 +87,7 @@ faq:
     answer: "No. All calculations run locally in your browser. No data is sent to any server."
 ---
 
-# Calculate Doubling Time with the Rule of 70
+# Rule Of 70 Calculator
 
 Use the **Rule of 70 Calculator** to estimate how many years it takes for an investment, economy, or population to double at a given growth rate.
 

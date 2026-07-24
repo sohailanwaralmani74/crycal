@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: High Yield Savings Calculator
-description: Calculate how much interest you'll earn with a high-yield savings account. Compare APYs, monthly contributions, and compounding frequencies.
+title: "High Yield Savings | Interactive Online Tool"
+description: "Calculate how much interest youll earn with a high-yield savings account. Compare APYs, monthly contributions, and compounding frequencies."
 permalink: /high-yield-savings-calculator
 tool_id: high-yield-savings
 category: growth
@@ -154,7 +154,7 @@ faq:
 
 ---
 
-# High Yield Savings Calculator – See Your Interest Grow
+# High Yield Savings Calculator
 
 Use this high yield savings calculator to see exactly how much interest you'll earn with a high-yield savings account. Enter your initial deposit, monthly contributions, APY, and time period — the tool shows your final balance, total interest, and effective annual yield. Compare different rates and see which high interest savings account works best for your goals.
 

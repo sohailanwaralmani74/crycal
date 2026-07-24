@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Skylight Sizing Calculator – Room Sq Ft Ratio, Shaft Angle & Lumens
-description: Calculate skylight glass area sizing (5%–10% room floor ratio), recommended skylight dimensions, shaft flare angles, and daylighting lumen output.
+title: "Skylight Sizing | Interactive Online Tool"
+description: "Calculate skylight glass area sizing (5%–10% room floor ratio), recommended skylight dimensions, shaft flare angles, and daylighting lumen output."
 permalink: /skylight-sizing-calculator
 tool_id: skylight-sizing-calculator
 category: roofing
@@ -149,7 +149,7 @@ faq:
     answer: "No. All calculations run strictly inside your local browser."
 ---
 
-# Skylight Sizing Calculator – Room Sq Ft Ratio, Shaft Angle & Lumens
+# Skylight Sizing Calculator
 
 Calculate optimal **skylight glass surface area** based on room floor square footage (5%–10% rule), recommended **standard unit dimensions**, **light shaft flare angles**, and natural **daylight lumen output**.
 

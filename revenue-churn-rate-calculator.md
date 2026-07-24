@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Revenue Churn Rate Calculator – Monthly & Annual Dollar Loss %
-description: Calculate your monthly and annual Gross and Net Revenue Churn Rate percentages. Measure recurring dollar loss from cancellations and downgrades.
+title: "Revenue Churn Rate | Interactive Online Tool"
+description: "Calculate your monthly and annual Gross and Net Revenue Churn Rate percentages. Measure recurring dollar loss from cancellations and downgrades."
 permalink: /revenue-churn-rate-calculator
 tool_id: revenue-churn-rate-calculator
 category: saas-churn-retention

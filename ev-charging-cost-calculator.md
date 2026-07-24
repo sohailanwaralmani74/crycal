@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: EV Charging Cost Calculator – Calculate Electric Car Home Charging Bill
-description: Calculate your electric vehicle (EV) charging cost per session, per kWh, and monthly electricity bill impact. Compare home Level 2 charging rates vs public charging stations.
+title: "Ev Charging Cost | Interactive Online Tool"
+description: "Calculate your electric vehicle (EV) charging cost per session, per kWh, and monthly electricity bill impact."
 permalink: /ev-charging-cost-calculator
 tool_id: ev-charging-cost-calculator
 category: electric-vehicle-ev
@@ -159,7 +159,7 @@ faq:
 
 ---
 
-# EV Charging Cost Calculator
+# Ev Charging Cost Calculator
 
 Estimate your electric vehicle (EV) home charging cost per session, monthly electricity bill addition, and effective cost per mile.
 

@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Drywall Sheet Calculator – Wall & Ceiling Drywall Estimator
-description: Calculate the exact number of 4x8, 4x10, or 4x12 drywall sheets needed for your walls and ceiling including waste allowance and total material cost.
+title: "Drywall Sheet | Interactive Online Tool"
+description: "Calculate the exact number of 4x8, 4x10, or 4x12 drywall sheets needed for your walls and ceiling including waste allowance and total material cost."
 permalink: /drywall-sheet-calculator
 tool_id: drywall-sheet-calculator
 category: drywall-paint
@@ -135,7 +135,7 @@ faq:
     answer: "No. All sheet math and cost estimates run strictly within your browser."
 ---
 
-# Drywall Sheet Calculator – Wall & Ceiling Drywall Estimator
+# Drywall Sheet Calculator
 
 Accurately estimate the exact number of **4x8, 4x10, or 4x12 drywall sheets** required for your interior wall and ceiling installation using our free **Drywall Sheet Calculator**.
 

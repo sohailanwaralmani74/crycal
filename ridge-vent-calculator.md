@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Ridge Vent Calculator – Linear Feet & Attic NFVA Ventilation
-description: Calculate linear feet of continuous ridge exhaust vent needed for attic Net Free Vent Area (NFVA) code compliance, balanced with soffit intake vents.
+title: "Ridge Vent | Interactive Online Tool"
+description: "Calculate linear feet of continuous ridge exhaust vent needed for attic Net Free Vent Area (NFVA) code compliance, balanced with soffit intake vents."
 permalink: /ridge-vent-calculator
 tool_id: ridge-vent-calculator
 category: roofing
@@ -137,7 +137,7 @@ faq:
     answer: "No. All calculation logic runs locally inside your browser."
 ---
 
-# Ridge Vent Calculator – Linear Feet & Attic NFVA Ventilation
+# Ridge Vent Calculator
 
 Calculate exact **linear feet of continuous ridge vent**, total attic **Net Free Vent Area (NFVA)**, and balanced **soffit intake vent counts** according to **International Residential Code (IRC R806.2)**.
 

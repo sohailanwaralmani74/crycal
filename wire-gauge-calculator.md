@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Wire Gauge Calculator – AWG Size & Voltage Drop (NEC Compliant)
-description: Calculate the required AWG copper or aluminum wire size based on circuit amperage, AC voltage, run distance, phase, and maximum 3% voltage drop.
+title: "Wire Gauge | Interactive Online Tool"
+description: "Calculate the required AWG copper or aluminum wire size based on circuit amperage, AC voltage, run distance, phase, and maximum 3% voltage drop."
 permalink: /wire-gauge-calculator
 tool_id: wire-gauge-calculator
 category: electrical
@@ -162,7 +162,7 @@ faq:
 
 ---
 
-# Wire Gauge Calculator – AWG Size & Voltage Drop (NEC Compliant)
+# Wire Gauge Calculator
 
 Determine the correct **American Wire Gauge (AWG)** conductor size for copper or aluminum electrical runs using our **Wire Gauge Calculator**. Prevent excessive voltage drop, dangerous circuit overheating, and equipment malfunction on long wire runs.
 

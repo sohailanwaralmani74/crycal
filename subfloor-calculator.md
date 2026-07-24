@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Subfloor Calculator – Plywood, Adhesive & Screws Estimator
-description: Calculate 3/4" tongue-and-groove (T&G) subfloor plywood sheets, construction adhesive tubes, floor screws, and total material cost.
+title: "Subfloor | Interactive Online Tool"
+description: "Calculate 3/4 tongue-and-groove (T&G) subfloor plywood sheets, construction adhesive tubes, floor screws, and total material cost."
 permalink: /subfloor-calculator
 tool_id: subfloor-calculator
 category: flooring
@@ -145,7 +145,7 @@ faq:
     answer: "No. All calculations run locally in your web browser."
 ---
 
-# Subfloor Calculator – Plywood, Adhesive & Screws Estimator
+# Subfloor Calculator
 
 Calculate exact quantities of **3/4" tongue-and-groove (T&G) subfloor panels**, **heavy-duty construction adhesive tubes**, **subfloor screws**, and total material costs with our free **Subfloor Calculator**.
 

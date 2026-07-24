@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Gear Ratio Calculator – Highway RPM & Vehicle Speed
-description: Calculate engine RPM at highway speeds based on transmission gear ratios, tire overall diameter, final drive axle ratio, and vehicle speed.
+title: "Gear Ratio | Interactive Online Tool"
+description: "Calculate engine RPM at highway speeds based on transmission gear ratios, tire overall diameter, final drive axle ratio, and vehicle speed."
 permalink: /gear-ratio-calculator
 tool_id: gear-ratio-calculator
 category: auto-performance-specs

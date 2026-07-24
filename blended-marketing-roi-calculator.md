@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Blended Marketing ROI Calculator – Total Channel Performance Engine
-description: Calculate overall blended marketing ROI, total ad spend across organic, paid, social, and partner channels, and blended customer acquisition efficiency.
+title: "Blended Marketing Roi | Interactive Online Tool"
+description: "Calculate overall blended marketing ROI, total ad spend across organic, paid, social, and partner channels, and blended customer acquisition efficiency."
 permalink: /blended-marketing-roi-calculator
 tool_id: blended-marketing-roi-calculator
 category: saas-marketing-ads
@@ -141,7 +141,7 @@ faq:
     answer: "Improve blended ROI by shifting budget toward high-margin organic channels, negotiating lower affiliate commission structures, and eliminating underperforming paid ad ad groups."
 ---
 
-# Blended Marketing ROI Calculator – Total Channel Performance Engine
+# Blended Marketing Roi Calculator
 
 Gain a comprehensive view of your entire growth engine with our **Blended Marketing ROI Calculator**. Evaluate overall Marketing Efficiency Ratio (MER), total spend, and net profit across all acquisition channels.
 

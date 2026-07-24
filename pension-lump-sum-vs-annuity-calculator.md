@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Pension Lump Sum vs Annuity Calculator – Compare Your Pension Options
-description: Compare taking a lump sum payout versus a lifetime annuity pension. Enter your pension offer, expected returns, and life expectancy.
+title: "Pension Lump Sum Vs Annuity | Interactive Online Tool"
+description: "Compare taking a lump sum payout versus a lifetime annuity pension. Enter your pension offer, expected returns, and life expectancy."
 permalink: /pension-lump-sum-vs-annuity-calculator
 tool_id: pension-lump-sum-vs-annuity-calculator
 category: retirement
@@ -160,7 +160,7 @@ faq:
 
 ---
 
-# Pension Lump Sum vs Annuity Calculator – Compare Your Pension Options
+# Pension Lump Sum Vs Annuity Calculator
 
 Compare taking a pension lump sum payout versus a lifetime annuity with our free **Pension Lump Sum vs Annuity Calculator**. Enter your lump sum offer, monthly annuity payment, expected returns, and life expectancy to see which option is better — all without your data leaving your browser.
 

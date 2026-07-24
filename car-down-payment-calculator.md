@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Car Down Payment Calculator – Compare 10%, 20%, & 30% Down Payments
-description: Calculate monthly payment reductions and total interest saved by putting 10%, 20%, or 30% down on a vehicle purchase.
+title: "Car Down Payment | Interactive Online Tool"
+description: "Calculate monthly payment reductions and total interest saved by putting 10%, 20%, or 30% down on a vehicle purchase."
 permalink: /car-down-payment-calculator
 tool_id: car-down-payment-calculator
 category: auto-loan-financing

@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Stucco Calculator – Base & Finish Coat Bag & Cost Estimator
-description: Calculate scratch coat, brown coat, finish coat bag quantities, ready-mix stucco volume, and total installation cost per square foot.
+title: "Stucco | Interactive Online Tool"
+description: "Calculate scratch coat, brown coat, finish coat bag quantities, ready-mix stucco volume, and total installation cost per square foot."
 permalink: /stucco-calculator
 tool_id: stucco-calculator
 category: concrete-masonry
@@ -141,7 +141,7 @@ faq:
     answer: "No. All computations execute locally inside your browser, ensuring complete privacy."
 ---
 
-# Stucco Calculator – Base & Finish Coat Bag & Cost Estimator
+# Stucco Calculator
 
 Estimate exact bag quantities for **scratch coat**, **brown coat**, and **acrylic finish coat**, as well as total material and contractor labor expenses for your exterior stucco siding project.
 

@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Caulk Calculator – Tube Quantity & Linear Feet Coverage Estimator
-description: Calculate caulk tubes needed based on joint width, depth in inches, total linear feet, tube size (10.1 oz vs 28 oz), and waste factor.
+title: "Caulk | Interactive Online Tool"
+description: "Calculate caulk tubes needed based on joint width, depth in inches, total linear feet, tube size (10.1 oz vs 28 oz), and waste factor."
 permalink: /caulk-calculator
 tool_id: caulk-calculator
 category: drywall-paint
@@ -170,7 +170,7 @@ faq:
     answer: "No. All logic operates locally in your browser."
 ---
 
-# Caulk Calculator – Tube Quantity & Linear Feet Coverage Estimator
+# Caulk Calculator
 
 Estimate caulk tube quantities, linear feet coverage, foam backer rod requirements, and material costs with our free **Caulk Calculator**.
 

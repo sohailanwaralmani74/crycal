@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Pool Volume Calculator – Swimming Pool Water Volume in Gallons & Liters
-description: Calculate swimming pool water volume in US gallons and liters for rectangular, round, or oval pools based on dimensions and shallow/deep end depths.
+title: "Pool Volume | Interactive Online Tool"
+description: "Calculate swimming pool water volume in US gallons and liters for rectangular, round, or oval pools based on dimensions and shallow/deep end depths."
 permalink: /pool-volume-calculator
 tool_id: pool-volume-calculator
 category: landscaping-outdoor
@@ -137,7 +137,7 @@ faq:
     answer: "No. All pool volume calculations are computed locally inside your web browser. No data is sent or stored externally."
 ---
 
-# Pool Volume Calculator – Swimming Pool Water Volume in Gallons & Liters
+# Pool Volume Calculator
 
 Calculate exact pool water capacity in **US Gallons** and **Liters** for rectangular, round, and oval pools with our free **Pool Volume Calculator**.
 

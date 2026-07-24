@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: 0-60 mph Acceleration Estimator – Car Performance Calculator
-description: Estimate 0 to 60 mph acceleration time from horsepower, vehicle curb weight, drivetrain layout (FWD, RWD, AWD), transmission type, and tire grip.
+title: "Zero To Sixty Mph Estimator | Interactive Online Tool"
+description: "Estimate 0 to 60 mph acceleration time from horsepower, vehicle curb weight, drivetrain layout (FWD, RWD, AWD), transmission type, and tire grip."
 permalink: /zero-to-sixty-mph-estimator
 tool_id: zero-to-sixty-mph-estimator
 category: auto-performance-specs
@@ -139,7 +139,7 @@ faq:
 
 ---
 
-# 0-60 mph Acceleration Estimator
+# Zero To Sixty Mph Estimator Calculator
 
 Estimate vehicle **0 to 60 mph acceleration time** in seconds based on horsepower, curb weight, drivetrain layout (FWD, RWD, AWD), transmission type, and tire grip.
 

@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Irrigation Sprinkler Coverage Calculator – Zone Flow Rate & Heads
-description: Calculate sprinkler head counts, zone flow rate in GPM, minimum irrigation zones, and water pressure PSI requirements for lawn irrigation systems.
+title: "Irrigation Sprinkler Coverage | Interactive Online Tool"
+description: "Calculate sprinkler head counts, zone flow rate in GPM, minimum irrigation zones, and water pressure PSI requirements for lawn irrigation systems."
 permalink: /irrigation-sprinkler-coverage-calculator
 tool_id: irrigation-sprinkler-coverage-calculator
 category: landscaping-outdoor
@@ -145,7 +145,7 @@ faq:
     answer: "No. All calculations run locally in your web browser."
 ---
 
-# Irrigation Sprinkler Coverage Calculator – Zone Flow Rate & Heads
+# Irrigation Sprinkler Coverage Calculator
 
 Designing an efficient underground sprinkler system requires matching sprinkler head throw radius, flow rates (GPM), and operating pressure (PSI) to your home's water supply capacity. Use our **Irrigation Sprinkler Coverage Calculator** to determine exact sprinkler head counts, minimum valve zones, and precipitation rates for your lawn.
 

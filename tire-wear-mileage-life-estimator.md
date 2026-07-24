@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Tire Wear & Mileage Life Estimator – Remaining Tread Life Calculation
-description: Estimate remaining miles and months left on your tires based on current tread depth in 32nds of an inch, UTQG treadwear rating, and annual driving habits.
+title: "Tire Wear Mileage Life Estimator | Interactive Online Tool"
+description: "Estimate remaining miles and months left on your tires based on current tread depth in 32nds of an inch, UTQG treadwear rating, and annual driving habits."
 permalink: /tire-wear-mileage-life-estimator
 tool_id: tire-wear-mileage-life-estimator
 category: auto-tires-wheels
@@ -150,7 +150,7 @@ faq:
 
 ---
 
-# Tire Wear & Mileage Life Estimator – Remaining Tread Life Calculation
+# Tire Wear Mileage Life Estimator Calculator
 
 Estimate how many miles and months your tires have left before hitting the **2/32" legal wear limit** with our free **Tire Wear & Mileage Life Estimator**.
 

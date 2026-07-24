@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Credit Limit Calculator
+   Wanjaaro — Credit Limit Calculator
    Tool ID: credit-limit-calculator
 ═══════════════════════════════════════════════════════════ */
 

@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Renovation ROI Calculator – Home Resale Value & Remodeling ROI %
-description: Calculate home renovation Return on Investment (ROI %), estimated property value increase, and net out-of-pocket project costs at resale.
+title: "Renovation Roi | Interactive Online Tool"
+description: "Calculate home renovation Return on Investment (ROI %), estimated property value increase, and net out-of-pocket project costs at resale."
 permalink: /renovation-roi-calculator
 tool_id: renovation-roi-calculator
 category: project-cost-planning
@@ -141,7 +141,7 @@ faq:
     answer: "No. All calculations run strictly inside your web browser."
 ---
 
-# Renovation ROI Calculator – Home Resale Value & Remodeling ROI %
+# Renovation Roi Calculator
 
 Homeowners and real estate investors remodelling a home must weigh project costs against potential equity gains. Use our **Renovation ROI Calculator** to calculate remodeling return on investment (ROI %), projected home appraisal value increases, and net out-of-pocket costs upon resale.
 

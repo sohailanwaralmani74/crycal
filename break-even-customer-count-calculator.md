@@ -109,7 +109,7 @@ faq:
     a: "No. All calculations run strictly in your browser."
 ---
 
-# Break-Even Customer Count Calculator
+# Calculate Break-Even Customer Threshold
 
 Calculate subscriber count required to cover monthly fixed operating costs based on monthly ARPU and unit COGS. Use our free **Break-Even Customer Count Calculator** to evaluate your SaaS business performance and make data-driven growth decisions — without any data leaving your browser.
 

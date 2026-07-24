@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Cohort Retention Calculator
+   Wanjaaro — Cohort Retention Calculator
    Tool ID: cohort-retention-calculator
 ═══════════════════════════════════════════════════════════ */
 

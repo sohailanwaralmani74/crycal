@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Project Timeline Duration Estimator – Renovation Schedule & Work Days
-description: Calculate total renovation duration in work days, calendar weeks, and months across design, demolition, structural framing, trades, drywall, and inspection buffers.
+title: "Project Timeline Duration Estimator | Wanjaaro"
+description: "Calculate total renovation duration in work days, calendar weeks, and months across design, demolition, structural framing, trades, drywall, and..."
 permalink: /project-timeline-duration-estimator
 tool_id: project-timeline-duration-estimator
 category: project-cost-planning
@@ -163,7 +163,7 @@ faq:
     answer: "No. All calculations run strictly inside your web browser."
 ---
 
-# Project Timeline Duration Estimator – Renovation Schedule & Work Days
+# Project Timeline Duration Estimator Calculator
 
 Managing a construction project requires establishing a realistic project timeline. Whether you are managing a single-bathroom update or a multi-story home addition, scheduling delays increase labor costs and living disruptions. Use our **Project Timeline Duration Estimator** to calculate total renovation duration in active work days, calendar weeks, and months across all major construction phases.
 

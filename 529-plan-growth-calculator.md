@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: 529 Plan Growth Calculator – Project Your College Savings
-description: Use the 529 Plan Growth Calculator to project how your college savings will grow tax-free with regular contributions and compound returns.
+title: "529 Plan Growth | Interactive Online Tool"
+description: "Use the 529 Plan Growth Calculator to project how your college savings will grow tax-free with regular contributions and compound returns."
 permalink: /529-plan-growth-calculator
 tool_id: 529-plan-growth-calculator
 category: growth
@@ -131,7 +131,7 @@ faq:
     answer: "No. All calculations run locally in your browser. No data is sent to any server."
 ---
 
-# Project Your 529 Plan's Tax-Free Growth
+# 529 Plan Growth Calculator
 
 Use the **529 Plan Growth Calculator** to project how your college savings will grow tax-free with regular contributions and compound returns.
 

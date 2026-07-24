@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Barista FIRE Calculator – Semi-Retirement Planner
-description: Find your Barista FIRE number. Enter your current savings, retirement goals, and expected part-time income to see when you can semi-retire.
+title: "Barista Fire | Interactive Online Tool"
+description: "Find your Barista FIRE number. Enter your current savings, retirement goals, and expected part-time income to see when you can semi-retire."
 permalink: /barista-fire-calculator
 tool_id: barista-fire-calculator
 category: retirement
@@ -181,7 +181,7 @@ faq:
 
 ---
 
-# Barista FIRE Calculator – Semi-Retirement Planner
+# Barista Fire Calculator
 
 Calculate your **Barista FIRE number** with our free Barista FIRE Calculator. Enter your current savings, retirement expenses, and expected part-time income to find out when you can semi-retire and enjoy a flexible lifestyle — all without your data leaving your browser.
 

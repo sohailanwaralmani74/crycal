@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Price Increase Impact Calculator – Price Lift vs Churn Risk
-description: Estimate net revenue gain versus churn risk when raising SaaS subscription prices by X%. Calculate max tolerable customer churn before financial loss.
+title: "Price Increase Impact | Interactive Online Tool"
+description: "Estimate net revenue gain versus churn risk when raising SaaS subscription prices by X%. Calculate max tolerable customer churn before financial loss."
 permalink: /price-increase-impact-calculator
 tool_id: price-increase-impact-calculator
 category: saas-pricing-packaging
@@ -144,7 +144,7 @@ faq:
 
 ---
 
-# Price Increase Impact Calculator – Price Lift vs Churn Risk
+# Price Increase Impact Calculator
 
 Model the net financial impact of raising your SaaS subscription prices. Compare **MRR expansion** against **customer churn risk** and discover your breakeven threshold.
 

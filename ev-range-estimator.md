@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: EV Range Estimator – Calculate Real-World Electric Car Range
-description: Estimate real-world driving range for electric vehicles based on usable battery kWh, driving speed, ambient temperature, HVAC system usage, and terrain.
+title: "Ev Range Estimator | Interactive Online Tool"
+description: "Estimate real-world driving range for electric vehicles based on usable battery kWh, driving speed, ambient temperature, HVAC system usage, and terrain."
 permalink: /ev-range-estimator
 tool_id: ev-range-estimator
 category: electric-vehicle-ev
@@ -151,7 +151,7 @@ faq:
 
 ---
 
-# EV Range Estimator
+# Ev Range Estimator Calculator
 
 Estimate real-world electric vehicle (EV) driving range under varying speeds, winter temperatures, HVAC cabin heating, and hilly terrain.
 

@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Car Depreciation Calculator – Vehicle Value Loss Over 1-5 Years
-description: Calculate your vehicle's depreciation curve year-by-year from Year 1 to Year 5 based on vehicle type, initial purchase price, and annual mileage.
+title: "Car Depreciation | Interactive Online Tool"
+description: "Calculate your vehicles depreciation curve year-by-year from Year 1 to Year 5 based on vehicle type, initial purchase price, and annual mileage."
 permalink: /car-depreciation-calculator
 tool_id: car-depreciation-calculator
 category: auto-cost-ownership

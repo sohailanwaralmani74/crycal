@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Grandfathering Cost Calculator – Legacy Customer Pricing Impact
-description: Estimate lost expansion revenue, annual cost, and breakeven churn thresholds when leaving existing SaaS accounts on legacy price points.
+title: "Grandfathering Cost | Interactive Online Tool"
+description: "Estimate lost expansion revenue, annual cost, and breakeven churn thresholds when leaving existing SaaS accounts on legacy price points."
 permalink: /grandfathering-cost-calculator
 tool_id: grandfathering-cost-calculator
 category: saas-pricing-packaging
@@ -144,7 +144,7 @@ faq:
 
 ---
 
-# Grandfathering Cost Calculator – Legacy Customer Pricing Impact
+# Grandfathering Cost Calculator
 
 Calculate the **unrealized revenue left on the table** by keeping legacy customers on historical pricing plans, and evaluate **breakeven migration thresholds**.
 

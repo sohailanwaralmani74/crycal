@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Exterior Siding Paint Calculator – House Siding & Trim Paint Estimator
-description: Calculate paint gallons, body and trim cans, and material costs for exterior house siding, soffits, eaves, and trim based on siding material and coats.
+title: "Exterior Siding Paint | Interactive Online Tool"
+description: "Calculate paint gallons, body and trim cans, and material costs for exterior house siding, soffits, eaves, and trim based on siding material and coats."
 permalink: /exterior-siding-paint-calculator
 tool_id: exterior-siding-paint-calculator
 category: drywall-paint
@@ -162,7 +162,7 @@ faq:
     answer: "No. All calculation algorithms run directly inside your web browser without saving personal data."
 ---
 
-# Exterior Siding Paint Calculator – House Siding & Trim Paint Estimator
+# Exterior Siding Paint Calculator
 
 Calculate exterior paint gallons, body and trim cans, and material costs for house siding, soffits, eaves, and fascia with our free **Exterior Siding Paint Calculator**.
 

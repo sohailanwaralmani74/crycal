@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Sales Tax Calculator – Calculate Retail Sales Tax Amounts
-description: Calculate total retail sales tax, combined state and local tax rates, and final itemized receipt costs.
+title: "Sales Tax | Interactive Online Tool"
+description: "Calculate total retail sales tax, combined state and local tax rates, and final itemized receipt costs."
 permalink: /sales-tax-calculator
 tool_id: sales-tax-calculator
 category: tax
@@ -110,7 +110,7 @@ faq:
     answer: "No. All calculations run locally inside your web browser. History and saved presets are stored strictly in your browser's local storage."
 ---
 
-# Sales Tax Calculator – Calculate Retail Sales Tax Amounts
+# Sales Tax Calculator
 
 Calculate total retail sales tax, combined state and local tax rates, and final itemized receipt costs with our free **Sales Tax Calculator**.
 

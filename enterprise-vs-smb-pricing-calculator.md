@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Enterprise vs. SMB Pricing Calculator – Tier Revenue Potential
-description: Compare total revenue potential, sales cycles, and deal equivalence between high-touch Enterprise ACV and self-serve SMB ACV.
+title: "Enterprise Vs Smb Pricing | Interactive Online Tool"
+description: "Compare total revenue potential, sales cycles, and deal equivalence between high-touch Enterprise ACV and self-serve SMB ACV."
 permalink: /enterprise-vs-smb-pricing-calculator
 tool_id: enterprise-vs-smb-pricing-calculator
 category: saas-pricing-packaging
@@ -149,7 +149,7 @@ faq:
 
 ---
 
-# Enterprise vs. SMB Pricing Calculator – Tier Revenue Potential
+# Enterprise Vs Smb Pricing Calculator
 
 Compare revenue potential, sales velocity, and deal volume equivalence between **self-serve SMB accounts** and **high-touch Enterprise ACV deals**.
 

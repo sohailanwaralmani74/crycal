@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Vapor Barrier Calculator – Polyethylene Rolls & Crawlspace Encapsulation
-description: Calculate 6mil, 10mil, and 20mil polyethylene vapor barrier rolls, seam tape, and material costs for crawlspace encapsulation and wall stud installation.
+title: "Vapor Barrier | Interactive Online Tool"
+description: "Calculate 6mil, 10mil, and 20mil polyethylene vapor barrier rolls, seam tape, and material costs for crawlspace encapsulation and wall stud installation."
 permalink: /vapor-barrier-calculator
 tool_id: vapor-barrier-calculator
 category: insulation-hvac
@@ -200,7 +200,7 @@ faq:
     answer: "No. All calculation logic operates locally in your web browser."
 ---
 
-# Vapor Barrier Calculator – Polyethylene Rolls & Crawlspace Encapsulation
+# Vapor Barrier Calculator
 
 Determine polyethylene plastic vapor barrier rolls, waterproof seam tape, and total material cost for crawlspace encapsulation and wall stud installation with our free **Vapor Barrier Calculator**.
 

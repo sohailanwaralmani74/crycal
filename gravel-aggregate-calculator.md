@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Gravel & Aggregate Calculator – Cubic Yards, Tons & Cost
-description: Calculate cubic yards, tons of gravel, pea gravel, river rock, and crushed stone for driveways, pathways, and compaction subbase with total cost.
+title: "Gravel Aggregate | Interactive Online Tool"
+description: "Calculate cubic yards, tons of gravel, pea gravel, river rock, and crushed stone for driveways, pathways, and compaction subbase with total cost."
 permalink: /gravel-aggregate-calculator
 tool_id: gravel-aggregate-calculator
 category: concrete-masonry
@@ -145,7 +145,7 @@ faq:
   - answer: "No. All calculations run locally in your web browser."
 ---
 
-# Gravel & Aggregate Calculator – Cubic Yards, Tons & Cost
+# Gravel Aggregate Calculator
 
 Calculate total **Cubic Yards**, weight in **Tons**, and estimated material cost for gravel, crushed stone, pea gravel, river rock, and decomposed granite.
 

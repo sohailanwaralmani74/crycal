@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Debt-to-Income Calculator
-description: Calculate your debt-to-income (DTI) ratio to understand your financial health. Enter your monthly income and debts to see your DTI percentage.
+title: "Debt To Income | Interactive Online Tool"
+description: "Calculate your debt-to-income (DTI) ratio to understand your financial health. Enter your monthly income and debts to see your DTI percentage."
 permalink: /debt-to-income-calculator
 tool_id: debt-to-income
 category: budgeting
@@ -185,7 +185,7 @@ faq:
 
 ---
 
-# Debt-to-Income Calculator – Understand Your Financial Health
+# Debt To Income Calculator
 
 Use this debt-to-income calculator to calculate your DTI ratio and understand your financial health. Enter your monthly income and debts to see your DTI percentage, category, and front-end/back-end breakdown. This DTI ratio calculator helps you evaluate your borrowing capacity.
 

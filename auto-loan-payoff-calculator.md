@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Auto Loan Payoff Calculator – Early Payoff & Interest Savings
-description: Calculate remaining auto loan balance, accelerated payoff date, and total interest saved by making extra monthly car loan payments.
+title: "Auto Loan Payoff | Interactive Online Tool"
+description: "Calculate remaining auto loan balance, accelerated payoff date, and total interest saved by making extra monthly car loan payments."
 permalink: /auto-loan-payoff-calculator
 tool_id: auto-loan-payoff-calculator
 category: auto-loan-financing

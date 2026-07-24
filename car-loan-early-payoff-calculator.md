@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Car Loan Early Payoff Calculator – Extra & Bi-Weekly Payment Savings
-description: Calculate how extra monthly or bi-weekly auto loan payments accelerate your payoff date, reduce remaining months, and save on interest.
+title: "Car Loan Early Payoff | Interactive Online Tool"
+description: "Calculate how extra monthly or bi-weekly auto loan payments accelerate your payoff date, reduce remaining months, and save on interest."
 permalink: /car-loan-early-payoff-calculator
 tool_id: car-loan-early-payoff-calculator
 category: auto-loan-financing

@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Hardwood Flooring Calculator – Cartons, Coverage & Cost Estimator
-description: Calculate solid and engineered hardwood flooring cartons needed, square feet coverage per box, waste percentage, and total installation cost.
+title: "Hardwood Flooring | Interactive Online Tool"
+description: "Calculate solid and engineered hardwood flooring cartons needed, square feet coverage per box, waste percentage, and total installation cost."
 permalink: /hardwood-flooring-calculator
 tool_id: hardwood-flooring-calculator
 category: flooring
@@ -138,7 +138,7 @@ faq:
     answer: "No. All calculations run locally within your web browser."
 ---
 
-# Hardwood Flooring Calculator – Cartons, Coverage & Cost Estimator
+# Hardwood Flooring Calculator
 
 Determine the exact number of **hardwood cartons to order**, total square footage, waste overage, and installed project costs for solid oak, maple, walnut, or engineered wood with our free **Hardwood Flooring Calculator**.
 

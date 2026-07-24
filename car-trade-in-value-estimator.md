@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Car Trade-In Value Estimator – Dealer Trade-In vs Private Sale
-description: Estimate dealer trade-in value vs private party sale value, accounting for vehicle condition, excess mileage, and state sales tax trade-in credits.
+title: "Car Trade In Value Estimator | Interactive Online Tool"
+description: "Estimate dealer trade-in value vs private party sale value, accounting for vehicle condition, excess mileage, and state sales tax trade-in credits."
 permalink: /car-trade-in-value-estimator
 tool_id: car-trade-in-value-estimator
 category: auto-cost-ownership
@@ -145,7 +145,7 @@ faq:
 
 ---
 
-# Car Trade-In Value Estimator
+# Car Trade In Value Estimator Calculator
 
 Estimate dealer trade-in value versus private party sale value, accounting for vehicle condition, mileage adjustments, and state sales tax trade-in credits.
 

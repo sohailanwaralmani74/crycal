@@ -1,7 +1,7 @@
 ---
 layout: "tool"
 title: "Customer Acquisition Cost (CAC) Calculator"
-description: "Calculate fully-loaded Customer Acquisition Cost (CAC) for SaaS businesses including sales & marketing spend, team salaries, software, agency fees, and customer volume."
+description: "Calculate fully-loaded Customer Acquisition Cost (CAC) for SaaS businesses including sales & marketing spend, and customer volume."
 permalink: "/cac-customer-acquisition-cost-calculator"
 tool_id: "cac-customer-acquisition-cost-calculator"
 category: "saas-unit-economics"
@@ -130,7 +130,7 @@ faq:
     a: "No. All calculations process strictly inside your local browser. Zero financial data is collected or transmitted."
 ---
 
-# Customer Acquisition Cost (CAC) Calculator
+# Calculate Customer Acquisition Cost (CAC)
 
 Calculate fully-loaded Customer Acquisition Cost (CAC) for SaaS businesses including sales & marketing spend, team salaries, software, agency fees, and customer volume. Use our free **Customer Acquisition Cost (CAC) Calculator** to evaluate your SaaS business performance and make data-driven growth decisions — without any data leaving your browser.
 

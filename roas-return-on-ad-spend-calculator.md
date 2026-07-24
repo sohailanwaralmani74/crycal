@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: ROAS Calculator – Return on Ad Spend & Profitability Estimator
-description: Calculate your Return on Ad Spend (ROAS), net ad profit, and break-even ROAS threshold. Optimize your paid advertising campaigns across Google, Meta, and LinkedIn.
+title: "Roas Return On Ad Spend | Interactive Online Tool"
+description: "Calculate your Return on Ad Spend (ROAS), net ad profit, and break-even ROAS threshold."
 permalink: /roas-return-on-ad-spend-calculator
 tool_id: roas-return-on-ad-spend-calculator
 category: saas-marketing-ads
@@ -124,7 +124,7 @@ faq:
     answer: "You can improve ROAS by narrowing audience targeting, optimizing landing page conversion rates, increasing Average Order Value (AOV), or refining ad copy and creatives."
 ---
 
-# ROAS Calculator – Return on Ad Spend & Profitability Estimator
+# Roas Return On Ad Spend Calculator
 
 Determine the exact financial performance of your paid marketing campaigns with our **ROAS Calculator**. Calculate Return on Ad Spend, net advertising profit, and your break-even ROAS benchmark instantly.
 

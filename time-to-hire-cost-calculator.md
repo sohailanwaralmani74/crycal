@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Time to Hire Cost Calculator – Open Vacancy Expense Engine
-description: Estimate lost revenue opportunity cost, external recruiter fees, and internal labor costs resulting from an unfilled open position over N days.
+title: "Time To Hire Cost | Interactive Online Tool"
+description: "Estimate lost revenue opportunity cost, external recruiter fees, and internal labor costs resulting from an unfilled open position over N days."
 permalink: /time-to-hire-cost-calculator
 tool_id: time-to-hire-cost-calculator
 category: saas-team-operations
@@ -143,7 +143,7 @@ faq:
     answer: "Reduce vacancy costs by maintaining an active candidate talent pipeline, streamlining interview stages (max 3 rounds), leveraging AI resume screening tools, and setting clear job offer SLAs."
 ---
 
-# Time to Hire Cost Calculator – Open Vacancy Expense Engine
+# Time To Hire Cost Calculator
 
 Calculate the hidden financial drain of open job positions with our **Time to Hire Cost Calculator**. Quantify lost revenue opportunity cost, recruiter agency fees, and internal interview labor expenses.
 

@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: "Finance Excel Templates: Free Download for Budgeting, Investing & More"
+title: "Free Finance Excel Templates for Budgeting & Investing"
 description: "Download free finance Excel templates for budgeting, debt management, retirement planning, investing, tax planning, mortgage, and business finance."
 date: 2025-07-15
 featured_image: /assets/img/finance-excel-templates.webp
@@ -8,7 +8,7 @@ image: /assets/img/finance-excel-templates.webp
 read_time: 12
 excerpt: "Download free finance Excel templates for budgeting, debt management, retirement planning, investing, tax planning, mortgage, and business finance."
 short_name: Finance Excel Templates
-h1: Finance Excel Templates – Free Download for Budgeting, Investing & More
+h1: Finance Excel Templates – Download Finance Templates for free
 ---
 
 

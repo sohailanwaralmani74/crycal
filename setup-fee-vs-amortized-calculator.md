@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Setup Fee vs. Amortized Fee Calculator – Onboarding Fee Schedule
-description: Compare upfront professional onboarding setup fees against amortizing fees across 12-month B2B contracts.
+title: "Setup Fee Vs Amortized | Interactive Online Tool"
+description: "Compare upfront professional onboarding setup fees against amortizing fees across 12-month B2B contracts."
 permalink: /setup-fee-vs-amortized-calculator
 tool_id: setup-fee-vs-amortized-calculator
 category: saas-pricing-packaging
@@ -142,7 +142,7 @@ faq:
 
 ---
 
-# Setup Fee vs. Amortized Fee Calculator – Onboarding Fee Schedule
+# Setup Fee Vs Amortized Calculator
 
 Compare **immediate Day 1 cash collection** from upfront onboarding fees against **higher Total Contract Value (TCV)** achieved by amortizing fees monthly with a markup premium.
 

@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Dividend Yield on Cost Calculator – Calculate Your YOC
-description: Determine your yield on cost (YOC). Enter your purchase price, current dividend, and shares to see your effective yield based on your original investment.
+title: "Dividend Yield On Cost | Interactive Online Tool"
+description: "Determine your yield on cost (YOC). Enter your purchase price, current dividend, and shares to see your effective yield based on your original investment."
 permalink: /dividend-yield-on-cost-calculator
 tool_id: dividend-yield-on-cost-calculator
 category: growth
@@ -143,7 +143,7 @@ faq:
 
 ---
 
-# Dividend Yield on Cost Calculator – Calculate Your YOC
+# Dividend Yield On Cost Calculator
 
 Calculate your dividend yield on cost (YOC) with our free **Dividend Yield on Cost Calculator**. Enter your purchase price, shares held, and annual dividend to see your effective yield based on your original investment — all without your data leaving your browser.
 

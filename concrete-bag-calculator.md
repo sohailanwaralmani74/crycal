@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Concrete Bag Calculator – 60 lb & 80 lb Pre-Mix Bags & Cost Estimator
-description: Calculate total 60 lb and 80 lb ready-mix concrete bags required for any volume, price per bag, total cost, and waste factor.
+title: "Concrete Bag | Interactive Online Tool"
+description: "Calculate total 60 lb and 80 lb ready-mix concrete bags required for any volume, price per bag, total cost, and waste factor."
 permalink: /concrete-bag-calculator
 tool_id: concrete-bag-calculator
 category: concrete-masonry
@@ -131,7 +131,7 @@ faq:
   - answer: "No. All calculation logic executes locally inside your web browser."
 ---
 
-# Concrete Bag Calculator – 60 lb & 80 lb Pre-Mix Bags & Cost Estimator
+# Concrete Bag Calculator
 
 Calculate exact **60 lb and 80 lb Pre-Mix Concrete Bags** needed for any slab, footing, post hole, or repair job along with total material cost.
 

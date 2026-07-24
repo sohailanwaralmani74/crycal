@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Dollar Cost Averaging Calculator
-description: Calculate the potential returns of a dollar cost averaging (DCA) strategy. Compare DCA vs lump sum investing over time.
+title: "Dollar Cost Averaging | Interactive Online Tool"
+description: "Calculate the potential returns of a dollar cost averaging (DCA) strategy. Compare DCA vs lump sum investing over time."
 permalink: /dollar-cost-averaging-calculator
 tool_id: dollar-cost-averaging
 category: growth
@@ -167,7 +167,7 @@ faq:
 
 ---
 
-# Dollar Cost Averaging Calculator – Compare DCA vs Lump Sum
+# Dollar Cost Averaging Calculator
 
 Use this dollar cost averaging calculator to evaluate the potential returns of a DCA strategy. Enter your monthly investment, time period, expected return, and volatility — the tool shows your final portfolio value, average cost per share, and compares DCA against a lump sum investment. Whether you're a beginner asking 'how do I calculate dollar cost averaging returns?' or an experienced investor looking for a reliable DCA calculator, this tool gives you the data you need.
 

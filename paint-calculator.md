@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Paint Calculator – Wall & Ceiling Paint Gallon Estimator
-description: Calculate paint gallons and quarts needed for walls and ceilings, deducting doors and windows for 1 or 2 coats of coverage.
+title: "Paint | Interactive Online Tool"
+description: "Calculate paint gallons and quarts needed for walls and ceilings, deducting doors and windows for 1 or 2 coats of coverage."
 permalink: /paint-calculator
 tool_id: paint-calculator
 category: drywall-paint
@@ -172,7 +172,7 @@ faq:
     answer: "No. All calculations run strictly inside your browser."
 ---
 
-# Paint Calculator – Wall & Ceiling Paint Gallon Estimator
+# Paint Calculator
 
 Calculate exact **paint gallons, quarts, and total project cost** for your wall and ceiling painting projects using our free **Paint Calculator**.
 

@@ -129,7 +129,7 @@ faq:
     a: "No. All calculations execute locally inside your browser."
 ---
 
-# Blended CAC Calculator
+# Calculate Blended Customer Acquisition Cost (CAC)
 
 Calculate blended customer acquisition cost across paid advertising and organic inbound channels. Use our free **Blended CAC Calculator** to evaluate your SaaS business performance and make data-driven growth decisions — without any data leaving your browser.
 

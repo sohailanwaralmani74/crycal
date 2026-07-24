@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Door Frame Material Calculator – Jamb Width (4-9/16" vs 6-9/16") & Rough Opening
-description: Calculate pre-hung door jamb width, framing rough opening dimensions (RO), casing trim linear feet, and door threshold materials.
+title: "Door Frame Material | Interactive Online Tool"
+description: "Calculate pre-hung door jamb width, framing rough opening dimensions (RO), casing trim linear feet, and door threshold materials."
 permalink: /door-frame-material-calculator
 tool_id: door-frame-material-calculator
 category: windows-doors
@@ -165,7 +165,7 @@ faq:
 
 ---
 
-# Door Frame Material Calculator – Jamb Width (4-9/16" vs 6-9/16") & Rough Opening
+# Door Frame Material Calculator
 
 Calculate exact **pre-hung door jamb widths**, **framing rough opening dimensions (RO)**, and **casing trim linear feet** using our **Door Frame Material Calculator**. Eliminate sizing errors when ordering pre-hung doors for **2x4 framing (4-9/16" jambs)** or **2x6 exterior walls (6-9/16" jambs)**.
 

@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Tire Size Speedometer Error Calculator – Speed Difference & Diameter
-description: Calculate actual vehicle speed versus speedometer reading when changing tire width, aspect ratio, or wheel rim diameter.
+title: "Tire Size Speedometer Error | Interactive Online Tool"
+description: "Calculate actual vehicle speed versus speedometer reading when changing tire width, aspect ratio, or wheel rim diameter."
 permalink: /tire-size-speedometer-error-calculator
 tool_id: tire-size-speedometer-error-calculator
 category: auto-performance-specs

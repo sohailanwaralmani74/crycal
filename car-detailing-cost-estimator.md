@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Car Detailing Cost Estimator – Professional Service Packages
-description: Estimate professional auto detailing costs for sedans, SUVs, trucks, and vans by service package tier, vehicle condition, and add-on treatments.
+title: "Car Detailing Cost Estimator | Interactive Online Tool"
+description: "Estimate professional auto detailing costs for sedans, SUVs, trucks, and vans by service package tier, vehicle condition, and add-on treatments."
 permalink: /car-detailing-cost-estimator
 tool_id: car-detailing-cost-estimator
 category: auto-maintenance-repair
@@ -165,7 +165,7 @@ faq:
 
 ---
 
-# Car Detailing Cost Estimator – Professional Service Packages
+# Car Detailing Cost Estimator Calculator
 
 Estimate professional auto detailing costs for sedans, SUVs, trucks, and vans with our free **Car Detailing Cost Estimator**. Compare service package tiers, vehicle condition surcharges, and specialty add-on treatments.
 

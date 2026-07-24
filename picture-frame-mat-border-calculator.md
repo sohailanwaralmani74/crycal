@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Picture Frame Mat Border Calculator – Frame Size & Mat Window Cut
-description: Calculate picture frame exterior dimensions, custom mat board window opening cuts, mat border width, and artwork overlap allowances.
+title: "Picture Frame Mat Border | Interactive Online Tool"
+description: "Calculate picture frame exterior dimensions, custom mat board window opening cuts, mat border width, and artwork overlap allowances."
 permalink: /picture-frame-mat-border-calculator
 tool_id: picture-frame-mat-border-calculator
 category: home-decor-interior
@@ -139,7 +139,7 @@ faq:
     answer: "No. All calculations run strictly inside your web browser."
 ---
 
-# Picture Frame Mat Border Calculator – Frame Size & Mat Window Cut
+# Picture Frame Mat Border Calculator
 
 Framing artwork, photography, or diplomas requires exact measurements to achieve a gallery-worthy display. Use our **Picture Frame Mat Border Calculator** to calculate exact mat window opening cut dimensions, outer mat board sizes, glass order dimensions, and overall frame exterior footprint.
 

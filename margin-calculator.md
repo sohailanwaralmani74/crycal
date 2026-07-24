@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Margin Calculator – Leverage, Interest & Margin Call Risk
-description: Calculate stock trading margin requirements, leverage ratios, annual margin interest charges, and liquidation margin call prices.
+title: "Margin | Interactive Online Tool"
+description: "Calculate stock trading margin requirements, leverage ratios, annual margin interest charges, and liquidation margin call prices."
 permalink: /margin-calculator
 tool_id: margin-calculator
 category: investing
@@ -139,7 +139,7 @@ faq:
     answer: "No. All calculations run locally inside your web browser. History and saved presets are stored strictly in your browser's local storage."
 ---
 
-# Margin Calculator – Leverage, Interest & Margin Call Risk
+# Margin Calculator
 
 Calculate stock trading margin requirements, leverage ratios, annual margin interest charges, and liquidation margin call prices with our free **Margin Calculator**.
 

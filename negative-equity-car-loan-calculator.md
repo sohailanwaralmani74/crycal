@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Negative Equity Car Loan Calculator – Calculate Upside-Down Trade-in Rollover
-description: Calculate your underwater auto loan gap, total new financed loan balance, and monthly payment increase when rolling over negative equity into a new car loan.
+title: "Negative Equity Car Loan | Interactive Online Tool"
+description: "Free online Negative Equity Car Loan. Calculate car payments, TCO, fuel MPG, and EV charging with instant client-side browser math and charts."
 permalink: /negative-equity-car-loan-calculator
 tool_id: negative-equity-car-loan-calculator
 category: auto-loan-financing

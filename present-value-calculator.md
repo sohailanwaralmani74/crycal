@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Present Value Calculator – Find the Value of Future Money Today
-description: Use the Present Value Calculator to find out how much a future sum of money is worth today, based on a discount rate and time period.
+title: "Present Value | Interactive Online Tool"
+description: "Use the Present Value Calculator to find out how much a future sum of money is worth today, based on a discount rate and time period."
 permalink: /present-value-calculator
 tool_id: present-value-calculator
 category: growth
@@ -110,7 +110,7 @@ faq:
     answer: "No. All calculations run locally in your browser. No data is sent to any server."
 ---
 
-# Calculate the Present Value of Future Money
+# Present Value Calculator
 
 Use the **Present Value Calculator** to find out how much a future sum of money is worth today, based on a discount rate and time period.
 

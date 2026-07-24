@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Refinance Calculator - Plan Your Refinancing
-description: Compare your current mortgage with a refinanced mortgage. See monthly savings, total interest savings, and break-even point.
+title: "Refinance | Interactive Online Tool"
+description: "Compare your current mortgage with a refinanced mortgage. See monthly savings, total interest savings, and break-even point."
 permalink: /refinance-calculator
 tool_id: refinance
 category: mortgage
@@ -187,7 +187,7 @@ faq:
 
 ---
 
-#  Refinance Calculator – Estimate Your Mortgage Refinance Savings
+# Refinance Calculator
 
 Use this refinance mortgage calculator to compare your current mortgage with a refinanced mortgage. Enter your current loan balance, interest rate, remaining term, new rate, new term, and closing costs — the tool shows your monthly payment comparison, total interest savings, and break-even point. Whether you're considering a refinance home loan, a refi mortgage, or just want a refinance estimate, this refinance mortgage payment calculator gives you the numbers you need.
 

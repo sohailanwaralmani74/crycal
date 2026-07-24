@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: 401k Calculator
-description: Estimate your 401k retirement savings with our free 401k calculator. Plan your contributions, employer match, and see your projected growth.
+title: "401K | Interactive Online Tool"
+description: "Estimate your 401k retirement savings with our free 401k calculator. Plan your contributions, employer match, and see your projected growth."
 permalink: /401k-calculator
 tool_id: 401k
 category: retirement
@@ -211,7 +211,7 @@ faq:
 
 ---
 
-# 401k Calculator – Plan Your Retirement Savings
+# 401K Calculator
 
 Use this 401k calculator to estimate how much your 401k account will grow by retirement. Enter your current age, retirement age, current balance, salary, contribution percentage, employer match, expected return, and fees — the tool shows your final balance, total contributions, employer match, and inflation-adjusted value.
 

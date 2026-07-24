@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Kitchen Remodel Cost Calculator – Budget Breakdown Estimator
-description: Calculate total kitchen remodeling costs with precise category splits - Cabinets 30%, Countertops 20%, Appliances 20%, and Labor 30%.
+title: "Kitchen Remodel Cost | Interactive Online Tool"
+description: "Calculate total kitchen remodeling costs with precise category splits - Cabinets 30%, Countertops 20%, Appliances 20%, and Labor 30%."
 permalink: /kitchen-remodel-cost-calculator
 tool_id: kitchen-remodel-cost-calculator
 category: project-cost-planning
@@ -157,7 +157,7 @@ faq:
   - question: "Is my personal data saved when using this calculator?"
 ---
 
-# Kitchen Remodel Cost Calculator – Budget Breakdown Estimator
+# Kitchen Remodel Cost Calculator
 
 Calculate your kitchen remodeling spending across essential categories using the contractor-proven **30/20/20/30 rule**: Cabinets (30%), Countertops & Backsplash (20%), Appliances & Fixtures (20%), and Installation Labor (30%).
 

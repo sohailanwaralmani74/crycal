@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Fuel Tank Fill-Up Cost Calculator – Full & Partial Tank Expense
-description: Calculate the exact cost to fill your gas tank based on total tank size in gallons, current fuel gauge level, fuel grade, and price per gallon.
+title: "Fuel Tank Fill Up Cost | Interactive Online Tool"
+description: "Calculate the exact cost to fill your gas tank based on total tank size in gallons, current fuel gauge level, fuel grade, and price per gallon."
 permalink: /fuel-tank-fill-up-cost-calculator
 tool_id: fuel-tank-fill-up-cost-calculator
 category: auto-fuel-efficiency
@@ -137,7 +137,7 @@ faq:
 
 ---
 
-# Fuel Tank Fill-Up Cost Calculator
+# Fuel Tank Fill Up Cost Calculator
 
 Calculate the total cost to fill your gas tank based on total tank size in gallons, current fuel gauge level, fuel grade, and price per gallon.
 

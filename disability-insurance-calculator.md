@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Disability Insurance Calculator
-description: Estimate how much disability income protection you need. Calculate income replacement, benefit period, and gap coverage.
+title: "Disability Insurance | Interactive Online Tool"
+description: "Estimate how much disability income protection you need. Calculate income replacement, benefit period, and gap coverage."
 permalink: /disability-insurance-calculator
 tool_id: disability-insurance
 category: insurance
@@ -196,7 +196,7 @@ faq:
 
 ---
 
-# Disability Insurance Calculator – Protect Your Income
+# Disability Insurance Calculator
 
 Use this disability insurance calculator to estimate how much income protection you need. Enter your current income, monthly expenses, existing benefits, and coverage period — the tool shows your monthly income gap, total insurance need, and recommended monthly benefit. Whether you're self-employed, relying on employer coverage, or planning for the unexpected, this disability income calculator helps you make an informed decision.
 

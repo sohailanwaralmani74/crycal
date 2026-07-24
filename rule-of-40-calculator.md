@@ -103,7 +103,7 @@ faq:
     a: "No. All calculations run strictly inside your browser."
 ---
 
-# Rule of 40 Calculator
+# Calculate SaaS Rule of 40 Score
 
 Calculate combined YoY revenue growth % + FCF margin % benchmark score for SaaS companies. Use our free **Rule of 40 Calculator** to evaluate your SaaS business performance and make data-driven growth decisions — without any data leaving your browser.
 

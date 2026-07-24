@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Rideshare vs. Own Car Cost Calculator – Uber/Lyft vs Car Ownership
-description: Compare monthly Uber/Lyft rideshare costs against personal car ownership (loan payment, insurance, gas, maintenance, and parking).
+title: "Rideshare Vs Own Car Cost | Interactive Online Tool"
+description: "Compare monthly Uber/Lyft rideshare costs against personal car ownership (loan payment, insurance, gas, maintenance, and parking)."
 permalink: /rideshare-vs-own-car-cost-calculator
 tool_id: rideshare-vs-own-car-cost-calculator
 category: auto-driving-trip-planning
@@ -151,7 +151,7 @@ faq:
 
 ---
 
-# Rideshare vs. Own Car Cost Calculator – Uber/Lyft vs Car Ownership
+# Rideshare Vs Own Car Cost Calculator
 
 Determine whether using Uber/Lyft or owning a personal car makes more financial sense with our free **Rideshare vs. Own Car Cost Calculator**. Compare weekly fares and tipping against car payments, insurance, fuel, and parking.
 

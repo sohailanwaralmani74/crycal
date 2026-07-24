@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: CD Ladder Calculator – Build Your Certificate of Deposit Ladder
-description: Use CD Ladder Calculator to build a CD ladder strategy. Enter target amount, ladder rungs, and CD rates to optimize yield and liquidity.
+title: "Cd Ladder | Interactive Online Tool"
+description: "Use CD Ladder Calculator to build a CD ladder strategy. Enter target amount, ladder rungs, and CD rates to optimize yield and liquidity."
 permalink: /cd-ladder-calculator
 tool_id: cd-ladder-calculator
 category: growth
@@ -166,7 +166,7 @@ faq:
 
 ---
 
-# CD Ladder Calculator – Build Your Certificate of Deposit Ladder
+# Cd Ladder Calculator
 
 Build a certificate of deposit (CD) ladder strategy with our free **CD Ladder Calculator**. Enter your total investment, number of rungs, ladder length, and CD rate to see your maturity schedule, total returns, and optimal allocation — all without your data leaving your browser.
 

@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Zero-Coupon Bond Calculator – Price & Yield Estimator
-description: Use the Zero-Coupon Bond Calculator to find a zero-coupon bond's price given a yield, or its implied yield given a purchase price.
+title: "Zero Coupon Bond | Interactive Online Tool"
+description: "Use the Zero-Coupon Bond Calculator to find a zero-coupon bonds price given a yield, or its implied yield given a purchase price."
 permalink: /zero-coupon-bond-calculator
 tool_id: zero-coupon-bond-calculator
 category: growth
@@ -128,7 +128,7 @@ faq:
     answer: "No. All calculations run locally in your browser. No data is sent to any server."
 ---
 
-# Price and Yield Your Zero-Coupon Bond
+# Zero Coupon Bond Calculator
 
 Use the **Zero-Coupon Bond Calculator** to find a zero-coupon bond's price given a yield, or its implied yield given a purchase price.
 

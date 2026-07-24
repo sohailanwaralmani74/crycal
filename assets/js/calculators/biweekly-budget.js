@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Biweekly Budget Calculator
+   Wanjaaro — Biweekly Budget Calculator
    Tool ID: biweekly-budget
    ALL amounts are biweekly (expenses match pay cycle)
 ═══════════════════════════════════════════════════════════ */

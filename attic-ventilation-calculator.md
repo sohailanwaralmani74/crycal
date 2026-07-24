@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Attic Ventilation Calculator – NFVA 1:150 vs 1:300 Ridge & Soffit Vent Estimator
-description: Calculate attic Net Free Vent Area (NFVA) for building codes (1:150 vs 1:300 ratio), soffit intake vs ridge exhaust vent distribution, and vent unit counts.
+title: "Attic Ventilation | Interactive Online Tool"
+description: "Free online Attic Ventilation. Calculate exact building material counts, unit costs, and coverage with instant browser math and charts."
 permalink: /attic-ventilation-calculator
 tool_id: attic-ventilation-calculator
 category: insulation-hvac
@@ -161,7 +161,7 @@ faq:
     answer: "No. All logic operates locally in your browser."
 ---
 
-# Attic Ventilation Calculator – NFVA 1:150 vs 1:300 Ridge & Soffit Vent Estimator
+# Attic Ventilation Calculator
 
 Determine total Net Free Vent Area (NFVA) in square inches, soffit intake vent counts, and continuous ridge exhaust vent linear feet with our free **Attic Ventilation Calculator**.
 

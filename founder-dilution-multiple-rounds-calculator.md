@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Founder Dilution Calculator – Multi-Round Ownership Retention
-description: Track founder ownership retention percentage and dollar equity value across Seed, Series A, and Series B venture capital funding rounds.
+title: "Founder Dilution Multiple Rounds | Interactive Online Tool"
+description: "Track founder ownership retention percentage and dollar equity value across Seed, Series A, and Series B venture capital funding rounds."
 permalink: /founder-dilution-multiple-rounds-calculator
 tool_id: founder-dilution-multiple-rounds-calculator
 category: saas-fundraising-valuation
@@ -164,7 +164,7 @@ faq:
 
 ---
 
-# Founder Dilution Calculator – Multi-Round Retention
+# Founder Dilution Multiple Rounds Calculator
 
 Track founder equity retention and dollar value across Seed, Series A, and Series B funding rounds with our free **Founder Dilution Calculator**. Model cumulative compounding dilution across successive venture capital rounds.
 

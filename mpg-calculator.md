@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: MPG Calculator – Calculate Actual Miles Per Gallon
-description: Calculate your vehicle's exact miles per gallon (MPG) from odometer readings and fuel tank fill-up gallons, along with fuel cost per mile.
+title: "Mpg | Interactive Online Tool"
+description: "Calculate your vehicles exact miles per gallon (MPG) from odometer readings and fuel tank fill-up gallons, along with fuel cost per mile."
 permalink: /mpg-calculator
 tool_id: mpg-calculator
 category: auto-fuel-efficiency
@@ -132,7 +132,7 @@ faq:
 
 ---
 
-# MPG Calculator
+# Mpg Calculator
 
 Calculate your vehicle's exact miles per gallon (MPG) from odometer readings and gas pump gallons, along with fuel cost per mile.
 

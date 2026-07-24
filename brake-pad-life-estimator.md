@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Brake Pad Life Estimator – Remaining Miles & Thickness Calculation
-description: Estimate remaining miles and months on your brake pads based on current pad thickness in mm, factory new pad thickness, and city vs highway driving habits.
+title: "Brake Pad Life Estimator | Interactive Online Tool"
+description: "Estimate remaining miles and months on your brake pads based on current pad thickness in mm, factory new pad thickness, city vs highway driving habits."
 permalink: /brake-pad-life-estimator
 tool_id: brake-pad-life-estimator
 category: auto-maintenance-repair
@@ -151,7 +151,7 @@ faq:
 
 ---
 
-# Brake Pad Life Estimator – Remaining Miles & Thickness Calculation
+# Brake Pad Life Estimator Calculator
 
 Estimate how many miles and months your brake pads have left before reaching the **3 mm safety replacement limit** with our free **Brake Pad Life Estimator**.
 

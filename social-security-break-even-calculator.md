@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Social Security Break-Even Calculator – When to Claim (62 vs 67 vs 70)
-description: Use our free Social Security Break-Even Calculator to compare claiming ages 62, 67, and 70. See your break-even point and total lifetime benefits.
+title: "Social Security Break Even | Interactive Online Tool"
+description: "Use our free Social Security Break-Even Calculator to compare claiming ages 62, 67, and 70. See your break-even point and total lifetime benefits."
 permalink: /social-security-break-even-calculator
 tool_id: social-security-break-even-calculator
 category: retirement
@@ -144,7 +144,7 @@ faq:
 
 ---
 
-# Social Security Break-Even Calculator – When to Claim (62 vs 67 vs 70)
+# Social Security Break Even Calculator
 
 Compare Social Security claiming ages with our free **Social Security Break-Even Calculator**. Enter your FRA benefit and see your monthly benefits at 62, 67, and 70, plus the break-even age where delaying benefits pays off — all without your data leaving your browser.
 

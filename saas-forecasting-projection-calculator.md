@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: SaaS Revenue Forecasting & Projection Calculator
-description: Project 1 to 3 year ARR growth based on net new MRR acquisition, expansion rates, and monthly churn assumptions.
+title: "Saas Forecasting Projection | Interactive Online Tool"
+description: "Project 1 to 3 year ARR growth based on net new MRR acquisition, expansion rates, and monthly churn assumptions."
 permalink: /saas-forecasting-projection-calculator
 tool_id: saas-forecasting-projection-calculator
 category: saas-revenue-growth-metrics
@@ -142,7 +142,7 @@ faq:
 
 ---
 
-# SaaS Revenue Forecasting & Projection Calculator
+# Saas Forecasting Projection Calculator
 
 Project **1 to 3 Year Annual Recurring Revenue (ARR)** trajectories based on new logo MRR acquisition velocity, account expansion rates, and monthly revenue churn assumptions.
 

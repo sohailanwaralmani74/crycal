@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: SEP IRA Calculator – Maximum Contribution & Tax Savings Estimator
-description: Use the SEP IRA Calculator to estimate your maximum allowed SEP IRA contribution and the tax savings it could generate, based on your self-employment or business income.
+title: "Sep Ira | Interactive Online Tool"
+description: "Use the SEP IRA Calculator to estimate your maximum allowed SEP IRA contribution and the tax savings it could generate, based on your..."
 permalink: /sep-ira-calculator
 tool_id: sep-ira-calculator
 category: retirement
@@ -110,7 +110,7 @@ faq:
     answer: "No. All calculations run locally in your browser. No data is sent to any server."
 ---
 
-# Estimate Your Maximum SEP IRA Contribution
+# Sep Ira Calculator
 
 Use the **SEP IRA Calculator** to estimate your maximum allowed SEP IRA contribution and the tax savings it could generate, based on your self-employment or business income.
 

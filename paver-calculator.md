@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Paver Calculator – Patio & Driveway Paver Count, Sand & Base Stone
-description: Calculate patio and walkway paver counts (4x8, 6x6, 6x9, 12x12), 10% cutting waste, bedding sand yards, gravel base stone tons, and total cost.
+title: "Paver | Interactive Online Tool"
+description: "Calculate patio and walkway paver counts (4x8, 6x6, 6x9, 12x12), 10% cutting waste, bedding sand yards, gravel base stone tons, and total cost."
 permalink: /paver-calculator
 tool_id: paver-calculator
 category: landscaping-outdoor
@@ -169,7 +169,7 @@ faq:
     answer: "No. All calculations run locally in your web browser."
 ---
 
-# Paver Calculator – Patio & Driveway Paver Count, Sand & Base Stone
+# Paver Calculator
 
 Calculate exact material requirements for building a durable hardscape patio, walkway, or driveway using our **Paver Calculator**. Determine **paver unit counts**, **bedding sand cubic yards**, **gravel base stone tons**, and total material expenditure.
 

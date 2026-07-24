@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Runway Calculator – Cash Runway Survival Months
-description: Calculate your startup's cash runway survival months based on cash balance, monthly revenue, expenses, and projected growth rate.
+title: "Runway | Interactive Online Tool"
+description: "Calculate your startups cash runway survival months based on cash balance, monthly revenue, expenses, and projected growth rate."
 permalink: /runway-calculator
 tool_id: runway-calculator
 category: saas-fundraising-valuation
@@ -134,7 +134,7 @@ faq:
 
 ---
 
-# Runway Calculator – Cash Runway Survival Months
+# Runway Calculator
 
 Calculate your startup's cash runway survival months with our free **Runway Calculator**. Project how many months your company can operate based on current cash balance, monthly revenue, gross expenses, and revenue growth.
 

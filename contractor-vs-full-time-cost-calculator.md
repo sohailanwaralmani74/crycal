@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Contractor vs Full-Time Cost Calculator – Hiring Strategy Engine
-description: Compare 1099 hourly contractor expenses against full-time employee salary, benefits, payroll taxes, and overhead expenses.
+title: "Contractor Vs Full Time Cost | Interactive Online Tool"
+description: "Compare 1099 hourly contractor expenses against full-time employee salary, benefits, payroll taxes, and overhead expenses."
 permalink: /contractor-vs-full-time-cost-calculator
 tool_id: contractor-vs-full-time-cost-calculator
 category: saas-team-operations
@@ -141,7 +141,7 @@ faq:
     answer: "Choose full-time for core strategic intellectual property (IP) roles, and contractors for non-core, specialized, or variable-workload projects."
 ---
 
-# Contractor vs Full-Time Cost Calculator – Hiring Strategy Engine
+# Contractor Vs Full Time Cost Calculator
 
 Make informed workforce decisions with our **Contractor vs Full-Time Cost Calculator**. Compare 1099 contractor invoices against fully-loaded W-2 employee compensation.
 

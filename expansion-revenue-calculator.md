@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Expansion Revenue Calculator – SaaS Expansion MRR
-description: Calculate expansion MRR from seat add-ons, plan tier upgrades, cross-sells, and usage overages. Measure your SaaS expansion rate.
+title: "Expansion Revenue | Interactive Online Tool"
+description: "Calculate expansion MRR from seat add-ons, plan tier upgrades, cross-sells, and usage overages. Measure your SaaS expansion rate."
 permalink: /expansion-revenue-calculator
 tool_id: expansion-revenue-calculator
 category: saas-revenue-growth-metrics

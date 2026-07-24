@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Customer Churn Rate Calculator
+   Wanjaaro — Customer Churn Rate Calculator
    Tool ID: customer-churn-rate-calculator
 ═══════════════════════════════════════════════════════════ */
 

@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Credit Score Simulator – See How Your Actions Affect Your Credit
-description: Simulate your credit score with our free Credit Score Simulator. Adjust payment history, credit utilization, credit age, and more.
+title: "Credit Score Simulator | Interactive Online Tool"
+description: "Simulate your credit score with our free Credit Score Simulator. Adjust payment history, credit utilization, credit age, and more."
 permalink: /credit-score-simulator
 tool_id: credit-score-simulator
 category: budgeting
@@ -176,7 +176,7 @@ faq:
 
 ---
 
-# Credit Score Simulator – See How Your Actions Affect Your Credit
+# Credit Score Simulator Calculator
 
 Use this credit score simulator to understand how different financial actions affect your credit score. Adjust your payment history, credit utilization, credit age, inquiries, and account mix — the tool shows real-time impact on your simulated score with multiple charts. This credit score impact simulator helps you make smarter financial decisions.
 

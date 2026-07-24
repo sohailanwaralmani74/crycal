@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Time-to-Churn Estimator – Average Customer Lifetime Duration
-description: Estimate average customer lifetime duration in months and years before cancellation based on monthly customer churn rate %.
+title: "Time To Churn Estimator | Interactive Online Tool"
+description: "Estimate average customer lifetime duration in months and years before cancellation based on monthly customer churn rate %."
 permalink: /time-to-churn-estimator
 tool_id: time-to-churn-estimator
 category: saas-churn-retention
@@ -119,7 +119,7 @@ faq:
 
 ---
 
-# Time-to-Churn Estimator
+# Time To Churn Estimator Calculator
 
 Calculate average customer lifetime duration in **months** and **years** before cancellation based on your monthly customer churn rate (%), and compute **Customer Lifetime Value (LTV)**.
 

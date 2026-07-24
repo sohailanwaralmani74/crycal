@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Mortgage Recasting Calculator – Recast Mortgage Payment Estimator
-description: Use our free Mortgage Recasting Calculator to see how a lump‑sum payment reduces your monthly mortgage payment. Compare current vs recast payments instantly.
+title: "Mortgage Recasting | Interactive Online Tool"
+description: "Free online Mortgage Recasting. Calculate loan payments, interest growth, taxes, and financial metrics with instant browser math and charts."
 permalink: /mortgage-recasting-calculator
 tool_id: mortgage-recasting-calculator
 category: mortgage
@@ -175,7 +175,7 @@ faq:
 
 ---
 
-# Mortgage Recasting Calculator – Recast Mortgage Payment Estimator
+# Mortgage Recasting Calculator
 
 Use our free **Mortgage Recasting Calculator** to see how a lump‑sum payment reduces your monthly mortgage payment. Compare current vs recast payments instantly — all without your data leaving your browser.
 

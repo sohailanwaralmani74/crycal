@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Take-Home Pay Calculator
-description: Calculate your net take-home pay after taxes and deductions. Enter gross salary, income tax rate, social security, pension, and other deductions.
+title: "Take Home Pay | Interactive Online Tool"
+description: "Calculate your net take-home pay after taxes and deductions. Enter gross salary, income tax rate, social security, pension, and other deductions."
 permalink: /take-home-pay-calculator
 tool_id: take-home-pay
 category: tax
@@ -186,7 +186,7 @@ faq:
 
 ---
 
-# Take-Home Pay Calculator – Calculate Your Net Pay
+# Take Home Pay Calculator
 
 Use this take-home pay calculator to calculate your net pay after taxes and deductions. Enter your gross salary, income tax rate, social security, medicare, pension, and other deductions — the tool works for any country. This net pay calculator gives you an accurate picture of your take-home income.
 

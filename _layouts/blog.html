@@ -96,7 +96,7 @@ layout: default
 
 <!-- TWO COLUMNS -->
 <div class="blog-wrap">
-
+<h1>{{ page.h1 | default: page.title }}</h1>
   <!-- LEFT: TOC with its own scroll -->
   <aside class="toc-col">
     <h4>📖 Contents</h4>
@@ -106,7 +106,6 @@ layout: default
   <!-- RIGHT: blog content -->
   <main class="content-col">
 
-    <h1>{{ page.h1 | default: page.title }}</h1>
 
     <div class="post-meta">
       <span>{{ page.date | date: "%B %d, %Y" }}</span>

@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Revenue Run Rate Calculator
+   Wanjaaro — Revenue Run Rate Calculator
    Tool ID: revenue-run-rate-calculator
 ═══════════════════════════════════════════════════════════ */
 

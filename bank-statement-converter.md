@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Bank Statement Converter – Convert CSV, MT940, QBO, QFX, QIF & More
+title: "Bank Statement Converter — Convert CSV, QBO, QFX & MT940"
 description: Convert bank statements between CSV, MT940, MT942, QBO, QFX, QIF, and Excel formats. Free online converters for financial data.
 is_homepage: true
 permalink: /bank-statement-converter

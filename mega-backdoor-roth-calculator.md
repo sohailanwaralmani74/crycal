@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Mega Backdoor Roth Calculator – Maximize After-Tax 401(k) Contributions
-description: Use the Mega Backdoor Roth Calculator to find out how much extra after-tax 401(k) contribution room you have available to convert to a Roth account.
+title: "Mega Backdoor Roth | Interactive Online Tool"
+description: "Use the Mega Backdoor Roth Calculator to find out how much extra after-tax 401(k) contribution room you have available to convert to a Roth account."
 permalink: /mega-backdoor-roth-calculator
 tool_id: mega-backdoor-roth-calculator
 category: retirement
@@ -129,7 +129,7 @@ faq:
     answer: "No. All calculations run locally in your browser. No data is sent to any server."
 ---
 
-# Estimate Your Mega Backdoor Roth Contribution Room
+# Mega Backdoor Roth Calculator
 
 Use the **Mega Backdoor Roth Calculator** to find out how much extra after-tax 401(k) contribution room you have available to convert to a Roth account.
 

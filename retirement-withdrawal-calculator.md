@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Retirement Withdrawal Calculator
-description: With Retirement Withdrawal Calculator, Calculate how long your retirement savings will last. Plan sustainable withdrawals and optimize your retirement income.
+title: "Retirement Withdrawal | Interactive Online Tool"
+description: "Free online Retirement Withdrawal. Calculate loan payments, interest growth, taxes, and financial metrics with instant browser math and charts."
 permalink: /retirement-withdrawal-calculator
 tool_id: retirement-withdrawal
 category: retirement
@@ -187,7 +187,7 @@ faq:
 
 ---
 
-# Retirement Withdrawal Calculator – Plan Your Retirement Income
+# Retirement Withdrawal Calculator
 
 Use this retirement withdrawal calculator to see how long your retirement savings will last. Enter your retirement savings, annual withdrawal amount, expected return, and inflation rate — the tool shows your runway, sustainable withdrawal rate, and total withdrawals. Whether you're already retired or planning ahead, this retirement income calculator helps you find a sustainable withdrawal strategy.
 

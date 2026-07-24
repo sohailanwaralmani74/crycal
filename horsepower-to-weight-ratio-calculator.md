@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Horsepower-to-Weight Ratio Calculator – Performance Tier Analysis
-description: Calculate your vehicle's power-to-weight ratio in horsepower per US ton (hp/ton), pounds per hp (lbs/hp), and kW/tonne, and discover your performance classification tier.
+title: "Horsepower To Weight Ratio | Interactive Online Tool"
+description: "Calculate your vehicles power-to-weight ratio in horsepower per US ton (hp/ton), pounds per hp (lbs/hp), and kW/tonne, and discover your..."
 permalink: /horsepower-to-weight-ratio-calculator
 tool_id: horsepower-to-weight-ratio-calculator
 category: auto-performance-specs
@@ -118,7 +118,7 @@ faq:
 
 ---
 
-# Horsepower-to-Weight Ratio Calculator
+# Horsepower To Weight Ratio Calculator
 
 Calculate your vehicle's power-to-weight ratio in **horsepower per US ton (hp/ton)**, **pounds per horsepower (lbs/hp)**, and **kilowatts per metric tonne (kW/tonne)**.
 

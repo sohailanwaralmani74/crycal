@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Retirement Calculator
-description: Plan your retirement savings with our free retirement calculator. Estimate how much you need to save, project your retirement income.
+title: "Retirement | Interactive Online Tool"
+description: "Plan your retirement savings with our free retirement calculator. Estimate how much you need to save, project your retirement income."
 permalink: /retirement-calculator
 tool_id: retirement
 category: retirement
@@ -191,7 +191,7 @@ faq:
 
 ---
 
-# Retirement Calculator – Plan Your Retirement Savings
+# Retirement Calculator
 
 Use this retirement calculator to plan your retirement savings and see if you're on track. Enter your current age, retirement age, current savings, monthly contributions, expected return, and inflation rate — the tool projects your savings at retirement, estimates your sustainable annual income, and shows your income gap.
 

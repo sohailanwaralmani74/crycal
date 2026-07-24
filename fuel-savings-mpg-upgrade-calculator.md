@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Fuel Savings MPG Upgrade Calculator – Calculate Dollar Savings
-description: Calculate annual and 5-year dollar savings and gallons saved when upgrading from your current vehicle's MPG to a higher MPG vehicle.
+title: "Fuel Savings Mpg Upgrade | Interactive Online Tool"
+description: "Calculate annual and 5-year dollar savings and gallons saved when upgrading from your current vehicles MPG to a higher MPG vehicle."
 permalink: /fuel-savings-mpg-upgrade-calculator
 tool_id: fuel-savings-mpg-upgrade-calculator
 category: auto-fuel-efficiency
@@ -136,7 +136,7 @@ faq:
 
 ---
 
-# Fuel Savings MPG Upgrade Calculator
+# Fuel Savings Mpg Upgrade Calculator
 
 Calculate annual dollar savings, gallons of gas saved, and 5-year financial returns when upgrading to a vehicle with higher fuel efficiency.
 

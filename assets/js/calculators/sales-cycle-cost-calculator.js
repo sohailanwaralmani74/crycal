@@ -1,69 +1,154 @@
+/* ═══════════════════════════════════════════════════════════
+   Wanjaaro — Sales Cycle Cost Calculator
+   Tool ID: sales-cycle-cost-calculator
+═══════════════════════════════════════════════════════════ */
+
 (function() {
-    let chart;
-    window.updateTool = function() {
-        const length = parseFloat(document.getElementById('input_cycle_length').value) || 0;
-        const ae = parseFloat(document.getElementById('input_ae_cost').value) || 0;
-        const sdr = parseFloat(document.getElementById('input_sdr_cost').value) || 0;
-        
-        const total = length * (ae + sdr);
-        const monthly = (total / length) * 30;
+  var chartInstance = null;
+  var currentTab = 'breakdown';
 
-        document.getElementById('output_total_cost').innerText = '$' + total.toFixed(2);
-        document.getElementById('output_monthly_run_rate').innerText = '$' + monthly.toFixed(2);
+  function formatCurrency(amount) {
+    var code = (typeof getGlobalCurrency === 'function' ? getGlobalCurrency() : 'USD') || 'USD';
+    try {
+      return new Intl.NumberFormat('en-US', {
+        style: 'currency',
+        currency: code,
+        maximumFractionDigits: 0
+      }).format(amount);
+    } catch (e) {
+      return '$' + amount.toFixed(0);
+    }
+  }
 
-        updateChart(length * ae, length * sdr);
-        window.logHistory({
-            cycle_length: length,
-            ae_cost: ae,
-            total_cost: '$' + total.toFixed(2)
-        });
+  function setOutputText(id, text) {
+    var el = document.getElementById(id) || document.getElementById('output_' + id);
+    if (el) {
+      if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
+        el.value = text;
+      } else {
+        var numEl = el.querySelector('.output-number');
+        if (numEl) numEl.textContent = text;
+        else el.textContent = text;
+      }
+    }
+  }
+
+  function getInputs() {
+    return {
+      length: parseFloat(document.getElementById('input_cycle_length')?.value) || 0,
+      aeCost: parseFloat(document.getElementById('input_ae_cost')?.value) || 0,
+      sdrCost: parseFloat(document.getElementById('input_sdr_cost')?.value) || 0
     };
+  }
 
-    function updateChart(aeTotal, sdrTotal) {
-        const ctx = document.getElementById('chart_costChart');
-        if (!ctx) return;
-        const activeTab = document.querySelector('.chart-tab.active')?.dataset.tab || 'breakdown';
-        
-        if (chart) chart.destroy();
-        
-        if (activeTab === 'breakdown') {
-            chart = new Chart(ctx, {
-                type: 'doughnut',
-                data: {
-                    labels: ['AE Cost', 'SDR Cost'],
-                    datasets: [{
-                        data: [aeTotal, sdrTotal],
-                        backgroundColor: ['#10b981', '#f59e0b']
-                    }]
-                }
-            });
-        } else {
-            chart = new Chart(ctx, {
-                type: 'bar',
-                data: {
-                    labels: ['Costs'],
-                    datasets: [
-                        { label: 'AE Total', data: [aeTotal], backgroundColor: '#10b981' },
-                        { label: 'SDR Total', data: [sdrTotal], backgroundColor: '#f59e0b' }
-                    ]
-                }
-            });
-        }
+  function updateTool() {
+    var inputs = getInputs();
+    var length = inputs.length;
+    var ae = inputs.aeCost;
+    var sdr = inputs.sdrCost;
+
+    var totalCost = length * (ae + sdr);
+    var monthlyRunRate = length > 0 ? (totalCost / length) * 30 : 0;
+
+    setOutputText('total_cost', formatCurrency(totalCost));
+    setOutputText('output_total_cost', formatCurrency(totalCost));
+    setOutputText('monthly_run_rate', formatCurrency(monthlyRunRate));
+    setOutputText('output_monthly_run_rate', formatCurrency(monthlyRunRate));
+
+    updateCharts({
+      length: length,
+      aeTotal: length * ae,
+      sdrTotal: length * sdr,
+      totalCost: totalCost
+    });
+
+    if (typeof window.logHistory === 'function') {
+      window.logHistory({
+        cycleLengthDays: length,
+        aeDailyCost: ae,
+        sdrDailyCost: sdr,
+        totalCost: formatCurrency(totalCost)
+      });
+    }
+  }
+
+  function updateCharts(data) {
+    var canvas = document.getElementById('chartCanvas');
+    if (!canvas) return;
+    var ctx = canvas.getContext('2d');
+
+    if (chartInstance) {
+      chartInstance.destroy();
+      chartInstance = null;
     }
 
-    window.switchChartTab = function(tabId) {
-        document.querySelectorAll('.chart-tab').forEach(t => t.classList.remove('active'));
-        document.querySelector(`[data-tab="${tabId}"]`).classList.add('active');
-        window.updateTool();
-    };
+    if (currentTab === 'bar' || currentTab === 'comparison') {
+      chartInstance = new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: ['AE Total Cost', 'SDR Total Cost'],
+          datasets: [{
+            label: 'Cost ($)',
+            data: [data.aeTotal, data.sdrTotal],
+            backgroundColor: ['#10b981', '#f59e0b']
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          scales: { y: { beginAtZero: true } }
+        }
+      });
+    } else {
+      chartInstance = new Chart(ctx, {
+        type: 'doughnut',
+        data: {
+          labels: ['AE Total Cost', 'SDR Total Cost'],
+          datasets: [{
+            data: [data.aeTotal, data.sdrTotal],
+            backgroundColor: ['#10b981', '#f59e0b']
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false
+        }
+      });
+    }
+  }
 
-    window.resetTool = function() {
-        document.getElementById('input_cycle_length').value = '90';
-        document.getElementById('input_ae_cost').value = '500';
-        document.getElementById('input_sdr_cost').value = '200';
-        window.switchChartTab('breakdown');
-        window.updateTool();
-    };
+  function switchChartTab(tabId) {
+    currentTab = tabId;
+    document.querySelectorAll('.chart-tab').forEach(function(t) {
+      if ((t.dataset && t.dataset.tab === tabId) || (t.getAttribute('onclick') && t.getAttribute('onclick').indexOf(tabId) !== -1)) {
+        t.classList.add('active');
+      } else {
+        t.classList.remove('active');
+      }
+    });
+    updateTool();
+  }
 
-    setTimeout(window.updateTool, 100);
+  function resetTool() {
+    var l = document.getElementById('input_cycle_length');
+    var a = document.getElementById('input_ae_cost');
+    var s = document.getElementById('input_sdr_cost');
+    if (l) l.value = '90';
+    if (a) a.value = '500';
+    if (s) s.value = '200';
+    updateTool();
+  }
+
+  window.updateTool = updateTool;
+  window.resetTool = resetTool;
+  window.switchChartTab = switchChartTab;
+
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('#inputsArea input, #inputsArea select, input[id^="input_"]').forEach(function(el) {
+      el.addEventListener('input', updateTool);
+      el.addEventListener('change', updateTool);
+    });
+    updateTool();
+  });
+  setTimeout(updateTool, 100);
 })();

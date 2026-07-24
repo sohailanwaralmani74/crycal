@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Concrete Slab Cost Calculator – Material & Labor Cost Estimator
-description: Calculate total cost, cost per square foot, material cost, and contractor labor for concrete slabs, patios, driveways, and foundations.
+title: "Concrete Slab Cost | Interactive Online Tool"
+description: "Calculate total cost, cost per square foot, material cost, and contractor labor for concrete slabs, patios, driveways, and foundations."
 permalink: /concrete-slab-cost-calculator
 tool_id: concrete-slab-cost-calculator
 category: concrete-masonry
@@ -127,7 +127,7 @@ faq:
     answer: "No. All calculations run locally in your web browser."
 ---
 
-# Concrete Slab Cost Calculator – Material & Labor Cost Estimator
+# Concrete Slab Cost Calculator
 
 Calculate total installed project cost, **Cost Per Square Foot**, concrete material expenses, and contractor labor fees with our free **Concrete Slab Cost Calculator**.
 

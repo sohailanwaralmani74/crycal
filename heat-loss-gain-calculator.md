@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Heat Loss & Heat Gain Calculator – Building Thermal Envelope BTU Load
-description: Calculate building thermal envelope BTU heat loss for heating capacity (kW/MBH) and solar/conductive heat gain for cooling load (tons).
+title: "Heat Loss Gain | Interactive Online Tool"
+description: "Calculate building thermal envelope BTU heat loss for heating capacity (kW/MBH) and solar/conductive heat gain for cooling load (tons)."
 permalink: /heat-loss-gain-calculator
 tool_id: heat-loss-gain-calculator
 category: insulation-hvac
@@ -194,7 +194,7 @@ faq:
     answer: "No. All calculation logic runs locally in your browser."
 ---
 
-# Heat Loss & Heat Gain Calculator – Building Thermal Envelope BTU Load
+# Heat Loss Gain Calculator
 
 Calculate building envelope heat loss in BTU/hr, furnace kW/MBH output requirements, and summer heat gain cooling tons with our free **Heat Loss & Heat Gain Calculator**.
 

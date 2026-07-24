@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Room Square Footage Calculator – L-Shaped & Multi-Room Layouts
-description: Calculate total floor square footage for rectangular, L-shaped, or multi-room layouts, square yards, waste margins, and total flooring cost.
+title: "Room Square Footage | Interactive Online Tool"
+description: "Calculate total floor square footage for rectangular, L-shaped, or multi-room layouts, square yards, waste margins, and total flooring cost."
 permalink: /room-square-footage-calculator
 tool_id: room-square-footage-calculator
 category: home-decor-interior
@@ -164,7 +164,7 @@ faq:
     answer: "No. All calculations run strictly inside your web browser."
 ---
 
-# Room Square Footage Calculator – L-Shaped & Multi-Room Layouts
+# Room Square Footage Calculator
 
 Accurately measuring room square footage is essential when purchasing carpet, hardwood flooring, tile, paint, or HVAC systems. Use our **Room Square Footage Calculator** to calculate floor areas for standard rectangular rooms, complex L-shaped spaces, connected hallway alcoves, and closets.
 

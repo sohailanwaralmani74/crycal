@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Outdoor Lighting Spacing Calculator – Landscape Path Lights & Transformer
-description: Calculate landscape path light fixture counts, spotlight accent counts, low-voltage wire run gauge (14/2 vs 12/2), and transformer wattage capacity.
+title: "Outdoor Lighting Spacing | Interactive Online Tool"
+description: "Calculate landscape path light fixture counts, spotlight accent counts, low-voltage wire run gauge (14/2 vs 12/2), and transformer wattage capacity."
 permalink: /outdoor-lighting-spacing-calculator
 tool_id: outdoor-lighting-spacing-calculator
 category: landscaping-outdoor
@@ -172,7 +172,7 @@ faq:
     answer: "No. All calculation formulas run locally in your web browser."
 ---
 
-# Outdoor Lighting Spacing Calculator – Landscape Path Lights & Transformer
+# Outdoor Lighting Spacing Calculator
 
 Determine path light fixture counts, spotlight wattage, wire run gauge (14/2 vs 12/2), and low-voltage transformer capacity with our free **Outdoor Lighting Spacing Calculator**.
 

@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Retaining Wall Block Calculator – Blocks, Capstones & Gravel
-description: Calculate retaining wall block count by length and height, top capstones, gravel drainage backfill cubic yards, and total project cost.
+title: "Retaining Wall Block | Interactive Online Tool"
+description: "Calculate retaining wall block count by length and height, top capstones, gravel drainage backfill cubic yards, and total project cost."
 permalink: /retaining-wall-block-calculator
 tool_id: retaining-wall-block-calculator
 category: landscaping-outdoor
@@ -155,7 +155,7 @@ faq:
     answer: "No. All calculations run locally in your web browser."
 ---
 
-# Retaining Wall Block Calculator – Blocks, Capstones & Gravel
+# Retaining Wall Block Calculator
 
 Determine exact material requirements for segmental concrete block retaining walls with our **Retaining Wall Block Calculator**. Calculate **interlocking wall blocks**, **top capstones**, **gravel drainage backfill**, and total project costs.
 

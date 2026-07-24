@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Window Blinds & Treatment Calculator – Inside vs Outside Mount Dimensions
-description: Calculate inside mount vs outside mount blind ordering dimensions, slat count, square footage, and custom window blind costs.
+title: "Window Blinds Treatment | Interactive Online Tool"
+description: "Calculate inside mount vs outside mount blind ordering dimensions, slat count, square footage, and custom window blind costs."
 permalink: /window-blinds-treatment-calculator
 tool_id: window-blinds-treatment-calculator
 category: home-decor-interior
@@ -160,7 +160,7 @@ faq:
     answer: "No. All calculations run strictly inside your web browser."
 ---
 
-# Window Blinds & Treatment Calculator – Inside vs Outside Mount Dimensions
+# Window Blinds Treatment Calculator
 
 Measuring windows correctly for custom blinds, shades, or shutters ensures flawless operation and light control. Use our **Window Blinds & Treatment Calculator** to calculate exact inside mount vs. outside mount ordering dimensions, horizontal slat counts, total square footage, and custom treatment costs.
 

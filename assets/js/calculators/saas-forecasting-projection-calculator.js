@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — SaaS Revenue Forecasting & Projection Calculator
+   Wanjaaro — SaaS Revenue Forecasting & Projection Calculator
    Tool ID: saas-forecasting-projection-calculator
 ═══════════════════════════════════════════════════════════ */
 

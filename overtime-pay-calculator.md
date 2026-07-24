@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Overtime Pay Calculator
-description: Calculate regular pay, overtime pay, and double-time pay from your hourly rate and hours worked. Fully editable thresholds and multipliers.
+title: "Overtime Pay | Interactive Online Tool"
+description: "Calculate regular pay, overtime pay, and double-time pay from your hourly rate and hours worked. Fully editable thresholds and multipliers."
 permalink: /overtime-pay-calculator
 tool_id: overtime-pay
 category: tax
@@ -140,7 +140,7 @@ Calculate exactly how much you earn when you work beyond your regular hours. Ent
 
 <!-- more -->
 
-## How to Use This Tool
+## How to Use the Overtime Pay Calculator
 
 1. Select your **account currency** from the picker in the site header.
 2. Enter your **hourly rate** and the **hours worked** this pay period.
@@ -159,7 +159,7 @@ The **Annual Projection** output is a simple extrapolation — it assumes the ex
 
 ---
 
-## Frequently Asked Questions
+## Overtime Pay Calculator FAQ
 
 ### How is overtime pay calculated?
 Hours up to your regular threshold are paid at your normal hourly rate. Hours beyond that threshold are paid at your overtime multiplier (commonly 1.5x, known as time-and-a-half), and if you set a double-time threshold, hours beyond that are paid at your double-time multiplier instead.

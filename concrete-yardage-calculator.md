@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Concrete Yardage Calculator – Calculate Cubic Yards & Bag Count
-description: Calculate cubic yards, cubic feet, and 60lb / 80lb bag counts for concrete slabs, footings, and walls with custom waste overage.
+title: "Concrete Yardage | Interactive Online Tool"
+description: "Calculate cubic yards, cubic feet, and 60lb / 80lb bag counts for concrete slabs, footings, and walls with custom waste overage."
 permalink: /concrete-yardage-calculator
 tool_id: concrete-yardage-calculator
 category: concrete-masonry
@@ -130,7 +130,7 @@ faq:
     answer: "No. All calculation logic executes locally in your browser."
 ---
 
-# Concrete Yardage Calculator – Calculate Cubic Yards & Bag Count
+# Concrete Yardage Calculator
 
 Calculate total **Cubic Yards**, **Cubic Feet**, and **60 lb / 80 lb Pre-Mix Concrete Bags** needed for slabs, footings, and patio pads with our free calculator.
 

@@ -138,7 +138,7 @@ faq:
     a: "No. All calculations run strictly in your browser."
 ---
 
-# Channel Payback Period Calculator
+# Calculate Channel Payback Period
 
 Compare CAC payback months across Google Ads, LinkedIn Ads, SEO Content, and Outbound Sales channels. Use our free **Channel Payback Period Calculator** to evaluate your SaaS business performance and make data-driven growth decisions — without any data leaving your browser.
 

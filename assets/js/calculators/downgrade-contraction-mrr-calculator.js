@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Downgrade & Contraction MRR Calculator
+   Wanjaaro — Downgrade & Contraction MRR Calculator
    Tool ID: downgrade-contraction-mrr-calculator
 ═══════════════════════════════════════════════════════════ */
 

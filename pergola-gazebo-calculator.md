@@ -1,131 +1,103 @@
 ---
 layout: tool
-title: Pergola & Gazebo Calculator – Lumber, Posts, Beams & Hardware
-description: Calculate support posts, double carrying beams, roof rafters, shade slats, post concrete bags, and material cost for custom pergolas and gazebos.
+title: "Pergola & Gazebo Framing Lumber Calculator"
+description: "Calculate post, beam, rafter, and purlin lumber requirements for outdoor pergolas and gazebos including hardware and total private browser costs."
 permalink: /pergola-gazebo-calculator
 tool_id: pergola-gazebo-calculator
 category: lumber-framing
 hide_sidebar: true
 
 inputs:
-  - id: structureLength
-    label: Pergola Length / Beam Span (Feet)
+  - id: pergolaLength
+    label: Pergola Length (Feet)
+    type: number
+    default: 16
+    step: 1
+    min: 4
+    placeholder: "e.g., 16"
+
+  - id: pergolaWidth
+    label: Pergola Width (Feet)
     type: number
     default: 12
     step: 1
-    min: 6
-    max: 30
+    min: 4
     placeholder: "e.g., 12"
 
-  - id: structureWidth
-    label: Pergola Width / Rafter Projection (Feet)
+  - id: postHeight
+    label: Corner Post Height (Feet)
     type: number
-    default: 12
+    default: 9
     step: 1
-    min: 6
-    max: 30
-    placeholder: "e.g., 12"
-
-  - id: postSize
-    label: Support Post Dimension
-    type: select
-    default: "6x6"
-    options:
-      - value: "4x4"
-        label: "4x4 Pressure Treated / Cedar (Up to 10x10 pergolas)"
-      - value: "6x6"
-        label: "6x6 Heavy Beam Posts (Recommended for structural stability)"
-
-  - id: beamSize
-    label: Main Carrying Beam Specification
-    type: select
-    default: "double_2x10"
-    options:
-      - value: "double_2x8"
-        label: "Double 2x8 Beams"
-      - value: "double_2x10"
-        label: "Double 2x10 Beams (Standard 12ft-16ft spans)"
-      - value: "double_2x12"
-        label: "Double 2x12 Heavy Timber Beams"
+    min: 7
+    max: 14
+    placeholder: "e.g., 9"
 
   - id: rafterSpacing
-    label: Roof Rafter Spacing (On Center)
+    label: Rafter Spacing On-Center (Inches)
     type: select
     default: "16"
     options:
-      - value: "12"
-        label: "12\" o.c. (Dense Rafter Grid)"
       - value: "16"
-        label: "16\" o.c. (Standard Code Spacing)"
+        label: "16 Inches On-Center (Dense Shade)"
       - value: "24"
-        label: "24\" o.c. (Wide Rafter Spacing)"
+        label: "24 Inches On-Center (Standard Open Air)"
 
-  - id: slatSpacing
-    label: Top Shade Slat / Purlin Spacing (On Center)
+  - id: lumberType
+    label: Lumber Material Grade
     type: select
-    default: "6"
+    default: "pressure-treated"
     options:
-      - value: "4"
-        label: "4\" o.c. (75% Sun Shade Coverage)"
-      - value: "6"
-        label: "6\" o.c. (50% Sun Shade Coverage)"
-      - value: "12"
-        label: "12\" o.c. (Light Filter Shade)"
+      - value: "pressure-treated"
+        label: "Pressure-Treated Pine (Economical & Durable)"
+      - value: "cedar"
+        label: "Western Red Cedar (Naturally Weather-Resistant)"
+      - value: "redwood"
+        label: "California Redwood (Premium Hardwood Aesthetic)"
 
-  - id: pricePerPost
-    label: Cost per Post 
+  - id: lumberCostPerSqFt
+    label: Estimated Material Cost ($ / Sq Ft)
     type: number
-    default: 45.00
-    step: 5.00
-    min: 0
+    default: 18.50
+    step: 1.00
+    min: 5
     prefix: '$'
-    placeholder: "e.g., 45.00"
-
-  - id: pricePerBoardFt
-    label: Average Board Cost per Linear Foot 
-    type: number
-    default: 3.50
-    step: 0.25
-    min: 0
-    prefix: '$'
-    placeholder: "e.g., 3.50"
+    placeholder: "e.g., 18.50"
 
 outputs:
-  - id: totalPosts
-    label: Support Posts Needed
-  - id: mainBeams
-    label: Main Carrying Beams (Count & Length)
+  - id: totalSquareFootage
+    label: Total Pergola Footprint (Sq Ft)
+  - id: postsNeeded
+    label: 6x6 Support Posts Needed
+  - id: beamsNeeded
+    label: 2x10 Support Beams Needed
   - id: raftersNeeded
-    label: Roof Rafter Joists Needed
-  - id: shadeSlats
-    label: Top Shade Slats / Purlins
-  - id: postConcreteBags
-    label: 80 lb Concrete Bags for Footings
-  - id: totalCost
-    label: Estimated Material Cost
+    label: 2x8 Rafter Members Needed
+  - id: totalEstimatedCost
+    label: Total Framing & Hardware Cost
 
 charts:
   tabs:
-    - id: lumberBreakdown
-      label: Structural Lumber Count
+    - id: lumberComponentBreakdown
+      label: Posts vs Beams vs Rafters
     - id: costDistribution
-      label: Material Cost Breakdown 
+      label: Lumber Material Cost Allocation
 
 history_columns:
-  - key: structureLength
-    label: Dimensions (L x W)
+  - key: pergolaLength
+    label: Length (ft)
     source: input
-  - key: postSize
-    label: Post Size
+  - key: pergolaWidth
+    label: Width (ft)
     source: input
-  - key: totalPosts
-    label: Posts
+  - key: totalSquareFootage
+    label: Area (sq ft)
     source: output
   - key: raftersNeeded
     label: Rafters
     source: output
-  - key: totalCost
-    label: Total Cost 
+  - key: totalEstimatedCost
+    label: Total Cost
     source: output
 
 js_file: assets/js/calculators/pergola-gazebo-calculator.js
@@ -133,141 +105,147 @@ js_file: assets/js/calculators/pergola-gazebo-calculator.js
 structured_data:
   "@context": "https://schema.org"
   "@type": "SoftwareApplication"
-  name: "Pergola Gazebo Calculator"
+  name: "Pergola & Gazebo Framing Lumber Calculator"
   applicationCategory: "BusinessApplication"
   operatingSystem: "All"
-  description: "Calculate support posts, main carrying beams, roof rafters, shade purlins, post footing concrete, and total lumber costs for pergolas."
+  description: "Calculate structural post, beam, rafter, and shade purlin lumber requirements for patio pergolas and gazebos."
   offers:
     "@type": "Offer"
     price: "0"
     priceCurrency: "USD"
   featureList:
-    - "Calculates 4x4 or 6x6 support post counts including corner and intermediate posts"
-    - "Determines double carrying beam counts and rafter joists based on 12\", 16\", or 24\" spacing"
-    - "Calculates top shade slats / purlins for custom sun filtering percentages"
-    - "Estimates 80 lb concrete bags per post footing hole"
+    - "Calculates 6x6 post counts, 2x10 double support beams, and 2x8 rafters"
+    - "Supports 16\" OC and 24\" OC rafter spacing options"
+    - "Compares pressure-treated pine, western red cedar, and redwood material costs"
+    - "Provides complete bill-of-materials and order estimates"
 
 breadcrumb:
   - name: Home
     url: /
-  - name: Construction
-    url: /construction
-  - name: Pergola Gazebo Calculator
+  - name: Lumber & Framing
+    url: /lumber-framing
+  - name: Pergola & Gazebo Calculator
 
 howto:
-  name: "How to Calculate Lumber and Framing Materials for a Pergola or Gazebo"
-  description: "Determine structural lumber lists, post footing concrete, rafters, and shade slats for outdoor pergolas."
+  name: "How to Calculate Pergola Framing Lumber"
+  description: "Calculate posts, beams, rafters, and hardware costs for outdoor pergolas."
   step:
-    - name: "Determine overall pergola dimensions"
-      text: "Establish length (beam span) and width (rafter projection) in feet."
-    - name: "Select structural post sizing"
-      text: "Choose 6x6 posts for spans over 10 feet to prevent sagging and ensure structural wind resistance."
-    - name: "Calculate carrying beams and rafters"
-      text: "Double carrying beams run parallel along the length; rafters run perpendicular across the width at 16\" o.c."
-    - name: "Estimate shade purlins and concrete footings"
-      text: "Calculate top 2x2 or 1x3 shade slats for desired sun blocking and allow 2 to 3 bags of 80 lb concrete per post hole."
+    - name: "Measure patio footprint dimensions"
+      text: "Determine length and width of the desired outdoor covered structure in feet."
+    - name: "Specify post height"
+      text: "Select corner support post height (typically 8 to 10 feet above grade)."
+    - name: "Set rafter spacing"
+      text: "Choose 16 inches for maximum shade or 24 inches for standard sun exposure."
+    - name: "Select wood species"
+      text: "Pick pressure-treated pine, Western Red Cedar, or Redwood lumber grade."
 
 faq:
-  - question: "Should I use 4x4 or 6x6 posts for a pergola?"
-    answer: "6x6 posts are strongly recommended for all pergolas larger than 10x10 feet. They prevent unsightly warping, accommodate notch connections for double 2x10 beams, and increase wind resistance."
-  - question: "How deep should pergola post footings be poured?"
-    answer: "Pergola post footings must extend below the local frost line (typically 36 to 48 inches deep in cold climates) and measure at least 12 inches in diameter filled with 3 bags of 80 lb concrete per hole."
-  - question: "How many rafters are needed for a 12 ft wide pergola?"
-    answer: "With standard 16-inch on center rafter spacing, a 12 ft (144 inch) pergola length requires 10 rafter joists (plus rafter overhangs)."
-  - question: "How far should pergola rafters overhang the carrying beams?"
-    answer: "A standard architectural rafter overhang is 12 to 16 inches past the carrying beams on both ends, often trimmed with decorative end-cut profiles."
-  - question: "What size lumber is best for pergola carrying beams?"
-    answer: "Double 2x10 or double 2x12 pressure-treated or Western Red Cedar lumber is standard for spans up to 14 feet. For spans over 16 feet, use engineered glulam or steel-flanged beams."
-  - question: "How much sun shade does a pergola provide?"
-    answer: "Shade depends on purlin spacing: 4-inch spacing provides ~75% sun shade, 6-inch spacing provides ~50% shade, and 12-inch spacing provides ~25% light filtering shade."
-  - question: "Is a building permit required for an outdoor pergola?"
-    answer: "Most municipalities require a building permit for freestanding or house-attached pergolas exceeding 120 square feet or attached directly to a residential structure."
+  - question: "How many 6x6 posts do I need for a 12x16 pergola?"
+    answer: "A 12x16 foot free-standing pergola requires 4 corner 6x6 support posts if unspanned, or 6 posts if mid-span support is added for heavy timber beams."
+  - question: "What size beams should be used for a 16-foot pergola span?"
+    answer: "A 16-foot clear beam span requires double 2x10 or double 2x12 pressure-treated or cedar beams through-bolted to 6x6 posts with 1/2-inch stainless steel carriage bolts."
+  - question: "How far apart should pergola rafters be spaced?"
+    answer: "Pergola rafters are typically spaced 16 inches or 24 inches on-center. Spacing at 16 inches provides superior structural rigidity and denser shade projection."
+  - question: "What is the cost difference between pressure-treated pine and cedar for a pergola?"
+    answer: "Western Red Cedar framing lumber costs roughly 2.0 to 2.5 times more than pressure-treated pine, but offers natural rot resistance without chemical treatment."
+  - question: "How deep should pergola post footings be buried in concrete?"
+    answer: "Post footings should extend below the local frost line (typically 36 to 48 inches deep) and rest on concrete pier footings with elevated post anchor brackets."
+  - question: "Should pergola beams sit on top of posts or be notched?"
+    answer: "Beams should sit directly on top of notched 6x6 posts or post-cap steel brackets to transfer vertical gravity loads directly down the post timber."
+  - question: "Do you need a building permit for an outdoor pergola?"
+    answer: "Free-standing pergolas under 120 to 200 sq ft often do not require permits, but attached pergolas or those near property lines require building approval."
 ---
 
-Calculate support post counts, carrying beams, roof rafters, shade purlins, footing concrete bags, and material cost for custom pergolas and gazebos.
+# Outdoor Pergola & Gazebo Material Estimator
+
+Calculate structural 6x6 support posts, double 2x10 support beams, 2x8 shade rafters, purlin lattices, and total material costs for outdoor pergolas and gazebos.
+All calculations process 100% privately inside your web browser with client-side execution and zero data tracking.
 
 <!-- more -->
 
 ## Why Use the Pergola & Gazebo Calculator?
 
-Designing an outdoor pergola requires coordinating structural post load capacities, rafter overhangs, and top shade purlins. Purchasing incorrect lumber lengths leads to expensive cut-off waste or inadequate structural support during high wind loads.
+Designing an outdoor timber pergola requires precise structural framing calculations to resist wind uplift, sagging beam spans, and rot over time. Under-sizing main support beams leads to unsightly middle sags, while ordering incorrect rafter counts increases lumber yard return fees.
 
-This **Pergola Gazebo Calculator** provides:
-1. Complete structural bill of materials (posts, carrying beams, rafters, purlins).
-2. Footing concrete bag estimations (80 lb pre-mixed bags).
-3. Itemized material cost breakdowns for pressure-treated, cedar, or redwood framing.
+This **Pergola & Gazebo Calculator** generates an exact structural bill-of-materials—separating posts, double beam headers, roof rafters, top purlins, and heavy-duty structural connector hardware.
 
----
-
-## Pergola Material Formulas
-
-### 1. Support Posts ($N_{\text{posts}}$)
-For structures up to 16 ft length, 4 corner posts are standard. Over 16 ft span, intermediate posts are added:
-$$N_{\text{posts}} = \begin{cases} 4 & \text{if } L \le 16\text{ ft and } W \le 16\text{ ft} \\ 6 & \text{if } L > 16\text{ ft or } W > 16\text{ ft} \\ 8 & \text{if } L > 24\text{ ft and } W > 24\text{ ft} \end{cases}$$
-
-### 2. Main Carrying Beams ($N_{\text{beams}}$)
-Beams sandwich the posts along the structure length:
-$$N_{\text{beams}} = 2 \times \left\lceil \frac{W_{\text{ft}}}{16} \right\rceil$$
-
-Beam length includes a 1-foot overhang on both ends:
-$$L_{\text{beam\_ft}} = L_{\text{ft}} + 2$$
-
-### 3. Roof Rafter Joists ($N_{\text{rafters}}$)
-Rafters run perpendicular to beams across the width:
-$$N_{\text{rafters}} = \left\lceil \frac{L_{\text{ft}} \times 12}{S_{\text{rafter}}} \right\rceil + 1$$
-
-Rafter length includes 1-foot overhangs on both ends:
-$$L_{\text{rafter\_ft}} = W_{\text{ft}} + 2$$
-
-### 4. Top Shade Slats / Purlins ($N_{\text{slats}}$)
-$$N_{\text{slats}} = \left\lceil \frac{W_{\text{ft}} \times 12}{S_{\text{slat}}} \right\rceil + 1$$
-
-### 5. Footing Concrete (80 lb Bags)
-$$N_{\text{concrete\_bags}} = N_{\text{posts}} \times 3 \quad (\text{3 bags of } 80\text{ lb concrete per post})$$
+### Key Benefits
+* **Complete Structural Takeoff:** Calculates 6x6 posts, double 2x10 beams, and 2x8 roof rafters in one step.
+* **Shade Density Optimization:** Supports 16" OC and 24" OC rafter spacing for custom shade control.
+* **Wood Grade Comparison:** Compares pressure-treated pine, Western Red Cedar, and Redwood pricing.
+* **100% Private Browser Math:** Keeps your custom architectural drawings and material estimates private.
 
 ---
 
-## Pergola Structural Framing Table
+## Mathematical Formulas & Mechanics
 
-| Pergola Dimensions (L x W) | Posts (6x6) | Double Carrying Beams | Rafters (16" o.c.) | Shade Slats (6" o.c.) | 80 lb Concrete Bags |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **10 ft x 10 ft** | 4 Posts | 2 Beams (12 ft long) | 9 Rafters (12 ft long) | 21 Slats (12 ft long) | 12 Bags |
-| **12 ft x 12 ft** | 4 Posts | 2 Beams (14 ft long) | 10 Rafters (14 ft long) | 25 Slats (14 ft long) | 12 Bags |
-| **14 ft x 14 ft** | 4 Posts | 2 Beams (16 ft long) | 12 Rafters (16 ft long) | 29 Slats (16 ft long) | 12 Bags |
-| **16 ft x 16 ft** | 4 Posts | 2 Beams (18 ft long) | 13 Rafters (18 ft long) | 33 Slats (18 ft long) | 12 Bags |
-| **20 ft x 16 ft** | 6 Posts | 4 Beams (22 ft long) | 16 Rafters (18 ft long) | 33 Slats (22 ft long) | 18 Bags |
+### 1. Structural Rafter Count
+Rafter members ($N_{\text{rafters}}$) across pergola length ($L_{\text{pergola}}$ in feet) at on-center spacing ($S_{\text{oc}}$ in feet):
+
+$$N_{\text{rafters}} = \left\lceil \frac{L_{\text{pergola}}}{S_{\text{oc}}} \right\rceil + 1$$
+
+Where $S_{\text{oc}} = 1.3333\text{ ft}$ (16" OC) or $S_{\text{oc}} = 2.0\text{ ft}$ (24" OC).
+
+### 2. Double Beam Header Formula
+Double support beams ($N_{\text{beams}}$) spanning pergola length ($L_{\text{pergola}}$):
+
+$$N_{\text{beams}} = 2 \times \left\lceil \frac{L_{\text{pergola}}}{16\text{ ft max span}} \right\rceil$$
+
+### 3. Support Post Count
+Corner support posts ($N_{\text{posts}}$) for footprint length ($L$) and width ($W$):
+
+$$N_{\text{posts}} = \begin{cases} 4 & \text{if } L \le 16\text{ ft and } W \le 16\text{ ft} \\ 6 & \text{if } L > 16\text{ ft or } W > 16\text{ ft} \end{cases}$$
+
+### 4. Total Material Budget
+Total installed framing cost ($C_{\text{pergola}}$):
+
+$$C_{\text{pergola}} = A_{\text{footprint}} \times P_{\text{sqft\_lumber}} \times M_{\text{species\_multiplier}}$$
 
 ---
 
-## Step-by-Step Construction Guide
+## Real-World Comparison & Benchmark Table
 
-1. **Layout & Dig Footings:** Layout post centers with batter boards, dig 12" diameter holes 36" to 48" deep below frost line, and pour 6" gravel base.
-2. **Set Support Posts:** Plumb 6x6 posts with temporary 2x4 diagonal braces, fill holes with wet 80 lb concrete mix, and allow 48 hours to cure.
-3. **Notch & Mount Beams:** Cut 1.5" notches into opposite sides of post tops, clamp double carrying beams level, and secure with 1/2" stainless steel carriage bolts.
-4. **Install Rafters:** Notch decorative tail profiles into 2x8 or 2x10 rafters and fasten to main beams using hurricane structural ties.
-5. **Attach Top Shade Slats:** Space 2x2 or 1x3 shade purlins uniformly at 6" o.c. across top rafters and fasten with exterior deck screws.
+The benchmark reference table below demonstrates structural material specifications and cost estimates across popular pergola sizes:
+
+| Footprint Size | Area (Sq Ft) | 6x6 Posts | Double 2x10 Beams | 2x8 Rafters (16" OC) | Estimated Cost (PT Pine) | Estimated Cost (Cedar) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **10x10 Feet** | 100 Sq Ft | 4 Posts | 2 Beams (10 ft) | 9 Rafters | $1,250.00 | $2,450.00 |
+| **12x12 Feet** | 144 Sq Ft | 4 Posts | 2 Beams (12 ft) | 10 Rafters | $1,850.00 | $3,650.00 |
+| **12x16 Feet** | 192 Sq Ft | 4 Posts | 2 Beams (16 ft) | 13 Rafters | $2,450.00 | $4,850.00 |
+| **16x16 Feet** | 256 Sq Ft | 4 Posts | 4 Beams (8 ft) | 13 Rafters | $3,250.00 | $6,450.00 |
+| **16x20 Feet** | 320 Sq Ft | 6 Posts | 4 Beams (10 ft) | 16 Rafters | $4,200.00 | $8,200.00 |
 
 ---
 
-## Frequently Asked Questions (FAQ)
+## Step-by-Step How-To Guide
 
-### Should I use 4x4 or 6x6 posts for a pergola?
-6x6 posts are strongly recommended for all pergolas larger than 10x10 feet. They prevent unsightly warping, accommodate notch connections for double 2x10 beams, and increase wind resistance.
+1. **Establish Patio Footprint:** Stake out corner locations on your patio or lawn to define overall pergola length and width.
+2. **Dig Post Footings:** Excavate 12-inch diameter holes 36 to 48 inches deep below the frost line; pour concrete piers with elevated post brackets.
+3. **Erect 6x6 Corner Posts:** Plumb posts using structural bracing; attach posts to concrete anchors using 5/8-inch wedge anchor bolts.
+4. **Attach Double Header Beams:** Notch post tops or sandwich posts using double 2x10 beams secured with through-bolts.
+5. **Install Shade Rafters:** Notch 2x8 rafters with decorative tail cuts; secure to beams using hurricane rafter ties (e.g., Simpson H2.5A).
 
-### How deep should pergola post footings be poured?
-Pergola post footings must extend below the local frost line (typically 36 to 48 inches deep in cold climates) and measure at least 12 inches in diameter filled with 3 bags of 80 lb concrete per hole.
+---
 
-### How many rafters are needed for a 12 ft wide pergola?
-With standard 16-inch on center rafter spacing, a 12 ft (144 inch) pergola length requires 10 rafter joists (plus rafter overhangs).
+## Frequently Asked Questions
 
-### How far should pergola rafters overhang the carrying beams?
-A standard architectural rafter overhang is 12 to 16 inches past the carrying beams on both ends, often trimmed with decorative end-cut profiles.
+### How many 6x6 posts do I need for a 12x16 pergola?
+A 12x16 foot free-standing pergola requires 4 corner 6x6 support posts if unspanned, or 6 posts if mid-span support is added for heavy timber beams.
 
-### What size lumber is best for pergola carrying beams?
-Double 2x10 or double 2x12 pressure-treated or Western Red Cedar lumber is standard for spans up to 14 feet. For spans over 16 feet, use engineered glulam or steel-flanged beams.
+### What size beams should be used for a 16-foot pergola span?
+A 16-foot clear beam span requires double 2x10 or double 2x12 pressure-treated or cedar beams through-bolted to 6x6 posts with 1/2-inch stainless steel carriage bolts.
 
-### How much sun shade does a pergola provide?
-Shade depends on purlin spacing: 4-inch spacing provides ~75% sun shade, 6-inch spacing provides ~50% shade, and 12-inch spacing provides ~25% light filtering shade.
+### How far apart should pergola rafters be spaced?
+Pergola rafters are typically spaced 16 inches or 24 inches on-center. Spacing at 16 inches provides superior structural rigidity and denser shade projection.
 
-### Is a building permit required for an outdoor pergola?
-Most municipalities require a building permit for freestanding or house-attached pergolas exceeding 120 square feet or attached directly to a residential structure.
+### What is the cost difference between pressure-treated pine and cedar for a pergola?
+Western Red Cedar framing lumber costs roughly 2.0 to 2.5 times more than pressure-treated pine, but offers natural rot resistance without chemical treatment.
+
+### How deep should pergola post footings be buried in concrete?
+Post footings should extend below the local frost line (typically 36 to 48 inches deep) and rest on concrete pier footings with elevated post anchor brackets.
+
+### Should pergola beams sit on top of posts or be notched?
+Beams should sit directly on top of notched 6x6 posts or post-cap steel brackets to transfer vertical gravity loads directly down the post timber.
+
+### Do you need a building permit for an outdoor pergola?
+Free-standing pergolas under 120 to 200 sq ft often do not require permits, but attached pergolas or those near property lines require building approval.

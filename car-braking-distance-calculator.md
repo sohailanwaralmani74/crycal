@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Car Braking Distance Calculator – Total Stopping Distance
-description: Calculate vehicle braking distance and total stopping distance in feet and meters based on speed, friction coefficient (dry/wet/ice), and driver reaction time.
+title: "Car Braking Distance | Interactive Online Tool"
+description: "Calculate vehicle braking distance and total stopping distance in feet and meters based on speed, friction coefficient (dry/wet/ice), and driver..."
 permalink: /car-braking-distance-calculator
 tool_id: car-braking-distance-calculator
 category: auto-performance-specs

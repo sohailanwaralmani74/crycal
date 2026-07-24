@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Engine Displacement Calculator – Liters, CC & Cubic Inches (CID)
-description: Calculate total engine displacement in Liters, Cubic Centimeters (CC), and Cubic Inches (CID) from cylinder bore, stroke length, and cylinder count.
+title: "Engine Displacement | Interactive Online Tool"
+description: "Calculate total engine displacement in Liters, Cubic Centimeters (CC), and Cubic Inches (CID) from cylinder bore, stroke length, and cylinder count."
 permalink: /engine-displacement-calculator
 tool_id: engine-displacement-calculator
 category: auto-performance-specs

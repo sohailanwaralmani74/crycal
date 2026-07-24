@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Extended Warranty Cost Calculator – Evaluate Auto Service Contract Value
-description: Compare extended car warranty upfront prices and deductibles against estimated out-of-pocket vehicle repair costs.
+title: "Extended Warranty Cost | Interactive Online Tool"
+description: "Compare extended car warranty upfront prices and deductibles against estimated out-of-pocket vehicle repair costs."
 permalink: /extended-warranty-cost-calculator
 tool_id: extended-warranty-cost-calculator
 category: auto-loan-financing

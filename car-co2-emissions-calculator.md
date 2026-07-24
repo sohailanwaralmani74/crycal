@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Car CO2 Emissions Calculator – Annual Vehicle Carbon Footprint
-description: Calculate your vehicle's annual carbon dioxide (CO2) emissions in metric tons and pounds, and see how many trees are needed to offset your environmental impact.
+title: "Car Co2 Emissions | Interactive Online Tool"
+description: "Calculate your vehicles annual carbon dioxide (CO2) emissions in metric tons and pounds, and see how many trees are needed to offset your..."
 permalink: /car-co2-emissions-calculator
 tool_id: car-co2-emissions-calculator
 category: auto-fuel-efficiency
@@ -125,7 +125,7 @@ faq:
 
 ---
 
-# Car CO2 Emissions Calculator
+# Car Co2 Emissions Calculator
 
 Calculate your vehicle's annual carbon dioxide (CO2) emissions in metric tons and pounds, and determine how many mature trees are required to offset your driving footprint.
 

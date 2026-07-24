@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Emergency Fund Calculator
-description: Calculate how much you need to save for emergencies based on monthly expenses. Find ideal emergency fund target and track progress.
+title: "Emergency Fund | Interactive Online Tool"
+description: "Calculate how much you need to save for emergencies based on monthly expenses. Find ideal emergency fund target and track progress."
 permalink: /emergency-fund-calculator
 tool_id: emergency-fund
 category: budgeting
@@ -193,7 +193,7 @@ faq:
 
 ---
 
-# Emergency Fund Calculator – Build Your Safety Net
+# Emergency Fund Calculator
 
 Use this emergency fund calculator to determine how much you need to save for unexpected expenses. Enter your monthly expenses, current savings, and target coverage period — the tool shows your emergency fund target, progress, and timeline to reach your goal. This emergency savings calculator helps you build a solid financial safety net.
 

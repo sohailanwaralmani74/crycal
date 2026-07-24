@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Floor Leveling Compound Calculator – 50lb Bags & Pour Depth
-description: Calculate 50lb bags of self-leveling underlayment (SLU), pour volume, dry powder weight, and acrylic subfloor primer gallons for pour depths 1/8" to 1".
+title: "Floor Leveling Compound | Interactive Online Tool"
+description: "Calculate 50lb bags of self-leveling underlayment (SLU), pour volume, dry powder weight, and acrylic subfloor primer gallons for pour depths 1/8 to 1."
 permalink: /floor-leveling-compound-calculator
 tool_id: floor-leveling-compound-calculator
 category: flooring
@@ -165,7 +165,7 @@ faq:
     answer: "No. All calculation logic runs locally inside your browser."
 ---
 
-# Floor Leveling Compound Calculator – 50lb Bags & Pour Depth
+# Floor Leveling Compound Calculator
 
 Calculate exact **50lb bags of self-leveling underlayment (SLU)**, total **pour volume in cubic feet**, dry powder weight, and **subfloor acrylic primer gallons** for pour depths from 1/8" to 1".
 

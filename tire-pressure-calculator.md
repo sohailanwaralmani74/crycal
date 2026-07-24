@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Tire Pressure Calculator – Heavy Cargo Load & Cold Weather PSI Adjustment
-description: Calculate ideal cold tire pressure (PSI) adjustments for heavy cargo loads, towing, and ambient cold winter temperature drops to prevent uneven wear and maintain safety.
+title: "Tire Pressure | Interactive Online Tool"
+description: "Calculate ideal cold tire pressure (PSI) adjustments for heavy cargo loads, towing, and ambient cold winter temperature drops to prevent uneven..."
 permalink: /tire-pressure-calculator
 tool_id: tire-pressure-calculator
 category: auto-tires-wheels
@@ -156,7 +156,7 @@ faq:
 
 ---
 
-# Tire Pressure Calculator – Heavy Cargo Load & Cold Weather PSI Adjustment
+# Tire Pressure Calculator
 
 Calculate exact cold tire pressure (PSI) adjustments for seasonal winter cold snaps, heavy luggage, or trailer towing with our free **Tire Pressure Calculator**.
 

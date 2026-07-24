@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Perpetuity Calculator – Value a Perpetual Cash Flow Stream
-description: Use the Perpetuity Calculator to find the present value of an infinite stream of cash flows, with support for both level and growing perpetuities.
+title: "Perpetuity | Interactive Online Tool"
+description: "Use the Perpetuity Calculator to find the present value of an infinite stream of cash flows, with support for both level and growing perpetuities."
 permalink: /perpetuity-calculator
 tool_id: perpetuity-calculator
 category: growth
@@ -99,7 +99,7 @@ faq:
     answer: "No. All calculations run locally in your browser. No data is sent to any server."
 ---
 
-# Value a Perpetual Cash Flow Stream
+# Perpetuity Calculator
 
 Use the **Perpetuity Calculator** to find the present value of an infinite stream of cash flows, with support for both level and growing perpetuities.
 

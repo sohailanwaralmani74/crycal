@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Content Marketing ROI Estimator – Organic Traffic & ARR Projection
-description: Estimate ROI, new ARR, and organic traffic value generated from monthly blog article creation and content production costs.
+title: "Content Marketing Roi Estimator | Interactive Online Tool"
+description: "Estimate ROI, new ARR, and organic traffic value generated from monthly blog article creation and content production costs."
 permalink: /content-marketing-roi-estimator
 tool_id: content-marketing-roi-estimator
 category: saas-marketing-ads
@@ -151,7 +151,7 @@ faq:
     answer: "Improve ROI by targeting high-intent commercial keywords, updating existing top-ranking articles, adding clear Call-to-Action (CTA) banners, and building contextual backlinks."
 ---
 
-# Content Marketing ROI Estimator – Organic Traffic & ARR Projection
+# Content Marketing Roi Estimator Calculator
 
 Estimate the long-term revenue impact of your SEO publishing schedule with our **Content Marketing ROI Estimator**. Model organic traffic compounding, lead generation, and new ARR.
 

@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Underlayment Calculator – Synthetic & #30 Felt Roofing Rolls
-description: Calculate total rolls of synthetic or #30 felt roof underlayment needed for any roof square footage, factoring in 4" lap overlaps, roof pitch, and roll prices.
+title: "Roof Underlayment Calculator | Synthetic & Felt Rolls"
+description: "Calculate required rolls of synthetic, #30 felt, or peel-and-stick roof underlayment, accounting for pitch, overlaps, and waste margins."
 permalink: /underlayment-calculator
 tool_id: underlayment-calculator
 category: roofing
@@ -51,7 +51,7 @@ inputs:
     placeholder: "e.g., 10"
 
   - id: pricePerRoll
-    label: Price per Roll 
+    label: Price per Roll
     type: number
     default: 85.00
     step: 5.00
@@ -61,20 +61,20 @@ inputs:
 
 outputs:
   - id: totalRolls
-    label: Total Underlayment Rolls Required (with Waste)
+    label: Total Underlayment Rolls Required
   - id: totalRoofSquares
-    label: Total Roof Squares (100 Sq Ft = 1 Square)
+    label: Total Roof Squares (100 Sq Ft)
   - id: coveragePerRoll
-    label: Effective Coverage Area per Roll (Sq Ft)
+    label: Effective Coverage Area per Roll
   - id: totalMaterialCost
     label: Total Underlayment Material Cost
 
 charts:
   tabs:
     - id: rollBreakdown
-      label: Net Rolls Required vs Waste Allowance Rolls
+      label: Net Rolls vs Waste Allowance Rolls
     - id: costComparison
-      label: Material Cost Comparison (Synthetic vs #30 Felt vs Ice Shield)
+      label: Material Cost Comparison
 
 history_columns:
   - key: roofAreaSqFt
@@ -86,11 +86,8 @@ history_columns:
   - key: totalRolls
     label: Rolls Needed
     source: output
-  - key: coveragePerRoll
-    label: Roll Coverage
-    source: output
   - key: totalMaterialCost
-    label: Total Cost 
+    label: Total Cost ($)
     source: output
 
 js_file: assets/js/calculators/underlayment-calculator.js
@@ -98,141 +95,142 @@ js_file: assets/js/calculators/underlayment-calculator.js
 structured_data:
   "@context": "https://schema.org"
   "@type": "SoftwareApplication"
-  name: "Roof Underlayment Calculator"
+  name: "Underlayment Calculator"
   applicationCategory: "BusinessApplication"
   operatingSystem: "All"
-  description: "Calculate synthetic underlayment, #30 felt, #15 felt, and self-adhering ice & water shield roll quantities with lap seam overlaps and low-slope double coverage options."
+  description: "Calculate total rolls of synthetic, #15, #30 felt, or peel-and-stick roof underlayment needed for any roof square footage."
   offers:
     "@type": "Offer"
     price: "0"
     priceCurrency: "USD"
   featureList:
-    - "Calculates roll counts for synthetic, #30 felt, #15 felt, and peel & stick underlayments"
-    - "Accounts for 4\" horizontal side lap and 6\" vertical end lap seam overlaps"
-    - "Supports low-slope (2/12 to 4/12) double-coverage application code mandates"
-    - "Calculates total roof squares and material costs"
+    - "Supports synthetic, #15 felt, #30 felt, and self-adhering ice & water membranes"
+    - "Accounts for 4-inch side overlaps and 6-inch end laps"
+    - "Handles double-layer underlayment for low-slope roof pitches (2/12 to 4/12)"
+    - "Calculates exact material costs and roll waste allowances"
 
 breadcrumb:
   - name: Home
     url: /
-  - name: Construction
-    url: /construction
+  - name: Roofing
+    url: /roofing
   - name: Underlayment Calculator
 
 howto:
   name: "How to Calculate Roof Underlayment Rolls"
-  description: "Determine exact roll counts of synthetic or felt underlayment required for steep and low-slope roof replacement."
+  description: "Determine roll counts for synthetic underlayment or asphalt felt based on roof area, pitch, and lap overlaps."
   step:
-    - name: "Determine total sloped roof surface area"
-      text: "Calculate actual pitched roof square footage (or multiply flat footprint by slope multiplier)."
+    - name: "Determine total sloped roof area"
+      text: "Input total sloped roof square footage, or calculate ground footprint multiplied by pitch slope factor."
     - name: "Select underlayment material type"
-      text: "Choose synthetic underlayment (10-square rolls), #30 heavy felt, #15 felt, or peel & stick ice guard."
-    - name: "Identify roof slope coverage rules"
-      text: "Select standard slope (single layer with 4\" lap) or low-slope 2/12-4/12 (double layer with 19\" lap)."
-    - name: "Add waste factor and estimate budget"
-      text: "Include 10% waste for hip, valley, and ridge cuts to calculate total roll order."
+      text: "Choose synthetic underlayment, #30 heavy felt, #15 organic felt, or self-adhering ice & water membrane."
+    - name: "Specify roof slope classification"
+      text: "Select standard slope (single layer with 4-inch overlap) or low slope (double-layer coverage with 19-inch overlap)."
+    - name: "Add waste factor and roll pricing"
+      text: "Set 10% to 15% cut/ridge waste margin and enter material cost per roll to view total project estimates."
 
 faq:
-  - question: "How many square feet does a roll of synthetic roof underlayment cover?"
-    answer: "A standard 10-square roll of synthetic underlayment measures 4 feet wide by 250 feet long (1,000 gross sq ft). Factoring in 4-inch horizontal laps and end laps, one synthetic roll provides approximately 900 sq ft of net coverage."
-  - question: "How many rolls of #30 felt are needed for a 2,000 sq ft roof?"
-    answer: "A roll of #30 felt covers 200 gross sq ft (approx 190 net sq ft). For a 2,000 sq ft roof, you need 11 rolls net, or 12 rolls including a 10% waste factor."
-  - question: "What is the difference between synthetic underlayment and #30 felt?"
-    answer: "Synthetic underlayment is made from woven polypropylene, making it 5x lighter, 10x stronger, tear-resistant, UV resistant for up to 180 days, and providing 900 sq ft of net coverage per roll compared to 190 sq ft per roll for heavy organic #30 felt."
-  - question: "What underlayment lap overlap is required by building code?"
-    answer: "IRC code requires a minimum 2-inch horizontal lap overlap and 4-inch end lap overlap for standard slopes (4/12 and steeper). Manufacturers strongly recommend 4-inch horizontal laps for enhanced water resistance."
-  - question: "How many layers of underlayment are required for low-slope roofs (2/12 to 4/12)?"
-    answer: "Building code mandates double-coverage underlayment on low slopes between 2/12 and 4/12. Each horizontal course must overlap the lower course by 19 inches (half the width of a 36-inch felt roll), requiring double the roll count."
-  - question: "Where should self-adhering Ice & Water Shield be installed?"
-    answer: "Ice & water shield membrane should be installed along roof eaves (extending 24 inches inside the interior warm wall line), inside roof valleys, around chimneys, and along low-slope dead valleys."
-  - question: "What is a roof 'Square'?"
-    answer: "In roofing terminology, one 'Square' equals exactly 100 square feet of roof surface area."
+  - question: "How many square feet are in a roll of synthetic roof underlayment?"
+    answer: "A standard roll of synthetic roof underlayment measures 4 feet wide by 250 feet long, containing 1,000 square feet (10 roofing squares) nominal gross area."
+  - question: "How much actual roof coverage does a roll of synthetic underlayment provide?"
+    answer: "After accounting for standard 4-inch horizontal laps and 6-inch end overlaps, a 1,000 sq ft synthetic roll covers approximately 880 to 900 square feet of actual roof surface."
+  - question: "What underlayment is required for low-slope roofs (2/12 to 4/12 pitch)?"
+    answer: "Building codes (IRC/IBC) require a double-layer underlayment application on low-slope roofs (2/12 to 4/12 pitch), achieved by overlapping courses by 19 inches (half-lap), effectively doubling roll requirements."
+  - question: "Is synthetic underlayment better than #30 felt paper?"
+    answer: "Synthetic underlayment is lighter, stronger, tear-resistant, covers up to 5x more area per roll than #30 felt, and offers superior UV exposure limits during installation."
+  - question: "How many rolls of #30 felt do I need for a 2,000 sq ft roof?"
+    answer: "A roll of #30 felt covers 216 sq ft gross (approx 190 sq ft net). For a 2,000 sq ft roof with 10% waste, you need approximately 12 rolls of #30 felt."
+  - question: "What is the recommended overlap for roof underlayment seams?"
+    answer: "Standard slope roofs require a minimum 4-inch horizontal side lap and 6-inch vertical end lap. Eaves and valleys in cold climates require self-adhering ice & water shield."
+  - question: "How much waste allowance should be added for roof hips and valleys?"
+    answer: "Simple gable roofs require 5% to 10% waste, while complex roofs with hips, valleys, dormers, and skylights require 12% to 15% waste."
 ---
 
-Calculate synthetic underlayment, #30 felt, #15 felt, and ice & water shield roll quantities, effective net coverage, and material costs for roof replacements.
+# Underlayment Calculator
+
+Determine roll quantities, net coverage areas, and material costs for synthetic, #30 felt, #15 felt, and peel-and-stick ice & water membrane installations.
+
+This 100% private, client-side calculator computes roof underlayment needs directly in your web browser without storing or transmitting data.
 
 <!-- more -->
 
 ## Why Use the Underlayment Calculator?
 
-Roof underlayment serves as the critical secondary water barrier beneath shingles, tile, or metal roofing. Purchasing insufficient underlayment leaves roof sheathing exposed to rain storms during tear-off, while over-purchasing wastes roofing budget.
+Roof underlayment serves as the critical secondary water barrier protecting wooden decking from moisture intrusion, ice dams, and wind-driven rain. Ordering underlayment based on gross roll square footage without factoring in lap seams, slope requirements, and cut waste leads to running out of material mid-job.
 
-This **Underlayment Calculator** accounts for gross roll dimensions, effective net coverage after horizontal lap seams ($4"$), end lap waste ($6"$), low-slope double-coverage code mandates ($2/12$ to $4/12$), and overall waste allowances.
+Utilizing this **Underlayment Calculator** helps roofing contractors and DIY homeowners:
 
-### Key Benefits
-* **Net vs Gross Coverage Accuracy:** Automatically deducts lap seam waste from gross roll square footage.
-* **Low-Slope Double Coverage:** Integrates IRC mandates requiring 19" overlap ($2\times$ material) for roofs between 2/12 and 4/12 pitch.
-* **Material Comparison:** Evaluates synthetic (10-square rolls), #30 felt, #15 felt, and peel & stick membranes.
-* **Roof Square Conversion:** Instantly converts total square footage into roofing squares ($100\text{ sq ft} = 1\text{ Square}$).
-
----
-
-## Underlayment Formulas & Lap Geometry
-
-### 1. Effective Net Roll Coverage
-Gross roll area ($A_{\text{gross}}$) is reduced by horizontal lap factor ($L_{\text{lap}}$):
-
-$$A_{\text{net\_roll}} = A_{\text{gross}} \times (1 - L_{\text{lap\_factor}})$$
-
-* **Synthetic (1,000 sq ft):** Net coverage $\approx 900\text{ sq ft}$ ($10\%$ lap reduction)
-* **#30 Felt (216 sq ft):** Net coverage $\approx 190\text{ sq ft}$ ($12\%$ lap reduction)
-* **#15 Felt (432 sq ft):** Net coverage $\approx 380\text{ sq ft}$ ($12\%$ lap reduction)
-* **Peel & Stick (200 sq ft):** Net coverage $\approx 180\text{ sq ft}$ ($10\%$ lap reduction)
-
-### 2. Low-Slope Double-Coverage Multiplier
-For low slopes ($2/12 \le \text{Pitch} < 4/12$), double coverage increases material requirements:
-
-$$M_{\text{slope\_coverage}} = \begin{cases} 1.0 & \text{for Standard Slope } (\ge 4/12) \\ 1.90 & \text{for Low Slope } (2/12 \text{ to } 4/12) \end{cases}$$
-
-### 3. Total Order Roll Count Formula
-Total rolls required ($N_{\text{rolls}}$) with waste ($W$):
-
-$$N_{\text{rolls}} = \left\lceil \frac{A_{\text{roof}} \times M_{\text{slope\_coverage}}}{A_{\text{net\_roll}}} \times \left(1 + \frac{W}{100}\right) \right\rceil$$
+1. **Account for Overlaps accurately:** Factor in standard 4-inch side laps and 6-inch end laps that reduce nominal roll coverage by 10% to 12%.
+2. **Handle Low-Slope Double Layering:** Automatically double roll estimates when roof pitches fall between 2/12 and 4/12 as mandated by building codes.
+3. **Compare Synthetic vs. Organic Felt Costs:** Evaluate project cost differences between high-coverage synthetic rolls (10 squares) and traditional #30 felt rolls (2 squares).
+4. **Prevent Jobsite Downtime:** Ensure sufficient materials arrive on-site for hips, valleys, and ridge caps.
 
 ---
 
-## Roof Underlayment Material Comparison Table
+## Mathematical Formulas & Mechanics
 
-The reference table below compares roll coverage and costs per 2,000 sq ft roof (standard slope, 10% waste):
+### 1. Roof Squares & Waste Area Formula
+$$\text{Roof Squares} = \frac{A_{\text{roof}}}{100}$$
+$$A_{\text{gross}} = A_{\text{roof}} \times \left(1 + \frac{W}{100}\right)$$
 
-| Underlayment Type | Gross Roll Area | Net Coverage / Roll | Rolls Needed (2,000 Sq Ft Roof) | Average Price / Roll | Total Material Cost |
+### 2. Effective Net Roll Coverage Area
+$$\text{Net Roll Coverage} = A_{\text{roll}} \times \left(1 - \frac{\text{Lap Overhead (\%)}}{100}\right)$$
+
+Where nominal roll areas ($A_{\text{roll}}$) are:
+- **Synthetic Underlayment:** $1,000\text{ sq ft}$ (Net $\approx 885\text{ sq ft}$)
+- **#30 Heavy Felt:** $216\text{ sq ft}$ (Net $\approx 190\text{ sq ft}$)
+- **#15 Organic Felt:** $432\text{ sq ft}$ (Net $\approx 380\text{ sq ft}$)
+- **Peel & Stick Ice Shield:** $200\text{ sq ft}$ (Net $\approx 180\text{ sq ft}$)
+
+### 3. Total Required Rolls & Material Cost
+$$\text{Total Rolls (Standard Slope)} = \left\lceil \frac{A_{\text{gross}}}{\text{Net Roll Coverage}} \right\rceil$$
+$$\text{Total Rolls (Low Slope 2/12 - 4/12)} = 2 \times \left\lceil \frac{A_{\text{gross}}}{\text{Net Roll Coverage}} \right\rceil$$
+$$\text{Total Material Cost} = \text{Total Rolls} \times \text{Price per Roll}$$
+
+---
+
+## Real-World Comparison & Benchmark Table
+
+Material comparison and roll requirements for a standard $2,500\text{ sq ft}$ roof surface:
+
+| Underlayment Type | Nominal Roll Size | Net Coverage / Roll | Rolls Needed (25 Squares + 10% Waste) | Weight per Roll | Exposure Limit |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Synthetic (10-Square)** | 1,000 Sq Ft | 900 Sq Ft | 3 Rolls | $85.00 | $255.00 |
-| **#30 Heavy Organic Felt** | 216 Sq Ft | 190 Sq Ft | 12 Rolls | $28.00 | $336.00 |
-| **#15 Standard Organic Felt** | 432 Sq Ft | 380 Sq Ft | 6 Rolls | $26.00 | $156.00 |
-| **Peel & Stick Ice Shield** | 200 Sq Ft | 180 Sq Ft | 13 Rolls | $95.00 | $1,235.00 |
+| **Synthetic Membrane** | $1,000\text{ sq ft}$ ($4' \times 250'$) | $\approx 885\text{ sq ft}$ | **4 Rolls** | $23 - 30\text{ lbs}$ | Up to 180 Days |
+| **#30 Heavy Organic Felt** | $216\text{ sq ft}$ ($3' \times 72'$) | $\approx 190\text{ sq ft}$ | **15 Rolls** | $45 - 50\text{ lbs}$ | $24 - 48\text{ Hours}$ |
+| **#15 Organic Felt** | $432\text{ sq ft}$ ($3' \times 144'$) | $\approx 380\text{ sq ft}$ | **8 Rolls** | $45 - 50\text{ lbs}$ | Immediate Coverage |
+| **Peel & Stick Ice Shield** | $200\text{ sq ft}$ ($3' \times 66.7'$) | $\approx 180\text{ sq ft}$ | **16 Rolls** | $50 - 60\text{ lbs}$ | $30 - 90\text{ Days}$ |
 
 ---
 
-## Step-by-Step Installation Guide
+## Step-by-Step How-To Guide
 
-1. **Calculate Roof Surface Area:** Multiply roof footprint area by the pitch slope multiplier factor (e.g., $1.118$ for 6/12 pitch).
-2. **Select Underlayment Specification:** Use synthetic underlayment for modern shingle installations due to superior tear strength and slip resistance.
-3. **Install Eave Ice & Water Shield First:** Apply self-adhering membrane along lower roof eaves before rolling out synthetic underlayment.
-4. **Roll Out Horizontally from Eave to Ridge:** Unroll underlayment parallel to eaves, overlapping lower courses by at least 4 inches.
-5. **Fasten with Plastic Cap Nails:** Secure underlayment using pneumatic plastic cap nails spaced 12 inches along edges and 24 inches down the center grid.
+1. **Measure Sloped Roof Area:** Determine total sloped square footage or calculate ground footprint multiplied by pitch slope multiplier.
+2. **Select Material Type:** Choose synthetic underlayment, #30 felt, #15 felt, or self-adhered peel-and-stick ice & water shield.
+3. **Select Pitch Slope Classification:** Choose standard slope ($\ge 4/12$) or low slope ($2/12$ to $4/12$ requiring double-layer application).
+4. **Input Cut & Waste Percentage:** Set waste factor (typically 10% for gable roofs; 12-15% for hip/dormer roofs).
+5. **Set Material Price per Roll:** Input your local supplier pricing per roll to calculate full material expenditure.
 
 ---
 
-## Frequently Asked Questions (FAQ)
+## Frequently Asked Questions
 
-### How many square feet does a roll of synthetic roof underlayment cover?
-A standard 10-square roll of synthetic underlayment measures 4 feet wide by 250 feet long (1,000 gross sq ft). Factoring in 4-inch horizontal laps and end laps, one synthetic roll provides approximately 900 sq ft of net coverage.
+### How many square feet are in a roll of synthetic roof underlayment?
+A standard roll of synthetic roof underlayment measures 4 feet wide by 250 feet long, containing 1,000 square feet (10 roofing squares) nominal gross area.
 
-### How many rolls of #30 felt are needed for a 2,000 sq ft roof?
-A roll of #30 felt covers 200 gross sq ft (approx 190 net sq ft). For a 2,000 sq ft roof, you need 11 rolls net, or 12 rolls including a 10% waste factor.
+### How much actual roof coverage does a roll of synthetic underlayment provide?
+After accounting for standard 4-inch horizontal laps and 6-inch end overlaps, a 1,000 sq ft synthetic roll covers approximately 880 to 900 square feet of actual roof surface.
 
-### What is the difference between synthetic underlayment and #30 felt?
-Synthetic underlayment is made from woven polypropylene, making it 5x lighter, 10x stronger, tear-resistant, UV resistant for up to 180 days, and providing 900 sq ft of net coverage per roll compared to 190 sq ft per roll for heavy organic #30 felt.
+### What underlayment is required for low-slope roofs (2/12 to 4/12 pitch)?
+Building codes (IRC/IBC) require a double-layer underlayment application on low-slope roofs (2/12 to 4/12 pitch), achieved by overlapping courses by 19 inches (half-lap), effectively doubling roll requirements.
 
-### What underlayment lap overlap is required by building code?
-IRC code requires a minimum 2-inch horizontal lap overlap and 4-inch end lap overlap for standard slopes (4/12 and steeper). Manufacturers strongly recommend 4-inch horizontal laps for enhanced water resistance.
+### Is synthetic underlayment better than #30 felt paper?
+Synthetic underlayment is lighter, stronger, tear-resistant, covers up to 5x more area per roll than #30 felt, and offers superior UV exposure limits during installation.
 
-### How many layers of underlayment are required for low-slope roofs (2/12 to 4/12)?
-Building code mandates double-coverage underlayment on low slopes between 2/12 and 4/12. Each horizontal course must overlap the lower course by 19 inches (half the width of a 36-inch felt roll), requiring double the roll count.
+### How many rolls of #30 felt do I need for a 2,000 sq ft roof?
+A roll of #30 felt covers 216 sq ft gross (approx 190 sq ft net). For a 2,000 sq ft roof with 10% waste, you need approximately 12 rolls of #30 felt.
 
-### Where should self-adhering Ice & Water Shield be installed?
-Ice & water shield membrane should be installed along roof eaves (extending 24 inches inside the interior warm wall line), inside roof valleys, around chimneys, and along low-slope dead valleys.
+### What is the recommended overlap for roof underlayment seams?
+Standard slope roofs require a minimum 4-inch horizontal side lap and 6-inch vertical end lap. Eaves and valleys in cold climates require self-adhering ice & water shield.
 
-### What is a roof 'Square'?
-In roofing terminology, one 'Square' equals exactly 100 square feet of roof surface area.
+### How much waste allowance should be added for roof hips and valleys?
+Simple gable roofs require 5% to 10% waste, while complex roofs with hips, valleys, dormers, and skylights require 12% to 15% waste.

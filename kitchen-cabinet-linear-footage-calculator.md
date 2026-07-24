@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Kitchen Cabinet Linear Footage Calculator – Base, Upper & Lazy Susan Footage
-description: Calculate upper and base kitchen cabinet linear footage, corner lazy susan deductions, linear feet costs, and total cabinet budgeting.
+title: "Kitchen Cabinet Linear Footage | Interactive Online Tool"
+description: "Calculate upper and base kitchen cabinet linear footage, corner lazy susan deductions, linear feet costs, and total cabinet budgeting."
 permalink: /kitchen-cabinet-linear-footage-calculator
 tool_id: kitchen-cabinet-linear-footage-calculator
 category: home-decor-interior
@@ -148,7 +148,7 @@ faq:
     answer: "No. All calculations run strictly inside your client browser."
 ---
 
-# Kitchen Cabinet Linear Footage Calculator – Base, Upper & Lazy Susan Footage
+# Kitchen Cabinet Linear Footage Calculator
 
 Planning a kitchen remodel requires an accurate measurement of cabinet **linear footage**. Whether you are purchasing stock RTA (ready-to-assemble) boxes or ordering semi-custom cabinetry, suppliers quote pricing based on linear feet. Use our **Kitchen Cabinet Linear Footage Calculator** to calculate net base linear footage, upper wall cabinet footage, corner lazy susan units, and total project costs.
 

@@ -1,95 +1,81 @@
 ---
 layout: tool
-title: OSB Sheathing Calculator – 4x8 Panel Count, Waste & Cost Estimator
-description: Calculate 4x8 OSB sheathing panels for roof decks, exterior walls, or subfloors with 10% waste factor, sheet counts, and total price.
+title: "OSB Roof & Wall Sheathing Calculator"
+description: "Calculate 4x8 OSB panels needed for roof decks and wall framing, incorporating waste percentage, sheet thickness, and total material costs privately."
 permalink: /osb-sheathing-calculator
 tool_id: osb-sheathing-calculator
 category: lumber-framing
 hide_sidebar: true
 
 inputs:
-  - id: totalSurfaceArea
+  - id: surfaceArea
     label: Total Surface Area to Cover (Sq Ft)
     type: number
-    default: 1600
+    default: 1200
     step: 50
-    min: 32
-    placeholder: "e.g., 1600"
+    min: 1
+    placeholder: "e.g., 1200"
 
-  - id: panelThickness
-    label: OSB Panel Thickness
+  - id: sheetSize
+    label: OSB Panel Size
     type: select
-    default: "7_16"
+    default: "4x8"
     options:
-      - value: "7_16"
-        label: "7/16\" OSB Sheathing (Standard Wall & Roof Sheathing)"
-      - value: "15_32"
-        label: "15/32\" OSB Sheathing (Wall / Roof Heavy Span)"
-      - value: "19_32"
-        label: "19/32\" OSB T&G Sheathing (Subfloor / Heavy Roof)"
-      - value: "23_32"
-        label: "23/32\" T&G OSB Subfloor Panel (Heavy Subfloor)"
+      - value: "4x8"
+        label: "4 ft x 8 ft (32 Sq Ft Standard Panel)"
+      - value: "4x9"
+        label: "4 ft x 9 ft (36 Sq Ft Tall Wall Panel)"
+      - value: "4x10"
+        label: "4 ft x 10 ft (40 Sq Ft Commercial Panel)"
 
-  - id: application
-    label: Construction Application
-    type: select
-    default: "wall"
-    options:
-      - value: "wall"
-        label: "Exterior Wall Sheathing"
-      - value: "roof"
-        label: "Roof Deck Sheathing"
-      - value: "floor"
-        label: "Subfloor Decking"
-
-  - id: wastePct
+  - id: wastePercentage
     label: Waste & Cutting Allowance (%)
     type: number
     default: 10
     step: 1
     min: 0
-    max: 25
+    max: 30
     suffix: '%'
     placeholder: "e.g., 10"
 
-  - id: pricePerPanel
-    label: OSB Price per 4'x8' Sheet 
+  - id: pricePerSheet
+    label: Price per OSB Panel ($)
     type: number
-    default: 19.50
+    default: 18.50
     step: 0.50
     min: 0
     prefix: '$'
-    placeholder: "e.g., 19.50"
+    placeholder: "e.g., 18.50"
 
 outputs:
   - id: netSheets
-    label: Net OSB Sheets (Exact Math)
-  - id: totalPanels
-    label: Total 4x8 OSB Panels to Purchase
-  - id: totalCoverage
-    label: Total Covered Area with Waste
-  - id: totalCost
+    label: Net OSB Sheets Required
+  - id: wasteSheets
+    label: Additional Waste Sheets
+  - id: totalSheets
+    label: Total OSB Sheets to Order
+  - id: totalMaterialCost
     label: Total OSB Sheathing Cost
 
 charts:
   tabs:
-    - id: panelBreakdown
+    - id: sheetBreakdown
       label: Net Sheets vs Waste Sheets
     - id: costBreakdown
-      label: Total Material Expense 
+      label: Material Cost Distribution
 
 history_columns:
-  - key: totalSurfaceArea
-    label: Area (sq ft)
+  - key: surfaceArea
+    label: Surface Area (sq ft)
     source: input
-  - key: panelThickness
-    label: Thickness
+  - key: sheetSize
+    label: Panel Size
     source: input
-  - key: totalPanels
-    label: Panels (Sheets)
+  - key: totalSheets
+    label: Total Sheets
     source: output
-  - key: totalCost
-    label: Total Cost 
+  - key: totalMaterialCost
+    label: Total Cost
     source: output
 
 js_file: assets/js/calculators/osb-sheathing-calculator.js
@@ -97,126 +83,148 @@ js_file: assets/js/calculators/osb-sheathing-calculator.js
 structured_data:
   "@context": "https://schema.org"
   "@type": "SoftwareApplication"
-  name: "OSB Sheathing Calculator"
+  name: "OSB Roof & Wall Sheathing Calculator"
   applicationCategory: "BusinessApplication"
   operatingSystem: "All"
-  description: "Calculate 4'x8' oriented strand board (OSB) sheathing panels, waste factors, and costs for walls, roof decks, and subfloors."
+  description: "Calculate Orientated Strand Board (OSB) panel quantities for roof decks, exterior walls, and subfloors with waste factors and pricing."
   offers:
     "@type": "Offer"
     price: "0"
     priceCurrency: "USD"
   featureList:
-    - "Calculates 4x8 OSB panels (32 sq ft per sheet) for walls, roofs, and subfloors"
-    - "Supports 7/16\", 15/32\", 19/32\", and 23/32\" T&G panel thicknesses"
-    - "Includes customizable 5% to 20% waste and cutting allowances"
-    - "Real-time panel unit and total project cost modeling"
+    - "Calculates exact OSB panel counts for 4x8, 4x9, and 4x10 sheets"
+    - "Includes custom waste and cut-off percentage factors"
+    - "Provides subfloor, wall sheathing, and roof decking calculations"
+    - "Calculates total lumber yard supply order costs"
 
 breadcrumb:
   - name: Home
     url: /
-  - name: Construction
-    url: /construction
+  - name: Lumber & Framing
+    url: /lumber-framing
   - name: OSB Sheathing Calculator
 
 howto:
-  name: "How to Calculate 4x8 OSB Sheathing Panels for Walls and Roofs"
-  description: "Determine exact OSB panel counts and waste margins for exterior sheathing and floor decking."
+  name: "How to Calculate OSB Sheathing Panels"
+  description: "Calculate OSB sheet quantities and costs for subfloor, wall, and roof decking projects."
   step:
-    - name: "Calculate total surface square footage"
-      text: "Sum total exterior wall surface area, roof rafter pitch area, or subfloor deck square footage."
-    - name: "Determine panel coverage unit"
-      text: "A standard 4 ft x 8 ft OSB panel covers exactly 32 square feet."
-    - name: "Apply waste and cut factor"
-      text: "Add 10% waste for standard wall installations or 15% for complex roof gables and valleys."
-    - name: "Calculate total panels to order"
-      text: "Divide gross surface area by 32 sq ft and round up to the next whole sheet."
+    - name: "Measure total surface area"
+      text: "Calculate total square footage of walls, roof deck planes, or floor areas to be covered."
+    - name: "Select OSB panel dimensions"
+      text: "Choose standard 4x8 (32 sq ft), 4x9 (36 sq ft), or 4x10 (40 sq ft) sheet size."
+    - name: "Add waste factor"
+      text: "Include 5% to 15% waste allowance for cut-offs around windows, doors, or roof valleys."
+    - name: "Enter sheet unit price"
+      text: "Input price per panel to calculate total material order cost."
 
 faq:
-  - question: "How many square feet are in a 4x8 sheet of OSB?"
-    answer: "A standard 4 foot by 8 foot OSB sheathing sheet covers exactly 32 square feet of surface area."
-  - question: "What thickness OSB should be used for wall sheathing?"
-    answer: "Standard 7/16-inch OSB (Rated Sheathing 24/16) is the industry standard for exterior wall sheathing spaced at 16 inches or 24 inches on center."
-  - question: "What thickness OSB is required for roof decking?"
-    answer: "Most residential codes require 7/16-inch or 15/32-inch OSB for roof rafters spaced at 16 inches o.c. Use 5/8-inch (19/32\") OSB or installation of H-clips for 24-inch rafter spacing."
-  - question: "What thickness OSB is required for subfloor decking?"
-    answer: "Subfloors require 23/32-inch (3/4\" nominal) Tongue & Groove (T&G) structural OSB glued and screwed to floor joists spaced at 16 inches or 19.2 inches on center."
-  - question: "Why is an expansion gap required between OSB panels?"
-    answer: "A 1/8-inch expansion gap (the width of a 10d box nail) must be left between all panel edges and ends to accommodate natural moisture expansion and prevent buckling or telegraphing seams."
-  - question: "Is OSB better than Plywood for exterior sheathing?"
-    answer: "Engineered OSB offers uniform density without core voids or knots, consistent shear strength, and lower cost per sheet, making it the dominant sheathing material in modern home construction."
-  - question: "How many OSB sheets are on a full lift or pallet?"
-    answer: "A full factory unit (bundle/pallet) of 7/16-inch OSB typically contains 90 sheets. A unit of 23/32-inch T&G subfloor OSB contains 55 sheets."
+  - question: "How many square feet does a 4x8 sheet of OSB cover?"
+    answer: "A standard 4 ft by 8 ft OSB panel covers exactly 32 square feet."
+  - question: "How many sheets of OSB do I need for 1,200 sq ft?"
+    answer: "For 1,200 sq ft, you need 38 sheets net (1200 / 32). With a 10% waste allowance, order 42 total OSB panels."
+  - question: "What OSB thickness should be used for roof decking?"
+    answer: "7/16-inch or 1/2-inch APA-rated OSB is standard for roof rafters or trusses spaced 24 inches on-center. 5/8-inch is used for heavy snow loads."
+  - question: "What OSB thickness is required for subflooring?"
+    answer: "Subfloors require 23/32-inch (3/4-inch nominal) tongue-and-groove (T&G) OSB panels glued and screwed to floor joists spaced 16 inches on-center."
+  - question: "Which side of OSB sheathing faces out on a roof deck?"
+    answer: "The textured, grid-marked non-skid side faces UP/OUT for worker safety, with the smooth stamped side facing down into the attic space."
+  - question: "Should OSB sheathing panels be installed with a expansion gap?"
+    answer: "Yes, APA guidelines mandate leaving a 1/8-inch expansion gap at all panel edge and end joints to prevent buckling from humidity."
+  - question: "Is OSB better or cheaper than CDX plywood for wall framing?"
+    answer: "OSB is typically 20% to 30% cheaper than CDX plywood while offering consistent density without core voids or knots."
 ---
 
-Calculate 4x8 oriented strand board (OSB) sheathing panels, waste factors, square footage coverage, and total material cost for walls, roofs, and subfloors.
+# OSB Subfloor, Wall & Roof Sheathing Estimator
+
+Calculate Orientated Strand Board (OSB) panel quantities, waste sheet allowances, and total material costs for subfloors, exterior walls, and roof decks.
+All calculations process 100% privately inside your web browser with real-time recalculations and zero tracking.
 
 <!-- more -->
 
 ## Why Use the OSB Sheathing Calculator?
 
-Oriented Strand Board (OSB) is the primary structural sheathing for modern residential framing. Because panels are manufactured in standard 4 ft x 8 ft sheets ($32\text{ sq ft}$), ordering precise panel counts prevents project delays or costly short-unit lumberyard delivery fees.
+Orientated Strand Board (OSB) is the most widely used structural sheathing panel for residential framing. Underestimating sheet counts leads to mid-project store runs, while overestimating wastes capital on unused $4\text{x}8$ lumber panels.
 
-This **OSB Sheathing Calculator** provides:
-1. Exact 4x8 sheet counts for walls, roof decks, and subfloors.
-2. Thickness specifications (7/16", 15/32", 19/32", 23/32" T&G).
-3. Waste allowance modeling for roof valleys, windows, and gable end cuts.
+This **OSB Sheathing Calculator** computes net sheet counts, incorporates recommended waste multipliers for complex roof pitches or window cut-outs, and calculates total material expenditure.
+
+### Key Benefits
+* **Multi-Panel Support:** Calculates sheet counts for $4\text{x}8$, $4\text{x}9$, and $4\text{x}10$ OSB panel sizes.
+* **Smart Waste Estimation:** Account for diagonal gable cuts, window/door openings, and edge trimming.
+* **Structural Application Guidance:** Designed for wall sheathing, roof decks, and subfloor installations.
+* **Instant Client-Side Privacy:** Your project dimensions remain strictly confidential in browser memory.
 
 ---
 
-## OSB Sheathing Formulas
+## Mathematical Formulas & Mechanics
 
-### 1. Single Panel Coverage Area ($A_{\text{panel}}$)
-$$A_{\text{panel}} = 4\text{ ft} \times 8\text{ ft} = 32\text{ sq ft}$$
+### 1. Panel Coverage Area
+Coverage area per panel ($A_{\text{panel}}$ in sq ft):
 
-### 2. Net & Gross Sheet Calculation
-$$\text{Sheets}_{\text{net}} = \frac{A_{\text{surface}}}{32}$$
-$$\text{Panels}_{\text{total}} = \left\lceil \text{Sheets}_{\text{net}} \times \left(1 + \frac{W}{100}\right) \right\rceil$$
+$$A_{\text{panel}} = W_{\text{sheet}} \times L_{\text{sheet}}$$
+
+* $4\text{x}8\text{ Panel}: 4 \times 8 = 32\text{ sq ft}$
+* $4\text{x}9\text{ Panel}: 4 \times 9 = 36\text{ sq ft}$
+* $4\text{x}10\text{ Panel}: 4 \times 10 = 40\text{ sq ft}$
+
+### 2. Net & Total Sheet Calculations
+Net sheets required ($N_{\text{net}}$) for surface area ($A_{\text{surface}}$):
+
+$$N_{\text{net}} = \left\lceil \frac{A_{\text{surface}}}{A_{\text{panel}}} \right\rceil$$
+
+Total sheets to order ($N_{\text{total}}$) with waste percentage ($W_{\text{pct}}$):
+
+$$N_{\text{total}} = \left\lceil N_{\text{net}} \times \left(1 + \frac{W_{\text{pct}}}{100}\right) \right\rceil$$
 
 ### 3. Total Material Cost
-$$\text{Total Cost} = \text{Panels}_{\text{total}} \times \text{Price per Panel}$$
+Total sheathing cost ($C_{\text{material}}$):
+
+$$C_{\text{material}} = N_{\text{total}} \times P_{\text{sheet}}$$
 
 ---
 
-## OSB Thickness & Application Selection Guide
+## Real-World Comparison & Benchmark Table
 
-| Panel Thickness | APA Span Rating | Recommended Application | Fastener Requirement | Approximate Price per Sheet |
-| :--- | :--- | :--- | :--- | :--- |
-| **7/16 Inch** | 24/16 Sheathing | Exterior Walls & 16" o.c. Roofs | 8d Common Nails @ 6" edge / 12" field | $16 – $24 |
-| **15/32 Inch** | 32/16 Sheathing | Heavy Load Walls & 24" o.c. Roofs | 8d Common Nails @ 6" edge / 12" field | $20 – $28 |
-| **19/32 Inch T&G** | 40/20 Floor / Subfloor | Heavy Roof Decking & Subfloors | 8d Ring Shank Nails + Subfloor Glue | $26 – $36 |
-| **23/32 Inch T&G** | 24 o.c. Sturd-I-Floor | Standard Residential Subfloor | 8d Ring Shank Nails / Construction Adhesive | $30 – $42 |
+The benchmark reference table below demonstrates OSB $4\text{x}8$ panel order requirements across common residential construction surfaces:
 
----
-
-## Step-by-Step Installation Guide
-
-1. **Snap Panel Layout Lines:** Ensure panel edges fall directly over stud or joist framing centers.
-2. **Leave 1/8" Expansion Gaps:** Use 10d box nails as temporary spacers along 4 ft edges and 8 ft ends to prevent panel buckling from humidity expansion.
-3. **Stagger Panel Joints:** Stagger vertical wall seams and subfloor end joints in a brickwork pattern (running bond) so four corners never meet at a single point.
-4. **Use H-Clips on Unsupported Roof Edges:** Install metal H-clips between un-tongued roof panel edges when rafter spacing exceeds 16 inches o.c.
-5. **Fasten Per Code Schedule:** Drive 8d ring shank nails every 6 inches along supported panel edges and 12 inches in intermediate field framing.
+| Project Type | Surface Area | Net 4x8 Sheets | Recommended Waste (%) | Total Sheets to Order | Estimated Cost ($18.50/Sheet) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Small Shed Roof** | 400 Sq Ft | 13 Sheets | 10% Waste | 15 Sheets | $277.50 |
+| **2-Car Garage Walls** | 800 Sq Ft | 25 Sheets | 10% Waste | 28 Sheets | $518.00 |
+| **Single-Story House Roof** | 1,500 Sq Ft | 47 Sheets | 12% Waste | 53 Sheets | $980.50 |
+| **2-Story House Walls** | 2,400 Sq Ft | 75 Sheets | 10% Waste | 83 Sheets | $1,535.50 |
+| **Large Custom Roof Deck** | 3,200 Sq Ft | 100 Sheets | 15% Waste | 115 Sheets | $2,127.50 |
 
 ---
 
-## Frequently Asked Questions (FAQ)
+## Step-by-Step How-To Guide
 
-### How many square feet are in a 4x8 sheet of OSB?
-A standard 4 foot by 8 foot OSB sheathing sheet covers exactly 32 square feet of surface area.
+1. **Calculate Total Surface Area:** Multiply length by height for wall segments, or roof plane length by sloped rafter length for roof decks.
+2. **Select Panel Thickness:** Use $7/16"$ for walls/roofs at 24" OC, or $23/32"$ T&G for floor joists at 16" OC.
+3. **Determine Waste Percentage:** Use 5% to 8% for simple rectangular walls; use 12% to 15% for complex roofs with valleys and hips.
+4. **Stagger Panel Joints:** Always install OSB panels perpendicular to wall studs or roof trusses with staggered horizontal joints.
+5. **Leave 1/8" Expansion Gaps:** Use H-clips (plywood clips) between roof sheathing panel edges to maintain the required 1/8-inch expansion spacing.
 
-### What thickness OSB should be used for wall sheathing?
-Standard 7/16-inch OSB (Rated Sheathing 24/16) is the industry standard for exterior wall sheathing spaced at 16 inches or 24 inches on center.
+---
 
-### What thickness OSB is required for roof decking?
-Most residential codes require 7/16-inch or 15/32-inch OSB for roof rafters spaced at 16 inches o.c. Use 5/8-inch (19/32") OSB or installation of H-clips for 24-inch rafter spacing.
+## Frequently Asked Questions
 
-### What thickness OSB is required for subfloor decking?
-Subfloors require 23/32-inch (3/4" nominal) Tongue & Groove (T&G) structural OSB glued and screwed to floor joists spaced at 16 inches or 19.2 inches on center.
+### How many square feet does a 4x8 sheet of OSB cover?
+A standard 4 ft by 8 ft OSB panel covers exactly 32 square feet.
 
-### Why is an expansion gap required between OSB panels?
-A 1/8-inch expansion gap (the width of a 10d box nail) must be left between all panel edges and ends to accommodate natural moisture expansion and prevent buckling or telegraphing seams.
+### How many sheets of OSB do I need for 1,200 sq ft?
+For 1,200 sq ft, you need 38 sheets net (1200 / 32). With a 10% waste allowance, order 42 total OSB panels.
 
-### Is OSB better than Plywood for exterior sheathing?
-Engineered OSB offers uniform density without core voids or knots, consistent shear strength, and lower cost per sheet, making it the dominant sheathing material in modern home construction.
+### What OSB thickness should be used for roof decking?
+7/16-inch or 1/2-inch APA-rated OSB is standard for roof rafters or trusses spaced 24 inches on-center. 5/8-inch is used for heavy snow loads.
 
-### How many OSB sheets are on a full lift or pallet?
-A full factory unit (bundle/pallet) of 7/16-inch OSB typically contains 90 sheets. A unit of 23/32-inch T&G subfloor OSB contains 55 sheets.
+### What OSB thickness is required for subflooring?
+Subfloors require 23/32-inch (3/4-inch nominal) tongue-and-groove (T&G) OSB panels glued and screwed to floor joists spaced 16 inches on-center.
+
+### Which side of OSB sheathing faces out on a roof deck?
+The textured, grid-marked non-skid side faces UP/OUT for worker safety, with the smooth stamped side facing down into the attic space.
+
+### Should OSB sheathing panels be installed with a expansion gap?
+Yes, APA guidelines mandate leaving a 1/8-inch expansion gap at all panel edge and end joints to prevent buckling from humidity.
+
+### Is OSB better or cheaper than CDX plywood for wall framing?
+OSB is typically 20% to 30% cheaper than CDX plywood while offering consistent density without core voids or knots.

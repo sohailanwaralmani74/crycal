@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: SaaS Pricing Calculator – Cost-Plus vs. Value-Based Pricing
-description: Compare cost-plus and value-based pricing models for your SaaS product. Calculate optimal target tier prices, gross margins, and value capture.
+title: "Saas Pricing | Interactive Online Tool"
+description: "Compare cost-plus and value-based pricing models for your SaaS product. Calculate optimal target tier prices, gross margins, and value capture."
 permalink: /saas-pricing-calculator
 tool_id: saas-pricing-calculator
 category: saas-pricing-packaging
@@ -163,7 +163,7 @@ faq:
 
 ---
 
-# SaaS Pricing Calculator – Cost-Plus vs. Value-Based Pricing
+# Saas Pricing Calculator
 
 Calculate and optimize your SaaS subscription tier pricing by comparing **Cost-Plus** pricing floors against **Value-Based** pricing ceilings.
 

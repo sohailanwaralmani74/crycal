@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Support Ticket Cost Calculator – Customer Support Expense Engine
-description: Calculate the fully-loaded cost to resolve one customer support ticket based on support team payroll, software tools, and ticket volume.
+title: "Support Ticket Cost | Interactive Online Tool"
+description: "Calculate the fully-loaded cost to resolve one customer support ticket based on support team payroll, software tools, and ticket volume."
 permalink: /support-ticket-cost-calculator
 tool_id: support-ticket-cost-calculator
 category: saas-team-operations
@@ -131,7 +131,7 @@ faq:
     answer: "Reduce cost per ticket by improving in-product UI UX clarity, publishing detailed documentation, using AI auto-responders, and implementing macros for common questions."
 ---
 
-# Support Ticket Cost Calculator – Customer Support Expense Engine
+# Support Ticket Cost Calculator
 
 Accurately calculate the unit cost per resolved customer inquiry with our **Support Ticket Cost Calculator**. Include support agent payroll, helpdesk tooling (Zendesk/Intercom), and ticket volume.
 

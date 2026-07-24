@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Tile Grout Calculator – Grout Pounds & Bag Count Estimator
-description: Calculate tile grout needed in pounds and 25 lb / 10 lb bags based on tile length, width, thickness, and grout joint width in inches.
+title: "Tile Grout | Interactive Online Tool"
+description: "Calculate tile grout needed in pounds and 25 lb / 10 lb bags based on tile length, width, thickness, and grout joint width in inches."
 permalink: /tile-grout-calculator
 tool_id: tile-grout-calculator
 category: flooring
@@ -152,7 +152,7 @@ faq:
     answer: "No. All calculations are executed privately inside your web browser."
 ---
 
-# Tile Grout Calculator – Grout Pounds & Bag Count Estimator
+# Tile Grout Calculator
 
 Calculate the exact **grout required in pounds** and the total number of **grout bags to purchase** based on tile dimensions, tile thickness, and grout joint width with our free **Tile Grout Calculator**.
 

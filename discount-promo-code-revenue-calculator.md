@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Discount & Promo Code Revenue Calculator – Promo Campaign Margin
-description: Calculate the revenue, margin, and post-promo retention impact of offering 10% to 50% discount promotional campaigns over 3 to 12 months.
+title: "Discount Promo Code Revenue | Interactive Online Tool"
+description: "Calculate the revenue, margin, and post-promo retention impact of offering 10% to 50% discount promotional campaigns over 3 to 12 months."
 permalink: /discount-promo-code-revenue-calculator
 tool_id: discount-promo-code-revenue-calculator
 category: saas-pricing-packaging
@@ -152,7 +152,7 @@ faq:
 
 ---
 
-# Discount & Promo Code Revenue Calculator – Promo Campaign Margin
+# Discount Promo Code Revenue Calculator
 
 Evaluate the net financial profitability of offering **promotional discounts** and **coupon campaigns**.
 

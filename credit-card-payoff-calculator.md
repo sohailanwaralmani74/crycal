@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Credit Card Payoff Calculator
-description: Calculate how long it will take to pay off your credit card balance and how much interest you'll save with extra payments.
+title: "Credit Card Payoff | Interactive Online Tool"
+description: "Calculate how long it will take to pay off your credit card balance and how much interest youll save with extra payments."
 permalink: /credit-card-payoff-calculator
 tool_id: credit-card-payoff
 category: debt
@@ -152,7 +152,7 @@ faq:
 
 ---
 
-# Credit Card Payoff Calculator – Get Out of Debt Faster
+# Credit Card Payoff Calculator
 
 Use this credit card payoff calculator to see how long it will take to pay off your credit card balance and how much you can save by paying extra. Enter your current balance, APR, monthly payment, and extra monthly payment — the tool shows your original payoff date, new payoff date, time saved, and total interest saved. Whether you're tackling a single card or building a repayment plan, this credit card payment calculator helps you take control of your debt.
 

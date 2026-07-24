@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Compound Annual Growth Rate Calculator
+   Wanjaaro — Compound Annual Growth Rate Calculator
    Tool ID: cagr-calculator
 ═══════════════════════════════════════════════════════════ */
 

@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Deferred Revenue Calculator – Unearned Subscription Balance
-description: Calculate unearned subscription deferred revenue balances from annual upfront billings and model monthly GAAP earned revenue burn down.
+title: "Deferred Revenue | Interactive Online Tool"
+description: "Calculate unearned subscription deferred revenue balances from annual upfront billings and model monthly GAAP earned revenue burn down."
 permalink: /deferred-revenue-calculator
 tool_id: deferred-revenue-calculator
 category: saas-revenue-growth-metrics

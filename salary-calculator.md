@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Salary Calculator
-description: Convert your salary between hourly, daily, weekly, monthly, and annual pay — works with any currency and any work schedule, anywhere in the world.
+title: "Salary | Interactive Online Tool"
+description: "Convert your salary between hourly, daily, weekly, monthly, and annual pay — works with any currency and any work schedule, anywhere in the world."
 permalink: /salary-calculator
 tool_id: salary
 category: tax
@@ -163,7 +163,7 @@ Convert your salary between hourly, daily, weekly, bi-weekly, monthly, and annua
 
 <!-- more -->
 
-## How to Use This Tool
+## How to Use the Salary Calculator
 
 1. Select your **account currency** from the picker in the site header — this calculator works with any currency in the world.
 2. Enter your **salary amount** and choose which pay period it represents (hourly, daily, weekly, bi-weekly, monthly, or annual).
@@ -180,7 +180,7 @@ The **Working Weeks Per Year** field is the most commonly overlooked input. A fu
 
 ---
 
-## Frequently Asked Questions
+## Salary Calculator FAQ
 
 ### How do I convert an hourly wage to an annual salary?
 Multiply your hourly rate by the number of hours you work per day, then by the number of days you work per week, then by the number of weeks you work per year. This calculator does that automatically and also works in reverse, from annual down to hourly.

@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Investment Calculator
-description: Calculate the future value of your investments with compound growth. Enter lump sum, monthly contributions, expected return, and time horizon.
+title: "Investment | Interactive Online Tool"
+description: "Calculate the future value of your investments with compound growth. Enter lump sum, monthly contributions, expected return, and time horizon."
 permalink: /investment-calculator
 tool_id: investment
 category: growth
@@ -154,7 +154,7 @@ faq:
 
 ---
 
-# Investment Calculator – Project Your Future Growth
+# Investment Calculator
 
 Use this investment calculator to project how your money will grow over time. Enter your initial investment (lump sum), optional monthly contributions, expected annual return, and time horizon — the tool shows your future value, total returns, and CAGR. Whether you're planning for retirement or evaluating a potential investment, this calculator gives you the numbers you need.
 

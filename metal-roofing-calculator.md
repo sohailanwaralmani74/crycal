@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Metal Roofing Calculator – Standing Seam Panels & Costs
-description: Calculate standing seam metal panels count by width (12", 16", or 24"), panel linear feet, fasteners count, ridge trim, and material cost.
+title: "Metal Roofing | Interactive Online Tool"
+description: "Calculate standing seam metal panels count by width (12, 16, or 24), panel linear feet, fasteners count, ridge trim, and material cost."
 permalink: /metal-roofing-calculator
 tool_id: metal-roofing-calculator
 category: roofing
@@ -152,7 +152,7 @@ faq:
     answer: "No. All calculations are executed locally in your browser."
 ---
 
-# Metal Roofing Calculator – Standing Seam Panels & Costs
+# Metal Roofing Calculator
 
 Calculate exact **Standing Seam Metal Panels** sheet count, panel linear footage, neoprene screw counts, ridge cap trim, and material cost with our free **Metal Roofing Calculator**.
 

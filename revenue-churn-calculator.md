@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Revenue Churn Calculator – Gross & Net Revenue Churn
-description: Calculate your Gross and Net Revenue Churn percentages. Measure recurring dollars lost from cancellations and downgrades.
+title: "Revenue Churn | Interactive Online Tool"
+description: "Calculate your Gross and Net Revenue Churn percentages. Measure recurring dollars lost from cancellations and downgrades."
 permalink: /revenue-churn-calculator
 tool_id: revenue-churn-calculator
 category: saas-revenue-growth-metrics

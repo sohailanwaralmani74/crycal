@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Laminate Flooring Calculator – Cartons, Underlayment & Cost Estimator
-description: Calculate laminate flooring cartons, underlayment rolls, transition T-molding strips, waste percentage, and total material cost.
+title: "Laminate Flooring | Interactive Online Tool"
+description: "Calculate laminate flooring cartons, underlayment rolls, transition T-molding strips, waste percentage, and total material cost."
 permalink: /laminate-flooring-calculator
 tool_id: laminate-flooring-calculator
 category: flooring
@@ -154,7 +154,7 @@ faq:
     answer: "No. All calculations run privately within your local web browser."
 ---
 
-# Laminate Flooring Calculator – Cartons, Underlayment & Cost Estimator
+# Laminate Flooring Calculator
 
 Accurately calculate **laminate plank cartons**, foam underlayment rolls, transition T-molding strips, and material costs with our free **Laminate Flooring Calculator**.
 

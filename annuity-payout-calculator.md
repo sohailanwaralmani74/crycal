@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Annuity Payout Calculator – Estimate Your Fixed Payment
-description: Use the Annuity Payout Calculator to estimate your fixed periodic payment from an annuity, based on principal, interest rate, and payout term.
+title: "Annuity Payout | Interactive Online Tool"
+description: "Use the Annuity Payout Calculator to estimate your fixed periodic payment from an annuity, based on principal, interest rate, and payout term."
 permalink: /annuity-payout-calculator
 tool_id: annuity-payout-calculator
 category: retirement
@@ -109,7 +109,7 @@ faq:
     answer: "No. All calculations run locally in your browser. No data is sent to any server."
 ---
 
-# Calculate Your Fixed Annuity Payout
+# Annuity Payout Calculator
 
 Use the **Annuity Payout Calculator** to estimate your fixed periodic payment from an annuity, based on principal, interest rate, and payout term.
 

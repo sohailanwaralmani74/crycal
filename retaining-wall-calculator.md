@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Retaining Wall Calculator – Block, Gravel & Capstone Estimator
-description: Calculate the number of concrete blocks, capstones, gravel backfill volume in cubic yards, and total material cost for retaining walls.
+title: "Retaining Wall | Interactive Online Tool"
+description: "Calculate the number of concrete blocks, capstones, gravel backfill volume in cubic yards, and total material cost for retaining walls."
 permalink: /retaining-wall-calculator
 tool_id: retaining-wall-calculator
 category: concrete-masonry
@@ -153,7 +153,7 @@ faq:
     answer: "No. All calculations run strictly inside your local web browser."
 ---
 
-# Retaining Wall Calculator – Block, Gravel & Capstone Estimator
+# Retaining Wall Calculator
 
 Determine exact material requirements for segmental concrete block retaining walls, including **interlocking wall blocks**, **top capstones**, **gravel drainage backfill**, and total project costs.
 

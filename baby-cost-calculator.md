@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Baby Cost Calculator – First Year Infant Expense Estimator
-description: Estimate first-year baby expenses including diapers, nursery gear, formula, medical care, and childcare.
+title: "Baby Cost | Interactive Online Tool"
+description: "Estimate first-year baby expenses including diapers, nursery gear, formula, medical care, and childcare."
 permalink: /baby-cost-calculator
 tool_id: baby-cost-calculator
 category: budgeting
@@ -125,7 +125,7 @@ faq:
     answer: "No. All calculations run locally inside your web browser. History and saved presets are stored strictly in your browser's local storage."
 ---
 
-# Baby Cost Calculator – First Year Infant Expense Estimator
+# Baby Cost Calculator
 
 Estimate total first-year newborn expenses including daycare, diapers, nursery gear, and medical bills with our free **Baby Cost Calculator**.
 

@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: IDV Calculator – Insured Declared Value for Car Insurance
-description: Calculate your car's Insured Declared Value (IDV) for insurance purposes. Enter your vehicle's ex-showroom price, registration year, and depreciation rate.
+title: "Idv Insurance | Interactive Online Tool"
+description: "Calculate your cars Insured Declared Value (IDV) for insurance purposes. Enter your vehicles ex-showroom price, registration year, and depreciation rate."
 permalink: /idv-calculator
 tool_id: idv-calculator
 category: insurance
@@ -154,7 +154,7 @@ faq:
 
 ---
 
-# IDV Calculator – Calculate Your Car's Insured Declared Value
+# Idv Insurance Calculator
 
 Calculate your car's Insured Declared Value (IDV) for insurance purposes with our free IDV calculator. Enter your ex-showroom price, registration year, and accessories cost. We auto-calculate depreciation based on vehicle age, let you override rates manually, and show you a clear breakdown—all without your data leaving your browser.
 

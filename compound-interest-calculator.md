@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Compound Interest Calculator – Free Online Growth Estimator
-description: Calculate compound interest with daily, monthly, or annual compounding. Includes inflation adjustment, monthly contributions.
+title: "Compound Interest | Interactive Online Tool"
+description: "Calculate compound interest with daily, monthly, or annual compounding. Includes inflation adjustment, monthly contributions."
 permalink: /compound-interest-calculator
 tool_id: compound-interest
 category: growth
@@ -163,7 +163,7 @@ faq:
     answer: "No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server."
 ---
 
-# Free Compound Interest Calculator – Daily, Monthly, Annual Compounding
+# Compound Interest Calculator
 
 Calculate your wealth over time with our free Compound Interest Calculator. Enter your initial principal, monthly contributions, annual interest rate, and time frame. We handle daily, monthly, and annual compounding, adjust for inflation, and visualise your growth in real-time—all without your data leaving your browser.
 

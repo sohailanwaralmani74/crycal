@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Wheel Offset & Backspacing Calculator – Clearance & Fitment Estimator
-description: Convert wheel offset (mm) to backspacing (inches). Compare current vs new wheel widths and offsets to calculate inner suspension and outer fender clearance changes.
+title: "Wheel Offset & Backspacing Calculator | Online Tool"
+description: "Convert wheel offset (mm) to backspacing (inches). With Wheel Offset Backspacing Calculator. Tool is free and browser based."
 permalink: /wheel-offset-backspacing-calculator
 tool_id: wheel-offset-backspacing-calculator
 category: auto-tires-wheels
@@ -129,7 +129,7 @@ faq:
 
 ---
 
-# Wheel Offset & Backspacing Calculator – Clearance & Fitment Estimator
+# Wheel Offset Backspacing Calculator
 
 Convert wheel offset (mm) to backspacing (inches) and evaluate inner suspension and outer fender clearance changes with our free **Wheel Offset & Backspacing Calculator**.
 

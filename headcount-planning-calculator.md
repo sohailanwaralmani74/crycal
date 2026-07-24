@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Headcount Planning Calculator – Growth Hiring & Payroll Model
-description: Model hiring plans, new headcount requirements, and payroll OpEx budget needed to support ARR target growth milestones.
+title: "Headcount Planning | Interactive Online Tool"
+description: "Model hiring plans, new headcount requirements, and payroll OpEx budget needed to support ARR target growth milestones."
 permalink: /headcount-planning-calculator
 tool_id: headcount-planning-calculator
 category: saas-team-operations
@@ -140,7 +140,7 @@ faq:
     answer: "Reduce payroll expansion by leveraging AI workflow automation, hiring nearshore talent, increasing self-serve customer onboarding, and expanding contractor support."
 ---
 
-# Headcount Planning Calculator – Growth Hiring & Payroll Model
+# Headcount Planning Calculator
 
 Project workforce expansion, new hiring requirements, and payroll OpEx additions needed to achieve target ARR milestones with our **Headcount Planning Calculator**.
 

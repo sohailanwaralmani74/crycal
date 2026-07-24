@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Home Affordability Calculator
-description: Calculate how much house you can afford based on your income, debts, down payment, and current interest rates. Plan your home purchase with confidence.
+title: "Home Affordability | Interactive Online Tool"
+description: "Calculate how much house you can afford based on your income, debts, down payment, and current interest rates. Plan your home purchase with confidence."
 permalink: /home-affordability-calculator
 tool_id: home-affordability
 category: mortgage
@@ -217,7 +217,7 @@ faq:
 
 ---
 
-# Home Affordability Calculator – How Much House Can You Afford?
+# Home Affordability Calculator
 
 Use this home affordability calculator to find out how much house you can afford based on your income, debts, down payment, and current interest rates. Enter your annual income, monthly debts, down payment, and loan details — the tool shows your maximum affordable home price, estimated monthly payment, and front-end and back-end DTI ratios. Whether you're wondering "how much home can you afford?" or "how expensive of a house can I afford?", this affordability calculator gives you a clear answer.
 

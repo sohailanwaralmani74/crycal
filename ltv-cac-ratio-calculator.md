@@ -112,7 +112,7 @@ faq:
     a: "All calculations run strictly inside your local browser."
 ---
 
-# LTV:CAC Ratio Calculator
+# Calculate LTV to CAC Ratio
 
 Calculate your SaaS LTV:CAC benchmark ratio (target 3:1+) to determine customer acquisition efficiency and venture scalability. Use our free **LTV:CAC Ratio Calculator** to evaluate your SaaS business performance and make data-driven growth decisions — without any data leaving your browser.
 

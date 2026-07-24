@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Paint Color & Coverage Calculator – Accent & Primary Wall Paint Estimator
-description: Calculate paint gallons and quarts needed for accent and primary walls, factoring in paint coats, coverage rate, and total project cost.
+title: "Paint Color Coverage | Interactive Online Tool"
+description: "Calculate paint gallons and quarts needed for accent and primary walls, factoring in paint coats, coverage rate, and total project cost."
 permalink: /paint-color-coverage-calculator
 tool_id: paint-color-coverage-calculator
 category: home-decor-interior
@@ -146,7 +146,7 @@ faq:
     answer: "No. All calculation formulas are executed locally within your web browser."
 ---
 
-# Paint Color & Coverage Calculator – Accent & Primary Wall Paint Estimator
+# Paint Color Coverage Calculator
 
 Accurately calculate paint quarts for accent feature walls, gallons for main primary walls, and total project material expenses with our free **Paint Color & Coverage Calculator**.
 

@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Convertible Note Interest Calculator – Accrued Note Interest
-description: Calculate accrued simple interest or compound interest on convertible debt prior to conversion into equity during a priced funding round.
+title: "Convertible Note Interest | Interactive Online Tool"
+description: "Calculate accrued simple interest or compound interest on convertible debt prior to conversion into equity during a priced funding round."
 permalink: /convertible-note-interest-calculator
 tool_id: convertible-note-interest-calculator
 category: saas-fundraising-valuation
@@ -146,7 +146,7 @@ faq:
 
 ---
 
-# Convertible Note Interest Calculator – Accrued Note Interest
+# Convertible Note Interest Calculator
 
 Calculate accrued interest and total equity conversion value for convertible debt with our free **Convertible Note Interest Calculator**. Model simple vs compounding interest over time and project shares issued upon round conversion.
 

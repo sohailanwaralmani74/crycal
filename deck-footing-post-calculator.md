@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Deck Footing & Post Calculator – Estimate Concrete, Sonotubes & Lumber
-description: Calculate the number of concrete footings, 80lb concrete bags, Sonotube volumes, 4x4 or 6x6 post quantities, total post height, and material costs for deck building.
+title: "Deck Footing Post | Interactive Online Tool"
+description: "Calculate the number of concrete footings, 80lb concrete bags, Sonotube volumes, 4x4 or 6x6 post quantities, total post height, and material..."
 permalink: /deck-footing-post-calculator
 tool_id: deck-footing-post-calculator
 category: lumber-framing
@@ -169,7 +169,7 @@ faq:
     answer: "No. All calculations run locally in your web browser."
 ---
 
-# Deck Footing & Post Calculator – Estimate Concrete, Sonotubes & Lumber
+# Deck Footing Post Calculator
 
 Calculate the required number of concrete piers, **80 lb ready-mix concrete bags**, Sonotube cylinder volumes, **4x4 or 6x6 timber support posts**, total post height footage, and estimated project cost with our free **Deck Footing & Post Calculator**.
 

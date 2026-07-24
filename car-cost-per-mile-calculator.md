@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Car Cost Per Mile Calculator – True Operating Expense Per Mile
-description: Calculate your vehicle's total operating cost per mile, separating fixed costs (insurance, financing, depreciation) from variable costs (fuel, repairs, tolls).
+title: "Car Cost Per Mile | Interactive Online Tool"
+description: "Calculate your vehicles total operating cost per mile, separating fixed costs (insurance, financing, depreciation) from variable costs (fuel,..."
 permalink: /car-cost-per-mile-calculator
 tool_id: car-cost-per-mile-calculator
 category: auto-cost-ownership

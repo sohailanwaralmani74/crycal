@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Life Insurance Calculator
-description: Estimate how much life insurance coverage you need. Calculate income replacement, debt coverage, final expenses, and more.
+title: "Life Insurance | Interactive Online Tool"
+description: "Estimate how much life insurance coverage you need. Calculate income replacement, debt coverage, final expenses, and more."
 permalink: /life-insurance-calculator
 tool_id: life-insurance
 category: insurance
@@ -206,7 +206,7 @@ faq:
 
 ---
 
-# Life Insurance Calculator – Estimate Your Coverage Need
+# Life Insurance Calculator
 
 Use this life insurance calculator to estimate how much coverage you need to protect your family. Enter your income, debts, final expenses, children's education costs, and existing savings — the tool shows your total insurance need and recommended coverage. Whether you're buying term life, whole life, or reviewing your existing policy, this life insurance needs calculator gives you a clear starting point.
 

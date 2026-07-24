@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Marketing Budget Allocation Calculator – Multi-Channel Spend Planner
-description: Plan and allocate your monthly marketing budget across PPC, LinkedIn Ads, SEO, and Events based on target customer acquisition costs (CAC).
+title: "Marketing Budget Allocation | Interactive Online Tool"
+description: "Plan and allocate your monthly marketing budget across PPC, LinkedIn Ads, SEO, and Events based on target customer acquisition costs (CAC)."
 permalink: /marketing-budget-allocation-calculator
 tool_id: marketing-budget-allocation-calculator
 category: saas-marketing-ads
@@ -150,7 +150,7 @@ faq:
     answer: "The calculator automatically scales and normalizes percentage shares to ensure 100% of your budget is accurately distributed."
 ---
 
-# Marketing Budget Allocation Calculator – Multi-Channel Spend Planner
+# Marketing Budget Allocation Calculator
 
 Plan, balance, and optimize your monthly growth budget with our **Marketing Budget Allocation Calculator**. Distribute funds efficiently across PPC, LinkedIn, SEO, and Events to hit customer acquisition targets.
 

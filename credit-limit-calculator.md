@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Credit Limit Calculator – Estimate Your Credit Card Limit
-description: Estimate credit card limit with our free Credit Limit Calculator. Enter income, monthly debts, credit score, and existing credit to see estimated limit.
+title: "Credit Limit | Interactive Online Tool"
+description: "Estimate credit card limit with our free Credit Limit Calculator. Enter income, monthly debts, credit score, and existing credit to see estimated limit."
 permalink: /credit-limit-calculator
 tool_id: credit-limit-calculator
 category: budgeting
@@ -163,7 +163,7 @@ faq:
 
 ---
 
-# Credit Limit Calculator – Estimate Your Credit Card Limit
+# Credit Limit Calculator
 
 Use this credit limit calculator to estimate how much credit card limit you might qualify for. Enter your annual income, monthly debts, credit score, and existing credit — the tool shows your estimated limit, low-to-high range, and debt-to-income ratio. This credit card limit estimator helps you understand your credit potential.
 

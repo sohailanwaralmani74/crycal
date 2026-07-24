@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Bookings vs Revenue Recognition Calculator
+   Wanjaaro — Bookings vs Revenue Recognition Calculator
    Tool ID: bookings-vs-revenue-recognition-calculator
 ═══════════════════════════════════════════════════════════ */
 

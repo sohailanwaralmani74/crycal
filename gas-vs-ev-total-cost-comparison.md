@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Gas vs EV Total Cost Comparison Calculator – 5-Year TCO
-description: Compare the 5-year total cost of ownership (TCO) of a gas-powered car versus an electric vehicle including purchase price, tax credits, fuel, and maintenance.
+title: "Gas Vs Ev Total Cost Comparison | Interactive Online Tool"
+description: "Free online Gas Vs Ev Total Cost Comparison. Calculate loan payments, interest growth, taxes, and financial metrics with instant browser math and charts."
 permalink: /gas-vs-ev-total-cost-comparison
 tool_id: gas-vs-ev-total-cost-comparison
 category: electric-vehicle-ev
@@ -195,7 +195,7 @@ faq:
 
 ---
 
-# Gas vs EV Total Cost Comparison Calculator
+# Gas Vs Ev Total Cost Comparison Calculator
 
 Compare the complete 5-year Total Cost of Ownership (TCO) between a gasoline-powered car and an electric vehicle (EV).
 

@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Primer Coverage Calculator – Gallons, Pails & Cost Estimator
-description: Calculate primer gallons needed for raw drywall, bare wood, or masonry surfaces (200-350 sq ft/gal), coats, and total material cost.
+title: "Primer Coverage | Interactive Online Tool"
+description: "Calculate primer gallons needed for raw drywall, bare wood, or masonry surfaces (200-350 sq ft/gal), coats, and total material cost."
 permalink: /primer-coverage-calculator
 tool_id: primer-coverage-calculator
 category: drywall-paint
@@ -141,7 +141,7 @@ faq:
     answer: "No. All calculations run locally in your web browser."
 ---
 
-# Primer Coverage Calculator – Gallons, Pails & Cost Estimator
+# Primer Coverage Calculator
 
 Calculate exact quantities of **primer paint gallons**, **5-gallon contractor pails**, **1-gallon paint cans**, and total material expenditure with our **Primer Coverage Calculator**.
 

@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Sod Grass Calculator – Pallet & Roll Estimator
-description: Calculate sod square footage, pallet counts (450 sq ft/pallet), roll counts (10 sq ft/roll), 5% cutting waste allowance, and total sod costs.
+title: "Sod Grass | Interactive Online Tool"
+description: "Calculate sod square footage, pallet counts (450 sq ft/pallet), roll counts (10 sq ft/roll), 5% cutting waste allowance, and total sod costs."
 permalink: /sod-grass-calculator
 tool_id: sod-grass-calculator
 category: landscaping-outdoor
@@ -129,7 +129,7 @@ faq:
     answer: "No. All calculation formulas execute directly within your web browser, preserving total privacy."
 ---
 
-# Sod Grass Calculator – Pallet & Roll Estimator
+# Sod Grass Calculator
 
 Calculate sod requirements in **total square feet**, determine full **pallet counts** (450 sq ft/pallet) and individual **roll counts** (10 sq ft/roll), and factor in a **5% to 10% waste buffer**.
 

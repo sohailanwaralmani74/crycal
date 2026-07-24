@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: CPL Calculator – Cost Per Lead & Marketing Efficiency Estimator
-description: Calculate your Cost Per Lead (CPL), Cost Per MQL, and lead efficiency. Optimize your marketing ad spend and acquisition pipeline performance.
+title: "Cpl Cost Per Lead | Interactive Online Tool"
+description: "Calculate your Cost Per Lead (CPL), Cost Per MQL, and lead efficiency. Optimize your marketing ad spend and acquisition pipeline performance."
 permalink: /cpl-cost-per-lead-calculator
 tool_id: cpl-cost-per-lead-calculator
 category: saas-marketing-ads
@@ -130,7 +130,7 @@ faq:
     answer: "Lower CPL by refining ad targeting, improving lead form conversion rates, running lead magnet campaigns, or reallocating budget to lower-cost channels."
 ---
 
-# CPL Calculator – Cost Per Lead & Marketing Efficiency Estimator
+# Cpl Cost Per Lead Calculator
 
 Track and optimize your marketing efficiency with our **CPL Calculator**. Compute your Cost Per Lead (CPL), Cost Per MQL, and evaluate performance against target benchmarks.
 

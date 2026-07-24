@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Webinar ROI Calculator – Promotional Event ARR Estimator
-description: Calculate ROI, pipeline ARR, live attendee counts, and closed deals generated from hosting promotional customer webinars.
+title: "Webinar Roi | Interactive Online Tool"
+description: "Calculate ROI, pipeline ARR, live attendee counts, and closed deals generated from hosting promotional customer webinars."
 permalink: /webinar-roi-calculator
 tool_id: webinar-roi-calculator
 category: saas-marketing-ads
@@ -153,7 +153,7 @@ faq:
     answer: "Include ad promotion spend (LinkedIn/Google), landing page software fees, speaker fees, and internal team preparation labor."
 ---
 
-# Webinar ROI Calculator – Promotional Event ARR Estimator
+# Webinar Roi Calculator
 
 Quantify the revenue impact of your virtual events, product demos, and masterclasses with our **Webinar ROI Calculator**.
 

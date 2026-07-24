@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Employee Equity Value Estimator – Stock Option Exit Value
-description: Estimate employee stock option financial gain at M&A or IPO exit after deducting strike price exercise costs and estimated capital gains taxes.
+title: "Employee Equity Value Estimator | Interactive Online Tool"
+description: "Estimate employee stock option financial gain at M&A or IPO exit after deducting strike price exercise costs and estimated capital gains taxes."
 permalink: /employee-equity-value-estimator
 tool_id: employee-equity-value-estimator
 category: saas-fundraising-valuation
@@ -136,7 +136,7 @@ faq:
 
 ---
 
-# Employee Equity Value Estimator – Stock Option Exit Value
+# Employee Equity Value Estimator Calculator
 
 Estimate your net cash payout from startup stock options upon an IPO or M&A acquisition with our free **Employee Equity Value Estimator**. Model strike price exercise costs, gross proceeds, and estimated tax liabilities.
 

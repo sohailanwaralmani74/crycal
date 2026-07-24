@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Loan Payoff Calculator
-description: Calculate how much you can save by paying extra on your loan. See your new payoff date, total time saved, and total interest saved.
+title: "Loan Payoff | Interactive Online Tool"
+description: "Calculate how much you can save by paying extra on your loan. See your new payoff date, total time saved, and total interest saved."
 permalink: /loan-payoff-calculator
 tool_id: loan-payoff
 category: debt
@@ -154,7 +154,7 @@ faq:
 
 ---
 
-# Loan Payoff Calculator – Pay Off Your Loan Faster
+# Loan Payoff Calculator
 
 Use this loan payoff calculator to see how extra payments can shorten your loan term and save you money. Enter your current loan balance, interest rate, monthly payment, and extra monthly payment — the tool shows your original payoff date, new payoff date, time saved, and total interest saved. Whether you have a personal loan, auto loan, or student loan, this pay off loan calculator gives you a clear roadmap to financial freedom.
 

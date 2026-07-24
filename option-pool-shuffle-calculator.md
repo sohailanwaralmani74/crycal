@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Option Pool Shuffle Calculator – Pre-Money Pool Dilution Impact
-description: Calculate the hidden founder dilution cost of creating an unallocated option pool pre-money versus post-money in venture capital term sheets.
+title: "Option Pool Shuffle | Interactive Online Tool"
+description: "Calculate the hidden founder dilution cost of creating an unallocated option pool pre-money versus post-money in venture capital term sheets."
 permalink: /option-pool-shuffle-calculator
 tool_id: option-pool-shuffle-calculator
 category: saas-fundraising-valuation
@@ -136,7 +136,7 @@ faq:
 
 ---
 
-# Option Pool Shuffle Calculator – Pre-Money Pool Dilution Impact
+# Option Pool Shuffle Calculator
 
 Calculate the hidden founder dilution cost of creating an unallocated option pool pre-money versus post-money with our free **Option Pool Shuffle Calculator**.
 

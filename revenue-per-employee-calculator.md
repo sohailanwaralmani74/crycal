@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Revenue Per Employee Calculator – Workforce Productivity Benchmark
-description: Calculate organizational Revenue Per Employee (RPE) by dividing annual ARR by total full-time headcount. Compare performance against industry benchmarks.
+title: "Revenue Per Employee | Interactive Online Tool"
+description: "Calculate organizational Revenue Per Employee (RPE) by dividing annual ARR by total full-time headcount. Compare performance against industry benchmarks."
 permalink: /revenue-per-employee-calculator
 tool_id: revenue-per-employee-calculator
 category: saas-team-operations
@@ -120,7 +120,7 @@ faq:
     answer: "Increase RPE by automating manual customer support workflows, expanding self-serve PLG tiers, optimizing pricing models, and upskilling existing team members."
 ---
 
-# Revenue Per Employee Calculator – Workforce Productivity Benchmark
+# Revenue Per Employee Calculator
 
 Measure operational leverage and workforce efficiency with our **Revenue Per Employee Calculator**. Compare your organization's ARR per employee against SaaS industry benchmarks.
 

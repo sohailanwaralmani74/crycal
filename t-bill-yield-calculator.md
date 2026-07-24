@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: T-Bill Yield Calculator – Calculate Treasury Bill Return
-description: Calculate your Treasury Bill yield with our free T-Bill Yield Calculator. Enter purchase price, face value, and days to maturity to see your discount yield, investment yield, and rate of return.
+title: "T Bill Yield | Interactive Online Tool"
+description: "Calculate your Treasury Bill yield with our free T-Bill Yield Calculator."
 permalink: /t-bill-yield-calculator
 tool_id: t-bill-yield-calculator
 category: growth
@@ -130,7 +130,7 @@ faq:
 
 ---
 
-# T-Bill Yield Calculator – Treasury Bill Rate & Return Estimator
+# T Bill Yield Calculator
 
 Calculate your Treasury Bill yield with our free **T-Bill Yield Calculator**. Enter purchase price, face value, and days to maturity to see your discount yield, investment yield, and rate of return — all without your data leaving your browser.
 

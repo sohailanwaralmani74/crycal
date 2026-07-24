@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Topsoil Calculator – Cubic Yards, Weight in Tons & Bag Estimator
-description: Calculate topsoil cubic yards, soil weight in tons (1.3 tons/yd³), 40lb bag counts, and material costs for lawn grading and garden beds.
+title: "Topsoil | Interactive Online Tool"
+description: "Calculate topsoil cubic yards, soil weight in tons (1.3 tons/yd³), 40lb bag counts, and material costs for lawn grading and garden beds."
 permalink: /topsoil-calculator
 tool_id: topsoil-calculator
 category: landscaping-outdoor
@@ -138,7 +138,7 @@ faq:
     answer: "No. All computations take place locally inside your browser ensuring 100% data privacy."
 ---
 
-# Topsoil Calculator – Cubic Yards, Weight in Tons & Bag Estimator
+# Topsoil Calculator
 
 Estimate topsoil requirements in **cubic yards**, convert volume to **weight in tons**, determine **40 lb bag counts**, and compare bulk soil prices against bagged soil.
 

@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: PMI Calculator – Private Mortgage Insurance Cost & Cancellation
-description: Calculate your monthly PMI cost, total PMI paid, and when you can cancel Private Mortgage Insurance. Enter home price, down payment, and PMI rate.
+title: "Pmi | Interactive Online Tool"
+description: "Calculate your monthly PMI cost, total PMI paid, and when you can cancel Private Mortgage Insurance. Enter home price, down payment, and PMI rate."
 permalink: /pmi-calculator
 tool_id: pmi-calculator
 category: mortgage
@@ -159,7 +159,7 @@ faq:
 
 ---
 
-# PMI Calculator – Estimate Your Private Mortgage Insurance
+# Pmi Calculator
 
 Use this PMI calculator to estimate your monthly Private Mortgage Insurance cost and find out exactly when you can cancel it. Enter your home price, down payment, and PMI rate — the tool shows your monthly PMI, total PMI paid, and the loan balance at cancellation. This PMI cancellation calculator helps you plan your path to eliminating this added cost.
 

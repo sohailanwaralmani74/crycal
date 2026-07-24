@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Furniture Layout & Scale Calculator – Estimate Room Walkway Clearance
-description: Calculate room walkway clearance (30"-36" minimums), coffee table distance (14"-18"), furniture-to-room scale density ratios, and floor layout space.
+title: "Furniture Layout Scale | Interactive Online Tool"
+description: "Calculate room walkway clearance (30-36 minimums), coffee table distance (14-18), furniture-to-room scale density ratios, and floor layout space."
 permalink: /furniture-layout-scale-calculator
 tool_id: furniture-layout-scale-calculator
 category: home-decor-interior
@@ -147,7 +147,7 @@ faq:
     answer: "No. All calculations run strictly in your web browser."
 ---
 
-# Furniture Layout & Scale Calculator – Estimate Room Walkway Clearance
+# Furniture Layout Scale Calculator
 
 Designing an inviting living room requires proper visual scale and comfortable foot traffic circulation. Use our **Furniture Layout & Scale Calculator** to evaluate room density ratios, coffee table ergonomic reach, and verify that main traffic walkways maintain standard 30 to 36-inch clearance.
 

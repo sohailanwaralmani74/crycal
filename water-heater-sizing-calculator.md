@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Water Heater Sizing Calculator – Tank Gallons & Tankless GPM Flow Rate
-description: Calculate required tank water heater capacity (FHR gallons) or tankless water heater GPM flow rate and BTU input based on peak hour hot water demand.
+title: "Water Heater Sizing | Interactive Online Tool"
+description: "Calculate required tank water heater capacity (FHR gallons) or tankless water heater GPM flow rate and BTU input based on peak hour hot water demand."
 permalink: /water-heater-sizing-calculator
 tool_id: water-heater-sizing-calculator
 category: plumbing
@@ -145,7 +145,7 @@ faq:
 
 ---
 
-# Water Heater Sizing Calculator – Tank Gallons & Tankless GPM Flow Rate
+# Water Heater Sizing Calculator
 
 Determine the exact water heater capacity for your home using our **Water Heater Sizing Calculator**. Calculate **First Hour Rating (FHR) in gallons** for storage tank units or **peak flow rate (GPM)** and **temperature rise ($\Delta T$)** for on-demand tankless water heaters.
 

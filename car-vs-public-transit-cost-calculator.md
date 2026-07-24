@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Car vs Public Transit Cost Calculator – Compare Commute Expenses
-description: Compare the total monthly and annual cost of personal car ownership vs using a public transit pass, including rideshares, fuel, insurance, and parking.
+title: "Car Vs Public Transit Cost | Interactive Online Tool"
+description: "Compare the total monthly and annual cost of personal car ownership vs using a public transit pass, including rideshares, fuel, insurance, and parking."
 permalink: /car-vs-public-transit-cost-calculator
 tool_id: car-vs-public-transit-cost-calculator
 category: auto-cost-ownership
@@ -164,7 +164,7 @@ faq:
 
 ---
 
-# Car vs Public Transit Cost Calculator
+# Car Vs Public Transit Cost Calculator
 
 Compare the total monthly and annual financial commitment of personal vehicle ownership against using public transportation.
 

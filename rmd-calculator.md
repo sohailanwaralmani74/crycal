@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Required Minimum Distribution Calculator | US Only
-description: Use our free RMD Calculator to calculate your required minimum distribution from retirement accounts. Enter age, account balance, for RMD amount.
+title: "Rmd | Interactive Online Tool"
+description: "Use our free RMD Calculator to calculate your required minimum distribution from retirement accounts. Enter age, account balance, for RMD amount."
 permalink: /rmd-calculator
 tool_id: rmd-calculator
 category: retirement
@@ -140,7 +140,7 @@ faq:
 
 ---
 
-# RMD Calculator – Required Minimum Distribution Calculator
+# Rmd Calculator
 
 Calculate your Required Minimum Distribution (RMD) with our free **RMD Calculator**. Enter your age, account balance, and beneficiary information to see your RMD amount based on IRS life expectancy tables — all without your data leaving your browser.
 

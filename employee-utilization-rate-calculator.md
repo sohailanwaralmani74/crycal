@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Employee Utilization Rate Calculator – Billable Efficiency Engine
-description: Calculate the percentage of billable or productive core hours vs total available work hours, and project weekly/annual client billing revenue.
+title: "Employee Utilization Rate | Interactive Online Tool"
+description: "Calculate the percentage of billable or productive core hours vs total available work hours, and project weekly/annual client billing revenue."
 permalink: /employee-utilization-rate-calculator
 tool_id: employee-utilization-rate-calculator
 category: saas-team-operations
@@ -132,7 +132,7 @@ faq:
     answer: "Increase utilization by streamlining internal meetings, automating admin reporting, assigning dedicated project managers, and setting clear weekly billable target hours."
 ---
 
-# Employee Utilization Rate Calculator – Billable Efficiency Engine
+# Employee Utilization Rate Calculator
 
 Measure team productivity, billable capacity, and revenue yield with our **Employee Utilization Rate Calculator**.
 

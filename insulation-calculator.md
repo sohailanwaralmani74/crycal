@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Insulation Calculator – Fiberglass Batt & Roll Package Estimator
-description: Calculate fiberglass batt and roll insulation packages, coverage square footage, stud spacing requirements, and total project cost.
+title: "Insulation | Interactive Online Tool"
+description: "Calculate fiberglass batt and roll insulation packages, coverage square footage, stud spacing requirements, and total project cost."
 permalink: /insulation-calculator
 tool_id: insulation-calculator
 category: insulation-hvac
@@ -146,7 +146,7 @@ faq:
     answer: "No. All calculations run entirely inside your browser local Javascript engine."
 ---
 
-# Insulation Calculator – Fiberglass Batt & Roll Package Estimator
+# Insulation Calculator
 
 Calculate exact fiberglass batt and roll package counts, coverage square footage, and material costs for insulating exterior walls, crawl spaces, and attic ceilings.
 

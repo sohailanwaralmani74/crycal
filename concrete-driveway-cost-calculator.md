@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Concrete Driveway Cost Calculator – Volume, Rebar & Cost Estimator
-description: Calculate concrete driveway volume in cubic yards, 4-6 inch thickness cost, rebar mesh grid linear feet, and contractor installation costs.
+title: "Concrete Driveway Cost | Interactive Online Tool"
+description: "Calculate concrete driveway volume in cubic yards, 4-6 inch thickness cost, rebar mesh grid linear feet, and contractor installation costs."
 permalink: /concrete-driveway-cost-calculator
 tool_id: concrete-driveway-cost-calculator
 category: concrete-masonry
@@ -144,7 +144,7 @@ faq:
     answer: "No. All calculation operations execute privately inside your local web browser."
 ---
 
-# Concrete Driveway Cost Calculator – Volume, Rebar & Cost Estimator
+# Concrete Driveway Cost Calculator
 
 Estimate ready-mix concrete **cubic yardage**, **rebar grid steel requirements**, site grading labor, and total installation costs for 4", 5", and 6" thick residential driveways.
 

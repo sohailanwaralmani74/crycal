@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Road Trip Fuel Cost Calculator – Calculate Gas Expense & Passenger Split
-description: Calculate total road trip gas cost, total gallons required, fuel cost per mile, and fair cost split per passenger for multi-waypoint road trips.
+title: "Road Trip Fuel Cost | Interactive Online Tool"
+description: "Calculate total road trip gas cost, total gallons required, fuel cost per mile, and fair cost split per passenger for multi-waypoint road trips."
 permalink: /road-trip-fuel-cost-calculator
 tool_id: road-trip-fuel-cost-calculator
 category: auto-driving-trip-planning
@@ -141,7 +141,7 @@ faq:
 
 ---
 
-# Road Trip Fuel Cost Calculator – Calculate Gas Expense & Passenger Split
+# Road Trip Fuel Cost Calculator
 
 Plan your next cross-country journey or weekend getaway with our free **Road Trip Fuel Cost Calculator**. Calculate total gas expenses, total gallons needed, cost per mile, and fair passenger cost splits in seconds.
 

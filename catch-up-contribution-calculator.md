@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Catch-Up Contribution Calculator – Age-Based Retirement Limits
-description: Use the Catch-Up Contribution Calculator to find your total allowed retirement account contribution based on your age and account type, including SECURE 2.0 enhanced catch-up rules.
+title: "Catch Up Contribution | Interactive Online Tool"
+description: "Use the Catch-Up Contribution Calculator to find your total allowed retirement account contribution based on your age and account type,..."
 permalink: /catch-up-contribution-calculator
 tool_id: catch-up-contribution-calculator
 category: retirement
@@ -114,7 +114,7 @@ faq:
     answer: "No. All calculations run locally in your browser. No data is sent to any server."
 ---
 
-# Calculate Your Age-Based Catch-Up Contribution
+# Catch Up Contribution Calculator
 
 Use the **Catch-Up Contribution Calculator** to find your total allowed retirement account contribution based on your age and account type, including SECURE 2.0 enhanced catch-up rules.
 

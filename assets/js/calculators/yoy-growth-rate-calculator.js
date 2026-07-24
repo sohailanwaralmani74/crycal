@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — YoY Growth Rate Calculator
+   Wanjaaro — YoY Growth Rate Calculator
    Tool ID: yoy-growth-rate-calculator
 ═══════════════════════════════════════════════════════════ */
 

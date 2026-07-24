@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Closing Costs Calculator
-description: Enter loan amount, origination fees, appraisal, title insurance, and more to see your total closing costs and percentage. Estimate Closing cost.
+title: "Closing Costs | Interactive Online Tool"
+description: "Enter loan amount, origination fees, appraisal, title insurance, and more to see your total closing costs and percentage. Estimate Closing cost."
 permalink: /closing-costs-calculator
 tool_id: closing-costs
 category: mortgage
@@ -217,7 +217,7 @@ faq:
 
 ---
 
-# Closing Costs Calculator – Estimate Your Home Closing Fees
+# Closing Costs Calculator
 
 Use this closing costs calculator to estimate the total fees and expenses you'll pay at closing. Enter your loan amount and the costs for origination, appraisal, title insurance, escrow, recording, inspection, survey, prepaid interest, homeowner's insurance, property tax escrow, and other fees — the tool shows your total closing costs and percentage of the loan amount. This closing cost estimator helps you budget for your home purchase or refinance.
 

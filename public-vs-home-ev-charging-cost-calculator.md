@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Public vs Home EV Charging Cost Calculator – Rates & Savings
-description: Compare residential home electricity rates ($0.14/kWh) versus public DC fast charging rates ($0.42/kWh) and calculate annual savings based on your charging mix.
+title: "Public Vs Home Ev Charging Cost | Interactive Online Tool"
+description: "Compare residential home electricity rates ($0.14/kWh) versus public DC fast charging rates ($0.42/kWh) and calculate annual savings based on..."
 permalink: /public-vs-home-ev-charging-cost-calculator
 tool_id: public-vs-home-ev-charging-cost-calculator
 category: electric-vehicle-ev
@@ -144,7 +144,7 @@ faq:
 
 ---
 
-# Public vs Home EV Charging Cost Calculator
+# Public Vs Home Ev Charging Cost Calculator
 
 Compare residential utility rates ($0.14/kWh) against commercial public charging stations ($0.42/kWh) and calculate your total annual fuel cost based on your home charging percentage.
 

@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Logo Churn Calculator – SaaS Customer Attrition Rate
-description: Calculate your Logo Churn Rate (%) and customer retention rate. Measure the percentage of total account logos lost over a period.
+title: "Logo Churn | Interactive Online Tool"
+description: "Calculate your Logo Churn Rate (%) and customer retention rate. Measure the percentage of total account logos lost over a period."
 permalink: /logo-churn-calculator
 tool_id: logo-churn-calculator
 category: saas-revenue-growth-metrics

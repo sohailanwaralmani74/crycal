@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Acquisition Channel Comparison Calculator – CAC & Payback Benchmark
-description: Compare channel CAC, lead volume, customer deal wins, and CAC payback months across primary growth acquisition channels.
+title: "Acquisition Channel Comparison | Interactive Online Tool"
+description: "Compare channel CAC, lead volume, customer deal wins, and CAC payback months across primary growth acquisition channels."
 permalink: /acquisition-channel-comparison-calculator
 tool_id: acquisition-channel-comparison-calculator
 category: saas-marketing-ads
@@ -148,7 +148,7 @@ faq:
     answer: "Lower payback months by increasing initial contract upfront billing (annual prepaid plans), expanding expansion revenue, or improving onboarding activation."
 ---
 
-# Acquisition Channel Comparison Calculator – CAC & Payback Benchmark
+# Acquisition Channel Comparison Calculator
 
 Side-by-side comparison of customer acquisition efficiency across paid search, content SEO, paid social, and outbound channels with our **Acquisition Channel Comparison Calculator**.
 

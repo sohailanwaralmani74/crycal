@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — ROI Calculator (Pure, Simple)
+   Wanjaaro — ROI Calculator (Pure, Simple)
    Tool ID: roi-calculator
 ═══════════════════════════════════════════════════════════ */
 

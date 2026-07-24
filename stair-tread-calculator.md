@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Stair Tread Calculator – Cap Boards, Riser Veneers & Nosing Trim
-description: Calculate hardwood or composite stair tread caps, riser veneer covers, front nosing trim, and side return trim linear footage for staircase remodeling.
+title: "Stair Tread | Interactive Online Tool"
+description: "Calculate hardwood or composite stair tread caps, riser veneer covers, front nosing trim, and side return trim linear footage for staircase remodeling."
 permalink: /stair-tread-calculator
 tool_id: stair-tread-calculator
 category: flooring
@@ -154,7 +154,7 @@ faq:
     answer: "No. All calculations run strictly inside your local browser."
 ---
 
-# Stair Tread Calculator – Cap Boards, Riser Veneers & Nosing Trim
+# Stair Tread Calculator
 
 Calculate exact **hardwood or composite stair tread caps**, **matching riser veneer covers**, front bullnose nosings, and **mitered side return trim** for staircase remodels.
 

@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Roof Overhang Calculator – Tail Length, Fascia Drop & Soffit Venting
-description: Calculate rafter overhang tail length, vertical fascia board drop below top plate, recommended fascia width, and required soffit intake vent area in sq ft.
+title: "Roof Overhang | Interactive Online Tool"
+description: "Calculate rafter overhang tail length, vertical fascia board drop below top plate, recommended fascia width, and required soffit intake vent area in sq ft."
 permalink: /roof-overhang-calculator
 tool_id: roof-overhang-calculator
 category: roofing
@@ -135,7 +135,7 @@ faq:
     answer: "No. All calculations run strictly inside your local web browser."
 ---
 
-# Roof Overhang Calculator – Tail Length, Fascia Drop & Soffit Venting
+# Roof Overhang Calculator
 
 Calculate exact **rafter overhang tail lengths**, vertical fascia board drop below wall plates, recommended stock fascia lumber depth, and code-compliant **soffit intake vent area**.
 

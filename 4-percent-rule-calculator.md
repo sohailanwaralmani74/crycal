@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: 4% Rule Calculator – Safe Withdrawal Rate for Retirement
-description: Use the 4% Rule Calculator to estimate how much you can safely withdraw from your retirement portfolio each year without running out of money.
+title: "4 Percent Rule | Interactive Online Tool"
+description: "Use the 4% Rule Calculator to estimate how much you can safely withdraw from your retirement portfolio each year without running out of money."
 permalink: /4-percent-rule-calculator
 tool_id: 4-percent-rule-calculator
 category: retirement
@@ -128,7 +128,7 @@ faq:
     answer: "No. All calculations run locally in your browser. No data is sent to any server."
 ---
 
-# Calculate Your Safe Retirement Withdrawal Rate
+# 4 Percent Rule Calculator
 
 Use the **4% Rule Calculator** to estimate how much you can safely withdraw from your retirement portfolio each year without running out of money.
 

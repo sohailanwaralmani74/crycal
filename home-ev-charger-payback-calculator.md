@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Home EV Charger Payback Calculator – Level 2 Installation ROI
-description: Calculate the payback period in months and 5-year savings for installing a Level 2 home EV charger versus using public charging stations.
+title: "Home Ev Charger Payback | Interactive Online Tool"
+description: "Calculate the payback period in months and 5-year savings for installing a Level 2 home EV charger versus using public charging stations."
 permalink: /home-ev-charger-payback-calculator
 tool_id: home-ev-charger-payback-calculator
 category: electric-vehicle-ev
@@ -163,7 +163,7 @@ faq:
 
 ---
 
-# Home EV Charger Payback Calculator
+# Home Ev Charger Payback Calculator
 
 Calculate the financial return on investment (ROI), payback period in months, and 5-year savings for installing a Level 2 home charger versus relying on public stations.
 

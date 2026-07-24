@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Spray Foam Insulation Calculator – Open vs Closed Cell Board Feet & Cost
-description: Calculate board feet volume, material thickness, open cell vs closed cell spray foam costs, and achieved R-value.
+title: "Spray Foam Insulation | Interactive Online Tool"
+description: "Calculate board feet volume, material thickness, open cell vs closed cell spray foam costs, and achieved R-value."
 permalink: /spray-foam-insulation-calculator
 tool_id: spray-foam-insulation-calculator
 category: insulation-hvac
@@ -141,7 +141,7 @@ faq:
     answer: "No. All computations process locally inside your Web browser."
 ---
 
-# Spray Foam Insulation Calculator – Open vs Closed Cell Board Feet & Cost
+# Spray Foam Insulation Calculator
 
 Calculate board feet volume, material thickness, open cell vs closed cell spray foam contractor costs, and achieved R-value performance.
 

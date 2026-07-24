@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Rafter Length Calculator – Calculate Roof Rafters & Pitch Angles
-description: Calculate common rafter length, ridge beam deductions, overhang tails, roof pitch angles, and stock lumber board sizes using our rafter calculator.
+title: "Rafter Length | Interactive Online Tool"
+description: "Calculate common rafter length, ridge beam deductions, overhang tails, roof pitch angles, and stock lumber board sizes using our rafter calculator."
 permalink: /rafter-length-calculator
 tool_id: rafter-length-calculator
 category: lumber-framing
@@ -135,7 +135,7 @@ faq:
     answer: "No. All calculation logic executes locally in your browser."
 ---
 
-# Rafter Length Calculator – Calculate Roof Rafters & Pitch Angles
+# Rafter Length Calculator
 
 Calculate exact **common rafter lengths**, ridge setback deductions, overhang tails, roof slope degrees, and recommended stock board sizes for roof framing.
 

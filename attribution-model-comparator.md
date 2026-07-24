@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Attribution Model Comparator – First-Touch vs Last-Touch vs Linear
-description: Compare closed revenue credit under First-Touch, Last-Touch, and Linear attribution models across multi-touch customer buyer journeys.
+title: "Attribution Model Comparator | Interactive Online Tool"
+description: "Compare closed revenue credit under First-Touch, Last-Touch, and Linear attribution models across multi-touch customer buyer journeys."
 permalink: /attribution-model-comparator
 tool_id: attribution-model-comparator
 category: saas-marketing-ads
@@ -130,7 +130,7 @@ faq:
     answer: "First-touch overvalues awareness and ignores sales enablement, while last-touch overvalues retargeting and ignores top-of-funnel lead generation."
 ---
 
-# Attribution Model Comparator – First-Touch vs Last-Touch vs Linear
+# Attribution Model Comparator Calculator
 
 Understand how different marketing attribution rules distribute revenue credit across your customer acquisition funnel with our **Attribution Model Comparator**.
 

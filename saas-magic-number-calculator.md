@@ -113,7 +113,7 @@ faq:
     a: "No. All calculations process strictly inside your web browser."
 ---
 
-# SaaS Magic Number Calculator
+# Calculate SaaS Magic Number
 
 Calculate sales efficiency by measuring Annualized Net New ARR generated per $1 of Sales & Marketing spend. Use our free **SaaS Magic Number Calculator** to evaluate your SaaS business performance and make data-driven growth decisions — without any data leaving your browser.
 

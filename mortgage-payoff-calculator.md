@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Mortgage Payoff Calculator
-description: Discover how extra payments can shorten your mortgage term and save thousands in interest. Use mortgage payoff calculator for payoff date and interest savings.
+title: "Mortgage Payoff | Interactive Online Tool"
+description: "Discover how extra payments can shorten your mortgage term and save thousands in interest."
 permalink: /mortgage-payoff-calculator
 tool_id: mortgage-payoff
 category: mortgage
@@ -154,7 +154,7 @@ faq:
 
 ---
 
-# Mortgage Payoff Calculator – Pay Off Your Home Faster
+# Mortgage Payoff Calculator
 
 Use this mortgage payoff calculator to see how extra payments can shorten your mortgage term and save thousands in interest. Enter your current loan balance, interest rate, monthly payment, and extra monthly payment — the tool shows your original payoff date, new payoff date, time saved, and total interest saved. Whether you want to pay off your mortgage early or reduce your overall interest costs, this mortgage payoff calculator gives you a clear plan.
 

@@ -5,7 +5,7 @@ scratch_path = r"C:\Users\Sohail Anwar\.gemini\antigravity\brain\fd1bd5f2-6c19-4
 if scratch_path not in sys.path:
     sys.path.insert(0, scratch_path)
 
-base_dir = r"d:\crycal"
+base_dir = r"d:\Wanjaaro"
 js_dir = os.path.join(base_dir, "assets", "js", "calculators")
 os.makedirs(js_dir, exist_ok=True)
 

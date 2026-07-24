@@ -108,7 +108,7 @@ faq:
     a: "No. All calculations run strictly inside your local web browser."
 ---
 
-# Annual Recurring Revenue (ARR) Calculator
+# Calculate Annual Recurring Revenue (ARR)
 
 Convert active Monthly Recurring Revenue (MRR) and prepaid contracts into Annual Recurring Revenue (ARR = MRR * 12). Use our free **Annual Recurring Revenue (ARR) Calculator** to evaluate your SaaS business performance and make data-driven growth decisions — without any data leaving your browser.
 

@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Lot Size Calculator
-description: Calculate the optimal lot size trades. Enter account balance, risk percentage, stop-loss distance, and pip value to find ideal position size.
+title: "Lot Size | Interactive Online Tool"
+description: "Calculate the optimal lot size trades. Enter account balance, risk percentage, stop-loss distance, and pip value to find ideal position size."
 permalink: /lot-size-calculator
 tool_id: lot-size
 category: investing
@@ -169,7 +169,7 @@ faq:
 
 ---
 
-# Lot Size Calculator – Size Your Forex Trades with Precision
+# Lot Size Calculator
 
 Use this lot size calculator to determine the optimal lot size for your Forex and CFD trades. Enter your account balance, risk percentage, stop-loss distance, and pip value — the tool shows your position in standard lots, mini lots, and micro lots. This Forex lot size calculator helps you manage risk and trade with discipline.
 

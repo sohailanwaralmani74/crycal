@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: ARM vs Fixed-Rate Mortgage Calculator – Compare Rate Cap Scenarios
-description: Compare initial monthly payments, maximum rate adjustment risk, and total 30-year interest costs between Adjustable-Rate (ARM) and Fixed-Rate mortgages.
+title: "Arm Vs Fixed Rate Mortgage | Interactive Online Tool"
+description: "Compare initial monthly payments, maximum rate adjustment risk, and total 30-year interest costs between Adjustable-Rate (ARM) and Fixed-Rate mortgages."
 permalink: /arm-vs-fixed-rate-mortgage-calculator
 tool_id: arm-vs-fixed-rate-mortgage
 category: mortgage
@@ -172,7 +172,7 @@ faq:
     answer: "No. All calculations run locally inside your web browser. History and saved presets are stored strictly in your browser's local storage."
 ---
 
-# ARM vs Fixed-Rate Mortgage Calculator – Compare Rate Cap Scenarios
+# Arm Vs Fixed Rate Mortgage Calculator
 
 Choosing between an **Adjustable-Rate Mortgage (ARM)** and a **30-Year Fixed-Rate Mortgage** is one of the most critical decisions when financing a home. Our free **ARM vs Fixed-Rate Mortgage Calculator** empowers homebuyers and real estate investors to compare initial monthly payment savings, estimate post-intro rate resets, and model worst-case lifetime payment caps.
 

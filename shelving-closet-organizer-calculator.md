@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Shelving & Closet Organizer Calculator – Estimate Boards, Brackets & Cost
-description: Calculate total linear feet of shelf boards, 6ft, 8ft, or 12ft board counts, wall support brackets spaced every 24-32 inches, and total closet hardware costs.
+title: "Shelving Closet Organizer | Interactive Online Tool"
+description: "Free online Shelving Closet Organizer. Calculate exact building material counts, unit costs, and coverage with instant browser math and charts."
 permalink: /shelving-closet-organizer-calculator
 tool_id: shelving-closet-organizer-calculator
 category: home-decor-interior
@@ -158,7 +158,7 @@ faq:
     answer: "No. All calculations take place entirely within your local browser."
 ---
 
-# Shelving & Closet Organizer Calculator – Estimate Boards, Brackets & Cost
+# Shelving Closet Organizer Calculator
 
 Customizing walk-in closets, kitchen pantries, garage workshops, or home office alcoves with wall-mounted shelving requires balancing board footage and structural support brackets. Use our **Shelving & Closet Organizer Calculator** to determine total linear feet, 6 ft, 8 ft, or 12 ft board stock requirements, support bracket counts, and hardware costs.
 

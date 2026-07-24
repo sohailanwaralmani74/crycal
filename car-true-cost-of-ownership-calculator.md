@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Car True Cost of Ownership Calculator – 5-Year Vehicle TCO Estimator
-description: Calculate your vehicle's total 5-year cost of ownership including depreciation, fuel, insurance, maintenance, repairs, and state fees.
+title: "Car True Cost Of Ownership | Interactive Online Tool"
+description: "Calculate your vehicles total 5-year cost of ownership including depreciation, fuel, insurance, maintenance, repairs, and state fees."
 permalink: /car-true-cost-of-ownership-calculator
 tool_id: car-true-cost-of-ownership-calculator
 category: auto-cost-ownership
@@ -175,7 +175,7 @@ faq:
 
 ---
 
-# Car True Cost of Ownership Calculator
+# Car True Cost Of Ownership Calculator
 
 Calculate your vehicle's total **5-year cost of ownership (TCO)** including depreciation, fuel, insurance premiums, routine maintenance, and state tag fees.
 

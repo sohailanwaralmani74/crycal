@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Timing Belt Replacement Interval Calculator – 60k-100k Service Schedule
-description: Calculate remaining mileage and months until your timing belt service is due. Evaluate interference engine risk and replacement costs including water pump service.
+title: "Timing Belt Replacement Interval | Interactive Online Tool"
+description: "Calculate remaining mileage and months until your timing belt service is due."
 permalink: /timing-belt-replacement-interval-calculator
 tool_id: timing-belt-replacement-interval-calculator
 category: auto-maintenance-repair
@@ -158,7 +158,7 @@ faq:
 
 ---
 
-# Timing Belt Replacement Interval Calculator – 60k-100k Service Schedule
+# Timing Belt Replacement Interval Calculator
 
 Calculate remaining mileage and months until your timing belt service is due with our free **Timing Belt Replacement Interval Calculator**. Evaluate interference engine failure risks and estimated repair expenses.
 

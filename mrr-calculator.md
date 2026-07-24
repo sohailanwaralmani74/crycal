@@ -134,7 +134,7 @@ faq:
     a: "No. All calculations run strictly inside your browser."
 ---
 
-# Monthly Recurring Revenue (MRR) Calculator
+# Calculate Monthly Recurring Revenue (MRR)
 
 Calculate Monthly Recurring Revenue (MRR) across Starter, Pro, and Enterprise plan tiers. Use our free **Monthly Recurring Revenue (MRR) Calculator** to evaluate your SaaS business performance and make data-driven growth decisions — without any data leaving your browser.
 

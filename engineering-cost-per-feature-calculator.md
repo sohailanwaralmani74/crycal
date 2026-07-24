@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Engineering Cost Per Feature Calculator – R&D Feature Budget Engine
-description: Estimate the fully-loaded R&D engineering cost to build a software feature based on developer sprint weeks, developer salaries, PM/design costs, and QA testing.
+title: "Engineering Cost Per Feature | Interactive Online Tool"
+description: "Estimate the fully-loaded R&D engineering cost to build a software feature based on developer sprint weeks, developer salaries, PM/design costs,..."
 permalink: /engineering-cost-per-feature-calculator
 tool_id: engineering-cost-per-feature-calculator
 category: saas-team-operations
@@ -142,7 +142,7 @@ faq:
     answer: "Lower feature costs by using modular microservice architectures, conducting thorough Figma prototyping before coding, leveraging open-source components, and maintaining strict sprint scope management."
 ---
 
-# Engineering Cost Per Feature Calculator – R&D Feature Budget Engine
+# Engineering Cost Per Feature Calculator
 
 Quantify the true software development cost of building product features with our **Engineering Cost Per Feature Calculator**. Include developer salaries, sprint duration, PM/UX design, and QA testing costs.
 

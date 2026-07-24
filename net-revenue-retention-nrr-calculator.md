@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Net Revenue Retention (NRR) Calculator – SaaS Growth Metric
-description: Calculate your Net Revenue Retention (NRR %) rate. Measure recurring revenue growth from existing customers accounting for expansion, contraction, and churn.
+title: "Net Revenue Retention Nrr | Interactive Online Tool"
+description: "Free online Net Revenue Retention Nrr. Calculate subscription pricing, MRR/ARR growth, unit economics, and churn with instant browser math and charts."
 permalink: /net-revenue-retention-nrr-calculator
 tool_id: net-revenue-retention-nrr-calculator
 category: saas-revenue-growth-metrics
@@ -136,7 +136,7 @@ faq:
 
 ---
 
-# Net Revenue Retention (NRR) Calculator
+# Net Revenue Retention Nrr Calculator
 
 Calculate your Net Revenue Retention (NRR %) rate to measure how effectively your existing customer base grows over time. Evaluate revenue expansion from plan upgrades against losses from contraction and account churn.
 

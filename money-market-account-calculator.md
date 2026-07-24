@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Money Market Account Calculator – Interest & Growth Estimator
-description: Estimate your money market account growth with our free Money Market Account Calculator. Enter initial deposit, monthly contributions, APY, and time period to see your returns.
+title: "Money Market Account | Interactive Online Tool"
+description: "Estimate your money market account growth with our free Money Market Account Calculator."
 permalink: /money-market-account-calculator
 tool_id: money-market-account-calculator
 category: growth
@@ -149,7 +149,7 @@ faq:
 
 ---
 
-# Calculate Your Money Market Account Growth
+# Money Market Account Calculator
 
 Estimate your money market account growth with our free **Money Market Account Calculator**. Enter initial deposit, monthly contributions, APY, and time period to see your returns — all without your data leaving your browser.
 

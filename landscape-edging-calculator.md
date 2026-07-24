@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Landscape Edging Calculator – Estimate Edging Rolls, Strips & Stakes
-description: Calculate total linear feet, number of 4ft strips or 20ft rolls, anchoring stakes count, waste margins, and material costs for garden bed edging.
+title: "Landscape Edging | Interactive Online Tool"
+description: "Calculate total linear feet, number of 4ft strips or 20ft rolls, anchoring stakes count, waste margins, and material costs for garden bed edging."
 permalink: /landscape-edging-calculator
 tool_id: landscape-edging-calculator
 category: landscaping-outdoor
@@ -155,7 +155,7 @@ faq:
     answer: "No. All calculations take place strictly inside your web browser."
 ---
 
-# Landscape Edging Calculator – Estimate Edging Rolls, Strips & Stakes
+# Landscape Edging Calculator
 
 Installing landscape garden edging creates sharp, professional borders around flower beds, mulch zones, gravel pathways, and turf. Use our **Landscape Edging Calculator** to determine exact linear footage, section/roll counts (4 ft, 10 ft, or 20 ft formats), ground anchoring stake counts, and total project expenses.
 

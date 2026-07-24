@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Pip Calculator (Enhanced)
+   Wanjaaro — Pip Calculator (Enhanced)
    Tool ID: pip-calculator
    Adds: quote currency, live exchange-rate conversion,
    lot-size quick-select, and input validation.

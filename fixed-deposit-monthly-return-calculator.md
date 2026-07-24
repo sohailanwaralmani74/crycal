@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Fixed Deposit Monthly Return Calculator – FD Interest Calculator
-description: Use our free Fixed Deposit Monthly Return Calculator to calculate monthly interest earned, total interest, and maturity value for your fixed deposit investment.
+title: "Fixed Deposit Monthly Return | Interactive Online Tool"
+description: "Use our free Fixed Deposit Monthly Return Calculator to calculate monthly interest earned, total interest, and maturity value for your fixed..."
 permalink: /fixed-deposit-monthly-return-calculator
 tool_id: fixed-deposit-monthly-return-calculator
 category: growth
@@ -144,7 +144,7 @@ faq:
 
 ---
 
-# Fixed Deposit Monthly Return Calculator – FD Interest Calculator
+# Fixed Deposit Monthly Return Calculator
 
 Calculate monthly interest, total interest, and maturity value for your fixed deposit investment with our free **Fixed Deposit Monthly Return Calculator**. Enter your principal, interest rate, and tenure to see your returns — all without your data leaving your browser.
 

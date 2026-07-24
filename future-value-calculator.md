@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Future Value Calculator – Project Your Investment Growth
-description: Use the Future Value Calculator to project how much your investment or savings will grow over time with compound interest and regular contributions.
+title: "Future Value | Interactive Online Tool"
+description: "Use the Future Value Calculator to project how much your investment or savings will grow over time with compound interest and regular contributions."
 permalink: /future-value-calculator
 tool_id: future-value-calculator
 category: growth
@@ -129,7 +129,7 @@ faq:
     answer: "No. All calculations run locally in your browser. No data is sent to any server."
 ---
 
-# Project Your Investment's Future Value
+# Future Value Calculator
 
 Use the **Future Value Calculator** to project how much your investment or savings will grow over time with compound interest and regular contributions.
 

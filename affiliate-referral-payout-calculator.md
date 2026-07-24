@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Affiliate Referral Payout Calculator – Commission & Revenue Share Engine
-description: Calculate monthly and annual affiliate partner commissions, recurring payout obligations, and net retained SaaS subscription revenue.
+title: "Affiliate Referral Payout | Interactive Online Tool"
+description: "Calculate monthly and annual affiliate partner commissions, recurring payout obligations, and net retained SaaS subscription revenue."
 permalink: /affiliate-referral-payout-calculator
 tool_id: affiliate-referral-payout-calculator
 category: saas-marketing-ads
@@ -133,7 +133,7 @@ faq:
     answer: "Optimize your program by creating tiered commission brackets for top-producing affiliates, providing high-converting marketing banners, and using automated payout platforms like Impact or PartnerStack."
 ---
 
-# Affiliate Referral Payout Calculator – Commission & Revenue Share Engine
+# Affiliate Referral Payout Calculator
 
 Accurately calculate affiliate partner commissions, recurring revenue share payouts, and net retained subscription revenue with our **Affiliate Referral Payout Calculator**.
 

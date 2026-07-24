@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Oil Change Interval Calculator – Conventional vs Synthetic Oil
-description: Calculate recommended oil change due dates and mileage for conventional, synthetic blend, or full synthetic oil based on driving severity and annual mileage.
+title: "Oil Change Interval | Interactive Online Tool"
+description: "Free online Oil Change Interval. Calculate car payments, TCO, fuel MPG, and EV charging with instant client-side browser math and charts."
 permalink: /oil-change-interval-calculator
 tool_id: oil-change-interval-calculator
 category: auto-maintenance-repair
@@ -146,7 +146,7 @@ faq:
 
 ---
 
-# Oil Change Interval Calculator – Conventional vs Synthetic Oil
+# Oil Change Interval Calculator
 
 Calculate recommended engine oil change mileage intervals and target service dates with our free **Oil Change Interval Calculator**.
 

@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Roofing Material Cost Calculator – Replacement Estimator
-description: Estimate roof replacement costs by material type including 3-tab asphalt, architectural shingles, standing seam metal, tile, and slate.
+title: "Roofing Material Cost | Interactive Online Tool"
+description: "Estimate roof replacement costs by material type including 3-tab asphalt, architectural shingles, standing seam metal, tile, and slate."
 permalink: /roofing-material-cost-calculator
 tool_id: roofing-material-cost-calculator
 category: roofing
@@ -157,7 +157,7 @@ faq:
     answer: "No. All calculations are executed locally in your browser."
 ---
 
-# Roofing Material Cost Calculator – Replacement Estimator
+# Roofing Material Cost Calculator
 
 Calculate total installed cost, **Cost Per Square Foot**, material expenses, underlayment accessories, and contractor labor fees with our free **Roofing Material Cost Calculator**.
 

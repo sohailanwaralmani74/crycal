@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Stud Framing Calculator – Wall Studs, Plates & Lumber Estimator
-description: Calculate wall studs (16" or 24" OC), top and bottom plates, corner posts, window/door headers, waste factors, and total lumber costs.
+title: "Stud Framing | Interactive Online Tool"
+description: "Calculate wall studs (16 or 24 OC), top and bottom plates, corner posts, window/door headers, waste factors, and total lumber costs."
 permalink: /stud-framing-calculator
 tool_id: stud-framing-calculator
 category: lumber-framing
@@ -151,7 +151,7 @@ faq:
     answer: "No. All calculation logic executes locally in your browser."
 ---
 
-# Stud Framing Calculator – Wall Studs, Plates & Lumber Estimator
+# Stud Framing Calculator
 
 Calculate exact **wall studs**, **bottom sole plates**, **double top plates**, corner assemblies, opening trimmers, and overall material costs for wall framing.
 

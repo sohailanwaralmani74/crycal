@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Auto Loan vs. Lease Calculator – Compare Car Buying vs. Leasing
-description: Compare the total out-of-pocket costs, monthly payments, and end-of-term equity between buying with an auto loan vs. leasing a car.
+title: "Auto Loan Vs Lease | Interactive Online Tool"
+description: "Compare the total out-of-pocket costs, monthly payments, and end-of-term equity between buying with an auto loan vs. leasing a car."
 permalink: /auto-loan-vs-lease-calculator
 tool_id: auto-loan-vs-lease-calculator
 category: auto-loan-financing
@@ -180,7 +180,7 @@ faq:
 
 ---
 
-# Auto Loan vs. Lease Calculator
+# Auto Loan Vs Lease Calculator
 
 Determine whether buying or leasing a vehicle makes better financial sense for your lifestyle with our free **Auto Loan vs. Lease Calculator**.
 

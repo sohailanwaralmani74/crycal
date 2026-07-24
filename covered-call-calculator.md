@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Covered Call Calculator – Options Yield & Downside Protection
-description: Calculate option premium income, annualized options yield, downside protection percentage, and maximum profit for covered call strategies.
+title: "Covered Call | Interactive Online Tool"
+description: "Calculate option premium income, annualized options yield, downside protection percentage, and maximum profit for covered call strategies."
 permalink: /covered-call-calculator
 tool_id: covered-call-calculator
 category: investing
@@ -135,7 +135,7 @@ faq:
     answer: "No. All calculations run locally inside your web browser. History and saved presets are stored strictly in your browser's local storage."
 ---
 
-# Covered Call Calculator – Options Yield & Downside Protection
+# Covered Call Calculator
 
 Calculate option premium income, annualized option yield, downside protection percentage, and maximum profit for **Covered Call** strategies with our free calculator.
 

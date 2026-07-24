@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Flooring Square Footage Calculator – Area & Material Estimator
-description: Calculate room square footage, flooring waste percentage (5-15%), total order square feet, and material plus installation cost.
+title: "Flooring Square Footage | Interactive Online Tool"
+description: "Calculate room square footage, flooring waste percentage (5-15%), total order square feet, and material plus installation cost."
 permalink: /flooring-square-footage-calculator
 tool_id: flooring-square-footage-calculator
 category: flooring
@@ -138,7 +138,7 @@ faq:
     answer: "No. All calculations are executed locally within your web browser."
 ---
 
-# Flooring Square Footage Calculator – Area & Material Estimator
+# Flooring Square Footage Calculator
 
 Accurately calculate net room floor area, **total order square footage with waste percentage**, material costs, and contractor installation fees with our free **Flooring Square Footage Calculator**.
 

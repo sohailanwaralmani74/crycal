@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Free Trial Length ROI Calculator – Trial Days vs Conversion
-description: Compare 7-day vs 14-day vs 30-day trial lengths on paid conversion rate, support costs, and net ARR in SaaS.
+title: "Free Trial Length Roi | Interactive Online Tool"
+description: "Compare 7-day vs 14-day vs 30-day trial lengths on paid conversion rate, support costs, and net ARR in SaaS."
 permalink: /free-trial-length-roi-calculator
 tool_id: free-trial-length-roi-calculator
 category: saas-pricing-packaging
@@ -155,7 +155,7 @@ faq:
 
 ---
 
-# Free Trial Length ROI Calculator – Trial Days vs Conversion
+# Free Trial Length Roi Calculator
 
 Compare the financial yield of **7-day**, **14-day**, and **30-day free trial durations**. Evaluate **conversion rates**, **sales velocity**, and **support cost overhead**.
 

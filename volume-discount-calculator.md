@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Volume Discount Calculator – Tiered Seat Bulk Discounting
-description: Calculate tiered volume seat discounts, effective per-seat prices, and total buyer savings for enterprise seat volume licensing.
+title: "Volume Discount | Interactive Online Tool"
+description: "Calculate tiered volume seat discounts, effective per-seat prices, and total buyer savings for enterprise seat volume licensing."
 permalink: /volume-discount-calculator
 tool_id: volume-discount-calculator
 category: saas-pricing-packaging
@@ -149,7 +149,7 @@ faq:
 
 ---
 
-# Volume Discount Calculator – Tiered Seat Bulk Discounting
+# Volume Discount Calculator
 
 Calculate **graduated tiered seat pricing**, **effective price per seat**, and **enterprise buyer volume savings**.
 

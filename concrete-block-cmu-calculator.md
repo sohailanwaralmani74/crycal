@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Concrete Block (CMU) Calculator – Wall Blocks, Mortar & Cost
-description: Calculate standard 8x8x16 CMU concrete blocks, total wall square footage, mortar bags, block cost, and overall masonry project cost.
+title: "Concrete Block Cmu | Interactive Online Tool"
+description: "Calculate standard 8x8x16 CMU concrete blocks, total wall square footage, mortar bags, block cost, and overall masonry project cost."
 permalink: /concrete-block-cmu-calculator
 tool_id: concrete-block-cmu-calculator
 category: concrete-masonry
@@ -140,7 +140,7 @@ faq:
   - answer: "No. All computations execute locally in your web browser."
 ---
 
-# Concrete Block (CMU) Calculator – Wall Blocks, Mortar & Cost
+# Concrete Block Cmu Calculator
 
 Calculate standard **8x8x16 CMU Blocks**, wall square footage, **80 lb Mortar Bags**, and total material cost with our free masonry calculator.
 

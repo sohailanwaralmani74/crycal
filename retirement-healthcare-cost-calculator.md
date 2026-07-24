@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Retirement Healthcare Cost Calculator – Project Medical Expenses
-description: Use the Retirement Healthcare Cost Calculator to project your total out-of-pocket medical expenses throughout retirement, accounting for healthcare inflation.
+title: "Retirement Healthcare Cost | Interactive Online Tool"
+description: "Free online Retirement Healthcare Cost. Calculate loan payments, interest growth, taxes, and financial metrics with instant browser math and charts."
 permalink: /retirement-healthcare-cost-calculator
 tool_id: retirement-healthcare-cost-calculator
 category: retirement
@@ -136,7 +136,7 @@ faq:
     answer: "No. All calculations run locally in your browser. No data is sent to any server."
 ---
 
-# Project Your Retirement Healthcare Costs
+# Retirement Healthcare Cost Calculator
 
 Use the **Retirement Healthcare Cost Calculator** to project your total out-of-pocket medical expenses throughout retirement, accounting for healthcare inflation.
 

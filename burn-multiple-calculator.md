@@ -105,7 +105,7 @@ faq:
     a: "No. All calculations run strictly in your local browser."
 ---
 
-# Burn Multiple Calculator
+# Calculate Startup Burn Multiple
 
 Calculate net cash burn divided by net new ARR generated to measure startup capital burn efficiency. Use our free **Burn Multiple Calculator** to evaluate your SaaS business performance and make data-driven growth decisions — without any data leaving your browser.
 

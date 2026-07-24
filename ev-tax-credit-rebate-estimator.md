@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: EV Tax Credit & Rebate Estimator – 2024 IRC 30D Eligibility
-description: Calculate your eligible US Federal $7,500 Clean Vehicle Tax Credit and state rebates based on income limits (AGI), vehicle MSRP, assembly location, and battery sourcing.
+title: "Ev Tax Credit Rebate Estimator | Interactive Online Tool"
+description: "Calculate your eligible US Federal $7,500 Clean Vehicle Tax Credit and state rebates based on income limits (AGI), vehicle MSRP, assembly..."
 permalink: /ev-tax-credit-rebate-estimator
 tool_id: ev-tax-credit-rebate-estimator
 category: electric-vehicle-ev
@@ -159,7 +159,7 @@ faq:
 
 ---
 
-# EV Tax Credit & Rebate Estimator
+# Ev Tax Credit Rebate Estimator Calculator
 
 Calculate your eligibility for the US Federal **$7,500 Clean Vehicle Tax Credit** (IRS Section 30D) and state electric vehicle rebates.
 

@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Engine Compression Ratio Calculator – Static Compression Ratio
-description: Calculate engine static compression ratio (e.g. 10.5:1) from cylinder bore, stroke, combustion chamber volume, piston dish/dome, head gasket, and deck height.
+title: "Engine Compression Ratio | Interactive Online Tool"
+description: "Free online Engine Compression Ratio. Calculate car payments, TCO, fuel MPG, and EV charging with instant client-side browser math and charts."
 permalink: /engine-compression-ratio-calculator
 tool_id: engine-compression-ratio-calculator
 category: auto-performance-specs

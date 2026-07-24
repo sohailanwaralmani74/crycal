@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Value-Based Pricing Calculator – Customer Quantified Value
-description: Estimate pricing ceiling based on quantified customer ROI, monthly hours saved, direct cost savings, and value capture share percentage.
+title: "Value Based Pricing | Interactive Online Tool"
+description: "Estimate pricing ceiling based on quantified customer ROI, monthly hours saved, direct cost savings, and value capture share percentage."
 permalink: /value-based-pricing-calculator
 tool_id: value-based-pricing-calculator
 category: saas-pricing-packaging
@@ -142,7 +142,7 @@ faq:
 
 ---
 
-# Value-Based Pricing Calculator – Customer Quantified Value
+# Value Based Pricing Calculator
 
 Calculate your **pricing ceiling** and **optimal subscription fee** by quantifying the total economic value, labor savings, and revenue expansion your software creates for buyers.
 

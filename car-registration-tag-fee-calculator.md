@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Car Registration & Tag Fee Calculator – License Plate & Ad Valorem Tax
-description: Calculate annual car registration renewal fees, license plate tag fees, state ad valorem taxes, and vehicle property taxes based on vehicle value and weight.
+title: "Car Registration Tag Fee | Interactive Online Tool"
+description: "Free online Car Registration Tag Fee. Calculate car payments, TCO, fuel MPG, and EV charging with instant client-side browser math and charts."
 permalink: /car-registration-tag-fee-calculator
 tool_id: car-registration-tag-fee-calculator
 category: auto-cost-ownership
@@ -146,7 +146,7 @@ faq:
 
 ---
 
-# Car Registration & Tag Fee Calculator
+# Car Registration Tag Fee Calculator
 
 Calculate your annual vehicle registration renewal fee, license plate tag cost, and state ad valorem property taxes.
 

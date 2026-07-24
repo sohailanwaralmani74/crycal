@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: ATO Calculator – Australian BAS & GST Estimator
-description: Estimate your Australian BAS liabilities including GST, PAYG withholding, and Superannuation Guarantee with our free ATO Calculator.
+title: "ATO Tax Calculator | Australian BAS & Super Estimator"
+description: "Calculate Australian Tax Office (ATO) BAS liabilities, GST, PAYG withholding, and Superannuation Guarantee contributions. 100% private browser execution."
 permalink: /ato-calculator
 tool_id: ato-calculator
 category: tax
@@ -128,14 +128,17 @@ history_columns:
   - key: totalIncome
     label: Total Income
     source: input
-  - key: businessType
-    label: Business Type
+  - key: gstCollected
+    label: GST Collected
     source: input
-  - key: totalBasLiability
-    label: Total BAS Liability
+  - key: gstPaid
+    label: GST Paid
+    source: input
+  - key: netGst
+    label: Net GST
     source: output
-  - key: effectiveRate
-    label: Effective Rate
+  - key: totalBasLiability
+    label: Total BAS
     source: output
 
 js_file: assets/js/calculators/ato-calculator.js
@@ -143,117 +146,145 @@ js_file: assets/js/calculators/ato-calculator.js
 structured_data:
   "@context": "https://schema.org"
   "@type": "SoftwareApplication"
-  name: "ATO Calculator"
+  name: "ATO Tax Calculator"
   applicationCategory: "FinancialApplication"
   operatingSystem: "All"
-  description: "Estimate Australian BAS liabilities including GST, PAYG withholding, and Superannuation Guarantee with this free ATO Calculator."
+  description: "Calculate Australian Tax Office (ATO) Business Activity Statement (BAS) liabilities, Goods and Services Tax (GST), PAYG withholding, and Superannuation Guarantee."
   offers:
     "@type": "Offer"
     price: "0"
-    priceCurrency: "AUD"
+    priceCurrency: "USD"
   featureList:
-    - "GST Calculation (Net Payable/Refund)"
-    - "PAYG Withholding Estimation"
-    - "Superannuation Guarantee Calculation"
-    - "Quarterly Payment Estimate"
-    - "Business Type Selection"
-    - "Visual BAS Breakdown"
-    - "100% Private – all calculations run locally"
-    - "Calculation History"
+    - "Australian BAS Liability Sizing — calculate quarterly Business Activity Statement obligations"
+    - "GST Net Settlement Calculation — offset GST collected on sales against input tax credits"
+    - "PAYG Withholding & Superannuation — model employer tax withholding and compulsory super contributions"
+    - "100% Client-Side Privacy — execute calculations locally inside your browser"
 
 breadcrumb:
   - name: Home
     url: /
   - name: Tax
     url: /tax
-  - name: ATO Calculator
+  - name: ATO Tax Calculator
 
 howto:
-  name: "How to Use the ATO Calculator"
-  description: "Follow these steps to estimate your Australian BAS liabilities."
+  name: "How to Calculate ATO BAS & Tax Liabilities"
+  description: "Calculate GST, PAYG withholding, Super Guarantee, and net quarterly BAS obligations."
   step:
-    - name: "Select your business type"
-      text: "Choose your business structure — Sole Trader, Company, Partnership, or Trust."
-    - name: "Enter your total business income"
-      text: "Enter your total business income excluding GST."
-    - name: "Enter GST collected and paid"
-      text: "Enter the GST you collected on sales and paid on purchases."
-    - name: "Enter PAYG withholding and super"
-      text: "Enter PAYG withholding amounts and your superannuation guarantee rate."
-    - name: "View your results"
-      text: "See your net GST, PAYG liability, super liability, and total BAS liability."
+    - name: "Select entity structure"
+      text: "Choose business entity type (Sole Trader, Company, Partnership, or Trust)."
+    - name: "Input income & expenses"
+      text: "Enter total gross business income and claimable tax deductions."
+    - name: "Input GST collected & paid"
+      text: "Enter GST collected on sales and GST paid on business purchases."
+    - name: "Input PAYG withholding & Super rate"
+      text: "Enter employee PAYG tax withholding and Super Guarantee percentage (11.5%)."
+    - name: "Review BAS summary"
+      text: "View net GST payable, total BAS liability, and estimated quarterly ATO payments."
 
 faq:
-  - question: "What is an ATO Calculator?"
-    answer: "An ATO Calculator is a tool that helps Australian taxpayers, businesses, and BAS agents estimate their BAS liabilities, including GST, PAYG withholding, and Superannuation Guarantee."
-  - question: "What is GST and how is it calculated?"
-    answer: "GST (Goods and Services Tax) is a 10% tax on most goods and services in Australia. Net GST is calculated as GST Collected minus GST Paid."
-  - question: "What is PAYG withholding?"
-    answer: "PAYG (Pay As You Go) withholding is the amount employers withhold from employee wages and send to the ATO. It contributes to the employee's income tax assessment at the end of the year."
-  - question: "What is Superannuation Guarantee?"
-    answer: "Superannuation Guarantee is the minimum percentage of an employee's ordinary time earnings that employers must contribute to a super fund. The current rate is 11.5% (2025/26)."
-  - question: "How often do I need to report to the ATO?"
-    answer: "Reporting frequency depends on your business size and registration. Options include monthly, quarterly, or annual BAS lodgment."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. No data is sent to any server."
-
+  - question: "What is a Business Activity Statement (BAS) in Australia?"
+    answer: "A BAS is a form submitted to the Australian Taxation Office (ATO) by registered businesses to report and pay Goods and Services Tax (GST), PAYG withholding, and PAYG instalments."
+  - question: "When is a business required to register for GST in Australia?"
+    answer: "Australian businesses must register for GST if their annual gross turnover reaches or is expected to reach $75,000 AUD ($150,000 AUD for non-profit organizations)."
+  - question: "How is Net GST payable calculated on a BAS?"
+    answer: "Net GST payable is calculated as GST collected on sales (1/11th of GST-inclusive sales) minus GST paid on eligible business inputs and expenses (input tax credits)."
+  - question: "What is the mandatory Superannuation Guarantee (SG) rate?"
+    answer: "For the 2023–2024 tax year, the compulsory Superannuation Guarantee rate is 11.0%, increasing to 11.5% for the 2024–2025 tax year."
+  - question: "How does tax calculation differ between Sole Traders and Companies?"
+    answer: "Sole traders pay income tax at individual progressive marginal rates (0% to 45%), while Australian proprietary limited companies pay a flat company tax rate (25% for base rate entities)."
+  - question: "When are quarterly BAS lodgments due to the ATO?"
+    answer: "Quarterly BAS lodgments are due on October 28 (Q1), February 28 (Q2), April 28 (Q3), and July 28 (Q4)."
+  - question: "Is my Australian business tax data secure?"
+    answer: "Yes, 100%. All calculation formulas execute locally in your web browser. No business turnover, GST figures, or TFN data are transmitted to external servers."
 ---
 
-# ATO Calculator – Australian BAS & GST Estimator
+# ATO Tax Calculator
 
-Estimate your Australian BAS liabilities with our free **ATO Calculator**. Enter your business income, GST, PAYG withholding, and superannuation to see your total BAS liability — all without your data leaving your browser.
+Calculate your Australian Taxation Office (ATO) BAS liabilities, GST credits, PAYG withholding, and Superannuation Guarantee obligations with precision.
+Featuring multi-entity support, quarterly BAS estimation, and 100% private browser execution so your business tax records remain strictly confidential.
 
 <!-- more -->
 
-## How Does the ATO Calculator Work?
+## Why Use the ATO Tax Calculator?
 
-The **ATO Calculator** estimates the key components of your Business Activity Statement (BAS):
+Operating a business or working as a sole trader in Australia requires navigating complex tax obligations administered by the Australian Taxation Office (ATO). Whether you run a small Pty Ltd company, a partnership, or work as an independent contractor, managing your cash flow for quarterly **Business Activity Statements (BAS)** and annual income tax returns is essential for financial compliance.
 
-- **GST** — Net payable or refundable (GST Collected − GST Paid)
-- **PAYG Withholding** — Total tax withheld from employee wages
-- **Superannuation Guarantee** — Employer contributions based on income
+Our **ATO Tax Calculator** simplifies Australian tax compliance by unifying multiple regulatory obligations into a single interactive tool. By inputting your gross turnover, business expenses, GST collected on sales, GST paid on purchases, employee PAYG withholding, and Superannuation Guarantee (SG) contributions, this tool instantly projects your net BAS liability.
 
-All calculations follow current ATO guidelines for the 2025/26 financial year.
+Failing to estimate ATO liabilities accurately can lead to severe cash flow shortages, ATO interest charges (General Interest Charge - GIC), and failure-to-lodge penalties. By evaluating your net GST payable alongside PAYG tax withholding on a monthly or quarterly basis, business owners can set aside exact tax reserves, ensuring seamless BAS lodgments and tax peace of mind.
 
-## What Is a BAS?
+---
 
-A **Business Activity Statement (BAS)** is a form that Australian businesses use to report and pay their tax obligations to the ATO. It typically includes:
+## Mathematical Formulas & Mechanics
 
-- **GST** (Goods and Services Tax)
-- **PAYG** withholding
-- **PAYG** instalments
-- **Superannuation** contributions (reported separately)
+The Net GST Payable ($GST_{\text{net}}$) reported on Box 1A and 1B of your BAS is calculated as:
 
-This calculator helps you estimate your BAS liability so you can plan your cash flow and avoid penalties.
+$$GST_{\text{net}} = GST_{\text{collected}} - GST_{\text{paid}}$$
 
-## Who Benefits from the ATO Calculator?
+Taxable Net Income ($I_{\text{taxable}}$) for sole traders and corporate entities is derived as:
 
-This tool is designed for:
+$$I_{\text{taxable}} = \max\left(0, \, \text{Total Income} - \text{Business Deductions}\right)$$
 
-- **Small business owners** preparing their BAS
-- **Sole traders** calculating quarterly obligations
-- **Accountants and BAS agents** running client scenarios
-- **New businesses** understanding their tax obligations
-- **Anyone** reporting to the Australian Taxation Office
+For Australian companies qualifying as Base Rate Entities, corporate income tax liability ($T_{\text{company}}$) at the $25\%$ flat rate is:
+
+$$T_{\text{company}} = I_{\text{taxable}} \times 0.25$$
+
+The compulsory Superannuation Guarantee liability ($S_{\text{liability}}$) based on ordinary time earnings (OTE) and the current SG rate ($r_{\text{super}} = 11.5\%$) is:
+
+$$S_{\text{liability}} = I_{\text{taxable}} \times \left( \frac{r_{\text{super}}}{100} \right)$$
+
+The total quarterly BAS payment obligation ($BAS_{\text{quarterly}}$) submitted to the ATO combines net GST, PAYG withholding ($PAYG_{\text{W}}$), and PAYG instalments ($PAYG_{\text{I}}$):
+
+$$BAS_{\text{quarterly}} = \left( \frac{GST_{\text{net}}}{4} \right) + \left( \frac{PAYG_{\text{W}}}{4} \right) + PAYG_{\text{I}}$$
+
+---
+
+## Real-World Comparison & Benchmark Table
+
+The matrix below details quarterly BAS liabilities and annual ATO tax obligations across business income tiers for an **Australian Small Business (Company Entity @ 25% Tax Rate)**:
+
+| Total Business Income | Claimable Deductions | Taxable Income | Net GST Payable (Annual) | Corporate Tax (25%) | Super Guarantee (11.5%) | Total Annual ATO Liability | Estimated Quarterly BAS Payment |
+|---|---|---|---|---|---|---|---|
+| **$80,000 AUD** | $20,000 AUD | $60,000 AUD | $4,000 AUD | $15,000 AUD | $6,900 AUD | **$25,900 AUD** | $6,475.00 AUD |
+| **$150,000 AUD** | $40,000 AUD | $110,000 AUD | $8,500 AUD | $27,500 AUD | $12,650 AUD | **$48,650 AUD** | $12,162.50 AUD |
+| **$250,000 AUD** | $70,000 AUD | $180,000 AUD | $14,000 AUD | $45,000 AUD | $20,700 AUD | **$79,700 AUD** | $19,925.00 AUD |
+| **$500,000 AUD** | $150,000 AUD | $350,000 AUD | $28,000 AUD | $87,500 AUD | $40,250 AUD | **$155,750 AUD** | $38,937.50 AUD |
+| **$1,000,000 AUD**| $350,000 AUD | $650,000 AUD | $55,000 AUD | $162,500 AUD | $74,750 AUD | **$292,250 AUD** | $73,062.50 AUD |
+
+*BAS Compliance Tip*: Offsetting $14,000 in GST paid on business equipment reduces your annual net GST payment directly from $28,000 down to $14,000, preserving vital working capital.
+
+---
+
+## Step-by-Step How-To Guide
+
+1. **Select Entity Structure**: Choose your business type (Sole Trader, Company, Partnership, or Trust) from the dropdown.
+2. **Enter Business Income & Deductions**: Input total gross revenue (excluding GST) and claimable tax-deductible expenses.
+3. **Input GST Figures**: Enter total GST collected on customer invoices and GST paid on supplier purchases.
+4. **Specify PAYG & Superannuation**: Input employee PAYG withholding amounts and Super Guarantee percentage (11.5%).
+5. **Review ATO Tax Summary**: Analyze your net GST payable, corporate income tax liability, total BAS liability, and estimated quarterly payments.
 
 ---
 
 ## Frequently Asked Questions
 
-### What is an ATO Calculator?
-An ATO Calculator helps Australian taxpayers, businesses, and BAS agents estimate their BAS liabilities, including GST, PAYG withholding, and Superannuation Guarantee.
+### What is a Business Activity Statement (BAS) in Australia?
+A BAS is a form submitted to the Australian Taxation Office (ATO) by registered businesses to report and pay Goods and Services Tax (GST), PAYG withholding, and PAYG instalments.
 
-### What is GST and how is it calculated?
-GST is a 10% tax on most goods and services in Australia. Net GST is GST Collected minus GST Paid.
+### When is a business required to register for GST in Australia?
+Australian businesses must register for GST if their annual gross turnover reaches or is expected to reach $75,000 AUD ($150,000 AUD for non-profit organizations).
 
-### What is PAYG withholding?
-PAYG withholding is the amount employers withhold from employee wages and send to the ATO.
+### How is Net GST payable calculated on a BAS?
+Net GST payable is calculated as GST collected on sales (1/11th of GST-inclusive sales) minus GST paid on eligible business inputs and expenses (input tax credits).
 
-### What is Superannuation Guarantee?
-Superannuation Guarantee is the minimum percentage of employee earnings employers must contribute to a super fund. The current rate is 11.5% (2025/26).
+### What is the mandatory Superannuation Guarantee (SG) rate?
+For the 2023–2024 tax year, the compulsory Superannuation Guarantee rate is 11.0%, increasing to 11.5% for the 2024–2025 tax year.
 
-### How often do I need to report to the ATO?
-Reporting frequency depends on your business size and registration — monthly, quarterly, or annual.
+### How does tax calculation differ between Sole Traders and Companies?
+Sole traders pay income tax at individual progressive marginal rates (0% to 45%), while Australian proprietary limited companies pay a flat company tax rate (25% for base rate entities).
 
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. No data is sent to any server.
+### When are quarterly BAS lodgments due to the ATO?
+Quarterly BAS lodgments are due on October 28 (Q1), February 28 (Q2), April 28 (Q3), and July 28 (Q4).
+
+### Is my Australian business tax data secure?
+Yes, 100%. All calculation formulas execute locally in your web browser. No business turnover, GST figures, or TFN data are transmitted to external servers.

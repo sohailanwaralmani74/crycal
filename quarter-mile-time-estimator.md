@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Quarter-Mile Time Estimator – 1/4 Mile ET & Trap Speed Calculator
-description: Calculate 1/4 mile elapsed time (ET) in seconds and trap speed in MPH from peak horsepower, vehicle weight, and drivetrain layout (FWD, RWD, AWD).
+title: "Quarter Mile Time Estimator | Interactive Online Tool"
+description: "Calculate 1/4 mile elapsed time (ET) in seconds and trap speed in MPH from peak horsepower, vehicle weight, and drivetrain layout (FWD, RWD, AWD)."
 permalink: /quarter-mile-time-estimator
 tool_id: quarter-mile-time-estimator
 category: auto-performance-specs
@@ -118,7 +118,7 @@ faq:
 
 ---
 
-# Quarter-Mile Time Estimator
+# Quarter Mile Time Estimator Calculator
 
 Estimate **1/4 mile elapsed time (ET)** in seconds and **trap speed** in MPH using peak horsepower, vehicle weight, and drivetrain layout.
 

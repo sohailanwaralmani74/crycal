@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Landing Page Conversion Rate Calculator – Form Submission Engine
-description: Calculate the conversion percentage of landing page visitors to form submissions, cost per lead, and return on page ad spend.
+title: "Landing Page Conversion Rate | Interactive Online Tool"
+description: "Calculate the conversion percentage of landing page visitors to form submissions, cost per lead, and return on page ad spend."
 permalink: /landing-page-conversion-rate-calculator
 tool_id: landing-page-conversion-rate-calculator
 category: saas-marketing-ads
@@ -130,7 +130,7 @@ faq:
     answer: "Improve conversion by reducing form fields, removing navigation headers, writing high-contrast headlines, adding customer social proof logos, and speeding up page load times."
 ---
 
-# Landing Page Conversion Rate Calculator – Form Submission Engine
+# Landing Page Conversion Rate Calculator
 
 Measure web traffic conversion efficiency and cost per lead with our **Landing Page Conversion Rate Calculator**.
 

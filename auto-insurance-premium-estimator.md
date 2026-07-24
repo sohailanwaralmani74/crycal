@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Auto Insurance Premium Estimator – Calculate Your Car Insurance Rate
-description: Estimate your car insurance premium with our free Auto Insurance Premium Estimator. Enter vehicle value, driver age, coverage type, and deductible to see your estimated rate.
+title: "Auto Insurance Premium Estimator | Interactive Online Tool"
+description: "Estimate your car insurance premium with our free Auto Insurance Premium Estimator."
 permalink: /auto-insurance-premium-estimator
 tool_id: auto-insurance-premium-estimator
 category: insurance
@@ -156,7 +156,7 @@ faq:
 
 ---
 
-# Estimate Your Auto Insurance Premium
+# Auto Insurance Premium Estimator Calculator
 
 Estimate your car insurance premium with our free **Auto Insurance Premium Estimator**. Enter vehicle value, driver age, coverage type, and deductible to see your estimated rate — all without your data leaving your browser.
 

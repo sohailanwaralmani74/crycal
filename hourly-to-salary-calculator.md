@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Hourly to Salary Calculator
-description: Convert your hourly wage into an annual salary — plus daily, weekly, and monthly pay. Works with any currency and any work schedule, anywhere in the world.
+title: "Hourly To Salary | Interactive Online Tool"
+description: "Convert your hourly wage into an annual salary — plus daily, weekly, and monthly pay. Works with any currency and any work schedule, anywhere in the world."
 permalink: /hourly-to-salary-calculator
 tool_id: hourly-to-salary
 category: tax
@@ -151,13 +151,13 @@ faq:
     answer: "No. Everything runs locally in your browser."
 ---
 
-# Hourly to Salary Calculator - Convert Hourly To Monthly Salary
+# Hourly To Salary Calculator
 
 Know your hourly wage and want to see what it adds up to over a day, a week, a month, or a year? Enter your hourly rate and your actual work schedule below, and this calculator converts it into every other pay period instantly — no assumptions about a "standard" job baked in.
 
 <!-- more -->
 
-## How to Use This Tool
+## How to Use the Hourly-to-Salary Calculator
 
 1. Select your **account currency** from the picker in the site header — this works with any currency in the world.
 2. Enter your **hourly wage**.
@@ -182,7 +182,7 @@ These reference points assume full-time hours with no unpaid time off. If you wo
 
 ---
 
-## Frequently Asked Questions
+## Hourly to Salary Calculator FAQ
 
 ### How do I convert an hourly wage to an annual salary?
 Multiply your hourly rate by the hours you work per day, then by the days you work per week, then by the weeks you work per year. For a typical full-time schedule of 8 hours a day, 5 days a week, 52 weeks a year, that's hourly rate times 2,080.

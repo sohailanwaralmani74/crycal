@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Amortization Calculator
-description: Generate a complete loan amortization schedule with our amortization calculator. See monthly payments, total interest, and principal breakdown for any loan.
+title: "Amortization | Interactive Online Tool"
+description: "Free online Amortization. Calculate loan payments, interest growth, taxes, and financial metrics with instant browser math and charts."
 permalink: /amortization-calculator
 tool_id: amortization
 category: debt
@@ -155,7 +155,7 @@ faq:
 
 ---
 
-# Amortization Calculator – Generate Your Loan Payment Schedule
+# Amortization Calculator
 
 Use this amortization calculator to generate a complete loan amortization schedule. Enter your loan amount, interest rate, term, and optional extra payment — the tool shows your monthly payment, total interest, and a full breakdown of every payment. Whether you're planning a mortgage, auto loan, or personal loan, this loan amortization calculator helps you understand exactly how your payments reduce your balance over time.
 

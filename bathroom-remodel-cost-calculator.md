@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Bathroom Remodel Cost Calculator – Full vs Half Bath Overhaul Estimator
-description: Calculate full vs half bathroom renovation costs by square footage, tile quality, plumbing fixture counts, and trade labor.
+title: "Bathroom Remodel Cost | Interactive Online Tool"
+description: "Calculate full vs half bathroom renovation costs by square footage, tile quality, plumbing fixture counts, and trade labor."
 permalink: /bathroom-remodel-cost-calculator
 tool_id: bathroom-remodel-cost-calculator
 category: project-cost-planning
@@ -151,7 +151,7 @@ faq:
   - question: "Is my personal data saved when using this calculator?"
 ---
 
-# Bathroom Remodel Cost Calculator – Full vs Half Bath Overhaul Estimator
+# Bathroom Remodel Cost Calculator
 
 Calculate complete bathroom renovation expenses for half-baths, standard hallway baths, or luxury master suites based on tile material, plumbing fixtures, and trade labor.
 

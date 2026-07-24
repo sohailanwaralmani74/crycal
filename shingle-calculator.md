@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Shingle Calculator – Bundles, Starter & Ridge Caps
-description: Calculate exact asphalt shingle bundles, starter strip rolls, ridge cap bundles, and waste percentages for roof replacement projects.
+title: "Shingle | Interactive Online Tool"
+description: "Calculate exact asphalt shingle bundles, starter strip rolls, ridge cap bundles, and waste percentages for roof replacement projects."
 permalink: /shingle-calculator
 tool_id: shingle-calculator
 category: roofing
@@ -140,7 +140,7 @@ faq:
     answer: "No. All calculations are processed locally in your browser."
 ---
 
-# Shingle Calculator – Bundles, Starter & Ridge Caps
+# Shingle Calculator
 
 Calculate exact **Shingle Bundles** ($3\text{ bundles} = 1\text{ roofing square}$), starter strip rolls, hip/ridge cap bundles, and material waste percentages with our free **Shingle Calculator**.
 

@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Engine Idle Fuel Waste Calculator – Cost & Fuel Lost Idling
-description: Calculate fuel and money wasted from engine idling in heavy traffic, drive-thrus, and warmups, along with excess CO2 emissions produced.
+title: "Engine Idle Fuel Waste | Interactive Online Tool"
+description: "Calculate fuel and money wasted from engine idling in heavy traffic, drive-thrus, and warmups, along with excess CO2 emissions produced."
 permalink: /engine-idle-fuel-waste-calculator
 tool_id: engine-idle-fuel-waste-calculator
 category: auto-fuel-efficiency

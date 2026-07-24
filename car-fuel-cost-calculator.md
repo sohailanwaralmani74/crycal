@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Car Fuel Cost Calculator – Calculate Monthly & Annual Gas Spending
-description: Calculate your monthly and annual fuel expenses based on annual mileage, combined MPG rating, and gas price per gallon.
+title: "Car Fuel Cost | Interactive Online Tool"
+description: "Calculate your monthly and annual fuel expenses based on annual mileage, combined MPG rating, and gas price per gallon."
 permalink: /car-fuel-cost-calculator
 tool_id: car-fuel-cost-calculator
 category: auto-cost-ownership

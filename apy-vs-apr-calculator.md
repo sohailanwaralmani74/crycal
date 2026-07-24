@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: APY vs APR Calculator – Convert APR to APY & Compare Rates
-description: Use our free APY vs APR Calculator to convert between Annual Percentage Rate and Annual Percentage Yield. Enter your rate and compounding frequency to see the true cost or return.
+title: "Apy Vs Apr | Interactive Online Tool"
+description: "Use our free APY vs APR Calculator to convert between Annual Percentage Rate and Annual Percentage Yield."
 permalink: /apy-vs-apr-calculator
 tool_id: apy-vs-apr-calculator
 category: growth
@@ -110,7 +110,7 @@ faq:
 
 ---
 
-# APY vs APR Calculator – Convert APR to APY & Compare Rates
+# Apy Vs Apr Calculator
 
 Use our free **APY vs APR Calculator** to convert between Annual Percentage Rate and Annual Percentage Yield. Enter your rate and compounding frequency to see the true cost or return — all without your data leaving your browser.
 

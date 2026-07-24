@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Deferred Revenue Calculator
+   Wanjaaro — Deferred Revenue Calculator
    Tool ID: deferred-revenue-calculator
 ═══════════════════════════════════════════════════════════ */
 

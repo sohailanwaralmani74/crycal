@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Building Permit Cost Estimator – Valuation Tiers & Sub-Permits
-description: Calculate municipal building permit fees, electrical, plumbing, and mechanical trade sub-permits, plan review surcharges, and state fees based on project valuation.
+title: "Building Permit Cost Estimator | Interactive Online Tool"
+description: "Calculate municipal building permit fees, electrical, plumbing, and mechanical trade sub-permits, plan review surcharges, and state fees based..."
 permalink: /building-permit-cost-estimator
 tool_id: building-permit-cost-estimator
 category: project-cost-planning
@@ -153,7 +153,7 @@ faq:
     answer: "No. All calculations run strictly inside your web browser."
 ---
 
-# Building Permit Cost Estimator – Valuation Tiers & Sub-Permits
+# Building Permit Cost Estimator Calculator
 
 Obtaining municipal building permits is a critical prerequisite for structural remodeling, room additions, and trade work. Use our **Building Permit Cost Estimator** to calculate base building permit fees, electrical, plumbing, and HVAC trade sub-permits, plan review surcharges, and total permit budgeting based on construction project valuation.
 

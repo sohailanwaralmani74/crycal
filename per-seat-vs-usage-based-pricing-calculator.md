@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Per-Seat vs. Usage Pricing Calculator – Model Revenue Projection
-description: Compare projected monthly and annual revenue between per-seat licensing and consumption usage-based pricing models for your SaaS platform.
+title: "Per Seat Vs Usage Based Pricing | Interactive Online Tool"
+description: "Compare projected monthly and annual revenue between per-seat licensing and consumption usage-based pricing models for your SaaS platform."
 permalink: /per-seat-vs-usage-based-pricing-calculator
 tool_id: per-seat-vs-usage-based-pricing-calculator
 category: saas-pricing-packaging
@@ -157,7 +157,7 @@ faq:
 
 ---
 
-# Per-Seat vs. Usage Pricing Calculator – Model Revenue Projection
+# Per Seat Vs Usage Based Pricing Calculator
 
 Compare projected revenue streams between traditional **Per-Seat Licensing** and modern **Consumption Usage-Based Pricing** models.
 

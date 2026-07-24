@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Dividend Reinvestment Calculator
-description: Estimate how your dividends grow over time with a dividend reinvestment plan (DRIP). See the power of compounding dividends with reinvestment.
+title: "Dividend Reinvestment | Interactive Online Tool"
+description: "Estimate how your dividends grow over time with a dividend reinvestment plan (DRIP). See the power of compounding dividends with reinvestment."
 permalink: /dividend-reinvestment-calculator
 tool_id: dividend-reinvestment
 category: growth
@@ -166,7 +166,7 @@ faq:
 
 ---
 
-# Dividend Reinvestment Calculator – See Your DRIP Growth
+# Dividend Reinvestment Calculator
 
 Use this dividend reinvestment calculator to estimate how your dividends grow over time with a dividend reinvestment plan (DRIP). Enter your initial investment, monthly contributions, dividend yield, and dividend growth rate — the tool shows your final portfolio value, total dividends, and the reinvestment benefit. Whether you're building passive income or aiming for long-term growth, this drip plan calculator shows you the full picture.
 

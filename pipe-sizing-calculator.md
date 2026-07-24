@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Pipe Sizing Calculator – PEX & Copper Water Supply Diameter (WSFU & GPM)
-description: Calculate required PEX, copper, or CPVC water supply pipe diameter (1/2", 3/4", 1") based on Fixture Units (WSFU), peak GPM flow, and max velocity limits.
+title: "Pipe Sizing | Interactive Online Tool"
+description: "Calculate required PEX, copper, or CPVC water supply pipe diameter (1/2, 3/4, 1) based on Fixture Units (WSFU), peak GPM flow, and max velocity limits."
 permalink: /pipe-sizing-calculator
 tool_id: pipe-sizing-calculator
 category: plumbing
@@ -130,7 +130,7 @@ faq:
 
 ---
 
-# Pipe Sizing Calculator – PEX & Copper Water Supply Diameter (WSFU & GPM)
+# Pipe Sizing Calculator
 
 Calculate the required **PEX, copper, or CPVC water pipe diameter** for main service lines and branch runs using our **Pipe Sizing Calculator**. Compliant with **Uniform Plumbing Code (UPC)** and **International Plumbing Code (IPC)** standards, this tool converts **Water Supply Fixture Units (WSFU)** to peak **GPM flow rates**.
 

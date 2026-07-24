@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Plus-Size Wheel Fitment Calculator – Plus 1, Plus 2 & Plus 3 Upsizing
-description: Calculate Plus 1, Plus 2, and Plus 3 wheel sizing setups. Verify overall tire diameter stays within the safe 3% threshold when increasing rim diameter.
+title: "Plus Size Wheel Fitment | Interactive Online Tool"
+description: "Calculate Plus 1, Plus 2, and Plus 3 wheel sizing setups. Verify overall tire diameter stays within the safe 3% threshold when increasing rim diameter."
 permalink: /plus-size-wheel-fitment-calculator
 tool_id: plus-size-wheel-fitment-calculator
 category: auto-tires-wheels
@@ -150,7 +150,7 @@ faq:
 
 ---
 
-# Plus-Size Wheel Fitment Calculator – Plus 1, Plus 2 & Plus 3 Upsizing
+# Plus Size Wheel Fitment Calculator
 
 Calculate Plus 1, Plus 2, and Plus 3 wheel sizing configurations with our free **Plus-Size Wheel Fitment Calculator**. Ensure target tire height remains within **±3% of stock specs** for safe handling and accurate speedometer calibration.
 

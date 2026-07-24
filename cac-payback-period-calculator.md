@@ -114,7 +114,7 @@ faq:
     a: "No. All calculations run strictly inside your local web browser."
 ---
 
-# CAC Payback Period Calculator
+# Calculate CAC Payback Period
 
 Calculate CAC Payback Period in months from CAC, ARPU, and gross margin % to evaluate cash flow efficiency. Use our free **CAC Payback Period Calculator** to evaluate your SaaS business performance and make data-driven growth decisions — without any data leaving your browser.
 

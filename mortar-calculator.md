@@ -1,94 +1,106 @@
 ---
 layout: tool
-title: Mortar Calculator – Estimate Mortar Bags & Cubic Feet for Brick & CMU Walls
-description: Calculate the number of 70lb or 80lb mortar bags, total cubic feet of mortar, masonry units, and costs for brick veneer or CMU block wall construction.
+title: "Mortar Calculator | Brick & CMU Block Mortar Bags"
+description: "Calculate 70lb or 80lb mortar bags, total cubic feet of mortar, masonry units, and costs for brick veneer or CMU block wall construction."
 permalink: /mortar-calculator
 tool_id: mortar-calculator
 category: concrete-masonry
 hide_sidebar: true
 
 inputs:
-  - id: wallArea
-    label: Wall Area (Sq Ft)
-    type: number
-    default: 250
-    step: 10
-    min: 1
-    placeholder: "e.g., 250"
-
   - id: unitType
-    label: Masonry Unit Type
+    label: Masonry Unit Type & Size
     type: select
     default: "brick"
     options:
       - value: "brick"
-        label: "Standard Modular Brick (700 bricks / 100 sq ft)"
+        label: "Standard Modular Brick (3-5/8 x 2-1/4 x 7-5/8)"
       - value: "cmu8"
-        label: "8-Inch CMU Concrete Block (112 blocks / 100 sq ft)"
+        label: "8 x 8 x 16 Standard Concrete Block (CMU)"
       - value: "cmu12"
-        label: "12-Inch CMU Concrete Block (112 blocks / 100 sq ft)"
+        label: "12 x 8 x 16 Heavy Structural Block (CMU)"
+      - value: "stone"
+        label: "Manufactured Stone Veneer (Per Sq Ft)"
 
-  - id: bagSize
-    label: Mortar Mix Bag Weight
+  - id: unitCount
+    label: Total Masonry Units (Bricks / Blocks / Sq Ft)
+    type: number
+    default: 1000
+    step: 50
+    min: 10
+    placeholder: "e.g., 1000"
+
+  - id: jointThickness
+    label: Mortar Joint Thickness (Inches)
+    type: number
+    default: 0.375
+    step: 0.0625
+    min: 0.25
+    max: 0.75
+    placeholder: "0.375 for 3/8 joint"
+
+  - id: bagWeight
+    label: Pre-Mixed Mortar Bag Size
     type: select
     default: "80"
     options:
       - value: "80"
-        label: "80 lb Bag (~0.67 cu ft yield)"
+        label: "80 lb Mortar Bag (0.67 cu ft yield)"
       - value: "70"
-        label: "70 lb Bag (~0.58 cu ft yield)"
+        label: "70 lb Mortar Bag (0.58 cu ft yield)"
 
   - id: wasteFactor
-    label: Waste & Spillage Allowance (%)
+    label: Mortar Waste & Scraping Allowance (%)
     type: number
     default: 10
     step: 1
     min: 0
-    max: 30
-    suffix: '%'
+    max: 25
     placeholder: "e.g., 10"
 
   - id: pricePerBag
-    label: Price per Bag 
+    label: Cost per Mortar Bag ($)
     type: number
-    default: 12.50
-    step: 0.50
+    default: 9.25
+    step: 0.25
     min: 0
     prefix: '$'
-    placeholder: "e.g., 12.50"
+    placeholder: "e.g., 9.25"
 
 outputs:
-  - id: totalBags
-    label: Mortar Bags Needed (with Waste)
-  - id: cubicFeet
-    label: Total Cubic Feet of Mortar
-  - id: totalUnits
-    label: Masonry Units Required (Bricks/Blocks)
-  - id: totalCost
-    label: Total Mortar Cost
+  - id: totalMortarBags
+    label: Mortar Bags Required
+  - id: mortarCubicFeet
+    label: Total Mortar Volume (Cubic Feet)
+  - id: sandWeightTons
+    label: Equivalent Masonry Sand (Jobsite Mix Tons)
+  - id: masonryCementBags
+    label: Equivalent Masonry Cement Bags (94lb)
+  - id: totalMortarCost
+    label: Total Mortar Material Cost
 
 charts:
   tabs:
-    - id: bagBreakdown
-      label: Net Mortar vs Waste Allowance
-    - id: costBreakdown
-      label: Mortar Cost vs Waste Cost
+    - id: mortarQuantities
+      label: Mortar Volume & Bag Allowance
+    - id: mixTypeComparison
+      label: Pre-Mixed Bags vs Jobsite Bulk Mix Cost
 
 history_columns:
-  - key: wallArea
-    label: Wall Area (sq ft)
-    source: input
   - key: unitType
     label: Unit Type
     source: input
-  - key: totalBags
-    label: Bags Needed
+  - key: unitCount
+    label: Unit Count
+    source: input
+  - key: totalMortarBags
+    label: Mortar Bags
     source: output
-  - key: cubicFeet
-    label: Mortar (cu ft)
+  - key: mortarCubicFeet
+    label: Volume (cu ft)
     source: output
-  - key: totalCost
-    label: Total Cost 
+  - key: totalMortarCost
+    label: Total Cost
     source: output
 
 js_file: assets/js/calculators/mortar-calculator.js
@@ -99,139 +111,141 @@ structured_data:
   name: "Mortar Calculator"
   applicationCategory: "BusinessApplication"
   operatingSystem: "All"
-  description: "Calculate pre-mixed mortar bag quantities (70lb/80lb), cubic feet of mortar yield, masonry unit counts, and material costs for brick and CMU walls."
+  description: "Calculate 70lb or 80lb pre-mixed mortar bags, total cubic feet, masonry cement, and sand for brick and CMU block laying."
   offers:
     "@type": "Offer"
     price: "0"
     priceCurrency: "USD"
   featureList:
-    - "Calculates mortar bags for modular brick, 8\" CMU, and 12\" CMU block construction"
-    - "Supports standard 70 lb and 80 lb pre-mixed mortar bag sizes"
-    - "Includes custom waste factor calculations to prevent job-site material shortages"
-    - "100% free and runs instantly in your web browser"
+    - "Calculates mortar volume for standard modular brick, CMU blocks, and stone veneer"
+    - "Determines 80lb or 70lb pre-mixed Type N, S, or M mortar bag requirements"
+    - "Computes equivalent masonry cement bags and sand tonnage for jobsite mixing"
+    - "Includes customizable joint thickness and waste allowances"
 
 breadcrumb:
   - name: Home
     url: /
-  - name: Construction
-    url: /construction
+  - name: Concrete & Masonry
+    url: /concrete-masonry
   - name: Mortar Calculator
 
 howto:
-  name: "How to Calculate Mortar Bags for Brick or Block Walls"
-  description: "Accurately estimate pre-bagged mortar requirements and cubic foot volumes for masonry wall construction."
+  name: "How to Calculate Mortar Bags and Volume for Brick and CMU Block Walls"
+  description: "Accurately compute mortar bag quantities and volumetric coverage for masonry construction."
   step:
-    - name: "Measure the total net wall area"
-      text: "Calculate gross wall length multiplied by height in feet, subtracting any doors or window openings."
-    - name: "Select the masonry unit type"
-      text: "Choose between standard modular brick, 8-inch concrete block (CMU), or 12-inch CMU."
-    - name: "Choose mortar bag weight"
-      text: "Select either standard 80 lb pre-blended Type S/N mortar bags or 70 lb bags."
-    - name: "Add waste factor and review costs"
-      text: "Include 10% to 15% allowance for mortar board droppings, head joint buttering, and waste."
+    - name: "Select masonry unit type and quantity"
+      text: "Specify standard modular brick count, CMU block count, or stone veneer square footage."
+    - name: "Select joint thickness and mortar type"
+      text: "Standard bed and head joint thickness is 3/8 inch (0.375 in)."
+    - name: "Calculate total mortar volume"
+      text: "Apply empirical consumption rates (e.g. 7 bags per 1,000 bricks or 3 bags per 100 CMU blocks)."
+    - name: "Include waste factor and calculate cost"
+      text: "Add 10% waste for mortar droppings and multiply total bags by price per bag."
 
 faq:
-  - question: "How many 80lb bags of mortar do I need for 100 sq ft of brick wall?"
-    answer: "A standard 100 sq ft modular brick wall (requiring ~700 bricks) uses approximately 5.5 to 6 bags of 80 lb mortar mix, or about 6 to 7 bags when including a standard 10% waste factor."
-  - question: "How many 80lb mortar bags are needed per 100 CMU concrete blocks?"
-    answer: "For standard 8\"x8\"x16\" CMU concrete blocks, you need approximately 3 bags of 80 lb mortar mix per 100 blocks. For 12\" CMU blocks, plan for approximately 4.2 bags per 100 blocks."
-  - question: "What is the yield in cubic feet for an 80lb mortar bag?"
-    answer: "One 80 lb bag of pre-mixed masonry mortar yields approximately 0.67 cubic feet of wet, workable mortar when properly mixed with water."
-  - question: "What is the difference between Type N and Type S mortar?"
-    answer: "Type N mortar has moderate compressive strength (~750 PSI) and is ideal for exterior non-loadbearing walls and interior brick veneer. Type S mortar has higher strength (~1,800 PSI) and is specified for below-grade foundations, structural CMU walls, and retaining walls."
-  - question: "Should I add sand to pre-mixed packaged mortar bags?"
-    answer: "No. Pre-blended commercial mortar bags (like Quikrete or Sakrete Mortar Mix) already contain sand and cementitious materials in precise ratios. You only need to add clean water."
-  - question: "Why is a waste factor necessary when calculating mortar?"
-    answer: "Mortar is subject to loss from board droppings, joint strike-off cleanup, uneven masonry unit dimensions, and stiffening (pot life expiration) during hot or windy weather."
-  - question: "Can I use this mortar calculator for stone veneer?"
-    answer: "Yes, standard manufactured stone veneer typically uses mortar quantities similar to 8-inch CMU block walls due to heavy scratch coat scratch backing and thick bed joints."
+  - question: "How many 80lb bags of mortar do I need for 1,000 bricks?"
+    answer: "Laying 1,000 standard modular bricks with 3/8-inch mortar joints requires approximately 7.0 to 7.5 bags of 80lb pre-mixed masonry mortar (or about 5.0 cubic feet of wet mortar)."
+  - question: "How many 80lb bags of mortar do I need for 100 CMU blocks?"
+    answer: "Laying 100 standard 8x8x16 concrete masonry blocks requires approximately 3.0 to 3.5 bags of 80lb pre-mixed mortar (or about 2.2 cubic feet of wet mortar)."
+  - question: "What is the difference between Type N, Type S, and Type M mortar?"
+    answer: "Type N (750 PSI) is general-purpose mortar for exterior above-grade brick walls. Type S (1,800 PSI) is high-strength mortar for structural load-bearing walls and below-grade foundations. Type M (2,500 PSI) is heavy structural mortar."
+  - question: "How much mortar volume does an 80lb pre-mixed bag yield?"
+    answer: "One 80lb bag of pre-mixed masonry mortar yields approximately 0.67 cubic feet of wet mixed mortar."
+  - question: "What is the standard mortar joint thickness for brick and block?"
+    answer: "The standard joint thickness for both modular brick and CMU concrete block laying is 3/8 inch (0.375 in)."
+  - question: "Should I buy pre-mixed mortar bags or mix cement and sand on site?"
+    answer: "For projects under 500 bricks or 100 blocks, pre-mixed 80lb bags save significant setup time. For large commercial projects, jobsite mixing (1 bag masonry cement to 3 parts damp sand) is more cost-effective."
+  - question: "How much mortar waste should be added for masonry work?"
+    answer: "A 10% waste factor is recommended to account for joint strike scraping, board drying, and mortar board droppings."
 ---
 
-Calculate exact mortar bag quantities, cubic volume, and material expenses for brick veneer, 8-inch CMU block, and 12-inch CMU structural masonry walls.
+# Masonry Mortar Bag & Volume Calculator
+
+Calculate 70lb or 80lb pre-mixed mortar bags, total cubic feet of wet mortar, jobsite cement and sand quantities, and material costs for brick and CMU block laying. All calculations execute 100% privately in your browser.
 
 <!-- more -->
 
 ## Why Use the Mortar Calculator?
 
-Accurately calculating mortar volume is critical for masonry project management. Ordering too few bags halts construction mid-build, while over-ordering leads to spoiled cement bags hardening from moisture exposure. This **Mortar Calculator** streamlines estimation for both brickwork and concrete masonry unit (CMU) construction by factoring in unit coverage, bag yields (70lb vs 80lb), and jobsite waste allowances.
+Laying masonry units (brick veneer, concrete block, or stone) requires continuous mortar joints. Under-estimating mortar halts masonry crews mid-wall, while over-buying pre-mixed bags creates heavy surplus waste that hardens from atmospheric moisture.
 
-### Key Benefits
-* **Multi-Unit Versatility:** Supports standard modular face brick, 8" CMU block, and heavy 12" structural CMU block walls.
-* **Bag Yield Precision:** Adjusts calculations for both 80 lb (~0.67 cu ft yield) and 70 lb (~0.58 cu ft yield) pre-mixed bags.
-* **Waste Management:** Prevents material shortfalls by incorporating a customizable 10% to 20% waste margin for joint strike-offs and board droppings.
-* **Cost Control:** Instantly converts unit requirements into total project material budgets.
+Mortar consumption varies based on unit dimensions, joint thickness (standard 3/8"), unit hollow cores, and board droppings. This **Mortar Calculator** computes precise pre-mixed bag counts, cubic footage, bulk jobsite sand tonnage, and material costs.
 
 ---
 
-## Mortar Calculation Formulas
+## Mathematical Formulas & Mechanics
 
-Mortar calculations rely on unit coverage factors combined with wet mix volume yields.
+### 1. Base Mortar Volume ($V_{	ext{mortar\_cuft}}$)
+Empirical consumption factors per unit (for 3/8" joints):
+- Standard Modular Brick: $0.0050	ext{ cu ft}$ per brick (7.5 80lb bags per 1,000 bricks)
+- 8" x 8" x 16" CMU Block: $0.0220	ext{ cu ft}$ per block (3.3 80lb bags per 100 blocks)
+- 12" x 8" x 16" CMU Block: $0.0300	ext{ cu ft}$ per block (4.5 80lb bags per 100 blocks)
+- Manufactured Stone Veneer: $0.0450	ext{ cu ft}$ per sq ft (6.7 80lb bags per 100 sq ft)
 
-### 1. Brick Wall Mortar Requirement
-Standard modular bricks require approximately $0.055$ bags of 80 lb mortar per square foot of wall area (or ~7 bags per 1,000 bricks with 3/8" bed joints):
+Including waste allowance ($	ext{Waste } \%$):
 
-$$N_{\text{brick\_bags}} = A_{\text{wall}} \times 0.055 \times \left(1 + \frac{W}{100}\right)$$
+$$V_{	ext{total\_cuft}} = N_{	ext{units}} 	imes V_{	ext{unit\_factor}} 	imes \left(1 + rac{	ext{Waste } \%}{100}
+ight)$$
 
-Where:
-* $A_{\text{wall}}$ = Net wall surface area ($\text{ft}^2$)
-* $W$ = Waste percentage (%)
+### 2. Pre-Mixed Mortar Bag Count ($N_{	ext{bags}}$)
+For 80 lb bag yield ($0.67	ext{ cu ft}$) or 70 lb bag yield ($0.58	ext{ cu ft}$):
 
-### 2. CMU Block Wall Mortar Requirement
-For 8-inch concrete masonry units (112 blocks per $100\text{ ft}^2$), mortar usage is calculated as:
+$$N_{	ext{bags}} = \left\lceil rac{V_{	ext{total\_cuft}}}{V_{	ext{bag\_yield}}} 
+ight
+ceil$$
 
-$$N_{\text{cmu8\_bags}} = A_{\text{wall}} \times 0.0336 \times \left(1 + \frac{W}{100}\right)$$
+### 3. Equivalent Jobsite Bulk Mix (Masonry Cement & Sand)
+For a 1:3 jobsite proportion (1 bag 94lb Masonry Cement to $3	ext{ cu ft}$ damp masonry sand):
 
-For 12-inch concrete block, usage increases to $0.0470$ bags per square foot.
+$$N_{	ext{cement\_94lb}} = \left\lceil rac{V_{	ext{total\_cuft}}}{3.0} 
+ight
+ceil$$
 
-### 3. Bag Weight & Cubic Feet Conversion
-When using 70 lb bags instead of standard 80 lb bags, a scaling factor of $\frac{80}{70} \approx 1.143$ is applied. Total mortar volume in cubic feet ($V_{\text{cuft}}$) is:
-
-$$V_{\text{cuft}} = N_{\text{net\_80lb\_bags}} \times 0.67$$
-
----
-
-## Real-World Masonry Mortar Comparison Table
-
-The following reference table outlines typical material usage per 100 square feet of finished wall area across common masonry types (assuming standard 3/8" mortar joints and 80 lb bags):
-
-| Masonry Unit Type | Units per 100 Sq Ft | Net 80lb Bags Needed | Net Cubic Feet | Estimated Material Cost ($12.50/bag) |
-| :--- | :--- | :--- | :--- | :--- |
-| **Modular Face Brick** | 700 Bricks | 5.5 Bags | 3.69 cu ft | $68.75 |
-| **8" CMU Concrete Block** | 112 Blocks | 3.4 Bags | 2.28 cu ft | $42.50 |
-| **12" CMU Structural Block** | 112 Blocks | 4.7 Bags | 3.15 cu ft | $58.75 |
-| **Manufactured Stone Veneer** | 100 Sq Ft | 6.0 Bags | 4.02 cu ft | $75.00 |
+$$	ext{Sand (Tons)} = rac{V_{	ext{total\_cuft}} 	imes 100}{2000}$$
 
 ---
 
-## Step-by-Step Guide: How to Estimate Mortar Requirements
+## Real-World Comparison & Benchmark Table
 
-1. **Calculate Net Wall Area:** Multiply total wall length by wall height. Subtract window and door openings ($A_{\text{net}} = L \times H - A_{\text{openings}}$).
-2. **Determine Masonry Unit:** Identify whether you are laying standard face brick (700 units per $100\text{ ft}^2$) or CMU concrete blocks (112 units per $100\text{ ft}^2$).
-3. **Select Mortar Bag Size:** Verify bag weight on your material supply list. Standard pre-blended commercial bags come in 80 lb or 70 lb options.
-4. **Apply Waste Allowance:** Include a 10% waste factor for standard flat walls, or 15% for intricate walls with numerous piers, corners, or decorative soldier courses.
-5. **Compute Total Order:** Multiply total bag count by supplier unit cost to calculate your total masonry mortar budget.
+| Masonry Unit Type | Quantity | 80lb Pre-Mixed Mortar Bags (10% Waste) | Total Wet Mortar Volume (Cu Ft) | Jobsite Masonry Cement (94lb Bags) | Jobsite Masonry Sand (Tons) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Standard Modular Brick** | 500 Bricks | 4 Bags | 2.75 Cu Ft | 1 Bag | 0.14 Tons |
+| **Standard Modular Brick** | 1,000 Bricks | 8 Bags | 5.50 Cu Ft | 2 Bags | 0.28 Tons |
+| **8" CMU Block Wall** | 100 Blocks | 4 Bags | 2.42 Cu Ft | 1 Bag | 0.12 Tons |
+| **8" CMU Block Wall** | 500 Blocks | 18 Bags | 12.10 Cu Ft | 4 Bags | 0.61 Tons |
+| **Manufactured Stone** | 200 Sq Ft | 15 Bags | 9.90 Cu Ft | 4 Bags | 0.50 Tons |
 
 ---
 
-## Frequently Asked Questions (FAQ)
+## Step-by-Step How-To Guide
 
-### How many 80lb bags of mortar do I need for 100 sq ft of brick wall?
-A standard 100 sq ft modular brick wall (requiring ~700 bricks) uses approximately 5.5 to 6 bags of 80 lb mortar mix, or about 6 to 7 bags when including a standard 10% waste factor.
+1. **Select Masonry Unit:** Choose standard modular brick, 8" CMU block, 12" CMU block, or stone veneer.
+2. **Input Unit Quantity:** Enter total bricks, blocks, or wall surface square footage.
+3. **Set Joint Thickness:** Keep standard 3/8" (0.375 in) joint thickness.
+4. **Choose Pre-Mixed Bag Weight:** Select 80lb bags (most common) or 70lb bags.
+5. **Review Order Quantities:** Use total calculated bag counts or bulk sand/cement quantities for jobsite mixing.
 
-### How many 80lb mortar bags are needed per 100 CMU concrete blocks?
-For standard 8"x8"x16" CMU concrete blocks, you need approximately 3 bags of 80 lb mortar mix per 100 blocks. For 12" CMU blocks, plan for approximately 4.2 bags per 100 blocks.
+---
 
-### What is the yield in cubic feet for an 80lb mortar bag?
-One 80 lb bag of pre-mixed masonry mortar yields approximately 0.67 cubic feet of wet, workable mortar when properly mixed with water.
+## Frequently Asked Questions
 
-### What is the difference between Type N and Type S mortar?
-Type N mortar has moderate compressive strength (~750 PSI) and is ideal for exterior non-loadbearing walls and interior brick veneer. Type S mortar has higher strength (~1,800 PSI) and is specified for below-grade foundations, structural CMU walls, and retaining walls.
+### How many 80lb bags of mortar do I need for 1,000 bricks?
+Laying 1,000 standard modular bricks with 3/8-inch mortar joints requires approximately 7.0 to 7.5 bags of 80lb pre-mixed masonry mortar (or about 5.0 cubic feet of wet mortar).
 
-### Should I add sand to pre-mixed packaged mortar bags?
-No. Pre-blended commercial mortar bags (like Quikrete or Sakrete Mortar Mix) already contain sand and cementitious materials in precise ratios. You only need to add clean water.
+### How many 80lb bags of mortar do I need for 100 CMU blocks?
+Laying 100 standard 8x8x16 concrete masonry blocks requires approximately 3.0 to 3.5 bags of 80lb pre-mixed mortar (or about 2.2 cubic feet of wet mortar).
 
-### Why is a waste factor necessary when calculating mortar?
-Mortar is subject to loss from board droppings, joint strike-off cleanup, uneven masonry unit dimensions, and stiffening (pot life expiration) during hot or windy weather.
+### What is the difference between Type N, Type S, and Type M mortar?
+Type N (750 PSI) is general-purpose mortar for exterior above-grade brick walls. Type S (1,800 PSI) is high-strength mortar for structural load-bearing walls and below-grade foundations. Type M (2,500 PSI) is heavy structural mortar.
 
-### Can I use this mortar calculator for stone veneer?
-Yes, standard manufactured stone veneer typically uses mortar quantities similar to 8-inch CMU block walls due to heavy scratch coat scratch backing and thick bed joints.
+### How much mortar volume does an 80lb pre-mixed bag yield?
+One 80lb bag of pre-mixed masonry mortar yields approximately 0.67 cubic feet of wet mixed mortar.
+
+### What is the standard mortar joint thickness for brick and block?
+The standard joint thickness for both modular brick and CMU concrete block laying is 3/8 inch (0.375 in).
+
+### Should I buy pre-mixed mortar bags or mix cement and sand on site?
+For projects under 500 bricks or 100 blocks, pre-mixed 80lb bags save significant setup time. For large commercial projects, jobsite mixing (1 bag masonry cement to 3 parts damp sand) is more cost-effective.
+
+### How much mortar waste should be added for masonry work?
+A 10% waste factor is recommended to account for joint strike scraping, board drying, and mortar board droppings.

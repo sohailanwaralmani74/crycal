@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Backsplash Tile Calculator – Kitchen & Bathroom Wall Tile Estimator
-description: Calculate kitchen backsplash square footage, tile count, box quantities, outlet cutout deductions, waste allowance, and material cost.
+title: "Backsplash Tile | Interactive Online Tool"
+description: "Calculate kitchen backsplash square footage, tile count, box quantities, outlet cutout deductions, waste allowance, and material cost."
 permalink: /backsplash-tile-calculator
 tool_id: backsplash-tile-calculator
 category: home-decor-interior
@@ -170,7 +170,7 @@ faq:
   - question: "Is my personal data saved when using this calculator?"
 ---
 
-# Backsplash Tile Calculator – Kitchen & Bathroom Wall Tile Estimator
+# Backsplash Tile Calculator
 
 Calculate net wall square footage, individual tile counts, full retail box orders, outlet deductions, and material costs for kitchen tile backsplashes.
 

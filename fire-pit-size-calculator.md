@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Fire Pit Size Calculator – Ring Blocks, Lava Rock & Cost Estimator
-description: Calculate fire pit wall block count by outer and inner diameter, wall height, lava rock volume in cubic feet, and total DIY fire pit cost.
+title: "Fire Pit Size | Interactive Online Tool"
+description: "Calculate fire pit wall block count by outer and inner diameter, wall height, lava rock volume in cubic feet, and total DIY fire pit cost."
 permalink: /fire-pit-size-calculator
 tool_id: fire-pit-size-calculator
 category: landscaping-outdoor
@@ -165,7 +165,7 @@ faq:
     answer: "No. All calculations run locally in your web browser."
 ---
 
-# Fire Pit Size Calculator – Ring Blocks, Lava Rock & Cost Estimator
+# Fire Pit Size Calculator
 
 Determine exact material requirements for building a custom circular **retaining block fire pit** with our **Fire Pit Size Calculator**. Calculate **blocks per ring layer**, **total vertical courses**, **lava rock fill volume**, and total material cost.
 

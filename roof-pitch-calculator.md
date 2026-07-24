@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Roof Pitch Calculator – Pitch Ratio, Slope Angle & Area Multiplier
-description: Calculate roof pitch ratios (X/12), pitch angles in degrees, pitch multipliers, and true sloped roof square footage from rise and run.
+title: "Roof Pitch | Interactive Online Tool"
+description: "Calculate roof pitch ratios (X/12), pitch angles in degrees, pitch multipliers, and true sloped roof square footage from rise and run."
 permalink: /roof-pitch-calculator
 tool_id: roof-pitch-calculator
 category: lumber-framing
@@ -125,7 +125,7 @@ faq:
     answer: "No. All calculation logic executes locally in your browser."
 ---
 
-# Roof Pitch Calculator – Pitch Ratio, Slope Angle & Area Multiplier
+# Roof Pitch Calculator
 
 Calculate **roof pitch ratio (X/12)**, slope angle in degrees, **pitch multiplier factor**, and true sloped roof square footage from rise and run measurements.
 

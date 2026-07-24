@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: HSA Growth Calculator – Project Your Health Savings Account
-description: Use the HSA Growth Calculator to project how your Health Savings Account balance will grow with contributions, investment returns, and triple tax advantages.
+title: "Hsa Growth | Interactive Online Tool"
+description: "Free online Hsa Growth. Calculate loan payments, interest growth, taxes, and financial metrics with instant browser math and charts."
 permalink: /hsa-growth-calculator
 tool_id: hsa-growth-calculator
 category: growth
@@ -140,7 +140,7 @@ faq:
     answer: "No. All calculations run locally in your browser. No data is sent to any server."
 ---
 
-# Project Your HSA's Tax-Advantaged Growth
+# Hsa Growth Calculator
 
 Use the **HSA Growth Calculator** to project how your Health Savings Account balance will grow with contributions, investment returns, and triple tax advantages.
 

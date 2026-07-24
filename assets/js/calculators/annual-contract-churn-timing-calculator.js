@@ -1,78 +1,151 @@
+/* ═══════════════════════════════════════════════════════════
+   Wanjaaro — Annual Contract Churn Timing Calculator
+   Tool ID: annual-contract-churn-timing-calculator
+═══════════════════════════════════════════════════════════ */
+
 (function() {
-    let chartInstance = null;
+  var chartInstance = null;
+  var currentTab = 'pie';
 
-    function calculate() {
-        const totalChurned = parseFloat(document.getElementById('input_total_churned').value) || 0;
-        const earlyChurn = parseFloat(document.getElementById('input_month_1_to_3').value) || 0;
-        const renewalChurn = parseFloat(document.getElementById('input_month_11_to_12').value) || 0;
+  function setOutputText(id, text) {
+    var el = document.getElementById(id) || document.getElementById('output_' + id);
+    if (el) {
+      if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
+        el.value = text;
+      } else {
+        var numEl = el.querySelector('.output-number');
+        if (numEl) numEl.textContent = text;
+        else el.textContent = text;
+      }
+    }
+  }
 
-        if (earlyChurn + renewalChurn > totalChurned) {
-            alert('Sum of early and renewal churn cannot exceed total churn.');
-            return;
-        }
+  function getInputs() {
+    return {
+      totalChurned: parseFloat(document.getElementById('input_total_churned')?.value) || 0,
+      earlyChurn: parseFloat(document.getElementById('input_month_1_to_3')?.value) || 0,
+      renewalChurn: parseFloat(document.getElementById('input_month_11_to_12')?.value) || 0
+    };
+  }
 
-        const midTermChurn = totalChurned - earlyChurn - renewalChurn;
+  function updateTool() {
+    var inputs = getInputs();
+    var totalChurned = inputs.totalChurned;
+    var earlyChurn = inputs.earlyChurn;
+    var renewalChurn = inputs.renewalChurn;
 
-        const earlyRate = totalChurned > 0 ? (earlyChurn / totalChurned) * 100 : 0;
-        const renewalRate = totalChurned > 0 ? (renewalChurn / totalChurned) * 100 : 0;
-        const midTermRate = totalChurned > 0 ? (midTermChurn / totalChurned) * 100 : 0;
+    var validEarly = Math.min(earlyChurn, totalChurned);
+    var validRenewal = Math.min(renewalChurn, totalChurned - validEarly);
+    var midTermChurn = Math.max(0, totalChurned - validEarly - validRenewal);
 
-        document.getElementById('output_early_churn_rate').innerText = earlyRate.toFixed(2);
-        document.getElementById('output_renewal_churn_rate').innerText = renewalRate.toFixed(2);
-        document.getElementById('output_mid_term_churn_rate').innerText = midTermRate.toFixed(2);
+    var earlyRate = totalChurned > 0 ? (validEarly / totalChurned) * 100 : 0;
+    var midTermRate = totalChurned > 0 ? (midTermChurn / totalChurned) * 100 : 0;
+    var renewalRate = totalChurned > 0 ? (validRenewal / totalChurned) * 100 : 0;
 
-        updateChart(earlyRate, midTermRate, renewalRate);
+    setOutputText('early_churn_rate', earlyRate.toFixed(2) + '%');
+    setOutputText('output_early_churn_rate', earlyRate.toFixed(2) + '%');
+    setOutputText('mid_term_churn_rate', midTermRate.toFixed(2) + '%');
+    setOutputText('output_mid_term_churn_rate', midTermRate.toFixed(2) + '%');
+    setOutputText('renewal_churn_rate', renewalRate.toFixed(2) + '%');
+    setOutputText('output_renewal_churn_rate', renewalRate.toFixed(2) + '%');
 
-        if (typeof window.logHistory === 'function') {
-            window.logHistory([
-                totalChurned,
-                earlyChurn,
-                renewalChurn,
-                earlyRate.toFixed(2) + '%',
-                renewalRate.toFixed(2) + '%'
-            ]);
-        }
+    updateCharts({
+      early: validEarly,
+      mid: midTermChurn,
+      late: validRenewal,
+      earlyRate: earlyRate,
+      midRate: midTermRate,
+      lateRate: renewalRate
+    });
+
+    if (typeof window.logHistory === 'function') {
+      window.logHistory({
+        totalChurned: totalChurned,
+        earlyChurn: validEarly,
+        renewalChurn: validRenewal,
+        earlyRate: earlyRate.toFixed(2) + '%',
+        renewalRate: renewalRate.toFixed(2) + '%'
+      });
+    }
+  }
+
+  function updateCharts(data) {
+    var canvas = document.getElementById('chartCanvas');
+    if (!canvas) return;
+    var ctx = canvas.getContext('2d');
+
+    if (chartInstance) {
+      chartInstance.destroy();
+      chartInstance = null;
     }
 
-    function updateChart(early, mid, late) {
-        const ctx = document.getElementById('chartCanvas');
-        if (!ctx) return;
-
-        if (chartInstance) {
-            chartInstance.destroy();
+    if (currentTab === 'bar' || currentTab === 'comparison') {
+      chartInstance = new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: ['Early (1-3 Mo)', 'Mid-Term (4-10 Mo)', 'Renewal (11-12 Mo)'],
+          datasets: [{
+            label: 'Churn %',
+            data: [data.earlyRate, data.midRate, data.lateRate],
+            backgroundColor: ['#e74c3c', '#f1c40f', '#3498db']
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          scales: { y: { beginAtZero: true, max: 100 } }
         }
-
-        chartInstance = new Chart(ctx, {
-            type: 'pie',
-            data: {
-                labels: ['Early (Months 1-3)', 'Mid-Term (4-10)', 'Renewal (11-12)'],
-                datasets: [{
-                    data: [early, mid, late],
-                    backgroundColor: ['#e74c3c', '#f1c40f', '#3498db']
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false
-            }
-        });
+      });
+    } else {
+      chartInstance = new Chart(ctx, {
+        type: 'pie',
+        data: {
+          labels: ['Early (Months 1-3)', 'Mid-Term (4-10)', 'Renewal (11-12)'],
+          datasets: [{
+            data: [data.early, data.mid, data.late],
+            backgroundColor: ['#e74c3c', '#f1c40f', '#3498db']
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false
+        }
+      });
     }
+  }
 
-    window.updateTool = calculate;
+  function switchChartTab(tabId) {
+    currentTab = tabId;
+    document.querySelectorAll('.chart-tab').forEach(function(t) {
+      if ((t.dataset && t.dataset.tab === tabId) || (t.getAttribute('onclick') && t.getAttribute('onclick').indexOf(tabId) !== -1)) {
+        t.classList.add('active');
+      } else {
+        t.classList.remove('active');
+      }
+    });
+    updateTool();
+  }
 
-    window.resetTool = function() {
-        document.getElementById('input_total_churned').value = '100';
-        document.getElementById('input_month_1_to_3').value = '15';
-        document.getElementById('input_month_11_to_12').value = '70';
-        calculate();
-    };
+  function resetTool() {
+    var totalEl = document.getElementById('input_total_churned');
+    var earlyEl = document.getElementById('input_month_1_to_3');
+    var renEl = document.getElementById('input_month_11_to_12');
+    if (totalEl) totalEl.value = '100';
+    if (earlyEl) earlyEl.value = '15';
+    if (renEl) renEl.value = '70';
+    updateTool();
+  }
 
-    window.switchChartTab = function(tabId) {
-        const tabs = document.querySelectorAll('.chart-tab');
-        tabs.forEach(tab => tab.classList.remove('active'));
-        document.querySelector(`[onclick="window.switchChartTab('${tabId}')"]`).classList.add('active');
-        calculate();
-    };
+  window.updateTool = updateTool;
+  window.resetTool = resetTool;
+  window.switchChartTab = switchChartTab;
 
-    document.addEventListener('DOMContentLoaded', calculate);
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('#inputsArea input, #inputsArea select, input[id^="input_"]').forEach(function(el) {
+      el.addEventListener('input', updateTool);
+      el.addEventListener('change', updateTool);
+    });
+    updateTool();
+  });
+  setTimeout(updateTool, 100);
 })();

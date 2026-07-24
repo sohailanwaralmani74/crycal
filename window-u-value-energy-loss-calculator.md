@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Window U-Value Energy Loss Calculator – Thermal Heat Loss & Cost Savings
-description: Calculate window thermal heat loss in BTU/hr, equivalent R-value (R=1/U), and annual HVAC heating cost savings from upgrading to Low-E windows.
+title: "Window U Value Energy Loss | Interactive Online Tool"
+description: "Calculate window thermal heat loss in BTU/hr, equivalent R-value (R=1/U), and annual HVAC heating cost savings from upgrading to Low-E windows."
 permalink: /window-u-value-energy-loss-calculator
 tool_id: window-u-value-energy-loss-calculator
 category: windows-doors
@@ -152,7 +152,7 @@ faq:
 
 ---
 
-# Window U-Value Energy Loss Calculator – Thermal Heat Loss & Cost Savings
+# Window U Value Energy Loss Calculator
 
 Calculate **window thermal heat loss in BTU/hr**, convert **U-values to R-values ($R = 1/U$)**, and determine **annual HVAC utility cost savings** using our **Window U-Value Energy Loss Calculator**. Evaluate energy payback when upgrading from single-pane or clear double-pane windows to **Energy Star Low-E** or **triple-pane glass**.
 

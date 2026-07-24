@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: DIY vs. Mechanic Repair Cost Calculator – Labor & Parts Comparison
-description: Compare auto repair costs for DIY parts-only fix (plus tool purchases & personal labor hours value) against mechanic labor rates, shop markups, and fees.
+title: "Diy Vs Mechanic Repair Cost | Interactive Online Tool"
+description: "Compare auto repair costs for DIY parts-only fix (plus tool purchases & personal labor hours value) against mechanic labor rates, shop markups, and fees."
 permalink: /diy-vs-mechanic-repair-cost-calculator
 tool_id: diy-vs-mechanic-repair-cost-calculator
 category: auto-maintenance-repair
@@ -171,7 +171,7 @@ faq:
 
 ---
 
-# DIY vs. Mechanic Repair Cost Calculator – Labor & Parts Comparison
+# Diy Vs Mechanic Repair Cost Calculator
 
 Evaluate whether fixing your vehicle yourself is financially worth the time and effort with our free **DIY vs. Mechanic Repair Cost Calculator**. Compare shop labor rates, parts markups, and environmental fees against DIY parts prices, tool purchases, and personal time valuation.
 

@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — New vs Expansion MRR Split Calculator
+   Wanjaaro — New vs Expansion MRR Split Calculator
    Tool ID: new-vs-expansion-mrr-split-calculator
 ═══════════════════════════════════════════════════════════ */
 

@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Car Top Speed Estimator – Theoretical Aerodynamic Max Speed
-description: Estimate theoretical maximum top speed in MPH and km/h based on wheel horsepower, drag coefficient (Cd), frontal area, air density, and rolling resistance.
+title: "Car Top Speed Estimator | Interactive Online Tool"
+description: "Estimate theoretical maximum top speed in MPH and km/h based on wheel horsepower, drag coefficient (Cd), frontal area, air density, and rolling resistance."
 permalink: /car-top-speed-estimator
 tool_id: car-top-speed-estimator
 category: auto-performance-specs
@@ -145,7 +145,7 @@ faq:
 
 ---
 
-# Car Top Speed Estimator
+# Car Top Speed Estimator Calculator
 
 Estimate a vehicle's **theoretical aerodynamic top speed** in MPH and km/h based on wheel horsepower (whp), drag coefficient ($C_d$), frontal area, air density, and tire rolling resistance.
 

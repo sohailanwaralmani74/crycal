@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Customer Churn Rate Calculator – Monthly & Annual Account Cancellation
-description: Calculate your monthly and annual customer account churn rate %. Evaluate logo attrition, account retention rate, and customer lifetime duration.
+title: "Customer Churn Rate | Interactive Online Tool"
+description: "Calculate your monthly and annual customer account churn rate %. Evaluate logo attrition, account retention rate, and customer lifetime duration."
 permalink: /customer-churn-rate-calculator
 tool_id: customer-churn-rate-calculator
 category: saas-churn-retention

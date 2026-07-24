@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Rain Barrel Sizing Calculator – Roof Runoff & Cistern Capacity
-description: Calculate roof stormwater catchment runoff gallons per 1" rainfall, rain barrel storage capacity, cistern tank count, and garden irrigation days.
+title: "Rain Barrel Sizing | Interactive Online Tool"
+description: "Calculate roof stormwater catchment runoff gallons per 1 rainfall, rain barrel storage capacity, cistern tank count, and garden irrigation days."
 permalink: /rain-barrel-sizing-calculator
 tool_id: rain-barrel-sizing-calculator
 category: landscaping-outdoor
@@ -168,7 +168,7 @@ faq:
     answer: "No. All calculation formulas run locally in your web browser."
 ---
 
-# Rain Barrel Sizing Calculator – Roof Runoff & Cistern Capacity
+# Rain Barrel Sizing Calculator
 
 Determine stormwater catchment runoff gallons, rain barrel storage capacity (50 gal to 500 gal cisterns), container counts, and garden irrigation days with our free **Rain Barrel Sizing Calculator**.
 

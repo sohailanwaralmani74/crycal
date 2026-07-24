@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Series Funding Benchmark Calculator – Seed, Series A & B Metrics
-description: Compare your company's ARR, growth rate, and retention against VC benchmarks for Seed, Series A, and Series B funding rounds.
+title: "Series Funding Benchmark | Interactive Online Tool"
+description: "Compare your companys ARR, growth rate, and retention against VC benchmarks for Seed, Series A, and Series B funding rounds."
 permalink: /series-funding-benchmark-calculator
 tool_id: series-funding-benchmark-calculator
 category: saas-fundraising-valuation
@@ -138,7 +138,7 @@ faq:
 
 ---
 
-# Series Funding Benchmark Calculator – Seed, Series A & B
+# Series Funding Benchmark Calculator
 
 Evaluate your SaaS startup's readiness for **Seed**, **Series A**, or **Series B** venture capital funding rounds with our free **Series Funding Benchmark Calculator**. Compare your ARR, growth rate, and NRR against institutional VC criteria.
 

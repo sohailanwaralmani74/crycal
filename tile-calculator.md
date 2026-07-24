@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Tile Calculator – Tile Count, Boxes & Material Cost Estimator
-description: Calculate total tiles needed, number of boxes, square footage, waste allowance, and material cost for floor and wall tiling projects.
+title: "Tile | Interactive Online Tool"
+description: "Calculate total tiles needed, number of boxes, square footage, waste allowance, and material cost for floor and wall tiling projects."
 permalink: /tile-calculator
 tool_id: tile-calculator
 category: flooring
@@ -171,7 +171,7 @@ faq:
     answer: "No. All computations are run privately inside your local web browser."
 ---
 
-# Tile Calculator – Tile Count, Boxes & Material Cost Estimator
+# Tile Calculator
 
 Easily calculate the exact number of **tiles, box cartons needed**, waste overage, and material expenses for your bathroom, kitchen, or patio tiling project with our free **Tile Calculator**.
 

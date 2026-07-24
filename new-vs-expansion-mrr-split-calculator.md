@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: New vs Expansion MRR Split Calculator – Growth Analysis
-description: Breakdown monthly MRR growth into % New Logo MRR vs % Expansion MRR. Evaluate customer acquisition reliance vs existing customer expansion.
+title: "New Vs Expansion Mrr Split | Interactive Online Tool"
+description: "Breakdown monthly MRR growth into % New Logo MRR vs % Expansion MRR. Evaluate customer acquisition reliance vs existing customer expansion."
 permalink: /new-vs-expansion-mrr-split-calculator
 tool_id: new-vs-expansion-mrr-split-calculator
 category: saas-revenue-growth-metrics
@@ -124,7 +124,7 @@ faq:
 
 ---
 
-# New vs Expansion MRR Split Calculator
+# New Vs Expansion Mrr Split Calculator
 
 Calculate the percentage split of your monthly recurring revenue growth between **New Logo Acquisition**, **Account Expansion**, and **Customer Reactivation**.
 

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Crycal – 500+ Free Online Calculators for Finance, Construction, Automotive & SaaS
-description: Explore 500+ free, browser-based calculators across Finance, Construction, Automotive, and SaaS. 100% private, client-side math, no signup required. Instant estimates, local history, and exportable charts.
+title: "Wanjaaro — 500+ Free Calculators for Finance & Business"
+description: Explore 500+ free, browser-based calculators across Finance, Construction, Automotive, and SaaS. 100% private, client-side math, no signup required.
 is_homepage: true
 permalink: /
 keywords: free online calculators, private browser calculators, financial calculators no signup, construction material estimator, car loan calculator, saas unit economics calculator, mrr calculator, concrete yardage calculator, mortgage calculator, auto loan payoff calculator
@@ -14,12 +14,12 @@ keywords: free online calculators, private browser calculators, financial calcul
 {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "name": "Crycal",
-  "url": "https://crycal.com/",
+  "name": "Wanjaaro",
+  "url": "https://Wanjaaro.com/",
   "description": "500+ free, browser-based calculators across Finance, Construction, Automotive, and SaaS. 100% client-side calculation engine with zero data tracking.",
   "potentialAction": {
     "@type": "SearchAction",
-    "target": "https://crycal.com/sitemap?q={search_term_string}",
+    "target": "https://Wanjaaro.com/sitemap?q={search_term_string}",
     "query-input": "required name=search_term_string"
   }
 }
@@ -32,8 +32,8 @@ keywords: free online calculators, private browser calculators, financial calcul
 {
   "@context": "https://schema.org",
   "@type": "WebApplication",
-  "name": "Crycal Calculator Engine",
-  "url": "https://crycal.com/",
+  "name": "Wanjaaro Calculator Engine",
+  "url": "https://Wanjaaro.com/",
   "applicationCategory": "UtilitiesApplication",
   "operatingSystem": "All modern Web Browsers (Desktop, Tablet, Mobile)",
   "browserRequirements": "Requires JavaScript enabled",
@@ -65,7 +65,7 @@ keywords: free online calculators, private browser calculators, financial calcul
   "@context": "https://schema.org",
   "@type": "Person",
   "name": "Sohail Anwar",
-  "url": "https://crycal.com/about-us",
+  "url": "https://Wanjaaro.com/about-us",
   "jobTitle": "Lead Software Engineer & Platform Architect",
   "sameAs": [
     "https://www.linkedin.com/in/sohail-anwar-a63063162",
@@ -85,42 +85,42 @@ keywords: free online calculators, private browser calculators, financial calcul
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is Crycal?",
+      "name": "What is Wanjaaro?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Crycal is a free, browser-based multi-disciplinary calculator ecosystem. It hosts 500+ interactive calculators across four master hubs: Personal & Business Finance, Construction & Building Materials, Automotive & Vehicle Economics, and SaaS & Subscription Metrics."
+        "text": "Wanjaaro is a free, browser-based multi-disciplinary calculator ecosystem. It hosts 500+ interactive calculators across four master hubs: Personal & Business Finance, Construction & Building Materials, Automotive & Vehicle Economics, and SaaS & Subscription Metrics."
       }
     },
     {
       "@type": "Question",
-      "name": "How does Crycal protect user data privacy?",
+      "name": "How does Wanjaaro protect user data privacy?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Crycal operates on a 100% client-side architecture. Every mathematical calculation, chart generation, and data log executes locally inside your web browser. No personal inputs, loan balances, salary figures, or project measurements are ever uploaded, saved to a database, or transmitted to any external server."
+        "text": "Wanjaaro operates on a 100% client-side architecture. Every mathematical calculation, chart generation, and data log executes locally inside your web browser. No personal inputs, loan balances, salary figures, or project measurements are ever uploaded, saved to a database, or transmitted to any external server."
       }
     },
     {
       "@type": "Question",
-      "name": "Do I need to sign up or create an account to use Crycal calculators?",
+      "name": "Do I need to sign up or create an account to use Wanjaaro calculators?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. All 500+ calculators on Crycal are completely free and accessible without registration, email submission, or subscription fees."
+        "text": "No. All 500+ calculators on Wanjaaro are completely free and accessible without registration, email submission, or subscription fees."
       }
     },
     {
       "@type": "Question",
-      "name": "What master categories and industries does Crycal cover?",
+      "name": "What master categories and industries does Wanjaaro cover?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Crycal covers four master hubs: Personal Finance (Growth, Retirement, Mortgages, Debt, Taxes, Insurance, Budgeting, Investing), Construction & Building (Concrete, Framing, Roofing, Flooring, Drywall, HVAC, Landscaping, Electrical, Plumbing, Windows/Doors), Automotive (Car Loans, TCO, Fuel, EVs, Performance, Tires, Trip Planning, Repairs), and SaaS Business (Pricing, Unit Economics, MRR/ARR, Churn, Sales Funnel, Fundraising, Marketing ROI, Operations)."
+        "text": "Wanjaaro covers four master hubs: Personal Finance (Growth, Retirement, Mortgages, Debt, Taxes, Insurance, Budgeting, Investing), Construction & Building (Concrete, Framing, Roofing, Flooring, Drywall, HVAC, Landscaping, Electrical, Plumbing, Windows/Doors), Automotive (Car Loans, TCO, Fuel, EVs, Performance, Tires, Trip Planning, Repairs), and SaaS Business (Pricing, Unit Economics, MRR/ARR, Churn, Sales Funnel, Fundraising, Marketing ROI, Operations)."
       }
     },
     {
       "@type": "Question",
-      "name": "How accurate are the mathematical formulas on Crycal?",
+      "name": "How accurate are the mathematical formulas on Wanjaaro?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Crycal tools use standard industry financial compound interest formulas, building code volume calculations, ASTM material density constants, physics equations, and ASC 606 revenue recognition standards. Every calculator displays its exact mathematical formula, step-by-step guidance, and real-world benchmark tables."
+        "text": "Wanjaaro tools use standard industry financial compound interest formulas, building code volume calculations, ASTM material density constants, physics equations, and ASC 606 revenue recognition standards. Every calculator displays its exact mathematical formula, step-by-step guidance, and real-world benchmark tables."
       }
     },
     {
@@ -142,7 +142,7 @@ keywords: free online calculators, private browser calculators, financial calcul
 <section class="hero-section">
   <h1>500+ Free Online Calculators — Instant, Accurate &amp; 100% Private</h1>
   <p>
-    Welcome to <strong>Crycal</strong>, the ultimate multi-disciplinary calculation engine. Access over <strong>500 specialized calculators</strong> across Personal Finance, Heavy Construction, Automotive Economics, and SaaS Business Metrics. Every calculation runs locally in your browser—no signup, no email required, and zero server data tracking.
+    Welcome to <strong>Wanjaaro</strong>, the ultimate multi-disciplinary calculation engine. Access over <strong>500 specialized calculators</strong> across Personal Finance, Heavy Construction, Automotive Economics, and SaaS Business Metrics. Every calculation runs locally in your browser—no signup, no email required, and zero server data tracking.
   </p>
   
   <div class="hero-cta">
@@ -180,7 +180,7 @@ keywords: free online calculators, private browser calculators, financial calcul
 <section class="content-section categories-section">
   <h2>Explore Our Master Calculator Hubs</h2>
   <p>
-    Whether you are balancing a family budget, estimating materials for a commercial construction site, calculating vehicle depreciation, or auditing SaaS subscription unit economics, Crycal provides dedicated tools built to exact industry standards.
+    Whether you are balancing a family budget, estimating materials for a commercial construction site, calculating vehicle depreciation, or auditing SaaS subscription unit economics, Wanjaaro provides dedicated tools built to exact industry standards.
   </p>
 
   <div class="finance-categories-list">
@@ -203,7 +203,7 @@ keywords: free online calculators, private browser calculators, financial calcul
         <a href="/mortgage-payoff-calculator" class="cat-tool-item"><span class="tool-name">Mortgage Payoff Calculator</span><span class="tool-arrow">&rarr;</span></a>
         <a href="/debt-snowball-calculator" class="cat-tool-item"><span class="tool-name">Debt Snowball Calculator</span><span class="tool-arrow">&rarr;</span></a>
         <a href="/tax-bracket-calculator" class="cat-tool-item"><span class="tool-name">Tax Bracket Calculator</span><span class="tool-arrow">&rarr;</span></a>
-        <a href="/four-percent-rule-fire-calculator" class="cat-tool-item"><span class="tool-name">4% Rule FIRE Calculator</span><span class="tool-arrow">&rarr;</span></a>
+        <a href="/4-percent-rule-calculator" class="cat-tool-item"><span class="tool-name">4% Rule FIRE Calculator</span><span class="tool-arrow">&rarr;</span></a>
         <a href="/position-size-calculator" class="cat-tool-item"><span class="tool-name">Position Size Calculator</span><span class="tool-arrow">&rarr;</span></a>
       </div>
       <div class="cat-card-footer">
@@ -293,13 +293,13 @@ keywords: free online calculators, private browser calculators, financial calcul
 </section>
 
 <!-- ============================================================ -->
-<!-- WHY CRYCAL: ARCHITECTURE & PRIVACY STANDARD                   -->
+<!-- WHY Wanjaaro: ARCHITECTURE & PRIVACY STANDARD                   -->
 <!-- ============================================================ -->
 
 <section class="content-section features-section">
-  <h2>Why Choose Crycal – 100% Client-Side Engine</h2>
+  <h2>Why Choose Wanjaaro – 100% Client-Side Engine</h2>
   <p>
-    Unlike traditional web calculators that require account creation, submit your financial entries to external databases, or reload the page on every input change, Crycal is built on a <strong>pure client-side execution framework</strong>.
+    Unlike traditional web calculators that require account creation, submit your financial entries to external databases, or reload the page on every input change, Wanjaaro is built on a <strong>pure client-side execution framework</strong>.
   </p>
 
   <div class="feature-group">
@@ -326,7 +326,7 @@ keywords: free online calculators, private browser calculators, financial calcul
   <div class="feature-group">
     <h3>📘 Plain-Language Formulas &amp; E-E-A-T Expertise</h3>
     <p>
-      Crycal was architected by <a href="/about-us">Sohail Anwar</a>, a senior fintech systems engineer with over a decade of experience building mortgage underwriting algorithms, banking compliance tools, and trade execution engines. Every tool includes LaTeX formulas, step-by-step guides, and real-world benchmark tables.
+      Wanjaaro was architected by <a href="/about-us">Sohail Anwar</a>, a senior fintech systems engineer with over a decade of experience building mortgage underwriting algorithms, banking compliance tools, and trade execution engines. Every tool includes LaTeX formulas, step-by-step guides, and real-world benchmark tables.
     </p>
   </div>
 </section>
@@ -339,35 +339,35 @@ keywords: free online calculators, private browser calculators, financial calcul
   <h2>Frequently Asked Questions</h2>
 
   <div class="faq-item">
-    <h3>What is Crycal?</h3>
+    <h3>What is Wanjaaro?</h3>
     <p>
-      Crycal is a free, browser-based multi-disciplinary calculator platform. It provides over 500 specialized calculators across four core industries: Personal &amp; Corporate Finance, Heavy Construction &amp; Materials, Automotive &amp; Electric Vehicles, and SaaS Subscription Business Metrics.
+      Wanjaaro is a free, browser-based multi-disciplinary calculator platform. It provides over 500 specialized calculators across four core industries: Personal &amp; Corporate Finance, Heavy Construction &amp; Materials, Automotive &amp; Electric Vehicles, and SaaS Subscription Business Metrics.
     </p>
   </div>
 
   <div class="faq-item">
-    <h3>Are Crycal calculators 100% free with no hidden fees?</h3>
+    <h3>Are Wanjaaro calculators 100% free with no hidden fees?</h3>
     <p>
       Yes. All 500+ calculators across all 36 subcategories are completely free to use. There are no registration forms, paid paywalls, credit card requirements, or premium tier restrictions.
     </p>
   </div>
 
   <div class="faq-item">
-    <h3>Is my data secure and private when using Crycal?</h3>
+    <h3>Is my data secure and private when using Wanjaaro?</h3>
     <p>
-      Yes. Crycal is designed with privacy by default. All calculations execute client-side within your browser. Nothing you type is uploaded to server databases, shared with third parties, or logged remotely.
+      Yes. Wanjaaro is designed with privacy by default. All calculations execute client-side within your browser. Nothing you type is uploaded to server databases, shared with third parties, or logged remotely.
     </p>
   </div>
 
   <div class="faq-item">
-    <h3>How does Crycal compare to basic online calculators?</h3>
+    <h3>How does Wanjaaro compare to basic online calculators?</h3>
     <p>
-      While standard web calculators only show a single static output number, Crycal provides comprehensive multi-variable financial models, interactive breakdown charts, step-by-step formula explanations, local scenario history logging, CSV/Excel export, and state-restoration share links.
+      While standard web calculators only show a single static output number, Wanjaaro provides comprehensive multi-variable financial models, interactive breakdown charts, step-by-step formula explanations, local scenario history logging, CSV/Excel export, and state-restoration share links.
     </p>
   </div>
 
   <div class="faq-item">
-    <h3>How accurate are the mathematical formulas on Crycal?</h3>
+    <h3>How accurate are the mathematical formulas on Wanjaaro?</h3>
     <p>
       All mathematical engines strictly adhere to standard financial compound interest models, building code volume calculations, ASTM material density constants, physics equations, and ASC 606 revenue recognition standards.
     </p>

@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Drywall Mud & Joint Compound Calculator – Mud, Tape & Bead Estimator
-description: Calculate gallons and buckets of joint compound, drywall tape rolls, and corner bead needed for 1, 2, or 3 coats on drywall installations.
+title: "Drywall Mud Joint Compound | Interactive Online Tool"
+description: "Calculate gallons and buckets of joint compound, drywall tape rolls, and corner bead needed for 1, 2, or 3 coats on drywall installations."
 permalink: /drywall-mud-joint-compound-calculator
 tool_id: drywall-mud-joint-compound-calculator
 category: drywall-paint
@@ -157,7 +157,7 @@ faq:
     answer: "No. All calculation logic runs locally in your web browser."
 ---
 
-# Drywall Mud & Joint Compound Calculator – Mud, Tape & Bead Estimator
+# Drywall Mud Joint Compound Calculator
 
 Calculate joint compound gallons, mud bucket pails, paper tape rolls, and corner bead linear feet for **1, 2, or 3 coats of drywall finishing** with our free **Drywall Mud & Joint Compound Calculator**.
 

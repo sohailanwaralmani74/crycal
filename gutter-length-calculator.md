@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Gutter Length Calculator – Seamless Gutters, Downspouts & Elbows
-description: Calculate linear feet of seamless aluminum gutters, downspout counts, A/B elbow fittings, gutter guard mesh, and total installation costs.
+title: "Seamless Gutter Length & Cost Calculator"
+description: "Calculate linear feet of seamless aluminum gutters, downspout counts, A/B elbow fittings, gutter guard mesh, and total private browser-based costs."
 permalink: /gutter-length-calculator
 tool_id: gutter-length-calculator
 category: roofing
@@ -61,52 +61,42 @@ inputs:
     label: Gutter Guard Price ($ / Linear Ft)
     type: number
     default: 3.50
-    step: 0.25
+    step: 0.50
     min: 0
     prefix: '$'
     placeholder: "e.g., 3.50"
 
-  - id: pricePerDownspout
-    label: Downspout Assembly Price ($ per Unit)
-    type: number
-    default: 28.00
-    step: 1.00
-    min: 0
-    prefix: '$'
-    placeholder: "e.g., 28.00"
-
 outputs:
-  - id: totalGutterLF
-    label: Total Seamless Gutter Length (LF with 5% Waste)
+  - id: totalGutterFt
+    label: Total Gutter Run (Linear Feet)
   - id: downspoutCount
     label: Total Downspouts Required
+  - id: totalDownspoutFt
+    label: Total Downspout Length (Feet)
   - id: elbowCount
-    label: Elbow Fittings Required (A & B Elbows)
-  - id: totalSystemCost
-    label: Total Gutter & Downspout System Cost
+    label: A & B Style Elbow Fittings
+  - id: totalProjectCost
+    label: Total Installed System Cost
 
 charts:
   tabs:
-    - id: componentCostBreakdown
-      label: Cost Breakdown (Gutters vs Downspouts vs Guards)
-    - id: elbowBreakdown
-      label: Elbow Fittings Breakdown (A-Elbows vs B-Elbows)
+    - id: gutterCostBreakdown
+      label: Gutter vs Downspouts vs Guards Cost
+    - id: materialLengthBreakdown
+      label: Eave Gutters vs Downspout Feet
 
 history_columns:
   - key: roofEaveLength
     label: Eave Length (ft)
     source: input
-  - key: buildingHeightStories
-    label: Stories
-    source: input
-  - key: totalGutterLF
-    label: Gutter (LF)
+  - key: totalGutterFt
+    label: Total Gutter (ft)
     source: output
   - key: downspoutCount
     label: Downspouts
     source: output
-  - key: totalSystemCost
-    label: Total Cost 
+  - key: totalProjectCost
+    label: Total Cost
     source: output
 
 js_file: assets/js/calculators/gutter-length-calculator.js
@@ -114,144 +104,145 @@ js_file: assets/js/calculators/gutter-length-calculator.js
 structured_data:
   "@context": "https://schema.org"
   "@type": "SoftwareApplication"
-  name: "Gutter Length Calculator"
+  name: "Seamless Gutter Length & Cost Calculator"
   applicationCategory: "BusinessApplication"
   operatingSystem: "All"
-  description: "Calculate linear feet of seamless K-style gutters, downspout drop counts, A/B elbow fittings, micro-mesh gutter guards, and complete system costs."
+  description: "Calculate seamless aluminum gutter linear footage, downspout counts, elbow fittings, leaf guards, and total installation costs."
   offers:
     "@type": "Offer"
     price: "0"
     priceCurrency: "USD"
   featureList:
-    - "Calculates linear feet for 5\" and 6\" seamless residential gutters"
-    - "Determines downspout drop locations for 1, 2, and 3-story buildings"
-    - "Calculates A-style and B-style corrugated elbow fittings"
-    - "Provides complete cost breakdowns with gutter guard additions"
+    - "Calculates linear feet of K-style or half-round eave gutters"
+    - "Determines required downspout quantities based on eave length"
+    - "Calculates A and B elbow fitting counts for wall drops"
+    - "Includes micro-mesh gutter guard pricing options"
 
 breadcrumb:
   - name: Home
     url: /
-  - name: Construction
-    url: /construction
+  - name: Roofing
+    url: /roofing
   - name: Gutter Length Calculator
 
 howto:
-  name: "How to Calculate Gutter Length and Downspout Requirements"
-  description: "Determine exact linear footage of seamless gutters, downspouts, elbows, and guards for roof drainage."
+  name: "How to Measure and Calculate Gutter Lengths"
+  description: "Calculate seamless gutter linear footage, downspout quantities, and fitting counts."
   step:
-    - name: "Measure roof perimeter eave runs"
-      text: "Measure total linear distance of all roof edge fascia boards where gutters will be attached."
-    - name: "Select building story height"
-      text: "Select 1-story (10ft downspouts), 2-story (20ft downspouts), or 3-story elevation."
+    - name: "Measure perimeter eave runs"
+      text: "Measure total linear distance along roof fascia boards where gutters will collect rainwater."
+    - name: "Select wall height / story elevation"
+      text: "Specify building story height (10ft per story) to estimate downspout drop lengths."
     - name: "Set downspout placement spacing"
-      text: "Space downspouts every 30 to 40 linear feet of gutter run."
-    - name: "Add gutter guards and compute total cost"
-      text: "Include optional micro-mesh gutter guards to prevent leaf blockages and estimate project cost."
+      text: "Set maximum spacing between downspouts (typically 30 to 40 feet apart)."
+    - name: "Toggle gutter guards"
+      text: "Select whether micro-mesh gutter leaf guards will be installed across eave runs."
 
 faq:
-  - question: "How many downspouts do I need per linear foot of gutter?"
-    answer: "Building codes and roofing standards require one downspout for every 30 to 40 linear feet of continuous gutter. A 150-foot eave run requires a minimum of 4 to 5 downspouts."
-  - question: "What is the difference between A-Elbows and B-Elbows?"
-    answer: "An A-Elbow bends front-to-back (parallel to the narrow side of the downspout), used to transition downspouts from fascia overhang to exterior wall. A B-Elbow bends side-to-side (parallel to the wide face), used to direct discharge away sideways."
-  - question: "Should I install 5-inch or 6-inch K-style gutters?"
-    answer: "5-inch K-style gutters are standard for average residential roofs (<2,500 sq ft). 6-inch gutters hold 40% more water volume and are recommended for steep roofs, metal roofs, or heavy rainfall climates."
-  - question: "How many elbows are needed for each downspout?"
-    answer: "Each standard downspout assembly requires 3 elbows: 2 upper elbows at the eave overhang offset and 1 splash elbow at the ground discharge outlet."
-  - question: "How do you calculate gutter pitch slope?"
-    answer: "Gutters must slope downward toward downspout outlets at a rate of 1/4 inch of vertical fall for every 10 feet of horizontal run."
-  - question: "Are gutter guards worth the extra material cost?"
-    answer: "Micro-mesh gutter guards prevent pine needles and leaves from clogging gutters, reducing foundation water intrusion risk and eliminating biannual gutter cleaning."
-  - question: "What is seamless aluminum guttering?"
-    answer: "Seamless gutters are roll-formed on-site from heavy-gauge aluminum coils to match exact building eave lengths, eliminating mid-run seams that cause leaks."
+  - question: "How many downspouts do I need for a 150 ft gutter run?"
+    answer: "A 150 ft roof eave run requires approximately 5 downspouts when spaced every 30 to 35 feet, or 4 downspouts if spaced every 40 feet."
+  - question: "How far apart should downspouts be placed?"
+    answer: "Downspouts should be installed every 30 to 40 linear feet along a gutter run. Downspouts are also required at corners or ends where roof valleys concentrate flow."
+  - question: "How much do seamless aluminum gutters cost per linear foot?"
+    answer: "Seamless 5-inch or 6-inch aluminum K-style gutters cost between $6.00 and $12.00 per linear foot installed, depending on regional labor and house height."
+  - question: "How many elbow fittings are needed per downspout?"
+    answer: "Each downspout installation requires 3 elbow fittings: 2 elbows at the top wall offset transition under the soffit, and 1 splash elbow at the bottom base discharge."
+  - question: "What size gutters should I install: 5-inch or 6-inch?"
+    answer: "5-inch K-style gutters are standard for average residential roofs. 6-inch gutters are recommended for steep roofs, metal roofing, or large roof drainage areas."
+  - question: "Are micro-mesh gutter guards worth installing?"
+    answer: "Yes, stainless steel micro-mesh guards prevent leaves and pine needles from clogging downspouts, reducing maintenance and preventing fascia wood rot."
+  - question: "How much slope do rain gutters require for proper drainage?"
+    answer: "Gutters should slope downward toward downspouts at a minimum rate of 1/4 inch per 10 linear feet (or 1/2 inch per 20 feet) of continuous gutter run."
 ---
 
-Calculate seamless aluminum gutter linear footage, downspout quantities, A/B elbow fittings, micro-mesh leaf guards, and total drainage installation costs.
+# Seamless Gutter & Downspout Estimator
+
+Calculate linear footage requirements for seamless aluminum gutters, downspout quantities, A/B elbow fittings, micro-mesh leaf guards, and total installation costs.
+All computations run 100% privately inside your web browser with client-side logic, real-time recalculations, and complete privacy protection.
 
 <!-- more -->
 
 ## Why Use the Gutter Length Calculator?
 
-Rain gutters protect foundation footings, basement walls, siding, and landscaping from heavy roof runoff erosion. Poorly sized gutters or inadequate downspouts lead to overflow, fascia rot, and foundation cracking.
+Failing to accurately plan rainwater drainage leads to overflow, soil erosion, basement flooding, and foundation damage. Purchasing pre-cut section gutters creates unnecessary seams that leak over time, whereas ordering seamless gutter rolls requires exact linear footage calculations.
 
-This **Gutter Length Calculator** estimates precise linear footage for seamless K-style gutters, downspout drop counts, offset elbow fittings, and gutter guards across 1-story, 2-story, and 3-story buildings.
+This **Seamless Gutter Length & Cost Calculator** estimates complete drainage system bill-of-materials—including linear eave length, downspout drops, wall offset elbows, hidden hangers, and micro-mesh leaf protection.
 
 ### Key Benefits
-* **Waste-Adjusted Linear Feet:** Adds a 5% fitting cutoff margin to raw roof eave measurements.
-* **Downspout Hydro-Capacity:** Spares downspouts every 30 to 40 feet to prevent overflow.
-* **Elbow Fitting Calculation:** Automatically tallies 3 elbows per downspout (2 A-Elbows and 1 B-Elbow).
-* **Guards & Accessories:** Computes optional stainless steel micro-mesh guard costs.
+* **Complete Drainage Planning:** Calculates eave runs, downspout drops, and elbow fittings in one workflow.
+* **Hydro-Flow Spacing:** Automatically determines required downspout locations based on 30-40 ft spacing rules.
+* **Gutter Guard Integration:** Includes optional micro-mesh leaf protection pricing and linear footage matching.
+* **Private Execution:** Calculates instantly in your browser without saving or sharing property details.
 
 ---
 
-## Gutter Design & Hydro-Flow Formulas
+## Mathematical Formulas & Mechanics
 
-### 1. Seamless Gutter Linear Feet
-Total gutter length ($LF_{\text{gutter}}$) incorporating a 5% cutoff margin ($W = 5\%$):
+### 1. Downspout Quantity Calculation
+Downspouts ($N_{\text{ds}}$) required for total eave length ($L_{\text{eave}}$ in feet) at maximum downspout spacing interval ($S_{\text{max}}$ in feet):
 
-$$LF_{\text{gutter}} = \left\lceil L_{\text{eave}} \times 1.05 \right\rceil$$
+$$N_{\text{ds}} = \left\max\left(2, \left\lceil \frac{L_{\text{eave}}}{S_{\text{max}}} \right\rceil\right)$$
 
-### 2. Downspout Count Formula
-Number of downspout drop locations ($N_{\text{downspouts}}$) based on maximum spacing ($S_{\text{downspout}}$):
+### 2. Total Downspout Linear Footage
+Total downspout material length ($L_{\text{ds\_total}}$) based on building story height ($H_{\text{story}}$ in feet):
 
-$$N_{\text{downspouts}} = \max\left(2, \left\lceil \frac{L_{\text{eave}}}{S_{\text{downspout}}} \right\rceil\right)$$
+$$L_{\text{ds\_total}} = N_{\text{ds}} \times (H_{\text{story}} \times 10\text{ ft} + 2\text{ ft offset})$$
 
-### 3. Elbow Fittings Formula
-Total elbows ($N_{\text{elbows}}$) are split between A-Elbows ($2/3$) and B-Elbows ($1/3$):
+### 3. Elbow Fitting Count
+Elbow fittings ($N_{\text{elbow}}$) required across all downspout drops (3 per downspout):
 
-$$N_{\text{elbows}} = N_{\text{downspouts}} \times 3$$
+$$N_{\text{elbow}} = N_{\text{ds}} \times 3$$
 
-$$N_{\text{A\_elbows}} = N_{\text{downspouts}} \times 2, \quad N_{\text{B\_elbows}} = N_{\text{downspouts}} \times 1$$
+### 4. Total Installed Cost Formula
+Total system installation cost ($C_{\text{total}}$):
 
-### 4. Total Drainage System Cost
-Total system budget ($C_{\text{total}}$):
-
-$$C_{\text{total}} = (LF_{\text{gutter}} \times P_{\text{gutter}}) + (N_{\text{downspouts}} \times P_{\text{downspout}}) + C_{\text{guards}}$$
+$$C_{\text{total}} = (L_{\text{eave}} \times P_{\text{gutter}}) + (L_{\text{ds\_total}} \times P_{\text{ds}}) + (L_{\text{guard}} \times P_{\text{guard}})$$
 
 ---
 
-## Residential Gutter & Downspout System Reference Table
+## Real-World Comparison & Benchmark Table
 
-The table below outlines gutter material packages for common roof eave lengths (assuming 1-story building, 35ft downspout spacing, 5" seamless aluminum):
+The reference table below illustrates standard residential gutter system specifications across typical roof eave sizes:
 
-| Roof Eave Length | Net Gutter LF | Downspouts Needed | A/B Elbows Needed | Gutter Guards LF | Estimated System Cost (w/ Guards) |
+| Total Eave Length | Building Stories | Recommended Downspouts | Total Downspout Footage | Elbow Fittings (A/B) | Estimated Installed Cost ($6.50/ft) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **100 Feet** | 105 LF | 3 Downspouts | 9 Elbows | 105 LF | $1,134.00 |
-| **150 Feet** | 158 LF | 5 Downspouts | 15 Elbows | 158 LF | $1,673.00 |
-| **200 Feet** | 210 LF | 6 Downspouts | 18 Elbows | 210 LF | $2,233.00 |
-| **250 Feet** | 263 LF | 8 Downspouts | 24 Elbows | 263 LF | $2,867.50 |
-| **300 Feet** | 315 LF | 9 Downspouts | 27 Elbows | 315 LF | $3,399.50 |
+| **100 Feet** | 1 Story (10 ft) | 3 Downspouts | 36 Feet | 9 Elbows | $650.00 – $950.00 |
+| **150 Feet** | 1 Story (10 ft) | 5 Downspouts | 60 Feet | 15 Elbows | $975.00 – $1,425.00 |
+| **200 Feet** | 2 Story (20 ft) | 6 Downspouts | 132 Feet | 18 Elbows | $1,300.00 – $2,100.00 |
+| **250 Feet** | 2 Story (20 ft) | 8 Downspouts | 176 Feet | 24 Elbows | $1,625.00 – $2,650.00 |
+| **300 Feet** | 3 Story (30 ft) | 9 Downspouts | 288 Feet | 27 Elbows | $1,950.00 – $3,450.00 |
 
 ---
 
-## Step-by-Step Gutter Installation Guide
+## Step-by-Step How-To Guide
 
-1. **Measure Fascia Board Lengths:** Measure all roof eaves where water drains into gutters. Exclude gable ends where water drains down rafter slopes.
-2. **Determine Downspout Locations:** Plan downspout drops near corners or rain garden drainage pipes, spacing no more than 35 feet apart.
-3. **Establish Pitch Slope:** Snap a chalk line dropping 1/4 inch per 10 feet toward downspout drops.
-4. **Install Heavy-Duty Hangers:** Space hidden gutter hangers every 24 inches on-center into rafter tails.
-5. **Attach Downspout Extensions:** Install 3-foot or 6-foot hinged downspout splash extensions to direct water away from foundation footings.
+1. **Measure Fascia Board Perimeter:** Walk the house perimeter and measure all roof eaves where gutters will collect water runoff.
+2. **Determine Downspout Placement:** Identify suitable corner downspout locations free of doorways, walkways, or landscaping features.
+3. **Select Gutter Size (5" vs 6"):** Choose 5-inch K-style for standard residential roofs, or 6-inch for steep pitches or metal roofs.
+4. **Choose Leaf Protection:** Add micro-mesh or reverse-curve gutter guards to eliminate maintenance in wooded areas.
+5. **Set Downspout Slope:** Pitch seamless gutters at $1/4"\text{ per }10\text{ ft}$ toward downspout drops during hanger installation.
 
 ---
 
-## Frequently Asked Questions (FAQ)
+## Frequently Asked Questions
 
-### How many downspouts do I need per linear foot of gutter?
-Building codes and roofing standards require one downspout for every 30 to 40 linear feet of continuous gutter. A 150-foot eave run requires a minimum of 4 to 5 downspouts.
+### How many downspouts do I need for a 150 ft gutter run?
+A 150 ft roof eave run requires approximately 5 downspouts when spaced every 30 to 35 feet, or 4 downspouts if spaced every 40 feet.
 
-### What is the difference between A-Elbows and B-Elbows?
-An A-Elbow bends front-to-back (parallel to the narrow side of the downspout), used to transition downspouts from fascia overhang to exterior wall. A B-Elbow bends side-to-side (parallel to the wide face), used to direct discharge away sideways.
+### How far apart should downspouts be placed?
+Downspouts should be installed every 30 to 40 linear feet along a gutter run. Downspouts are also required at corners or ends where roof valleys concentrate flow.
 
-### Should I install 5-inch or 6-inch K-style gutters?
-5-inch K-style gutters are standard for average residential roofs (<2,500 sq ft). 6-inch gutters hold 40% more water volume and are recommended for steep roofs, metal roofs, or heavy rainfall climates.
+### How much do seamless aluminum gutters cost per linear foot?
+Seamless 5-inch or 6-inch aluminum K-style gutters cost between $6.00 and $12.00 per linear foot installed, depending on regional labor and house height.
 
-### How many elbows are needed for each downspout?
-Each standard downspout assembly requires 3 elbows: 2 upper elbows at the eave overhang offset and 1 splash elbow at the ground discharge outlet.
+### How many elbow fittings are needed per downspout?
+Each downspout installation requires 3 elbow fittings: 2 elbows at the top wall offset transition under the soffit, and 1 splash elbow at the bottom base discharge.
 
-### How do you calculate gutter pitch slope?
-Gutters must slope downward toward downspout outlets at a rate of 1/4 inch of vertical fall for every 10 feet of horizontal run.
+### What size gutters should I install: 5-inch or 6-inch?
+5-inch K-style gutters are standard for average residential roofs. 6-inch gutters are recommended for steep roofs, metal roofing, or large roof drainage areas.
 
-### Are gutter guards worth the extra material cost?
-Micro-mesh gutter guards prevent pine needles and leaves from clogging gutters, reducing foundation water intrusion risk and eliminating biannual gutter cleaning.
+### Are micro-mesh gutter guards worth installing?
+Yes, stainless steel micro-mesh guards prevent leaves and pine needles from clogging downspouts, reducing maintenance and preventing fascia wood rot.
 
-### What is seamless aluminum guttering?
-Seamless gutters are roll-formed on-site from heavy-gauge aluminum coils to match exact building eave lengths, eliminating mid-run seams that cause leaks.
+### How much slope do rain gutters require for proper drainage?
+Gutters should slope downward toward downspouts at a minimum rate of 1/4 inch per 10 linear feet (or 1/2 inch per 20 feet) of continuous gutter run.

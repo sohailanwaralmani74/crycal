@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Baseboard Trim Calculator – Linear Feet, Pieces & Cost Estimator
-description: Calculate linear feet of baseboard trim, 8ft or 12ft piece counts, 10% miter corner waste, price per foot, and total trim project cost.
+title: "Baseboard Trim | Interactive Online Tool"
+description: "Calculate linear feet of baseboard trim, 8ft or 12ft piece counts, 10% miter corner waste, price per foot, and total trim project cost."
 permalink: /baseboard-trim-calculator
 tool_id: baseboard-trim-calculator
 category: flooring
@@ -147,7 +147,7 @@ faq:
     answer: "No. All calculations run locally in your web browser."
 ---
 
-# Baseboard Trim Calculator – Linear Feet, Pieces & Cost Estimator
+# Baseboard Trim Calculator
 
 Determine exact material requirements for interior moldings with our **Baseboard Trim Calculator**. Calculate **net linear feet**, **stock board counts** (8 ft, 12 ft, 16 ft), **miter corner cut waste**, and total project costs.
 

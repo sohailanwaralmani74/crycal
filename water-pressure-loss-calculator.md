@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Water Pressure Loss Calculator – Friction PSI & Elevation Head
-description: Calculate water pipe friction pressure drop (PSI per 100 ft) using Hazen-Williams equation and static head elevation gain or loss.
+title: "Water Pressure Loss | Interactive Online Tool"
+description: "Calculate water pipe friction pressure drop (PSI per 100 ft) using Hazen-Williams equation and static head elevation gain or loss."
 permalink: /water-pressure-loss-calculator
 tool_id: water-pressure-loss-calculator
 category: plumbing
@@ -157,7 +157,7 @@ faq:
 
 ---
 
-# Water Pressure Loss Calculator – Friction PSI & Elevation Head
+# Water Pressure Loss Calculator
 
 Calculate total **water pressure loss in PSI** across supply pipe runs using our **Water Pressure Loss Calculator**. Based on the **Hazen-Williams friction formula** and **hydrostatic elevation physics**, this tool computes friction head loss and vertical elevation gain or loss.
 

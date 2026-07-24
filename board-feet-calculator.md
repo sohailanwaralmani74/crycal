@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Board Feet Calculator – Calculate Hardwood & Softwood Lumber Volume
-description: Calculate board feet (BF), total lumber volume, piece counts, and hardwood lumber costs with our free board foot calculator.
+title: "Board Feet | Interactive Online Tool"
+description: "Calculate board feet (BF), total lumber volume, piece counts, and hardwood lumber costs with our free board foot calculator."
 permalink: /board-feet-calculator
 tool_id: board-feet-calculator
 category: lumber-framing
@@ -142,7 +142,7 @@ faq:
     answer: "No. All calculation logic executes locally in your web browser."
 ---
 
-# Board Feet Calculator – Calculate Hardwood & Softwood Lumber Volume
+# Board Feet Calculator
 
 Determine exact **board feet (BF)**, individual piece volumes, total order quantities, and material costs for hardwood and softwood lumber orders.
 

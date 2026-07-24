@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Home Renovation Cost Estimator – Whole-Home Remodel Budget Calculator
-description: Calculate whole-home renovation costs, low/mid/high quality tier estimates, regional location factors, and contingency buffers.
+title: "Home Renovation Cost Estimator | Interactive Online Tool"
+description: "Calculate whole-home renovation costs, low/mid/high quality tier estimates, regional location factors, and contingency buffers."
 permalink: /home-renovation-cost-estimator
 tool_id: home-renovation-cost-estimator
 category: project-cost-planning
@@ -158,7 +158,7 @@ faq:
   - question: "Is my personal data saved when using this calculator?"
 ---
 
-# Home Renovation Cost Estimator – Whole-Home Remodel Budget Calculator
+# Home Renovation Cost Estimator Calculator
 
 Estimate total home renovation expenses across low, medium, and high luxury quality tiers based on your home's square footage and regional labor pricing.
 

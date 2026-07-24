@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Wallpaper Calculator – Double Roll & Pattern Waste Estimator
-description: Calculate double rolls of wallpaper needed based on room perimeter, ceiling height, roll width, and pattern repeat waste factor.
+title: "Wallpaper | Interactive Online Tool"
+description: "Calculate double rolls of wallpaper needed based on room perimeter, ceiling height, roll width, and pattern repeat waste factor."
 permalink: /wallpaper-calculator
 tool_id: wallpaper-calculator
 category: drywall-paint
@@ -157,7 +157,7 @@ faq:
     answer: "No. All wallpaper roll calculations run locally in your web browser."
 ---
 
-# Wallpaper Calculator – Double Roll & Pattern Waste Estimator
+# Wallpaper Calculator
 
 Calculate double rolls of wallpaper, single roll equivalents, pattern match waste, and total material budget with our free **Wallpaper Calculator**.
 

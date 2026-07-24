@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Roofing Square Calculator – Pitch & Area Estimator
-description: Calculate total roofing squares (1 sq = 100 sq ft), true roof surface area, slope pitch multipliers, and waste allowances for building projects.
+title: "Roofing Square | Interactive Online Tool"
+description: "Calculate total roofing squares (1 sq = 100 sq ft), true roof surface area, slope pitch multipliers, and waste allowances for building projects."
 permalink: /roofing-square-calculator
 tool_id: roofing-square-calculator
 category: roofing
@@ -137,7 +137,7 @@ faq:
     answer: "No. All calculations are performed entirely client-side in your web browser."
 ---
 
-# Roofing Square Calculator – Pitch & Area Estimator
+# Roofing Square Calculator
 
 Accurately calculate **Roofing Squares** ($1\text{ square} = 100\text{ sq ft}$), sloped roof surface area, pitch slope multipliers, and material waste allowances with our free **Roofing Square Calculator**.
 

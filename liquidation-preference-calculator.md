@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Liquidation Preference Calculator – Exit Waterfall Payouts
-description: Calculate preferred investor waterfall payouts and common founder returns under 1x Non-Participating versus Participating Preferred stock terms.
+title: "Liquidation Preference | Interactive Online Tool"
+description: "Calculate preferred investor waterfall payouts and common founder returns under 1x Non-Participating versus Participating Preferred stock terms."
 permalink: /liquidation-preference-calculator
 tool_id: liquidation-preference-calculator
 category: saas-fundraising-valuation
@@ -148,7 +148,7 @@ faq:
 
 ---
 
-# Liquidation Preference Calculator – Exit Waterfall Payouts
+# Liquidation Preference Calculator
 
 Calculate investor exit payouts and founder common stock proceeds with our free **Liquidation Preference Calculator**. Compare **1x Non-Participating Preferred** vs **Participating Preferred** terms across custom exit sale valuations.
 

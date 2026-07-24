@@ -1,69 +1,157 @@
+/* ═══════════════════════════════════════════════════════════
+   Wanjaaro — Demo to Close Conversion Calculator
+   Tool ID: demo-to-close-conversion-calculator
+═══════════════════════════════════════════════════════════ */
+
 (function() {
-    let chart;
-    window.updateTool = function() {
-        const demos = parseFloat(document.getElementById('input_demos_held').value) || 0;
-        const closed = parseFloat(document.getElementById('input_deals_closed').value) || 0;
-        const avg = parseFloat(document.getElementById('input_avg_deal_size').value) || 0;
-        
-        const rate = demos > 0 ? (closed / demos) * 100 : 0;
-        const revenue = closed * avg;
+  var chartInstance = null;
+  var currentTab = 'breakdown';
 
-        document.getElementById('output_conversion_rate').innerText = rate.toFixed(2) + '%';
-        document.getElementById('output_pipeline_value').innerText = '$' + revenue.toFixed(2);
+  function formatCurrency(amount) {
+    var code = (typeof getGlobalCurrency === 'function' ? getGlobalCurrency() : 'USD') || 'USD';
+    try {
+      return new Intl.NumberFormat('en-US', {
+        style: 'currency',
+        currency: code,
+        maximumFractionDigits: 0
+      }).format(amount);
+    } catch (e) {
+      return '$' + amount.toFixed(0);
+    }
+  }
 
-        updateChart(closed, Math.max(0, demos - closed));
-        window.logHistory({
-            demos_held: demos,
-            deals_closed: closed,
-            conversion_rate: rate.toFixed(2) + '%'
-        });
+  function setOutputText(id, text) {
+    var el = document.getElementById(id) || document.getElementById('output_' + id);
+    if (el) {
+      if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
+        el.value = text;
+      } else {
+        var numEl = el.querySelector('.output-number');
+        if (numEl) numEl.textContent = text;
+        else el.textContent = text;
+      }
+    }
+  }
+
+  function getInputs() {
+    return {
+      demos: parseFloat(document.getElementById('input_demos_held')?.value) || 0,
+      closed: parseFloat(document.getElementById('input_deals_closed')?.value) || 0,
+      avgSize: parseFloat(document.getElementById('input_avg_deal_size')?.value) || 0
     };
+  }
 
-    function updateChart(closed, lost) {
-        const ctx = document.getElementById('chart_convChart');
-        if (!ctx) return;
-        const activeTab = document.querySelector('.chart-tab.active')?.dataset.tab || 'breakdown';
-        
-        if (chart) chart.destroy();
-        
-        if (activeTab === 'breakdown') {
-            chart = new Chart(ctx, {
-                type: 'pie',
-                data: {
-                    labels: ['Closed Won', 'Closed Lost / Pipeline'],
-                    datasets: [{
-                        data: [closed, lost],
-                        backgroundColor: ['#10b981', '#ef4444']
-                    }]
-                }
-            });
-        } else {
-            chart = new Chart(ctx, {
-                type: 'bar',
-                data: {
-                    labels: ['Funnel'],
-                    datasets: [
-                        { label: 'Closed Won', data: [closed], backgroundColor: '#10b981' },
-                        { label: 'Lost/Open', data: [lost], backgroundColor: '#ef4444' }
-                    ]
-                }
-            });
-        }
+  function updateTool() {
+    var inputs = getInputs();
+    var demos = inputs.demos;
+    var closed = Math.min(inputs.closed, demos);
+    var avgSize = inputs.avgSize;
+
+    var rate = demos > 0 ? (closed / demos) * 100 : 0;
+    var revenue = closed * avgSize;
+    var lostDemos = Math.max(0, demos - closed);
+
+    setOutputText('conversion_rate', rate.toFixed(2) + '%');
+    setOutputText('output_conversion_rate', rate.toFixed(2) + '%');
+    setOutputText('pipeline_value', formatCurrency(revenue));
+    setOutputText('output_pipeline_value', formatCurrency(revenue));
+
+    updateCharts({
+      demos: demos,
+      closed: closed,
+      lostDemos: lostDemos,
+      rate: rate,
+      revenue: revenue
+    });
+
+    if (typeof window.logHistory === 'function') {
+      window.logHistory({
+        demosHeld: demos,
+        dealsClosed: closed,
+        avgDealSize: formatCurrency(avgSize),
+        conversionRate: rate.toFixed(2) + '%',
+        totalRevenue: formatCurrency(revenue)
+      });
+    }
+  }
+
+  function updateCharts(data) {
+    var canvas = document.getElementById('chartCanvas');
+    if (!canvas) return;
+    var ctx = canvas.getContext('2d');
+
+    if (chartInstance) {
+      chartInstance.destroy();
+      chartInstance = null;
     }
 
-    window.switchChartTab = function(tabId) {
-        document.querySelectorAll('.chart-tab').forEach(t => t.classList.remove('active'));
-        document.querySelector(`[data-tab="${tabId}"]`).classList.add('active');
-        window.updateTool();
-    };
+    if (currentTab === 'bar' || currentTab === 'comparison') {
+      chartInstance = new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: ['Demos Held', 'Deals Closed'],
+          datasets: [{
+            label: 'Count',
+            data: [data.demos, data.closed],
+            backgroundColor: ['#3b82f6', '#10b981']
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          scales: { y: { beginAtZero: true } }
+        }
+      });
+    } else {
+      chartInstance = new Chart(ctx, {
+        type: 'pie',
+        data: {
+          labels: ['Closed Won', 'Lost / Open Demos'],
+          datasets: [{
+            data: [data.closed, data.lostDemos],
+            backgroundColor: ['#10b981', '#ef4444']
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false
+        }
+      });
+    }
+  }
 
-    window.resetTool = function() {
-        document.getElementById('input_demos_held').value = '100';
-        document.getElementById('input_deals_closed').value = '20';
-        document.getElementById('input_avg_deal_size').value = '10000';
-        window.switchChartTab('breakdown');
-        window.updateTool();
-    };
+  function switchChartTab(tabId) {
+    currentTab = tabId;
+    document.querySelectorAll('.chart-tab').forEach(function(t) {
+      if ((t.dataset && t.dataset.tab === tabId) || (t.getAttribute('onclick') && t.getAttribute('onclick').indexOf(tabId) !== -1)) {
+        t.classList.add('active');
+      } else {
+        t.classList.remove('active');
+      }
+    });
+    updateTool();
+  }
 
-    setTimeout(window.updateTool, 100);
+  function resetTool() {
+    var d = document.getElementById('input_demos_held');
+    var c = document.getElementById('input_deals_closed');
+    var a = document.getElementById('input_avg_deal_size');
+    if (d) d.value = '100';
+    if (c) c.value = '20';
+    if (a) a.value = '10000';
+    updateTool();
+  }
+
+  window.updateTool = updateTool;
+  window.resetTool = resetTool;
+  window.switchChartTab = switchChartTab;
+
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('#inputsArea input, #inputsArea select, input[id^="input_"]').forEach(function(el) {
+      el.addEventListener('input', updateTool);
+      el.addEventListener('change', updateTool);
+    });
+    updateTool();
+  });
+  setTimeout(updateTool, 100);
 })();

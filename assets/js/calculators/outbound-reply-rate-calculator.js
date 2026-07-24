@@ -1,69 +1,147 @@
+/* ═══════════════════════════════════════════════════════════
+   Wanjaaro — Outbound Reply Rate Calculator
+   Tool ID: outbound-reply-rate-calculator
+═══════════════════════════════════════════════════════════ */
+
 (function() {
-    let chart;
-    window.updateTool = function() {
-        const sent = parseFloat(document.getElementById('input_emails_sent').value) || 0;
-        const replies = parseFloat(document.getElementById('input_replies_received').value) || 0;
-        const positive = parseFloat(document.getElementById('input_positive_replies').value) || 0;
-        
-        const replyRate = sent > 0 ? (replies / sent) * 100 : 0;
-        const posRate = sent > 0 ? (positive / sent) * 100 : 0;
+  var chartInstance = null;
+  var currentTab = 'breakdown';
 
-        document.getElementById('output_total_reply_rate').innerText = replyRate.toFixed(2) + '%';
-        document.getElementById('output_positive_reply_rate').innerText = posRate.toFixed(2) + '%';
+  function setOutputText(id, text) {
+    var el = document.getElementById(id) || document.getElementById('output_' + id);
+    if (el) {
+      if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
+        el.value = text;
+      } else {
+        var numEl = el.querySelector('.output-number');
+        if (numEl) numEl.textContent = text;
+        else el.textContent = text;
+      }
+    }
+  }
 
-        updateChart(sent, replies, positive);
-        window.logHistory({
-            emails_sent: sent,
-            replies_received: replies,
-            positive_reply_rate: posRate.toFixed(2) + '%'
-        });
+  function getInputs() {
+    return {
+      sent: parseFloat(document.getElementById('input_emails_sent')?.value) || 0,
+      replies: parseFloat(document.getElementById('input_replies_received')?.value) || 0,
+      positive: parseFloat(document.getElementById('input_positive_replies')?.value) || 0
     };
+  }
 
-    function updateChart(sent, replies, positive) {
-        const ctx = document.getElementById('chart_replyChart');
-        if (!ctx) return;
-        const activeTab = document.querySelector('.chart-tab.active')?.dataset.tab || 'breakdown';
-        
-        if (chart) chart.destroy();
-        
-        if (activeTab === 'breakdown') {
-            chart = new Chart(ctx, {
-                type: 'pie',
-                data: {
-                    labels: ['Positive', 'Negative/Neutral', 'No Reply'],
-                    datasets: [{
-                        data: [positive, Math.max(0, replies - positive), Math.max(0, sent - replies)],
-                        backgroundColor: ['#10b981', '#f59e0b', '#e5e7eb']
-                    }]
-                }
-            });
-        } else {
-            chart = new Chart(ctx, {
-                type: 'bar',
-                data: {
-                    labels: ['Responses'],
-                    datasets: [
-                        { label: 'Positive', data: [positive], backgroundColor: '#10b981' },
-                        { label: 'Other Replies', data: [Math.max(0, replies - positive)], backgroundColor: '#f59e0b' }
-                    ]
-                }
-            });
-        }
+  function updateTool() {
+    var inputs = getInputs();
+    var sent = inputs.sent;
+    var replies = Math.min(inputs.replies, sent);
+    var positive = Math.min(inputs.positive, replies);
+
+    var totalReplyRate = sent > 0 ? (replies / sent) * 100 : 0;
+    var positiveReplyRate = sent > 0 ? (positive / sent) * 100 : 0;
+    var neutralReplies = Math.max(0, replies - positive);
+    var noReply = Math.max(0, sent - replies);
+
+    setOutputText('total_reply_rate', totalReplyRate.toFixed(2) + '%');
+    setOutputText('output_total_reply_rate', totalReplyRate.toFixed(2) + '%');
+    setOutputText('positive_reply_rate', positiveReplyRate.toFixed(2) + '%');
+    setOutputText('output_positive_reply_rate', positiveReplyRate.toFixed(2) + '%');
+
+    updateCharts({
+      sent: sent,
+      replies: replies,
+      positive: positive,
+      neutral: neutralReplies,
+      noReply: noReply,
+      totalReplyRate: totalReplyRate,
+      positiveReplyRate: positiveReplyRate
+    });
+
+    if (typeof window.logHistory === 'function') {
+      window.logHistory({
+        emailsSent: sent,
+        repliesReceived: replies,
+        positiveReplies: positive,
+        totalReplyRate: totalReplyRate.toFixed(2) + '%',
+        positiveReplyRate: positiveReplyRate.toFixed(2) + '%'
+      });
+    }
+  }
+
+  function updateCharts(data) {
+    var canvas = document.getElementById('chartCanvas');
+    if (!canvas) return;
+    var ctx = canvas.getContext('2d');
+
+    if (chartInstance) {
+      chartInstance.destroy();
+      chartInstance = null;
     }
 
-    window.switchChartTab = function(tabId) {
-        document.querySelectorAll('.chart-tab').forEach(t => t.classList.remove('active'));
-        document.querySelector(`[data-tab="${tabId}"]`).classList.add('active');
-        window.updateTool();
-    };
+    if (currentTab === 'bar' || currentTab === 'comparison') {
+      chartInstance = new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: ['Positive Replies', 'Neutral / Other Replies', 'No Reply'],
+          datasets: [{
+            label: 'Emails',
+            data: [data.positive, data.neutral, data.noReply],
+            backgroundColor: ['#10b981', '#f59e0b', '#cbd5e1']
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          scales: { y: { beginAtZero: true } }
+        }
+      });
+    } else {
+      chartInstance = new Chart(ctx, {
+        type: 'pie',
+        data: {
+          labels: ['Positive Replies', 'Neutral / Other Replies', 'No Reply'],
+          datasets: [{
+            data: [data.positive, data.neutral, data.noReply],
+            backgroundColor: ['#10b981', '#f59e0b', '#cbd5e1']
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false
+        }
+      });
+    }
+  }
 
-    window.resetTool = function() {
-        document.getElementById('input_emails_sent').value = '1000';
-        document.getElementById('input_replies_received').value = '50';
-        document.getElementById('input_positive_replies').value = '10';
-        window.switchChartTab('breakdown');
-        window.updateTool();
-    };
+  function switchChartTab(tabId) {
+    currentTab = tabId;
+    document.querySelectorAll('.chart-tab').forEach(function(t) {
+      if ((t.dataset && t.dataset.tab === tabId) || (t.getAttribute('onclick') && t.getAttribute('onclick').indexOf(tabId) !== -1)) {
+        t.classList.add('active');
+      } else {
+        t.classList.remove('active');
+      }
+    });
+    updateTool();
+  }
 
-    setTimeout(window.updateTool, 100);
+  function resetTool() {
+    var s = document.getElementById('input_emails_sent');
+    var r = document.getElementById('input_replies_received');
+    var p = document.getElementById('input_positive_replies');
+    if (s) s.value = '1000';
+    if (r) r.value = '50';
+    if (p) p.value = '10';
+    updateTool();
+  }
+
+  window.updateTool = updateTool;
+  window.resetTool = resetTool;
+  window.switchChartTab = switchChartTab;
+
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('#inputsArea input, #inputsArea select, input[id^="input_"]').forEach(function(el) {
+      el.addEventListener('input', updateTool);
+      el.addEventListener('change', updateTool);
+    });
+    updateTool();
+  });
+  setTimeout(updateTool, 100);
 })();

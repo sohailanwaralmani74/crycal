@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Annual vs. Monthly Plan Discount Calculator – Billing Cash Flow
-description: Compare annual upfront cash flow vs 15-20% plan discounts against monthly billing in B2B SaaS subscriptions.
+title: "Annual Vs Monthly Discount | Interactive Online Tool"
+description: "Compare annual upfront cash flow vs 15-20% plan discounts against monthly billing in B2B SaaS subscriptions."
 permalink: /annual-vs-monthly-discount-calculator
 tool_id: annual-vs-monthly-discount-calculator
 category: saas-pricing-packaging
@@ -144,7 +144,7 @@ faq:
 
 ---
 
-# Annual vs. Monthly Plan Discount Calculator – Billing Cash Flow
+# Annual Vs Monthly Discount Calculator
 
 Evaluate the trade-off between **immediate Day 1 cash liquidity** from annual prepay and the **revenue discount cost** of offering 15% to 20% annual plan savings.
 

@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Roof Snow Load Calculator – ASCE 7 Design Pressure & Weight
-description: Calculate flat roof snow load (pf), sloped roof design pressure (ps) in PSF, and total roof snow weight in lbs and US tons based on ASCE 7 standards.
+title: "Roof Snow Load | Interactive Online Tool"
+description: "Calculate flat roof snow load (pf), sloped roof design pressure (ps) in PSF, and total roof snow weight in lbs and US tons based on ASCE 7 standards."
 permalink: /roof-snow-load-calculator
 tool_id: roof-snow-load-calculator
 category: roofing
@@ -165,7 +165,7 @@ faq:
     answer: "No. All calculations run strictly inside your local web browser."
 ---
 
-# Roof Snow Load Calculator – ASCE 7 Design Pressure & Weight
+# Roof Snow Load Calculator
 
 Calculate structural **flat roof snow load ($p_f$)**, **sloped roof design pressure ($p_s$)** in PSF, and total **accumulated snow weight** in pounds and US tons using official **ASCE 7 structural engineering standards**.
 

@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Toll Cost Estimator – Transponder vs Cash & Axle Rates
-description: Estimate highway toll costs by vehicle axle count, electronic transponder (E-ZPass, SunPass) vs cash rates, and peak hour surcharge multipliers.
+title: "Toll Cost Estimator | Interactive Online Tool"
+description: "Estimate highway toll costs by vehicle axle count, electronic transponder (E-ZPass, SunPass) vs cash rates, and peak hour surcharge multipliers."
 permalink: /toll-cost-estimator
 tool_id: toll-cost-estimator
 category: auto-driving-trip-planning
@@ -147,7 +147,7 @@ faq:
 
 ---
 
-# Toll Cost Estimator – Transponder vs Cash & Axle Rates
+# Toll Cost Estimator Calculator
 
 Estimate turnpike and highway toll expenses across your route with our free **Toll Cost Estimator**. Compare electronic transponder rates (E-ZPass, SunPass) against cash/video rates across 2-axle to 5-axle vehicles.
 

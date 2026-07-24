@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Student Loan Payoff Calculator
-description: Calculate how long it will take to pay off your student loans and how much interest you can save with extra payments. Free, and private.
+title: "Student Loan Payoff | Interactive Online Tool"
+description: "Calculate how long it will take to pay off your student loans and how much interest you can save with extra payments. Free, and private."
 permalink: /student-loan-payoff-calculator
 tool_id: student-loan-payoff
 category: debt
@@ -154,7 +154,7 @@ faq:
 
 ---
 
-# Student Loan Payoff Calculator – Pay Off Your Loans Faster
+# Student Loan Payoff Calculator
 
 Use this student loan payoff calculator to see how extra payments can help you become debt-free sooner. Enter your loan balance, interest rate, current payment, and extra monthly payment — the tool shows your original payoff date, new payoff date, time saved, and total interest saved. This student loan payoff estimator helps you plan your path to financial freedom.
 

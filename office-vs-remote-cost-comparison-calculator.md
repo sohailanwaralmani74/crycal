@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Office vs Remote Cost Comparison Calculator – Workspace Budget Engine
-description: Compare commercial office lease & facility expenses against distributed remote stipends and team retreat travel costs.
+title: "Office Vs Remote Cost Comparison | Interactive Online Tool"
+description: "Compare commercial office lease & facility expenses against distributed remote stipends and team retreat travel costs."
 permalink: /office-vs-remote-cost-comparison-calculator
 tool_id: office-vs-remote-cost-comparison-calculator
 category: saas-team-operations
@@ -142,7 +142,7 @@ faq:
     answer: "Hybrid models reduce office space requirements by 30% to 50% using hot-desking, but require desk booking software licenses and ongoing rent commitments."
 ---
 
-# Office vs Remote Cost Comparison Calculator – Workspace Budget Engine
+# Office Vs Remote Cost Comparison Calculator
 
 Compare commercial real estate lease costs against remote stipends and team retreat travel expenses with our **Office vs Remote Cost Comparison Calculator**.
 

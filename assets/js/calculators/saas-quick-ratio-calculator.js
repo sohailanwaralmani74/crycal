@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — SaaS Quick Ratio Calculator
+   Wanjaaro — SaaS Quick Ratio Calculator
    Tool ID: saas-quick-ratio-calculator
 ═══════════════════════════════════════════════════════════ */
 

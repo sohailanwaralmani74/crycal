@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Circuit Breaker Sizing Calculator – Continuous vs Non-Continuous Load (NEC 80% Rule)
-description: Calculate required circuit breaker amp rating (15A, 20A, 30A, 50A, etc.) and wire gauge based on continuous and non-continuous electrical loads.
+title: "Circuit Breaker Sizing | Interactive Online Tool"
+description: "Calculate required circuit breaker amp rating (15A, 20A, 30A, 50A, etc.) and wire gauge based on continuous and non-continuous electrical loads."
 permalink: /circuit-breaker-sizing-calculator
 tool_id: circuit-breaker-sizing-calculator
 category: electrical
@@ -133,7 +133,7 @@ faq:
 
 ---
 
-# Circuit Breaker Sizing Calculator – Continuous vs Non-Continuous Load (NEC 80%)
+# Circuit Breaker Sizing Calculator
 
 Determine the correct **circuit breaker rating (Amps)** and **copper wire size (AWG)** for electrical circuits using our **Circuit Breaker Sizing Calculator**. Compliant with **NEC Article 210.20**, this tool applies the mandatory **125% multiplier for continuous loads**.
 

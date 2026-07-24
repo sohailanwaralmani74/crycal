@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Time-to-Churn Estimator
+   Wanjaaro — Time-to-Churn Estimator
    Tool ID: time-to-churn-estimator
 ═══════════════════════════════════════════════════════════ */
 

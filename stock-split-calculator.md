@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Stock Split Calculator – Share Count & Cost Basis After Split
-description: Use our free Stock Split Calculator to calculate your new share count and adjusted cost basis after a forward or reverse stock split.
+title: "Stock Split | Interactive Online Tool"
+description: "Use our free Stock Split Calculator to calculate your new share count and adjusted cost basis after a forward or reverse stock split."
 permalink: /stock-split-calculator
 tool_id: stock-split-calculator
 category: growth
@@ -126,7 +126,7 @@ faq:
 
 ---
 
-# Stock Split Calculator – Share Count & Cost Basis After Split
+# Stock Split Calculator
 
 Calculate your new share count and adjusted cost basis after a stock split with our free **Stock Split Calculator**. Enter your current shares, total cost basis, and split ratio to see your adjusted holdings — all without your data leaving your browser.
 

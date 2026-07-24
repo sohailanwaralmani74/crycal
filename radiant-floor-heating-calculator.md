@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Radiant Floor Heating Calculator – Cable Feet, Mat Sq Ft & Electrical Load
-description: Calculate electric radiant floor heating cable linear feet, mat square footage, total thermostat wattage load, and circuit amperage draw at 120V or 240V.
+title: "Radiant Floor Heating | Interactive Online Tool"
+description: "Calculate electric radiant floor heating cable linear feet, mat square footage, total thermostat wattage load, and circuit amperage draw at 120V or 240V."
 permalink: /radiant-floor-heating-calculator
 tool_id: radiant-floor-heating-calculator
 category: flooring
@@ -157,7 +157,7 @@ faq:
     answer: "No. All calculation logic runs locally inside your browser."
 ---
 
-# Radiant Floor Heating Calculator – Cable Feet, Mat Sq Ft & Electrical Load
+# Radiant Floor Heating Calculator
 
 Calculate exact **net heated floor square footage**, **electric heating mat area**, **loose cable linear feet**, total **thermostat wattage load**, and **circuit breaker amperage** at 120V or 240V.
 

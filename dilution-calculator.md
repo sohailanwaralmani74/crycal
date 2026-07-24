@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Equity Dilution Calculator – Investor Funding Round Dilution
-description: Calculate existing shareholder equity dilution percentage and post-round equity value after issuing new shares to investors and option pools.
+title: "Dilution | Interactive Online Tool"
+description: "Calculate existing shareholder equity dilution percentage and post-round equity value after issuing new shares to investors and option pools."
 permalink: /dilution-calculator
 tool_id: dilution-calculator
 category: saas-fundraising-valuation
@@ -135,7 +135,7 @@ faq:
 
 ---
 
-# Equity Dilution Calculator – Investor Funding Round Dilution
+# Dilution Calculator
 
 Calculate founder ownership retention and equity dilution with our free **Equity Dilution Calculator**. Model post-money valuations, investor ownership stakes, option pool dilution, and post-round equity value.
 

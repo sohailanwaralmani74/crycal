@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Futures Position Size Calculator
-description: Calculate the optimal number of futures contracts to trade. Enter your account balance, risk percentage, entry price, stop-loss price, tick size.
+title: "Futures Position Size | Interactive Online Tool"
+description: "Calculate the optimal number of futures contracts to trade. Enter your account balance, risk percentage, entry price, stop-loss price, tick size."
 permalink: /futures-position-size-calculator
 tool_id: futures-position-size
 category: investing
@@ -203,7 +203,7 @@ faq:
 
 ---
 
-# Futures Position Size Calculator – Size Your Futures Trades
+# Futures Position Size Calculator
 
 Use this futures position size calculator to determine the optimal number of futures contracts for your trades. Enter your account balance, risk percentage, entry price, stop-loss price, tick size, and tick value — the tool shows your position size in contracts, risk amount, and stop distance in both points and ticks. This futures sizing calculator helps you manage risk and trade with discipline.
 

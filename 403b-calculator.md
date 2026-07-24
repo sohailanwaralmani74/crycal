@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: 403(b) Calculator – Project Your Retirement Plan Growth
-description: Use the 403(b) Calculator to project your retirement account growth based on salary, contribution rate, employer match, and investment returns.
+title: "403B | Interactive Online Tool"
+description: "Use the 403(b) Calculator to project your retirement account growth based on salary, contribution rate, employer match, and investment returns."
 permalink: /403b-calculator
 tool_id: 403b-calculator
 category: retirement
@@ -151,7 +151,7 @@ faq:
     answer: "No. All calculations run locally in your browser. No data is sent to any server."
 ---
 
-# Project Your 403(b) Retirement Plan Growth
+# 403B Calculator
 
 Use the **403(b) Calculator** to project your retirement account growth based on salary, contribution rate, employer match, and investment returns.
 

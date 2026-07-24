@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Savings Goal Calculator
-description: Calculate how long it will take to reach your savings goal or how much you need to save monthly to hit your target by a specific date.
+title: "Savings Goal | Interactive Online Tool"
+description: "Calculate how long it will take to reach your savings goal or how much you need to save monthly to hit your target by a specific date."
 permalink: /savings-goal-calculator
 tool_id: savings-goal
 category: growth
@@ -165,7 +165,7 @@ faq:
 
 ---
 
-# Savings Goal Calculator – With Time and Contribution Mode
+# Savings Goal Calculator
 
 Calculate how long it will take to reach your savings goal OR how much you need to save monthly to hit your target by a specific date. Enter your current savings, monthly contribution, interest rate, and target amount — the calculator shows your growth trajectory, progress, and what it takes to reach your goal.
 

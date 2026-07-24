@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: IHT Calculator – UK Inheritance Tax Estimator
-description: Estimate UK Inheritance Tax (IHT) on your estate with nil-rate bands, residence relief, gifts, and charity reduction. Plan your estate tax efficiently.
+title: "Iht | Interactive Online Tool"
+description: "Estimate UK Inheritance Tax (IHT) on your estate with nil-rate bands, residence relief, gifts, and charity reduction. Plan your estate tax efficiently."
 permalink: /iht-calculator
 tool_id: iht-calculator
 category: tax
@@ -168,7 +168,7 @@ faq:
     answer: "No. All calculations run locally in your browser. No data is sent to any server."
 ---
 
-# IHT Calculator – UK Inheritance Tax Estimator
+# Iht Calculator
 
 Estimate UK Inheritance Tax (IHT) on your estate with our free **IHT Calculator**. Enter your estate value, main residence, gifts, and charity percentage to see your total tax liability and effective rate — all without your data leaving your browser.
 

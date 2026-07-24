@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: 1031 Exchange Calculator – Deferred Real Estate Capital Gains Tax
-description: Calculate capital gains tax deferrals, boot liability, and replacement property cost requirements under IRS Section 1031 exchanges.
+title: "1031 Exchange | Interactive Online Tool"
+description: "Calculate capital gains tax deferrals, boot liability, and replacement property cost requirements under IRS Section 1031 exchanges."
 permalink: /1031-exchange-calculator
 tool_id: 1031-exchange-calculator
 category: investing
@@ -129,7 +129,7 @@ faq:
     answer: "No. All calculations run locally inside your web browser. History and saved presets are stored strictly in your browser's local storage."
 ---
 
-# 1031 Exchange Calculator – Deferred Real Estate Capital Gains Tax
+# 1031 Exchange Calculator
 
 Calculate capital gains tax deferrals, boot liability, and replacement property cost requirements under **IRS Section 1031** like-kind exchanges with our free calculator.
 

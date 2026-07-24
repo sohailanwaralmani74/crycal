@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Hot Tub Pad Size Calculator – Concrete Slab Volume & Weight Load Capacity
-description: Calculate concrete hot tub pad dimensions, 4"-6" slab thickness, ready-mix concrete volume (cu yds & 80lb bags), and filled tub weight load (PSF/PSI).
+title: "Hot Tub Pad Size | Interactive Online Tool"
+description: "Calculate concrete hot tub pad dimensions, 4-6 slab thickness, ready-mix concrete volume (cu yds & 80lb bags), and filled tub weight load (PSF/PSI)."
 permalink: /hot-tub-pad-size-calculator
 tool_id: hot-tub-pad-size-calculator
 category: landscaping-outdoor
@@ -176,7 +176,7 @@ faq:
     answer: "No. All calculation formulas run locally in your web browser."
 ---
 
-# Hot Tub Pad Size Calculator – Concrete Slab Volume & Weight Load Capacity
+# Hot Tub Pad Size Calculator
 
 Determine concrete hot tub pad dimensions, 4-6 inch slab thickness, ready-mix concrete volume (cubic yards & 80lb bags), filled operating weight, and soil load bearing PSF with our free **Hot Tub Pad Size Calculator**.
 

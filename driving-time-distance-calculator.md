@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Driving Time & Distance Calculator – ETA & Rest Stop Planner
-description: Calculate driving duration hours and minutes, required rest stops, total trip time including breaks, and estimated arrival time based on distance and average speed.
+title: "Driving Time Distance | Interactive Online Tool"
+description: "Calculate driving duration hours and minutes, required rest stops, total trip time including breaks, and estimated arrival time based on..."
 permalink: /driving-time-distance-calculator
 tool_id: driving-time-distance-calculator
 category: auto-driving-trip-planning
@@ -148,7 +148,7 @@ faq:
 
 ---
 
-# Driving Time & Distance Calculator – ETA & Rest Stop Planner
+# Driving Time Distance Calculator
 
 Calculate exact driving duration, required rest break intervals, total elapsed trip time, and estimated arrival time (ETA) with our free **Driving Time & Distance Calculator**.
 

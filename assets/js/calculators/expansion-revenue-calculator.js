@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Expansion Revenue Calculator
+   Wanjaaro — Expansion Revenue Calculator
    Tool ID: expansion-revenue-calculator
 ═══════════════════════════════════════════════════════════ */
 

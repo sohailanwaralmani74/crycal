@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Carpool Cost-Split Calculator – Commuter Fuel, Wear & Toll Sharing
-description: Calculate fair daily and monthly cost sharing among carpool commuters for gas, vehicle depreciation and wear, tolls, and monthly parking expenses.
+title: "Carpool Cost Split | Interactive Online Tool"
+description: "Calculate fair daily and monthly cost sharing among carpool commuters for gas, vehicle depreciation and wear, tolls, and monthly parking expenses."
 permalink: /carpool-cost-split-calculator
 tool_id: carpool-cost-split-calculator
 category: auto-driving-trip-planning
@@ -159,7 +159,7 @@ faq:
 
 ---
 
-# Carpool Cost-Split Calculator – Commuter Fuel, Wear & Toll Sharing
+# Carpool Cost Split Calculator
 
 Calculate fair daily and monthly cost splits for work commutes with our free **Carpool Cost-Split Calculator**. Account for gas, wear and tear, vehicle depreciation, tolls, and parking fees.
 

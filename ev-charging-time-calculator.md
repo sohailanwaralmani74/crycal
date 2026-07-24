@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: EV Charging Time Calculator – Level 1, Level 2 & DC Fast Charging
-description: Calculate EV charging time in hours and minutes across Level 1 (120V), Level 2 (240V), and DC Fast Charging (400V/800V) based on battery size and charger output.
+title: "Ev Charging Time | Interactive Online Tool"
+description: "Calculate EV charging time in hours and minutes across Level 1 (120V), Level 2 (240V), and DC Fast Charging (400V/800V) based on battery size..."
 permalink: /ev-charging-time-calculator
 tool_id: ev-charging-time-calculator
 category: electric-vehicle-ev
@@ -156,7 +156,7 @@ faq:
 
 ---
 
-# EV Charging Time Calculator
+# Ev Charging Time Calculator
 
 Calculate electric vehicle (EV) charging time in hours and minutes for Level 1 (120V), Level 2 (240V), and DC Fast Charging (400V/800V).
 

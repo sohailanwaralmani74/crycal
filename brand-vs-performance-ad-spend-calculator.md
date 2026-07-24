@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Brand vs Performance Ad Spend Calculator – Budget Split Engine
-description: Calculate the optimal allocation split between long-term brand awareness (60%) and direct-response performance advertising (40%).
+title: "Brand Vs Performance Ad Spend | Interactive Online Tool"
+description: "Calculate the optimal allocation split between long-term brand awareness (60%) and direct-response performance advertising (40%)."
 permalink: /brand-vs-performance-ad-spend-calculator
 tool_id: brand-vs-performance-ad-spend-calculator
 category: saas-marketing-ads
@@ -130,7 +130,7 @@ faq:
     answer: "Strong brand awareness increases ad click-through rates (CTR) and conversion rates on direct-response ads, lowering overall Customer Acquisition Cost."
 ---
 
-# Brand vs Performance Ad Spend Calculator – Budget Split Engine
+# Brand Vs Performance Ad Spend Calculator
 
 Balance short-term sales activation with long-term brand equity using our **Brand vs Performance Ad Spend Calculator**. Model allocations based on the Binet & Field 60/40 framework.
 

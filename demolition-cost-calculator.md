@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Demolition Cost Calculator – Interior Gut Demo, Dumpster Size & Debris Tonnage
-description: Calculate interior gut demolition labor costs per sq ft, debris weight tonnage, roll-off dumpster sizes (10 to 40 yard), and haul away expenses.
+title: "Demolition Cost | Interactive Online Tool"
+description: "Calculate interior gut demolition labor costs per sq ft, debris weight tonnage, roll-off dumpster sizes (10 to 40 yard), and haul away expenses."
 permalink: /demolition-cost-calculator
 tool_id: demolition-cost-calculator
 category: project-cost-planning
@@ -145,7 +145,7 @@ faq:
     answer: "No. All calculations run strictly inside your web browser."
 ---
 
-# Demolition Cost Calculator – Interior Gut Demo, Dumpster Size & Debris Tonnage
+# Demolition Cost Calculator
 
 Planning a major home renovation starts with tearing out old drywall, cabinets, flooring, and non-load-bearing framing. Use our **Demolition Cost Calculator** to estimate total labor costs per square foot, total construction debris weight in tons, roll-off dumpster size requirements (10 to 40 yard), and landfill tipping fees.
 

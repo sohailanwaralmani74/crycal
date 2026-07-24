@@ -1,7 +1,7 @@
 ---
 layout: default
-title: SaaS Calculators – Pricing, Unit Economics, MRR, Churn & Valuation
-description: Free, browser-based SaaS calculators for subscription pricing, CAC, LTV, CAC payback, MRR/ARR, churn rates, sales funnels, runway, valuation, and marketing ROI.
+title: "SaaS Calculators — MRR, Unit Economics, Churn & Pricing"
+description: Free, browser-based SaaS calculators for subscription pricing, CAC, LTV, CAC payback,  churn rates, sales funnels, runway, valuation etc.
 permalink: /saas
 shortName: SaaS
 is_homepage: true

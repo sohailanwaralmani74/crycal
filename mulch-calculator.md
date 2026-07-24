@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Mulch Calculator – Cubic Yards & Bag Quantity Estimator
-description: Calculate mulch volume in cubic yards, 2 cu ft and 3 cu ft bag counts, total material cost, and coverage for flower beds and landscaping.
+title: "Mulch | Interactive Online Tool"
+description: "Calculate mulch volume in cubic yards, 2 cu ft and 3 cu ft bag counts, total material cost, and coverage for flower beds and landscaping."
 permalink: /mulch-calculator
 tool_id: mulch-calculator
 category: landscaping-outdoor
@@ -140,7 +140,7 @@ faq:
     answer: "No. All computations take place locally inside your browser ensuring 100% data privacy."
 ---
 
-# Mulch Calculator – Cubic Yards & Bag Quantity Estimator
+# Mulch Calculator
 
 Calculate exact mulch volume requirements in **cubic yards** and **cubic feet**, determine bag counts for both **2 cu ft** and **3 cu ft** bags, and compare bulk delivery pricing against bagged options.
 

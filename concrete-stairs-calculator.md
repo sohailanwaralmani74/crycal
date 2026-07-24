@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Concrete Stairs Calculator – Riser, Tread & Bag Estimator
-description: Calculate concrete volume in cubic yards, cubic feet, and 80lb/60lb pre-mixed bags for concrete stairs, risers, treads, and top landing platforms.
+title: "Concrete Stairs | Interactive Online Tool"
+description: "Calculate concrete volume in cubic yards, cubic feet, and 80lb/60lb pre-mixed bags for concrete stairs, risers, treads, and top landing platforms."
 permalink: /concrete-stairs-calculator
 tool_id: concrete-stairs-calculator
 category: concrete-masonry
@@ -155,7 +155,7 @@ faq:
     answer: "No. All calculation logic runs strictly inside your local browser."
 ---
 
-# Concrete Stairs Calculator – Riser, Tread & Bag Estimator
+# Concrete Stairs Calculator
 
 Determine exact concrete volume in **cubic yards**, **cubic feet**, and **pre-mixed bag counts** (80 lb, 60 lb, 40 lb) for outdoor concrete steps, entrance stoops, and top landing platforms.
 

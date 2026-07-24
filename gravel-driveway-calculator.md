@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Gravel Driveway Calculator – Volume (Cu Yds), Tons & Material Cost
-description: Calculate gravel driveway volume in cubic yards, weight in tons (1.4 tons/yd), depth in inches, and total delivered gravel material cost.
+title: "Gravel Driveway | Interactive Online Tool"
+description: "Calculate gravel driveway volume in cubic yards, weight in tons (1.4 tons/yd), depth in inches, and total delivered gravel material cost."
 permalink: /gravel-driveway-calculator
 tool_id: gravel-driveway-calculator
 category: landscaping-outdoor
@@ -148,7 +148,7 @@ faq:
     answer: "No. All calculations run locally in your web browser."
 ---
 
-# Gravel Driveway Calculator – Volume (Cu Yds), Tons & Material Cost
+# Gravel Driveway Calculator
 
 Determine exact aggregate quantities for installing or resurfacing a residential driveway using our **Gravel Driveway Calculator**. Calculate **cubic yards**, **weight in tons** (1.4 tons/yd density), **gravel depth**, and total delivered cost.
 

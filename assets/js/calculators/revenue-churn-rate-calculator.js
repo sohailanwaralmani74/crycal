@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Revenue Churn Rate Calculator
+   Wanjaaro — Revenue Churn Rate Calculator
    Tool ID: revenue-churn-rate-calculator
 ═══════════════════════════════════════════════════════════ */
 

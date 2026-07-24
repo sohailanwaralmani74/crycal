@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Countertop Square Footage Calculator – Granite, Quartz & Marble Estimator
-description: Calculate total countertop square footage, sink and cooktop cutout deductions, slab count, waste factor, and total material cost.
+title: "Countertop Square Footage | Interactive Online Tool"
+description: "Calculate total countertop square footage, sink and cooktop cutout deductions, slab count, waste factor, and total material cost."
 permalink: /countertop-square-footage-calculator
 tool_id: countertop-square-footage-calculator
 category: home-decor-interior
@@ -167,7 +167,7 @@ faq:
   - question: "Is my input data saved on the server?"
 ---
 
-# Countertop Square Footage Calculator – Granite, Quartz & Marble Estimator
+# Countertop Square Footage Calculator
 
 Calculate exact countertop square footage, sink/cooktop cutouts, required slab quantities, and total material budget for granite, quartz, marble, or solid surface kitchen counters.
 

@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Spackle & Patching Compound Calculator – Wall Hole Repair Estimator
-description: Calculate spackle tub volume, pints/quarts, container count, and sanding block supplies for wall hole repairs, anchor dents, and drywall touch-ups.
+title: "Spackle Patching Compound | Interactive Online Tool"
+description: "Calculate spackle tub volume, pints/quarts, container count, and sanding block supplies for wall hole repairs, anchor dents, and drywall touch-ups."
 permalink: /spackle-patching-compound-calculator
 tool_id: spackle-patching-compound-calculator
 category: drywall-paint
@@ -154,7 +154,7 @@ faq:
     answer: "No. All logic operates locally in your browser."
 ---
 
-# Spackle & Patching Compound Calculator – Wall Hole Repair Estimator
+# Spackle Patching Compound Calculator
 
 Estimate spackle volume in fluid ounces, pints, quarts, container tub counts, and sanding supplies for wall hole repairs with our free **Spackle & Patching Compound Calculator**.
 

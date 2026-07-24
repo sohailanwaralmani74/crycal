@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Solo 401(k) Contribution Calculator – Employee + Employer Limits
-description: Use the Solo 401(k) Contribution Calculator to estimate your maximum allowed employee deferral, employer contribution, and total contribution as a self-employed business owner.
+title: "Solo 401K Contribution | Interactive Online Tool"
+description: "Use the Solo 401(k) Contribution Calculator to estimate your maximum allowed employee deferral, employer contribution, and total contribution as..."
 permalink: /solo-401k-contribution-calculator
 tool_id: solo-401k-contribution-calculator
 category: retirement
@@ -136,7 +136,7 @@ faq:
     answer: "No. All calculations run locally in your browser. No data is sent to any server."
 ---
 
-# Estimate Your Solo 401(k) Contribution Limits
+# Solo 401K Contribution Calculator
 
 Use the **Solo 401(k) Contribution Calculator** to estimate your maximum allowed employee deferral, employer contribution, and total contribution as a self-employed business owner.
 

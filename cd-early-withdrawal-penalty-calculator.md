@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: CD Early Withdrawal Penalty Calculator – Estimate Your Penalty
-description: Calculate the penalty for withdrawing from a CD before maturity. Enter your deposit amount, term, interest rate, and withdrawal month to see your penalty.
+title: "Cd Early Withdrawal Penalty | Interactive Online Tool"
+description: "Calculate the penalty for withdrawing from a CD before maturity. Enter your deposit amount, term, interest rate, and withdrawal month to see your penalty."
 permalink: /cd-early-withdrawal-penalty-calculator
 tool_id: cd-early-withdrawal-penalty-calculator
 category: growth
@@ -149,7 +149,7 @@ faq:
 
 ---
 
-# CD Early Withdrawal Penalty Calculator – Estimate Your Penalty
+# Cd Early Withdrawal Penalty Calculator
 
 Calculate the penalty for withdrawing from a CD before maturity. Enter your deposit amount, term, interest rate, and withdrawal month to see your penalty — all without your data leaving your browser.
 

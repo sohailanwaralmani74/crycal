@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Tree & Shrub Spacing Calculator – Hedge Count & Orchard Grid Estimator
-description: Calculate plant and tree counts for privacy hedge screens, windbreaks, square orchard grids, and triangular staggered landscapes based on spacing feet.
+title: "Tree Shrub Spacing | Interactive Online Tool"
+description: "Calculate plant and tree counts for privacy hedge screens, windbreaks, square orchard grids, and triangular staggered landscapes based on spacing feet."
 permalink: /tree-shrub-spacing-calculator
 tool_id: tree-shrub-spacing-calculator
 category: landscaping-outdoor
@@ -158,7 +158,7 @@ faq:
     answer: "No. All calculation formulas run locally in your web browser."
 ---
 
-# Tree & Shrub Spacing Calculator – Hedge Count & Orchard Grid Estimator
+# Tree Shrub Spacing Calculator
 
 Determine exact plant and tree counts, ground coverage, row arrangements, bark mulch volume, and material costs for privacy hedges and orchards with our free **Tree & Shrub Spacing Calculator**.
 

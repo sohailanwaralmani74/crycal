@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Competitor Pricing Benchmark Calculator – Price Position Math
-description: Compare your SaaS plan pricing against top market competitors. Calculate market averages, feature-adjusted price targets, and MRR potential.
+title: "Competitor Pricing Benchmark | Interactive Online Tool"
+description: "Compare your SaaS plan pricing against top market competitors. Calculate market averages, feature-adjusted price targets, and MRR potential."
 permalink: /competitor-pricing-benchmark-calculator
 tool_id: competitor-pricing-benchmark-calculator
 category: saas-pricing-packaging
@@ -150,7 +150,7 @@ faq:
 
 ---
 
-# Competitor Pricing Benchmark Calculator – Price Position Math
+# Competitor Pricing Benchmark Calculator
 
 Compare your SaaS plan price against direct competitors. Calculate **market averages**, **feature-adjusted target prices**, and **market positioning**.
 

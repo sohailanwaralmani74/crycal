@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Bookings vs Revenue Recognition Calculator – ASC 606 Schedule
-description: Compare signed contract ACV bookings, upfront cash billings, and ASC 606 GAAP monthly recognized revenue schedules.
+title: "Bookings Vs Revenue Recognition | Interactive Online Tool"
+description: "Compare signed contract ACV bookings, upfront cash billings, and ASC 606 GAAP monthly recognized revenue schedules."
 permalink: /bookings-vs-revenue-recognition-calculator
 tool_id: bookings-vs-revenue-recognition-calculator
 category: saas-revenue-growth-metrics
@@ -121,7 +121,7 @@ faq:
 
 ---
 
-# Bookings vs Revenue Recognition Calculator
+# Bookings Vs Revenue Recognition Calculator
 
 Model signed contract Bookings, upfront Cash Billings, and ASC 606 GAAP Monthly Recognized Revenue schedules for subscription software contracts.
 

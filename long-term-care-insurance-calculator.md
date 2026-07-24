@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Long-Term Care Insurance Calculator – Estimate Your Costs
-description: Estimate your long-term care insurance costs. Enter your age, base rate, coverage amount, benefit period, and factors to see your estimated premium.
+title: "Long Term Care Insurance | Interactive Online Tool"
+description: "Estimate your long-term care insurance costs. Enter your age, base rate, coverage amount, benefit period, and factors to see your estimated premium."
 permalink: /long-term-care-insurance-calculator
 tool_id: long-term-care-insurance-calculator
 category: insurance
@@ -232,7 +232,7 @@ faq:
 
 ---
 
-# Estimate Your Long-Term Care Premium
+# Long Term Care Insurance Calculator
 
 Estimate your long‑term care insurance costs. Enter your age, base rate, coverage amount, benefit period, and factors to see your estimated premium — all without your data leaving your browser.
 

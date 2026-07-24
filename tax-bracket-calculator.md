@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Tax Bracket Calculator
-description: Calculate your income tax with custom tax brackets. Enter your taxable income and define your own brackets with From, To, and Rate.
+title: "Tax Bracket | Interactive Online Tool"
+description: "Calculate your income tax with custom tax brackets. Enter your taxable income and define your own brackets with From, To, and Rate."
 permalink: /tax-bracket-calculator
 tool_id: tax-bracket-calculator
 category: tax
@@ -107,7 +107,7 @@ faq:
 
 ---
 
-# Tax Bracket Calculator – Custom Brackets for Any Country
+# Tax Bracket Calculator
 
 Use this tax bracket calculator to calculate income tax using your own custom brackets. Enter your taxable income and define your brackets with From, To, and Rate — the tool works for any country's progressive tax system.
 

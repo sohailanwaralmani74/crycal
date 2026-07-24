@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Downgrade & Contraction MRR Calculator – SaaS Contraction Metric
-description: Calculate revenue lost specifically from customer plan downgrades and seat reductions. Measure contraction MRR rate and annualized loss.
+title: "Downgrade Contraction Mrr | Interactive Online Tool"
+description: "Calculate revenue lost specifically from customer plan downgrades and seat reductions. Measure contraction MRR rate and annualized loss."
 permalink: /downgrade-contraction-mrr-calculator
 tool_id: downgrade-contraction-mrr-calculator
 category: saas-revenue-growth-metrics
@@ -128,7 +128,7 @@ faq:
 
 ---
 
-# Downgrade & Contraction MRR Calculator
+# Downgrade Contraction Mrr Calculator
 
 Calculate your total **Contraction MRR**, monthly **Contraction Rate (%)**, and **Annualized Downgrade Loss** caused by plan tier downgrades, seat reductions, and feature cancellations.
 

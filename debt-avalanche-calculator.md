@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Debt Avalanche Calculator
-description: Pay off your debts faster using the debt avalanche method. List your debts, add extra payments, and see your complete payoff plan.
+title: "Debt Avalanche | Interactive Online Tool"
+description: "Pay off your debts faster using the debt avalanche method. List your debts, add extra payments, and see your complete payoff plan."
 permalink: /debt-avalanche-calculator
 tool_id: debt-avalanche
 category: debt
@@ -128,7 +128,7 @@ faq:
 
 ---
 
-# Debt Avalanche Calculator – Save the Most on Interest
+# Debt Avalanche Calculator
 
 Use this debt avalanche calculator to create a complete debt payoff plan that saves you the most money on interest. Add your debts, set an extra monthly payment, and the tool sorts them from highest to lowest interest rate — showing you exactly when each debt will be paid off. Whether you're tackling credit cards, student loans, or personal loans, this debt avalanche calculator gives you the most cost-effective path to becoming debt-free.
 

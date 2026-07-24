@@ -129,7 +129,7 @@ faq:
     a: "No. All calculations run strictly in your web browser."
 ---
 
-# MRR Growth Rate Calculator
+# Calculate Monthly Recurring Revenue (MRR) Growth Rate
 
 Calculate Month-over-Month (MoM) revenue growth rate, Net New MRR, and Net Revenue Retention (NRR). Use our free **MRR Growth Rate Calculator** to evaluate your SaaS business performance and make data-driven growth decisions — without any data leaving your browser.
 

@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Startup Equity Vesting Calculator – Founder & Employee Vesting Schedule
-description: Calculate vested equity shares, unvested shares, and dollar value based on a standard 4-year vesting schedule with a 1-year cliff.
+title: "Startup Equity Vesting | Interactive Online Tool"
+description: "Calculate vested equity shares, unvested shares, and dollar value based on a standard 4-year vesting schedule with a 1-year cliff."
 permalink: /startup-equity-vesting-calculator
 tool_id: startup-equity-vesting-calculator
 category: saas-fundraising-valuation
@@ -155,7 +155,7 @@ faq:
 
 ---
 
-# Startup Equity Vesting Calculator – Founder & Employee Schedule
+# Startup Equity Vesting Calculator
 
 Calculate your vested shares, unvested shares, and current dollar equity value with our free **Startup Equity Vesting Calculator**. Model standard 4-year vesting schedules with a 1-year cliff and monthly linear vesting trajectories.
 

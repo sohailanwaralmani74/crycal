@@ -126,7 +126,7 @@ faq:
     a: "No. All calculations run strictly in your browser."
 ---
 
-# Customer Lifetime Value (LTV) Calculator
+# Calculate Customer Lifetime Value (LTV)
 
 Calculate Customer Lifetime Value (LTV) for SaaS businesses from ARPU, gross margin %, and churn rate %. Use our free **Customer Lifetime Value (LTV) Calculator** to evaluate your SaaS business performance and make data-driven growth decisions — without any data leaving your browser.
 

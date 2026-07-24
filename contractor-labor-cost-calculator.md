@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Contractor Labor Cost Calculator – Labor vs Material Ratio Tool
-description: Calculate contractor labor costs, standard 40/60 or 50/50 material-to-labor ratios, hourly crew burn rates, overhead, and contractor markups.
+title: "Contractor Labor Cost | Interactive Online Tool"
+description: "Calculate contractor labor costs, standard 40/60 or 50/50 material-to-labor ratios, hourly crew burn rates, overhead, and contractor markups."
 permalink: /contractor-labor-cost-calculator
 tool_id: contractor-labor-cost-calculator
 category: project-cost-planning
@@ -145,7 +145,7 @@ faq:
   - question: "Is my personal data saved when using this calculator?"
 ---
 
-# Contractor Labor Cost Calculator – Labor vs Material Ratio Tool
+# Contractor Labor Cost Calculator
 
 Calculate labor expenses, crew hourly rates, labor-to-material cost ratios (40/60, 50/50, 60/40), and contractor overhead markups to audit bids or estimate job profitability.
 

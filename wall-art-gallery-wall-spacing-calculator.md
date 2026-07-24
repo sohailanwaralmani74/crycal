@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Wall Art & Gallery Wall Spacing Calculator – Frame Gap & Height Estimator
-description: Calculate ideal picture frame gap spacing, gallery total width, side wall margins, and eye-level hanging height (57"-60" rule).
+title: "Wall Art Gallery Wall Spacing | Interactive Online Tool"
+description: "Calculate ideal picture frame gap spacing, gallery total width, side wall margins, and eye-level hanging height (57-60 rule)."
 permalink: /wall-art-gallery-wall-spacing-calculator
 tool_id: wall-art-gallery-wall-spacing-calculator
 category: home-decor-interior
@@ -137,7 +137,7 @@ faq:
     answer: "No. All spacing calculations run privately in your web browser."
 ---
 
-# Wall Art & Gallery Wall Spacing Calculator – Frame Gap & Height Estimator
+# Wall Art Gallery Wall Spacing Calculator
 
 Calculate perfect picture frame gap spacing, symmetrical wall margins, total gallery width, and museum-standard **57" eye-level hanging height** with our free **Wall Art & Gallery Wall Spacing Calculator**.
 

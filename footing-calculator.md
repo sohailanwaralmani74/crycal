@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Footing Calculator – Foundation Concrete Volume & Rebar Estimator
-description: Calculate continuous foundation footing concrete volume in cubic yards, rebar linear feet, and total material cost.
+title: "Footing | Interactive Online Tool"
+description: "Calculate continuous foundation footing concrete volume in cubic yards, rebar linear feet, and total material cost."
 permalink: /footing-calculator
 tool_id: footing-calculator
 category: concrete-masonry
@@ -144,7 +144,7 @@ faq:
     answer: "No. All calculation operations run privately inside your local browser."
 ---
 
-# Footing Calculator – Foundation Concrete Volume & Rebar Estimator
+# Footing Calculator
 
 Calculate exact ready-mix concrete **cubic yardage**, **rebar linear footage**, and total material cost for continuous residential and commercial foundation footings.
 

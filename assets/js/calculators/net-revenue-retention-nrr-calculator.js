@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Net Revenue Retention (NRR) Calculator
+   Wanjaaro — Net Revenue Retention (NRR) Calculator
    Tool ID: net-revenue-retention-nrr-calculator
 ═══════════════════════════════════════════════════════════ */
 

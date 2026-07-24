@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Septic Tank Sizing Calculator – Capacity Gallons & Drain Field Area
-description: Calculate minimum septic tank size in gallons and absorption drain field area in square feet based on bedroom count, daily wastewater flow, and soil percolation.
+title: "Septic Tank Sizing | Interactive Online Tool"
+description: "Calculate minimum septic tank size in gallons and absorption drain field area in square feet based on bedroom count, daily wastewater flow, and..."
 permalink: /septic-tank-sizing-calculator
 tool_id: septic-tank-sizing-calculator
 category: plumbing
@@ -137,7 +137,7 @@ faq:
 
 ---
 
-# Septic Tank Sizing Calculator – Capacity Gallons & Drain Field Area
+# Septic Tank Sizing Calculator
 
 Calculate the **minimum septic tank capacity in gallons** and required **leach field absorption area** for your property using our **Septic Tank Sizing Calculator**. Based on **EPA guidelines and state environmental health codes**, this tool sizes septic systems by bedroom counts and soil percolation rates.
 

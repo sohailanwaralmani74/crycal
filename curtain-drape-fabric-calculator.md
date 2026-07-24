@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Curtain & Drape Fabric Calculator – Estimate Fabric Yardage & Panels
-description: Calculate curtain panel widths (1.5x to 2.5x fullness), cut lengths, top header & hem allowances, pattern repeats, and total fabric yards required.
+title: "Curtain Drape Fabric | Interactive Online Tool"
+description: "Calculate curtain panel widths (1.5x to 2.5x fullness), cut lengths, top header & hem allowances, pattern repeats, and total fabric yards required."
 permalink: /curtain-drape-fabric-calculator
 tool_id: curtain-drape-fabric-calculator
 category: home-decor-interior
@@ -154,7 +154,7 @@ faq:
     answer: "No. All calculations run locally inside your web browser."
 ---
 
-# Curtain & Drape Fabric Calculator – Estimate Fabric Yardage & Panels
+# Curtain Drape Fabric Calculator
 
 Making custom curtains and floor-length drapes brings warmth and elegance to home interiors, but estimating fabric yardage incorrectly can lead to skimpy curtain gathers or mismatched pattern seams. Use our **Curtain & Drape Fabric Calculator** to calculate exact gathered fabric widths, panel strip counts, pattern match allowances, and total yardage.
 

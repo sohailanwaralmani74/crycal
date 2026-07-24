@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Plywood Sheet Calculator – OSB & Sheathing Quantity Estimator
-description: Calculate 4x8 plywood and OSB sheets needed for subfloors, walls, and roof sheathing with standard 10% waste factor and total project cost.
+title: "Plywood Sheet | Interactive Online Tool"
+description: "Calculate 4x8 plywood and OSB sheets needed for subfloors, walls, and roof sheathing with standard 10% waste factor and total project cost."
 permalink: /plywood-sheet-calculator
 tool_id: plywood-sheet-calculator
 category: lumber-framing
@@ -145,7 +145,7 @@ faq:
     answer: "No. All calculations run locally in your web browser."
 ---
 
-# Plywood Sheet Calculator – OSB & Sheathing Quantity Estimator
+# Plywood Sheet Calculator
 
 Calculate total **4x8 plywood and OSB sheet counts**, waste overage, net square footage coverage, and total material cost with our free **Plywood Sheet Calculator**.
 

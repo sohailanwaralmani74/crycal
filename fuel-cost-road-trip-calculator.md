@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Fuel Cost Road Trip Calculator – Estimate Trip Gas Budget
-description: Calculate total fuel expenses, gallons required, gas cost per person, and fill-up count for any road trip based on distance, MPG, and gas prices.
+title: "Fuel Cost Road Trip | Interactive Online Tool"
+description: "Calculate total fuel expenses, gallons required, gas cost per person, and fill-up count for any road trip based on distance, MPG, and gas prices."
 permalink: /fuel-cost-road-trip-calculator
 tool_id: fuel-cost-road-trip-calculator
 category: auto-fuel-efficiency

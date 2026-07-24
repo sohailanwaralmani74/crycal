@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Ice & Water Shield Calculator – Eaves, Valleys & Roll Coverage
-description: Calculate rolls of self-adhering ice & water shield membrane needed for roof eaves (24" past interior wall code), valleys, and low-slope roof sections.
+title: "Ice Water Shield | Interactive Online Tool"
+description: "Calculate rolls of self-adhering ice & water shield membrane needed for roof eaves (24 past interior wall code), valleys, and low-slope roof sections."
 permalink: /ice-water-shield-calculator
 tool_id: ice-water-shield-calculator
 category: roofing
@@ -163,7 +163,7 @@ faq:
     answer: "No. All calculations execute locally in your web browser."
 ---
 
-# Ice & Water Shield Calculator – Eaves, Valleys & Roll Coverage
+# Ice Water Shield Calculator
 
 Calculate exact **rolls of self-adhering ice & water shield membrane** required for roof eaves, valley seams, and low-slope roof sections in compliance with **IRC R905.1.2 ice barrier building codes**.
 

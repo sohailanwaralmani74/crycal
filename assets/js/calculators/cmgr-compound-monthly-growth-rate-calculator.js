@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Compound Monthly Growth Rate (CMGR) Calculator
+   Wanjaaro — Compound Monthly Growth Rate (CMGR) Calculator
    Tool ID: cmgr-compound-monthly-growth-rate-calculator
 ═══════════════════════════════════════════════════════════ */
 

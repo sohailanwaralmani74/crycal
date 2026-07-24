@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Fencing Cost Calculator – Wood, Vinyl, Chain Link & Aluminum
-description: Calculate total installed fencing cost by linear feet, fence material (wood, vinyl, chain link, aluminum), height, gate count, and labor.
+title: "Fencing Cost | Interactive Online Tool"
+description: "Calculate total installed fencing cost by linear feet, fence material (wood, vinyl, chain link, aluminum), height, gate count, and labor."
 permalink: /fencing-cost-calculator
 tool_id: fencing-cost-calculator
 category: landscaping-outdoor
@@ -155,7 +155,7 @@ faq:
     answer: "No. All calculations run locally in your web browser."
 ---
 
-# Fencing Cost Calculator – Wood, Vinyl, Chain Link & Aluminum
+# Fencing Cost Calculator
 
 Calculate total installed costs for residential and commercial yard property boundaries with our **Fencing Cost Calculator**. Compare **wood**, **vinyl**, **chain link**, **aluminum**, and **composite fencing** across 4 ft, 6 ft, and 8 ft heights.
 

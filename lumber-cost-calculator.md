@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Lumber Cost Calculator – Dimensional Lumber Order & Cost Estimator
-description: Calculate total linear feet, per-board pricing, subtotal costs, and waste margins for dimensional lumber orders with our free calculator.
+title: "Lumber Cost | Interactive Online Tool"
+description: "Calculate total linear feet, per-board pricing, subtotal costs, and waste margins for dimensional lumber orders with our free calculator."
 permalink: /lumber-cost-calculator
 tool_id: lumber-cost-calculator
 category: lumber-framing
@@ -136,7 +136,7 @@ faq:
     answer: "No. All logic executes locally inside your web browser."
 ---
 
-# Lumber Cost Calculator – Dimensional Lumber Order & Cost Estimator
+# Lumber Cost Calculator
 
 Calculate **total linear feet**, individual board costs, order subtotals, and waste-adjusted totals for framing and construction lumber orders.
 

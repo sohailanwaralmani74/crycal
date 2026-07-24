@@ -1,66 +1,149 @@
+/* ═══════════════════════════════════════════════════════════
+   Wanjaaro — Quota to OTE Ratio Calculator
+   Tool ID: quota-to-ote-ratio-calculator
+═══════════════════════════════════════════════════════════ */
+
 (function() {
-    let chart;
-    window.updateTool = function() {
-        const quota = parseFloat(document.getElementById('input_annual_quota').value) || 0;
-        const ote = parseFloat(document.getElementById('input_annual_ote').value) || 0;
-        const ratio = ote > 0 ? quota / ote : 0;
-        const commission = quota > 0 ? (ote / 2) / quota * 100 : 0;
+  var chartInstance = null;
+  var currentTab = 'breakdown';
 
-        document.getElementById('output_quota_ote_ratio').innerText = ratio.toFixed(2) + 'x';
-        document.getElementById('output_commission_rate').innerText = commission.toFixed(2) + '%';
+  function formatCurrency(amount) {
+    var code = (typeof getGlobalCurrency === 'function' ? getGlobalCurrency() : 'USD') || 'USD';
+    try {
+      return new Intl.NumberFormat('en-US', {
+        style: 'currency',
+        currency: code,
+        maximumFractionDigits: 0
+      }).format(amount);
+    } catch (e) {
+      return '$' + amount.toFixed(0);
+    }
+  }
 
-        updateChart(quota, ote);
-        window.logHistory({
-            annual_quota: quota,
-            annual_ote: ote,
-            quota_ote_ratio: ratio.toFixed(2) + 'x'
-        });
+  function setOutputText(id, text) {
+    var el = document.getElementById(id) || document.getElementById('output_' + id);
+    if (el) {
+      if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
+        el.value = text;
+      } else {
+        var numEl = el.querySelector('.output-number');
+        if (numEl) numEl.textContent = text;
+        else el.textContent = text;
+      }
+    }
+  }
+
+  function getInputs() {
+    return {
+      quota: parseFloat(document.getElementById('input_annual_quota')?.value) || 0,
+      ote: parseFloat(document.getElementById('input_annual_ote')?.value) || 0
     };
+  }
 
-    function updateChart(quota, ote) {
-        const ctx = document.getElementById('chart_ratioChart');
-        if (!ctx) return;
-        const activeTab = document.querySelector('.chart-tab.active')?.dataset.tab || 'breakdown';
-        
-        if (chart) chart.destroy();
-        
-        if (activeTab === 'breakdown') {
-            chart = new Chart(ctx, {
-                type: 'pie',
-                data: {
-                    labels: ['OTE', 'Remaining Quota'],
-                    datasets: [{
-                        data: [ote, Math.max(0, quota - ote)],
-                        backgroundColor: ['#3b82f6', '#e5e7eb']
-                    }]
-                }
-            });
-        } else {
-            chart = new Chart(ctx, {
-                type: 'bar',
-                data: {
-                    labels: ['Comparison'],
-                    datasets: [
-                        { label: 'Quota', data: [quota], backgroundColor: '#10b981' },
-                        { label: 'OTE', data: [ote], backgroundColor: '#3b82f6' }
-                    ]
-                }
-            });
-        }
+  function updateTool() {
+    var inputs = getInputs();
+    var quota = inputs.quota;
+    var ote = inputs.ote;
+    var ratio = ote > 0 ? quota / ote : 0;
+    var commissionRate = quota > 0 ? ((ote / 2) / quota) * 100 : 0;
+
+    setOutputText('quota_ote_ratio', ratio.toFixed(2) + 'x');
+    setOutputText('output_quota_ote_ratio', ratio.toFixed(2) + 'x');
+    setOutputText('commission_rate', commissionRate.toFixed(2) + '%');
+    setOutputText('output_commission_rate', commissionRate.toFixed(2) + '%');
+
+    updateCharts({
+      quota: quota,
+      ote: ote,
+      ratio: ratio,
+      commissionRate: commissionRate
+    });
+
+    if (typeof window.logHistory === 'function') {
+      window.logHistory({
+        annualQuota: quota,
+        annualOte: ote,
+        quotaOteRatio: ratio.toFixed(2) + 'x',
+        effectiveCommissionRate: commissionRate.toFixed(2) + '%'
+      });
+    }
+  }
+
+  function updateCharts(data) {
+    var canvas = document.getElementById('chartCanvas');
+    if (!canvas) return;
+    var ctx = canvas.getContext('2d');
+
+    if (chartInstance) {
+      chartInstance.destroy();
+      chartInstance = null;
     }
 
-    window.switchChartTab = function(tabId) {
-        document.querySelectorAll('.chart-tab').forEach(t => t.classList.remove('active'));
-        document.querySelector(`[data-tab="${tabId}"]`).classList.add('active');
-        window.updateTool();
-    };
+    if (currentTab === 'comparison') {
+      chartInstance = new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: ['Annual Quota', 'Annual OTE'],
+          datasets: [{
+            label: 'Amount ($)',
+            data: [data.quota, data.ote],
+            backgroundColor: ['#10b981', '#3b82f6']
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          scales: { y: { beginAtZero: true } }
+        }
+      });
+    } else {
+      chartInstance = new Chart(ctx, {
+        type: 'pie',
+        data: {
+          labels: ['OTE', 'Remaining Quota Beyond OTE'],
+          datasets: [{
+            data: [data.ote, Math.max(0, data.quota - data.ote)],
+            backgroundColor: ['#3b82f6', '#e5e7eb']
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false
+        }
+      });
+    }
+  }
 
-    window.resetTool = function() {
-        document.getElementById('input_annual_quota').value = '1000000';
-        document.getElementById('input_annual_ote').value = '200000';
-        window.switchChartTab('breakdown');
-        window.updateTool();
-    };
+  function switchChartTab(tabId) {
+    currentTab = tabId;
+    document.querySelectorAll('.chart-tab').forEach(function(t) {
+      if ((t.dataset && t.dataset.tab === tabId) || (t.getAttribute('onclick') && t.getAttribute('onclick').indexOf(tabId) !== -1)) {
+        t.classList.add('active');
+      } else {
+        t.classList.remove('active');
+      }
+    });
+    updateTool();
+  }
 
-    setTimeout(window.updateTool, 100);
+  function resetTool() {
+    var q = document.getElementById('input_annual_quota');
+    var o = document.getElementById('input_annual_ote');
+    if (q) q.value = '1000000';
+    if (o) o.value = '200000';
+    updateTool();
+  }
+
+  window.updateTool = updateTool;
+  window.resetTool = resetTool;
+  window.switchChartTab = switchChartTab;
+
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('#inputsArea input, #inputsArea select, input[id^="input_"]').forEach(function(el) {
+      el.addEventListener('input', updateTool);
+      el.addEventListener('change', updateTool);
+    });
+    updateTool();
+  });
+  setTimeout(updateTool, 100);
 })();

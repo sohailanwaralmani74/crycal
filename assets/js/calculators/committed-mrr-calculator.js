@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   CRYCAL — Committed MRR Calculator
+   Wanjaaro — Committed MRR Calculator
    Tool ID: committed-mrr-calculator
 ═══════════════════════════════════════════════════════════ */
 

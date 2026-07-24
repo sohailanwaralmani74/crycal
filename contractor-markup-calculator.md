@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Contractor Markup Calculator – Cost-Plus Markup & Margin %
-description: Calculate contractor cost-plus markup percentage, gross profit margin %, client bid price, direct job costs, and overhead allocation.
+title: "Contractor Markup | Interactive Online Tool"
+description: "Calculate contractor cost-plus markup percentage, gross profit margin %, client bid price, direct job costs, and overhead allocation."
 permalink: /contractor-markup-calculator
 tool_id: contractor-markup-calculator
 category: project-cost-planning
@@ -132,7 +132,7 @@ faq:
     answer: "No. All calculations run strictly inside your web browser."
 ---
 
-# Contractor Markup Calculator – Cost-Plus Markup & Margin %
+# Contractor Markup Calculator
 
 Accurate bidding is the foundation of a successful construction business. Confusing **markup percentage** on costs with **profit margin percentage** on sales is one of the leading causes of contractor insolvency. Use our **Contractor Markup Calculator** to calculate cost-plus markup dollars, client bid pricing, gross profit margin %, and overhead expense recovery.
 

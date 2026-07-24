@@ -131,7 +131,7 @@ faq:
     a: "No. All tool computations run strictly locally inside your web browser."
 ---
 
-# SaaS Gross Margin Calculator
+# Calculate SaaS Gross Margin
 
 Calculate SaaS gross margin % by deducting cloud hosting, customer support, third-party software, and onboarding COGS from revenue. Use our free **SaaS Gross Margin Calculator** to evaluate your SaaS business performance and make data-driven growth decisions — without any data leaving your browser.
 

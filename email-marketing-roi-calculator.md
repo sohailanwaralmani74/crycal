@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Email Marketing ROI Calculator – Campaign Revenue & Profit Estimator
-description: Calculate ROI, net profit, and pipeline revenue generated from newsletter campaigns, email automation software, and subscriber lists.
+title: "Email Marketing Roi | Interactive Online Tool"
+description: "Calculate ROI, net profit, and pipeline revenue generated from newsletter campaigns, email automation software, and subscriber lists."
 permalink: /email-marketing-roi-calculator
 tool_id: email-marketing-roi-calculator
 category: saas-marketing-ads
@@ -161,7 +161,7 @@ faq:
     answer: "Improve ROI by cleaning inactive subscribers, segmenting subscriber lists by intent, conducting A/B testing on subject lines, and creating automated drip onboarding sequences."
 ---
 
-# Email Marketing ROI Calculator – Campaign Revenue & Profit Estimator
+# Email Marketing Roi Calculator
 
 Quantify the financial return of your newsletters, automated drip campaigns, and product announcements with our **Email Marketing ROI Calculator**.
 

@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Area Rug Size Calculator – Find Ideal Dimensions & Wall Clearance
-description: Calculate the best area rug size (5x8, 8x10, 9x12, 10x14) for living rooms, bedrooms, and dining rooms based on room dimensions and wall border clearance.
+title: "Rug Size | Interactive Online Tool"
+description: "Calculate the best area rug size (5x8, 8x10, 9x12, 10x14) for living rooms, bedrooms, and dining rooms based on room dimensions and wall border clearance."
 permalink: /rug-size-calculator
 tool_id: rug-size-calculator
 category: home-decor-interior
@@ -134,7 +134,7 @@ faq:
     answer: "No. All calculations take place entirely within your local browser."
 ---
 
-# Area Rug Size Calculator – Find Ideal Dimensions & Wall Clearance
+# Rug Size Calculator
 
 Choosing the correct area rug size anchors your furniture, absorbs room acoustics, and creates visual balance. Use our **Area Rug Size Calculator** to calculate exact maximum rug dimensions, wall border clearance, and standard size recommendations (5×8, 8×10, 9×12, 10×14 ft).
 

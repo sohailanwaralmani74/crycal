@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Tire Revolutions Per Mile Calculator – Exact Tire Rotation & Distance
-description: Calculate exact tire revolutions per mile and kilometer based on tire width, aspect ratio, rim size, and loaded tire squish deflection factor.
+title: "Tire Revolutions Per Mile | Interactive Online Tool"
+description: "Calculate exact tire revolutions per mile and kilometer based on tire width, aspect ratio, rim size, and loaded tire squish deflection factor."
 permalink: /tire-revolutions-per-mile-calculator
 tool_id: tire-revolutions-per-mile-calculator
 category: auto-tires-wheels
@@ -127,7 +127,7 @@ faq:
 
 ---
 
-# Tire Revolutions Per Mile Calculator – Exact Tire Rotation & Distance
+# Tire Revolutions Per Mile Calculator
 
 Calculate exact tire revolutions per mile, revolutions per kilometer, and loaded rolling radius with our free **Tire Revolutions Per Mile Calculator**.
 

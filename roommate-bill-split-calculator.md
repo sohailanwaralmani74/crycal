@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Roommate Bill Split Calculator – Income & Room Size Fair Split
-description: Calculate fair rent and utility splits between roommates based on room square footage, private bathroom access, or relative income.
+title: "Roommate Bill Split | Interactive Online Tool"
+description: "Calculate fair rent and utility splits between roommates based on room square footage, private bathroom access, or relative income."
 permalink: /roommate-bill-split-calculator
 tool_id: roommate-bill-split-calculator
 category: budgeting
@@ -127,7 +127,7 @@ faq:
     answer: "No. All calculations run locally inside your web browser. History and saved presets are stored strictly in your browser's local storage."
 ---
 
-# Roommate Bill Split Calculator – Income & Room Size Fair Split
+# Roommate Bill Split Calculator
 
 Calculate fair rent and utility splits between housemates with our free **Roommate Bill Split Calculator**.
 

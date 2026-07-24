@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Fence Panel & Picket Calculator – Pickets, 2x4 Rails & Material Cost
-description: Calculate the exact number of fence pickets, 2x4 stringer horizontal rails, picket gap spacing, and material costs for wood privacy or shadowbox fences.
+title: "Fence Panel Picket | Interactive Online Tool"
+description: "Calculate the exact number of fence pickets, 2x4 stringer horizontal rails, picket gap spacing, and material costs for wood privacy or shadowbox fences."
 permalink: /fence-panel-picket-calculator
 tool_id: fence-panel-picket-calculator
 category: lumber-framing
@@ -172,7 +172,7 @@ faq:
     answer: "No. All calculations run locally in your web browser."
 ---
 
-# Fence Panel & Picket Calculator – Pickets, 2x4 Rails & Material Cost
+# Fence Panel Picket Calculator
 
 Calculate the total number of vertical **fence pickets**, horizontal **2x4 stringer rails**, picket gap spacing adjustments, and total lumber expenses with our free **Fence Panel & Picket Calculator**.
 

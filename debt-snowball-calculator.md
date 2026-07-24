@@ -1,7 +1,7 @@
 ---
 layout: tool
-title: Debt Snowball Calculator
-description: Pay off your debts faster using the debt snowball method. List your debts, add extra payments, and see your complete payoff plan.
+title: "Debt Snowball | Interactive Online Tool"
+description: "Pay off your debts faster using the debt snowball method. List your debts, add extra payments, and see your complete payoff plan."
 permalink: /debt-snowball-calculator
 tool_id: debt-snowball
 category: debt
@@ -128,7 +128,7 @@ faq:
 
 ---
 
-# Debt Snowball Calculator – Pay Off Debt Faster
+# Debt Snowball Calculator
 
 Use this debt snowball calculator to create a complete debt payoff plan using the snowball method. Add your debts, set an extra monthly payment, and the tool sorts them from smallest to largest balance — showing you exactly when each debt will be paid off. Whether you're tackling credit cards, student loans, or personal loans, this debt snowball calculator gives you a clear path to becoming debt-free.
 
