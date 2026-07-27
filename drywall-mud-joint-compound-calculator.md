@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Drywall Mud Joint Compound | Interactive Online Tool"
+title: "Drywall Mud Joint Compound Calculator | Drywall & Paint"
 description: "Calculate gallons and buckets of joint compound, drywall tape rolls, and corner bead needed for 1, 2, or 3 coats on drywall installations."
 permalink: /drywall-mud-joint-compound-calculator
 tool_id: drywall-mud-joint-compound-calculator
@@ -153,11 +153,9 @@ faq:
     answer: "Standard paintable drywall requires 3 coats: 1 bedding coat for tape, 1 fill/feather coat (8-inch knife), and 1 final finish/skim coat (10-12 inch knife)."
   - question: "How much does a bucket of drywall joint compound cost?"
     answer: "A standard 4.5-gallon box or 5-gallon bucket of pre-mixed joint compound costs between $15.00 and $24.00 at major home improvement centers."
-  - question: "Is my personal data saved when using this tool?"
-    answer: "No. All calculation logic runs locally in your web browser."
 ---
 
-# Drywall Mud Joint Compound Calculator
+# Drywall Mud Joint Compound Calculator - Calculate Paint Coverage & Sheet Count
 
 Calculate joint compound gallons, mud bucket pails, paper tape rolls, and corner bead linear feet for **1, 2, or 3 coats of drywall finishing** with our free **Drywall Mud & Joint Compound Calculator**.
 
@@ -212,8 +210,7 @@ $$\text{Tape Rolls} = \left\lceil \frac{\text{Tape Feet Needed}}{\text{Roll Leng
 
 ---
 
-## Frequently Asked Questions
-
+## Drywall Mud Joint Compound Calculator Frequently Asked Questions
 ### How much drywall mud do I need for 1,000 sq ft?
 For 1,000 sq ft of drywall receiving 3 coats (Level 4 finish), you need approximately 53 gallons of joint compound, which equals 12 pails of 4.5-gallon mud.
 
@@ -232,5 +229,3 @@ Standard paintable drywall requires 3 coats: 1 bedding coat for tape, 1 fill/fea
 ### How much does a bucket of drywall joint compound cost?
 A standard 4.5-gallon box or 5-gallon bucket of pre-mixed joint compound costs between $15.00 and $24.00 at major home improvement centers.
 
-### Is my personal data saved when using this tool?
-No. All calculation logic runs locally in your web browser.

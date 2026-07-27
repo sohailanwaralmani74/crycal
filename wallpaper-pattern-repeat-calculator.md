@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Wallpaper Pattern Repeat | Interactive Online Tool"
+title: "Wallpaper Pattern Repeat Calculator | Interior Design"
 description: "Calculate wallpaper rolls needed, vertical pattern match repeat adjustments, cutting waste percentage, usable strips per roll, and total material cost."
 permalink: /wallpaper-pattern-repeat-calculator
 tool_id: wallpaper-pattern-repeat-calculator
@@ -150,11 +150,9 @@ faq:
     answer: "In a straight match, the pattern aligns horizontally across adjacent strips. In a drop match (half-drop), the pattern shifts downward on every alternating strip, requiring extra material to align."
   - question: "Should I subtract window and door openings from my wall area?"
     answer: "Only subtract large patio doors or garage-sized openings. For standard single windows or interior doors, keep wall area solid to ensure you have enough full-length strips for surrounding wall sections."
-  - question: "Is my personal data saved when using this calculator?"
-    answer: "No. All calculations run strictly inside your web browser."
 ---
 
-# Wallpaper Pattern Repeat Calculator
+# Wallpaper Pattern Repeat Calculator - Calculate Dimensions, Spacing & Cut Widths
 
 Hanging decorative wallpaper with large floral, damask, or geometric patterns requires calculating the vertical pattern repeat to ensure seamless motif alignment across seams. Use our **Wallpaper Pattern Repeat Calculator** to determine exact strip cut lengths, usable strips per roll, pattern waste percentages, and total rolls needed.
 
@@ -213,8 +211,7 @@ The table below illustrates how increasing vertical pattern repeats affect strip
 
 ---
 
-## Frequently Asked Questions
-
+## Wallpaper Pattern Repeat Calculator Frequently Asked Questions
 ### What is a wallpaper pattern repeat?
 A pattern repeat is the vertical distance between where a specific print motif begins and where it repeats again down the roll (typically 6 to 24 inches). Matching these motifs side-by-side creates seamless continuous wall designs.
 
@@ -233,5 +230,3 @@ In a straight match, the pattern aligns horizontally across adjacent strips. In 
 ### Should I subtract window and door openings from my wall area?
 Only subtract large patio doors or garage-sized openings. For standard single windows or interior doors, keep wall area solid to ensure you have enough full-length strips for surrounding wall sections.
 
-### Is my personal data saved when using this calculator?
-No. All calculations run strictly inside your web browser.

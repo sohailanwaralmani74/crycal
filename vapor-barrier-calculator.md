@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Vapor Barrier | Interactive Online Tool"
+title: "Vapor Barrier Calculator | HVAC & Insulation Sizing"
 description: "Calculate 6mil, 10mil, and 20mil polyethylene vapor barrier rolls, seam tape, and material costs for crawlspace encapsulation and wall stud installation."
 permalink: /vapor-barrier-calculator
 tool_id: vapor-barrier-calculator
@@ -196,11 +196,9 @@ faq:
     answer: "In cold climates (US Climate Zones 5-8), the vapor retarder is installed on the interior warm side of the wall framing (under drywall). In hot humid climates, vapor barriers belong on the exterior side of the wall assembly."
   - question: "How much does a roll of 10 mil vapor barrier cost?"
     answer: "A 10 ft × 100 ft (1,000 sq ft) roll of 6 mil clear poly costs $60 to $90. A 10 mil virgin poly roll of the same size costs $150 to $220. Heavy 20 mil reinforced membrane costs $300 to $450 per roll."
-  - question: "Is my personal data saved when using this calculator?"
-    answer: "No. All calculation logic operates locally in your web browser."
 ---
 
-# Vapor Barrier Calculator
+# Vapor Barrier Calculator - Calculate BTU Load & R-Value Insulation
 
 Determine polyethylene plastic vapor barrier rolls, waterproof seam tape, and total material cost for crawlspace encapsulation and wall stud installation with our free **Vapor Barrier Calculator**.
 
@@ -256,8 +254,7 @@ $$\text{Seam Tape Rolls} = \left\lceil \frac{\text{Seam Tape Feet}}{180 \text{ f
 
 ---
 
-## Frequently Asked Questions
-
+## Vapor Barrier Calculator Frequently Asked Questions
 ### What thickness vapor barrier should I use in a crawlspace?
 Building code requires a minimum of 6 mil polyethylene sheeting for dirt crawlspace floors. However, 10 mil to 20 mil reinforced vapor retarders are strongly recommended for crawlspace encapsulation to withstand foot traffic and puncture from rocks.
 
@@ -276,5 +273,3 @@ In cold climates (US Climate Zones 5-8), the vapor retarder is installed on the 
 ### How much does a roll of 10 mil vapor barrier cost?
 A 10 ft × 100 ft (1,000 sq ft) roll of 6 mil clear poly costs $60 to $90. A 10 mil virgin poly roll of the same size costs $150 to $220. Heavy 20 mil reinforced membrane costs $300 to $450 per roll.
 
-### Is my personal data saved when using this calculator?
-No. All calculation logic operates locally in your web browser.

@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Duct Sizing | Interactive Online Tool"
+title: "Duct Sizing Calculator | HVAC & Insulation Sizing"
 description: "Calculate required round flex duct diameter in inches based on HVAC airflow (CFM), recommended air velocity (FPM), and pressure drop loss."
 permalink: /duct-sizing-calculator
 tool_id: duct-sizing-calculator
@@ -128,11 +128,9 @@ faq:
     answer: "Flex duct has inner corrugated wire ribbing and sag that creates friction resistance, increasing static pressure drop by 20% to 50% compared to smooth galvanized sheet metal."
   - question: "What happens if an HVAC duct is undersized?"
     answer: "Undersized ducts create high static pressure, noisy air registers, restricted airflow, uneven room cooling/heating, and premature blower motor failure."
-  - question: "Is my personal data saved anywhere?"
-    answer: "No. All calculations run locally in your web browser."
 ---
 
-# Duct Sizing Calculator
+# Duct Sizing Calculator - Calculate BTU Load & R-Value Insulation
 
 Calculate required **round HVAC duct diameters in inches**, cross-sectional airflow area, and estimated **friction pressure drop** using our **Duct Sizing Calculator**.
 
@@ -188,8 +186,7 @@ The table below outlines airflow capacities across standard residential round du
 
 ---
 
-## Frequently Asked Questions
-
+## Duct Sizing Calculator Frequently Asked Questions
 ### How do I calculate required duct size for a given CFM?
 Divide CFM by air velocity in FPM to get duct area in square feet ($A = \text{CFM} / \text{FPM}$). Convert to square inches by multiplying by 144, then solve for round diameter $d = \sqrt{(4 \times A) / \pi}$.
 
@@ -208,5 +205,3 @@ Flex duct has inner corrugated wire ribbing and sag that creates friction resist
 ### What happens if an HVAC duct is undersized?
 Undersized ducts create high static pressure, noisy air registers, restricted airflow, uneven room cooling/heating, and premature blower motor failure.
 
-### Is my personal data saved anywhere?
-No. All calculations run locally in your web browser.

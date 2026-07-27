@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Outbound Reply Rate Calculator | Cold Email Metrics"
+title: "Outbound Reply Rate Calculator | SaaS Pipeline & Win Rate"
 description: "Calculate total outbound reply rates, positive response percentages, and SDR prospect engagement. 100% free and private browser execution."
 permalink: /outbound-reply-rate-calculator
 tool_id: outbound-reply-rate-calculator
@@ -118,7 +118,7 @@ faq:
     answer: "No, 100%. All calculations process locally within your browser. No prospect email data, list counts, or campaign numbers are transmitted or logged."
 ---
 
-# Outbound Reply Rate Calculator
+# Outbound Reply Rate Calculator - Calculate Sales Funnel Conversions
 
 Calculate total cold email reply rates, positive prospect response percentages, and SDR outbound efficiency with our free sales tool.
 Featuring live response modeling, outbound benchmark comparison, and 100% private browser execution so your campaign analytics remain completely confidential.
@@ -135,8 +135,7 @@ Distinguishing between total reply rate and positive reply rate is vital for cam
 
 ---
 
-## Mathematical Formulas & Mechanics
-
+## Outbound Reply Rate Calculator Mathematical Formulas & Mechanics
 The Total Reply Rate ($R_{\text{total}}$) measures total human responses relative to total successfully delivered outreach emails ($E_{\text{sent}}$):
 
 $$\text{Total Reply Rate (\%)} = \left( \frac{\text{Replies Received}}{\text{Emails Sent}} \right) \times 100$$
@@ -155,8 +154,7 @@ $$M = E_{\text{campaign}} \times \left( \frac{\text{Positive Reply Rate}}{100} \
 
 ---
 
-## Real-World Comparison & Benchmark Table
-
+## Outbound Reply Rate Calculator Benchmarks & Comparison Table
 The benchmark table below outlines campaign metrics across various B2B outbound targeting strategies based on a **1,000 Delivered Email Campaign**:
 
 | Outreach Strategy | Emails Sent | Total Replies | Total Reply Rate | Positive Replies | Positive Reply Rate | Positive Share % | Campaign Performance |
@@ -171,8 +169,7 @@ The benchmark table below outlines campaign metrics across various B2B outbound 
 
 ---
 
-## Step-by-Step How-To Guide
-
+## How to Use the Outbound Reply Rate Calculator Step-by-Step
 1. **Select Campaign Inputs**: Gather your email sequence metrics from your sales engagement platform (e.g., Outreach, Salesloft, Instantly).
 2. **Enter Emails Sent**: Input total delivered email count (subtracting hard bounces and invalid addresses).
 3. **Enter Total Replies**: Input total prospect responses (excluding automated OOO out-of-office auto-replies).
@@ -182,8 +179,7 @@ The benchmark table below outlines campaign metrics across various B2B outbound 
 
 ---
 
-## Frequently Asked Questions
-
+## Outbound Reply Rate Calculator Frequently Asked Questions
 ### What is a good total cold email reply rate in B2B SaaS?
 A healthy overall cold email reply rate in B2B SaaS ranges between 3% and 7%. Top-tier personalized campaigns achieve reply rates of 8% to 12%.
 

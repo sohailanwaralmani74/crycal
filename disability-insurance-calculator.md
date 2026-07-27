@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Disability Insurance | Interactive Online Tool"
+title: "Disability Insurance Calculator | Insurance Policy & Coverage"
 description: "Estimate how much disability income protection you need. Calculate income replacement, benefit period, and gap coverage."
 permalink: /disability-insurance-calculator
 tool_id: disability-insurance
@@ -191,12 +191,10 @@ faq:
     answer: "The benefit period is how long you receive disability payments. Common options are 2 years, 5 years, or until age 65."
   - question: "Should I count my employer's disability benefit?"
     answer: "Yes — most employers offer short-term and long-term disability coverage. Factor this into your calculation to avoid over-insuring."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server."
 
 ---
 
-# Disability Insurance Calculator
+# Disability Insurance Calculator - Calculate Premium Cost & Coverage Need
 
 Use this disability insurance calculator to estimate how much income protection you need. Enter your current income, monthly expenses, existing benefits, and coverage period — the tool shows your monthly income gap, total insurance need, and recommended monthly benefit. Whether you're self-employed, relying on employer coverage, or planning for the unexpected, this disability income calculator helps you make an informed decision.
 
@@ -245,8 +243,7 @@ Disability insurance is about protecting your most valuable asset — your abili
 
 ---
 
-## Frequently Asked Questions
-
+## Disability Insurance Calculator Frequently Asked Questions
 ### What is disability insurance?
 Disability insurance replaces a portion of your income if you become unable to work due to illness or injury. It helps you cover essential expenses like rent, mortgage, and food.
 
@@ -261,9 +258,6 @@ The benefit period is how long you receive disability payments. Common options a
 
 ### Should I count my employer's disability benefit?
 Yes — most employers offer short-term and long-term disability coverage. Factor this into your calculation to avoid over-insuring.
-
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server.
 
 ---
 

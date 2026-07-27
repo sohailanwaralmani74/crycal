@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Brand Vs Performance Ad Spend | Interactive Online Tool"
+title: "Brand vs Performance Ad Spend Calculator | SaaS Marketing & Ad"
 description: "Calculate the optimal allocation split between long-term brand awareness (60%) and direct-response performance advertising (40%)."
 permalink: /brand-vs-performance-ad-spend-calculator
 tool_id: brand-vs-performance-ad-spend-calculator
@@ -130,7 +130,7 @@ faq:
     answer: "Strong brand awareness increases ad click-through rates (CTR) and conversion rates on direct-response ads, lowering overall Customer Acquisition Cost."
 ---
 
-# Brand Vs Performance Ad Spend Calculator
+# Brand vs Performance Ad Spend Calculator - Calculate Customer Acquisition & Ad Return
 
 Balance short-term sales activation with long-term brand equity using our **Brand vs Performance Ad Spend Calculator**. Model allocations based on the Binet & Field 60/40 framework.
 
@@ -146,8 +146,7 @@ Relying exclusively on direct-response performance ads (Google Search, retargeti
 
 ---
 
-## Mathematical Formulas
-
+## Brand vs Performance Ad Spend Calculator Mathematical Formulas
 ### 1. Budget Division
 
 $$ \text{Brand Budget (\$) } = \text{Total Ad Budget} \times \left( \frac{\text{Brand Share \%}}{100} \right) $$
@@ -174,8 +173,7 @@ $$ \text{Organic Lift Factor} = 1.0 + \left( \frac{\text{Brand Share \%}}{100} \
 
 ---
 
-## Step-by-Step Guide
-
+## Step-by-Step Brand vs Performance Ad Spend Calculator Guide
 1. **Set Aggregate Ad Budget**: Input available monthly advertising dollars.
 2. **Select Ratio Framework**: Choose between 60/40 (classic), 50/50 (balanced), or 30/70 (early growth).
 3. **Input Direct CAC**: Enter direct performance CAC from Google/LinkedIn Search Ads.
@@ -183,8 +181,7 @@ $$ \text{Organic Lift Factor} = 1.0 + \left( \frac{\text{Brand Share \%}}{100} \
 
 ---
 
-## Frequently Asked Questions
-
+## Brand vs Performance Ad Spend Calculator Frequently Asked Questions
 ### What is the 60/40 Rule in Advertising?
 Developed by researchers Les Binet and Peter Field, the 60/40 rule recommends spending 60% of marketing budget on long-term brand building and 40% on short-term performance activation.
 

@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Price Increase Impact | Interactive Online Tool"
+title: "Price Increase Impact Calculator | SaaS Pricing & Packaging"
 description: "Estimate net revenue gain versus churn risk when raising SaaS subscription prices by X%. Calculate max tolerable customer churn before financial loss."
 permalink: /price-increase-impact-calculator
 tool_id: price-increase-impact-calculator
@@ -144,7 +144,7 @@ faq:
 
 ---
 
-# Price Increase Impact Calculator
+# Price Increase Impact Calculator - Calculate Tier Profitability & ARPU
 
 Model the net financial impact of raising your SaaS subscription prices. Compare **MRR expansion** against **customer churn risk** and discover your breakeven threshold.
 
@@ -158,8 +158,7 @@ This calculator answers the critical question: **How many customers can we affor
 
 ---
 
-## Key Mathematical Formulas
-
+## Key Price Increase Impact Calculator Mathematical Formulas
 ### 1. New Monthly Price & Post-Increase MRR
 
 $$ \text{New Price} = \text{Current Price} \times (1 + \text{Price Increase \%}) $$
@@ -201,8 +200,7 @@ $$ \text{Max Tolerable Churn \%} = \frac{\text{Price Increase \%}}{1 + \text{Pri
 
 ---
 
-## Frequently Asked Questions
-
+## Price Increase Impact Calculator Frequently Asked Questions
 ### Why do most SaaS price increases result in net revenue gain?
 Because price elasticity in B2B SaaS is typically low. A 20% price increase usually causes less than 5% customer churn, leaving a 15% net revenue gain.
 

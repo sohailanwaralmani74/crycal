@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Roof Pitch Angle & Slope Calculator"
+title: "Roof Pitch Angle Calculator | Roofing Material Estimating"
 description: "Convert roof rise and run into pitch ratio, degrees, percentage slope, and rafter multiplier instantly with 100% private browser math."
 permalink: /roof-pitch-angle-calculator
 tool_id: roof-pitch-angle-calculator
@@ -124,7 +124,7 @@ faq:
     answer: "Ground footprint measurements undercount roof surface area on sloped roofs. Multiplying footprint square footage by the rafter multiplier ensures accurate shingle bundle ordering."
 ---
 
-# Roof Pitch, Slope & Angle Converter
+# Roof Pitch Angle Calculator - Calculate Shingles, Squares & Flashing
 
 Convert vertical rise and horizontal run measurements into standard roof pitch ratios ($X:12$), slope angles in degrees, slope percentages, and rafter surface multipliers.
 All calculations execute 100% privately inside your web browser with instant client-side math and zero data tracking.
@@ -137,7 +137,7 @@ Roof pitch directly dictates material selection, structural load limits, water d
 
 This **Roof Pitch Angle & Slope Calculator** converts simple level-and-tape measurements into exact pitch fractions ($6:12$), slope degrees ($26.57^\circ$), and rafter multipliers ($1.118$).
 
-### Key Benefits
+### Key Benefits of Roof Pitch Angle Calculator
 * **Complete Slope Trigonometry:** Calculates pitch ratio, angle degrees, percentage slope, and rafter multiplier.
 * **Sloped Surface Area Multiplier:** Converts flat floor plans into true 3D sloped roof surface area.
 * **Safety & Code Compliance:** Identifies steep-slope thresholds ($>4:12$) mandating harness ties and scaffolding.
@@ -145,8 +145,7 @@ This **Roof Pitch Angle & Slope Calculator** converts simple level-and-tape meas
 
 ---
 
-## Mathematical Formulas & Mechanics
-
+## Roof Pitch Angle Calculator Mathematical Formulas & Mechanics
 ### 1. Roof Pitch Angle in Degrees
 Pitch angle ($\theta$ in degrees) calculated from vertical rise ($R_{\text{rise}}$) and horizontal run ($R_{\text{run}}$):
 
@@ -169,8 +168,7 @@ $$A_{\text{sloped}} = A_{\text{flat}} \times M_{\text{rafter}}$$
 
 ---
 
-## Real-World Comparison & Benchmark Table
-
+## Roof Pitch Angle Calculator Benchmarks & Comparison Table
 The slope reference table below shows pitch conversions, slope angles, rafter multipliers, and actual surface areas for a **1,500 Sq Ft flat footprint**:
 
 | Roof Pitch Ratio (X:12) | Pitch Angle (Degrees) | Slope Percentage (%) | Rafter Multiplier | Actual Sloped Area (1,500 sq ft flat) | Roof Type Classification |
@@ -184,8 +182,7 @@ The slope reference table below shows pitch conversions, slope angles, rafter mu
 
 ---
 
-## Step-by-Step How-To Guide
-
+## How to Use the Roof Pitch Angle Calculator Step-by-Step
 1. **Grab a 12-Inch Carpenter Level:** Place a standard 12-inch level horizontally against the roof rafter or surface.
 2. **Measure Vertical Rise:** Use a tape measure to measure the vertical distance from the 12-inch end of the level up to the bottom of the rafter.
 3. **Calculate Pitch Fraction:** If the vertical distance is 6 inches, your pitch ratio is $6/12$ (or 6:12).
@@ -194,8 +191,7 @@ The slope reference table below shows pitch conversions, slope angles, rafter mu
 
 ---
 
-## Frequently Asked Questions
-
+## Roof Pitch Angle Calculator Frequently Asked Questions
 ### What is a 6/12 roof pitch in degrees?
 A 6/12 roof pitch (6 inches of rise per 12 inches of run) equals an angle of 26.57 degrees with a slope of 50% and a rafter multiplier of 1.118.
 

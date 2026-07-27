@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Involuntary vs Voluntary Churn Rate Calculator"
+title: "Involuntary vs Voluntary Churn Calculator | SaaS Churn &"
 description: "Calculate and compare voluntary customer churn vs involuntary payment failure churn to identify revenue recovery opportunities in subscription SaaS."
 permalink: /involuntary-vs-voluntary-churn-calculator
 tool_id: involuntary-vs-voluntary-churn-calculator
@@ -133,7 +133,7 @@ faq:
     answer: "Key tools include Stripe/Adyen Credit Card Account Updaters, automated dunning sequences (Churnbuster, Baremetrics Recover), pre-expiration email warnings, and fallback payment methods."
 ---
 
-# Involuntary vs Voluntary Churn Calculator
+# Involuntary vs Voluntary Churn Calculator - Calculate Logo Churn & Revenue Retention
 
 Differentiate active subscriber cancellations from passive payment failures to isolate recoverable revenue in subscription SaaS models.
 
@@ -157,8 +157,7 @@ Using this **Involuntary vs Voluntary Churn Calculator** empowers SaaS founders,
 
 ---
 
-## Mathematical Formulas & Mechanics
-
+## Involuntary vs Voluntary Churn Calculator Mathematical Formulas & Mechanics
 ### 1. Individual Churn Rate Equations
 $$\text{Voluntary Churn Rate (\%)} = \left( \frac{C_{\text{voluntary}}}{C_{\text{start}}} \right) \times 100$$
 $$\text{Involuntary Churn Rate (\%)} = \left( \frac{C_{\text{involuntary}}}{C_{\text{start}}} \right) \times 100$$
@@ -173,8 +172,7 @@ $$\text{Estimated Recoverable MRR (at 60\% Recovery)} = \text{Involuntary MRR Lo
 
 ---
 
-## Real-World Comparison & Benchmark Table
-
+## Involuntary vs Voluntary Churn Calculator Benchmarks & Comparison Table
 Benchmark distribution of voluntary vs involuntary churn across subscription business models:
 
 | Subscription Model | Typical Monthly Total Churn | Voluntary Share | Involuntary Share | Primary Payment Method | Primary Recovery Lever |
@@ -186,8 +184,7 @@ Benchmark distribution of voluntary vs involuntary churn across subscription bus
 
 ---
 
-## Step-by-Step How-To Guide
-
+## How to Use the Involuntary vs Voluntary Churn Calculator Step-by-Step
 1. **Enter Starting Customer Count:** Input total active paying customer accounts at the start of your monthly tracking window.
 2. **Input Voluntary Cancellations:** Enter count of customers who intentionally requested account cancellation or downgrade.
 3. **Input Involuntary Payment Failures:** Enter count of accounts canceled due to uncollected payment retries or expired cards.
@@ -196,8 +193,7 @@ Benchmark distribution of voluntary vs involuntary churn across subscription bus
 
 ---
 
-## Frequently Asked Questions
-
+## Involuntary vs Voluntary Churn Calculator Frequently Asked Questions
 ### What is the difference between voluntary and involuntary churn?
 Voluntary churn occurs when a customer intentionally cancels their subscription due to dissatisfaction or lack of value. Involuntary (passive) churn occurs when a subscription lapses unintentionally due to expired credit cards, insufficient funds, or payment gateway errors.
 

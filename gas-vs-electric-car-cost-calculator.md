@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Gas Vs Electric Car Cost | Interactive Online Tool"
+title: "Gas vs Electric Car Cost Calculator | Gas Mileage & MPG Economy"
 description: "Free online Gas Vs Electric Car Cost. Calculate car payments, TCO, fuel MPG, and EV charging with instant client-side browser math and charts."
 permalink: /gas-vs-electric-car-cost-calculator
 tool_id: gas-vs-electric-car-cost-calculator
@@ -148,7 +148,7 @@ faq:
 
 ---
 
-# Gas Vs Electric Car Cost Calculator
+# Gas vs Electric Car Cost Calculator - Calculate Fuel Consumption & Trip Cost
 
 Compare annual and 5-year fuel spending for a gasoline vehicle versus an electric vehicle (EV) based on gas price, MPG, EV efficiency, and electricity tariffs.
 
@@ -162,8 +162,7 @@ Using this **Gas vs Electric Car Cost Calculator**, you can accurately project y
 
 ---
 
-## Calculation Flow
-
+## Gas vs Electric Car Cost Calculator Calculation Flow
 <div class="flow-chart">
   <div class="flow-title">Gas vs EV Fuel Cost Flow</div>
 
@@ -238,8 +237,7 @@ $$\text{Annual EV Cost} = \left( \text{Annual Miles} \times \frac{\text{kWh/100m
 
 ---
 
-## Step-by-Step Guide
-
+## Step-by-Step Gas vs Electric Car Cost Calculator Guide
 ### Step 1: Input Annual Driving Distance
 Enter how many miles you drive in a typical year.
 
@@ -254,8 +252,7 @@ Analyze your annual fuel dollar savings and 5-year cumulative fuel benefit.
 
 ---
 
-## Frequently Asked Questions
-
+## Gas vs Electric Car Cost Calculator Frequently Asked Questions
 ### Is electricity cheaper than gas per mile?
 Yes, charging an EV at home typically costs $0.03 to $0.05 per mile, compared to $0.12 to $0.20 per mile for a gasoline car, offering a 60% to 75% savings on fuel.
 
@@ -274,5 +271,5 @@ MPGe (Miles Per Gallon Equivalent) measures how far an EV can travel on 33.7 kWh
 ### Do EVs also save money on routine maintenance?
 Yes. EVs require no oil changes, spark plugs, or timing belts, and regenerative braking extends brake pad life significantly, saving ~$400/yr in maintenance.
 
-### Is this calculator private?
+### Is the Gas vs Electric Car Cost Calculator private?
 Yes, all computations run locally in your web browser.

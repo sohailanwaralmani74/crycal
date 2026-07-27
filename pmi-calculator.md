@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Pmi | Interactive Online Tool"
+title: "PMI Calculator | Mortgage Payment & Interest"
 description: "Calculate your monthly PMI cost, total PMI paid, and when you can cancel Private Mortgage Insurance. Enter home price, down payment, and PMI rate."
 permalink: /pmi-calculator
 tool_id: pmi-calculator
@@ -154,12 +154,10 @@ faq:
     answer: "You can cancel PMI when your loan-to-value (LTV) ratio reaches 80% or less. This can happen through principal payments, property appreciation, or a combination of both. This calculator shows you the exact month you can request cancellation."
   - question: "Does PMI cost the same for everyone?"
     answer: "No. The PMI rate varies based on your down payment percentage and credit score. A larger down payment and higher credit score typically result in a lower PMI rate."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server."
 
 ---
 
-# Pmi Calculator
+# PMI Calculator - Calculate Home Loan Payment & Amortization
 
 Use this PMI calculator to estimate your monthly Private Mortgage Insurance cost and find out exactly when you can cancel it. Enter your home price, down payment, and PMI rate — the tool shows your monthly PMI, total PMI paid, and the loan balance at cancellation. This PMI cancellation calculator helps you plan your path to eliminating this added cost.
 
@@ -204,8 +202,7 @@ The calculator simulates your loan amortization month by month using your intere
 
 ---
 
-## Frequently Asked Questions
-
+## PMI Calculator Frequently Asked Questions
 ### What is PMI?
 Private Mortgage Insurance (PMI) is a type of insurance that protects the lender if you default on your mortgage. It is typically required when your down payment is less than 20% of the home price.
 
@@ -217,8 +214,5 @@ You can cancel PMI when your loan-to-value (LTV) ratio reaches 80% or less. This
 
 ### Does PMI cost the same for everyone?
 No. The PMI rate varies based on your down payment percentage and credit score. A larger down payment and higher credit score typically result in a lower PMI rate.
-
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server.
 
 ---

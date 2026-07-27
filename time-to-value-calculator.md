@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "SaaS Time to Value (TTV) Calculator"
+title: "Time to Value Calculator | SaaS Churn & Retention"
 description: "Calculate Time to Value (TTV) by tracking onboarding, technical setup, and time to first value milestone with 100% private browser calculation."
 permalink: /time-to-value-calculator
 tool_id: time-to-value-calculator
@@ -127,7 +127,7 @@ faq:
     answer: "While TTV officially starts at contract signing, extended sales cycles consume customer urgency; seamless handoffs from AE to CSM prevent implementation delays."
 ---
 
-# Customer Time to Value (TTV) Estimator
+# Time to Value Calculator - Calculate Logo Churn & Revenue Retention
 
 Calculate Time to Value (TTV), Time to First Value (TTFV), technical onboarding duration, and user activation milestones for SaaS applications.
 All calculations execute 100% privately inside your web browser with client-side logic, real-time recalculations, and total data privacy.
@@ -140,7 +140,7 @@ In subscription software, the period between contract signature and initial valu
 
 This **Time to Value Calculator** breaks down onboarding friction across sales handoff, technical configuration, team training, and core usage milestones.
 
-### Key Benefits
+### Key Benefits of Time to Value Calculator
 * **Granular Stage Modeling:** Measures sales lead time, technical setup, training, and value milestones.
 * **TTFV vs TTV Differentiation:** Separates initial quick-win value (TTFV) from full product ROI (TTV).
 * **Retention Risk Benchmark:** Automatically grades onboarding speed against B2B SaaS standards.
@@ -148,8 +148,7 @@ This **Time to Value Calculator** breaks down onboarding friction across sales h
 
 ---
 
-## Mathematical Formulas & Mechanics
-
+## Time to Value Calculator Mathematical Formulas & Mechanics
 ### 1. Technical Setup TTV
 Technical setup time ($TTV_{\text{tech}}$):
 
@@ -167,8 +166,7 @@ $$TTV_{\text{total}} = D_{\text{sales\_handoff}} + D_{\text{onboarding}} + D_{\t
 
 ---
 
-## Real-World Comparison & Benchmark Table
-
+## Time to Value Calculator Benchmarks & Comparison Table
 The benchmark table below outlines target TTV metrics across different SaaS business models and contract complexity tiers:
 
 | SaaS Business Model | Average ACV | Target TTFV (Quick Win) | Target Total TTV | Onboarding Benchmark Grade |
@@ -181,8 +179,7 @@ The benchmark table below outlines target TTV metrics across different SaaS busi
 
 ---
 
-## Step-by-Step How-To Guide
-
+## How to Use the Time to Value Calculator Step-by-Step
 1. **Track Contract Handoff Date:** Record exact timestamp of closed-won contract sign-off and CSM introduction.
 2. **Define Technical Setup Steps:** Measure days spent on SSO authentication, domain setup, API webhooks, and database sync.
 3. **Establish "First Value" Milestone:** Identify the specific action indicating value (e.g., launching first email campaign or inviting 5 teammates).
@@ -191,8 +188,7 @@ The benchmark table below outlines target TTV metrics across different SaaS busi
 
 ---
 
-## Frequently Asked Questions
-
+## Time to Value Calculator Frequently Asked Questions
 ### What is Time to Value (TTV) in SaaS?
 Time to Value (TTV) measures the elapsed time from when a customer signs a SaaS subscription contract to when they realize tangible, measurable business value from the product.
 

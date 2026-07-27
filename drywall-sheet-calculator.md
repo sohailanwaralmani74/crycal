@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Drywall Sheet | Interactive Online Tool"
+title: "Drywall Sheet Calculator | Drywall & Paint Estimating"
 description: "Calculate the exact number of 4x8, 4x10, or 4x12 drywall sheets needed for your walls and ceiling including waste allowance and total material cost."
 permalink: /drywall-sheet-calculator
 tool_id: drywall-sheet-calculator
@@ -131,11 +131,9 @@ faq:
     answer: "Use 1/2-inch drywall for standard interior residential walls. Use 5/8-inch Type X fire-rated drywall for garage walls adjacent to living spaces and ceilings with 24-inch joist spacing to prevent sagging."
   - question: "How do I calculate total square feet of drywall for a room?"
     answer: "Multiply total wall perimeter by wall height, add the ceiling area (length × width), then subtract major door/window openings larger than 20 sq ft."
-  - question: "Is my personal data saved when using this tool?"
-    answer: "No. All sheet math and cost estimates run strictly within your browser."
 ---
 
-# Drywall Sheet Calculator
+# Drywall Sheet Calculator - Calculate Paint Coverage & Sheet Count
 
 Accurately estimate the exact number of **4x8, 4x10, or 4x12 drywall sheets** required for your interior wall and ceiling installation using our free **Drywall Sheet Calculator**.
 
@@ -188,8 +186,7 @@ $$\text{Total Cost} = \text{Sheets Needed} \times \text{Price Per Sheet}$$
 
 ---
 
-## Frequently Asked Questions
-
+## Drywall Sheet Calculator Frequently Asked Questions
 ### How many 4x8 drywall sheets do I need for a 12x12 room?
 A standard 12x12 room with 8 ft ceilings has 384 sq ft of walls and 144 sq ft of ceiling (528 sq ft total). With a 10% waste factor (580.8 sq ft), you need 19 sheets of 4x8 drywall.
 
@@ -208,5 +205,3 @@ Use 1/2-inch drywall for standard interior residential walls. Use 5/8-inch Type 
 ### How do I calculate total square feet of drywall for a room?
 Multiply total wall perimeter by wall height, add the ceiling area (length × width), then subtract major door/window openings larger than 20 sq ft.
 
-### Is my personal data saved when using this tool?
-No. All sheet math and cost estimates run strictly within your browser.

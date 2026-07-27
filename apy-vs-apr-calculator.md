@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Apy Vs Apr | Interactive Online Tool"
+title: "APY vs APR Calculator | Effective vs Nominal Interest Rates"
 description: "Use our free APY vs APR Calculator to convert between Annual Percentage Rate and Annual Percentage Yield."
 permalink: /apy-vs-apr-calculator
 tool_id: apy-vs-apr-calculator
@@ -105,12 +105,10 @@ faq:
     answer: "APY is higher than APR because it includes the effect of compounding — interest earned on interest. The more frequently interest compounds, the larger the difference."
   - question: "What is the formula for APR to APY conversion?"
     answer: "The formula for APR to APY conversion is: APY = (1 + APR ÷ n)^n − 1, where n is the number of compounding periods per year."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. No data is sent to any server."
 
 ---
 
-# Apy Vs Apr Calculator
+# APY vs APR Calculator - Compare Compounding Interest Yields
 
 Use our free **APY vs APR Calculator** to convert between Annual Percentage Rate and Annual Percentage Yield. Enter your rate and compounding frequency to see the true cost or return — all without your data leaving your browser.
 
@@ -176,8 +174,7 @@ This **apy apr converter** is designed for:
 
 ---
 
-## Frequently Asked Questions
-
+## APY vs APR Calculator Frequently Asked Questions
 ### What is the difference between APY and APR?
 APR is the simple annual interest rate without compounding. APY includes the effect of compounding, showing the actual return or cost over a year.
 
@@ -193,5 +190,3 @@ APY is higher because it includes the effect of compounding — interest earned 
 ### What is the formula for APR to APY conversion?
 The formula is: APY = (1 + APR ÷ n)^n − 1, where n is the number of compounding periods per year.
 
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. No data is sent to any server.

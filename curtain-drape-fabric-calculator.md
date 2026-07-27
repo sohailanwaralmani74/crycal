@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Curtain Drape Fabric | Interactive Online Tool"
+title: "Curtain Drape Fabric Calculator | Interior Design Measurements"
 description: "Calculate curtain panel widths (1.5x to 2.5x fullness), cut lengths, top header & hem allowances, pattern repeats, and total fabric yards required."
 permalink: /curtain-drape-fabric-calculator
 tool_id: curtain-drape-fabric-calculator
@@ -150,11 +150,9 @@ faq:
     answer: "1 yard equals 36 inches (0.9144 meters). 1 meter equals 39.37 inches (1.0936 yards). To convert fabric yards to meters, multiply total yards by 0.9144."
   - question: "Should I buy extra fabric for drapery lining?"
     answer: "If adding privacy or blackout lining, buy the exact same yardage of lining fabric as your main face fabric (using 54-inch width lining)."
-  - question: "Is my personal data saved when using this calculator?"
-    answer: "No. All calculations run locally inside your web browser."
 ---
 
-# Curtain Drape Fabric Calculator
+# Curtain Drape Fabric Calculator - Calculate Dimensions, Spacing & Cut Widths
 
 Making custom curtains and floor-length drapes brings warmth and elegance to home interiors, but estimating fabric yardage incorrectly can lead to skimpy curtain gathers or mismatched pattern seams. Use our **Curtain & Drape Fabric Calculator** to calculate exact gathered fabric widths, panel strip counts, pattern match allowances, and total yardage.
 
@@ -210,8 +208,7 @@ The table below illustrates fabric panel requirements, cut lengths, and total fa
 
 ---
 
-## Frequently Asked Questions
-
+## Curtain Drape Fabric Calculator Frequently Asked Questions
 ### What fullness ratio should I select for custom curtains?
 For standard grommet, rod pocket, or ring-top curtains, use 2.0x fullness (twice the curtain rod width). For light sheer fabrics, 1.5x to 2.0x works well, while luxury pinch-pleated drapes require 2.5x to 3.0x fullness.
 
@@ -230,5 +227,3 @@ Extend curtain rods 6 to 12 inches beyond each side of the window casing (12 to 
 ### Should I buy extra fabric for drapery lining?
 If adding privacy or blackout lining, buy the exact same yardage of lining fabric as your main face fabric (using 54-inch width lining).
 
-### Is my personal data saved when using this calculator?
-No. All calculations run locally inside your web browser.

@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Floor Leveling Compound | Interactive Online Tool"
+title: "Floor Leveling Compound Calculator | Flooring Square Footage"
 description: "Calculate 50lb bags of self-leveling underlayment (SLU), pour volume, dry powder weight, and acrylic subfloor primer gallons for pour depths 1/8 to 1."
 permalink: /floor-leveling-compound-calculator
 tool_id: floor-leveling-compound-calculator
@@ -161,11 +161,9 @@ faq:
     answer: "Most standard self-levelers can be poured from 1/8\" up to 1\" thick in a single lift. For deeper pours up to 2\" or 3\", aggregate extension (pea gravel) must be added per manufacturer instructions."
   - question: "How long does self-leveling compound take to dry?"
     answer: "SLU is walkable in 2 to 4 hours. You can install ceramic tile in 4 to 12 hours, while moisture-sensitive floors like luxury vinyl or hardwood require 16 to 24 hours of drying."
-  - question: "Is my floor leveler calculation saved on external servers?"
-    answer: "No. All calculation logic runs locally inside your browser."
 ---
 
-# Floor Leveling Compound Calculator
+# Floor Leveling Compound Calculator - Calculate Tiles, Planks & Material Need
 
 Calculate exact **50lb bags of self-leveling underlayment (SLU)**, total **pour volume in cubic feet**, dry powder weight, and **subfloor acrylic primer gallons** for pour depths from 1/8" to 1".
 
@@ -213,8 +211,7 @@ $$\text{Primer Gallons} = \left\lceil \frac{\text{Floor Area}}{\text{Primer Cove
 
 ---
 
-## Frequently Asked Questions
-
+## Floor Leveling Compound Calculator Frequently Asked Questions
 ### What is self-leveling underlayment (SLU)?
 Self-leveling underlayment (SLU) is a cementitious pourable compound that flows easily across uneven concrete or wood subfloors to create a flat, smooth, level base for luxury vinyl plank, tile, or hardwood flooring.
 
@@ -233,5 +230,3 @@ Most standard self-levelers can be poured from 1/8" up to 1" thick in a single l
 ### How long does self-leveling compound take to dry?
 SLU is walkable in 2 to 4 hours. You can install ceramic tile in 4 to 12 hours, while moisture-sensitive floors like luxury vinyl or hardwood require 16 to 24 hours of drying.
 
-### Is my floor leveler calculation saved on external servers?
-No. All calculation logic runs locally inside your browser.

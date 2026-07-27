@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Yoy Growth Rate | Interactive Online Tool"
+title: "Yoy Growth Rate Calculator | SaaS Recurring Revenue"
 description: "Calculate Year-over-Year (YoY) ARR growth percentage. Measure annual revenue expansion and compare growth velocity over 12-month periods."
 permalink: /yoy-growth-rate-calculator
 tool_id: yoy-growth-rate-calculator
@@ -110,7 +110,7 @@ faq:
 
 ---
 
-# Yoy Growth Rate Calculator
+# Yoy Growth Rate Calculator - Calculate MRR, ARR & Growth Metrics
 
 Calculate your **Year-Over-Year (YoY) Growth Rate (%)**, absolute dollar revenue gain, growth multiple (x), and implied compounding monthly growth rate (CMGR).
 
@@ -159,8 +159,7 @@ $$\text{Implied CMGR (\%)} = \left[ \left(\frac{\text{Current Year Revenue}}{\te
 
 ---
 
-## Frequently Asked Questions
-
+## Yoy Growth Rate Calculator Frequently Asked Questions
 ### What is Year-Over-Year (YoY) Growth Rate?
 YoY Growth Rate compares financial metrics (such as ARR or revenue) in a given period to the exact same period in the previous year, eliminating seasonal fluctuations.
 

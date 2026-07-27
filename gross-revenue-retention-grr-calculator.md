@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Gross Revenue Retention Grr | Interactive Online Tool"
+title: "GRR (Gross Revenue Retention) Calculator | SaaS Recurring Revenue"
 description: "Calculate Gross Revenue Retention (GRR %) rate. Measure recurring revenue retained from existing customers excluding account expansion."
 permalink: /gross-revenue-retention-grr-calculator
 tool_id: gross-revenue-retention-grr-calculator
@@ -124,7 +124,7 @@ faq:
 
 ---
 
-# Gross Revenue Retention Grr Calculator
+# GRR (Gross Revenue Retention) Calculator - Calculate MRR, ARR & Growth Metrics
 
 Calculate your Gross Revenue Retention (GRR %) rate to determine the true baseline stability of your SaaS subscription revenue, removing the masking effect of account upgrades and expansion revenue.
 
@@ -173,8 +173,7 @@ Where:
 
 ---
 
-## Frequently Asked Questions
-
+## GRR Calculator Frequently Asked Questions
 ### What is Gross Revenue Retention (GRR)?
 Gross Revenue Retention (GRR) measures the percentage of recurring revenue retained from an existing cohort of customers over a period, accounting for downgrades and churn, but intentionally excluding expansion revenue.
 

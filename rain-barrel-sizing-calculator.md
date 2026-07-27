@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Rain Barrel Sizing | Interactive Online Tool"
+title: "Rain Barrel Sizing Calculator | Outdoor & Landscape Estimating"
 description: "Calculate roof stormwater catchment runoff gallons per 1 rainfall, rain barrel storage capacity, cistern tank count, and garden irrigation days."
 permalink: /rain-barrel-sizing-calculator
 tool_id: rain-barrel-sizing-calculator
@@ -164,11 +164,9 @@ faq:
     answer: "Yes. Connecting rain barrels in series using 3/4-inch overflow hoses at the top of each barrel allows water to automatically fill the first barrel and cascade down to subsequent barrels."
   - question: "How much does a 55-gallon rain barrel cost?"
     answer: "A standard 55-gallon food-grade plastic rain barrel with brass spigot and overflow valve costs between $75 and $120."
-  - question: "Is my personal data saved when using this calculator?"
-    answer: "No. All calculation formulas run locally in your web browser."
 ---
 
-# Rain Barrel Sizing Calculator
+# Rain Barrel Sizing Calculator - Calculate Mulch, Sod & Material Volume
 
 Determine stormwater catchment runoff gallons, rain barrel storage capacity (50 gal to 500 gal cisterns), container counts, and garden irrigation days with our free **Rain Barrel Sizing Calculator**.
 
@@ -216,8 +214,7 @@ $$\text{Days of Garden Irrigation} = \frac{\text{Effective Harvest (gal)}}{\text
 
 ---
 
-## Frequently Asked Questions
-
+## Rain Barrel Sizing Calculator Frequently Asked Questions
 ### How many gallons of water does 1 inch of rain generate from a roof?
 One inch of rain falling on a 1,000 square foot roof generates approximately 623 gallons of stormwater runoff.
 
@@ -236,5 +233,3 @@ Yes. Connecting rain barrels in series using 3/4-inch overflow hoses at the top 
 ### How much does a 55-gallon rain barrel cost?
 A standard 55-gallon food-grade plastic rain barrel with brass spigot and overflow valve costs between $75 and $120.
 
-### Is my personal data saved when using this calculator?
-No. All calculation formulas run locally in your web browser.

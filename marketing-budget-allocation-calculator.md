@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Marketing Budget Allocation | Interactive Online Tool"
+title: "Marketing Budget Allocation Calculator | SaaS Marketing & Ad ROI"
 description: "Plan and allocate your monthly marketing budget across PPC, LinkedIn Ads, SEO, and Events based on target customer acquisition costs (CAC)."
 permalink: /marketing-budget-allocation-calculator
 tool_id: marketing-budget-allocation-calculator
@@ -150,7 +150,7 @@ faq:
     answer: "The calculator automatically scales and normalizes percentage shares to ensure 100% of your budget is accurately distributed."
 ---
 
-# Marketing Budget Allocation Calculator
+# Marketing Budget Allocation Calculator - Calculate Customer Acquisition & Ad Return
 
 Plan, balance, and optimize your monthly growth budget with our **Marketing Budget Allocation Calculator**. Distribute funds efficiently across PPC, LinkedIn, SEO, and Events to hit customer acquisition targets.
 
@@ -166,8 +166,7 @@ Effective growth strategy requires balanced capital deployment across high-inten
 
 ---
 
-## Mathematical Formulas
-
+## Marketing Budget Allocation Calculator Mathematical Formulas
 ### 1. Channel Budget Allocation
 
 $$ \text{Channel Spend (\$) } = \text{Total Monthly Budget} \times \left( \frac{\text{Channel Share \%}}{\sum \text{All Shares \%}} \right) $$
@@ -193,8 +192,7 @@ $$ \text{Channel Customers} = \frac{\text{Channel Spend (\$)}}{\text{Target CAC}
 
 ---
 
-## Step-by-Step Guide
-
+## Step-by-Step Marketing Budget Allocation Calculator Guide
 1. **Set Monthly Growth Capital**: Input your available monthly marketing budget.
 2. **Define Unit Target CAC**: Base your target CAC on maintaining an $LTV:CAC \ge 3:1$ ratio.
 3. **Adjust Percentage Weights**: Set allocation percentages for PPC, LinkedIn, SEO, and Events.
@@ -202,8 +200,7 @@ $$ \text{Channel Customers} = \frac{\text{Channel Spend (\$)}}{\text{Target CAC}
 
 ---
 
-## Frequently Asked Questions
-
+## Marketing Budget Allocation Calculator Frequently Asked Questions
 ### What is a marketing budget allocation calculator?
 A marketing budget allocation calculator helps CMOs, founders, and growth leaders divide a fixed budget across marketing channels to hit target customer acquisition metrics.
 

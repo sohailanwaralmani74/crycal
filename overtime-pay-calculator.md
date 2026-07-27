@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Overtime Pay | Interactive Online Tool"
+title: "Overtime Pay Calculator | Tax Rates & Deductions"
 description: "Calculate regular pay, overtime pay, and double-time pay from your hourly rate and hours worked. Fully editable thresholds and multipliers."
 permalink: /overtime-pay-calculator
 tool_id: overtime-pay
@@ -130,11 +130,9 @@ faq:
     answer: "Double-time means hours worked beyond a second, higher threshold are paid at double your regular rate (or whatever double-time multiplier applies). It's optional here — leave the Double-Time Threshold at 0 if it doesn't apply to you."
   - question: "Can I project my annual pay from this?"
     answer: "Yes. Set Pay Periods Per Year to match how often this hours pattern repeats (52 for weekly, 26 for bi-weekly, 12 for monthly), and the Annual Projection output multiplies your total pay for this period across the year."
-  - question: "Is my data stored?"
-    answer: "No. Everything runs locally in your browser."
 ---
 
-# Overtime Pay Calculator
+# Overtime Pay Calculator - Calculate Tax Liability & Savings
 
 Calculate exactly how much you earn when you work beyond your regular hours. Enter your hourly rate, hours worked, and your own overtime rules — this calculator has no hardcoded country threshold, so it works whether your regular week is 35, 40, or 48 hours.
 
@@ -175,8 +173,5 @@ Double-time means hours worked beyond a second, higher threshold are paid at dou
 
 ### Can I project my annual pay from this?
 Yes. Set Pay Periods Per Year to match how often this hours pattern repeats (52 for weekly, 26 for bi-weekly, 12 for monthly), and the Annual Projection output multiplies your total pay for this period across the year.
-
-### Is my data stored?
-No. Everything runs locally in your browser.
 
 ---

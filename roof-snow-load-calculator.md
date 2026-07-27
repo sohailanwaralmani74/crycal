@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Roof Snow Load | Interactive Online Tool"
+title: "Roof Snow Load Calculator | Roofing Material Estimating"
 description: "Calculate flat roof snow load (pf), sloped roof design pressure (ps) in PSF, and total roof snow weight in lbs and US tons based on ASCE 7 standards."
 permalink: /roof-snow-load-calculator
 tool_id: roof-snow-load-calculator
@@ -161,11 +161,9 @@ faq:
     answer: "Most residential roofs built to code can support 20 to 40 PSF. If accumulated snow and ice exceeds 20 to 25 PSF (or approximately 2 feet of packed snow), structural evaluation or safe snow removal is recommended."
   - question: "What is the difference between ground snow load and roof snow load?"
     answer: "Ground snow load (p_g) is measured flat on unheated ground. Roof snow load (p_s) is typically lower than ground snow load due to thermal heat loss, wind blowing snow away, and sloped gravity shedding."
-  - question: "Is my snow load calculation saved on external servers?"
-    answer: "No. All calculations run strictly inside your local web browser."
 ---
 
-# Roof Snow Load Calculator
+# Roof Snow Load Calculator - Calculate Shingles, Squares & Flashing
 
 Calculate structural **flat roof snow load ($p_f$)**, **sloped roof design pressure ($p_s$)** in PSF, and total **accumulated snow weight** in pounds and US tons using official **ASCE 7 structural engineering standards**.
 
@@ -223,8 +221,7 @@ $$\text{Total Weight (US Tons)} = \frac{\text{Total Snow Weight (lbs)}}{2000}$$
 
 ---
 
-## Frequently Asked Questions
-
+## Roof Snow Load Calculator Frequently Asked Questions
 ### What is roof snow load?
 Roof snow load is the downward structural force imposed on a roof structure by accumulated snow and ice, measured in pounds per square foot (PSF) or total weight in pounds.
 
@@ -243,5 +240,3 @@ Most residential roofs built to code can support 20 to 40 PSF. If accumulated sn
 ### What is the difference between ground snow load and roof snow load?
 Ground snow load (p_g) is measured flat on unheated ground. Roof snow load (p_s) is typically lower than ground snow load due to thermal heat loss, wind blowing snow away, and sloped gravity shedding.
 
-### Is my snow load calculation saved on external servers?
-No. All calculations run strictly inside your local web browser.

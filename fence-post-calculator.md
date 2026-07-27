@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Fence Post | Interactive Online Tool"
+title: "Fence Post Calculator | Lumber & Framing Estimating"
 description: "Calculate total fence posts, corner/gate post counts, 6ft vs 8ft spacing rules, concrete bags per post, and material costs for wood, vinyl, or..."
 permalink: /fence-post-calculator
 tool_id: fence-post-calculator
@@ -156,11 +156,9 @@ faq:
     answer: "Yes, gate posts endure heavy rotational loads. Use 6x6 posts or heavy-gauge steel for gate support to prevent sagging and misalignment over time."
   - question: "Is fast-setting concrete better than standard concrete for fence posts?"
     answer: "Fast-setting concrete (like Quikrete Fast-Set) allows you to pour dry mix into the hole and add water without premixing, hardening in 20 to 40 minutes."
-  - question: "Is my personal data stored anywhere?"
-    answer: "No. All calculations run locally in your web browser."
 ---
 
-# Fence Post Calculator
+# Fence Post Calculator - Calculate Board Feet & Wood Quantity
 
 Calculate total fence posts, **6 ft vs 8 ft post spacing**, corner and gate post requirements, **concrete bags per post hole**, and total project costs with our free **Fence Post Calculator**.
 
@@ -216,8 +214,7 @@ The table below shows total post counts and concrete bag requirements (based on 
 
 ---
 
-## Frequently Asked Questions
-
+## Fence Post Calculator Frequently Asked Questions
 ### How far apart should fence posts be spaced?
 Standard fence post spacing is 8 feet on-center for residential wood or vinyl privacy fences. In areas with high wind loads or for heavy-duty metal fencing, 6-foot spacing is recommended.
 
@@ -236,5 +233,3 @@ Yes, gate posts endure heavy rotational loads. Use 6x6 posts or heavy-gauge stee
 ### Is fast-setting concrete better than standard concrete for fence posts?
 Fast-setting concrete (like Quikrete Fast-Set) allows you to pour dry mix into the hole and add water without premixing, hardening in 20 to 40 minutes.
 
-### Is my personal data stored anywhere?
-No. All calculations run locally in your web browser.

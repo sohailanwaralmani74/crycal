@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Pergola & Gazebo Framing Lumber Calculator"
+title: "Pergola Gazebo Calculator | Lumber & Framing Estimating"
 description: "Calculate post, beam, rafter, and purlin lumber requirements for outdoor pergolas and gazebos including hardware and total private browser costs."
 permalink: /pergola-gazebo-calculator
 tool_id: pergola-gazebo-calculator
@@ -156,7 +156,7 @@ faq:
     answer: "Free-standing pergolas under 120 to 200 sq ft often do not require permits, but attached pergolas or those near property lines require building approval."
 ---
 
-# Outdoor Pergola & Gazebo Material Estimator
+# Pergola Gazebo Calculator - Calculate Board Feet & Wood Quantity
 
 Calculate structural 6x6 support posts, double 2x10 support beams, 2x8 shade rafters, purlin lattices, and total material costs for outdoor pergolas and gazebos.
 All calculations process 100% privately inside your web browser with client-side execution and zero data tracking.
@@ -169,7 +169,7 @@ Designing an outdoor timber pergola requires precise structural framing calculat
 
 This **Pergola & Gazebo Calculator** generates an exact structural bill-of-materials—separating posts, double beam headers, roof rafters, top purlins, and heavy-duty structural connector hardware.
 
-### Key Benefits
+### Key Benefits of Pergola Gazebo Calculator
 * **Complete Structural Takeoff:** Calculates 6x6 posts, double 2x10 beams, and 2x8 roof rafters in one step.
 * **Shade Density Optimization:** Supports 16" OC and 24" OC rafter spacing for custom shade control.
 * **Wood Grade Comparison:** Compares pressure-treated pine, Western Red Cedar, and Redwood pricing.
@@ -177,8 +177,7 @@ This **Pergola & Gazebo Calculator** generates an exact structural bill-of-mater
 
 ---
 
-## Mathematical Formulas & Mechanics
-
+## Pergola Gazebo Calculator Mathematical Formulas & Mechanics
 ### 1. Structural Rafter Count
 Rafter members ($N_{\text{rafters}}$) across pergola length ($L_{\text{pergola}}$ in feet) at on-center spacing ($S_{\text{oc}}$ in feet):
 
@@ -203,8 +202,7 @@ $$C_{\text{pergola}} = A_{\text{footprint}} \times P_{\text{sqft\_lumber}} \time
 
 ---
 
-## Real-World Comparison & Benchmark Table
-
+## Pergola Gazebo Calculator Benchmarks & Comparison Table
 The benchmark reference table below demonstrates structural material specifications and cost estimates across popular pergola sizes:
 
 | Footprint Size | Area (Sq Ft) | 6x6 Posts | Double 2x10 Beams | 2x8 Rafters (16" OC) | Estimated Cost (PT Pine) | Estimated Cost (Cedar) |
@@ -217,8 +215,7 @@ The benchmark reference table below demonstrates structural material specificati
 
 ---
 
-## Step-by-Step How-To Guide
-
+## How to Use the Pergola Gazebo Calculator Step-by-Step
 1. **Establish Patio Footprint:** Stake out corner locations on your patio or lawn to define overall pergola length and width.
 2. **Dig Post Footings:** Excavate 12-inch diameter holes 36 to 48 inches deep below the frost line; pour concrete piers with elevated post brackets.
 3. **Erect 6x6 Corner Posts:** Plumb posts using structural bracing; attach posts to concrete anchors using 5/8-inch wedge anchor bolts.
@@ -227,8 +224,7 @@ The benchmark reference table below demonstrates structural material specificati
 
 ---
 
-## Frequently Asked Questions
-
+## Pergola Gazebo Calculator Frequently Asked Questions
 ### How many 6x6 posts do I need for a 12x16 pergola?
 A 12x16 foot free-standing pergola requires 4 corner 6x6 support posts if unspanned, or 6 posts if mid-span support is added for heavy timber beams.
 

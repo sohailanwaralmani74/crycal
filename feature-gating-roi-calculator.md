@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Feature Gating Roi | Interactive Online Tool"
+title: "Feature Gating Roi Calculator | SaaS Pricing & Packaging"
 description: "Estimate expansion revenue gains and churn risks when moving a high-value feature behind a higher tier paywall in B2B SaaS."
 permalink: /feature-gating-roi-calculator
 tool_id: feature-gating-roi-calculator
@@ -155,7 +155,7 @@ faq:
 
 ---
 
-# Feature Gating Roi Calculator
+# Feature Gating Roi Calculator - Calculate Tier Profitability & ARPU
 
 Estimate the net financial impact of **gating features behind paywalls**. Calculate **expansion MRR gains** versus **backlash churn risk**.
 
@@ -169,8 +169,7 @@ This calculator helps product leaders model the **net ARR impact** by balancing 
 
 ---
 
-## Key Mathematical Formulas
-
+## Key Feature Gating Roi Calculator Mathematical Formulas
 ### 1. Target Active Feature Users & Upgrades
 
 $$ \text{Active Feature Users} = \text{Lower-Tier Accounts} \times \text{Feature Usage \%} $$
@@ -213,8 +212,7 @@ $$ \text{Net 12-Month ARR Impact} = \text{Net Monthly Revenue Gain} \times 12 $$
 
 ---
 
-## Frequently Asked Questions
-
+## Feature Gating Roi Calculator Frequently Asked Questions
 ### What is feature gating in B2B SaaS?
 Feature gating (or paywalling) restricts access to specific advanced software features (such as SSO, CRM sync, or automated reporting) to higher-priced subscription tiers.
 

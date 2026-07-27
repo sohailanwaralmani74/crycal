@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Perpetuity | Interactive Online Tool"
+title: "Perpetuity Calculator | Compound Interest & Savings"
 description: "Use the Perpetuity Calculator to find the present value of an infinite stream of cash flows, with support for both level and growing perpetuities."
 permalink: /perpetuity-calculator
 tool_id: perpetuity-calculator
@@ -95,11 +95,9 @@ faq:
     answer: "A growing perpetuity is a cash flow stream that increases at a constant rate each period. It's valued using the Gordon Growth Model: PV = C ÷ (r − g), where g is the growth rate."
   - question: "Why must the discount rate be greater than the growth rate?"
     answer: "If the growth rate equals or exceeds the discount rate, the present value formula produces an undefined or negative result, since the cash flows would grow faster than they're being discounted."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. No data is sent to any server."
 ---
 
-# Perpetuity Calculator
+# Perpetuity Calculator - Project Wealth Accumulation & Yield
 
 Use the **Perpetuity Calculator** to find the present value of an infinite stream of cash flows, with support for both level and growing perpetuities.
 
@@ -168,8 +166,7 @@ This **perpetuity valuation calculator** is designed for:
 
 ---
 
-## Frequently Asked Questions
-
+## Perpetuity Calculator Frequently Asked Questions
 ### What is a perpetuity?
 A perpetuity is a stream of equal (or growing) cash flows that continues indefinitely, with no end date. Common examples include certain preferred stock dividends and some government bonds.
 
@@ -182,5 +179,3 @@ A growing perpetuity is a cash flow stream that increases at a constant rate eac
 ### Why must the discount rate be greater than the growth rate?
 If the growth rate equals or exceeds the discount rate, the present value formula produces an undefined or negative result, since the cash flows would grow faster than they're being discounted.
 
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. No data is sent to any server.

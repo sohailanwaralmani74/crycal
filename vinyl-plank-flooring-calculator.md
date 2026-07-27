@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Vinyl Plank Flooring Calculator | LVP Boxes & Cost"
+title: "Vinyl Plank Flooring Calculator | Flooring Square Footage"
 description: "Calculate required luxury vinyl plank (LVP) square footage, carton box counts, underlayment, and total material costs with custom waste factors."
 permalink: /vinyl-plank-flooring-calculator
 tool_id: vinyl-plank-flooring-calculator
@@ -142,7 +142,7 @@ faq:
     answer: "A 12-mil wear layer is ideal for standard residential homes, while a 20-mil wear layer is recommended for heavy foot traffic, pets, and commercial spaces."
 ---
 
-# Vinyl Plank Flooring Calculator
+# Vinyl Plank Flooring Calculator - Calculate Tiles, Planks & Material Need
 
 Calculate net square footage, cutting waste allowances, full box counts, and project material budgets for luxury vinyl plank (LVP) flooring installations.
 
@@ -163,8 +163,7 @@ Using this **Vinyl Plank Flooring Calculator** enables homeowners, interior desi
 
 ---
 
-## Mathematical Formulas & Mechanics
-
+## Vinyl Plank Flooring Calculator Mathematical Formulas & Mechanics
 ### 1. Net Room Square Footage
 $$\text{Area}_{\text{net}} = L_{\text{ft}} \times W_{\text{ft}}$$
 
@@ -181,8 +180,7 @@ $$\text{Total Material Cost} = \text{Purchased Square Feet} \times \text{Price p
 
 ---
 
-## Real-World Comparison & Benchmark Table
-
+## Vinyl Plank Flooring Calculator Benchmarks & Comparison Table
 Standard LVP box coverage, wear layer specifications, and material cost benchmarks:
 
 | LVP Grade / Tier | Wear Layer Thickness | Plank Thickness | Typical Box Coverage | Material Price / Sq Ft | Recommended Use Case |
@@ -194,8 +192,7 @@ Standard LVP box coverage, wear layer specifications, and material cost benchmar
 
 ---
 
-## Step-by-Step How-To Guide
-
+## How to Use the Vinyl Plank Flooring Calculator Step-by-Step
 1. **Measure Room Length & Width:** Measure longest room dimensions in feet to compute net room floor area.
 2. **Enter Box Coverage Specs:** Check manufacturer box label for square feet contained per carton (typically 18 to 24 sq ft).
 3. **Select Cutting Waste Factor:** Set 10% waste for standard straight layout, or 15% for diagonal or multi-door layouts.
@@ -204,8 +201,7 @@ Standard LVP box coverage, wear layer specifications, and material cost benchmar
 
 ---
 
-## Frequently Asked Questions
-
+## Vinyl Plank Flooring Calculator Frequently Asked Questions
 ### How many square feet are in a box of vinyl plank flooring?
 A standard box of luxury vinyl plank (LVP) flooring typically contains 18 to 24 square feet, depending on plank width, length, and manufacturer specifications.
 

@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Setup Fee Vs Amortized | Interactive Online Tool"
+title: "Setup Fee vs Amortized Calculator | SaaS Pricing & Packaging"
 description: "Compare upfront professional onboarding setup fees against amortizing fees across 12-month B2B contracts."
 permalink: /setup-fee-vs-amortized-calculator
 tool_id: setup-fee-vs-amortized-calculator
@@ -142,7 +142,7 @@ faq:
 
 ---
 
-# Setup Fee Vs Amortized Calculator
+# Setup Fee vs Amortized Calculator - Calculate Tier Profitability & ARPU
 
 Compare **immediate Day 1 cash collection** from upfront onboarding fees against **higher Total Contract Value (TCV)** achieved by amortizing fees monthly with a markup premium.
 
@@ -156,8 +156,7 @@ This calculator helps finance and sales teams evaluate whether to charge **Upfro
 
 ---
 
-## Key Mathematical Formulas
-
+## Key Setup Fee vs Amortized Calculator Mathematical Formulas
 ### 1. Upfront Model Total Contract Value & Day 1 Cash
 
 $$ \text{Day 1 Cash (Upfront)} = \text{Annual Subscription} + \text{Upfront Setup Fee} $$
@@ -196,8 +195,7 @@ $$ \text{Contract Delta} = \text{Total Amortized TCV} - \text{Total Upfront TCV}
 
 ---
 
-## Frequently Asked Questions
-
+## Setup Fee vs Amortized Calculator Frequently Asked Questions
 ### Why do B2B SaaS companies charge setup or onboarding fees?
 Setup fees cover professional services costs (custom data migration, API integrations, staff training), qualify buyer commitment, and offset initial customer acquisition costs.
 

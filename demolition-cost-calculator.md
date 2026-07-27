@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Demolition Cost | Interactive Online Tool"
+title: "Demolition Cost Calculator | Project Cost & Estimating"
 description: "Calculate interior gut demolition labor costs per sq ft, debris weight tonnage, roll-off dumpster sizes (10 to 40 yard), and haul away expenses."
 permalink: /demolition-cost-calculator
 tool_id: demolition-cost-calculator
@@ -141,11 +141,9 @@ faq:
     answer: "No. Standard demolition quotes cover non-hazardous materials. Asbestos abatement (popcorn ceilings, pipe wrap, vinyl tile) or lead paint containment adds $5.00 to $15.00 per square foot."
   - question: "What utility disconnects are required before interior demolition?"
     answer: "Main electric service must be shut off, gas lines capped by a licensed plumber, and water supplies isolated before tearing into interior walls or ceiling drywall."
-  - question: "Is my personal data saved when using this calculator?"
-    answer: "No. All calculations run strictly inside your web browser."
 ---
 
-# Demolition Cost Calculator
+# Demolition Cost Calculator - Calculate Project Timeline & Budget
 
 Planning a major home renovation starts with tearing out old drywall, cabinets, flooring, and non-load-bearing framing. Use our **Demolition Cost Calculator** to estimate total labor costs per square foot, total construction debris weight in tons, roll-off dumpster size requirements (10 to 40 yard), and landfill tipping fees.
 
@@ -202,8 +200,7 @@ The table below presents labor cost, debris weight, recommended roll-off dumpste
 
 ---
 
-## Frequently Asked Questions
-
+## Demolition Cost Calculator Frequently Asked Questions
 ### How much does interior demolition cost per square foot?
 Interior gut demolition typically costs between $2.00 and $6.00 per square foot depending on structural complexity, plaster vs drywall removal, electrical disconnects, and regional labor rates.
 
@@ -222,5 +219,3 @@ No. Standard demolition quotes cover non-hazardous materials. Asbestos abatement
 ### What utility disconnects are required before interior demolition?
 Main electric service must be shut off, gas lines capped by a licensed plumber, and water supplies isolated before tearing into interior walls or ceiling drywall.
 
-### Is my personal data saved when using this calculator?
-No. All calculations run strictly inside your web browser.

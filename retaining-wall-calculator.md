@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Retaining Wall | Interactive Online Tool"
+title: "Retaining Wall Calculator | Concrete & Masonry Estimating"
 description: "Calculate the number of concrete blocks, capstones, gravel backfill volume in cubic yards, and total material cost for retaining walls."
 permalink: /retaining-wall-calculator
 tool_id: retaining-wall-calculator
@@ -149,11 +149,9 @@ faq:
     answer: "Segmental retaining walls over 3 to 4 feet in height generally require geogrid soil reinforcement layers embedded back into the hillside, engineered plans, and building permits."
   - question: "How much does a retaining wall cost per square foot?"
     answer: "DIY block retaining wall materials cost $12 to $25 per square foot. Total contractor-installed cost ranges from $25 to $50 per square foot."
-  - question: "Is my personal data saved anywhere?"
-    answer: "No. All calculations run strictly inside your local web browser."
 ---
 
-# Retaining Wall Calculator
+# Retaining Wall Calculator - Calculate Volume, Bags & Materials
 
 Determine exact material requirements for segmental concrete block retaining walls, including **interlocking wall blocks**, **top capstones**, **gravel drainage backfill**, and total project costs.
 
@@ -195,8 +193,7 @@ $$\text{Total Cost} = (\text{Blocks} \times \text{Block Cost}) + (\text{Capstone
 
 ---
 
-## Frequently Asked Questions
-
+## Retaining Wall Calculator Frequently Asked Questions
 ### How many retaining wall blocks do I need for a 40 ft long, 4 ft high wall?
 A 40 ft long by 4 ft high retaining wall using standard 12 in × 6 in blocks requires 336 wall blocks (including 5% waste) and 40 capstones.
 
@@ -215,5 +212,3 @@ Segmental retaining walls over 3 to 4 feet in height generally require geogrid s
 ### How much does a retaining wall cost per square foot?
 DIY block retaining wall materials cost $12 to $25 per square foot. Total contractor-installed cost ranges from $25 to $50 per square foot.
 
-### Is my personal data saved anywhere?
-No. All calculations run strictly inside your local web browser.

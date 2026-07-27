@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Stair Handrail Calculator | Length, Incline & Posts"
+title: "Stair Handrail Calculator | Lumber & Framing Estimating"
 description: "Calculate stair handrail linear feet, slope incline angle, heavy-duty wall mounting brackets (36-48 spacing), wall returns, and end caps."
 permalink: /stair-handrail-calculator
 tool_id: stair-handrail-calculator
@@ -159,7 +159,7 @@ faq:
     answer: "Yes. Building codes require handrail ends to return smoothly to the wall, post, or safety end terminal to prevent clothing or purse straps from catching."
 ---
 
-# Stair Handrail & Incline Length Calculator
+# Stair Handrail Calculator - Calculate Board Feet & Wood Quantity
 
 Calculate total handrail cut length along stair incline, slope angle, top/bottom extensions, wall mounting bracket counts, and costs. All calculations run 100% privately in your browser.
 
@@ -173,8 +173,7 @@ In addition, building codes (IRC and ADA accessibility standards) enforce strict
 
 ---
 
-## Mathematical Formulas & Mechanics
-
+## Stair Handrail Calculator Mathematical Formulas & Mechanics
 ### 1. Stair Flight Hypotenuse Length ($L_{	ext{hyp}}$)
 For total horizontal run $R_{	ext{run}}$ and total vertical rise $R_{	ext{rise}}$ (in inches):
 
@@ -201,8 +200,7 @@ ceil + 1$$
 
 ---
 
-## Real-World Comparison & Benchmark Table
-
+## Stair Handrail Calculator Benchmarks & Comparison Table
 | Stair Flight Type | Total Rise / Run | Incline Angle | Sloped Railing Length | Brackets Required (36" Max) | Estimated Material Cost ($) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Short 4-Riser Porch** | 28" Rise / 40" Run | 35.0° | 4.0 Feet (48") | 3 Brackets | $80 - $150 |
@@ -212,8 +210,7 @@ ceil + 1$$
 
 ---
 
-## Step-by-Step How-To Guide
-
+## How to Use the Stair Handrail Calculator Step-by-Step
 1. **Measure Total Run & Rise:** Measure horizontal distance from top riser to bottom tread nose, and vertical distance from bottom floor to top landing.
 2. **Enter ADA Extensions:** Add 12 inches for top horizontal extension and 12 inches for bottom tread extension.
 3. **Specify Bracket Spacing:** Set wall bracket spacing to 36 inches (anchor directly into wall framing studs).
@@ -222,8 +219,7 @@ ceil + 1$$
 
 ---
 
-## Frequently Asked Questions
-
+## Stair Handrail Calculator Frequently Asked Questions
 ### What is the standard height for a stair handrail?
 Building codes (IRC Section R311.7.8) require handrail height to be between 34 inches and 38 inches measured vertically from the tread nosing to the top of the handrail.
 

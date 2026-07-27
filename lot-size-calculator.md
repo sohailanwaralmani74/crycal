@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Lot Size | Interactive Online Tool"
+title: "Lot Size Calculator | Investment & Portfolio Return"
 description: "Calculate the optimal lot size trades. Enter account balance, risk percentage, stop-loss distance, and pip value to find ideal position size."
 permalink: /lot-size-calculator
 tool_id: lot-size
@@ -164,12 +164,10 @@ faq:
     answer: "A pip value is the monetary value of one pip movement. For a standard lot in most USD pairs, 1 pip is worth $10."
   - question: "Can I use this calculator for any currency pair?"
     answer: "Yes — just enter the correct pip value for your pair. For JPY pairs, the pip value is typically different (e.g., ¥1,000 for a standard lot)."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server."
 
 ---
 
-# Lot Size Calculator
+# Lot Size Calculator - Calculate Return, Yield & Portfolio Risk
 
 Use this lot size calculator to determine the optimal lot size for your Forex and CFD trades. Enter your account balance, risk percentage, stop-loss distance, and pip value — the tool shows your position in standard lots, mini lots, and micro lots. This Forex lot size calculator helps you manage risk and trade with discipline.
 
@@ -213,8 +211,7 @@ Proper lot sizing is essential for risk management in Forex trading. This lot si
 
 ---
 
-## Frequently Asked Questions
-
+## Lot Size Calculator Frequently Asked Questions
 ### What is a lot size in Forex?
 A lot size is the number of currency units you trade. Standard lot = 100,000 units, Mini lot = 10,000 units, Micro lot = 1,000 units.
 
@@ -226,9 +223,6 @@ A pip value is the monetary value of one pip movement. For a standard lot in mos
 
 ### Can I use this calculator for any currency pair?
 Yes — just enter the correct pip value for your pair. For JPY pairs, the pip value is typically different (e.g., ¥1,000 for a standard lot).
-
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server.
 
 ---
 

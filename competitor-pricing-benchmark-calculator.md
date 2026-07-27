@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Competitor Pricing Benchmark | Interactive Online Tool"
+title: "Competitor Pricing Benchmark Calculator | SaaS Pricing &"
 description: "Compare your SaaS plan pricing against top market competitors. Calculate market averages, feature-adjusted price targets, and MRR potential."
 permalink: /competitor-pricing-benchmark-calculator
 tool_id: competitor-pricing-benchmark-calculator
@@ -150,7 +150,7 @@ faq:
 
 ---
 
-# Competitor Pricing Benchmark Calculator
+# Competitor Pricing Benchmark Calculator - Calculate Tier Profitability & ARPU
 
 Compare your SaaS plan price against direct competitors. Calculate **market averages**, **feature-adjusted target prices**, and **market positioning**.
 
@@ -164,8 +164,7 @@ This tool helps product and pricing leaders quantify their **price position** (B
 
 ---
 
-## Key Mathematical Formulas
-
+## Key Competitor Pricing Benchmark Calculator Mathematical Formulas
 ### 1. Market Competitor Benchmark Average
 
 $$ \text{Market Average} = \frac{\text{Comp A} + \text{Comp B} + \text{Comp C}}{3} $$
@@ -199,8 +198,7 @@ $$ \text{Feature-Adjusted Target} = \text{Market Average} \times \text{Feature V
 
 ---
 
-## Frequently Asked Questions
-
+## Competitor Pricing Benchmark Calculator Frequently Asked Questions
 ### Why is competitor price benchmarking important?
 Buyers evaluate your software against existing market alternatives. Pricing significantly higher without feature justification increases sales friction, while pricing too low signals inferior quality.
 

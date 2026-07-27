@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Ev Tax Credit Rebate Estimator | Interactive Online Tool"
+title: "EV Tax Credit & Rebate Calculator | EV Charging & Range"
 description: "Calculate your eligible US Federal $7,500 Clean Vehicle Tax Credit and state rebates based on income limits (AGI), vehicle MSRP, assembly..."
 permalink: /ev-tax-credit-rebate-estimator
 tool_id: ev-tax-credit-rebate-estimator
@@ -159,7 +159,7 @@ faq:
 
 ---
 
-# Ev Tax Credit Rebate Estimator Calculator
+# EV Tax Credit & Rebate Calculator - Calculate Charging Time & Battery Cost
 
 Calculate your eligibility for the US Federal **$7,500 Clean Vehicle Tax Credit** (IRS Section 30D) and state electric vehicle rebates.
 
@@ -264,8 +264,7 @@ Key eligibility rules:
 
 ---
 
-## Step-by-Step Usage Guide
-
+## Step-by-Step EV Tax Credit Calculator Usage Guide
 1. **Enter Vehicle MSRP**: Input total window sticker price including factory options.
 2. **Select Body Classification**: Choose Sedan ($55k limit) or SUV/Truck ($80k limit).
 3. **Provide Filing Status & AGI**: Select your tax filing status and input your Adjusted Gross Income.
@@ -274,8 +273,7 @@ Key eligibility rules:
 
 ---
 
-## Frequently Asked Questions
-
+## EV Tax Credit Calculator Frequently Asked Questions
 ### What are the income (AGI) limits for the federal $7,500 EV tax credit?
 Under IRS Section 30D, Modified AGI must not exceed $150,000 for single filers, $225,000 for heads of household, or $300,000 for married couples filing jointly.
 

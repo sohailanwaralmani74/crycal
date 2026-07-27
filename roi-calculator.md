@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Roi | Interactive Online Tool"
+title: "ROI Calculator | Investment & Portfolio Return"
 description: "Calculate your return on investment (ROI) with our free ROI calculator. Enter initial investment, final value, and holding period to see total ROI."
 permalink: /roi-calculator
 tool_id: roi-calculator
@@ -124,12 +124,10 @@ faq:
     answer: "The challenge lies in defining 'cost' and 'gain'. Different investors include different factors such as taxes, insurance, capital expenditures, or operating costs. This variability makes ROI a useful starting point, but it should be supplemented with other metrics."
   - question: "Can I use this calculator for any investment?"
     answer: "Yes — use it for stocks, mutual funds, real estate, crypto, or any investment where you have start and end values."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server."
 
 ---
 
-# Roi Calculator
+# ROI Calculator - Calculate Return, Yield & Portfolio Risk
 
 Return on Investment (ROI) is one of the most common and widely used metrics for evaluating the profitability of an investment. Before committing capital to any opportunity — whether stocks, real estate, business ventures, or even a sheep farm — ROI provides a solid foundation for decision-making. While more intricate formulas exist, ROI remains popular for its simplicity and versatility. This ROI calculator helps you measure your investment returns quickly and accurately. Enter your initial investment, final value, and holding period to see your total ROI, annualized ROI (CAGR), and net profit. Whether you're comparing opportunities or evaluating past performance, this return on investment calculator gives you the numbers you need.
 
@@ -180,8 +178,7 @@ If Bob held the investment for 5 years, his annualized ROI (CAGR) would be:
 
 ---
 
-## Frequently Asked Questions
-
+## ROI Calculator Frequently Asked Questions
 ### What is ROI?
 Return on Investment (ROI) is a widely used metric that measures the profitability of an investment relative to its cost. It provides a quick, simple way to evaluate the potential return of anything from stocks and real estate to business ventures.
 
@@ -196,8 +193,5 @@ The challenge lies in defining 'cost' and 'gain'. Different investors include di
 
 ### Can I use this calculator for any investment?
 Yes — use it for stocks, mutual funds, real estate, crypto, or any investment where you have start and end values.
-
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server.
 
 ---

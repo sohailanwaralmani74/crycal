@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Revenue Churn Rate | Interactive Online Tool"
+title: "Revenue Churn Rate Calculator | SaaS Churn & Retention"
 description: "Calculate your monthly and annual Gross and Net Revenue Churn Rate percentages. Measure recurring dollar loss from cancellations and downgrades."
 permalink: /revenue-churn-rate-calculator
 tool_id: revenue-churn-rate-calculator
@@ -121,7 +121,7 @@ faq:
 
 ---
 
-# Revenue Churn Rate Calculator
+# Revenue Churn Rate Calculator - Calculate Logo Churn & Revenue Retention
 
 Calculate your monthly **Gross Revenue Churn Rate (%)**, **Net Revenue Churn Rate (%)**, and **Annualized Revenue Churn Rate** to measure financial subscription leakage.
 
@@ -169,8 +169,7 @@ $$\text{Implied NRR (\%)} = 100 - \text{Net Monthly Revenue Churn (\%)} \quad (\
 
 ---
 
-## Frequently Asked Questions
-
+## Revenue Churn Rate Calculator Frequently Asked Questions
 ### What is Revenue Churn Rate?
 Revenue Churn Rate measures the percentage of recurring subscription dollars lost during a period due to customer cancellations (churn) and plan downgrades (contraction).
 

@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Water Pressure Loss | Interactive Online Tool"
+title: "Water Pressure Loss Calculator | Plumbing Flow & Pipe Sizing"
 description: "Calculate water pipe friction pressure drop (PSI per 100 ft) using Hazen-Williams equation and static head elevation gain or loss."
 permalink: /water-pressure-loss-calculator
 tool_id: water-pressure-loss-calculator
@@ -157,7 +157,7 @@ faq:
 
 ---
 
-# Water Pressure Loss Calculator
+# Water Pressure Loss Calculator - Calculate Pipe Diameter & GPM Flow
 
 Calculate total **water pressure loss in PSI** across supply pipe runs using our **Water Pressure Loss Calculator**. Based on the **Hazen-Williams friction formula** and **hydrostatic elevation physics**, this tool computes friction head loss and vertical elevation gain or loss.
 
@@ -219,8 +219,7 @@ Where:
 
 ---
 
-## Frequently Asked Questions
-
+## Water Pressure Loss Calculator Frequently Asked Questions
 ### How much water pressure is lost per foot of vertical height?
 For every 1 foot of vertical elevation rise, water pressure drops by exactly **0.433 PSI** due to gravity. Pumping water up 20 feet to a second-floor bathroom results in an automatic 8.66 PSI static pressure loss.
 
@@ -239,5 +238,3 @@ Friction pressure drop increases non-linearly with flow rate ($P \propto Q^{1.85
 ### How can I fix low water pressure on a second floor?
 You can fix low upper-floor pressure by: (1) Upsizing supply lines from 1/2" to 3/4" to reduce friction loss, (2) Adjusting your main pressure reducing valve (PRV), or (3) Installing an inline water pressure booster pump.
 
-### Is my personal data saved when using this calculator?
-No. All calculations are performed strictly inside your web browser. No piping or pressure data is collected.

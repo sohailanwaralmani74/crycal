@@ -1,6 +1,6 @@
 ---
 layout: "tool"
-title: "Rule of 40 Calculator"
+title: "Rule of 40 Calculator | SaaS Growth & Margin Score"
 description: "Calculate combined YoY revenue growth % + FCF margin % benchmark score for SaaS companies."
 permalink: "/rule-of-40-calculator"
 tool_id: "rule-of-40-calculator"
@@ -99,11 +99,9 @@ faq:
     a: "It becomes meaningful once a SaaS company reaches $1M+ in ARR, where unit economics stabilize."
   - q: "How can low-scoring companies reach 40%?"
     a: "Companies can increase price/ARPU to boost ARR growth or trim non-essential sales & marketing spend to increase cash margins."
-  - q: "Is my corporate data stored?"
-    a: "No. All calculations run strictly inside your browser."
 ---
 
-# Calculate SaaS Rule of 40 Score
+# Rule of 40 Calculator - Calculate SaaS Efficiency & Rule of 40
 
 Calculate combined YoY revenue growth % + FCF margin % benchmark score for SaaS companies. Use our free **Rule of 40 Calculator** to evaluate your SaaS business performance and make data-driven growth decisions — without any data leaving your browser.
 
@@ -115,16 +113,14 @@ The Rule of 40 is the premier venture capital benchmark for software companies. 
 
 Having accurate, real-time insights into this metric helps SaaS founders, CFOs, and growth teams optimize capital allocation, protect operating runway, and achieve top-tier venture scalability.
 
-## Mathematical Formula & Derivation
-
+## Rule of 40 Calculator Formula & Derivation
 The mathematical derivation for this financial metric is expressed as:
 
 $$\text{Rule of 40 Score} = \text{YoY Revenue Growth Rate \%} + \text{Free Cash Flow Margin \%}$$
 
 Where all input values are evaluated over a standardized monthly or annual accounting period.
 
-## Real-World SaaS Benchmark Comparison
-
+## Rule of 40 Calculator SaaS Benchmarks
 | Score Range | Venture Performance Tier | Valuation Premium |
 | --- | --- | --- |
 | >= 40% | Outperformer / Elite Tier | Premium Valuation Multiples (10x-15x+ ARR) |
@@ -132,8 +128,7 @@ Where all input values are evaluated over a standardized monthly or annual accou
 | 15% - 29% | Underperforming | Discounted Valuation Multiples (4x-6x ARR) |
 | < 15% | Struggling SaaS | Distressed Valuation Multiples (< 3x ARR) |
 
-## Step-by-Step Calculation Guide
-
+## Step-by-Step Rule of 40 Calculator Calculation Guide
 1. **Enter Core Financial Inputs:** Supply your monthly sales spend, user counts, ARPU, or recurring revenue figures.
 2. **Review Intermediate Outputs:** Examine calculated gross profit, churn, payback, or unit contribution scores.
 3. **Assess Benchmark Ratings:** Compare your results against SaaS industry standards to identify growth bottlenecks.
@@ -141,8 +136,7 @@ Where all input values are evaluated over a standardized monthly or annual accou
 
 ---
 
-## Frequently Asked Questions
-
+## Rule of 40 Calculator Frequently Asked Questions
 ### What is the Rule of 40 in SaaS?
 The Rule of 40 states that a healthy SaaS company's combined annual revenue growth rate percentage and profit margin percentage should equal or exceed 40%.
 
@@ -161,5 +155,3 @@ It becomes meaningful once a SaaS company reaches $1M+ in ARR, where unit econom
 ### How can low-scoring companies reach 40%?
 Companies can increase price/ARPU to boost ARR growth or trim non-essential sales & marketing spend to increase cash margins.
 
-### Is my corporate data stored?
-No. All calculations run strictly inside your browser.

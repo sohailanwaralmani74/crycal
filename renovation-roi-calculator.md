@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Renovation Roi | Interactive Online Tool"
+title: "Renovation Roi Calculator | Project Cost & Estimating"
 description: "Calculate home renovation Return on Investment (ROI %), estimated property value increase, and net out-of-pocket project costs at resale."
 permalink: /renovation-roi-calculator
 tool_id: renovation-roi-calculator
@@ -137,11 +137,9 @@ faq:
     answer: "Adding square footage (primary suite, room addition, finished basement) increases overall house square footage, driving higher absolute appraisal dollar increases than upgrading existing space."
   - question: "How do I calculate net cost at resale for a renovation?"
     answer: "Net cost at resale equals the total project cost minus the dollar increase in home value upon resale. For example, a $50,000 remodel that adds $35,000 in home value has a net out-of-pocket cost of $15,000."
-  - question: "Is my personal data saved when using this calculator?"
-    answer: "No. All calculations run strictly inside your web browser."
 ---
 
-# Renovation Roi Calculator
+# Renovation Roi Calculator - Calculate Project Timeline & Budget
 
 Homeowners and real estate investors remodelling a home must weigh project costs against potential equity gains. Use our **Renovation ROI Calculator** to calculate remodeling return on investment (ROI %), projected home appraisal value increases, and net out-of-pocket costs upon resale.
 
@@ -194,8 +192,7 @@ The table below details average national project costs, recoup percentages, valu
 
 ---
 
-## Frequently Asked Questions
-
+## Renovation Roi Calculator Frequently Asked Questions
 ### Which home renovations have the highest return on investment (ROI)?
 Exterior curb appeal projects consistently deliver the highest ROI: Garage door replacements recoup ~194%, steel entry door replacements return ~188%, and fiber-cement siding replacements return ~88% at resale.
 
@@ -214,5 +211,3 @@ Adding square footage (primary suite, room addition, finished basement) increase
 ### How do I calculate net cost at resale for a renovation?
 Net cost at resale equals the total project cost minus the dollar increase in home value upon resale. For example, a $50,000 remodel that adds $35,000 in home value has a net out-of-pocket cost of $15,000.
 
-### Is my personal data saved when using this calculator?
-No. All calculations run strictly inside your web browser.

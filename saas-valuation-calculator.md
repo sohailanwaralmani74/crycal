@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Saas Valuation | Interactive Online Tool"
+title: "Saas Valuation Calculator | Startup Funding & Valuation"
 description: "Estimate your SaaS startup valuation based on ARR multiples (5x-15x) adjusted for growth rate, Net Revenue Retention (NRR), and gross margin."
 permalink: /saas-valuation-calculator
 tool_id: saas-valuation-calculator
@@ -149,7 +149,7 @@ faq:
 
 ---
 
-# Saas Valuation Calculator
+# Saas Valuation Calculator - Calculate ARR Multiple & Valuation
 
 Estimate your SaaS startup enterprise valuation using our free **SaaS Valuation Calculator**. Model valuation based on Annual Recurring Revenue (ARR) multiples adjusted for YoY growth rate, Net Revenue Retention (NRR), and gross margin.
 
@@ -207,8 +207,7 @@ $$V = \text{ARR} \times M_{eff}$$
 
 ---
 
-## Frequently Asked Questions
-
+## Saas Valuation Calculator Frequently Asked Questions
 ### How is SaaS valuation calculated using ARR multiples?
 SaaS valuation is calculated by multiplying Annual Recurring Revenue (ARR) by an ARR multiple: Valuation = ARR × Multiple. The multiple is adjusted based on growth rate, NRR, and gross margins.
 

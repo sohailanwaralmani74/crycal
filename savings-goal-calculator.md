@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Savings Goal | Interactive Online Tool"
+title: "Savings Goal Calculator | Compound Interest & Savings"
 description: "Calculate how long it will take to reach your savings goal or how much you need to save monthly to hit your target by a specific date."
 permalink: /savings-goal-calculator
 tool_id: savings-goal
@@ -160,12 +160,10 @@ faq:
     answer: "High-yield savings accounts currently offer 4-5%. Investment accounts may average 7-10% over the long term. Use a rate that matches your savings vehicle."
   - question: "Can I use this for debt repayment goals?"
     answer: "Yes. Enter your current balance as current savings, your target balance (0) as the target amount, and your monthly payment as the monthly contribution."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server."
 
 ---
 
-# Savings Goal Calculator
+# Savings Goal Calculator - Project Wealth Accumulation & Yield
 
 Calculate how long it will take to reach your savings goal OR how much you need to save monthly to hit your target by a specific date. Enter your current savings, monthly contribution, interest rate, and target amount — the calculator shows your growth trajectory, progress, and what it takes to reach your goal.
 
@@ -207,8 +205,7 @@ The calculator solves for **t** (time to reach target) or **PMT** (required mont
 
 ---
 
-## How to Use This Tool
-
+## How to Use the Savings Goal Calculator
 1.  Select your **account currency** from the picker in the site header.
 2.  Enter your **target amount** (the amount you want to save).
 3.  Enter your **current savings** (what you already have).
@@ -221,8 +218,7 @@ The tool updates instantly — you'll see the time to reach your goal, the requi
 
 ---
 
-## Frequently Asked Questions
-
+## Savings Goal Calculator Frequently Asked Questions
 ### How does the Savings Goal Calculator work?
 It calculates either the time needed to reach your target or the monthly contribution required based on your current savings, interest rate, and target amount.
 
@@ -234,9 +230,6 @@ High-yield savings accounts currently offer 4-5%. Investment accounts may averag
 
 ### Can I use this for debt repayment goals?
 Yes. Enter your current balance as current savings, your target balance (0) as the target amount, and your monthly payment as the monthly contribution.
-
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server.
 
 ---
 

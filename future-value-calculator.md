@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Future Value | Interactive Online Tool"
+title: "Future Value Calculator | Compound Interest & Savings"
 description: "Use the Future Value Calculator to project how much your investment or savings will grow over time with compound interest and regular contributions."
 permalink: /future-value-calculator
 tool_id: future-value-calculator
@@ -125,11 +125,9 @@ faq:
     answer: "Future value projects what money today will be worth later, while present value discounts a future sum back to what it's worth today. They are inverse calculations."
   - question: "Does compounding frequency matter?"
     answer: "Yes. More frequent compounding (e.g., daily vs. annually) results in slightly higher future value at the same nominal rate, since interest is calculated and added more often."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. No data is sent to any server."
 ---
 
-# Future Value Calculator
+# Future Value Calculator - Project Wealth Accumulation & Yield
 
 Use the **Future Value Calculator** to project how much your investment or savings will grow over time with compound interest and regular contributions.
 
@@ -198,8 +196,7 @@ This **FV calculator** is designed for:
 
 ---
 
-## Frequently Asked Questions
-
+## Future Value Calculator Frequently Asked Questions
 ### What is future value?
 Future value is the projected worth of a current sum of money, plus any additional contributions, after it grows at a given rate of return over a specific period.
 
@@ -212,5 +209,3 @@ Future value projects what money today will be worth later, while present value 
 ### Does compounding frequency matter?
 Yes. More frequent compounding (e.g., daily vs. annually) results in slightly higher future value at the same nominal rate, since interest is calculated and added more often.
 
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. No data is sent to any server.

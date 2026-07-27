@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Long Island Closing Costs | Interactive Online Tool"
+title: "Long Island Closing Costs Calculator | Mortgage Payment &"
 description: "Calculate buyer and seller closing costs for Long Island (Nassau & Suffolk County). Includes mortgage recording tax, title insurance, escrow, and more."
 permalink: /long-island-closing-costs-calculator
 tool_id: long-island-closing-costs
@@ -238,12 +238,10 @@ faq:
     answer: "Sellers typically pay 8% to 10% of the sale price, including agent commissions (5-6%), NYS transfer tax (0.4%), and additional county taxes."
   - question: "What is included in the escrow at closing?"
     answer: "Lenders collect property tax escrow at closing to build a cushion for future tax payments. Typical escrow is 4-6 months of annual property taxes."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. No data is sent to any server."
 
 ---
 
-# Long Island Closing Costs Calculator
+# Long Island Closing Costs Calculator - Calculate Home Loan Payment & Amortization
 
 Use this **Long Island closing costs calculator** to estimate buyer and seller closing costs for homes in Nassau and Suffolk counties. Includes mortgage recording tax (1.05%), mansion tax, title insurance, property tax escrow, and agent commissions — all with a detailed cost breakdown.
 
@@ -286,8 +284,7 @@ Closing costs on Long Island are among the highest in the country due to unique 
 
 ---
 
-## How Closing Costs Are Calculated
-
+## How Long Island Closing Costs Calculator Fees Are Calculated
 **Buyer Costs** = Mortgage Recording Tax + Mansion Tax (if ≥$1M) + Title Insurance + Attorney + Bank Fees + Escrow + Inspection + Appraisal + Survey + Miscellaneous
 
 **Seller Costs** = Agent Commission + NYS Transfer Tax + County Transfer Tax + Attorney + Title Insurance + Miscellaneous
@@ -298,8 +295,7 @@ Closing costs on Long Island are among the highest in the country due to unique 
 
 ---
 
-## How to Use This Calculator
-
+## How to Use the Long Island Closing Costs Calculator
 1. Enter the **purchase price**.
 2. Enter your **loan amount** or **down payment percentage**.
 3. Enter the **annual property tax** for the home.
@@ -310,8 +306,7 @@ Closing costs on Long Island are among the highest in the country due to unique 
 
 ---
 
-## Frequently Asked Questions
-
+## Long Island Closing Costs Calculator Frequently Asked Questions
 ### What is the mortgage recording tax on Long Island?
 The mortgage recording tax is 1.05% of the loan amount in Nassau and Suffolk counties — one of the highest rates in the country.
 
@@ -326,8 +321,5 @@ Sellers pay agent commissions (5-6%), NYS transfer tax (0.4%), and county transf
 
 ### How does property tax escrow work?
 Lenders collect 4-6 months of property taxes at closing to build a cushion for future tax payments. This amount is held in your escrow account.
-
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. No data is sent anywhere.
 
 ---

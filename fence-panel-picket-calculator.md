@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Fence Panel Picket | Interactive Online Tool"
+title: "Fence Panel Picket Calculator | Lumber & Framing Estimating"
 description: "Calculate the exact number of fence pickets, 2x4 stringer horizontal rails, picket gap spacing, and material costs for wood privacy or shadowbox fences."
 permalink: /fence-panel-picket-calculator
 tool_id: fence-panel-picket-calculator
@@ -168,11 +168,9 @@ faq:
     answer: "Two rails allow 6-foot vertical pickets to warp, twist, and cup in sun and rain exposure. A middle third rail locks the center of pickets straight."
   - question: "Should I buy pre-assembled panels or build stick-by-stick with individual pickets?"
     answer: "Pre-assembled 6x8 ft panels save installation time on flat ground, but stick-building with individual pickets allows step-down customization on sloped terrain and superior overall strength."
-  - question: "Is my personal data stored anywhere?"
-    answer: "No. All calculations run locally in your web browser."
 ---
 
-# Fence Panel Picket Calculator
+# Fence Panel Picket Calculator - Calculate Board Feet & Wood Quantity
 
 Calculate the total number of vertical **fence pickets**, horizontal **2x4 stringer rails**, picket gap spacing adjustments, and total lumber expenses with our free **Fence Panel & Picket Calculator**.
 
@@ -230,8 +228,7 @@ The table below shows picket and 2x4 rail requirements across common fence lengt
 
 ---
 
-## Frequently Asked Questions
-
+## Fence Panel Picket Calculator Frequently Asked Questions
 ### How many pickets do I need for a 100 ft privacy fence?
 For a 100 ft privacy fence using standard 5.5-inch wide pickets with zero gap, you need approximately 219 pickets (or 241 pickets with a 10% waste factor).
 
@@ -250,5 +247,3 @@ Two rails allow 6-foot vertical pickets to warp, twist, and cup in sun and rain 
 ### Should I buy pre-assembled panels or build stick-by-stick with individual pickets?
 Pre-assembled 6x8 ft panels save installation time on flat ground, but stick-building with individual pickets allows step-down customization on sloped terrain and superior overall strength.
 
-### Is my personal data stored anywhere?
-No. All calculations run locally in your web browser.

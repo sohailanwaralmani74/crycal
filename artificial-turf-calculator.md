@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Artificial Turf | Interactive Online Tool"
+title: "Artificial Turf Calculator | Outdoor & Landscape Estimating"
 description: "Free online Artificial Turf. Calculate exact building material counts, unit costs, and coverage with instant browser math and charts."
 permalink: /artificial-turf-calculator
 tool_id: artificial-turf-calculator
@@ -173,11 +173,9 @@ faq:
     answer: "High-quality synthetic turf lasts 15 to 25 years with minimal maintenance (occasional brushing and rinsing)."
   - question: "How much does artificial turf cost per square foot?"
     answer: "Turf materials cost between $2.50 and $6.00 per square foot for synthetic grass, plus $0.50 to $1.00 per square foot for crushed rock base, silica sand infill, seam tape, and nails."
-  - question: "Is my personal data saved when using this calculator?"
-    answer: "No. All logic operates locally in your web browser."
 ---
 
-# Artificial Turf Calculator
+# Artificial Turf Calculator - Calculate Mulch, Sod & Material Volume
 
 Estimate synthetic grass rolls, 15-foot roll layouts, silica sand infill 50lb bags, seam tape, and galvanized turf nails with our free **Artificial Turf Calculator**.
 
@@ -231,8 +229,7 @@ $$\text{Turf Nails Count} = \left( \frac{2 \times (\text{Length} + \text{Width})
 
 ---
 
-## Frequently Asked Questions
-
+## Artificial Turf Calculator Frequently Asked Questions
 ### Why is silica sand infill necessary for artificial turf?
 Silica sand infill weighs down the turf backing to prevent shifting and wrinkling, holds synthetic grass blades upright, protects the backing from solar UV degradation, and acts as a ballast buffer for pet paws and foot traffic.
 
@@ -251,5 +248,3 @@ High-quality synthetic turf lasts 15 to 25 years with minimal maintenance (occas
 ### How much does artificial turf cost per square foot?
 Turf materials cost between $2.50 and $6.00 per square foot for synthetic grass, plus $0.50 to $1.00 per square foot for crushed rock base, silica sand infill, seam tape, and nails.
 
-### Is my personal data saved when using this calculator?
-No. All logic operates locally in your web browser.

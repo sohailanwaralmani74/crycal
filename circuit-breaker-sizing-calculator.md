@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Circuit Breaker Sizing | Interactive Online Tool"
+title: "Circuit Breaker Sizing Calculator | Electrical Load & Wiring"
 description: "Calculate required circuit breaker amp rating (15A, 20A, 30A, 50A, etc.) and wire gauge based on continuous and non-continuous electrical loads."
 permalink: /circuit-breaker-sizing-calculator
 tool_id: circuit-breaker-sizing-calculator
@@ -133,7 +133,7 @@ faq:
 
 ---
 
-# Circuit Breaker Sizing Calculator
+# Circuit Breaker Sizing Calculator - Calculate Amps, Wire Gauge & Breaker Size
 
 Determine the correct **circuit breaker rating (Amps)** and **copper wire size (AWG)** for electrical circuits using our **Circuit Breaker Sizing Calculator**. Compliant with **NEC Article 210.20**, this tool applies the mandatory **125% multiplier for continuous loads**.
 
@@ -195,8 +195,7 @@ Where:
 
 ---
 
-## Frequently Asked Questions
-
+## Circuit Breaker Sizing Calculator Frequently Asked Questions
 ### What is the NEC 80% continuous load rule?
 The NEC requires standard thermal-magnetic breakers to carry no more than 80% of their amp rating when powering continuous loads (running 3 hours or longer). Conversely, continuous loads must be multiplied by 1.25 when sizing breakers.
 
@@ -215,5 +214,3 @@ Yes. It is safe and legal under NEC codes to use larger wire (upsizing wire to l
 ### What is the difference between a standard breaker and a 100%-rated breaker?
 Standard breakers trip thermally under prolonged 100% rated current. Special 100%-rated breakers feature electronic trip units and special enclosures rated to carry 100% full nameplate load continuously without a 125% multiplier.
 
-### Is my personal data saved when using this calculator?
-No. All calculations run strictly in your web browser. No data is stored or collected.

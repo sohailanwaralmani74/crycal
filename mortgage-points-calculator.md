@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Mortgage Points | Interactive Online Tool"
+title: "Mortgage Points Calculator | Mortgage Payment & Interest"
 description: "Calculate whether buying mortgage points saves you money. Compare the cost of points with monthly savings and break-even time."
 permalink: /mortgage-points-calculator
 tool_id: mortgage-points
@@ -165,12 +165,10 @@ faq:
     answer: "Buying points is worth it if you plan to stay in the home long enough to break even on the upfront cost. This calculator shows you exactly how long that takes."
   - question: "What is the break-even period?"
     answer: "The break-even period is the number of months it takes for your monthly savings to cover the upfront cost of the points."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server."
 
 ---
 
-# Mortgage Points Calculator
+# Mortgage Points Calculator - Calculate Home Loan Payment & Amortization
 
 Use this mortgage points calculator to determine whether buying points saves you money. Enter your loan amount, rates, and points cost — the tool shows your upfront cost, monthly savings, and break-even period. This mortgage points calculator helps you decide if paying points makes sense for your situation.
 
@@ -218,18 +216,16 @@ Buying mortgage points can lower your monthly payment but costs money upfront. T
 ---
 
 
-## Strategic Value & Implementation Guidance
-
+## Strategic Guidance for Mortgage Points Calculator
 Using this interactive calculation engine provides a clear, quantitative roadmap for your decisions. By eliminating mathematical uncertainty, you can optimize financial allocations, compare scenarios side-by-side, and make data-driven choices.
 
-### Key Tactical Benefits
+### Key Tactical Benefits of Mortgage Points Calculator
 - **Mathematical Certainty**: Eliminates guesswork by modeling multi-variable compounding and precise cost structures.
 - **Scenario Comparison**: Test multiple interest rates, payment timelines, and capital allocations in real-time.
 - **Privacy Assurance**: All data remains 100% confidential within your local browser memory, with zero remote server logging.
 - **Export & Audit Readiness**: Log calculations to local browser storage, export full histories to CSV/Excel, or share via link.
 
-## Frequently Asked Questions
-
+## Mortgage Points Calculator Frequently Asked Questions
 ### What are mortgage points?
 Mortgage points (or discount points) are upfront fees paid to reduce your interest rate. One point typically costs 1% of the loan amount and lowers the rate by about 0.25%.
 
@@ -238,8 +234,5 @@ Buying points is worth it if you plan to stay in the home long enough to break e
 
 ### What is the break-even period?
 The break-even period is the number of months it takes for your monthly savings to cover the upfront cost of the points.
-
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server.
 
 ---

@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Logo Churn | Interactive Online Tool"
+title: "Logo Churn Calculator | SaaS Recurring Revenue"
 description: "Calculate your Logo Churn Rate (%) and customer retention rate. Measure the percentage of total account logos lost over a period."
 permalink: /logo-churn-calculator
 tool_id: logo-churn-calculator
@@ -121,7 +121,7 @@ faq:
 
 ---
 
-# Logo Churn Calculator
+# Logo Churn Calculator - Calculate MRR, ARR & Growth Metrics
 
 Calculate your monthly Logo Churn Rate (%), Logo Retention Rate (%), and Annualized Logo Churn to evaluate total customer account attrition.
 
@@ -169,8 +169,7 @@ $$\text{Ending Customers} = \text{Starting Customers} - \text{Lost Customers} + 
 
 ---
 
-## Frequently Asked Questions
-
+## Logo Churn Calculator Frequently Asked Questions
 ### What is Logo Churn in SaaS?
 Logo churn (or customer account churn) measures the percentage of total customer accounts or business entities that cancel their subscriptions during a specific time period.
 

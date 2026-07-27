@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Fire Pit Size | Interactive Online Tool"
+title: "Fire Pit Size Calculator | Outdoor & Landscape Estimating"
 description: "Calculate fire pit wall block count by outer and inner diameter, wall height, lava rock volume in cubic feet, and total DIY fire pit cost."
 permalink: /fire-pit-size-calculator
 tool_id: fire-pit-size-calculator
@@ -161,11 +161,9 @@ faq:
     answer: "Yes. Apply heavy-duty high-temperature construction adhesive or masonry adhesive between block courses to lock the ring structure permanently in place."
   - question: "How much does it cost to build a DIY block fire pit?"
     answer: "A DIY block fire pit built with curved retaining wall blocks and lava rock costs $150 to $350 in materials. Contractor-installed stone fire pits range from $800 to $2,500."
-  - question: "Is my personal data saved anywhere?"
-    answer: "No. All calculations run locally in your web browser."
 ---
 
-# Fire Pit Size Calculator
+# Fire Pit Size Calculator - Calculate Mulch, Sod & Material Volume
 
 Determine exact material requirements for building a custom circular **retaining block fire pit** with our **Fire Pit Size Calculator**. Calculate **blocks per ring layer**, **total vertical courses**, **lava rock fill volume**, and total material cost.
 
@@ -226,8 +224,7 @@ The table below outlines material requirements across common fire pit dimensions
 
 ---
 
-## Frequently Asked Questions
-
+## Fire Pit Size Calculator Frequently Asked Questions
 ### How many blocks do I need to build a 36-inch circular fire pit?
 A 36-inch inside diameter fire pit with 8-inch deep blocks has a 52-inch outer diameter (163.36-inch circumference). Using 12-inch wide blocks, you need 14 blocks per ring. For a 16-inch high wall (4 courses), you need 56 blocks in total.
 
@@ -246,5 +243,3 @@ Yes. Apply heavy-duty high-temperature construction adhesive or masonry adhesive
 ### How much does it cost to build a DIY block fire pit?
 A DIY block fire pit built with curved retaining wall blocks and lava rock costs $150 to $350 in materials. Contractor-installed stone fire pits range from $800 to $2,500.
 
-### Is my personal data saved anywhere?
-No. All calculations run locally in your web browser.

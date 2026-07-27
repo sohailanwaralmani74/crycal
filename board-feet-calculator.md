@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Board Feet | Interactive Online Tool"
+title: "Board Feet Calculator | Lumber Volume & Wood Footage"
 description: "Calculate board feet (BF), total lumber volume, piece counts, and hardwood lumber costs with our free board foot calculator."
 permalink: /board-feet-calculator
 tool_id: board-feet-calculator
@@ -138,11 +138,9 @@ faq:
     answer: "Linear feet measures only the overall length of a board regardless of width or thickness. Board feet measures 3D volume (length × width × thickness)."
   - question: "How much waste should I add when ordering hardwood lumber?"
     answer: "Woodworkers generally add 15% to 20% waste for rough hardwood lumber to account for defects, knots, wane, and machining loss."
-  - question: "Is my lumber calculation data saved on external servers?"
-    answer: "No. All calculation logic executes locally in your web browser."
 ---
 
-# Board Feet Calculator
+# Board Feet Calculator - Calculate Board Feet & Lumber Cost
 
 Determine exact **board feet (BF)**, individual piece volumes, total order quantities, and material costs for hardwood and softwood lumber orders.
 
@@ -186,8 +184,7 @@ $$\text{Total Cost (\$)} = \text{Total Board Feet} \times \text{Price per Board 
 
 ---
 
-## Frequently Asked Questions
-
+## Board Feet Calculator Frequently Asked Questions
 ### What is a board foot?
 A board foot (BF) is a unit of volume for measuring lumber in North America. One board foot represents a piece of wood 1 inch thick, 12 inches wide, and 1 foot (12 inches) long, equaling 144 cubic inches of wood volume.
 
@@ -206,5 +203,3 @@ Linear feet measures only the overall length of a board regardless of width or t
 ### How much waste should I add when ordering hardwood lumber?
 Woodworkers generally add 15% to 20% waste for rough hardwood lumber to account for defects, knots, wane, and machining loss.
 
-### Is my lumber calculation data saved on external servers?
-No. All calculation logic executes locally in your web browser.

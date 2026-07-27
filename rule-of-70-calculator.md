@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Rule Of 70 | Interactive Online Tool"
+title: "Rule of 70 Calculator | Compound Interest & Savings"
 description: "Use the Rule of 70 Calculator to estimate how many years it takes for an investment, economy, or population to double at a given growth rate."
 permalink: /rule-of-70-calculator
 tool_id: rule-of-70-calculator
@@ -83,11 +83,9 @@ faq:
     answer: "Both estimate doubling time. The Rule of 72 is more commonly used for investment returns because it divides evenly by more common rates (like 6, 8, 9, and 12), while the Rule of 70 is often preferred for population and economic growth."
   - question: "What is the exact formula for doubling time?"
     answer: "The exact doubling time is calculated as ln(2) divided by ln(1 + growth rate), which accounts precisely for compounding."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. No data is sent to any server."
 ---
 
-# Rule Of 70 Calculator
+# Rule of 70 Calculator - Project Wealth Accumulation & Yield
 
 Use the **Rule of 70 Calculator** to estimate how many years it takes for an investment, economy, or population to double at a given growth rate.
 
@@ -153,8 +151,7 @@ This **Rule of 70 calculator** is designed for:
 
 ---
 
-## Frequently Asked Questions
-
+## Rule of 70 Calculator Frequently Asked Questions
 ### What is the Rule of 70?
 The Rule of 70 is a quick way to estimate how many years it takes for a value to double at a given annual growth rate, calculated by dividing 70 by the growth rate percentage.
 
@@ -167,5 +164,3 @@ Both estimate doubling time. The Rule of 72 is more commonly used for investment
 ### What is the exact formula for doubling time?
 The exact doubling time is calculated as ln(2) divided by ln(1 + growth rate), which accounts precisely for compounding.
 
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. No data is sent to any server.

@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Concrete Block Cmu | Interactive Online Tool"
+title: "Concrete Block CMU Calculator | Concrete & Masonry Estimating"
 description: "Calculate standard 8x8x16 CMU concrete blocks, total wall square footage, mortar bags, block cost, and overall masonry project cost."
 permalink: /concrete-block-cmu-calculator
 tool_id: concrete-block-cmu-calculator
@@ -140,7 +140,7 @@ faq:
   - answer: "No. All computations execute locally in your web browser."
 ---
 
-# Concrete Block Cmu Calculator
+# Concrete Block CMU Calculator - Calculate Volume, Bags & Materials
 
 Calculate standard **8x8x16 CMU Blocks**, wall square footage, **80 lb Mortar Bags**, and total material cost with our free masonry calculator.
 
@@ -188,8 +188,7 @@ $$\text{Total Material Cost} = \text{Block Cost} + (\text{Mortar Bags} \times 12
 
 ---
 
-## Frequently Asked Questions
-
+## Concrete Block CMU Calculator Frequently Asked Questions
 ### How many 8x8x16 CMU blocks are in a square foot?
 There are 1.125 standard 8x8x16 CMU blocks per square foot of wall area (accounting for a standard 3/8-inch mortar joint).
 
@@ -205,5 +204,3 @@ A standard 8x8x16 block actually measures 7-5/8" x 7-5/8" x 15-5/8". Adding 3/8"
 ### Should I fill CMU block cores with concrete or grout?
 Structural retaining walls or foundation walls require core-filling with grout and vertical rebar reinforcement every 16 or 32 inches.
 
-### Is my data stored on any server?
-No. All computations execute locally in your web browser.

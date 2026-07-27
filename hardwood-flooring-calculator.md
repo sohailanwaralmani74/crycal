@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Hardwood Flooring | Interactive Online Tool"
+title: "Hardwood Flooring Calculator | Flooring Square Footage"
 description: "Calculate solid and engineered hardwood flooring cartons needed, square feet coverage per box, waste percentage, and total installation cost."
 permalink: /hardwood-flooring-calculator
 tool_id: hardwood-flooring-calculator
@@ -134,11 +134,9 @@ faq:
     answer: "Always order and save 1 to 2 extra unopened cartons for future plank replacement in case of water damage, scratches, or room modifications."
   - question: "How do I calculate hardwood cost for multi-room projects?"
     answer: "Measure each room separately, sum total net square footage, apply a global 10% to 12% waste factor, and divide by carton coverage."
-  - question: "Is my personal project data stored on external servers?"
-    answer: "No. All calculations run locally within your web browser."
 ---
 
-# Hardwood Flooring Calculator
+# Hardwood Flooring Calculator - Calculate Tiles, Planks & Material Need
 
 Determine the exact number of **hardwood cartons to order**, total square footage, waste overage, and installed project costs for solid oak, maple, walnut, or engineered wood with our free **Hardwood Flooring Calculator**.
 
@@ -195,8 +193,7 @@ Below is an estimated budget comparison for a **500 sq ft room** using **22 sq f
 
 ---
 
-## Frequently Asked Questions
-
+## Hardwood Flooring Calculator Frequently Asked Questions
 ### How many square feet are in a box of hardwood flooring?
 A standard carton of solid or engineered hardwood flooring typically contains between 18 and 25 square feet, depending on board length and plank width.
 
@@ -215,5 +212,3 @@ Always order and save 1 to 2 extra unopened cartons for future plank replacement
 ### How do I calculate hardwood cost for multi-room projects?
 Measure each room separately, sum total net square footage, apply a global 10% to 12% waste factor, and divide by carton coverage.
 
-### Is my personal project data stored on external servers?
-No. All calculations run locally within your web browser.

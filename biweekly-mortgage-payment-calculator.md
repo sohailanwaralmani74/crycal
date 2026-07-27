@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Biweekly Mortgage Payment | Interactive Online Tool"
+title: "Biweekly Mortgage Payment Calculator | Mortgage Payment &"
 description: "Calculate how switching to biweekly mortgage payments saves tens of thousands in interest and shaves years off your home loan."
 permalink: /biweekly-mortgage-payment-calculator
 tool_id: biweekly-mortgage-payment
@@ -127,11 +127,9 @@ faq:
     answer: "No. Avoid paying third-party setup fees or monthly administration fees. You can achieve the exact same financial result for free by sending 1/12th of your monthly principal and interest payment to your lender as an extra principal payment each month."
   - question: "What is the difference between bimonthly and biweekly payments?"
     answer: "Bimonthly means paying twice a month (24 payments per year = 12 full payments). Biweekly means paying every two weeks (26 payments per year = 13 full payments). Only a true biweekly schedule generates an extra full monthly payment per year."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations execute locally inside your web browser. History and saved presets remain strictly in your local browser storage."
 ---
 
-# Biweekly Mortgage Payment Calculator
+# Biweekly Mortgage Payment Calculator - Calculate Home Loan Payment & Amortization
 
 Making **biweekly mortgage payments** is one of the simplest and most effective strategies to pay off your home loan years early while saving tens of thousands of dollars in interest. Our free **Biweekly Mortgage Payment Calculator** shows you exactly how much time and money you can save by splitting your monthly mortgage payment into two equal payments every two weeks.
 
@@ -184,8 +182,7 @@ $$\text{Annual Contributions} = 26 \times \text{PMT}_{\text{Biweekly}} = 13 \tim
 
 ---
 
-## How to Use This Calculator
-
+## How to Use the Biweekly Mortgage Payment Calculator
 1. Select your **account currency** from the header picker.
 2. Enter your current **mortgage principal balance** (e.g., $350,000).
 3. Input your **annual interest rate** (e.g., 6.5%).
@@ -194,8 +191,7 @@ $$\text{Annual Contributions} = 26 \times \text{PMT}_{\text{Biweekly}} = 13 \tim
 
 ---
 
-## Frequently Asked Questions
-
+## Biweekly Mortgage Payment Calculator Frequently Asked Questions
 ### How does a biweekly mortgage payment schedule work?
 Instead of making 12 full monthly payments per year, you pay half of your monthly payment every two weeks. Since there are 52 weeks in a year, you make 26 half-payments—which equals 13 full monthly payments every 12 months. That 13th extra payment applies directly to principal.
 
@@ -208,5 +204,3 @@ No. Avoid paying third-party setup fees or monthly administration fees. You can 
 ### What is the difference between bimonthly and biweekly payments?
 Bimonthly means paying twice a month (24 payments per year = 12 full payments). Biweekly means paying every two weeks (26 payments per year = 13 full payments). Only a true biweekly schedule generates an extra full monthly payment per year.
 
-### Is my data stored anywhere?
-No. All calculations execute locally inside your web browser. History and saved presets remain strictly in your local browser storage.

@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Us Inflation | Interactive Online Tool"
+title: "Us Inflation Calculator | Compound Interest & Savings"
 description: "Use free US Inflation Calculator to see how the value of the dollar has changed over time. Select a start year and end year for inflation-adjusted value."
 permalink: /us-inflation-calculator
 tool_id: us-inflation-calculator
@@ -361,12 +361,10 @@ faq:
     answer: "Enter the amount, start year, and end year. The calculator will show you how much that amount is worth in the end year's dollars."
   - question: "What is purchasing power?"
     answer: "Purchasing power is the value of a currency expressed in terms of the amount of goods or services that one unit of money can buy. Inflation reduces purchasing power over time."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. No data is sent to any server."
 
 ---
 
-# Us Inflation Calculator
+# Us Inflation Calculator - Project Wealth Accumulation & Yield
 
 Use our free **US Inflation Calculator** to see how the value of the dollar has changed over time. Enter an amount, start year, and end year to see the inflation-adjusted value — all without your data leaving your browser.
 
@@ -479,8 +477,7 @@ The tool updates instantly as you adjust any input — no "Calculate" button req
 
 ---
 
-## Frequently Asked Questions
-
+## Us Inflation Calculator Frequently Asked Questions
 ### What is a US Inflation Calculator?
 A US Inflation Calculator shows how the purchasing power of the dollar has changed over time due to inflation using historical CPI data.
 
@@ -502,5 +499,3 @@ Enter the amount, start year, and end year — the calculator shows the adjusted
 ### What is purchasing power?
 Purchasing power is the value of a currency expressed in terms of the amount of goods or services that one unit of money can buy.
 
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. No data is sent to any server.

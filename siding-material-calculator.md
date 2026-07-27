@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Siding Material Calculator | Squares, Trim & Corners"
+title: "Siding Material Calculator | Lumber & Framing Estimating"
 description: "Calculate lap siding squares (100 sq ft), starter strips, J-channels, inside/outside corner posts, waste factor, and total siding job cost."
 permalink: /siding-material-calculator
 tool_id: siding-material-calculator
@@ -159,7 +159,7 @@ faq:
     answer: "Vinyl siding costs $150 to $300 per square for materials. Fiber cement (e.g. James Hardie) costs $300 to $550 per square."
 ---
 
-# Siding Material & Exterior Trim Estimator
+# Siding Material Calculator - Calculate Board Feet & Wood Quantity
 
 Calculate lap siding squares (100 sq ft), starter strips, J-channels, inside/outside corner posts, waste factors, and material costs for vinyl, fiber cement, or wood siding. All calculations run 100% privately in your browser.
 
@@ -173,8 +173,7 @@ This **Siding Material Calculator** calculates net wall coverage area, deducts w
 
 ---
 
-## Mathematical Formulas & Mechanics
-
+## Siding Material Calculator Mathematical Formulas & Mechanics
 ### 1. Net Wall Surface Area ($A_{	ext{net\_sqft}}$)
 For gross wall area $A_{	ext{gross}}$ and total window/door openings $A_{	ext{openings}}$:
 
@@ -202,8 +201,7 @@ $$L_{	ext{starter}} = 	ext{Total Exterior Wall Base Perimeter (Linear Feet)}$$
 
 ---
 
-## Real-World Comparison & Benchmark Table
-
+## Siding Material Calculator Benchmarks & Comparison Table
 | House Size & Type | Exterior Wall Area (Sq Ft) | Window & Door Deductions | Siding Squares Required (10% Waste) | Vinyl Siding Material Cost ($) | Fiber Cement Material Cost ($) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Small Ranch (1,200 sq ft home)** | 1,200 Sq Ft | 200 Sq Ft | 11 Squares | $1,800 - $2,800 | $3,300 - $5,000 |
@@ -213,8 +211,7 @@ $$L_{	ext{starter}} = 	ext{Total Exterior Wall Base Perimeter (Linear Feet)}$$
 
 ---
 
-## Step-by-Step How-To Guide
-
+## How to Use the Siding Material Calculator Step-by-Step
 1. **Measure Exterior Elevations:** Measure heights and widths of all exterior wall sections, including gable triangles.
 2. **Deduct Openings:** Calculate total area of windows, entry doors, sliding glass doors, and garage doors.
 3. **Select Siding Material:** Input cost per siding square ($100	ext{ sq ft}$) for your chosen siding material.
@@ -223,8 +220,7 @@ $$L_{	ext{starter}} = 	ext{Total Exterior Wall Base Perimeter (Linear Feet)}$$
 
 ---
 
-## Frequently Asked Questions
-
+## Siding Material Calculator Frequently Asked Questions
 ### What is a square of siding?
 A square of siding is the industry standard unit of measurement equal to 100 square feet of wall coverage area.
 

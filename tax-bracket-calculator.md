@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Tax Bracket | Interactive Online Tool"
+title: "Tax Bracket Calculator | Marginal vs Effective Tax Rate"
 description: "Calculate your income tax with custom tax brackets. Enter your taxable income and define your own brackets with From, To, and Rate."
 permalink: /tax-bracket-calculator
 tool_id: tax-bracket-calculator
@@ -17,7 +17,7 @@ inputs:
     currency: true
     placeholder: "Enter your taxable income"
 
-# Brackets are rendered dynamically via JavaScript
+# Tax Bracket Calculator - Calculate Federal Income Tax Brackets
 # Each bracket has: from (number), to (number or null), rate (%)
 
 outputs:
@@ -102,8 +102,6 @@ faq:
     answer: "Your marginal rate is the rate you pay on your last dollar of income. Your effective rate is the average rate you pay on all your income."
   - question: "How do I add a tax bracket?"
     answer: "Click 'Add Bracket'. Enter the From, To, and Rate for each bracket. Leave To blank for the highest bracket."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server."
 
 ---
 
@@ -170,12 +168,11 @@ Tax brackets are applied progressively. Each bracket has:
 
 ---
 
-## Frequently Asked Questions
-
+## Tax Bracket Calculator Frequently Asked Questions
 ### How does this tax bracket calculator work?
 You define your own tax brackets with From, To, and Rate. The calculator applies them in order to your income.
 
-### Can I use this for any country?
+### Can I use the Tax Bracket Calculator globally?
 Yes — this tool is designed for any progressive tax system. Just enter your country's brackets.
 
 ### What is the difference between marginal and effective tax rate?
@@ -183,9 +180,6 @@ Your marginal rate is the rate you pay on your last dollar of income. Your effec
 
 ### How do I add a tax bracket?
 Click 'Add Bracket'. Enter the From, To, and Rate for each bracket. Leave To blank for the highest bracket.
-
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server.
 
 ---
 

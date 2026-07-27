@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Revenue Run Rate | Interactive Online Tool"
+title: "Revenue Run Rate Calculator | SaaS Recurring Revenue"
 description: "Calculate your Annual Run Rate (ARR) from recent monthly or quarterly revenue performance and model compounding annual revenue run rates."
 permalink: /revenue-run-rate-calculator
 tool_id: revenue-run-rate-calculator
@@ -120,7 +120,7 @@ faq:
 
 ---
 
-# Revenue Run Rate Calculator
+# Revenue Run Rate Calculator - Calculate MRR, ARR & Growth Metrics
 
 Annualize your recent monthly or quarterly subscription performance into an **Annual Run Rate (ARR)** and model compounding 12-month revenue growth trajectories.
 
@@ -167,8 +167,7 @@ $$\text{Projected Exit ARR} = \text{Month 12 Revenue} \times 12$$
 
 ---
 
-## Frequently Asked Questions
-
+## Revenue Run Rate Calculator Frequently Asked Questions
 ### What is a Revenue Run Rate (ARR Run Rate)?
 A revenue run rate extrapolates current short-term financial performance (such as a recent month or quarter) over a full 12-month period, assuming existing performance continues.
 

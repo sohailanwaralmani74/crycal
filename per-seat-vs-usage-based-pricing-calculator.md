@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Per Seat Vs Usage Based Pricing | Interactive Online Tool"
+title: "per Seat vs Usage Based Pricing Calculator | SaaS Pricing &"
 description: "Compare projected monthly and annual revenue between per-seat licensing and consumption usage-based pricing models for your SaaS platform."
 permalink: /per-seat-vs-usage-based-pricing-calculator
 tool_id: per-seat-vs-usage-based-pricing-calculator
@@ -157,7 +157,7 @@ faq:
 
 ---
 
-# Per Seat Vs Usage Based Pricing Calculator
+# per Seat vs Usage Based Pricing Calculator - Calculate Tier Profitability & ARPU
 
 Compare projected revenue streams between traditional **Per-Seat Licensing** and modern **Consumption Usage-Based Pricing** models.
 
@@ -171,8 +171,7 @@ This calculator allows product and pricing teams to run side-by-side financial s
 
 ---
 
-## Key Mathematical Formulas
-
+## Key per Seat vs Usage Based Pricing Calculator Mathematical Formulas
 ### 1. Per-Seat Revenue Calculation
 
 $$ \text{Per-Seat MRR} = \text{Accounts} \times \text{Seats per Account} \times \text{Seat Price} $$
@@ -214,8 +213,7 @@ $$ \text{Usage Year 2 ARR} = \text{Usage ARR} \times (1 + \text{Usage Growth \%}
 
 ---
 
-## Frequently Asked Questions
-
+## per Seat vs Usage Based Pricing Calculator Frequently Asked Questions
 ### What is per-seat pricing in SaaS?
 Per-seat pricing charges a fixed monthly or annual fee for each user seat granted access to the software (e.g. $30 per user/month).
 

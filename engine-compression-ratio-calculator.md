@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Engine Compression Ratio | Interactive Online Tool"
+title: "Engine Compression Ratio Calculator | Vehicle Specs & Power"
 description: "Free online Engine Compression Ratio. Calculate car payments, TCO, fuel MPG, and EV charging with instant client-side browser math and charts."
 permalink: /engine-compression-ratio-calculator
 tool_id: engine-compression-ratio-calculator
@@ -157,7 +157,7 @@ faq:
 
 ---
 
-# Engine Compression Ratio Calculator
+# Engine Compression Ratio Calculator - Calculate Horsepower & Acceleration
 
 Calculate your engine's **static compression ratio** (e.g. 10.5:1) and total clearance volume from cylinder bore, stroke, combustion chamber volume, piston dish/dome, head gasket thickness, and deck height.
 
@@ -221,8 +221,7 @@ Key volume components:
 
 ---
 
-## Mathematical Formulas
-
+## Engine Compression Ratio Calculator Mathematical Formulas
 ### 1. Single Cylinder Swept Volume ($V_s$) in CC
 \[
 V_s = \left[ \pi \times \left(\frac{\text{Bore}_{\text{in}}}{2}\right)^2 \times \text{Stroke}_{\text{in}} \right] \times 16.387064
@@ -251,8 +250,7 @@ V_s = \left[ \pi \times \left(\frac{\text{Bore}_{\text{in}}}{2}\right)^2 \times 
 
 ---
 
-## Step-by-Step Usage Guide
-
+## Step-by-Step Engine Compression Ratio Calculator Usage Guide
 1. **Enter Bore & Stroke**: Input cylinder bore (e.g. 4.00 in) and stroke (3.48 in).
 2. **Provide Chamber Volume**: Enter cylinder head chamber CC (e.g. 64 cc).
 3. **Set Piston Volume**: Input dish volume (+cc) or dome volume (-cc).
@@ -261,8 +259,7 @@ V_s = \left[ \pi \times \left(\frac{\text{Bore}_{\text{in}}}{2}\right)^2 \times 
 
 ---
 
-## Frequently Asked Questions
-
+## Engine Compression Ratio Calculator Frequently Asked Questions
 ### What is static compression ratio?
 Static compression ratio is the ratio of cylinder maximum volume at Bottom Dead Center (BDC) to cylinder minimum volume at Top Dead Center (TDC): $\text{CR} = \frac{V_{\text{swept}} + V_{\text{clearance}}}{V_{\text{clearance}}}$.
 

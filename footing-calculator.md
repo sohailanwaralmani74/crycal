@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Footing | Interactive Online Tool"
+title: "Footing Calculator | Concrete & Masonry Estimating"
 description: "Calculate continuous foundation footing concrete volume in cubic yards, rebar linear feet, and total material cost."
 permalink: /footing-calculator
 tool_id: footing-calculator
@@ -140,11 +140,9 @@ faq:
     answer: "Footings must extend below your local frost depth line (typically 12 inches in warm climates up to 48+ inches in freezing northern regions)."
   - question: "How wide should a concrete footing be relative to the wall?"
     answer: "As a rule of thumb, foundation footings are twice as wide as the foundation wall they support (e.g., a 20-inch wide footing for a 10-inch stem wall)."
-  - question: "Is my personal calculation data stored or tracked?"
-    answer: "No. All calculation operations run privately inside your local browser."
 ---
 
-# Footing Calculator
+# Footing Calculator - Calculate Volume, Bags & Materials
 
 Calculate exact ready-mix concrete **cubic yardage**, **rebar linear footage**, and total material cost for continuous residential and commercial foundation footings.
 
@@ -184,8 +182,7 @@ $$\text{Total Footing Cost} = (\text{Concrete Vol} \times \text{Price/yd}) + (\t
 
 ---
 
-## Frequently Asked Questions
-
+## Footing Calculator Frequently Asked Questions
 ### How much concrete do I need for a 150 ft footing?
 A 150 ft long footing that is 20 inches wide and 12 inches deep requires approximately 10.19 cubic yards of concrete (including a 10% waste factor).
 
@@ -204,5 +201,3 @@ Footings must extend below your local frost depth line (typically 12 inches in w
 ### How wide should a concrete footing be relative to the wall?
 As a rule of thumb, foundation footings are twice as wide as the foundation wall they support (e.g., a 20-inch wide footing for a 10-inch stem wall).
 
-### Is my personal calculation data stored or tracked?
-No. All calculation operations run privately inside your local browser.

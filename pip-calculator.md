@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Pip | Interactive Online Tool"
+title: "Pip Calculator | Investment & Portfolio Return"
 description: "Calculate the pip value for any market. Enter pip size, contract size, and trade size to see your pip value. Supports local currency exchange."
 permalink: /pip-calculator
 tool_id: pip-calculator
@@ -146,12 +146,10 @@ faq:
     answer: "If the rate provider is unavailable or doesn't support a currency, the tool falls back to showing your pip value in the quote currency only, with a clear note that conversion is unavailable."
   - question: "Can I use this calculator for stocks or commodities?"
     answer: "Yes — this calculator works for any market where 'pip' or 'tick' size is defined. Just enter the appropriate pip size, contract size, and quote currency for your instrument."
-  - question: "Is my data stored anywhere?"
-    answer: "No calculation data is stored on our servers. History and presets are saved locally in your browser's localStorage. Currency codes (not amounts) are sent to a third-party rate provider solely to fetch the conversion rate."
 
 ---
 
-# Pip Calculator
+# Pip Calculator - Calculate Return, Yield & Portfolio Risk
 
 Use this pip calculator to determine the pip value for any market — and convert it into your account currency using a live exchange rate. Enter the pip size, contract size, and trade size — the tool shows your pip value per lot, for your specific trade, and converted to your account currency. Works for Forex, commodities, indices, and any market with a defined pip or tick size.
 
@@ -194,8 +192,7 @@ The result is then converted to your account currency using a live exchange rate
 
 ---
 
-## Frequently Asked Questions
-
+## Pip Calculator Frequently Asked Questions
 ### What is a pip?
 A pip (Percentage in Point) is the smallest price movement in a financial instrument. In Forex, most pairs have a pip size of 0.0001. JPY pairs have a pip size of 0.01. Gold and other commodities may have different pip sizes.
 
@@ -211,6 +208,3 @@ Rates come from a third-party public exchange rate API, for reference only — n
 ### What happens if a live rate can't be fetched?
 The tool falls back to showing your pip value in the quote currency, with a clear note that conversion is unavailable.
 
-### Is my data stored anywhere?
-No calculation data is stored on our servers. History and presets are saved locally in your browser.
----

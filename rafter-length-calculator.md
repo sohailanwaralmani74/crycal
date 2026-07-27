@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Rafter Length | Interactive Online Tool"
+title: "Rafter Length Calculator | Lumber & Framing Estimating"
 description: "Calculate common rafter length, ridge beam deductions, overhang tails, roof pitch angles, and stock lumber board sizes using our rafter calculator."
 permalink: /rafter-length-calculator
 tool_id: rafter-length-calculator
@@ -131,11 +131,9 @@ faq:
     answer: "Always round up to the next standard commercial board length (e.g., 8', 10', 12', 14', 16', 18', 20') to allow for bird's mouth plumb cuts and fascia trimming."
   - question: "How do you convert pitch to degrees?"
     answer: "Pitch angle in degrees = arctan(Pitch / 12) × (180 / π). For example, a 6/12 pitch equals arctan(0.5) = 26.57 degrees."
-  - question: "Is my rafter framing calculation saved on external servers?"
-    answer: "No. All calculation logic executes locally in your browser."
 ---
 
-# Rafter Length Calculator
+# Rafter Length Calculator - Calculate Board Feet & Wood Quantity
 
 Calculate exact **common rafter lengths**, ridge setback deductions, overhang tails, roof slope degrees, and recommended stock board sizes for roof framing.
 
@@ -175,8 +173,7 @@ $$\text{Pitch Angle } (\theta) = \arctan\left(\frac{\text{Pitch}}{12}\right) \ti
 
 ---
 
-## Frequently Asked Questions
-
+## Rafter Length Calculator Frequently Asked Questions
 ### What is the formula for calculating rafter length?
 Rafter length is calculated using the Pythagorean theorem: Rafter Length = √(Adjusted Run² + Total Rise²), where Adjusted Run = Roof Run - (Half Ridge Thickness / 12) and Total Rise = Adjusted Run × (Pitch / 12).
 
@@ -195,5 +192,3 @@ Always round up to the next standard commercial board length (e.g., 8', 10', 12'
 ### How do you convert pitch to degrees?
 Pitch angle in degrees = arctan(Pitch / 12) × (180 / π). For example, a 6/12 pitch equals arctan(0.5) = 26.57 degrees.
 
-### Is my rafter framing calculation saved on external servers?
-No. All calculation logic executes locally in your browser.

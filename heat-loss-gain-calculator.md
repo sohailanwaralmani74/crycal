@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Heat Loss Gain | Interactive Online Tool"
+title: "Heat Loss Gain Calculator | HVAC & Insulation Sizing"
 description: "Calculate building thermal envelope BTU heat loss for heating capacity (kW/MBH) and solar/conductive heat gain for cooling load (tons)."
 permalink: /heat-loss-gain-calculator
 tool_id: heat-loss-gain-calculator
@@ -190,11 +190,9 @@ faq:
     answer: "MBH represents 1,000 BTUs per hour (M = Roman numeral 1,000). A furnace rated at 60 MBH produces 60,000 BTUs of heat per hour."
   - question: "How does air infiltration affect heat loss calculations?"
     answer: "Infiltration (drafts through cracks and door gaps) accounts for 20% to 40% of total building heat loss. Standard Manual J calculations add air exchange infiltration BTUs to basic conductive envelope losses."
-  - question: "Is my personal data saved when using this calculator?"
-    answer: "No. All calculation logic runs locally in your browser."
 ---
 
-# Heat Loss Gain Calculator
+# Heat Loss Gain Calculator - Calculate BTU Load & R-Value Insulation
 
 Calculate building envelope heat loss in BTU/hr, furnace kW/MBH output requirements, and summer heat gain cooling tons with our free **Heat Loss & Heat Gain Calculator**.
 
@@ -247,8 +245,7 @@ $$\text{Total Envelope Heat Loss (BTU/hr)} = (Q_{\text{wall}} + Q_{\text{window}
 
 ---
 
-## Frequently Asked Questions
-
+## Heat Loss Gain Calculator Frequently Asked Questions
 ### What is the difference between heat loss and heat gain?
 Heat loss measures thermal energy escaping outward through walls, windows, and ceilings during cold winter weather. Heat gain measures external heat entering the building through conduction and solar radiation during summer.
 
@@ -267,5 +264,3 @@ MBH represents 1,000 BTUs per hour (M = Roman numeral 1,000). A furnace rated at
 ### How does air infiltration affect heat loss calculations?
 Infiltration (drafts through cracks and door gaps) accounts for 20% to 40% of total building heat loss. Standard Manual J calculations add air exchange infiltration BTUs to basic conductive envelope losses.
 
-### Is my personal data saved when using this calculator?
-No. All calculation logic runs locally in your browser.

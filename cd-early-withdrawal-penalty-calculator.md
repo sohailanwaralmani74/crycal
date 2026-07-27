@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Cd Early Withdrawal Penalty | Interactive Online Tool"
+title: "CD Early Withdrawal Penalty Calculator | Compound Interest &"
 description: "Calculate the penalty for withdrawing from a CD before maturity. Enter your deposit amount, term, interest rate, and withdrawal month to see your penalty."
 permalink: /cd-early-withdrawal-penalty-calculator
 tool_id: cd-early-withdrawal-penalty-calculator
@@ -144,12 +144,10 @@ faq:
     answer: "The penalty applies when you withdraw funds before the CD's maturity date. Most banks allow a grace period of 7-10 days after maturity without penalty."
   - question: "What is the penalty period on a CD?"
     answer: "The penalty period is the number of months of interest you forfeit. For CDs under 12 months, the penalty is often 3 months of interest. For longer-term CDs, it can be 6 months or more."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. No data is sent to any server."
 
 ---
 
-# Cd Early Withdrawal Penalty Calculator
+# CD Early Withdrawal Penalty Calculator - Project Wealth Accumulation & Yield
 
 Calculate the penalty for withdrawing from a CD before maturity. Enter your deposit amount, term, interest rate, and withdrawal month to see your penalty — all without your data leaving your browser.
 
@@ -224,8 +222,7 @@ If the penalty is small and you have a better use for the money, early withdrawa
 
 ---
 
-## Frequently Asked Questions
-
+## CD Early Withdrawal Penalty Calculator Frequently Asked Questions
 ### What is a CD early withdrawal penalty?
 A fee charged by the bank when you withdraw money from a CD before its maturity date, typically 3-6 months of interest.
 
@@ -238,5 +235,3 @@ When you withdraw funds before the CD's maturity date. Most banks allow a grace 
 ### What is the penalty period on a CD?
 The number of months of interest you forfeit. For CDs under 12 months, it's often 3 months. For longer-term CDs, it can be 6 months or more.
 
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. No data is sent to any server.

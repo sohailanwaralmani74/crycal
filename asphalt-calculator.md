@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Asphalt Tonnage & Cost Calculator | Paving Estimator"
+title: "Asphalt Calculator | Concrete & Masonry Estimating"
 description: "Calculate asphalt tonnage, cubic yards, square footage, and total material cost for driveways and parking lots based on thickness in inches."
 permalink: /asphalt-calculator
 tool_id: asphalt-calculator
@@ -148,7 +148,7 @@ faq:
     answer: "Adding 5% to 10% accounts for subgrade thickness variations, edge spillage, hand raking loss, and truck bed residual waste."
 ---
 
-# Asphalt Calculator
+# Asphalt Calculator - Calculate Volume, Bags & Materials
 
 Estimate asphalt tonnage, cubic yards, square feet coverage, and project material cost for residential driveways, parking lots, and pathways.
 
@@ -187,8 +187,7 @@ $$\text{Total Cost} = \text{Tonnage}_{\text{gross}} \times \text{Price per Ton}$
 
 ---
 
-## Real-World Comparison & Benchmark Table
-
+## Asphalt Calculator Benchmarks & Comparison Table
 Coverage rates and volume benchmarks per ton of hot mix asphalt across common compacted thicknesses:
 
 | Compacted Thickness | Coverage per Ton (Sq Ft) | Volume per Ton (Cu Yds) | Recommended Application |
@@ -202,8 +201,7 @@ Coverage rates and volume benchmarks per ton of hot mix asphalt across common co
 
 ---
 
-## Step-by-Step How-To Guide
-
+## How to Use the Asphalt Calculator Step-by-Step
 1. **Measure Paving Dimensions:** Measure length and width of the driveway or parking lot in feet to calculate total square footage.
 2. **Select Compacted Depth:** Choose thickness in inches based on expected load requirements (e.g., 2" overlay, 3" driveway, 4" parking lot).
 3. **Set Material Density:** Use default 145 lbs/cu ft for standard dense hot mix asphalt (HMA).
@@ -212,8 +210,7 @@ Coverage rates and volume benchmarks per ton of hot mix asphalt across common co
 
 ---
 
-## Frequently Asked Questions
-
+## Asphalt Calculator Frequently Asked Questions
 ### How many square feet does 1 ton of asphalt cover?
 At a standard compacted depth of 2 inches, 1 ton of asphalt covers approximately 80 square feet. At 3 inches depth, 1 ton covers roughly 53.3 square feet.
 

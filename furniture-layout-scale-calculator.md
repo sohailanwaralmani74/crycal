@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Furniture Layout Scale | Interactive Online Tool"
+title: "Furniture Layout Scale Calculator | Interior Design Measurements"
 description: "Calculate room walkway clearance (30-36 minimums), coffee table distance (14-18), furniture-to-room scale density ratios, and floor layout space."
 permalink: /furniture-layout-scale-calculator
 tool_id: furniture-layout-scale-calculator
@@ -143,11 +143,9 @@ faq:
     answer: "Leave at least 36 inches between the edge of a dining table and surrounding walls or sideboards so guests can pull chairs back and walk behind seated diners easily."
   - question: "Can a sofa block a window?"
     answer: "While it is best to leave windows clear, low-backed sofas (under sill height) can sit in front of windows without blocking natural light. Ensure at least a 2-inch gap between sofa back cushions and window drapes."
-  - question: "Is my personal data saved when using this calculator?"
-    answer: "No. All calculations run strictly in your web browser."
 ---
 
-# Furniture Layout Scale Calculator
+# Furniture Layout Scale Calculator - Calculate Dimensions, Spacing & Cut Widths
 
 Designing an inviting living room requires proper visual scale and comfortable foot traffic circulation. Use our **Furniture Layout & Scale Calculator** to evaluate room density ratios, coffee table ergonomic reach, and verify that main traffic walkways maintain standard 30 to 36-inch clearance.
 
@@ -202,8 +200,7 @@ The table below demonstrates furniture density ratios, remaining open room spans
 
 ---
 
-## Frequently Asked Questions
-
+## Furniture Layout Scale Calculator Frequently Asked Questions
 ### What is the standard minimum walkway clearance in living room design?
 Main traffic pathways require 30 to 36 inches of unobstructed width so two people can pass each other comfortably. Secondary pathways between accent chairs or end tables require a minimum of 24 inches.
 
@@ -222,5 +219,3 @@ Leave at least 36 inches between the edge of a dining table and surrounding wall
 ### Can a sofa block a window?
 While it is best to leave windows clear, low-backed sofas (under sill height) can sit in front of windows without blocking natural light. Ensure at least a 2-inch gap between sofa back cushions and window drapes.
 
-### Is my personal data saved when using this calculator?
-No. All calculations run strictly in your web browser.

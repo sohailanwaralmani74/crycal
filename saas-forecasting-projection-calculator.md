@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Saas Forecasting Projection | Interactive Online Tool"
+title: "Saas Forecasting Projection Calculator | SaaS Recurring Revenue"
 description: "Project 1 to 3 year ARR growth based on net new MRR acquisition, expansion rates, and monthly churn assumptions."
 permalink: /saas-forecasting-projection-calculator
 tool_id: saas-forecasting-projection-calculator
@@ -142,7 +142,7 @@ faq:
 
 ---
 
-# Saas Forecasting Projection Calculator
+# Saas Forecasting Projection Calculator - Calculate MRR, ARR & Growth Metrics
 
 Project **1 to 3 Year Annual Recurring Revenue (ARR)** trajectories based on new logo MRR acquisition velocity, account expansion rates, and monthly revenue churn assumptions.
 
@@ -190,8 +190,7 @@ $$\text{Cumulative Earned Revenue} = \sum_{m=1}^{12 \times k} \text{Month}_m \te
 
 ---
 
-## Frequently Asked Questions
-
+## Saas Forecasting Projection Calculator Frequently Asked Questions
 ### How does a SaaS revenue forecasting model work?
 The model calculates monthly compounding MRR using the formula: Month_n MRR = Month_(n-1) MRR + New Logo MRR + (Month_(n-1) MRR × Expansion %) − (Month_(n-1) MRR × Churn %). Exit ARR is calculated as Month 12, 24, or 36 MRR × 12.
 

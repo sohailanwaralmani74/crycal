@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Engine Displacement | Interactive Online Tool"
+title: "Engine Displacement Calculator | Vehicle Specs & Power"
 description: "Calculate total engine displacement in Liters, Cubic Centimeters (CC), and Cubic Inches (CID) from cylinder bore, stroke length, and cylinder count."
 permalink: /engine-displacement-calculator
 tool_id: engine-displacement-calculator
@@ -128,7 +128,7 @@ faq:
 
 ---
 
-# Engine Displacement Calculator
+# Engine Displacement Calculator - Calculate Horsepower & Acceleration
 
 Calculate total **engine displacement** in **Liters (L)**, **Cubic Centimeters (CC)**, and **Cubic Inches (CID)** from cylinder bore diameter, piston stroke length, and cylinder count.
 
@@ -191,8 +191,7 @@ Key geometric parameters:
 
 ---
 
-## Mathematical Formulas
-
+## Engine Displacement Calculator Mathematical Formulas
 ### 1. Single Cylinder Volume in Cubic Inches ($V_{\text{cyl, in3}}$)
 \[
 V_{\text{cyl, in3}} = \pi \times \left( \frac{\text{Bore}_{\text{in}}}{2} \right)^2 \times \text{Stroke}_{\text{in}} = 0.785398 \times \text{Bore}^2 \times \text{Stroke}
@@ -228,8 +227,7 @@ R_{B/S} = \frac{\text{Bore}}{\text{Stroke}}
 
 ---
 
-## Step-by-Step Usage Guide
-
+## Step-by-Step Engine Displacement Calculator Usage Guide
 1. **Select Input Units**: Choose Inches or Millimeters.
 2. **Input Cylinder Bore**: Enter cylinder diameter (e.g. 4.00 inches).
 3. **Input Piston Stroke**: Enter piston stroke length (e.g. 3.48 inches).
@@ -238,8 +236,7 @@ R_{B/S} = \frac{\text{Bore}}{\text{Stroke}}
 
 ---
 
-## Frequently Asked Questions
-
+## Engine Displacement Calculator Frequently Asked Questions
 ### What is engine displacement?
 Engine displacement is the total swept volume of air/fuel mixture displaced by all pistons moving from Bottom Dead Center (BDC) to Top Dead Center (TDC) inside the cylinders.
 

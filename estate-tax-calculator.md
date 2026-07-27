@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Estate Tax Calculator | Federal Exemption Tool"
+title: "Estate Tax Calculator | Tax Rates & Deductions"
 description: "Calculate federal estate taxes, lifetime exemption thresholds, and net wealth transfers for high-net-worth estates. 100% private browser tool."
 permalink: /estate-tax-calculator
 tool_id: estate-tax-calculator
@@ -129,7 +129,7 @@ faq:
     answer: "Yes, all estate tax calculations run 100% locally inside your web browser. No asset valuations, debt figures, or estate details are stored or transmitted."
 ---
 
-# Estate Tax Calculator
+# Estate Tax Calculator - Calculate Tax Liability & Savings
 
 Calculate potential federal estate taxes, net wealth transfers, and lifetime exemption threshold usage for high-net-worth estates with 100% private browser execution.
 
@@ -141,8 +141,7 @@ Federal estate taxes apply to the transfer of property at death for high-net-wor
 
 Gross estate calculations encompass all real property, corporate shares, personal property, cash reserves, and life insurance policy death proceeds over which the decedent retained incidents of ownership. Subtracting mortgages, outstanding liabilities, administrative expenses, and charitable bequests yields the net taxable estate. By testing different asset values, exemption limits, and liability scenarios in this calculator, individuals and families can proactively evaluate trust structures, gifting strategies, and insurance liquidity plans.
 
-## Mathematical Formulas & Mechanics
-
+## Estate Tax Calculator Mathematical Formulas & Mechanics
 The federal estate tax liability calculation determines the net estate value, compares it against applicable lifetime exemption allowances, and applies statutory federal tax rates.
 
 ### 1. Net Estate Value
@@ -161,8 +160,7 @@ $$T_{estate} = E_{taxable} \times r_{estate}$$
 
 Where $A_{gross}$ includes all taxable assets, $D_{estate}$ includes liabilities and expenses, $X_{lifetime}$ represents the individual's remaining federal gift and estate exemption, and $r_{estate}$ represents top federal estate tax rates.
 
-## Real-World Comparison & Benchmark Table
-
+## Estate Tax Calculator Benchmarks & Comparison Table
 | Gross Estate Assets | Debts & Expenses | Net Estate Value | Lifetime Exemption Limit | Taxable Excess Above Cap | Federal Estate Tax (40%) |
 |---|---|---|---|---|---|
 | **$12,000,000** | $500,000 | $11,500,000 | $13,610,000 | $0 | **$0** |
@@ -171,16 +169,14 @@ Where $A_{gross}$ includes all taxable assets, $D_{estate}$ includes liabilities
 | **$27,220,000 (Married)** | $1,220,000 | $26,000,000 | $27,220,000 | $0 | **$0** |
 | **$35,000,000 (Married)** | $2,000,000 | $33,000,000 | $27,220,000 | $5,780,000 | **$2,312,000** |
 
-## Step-by-Step How-To Guide
-
+## How to Use the Estate Tax Calculator Step-by-Step
 1. **Enter Gross Estate Value**: Input total gross estate asset value, including real estate, investments, business holdings, and life insurance.
 2. **Input Estate Debts & Liabilities**: Enter mortgages, loan balances, unpaid debts, executor fees, and legal administrative costs.
 3. **Set Lifetime Federal Exemption Limit**: Input applicable federal exemption amount ($13.61M individual or $27.22M for combined married portability).
 4. **Specify Top Estate Tax Rate**: Set marginal tax percentage (standard federal top rate is 40%).
 5. **Review Taxable Excess & Liability**: Analyze net estate value, excess above exemption, and projected federal estate tax owed.
 
-## Frequently Asked Questions
-
+## Estate Tax Calculator Frequently Asked Questions
 ### What is the federal estate tax exemption?
 The federal estate tax exemption is the dollar threshold below which an estate pays zero federal estate tax ($13.61 Million per individual in 2024, or $27.22 Million for married couples).
 

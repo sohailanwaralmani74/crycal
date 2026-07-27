@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Fire | Interactive Online Tool"
+title: "FIRE Calculator | Financial Independence Target"
 description: "Calculate your Financial Independence (FI) number and track your progress toward early retirement with our FIRE calculator."
 permalink: /fire-calculator
 tool_id: fire
@@ -207,12 +207,10 @@ faq:
     answer: "Your savings rate is the single most important factor in FIRE. A higher savings rate means you're saving more and spending less, which accelerates your path to financial independence dramatically."
   - question: "What's the difference between leanFIRE, regular FIRE, and fatFIRE?"
     answer: "LeanFIRE involves retiring with a bare-minimum lifestyle (lower expenses). Regular FIRE is the standard approach with moderate expenses. FatFIRE involves retiring with a high-expense lifestyle, requiring a much larger FI Number."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server."
 
 ---
 
-# Fire Calculator
+# FIRE Calculator - Calculate Early Retirement Nest Egg
 
 Use this FIRE calculator to calculate your Financial Independence (FI) number and track your progress toward early retirement. Enter your annual expenses, current savings, income, expected return, and safe withdrawal rate — the tool shows your FI Number, time to reach FI, age at FI, and your progress percentage. Whether you're pursuing leanFIRE, regular FIRE, or fatFIRE, this financial independence calculator helps you plan your journey.
 
@@ -261,8 +259,7 @@ For example:
 
 ---
 
-## Frequently Asked Questions
-
+## FIRE Calculator Frequently Asked Questions
 ### What is the FIRE movement?
 FIRE stands for Financial Independence, Retire Early. It's a movement focused on achieving financial independence through aggressive saving and investing, allowing you to retire much earlier than the traditional retirement age.
 
@@ -277,9 +274,6 @@ Your savings rate is the single most important factor in FIRE. A higher savings 
 
 ### What's the difference between leanFIRE, regular FIRE, and fatFIRE?
 LeanFIRE involves retiring with a bare-minimum lifestyle (lower expenses). Regular FIRE is the standard approach with moderate expenses. FatFIRE involves retiring with a high-expense lifestyle, requiring a much larger FI Number.
-
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server.
 
 ---
 

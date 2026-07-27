@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Gravel Aggregate | Interactive Online Tool"
+title: "Gravel Aggregate Calculator | Concrete & Masonry Estimating"
 description: "Calculate cubic yards, tons of gravel, pea gravel, river rock, and crushed stone for driveways, pathways, and compaction subbase with total cost."
 permalink: /gravel-aggregate-calculator
 tool_id: gravel-aggregate-calculator
@@ -145,7 +145,7 @@ faq:
   - answer: "No. All calculations run locally in your web browser."
 ---
 
-# Gravel Aggregate Calculator
+# Gravel Aggregate Calculator - Calculate Volume, Bags & Materials
 
 Calculate total **Cubic Yards**, weight in **Tons**, and estimated material cost for gravel, crushed stone, pea gravel, river rock, and decomposed granite.
 
@@ -193,8 +193,7 @@ $$\text{Total Cost} = \text{Tons} \times \text{Price Per Ton}$$
 
 ---
 
-## Frequently Asked Questions
-
+## Gravel Aggregate Calculator Frequently Asked Questions
 ### How many tons of gravel are in a cubic yard?
 One cubic yard of crushed gravel weighs approximately 1.35 tons (2,700 lbs), while pea gravel weighs ~1.30 tons and decomposed granite weighs ~1.50 tons.
 
@@ -213,5 +212,3 @@ Bulk gravel costs between $35 and $65 per cubic yard ($40 to $75 per ton), depen
 ### What is the difference between pea gravel and crushed stone?
 Pea gravel consists of naturally rounded, smooth river stones ideal for pathways, whereas crushed stone has sharp angular edges that interlock tightly for stable driveways.
 
-### Is my personal data saved?
-No. All calculations run locally in your web browser.

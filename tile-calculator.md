@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Tile | Interactive Online Tool"
+title: "Tile Calculator | Floor & Wall Tile Count"
 description: "Calculate total tiles needed, number of boxes, square footage, waste allowance, and material cost for floor and wall tiling projects."
 permalink: /tile-calculator
 tool_id: tile-calculator
@@ -167,11 +167,9 @@ faq:
     answer: "Grout joint widths (1/8\" to 1/4\") reduce the required tile area slightly, but in practice, installers treat this extra space as a safety margin for edge cuts and layout alignment."
   - question: "Should I buy extra tiles for future repairs?"
     answer: "Yes. Keeping 1 full extra box (or 5% to 10% extra) of your specific dye lot is strongly recommended for future plumbing repairs, cracked tiles, or remodeling."
-  - question: "Is my personal data saved when using this calculator?"
-    answer: "No. All computations are run privately inside your local web browser."
 ---
 
-# Tile Calculator
+# Tile Calculator - Calculate Tile Box Quantity & Square Feet
 
 Easily calculate the exact number of **tiles, box cartons needed**, waste overage, and material expenses for your bathroom, kitchen, or patio tiling project with our free **Tile Calculator**.
 
@@ -227,8 +225,7 @@ Below is a benchmark breakdown for a **15 ft × 12 ft (180 sq ft) room** assumin
 
 ---
 
-## Frequently Asked Questions
-
+## Tile Calculator Frequently Asked Questions
 ### How many 12x12 tiles do I need for a 100 sq ft room?
 A 100 sq ft room requires exactly 100 net 12x12 inch tiles. Adding a 10% waste factor brings the recommendation to 110 tiles (or approximately 7 boxes at 16 sq ft per box).
 
@@ -247,5 +244,3 @@ Grout joint widths (1/8" to 1/4") reduce the required tile area slightly, but in
 ### Should I buy extra tiles for future repairs?
 Yes. Keeping 1 full extra box (or 5% to 10% extra) of your specific dye lot is strongly recommended for future plumbing repairs, cracked tiles, or remodeling.
 
-### Is my personal data saved when using this calculator?
-No. All computations are run privately inside your local web browser.

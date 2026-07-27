@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Ev Range Estimator | Interactive Online Tool"
+title: "EV Range Estimator | EV Charging & Range"
 description: "Estimate real-world driving range for electric vehicles based on usable battery kWh, driving speed, ambient temperature, HVAC system usage, and terrain."
 permalink: /ev-range-estimator
 tool_id: ev-range-estimator
@@ -151,7 +151,7 @@ faq:
 
 ---
 
-# Ev Range Estimator Calculator
+# EV Range Estimator - Calculate Charging Time & Battery Cost
 
 Estimate real-world electric vehicle (EV) driving range under varying speeds, winter temperatures, HVAC cabin heating, and hilly terrain.
 
@@ -215,8 +215,7 @@ Key range reduction factors:
 
 ---
 
-## Mathematical Formulas
-
+## EV Range Estimator Mathematical Formulas
 ### 1. Speed Adjustment Factor ($M_{\text{speed}}$)
 Standard baseline speed is 55 mph ($M_{\text{speed}} = 1.0$):
 \[
@@ -251,8 +250,7 @@ M_{\text{temp}} = \begin{cases}
 
 ---
 
-## Step-by-Step Usage Guide
-
+## Step-by-Step EV Range Estimator Usage Guide
 1. **Enter Net Battery Capacity**: Provide your vehicle's usable battery size in kWh (e.g. 75 kWh).
 2. **Input Rated Efficiency**: Enter your EV's rated EPA efficiency (e.g. 3.5 mi/kWh or ~285 Wh/mi).
 3. **Select Cruise Speed**: Set your highway speed (e.g. 70 mph).
@@ -261,8 +259,7 @@ M_{\text{temp}} = \begin{cases}
 
 ---
 
-## Frequently Asked Questions
-
+## EV Range Estimator Frequently Asked Questions
 ### Why is EPA rated range often higher than real-world highway range?
 EPA tests combine moderate speeds (average ~48 mph) and ambient temperatures (70°F–75°F). Cruising at 70–75 mph significantly increases aerodynamic drag, reducing range by 15% to 25%.
 

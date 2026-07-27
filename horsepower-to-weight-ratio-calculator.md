@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Horsepower To Weight Ratio | Interactive Online Tool"
+title: "Horsepower to Weight Ratio Calculator | Vehicle Specs & Power"
 description: "Calculate your vehicles power-to-weight ratio in horsepower per US ton (hp/ton), pounds per hp (lbs/hp), and kW/tonne, and discover your..."
 permalink: /horsepower-to-weight-ratio-calculator
 tool_id: horsepower-to-weight-ratio-calculator
@@ -118,7 +118,7 @@ faq:
 
 ---
 
-# Horsepower To Weight Ratio Calculator
+# Horsepower to Weight Ratio Calculator - Calculate Horsepower & Acceleration
 
 Calculate your vehicle's power-to-weight ratio in **horsepower per US ton (hp/ton)**, **pounds per horsepower (lbs/hp)**, and **kilowatts per metric tonne (kW/tonne)**.
 
@@ -180,8 +180,7 @@ Key ratio metrics:
 
 ---
 
-## Mathematical Formulas
-
+## Horsepower to Weight Ratio Calculator Mathematical Formulas
 ### 1. Gross Weight ($W_{\text{gross}}$)
 \[
 W_{\text{gross}} = W_{\text{curb}} + W_{\text{driver}}
@@ -217,8 +216,7 @@ W_{\text{gross}} = W_{\text{curb}} + W_{\text{driver}}
 
 ---
 
-## Step-by-Step Usage Guide
-
+## Step-by-Step Horsepower to Weight Ratio Calculator Usage Guide
 1. **Enter Horsepower**: Input peak engine output rating (e.g. 400 hp).
 2. **Input Curb Weight**: Enter factory curb weight (e.g. 3,200 lbs).
 3. **Add Driver & Cargo Weight**: Enter combined driver and passenger payload (e.g. 180 lbs).
@@ -226,8 +224,7 @@ W_{\text{gross}} = W_{\text{curb}} + W_{\text{driver}}
 
 ---
 
-## Frequently Asked Questions
-
+## Horsepower to Weight Ratio Calculator Frequently Asked Questions
 ### What is a good horsepower-to-weight ratio for a sports car?
 A sports car typically has a power-to-weight ratio between 200 and 300 hp per ton (8 to 10 lbs/hp). High-performance supercars exceed 400 hp per ton (sub-5 lbs/hp).
 

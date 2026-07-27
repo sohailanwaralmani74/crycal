@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Tire Pressure | Interactive Online Tool"
+title: "Tire Pressure Calculator | Tire Size & Wheel Fitment"
 description: "Calculate ideal cold tire pressure (PSI) adjustments for heavy cargo loads, towing, and ambient cold winter temperature drops to prevent uneven..."
 permalink: /tire-pressure-calculator
 tool_id: tire-pressure-calculator
@@ -151,12 +151,10 @@ faq:
     answer: "Underinflated tires suffer from increased rolling resistance, reduced fuel economy, accelerated shoulder tread wear, sluggish handling, and higher risk of hydroplaning."
   - question: "Does driving increase tire pressure?"
     answer: "Yes. Friction and heat generated while driving typically increase internal tire pressure by 3 to 5 PSI above cold inflation pressure."
-  - question: "Is my tire pressure data stored or transmitted?"
-    answer: "No. All calculations run strictly in your browser using local JavaScript routines."
 
 ---
 
-# Tire Pressure Calculator
+# Tire Pressure Calculator - Calculate Diameter & Speedometer Offset
 
 Calculate exact cold tire pressure (PSI) adjustments for seasonal winter cold snaps, heavy luggage, or trailer towing with our free **Tire Pressure Calculator**.
 
@@ -170,12 +168,10 @@ When ambient temperatures drop drastically in winter or when carrying heavy carg
 
 ---
 
-## Calculation Flow & Mathematical Formulas
-
+## Tire Pressure Calculator Calculation Flow & Formulas
 The engine combines Gay-Lussac's Ideal Gas Law approximations for temperature with linear load distribution factors:
 
-### Inputs & Parameters
-
+### Tire Pressure Calculator Inputs & Parameters
 | Input Parameter | Description |
 | :--- | :--- |
 | **Baseline OEM PSI (\(P_{base}\))** | Cold tire pressure printed on vehicle door jamb |
@@ -186,8 +182,7 @@ The engine combines Gay-Lussac's Ideal Gas Law approximations for temperature wi
 
 ---
 
-### Step-by-Step Formulas
-
+### Step-by-Step Tire Pressure Calculator Formulas
 #### 1. Temperature Pressure Adjustment (\(\Delta P_{temp}\))
 \[
 \Delta P_{temp} = \frac{T_{base} - T_{current}}{10} \times 1.0 \text{ PSI}
@@ -216,8 +211,7 @@ P_{target} = \min\left(P_{base} + \Delta P_{temp} + \Delta P_{load},\, P_{sidewa
 
 ---
 
-## Step-by-Step How-To Guide
-
+## How to Use the Tire Pressure Calculator Step-by-Step
 1. **Check Door Placard**: Note your car's recommended cold pressure (e.g., `32 PSI`).
 2. **Input Current Weather**: Enter today's ambient outdoor temperature.
 3. **Account for Weight**: Enter total estimated cargo, gear, and tongue weight.
@@ -225,8 +219,7 @@ P_{target} = \min\left(P_{base} + \Delta P_{temp} + \Delta P_{load},\, P_{sidewa
 
 ---
 
-## Frequently Asked Questions
-
+## Tire Pressure Calculator Frequently Asked Questions
 ### How much does tire pressure drop when temperature decreases?
 As a general rule of thumb, tire pressure drops by approximately **1 PSI for every 10°F (5.6°C)** drop in ambient temperature due to thermal contraction of air inside the tire.
 
@@ -245,5 +238,3 @@ Underinflated tires suffer from increased rolling resistance, reduced fuel econo
 ### Does driving increase tire pressure?
 Yes. Friction and heat generated while driving typically increase internal tire pressure by **3 to 5 PSI** above cold inflation pressure.
 
-### Is my tire pressure data stored or transmitted?
-No. All calculations run strictly in your browser using local JavaScript routines.

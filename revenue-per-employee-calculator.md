@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Revenue Per Employee | Interactive Online Tool"
+title: "Revenue per Employee Calculator | SaaS Team & Operating Cost"
 description: "Calculate organizational Revenue Per Employee (RPE) by dividing annual ARR by total full-time headcount. Compare performance against industry benchmarks."
 permalink: /revenue-per-employee-calculator
 tool_id: revenue-per-employee-calculator
@@ -120,7 +120,7 @@ faq:
     answer: "Increase RPE by automating manual customer support workflows, expanding self-serve PLG tiers, optimizing pricing models, and upskilling existing team members."
 ---
 
-# Revenue Per Employee Calculator
+# Revenue per Employee Calculator - Calculate OpEx & Headcount Budget
 
 Measure operational leverage and workforce efficiency with our **Revenue Per Employee Calculator**. Compare your organization's ARR per employee against SaaS industry benchmarks.
 
@@ -136,8 +136,7 @@ Revenue Per Employee is the ultimate indicator of operational leverage, software
 
 ---
 
-## Mathematical Formulas
-
+## Revenue per Employee Calculator Mathematical Formulas
 ### 1. Revenue Per Employee (RPE)
 
 $$ \text{Revenue Per Employee (RPE)} = \frac{\text{Annual Recurring Revenue (ARR)}}{\text{Total Full-Time Headcount (FTEs)}} $$
@@ -161,8 +160,7 @@ $$ \text{Variance vs Target} = \text{Actual RPE} - \text{Target Benchmark RPE} $
 
 ---
 
-## Step-by-Step Guide
-
+## Step-by-Step Revenue per Employee Calculator Guide
 1. **Pull Current ARR**: Input active Annual Recurring Revenue from your subscription engine.
 2. **Count Total FTEs**: Include all salaried full-time employees across engineering, sales, and support.
 3. **Compare Status to Benchmarks**: Evaluate whether your RPE indicates lean productivity or over-staffing.
@@ -170,8 +168,7 @@ $$ \text{Variance vs Target} = \text{Actual RPE} - \text{Target Benchmark RPE} $
 
 ---
 
-## Frequently Asked Questions
-
+## Revenue per Employee Calculator Frequently Asked Questions
 ### What is Revenue Per Employee (RPE)?
 Revenue Per Employee (RPE) is an operational efficiency ratio calculated by dividing a company's total annual revenue by its total full-time employee headcount.
 

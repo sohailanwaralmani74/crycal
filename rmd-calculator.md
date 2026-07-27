@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Rmd | Interactive Online Tool"
+title: "RMD Calculator | Calculation & Analysis"
 description: "Use our free RMD Calculator to calculate your required minimum distribution from retirement accounts. Enter age, account balance, for RMD amount."
 permalink: /rmd-calculator
 tool_id: rmd-calculator
@@ -135,12 +135,10 @@ faq:
     answer: "If you fail to take your full RMD, the IRS imposes a 25% penalty on the amount not withdrawn (reduced to 10% if corrected within the correction window)."
   - question: "Can I withdraw more than my RMD?"
     answer: "Yes. You can always withdraw more than your RMD. However, you cannot use excess withdrawals in one year to offset RMDs in future years."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. No data is sent to any server."
 
 ---
 
-# Rmd Calculator
+# RMD Calculator - Calculate & Optimize Results
 
 Calculate your Required Minimum Distribution (RMD) with our free **RMD Calculator**. Enter your age, account balance, and beneficiary information to see your RMD amount based on IRS life expectancy tables — all without your data leaving your browser.
 
@@ -252,8 +250,7 @@ John must withdraw at least $20,243 from his IRA during the year.
 
 ---
 
-## Frequently Asked Questions
-
+## RMD Calculator Frequently Asked Questions
 ### What is a Required Minimum Distribution (RMD)?
 A Required Minimum Distribution (RMD) is the minimum amount you must withdraw from your retirement accounts each year once you reach a certain age.
 
@@ -269,5 +266,3 @@ If you fail to take your full RMD, the IRS imposes a 25% penalty on the amount n
 ### Can I withdraw more than my RMD?
 Yes. You can always withdraw more than your RMD. However, you cannot use excess withdrawals in one year to offset RMDs in future years.
 
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. No data is sent to any server.

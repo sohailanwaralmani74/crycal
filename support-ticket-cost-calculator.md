@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Support Ticket Cost | Interactive Online Tool"
+title: "Support Ticket Cost Calculator | SaaS Team & Operating Cost"
 description: "Calculate the fully-loaded cost to resolve one customer support ticket based on support team payroll, software tools, and ticket volume."
 permalink: /support-ticket-cost-calculator
 tool_id: support-ticket-cost-calculator
@@ -131,7 +131,7 @@ faq:
     answer: "Reduce cost per ticket by improving in-product UI UX clarity, publishing detailed documentation, using AI auto-responders, and implementing macros for common questions."
 ---
 
-# Support Ticket Cost Calculator
+# Support Ticket Cost Calculator - Calculate OpEx & Headcount Budget
 
 Accurately calculate the unit cost per resolved customer inquiry with our **Support Ticket Cost Calculator**. Include support agent payroll, helpdesk tooling (Zendesk/Intercom), and ticket volume.
 
@@ -147,8 +147,7 @@ Customer support is a critical component of customer retention and SaaS gross ma
 
 ---
 
-## Mathematical Formulas
-
+## Support Ticket Cost Calculator Mathematical Formulas
 ### 1. Cost Per Ticket
 
 $$ \text{Total Monthly Support Expense} = \text{Monthly Support Payroll} + \text{Monthly Support Software} $$
@@ -176,8 +175,7 @@ $$ \text{Annual Support Expenditure} = \text{Total Monthly Support Expense} \tim
 
 ---
 
-## Step-by-Step Guide
-
+## Step-by-Step Support Ticket Cost Calculator Guide
 1. **Sum Monthly Support Payroll**: Include salaries, benefits, and team lead management overhead.
 2. **Add Helpdesk Tool Subscriptions**: Add Zendesk, Intercom, Gong, and phone provider invoices.
 3. **Export Monthly Ticket Count**: Filter closed/resolved tickets from your helpdesk report.
@@ -185,8 +183,7 @@ $$ \text{Annual Support Expenditure} = \text{Total Monthly Support Expense} \tim
 
 ---
 
-## Frequently Asked Questions
-
+## Support Ticket Cost Calculator Frequently Asked Questions
 ### What is Cost Per Support Ticket?
 Cost Per Support Ticket is a customer operations metric measuring the fully-loaded financial cost to answer, troubleshoot, and resolve a single customer inquiry.
 

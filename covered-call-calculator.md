@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Covered Call | Interactive Online Tool"
+title: "Covered Call Calculator | Investment & Portfolio Return"
 description: "Calculate option premium income, annualized options yield, downside protection percentage, and maximum profit for covered call strategies."
 permalink: /covered-call-calculator
 tool_id: covered-call-calculator
@@ -131,11 +131,9 @@ faq:
     answer: "Yes! Combining dividend yields with option premium yields generates powerful double-digit income streams for long-term buy-and-hold investors."
   - question: "What is the primary risk of selling covered calls?"
     answer: "The primary risks are capped upside gains during sharp stock rallies and downside loss exposure if the underlying stock drops significantly below your break-even price."
-  - question: "Is my personal financial data saved on any server?"
-    answer: "No. All calculations run locally inside your web browser. History and saved presets are stored strictly in your browser's local storage."
 ---
 
-# Covered Call Calculator
+# Covered Call Calculator - Calculate Return, Yield & Portfolio Risk
 
 Calculate option premium income, annualized option yield, downside protection percentage, and maximum profit for **Covered Call** strategies with our free calculator.
 
@@ -172,8 +170,7 @@ $$\text{Max Profit} = (\text{Strike Price} - \text{Stock Price}) + \text{Option 
 
 ---
 
-## Frequently Asked Questions
-
+## Covered Call Calculator Frequently Asked Questions
 ### What is a covered call option strategy?
 A covered call involves owning 100 shares of stock and selling a call option against those shares to generate instant income (premium), providing a downside buffer while capping upside profit.
 
@@ -192,5 +189,3 @@ Yes! Combining dividend yields with option premium yields generates powerful dou
 ### What is the primary risk of selling covered calls?
 The primary risks are capped upside gains during sharp stock rallies and downside loss exposure if the underlying stock drops significantly below your break-even price.
 
-### Is my personal financial data saved on any server?
-No. All calculations run locally inside your web browser. History and saved presets are stored strictly in your browser's local storage.

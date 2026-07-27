@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Mortgage Recasting | Interactive Online Tool"
+title: "Mortgage Recasting Calculator | Mortgage Payment & Interest"
 description: "Free online Mortgage Recasting. Calculate loan payments, interest growth, taxes, and financial metrics with instant browser math and charts."
 permalink: /mortgage-recasting-calculator
 tool_id: mortgage-recasting-calculator
@@ -170,12 +170,10 @@ faq:
     answer: "Yes — most lenders charge a recast fee, typically between $150 and $500. The calculator includes a recast fee input to factor this cost into your analysis."
   - question: "How long does it take to break even on a mortgage recast?"
     answer: "The break‑even period is the number of months it takes for your monthly savings to cover the cost of the recast fee (if any)."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. No data is sent to any server."
 
 ---
 
-# Mortgage Recasting Calculator
+# Mortgage Recasting Calculator - Calculate Home Loan Payment & Amortization
 
 Use our free **Mortgage Recasting Calculator** to see how a lump‑sum payment reduces your monthly mortgage payment. Compare current vs recast payments instantly — all without your data leaving your browser.
 
@@ -209,8 +207,7 @@ This **home loan recast calculator** is designed for:
 
 ---
 
-## Frequently Asked Questions
-
+## Mortgage Recasting Calculator Frequently Asked Questions
 ### What is a mortgage recast?
 A mortgage recast is when you make a large lump‑sum payment toward your principal and your lender recalculates your monthly payment based on the new lower balance, while keeping the same interest rate and loan term.
 
@@ -226,5 +223,3 @@ Yes — most lenders charge a recast fee, typically between $150 and $500. The c
 ### How long does it take to break even on a mortgage recast?
 The break‑even period is the number of months it takes for your monthly savings to cover the cost of the recast fee (if any).
 
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. No data uploaded, no signup.

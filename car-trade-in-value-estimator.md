@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Car Trade In Value Estimator | Interactive Online Tool"
+title: "Car Trade In Value Estimator | 5-Year Ownership Expenses"
 description: "Estimate dealer trade-in value vs private party sale value, accounting for vehicle condition, excess mileage, and state sales tax trade-in credits."
 permalink: /car-trade-in-value-estimator
 tool_id: car-trade-in-value-estimator
@@ -145,7 +145,7 @@ faq:
 
 ---
 
-# Car Trade In Value Estimator Calculator
+# Car Trade In Value Estimator - Calculate Total Cost of Vehicle Ownership
 
 Estimate dealer trade-in value versus private party sale value, accounting for vehicle condition, mileage adjustments, and state sales tax trade-in credits.
 
@@ -238,8 +238,7 @@ $$\text{Net Advantage} = \text{Private Sale Value} - \left( \text{Trade-In Value
 
 ---
 
-## Step-by-Step Guide
-
+## Step-by-Step Car Trade In Value Estimator Guide
 ### Step 1: Input Baseline Retail Value
 Enter current estimated retail value from market listings or valuation guides.
 
@@ -254,8 +253,7 @@ Determine if the net private selling premium is worth the extra time and effort 
 
 ---
 
-## Frequently Asked Questions
-
+## Car Trade In Value Estimator Frequently Asked Questions
 ### Why is dealer trade-in value lower than private party sale value?
 Car dealerships purchase trade-in vehicles at wholesale prices (typically 12% to 20% below retail) to cover reconditioning, inspection, warranty costs, and profit margin.
 
@@ -274,5 +272,5 @@ Yes, excess mileage lowers trade-in value by approximately $0.08 to $0.15 for ev
 ### Should I repair dented bodywork before trading in?
 Minor cosmetic touch-ups or detail cleaning yield good ROI, but expensive body repairs rarely pay off since dealers perform body repairs at wholesale labor rates.
 
-### Is this calculation private?
+### Is Car Trade In Value Estimator calculation private?
 Yes, all data processing takes place strictly inside your browser.

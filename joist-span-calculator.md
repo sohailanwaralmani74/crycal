@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Floor & Deck Joist Span Limit Calculator"
+title: "Joist Span Calculator | Lumber & Framing Estimating"
 description: "Determine max joist span limits for Southern Pine, Douglas Fir, and SPF lumber at 12, 16, or 24 inch spacing with private browser-based math."
 permalink: /joist-span-calculator
 tool_id: joist-span-calculator
@@ -155,7 +155,7 @@ faq:
     answer: "Southern Yellow Pine #2 and Douglas Fir-Larch #2 have the highest modulus of elasticity ($E$) and bending strength ($F_b$), allowing longer spans than Spruce-Pine-Fir (SPF)."
 ---
 
-# Maximum Joist Span & Framing Capacity Calculator
+# Joist Span Calculator - Calculate Board Feet & Wood Quantity
 
 Calculate maximum allowable clear span limits for floor joists, ceiling joists, and deck framing members based on International Residential Code (IRC) engineering tables.
 All calculations execute 100% privately inside your web browser with real-time recalculations and zero data tracking.
@@ -168,7 +168,7 @@ Over-spanning floor joists results in bouncy, squeaky floors, cracked drywall ce
 
 This **Joist Span Calculator** determines maximum clear span limits between beam supports based on lumber species, nominal size ($2\text{x}6$ to $2\text{x}12$), on-center spacing ($12"$, $16"$, $24"$), and design live/dead loads.
 
-### Key Benefits
+### Key Benefits of Joist Span Calculator
 * **Code-Compliant Engine:** Built on American Wood Council (AWC) and IRC allowable joist span tables.
 * **Species Engineering:** Adjusts spans for Southern Yellow Pine, Douglas Fir, SPF, and Hem-Fir.
 * **Deflection Standards:** Enforces $L/360$ living area deflection limits and $L/240$ deck/roof limits.
@@ -176,8 +176,7 @@ This **Joist Span Calculator** determines maximum clear span limits between beam
 
 ---
 
-## Mathematical Formulas & Mechanics
-
+## Joist Span Calculator Mathematical Formulas & Mechanics
 ### 1. Bending Stress & Allowable Moment
 Maximum allowable bending moment ($M_{\text{allow}}$) for joist section modulus ($S$) and allowable bending design value ($F_b'$):
 
@@ -201,8 +200,7 @@ Where moment of inertia $I = \frac{b \cdot d^3}{12}$. The final allowable span i
 
 ---
 
-## Real-World Comparison & Benchmark Table
-
+## Joist Span Calculator Benchmarks & Comparison Table
 The IRC span benchmark table below displays maximum clear spans for **Southern Yellow Pine #2** under standard residential floor loads ($40\text{ PSF Live} / 10\text{ PSF Dead}$):
 
 | Joist Size | 12-Inch Spacing (12" OC) | 16-Inch Spacing (16" OC) | 24-Inch Spacing (24" OC) | Typical Application |
@@ -214,8 +212,7 @@ The IRC span benchmark table below displays maximum clear spans for **Southern Y
 
 ---
 
-## Step-by-Step How-To Guide
-
+## How to Use the Joist Span Calculator Step-by-Step
 1. **Identify Wood Species Grade:** Check the grade stamp printed on your framing lumber (e.g., SYP #2, Doug-Fir #2, SPF #2).
 2. **Select Joist Nominal Size:** Determine if framing uses $2\text{x}6$, $2\text{x}8$, $2\text{x}10$, or $2\text{x}12$ dimensional lumber.
 3. **Determine Framing Spacing:** Standard floor framing uses 16 inches on-center; heavy subfloors or decks use 12 inches on-center.
@@ -224,8 +221,7 @@ The IRC span benchmark table below displays maximum clear spans for **Southern Y
 
 ---
 
-## Frequently Asked Questions
-
+## Joist Span Calculator Frequently Asked Questions
 ### How far can a 2x10 joist span for a floor?
 A Southern Yellow Pine #2 2x10 joist spaced 16 inches on-center can span up to 16 feet 1 inch under standard residential floor loads (40 PSF live load / 10 PSF dead load).
 

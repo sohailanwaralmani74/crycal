@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Car Braking Distance | Interactive Online Tool"
+title: "Car Braking Distance Calculator | Vehicle Specs & Power"
 description: "Calculate vehicle braking distance and total stopping distance in feet and meters based on speed, friction coefficient (dry/wet/ice), and driver..."
 permalink: /car-braking-distance-calculator
 tool_id: car-braking-distance-calculator
@@ -130,7 +130,7 @@ faq:
 
 ---
 
-# Car Braking Distance Calculator
+# Car Braking Distance Calculator - Calculate Horsepower & Acceleration
 
 Calculate physical **braking distance** and **total stopping distance** in feet and meters based on vehicle speed, road surface friction coefficient ($\\mu$), driver reaction time, and road grade.
 
@@ -191,8 +191,7 @@ Key stopping phases:
 
 ---
 
-## Mathematical Formulas
-
+## Car Braking Distance Calculator Mathematical Formulas
 ### 1. Perception-Reaction Distance ($d_{\text{react}}$)
 \[
 d_{\text{react}} = v_{\text{mph}} \times 1.46667 \times t_{\text{react}}
@@ -222,8 +221,7 @@ d_{\text{total}} = d_{\text{react}} + d_{\text{brake}}
 
 ---
 
-## Step-by-Step Usage Guide
-
+## Step-by-Step Car Braking Distance Calculator Usage Guide
 1. **Enter Vehicle Speed**: Input initial travel speed in MPH (e.g. 60 mph).
 2. **Select Road Condition**: Choose dry, wet, snow, or ice surface friction.
 3. **Input Reaction Delay**: Set reaction time in seconds (e.g. 1.5 seconds).
@@ -232,8 +230,7 @@ d_{\text{total}} = d_{\text{react}} + d_{\text{brake}}
 
 ---
 
-## Frequently Asked Questions
-
+## Car Braking Distance Calculator Frequently Asked Questions
 ### What is the difference between braking distance and stopping distance?
 Braking distance is the physical distance the car travels from when brakes are applied until coming to a complete stop. Total stopping distance includes reaction distance (distance traveled during driver perception and leg movement time).
 

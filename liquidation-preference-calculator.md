@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Liquidation Preference | Interactive Online Tool"
+title: "Liquidation Preference Calculator | Startup Funding & Valuation"
 description: "Calculate preferred investor waterfall payouts and common founder returns under 1x Non-Participating versus Participating Preferred stock terms."
 permalink: /liquidation-preference-calculator
 tool_id: liquidation-preference-calculator
@@ -148,7 +148,7 @@ faq:
 
 ---
 
-# Liquidation Preference Calculator
+# Liquidation Preference Calculator - Calculate ARR Multiple & Valuation
 
 Calculate investor exit payouts and founder common stock proceeds with our free **Liquidation Preference Calculator**. Compare **1x Non-Participating Preferred** vs **Participating Preferred** terms across custom exit sale valuations.
 
@@ -205,8 +205,7 @@ $$\text{Investor Payout}_{Part} = \begin{cases} \min(\text{Cap} \times I, \text{
 
 ---
 
-## Frequently Asked Questions
-
+## Liquidation Preference Calculator Frequently Asked Questions
 ### What is a liquidation preference in venture capital?
 A liquidation preference dictates the order and amount of cash payout investors receive before common stock founders during a company sale, merger, or liquidation.
 

@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Laminate Flooring | Interactive Online Tool"
+title: "Laminate Flooring Calculator | Flooring Square Footage"
 description: "Calculate laminate flooring cartons, underlayment rolls, transition T-molding strips, waste percentage, and total material cost."
 permalink: /laminate-flooring-calculator
 tool_id: laminate-flooring-calculator
@@ -150,11 +150,9 @@ faq:
     answer: "Laminate expands and contracts with changes in seasonal humidity. Leaving a 1/4\" to 3/8\" gap against walls (covered by baseboards or quarter-round molding) prevents buckling."
   - question: "Can laminate flooring be installed over concrete?"
     answer: "Yes, provided you use an underlayment with an integrated 6-mil polyethylene vapor barrier film to block subfloor moisture."
-  - question: "Is my project data stored online?"
-    answer: "No. All calculations run privately within your local web browser."
 ---
 
-# Laminate Flooring Calculator
+# Laminate Flooring Calculator - Calculate Tiles, Planks & Material Need
 
 Accurately calculate **laminate plank cartons**, foam underlayment rolls, transition T-molding strips, and material costs with our free **Laminate Flooring Calculator**.
 
@@ -209,8 +207,7 @@ Below is an estimated material breakdown for a **400 sq ft room** with **24 sq f
 
 ---
 
-## Frequently Asked Questions
-
+## Laminate Flooring Calculator Frequently Asked Questions
 ### Do I need underlayment for laminate flooring?
 Yes. Unless your laminate planks come manufactured with pre-attached foam backing, separate foam or felt underlayment is required to smooth minor subfloor imperfections, reduce sound, and act as a vapor barrier.
 
@@ -229,5 +226,3 @@ Laminate expands and contracts with changes in seasonal humidity. Leaving a 1/4"
 ### Can laminate flooring be installed over concrete?
 Yes, provided you use an underlayment with an integrated 6-mil polyethylene vapor barrier film to block subfloor moisture.
 
-### Is my project data stored online?
-No. All calculations run privately within your local web browser.

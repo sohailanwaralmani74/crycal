@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Employee Equity Value Estimator | Interactive Online Tool"
+title: "Employee Equity Value Estimator | Startup Funding & Valuation"
 description: "Estimate employee stock option financial gain at M&A or IPO exit after deducting strike price exercise costs and estimated capital gains taxes."
 permalink: /employee-equity-value-estimator
 tool_id: employee-equity-value-estimator
@@ -136,7 +136,7 @@ faq:
 
 ---
 
-# Employee Equity Value Estimator Calculator
+# Employee Equity Value Estimator - Calculate ARR Multiple & Valuation
 
 Estimate your net cash payout from startup stock options upon an IPO or M&A acquisition with our free **Employee Equity Value Estimator**. Model strike price exercise costs, gross proceeds, and estimated tax liabilities.
 
@@ -189,8 +189,7 @@ $$\text{Net Take-Home Cash} = G_{pre} - \text{Tax Liability}$$
 
 ---
 
-## Frequently Asked Questions
-
+## Employee Equity Value Estimator Frequently Asked Questions
 ### What is strike price in employee stock options?
 Strike price (or exercise price) is the fixed price per share at which an employee can purchase company stock, established by a 409A valuation at the time of grant.
 

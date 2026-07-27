@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Cohort Churn & Retention Rate Calculator | SaaS"
+title: "Churn by Cohort Calculator | SaaS Churn & Retention"
 description: "Calculate cohort churn rates, customer retention curves, net MRR retention, and decay velocity over time across customer signup cohorts."
 permalink: /churn-by-cohort-calculator
 tool_id: churn-by-cohort-calculator
@@ -149,7 +149,7 @@ faq:
     answer: "Popular SaaS analytics platforms that generate automated cohort retention matrices include Mixpanel, Amplitude, Baremetrics, ProfitWell, and ChartMogul."
 ---
 
-# Churn by Cohort Calculator
+# Churn by Cohort Calculator - Calculate Logo Churn & Revenue Retention
 
 Model customer retention curves, cumulative 12-month cohort churn, MRR decay velocity, and long-term customer survival rates across subscriber cohorts.
 
@@ -170,8 +170,7 @@ Conducting **Cohort Churn Analysis** allows product, growth, and customer succes
 
 ---
 
-## Mathematical Formulas & Mechanics
-
+## Churn by Cohort Calculator Mathematical Formulas & Mechanics
 ### 1. Cohort Retention Rate by Month ($M_t$)
 $$\text{Retention Rate } R_t (\%) = \left( \frac{C_t}{C_0} \right) \times 100$$
 
@@ -188,8 +187,7 @@ $$\text{Cohort MRR}_t = C_0 \times \text{ARPU}_0 \times \left( \frac{\text{Net R
 
 ---
 
-## Real-World Comparison & Benchmark Table
-
+## Churn by Cohort Calculator Benchmarks & Comparison Table
 Standard 12-month cohort customer retention benchmarks across B2B and B2C SaaS models:
 
 | SaaS Business Model | Month 1 Retention Target | Month 3 Retention Target | Month 6 Retention Target | Month 12 Retention Target | Retention Curve Trajectory |
@@ -201,8 +199,7 @@ Standard 12-month cohort customer retention benchmarks across B2B and B2C SaaS m
 
 ---
 
-## Step-by-Step How-To Guide
-
+## How to Use the Churn by Cohort Calculator Step-by-Step
 1. **Enter Initial Cohort Size (Month 0):** Input total number of new paying customer accounts acquired in your chosen cohort month.
 2. **Input Retained Customer Counts:** Enter active remaining customers at Month 1, Month 3, Month 6, and Month 12 checkpoints.
 3. **Set Starting ARPU:** Input average monthly subscription revenue per account at signup.
@@ -212,18 +209,16 @@ Standard 12-month cohort customer retention benchmarks across B2B and B2C SaaS m
 ---
 
 
-## Strategic Value & Implementation Guidance
-
+## Strategic Guidance for Churn by Cohort Calculator
 Using this interactive calculation engine provides a clear, quantitative roadmap for your decisions. By eliminating mathematical uncertainty, you can optimize financial allocations, compare scenarios side-by-side, and make data-driven choices.
 
-### Key Tactical Benefits
+### Key Tactical Benefits of Churn by Cohort Calculator
 - **Mathematical Certainty**: Eliminates guesswork by modeling multi-variable compounding and precise cost structures.
 - **Scenario Comparison**: Test multiple interest rates, payment timelines, and capital allocations in real-time.
 - **Privacy Assurance**: All data remains 100% confidential within your local browser memory, with zero remote server logging.
 - **Export & Audit Readiness**: Log calculations to local browser storage, export full histories to CSV/Excel, or share via link.
 
-## Frequently Asked Questions
-
+## Churn by Cohort Calculator Frequently Asked Questions
 ### What is cohort churn analysis in SaaS?
 Cohort churn analysis tracks a specific group of customers who signed up during the same timeframe (e.g., January 2026 cohort) to measure how customer retention and revenue decay over subsequent months.
 
@@ -247,11 +242,10 @@ Popular SaaS analytics platforms that generate automated cohort retention matric
 
 
 
-## Advanced Analysis & Strategic Guidelines
-
+## Advanced Churn by Cohort Calculator Guidelines
 Understanding these metrics in detail provides founders, financial planners, and managers with an actionable framework for sustainable long-term decision making.
 
-### Key Decision Factors
+### Key Decision Factors for Churn by Cohort Calculator
 1. **Capital Optimization**: Focus cash flow and investment on channels delivering the highest net lifetime value.
 2. **Risk Mitigation**: Build reserves to withstand macroeconomic fluctuations and rate adjustments.
 3. **Data Integrity**: Audit inputs periodically against verified bank statements, billing receipts, or contracts.

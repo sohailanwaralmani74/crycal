@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "4 Percent Rule | Interactive Online Tool"
+title: "4% Rule FIRE Calculator | Retirement Portfolio & Withdrawals"
 description: "Use the 4% Rule Calculator to estimate how much you can safely withdraw from your retirement portfolio each year without running out of money."
 permalink: /4-percent-rule-calculator
 tool_id: 4-percent-rule-calculator
@@ -124,11 +124,9 @@ faq:
     answer: "Under the classic 4% rule, the dollar amount of your withdrawal increases each year by the inflation rate, keeping your purchasing power constant regardless of portfolio performance."
   - question: "What happens if the market drops significantly?"
     answer: "The classic 4% rule doesn't adjust for market downturns, which is a key criticism — some retirees use more flexible strategies that reduce withdrawals during down markets to improve portfolio longevity."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. No data is sent to any server."
 ---
 
-# 4 Percent Rule Calculator
+# 4% Rule FIRE Calculator - Calculate Safe Retirement Withdrawal Rate
 
 Use the **4% Rule Calculator** to estimate how much you can safely withdraw from your retirement portfolio each year without running out of money.
 
@@ -194,8 +192,7 @@ This **safe withdrawal rate calculator** is designed for:
 
 ---
 
-## Frequently Asked Questions
-
+## 4% Rule FIRE Calculator Frequently Asked Questions
 ### What is the 4% rule?
 The 4% rule is a retirement withdrawal guideline suggesting that withdrawing 4% of your portfolio in the first year of retirement, then adjusting that dollar amount for inflation each subsequent year, has historically had a high probability of lasting 30 years without depleting the portfolio.
 
@@ -208,5 +205,3 @@ Under the classic 4% rule, the dollar amount of your withdrawal increases each y
 ### What happens if the market drops significantly?
 The classic 4% rule doesn't adjust for market downturns, which is a key criticism — some retirees use more flexible strategies that reduce withdrawals during down markets to improve portfolio longevity.
 
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. No data is sent to any server.

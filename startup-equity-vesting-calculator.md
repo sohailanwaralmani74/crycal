@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Startup Equity Vesting | Interactive Online Tool"
+title: "Startup Equity Vesting Calculator | Startup Funding & Valuation"
 description: "Calculate vested equity shares, unvested shares, and dollar value based on a standard 4-year vesting schedule with a 1-year cliff."
 permalink: /startup-equity-vesting-calculator
 tool_id: startup-equity-vesting-calculator
@@ -150,12 +150,10 @@ faq:
     answer: "Acceleration allows unvested shares to vest immediately upon specific events, such as acquisition (Single-Trigger) or acquisition followed by termination (Double-Trigger)."
   - question: "Do founders also have vesting schedules?"
     answer: "Yes. Venture capital investors require co-founders to submit to 4-year reverse vesting schedules to ensure long-term alignment and protect company continuity."
-  - question: "Is my equity data stored securely?"
-    answer: "Yes. All computations execute locally in your client web browser with zero server data storage."
 
 ---
 
-# Startup Equity Vesting Calculator
+# Startup Equity Vesting Calculator - Calculate ARR Multiple & Valuation
 
 Calculate your vested shares, unvested shares, and current dollar equity value with our free **Startup Equity Vesting Calculator**. Model standard 4-year vesting schedules with a 1-year cliff and monthly linear vesting trajectories.
 
@@ -205,8 +203,7 @@ $$\text{Unvested Shares} = S_{total} - S_{vested}$$
 
 ---
 
-## Frequently Asked Questions
-
+## Startup Equity Vesting Calculator Frequently Asked Questions
 ### What is a 4-year vesting schedule with a 1-year cliff?
 A standard 4-year vesting schedule with a 1-year cliff means no shares vest during the first 12 months. At month 12, exactly 25% of the total grant vests at once, followed by 1/48th vesting monthly for the remaining 36 months.
 
@@ -222,5 +219,3 @@ Acceleration allows unvested shares to vest immediately upon specific events, su
 ### Do founders also have vesting schedules?
 Yes. Venture capital investors require co-founders to submit to 4-year reverse vesting schedules to ensure long-term alignment and protect company continuity.
 
-### Is my equity data stored securely?
-Yes. All computations execute locally in your client web browser with zero server data storage.

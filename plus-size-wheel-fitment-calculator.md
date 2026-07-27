@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Plus Size Wheel Fitment | Interactive Online Tool"
+title: "Plus Size Wheel Fitment Calculator | Tire Size & Wheel Fitment"
 description: "Calculate Plus 1, Plus 2, and Plus 3 wheel sizing setups. Verify overall tire diameter stays within the safe 3% threshold when increasing rim diameter."
 permalink: /plus-size-wheel-fitment-calculator
 tool_id: plus-size-wheel-fitment-calculator
@@ -150,7 +150,7 @@ faq:
 
 ---
 
-# Plus Size Wheel Fitment Calculator
+# Plus Size Wheel Fitment Calculator - Calculate Diameter & Speedometer Offset
 
 Calculate Plus 1, Plus 2, and Plus 3 wheel sizing configurations with our free **Plus-Size Wheel Fitment Calculator**. Ensure target tire height remains within **±3% of stock specs** for safe handling and accurate speedometer calibration.
 
@@ -164,12 +164,10 @@ If you mount larger wheels without decreasing tire sidewall height proportionall
 
 ---
 
-## Calculation Flow & Mathematical Formulas
-
+## Plus Size Wheel Fitment Calculator Calculation Flow & Formulas
 Plus sizing follows standard rim diameter additions paired with lower aspect ratios:
 
-### Inputs & Parameters
-
+### Plus Size Wheel Fitment Calculator Inputs & Parameters
 | Parameter | Unit | Description |
 | :--- | :--- | :--- |
 | **OEM Width (\(W_{oem}\))** | mm | Factory tire section width |
@@ -179,8 +177,7 @@ Plus sizing follows standard rim diameter additions paired with lower aspect rat
 
 ---
 
-### Step-by-Step Formulas
-
+### Step-by-Step Plus Size Wheel Fitment Calculator Formulas
 #### 1. OEM Overall Diameter (\(D_{oem}\))
 \[
 H_{oem\_sw} = \frac{W_{oem} \times \frac{AR_{oem}}{100}}{25.4}
@@ -218,8 +215,7 @@ D_{plus} = R_{plus} + (2 \times H_{plus\_sw}) \quad \text{(in inches)}
 
 ---
 
-## Step-by-Step How-To Guide
-
+## How to Use the Plus Size Wheel Fitment Calculator Step-by-Step
 1. **Enter OEM Specs**: Read stock tire dimensions off door pillar (e.g. `205/55R16`).
 2. **Select Plus Upgrade**: Choose Plus 1 (+1" wheel), Plus 2 (+2" wheel), or Plus 3 (+3" wheel).
 3. **Select New Width & Profile**: Test wider widths (e.g. `225`) paired with lower aspect ratios (e.g. `45` or `40`).
@@ -227,8 +223,7 @@ D_{plus} = R_{plus} + (2 \times H_{plus\_sw}) \quad \text{(in inches)}
 
 ---
 
-## Frequently Asked Questions
-
+## Plus Size Wheel Fitment Calculator Frequently Asked Questions
 ### What is Plus 1 wheel upsizing?
 Plus 1 sizing increases wheel rim diameter by 1 inch while reducing sidewall aspect ratio (and usually increasing section width) to keep total outer tire height virtually identical to stock.
 

@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Roofing Square | Interactive Online Tool"
+title: "Roofing Square Calculator | Roof Squares & Shingle Bundles"
 description: "Calculate total roofing squares (1 sq = 100 sq ft), true roof surface area, slope pitch multipliers, and waste allowances for building projects."
 permalink: /roofing-square-calculator
 tool_id: roofing-square-calculator
@@ -133,11 +133,9 @@ faq:
     answer: "Roof overhangs extend beyond the exterior walls. A 1.5-foot overhang on a 30'x40' home increases the roof footprint from 1,200 sq ft to 1,419 sq ft before applying pitch multipliers."
   - question: "How many squares do I need for a 2,000 sq ft house?"
     answer: "A 2,000 sq ft single-story house with a 6/12 pitch and 1.5-ft overhangs typically requires approximately 26 to 28 roofing squares including waste."
-  - question: "Is my personal data saved when using this calculator?"
-    answer: "No. All calculations are performed entirely client-side in your web browser."
 ---
 
-# Roofing Square Calculator
+# Roofing Square Calculator - Calculate Roofing Material & Square Footage
 
 Accurately calculate **Roofing Squares** ($1\text{ square} = 100\text{ sq ft}$), sloped roof surface area, pitch slope multipliers, and material waste allowances with our free **Roofing Square Calculator**.
 
@@ -191,8 +189,7 @@ $$\text{Total Squares (with Waste)} = \frac{\text{Actual Roof Area} \times (1 + 
 
 ---
 
-## Frequently Asked Questions
-
+## Roofing Square Calculator Frequently Asked Questions
 ### What is a roofing square?
 A roofing square is the standard industry measurement unit equal to exactly 100 square feet of roof surface area.
 
@@ -211,5 +208,3 @@ Roof overhangs extend beyond the exterior walls. A 1.5-foot overhang on a 30'x40
 ### How many squares do I need for a 2,000 sq ft house?
 A 2,000 sq ft single-story house with a 6/12 pitch and 1.5-ft overhangs typically requires approximately 26 to 28 roofing squares including waste.
 
-### Is my personal data saved when using this calculator?
-No. All calculations are performed entirely client-side in your web browser.

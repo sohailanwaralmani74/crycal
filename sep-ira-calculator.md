@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Sep Ira | Interactive Online Tool"
+title: "SEP IRA Calculator | Calculation & Analysis"
 description: "Use the SEP IRA Calculator to estimate your maximum allowed SEP IRA contribution and the tax savings it could generate, based on your..."
 permalink: /sep-ira-calculator
 tool_id: sep-ira-calculator
@@ -106,11 +106,9 @@ faq:
     answer: "Yes. SEP IRA contributions are generally tax-deductible as a business expense or above-the-line deduction, reducing your taxable income for the year."
   - question: "Can employees contribute to their own SEP IRA?"
     answer: "No. Only the employer (including a self-employed individual for themselves) makes SEP IRA contributions; employees cannot make their own salary-deferral contributions to a SEP IRA."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. No data is sent to any server."
 ---
 
-# Sep Ira Calculator
+# SEP IRA Calculator - Calculate & Optimize Results
 
 Use the **SEP IRA Calculator** to estimate your maximum allowed SEP IRA contribution and the tax savings it could generate, based on your self-employment or business income.
 
@@ -170,8 +168,7 @@ This **SEP IRA contribution calculator** is designed for:
 
 ---
 
-## Frequently Asked Questions
-
+## SEP IRA Calculator Frequently Asked Questions
 ### What is a SEP IRA?
 A SEP IRA (Simplified Employee Pension) is a retirement plan that allows self-employed individuals and small business owners to make tax-deductible contributions to their own and their employees' retirement accounts.
 
@@ -183,8 +180,5 @@ Yes. SEP IRA contributions are generally tax-deductible as a business expense or
 
 ### Can employees contribute to their own SEP IRA?
 No. Only the employer (including a self-employed individual for themselves) makes SEP IRA contributions; employees cannot make their own salary-deferral contributions to a SEP IRA.
-
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. No data is sent to any server.
 
 <p class="tool-disclaimer">IRS contribution limits are adjusted periodically for inflation. Please verify the current limit before relying on these results for tax filing purposes.</p>

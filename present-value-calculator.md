@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Present Value | Interactive Online Tool"
+title: "Present Value Calculator | Compound Interest & Savings"
 description: "Use the Present Value Calculator to find out how much a future sum of money is worth today, based on a discount rate and time period."
 permalink: /present-value-calculator
 tool_id: present-value-calculator
@@ -106,11 +106,9 @@ faq:
     answer: "Money available today can be invested to earn a return, so a dollar today is generally worth more than a dollar received in the future — this is the time value of money."
   - question: "What discount rate should I use?"
     answer: "The discount rate typically reflects your required rate of return, cost of capital, or a benchmark like inflation or a risk-free rate such as Treasury yields."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. No data is sent to any server."
 ---
 
-# Present Value Calculator
+# Present Value Calculator - Project Wealth Accumulation & Yield
 
 Use the **Present Value Calculator** to find out how much a future sum of money is worth today, based on a discount rate and time period.
 
@@ -176,8 +174,7 @@ This **PV calculator** is designed for:
 
 ---
 
-## Frequently Asked Questions
-
+## Present Value Calculator Frequently Asked Questions
 ### What is present value?
 Present value is the current worth of a future sum of money, discounted back at a specific rate to account for the time value of money.
 
@@ -190,5 +187,3 @@ Money available today can be invested to earn a return, so a dollar today is gen
 ### What discount rate should I use?
 The discount rate typically reflects your required rate of return, cost of capital, or a benchmark like inflation or a risk-free rate such as Treasury yields.
 
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. No data is sent to any server.

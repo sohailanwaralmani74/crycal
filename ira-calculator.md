@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Ira | Interactive Online Tool"
+title: "IRA Calculator | Calculation & Analysis"
 description: "Estimate how much your IRA will grow by retirement. Use our IRA calculator to project your Traditional or Roth IRA balance over time."
 permalink: /ira-calculator
 tool_id: ira
@@ -194,12 +194,10 @@ faq:
     answer: "Traditional IRA contributions are tax-deductible, and withdrawals are taxed in retirement. Roth IRA contributions are made with after-tax dollars, but withdrawals in retirement are tax-free. This calculator works for both — it projects your balance regardless of tax treatment."
   - question: "How do fees affect my IRA growth?"
     answer: "Even small fees can significantly reduce your retirement savings over decades. This calculator subtracts annual fees from your balance to show the impact."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server."
 
 ---
 
-# Ira Calculator
+# IRA Calculator - Calculate & Optimize Results
 
 Use this IRA calculator to estimate how much your Individual Retirement Account (IRA) will grow by retirement. Enter your current age, retirement age, current balance, annual contribution, expected return, and fees — the tool shows your final balance, total contributions, total returns, and inflation-adjusted value. Whether you have a Traditional IRA or Roth IRA, this IRA retirement calculator helps you plan for the future.
 
@@ -247,8 +245,7 @@ The Inflation-Adjusted Value is calculated by discounting the final balance usin
 
 ---
 
-## Frequently Asked Questions
-
+## IRA Calculator Frequently Asked Questions
 ### What is an IRA calculator?
 An IRA calculator projects how much your Individual Retirement Account (IRA) will grow by the time you retire. It estimates the future value of your IRA based on your contributions, investment returns, fees, and time horizon.
 
@@ -263,9 +260,6 @@ Traditional IRA contributions are tax-deductible, and withdrawals are taxed in r
 
 ### How do fees affect my IRA growth?
 Even small fees can significantly reduce your retirement savings over decades. This calculator subtracts annual fees from your balance to show the impact.
-
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server.
 
 ---
 

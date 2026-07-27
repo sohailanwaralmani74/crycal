@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Stair Stringer | Interactive Online Tool"
+title: "Stair Stringer Calculator | Lumber & Framing Estimating"
 description: "Calculate exact stair riser count, exact riser height, tread run depth, total stair run length, 2x12 stringer hypotenuse length, and lumber cost."
 permalink: /stair-stringer-calculator
 tool_id: stair-stringer-calculator
@@ -152,11 +152,9 @@ faq:
     answer: "Stair stringers must be cut from 2x12 structural lumber boards. Never use 2x10s for cut stringers, as notch cutouts leave insufficient throat strength."
   - question: "How do I adjust the bottom and top of a cut stringer?"
     answer: "You must deduct the thickness of one tread board (e.g. 1.0 or 1.5 inches) from the bottom of the stringer so the first step matches all upper risers."
-  - question: "Is my personal data stored anywhere?"
-    answer: "No. All calculations run locally in your web browser."
 ---
 
-# Stair Stringer Calculator
+# Stair Stringer Calculator - Calculate Board Feet & Wood Quantity
 
 Calculate exact **stair riser counts**, individual **riser heights**, **tread depth run length**, 2x12 stringer diagonal hypotenuse, and total lumber expenses with our free **Stair Stringer Calculator**.
 
@@ -213,8 +211,7 @@ The table below shows stair geometry calculations across common total rise heigh
 
 ---
 
-## Frequently Asked Questions
-
+## Stair Stringer Calculator Frequently Asked Questions
 ### What is the maximum allowed stair riser height according to building code (IRC)?
 The International Residential Code (IRC) specifies a maximum riser height of 7.75 inches (7-3/4 in) and a minimum tread depth of 10 inches.
 
@@ -233,5 +230,3 @@ Stair stringers must be cut from 2x12 structural lumber boards. Never use 2x10s 
 ### How do I adjust the bottom and top of a cut stringer?
 You must deduct the thickness of one tread board (e.g. 1.0 or 1.5 inches) from the bottom of the stringer so the first step matches all upper risers.
 
-### Is my personal data stored anywhere?
-No. All calculations run locally in your web browser.

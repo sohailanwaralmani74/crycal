@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Amortization | Interactive Online Tool"
+title: "Amortization Calculator | Loan Payment & Interest Schedule"
 description: "Free online Amortization. Calculate loan payments, interest growth, taxes, and financial metrics with instant browser math and charts."
 permalink: /amortization-calculator
 tool_id: amortization
@@ -150,12 +150,10 @@ faq:
     answer: "The amortization formula calculates the fixed monthly payment needed to repay a loan. It is: M = P × r × (1 + r)^n / ((1 + r)^n − 1), where M is the monthly payment, P is the principal, r is the monthly interest rate, and n is the total number of payments."
   - question: "How does making extra payments affect my loan?"
     answer: "Extra payments reduce your principal faster, which lowers the total interest you pay and shortens your loan term. This amortization calculator shows you exactly how much time and money you can save."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server."
 
 ---
 
-# Amortization Calculator
+# Amortization Calculator - Breakdown Principal vs Interest Payments
 
 Use this amortization calculator to generate a complete loan amortization schedule. Enter your loan amount, interest rate, term, and optional extra payment — the tool shows your monthly payment, total interest, and a full breakdown of every payment. Whether you're planning a mortgage, auto loan, or personal loan, this loan amortization calculator helps you understand exactly how your payments reduce your balance over time.
 
@@ -205,8 +203,7 @@ Each payment is then broken down into:
 
 ---
 
-## Frequently Asked Questions
-
+## Amortization Calculator Frequently Asked Questions
 ### What is an amortization calculator?
 An amortization calculator shows you how each loan payment is split between principal and interest. It generates a complete amortization schedule, helping you understand exactly how your loan balance decreases over time.
 
@@ -221,9 +218,6 @@ The amortization formula calculates the fixed monthly payment needed to repay a 
 
 ### How does making extra payments affect my loan?
 Extra payments reduce your principal faster, which lowers the total interest you pay and shortens your loan term. This amortization calculator shows you exactly how much time and money you can save.
-
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server.
 
 ---
 

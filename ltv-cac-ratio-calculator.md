@@ -1,6 +1,6 @@
 ---
 layout: "tool"
-title: "LTV:CAC Ratio Calculator"
+title: "LTV to CAC Ratio Calculator | SaaS Unit Economics & CAC"
 description: "Calculate your SaaS LTV:CAC benchmark ratio (target 3:1+) to determine customer acquisition efficiency and venture scalability."
 permalink: "/ltv-cac-ratio-calculator"
 tool_id: "ltv-cac-ratio-calculator"
@@ -108,11 +108,9 @@ faq:
     a: "Evaluate LTV:CAC quarterly by customer segment (SMB, Mid-Market, Enterprise) and acquisition channel to catch margin decay early."
   - q: "How can I improve my LTV:CAC ratio?"
     a: "Improve the ratio by raising prices/ARPU, extending customer retention, optimizing paid ad targeting, and expanding organic inbound leads."
-  - q: "Is client data stored securely?"
-    a: "All calculations run strictly inside your local browser."
 ---
 
-# Calculate LTV to CAC Ratio
+# LTV to CAC Ratio Calculator - Calculate LTV, CAC & Payback Ratio
 
 Calculate your SaaS LTV:CAC benchmark ratio (target 3:1+) to determine customer acquisition efficiency and venture scalability. Use our free **LTV:CAC Ratio Calculator** to evaluate your SaaS business performance and make data-driven growth decisions — without any data leaving your browser.
 
@@ -124,16 +122,14 @@ The LTV:CAC ratio is the ultimate metric for SaaS venture scalability. It measur
 
 Having accurate, real-time insights into this metric helps SaaS founders, CFOs, and growth teams optimize capital allocation, protect operating runway, and achieve top-tier venture scalability.
 
-## Mathematical Formula & Derivation
-
+## LTV:CAC Ratio Calculator Formula & Derivation
 The mathematical derivation for this financial metric is expressed as:
 
 $$\text{LTV:CAC Ratio} = \frac{\text{Customer Lifetime Value (LTV)}}{\text{Customer Acquisition Cost (CAC)}}$$ \n$$\text{Unit ROI \%} = \frac{\text{LTV} - \text{CAC}}{\text{CAC}} \times 100\%$$
 
 Where all input values are evaluated over a standardized monthly or annual accounting period.
 
-## Real-World SaaS Benchmark Comparison
-
+## LTV:CAC Ratio Calculator SaaS Benchmarks
 | LTV:CAC Ratio | Interpretation | Strategic Recommendation |
 | --- | --- | --- |
 | < 1.0x | Value Destroying | Stop ad spend immediately; overhaul retention and pricing |
@@ -141,8 +137,7 @@ Where all input values are evaluated over a standardized monthly or annual accou
 | 3.0x - 4.9x | Optimal Growth Engine | Maintain balance; scale sales and marketing spend confidently |
 | >= 5.0x | Under-invested | Aggressively increase sales & marketing budget to capture market share |
 
-## Step-by-Step Calculation Guide
-
+## Step-by-Step LTV:CAC Ratio Calculator Calculation Guide
 1. **Enter Core Financial Inputs:** Supply your monthly sales spend, user counts, ARPU, or recurring revenue figures.
 2. **Review Intermediate Outputs:** Examine calculated gross profit, churn, payback, or unit contribution scores.
 3. **Assess Benchmark Ratings:** Compare your results against SaaS industry standards to identify growth bottlenecks.
@@ -150,8 +145,7 @@ Where all input values are evaluated over a standardized monthly or annual accou
 
 ---
 
-## Frequently Asked Questions
-
+## LTV:CAC Ratio Calculator Frequently Asked Questions
 ### What is a good LTV:CAC ratio for SaaS?
 The gold standard for SaaS is 3:1 or higher. A 3:1 ratio indicates a healthy balance between sales expansion and customer profitability.
 
@@ -170,5 +164,3 @@ Evaluate LTV:CAC quarterly by customer segment (SMB, Mid-Market, Enterprise) and
 ### How can I improve my LTV:CAC ratio?
 Improve the ratio by raising prices/ARPU, extending customer retention, optimizing paid ad targeting, and expanding organic inbound leads.
 
-### Is client data stored securely?
-All calculations run strictly inside your local browser.

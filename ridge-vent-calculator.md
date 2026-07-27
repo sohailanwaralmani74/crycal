@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Ridge Vent | Interactive Online Tool"
+title: "Ridge Vent Calculator | Roofing Material Estimating"
 description: "Calculate linear feet of continuous ridge exhaust vent needed for attic Net Free Vent Area (NFVA) code compliance, balanced with soffit intake vents."
 permalink: /ridge-vent-calculator
 tool_id: ridge-vent-calculator
@@ -133,11 +133,9 @@ faq:
     answer: "Stop ridge vents 6 to 12 inches short of gable end rake edges to preserve weather seal integrity and aesthetic roof lines."
   - question: "What if my roof ridge line is too short for the required vent length?"
     answer: "If available ridge length is shorter than required linear feet, install high-profile ridge vents with higher NFVA ratings (e.g., 20-24 sq in/ft) or supplement with powered/roof deck vents."
-  - question: "Is my ridge vent calculation saved on external servers?"
-    answer: "No. All calculation logic runs locally inside your browser."
 ---
 
-# Ridge Vent Calculator
+# Ridge Vent Calculator - Calculate Shingles, Squares & Flashing
 
 Calculate exact **linear feet of continuous ridge vent**, total attic **Net Free Vent Area (NFVA)**, and balanced **soffit intake vent counts** according to **International Residential Code (IRC R806.2)**.
 
@@ -185,8 +183,7 @@ $$\text{Soffit Vents Needed (16"x8")} = \lceil \frac{\text{Ridge Exhaust NFVA (s
 
 ---
 
-## Frequently Asked Questions
-
+## Ridge Vent Calculator Frequently Asked Questions
 ### What is Net Free Vent Area (NFVA)?
 Net Free Vent Area (NFVA) is the unobstructed open area of a vent through which air can freely flow, accounting for louvers, screens, and internal baffles.
 
@@ -205,5 +202,3 @@ Stop ridge vents 6 to 12 inches short of gable end rake edges to preserve weathe
 ### What if my roof ridge line is too short for the required vent length?
 If available ridge length is shorter than required linear feet, install high-profile ridge vents with higher NFVA ratings (e.g., 20-24 sq in/ft) or supplement with powered/roof deck vents.
 
-### Is my ridge vent calculation saved on external servers?
-No. All calculation logic runs locally inside your browser.

@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Annual Vs Monthly Discount | Interactive Online Tool"
+title: "Annual vs Monthly Discount Calculator | SaaS Pricing & Packaging"
 description: "Compare annual upfront cash flow vs 15-20% plan discounts against monthly billing in B2B SaaS subscriptions."
 permalink: /annual-vs-monthly-discount-calculator
 tool_id: annual-vs-monthly-discount-calculator
@@ -144,7 +144,7 @@ faq:
 
 ---
 
-# Annual Vs Monthly Discount Calculator
+# Annual vs Monthly Discount Calculator - Calculate Tier Profitability & ARPU
 
 Evaluate the trade-off between **immediate Day 1 cash liquidity** from annual prepay and the **revenue discount cost** of offering 15% to 20% annual plan savings.
 
@@ -158,8 +158,7 @@ However, offering discounts (e.g. "2 months free") reduces total recognized reve
 
 ---
 
-## Key Mathematical Formulas
-
+## Key Annual vs Monthly Discount Calculator Mathematical Formulas
 ### 1. Annual Upfront Discount Price
 
 $$ \text{Annual Price} = (\text{Monthly Price} \times 12) \times (1 - \text{Annual Discount \%}) $$
@@ -199,8 +198,7 @@ $$ \text{Total 12-Month Cash} = \text{Day 1 Cash} + \text{Monthly Customer Cash}
 
 ---
 
-## Frequently Asked Questions
-
+## Annual vs Monthly Discount Calculator Frequently Asked Questions
 ### Why do SaaS companies offer 15% to 20% annual prepay discounts?
 Annual prepay provides immediate working capital cash flow, eliminates monthly credit card payment failures, and guarantees 12-month customer retention, dramatically reducing annual churn.
 

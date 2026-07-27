@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Landscape Edging | Interactive Online Tool"
+title: "Landscape Edging Calculator | Outdoor & Landscape Estimating"
 description: "Calculate total linear feet, number of 4ft strips or 20ft rolls, anchoring stakes count, waste margins, and material costs for garden bed edging."
 permalink: /landscape-edging-calculator
 tool_id: landscape-edging-calculator
@@ -151,11 +151,9 @@ faq:
     answer: "Standard black plastic coil edging costs $0.60 to $1.20 per linear foot. Metal or aluminum edging costs $2.50 to $4.50 per foot, and stone or concrete pavers range from $3.50 to $8.00+ per foot."
   - question: "Can I install garden edging on slope inclines?"
     answer: "Yes, flexible plastic and bendable aluminum edging conform well to slope contours. Increase stake frequency on steep inclines to prevent soil movement and washouts."
-  - question: "Is my personal data saved when using this calculator?"
-    answer: "No. All calculations take place strictly inside your web browser."
 ---
 
-# Landscape Edging Calculator
+# Landscape Edging Calculator - Calculate Mulch, Sod & Material Volume
 
 Installing landscape garden edging creates sharp, professional borders around flower beds, mulch zones, gravel pathways, and turf. Use our **Landscape Edging Calculator** to determine exact linear footage, section/roll counts (4 ft, 10 ft, or 20 ft formats), ground anchoring stake counts, and total project expenses.
 
@@ -214,8 +212,7 @@ The table below shows total material requirements, section counts, anchoring sta
 
 ---
 
-## Frequently Asked Questions
-
+## Landscape Edging Calculator Frequently Asked Questions
 ### How many landscape stakes do I need per foot of edging?
 For standard plastic coil edging, place an anchoring stake every 2 to 3 feet (24 to 36 inches). For curved borders or loose soil, place stakes every 1.5 to 2 feet (18 to 24 inches) plus an extra stake at all joints.
 
@@ -234,5 +231,3 @@ Standard black plastic coil edging costs $0.60 to $1.20 per linear foot. Metal o
 ### Can I install garden edging on slope inclines?
 Yes, flexible plastic and bendable aluminum edging conform well to slope contours. Increase stake frequency on steep inclines to prevent soil movement and washouts.
 
-### Is my personal data saved when using this calculator?
-No. All calculations take place strictly inside your web browser.

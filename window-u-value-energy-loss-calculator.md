@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Window U Value Energy Loss | Interactive Online Tool"
+title: "Window U Value Energy Loss Calculator | Window & Door Estimating"
 description: "Calculate window thermal heat loss in BTU/hr, equivalent R-value (R=1/U), and annual HVAC heating cost savings from upgrading to Low-E windows."
 permalink: /window-u-value-energy-loss-calculator
 tool_id: window-u-value-energy-loss-calculator
@@ -152,7 +152,7 @@ faq:
 
 ---
 
-# Window U Value Energy Loss Calculator
+# Window U Value Energy Loss Calculator - Calculate Dimensions & Energy Efficiency
 
 Calculate **window thermal heat loss in BTU/hr**, convert **U-values to R-values ($R = 1/U$)**, and determine **annual HVAC utility cost savings** using our **Window U-Value Energy Loss Calculator**. Evaluate energy payback when upgrading from single-pane or clear double-pane windows to **Energy Star Low-E** or **triple-pane glass**.
 
@@ -218,8 +218,7 @@ Where:
 
 ---
 
-## Frequently Asked Questions
-
+## Window U Value Energy Loss Calculator Frequently Asked Questions
 ### What is the difference between U-value (U-factor) and R-value?
 **R-value** measures resistance to heat flow (higher is better). **U-value (U-factor)** measures the rate of heat flow through a material (lower is better). They are mathematical reciprocals of each other: $R = 1/U$ and $U = 1/R$.
 
@@ -238,5 +237,3 @@ Heating Degree Days (HDD) is a geographic weather index representing how cold a 
 ### How long does it take for new Energy Star windows to pay for themselves?
 Depending on climate severity and fuel costs, replacing single-pane windows with Energy Star double-pane windows yields typical utility savings of $200 to $500 per year, providing complete thermal payback over time while dramatically improving room comfort.
 
-### Is my personal data saved when using this calculator?
-No. All calculations run strictly inside your local web browser session. No window or energy cost data is stored.

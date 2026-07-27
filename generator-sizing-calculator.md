@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Generator Sizing | Interactive Online Tool"
+title: "Generator Sizing Calculator | Electrical Load & Wiring"
 description: "Calculate required home standby or portable generator wattage capacity in running watts and starting surge watts for essential household circuits."
 permalink: /generator-sizing-calculator
 tool_id: generator-sizing-calculator
@@ -180,7 +180,7 @@ faq:
 
 ---
 
-# Generator Sizing Calculator
+# Generator Sizing Calculator - Calculate Amps, Wire Gauge & Breaker Size
 
 Determine the **exact generator size (kW)** required to power your home during power outages with our **Generator Sizing Calculator**. Calculate continuous **running watts** and peak **starting surge watts** for essential household appliances, HVAC units, and water pumps.
 
@@ -244,8 +244,7 @@ Where:
 
 ---
 
-## Frequently Asked Questions
-
+## Generator Sizing Calculator Frequently Asked Questions
 ### What is the difference between running watts and starting surge watts?
 Running (continuous) watts is the electrical power required to keep an appliance operating. Starting (surge) watts is the brief 2 to 3 second power spike required by electric motor rotors to break static friction and get spinning.
 
@@ -264,5 +263,3 @@ Choose a standby generator (Generac, Kohler, Briggs & Stratton 14kW–26kW) if y
 ### What size transfer switch do I need for my generator?
 For portable generators (5kW–12kW), a 30A or 50A manual transfer switch with a 4-prong NEMA L14-30 or CS6365 inlet box is standard. Whole-house standby generators utilize a 100A or 200A automatic transfer switch (ATS).
 
-### Is my personal data saved when using this calculator?
-No. All calculations take place entirely within your local browser session. No appliance data is transmitted or saved.

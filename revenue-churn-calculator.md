@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Revenue Churn | Interactive Online Tool"
+title: "Revenue Churn Calculator | SaaS Recurring Revenue"
 description: "Calculate your Gross and Net Revenue Churn percentages. Measure recurring dollars lost from cancellations and downgrades."
 permalink: /revenue-churn-calculator
 tool_id: revenue-churn-calculator
@@ -130,7 +130,7 @@ faq:
 
 ---
 
-# Revenue Churn Calculator
+# Revenue Churn Calculator - Calculate MRR, ARR & Growth Metrics
 
 Calculate your Gross Revenue Churn (%) and Net Revenue Churn (%) rates to understand the exact financial leakage caused by cancellations and plan downgrades.
 
@@ -175,8 +175,7 @@ $$\text{Annualized Revenue Loss Impact} = (\text{Churned MRR} + \text{Contractio
 
 ---
 
-## Frequently Asked Questions
-
+## Revenue Churn Calculator Frequently Asked Questions
 ### What is Revenue Churn?
 Revenue churn measures the percentage of recurring subscription dollars lost over a given period due to customer cancellations (churn) and plan downgrades (contraction).
 

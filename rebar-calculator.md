@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Rebar | Interactive Online Tool"
+title: "Rebar Calculator | Concrete & Masonry Estimating"
 description: "Calculate linear feet of #3, #4, and #5 rebar for slab reinforcement grids, grid spacing, lap splice overlaps, total 20ft sticks, weight, and cost."
 permalink: /rebar-calculator
 tool_id: rebar-calculator
@@ -157,7 +157,7 @@ faq:
   - answer: "No. All calculation logic runs locally inside your browser."
 ---
 
-# Rebar Calculator
+# Rebar Calculator - Calculate Volume, Bags & Materials
 
 Calculate total **Linear Feet**, **20 ft Sticks**, steel weight in **lbs**, and material cost for rebar reinforcement grids in concrete slabs and footings.
 
@@ -208,8 +208,7 @@ $$\text{Weight (lbs)} = \text{Total Linear Feet} \times \text{Unit Weight (lbs/f
 
 ---
 
-## Frequently Asked Questions
-
+## Rebar Calculator Frequently Asked Questions
 ### How far apart should rebar be spaced in a concrete slab?
 Standard residential slab rebar spacing ranges from 12 to 18 inches center-to-center in a crisscross grid pattern.
 
@@ -228,5 +227,3 @@ Maintaining 2 to 3 inches of concrete coverage around rebar prevents moisture pe
 ### What length do rebar sticks come in?
 Standard rebar is sold in 20-foot long sticks at building supply yards.
 
-### Is my data stored on external servers?
-No. All calculation logic runs locally inside your browser.

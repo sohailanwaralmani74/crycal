@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Plywood Sheet | Interactive Online Tool"
+title: "Plywood Sheet Calculator | Lumber & Framing Estimating"
 description: "Calculate 4x8 plywood and OSB sheets needed for subfloors, walls, and roof sheathing with standard 10% waste factor and total project cost."
 permalink: /plywood-sheet-calculator
 tool_id: plywood-sheet-calculator
@@ -141,11 +141,9 @@ faq:
     answer: "Subfloors typically require 3/4-inch tongue-and-groove CDX plywood or OSB over joists spaced 16 inches on-center. Roof sheathing typically uses 1/2-inch or 5/8-inch OSB/plywood with H-clips."
   - question: "How many sheets of OSB are in a standard mill pallet / lift?"
     answer: "A full mill bundle/pallet of 7/16-inch OSB typically contains 80 sheets. A lift of 23/32-inch subfloor panels typically contains 45 sheets."
-  - question: "Is my personal data stored anywhere?"
-    answer: "No. All calculations run locally in your web browser."
 ---
 
-# Plywood Sheet Calculator
+# Plywood Sheet Calculator - Calculate Board Feet & Wood Quantity
 
 Calculate total **4x8 plywood and OSB sheet counts**, waste overage, net square footage coverage, and total material cost with our free **Plywood Sheet Calculator**.
 
@@ -200,8 +198,7 @@ The table below shows 4x8 sheet requirements (32 sq ft per sheet, 10% waste fact
 
 ---
 
-## Frequently Asked Questions
-
+## Plywood Sheet Calculator Frequently Asked Questions
 ### How many square feet are in a standard 4x8 sheet of plywood?
 A standard 4x8 sheet of plywood or OSB covers exactly 32 square feet ($4 \text{ ft} \times 8 \text{ ft} = 32 \text{ sq ft}$).
 
@@ -220,5 +217,3 @@ Subfloors typically require 3/4-inch tongue-and-groove CDX plywood or OSB over j
 ### How many sheets of OSB are in a standard mill pallet / lift?
 A full mill bundle/pallet of 7/16-inch OSB typically contains 80 sheets. A lift of 23/32-inch subfloor panels typically contains 45 sheets.
 
-### Is my personal data stored anywhere?
-No. All calculations run locally in your web browser.

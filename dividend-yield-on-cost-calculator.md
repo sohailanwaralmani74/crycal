@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Dividend Yield On Cost | Interactive Online Tool"
+title: "Dividend Yield on Cost Calculator | Compound Interest & Savings"
 description: "Determine your yield on cost (YOC). Enter your purchase price, current dividend, and shares to see your effective yield based on your original investment."
 permalink: /dividend-yield-on-cost-calculator
 tool_id: dividend-yield-on-cost-calculator
@@ -138,12 +138,10 @@ faq:
     answer: "Yield on Cost shows the true return on your original investment. For long-term investors, YOC can grow significantly as companies increase dividends, often reaching 10% or more after many years."
   - question: "How does dividend growth affect yield on cost?"
     answer: "As companies raise their dividends, your annual dividend income increases. Since your original cost basis stays the same, your yield on cost grows over time."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. No data is sent to any server."
 
 ---
 
-# Dividend Yield On Cost Calculator
+# Dividend Yield on Cost Calculator - Project Wealth Accumulation & Yield
 
 Calculate your dividend yield on cost (YOC) with our free **Dividend Yield on Cost Calculator**. Enter your purchase price, shares held, and annual dividend to see your effective yield based on your original investment — all without your data leaving your browser.
 
@@ -241,8 +239,7 @@ After 10 years of 5% dividend growth, your YOC has grown from 4% to 6.52% — al
 
 ---
 
-## Frequently Asked Questions
-
+## Dividend Yield on Cost Calculator Frequently Asked Questions
 ### What is dividend yield on cost (YOC)?
 Dividend Yield on Cost (YOC) is the annual dividend income divided by your original purchase price. It shows the effective yield you're earning based on what you originally paid for the stock.
 
@@ -258,5 +255,3 @@ Yield on Cost shows the true return on your original investment. For long-term i
 ### How does dividend growth affect yield on cost?
 As companies raise their dividends, your annual dividend income increases. Since your original cost basis stays the same, your yield on cost grows over time.
 
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. No data is sent to any server.

@@ -1,6 +1,6 @@
 ---
 layout: "tool"
-title: "Contribution Margin Calculator"
+title: "Contribution Margin Calculator | SaaS Unit Economics & CAC"
 description: "Calculate SaaS contribution margin remaining after variable customer costs (COGS, variable S&M, and customer success)."
 permalink: "/contribution-margin-calculator"
 tool_id: "contribution-margin-calculator"
@@ -123,7 +123,7 @@ faq:
     a: "No. All calculations run strictly in your web browser."
 ---
 
-# Calculate SaaS Contribution Margin
+# Contribution Margin Calculator - Calculate LTV, CAC & Payback Ratio
 
 Calculate SaaS contribution margin remaining after variable customer costs (COGS, variable S&M, and customer success). Use our free **Contribution Margin Calculator** to evaluate your SaaS business performance and make data-driven growth decisions — without any data leaving your browser.
 
@@ -135,16 +135,14 @@ Contribution margin measures how much revenue remains after paying all direct, v
 
 Having accurate, real-time insights into this metric helps SaaS founders, CFOs, and growth teams optimize capital allocation, protect operating runway, and achieve top-tier venture scalability.
 
-## Mathematical Formula & Derivation
-
+## Contribution Margin Calculator Formula & Derivation
 The mathematical derivation for this financial metric is expressed as:
 
 $$\text{Total Variable Costs} = \text{Variable COGS} + \text{Variable S\&M} + \text{Variable CS}$$ \n$$\text{Contribution Margin \%} = \frac{\text{Total Revenue} - \text{Total Variable Costs}}{\text{Total Revenue}} \times 100\%$$
 
 Where all input values are evaluated over a standardized monthly or annual accounting period.
 
-## Real-World SaaS Benchmark Comparison
-
+## Contribution Margin Calculator SaaS Benchmarks
 | Margin Range | Business Profile | Operational Viability |
 | --- | --- | --- |
 | >= 60% | Mature High-Efficiency SaaS | High Net Profitability |
@@ -152,8 +150,7 @@ Where all input values are evaluated over a standardized monthly or annual accou
 | 20% - 39% | Heavy Marketing Spend | Vulnerable to Ad Efficiency Shocks |
 | < 20% | Unprofitable Unit Scale | Requires Immediate Cost Restructuring |
 
-## Step-by-Step Calculation Guide
-
+## Step-by-Step Contribution Margin Calculator Calculation Guide
 1. **Enter Core Financial Inputs:** Supply your monthly sales spend, user counts, ARPU, or recurring revenue figures.
 2. **Review Intermediate Outputs:** Examine calculated gross profit, churn, payback, or unit contribution scores.
 3. **Assess Benchmark Ratings:** Compare your results against SaaS industry standards to identify growth bottlenecks.
@@ -161,8 +158,7 @@ Where all input values are evaluated over a standardized monthly or annual accou
 
 ---
 
-## Frequently Asked Questions
-
+## Contribution Margin Calculator Frequently Asked Questions
 ### What is Contribution Margin in SaaS?
 Contribution Margin is the revenue left over after deducting all variable costs directly associated with serving customers and driving sales conversions.
 

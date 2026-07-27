@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Carpool Cost Split | Interactive Online Tool"
+title: "Carpool Cost Split Calculator | Road Trip Fuel & ETA"
 description: "Calculate fair daily and monthly cost sharing among carpool commuters for gas, vehicle depreciation and wear, tolls, and monthly parking expenses."
 permalink: /carpool-cost-split-calculator
 tool_id: carpool-cost-split-calculator
@@ -159,7 +159,7 @@ faq:
 
 ---
 
-# Carpool Cost Split Calculator
+# Carpool Cost Split Calculator - Calculate Drive Time & Fuel Expense
 
 Calculate fair daily and monthly cost splits for work commutes with our free **Carpool Cost-Split Calculator**. Account for gas, wear and tear, vehicle depreciation, tolls, and parking fees.
 
@@ -173,12 +173,10 @@ Simply asking passengers to "chip in for gas" neglects vehicle wear and tear bor
 
 ---
 
-## Calculation Flow & Mathematical Formulas
-
+## Carpool Cost Split Calculator Calculation Flow & Formulas
 The formula combines fuel consumption, mileage wear, and fixed toll/parking expenses across all commuters:
 
-### Inputs & Parameters
-
+### Carpool Cost Split Calculator Inputs & Parameters
 | Parameter | Unit | Description |
 | :--- | :--- | :--- |
 | **Commute Miles (\(D_{daily}\))** | miles | Daily round-trip mileage |
@@ -191,8 +189,7 @@ The formula combines fuel consumption, mileage wear, and fixed toll/parking expe
 
 ---
 
-### Step-by-Step Formulas
-
+### Step-by-Step Carpool Cost Split Calculator Formulas
 #### 1. Total Monthly Mileage (\(M_{month}\))
 \[
 M_{month} = D_{daily} \times W_{days}
@@ -239,8 +236,7 @@ R_{driver} = C_{total} \times \left(\frac{N_{riders} - 1}{N_{riders}}\right)
 
 ---
 
-## Step-by-Step How-To Guide
-
+## How to Use the Carpool Cost Split Calculator Step-by-Step
 1. **Enter Commute Metrics**: Input daily round-trip distance (e.g. `40 miles`) and working days per month (e.g. `20 days`).
 2. **Set Vehicle Costs**: Enter MPG, gas price, and wear rate (default `$0.15/mi`).
 3. **Include Tolls & Parking**: Enter total monthly highway tolls and parking pass fees.
@@ -248,8 +244,7 @@ R_{driver} = C_{total} \times \left(\frac{N_{riders} - 1}{N_{riders}}\right)
 
 ---
 
-## Frequently Asked Questions
-
+## Carpool Cost Split Calculator Frequently Asked Questions
 ### Why should carpool cost sharing include vehicle wear and tear?
 Driving a vehicle incurs costs beyond gas, including oil changes, tire wear, brake replacement, and overall mileage depreciation (typically **$0.15 to $0.25 per mile** according to AAA and IRS data).
 

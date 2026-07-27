@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Debt Avalanche | Interactive Online Tool"
+title: "Debt Avalanche Calculator | Debt Elimination & Payoff"
 description: "Pay off your debts faster using the debt avalanche method. List your debts, add extra payments, and see your complete payoff plan."
 permalink: /debt-avalanche-calculator
 tool_id: debt-avalanche
@@ -25,7 +25,7 @@ inputs:
       - daily
       - monthly
 
-# Debts are added dynamically via JavaScript
+# Debt Avalanche Calculator - Calculate Payoff Schedule & Interest Savings
 # Each debt has: name, balance, interestRate, minimumPayment
 
 outputs:
@@ -123,8 +123,6 @@ faq:
     answer: "The payment you were making on the paid-off debt (minimum payment + any extra) rolls to the next debt. This accelerates your payoff."
   - question: "Can I add more debts later?"
     answer: "Yes — you can add, edit, or remove debts at any time. The calculator updates instantly."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server."
 
 ---
 
@@ -171,8 +169,7 @@ The debt avalanche method is the most financially efficient way to pay off debt.
 
 ---
 
-## Frequently Asked Questions
-
+## Debt Avalanche Calculator Frequently Asked Questions
 ### What is the debt avalanche method?
 The debt avalanche method involves listing your debts from highest to lowest interest rate, paying minimums on all debts, and putting any extra money toward the highest-rate debt until it's paid off. Then you roll that payment to the next highest-rate debt — saving the most money on interest.
 
@@ -184,9 +181,6 @@ The payment you were making on the paid-off debt (minimum payment + any extra) r
 
 ### Can I add more debts later?
 Yes — you can add, edit, or remove debts at any time. The calculator updates instantly.
-
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server.
 
 ---
 

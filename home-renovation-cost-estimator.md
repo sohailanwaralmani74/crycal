@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Home Renovation Cost Estimator | Interactive Online Tool"
+title: "Home Renovation Cost Estimator | Project Cost & Estimating"
 description: "Calculate whole-home renovation costs, low/mid/high quality tier estimates, regional location factors, and contingency buffers."
 permalink: /home-renovation-cost-estimator
 tool_id: home-renovation-cost-estimator
@@ -158,7 +158,7 @@ faq:
   - question: "Is my personal data saved when using this calculator?"
 ---
 
-# Home Renovation Cost Estimator Calculator
+# Home Renovation Cost Estimator - Calculate Project Timeline & Budget
 
 Estimate total home renovation expenses across low, medium, and high luxury quality tiers based on your home's square footage and regional labor pricing.
 
@@ -220,8 +220,7 @@ When planning a comprehensive mid-range home renovation, budget allocations typi
 
 ---
 
-## Frequently Asked Questions
-
+## Home Renovation Cost Estimator Frequently Asked Questions
 ### How much does it cost to renovate a 2,000 sq ft house?
 A cosmetic refresh for a 2,000 sq ft home ranges from $30,000 to $60,000. A complete mid-range remodel costs between $90,000 and $180,000, while a high-end luxury gut overhaul can range from $200,000 to $400,000+.
 
@@ -240,5 +239,3 @@ Labor union rates, trade licensing, local building permit fees, and local real e
 ### Which home renovations offer the highest Return on Investment (ROI)?
 Minor kitchen remodels, garage door replacements, entry door upgrades, and manufactured stone veneer siding historically yield the highest ROI (70% to 90% cost recouped at resale).
 
-### Is my personal data saved when using this calculator?
-No. All calculation parameters run strictly within your local browser session. No personal data is stored or logged.

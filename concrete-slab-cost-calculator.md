@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Concrete Slab Cost | Interactive Online Tool"
+title: "Concrete Slab Cost Calculator | Concrete & Masonry Estimating"
 description: "Calculate total cost, cost per square foot, material cost, and contractor labor for concrete slabs, patios, driveways, and foundations."
 permalink: /concrete-slab-cost-calculator
 tool_id: concrete-slab-cost-calculator
@@ -123,11 +123,9 @@ faq:
     answer: "Increasing slab thickness from 4 inches to 6 inches increases concrete volume (and material cost) by 50%."
   - question: "Is DIY pouring cheaper than hiring a contractor?"
     answer: "DIY saves labor ($3 to $7/sq ft), but requires building forms, ordering ready-mix or mixing 50+ heavy bags, leveling, screeding, and floating before concrete sets."
-  - question: "Is my personal data stored anywhere?"
-    answer: "No. All calculations run locally in your web browser."
 ---
 
-# Concrete Slab Cost Calculator
+# Concrete Slab Cost Calculator - Calculate Volume, Bags & Materials
 
 Calculate total installed project cost, **Cost Per Square Foot**, concrete material expenses, and contractor labor fees with our free **Concrete Slab Cost Calculator**.
 
@@ -165,8 +163,7 @@ $$\text{Total Project Cost} = \text{Material Cost} + \text{Labor Cost}$$
 
 ---
 
-## Frequently Asked Questions
-
+## Concrete Slab Cost Calculator Frequently Asked Questions
 ### How much does a 20x20 concrete slab cost?
 A 20x20 concrete slab (400 sq ft, 4 inches thick) typically costs between $2,400 and $4,400 installed ($6 to $11 per sq ft), depending on labor and site preparation.
 
@@ -185,5 +182,3 @@ Increasing slab thickness from 4 inches to 6 inches increases concrete volume (a
 ### Is DIY pouring cheaper than hiring a contractor?
 DIY saves labor ($3 to $7/sq ft), but requires building forms, ordering ready-mix or mixing 50+ heavy bags, leveling, screeding, and floating before concrete sets.
 
-### Is my personal data stored anywhere?
-No. All calculations run locally in your web browser.

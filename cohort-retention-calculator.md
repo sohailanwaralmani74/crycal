@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Cohort Retention | Interactive Online Tool"
+title: "Cohort Retention Calculator | SaaS Churn & Retention"
 description: "Track customer signup cohort retention percentages across Month 1, Month 3, Month 6, and Month 12 milestone curves."
 permalink: /cohort-retention-calculator
 tool_id: cohort-retention-calculator
@@ -132,7 +132,7 @@ faq:
 
 ---
 
-# Cohort Retention Calculator
+# Cohort Retention Calculator - Calculate Logo Churn & Revenue Retention
 
 Track signup **Cohort Retention Rates (%)** across Month 1, Month 3, Month 6, and Month 12 milestones to visualize product-market fit and long-term customer engagement.
 
@@ -176,8 +176,7 @@ $$\text{Month } N \text{ Churn (\%)} = 100 - \text{Month } N \text{ Retention (\
 
 ---
 
-## Frequently Asked Questions
-
+## Cohort Retention Calculator Frequently Asked Questions
 ### What is Cohort Retention analysis in SaaS?
 Cohort retention analysis tracks a specific group of customers who signed up during the same timeframe (e.g. January cohort) over sequential months (Month 1, 3, 6, 12) to measure long-term engagement.
 

@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Medical Debt Payoff | Settlement Calculator"
+title: "Medical Debt Payoff Calculator | Debt Elimination & Payoff"
 description: "Calculate 0% interest monthly payment plans, lump-sum settlement discounts, and payoff timelines for medical bills. 100% private browser tool."
 permalink: /medical-debt-payoff-calculator
 tool_id: medical-debt-payoff-calculator
@@ -125,7 +125,7 @@ faq:
     answer: "Yes, all medical debt calculations execute 100% locally inside your web browser. No medical conditions, bill amounts, or personal details are saved or transmitted."
 ---
 
-# Medical Debt Payoff Calculator
+# Medical Debt Payoff Calculator - Calculate Payoff Schedule & Interest Savings
 
 Calculate monthly payments, 0% interest repayment schedules, and lump-sum settlement savings for healthcare bills with 100% private browser execution.
 
@@ -137,8 +137,7 @@ Unexpected medical emergencies or complex surgical procedures can generate overw
 
 Patients navigating medical bills generally have two primary resolution options: negotiating a prompt-pay lump-sum settlement discount (often 15% to 40% off gross charges) or establishing a zero-interest monthly installment plan based on household budget constraints. Evaluating these scenarios allows patients to advocate effectively during billing negotiations. This calculator computes net discounted balances, repayment durations, and cumulative dollar savings, giving patients clear data to resolve medical bills securely and privately.
 
-## Mathematical Formulas & Mechanics
-
+## Medical Debt Payoff Calculator Mathematical Formulas & Mechanics
 The medical debt payoff calculation computes net discounted balances, cash savings from negotiation, and total repayment duration under interest-free installment schedules.
 
 ### 1. Negotiated Discount & Net Settlement Balance
@@ -155,8 +154,7 @@ $$N_{months} = \left\lceil \frac{B_{net}}{P_{monthly}} \right\rceil$$
 
 Where $B_{gross}$ is total original healthcare charges, $D_{\%}$ is estimated lump-sum discount %, $S_{discount}$ is dollar savings, and $N_{months}$ is total repayment months rounded up.
 
-## Real-World Comparison & Benchmark Table
-
+## Medical Debt Payoff Calculator Benchmarks & Comparison Table
 | Original Medical Bill | Negotiated Discount % | Discount Dollar Savings | Net Discounted Balance | Monthly Budget ($0% Int) | Repayment Duration (Months) |
 |---|---|---|---|---|---|
 | **$5,000** | 15% | $750 | $4,250 | $250 | **17 Months** |
@@ -165,16 +163,14 @@ Where $B_{gross}$ is total original healthcare charges, $D_{\%}$ is estimated lu
 | **$50,000** | 30% | $15,000 | $35,000 | $750 | **47 Months** |
 | **$75,000** | 40% | $30,000 | $45,000 | $1,000 | **45 Months** |
 
-## Step-by-Step How-To Guide
-
+## How to Use the Medical Debt Payoff Calculator Step-by-Step
 1. **Enter Total Outstanding Medical Bill**: Input total balance owed across hospital bills, doctor fees, or lab invoices.
 2. **Set Monthly Payment Plan Budget**: Input affordable monthly cash amount available for interest-free installment plans.
 3. **Specify Negotiated Settlement Discount %**: Enter targeted prompt-pay cash discount percentage (typically 15% to 40%).
 4. **Review Discounted Balance & Savings**: Analyze net dollar savings achieved through upfront settlement negotiations.
 5. **Evaluate Interest-Free Payoff Timeline**: Review total months required to pay off the balance under your monthly budget.
 
-## Frequently Asked Questions
-
+## Medical Debt Payoff Calculator Frequently Asked Questions
 ### Can medical bills be negotiated?
 Yes! Hospitals and medical billing departments frequently offer prompt-pay cash discounts (typically 15% to 30%), financial assistance charity programs based on income, or zero-interest monthly installment plans.
 

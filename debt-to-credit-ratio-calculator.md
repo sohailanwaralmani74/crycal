@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Debt To Credit Ratio | Interactive Online Tool"
+title: "Debt to Credit Ratio Calculator | Debt Elimination & Payoff"
 description: "Calculate your debt to credit ratio instantly. Enter your total debt and total credit limit to see utilization percentage and credit score impact."
 permalink: /debt-to-credit-ratio-calculator
 tool_id: debt-to-credit-ratio
@@ -109,12 +109,10 @@ faq:
     answer: "Credit utilization is the second most important factor in your credit score (after payment history). It accounts for about 30% of your FICO score."
   - question: "How can I lower my credit utilization?"
     answer: "You can lower your utilization by paying down balances, requesting a credit limit increase, or opening a new credit card (but this may temporarily lower your score)."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. No data is sent to any server."
 
 ---
 
-# Debt To Credit Ratio Calculator
+# Debt to Credit Ratio Calculator - Calculate Payoff Schedule & Interest Savings
 
 Calculate your debt to credit ratio (credit utilization) with our free **debt to credit ratio calculator**. Enter your total debt and total credit limit to see your utilization percentage, credit score impact, and actionable insights — all without your data leaving your browser.
 
@@ -183,8 +181,7 @@ The tool updates instantly as you adjust any input — no "Calculate" button req
 
 ---
 
-## Frequently Asked Questions
-
+## Debt to Credit Ratio Calculator Frequently Asked Questions
 ### What is debt to credit ratio (credit utilization)?
 Your debt to credit ratio, also called credit utilization, is the percentage of your available credit that you're currently using.
 
@@ -200,5 +197,3 @@ Credit utilization is the second most important factor in your credit score, acc
 ### How can I lower my credit utilization?
 You can lower your utilization by paying down balances, requesting a credit limit increase, or opening a new credit card.
 
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. No data is sent to any server.

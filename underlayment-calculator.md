@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Roof Underlayment Calculator | Synthetic & Felt Rolls"
+title: "Underlayment Calculator | Roofing Material Estimating"
 description: "Calculate required rolls of synthetic, #30 felt, or peel-and-stick roof underlayment, accounting for pitch, overlaps, and waste margins."
 permalink: /underlayment-calculator
 tool_id: underlayment-calculator
@@ -146,7 +146,7 @@ faq:
     answer: "Simple gable roofs require 5% to 10% waste, while complex roofs with hips, valleys, dormers, and skylights require 12% to 15% waste."
 ---
 
-# Underlayment Calculator
+# Underlayment Calculator - Calculate Shingles, Squares & Flashing
 
 Determine roll quantities, net coverage areas, and material costs for synthetic, #30 felt, #15 felt, and peel-and-stick ice & water membrane installations.
 
@@ -167,8 +167,7 @@ Utilizing this **Underlayment Calculator** helps roofing contractors and DIY hom
 
 ---
 
-## Mathematical Formulas & Mechanics
-
+## Underlayment Calculator Mathematical Formulas & Mechanics
 ### 1. Roof Squares & Waste Area Formula
 $$\text{Roof Squares} = \frac{A_{\text{roof}}}{100}$$
 $$A_{\text{gross}} = A_{\text{roof}} \times \left(1 + \frac{W}{100}\right)$$
@@ -189,8 +188,7 @@ $$\text{Total Material Cost} = \text{Total Rolls} \times \text{Price per Roll}$$
 
 ---
 
-## Real-World Comparison & Benchmark Table
-
+## Underlayment Calculator Benchmarks & Comparison Table
 Material comparison and roll requirements for a standard $2,500\text{ sq ft}$ roof surface:
 
 | Underlayment Type | Nominal Roll Size | Net Coverage / Roll | Rolls Needed (25 Squares + 10% Waste) | Weight per Roll | Exposure Limit |
@@ -202,8 +200,7 @@ Material comparison and roll requirements for a standard $2,500\text{ sq ft}$ ro
 
 ---
 
-## Step-by-Step How-To Guide
-
+## How to Use the Underlayment Calculator Step-by-Step
 1. **Measure Sloped Roof Area:** Determine total sloped square footage or calculate ground footprint multiplied by pitch slope multiplier.
 2. **Select Material Type:** Choose synthetic underlayment, #30 felt, #15 felt, or self-adhered peel-and-stick ice & water shield.
 3. **Select Pitch Slope Classification:** Choose standard slope ($\ge 4/12$) or low slope ($2/12$ to $4/12$ requiring double-layer application).
@@ -212,8 +209,7 @@ Material comparison and roll requirements for a standard $2,500\text{ sq ft}$ ro
 
 ---
 
-## Frequently Asked Questions
-
+## Underlayment Calculator Frequently Asked Questions
 ### How many square feet are in a roll of synthetic roof underlayment?
 A standard roll of synthetic roof underlayment measures 4 feet wide by 250 feet long, containing 1,000 square feet (10 roofing squares) nominal gross area.
 

@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Term Vs Whole Life | Interactive Online Tool"
+title: "Term vs Whole Life Calculator | Insurance Policy & Coverage"
 description: "Compare the costs and benefits of term life insurance versus whole life insurance. See the difference in premiums, cash value, and investment returns."
 permalink: /term-vs-whole-life-calculator
 tool_id: term-vs-whole-life
@@ -170,12 +170,10 @@ faq:
     answer: "Whole life insurance policies build cash value through a combination of guaranteed interest and dividends. The cash value grows tax-deferred and can be borrowed against or withdrawn."
   - question: "When does whole life make sense?"
     answer: "Whole life can make sense for high-net-worth individuals with estate planning needs, those who have maxed out other tax-advantaged accounts, or those who want guaranteed coverage for life."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server."
 
 ---
 
-# Term Vs Whole Life Calculator
+# Term vs Whole Life Calculator - Calculate Premium Cost & Coverage Need
 
 Use this term vs whole life calculator to compare the costs and benefits of term life insurance versus whole life insurance. Enter your age, coverage amount, term length, and expected investment return — the tool shows the premium difference, whole life cash value, and the "buy term and invest the difference" comparison. Whether you're deciding between term and whole life or evaluating your existing coverage, this term vs whole life insurance calculator helps you make an informed decision.
 
@@ -221,8 +219,7 @@ Choosing between term and whole life insurance is one of the most important fina
 
 ---
 
-## Frequently Asked Questions
-
+## Term vs Whole Life Calculator Frequently Asked Questions
 ### What is the difference between term and whole life insurance?
 Term life insurance provides coverage for a specific period (e.g., 10-30 years). Whole life insurance provides lifelong coverage and builds cash value that you can borrow against or withdraw. Term is typically much cheaper.
 
@@ -237,9 +234,6 @@ Whole life insurance policies build cash value through a combination of guarante
 
 ### When does whole life make sense?
 Whole life can make sense for high-net-worth individuals with estate planning needs, those who have maxed out other tax-advantaged accounts, or those who want guaranteed coverage for life.
-
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server.
 
 ---
 

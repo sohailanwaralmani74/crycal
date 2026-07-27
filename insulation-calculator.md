@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Insulation | Interactive Online Tool"
+title: "Insulation Calculator | HVAC & Insulation Sizing"
 description: "Calculate fiberglass batt and roll insulation packages, coverage square footage, stud spacing requirements, and total project cost."
 permalink: /insulation-calculator
 tool_id: insulation-calculator
@@ -142,11 +142,9 @@ faq:
     answer: "Faced insulation features a kraft paper vapor retarder used on exterior wall cavities facing the interior warm side. Unfaced insulation is ideal for adding layers over existing attic insulation or soundproofing interior walls."
   - question: "Does this calculator include waste for cutting around electrical boxes?"
     answer: "Yes, you can adjust the waste factor percentage (5% to 20%) to account for trimming around windows, door framing, wiring, and plumbing pipes."
-  - question: "Is my project data stored on any server?"
-    answer: "No. All calculations run entirely inside your browser local Javascript engine."
 ---
 
-# Insulation Calculator
+# Insulation Calculator - Calculate BTU Load & R-Value Insulation
 
 Calculate exact fiberglass batt and roll package counts, coverage square footage, and material costs for insulating exterior walls, crawl spaces, and attic ceilings.
 
@@ -195,8 +193,7 @@ $$\text{Cost Per Sq Ft} = \frac{\text{Total Material Cost}}{\text{Area (sq ft)}}
 
 ---
 
-## Frequently Asked Questions
-
+## Insulation Calculator Frequently Asked Questions
 ### How many packages of fiberglass insulation do I need for 1,000 sq ft?
 For R-13 insulation at 16-inch stud spacing, 1,000 sq ft requires approximately 11 packages (with 10% waste). For R-30 attic insulation, 1,000 sq ft requires about 23 packages.
 
@@ -215,5 +212,3 @@ Faced insulation features a kraft paper vapor retarder used on exterior wall cav
 ### Does this calculator include waste for cutting around electrical boxes?
 Yes, you can adjust the waste factor percentage (5% to 20%) to account for trimming around windows, door framing, wiring, and plumbing pipes.
 
-### Is my project data stored on any server?
-No. All calculations run entirely inside your browser local Javascript engine.

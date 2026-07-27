@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Coast Fire | Interactive Online Tool"
+title: "Coast Fire Calculator | Calculation & Analysis"
 description: "Enter your current savings, retirement goals, and expected returns to see when you can stop contributing and Coast FIRE number to retirement."
 permalink: /coast-fire-calculator
 tool_id: coast-fire-calculator
@@ -157,12 +157,10 @@ faq:
     answer: "100% means you've reached Coast FIRE. Below 100%, you still need to save more. Above 100%, your portfolio is already on track to exceed your retirement goal."
   - question: "Is the 4% safe withdrawal rate still valid?"
     answer: "The 4% rule is a guideline based on historical market data. Many experts suggest 3.5-4% for longer retirements. You can adjust this rate in the calculator to match your risk tolerance."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. No data is sent to any server."
 
 ---
 
-# Coast Fire Calculator
+# Coast Fire Calculator - Calculate & Optimize Results
 
 Calculate your **Coast FIRE number** with our free Coast FIRE Calculator. Enter your current savings, retirement goals, and expected returns to see when you can stop contributing and let compound interest carry you to retirement — all without your data leaving your browser.
 
@@ -250,8 +248,7 @@ The tool updates instantly as you adjust any input — no "Calculate" button req
 
 ---
 
-## Frequently Asked Questions
-
+## Coast Fire Calculator Frequently Asked Questions
 ### What is Coast FIRE?
 Coast FIRE is the point where your existing investments will grow to fully fund your retirement without any additional contributions. You can stop saving and let compound interest do the rest.[reference:13]
 
@@ -267,5 +264,3 @@ Your FIRE number is the total amount you need to retire. It's calculated as: Ann
 ### Is the 4% safe withdrawal rate still valid?
 The 4% rule is a guideline based on historical market data. Many experts suggest 3.5-4% for longer retirements. You can adjust this rate in the calculator to match your risk tolerance.
 
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. No data is sent to any server.

@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Crown Molding | Interactive Online Tool"
+title: "Crown Molding Calculator | Interior Design Measurements"
 description: "Calculate linear footage of crown molding, 8ft, 12ft, or 16ft stick counts, corner miter cutting waste (15%), corner counts, and material costs."
 permalink: /crown-molding-calculator
 tool_id: crown-molding-calculator
@@ -147,11 +147,9 @@ faq:
     answer: "Decorative corner blocks eliminate the need for complicated 45° bevel miter cuts. Molding sticks butt straight into 90° corner blocks, simplifying installation for DIYers."
   - question: "How do I measure room perimeter for crown molding?"
     answer: "Measure each wall along the ceiling line in inches, sum all walls, then divide by 12 to convert total perimeter to linear feet."
-  - question: "Is my personal data saved when using this calculator?"
-    answer: "No. All calculations run strictly inside your web browser."
 ---
 
-# Crown Molding Calculator
+# Crown Molding Calculator - Calculate Dimensions, Spacing & Cut Widths
 
 Installing crown molding at the junction between walls and ceilings adds architectural elegance and increases property value. Use our **Crown Molding Calculator** to determine total linear footage, required 8 ft, 12 ft, or 16 ft board sticks, corner mitering waste (15%), and material costs.
 
@@ -208,8 +206,7 @@ The table below demonstrates board stock requirements, miter waste footage, and 
 
 ---
 
-## Frequently Asked Questions
-
+## Crown Molding Calculator Frequently Asked Questions
 ### Why do I need a 15% waste allowance for crown molding?
 Cutting 45° miter joints for inside/outside corners, coping joints, and 45° scarf splices requires trimming angles off board ends. A 15% waste factor ensures you don't run short due to mis-cuts or wood knots.
 
@@ -228,5 +225,3 @@ Decorative corner blocks eliminate the need for complicated 45° bevel miter cut
 ### How do I measure room perimeter for crown molding?
 Measure each wall along the ceiling line in inches, sum all walls, then divide by 12 to convert total perimeter to linear feet.
 
-### Is my personal data saved when using this calculator?
-No. All calculations run strictly inside your web browser.

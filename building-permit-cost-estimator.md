@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Building Permit Cost Estimator | Interactive Online Tool"
+title: "Building Permit Cost Estimator | Project Cost & Estimating"
 description: "Calculate municipal building permit fees, electrical, plumbing, and mechanical trade sub-permits, plan review surcharges, and state fees based..."
 permalink: /building-permit-cost-estimator
 tool_id: building-permit-cost-estimator
@@ -149,11 +149,9 @@ faq:
     answer: "Starting work without a permit results in Stop Work orders, double or triple permit penalty fines, potential demolition of uninspected work, and severe title complications when selling the property."
   - question: "How long does it take to get a building permit issued?"
     answer: "Simple over-the-counter permits (roofing, water heaters) are issued same-day. Major residential additions, structural remodels, or new home construction require 2 to 6 weeks for plan review."
-  - question: "Is my personal data saved when using this calculator?"
-    answer: "No. All calculations run strictly inside your web browser."
 ---
 
-# Building Permit Cost Estimator Calculator
+# Building Permit Cost Estimator - Calculate Project Timeline & Budget
 
 Obtaining municipal building permits is a critical prerequisite for structural remodeling, room additions, and trade work. Use our **Building Permit Cost Estimator** to calculate base building permit fees, electrical, plumbing, and HVAC trade sub-permits, plan review surcharges, and total permit budgeting based on construction project valuation.
 
@@ -213,8 +211,7 @@ The table below illustrates permit fee components, trade sub-permits, plan revie
 
 ---
 
-## Frequently Asked Questions
-
+## Building Permit Cost Estimator Frequently Asked Questions
 ### How are building permit fees calculated?
 Building permit fees are calculated using a tiered sliding scale based on total project valuation (materials plus labor). A base administrative fee is charged for the first $10,000, plus an incremental charge ($5 to $10) for every additional $1,000 of project value.
 
@@ -233,5 +230,3 @@ Starting work without a permit results in Stop Work orders, double or triple per
 ### How long does it take to get a building permit issued?
 Simple over-the-counter permits (roofing, water heaters) are issued same-day. Major residential additions, structural remodels, or new home construction require 2 to 6 weeks for plan review.
 
-### Is my personal data saved when using this calculator?
-No. All calculations run strictly inside your web browser.

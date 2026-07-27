@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Dollar Cost Averaging | Interactive Online Tool"
+title: "Dollar Cost Averaging Calculator | Compound Interest & Savings"
 description: "Calculate the potential returns of a dollar cost averaging (DCA) strategy. Compare DCA vs lump sum investing over time."
 permalink: /dollar-cost-averaging-calculator
 tool_id: dollar-cost-averaging
@@ -162,12 +162,10 @@ faq:
     answer: "It depends on market conditions. Historically, lump sum investing has outperformed DCA about two-thirds of the time in rising markets. However, DCA can be a better strategy for risk-averse investors, volatile markets, or when you have psychological concerns about investing a large amount at once."
   - question: "How do I calculate dollar cost averaging returns?"
     answer: "Use our DCA calculator — enter your monthly investment amount, time period, expected return, and volatility. The tool simulates monthly purchases and shows your final value, total invested, and average cost per share. You can also compare DCA against a lump sum investment."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server."
 
 ---
 
-# Dollar Cost Averaging Calculator
+# Dollar Cost Averaging Calculator - Project Wealth Accumulation & Yield
 
 Use this dollar cost averaging calculator to evaluate the potential returns of a DCA strategy. Enter your monthly investment, time period, expected return, and volatility — the tool shows your final portfolio value, average cost per share, and compares DCA against a lump sum investment. Whether you're a beginner asking 'how do I calculate dollar cost averaging returns?' or an experienced investor looking for a reliable DCA calculator, this tool gives you the data you need.
 
@@ -200,8 +198,7 @@ The dollar cost averaging strategy is straightforward: you invest a fixed amount
 
 ---
 
-## How to Use This Tool
-
+## How to Use the Dollar Cost Averaging Calculator
 1.  Select your **account currency** from the picker in the site header.
 2.  Enter your **initial investment (lump sum)** — leave at 0 for a pure DCA analysis.
 3.  Set your **monthly investment** amount.
@@ -214,8 +211,7 @@ The tool updates instantly — you'll see your DCA final value, total invested, 
 
 ---
 
-## Frequently Asked Questions
-
+## Dollar Cost Averaging Calculator Frequently Asked Questions
 ### What is dollar cost averaging (DCA)?
 Dollar cost averaging (DCA) is an investment strategy where you invest a fixed amount of money at regular intervals, regardless of market conditions. This reduces the impact of market volatility and eliminates the need to time the market.
 
@@ -230,9 +226,6 @@ It depends on market conditions. Historically, lump sum investing has outperform
 
 ### How do I calculate dollar cost averaging returns?
 Use our DCA calculator — enter your monthly investment amount, time period, expected return, and volatility. The tool simulates monthly purchases and shows your final value, total invested, and average cost per share. You can also compare DCA against a lump sum investment.
-
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server.
 
 ---
 

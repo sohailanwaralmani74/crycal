@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Car Cost Per Mile | Interactive Online Tool"
+title: "Car Cost per Mile Calculator | 5-Year Ownership Expenses"
 description: "Calculate your vehicles total operating cost per mile, separating fixed costs (insurance, financing, depreciation) from variable costs (fuel,..."
 permalink: /car-cost-per-mile-calculator
 tool_id: car-cost-per-mile-calculator
@@ -163,7 +163,7 @@ faq:
 
 ---
 
-# Car Cost Per Mile Calculator
+# Car Cost per Mile Calculator - Calculate Total Cost of Vehicle Ownership
 
 Calculate your vehicle's true overall cost per mile, separating fixed overhead from variable driving expenses.
 
@@ -254,8 +254,7 @@ $$\text{CPM}_{\text{Variable}} = \frac{\text{Fuel} + \text{Maintenance} + \text{
 
 ---
 
-## Step-by-Step Guide
-
+## Step-by-Step Car Cost per Mile Calculator Guide
 ### Step 1: Input Annual Driving Mileage
 Enter total estimated miles driven in a year.
 
@@ -270,8 +269,7 @@ Review total per-mile rate, variable per-mile rate, and 100-mile trip estimate.
 
 ---
 
-## Frequently Asked Questions
-
+## Car Cost per Mile Calculator Frequently Asked Questions
 ### What is the average cost per mile to drive a car in the US?
 According to AAA data, driving a new or late-model vehicle costs between $0.58 and $0.72 per mile when accounting for depreciation, fuel, insurance, and maintenance.
 
@@ -290,5 +288,5 @@ You can lower your cost per mile by driving a fuel-efficient used vehicle (to mi
 ### Why is depreciation included in cost per mile?
 Every mile driven reduces vehicle market value. Neglecting depreciation severely underestimates the true cost of trips and vehicle usage.
 
-### Is this calculation private?
+### Is Car Cost per Mile Calculator calculation private?
 Yes, all data processing takes place strictly inside your browser.

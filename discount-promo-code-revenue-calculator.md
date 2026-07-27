@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Discount Promo Code Revenue | Interactive Online Tool"
+title: "Discount Promo Code Revenue Calculator | SaaS Pricing & Packaging"
 description: "Calculate the revenue, margin, and post-promo retention impact of offering 10% to 50% discount promotional campaigns over 3 to 12 months."
 permalink: /discount-promo-code-revenue-calculator
 tool_id: discount-promo-code-revenue-calculator
@@ -152,7 +152,7 @@ faq:
 
 ---
 
-# Discount Promo Code Revenue Calculator
+# Discount Promo Code Revenue Calculator - Calculate Tier Profitability & ARPU
 
 Evaluate the net financial profitability of offering **promotional discounts** and **coupon campaigns**.
 
@@ -166,8 +166,7 @@ This tool helps product and marketing leads model **discounted revenue**, **post
 
 ---
 
-## Key Mathematical Formulas
-
+## Key Discount Promo Code Revenue Calculator Mathematical Formulas
 ### 1. Discounted Price & Promo Revenue
 
 $$ \text{Discounted Price} = \text{Standard Price} \times (1 - \text{Discount \%}) $$
@@ -208,8 +207,7 @@ $$ \text{Gross Margin \%} = \frac{\text{Total 1-Year Revenue} - \text{Total 1-Ye
 
 ---
 
-## Frequently Asked Questions
-
+## Discount Promo Code Revenue Calculator Frequently Asked Questions
 ### Are promotional discounts effective for B2B SaaS?
 Limited-time discounts work well for customer acquisition, but deep permanent discounts (>30%) attract price-sensitive customers who churn rapidly when prices reset.
 

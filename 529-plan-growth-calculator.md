@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "529 Plan Growth | Interactive Online Tool"
+title: "529 Plan Growth Calculator | College Savings & Compound Growth"
 description: "Use the 529 Plan Growth Calculator to project how your college savings will grow tax-free with regular contributions and compound returns."
 permalink: /529-plan-growth-calculator
 tool_id: 529-plan-growth-calculator
@@ -127,11 +127,9 @@ faq:
     answer: "No, 529 contributions are not deductible on federal taxes. However, many states offer a state income tax deduction or credit for contributions to their own 529 plan."
   - question: "Are 529 plan withdrawals taxed?"
     answer: "Withdrawals are tax-free at the federal level (and often state level) as long as they're used for qualified education expenses like tuition, fees, room and board, and books."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. No data is sent to any server."
 ---
 
-# 529 Plan Growth Calculator
+# 529 Plan Growth Calculator - Project Tax-Free Educational Savings
 
 Use the **529 Plan Growth Calculator** to project how your college savings will grow tax-free with regular contributions and compound returns.
 
@@ -197,8 +195,7 @@ This **college savings calculator** is designed for:
 
 ---
 
-## Frequently Asked Questions
-
+## 529 Plan Growth Calculator Frequently Asked Questions
 ### What is a 529 plan?
 A 529 plan is a tax-advantaged savings account designed to help families save for education expenses, with earnings growing tax-free and tax-free withdrawals for qualified education costs.
 
@@ -211,5 +208,4 @@ No, 529 contributions are not deductible on federal taxes. However, many states 
 ### Are 529 plan withdrawals taxed?
 Withdrawals are tax-free at the federal level (and often state level) as long as they're used for qualified education expenses like tuition, fees, room and board, and books.
 
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. No data is sent to any server.
+

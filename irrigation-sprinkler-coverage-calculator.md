@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Irrigation Sprinkler Coverage | Interactive Online Tool"
+title: "Irrigation Sprinkler Coverage Calculator | Outdoor & Landscape"
 description: "Calculate sprinkler head counts, zone flow rate in GPM, minimum irrigation zones, and water pressure PSI requirements for lawn irrigation systems."
 permalink: /irrigation-sprinkler-coverage-calculator
 tool_id: irrigation-sprinkler-coverage-calculator
@@ -141,11 +141,9 @@ faq:
     answer: "Standard spray heads perform best at 30 PSI, gear-driven rotors require 45 to 50 PSI, and rotary nozzles (MP Rotators) operate optimal at 40 PSI. High pressure (>70 PSI) requires a pressure regulator."
   - question: "How long should I run each sprinkler zone?"
     answer: "With spray heads (1.5 in/hr rate), run zones for 15 to 20 minutes. With rotors or MP Rotators (~0.5 in/hr rate), run zones for 40 to 50 minutes to deliver 0.5 inches of water per session."
-  - question: "Is my personal data saved when using this calculator?"
-    answer: "No. All calculations run locally in your web browser."
 ---
 
-# Irrigation Sprinkler Coverage Calculator
+# Irrigation Sprinkler Coverage Calculator - Calculate Mulch, Sod & Material Volume
 
 Designing an efficient underground sprinkler system requires matching sprinkler head throw radius, flow rates (GPM), and operating pressure (PSI) to your home's water supply capacity. Use our **Irrigation Sprinkler Coverage Calculator** to determine exact sprinkler head counts, minimum valve zones, and precipitation rates for your lawn.
 
@@ -203,8 +201,7 @@ The table below illustrates recommended head counts, GPM requirements, and zone 
 
 ---
 
-## Frequently Asked Questions
-
+## Irrigation Sprinkler Coverage Calculator Frequently Asked Questions
 ### What is head-to-head coverage in irrigation design?
 Head-to-head coverage means every sprinkler head throws water all the way to the location of the adjacent sprinkler heads. This 100% overlap pattern eliminates dry spots, accounts for wind drift, and ensures uniform turf moisture.
 
@@ -223,5 +220,3 @@ Standard spray heads perform best at 30 PSI, gear-driven rotors require 45 to 50
 ### How long should I run each sprinkler zone?
 With spray heads (1.5 in/hr rate), run zones for 15 to 20 minutes. With rotors or MP Rotators (~0.5 in/hr rate), run zones for 40 to 50 minutes to deliver 0.5 inches of water per session.
 
-### Is my personal data saved when using this calculator?
-No. All calculations run locally in your web browser.

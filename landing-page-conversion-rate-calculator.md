@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Landing Page Conversion Rate | Interactive Online Tool"
+title: "Landing Page Conversion Rate Calculator | SaaS Marketing & Ad ROI"
 description: "Calculate the conversion percentage of landing page visitors to form submissions, cost per lead, and return on page ad spend."
 permalink: /landing-page-conversion-rate-calculator
 tool_id: landing-page-conversion-rate-calculator
@@ -130,7 +130,7 @@ faq:
     answer: "Improve conversion by reducing form fields, removing navigation headers, writing high-contrast headlines, adding customer social proof logos, and speeding up page load times."
 ---
 
-# Landing Page Conversion Rate Calculator
+# Landing Page Conversion Rate Calculator - Calculate Customer Acquisition & Ad Return
 
 Measure web traffic conversion efficiency and cost per lead with our **Landing Page Conversion Rate Calculator**.
 
@@ -146,8 +146,7 @@ Your landing page is the critical bridge between paid traffic campaigns and sale
 
 ---
 
-## Mathematical Formulas
-
+## Landing Page Conversion Rate Calculator Mathematical Formulas
 ### 1. Landing Page Conversion Rate
 
 $$ \text{Conversion Rate \%} = \left( \frac{\text{Form Submissions}}{\text{Unique Visitors}} \right) \times 100\% $$
@@ -175,8 +174,7 @@ $$ \text{Page ROI \%} = \left( \frac{\text{Total Pipeline Value} - \text{Ad Spen
 
 ---
 
-## Step-by-Step Guide
-
+## Step-by-Step Landing Page Conversion Rate Calculator Guide
 1. **Pull Visitor Traffic Data**: Filter unique sessions in analytics for your target landing page URL.
 2. **Count Goal Completions**: Aggregate form submissions, calendar bookings, or resource downloads.
 3. **Assign Lead Value**: Calculate value per lead based on close rate multiplied by average contract value.
@@ -184,8 +182,7 @@ $$ \text{Page ROI \%} = \left( \frac{\text{Total Pipeline Value} - \text{Ad Spen
 
 ---
 
-## Frequently Asked Questions
-
+## Landing Page Conversion Rate Calculator Frequently Asked Questions
 ### What is Landing Page Conversion Rate?
 Landing Page Conversion Rate is the percentage of page visitors who complete a desired action, such as filling out a contact form, requesting a demo, or downloading a resource.
 

@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Stock Position Size | Interactive Online Tool"
+title: "Stock Position Size Calculator | Investment & Portfolio Return"
 description: "Calculate the optimal number of shares to trade for stocks and ETFs. Enter account balance, risk percentage, and stop-loss distance per share."
 permalink: /stock-position-size-calculator
 tool_id: stock-position-size
@@ -175,12 +175,10 @@ faq:
     answer: "The stock price is optional because the core calculation only needs the stop-loss per share and risk amount. The price is used to show the total cost and position value."
   - question: "What is a good risk percentage for stocks?"
     answer: "Most traders risk 1-2% of their account balance per trade. This helps protect your capital during drawdowns."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server."
 
 ---
 
-# Stock Position Size Calculator
+# Stock Position Size Calculator - Calculate Return, Yield & Portfolio Risk
 
 Use this stock position size calculator to determine the optimal number of shares to trade for stocks and ETFs. Enter your account balance, risk percentage, and stop-loss per share — the tool shows the exact number of shares to buy, your risk amount, and total cost. This stock risk management calculator helps you protect your capital and trade with discipline.
 
@@ -225,8 +223,7 @@ Proper position sizing is essential for risk management in stock trading. This s
 
 ---
 
-## Frequently Asked Questions
-
+## Stock Position Size Calculator Frequently Asked Questions
 ### How is stock position size calculated?
 Position size (shares) = Risk Amount ÷ Stop-Loss per Share. Risk Amount = Account Balance × (Risk% / 100).
 
@@ -238,9 +235,6 @@ The stock price is optional because the core calculation only needs the stop-los
 
 ### What is a good risk percentage for stocks?
 Most traders risk 1-2% of their account balance per trade. This helps protect your capital during drawdowns.
-
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server.
 
 ---
 

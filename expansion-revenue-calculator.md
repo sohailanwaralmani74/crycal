@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Expansion Revenue | Interactive Online Tool"
+title: "Expansion Revenue Calculator | SaaS Recurring Revenue"
 description: "Calculate expansion MRR from seat add-ons, plan tier upgrades, cross-sells, and usage overages. Measure your SaaS expansion rate."
 permalink: /expansion-revenue-calculator
 tool_id: expansion-revenue-calculator
@@ -137,7 +137,7 @@ faq:
 
 ---
 
-# Expansion Revenue Calculator
+# Expansion Revenue Calculator - Calculate MRR, ARR & Growth Metrics
 
 Calculate total Expansion MRR and monthly Expansion Rate (%) from tier upgrades, seat add-ons, cross-sells, and consumption overages across your existing customer base.
 
@@ -183,8 +183,7 @@ $$\text{Annualized Expansion ARR Impact} = \text{Total Expansion MRR} \times 12$
 
 ---
 
-## Frequently Asked Questions
-
+## Expansion Revenue Calculator Frequently Asked Questions
 ### What is Expansion Revenue in SaaS?
 Expansion revenue is the additional recurring revenue generated from existing customers through plan upgrades, additional seat licenses, feature add-ons, product cross-sells, or usage-based consumption increases.
 

@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Cmgr Compound Monthly Growth Rate | Wanjaaro"
+title: "CMGR (Compound Monthly Growth Rate) Calculator | SaaS Recurring"
 description: "Calculate your Compound Monthly Growth Rate (CMGR %). Measure true compounding monthly revenue growth across N months."
 permalink: /cmgr-compound-monthly-growth-rate-calculator
 tool_id: cmgr-compound-monthly-growth-rate-calculator
@@ -124,7 +124,7 @@ faq:
 
 ---
 
-# Cmgr Compound Monthly Growth Rate Calculator
+# CMGR (Compound Monthly Growth Rate) Calculator - Calculate MRR, ARR & Growth Metrics
 
 Calculate your **Compound Monthly Growth Rate (CMGR %)** to measure true geometric month-over-month revenue growth across any N-month period.
 
@@ -172,8 +172,7 @@ Where $N$ is the duration in months.
 
 ---
 
-## Frequently Asked Questions
-
+## CMGR Calculator Frequently Asked Questions
 ### What is Compound Monthly Growth Rate (CMGR)?
 CMGR is the geometric average month-over-month growth rate required for a business to grow from a starting revenue figure to an ending revenue figure over a specific number of months.
 

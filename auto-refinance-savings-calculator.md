@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Auto Refinance Savings | Interactive Online Tool"
+title: "Auto Refinance Savings Calculator | Auto Loan & Financing"
 description: "Calculate your monthly payment reduction, net interest savings, and break-even timeline by refinancing your existing auto loan to a lower interest rate."
 permalink: /auto-refinance-savings-calculator
 tool_id: auto-refinance-savings-calculator
@@ -157,12 +157,10 @@ faq:
     answer: "Applying for refinancing triggers a hard credit inquiry, which may temporarily dip your credit score by a few points. However, lower monthly payments make managing debt easier, which benefits your score long-term."
   - question: "Is there a minimum loan balance required to refinance?"
     answer: "Most auto lenders require a minimum remaining balance of $5,000 to $7,500 and that the vehicle is less than 7 to 10 years old with under 100,000 to 125,000 miles."
-  - question: "Is my personal data processed securely?"
-    answer: "Yes. All computations are run locally in your web browser. No financial data is sent to or stored on external servers."
 
 ---
 
-# Auto Refinance Savings Calculator
+# Auto Refinance Savings Calculator - Calculate Monthly Car Payment & Interest
 
 Calculate how refinancing your vehicle loan can lower your monthly payment and save thousands in interest with our free **Auto Refinance Savings Calculator**.
 
@@ -238,8 +236,7 @@ Our **auto refinance savings calculator** helps you:
 
 ---
 
-## Formula & Mathematical Principles
-
+## Auto Refinance Savings Calculator Formulas & Principles
 ### Monthly Payment Formulas
 For balance \(B\), current monthly rate \(r_1 = \text{APR}_1/12/100\), remaining term \(n_1\):
 
@@ -275,8 +272,7 @@ Total interest paid under refinanced loan: \(I_2 = (M_2 \cdot n_2) - B\)
 
 ---
 
-## Real-World Comparison & Case Study
-
+## Auto Refinance Savings Calculator Real-World Case Study
 Consider a **$24,000 auto loan balance** with **48 remaining months** at **8.5% APR** ($591.90/mo). Refinancing to **5.5% APR** with **$150 in fees**:
 
 | Refinance Option | New Term | New Monthly Payment | Monthly Savings | Net Lifetime Savings | Break-Even Horizon |
@@ -290,8 +286,7 @@ Consider a **$24,000 auto loan balance** with **48 remaining months** at **8.5% 
 
 ---
 
-## Step-by-Step Guide to Using the Calculator
-
+## Step-by-Step Guide for Using the Auto Refinance Savings Calculator
 1. **Enter Current Balance**: Input your current loan payoff balance.
 2. **Input Current Rate & Term**: Enter your current APR and remaining term length in months.
 3. **Enter Refinanced Rate & Term**: Input the lower APR offered by your new lender and select your target loan term.
@@ -300,8 +295,7 @@ Consider a **$24,000 auto loan balance** with **48 remaining months** at **8.5% 
 
 ---
 
-## Frequently Asked Questions (FAQ)
-
+## Auto Refinance Savings Calculator Frequently Asked Questions
 ### When is the right time to refinance an auto loan?
 Refinancing makes financial sense if interest rates have dropped by 1% to 2% or more, if your credit score has improved since buying the car, or if you originally financed through a high-rate dealer financing program.
 
@@ -320,5 +314,3 @@ Applying for refinancing triggers a hard credit inquiry, which may temporarily d
 ### Is there a minimum loan balance required to refinance?
 Most auto lenders require a minimum remaining balance of $5,000 to $7,500 and that the vehicle is less than 7 to 10 years old with under 100,000 to 125,000 miles.
 
-### Is my personal data processed securely?
-Yes. All computations are run locally in your web browser. No financial data is sent to or stored on external servers.

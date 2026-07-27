@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Fuel Savings Mpg Upgrade | Interactive Online Tool"
+title: "Fuel Savings Mpg Upgrade Calculator | Gas Mileage & MPG Economy"
 description: "Calculate annual and 5-year dollar savings and gallons saved when upgrading from your current vehicles MPG to a higher MPG vehicle."
 permalink: /fuel-savings-mpg-upgrade-calculator
 tool_id: fuel-savings-mpg-upgrade-calculator
@@ -136,7 +136,7 @@ faq:
 
 ---
 
-# Fuel Savings Mpg Upgrade Calculator
+# Fuel Savings Mpg Upgrade Calculator - Calculate Fuel Consumption & Trip Cost
 
 Calculate annual dollar savings, gallons of gas saved, and 5-year financial returns when upgrading to a vehicle with higher fuel efficiency.
 
@@ -226,8 +226,7 @@ $$\text{Annual Savings} = \text{Gallons Saved} \times \text{Gas Price}$$
 
 ---
 
-## Step-by-Step Guide
-
+## Step-by-Step Fuel Savings Mpg Upgrade Calculator Guide
 ### Step 1: Input Annual Driving Miles
 Enter your expected total driving distance per year.
 
@@ -242,8 +241,7 @@ Review annual dollar savings, gallons of fuel reduced, and 5-year cumulative ret
 
 ---
 
-## Frequently Asked Questions
-
+## Fuel Savings Mpg Upgrade Calculator Frequently Asked Questions
 ### Why is MPG savings math non-linear?
 Fuel savings depend on gallons per mile (1/MPG). Upgrading from 10 to 20 MPG cuts fuel use by 50 gallons per 1,000 miles, whereas upgrading from 30 to 40 MPG only saves 8.3 gallons.
 
@@ -262,5 +260,5 @@ Gallons Saved = Annual Miles × [(1 ÷ Current MPG) - (1 ÷ New MPG)].
 ### Does upgrading to a hybrid save money for highway commuters?
 Standard hybrids provide massive savings in city stop-and-go driving, but still provide 15% to 30% fuel savings on long highway commutes.
 
-### Is this calculator private?
+### Is the Fuel Savings Mpg Upgrade Calculator private?
 Yes, all data processing takes place strictly inside your browser.

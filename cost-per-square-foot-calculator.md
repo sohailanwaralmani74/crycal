@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Cost Per Square Foot | Interactive Online Tool"
+title: "Cost per Square Foot Calculator | Project Cost & Estimating"
 description: "Calculate building cost per square foot for finished living space vs gross area and compare spec home vs custom home construction rates."
 permalink: /cost-per-square-foot-calculator
 tool_id: cost-per-square-foot-calculator
@@ -131,7 +131,7 @@ faq:
   - question: "Is my personal data saved when using this calculator?"
 ---
 
-# Cost Per Square Foot Calculator
+# Cost per Square Foot Calculator - Calculate Project Timeline & Budget
 
 Calculate construction cost per square foot for finished living area versus total gross building area and benchmark your project against spec home ($150/sq ft) and custom builder ($250/sq ft) rates.
 
@@ -196,8 +196,7 @@ It is a common surprise that smaller homes (e.g. 1,200 sq ft) cost significantly
 
 ---
 
-## Frequently Asked Questions
-
+## Cost per Square Foot Calculator Frequently Asked Questions
 ### How do you calculate cost per square foot for building a home?
 Divide total construction cost by total finished living square feet. For example, a $450,000 home build with 2,400 finished square feet equals $187.50 per square foot.
 
@@ -216,5 +215,3 @@ Smaller homes still require expensive core infrastructure (septic/sewer, electri
 ### How much does garage or basement area add to construction costs?
 Attached garage space adds about $35 to $50 per sq ft. Unfinished basements cost $30 to $45 per sq ft to pour and frame, while finishing a basement later costs an additional $40 to $75 per sq ft.
 
-### Is my personal data saved when using this calculator?
-No. All calculations are executed locally in your browser. No project details or financial inputs are stored or transmitted.

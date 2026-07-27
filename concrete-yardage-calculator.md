@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Concrete Yardage | Interactive Online Tool"
+title: "Concrete Yardage Calculator | Concrete & Masonry Estimating"
 description: "Calculate cubic yards, cubic feet, and 60lb / 80lb bag counts for concrete slabs, footings, and walls with custom waste overage."
 permalink: /concrete-yardage-calculator
 tool_id: concrete-yardage-calculator
@@ -126,11 +126,9 @@ faq:
     answer: "Standard walkways and patios require 4 inches. Residential driveways require 5 to 6 inches, while heavy equipment pads require 6+ inches with rebar reinforcement."
   - question: "When is ready-mix truck delivery cheaper than buying bags?"
     answer: "For projects requiring more than 1 cubic yard (approx. 45 bags of 80lb concrete), ready-mix truck delivery saves significant labor and often costs less overall."
-  - question: "Is my project data saved on external servers?"
-    answer: "No. All calculation logic executes locally in your browser."
 ---
 
-# Concrete Yardage Calculator
+# Concrete Yardage Calculator - Calculate Volume, Bags & Materials
 
 Calculate total **Cubic Yards**, **Cubic Feet**, and **60 lb / 80 lb Pre-Mix Concrete Bags** needed for slabs, footings, and patio pads with our free calculator.
 
@@ -165,8 +163,7 @@ $$\text{80 lb Bags} = \lceil \text{Total cu ft} \times 0.6 \rceil \quad | \quad 
 
 ---
 
-## Frequently Asked Questions
-
+## Concrete Yardage Calculator Frequently Asked Questions
 ### How do you calculate cubic yards of concrete?
 Multiply Length (ft) × Width (ft) × Thickness (ft) and divide by 27. (Thickness in feet = Inches / 12).
 
@@ -185,5 +182,3 @@ Standard walkways and patios require 4 inches. Residential driveways require 5 t
 ### When is ready-mix truck delivery cheaper than buying bags?
 For projects requiring more than 1 cubic yard (approx. 45 bags of 80lb concrete), ready-mix truck delivery saves significant labor and often costs less overall.
 
-### Is my project data saved on external servers?
-No. All calculation logic executes locally in your browser.

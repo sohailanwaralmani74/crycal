@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Ev Battery Degradation Estimator | Interactive Online Tool"
+title: "EV Battery Degradation Calculator | EV Charging & Range"
 description: "Estimate electric vehicle battery capacity retention percentage, remaining usable kWh capacity, and lost range over 1 to 10 years based on..."
 permalink: /ev-battery-degradation-estimator
 tool_id: ev-battery-degradation-estimator
@@ -155,7 +155,7 @@ faq:
 
 ---
 
-# Ev Battery Degradation Estimator Calculator
+# EV Battery Degradation Calculator - Calculate Charging Time & Battery Cost
 
 Estimate electric vehicle (EV) battery capacity retention percentage, remaining State of Health (SOH), usable kWh, and lost driving range over 1 to 10 years.
 
@@ -218,8 +218,7 @@ Key degradation factors:
 
 ---
 
-## Mathematical Formulas
-
+## EV Battery Degradation Calculator Mathematical Formulas
 ### 1. Total Annual Degradation Rate ($R_{\text{annual}}$)
 Initial year-1 degradation involves a slight initial capacity settling (~2.5%), followed by steady annual loss:
 \[
@@ -253,8 +252,7 @@ C_{\text{remaining}} = C_{\text{original}} \times \left(\frac{\text{SOH}_{\%}}{1
 
 ---
 
-## Step-by-Step Usage Guide
-
+## Step-by-Step EV Battery Degradation Calculator Usage Guide
 1. **Enter Original Factory Specs**: Input usable kWh capacity (e.g. 77 kWh) and original EPA range (e.g. 300 miles).
 2. **Set Vehicle Age & Miles**: Provide vehicle age in years and average miles driven per year.
 3. **Select Fast Charging Frequency**: Choose how often DC fast charging (100kW+) is used.
@@ -263,8 +261,7 @@ C_{\text{remaining}} = C_{\text{original}} \times \left(\frac{\text{SOH}_{\%}}{1
 
 ---
 
-## Frequently Asked Questions
-
+## EV Battery Degradation Calculator Frequently Asked Questions
 ### How fast do electric car batteries degrade over time?
 Modern electric vehicle batteries degrade at an average rate of 1.5% to 2.3% per year. Most modern EVs retain 80% to 88% of original capacity after 8 to 10 years.
 

@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "High Yield Savings | Interactive Online Tool"
+title: "High Yield Savings Calculator | Compound Interest & Savings"
 description: "Calculate how much interest youll earn with a high-yield savings account. Compare APYs, monthly contributions, and compounding frequencies."
 permalink: /high-yield-savings-calculator
 tool_id: high-yield-savings
@@ -149,12 +149,10 @@ faq:
     answer: "The best high-yield savings calculator accounts for current market rates. As of 2024-2025, top HYSA rates range from 4-5% APY. Always check current rates from reputable banks."
   - question: "How does compounding frequency affect my savings?"
     answer: "More frequent compounding (daily vs monthly) results in slightly higher returns because interest is calculated and added more often. Our savings yield calculator accounts for your chosen frequency."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server."
 
 ---
 
-# High Yield Savings Calculator
+# High Yield Savings Calculator - Project Wealth Accumulation & Yield
 
 Use this high yield savings calculator to see exactly how much interest you'll earn with a high-yield savings account. Enter your initial deposit, monthly contributions, APY, and time period — the tool shows your final balance, total interest, and effective annual yield. Compare different rates and see which high interest savings account works best for your goals.
 
@@ -201,8 +199,7 @@ This shows you the true annual return accounting for compounding frequency — e
 
 ---
 
-## How to Use This Tool
-
+## How to Use the High Yield Savings Calculator
 1.  Select your **account currency** from the picker in the site header.
 2.  Enter your **initial deposit** (starting balance).
 3.  Set your **monthly contribution** (how much you'll add each month).
@@ -214,8 +211,7 @@ The tool updates instantly — you'll see your final balance, total contribution
 
 ---
 
-## Frequently Asked Questions
-
+## High Yield Savings Calculator Frequently Asked Questions
 ### What is a high-yield savings account?
 A high-yield savings account (HYSA) is a savings account that offers a higher annual percentage yield (APY) compared to traditional savings accounts, typically 10-20 times higher. It's a low‑risk way to earn more on your emergency fund or short‑term savings.
 
@@ -230,9 +226,6 @@ More frequent compounding (daily vs monthly) results in slightly higher returns 
 
 ### What is the difference between APY and interest rate?
 APY (Annual Percentage Yield) includes the effect of compounding. It shows the total amount of interest you'll earn over a year, accounting for how often interest is compounded. This makes it the best number to compare different high-yield savings accounts.
-
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server.
 
 ---
 

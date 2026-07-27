@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Cpl Cost Per Lead | Interactive Online Tool"
+title: "CPL (Cost Per Lead) Calculator | SaaS Marketing & Ad ROI"
 description: "Calculate your Cost Per Lead (CPL), Cost Per MQL, and lead efficiency. Optimize your marketing ad spend and acquisition pipeline performance."
 permalink: /cpl-cost-per-lead-calculator
 tool_id: cpl-cost-per-lead-calculator
@@ -130,7 +130,7 @@ faq:
     answer: "Lower CPL by refining ad targeting, improving lead form conversion rates, running lead magnet campaigns, or reallocating budget to lower-cost channels."
 ---
 
-# Cpl Cost Per Lead Calculator
+# CPL (Cost Per Lead) Calculator - Calculate Customer Acquisition & Ad Return
 
 Track and optimize your marketing efficiency with our **CPL Calculator**. Compute your Cost Per Lead (CPL), Cost Per MQL, and evaluate performance against target benchmarks.
 
@@ -146,8 +146,7 @@ Understanding your **Cost Per Lead** is critical for maintaining profitable mark
 
 ---
 
-## Mathematical Formulas
-
+## CPL Calculator Mathematical Formulas
 ### 1. Cost Per Lead (CPL)
 
 $$ \text{CPL} = \frac{\text{Total Marketing Spend}}{\text{Total Leads Generated}} $$
@@ -182,8 +181,7 @@ $$ \text{Cost Per MQL} = \frac{\text{Total Marketing Spend}}{\text{MQL Count}} =
 
 ---
 
-## Frequently Asked Questions
-
+## CPL Calculator Frequently Asked Questions
 ### What is Cost Per Lead (CPL)?
 Cost Per Lead (CPL) is an acquisition metric measuring the average financial cost required to generate a single new marketing lead.
 

@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Material Waste Percentage | Interactive Online Tool"
+title: "Material Waste Percentage Calculator | Project Cost & Estimating"
 description: "Calculate total construction material order quantities with 5%, 10%, 15%, and 20% waste multipliers for flooring, drywall, lumber, and tile."
 permalink: /material-waste-percentage-calculator
 tool_id: material-waste-percentage-calculator
@@ -144,7 +144,7 @@ faq:
   - question: "Is my personal data saved when using this calculator?"
 ---
 
-# Material Waste Percentage Calculator
+# Material Waste Percentage Calculator - Calculate Project Timeline & Budget
 
 Calculate precise material order quantities, extra waste buffer units, and total order costs using **5%, 10%, 15%, and 20% waste percentage multipliers** for flooring, drywall, lumber, tile, and decking.
 
@@ -215,8 +215,7 @@ Below is an overage breakdown for a **1,500 sq ft flooring order** priced at **$
 
 ---
 
-## Frequently Asked Questions
-
+## Material Waste Percentage Calculator Frequently Asked Questions
 ### What is the standard waste factor percentage in construction?
 The industry standard waste factor across most residential construction materials (flooring, drywall, roofing, siding) is **10%**.
 
@@ -235,5 +234,3 @@ Ordering zero waste almost guarantees running out of material before project com
 ### Should I keep leftover construction materials after the job?
 Yes. Keeping 1 full extra carton of flooring, tile, or siding allows easy future repair of water damage or cracked tiles without needing to replace the entire room.
 
-### Is my personal data saved when using this calculator?
-No. All calculations run locally in your web browser. No material quantities or cost inputs are saved or transmitted.

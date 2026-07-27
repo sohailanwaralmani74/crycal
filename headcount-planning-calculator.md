@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Headcount Planning | Interactive Online Tool"
+title: "Headcount Planning Calculator | SaaS Team & Operating Cost"
 description: "Model hiring plans, new headcount requirements, and payroll OpEx budget needed to support ARR target growth milestones."
 permalink: /headcount-planning-calculator
 tool_id: headcount-planning-calculator
@@ -140,7 +140,7 @@ faq:
     answer: "Reduce payroll expansion by leveraging AI workflow automation, hiring nearshore talent, increasing self-serve customer onboarding, and expanding contractor support."
 ---
 
-# Headcount Planning Calculator
+# Headcount Planning Calculator - Calculate OpEx & Headcount Budget
 
 Project workforce expansion, new hiring requirements, and payroll OpEx additions needed to achieve target ARR milestones with our **Headcount Planning Calculator**.
 
@@ -156,8 +156,7 @@ Human capital is the primary growth driver and largest cost center for software 
 
 ---
 
-## Mathematical Formulas
-
+## Headcount Planning Calculator Mathematical Formulas
 ### 1. Future Headcount Requirement
 
 $$ \text{Total Future Headcount} = \text{Ceiling}\left( \frac{\text{Target ARR}}{\text{Target ARR per Employee}} \right) $$
@@ -182,8 +181,7 @@ $$ \text{Additional Payroll OpEx (\$)} = \text{New Hires Needed} \times \text{Av
 
 ---
 
-## Step-by-Step Guide
-
+## Step-by-Step Headcount Planning Calculator Guide
 1. **Enter Financial Growth Targets**: Input current ARR and next 12-month target ARR goal.
 2. **Input Current Staff Count**: Enter existing full-time workforce headcount.
 3. **Set Fully-Loaded Compensation**: Use realistic salary + 25% benefits load for your market.
@@ -191,8 +189,7 @@ $$ \text{Additional Payroll OpEx (\$)} = \text{New Hires Needed} \times \text{Av
 
 ---
 
-## Frequently Asked Questions
-
+## Headcount Planning Calculator Frequently Asked Questions
 ### What is headcount planning?
 Headcount planning is the operational process of forecasting workforce requirements, net new hires, and associated payroll costs required to achieve business growth objectives.
 

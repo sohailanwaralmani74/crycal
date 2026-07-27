@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Runway | Interactive Online Tool"
+title: "Runway Calculator | Startup Funding & Valuation"
 description: "Calculate your startups cash runway survival months based on cash balance, monthly revenue, expenses, and projected growth rate."
 permalink: /runway-calculator
 tool_id: runway-calculator
@@ -129,12 +129,10 @@ faq:
     answer: "Gross burn is total operating expenditure per month, while net burn is gross expenses minus cash revenue collected (Gross Expenses − Revenue = Net Burn)."
   - question: "When should a startup start raising funds based on runway?"
     answer: "Founders should begin fundraising when they have 6 to 12 months of runway remaining, as institutional fundraising rounds typically require 3 to 6 months to close."
-  - question: "Is my financial data stored anywhere?"
-    answer: "No. All calculations run strictly inside your web browser for complete confidentiality."
 
 ---
 
-# Runway Calculator
+# Runway Calculator - Calculate ARR Multiple & Valuation
 
 Calculate your startup's cash runway survival months with our free **Runway Calculator**. Project how many months your company can operate based on current cash balance, monthly revenue, gross expenses, and revenue growth.
 
@@ -189,8 +187,7 @@ The dynamic runway is the month $t$ where $\text{Cash}_t \le 0$.
 
 ---
 
-## Frequently Asked Questions
-
+## Runway Calculator Frequently Asked Questions
 ### What is cash runway in a startup?
 Cash runway is the total number of months a company can continue operating before running out of cash, calculated by dividing cash balance by net monthly cash burn rate.
 
@@ -206,5 +203,3 @@ Gross burn is total operating expenditure per month, while net burn is gross exp
 ### When should a startup start raising funds based on runway?
 Founders should begin fundraising when they have 6 to 12 months of runway remaining, as institutional fundraising rounds typically require 3 to 6 months to close.
 
-### Is my financial data stored anywhere?
-No. All calculations run strictly inside your web browser for complete confidentiality.

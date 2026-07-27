@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Flooring Square Footage | Interactive Online Tool"
+title: "Flooring Square Footage Calculator | Flooring Square Footage"
 description: "Calculate room square footage, flooring waste percentage (5-15%), total order square feet, and material plus installation cost."
 permalink: /flooring-square-footage-calculator
 tool_id: flooring-square-footage-calculator
@@ -134,11 +134,9 @@ faq:
     answer: "Flooring installation labor typically ranges from $1.50 to $4.50 per square foot for carpet and vinyl planks, up to $4.00 to $8.00 per square foot for hardwood and porcelain tile."
   - question: "How do I calculate flooring square footage for irregular or non-rectangular rooms?"
     answer: "Break the floor plan into smaller simple geometric shapes (rectangles and right triangles), compute the square footage of each section, sum them together, and then add your waste percentage."
-  - question: "Is my personal project data saved on external servers?"
-    answer: "No. All calculations are executed locally within your web browser."
 ---
 
-# Flooring Square Footage Calculator
+# Flooring Square Footage Calculator - Calculate Tiles, Planks & Material Need
 
 Accurately calculate net room floor area, **total order square footage with waste percentage**, material costs, and contractor installation fees with our free **Flooring Square Footage Calculator**.
 
@@ -196,8 +194,7 @@ Below is a benchmark estimate for a **300 sq ft room** at **$4.50/sq ft material
 
 ---
 
-## Frequently Asked Questions
-
+## Flooring Square Footage Calculator Frequently Asked Questions
 ### How do I calculate square footage for a room?
 To calculate square footage for a rectangular room, multiply length in feet by width in feet (Length × Width = Square Feet). For an L-shaped room, divide it into two rectangles, calculate each area, and add them together.
 
@@ -216,5 +213,3 @@ Flooring installation labor typically ranges from $1.50 to $4.50 per square foot
 ### How do I calculate flooring square footage for irregular or non-rectangular rooms?
 Break the floor plan into smaller simple geometric shapes (rectangles and right triangles), compute the square footage of each section, sum them together, and then add your waste percentage.
 
-### Is my personal project data saved on external servers?
-No. All calculations are executed locally within your web browser.

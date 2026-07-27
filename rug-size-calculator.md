@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Rug Size | Interactive Online Tool"
+title: "Rug Size Calculator | Interior Design Measurements"
 description: "Calculate the best area rug size (5x8, 8x10, 9x12, 10x14) for living rooms, bedrooms, and dining rooms based on room dimensions and wall border clearance."
 permalink: /rug-size-calculator
 tool_id: rug-size-calculator
@@ -130,11 +130,9 @@ faq:
     answer: "A 9' × 12' or 10' × 14' rug is ideal for a King-size bed, allowing 36 inches of plush rug coverage on both sides and at the foot of the bed."
   - question: "Should a rug be larger or smaller than the sofa?"
     answer: "An area rug should always be wider than your main sofa by at least 6 inches on both ends (12 inches total wider than the sofa) to prevent the seating arrangement from looking cramped."
-  - question: "Is my personal data saved when using this calculator?"
-    answer: "No. All calculations take place entirely within your local browser."
 ---
 
-# Rug Size Calculator
+# Rug Size Calculator - Calculate Dimensions, Spacing & Cut Widths
 
 Choosing the correct area rug size anchors your furniture, absorbs room acoustics, and creates visual balance. Use our **Area Rug Size Calculator** to calculate exact maximum rug dimensions, wall border clearance, and standard size recommendations (5×8, 8×10, 9×12, 10×14 ft).
 
@@ -193,8 +191,7 @@ The table below shows recommended rug sizes, wall border clearances, and room co
 
 ---
 
-## Frequently Asked Questions
-
+## Rug Size Calculator Frequently Asked Questions
 ### What is the standard clearance between an area rug and the wall?
 The classic interior design rule of thumb is leaving 18 inches of bare floor exposed between the edge of the area rug and the room walls. In smaller rooms (under 10x12 ft), a 12-inch border works best.
 
@@ -213,5 +210,3 @@ A 9' × 12' or 10' × 14' rug is ideal for a King-size bed, allowing 36 inches o
 ### Should a rug be larger or smaller than the sofa?
 An area rug should always be wider than your main sofa by at least 6 inches on both ends (12 inches total wider than the sofa) to prevent the seating arrangement from looking cramped.
 
-### Is my personal data saved when using this calculator?
-No. All calculations take place entirely within your local browser.

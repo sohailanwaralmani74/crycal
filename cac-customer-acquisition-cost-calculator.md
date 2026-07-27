@@ -1,6 +1,6 @@
 ---
 layout: "tool"
-title: "Customer Acquisition Cost (CAC) Calculator"
+title: "Customer Acquisition Cost (CAC) Calculator | Customer"
 description: "Calculate fully-loaded Customer Acquisition Cost (CAC) for SaaS businesses including sales & marketing spend, and customer volume."
 permalink: "/cac-customer-acquisition-cost-calculator"
 tool_id: "cac-customer-acquisition-cost-calculator"
@@ -126,11 +126,9 @@ faq:
     a: "Teams can lower CAC by sharpening ad targeting, optimizing website conversion rates, building organic SEO inbound engines, and leveraging product-led growth (PLG) freemium loops."
   - q: "How frequently should CAC be recalculated?"
     a: "Calculate CAC monthly and evaluate it on a trailing 3-month average to smooth out sales commission spikes, seasonal ad spend, and recruitment timing."
-  - q: "Is my data stored anywhere?"
-    a: "No. All calculations process strictly inside your local browser. Zero financial data is collected or transmitted."
 ---
 
-# Calculate Customer Acquisition Cost (CAC)
+# Customer Acquisition Cost (CAC) Calculator - Calculate Sales & Marketing Acquisition Spend
 
 Calculate fully-loaded Customer Acquisition Cost (CAC) for SaaS businesses including sales & marketing spend, team salaries, software, agency fees, and customer volume. Use our free **Customer Acquisition Cost (CAC) Calculator** to evaluate your SaaS business performance and make data-driven growth decisions — without any data leaving your browser.
 
@@ -142,16 +140,14 @@ Evaluating Customer Acquisition Cost (CAC) is fundamental to understanding wheth
 
 Having accurate, real-time insights into this metric helps SaaS founders, CFOs, and growth teams optimize capital allocation, protect operating runway, and achieve top-tier venture scalability.
 
-## Mathematical Formula & Derivation
-
+## Customer Acquisition Cost (CAC) Calculator Formula & Derivation
 The mathematical derivation for this financial metric is expressed as:
 
 $$\text{Fully-Loaded CAC} = \frac{\text{Ad Spend} + \text{Salaries} + \text{Software Costs} + \text{Agency Fees}}{\text{New Customers Acquired}}$$
 
 Where all input values are evaluated over a standardized monthly or annual accounting period.
 
-## Real-World SaaS Benchmark Comparison
-
+## Customer Acquisition Cost (CAC) Calculator SaaS Benchmarks
 | Metric Component | Direct Paid CAC | Fully-Loaded CAC |
 | --- | --- | --- |
 | Ad Spend Included? | Yes | Yes |
@@ -160,8 +156,7 @@ Where all input values are evaluated over a standardized monthly or annual accou
 | Agency Fees? | No | Yes |
 | Financial Accuracy | Moderate (Campaign Level) | High (Enterprise Financials) |
 
-## Step-by-Step Calculation Guide
-
+## Step-by-Step Customer Acquisition Cost (CAC) Calculator Calculation Guide
 1. **Enter Core Financial Inputs:** Supply your monthly sales spend, user counts, ARPU, or recurring revenue figures.
 2. **Review Intermediate Outputs:** Examine calculated gross profit, churn, payback, or unit contribution scores.
 3. **Assess Benchmark Ratings:** Compare your results against SaaS industry standards to identify growth bottlenecks.
@@ -169,8 +164,7 @@ Where all input values are evaluated over a standardized monthly or annual accou
 
 ---
 
-## Frequently Asked Questions
-
+## Customer Acquisition Cost (CAC) Calculator Frequently Asked Questions
 ### What is Customer Acquisition Cost (CAC)?
 Customer Acquisition Cost (CAC) is the total financial expenditure required to acquire a single new paying customer, including marketing spend, sales expenses, personnel salaries, software tools, and agency fees divided by new customer volume.
 
@@ -189,5 +183,3 @@ Teams can lower CAC by sharpening ad targeting, optimizing website conversion ra
 ### How frequently should CAC be recalculated?
 Calculate CAC monthly and evaluate it on a trailing 3-month average to smooth out sales commission spikes, seasonal ad spend, and recruitment timing.
 
-### Is my data stored anywhere?
-No. All calculations process strictly inside your local browser. Zero financial data is collected or transmitted.

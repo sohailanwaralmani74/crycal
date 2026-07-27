@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Enterprise Vs Smb Pricing | Interactive Online Tool"
+title: "Enterprise vs Smb Pricing Calculator | SaaS Pricing & Packaging"
 description: "Compare total revenue potential, sales cycles, and deal equivalence between high-touch Enterprise ACV and self-serve SMB ACV."
 permalink: /enterprise-vs-smb-pricing-calculator
 tool_id: enterprise-vs-smb-pricing-calculator
@@ -149,7 +149,7 @@ faq:
 
 ---
 
-# Enterprise Vs Smb Pricing Calculator
+# Enterprise vs Smb Pricing Calculator - Calculate Tier Profitability & ARPU
 
 Compare revenue potential, sales velocity, and deal volume equivalence between **self-serve SMB accounts** and **high-touch Enterprise ACV deals**.
 
@@ -163,8 +163,7 @@ This calculator quantifies **deal equivalence ratios**, **sales cycle velocities
 
 ---
 
-## Key Mathematical Formulas
-
+## Key Enterprise vs Smb Pricing Calculator Mathematical Formulas
 ### 1. Annual Revenue by Segment
 
 $$ \text{SMB Annual ARR} = \text{SMB ACV} \times \text{SMB Deals Closed / Year} $$
@@ -202,8 +201,7 @@ $$ \text{SMB Deal Equivalent} = \frac{\text{Enterprise ACV}}{\text{SMB ACV}} $$
 
 ---
 
-## Frequently Asked Questions
-
+## Enterprise vs Smb Pricing Calculator Frequently Asked Questions
 ### What is the difference between SMB and Enterprise ACV in SaaS?
 SMB ACV typically ranges from $500 to $5,000 per year with short, self-serve sales cycles (1 to 30 days). Enterprise ACV ranges from $30,000 to $200,000+ per year with complex sales cycles (60 to 180+ days).
 

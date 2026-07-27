@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "ROE Calculator | Return on Equity & DuPont Analysis"
+title: "ROE (Return on Equity) Calculator | Compound Interest & Savings"
 description: "Calculate Return on Equity (ROE) and DuPont financial analysis metrics to evaluate corporate capital efficiency. 100% free and private browser execution."
 permalink: /roe-calculator
 tool_id: roe-calculator
@@ -130,7 +130,7 @@ faq:
     answer: "Yes, 100%. All calculation algorithms execute locally inside your web browser. No corporate income, balance sheet, or equity metrics are uploaded or logged."
 ---
 
-# ROE Calculator
+# ROE (Return on Equity) Calculator - Project Wealth Accumulation & Yield
 
 Calculate Return on Equity (ROE) and evaluate corporate capital allocation efficiency with our free financial analysis tool.
 Featuring multi-currency support, DuPont identity breakdown, and 100% private browser execution so your corporate financial data remains strictly confidential.
@@ -147,8 +147,7 @@ Furthermore, analyzing ROE is vital when evaluating corporate management quality
 
 ---
 
-## Mathematical Formulas & Mechanics
-
+## ROE Calculator Mathematical Formulas & Mechanics
 The basic formula for Return on Equity ($\text{ROE}$) is calculated as:
 
 $$\text{ROE (\%)} = \left( \frac{\text{Net Income}}{\text{Shareholders' Equity}} \right) \times 100$$
@@ -165,8 +164,7 @@ $$\text{ROE} = \underbrace{\left(\frac{\text{Net Income}}{\text{Revenue}}\right)
 
 ---
 
-## Real-World Comparison & Benchmark Table
-
+## ROE Calculator Benchmarks & Comparison Table
 The benchmark table below outlines ROE metrics and performance assessments across various business profiles and leverage structures for a company with **$500,000 Net Income**:
 
 | Corporate Profile | Shareholders' Equity | Financial Leverage | ROE % | Net Profit Margin | Asset Turnover | Equity Multiplier | Performance Assessment |
@@ -181,8 +179,7 @@ The benchmark table below outlines ROE metrics and performance assessments acros
 
 ---
 
-## Step-by-Step How-To Guide
-
+## How to Use the ROE Calculator Step-by-Step
 1. **Select Currency**: Choose your preferred currency ($ USD, € EUR, £ GBP) from the site header.
 2. **Input Net Income**: Enter annual net profit after tax and preferred dividends from the income statement.
 3. **Input Shareholders' Equity**: Enter total shareholders' equity (total assets minus total liabilities) from the balance sheet.
@@ -192,8 +189,7 @@ The benchmark table below outlines ROE metrics and performance assessments acros
 
 ---
 
-## Frequently Asked Questions
-
+## ROE Calculator Frequently Asked Questions
 ### What is Return on Equity (ROE)?
 Return on Equity (ROE) is a financial profitability metric that measures how effectively a company generates net income relative to total shareholders' equity.
 

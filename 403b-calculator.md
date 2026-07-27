@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "403B | Interactive Online Tool"
+title: "403b Calculator | Retirement Savings & Tax-Deferred Growth"
 description: "Use the 403(b) Calculator to project your retirement account growth based on salary, contribution rate, employer match, and investment returns."
 permalink: /403b-calculator
 tool_id: 403b-calculator
@@ -147,11 +147,9 @@ faq:
     answer: "No. Employer matching contributions do not count against your individual employee elective deferral limit, though they do count toward the overall combined contribution limit for the plan."
   - question: "What's the difference between a 403(b) and a 401(k)?"
     answer: "They function very similarly, but 403(b) plans are offered by nonprofit, educational, and religious organizations, while 401(k) plans are offered by for-profit employers. Both offer tax-deferred (or Roth) growth."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. No data is sent to any server."
 ---
 
-# 403B Calculator
+# 403b Calculator - Estimate Retirement Account Wealth
 
 Use the **403(b) Calculator** to project your retirement account growth based on salary, contribution rate, employer match, and investment returns.
 
@@ -221,8 +219,7 @@ This **403(b) calculator** is designed for:
 
 ---
 
-## Frequently Asked Questions
-
+## 403b Calculator Frequently Asked Questions
 ### What is a 403(b) plan?
 A 403(b) plan is a tax-advantaged retirement savings plan available to employees of public schools, nonprofit organizations, and certain ministers, functioning similarly to a 401(k) offered by for-profit employers.
 
@@ -235,5 +232,3 @@ No. Employer matching contributions do not count against your individual employe
 ### What's the difference between a 403(b) and a 401(k)?
 They function very similarly, but 403(b) plans are offered by nonprofit, educational, and religious organizations, while 401(k) plans are offered by for-profit employers. Both offer tax-deferred (or Roth) growth.
 
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. No data is sent to any server.

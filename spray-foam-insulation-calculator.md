@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Spray Foam Insulation | Interactive Online Tool"
+title: "Spray Foam Insulation Calculator | HVAC & Insulation Sizing"
 description: "Calculate board feet volume, material thickness, open cell vs closed cell spray foam costs, and achieved R-value."
 permalink: /spray-foam-insulation-calculator
 tool_id: spray-foam-insulation-calculator
@@ -141,7 +141,7 @@ faq:
     answer: "No. All computations process locally inside your Web browser."
 ---
 
-# Spray Foam Insulation Calculator
+# Spray Foam Insulation Calculator - Calculate BTU Load & R-Value Insulation
 
 Calculate board feet volume, material thickness, open cell vs closed cell spray foam contractor costs, and achieved R-value performance.
 
@@ -191,8 +191,7 @@ where Open Cell R-Value $\approx 3.7 / \text{in}$ and Closed Cell R-Value $\appr
 
 ---
 
-## Frequently Asked Questions
-
+## Spray Foam Insulation Calculator Frequently Asked Questions
 ### What is a board foot in spray foam insulation?
 A board foot (bd ft) is a unit of volume measuring 12 inches wide by 12 inches long by 1 inch thick (144 cubic inches or 1 square foot at 1 inch depth).
 

@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Paver | Interactive Online Tool"
+title: "Paver Calculator | Outdoor & Landscape Estimating"
 description: "Calculate patio and walkway paver counts (4x8, 6x6, 6x9, 12x12), 10% cutting waste, bedding sand yards, gravel base stone tons, and total cost."
 permalink: /paver-calculator
 tool_id: paver-calculator
@@ -165,11 +165,9 @@ faq:
     answer: "Polymeric sand is a blend of graded sand and polymer binders swept into paver joints. When activated with water, it hardens to prevent weed growth, ant hills, and sand washout."
   - question: "How much does a paver patio cost per square foot?"
     answer: "DIY paver patio materials (pavers, gravel, sand) cost $4 to $8 per square foot. Professional contractor installation ranges from $15 to $30 per square foot."
-  - question: "Is my personal data saved anywhere?"
-    answer: "No. All calculations run locally in your web browser."
 ---
 
-# Paver Calculator
+# Paver Calculator - Calculate Mulch, Sod & Material Volume
 
 Calculate exact material requirements for building a durable hardscape patio, walkway, or driveway using our **Paver Calculator**. Determine **paver unit counts**, **bedding sand cubic yards**, **gravel base stone tons**, and total material expenditure.
 
@@ -228,8 +226,7 @@ The table below illustrates material requirements across standard patio project 
 
 ---
 
-## Frequently Asked Questions
-
+## Paver Calculator Frequently Asked Questions
 ### How many 6x9 pavers do I need for a 300 square foot patio?
 Each 6x9 paver covers 0.375 square feet. For a 300 sq ft patio, you need 800 net pavers. Including 10% for edge cutting waste, you will need 880 pavers.
 
@@ -248,5 +245,3 @@ Polymeric sand is a blend of graded sand and polymer binders swept into paver jo
 ### How much does a paver patio cost per square foot?
 DIY paver patio materials (pavers, gravel, sand) cost $4 to $8 per square foot. Professional contractor installation ranges from $15 to $30 per square foot.
 
-### Is my personal data saved anywhere?
-No. All calculations run locally in your web browser.

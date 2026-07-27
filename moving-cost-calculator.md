@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Moving Cost | Interactive Online Tool"
+title: "Moving Cost Calculator | Income & Expense Planning"
 description: "Estimate moving costs for local and long-distance relocation based on home size, distance, truck rental, and mover fees."
 permalink: /moving-cost-calculator
 tool_id: moving-cost-calculator
@@ -117,11 +117,9 @@ faq:
     answer: "Watch out for stair fees, long-carry surcharges (distance from truck to front door), heavy item surcharges (pianos, safes), and shuttle fees if large trucks cannot access narrow streets."
   - question: "How much emergency buffer should I add to my moving budget?"
     answer: "Add a 15% to 20% emergency buffer to cover unexpected hotel stays, takeout meals, cleaning fees, and utility deposit connection costs."
-  - question: "Is my personal financial data saved on any server?"
-    answer: "No. All calculations run locally inside your web browser. History and saved presets are stored strictly in your browser's local storage."
 ---
 
-# Moving Cost Calculator
+# Moving Cost Calculator - Plan Monthly Income & Expenses
 
 Calculate local and cross-country relocation expenses with our free **Moving Cost Calculator**.
 
@@ -156,8 +154,7 @@ Calculate local and cross-country relocation expenses with our free **Moving Cos
 
 ---
 
-## Frequently Asked Questions
-
+## Moving Cost Calculator Frequently Asked Questions
 ### How much do professional movers cost on average?
 Local moves (under 100 miles) typically cost between $800 and $2,500 depending on home size. Long-distance moves (500+ miles) average between $2,500 and $7,500+.
 
@@ -176,5 +173,3 @@ Watch out for stair fees, long-carry surcharges (distance from truck to front do
 ### How much emergency buffer should I add to my moving budget?
 Add a 15% to 20% emergency buffer to cover unexpected hotel stays, takeout meals, cleaning fees, and utility deposit connection costs.
 
-### Is my personal financial data saved on any server?
-No. All calculations run locally inside your web browser. History and saved presets are stored strictly in your browser's local storage.

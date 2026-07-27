@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "1031 Exchange | Interactive Online Tool"
+title: "1031 Exchange Calculator | Capital Gains Tax Deferral"
 description: "Calculate capital gains tax deferrals, boot liability, and replacement property cost requirements under IRS Section 1031 exchanges."
 permalink: /1031-exchange-calculator
 tool_id: 1031-exchange-calculator
@@ -125,11 +125,9 @@ faq:
     answer: "A Qualified Intermediary (QI) must hold all sale proceeds. If the seller touches or receives the cash directly, the 1031 exchange is disqualified and taxes become immediately due."
   - question: "What qualifies as 'like-kind' real estate?"
     answer: "Nearly all real property within the U.S. is like-kind to other U.S. real property (e.g., selling a single-family rental to buy an apartment building or commercial retail space)."
-  - question: "Is my personal financial data saved on any server?"
-    answer: "No. All calculations run locally inside your web browser. History and saved presets are stored strictly in your browser's local storage."
 ---
 
-# 1031 Exchange Calculator
+# 1031 Exchange Calculator - Estimate Tax Deferral & Reinvestment
 
 Calculate capital gains tax deferrals, boot liability, and replacement property cost requirements under **IRS Section 1031** like-kind exchanges with our free calculator.
 
@@ -164,8 +162,7 @@ Calculate capital gains tax deferrals, boot liability, and replacement property 
 
 ---
 
-## Frequently Asked Questions
-
+## 1031 Exchange Calculator Frequently Asked Questions
 ### What is an IRS Section 1031 Like-Kind Exchange?
 Section 1031 allows real estate investors to defer paying capital gains and depreciation recapture taxes upon selling an investment property by reinvesting the proceeds into a replacement like-kind property.
 
@@ -184,5 +181,3 @@ A Qualified Intermediary (QI) must hold all sale proceeds. If the seller touches
 ### What qualifies as 'like-kind' real estate?
 Nearly all real property within the U.S. is like-kind to other U.S. real property (e.g., selling a single-family rental to buy an apartment building or commercial retail space).
 
-### Is my personal financial data saved on any server?
-No. All calculations run locally inside your web browser. History and saved presets are stored strictly in your browser's local storage.

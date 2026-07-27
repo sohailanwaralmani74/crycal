@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Property Tax | Interactive Online Tool"
+title: "Property Tax Calculator | Mortgage Payment & Interest"
 description: "Calculate your property taxes. Enter property value, assessment ratio, and tax rate to estimate your annual and monthly tax liability."
 permalink: /property-tax-calculator
 tool_id: property-tax-calculator
@@ -151,12 +151,10 @@ faq:
     answer: "Property tax rates vary widely by location. The US average is about 1.2%, but rates range from 0.5% in some states to over 2% in others. This calculator allows you to enter your exact rate."
   - question: "What are property tax exemptions?"
     answer: "Exemptions reduce your taxable property value. Common exemptions include homestead exemptions, senior citizen exemptions, and veteran exemptions. Enter the total amount of exemptions you qualify for."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server."
 
 ---
 
-# Property Tax Calculator
+# Property Tax Calculator - Calculate Home Loan Payment & Amortization
 
 Use this property tax calculator to estimate your annual and monthly property tax liability. Enter your property value, assessment ratio, tax rate, and exemptions — the tool works for any jurisdiction. This real estate tax calculator helps you budget for your property tax obligations.
 
@@ -201,8 +199,7 @@ Property taxes are one of the largest ongoing costs of homeownership. This prope
 
 ---
 
-## Frequently Asked Questions
-
+## Property Tax Calculator Frequently Asked Questions
 ### What is a property tax calculator?
 A property tax calculator estimates the amount of property tax you owe based on your property value, assessment ratio, and local tax rate. It works for any jurisdiction.
 
@@ -214,8 +211,5 @@ Property tax rates vary widely by location. The US average is about 1.2%, but ra
 
 ### What are property tax exemptions?
 Exemptions reduce your taxable property value. Common exemptions include homestead exemptions, senior citizen exemptions, and veteran exemptions. Enter the total amount of exemptions you qualify for.
-
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server.
 
 ---

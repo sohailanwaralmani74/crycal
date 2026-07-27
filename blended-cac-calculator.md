@@ -1,6 +1,6 @@
 ---
 layout: "tool"
-title: "Blended CAC Calculator"
+title: "Blended Cac Calculator | SaaS Unit Economics & CAC"
 description: "Calculate blended customer acquisition cost across paid advertising and organic inbound channels."
 permalink: "/blended-cac-calculator"
 tool_id: "blended-cac-calculator"
@@ -125,11 +125,9 @@ faq:
     a: "Lower Blended CAC by scaling SEO content creation, encouraging customer referral programs, and improving ad conversion rates."
   - q: "How often should Blended CAC be evaluated?"
     a: "Evaluate Blended CAC monthly to monitor channel mix shifts over time."
-  - q: "Is client data stored?"
-    a: "No. All calculations execute locally inside your browser."
 ---
 
-# Calculate Blended Customer Acquisition Cost (CAC)
+# Blended Cac Calculator - Calculate LTV, CAC & Payback Ratio
 
 Calculate blended customer acquisition cost across paid advertising and organic inbound channels. Use our free **Blended CAC Calculator** to evaluate your SaaS business performance and make data-driven growth decisions — without any data leaving your browser.
 
@@ -141,24 +139,21 @@ Blended CAC provides a holistic view of your overall go-to-market expense by ave
 
 Having accurate, real-time insights into this metric helps SaaS founders, CFOs, and growth teams optimize capital allocation, protect operating runway, and achieve top-tier venture scalability.
 
-## Mathematical Formula & Derivation
-
+## Blended Cac Calculator Formula & Derivation
 The mathematical derivation for this financial metric is expressed as:
 
 $$\text{Total Spend} = \text{Paid Spend} + \text{Organic Budget} + \text{Team Salaries}$$ \n$$\text{Blended CAC} = \frac{\text{Total Spend}}{\text{Paid Customers} + \text{Organic Customers}}$$
 
 Where all input values are evaluated over a standardized monthly or annual accounting period.
 
-## Real-World SaaS Benchmark Comparison
-
+## Blended Cac Calculator SaaS Benchmarks
 | Channel Mix Profile | Organic Share | Paid Share | Blended CAC Health |
 | --- | --- | --- | --- |
 | Organic Dominant | >= 70% | <= 30% | Highly Efficient Unit Economics |
 | Balanced Hybrid | 40% - 69% | 30% - 60% | Optimal Growth Acceleration |
 | Paid Heavy | < 40% | > 60% | Vulnerable to Rising Ad Costs |
 
-## Step-by-Step Calculation Guide
-
+## Step-by-Step Blended Cac Calculator Calculation Guide
 1. **Enter Core Financial Inputs:** Supply your monthly sales spend, user counts, ARPU, or recurring revenue figures.
 2. **Review Intermediate Outputs:** Examine calculated gross profit, churn, payback, or unit contribution scores.
 3. **Assess Benchmark Ratings:** Compare your results against SaaS industry standards to identify growth bottlenecks.
@@ -166,8 +161,7 @@ Where all input values are evaluated over a standardized monthly or annual accou
 
 ---
 
-## Frequently Asked Questions
-
+## Blended Cac Calculator Frequently Asked Questions
 ### What is Blended CAC?
 Blended CAC measures total sales and marketing spend divided by total new customers acquired across all paid and organic channels combined.
 
@@ -183,5 +177,3 @@ Lower Blended CAC by scaling SEO content creation, encouraging customer referral
 ### How often should Blended CAC be evaluated?
 Evaluate Blended CAC monthly to monitor channel mix shifts over time.
 
-### Is client data stored?
-No. All calculations execute locally inside your browser.

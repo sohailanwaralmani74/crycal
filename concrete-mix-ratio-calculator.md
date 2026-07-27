@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Concrete Mix Ratio | Cement, Sand & Gravel Estimator"
+title: "Concrete Mix Ratio Calculator | Concrete & Masonry Estimating"
 description: "Calculate exact cement bags, sand tons, gravel tons, and water gallons by weight or volume for 3000 PSI to 5000 PSI concrete mix designs."
 permalink: /concrete-mix-ratio-calculator
 tool_id: concrete-mix-ratio-calculator
@@ -170,7 +170,7 @@ faq:
     answer: "Adding a 10% waste and spillage allowance accounts for ground loss, shovel residue, uneven subgrade, and mixing equipment retention."
 ---
 
-# Concrete Mix Ratio & Materials Estimator
+# Concrete Mix Ratio Calculator - Calculate Volume, Bags & Materials
 
 Calculate exact Portland cement bags, masonry sand tons, gravel aggregate tons, and mixing water gallons for any concrete volume. All calculations run 100% privately in your browser.
 
@@ -222,8 +222,7 @@ $$W_{	ext{gal}} = rac{N_{	ext{cement}} 	imes W_{	ext{bag\_weight}} 	imes 0.50}{
 
 ---
 
-## Real-World Comparison & Benchmark Table
-
+## Concrete Mix Ratio Calculator Benchmarks & Comparison Table
 | Mix Design | Target Strength (PSI) | Volumetric Ratio (C : S : G) | Cement Bags (94lb / cu yd) | Sand Required (Tons / cu yd) | Gravel Required (Tons / cu yd) | Primary Applications |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Standard Slab** | 3,000 PSI | 1 : 2 : 3 | 5.8 Bags | 0.54 Tons | 0.85 Tons | House footings, residential patio slabs |
@@ -233,8 +232,7 @@ $$W_{	ext{gal}} = rac{N_{	ext{cement}} 	imes W_{	ext{bag\_weight}} 	imes 0.50}{
 
 ---
 
-## Step-by-Step How-To Guide
-
+## How to Use the Concrete Mix Ratio Calculator Step-by-Step
 1. **Calculate Required Volume:** Measure total formwork length, width, and depth to get wet cubic yards needed.
 2. **Select Target PSI Ratio:** Choose 1:2:3 for general slabs or 1:1.5:3 for high-load driveways.
 3. **Set Bag Weight & Waste:** Select your cement bag size (94 lb standard) and include 10% for spillage and form over-fill.
@@ -243,8 +241,7 @@ $$W_{	ext{gal}} = rac{N_{	ext{cement}} 	imes W_{	ext{bag\_weight}} 	imes 0.50}{
 
 ---
 
-## Frequently Asked Questions
-
+## Concrete Mix Ratio Calculator Frequently Asked Questions
 ### What is the standard concrete mix ratio for general construction?
 The standard mix ratio for general structural concrete (3000 PSI) is 1 part Portland cement, 2 parts clean sand, and 3 parts coarse gravel aggregate by volume.
 

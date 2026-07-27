@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Mulch | Interactive Online Tool"
+title: "Mulch Calculator | Outdoor & Landscape Estimating"
 description: "Calculate mulch volume in cubic yards, 2 cu ft and 3 cu ft bag counts, total material cost, and coverage for flower beds and landscaping."
 permalink: /mulch-calculator
 tool_id: mulch-calculator
@@ -140,7 +140,7 @@ faq:
     answer: "No. All computations take place locally inside your browser ensuring 100% data privacy."
 ---
 
-# Mulch Calculator
+# Mulch Calculator - Calculate Mulch, Sod & Material Volume
 
 Calculate exact mulch volume requirements in **cubic yards** and **cubic feet**, determine bag counts for both **2 cu ft** and **3 cu ft** bags, and compare bulk delivery pricing against bagged options.
 
@@ -188,8 +188,7 @@ $$\text{Total Bulk Cost} = \text{Volume (cu yd)} \times \text{Price per Cu Yd}$$
 
 ---
 
-## Frequently Asked Questions
-
+## Mulch Calculator Frequently Asked Questions
 ### How many cubic yards of mulch do I need for 1,000 square feet?
 At a standard depth of 3 inches, 1,000 square feet requires approximately 9.26 cubic yards of mulch (or 250 cubic feet).
 

@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Tiered Pricing Revenue Estimator | Interactive Online Tool"
+title: "Tiered Pricing Revenue Estimator | SaaS Pricing & Packaging"
 description: "Estimate blended Monthly Recurring Revenue (MRR) and Annual Recurring Revenue (ARR) across Starter, Pro, and Enterprise tiers based on customer..."
 permalink: /tiered-pricing-revenue-estimator
 tool_id: tiered-pricing-revenue-estimator
@@ -164,7 +164,7 @@ faq:
 
 ---
 
-# Tiered Pricing Revenue Estimator Calculator
+# Tiered Pricing Revenue Estimator - Calculate Tier Profitability & ARPU
 
 Model and project your **Monthly Recurring Revenue (MRR)** and **Blended ARPU** across **Starter**, **Pro**, and **Enterprise** subscription tiers.
 
@@ -178,8 +178,7 @@ However, revenue is heavily weighted by the **customer mix percentage**. Moving 
 
 ---
 
-## Key Mathematical Formulas
-
+## Key Tiered Pricing Revenue Estimator Mathematical Formulas
 ### 1. Per-Tier Revenue Formulas
 
 $$ \text{Starter Accounts} = \text{Total Customers} \times \text{Starter Mix \%} $$
@@ -221,8 +220,7 @@ $$ \text{Blended ARPU} = \frac{\text{Total MRR}}{\text{Total Customers}} $$
 
 ---
 
-## Frequently Asked Questions
-
+## Tiered Pricing Revenue Estimator Frequently Asked Questions
 ### What is a typical SaaS customer tier distribution mix?
 A common self-serve B2B SaaS distribution mix is 50% Starter, 35% Pro, and 15% Enterprise. In enterprise-heavy SaaS, Enterprise may account for 70%+ of total revenue despite being 10% of customer accounts.
 

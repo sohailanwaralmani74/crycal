@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Roof Pitch | Interactive Online Tool"
+title: "Roof Pitch Calculator | Lumber & Framing Estimating"
 description: "Calculate roof pitch ratios (X/12), pitch angles in degrees, pitch multipliers, and true sloped roof square footage from rise and run."
 permalink: /roof-pitch-calculator
 tool_id: roof-pitch-calculator
@@ -121,11 +121,9 @@ faq:
     answer: "Flat roofs are 0/12 to 2/12 pitch. Low-slope roofs are 2/12 to 4/12. Standard residential roofs are 4/12 to 9/12. Steep-slope roofs are 10/12 to 18/12 pitch."
   - question: "Why is roof pitch important for shingle installation?"
     answer: "Standard asphalt shingles require a minimum 4/12 pitch for proper water drainage without special underlayment. Pitch also determines snow load shed and wind resistance ratings."
-  - question: "Is my roof pitch calculation saved on external servers?"
-    answer: "No. All calculation logic executes locally in your browser."
 ---
 
-# Roof Pitch Calculator
+# Roof Pitch Calculator - Calculate Board Feet & Wood Quantity
 
 Calculate **roof pitch ratio (X/12)**, slope angle in degrees, **pitch multiplier factor**, and true sloped roof square footage from rise and run measurements.
 
@@ -166,8 +164,7 @@ $$\text{Sloped Roof Area (sq ft)} = \text{Flat Footprint Area (sq ft)} \times M$
 
 ---
 
-## Frequently Asked Questions
-
+## Roof Pitch Calculator Frequently Asked Questions
 ### What is roof pitch?
 Roof pitch is the measure of the steepness of a roof slope, expressed as inches of vertical rise per 12 inches (1 foot) of horizontal run (e.g., a 6/12 pitch rises 6 inches for every 12 inches of run).
 
@@ -186,5 +183,3 @@ Flat roofs are 0/12 to 2/12 pitch. Low-slope roofs are 2/12 to 4/12. Standard re
 ### Why is roof pitch important for shingle installation?
 Standard asphalt shingles require a minimum 4/12 pitch for proper water drainage without special underlayment. Pitch also determines snow load shed and wind resistance ratings.
 
-### Is my roof pitch calculation saved on external servers?
-No. All calculation logic executes locally in your browser.

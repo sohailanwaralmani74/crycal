@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Wallpaper | Interactive Online Tool"
+title: "Wallpaper Calculator | Drywall & Paint Estimating"
 description: "Calculate double rolls of wallpaper needed based on room perimeter, ceiling height, roll width, and pattern repeat waste factor."
 permalink: /wallpaper-calculator
 tool_id: wallpaper-calculator
@@ -153,11 +153,9 @@ faq:
     answer: "Subtract standard windows and doors only if they cover large continuous wall sections. For small windows, contractors recommend ignoring deductions to preserve extra wallpaper for repairs."
   - question: "What is the difference between straight match and drop match patterns?"
     answer: "A straight match aligns patterns horizontally across adjacent strips at the same ceiling height. A drop match shifts the design half a pattern repeat down on consecutive strips, producing higher offcut waste."
-  - question: "Is my personal data saved when using this tool?"
-    answer: "No. All wallpaper roll calculations run locally in your web browser."
 ---
 
-# Wallpaper Calculator
+# Wallpaper Calculator - Calculate Paint Coverage & Sheet Count
 
 Calculate double rolls of wallpaper, single roll equivalents, pattern match waste, and total material budget with our free **Wallpaper Calculator**.
 
@@ -211,8 +209,7 @@ $$\text{Double Rolls Needed} = \left\lceil \frac{\text{Net Wall Area}}{\text{Usa
 
 ---
 
-## Frequently Asked Questions
-
+## Wallpaper Calculator Frequently Asked Questions
 ### Why is wallpaper priced in single rolls but sold in double rolls?
 Historically wallpaper prices were advertised per single roll, but to provide long continuous strips for tall walls, manufacturers package wallpaper almost exclusively as single bolt "double rolls" (approx 56 sq ft).
 
@@ -231,5 +228,3 @@ Subtract standard windows and doors only if they cover large continuous wall sec
 ### What is the difference between straight match and drop match patterns?
 A straight match aligns patterns horizontally across adjacent strips at the same ceiling height. A drop match shifts the design half a pattern repeat down on consecutive strips, producing higher offcut waste.
 
-### Is my personal data saved when using this tool?
-No. All wallpaper roll calculations run locally in your web browser.

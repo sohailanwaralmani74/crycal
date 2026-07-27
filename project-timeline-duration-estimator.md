@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Project Timeline Duration Estimator | Wanjaaro"
+title: "Project Timeline Duration Estimator | Project Cost & Estimating"
 description: "Calculate total renovation duration in work days, calendar weeks, and months across design, demolition, structural framing, trades, drywall, and..."
 permalink: /project-timeline-duration-estimator
 tool_id: project-timeline-duration-estimator
@@ -159,11 +159,9 @@ faq:
     answer: "The critical path is the sequence of dependent task activities that determines the shortest possible project completion duration. Delaying any activity on the critical path directly extends the overall project deadline."
   - question: "Why should I add a delay contingency buffer to my schedule?"
     answer: "Adding a 15% to 20% delay contingency buffer provides a realistic buffer for weather disruptions, subcontractor scheduling conflicts, and municipal inspection delays, ensuring clients have accurate expectations."
-  - question: "Is my personal data saved when using this calculator?"
-    answer: "No. All calculations run strictly inside your web browser."
 ---
 
-# Project Timeline Duration Estimator Calculator
+# Project Timeline Duration Estimator - Calculate Project Timeline & Budget
 
 Managing a construction project requires establishing a realistic project timeline. Whether you are managing a single-bathroom update or a multi-story home addition, scheduling delays increase labor costs and living disruptions. Use our **Project Timeline Duration Estimator** to calculate total renovation duration in active work days, calendar weeks, and months across all major construction phases.
 
@@ -218,8 +216,7 @@ The table below illustrates phase durations, buffer days, total work days, and c
 
 ---
 
-## Frequently Asked Questions
-
+## Project Timeline Duration Estimator Frequently Asked Questions
 ### How long does a typical kitchen renovation take?
 A complete kitchen renovation typically takes 6 to 10 weeks (30 to 50 work days) from demolition to final walkthrough, excluding 3 to 6 weeks of prior design and cabinet lead time.
 
@@ -238,5 +235,3 @@ The critical path is the sequence of dependent task activities that determines t
 ### Why should I add a delay contingency buffer to my schedule?
 Adding a 15% to 20% delay contingency buffer provides a realistic buffer for weather disruptions, subcontractor scheduling conflicts, and municipal inspection delays, ensuring clients have accurate expectations.
 
-### Is my personal data saved when using this calculator?
-No. All calculations run strictly inside your web browser.

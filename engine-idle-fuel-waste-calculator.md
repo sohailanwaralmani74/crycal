@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Engine Idle Fuel Waste | Interactive Online Tool"
+title: "Engine Idle Fuel Waste Calculator | Gas Mileage & MPG Economy"
 description: "Calculate fuel and money wasted from engine idling in heavy traffic, drive-thrus, and warmups, along with excess CO2 emissions produced."
 permalink: /engine-idle-fuel-waste-calculator
 tool_id: engine-idle-fuel-waste-calculator
@@ -136,7 +136,7 @@ faq:
 
 ---
 
-# Engine Idle Fuel Waste Calculator
+# Engine Idle Fuel Waste Calculator - Calculate Fuel Consumption & Trip Cost
 
 Calculate how much gasoline and money you burn while idling in drive-thrus, school pickup lines, traffic jams, and winter warmups.
 
@@ -150,8 +150,7 @@ Using this **Engine Idle Fuel Waste Calculator**, you can calculate your exact a
 
 ---
 
-## Calculation Flow
-
+## Engine Idle Fuel Waste Calculator Calculation Flow
 <div class="flow-chart">
   <div class="flow-title">Engine Idle Waste Flow</div>
 
@@ -227,8 +226,7 @@ $$\text{Annual Waste (\$)} = \text{Daily Gallons} \times \text{Operating Days} \
 
 ---
 
-## Step-by-Step Guide
-
+## Step-by-Step Engine Idle Fuel Waste Calculator Guide
 ### Step 1: Estimate Daily Idling Time
 Include drive-thrus, traffic light queues, warming up the vehicle in the morning, and parked waiting periods.
 
@@ -243,8 +241,7 @@ See how much money you save by turning off your key when parked over 10 seconds.
 
 ---
 
-## Frequently Asked Questions
-
+## Engine Idle Fuel Waste Calculator Frequently Asked Questions
 ### How much fuel does an idling engine consume per hour?
 A standard 4-cylinder engine burns 0.2 to 0.4 gallons per hour while idling. A V6 burns 0.5 to 0.7 gallons/hr, and a large V8 or diesel burns 0.8 to 1.2 gallons/hr.
 
@@ -263,5 +260,5 @@ Automatic Start-Stop systems shut off the engine at traffic lights, cutting city
 ### Does winter idling warm up the car faster?
 No. Modern fuel-injected engines warm up significantly faster when driving gently than when idling in the driveway.
 
-### Is this calculator private?
+### Is the Engine Idle Fuel Waste Calculator private?
 Yes, all data processing takes place strictly inside your browser.

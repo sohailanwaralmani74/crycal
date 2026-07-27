@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Barista Fire | Interactive Online Tool"
+title: "Barista Fire Calculator | Calculation & Analysis"
 description: "Find your Barista FIRE number. Enter your current savings, retirement goals, and expected part-time income to see when you can semi-retire."
 permalink: /barista-fire-calculator
 tool_id: barista-fire-calculator
@@ -176,12 +176,10 @@ faq:
     answer: "Your Barista FIRE number depends on your expenses and part-time income. For example, if your annual expenses are $50,000 and you earn $25,000 from part-time work, your Barista FIRE number is $625,000 (using the 4% rule)."
   - question: "How many hours will I need to work in Barista FIRE?"
     answer: "The calculator estimates your hours based on your part-time income and hourly rate. If you earn $25,000 per year at $25/hour, you'd work about 20 hours per week."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. No data is sent to any server."
 
 ---
 
-# Barista Fire Calculator
+# Barista Fire Calculator - Calculate & Optimize Results
 
 Calculate your **Barista FIRE number** with our free Barista FIRE Calculator. Enter your current savings, retirement expenses, and expected part-time income to find out when you can semi-retire and enjoy a flexible lifestyle — all without your data leaving your browser.
 
@@ -300,8 +298,7 @@ Higher part-time income = lower savings target = faster Barista FIRE.
 
 ---
 
-## Frequently Asked Questions
-
+## Barista Fire Calculator Frequently Asked Questions
 ### What is Barista FIRE?
 Barista FIRE is a variation of the FIRE movement where you semi-retire early and work a part-time job to cover a portion of your living expenses. Your investments cover the rest.
 
@@ -317,5 +314,3 @@ Your Barista FIRE number depends on your expenses and part-time income. For exam
 ### How many hours will I need to work in Barista FIRE?
 The calculator estimates your hours based on your part-time income and hourly rate. If you earn $25,000 per year at $25/hour, you'd work about 20 hours per week.
 
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. No data is sent to any server.

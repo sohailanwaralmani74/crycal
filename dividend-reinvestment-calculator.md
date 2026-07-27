@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Dividend Reinvestment | Interactive Online Tool"
+title: "Dividend Reinvestment Calculator | Compound Interest & Savings"
 description: "Estimate how your dividends grow over time with a dividend reinvestment plan (DRIP). See the power of compounding dividends with reinvestment."
 permalink: /dividend-reinvestment-calculator
 tool_id: dividend-reinvestment
@@ -161,12 +161,10 @@ faq:
     answer: "A good dividend yield depends on the sector and market conditions. Generally, yields between 2% and 5% are considered healthy. Use this dividend reinvestment plan calculator to see how different yields affect your returns."
   - question: "How does dividend growth rate affect my returns?"
     answer: "The dividend growth rate represents how much a company increases its dividend each year. A higher growth rate means your dividend income grows faster, which in turn accelerates the compounding effect when reinvested."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server."
 
 ---
 
-# Dividend Reinvestment Calculator
+# Dividend Reinvestment Calculator - Project Wealth Accumulation & Yield
 
 Use this dividend reinvestment calculator to estimate how your dividends grow over time with a dividend reinvestment plan (DRIP). Enter your initial investment, monthly contributions, dividend yield, and dividend growth rate — the tool shows your final portfolio value, total dividends, and the reinvestment benefit. Whether you're building passive income or aiming for long-term growth, this drip plan calculator shows you the full picture.
 
@@ -199,8 +197,7 @@ When you reinvest dividends, you use cash dividends to buy additional shares of 
 
 ---
 
-## How to Use This Tool
-
+## How to Use the Dividend Reinvestment Calculator
 1.  Select your **account currency** from the picker in the site header.
 2.  Enter your **initial investment** (starting amount).
 3.  Set your **monthly contribution** (how much you invest each month).
@@ -213,8 +210,7 @@ The tool updates instantly — you'll see your final portfolio value, total divi
 
 ---
 
-## Frequently Asked Questions
-
+## Dividend Reinvestment Calculator Frequently Asked Questions
 ### What is a dividend reinvestment plan (DRIP)?
 A DRIP allows you to automatically reinvest cash dividends into additional shares of the same stock. This harnesses the power of compounding, often resulting in significantly higher returns over time.
 
@@ -226,9 +222,6 @@ A good dividend yield depends on the sector and market conditions. Generally, yi
 
 ### How does dividend growth rate affect my returns?
 The dividend growth rate represents how much a company increases its dividend each year. A higher growth rate means your dividend income grows faster, which in turn accelerates the compounding effect when reinvested.
-
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server.
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Home Sale Capital Gains Exclusion | IRS Sec 121 Tool"
+title: "Home Sale Capital Gains Exclusion Calculator | Tax Rates &"
 description: "Calculate capital gains tax on primary residence sales using IRS Section 121 exclusions ($250k single / $500k married). 100% private browser tool."
 permalink: /home-sale-capital-gains-exclusion-calculator
 tool_id: home-sale-capital-gains-exclusion-calculator
@@ -137,11 +137,9 @@ faq:
     answer: "You can claim the Section 121 tax exclusion once every two years, provided you meet the 2-in-5-year ownership and primary residency requirements."
   - question: "Are partial Section 121 exclusions allowed for premature home sales?"
     answer: "Yes, partial exclusions are allowed if a sale is forced by qualifying unforeseen circumstances, including job relocation over 50 miles, health conditions, or divorce."
-  - question: "Is confidential property and transaction data stored anywhere?"
-    answer: "No, all capital gain exclusion calculations run 100% locally inside your web browser. No property values, sale amounts, or personal tax data leave your device."
 ---
 
-# Home Sale Capital Gains Exclusion Calculator
+# Home Sale Capital Gains Exclusion Calculator - Calculate Tax Liability & Savings
 
 Calculate capital gains tax on primary residence sales and evaluate the **IRS Section 121 Exclusion** ($250,000 Single / $500,000 Married) with 100% private browser execution.
 
@@ -153,8 +151,7 @@ Selling a primary residence often results in capital appreciation. Internal Reve
 
 Accurately calculating net taxable gain requires building your property's adjusted cost basis. Cost basis includes original purchase price plus capital improvements (such as roof replacement or kitchen remodels) and selling fees like realtor commissions. Subtracting these adjustments from sales proceeds minimizes taxable excess gains. This calculator models your cost basis, applies Section 121 limits, and projects capital gains taxes securely and privately.
 
-## Mathematical Formulas & Mechanics
-
+## Home Sale Capital Gains Exclusion Calculator Mathematical Formulas & Mechanics
 The calculation computes adjusted cost basis, net realized gain, Section 121 tax exclusion, and remaining taxable profit.
 
 ### 1. Adjusted Cost Basis Calculation
@@ -177,8 +174,7 @@ $$G_{taxable} = \max\left(0, G_{realized} - E_{applied}\right)$$
 
 Where $P_{sale}$ represents gross price, $I_{cap}$ represents qualified improvements, $S_{fees}$ includes closing costs, and $G_{taxable}$ is profit subject to tax.
 
-## Real-World Comparison & Benchmark Table
-
+## Home Sale Capital Gains Exclusion Calculator Benchmarks & Comparison Table
 | Original Purchase Price | Capital Improvements | Selling Price | Selling Expenses | Adjusted Basis | Realized Gain | Filing Status Exclusion | Taxable Capital Gain |
 |---|---|---|---|---|---|---|---|
 | **$250,000** | $30,000 | $450,000 | $25,000 | $280,000 | $145,000 | Single ($250k Cap) | **$0** |
@@ -187,16 +183,14 @@ Where $P_{sale}$ represents gross price, $I_{cap}$ represents qualified improvem
 | **$450,000** | $80,000 | $1,150,000 | $65,000 | $530,000 | $555,000 | Married ($500k Cap) | **$55,000** |
 | **$600,000** | $120,000 | $1,500,000 | $85,000 | $720,000 | $695,000 | Married ($500k Cap) | **$195,000** |
 
-## Step-by-Step How-To Guide
-
+## How to Use the Home Sale Capital Gains Exclusion Calculator Step-by-Step
 1. **Enter Gross Home Sale Price**: Input final sale price agreed upon in closing documents.
 2. **Input Original Purchase Price**: Enter original home purchase price paid when acquiring the property.
 3. **Add Documented Capital Improvements**: Input total cost of permanent structural additions and major renovations.
 4. **Enter Selling Expenses**: Include realtor commission fees, legal costs, title charges, and escrow fees.
 5. **Select Filing Status**: Choose Single ($250,000 exclusion cap) or Married Filing Jointly ($500,000 exclusion cap).
 
-## Frequently Asked Questions
-
+## Home Sale Capital Gains Exclusion Calculator Frequently Asked Questions
 ### What is the IRS Section 121 home sale tax exclusion?
 IRS Section 121 allows eligible homeowners to exclude up to $250,000 of capital gains (or $500,000 for married couples filing jointly) from federal income tax upon selling their primary residence.
 
@@ -215,5 +209,3 @@ You can claim the Section 121 tax exclusion once every two years, provided you m
 ### Are partial Section 121 exclusions allowed for premature home sales?
 Yes, partial exclusions are allowed if a sale is forced by qualifying unforeseen circumstances, including job relocation over 50 miles, health conditions, or divorce.
 
-### Is confidential property and transaction data stored anywhere?
-No, all capital gain exclusion calculations run 100% locally inside your web browser. No property values, sale amounts, or personal tax data leave your device.

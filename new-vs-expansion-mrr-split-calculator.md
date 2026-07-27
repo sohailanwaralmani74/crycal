@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "New Vs Expansion Mrr Split | Interactive Online Tool"
+title: "New vs Expansion Mrr Split Calculator | SaaS Recurring Revenue"
 description: "Breakdown monthly MRR growth into % New Logo MRR vs % Expansion MRR. Evaluate customer acquisition reliance vs existing customer expansion."
 permalink: /new-vs-expansion-mrr-split-calculator
 tool_id: new-vs-expansion-mrr-split-calculator
@@ -124,7 +124,7 @@ faq:
 
 ---
 
-# New Vs Expansion Mrr Split Calculator
+# New vs Expansion Mrr Split Calculator - Calculate MRR, ARR & Growth Metrics
 
 Calculate the percentage split of your monthly recurring revenue growth between **New Logo Acquisition**, **Account Expansion**, and **Customer Reactivation**.
 
@@ -172,8 +172,7 @@ $$\text{Reactivation Share (\%)} = \frac{\text{Reactivated MRR}}{\text{Total Gro
 
 ---
 
-## Frequently Asked Questions
-
+## New vs Expansion Mrr Split Calculator Frequently Asked Questions
 ### Why is the New vs. Expansion MRR split important for SaaS?
 The split shows where growth originates. Early-stage SaaS companies rely mostly on New Logo MRR (70%–90%), while mature scale-ups generate 30%–50%+ of new MRR from account expansion.
 

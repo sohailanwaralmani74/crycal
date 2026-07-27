@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Baseboard Trim | Interactive Online Tool"
+title: "Baseboard Trim Calculator | Flooring Square Footage"
 description: "Calculate linear feet of baseboard trim, 8ft or 12ft piece counts, 10% miter corner waste, price per foot, and total trim project cost."
 permalink: /baseboard-trim-calculator
 tool_id: baseboard-trim-calculator
@@ -143,11 +143,9 @@ faq:
     answer: "Pine or MDF baseboard molding costs $1.50 to $3.50 per linear foot. Premium solid hardwood or composite trim ranges from $4.00 to $8.00 per linear foot."
   - question: "How far above hard flooring should baseboards be installed?"
     answer: "Baseboards installed over hardwood, laminate, or tile should be placed directly against the flooring (or elevated 3/8-inch above subfloor if carpeting will be laid later)."
-  - question: "Is my personal data saved anywhere?"
-    answer: "No. All calculations run locally in your web browser."
 ---
 
-# Baseboard Trim Calculator
+# Baseboard Trim Calculator - Calculate Tiles, Planks & Material Need
 
 Determine exact material requirements for interior moldings with our **Baseboard Trim Calculator**. Calculate **net linear feet**, **stock board counts** (8 ft, 12 ft, 16 ft), **miter corner cut waste**, and total project costs.
 
@@ -202,8 +200,7 @@ The table below shows trim material requirements across standard room layouts:
 
 ---
 
-## Frequently Asked Questions
-
+## Baseboard Trim Calculator Frequently Asked Questions
 ### How do I calculate linear feet of baseboard trim needed for a room?
 Measure the room's perimeter (Length + Width) × 2 in feet, subtract the total width of all doorways and floor openings, and add 10% for corner miter cuts.
 
@@ -222,5 +219,3 @@ Pine or MDF baseboard molding costs $1.50 to $3.50 per linear foot. Premium soli
 ### How far above hard flooring should baseboards be installed?
 Baseboards installed over hardwood, laminate, or tile should be placed directly against the flooring (or elevated 3/8-inch above subfloor if carpeting will be laid later).
 
-### Is my personal data saved anywhere?
-No. All calculations run locally in your web browser.

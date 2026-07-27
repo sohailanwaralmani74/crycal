@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Roof Flashing | Interactive Online Tool"
+title: "Roof Flashing Calculator | Roofing Material Estimating"
 description: "Calculate step flashing pieces, drip edge 10-ft metal strips, W-valley metal flashing, and chimney flashing kits for complete roof re-roofing projects."
 permalink: /roof-flashing-calculator
 tool_id: roof-flashing-calculator
@@ -146,11 +146,9 @@ faq:
     answer: "Standard aluminum drip edge has a 1.5\" to 2\" roof flange deck overlap and a 1.5\" vertical drop leg to direct water cleanly into gutters without touching fascia boards."
   - question: "Why is 10% waste added to flashing calculations?"
     answer: "10% waste accounts for 2-inch to 4-inch lap joint overlaps, corner miters, rake edge overhang tabs, and trimming offcuts."
-  - question: "Is my flashing calculation saved on external servers?"
-    answer: "No. All calculations run strictly inside your local browser."
 ---
 
-# Roof Flashing Calculator
+# Roof Flashing Calculator - Calculate Shingles, Squares & Flashing
 
 Calculate required **step flashing pieces**, **10-ft drip edge metal strips**, **W-valley metal flashing**, and complete **chimney flashing kit materials** for residential roof replacements.
 
@@ -196,8 +194,7 @@ $$\text{Step Flashing Pieces Gross} = \left\lceil \text{Step Flashing Net} \time
 
 ---
 
-## Frequently Asked Questions
-
+## Roof Flashing Calculator Frequently Asked Questions
 ### What is roof flashing?
 Roof flashing consists of thin sheet metal strips (aluminum, galvanized steel, or copper) installed at roof joints, valleys, walls, and chimneys to prevent water penetration.
 
@@ -216,5 +213,3 @@ Standard aluminum drip edge has a 1.5" to 2" roof flange deck overlap and a 1.5"
 ### Why is 10% waste added to flashing calculations?
 10% waste accounts for 2-inch to 4-inch lap joint overlaps, corner miters, rake edge overhang tabs, and trimming offcuts.
 
-### Is my flashing calculation saved on external servers?
-No. All calculations run strictly inside your local browser.

@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Free Trial Length Roi | Interactive Online Tool"
+title: "Free Trial Length Roi Calculator | SaaS Pricing & Packaging"
 description: "Compare 7-day vs 14-day vs 30-day trial lengths on paid conversion rate, support costs, and net ARR in SaaS."
 permalink: /free-trial-length-roi-calculator
 tool_id: free-trial-length-roi-calculator
@@ -155,7 +155,7 @@ faq:
 
 ---
 
-# Free Trial Length Roi Calculator
+# Free Trial Length Roi Calculator - Calculate Tier Profitability & ARPU
 
 Compare the financial yield of **7-day**, **14-day**, and **30-day free trial durations**. Evaluate **conversion rates**, **sales velocity**, and **support cost overhead**.
 
@@ -169,8 +169,7 @@ This calculator compares **gross ARR** and **net ARR after support costs** acros
 
 ---
 
-## Key Mathematical Formulas
-
+## Key Free Trial Length Roi Calculator Mathematical Formulas
 ### 1. New Annualized Converts by Trial Length
 
 $$ \text{Annual Converts}_d = (\text{Monthly Leads} \times 12) \times \text{Conv Rate}_d \% $$
@@ -206,8 +205,7 @@ $$ \text{Net ARR}_d = \text{Gross ARR}_d - \text{Annual Trial Support Cost} $$
 
 ---
 
-## Frequently Asked Questions
-
+## Free Trial Length Roi Calculator Frequently Asked Questions
 ### Why is 14 days considered the industry standard trial length?
 A 14-day trial provides enough urgency to encourage quick onboarding while giving business users two work weeks to evaluate software value.
 

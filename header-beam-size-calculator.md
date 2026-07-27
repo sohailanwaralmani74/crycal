@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Header & Beam Sizing Calculator | Wood Framing Tool"
+title: "Header Beam Size Calculator | Lumber & Framing Estimating"
 description: "Calculate required header beam size, ply count, and span limits for load-bearing door and window wall openings based on building loads."
 permalink: /header-beam-size-calculator
 tool_id: header-beam-size-calculator
@@ -149,7 +149,7 @@ faq:
     answer: "Standard 2x dimensional lumber headers are 3.5 inches thick in a 2x6 wall (5.5 inches deep), leaving a 2-inch interior gap that should be filled with rigid foam insulation (R-10 to R-13) to prevent thermal bridging."
 ---
 
-# Header Beam Size Calculator
+# Header Beam Size Calculator - Calculate Board Feet & Wood Quantity
 
 Determine structural header beam depth, ply count, maximum span allowances, and bearing jack stud requirements for door and window wall openings.
 
@@ -170,8 +170,7 @@ Using this **Header Beam Size Calculator** allows builders, framers, and enginee
 
 ---
 
-## Mathematical Formulas & Mechanics
-
+## Header Beam Size Calculator Mathematical Formulas & Mechanics
 ### 1. Tributary Load Calculation
 $$\text{Tributary Width } W_{\text{trib}} = \frac{\text{Building Width}}{2}$$
 $$w_{\text{total}} = W_{\text{trib}} \times \left( q_{\text{roof\_dead}} + q_{\text{roof\_snow}} + q_{\text{floor\_live}} \right) + q_{\text{wall}}$$
@@ -192,8 +191,7 @@ Where $E$ is Modulus of Elasticity ($1.4 \times 10^6\text{ psi}$ for SPF #2; $2.
 
 ---
 
-## Real-World Comparison & Benchmark Table
-
+## Header Beam Size Calculator Benchmarks & Comparison Table
 Maximum allowable clear spans for double $2\times$ headers supporting roof + 1 clear-span floor ($28\text{ ft}$ building width, $30\text{ psf}$ snow load):
 
 | Header Size | SPF #2 Max Span | SYP #2 Max Span | 2.0E LVL (Double 1-3/4") | Req. Jack Studs ($\le 6\text{ ft}$) | Req. Jack Studs ($> 6\text{ ft}$) |
@@ -207,8 +205,7 @@ Maximum allowable clear spans for double $2\times$ headers supporting roof + 1 c
 
 ---
 
-## Step-by-Step How-To Guide
-
+## How to Use the Header Beam Size Calculator Step-by-Step
 1. **Measure Opening Clear Span:** Measure exact rough opening width in feet for door, window, or garage framed opening.
 2. **Determine Tributary Building Span:** Input building width to determine weight transferred from ceiling joists and roof rafters.
 3. **Select Loading Condition:** Choose single story (roof load only), 2-story (roof + 1 floor), or 3-story (roof + 2 floors).
@@ -217,8 +214,7 @@ Maximum allowable clear spans for double $2\times$ headers supporting roof + 1 c
 
 ---
 
-## Frequently Asked Questions
-
+## Header Beam Size Calculator Frequently Asked Questions
 ### Rule of thumb for door and window header sizing?
 A common traditional rule of thumb is header depth in inches equals opening width in feet plus 2 inches (e.g., 4-ft opening = double 2x6; 6-ft opening = double 2x8; 8-ft opening = double 2x10). However, heavy snow or multi-story loads require calculated engineering.
 

@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Salary | Interactive Online Tool"
+title: "Salary Calculator | Pay Period Conversion & Income"
 description: "Convert your salary between hourly, daily, weekly, monthly, and annual pay — works with any currency and any work schedule, anywhere in the world."
 permalink: /salary-calculator
 tool_id: salary
@@ -153,11 +153,9 @@ faq:
     answer: "Both. The hourly-through-annual figures are gross pay. If you enter your own tax rate and other deductions, the calculator also shows an estimated Take-Home Pay — but it uses the rate you provide rather than looking up any country's actual tax brackets."
   - question: "How is Take-Home Pay calculated?"
     answer: "Take-Home Pay is your annual gross salary minus your entered tax rate applied to that gross amount, minus your entered Other Deductions (annualized the same way your salary is). It reflects your own numbers, not a built-in tax table, so accuracy depends on the rate you provide."
-  - question: "Is my data stored?"
-    answer: "No. Everything runs locally in your browser."
 ---
 
-# Salary Calculator
+# Salary Calculator - Convert Annual Salary to Hourly & Monthly Pay
 
 Convert your salary between hourly, daily, weekly, bi-weekly, monthly, and annual pay. Enter any figure you know — an hourly wage, a monthly paycheck, or an annual salary — along with your actual work schedule, and see every other pay period calculated instantly.
 
@@ -199,9 +197,6 @@ Both. The hourly-through-annual figures are gross pay. If you enter your own tax
 
 ### How is Take-Home Pay calculated?
 Take-Home Pay is your annual gross salary minus your entered tax rate applied to that gross amount, minus your entered Other Deductions (annualized the same way your salary is). It reflects your own numbers, not a built-in tax table, so accuracy depends on the rate you provide.
-
-### Is my data stored?
-No. Everything runs locally in your browser.
 
 ---
 

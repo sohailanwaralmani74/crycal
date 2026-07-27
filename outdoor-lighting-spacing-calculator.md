@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Outdoor Lighting Spacing | Interactive Online Tool"
+title: "Outdoor Lighting Spacing Calculator | Outdoor & Landscape"
 description: "Calculate landscape path light fixture counts, spotlight accent counts, low-voltage wire run gauge (14/2 vs 12/2), and transformer wattage capacity."
 permalink: /outdoor-lighting-spacing-calculator
 tool_id: outdoor-lighting-spacing-calculator
@@ -168,11 +168,9 @@ faq:
     answer: "LED fixtures consume 80% less power than older halogen lights (a 3W LED equals a 20W halogen) and last up to 50,000 hours compared to 2,000 hours for halogen bulbs."
   - question: "How deep should low-voltage landscape wire be buried?"
     answer: "NEC code requires 12-volt low-voltage landscape wire to be buried at least 6 inches deep in soil or garden beds."
-  - question: "Is my personal data saved when using this calculator?"
-    answer: "No. All calculation formulas run locally in your web browser."
 ---
 
-# Outdoor Lighting Spacing Calculator
+# Outdoor Lighting Spacing Calculator - Calculate Mulch, Sod & Material Volume
 
 Determine path light fixture counts, spotlight wattage, wire run gauge (14/2 vs 12/2), and low-voltage transformer capacity with our free **Outdoor Lighting Spacing Calculator**.
 
@@ -224,8 +222,7 @@ $$\text{Recommended Wire Gauge} = \begin{cases} \text{16/2 AWG} & \text{if Load 
 
 ---
 
-## Frequently Asked Questions
-
+## Outdoor Lighting Spacing Calculator Frequently Asked Questions
 ### How far apart should landscape path lights be spaced?
 Path lights should be spaced 6 to 10 feet apart on center, alternating (staggered) on opposite sides of the walkway. This creates pools of overlapping light without harsh glaring hotspots.
 
@@ -244,5 +241,3 @@ LED fixtures consume 80% less power than older halogen lights (a 3W LED equals a
 ### How deep should low-voltage landscape wire be buried?
 NEC code requires 12-volt low-voltage landscape wire to be buried at least 6 inches deep in soil or garden beds.
 
-### Is my personal data saved when using this calculator?
-No. All calculation formulas run locally in your web browser.

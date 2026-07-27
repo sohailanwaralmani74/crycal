@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "College Cost | Interactive Online Tool"
+title: "College Cost Calculator | Income & Expense Planning"
 description: "Project 4-year college tuition, room and board expenses with inflation, and calculate monthly savings targets."
 permalink: /college-cost-calculator
 tool_id: college-cost-calculator
@@ -125,11 +125,9 @@ faq:
     answer: "Starting at birth, saving $250 to $400 per month in a 529 plan can cover 50% to 75% of a 4-year in-state public college total cost."
   - question: "What happens if a child decides not to go to college?"
     answer: "529 plan funds can be transferred tax-free to siblings or family members, used for trade schools/apprenticeships, or rolled into a Roth IRA (up to $35,000 lifetime limit)."
-  - question: "Is my personal financial data saved on any server?"
-    answer: "No. All calculations run locally inside your web browser. History and saved presets are stored strictly in your browser's local storage."
 ---
 
-# College Cost Calculator
+# College Cost Calculator - Plan Monthly Income & Expenses
 
 Project 4-year university tuition and room and board expenses adjusted for inflation with our free **College Cost Calculator**.
 
@@ -163,18 +161,16 @@ $$\text{Projected 4-Year Total} = \sum_{y=0}^{3} \text{Future Annual Cost} \time
 ---
 
 
-## Strategic Value & Implementation Guidance
-
+## Strategic Guidance for College Cost Calculator
 Using this interactive calculation engine provides a clear, quantitative roadmap for your decisions. By eliminating mathematical uncertainty, you can optimize financial allocations, compare scenarios side-by-side, and make data-driven choices.
 
-### Key Tactical Benefits
+### Key Tactical Benefits of College Cost Calculator
 - **Mathematical Certainty**: Eliminates guesswork by modeling multi-variable compounding and precise cost structures.
 - **Scenario Comparison**: Test multiple interest rates, payment timelines, and capital allocations in real-time.
 - **Privacy Assurance**: All data remains 100% confidential within your local browser memory, with zero remote server logging.
 - **Export & Audit Readiness**: Log calculations to local browser storage, export full histories to CSV/Excel, or share via link.
 
-## Frequently Asked Questions
-
+## College Cost Calculator Frequently Asked Questions
 ### Why does education inflation matter for college planning?
 College tuition historically increases at 4% to 6% per year—roughly double the general rate of inflation. Accounting for tuition inflation ensures your 529 savings goals remain accurate.
 
@@ -193,5 +189,3 @@ Starting at birth, saving $250 to $400 per month in a 529 plan can cover 50% to 
 ### What happens if a child decides not to go to college?
 529 plan funds can be transferred tax-free to siblings or family members, used for trade schools/apprenticeships, or rolled into a Roth IRA (up to $35,000 lifetime limit).
 
-### Is my personal financial data saved on any server?
-No. All calculations run locally inside your web browser. History and saved presets are stored strictly in your browser's local storage.

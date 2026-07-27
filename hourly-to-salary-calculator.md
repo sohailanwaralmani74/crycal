@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Hourly To Salary | Interactive Online Tool"
+title: "Hourly to Salary Calculator | Tax Rates & Deductions"
 description: "Convert your hourly wage into an annual salary — plus daily, weekly, and monthly pay. Works with any currency and any work schedule, anywhere in the world."
 permalink: /hourly-to-salary-calculator
 tool_id: hourly-to-salary
@@ -147,11 +147,9 @@ faq:
     answer: "Not by default — it's your gross salary. Enter your own Tax Rate and Other Deductions below to see an estimated Take-Home Pay based on your own numbers, since tax rules vary too much by country to calculate automatically."
   - question: "Does this work for any country or currency?"
     answer: "Yes. The math is based purely on your hourly rate and your work schedule, with no country-specific rules built in, so it works with any currency and any work pattern worldwide."
-  - question: "Is my data stored?"
-    answer: "No. Everything runs locally in your browser."
 ---
 
-# Hourly To Salary Calculator
+# Hourly to Salary Calculator - Calculate Tax Liability & Savings
 
 Know your hourly wage and want to see what it adds up to over a day, a week, a month, or a year? Enter your hourly rate and your actual work schedule below, and this calculator converts it into every other pay period instantly — no assumptions about a "standard" job baked in.
 
@@ -201,8 +199,5 @@ Not by default — it's your gross salary. Enter your own Tax Rate and Other Ded
 
 ### Does this work for any country or currency?
 Yes. The math is based purely on your hourly rate and your work schedule, with no country-specific rules built in, so it works with any currency and any work pattern worldwide.
-
-### Is my data stored?
-No. Everything runs locally in your browser.
 
 ---

@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Money Market Account | Interactive Online Tool"
+title: "Money Market Account Calculator | Compound Interest & Savings"
 description: "Estimate your money market account growth with our free Money Market Account Calculator."
 permalink: /money-market-account-calculator
 tool_id: money-market-account-calculator
@@ -144,12 +144,10 @@ faq:
     answer: "Most money market accounts compound interest daily or monthly. Daily compounding yields slightly more than monthly compounding at the same APY."
   - question: "What is the effective annual yield?"
     answer: "Effective annual yield is the actual annual return after accounting for compounding. It is higher than the nominal APY when compounding occurs more than once per year."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. No data is sent to any server."
 
 ---
 
-# Money Market Account Calculator
+# Money Market Account Calculator - Project Wealth Accumulation & Yield
 
 Estimate your money market account growth with our free **Money Market Account Calculator**. Enter initial deposit, monthly contributions, APY, and time period to see your returns — all without your data leaving your browser.
 
@@ -225,8 +223,7 @@ This **money market interest calculator** is designed for:
 
 ---
 
-## Frequently Asked Questions
-
+## Money Market Account Calculator Frequently Asked Questions
 ### What is a money market account calculator?
 A money market account calculator helps you estimate the growth of your money market account by calculating interest earned with compounding and monthly contributions.
 
@@ -242,5 +239,3 @@ Most money market accounts compound interest daily or monthly. Daily compounding
 ### What is the effective annual yield?
 Effective annual yield is the actual annual return after accounting for compounding. It is higher than the nominal APY when compounding occurs more than once per year.
 
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. No data is sent to any server.

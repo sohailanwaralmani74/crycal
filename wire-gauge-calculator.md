@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Wire Gauge | Interactive Online Tool"
+title: "Wire Gauge Calculator | Voltage Drop & AWG Wire Size"
 description: "Calculate the required AWG copper or aluminum wire size based on circuit amperage, AC voltage, run distance, phase, and maximum 3% voltage drop."
 permalink: /wire-gauge-calculator
 tool_id: wire-gauge-calculator
@@ -157,12 +157,10 @@ faq:
     answer: "At 100 feet under a 20A load at 120V, a standard 12 AWG copper wire produces a 3.3% voltage drop (3.96V drop). To remain under 3.0% voltage drop, you should upsize to 10 AWG copper wire."
   - question: "What is the difference between single-phase and three-phase voltage drop formulas?"
     answer: "Single-phase circuits require current to travel out and back on two conductors (2 x L). Three-phase balanced circuits share current across three phase legs, using a multiplier of sqrt(3) ≈ 1.732 instead of 2."
-  - question: "Is my personal data stored when using this calculator?"
-    answer: "No. All calculations run strictly in your local web browser. No data is sent to external servers."
 
 ---
 
-# Wire Gauge Calculator
+# Wire Gauge Calculator - Calculate Wire Gauge Size & Max Amperage
 
 Determine the correct **American Wire Gauge (AWG)** conductor size for copper or aluminum electrical runs using our **Wire Gauge Calculator**. Prevent excessive voltage drop, dangerous circuit overheating, and equipment malfunction on long wire runs.
 
@@ -225,8 +223,7 @@ Where:
 
 ---
 
-## Frequently Asked Questions
-
+## Wire Gauge Calculator Frequently Asked Questions
 ### Why is wire gauge calculation important?
 Choosing undersized wire causes resistance heating, voltage drops, dimming lights, motor overheating, and severe fire hazards inside wall cavities.
 
@@ -245,5 +242,3 @@ At 100 feet under a 20A load at 120V, a standard 12 AWG copper wire produces a 3
 ### What is the difference between single-phase and three-phase voltage drop formulas?
 Single-phase circuits require current to travel out and back on two conductors ($2 \times L$). Three-phase balanced circuits share current across three phase legs, using a multiplier of $\sqrt{3} \approx 1.732$ instead of 2.
 
-### Is my personal data stored when using this calculator?
-No. All calculations run strictly in your local web browser. No data is sent to external servers.

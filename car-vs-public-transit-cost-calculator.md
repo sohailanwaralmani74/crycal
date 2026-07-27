@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Car Vs Public Transit Cost | Interactive Online Tool"
+title: "Car vs Public Transit Cost Calculator | 5-Year Ownership Expenses"
 description: "Compare the total monthly and annual cost of personal car ownership vs using a public transit pass, including rideshares, fuel, insurance, and parking."
 permalink: /car-vs-public-transit-cost-calculator
 tool_id: car-vs-public-transit-cost-calculator
@@ -164,7 +164,7 @@ faq:
 
 ---
 
-# Car Vs Public Transit Cost Calculator
+# Car vs Public Transit Cost Calculator - Calculate Total Cost of Vehicle Ownership
 
 Compare the total monthly and annual financial commitment of personal vehicle ownership against using public transportation.
 
@@ -259,8 +259,7 @@ $$\text{5-Year Savings} = 60 \times \left( \text{Car Cost} - \text{Transit Cost}
 
 ---
 
-## Step-by-Step Guide
-
+## Step-by-Step Car vs Public Transit Cost Calculator Guide
 ### Step 1: Detail All Monthly Vehicle Expenses
 Enter your car loan or lease payment, insurance premium, monthly gas bill, parking fees, and routine maintenance reserve.
 
@@ -272,8 +271,7 @@ Compare total monthly costs side-by-side to calculate your monthly, annual, and 
 
 ---
 
-## Frequently Asked Questions
-
+## Car vs Public Transit Cost Calculator Frequently Asked Questions
 ### How much money can you save by taking public transit instead of driving?
 The average American household saves between $8,000 and $12,000 per year by using public transportation instead of owning and driving a second car.
 
@@ -292,5 +290,5 @@ Eliminating a second vehicle while combining public transit with a shared househ
 ### Are transit pass purchases tax-free?
 Many employers offer pre-tax commuter benefits (IRS Section 132f), allowing you to pay for transit passes using pre-tax dollars to save an additional 20% to 30%.
 
-### Is this calculator private?
+### Is the Car vs Public Transit Cost Calculator private?
 Yes, all computations run locally in your web browser.

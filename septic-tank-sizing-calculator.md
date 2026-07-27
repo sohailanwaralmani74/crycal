@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Septic Tank Sizing | Interactive Online Tool"
+title: "Septic Tank Sizing Calculator | Plumbing Flow & Pipe Sizing"
 description: "Calculate minimum septic tank size in gallons and absorption drain field area in square feet based on bedroom count, daily wastewater flow, and..."
 permalink: /septic-tank-sizing-calculator
 tool_id: septic-tank-sizing-calculator
@@ -137,7 +137,7 @@ faq:
 
 ---
 
-# Septic Tank Sizing Calculator
+# Septic Tank Sizing Calculator - Calculate Pipe Diameter & GPM Flow
 
 Calculate the **minimum septic tank capacity in gallons** and required **leach field absorption area** for your property using our **Septic Tank Sizing Calculator**. Based on **EPA guidelines and state environmental health codes**, this tool sizes septic systems by bedroom counts and soil percolation rates.
 
@@ -199,8 +199,7 @@ Where:
 
 ---
 
-## Frequently Asked Questions
-
+## Septic Tank Sizing Calculator Frequently Asked Questions
 ### Why are septic tanks sized by bedroom count instead of bathroom count?
 Health departments use bedroom counts because bedrooms determine long-term potential occupancy (2 persons per bedroom). Bathrooms indicate fixture convenience rather than overall daily wastewater generation.
 
@@ -219,5 +218,3 @@ For a 3-bedroom home (450 GPD) in average soil (30 MPI), a gravel trench drain f
 ### What happens if a septic tank is undersized?
 An undersized tank shortens hydraulic retention time, allowing suspended solids and grease to escape into the leach field pipes, blinding soil pores and causing premature drain field failure.
 
-### Is my personal data saved when using this calculator?
-No. All calculations run locally in your web browser. No property or sizing information is stored.

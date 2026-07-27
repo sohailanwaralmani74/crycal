@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Garage Door Size | Interactive Online Tool"
+title: "Garage Door Size Calculator | Window & Door Estimating"
 description: "Calculate single (8x7, 9x7) vs double (16x7, 18x7) garage door opening dimensions, track headroom clearance, backroom, and torsion springs."
 permalink: /garage-door-size-calculator
 tool_id: garage-door-size-calculator
@@ -145,7 +145,7 @@ faq:
 
 ---
 
-# Garage Door Size Calculator
+# Garage Door Size Calculator - Calculate Dimensions & Energy Efficiency
 
 Calculate exact **garage door opening dimensions**, **track headroom clearance**, **backroom depth**, and **torsion spring requirements** using our **Garage Door Size Calculator**. Select between single-car (8x7, 9x7) and double-car (16x7, 18x7) garage door configurations.
 
@@ -208,8 +208,7 @@ $$\text{Sideroom Minimum} = 3.75\text{ inches (Extension Springs)} \quad \text{o
 
 ---
 
-## Frequently Asked Questions
-
+## Garage Door Size Calculator Frequently Asked Questions
 ### What is the standard size for a 2-car garage door?
 The standard size for a double 2-car garage door is **16 feet wide by 7 feet high (16x7)**. Many modern homes with trucks or large SUVs use **18x7** or **16x8** doors for extra clearance.
 
@@ -228,5 +227,3 @@ If available ceiling headroom is less than 12 inches (down to 7 inches), a low-h
 ### How much backroom depth is required for an automatic garage door opener?
 An automatic trolley opener requires a backroom depth equal to the **door height plus 4 feet (48 inches)**. For a 7-foot door, you need at least **11 feet of clear ceiling depth**.
 
-### Is my personal data saved when using this calculator?
-No. All calculations run locally in your web browser. No dimensions or garage layout data is saved.

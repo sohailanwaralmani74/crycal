@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Zero Based Budget Calculator | Allocate Every Dollar"
+title: "Zero Based Budget Calculator | Income & Expense Planning"
 description: "Build a zero-based budget by allocating every dollar of income to savings, debt payoff, and expenses. 100% free and private browser execution."
 permalink: /zero-based-budget-calculator
 tool_id: zero-based-budget
@@ -112,7 +112,7 @@ faq:
     answer: "Yes, 100%. All calculation algorithms execute locally inside your web browser. No income, debt, or personal expense data is stored or transmitted."
 ---
 
-# Zero Based Budget Calculator
+# Zero Based Budget Calculator - Plan Monthly Income & Expenses
 
 Assign every dollar of monthly income a specific purpose with our free Zero-Based Budgeting (ZBB) calculator.
 Featuring multi-currency support, dynamic income/expense tracking, and 100% private browser execution so your personal financial budget remains secure.
@@ -129,8 +129,7 @@ The power of zero-based budgeting lies in eliminating unallocated cash leakage. 
 
 ---
 
-## Mathematical Formulas & Mechanics
-
+## Zero Based Budget Calculator Mathematical Formulas & Mechanics
 Total net monthly income ($I_{\text{total}}$) across $p$ distinct income sources is calculated as:
 
 $$I_{\text{total}} = \sum_{a=1}^{p} \text{Income}_a$$
@@ -153,8 +152,7 @@ $$A_{\text{cat}} = \left( \frac{\text{Category Expense Allocation}}{I_{\text{tot
 
 ---
 
-## Real-World Comparison & Benchmark Table
-
+## Zero Based Budget Calculator Benchmarks & Comparison Table
 The table below illustrates a complete Zero-Based Budget allocation breakdown for a monthly net income of **$5,000.00**:
 
 | Budget Category | Sub-Category Line Items | Monthly Allocation | % of Total Income | Budget Function | Status Check |
@@ -172,8 +170,7 @@ The table below illustrates a complete Zero-Based Budget allocation breakdown fo
 
 ---
 
-## Step-by-Step How-To Guide
-
+## How to Use the Zero Based Budget Calculator Step-by-Step
 1. **Select Pay Frequency**: Choose your pay cycle (Monthly, Bi-Weekly, or Weekly) from the dropdown menu.
 2. **Add All Income Sources**: Input net take-home pay for all primary salaries, side hustles, and rental income streams.
 3. **Add Fixed Essential Expenses**: Enter mandatory monthly bills (housing, utilities, transportation, insurance).
@@ -183,8 +180,7 @@ The table below illustrates a complete Zero-Based Budget allocation breakdown fo
 
 ---
 
-## Frequently Asked Questions
-
+## Zero Based Budget Calculator Frequently Asked Questions
 ### What is Zero-Based Budgeting (ZBB)?
 Zero-Based Budgeting is a personal finance method where your total monthly net income minus total monthly expenses, debt payments, and savings allocations equals exactly zero ($0.00).
 

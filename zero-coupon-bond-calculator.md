@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Zero Coupon Bond | Interactive Online Tool"
+title: "Zero Coupon Bond Calculator | Compound Interest & Savings"
 description: "Use the Zero-Coupon Bond Calculator to find a zero-coupon bonds price given a yield, or its implied yield given a purchase price."
 permalink: /zero-coupon-bond-calculator
 tool_id: zero-coupon-bond-calculator
@@ -124,11 +124,9 @@ faq:
     answer: "Given the purchase price, face value, and time to maturity, the implied yield is found by rearranging the price formula: y = n × [(Face Value ÷ Price)^(1 ÷ (n×t)) − 1]."
   - question: "Why do zero-coupon bonds trade at a discount?"
     answer: "Since zero-coupon bonds pay no periodic interest, investors buy them below face value so that the price appreciation to face value at maturity represents their entire return."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. No data is sent to any server."
 ---
 
-# Zero Coupon Bond Calculator
+# Zero Coupon Bond Calculator - Project Wealth Accumulation & Yield
 
 Use the **Zero-Coupon Bond Calculator** to find a zero-coupon bond's price given a yield, or its implied yield given a purchase price.
 
@@ -199,8 +197,7 @@ This **zero-coupon bond calculator** is designed for:
 
 ---
 
-## Frequently Asked Questions
-
+## Zero Coupon Bond Calculator Frequently Asked Questions
 ### What is a zero-coupon bond?
 A zero-coupon bond is a bond that pays no periodic interest. Instead, it's sold at a discount to its face value and pays the full face value at maturity, with the difference representing the investor's return.
 
@@ -213,5 +210,3 @@ Given the purchase price, face value, and time to maturity, the implied yield is
 ### Why do zero-coupon bonds trade at a discount?
 Since zero-coupon bonds pay no periodic interest, investors buy them below face value so that the price appreciation to face value at maturity represents their entire return.
 
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. No data is sent to any server.

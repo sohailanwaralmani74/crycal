@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Retirement | Interactive Online Tool"
+title: "Retirement Calculator | Retirement Nest Egg Target"
 description: "Plan your retirement savings with our free retirement calculator. Estimate how much you need to save, project your retirement income."
 permalink: /retirement-calculator
 tool_id: retirement
@@ -186,12 +186,10 @@ faq:
     answer: "Yes. Enter your expected inflation rate, and the tool will show your retirement income and savings in both nominal and inflation-adjusted terms."
   - question: "What is the difference between this and a retirement income calculator?"
     answer: "This retirement planning calculator projects your total savings and then estimates your sustainable annual income. A retirement income calculator focuses specifically on how much you can withdraw each year without running out of money."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server."
 
 ---
 
-# Retirement Calculator
+# Retirement Calculator - Project Needed Retirement Savings Target
 
 Use this retirement calculator to plan your retirement savings and see if you're on track. Enter your current age, retirement age, current savings, monthly contributions, expected return, and inflation rate — the tool projects your savings at retirement, estimates your sustainable annual income, and shows your income gap.
 
@@ -232,8 +230,7 @@ If you set a target annual income, the calculator shows the shortfall or surplus
 
 ---
 
-## How to Use This Retirement Planner
-
+## How to Use the Retirement Calculator
 1.  Select your **account currency** from the picker in the site header.
 2.  Enter your **current age** and **expected retirement age**.
 3.  Enter your **current retirement savings**.
@@ -245,8 +242,7 @@ If you set a target annual income, the calculator shows the shortfall or surplus
 
 ---
 
-## Frequently Asked Questions
-
+## Retirement Calculator Frequently Asked Questions
 ### How does the retirement calculator work?
 Our retirement calculator uses your current savings, monthly contributions, expected return rate, and inflation to project your savings at retirement. It then compares your projected savings to your desired annual income to show whether you're on track.
 
@@ -261,9 +257,6 @@ Yes. Enter your expected inflation rate, and the tool will show your retirement 
 
 ### What is the difference between this and a retirement income calculator?
 This retirement planning calculator projects your total savings and then estimates your sustainable annual income. A retirement income calculator focuses specifically on how much you can withdraw each year without running out of money.
-
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server.
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Radiant Floor Heating | Interactive Online Tool"
+title: "Radiant Floor Heating Calculator | Flooring Square Footage"
 description: "Calculate electric radiant floor heating cable linear feet, mat square footage, total thermostat wattage load, and circuit amperage draw at 120V or 240V."
 permalink: /radiant-floor-heating-calculator
 tool_id: radiant-floor-heating-calculator
@@ -153,11 +153,9 @@ faq:
     answer: "Use 120V for small heated areas up to 150 sq ft (max 15 Amps / 1,800 Watts). Use 240V for larger spaces over 150 sq ft (up to 300 sq ft on a single thermostat)."
   - question: "How deep under tile should radiant heating cable be embedded?"
     answer: "Heating cables should be fully encapsulated in self-leveling underlayment (SLU) or thin-set mortar with a minimum 1/4\" mortar coverage above the wire."
-  - question: "Is my floor heating calculation saved on external servers?"
-    answer: "No. All calculation logic runs locally inside your browser."
 ---
 
-# Radiant Floor Heating Calculator
+# Radiant Floor Heating Calculator - Calculate Tiles, Planks & Material Need
 
 Calculate exact **net heated floor square footage**, **electric heating mat area**, **loose cable linear feet**, total **thermostat wattage load**, and **circuit breaker amperage** at 120V or 240V.
 
@@ -205,8 +203,7 @@ $$\text{Circuit Amperage Draw (Amps)} = \frac{\text{Thermostat Wattage Load (W)}
 
 ---
 
-## Frequently Asked Questions
-
+## Radiant Floor Heating Calculator Frequently Asked Questions
 ### How do you calculate net heated floor area for radiant heat?
 Net Heated Area = (Total Room Area - Unheated Fixture Area) × 0.90. A 4-inch perimeter buffer is subtracted around all exterior walls to avoid wasting heat under baseboards.
 
@@ -225,5 +222,3 @@ Use 120V for small heated areas up to 150 sq ft (max 15 Amps / 1,800 Watts). Use
 ### How deep under tile should radiant heating cable be embedded?
 Heating cables should be fully encapsulated in self-leveling underlayment (SLU) or thin-set mortar with a minimum 1/4" mortar coverage above the wire.
 
-### Is my floor heating calculation saved on external servers?
-No. All calculation logic runs locally inside your browser.

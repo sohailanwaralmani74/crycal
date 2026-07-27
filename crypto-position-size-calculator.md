@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Crypto Position Size | Interactive Online Tool"
+title: "Crypto Position Size Calculator | Investment & Portfolio Return"
 description: "Calculate position sizes for crypto perpetual futures. Supports both linear (USDT-margined) and inverse (Coin-margined) contracts."
 permalink: /crypto-position-size-calculator
 tool_id: crypto-position-size
@@ -178,12 +178,10 @@ faq:
     answer: "Position Size = Risk Amount × Entry Price ÷ (Entry Price − Stop-Loss Price). This accounts for the inverse PnL formula."
   - question: "What is required margin?"
     answer: "Required Margin = Total Exposure ÷ Leverage. This is the minimum amount of collateral required to open the position."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server."
 
 ---
 
-# Crypto Position Size Calculator
+# Crypto Position Size Calculator - Calculate Return, Yield & Portfolio Risk
 
 Use this crypto position size calculator to determine the optimal position size for crypto perpetual futures. Enter your account balance, risk percentage, entry price, stop-loss price, and contract type — the tool works for both linear (USDT-margined) and inverse (Coin-margined) contracts. This crypto risk calculator helps you size your trades with precision.
 
@@ -238,8 +236,7 @@ Proper position sizing is essential for managing risk in crypto trading. This cr
 
 ---
 
-## Frequently Asked Questions
-
+## Crypto Position Size Calculator Frequently Asked Questions
 ### What is the difference between linear and inverse contracts?
 Linear contracts (USDT-margined) use USDT as collateral and have linear PnL. Inverse contracts (Coin-margined) use the cryptocurrency itself as collateral and have inverse PnL.
 
@@ -251,9 +248,6 @@ Position Size = Risk Amount × Entry Price ÷ (Entry Price − Stop-Loss Price).
 
 ### What is required margin?
 Required Margin = Total Exposure ÷ Leverage. This is the minimum amount of collateral required to open the position.
-
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server.
 
 ---
 

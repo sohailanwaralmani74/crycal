@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "T Bill Yield | Interactive Online Tool"
+title: "T-Bill Yield Calculator | Compound Interest & Savings"
 description: "Calculate your Treasury Bill yield with our free T-Bill Yield Calculator."
 permalink: /t-bill-yield-calculator
 tool_id: t-bill-yield-calculator
@@ -125,12 +125,10 @@ faq:
     answer: "Yield to maturity on a T-Bill is calculated using the investment yield formula: (Face Value − Purchase Price) ÷ Purchase Price × (365 ÷ Days to Maturity)."
   - question: "What is the formula for calculating yield on Treasury Bills?"
     answer: "The Treasury Bill yield formula is: Discount Yield = (Discount ÷ Face Value) × (360 ÷ Days). Investment Yield = (Discount ÷ Purchase Price) × (365 ÷ Days)."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. No data is sent to any server."
 
 ---
 
-# T Bill Yield Calculator
+# T-Bill Yield Calculator - Project Wealth Accumulation & Yield
 
 Calculate your Treasury Bill yield with our free **T-Bill Yield Calculator**. Enter purchase price, face value, and days to maturity to see your discount yield, investment yield, and rate of return — all without your data leaving your browser.
 
@@ -193,8 +191,7 @@ This **t bill interest rate calculator** is designed for:
 
 ---
 
-## Frequently Asked Questions
-
+## T-Bill Yield Calculator Frequently Asked Questions
 ### What is a T-Bill yield calculator?
 A T-Bill yield calculator helps investors determine the return on Treasury Bills by calculating discount yield, investment yield, and annualized return.
 
@@ -210,5 +207,3 @@ Yield to maturity on a T-Bill is calculated using the investment yield formula: 
 ### What is the formula for calculating yield on Treasury Bills?
 The Treasury Bill yield formula is: Discount Yield = (Discount ÷ Face Value) × (360 ÷ Days). Investment Yield = (Discount ÷ Purchase Price) × (365 ÷ Days).
 
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. No data is sent to any server.

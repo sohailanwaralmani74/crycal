@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Stucco | Interactive Online Tool"
+title: "Stucco Calculator | Concrete & Masonry Estimating"
 description: "Calculate scratch coat, brown coat, finish coat bag quantities, ready-mix stucco volume, and total installation cost per square foot."
 permalink: /stucco-calculator
 tool_id: stucco-calculator
@@ -137,11 +137,9 @@ faq:
     answer: "Yes, the calculator automatically adds a 10% material waste factor to account for wall texture, board scrap, and mixer residual."
   - question: "How much lath wire and building paper are needed for stucco?"
     answer: "For wood-framed walls, you will need 1 roll of grade D building paper per 500 sq ft and expanded metal lath sheets equaling your total net wall square footage plus 10% for lap joints."
-  - question: "Is my personal data saved on your server?"
-    answer: "No. All computations execute locally inside your browser, ensuring complete privacy."
 ---
 
-# Stucco Calculator
+# Stucco Calculator - Calculate Volume, Bags & Materials
 
 Estimate exact bag quantities for **scratch coat**, **brown coat**, and **acrylic finish coat**, as well as total material and contractor labor expenses for your exterior stucco siding project.
 
@@ -185,8 +183,7 @@ $$\text{Total Project Cost} = \text{Material Cost} + (\text{Wall Area} \times \t
 
 ---
 
-## Frequently Asked Questions
-
+## Stucco Calculator Frequently Asked Questions
 ### How many bags of stucco base coat do I need for 1,000 sq ft?
 For a traditional 3-coat stucco system (7/8 inch total thickness), 1,000 sq ft requires approximately 100 bags of 80 lb base coat (50 bags for scratch coat and 50 bags for brown coat, including 10% waste) plus 14 bags of finish coat.
 
@@ -205,5 +202,3 @@ Yes, the calculator automatically adds a 10% material waste factor to account fo
 ### How much lath wire and building paper are needed for stucco?
 For wood-framed walls, you will need 1 roll of grade D building paper per 500 sq ft and expanded metal lath sheets equaling your total net wall square footage plus 10% for lap joints.
 
-### Is my personal data saved on your server?
-No. All computations execute locally inside your browser, ensuring complete privacy.

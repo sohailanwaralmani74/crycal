@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Customer Health Score & Retention Tool"
+title: "Customer Health Score Calculator | SaaS Churn & Retention"
 description: "Calculate composite customer health scores by weighting product adoption, support tickets, and NPS with instant, private browser execution."
 permalink: /customer-health-score-calculator
 tool_id: customer-health-score-calculator
@@ -169,7 +169,7 @@ faq:
     answer: "Customer health scores should recalculate automatically in real time (or daily) based on product telemetry syncs and CSM survey inputs."
 ---
 
-# Composite Customer Health & Churn Risk Index
+# Customer Health Score Calculator - Calculate Logo Churn & Revenue Retention
 
 Calculate weighted customer health scores ($0 \text{ to } 100$) by combining product adoption telemetry, CSAT/NPS sentiment, support ticket friction, and executive sponsor engagement.
 All calculations execute 100% privately inside your web browser with real-time recalculations and total data privacy.
@@ -182,7 +182,7 @@ Relying on subjective CSM gut feel or waiting for contract renewal dates leads t
 
 This **Customer Health Score Calculator** builds a data-driven risk index that categorizes accounts into **Healthy (Green)**, **Warning (Yellow)**, or **At-Risk (Red)** tiers to trigger proactive Customer Success playbooks.
 
-### Key Benefits
+### Key Benefits of Customer Health Score Calculator
 * **Multi-Factor Algorithm:** Balances product telemetry, CSAT/NPS, support health, and executive QBRs.
 * **Customizable Weighting:** Adjust category weights to match your specific SaaS product complexity.
 * **Renewal Probability Model:** Converts composite scores into estimated account renewal percentages.
@@ -190,8 +190,7 @@ This **Customer Health Score Calculator** builds a data-driven risk index that c
 
 ---
 
-## Mathematical Formulas & Mechanics
-
+## Customer Health Score Calculator Mathematical Formulas & Mechanics
 ### 1. Weighted Composite Health Score
 Composite Health Score ($H_{\text{composite}}$) calculated from normalized sub-scores ($S_i$) and percentage weights ($W_i$):
 
@@ -210,8 +209,7 @@ Where inputs include:
 
 ---
 
-## Real-World Comparison & Benchmark Table
-
+## Customer Health Score Calculator Benchmarks & Comparison Table
 The benchmark account health matrix below illustrates health score classifications, churn probabilities, and recommended Customer Success interventions:
 
 | Composite Health Score | Health Status Tier | Predicted Renewal Probability | Estimated Churn Risk | Recommended CSM Playbook Action |
@@ -224,8 +222,7 @@ The benchmark account health matrix below illustrates health score classificatio
 
 ---
 
-## Step-by-Step How-To Guide
-
+## How to Use the Customer Health Score Calculator Step-by-Step
 1. **Audit Product Adoption (0-100):** Measure active license utilization rate (e.g., 85 assigned seats out of 100 = 85 score).
 2. **Input CSAT/NPS Sentiment (0-100):** Convert latest survey feedback or NPS score into a 100-point scale.
 3. **Grade Support Ticket Health (0-100):** Deduct points for outstanding P1 bugs, slow SLA resolution, or high ticket frequency.
@@ -234,8 +231,7 @@ The benchmark account health matrix below illustrates health score classificatio
 
 ---
 
-## Frequently Asked Questions
-
+## Customer Health Score Calculator Frequently Asked Questions
 ### What is a Customer Health Score in SaaS?
 A Customer Health Score is a composite metric (0 to 100) that combines product usage telemetry, sentiment, support tickets, and relationship engagement to predict renewal likelihood.
 

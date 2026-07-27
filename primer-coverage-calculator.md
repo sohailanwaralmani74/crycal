@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Primer Coverage | Interactive Online Tool"
+title: "Primer Coverage Calculator | Drywall & Paint Estimating"
 description: "Calculate primer gallons needed for raw drywall, bare wood, or masonry surfaces (200-350 sq ft/gal), coats, and total material cost."
 permalink: /primer-coverage-calculator
 tool_id: primer-coverage-calculator
@@ -137,11 +137,9 @@ faq:
     answer: "Contractor 5-gallon pails are 20% to 30% cheaper per gallon than individual 1-gallon paint cans, making them ideal for projects over 1,000 square feet."
   - question: "Can primer be tinted to match the topcoat paint color?"
     answer: "Yes. Tinting primer to a 50% gray or light shade matching your topcoat paint improves coverage, especially when painting deep reds, dark blues, or vibrant yellows."
-  - question: "Is my personal data saved anywhere?"
-    answer: "No. All calculations run locally in your web browser."
 ---
 
-# Primer Coverage Calculator
+# Primer Coverage Calculator - Calculate Paint Coverage & Sheet Count
 
 Calculate exact quantities of **primer paint gallons**, **5-gallon contractor pails**, **1-gallon paint cans**, and total material expenditure with our **Primer Coverage Calculator**.
 
@@ -196,8 +194,7 @@ The table below shows primer requirements across standard project surface areas 
 
 ---
 
-## Frequently Asked Questions
-
+## Primer Coverage Calculator Frequently Asked Questions
 ### How many square feet does 1 gallon of primer cover?
 One gallon of primer covers 250 to 300 square feet on raw drywall or bare wood, 350 square feet on previously painted walls, and 200 square feet on rough masonry or stucco.
 
@@ -216,5 +213,3 @@ Contractor 5-gallon pails are 20% to 30% cheaper per gallon than individual 1-ga
 ### Can primer be tinted to match the topcoat paint color?
 Yes. Tinting primer to a 50% gray or light shade matching your topcoat paint improves coverage, especially when painting deep reds, dark blues, or vibrant yellows.
 
-### Is my personal data saved anywhere?
-No. All calculations run locally in your web browser.

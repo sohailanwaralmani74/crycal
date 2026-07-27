@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Hsa Growth | Interactive Online Tool"
+title: "HSA Growth Calculator | Health Savings Account Growth"
 description: "Free online Hsa Growth. Calculate loan payments, interest growth, taxes, and financial metrics with instant browser math and charts."
 permalink: /hsa-growth-calculator
 tool_id: hsa-growth-calculator
@@ -136,11 +136,9 @@ faq:
     answer: "Many HSA providers allow you to invest funds above a certain cash threshold in mutual funds, stocks, or ETFs, which can significantly increase long-term growth compared to leaving funds in cash."
   - question: "What happens to unused HSA funds?"
     answer: "Unlike FSAs, HSA funds roll over year to year with no expiration, and the account remains yours even if you change jobs or health plans."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. No data is sent to any server."
 ---
 
-# Hsa Growth Calculator
+# HSA Growth Calculator - Project Tax-Free HSA Investment Returns
 
 Use the **HSA Growth Calculator** to project how your Health Savings Account balance will grow with contributions, investment returns, and triple tax advantages.
 
@@ -208,8 +206,7 @@ This **HSA calculator** is designed for:
 
 ---
 
-## Frequently Asked Questions
-
+## HSA Growth Calculator Frequently Asked Questions
 ### What is an HSA?
 A Health Savings Account (HSA) is a tax-advantaged account available to people with high-deductible health plans, offering triple tax benefits: tax-deductible contributions, tax-free growth, and tax-free withdrawals for qualified medical expenses.
 
@@ -222,5 +219,3 @@ Many HSA providers allow you to invest funds above a certain cash threshold in m
 ### What happens to unused HSA funds?
 Unlike FSAs, HSA funds roll over year to year with no expiration, and the account remains yours even if you change jobs or health plans.
 
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. No data is sent to any server.

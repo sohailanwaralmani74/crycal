@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Lumber Cost | Interactive Online Tool"
+title: "Lumber Cost Calculator | Lumber & Framing Estimating"
 description: "Calculate total linear feet, per-board pricing, subtotal costs, and waste margins for dimensional lumber orders with our free calculator."
 permalink: /lumber-cost-calculator
 tool_id: lumber-cost-calculator
@@ -132,11 +132,9 @@ faq:
     answer: "Nominal size is the size before drying and surfacing (e.g., 2x4). Actual size is the dressed dimension after surfacing (e.g., 1.5\" × 3.5\"). Pricing is based on nominal designations."
   - question: "How do I calculate per-board price from linear foot price?"
     answer: "Multiply the board's length in feet by the price per linear foot. For an 8-foot board priced at $1.20/LF, the price per board is 8 × $1.20 = $9.60."
-  - question: "Is my lumber estimate saved on external servers?"
-    answer: "No. All logic executes locally inside your web browser."
 ---
 
-# Lumber Cost Calculator
+# Lumber Cost Calculator - Calculate Board Feet & Wood Quantity
 
 Calculate **total linear feet**, individual board costs, order subtotals, and waste-adjusted totals for framing and construction lumber orders.
 
@@ -173,8 +171,7 @@ $$\text{Total Order Cost with Waste (\$)} = \text{Subtotal Material Cost} \times
 
 ---
 
-## Frequently Asked Questions
-
+## Lumber Cost Calculator Frequently Asked Questions
 ### What is linear feet in lumber?
 Linear feet (or lineal feet) measures the straight-line length of a piece of lumber in feet, regardless of its width or thickness. A 12-foot 2x4 and a 12-foot 2x10 are both 12 linear feet long.
 
@@ -193,5 +190,3 @@ Nominal size is the size before drying and surfacing (e.g., 2x4). Actual size is
 ### How do I calculate per-board price from linear foot price?
 Multiply the board's length in feet by the price per linear foot. For an 8-foot board priced at $1.20/LF, the price per board is 8 × $1.20 = $9.60.
 
-### Is my lumber estimate saved on external servers?
-No. All logic executes locally inside your web browser.

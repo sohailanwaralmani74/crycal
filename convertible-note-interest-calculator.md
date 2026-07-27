@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Convertible Note Interest | Interactive Online Tool"
+title: "Convertible Note Interest Calculator | Startup Funding &"
 description: "Calculate accrued simple interest or compound interest on convertible debt prior to conversion into equity during a priced funding round."
 permalink: /convertible-note-interest-calculator
 tool_id: convertible-note-interest-calculator
@@ -146,7 +146,7 @@ faq:
 
 ---
 
-# Convertible Note Interest Calculator
+# Convertible Note Interest Calculator - Calculate ARR Multiple & Valuation
 
 Calculate accrued interest and total equity conversion value for convertible debt with our free **Convertible Note Interest Calculator**. Model simple vs compounding interest over time and project shares issued upon round conversion.
 
@@ -199,8 +199,7 @@ $$\text{Total Shares Issued } (S) = \frac{P + I}{P_{share}}$$
 
 ---
 
-## Frequently Asked Questions
-
+## Convertible Note Interest Calculator Frequently Asked Questions
 ### What is a convertible note in startup fundraising?
 A convertible note is a short-term debt instrument that converts into equity during a future priced financing round rather than being repaid in cash.
 

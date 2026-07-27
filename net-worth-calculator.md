@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Net Worth | Interactive Online Tool"
+title: "Net Worth Calculator | Assets vs Liabilities Balance"
 description: "Calculate your net worth by entering your assets and liabilities. Track your financial health and progress over time."
 permalink: /net-worth-calculator
 tool_id: net-worth
@@ -203,7 +203,7 @@ faq:
 
 ---
 
-# Net Worth Calculator
+# Net Worth Calculator - Calculate Total Net Worth Milestone
 
 Use this net worth calculator to calculate your net worth by entering your assets and liabilities. See your total assets, total liabilities, net worth, and net worth category. This net worth tracker helps you understand your financial health at a glance.
 
@@ -256,8 +256,7 @@ Where:
 
 ---
 
-## Frequently Asked Questions
-
+## Net Worth Calculator Frequently Asked Questions
 ### What is net worth?
 Net worth is the total value of everything you own (assets) minus everything you owe (liabilities). It's a measure of your overall financial health.
 

@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "French Drain | Interactive Online Tool"
+title: "French Drain Calculator | Outdoor & Landscape Estimating"
 description: "Calculate perforated drain pipe linear feet, washed gravel backfill (cu yds & tons), geotextile filter fabric rolls, and material costs for..."
 permalink: /french-drain-calculator
 tool_id: french-drain-calculator
@@ -168,11 +168,9 @@ faq:
     answer: "One cubic yard of clean washed #57 drainage gravel weighs approximately 1.35 tons (2,700 lbs)."
   - question: "How much does it cost to install a french drain per foot?"
     answer: "DIY materials cost $8 to $14 per linear foot for gravel, pipe, and fabric. Professional contractor installation costs $30 to $65 per linear foot depending on trench depth and hand vs machine digging."
-  - question: "Is my personal data saved when using this calculator?"
-    answer: "No. All calculation logic operates locally in your web browser."
 ---
 
-# French Drain Calculator
+# French Drain Calculator - Calculate Mulch, Sod & Material Volume
 
 Determine perforated drain pipe linear feet, washed gravel backfill (#57 stone tons & cubic yards), non-woven geotextile filter fabric rolls, and total excavation volume with our free **French Drain Calculator**.
 
@@ -224,8 +222,7 @@ $$\text{Filter Fabric Area (sq ft)} = \text{Fabric Perimeter (ft)} \times \text{
 
 ---
 
-## Frequently Asked Questions
-
+## French Drain Calculator Frequently Asked Questions
 ### What is the best gravel size for a french drain?
 Clean washed #57 stone (3/4-inch to 1-inch crushed aggregate) is the industry standard for french drains. It leaves 45% open void space for rapid groundwater flow while supporting heavy soil loads.
 
@@ -244,5 +241,3 @@ One cubic yard of clean washed #57 drainage gravel weighs approximately 1.35 ton
 ### How much does it cost to install a french drain per foot?
 DIY materials cost $8 to $14 per linear foot for gravel, pipe, and fabric. Professional contractor installation costs $30 to $65 per linear foot depending on trench depth and hand vs machine digging.
 
-### Is my personal data saved when using this calculator?
-No. All calculation logic operates locally in your web browser.

@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Value Based Pricing | Interactive Online Tool"
+title: "Value Based Pricing Calculator | SaaS Pricing & Packaging"
 description: "Estimate pricing ceiling based on quantified customer ROI, monthly hours saved, direct cost savings, and value capture share percentage."
 permalink: /value-based-pricing-calculator
 tool_id: value-based-pricing-calculator
@@ -142,7 +142,7 @@ faq:
 
 ---
 
-# Value Based Pricing Calculator
+# Value Based Pricing Calculator - Calculate Tier Profitability & ARPU
 
 Calculate your **pricing ceiling** and **optimal subscription fee** by quantifying the total economic value, labor savings, and revenue expansion your software creates for buyers.
 
@@ -159,8 +159,7 @@ This calculator quantifies **three core value drivers**:
 
 ---
 
-## Key Mathematical Formulas
-
+## Key Value Based Pricing Calculator Mathematical Formulas
 ### 1. Total Monthly Value Created
 
 $$ \text{Labor Savings} = \text{Hours Saved} \times \text{Hourly Wage Rate} $$
@@ -199,8 +198,7 @@ $$ \text{Payback Period (Days)} = \left( \frac{\text{Recommended Price}}{\text{T
 
 ---
 
-## Frequently Asked Questions
-
+## Value Based Pricing Calculator Frequently Asked Questions
 ### What is value-based pricing in SaaS?
 Value-based pricing sets subscription prices based on the quantified economic ROI, labor savings, and revenue expansion created for the buyer, rather than development or hosting costs.
 

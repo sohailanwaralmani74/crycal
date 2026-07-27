@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Roommate Bill Split | Interactive Online Tool"
+title: "Roommate Bill Split Calculator | Income & Expense Planning"
 description: "Calculate fair rent and utility splits between roommates based on room square footage, private bathroom access, or relative income."
 permalink: /roommate-bill-split-calculator
 tool_id: roommate-bill-split-calculator
@@ -123,11 +123,9 @@ faq:
     answer: "Use digital payment apps (Venmo, Zelle, Splitwise) immediately upon bill receipt, establishing a strict 5-day repayment policy to prevent friction."
   - question: "How should master bedroom or private bathroom premiums be priced?"
     answer: "A common standard adds a 10% to 15% rent premium for a private bathroom and 5% to 10% for significantly larger square footage."
-  - question: "Is my personal financial data saved on any server?"
-    answer: "No. All calculations run locally inside your web browser. History and saved presets are stored strictly in your browser's local storage."
 ---
 
-# Roommate Bill Split Calculator
+# Roommate Bill Split Calculator - Plan Monthly Income & Expenses
 
 Calculate fair rent and utility splits between housemates with our free **Roommate Bill Split Calculator**.
 
@@ -161,8 +159,7 @@ Calculate fair rent and utility splits between housemates with our free **Roomma
 
 ---
 
-## Frequently Asked Questions
-
+## Roommate Bill Split Calculator Frequently Asked Questions
 ### What is the fairest way to split rent between roommates?
 The fairest methods account for bedroom square footage, private bathroom access, and parking privileges, or split expenses proportionally based on income.
 
@@ -181,5 +178,3 @@ Use digital payment apps (Venmo, Zelle, Splitwise) immediately upon bill receipt
 ### How should master bedroom or private bathroom premiums be priced?
 A common standard adds a 10% to 15% rent premium for a private bathroom and 5% to 10% for significantly larger square footage.
 
-### Is my personal financial data saved on any server?
-No. All calculations run locally inside your web browser. History and saved presets are stored strictly in your browser's local storage.

@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Webinar Roi | Interactive Online Tool"
+title: "Webinar Roi Calculator | SaaS Marketing & Ad ROI"
 description: "Calculate ROI, pipeline ARR, live attendee counts, and closed deals generated from hosting promotional customer webinars."
 permalink: /webinar-roi-calculator
 tool_id: webinar-roi-calculator
@@ -153,7 +153,7 @@ faq:
     answer: "Include ad promotion spend (LinkedIn/Google), landing page software fees, speaker fees, and internal team preparation labor."
 ---
 
-# Webinar Roi Calculator
+# Webinar Roi Calculator - Calculate Customer Acquisition & Ad Return
 
 Quantify the revenue impact of your virtual events, product demos, and masterclasses with our **Webinar ROI Calculator**.
 
@@ -169,8 +169,7 @@ Webinars remain one of the most effective middle-of-funnel conversion tools for 
 
 ---
 
-## Mathematical Formulas
-
+## Webinar Roi Calculator Mathematical Formulas
 ### 1. Webinar Conversion Funnel
 
 $$ \text{Live Attendees} = \text{Registrants} \times \text{Attendance Rate \%} $$
@@ -199,8 +198,7 @@ $$ \text{Webinar ROI \%} = \left( \frac{\text{Net Webinar Profit}}{\text{Total W
 
 ---
 
-## Step-by-Step Guide
-
+## Step-by-Step Webinar Roi Calculator Guide
 1. **Calculate Total Promotion Spend**: Aggregate ad spend across LinkedIn and email list promotion.
 2. **Track Registration Metrics**: Import registration count and live attendee logs from Zoom/Demio.
 3. **Set Conversion Percentages**: Use historical sales data for attendee demo requests and deal win rates.
@@ -208,8 +206,7 @@ $$ \text{Webinar ROI \%} = \left( \frac{\text{Net Webinar Profit}}{\text{Total W
 
 ---
 
-## Frequently Asked Questions
-
+## Webinar Roi Calculator Frequently Asked Questions
 ### What is Webinar ROI?
 Webinar ROI measures the financial return (ARR or customer gross revenue) generated from hosting a promotional webinar relative to total production and advertising costs.
 

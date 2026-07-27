@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Driving Time Distance | Interactive Online Tool"
+title: "Driving Time Distance Calculator | Road Trip Fuel & ETA"
 description: "Calculate driving duration hours and minutes, required rest stops, total trip time including breaks, and estimated arrival time based on..."
 permalink: /driving-time-distance-calculator
 tool_id: driving-time-distance-calculator
@@ -148,7 +148,7 @@ faq:
 
 ---
 
-# Driving Time Distance Calculator
+# Driving Time Distance Calculator - Calculate Drive Time & Fuel Expense
 
 Calculate exact driving duration, required rest break intervals, total elapsed trip time, and estimated arrival time (ETA) with our free **Driving Time & Distance Calculator**.
 
@@ -162,12 +162,10 @@ This planner calculates pure wheel time as well as total elapsed time incorporat
 
 ---
 
-## Calculation Flow & Mathematical Formulas
-
+## Driving Time Distance Calculator Calculation Flow & Formulas
 The engine converts total distance to pure driving duration and appends scheduled break intervals:
 
-### Inputs & Parameters
-
+### Driving Time Distance Calculator Inputs & Parameters
 | Parameter | Unit | Description |
 | :--- | :--- | :--- |
 | **Distance (\(D\))** | miles | Total driving distance |
@@ -178,8 +176,7 @@ The engine converts total distance to pure driving duration and appends schedule
 
 ---
 
-### Step-by-Step Formulas
-
+### Step-by-Step Driving Time Distance Calculator Formulas
 #### 1. Pure Driving Duration (\(T_{drive}\))
 \[
 T_{drive} = \frac{D}{S_{avg}} \quad \text{(in hours)}
@@ -218,8 +215,7 @@ T_{total} = T_{drive} + T_{break\_total}
 
 ---
 
-## Step-by-Step How-To Guide
-
+## How to Use the Driving Time Distance Calculator Step-by-Step
 1. **Enter Total Distance**: Input total route miles (e.g. `450 miles`).
 2. **Set Average Speed**: Enter realistic average cruising speed (e.g. `65 mph`).
 3. **Configure Rest Stops**: Enter rest interval (e.g. `2.5 hours`) and break length (e.g. `20 mins`).
@@ -227,8 +223,7 @@ T_{total} = T_{drive} + T_{break\_total}
 
 ---
 
-## Frequently Asked Questions
-
+## Driving Time Distance Calculator Frequently Asked Questions
 ### How do you calculate pure driving time?
 Pure driving time is calculated by dividing total distance by average speed (Time = Distance / Speed).
 

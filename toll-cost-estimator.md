@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Toll Cost Estimator | Interactive Online Tool"
+title: "Toll Cost Estimator | Road Trip Fuel & ETA"
 description: "Estimate highway toll costs by vehicle axle count, electronic transponder (E-ZPass, SunPass) vs cash rates, and peak hour surcharge multipliers."
 permalink: /toll-cost-estimator
 tool_id: toll-cost-estimator
@@ -147,7 +147,7 @@ faq:
 
 ---
 
-# Toll Cost Estimator Calculator
+# Toll Cost Estimator - Calculate Drive Time & Fuel Expense
 
 Estimate turnpike and highway toll expenses across your route with our free **Toll Cost Estimator**. Compare electronic transponder rates (E-ZPass, SunPass) against cash/video rates across 2-axle to 5-axle vehicles.
 
@@ -161,12 +161,10 @@ This estimator calculates your total toll spending based on vehicle axle count, 
 
 ---
 
-## Calculation Flow & Mathematical Formulas
-
+## Toll Cost Estimator Calculation Flow & Formulas
 Toll costs scale linearly with axle multipliers, transponder discount factors, and peak hour surge rates:
 
-### Inputs & Parameters
-
+### Toll Cost Estimator Inputs & Parameters
 | Parameter | Unit | Description |
 | :--- | :--- | :--- |
 | **Gantries Passed (\(N_{gantry}\))** | count | Number of toll plazas or camera gantries |
@@ -177,8 +175,7 @@ Toll costs scale linearly with axle multipliers, transponder discount factors, a
 
 ---
 
-### Step-by-Step Formulas
-
+### Step-by-Step Toll Cost Estimator Formulas
 #### 1. Adjusted Base Toll Per Plaza (\(P_{plaza}\))
 \[
 P_{plaza} = P_{base} \times M_{axle} \times F_{pay} \times F_{peak}
@@ -207,8 +204,7 @@ S_{transponder} = \left(N_{gantry} \times P_{base} \times M_{axle} \times 1.20 \
 
 ---
 
-## Step-by-Step How-To Guide
-
+## How to Use the Toll Cost Estimator Step-by-Step
 1. **Count Toll Gantries**: Estimate how many toll plazas you will cross along your highway route.
 2. **Select Axles**: Select your vehicle type (2-axle passenger car vs 3+ axle trailer setup).
 3. **Select Payment**: Choose **Transponder** if you use E-ZPass/SunPass or **Cash/Plate** if unequipped.
@@ -216,8 +212,7 @@ S_{transponder} = \left(N_{gantry} \times P_{base} \times M_{axle} \times 1.20 \
 
 ---
 
-## Frequently Asked Questions
-
+## Toll Cost Estimator Frequently Asked Questions
 ### Why are electronic transponder tolls cheaper than cash or pay-by-plate?
 Toll authorities offer **15% to 35% discounts** for transponders (like E-ZPass, SunPass, TxTag) because automated electronic billing eliminates manual toll booth operator labor and paper invoicing processing costs.
 

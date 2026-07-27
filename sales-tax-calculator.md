@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Sales Tax | Interactive Online Tool"
+title: "Sales Tax Calculator | Tax Rates & Deductions"
 description: "Calculate total retail sales tax, combined state and local tax rates, and final itemized receipt costs."
 permalink: /sales-tax-calculator
 tool_id: sales-tax-calculator
@@ -106,11 +106,9 @@ faq:
     answer: "To extract the before-tax base price from a total inclusive of tax, divide the total price by (1 + Sales Tax Rate / 100)."
   - question: "Does online shopping include sales tax?"
     answer: "Following the South Dakota v. Wayfair Supreme Court ruling, most online retailers collect state and local sales tax based on the buyer's delivery shipping address."
-  - question: "Is my personal data stored anywhere?"
-    answer: "No. All calculations run locally inside your web browser. History and saved presets are stored strictly in your browser's local storage."
 ---
 
-# Sales Tax Calculator
+# Sales Tax Calculator - Calculate Tax Liability & Savings
 
 Calculate total retail sales tax, combined state and local tax rates, and final itemized receipt costs with our free **Sales Tax Calculator**.
 
@@ -159,8 +157,7 @@ $$\text{Item Price (Pre-Tax)} = \frac{\text{Total Price}}{1 + (\text{Sales Tax R
 
 ---
 
-## Frequently Asked Questions
-
+## Sales Tax Calculator Frequently Asked Questions
 ### How do you calculate sales tax on a purchase?
 Sales tax is calculated by multiplying the before-tax purchase price by the combined state, county, and local sales tax rate percentage.
 
@@ -179,5 +176,3 @@ To extract the before-tax base price from a total inclusive of tax, divide the t
 ### Does online shopping include sales tax?
 Following the South Dakota v. Wayfair Supreme Court ruling, most online retailers collect state and local sales tax based on the buyer's delivery shipping address.
 
-### Is my personal data stored anywhere?
-No. All calculations run locally inside your web browser. History and saved presets are stored strictly in your browser's local storage.

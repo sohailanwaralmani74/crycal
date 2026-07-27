@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Masonry Grout Calculator | CMU Core Fill Volume"
+title: "Masonry Grout Calculator | Concrete & Masonry Estimating"
 description: "Calculate fine or coarse masonry grout volume in cubic yards, cubic feet, and 80lb bags needed for filling hollow CMU concrete block cores."
 permalink: /masonry-grout-calculator
 tool_id: masonry-grout-calculator
@@ -161,7 +161,7 @@ faq:
     answer: "Include a 10% waste factor to account for grout absorption into porous concrete blocks, head joint seepage, and pump hopper residue."
 ---
 
-# Masonry Grout & Block Core Fill Calculator
+# Masonry Grout Calculator - Calculate Volume, Bags & Materials
 
 Calculate precise fine or coarse masonry grout volume in cubic yards, cubic feet, and 80lb bags for filling hollow concrete block (CMU) cores. All calculations run 100% privately in your browser.
 
@@ -175,8 +175,7 @@ Because CMU block cores vary significantly by block width (6", 8", 10", 12") and
 
 ---
 
-## Mathematical Formulas & Mechanics
-
+## Masonry Grout Calculator Mathematical Formulas & Mechanics
 ### 1. Core Fill Volume per Block ($V_{	ext{core\_unit}}$)
 Empirical grout volume per block based on nominal CMU dimensions:
 - 6" x 8" x 16" Block: $V_{	ext{core\_unit}} = 0.20	ext{ cu ft}$
@@ -206,8 +205,7 @@ $$C_{	ext{ready\_mix}} = V_{	ext{cuyd}} 	imes P_{	ext{yard}}$$
 
 ---
 
-## Real-World Comparison & Benchmark Table
-
+## Masonry Grout Calculator Benchmarks & Comparison Table
 | CMU Block Size | Core Fill Density | Grout Volume per 100 Blocks | 80lb Bags per 100 Blocks | Bulk Yards per 500 Blocks | Recommended Grout Type |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **6" x 8" x 16"** | Full (100% Cores) | 20.0 Cu Ft (0.74 Cu Yd) | 30 Bags | 3.70 Cu Yd | Fine Masonry Grout |
@@ -218,8 +216,7 @@ $$C_{	ext{ready\_mix}} = V_{	ext{cuyd}} 	imes P_{	ext{yard}}$$
 
 ---
 
-## Step-by-Step How-To Guide
-
+## How to Use the Masonry Grout Calculator Step-by-Step
 1. **Calculate Block Quantity:** Determine total CMU blocks in wall panels requiring grout reinforcement.
 2. **Select Block Profile & Fill Scheme:** Choose block size (e.g. 8x8x16) and specify full grout fill or partial fill (rebar cells only).
 3. **Include Waste Allowance:** Set a 10% waste factor for absorption into porous block web walls and mortar keyways.
@@ -228,8 +225,7 @@ $$C_{	ext{ready\_mix}} = V_{	ext{cuyd}} 	imes P_{	ext{yard}}$$
 
 ---
 
-## Frequently Asked Questions
-
+## Masonry Grout Calculator Frequently Asked Questions
 ### How much grout is needed for an 8x8x16 CMU block?
 A standard 8x8x16 hollow CMU block requires approximately 0.28 to 0.30 cubic feet of grout to completely fill both interior cores.
 

@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Window Trim Casing | Interactive Online Tool"
+title: "Window Trim Casing Calculator | Window & Door Estimating"
 description: "Calculate interior window casing trim, stool ledge, and apron linear feet and 8ft / 16ft stock lumber board counts with miter waste allowance."
 permalink: /window-trim-casing-calculator
 tool_id: window-trim-casing-calculator
@@ -142,7 +142,7 @@ faq:
 
 ---
 
-# Window Trim Casing Calculator
+# Window Trim Casing Calculator - Calculate Dimensions & Energy Efficiency
 
 Calculate exact **interior window casing trim, stool ledge, and apron linear feet** using our **Window Trim Casing Calculator**. Easily determine **8-foot and 16-foot stock moulding board counts** with 45-degree miter waste allowances for single or multi-window projects.
 
@@ -208,8 +208,7 @@ Where:
 
 ---
 
-## Frequently Asked Questions
-
+## Window Trim Casing Calculator Frequently Asked Questions
 ### What is the difference between window casing, stool, and apron?
 **Window casing** is the decorative trim framing the top and sides. The **window stool** is the flat horizontal shelf at the bottom sill. The **apron** is the decorative trim board mounted flat against the wall directly underneath the stool.
 
@@ -228,5 +227,3 @@ Yes. Picture-frame casing uses 45-degree mitered casing trim on all 4 sides (no 
 ### What size stock moulding boards should I purchase?
 16-foot moulding boards provide superior cut yields with minimal scrap waste compared to 8-foot boards, allowing you to cut complete side legs and headers from a single continuous stick.
 
-### Is my personal data saved when using this calculator?
-No. All calculations take place strictly within your local web browser. No trim measurements are saved.

@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Ceiling Texture | Interactive Online Tool"
+title: "Ceiling Texture Calculator | Drywall & Paint Estimating"
 description: "Calculate ceiling texture compound bags (popcorn, knockdown, orange peel), total compound weight in pounds, and total material cost."
 permalink: /ceiling-texture-calculator
 tool_id: ceiling-texture-calculator
@@ -136,11 +136,9 @@ faq:
     answer: "Yes. Raw drywall ceilings must be sealed with a quality drywall primer sealer before spraying texture to ensure uniform adhesion and prevent compound flaking."
   - question: "How much does ceiling texture compound cost per square foot?"
     answer: "Dry texture compound materials cost $0.03 to $0.08 per square foot. Total contractor-installed ceiling texturing ranges from $1.25 to $2.50 per square foot."
-  - question: "Is my personal data saved anywhere?"
-    answer: "No. All calculations run locally in your web browser."
 ---
 
-# Ceiling Texture Calculator
+# Ceiling Texture Calculator - Calculate Paint Coverage & Sheet Count
 
 Determine exact dry mix requirements for spraying or hand-applying **popcorn acoustic**, **knockdown**, **orange peel**, and **smooth skim coat** finishes with our **Ceiling Texture Calculator**.
 
@@ -195,8 +193,7 @@ The table below outlines texture compound requirements across standard ceiling s
 
 ---
 
-## Frequently Asked Questions
-
+## Ceiling Texture Calculator Frequently Asked Questions
 ### How many bags of knockdown ceiling texture do I need for 1,000 sq ft?
 A standard 50 lb bag of un-mixed dry knockdown texture mix covers 400 square feet. For 1,000 sq ft, you will need 3 bags (150 lbs total).
 
@@ -215,5 +212,3 @@ Yes. Raw drywall ceilings must be sealed with a quality drywall primer sealer be
 ### How much does ceiling texture compound cost per square foot?
 Dry texture compound materials cost $0.03 to $0.08 per square foot. Total contractor-installed ceiling texturing ranges from $1.25 to $2.50 per square foot.
 
-### Is my personal data saved anywhere?
-No. All calculations run locally in your web browser.

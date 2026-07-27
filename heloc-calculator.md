@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "HELOC Calculator | Home Equity Line Payment Estimator"
+title: "HELOC Calculator | Home Equity Line of Credit"
 description: "Calculate HELOC interest-only draw payments, fully amortizing repayment payments, and payment shock. 100% free and private browser execution."
 permalink: /heloc-calculator
 tool_id: heloc-calculator
@@ -136,7 +136,7 @@ faq:
     answer: "No, 100%. All calculation formulas run locally within your web browser. No personal equity or credit line metrics are stored or transmitted."
 ---
 
-# HELOC Calculator
+# HELOC Calculator - Calculate Monthly HELOC Draw & Interest Payment
 
 Calculate interest-only draw payments and fully amortizing principal-and-interest repayment obligations for a Home Equity Line of Credit (HELOC).
 Featuring multi-currency support, payment shock analysis, and 100% private browser execution so your personal property metrics remain secure.
@@ -153,8 +153,7 @@ Understanding the transition between these two phases is essential to prevent "p
 
 ---
 
-## Mathematical Formulas & Mechanics
-
+## HELOC Calculator Mathematical Formulas & Mechanics
 During the interest-only draw period ($t \le \text{Draw Years}$), the monthly payment ($M_{\text{draw}}$) based on current borrowed balance ($B$) and annual variable interest rate ($r_{\text{annual}}$) is:
 
 $$r_{\text{monthly}} = \frac{r_{\text{annual}}}{12 \times 100}$$
@@ -175,8 +174,7 @@ $$\text{Total Repayment Interest} = (M_{\text{repay}} \times n_{\text{repay}}) -
 
 ---
 
-## Real-World Comparison & Benchmark Table
-
+## HELOC Calculator Benchmarks & Comparison Table
 The benchmark table below demonstrates phase payment shifts and cumulative interest costs for a **$50,000 HELOC balance at 8.50% APR** across different repayment phase structures:
 
 | HELOC Credit Balance | Variable Interest Rate | Draw Period (Interest-Only) | Draw Phase Payment | Repayment Period (P&I) | Repayment Phase Payment | Monthly Payment Jump | Total Lifetime Interest |
@@ -191,8 +189,7 @@ The benchmark table below demonstrates phase payment shifts and cumulative inter
 
 ---
 
-## Step-by-Step How-To Guide
-
+## How to Use the HELOC Calculator Step-by-Step
 1. **Select Currency**: Choose your preferred currency ($ USD, € EUR, £ GBP) from the site header.
 2. **Enter Credit Line Balance**: Input total active borrowed balance on your HELOC.
 3. **Set Variable Interest Rate**: Input current variable interest rate (Prime Rate + Lender Margin).
@@ -202,8 +199,7 @@ The benchmark table below demonstrates phase payment shifts and cumulative inter
 
 ---
 
-## Frequently Asked Questions
-
+## HELOC Calculator Frequently Asked Questions
 ### What is a Home Equity Line of Credit (HELOC)?
 A HELOC is a revolving line of credit secured by home equity that allows borrowers to withdraw funds as needed during a draw period and repay principal over a subsequent repayment period.
 

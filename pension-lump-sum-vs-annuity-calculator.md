@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Pension Lump Sum Vs Annuity | Interactive Online Tool"
+title: "Pension Lump Sum vs Annuity Calculator | Calculation & Analysis"
 description: "Compare taking a lump sum payout versus a lifetime annuity pension. Enter your pension offer, expected returns, and life expectancy."
 permalink: /pension-lump-sum-vs-annuity-calculator
 tool_id: pension-lump-sum-vs-annuity-calculator
@@ -155,12 +155,10 @@ faq:
     answer: "A conservative estimate is 4-6% for a balanced portfolio. Use a lower rate for a conservative estimate, and a higher rate for a more aggressive estimate."
   - question: "What about inflation?"
     answer: "The calculator includes an inflation adjustment option. Enter your expected inflation rate to see the real value of your annuity payments over time."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. No data is sent to any server."
 
 ---
 
-# Pension Lump Sum Vs Annuity Calculator
+# Pension Lump Sum vs Annuity Calculator - Calculate & Optimize Results
 
 Compare taking a pension lump sum payout versus a lifetime annuity with our free **Pension Lump Sum vs Annuity Calculator**. Enter your lump sum offer, monthly annuity payment, expected returns, and life expectancy to see which option is better — all without your data leaving your browser.
 
@@ -187,8 +185,7 @@ Deciding whether to take a lump sum or lifetime annuity is one of the most impor
 
 ---
 
-## The Break-Even Concept
-
+## Pension Lump Sum vs Annuity Calculator Break-Even Analysis
 The **break-even age** is when the total value of the lump sum (if invested) equals the total annuity payments received. After the break-even age, the annuity option becomes more valuable.
 
 **Example:**
@@ -208,8 +205,7 @@ The **break-even age** is when the total value of the lump sum (if invested) equ
 
 ---
 
-## How to Use This Calculator
-
+## How to Use the Pension Lump Sum vs Annuity Calculator
 1. **Enter your lump sum offer** — the amount your pension plan offers.
 2. **Enter your monthly annuity payment** — the monthly payment for life.
 3. **Enter your expected investment return** — annual return if you invest the lump sum.
@@ -220,8 +216,7 @@ The tool updates instantly as you adjust any input — no "Calculate" button req
 
 ---
 
-## Frequently Asked Questions
-
+## Pension Lump Sum vs Annuity Calculator Frequently Asked Questions
 ### What is a pension lump sum vs annuity?
 A lump sum is a one-time payment you receive upfront. An annuity is a series of monthly payments for life. This calculator helps you compare which option is better.
 
@@ -234,5 +229,3 @@ A conservative estimate is 4-6% for a balanced portfolio. Use a lower rate for a
 ### What about inflation?
 The calculator includes an inflation adjustment option. Enter your expected inflation rate to see the real value of your annuity payments over time.
 
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. No data is sent to any server.

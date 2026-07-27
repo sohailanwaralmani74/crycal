@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Pipe Sizing | Interactive Online Tool"
+title: "Pipe Sizing Calculator | Plumbing Flow & Pipe Sizing"
 description: "Calculate required PEX, copper, or CPVC water supply pipe diameter (1/2, 3/4, 1) based on Fixture Units (WSFU), peak GPM flow, and max velocity limits."
 permalink: /pipe-sizing-calculator
 tool_id: pipe-sizing-calculator
@@ -130,7 +130,7 @@ faq:
 
 ---
 
-# Pipe Sizing Calculator
+# Pipe Sizing Calculator - Calculate Pipe Diameter & GPM Flow
 
 Calculate the required **PEX, copper, or CPVC water pipe diameter** for main service lines and branch runs using our **Pipe Sizing Calculator**. Compliant with **Uniform Plumbing Code (UPC)** and **International Plumbing Code (IPC)** standards, this tool converts **Water Supply Fixture Units (WSFU)** to peak **GPM flow rates**.
 
@@ -189,8 +189,7 @@ Where:
 
 ---
 
-## Frequently Asked Questions
-
+## Pipe Sizing Calculator Frequently Asked Questions
 ### What is a Water Supply Fixture Unit (WSFU)?
 A Water Supply Fixture Unit (WSFU) is a design index number assigned to plumbing fixtures that represents their relative water consumption and peak simultaneous usage probability.
 
@@ -209,5 +208,3 @@ Developed by Dr. Roy B. Hunter at the National Bureau of Standards, Hunter's Cur
 ### Can I run a 1/2 inch PEX branch line to a bathroom?
 A 1/2-inch PEX branch line can supply up to two fixtures (e.g., a sink and a toilet) simultaneously. However, if feeding a full bathroom (sink, toilet, and shower), a 3/4-inch trunk line feeding 1/2-inch branches is recommended to prevent pressure drops.
 
-### Is my personal data saved when using this calculator?
-No. All calculations take place strictly inside your web browser. No fixture or piping data is collected or saved.

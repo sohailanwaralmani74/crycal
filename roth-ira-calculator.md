@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Roth Ira | Interactive Online Tool"
+title: "Roth Ira Calculator | Tax-Free Retirement Compounding"
 description: "Estimate the growth of your Roth IRA with our free Roth IRA calculator. See how tax‑free compounding can boost your retirement savings."
 permalink: /roth-ira-calculator
 tool_id: roth-ira
@@ -195,12 +195,10 @@ faq:
     answer: "Yes — as long as you meet the five‑year holding requirement and are age 59½ or older, or meet certain other exceptions, all withdrawals are federal income‑tax‑free."
   - question: "How is a Roth IRA different from a Traditional IRA?"
     answer: "Traditional IRA contributions are often tax‑deductible but withdrawals are taxed. Roth IRA contributions are not tax‑deductible but withdrawals are tax‑free. Roth IRAs also have no Required Minimum Distributions (RMDs) during your lifetime."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server."
 
 ---
 
-# Roth Ira Calculator
+# Roth Ira Calculator - Project Roth IRA Growth & Contribution Limits
 
 Use this Roth IRA calculator to see how your contributions can grow completely tax‑free. Enter your current age, retirement age, current balance, annual contribution, expected return, and fees — the tool projects your Roth IRA balance at retirement, total contributions, and total investment returns. Whether you're comparing a Roth vs Traditional IRA or planning your retirement savings, this Roth IRA growth calculator gives you the clarity you need.
 
@@ -248,8 +246,7 @@ Where:
 
 ---
 
-## Frequently Asked Questions
-
+## Roth Ira Calculator Frequently Asked Questions
 ### What is a Roth IRA?
 A Roth IRA is an individual retirement account where contributions are made with after‑tax dollars. The key benefit is that qualified withdrawals in retirement are completely tax‑free, including all investment returns.
 
@@ -264,9 +261,6 @@ Yes — as long as you meet the five‑year holding requirement and are age 59½
 
 ### How is a Roth IRA different from a Traditional IRA?
 Traditional IRA contributions are often tax‑deductible but withdrawals are taxed. Roth IRA contributions are not tax‑deductible but withdrawals are tax‑free. Roth IRAs also have no Required Minimum Distributions (RMDs) during your lifetime.
-
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server.
 
 ---
 

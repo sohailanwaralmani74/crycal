@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Sand | Interactive Online Tool"
+title: "Sand Calculator | Concrete & Masonry Estimating"
 description: "Calculate cubic yards, tons, and 50 lb bags of sand for paver bedding, patio subbase, pool liners, sandboxes, and masonry mortar with total cost."
 permalink: /sand-calculator
 tool_id: sand-calculator
@@ -143,7 +143,7 @@ faq:
   - answer: "No. All computations execute locally inside your web browser."
 ---
 
-# Sand Calculator
+# Sand Calculator - Calculate Volume, Bags & Materials
 
 Calculate total **Cubic Yards**, weight in **Tons**, **50 lb Bags**, and total material cost for paver bedding sand, masonry sand, and sandboxes.
 
@@ -193,8 +193,7 @@ $$\text{Total Bulk Cost} = \text{Tons} \times \text{Price Per Ton}$$
 
 ---
 
-## Frequently Asked Questions
-
+## Sand Calculator Frequently Asked Questions
 ### How many tons of sand are in a cubic yard?
 One cubic yard of dry sand weighs approximately 1.35 tons (2,700 lbs). Damp sand can weigh up to 1.50 tons per cubic yard.
 
@@ -213,5 +212,3 @@ One ton of sand (approx. 0.74 cu yds) covers approximately 240 square feet at a 
 ### When is bulk sand cheaper than buying 50lb bags?
 For projects requiring more than 0.5 cubic yards (27 bags of 50lb sand), ordering bulk sand from a landscape supply yard is significantly cheaper.
 
-### Is my personal data saved?
-No. All computations execute locally inside your web browser.

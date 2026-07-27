@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Concrete Driveway Cost | Interactive Online Tool"
+title: "Concrete Driveway Cost Calculator | Concrete & Masonry Estimating"
 description: "Calculate concrete driveway volume in cubic yards, 4-6 inch thickness cost, rebar mesh grid linear feet, and contractor installation costs."
 permalink: /concrete-driveway-cost-calculator
 tool_id: concrete-driveway-cost-calculator
@@ -140,11 +140,9 @@ faq:
     answer: "Replacing an existing asphalt or concrete driveway adds $1.50 to $3.50 per square foot for demo, jackhammering, hauling, and disposal of old material."
   - question: "How long after pouring before I can drive on a new concrete driveway?"
     answer: "You can walk on new concrete after 24 to 48 hours. Wait at least 7 days before driving light passenger cars, and 28 days before parking heavy trucks or RVs."
-  - question: "Is my personal data saved or tracked?"
-    answer: "No. All calculation operations execute privately inside your local web browser."
 ---
 
-# Concrete Driveway Cost Calculator
+# Concrete Driveway Cost Calculator - Calculate Volume, Bags & Materials
 
 Estimate ready-mix concrete **cubic yardage**, **rebar grid steel requirements**, site grading labor, and total installation costs for 4", 5", and 6" thick residential driveways.
 
@@ -185,8 +183,7 @@ $$\text{Total Cost} = (\text{Volume} \times \text{Price/yd}) + (\text{Rebar Feet
 
 ---
 
-## Frequently Asked Questions
-
+## Concrete Driveway Cost Calculator Frequently Asked Questions
 ### How much does a 2-car concrete driveway cost?
 A standard 2-car concrete driveway (20 ft × 50 ft = 1,000 sq ft, 5 inches thick) costs between $7,000 and $13,000 installed ($7 to $13 per sq ft), including site excavation, gravel subbase, rebar mesh, forms, concrete, and finishing labor.
 
@@ -205,5 +202,3 @@ Replacing an existing asphalt or concrete driveway adds $1.50 to $3.50 per squar
 ### How long after pouring before I can drive on a new concrete driveway?
 You can walk on new concrete after 24 to 48 hours. Wait at least 7 days before driving light passenger cars, and 28 days before parking heavy trucks or RVs.
 
-### Is my personal data saved or tracked?
-No. All calculation operations execute privately inside your local web browser.

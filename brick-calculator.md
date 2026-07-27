@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Brick Calculator | Modular & Standard Brick Count"
+title: "Brick Calculator | Concrete & Masonry Estimating"
 description: "Calculate standard modular bricks, mortar bags, wall area, waste allowances, and material cost for brick veneer walls and masonry projects."
 permalink: /brick-calculator
 tool_id: brick-calculator
@@ -160,7 +160,7 @@ faq:
     answer: "Standard red clay face bricks cost between $600 and $1,000 per 1,000 bricks ($0.60 to $1.00 per brick) for materials, while architectural or antique glazed bricks can exceed $1,500 per 1,000."
 ---
 
-# Brick Calculator
+# Brick Calculator - Calculate Volume, Bags & Materials
 
 Determine brick counts, mortar bag requirements, wall square footage, waste allowances, and material budgets for modular, queen, king, and utility brick masonry.
 
@@ -181,8 +181,7 @@ Using this **Brick Calculator** enables masons, home builders, and DIYers to:
 
 ---
 
-## Mathematical Formulas & Mechanics
-
+## Brick Calculator Mathematical Formulas & Mechanics
 ### 1. Wall Surface Area & Net Opening Deductions
 $$\text{Area}_{\text{gross}} = L_{\text{wall}} \times H_{\text{wall}}$$
 $$\text{Area}_{\text{net}} = \text{Area}_{\text{gross}} - \sum \left( W_{\text{opening}} \times H_{\text{opening}} \right)$$
@@ -205,8 +204,7 @@ $$\text{Total Material Cost} = \left(\frac{\text{Total Bricks}}{1000} \times P_{
 
 ---
 
-## Real-World Comparison & Benchmark Table
-
+## Brick Calculator Benchmarks & Comparison Table
 Coverage comparison and mortar usage across standard residential brick classifications:
 
 | Brick Classification | Individual Dimensions ($W \times H \times L$) | Bricks / Sq Ft ($3/8\text{"}$ Joint) | Bricks per 1,000 Sq Ft | Mortar Bags (80 lb) / 1k Bricks | Material Cost / 1k Units |
@@ -219,8 +217,7 @@ Coverage comparison and mortar usage across standard residential brick classific
 
 ---
 
-## Step-by-Step How-To Guide
-
+## How to Use the Brick Calculator Step-by-Step
 1. **Measure Wall Dimensions:** Measure length and height of wall in feet to calculate gross wall square footage.
 2. **Select Brick Size & Type:** Choose standard Modular (6.86/sq ft), Queen, King, Utility, or Engineer brick formats.
 3. **Specify Mortar Joint Thickness:** Keep standard 3/8-inch joint thickness or adjust for custom architectural joints.
@@ -229,8 +226,7 @@ Coverage comparison and mortar usage across standard residential brick classific
 
 ---
 
-## Frequently Asked Questions
-
+## Brick Calculator Frequently Asked Questions
 ### How many standard modular bricks are in 1 square foot of wall?
 A single wythe brick wall constructed with Standard Modular bricks (3-5/8" x 2-1/4" x 7-5/8") and standard 3/8-inch mortar joints requires 6.86 bricks per square foot.
 

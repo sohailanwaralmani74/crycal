@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Home Affordability | Interactive Online Tool"
+title: "Home Affordability Calculator | Mortgage Payment & Interest"
 description: "Calculate how much house you can afford based on your income, debts, down payment, and current interest rates. Plan your home purchase with confidence."
 permalink: /home-affordability-calculator
 tool_id: home-affordability
@@ -212,12 +212,10 @@ faq:
     answer: "This home affordability calculator factors in your full financial picture — including taxes, insurance, and HOA fees — so you can see how expensive of a home you can truly afford."
   - question: "How much home can you afford on a $100,000 salary?"
     answer: "With a $100,000 salary, minimal debts, and a 20% down payment, you can typically afford a home in the $300,000-$400,000 range, depending on interest rates and taxes. Use this calculator to get a personalized estimate."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server."
 
 ---
 
-# Home Affordability Calculator
+# Home Affordability Calculator - Calculate Home Loan Payment & Amortization
 
 Use this home affordability calculator to find out how much house you can afford based on your income, debts, down payment, and current interest rates. Enter your annual income, monthly debts, down payment, and loan details — the tool shows your maximum affordable home price, estimated monthly payment, and front-end and back-end DTI ratios. Whether you're wondering "how much home can you afford?" or "how expensive of a house can I afford?", this affordability calculator gives you a clear answer.
 
@@ -271,8 +269,7 @@ Buying a home is one of the biggest financial decisions you'll make. This afford
 
 ---
 
-## Frequently Asked Questions
-
+## Home Affordability Calculator Frequently Asked Questions
 ### How much house can I afford?
 The amount depends on your income, debts, down payment, interest rate, and lender guidelines. This home affordability calculator gives you a clear estimate based on standard DTI limits.
 
@@ -287,9 +284,6 @@ This home affordability calculator factors in your full financial picture — in
 
 ### How much home can you afford on a $100,000 salary?
 With a $100,000 salary, minimal debts, and a 20% down payment, you can typically afford a home in the $300,000-$400,000 range, depending on interest rates and taxes. Use this calculator to get a personalized estimate.
-
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server.
 
 ---
 

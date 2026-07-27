@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Skylight Sizing | Interactive Online Tool"
+title: "Skylight Sizing Calculator | Roofing Material Estimating"
 description: "Calculate skylight glass area sizing (5%–10% room floor ratio), recommended skylight dimensions, shaft flare angles, and daylighting lumen output."
 permalink: /skylight-sizing-calculator
 tool_id: skylight-sizing-calculator
@@ -145,11 +145,9 @@ faq:
     answer: "North-facing skylights provide steady, cool diffuse daylight without solar heat gain. South-facing skylights provide intense warmth and light. East yields morning sun, and West provides late afternoon illumination."
   - question: "Can a skylight be too big for a room?"
     answer: "Yes. Oversized skylights exceeding 12% of floor area can cause severe summer overheating and excessive winter thermal heat loss unless equipped with Low-E coatings or blinds."
-  - question: "Is my skylight sizing calculation saved on external servers?"
-    answer: "No. All calculations run strictly inside your local browser."
 ---
 
-# Skylight Sizing Calculator
+# Skylight Sizing Calculator - Calculate Shingles, Squares & Flashing
 
 Calculate optimal **skylight glass surface area** based on room floor square footage (5%–10% rule), recommended **standard unit dimensions**, **light shaft flare angles**, and natural **daylight lumen output**.
 
@@ -193,8 +191,7 @@ $$\text{LED Bulb Equivalent Count} = \left\lceil \frac{\text{Daylight Lumens}}{8
 
 ---
 
-## Frequently Asked Questions
-
+## Skylight Sizing Calculator Frequently Asked Questions
 ### How big should a skylight be for a room?
 Architectural guidelines state that skylight glass area should equal 5% to 10% of room floor area. A 150 sq ft room with standard windows requires 7.5 to 12 sq ft of skylight area (e.g., one 30"x46" unit).
 
@@ -213,5 +210,3 @@ North-facing skylights provide steady, cool diffuse daylight without solar heat 
 ### Can a skylight be too big for a room?
 Yes. Oversized skylights exceeding 12% of floor area can cause severe summer overheating and excessive winter thermal heat loss unless equipped with Low-E coatings or blinds.
 
-### Is my skylight sizing calculation saved on external servers?
-No. All calculations run strictly inside your local browser.

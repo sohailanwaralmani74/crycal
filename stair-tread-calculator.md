@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Stair Tread | Interactive Online Tool"
+title: "Stair Tread Calculator | Flooring Square Footage"
 description: "Calculate hardwood or composite stair tread caps, riser veneer covers, front nosing trim, and side return trim linear footage for staircase remodeling."
 permalink: /stair-tread-calculator
 tool_id: stair-tread-calculator
@@ -150,11 +150,9 @@ faq:
     answer: "A landing tread (or stair nose) is a specialized grooved molding installed along the edge of the upper floor landing to transition flat floorboards to the top stair riser."
   - question: "What is the standard width of a residential stair tread?"
     answer: "Standard residential stair treads are 36 inches (3 feet) wide. Custom staircases range from 42 to 48 inches wide."
-  - question: "Is my stair calculation saved on external servers?"
-    answer: "No. All calculations run strictly inside your local browser."
 ---
 
-# Stair Tread Calculator
+# Stair Tread Calculator - Calculate Tiles, Planks & Material Need
 
 Calculate exact **hardwood or composite stair tread caps**, **matching riser veneer covers**, front bullnose nosings, and **mitered side return trim** for staircase remodels.
 
@@ -202,8 +200,7 @@ $$\text{Landing Tread Linear Feet} = \frac{\text{Tread Width (in)}}{12}$$
 
 ---
 
-## Frequently Asked Questions
-
+## Stair Tread Calculator Frequently Asked Questions
 ### What is the difference between stair treads and risers?
 A stair tread is the horizontal surface that you step on. A stair riser is the vertical face between each step.
 
@@ -222,5 +219,3 @@ A landing tread (or stair nose) is a specialized grooved molding installed along
 ### What is the standard width of a residential stair tread?
 Standard residential stair treads are 36 inches (3 feet) wide. Custom staircases range from 42 to 48 inches wide.
 
-### Is my stair calculation saved on external servers?
-No. All calculations run strictly inside your local browser.

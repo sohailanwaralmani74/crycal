@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Tire Wear Mileage Life Estimator | Interactive Online Tool"
+title: "Tire Wear Mileage Life Estimator | Tire Size & Wheel Fitment"
 description: "Estimate remaining miles and months left on your tires based on current tread depth in 32nds of an inch, UTQG treadwear rating, and annual driving habits."
 permalink: /tire-wear-mileage-life-estimator
 tool_id: tire-wear-mileage-life-estimator
@@ -150,7 +150,7 @@ faq:
 
 ---
 
-# Tire Wear Mileage Life Estimator Calculator
+# Tire Wear Mileage Life Estimator - Calculate Diameter & Speedometer Offset
 
 Estimate how many miles and months your tires have left before hitting the **2/32" legal wear limit** with our free **Tire Wear & Mileage Life Estimator**.
 
@@ -164,12 +164,10 @@ Instead of guessing when to buy new tires, this calculator tracks your exact wea
 
 ---
 
-## Calculation Flow & Mathematical Formulas
-
+## Tire Wear Mileage Life Estimator Calculation Flow & Formulas
 The estimator calculates empirical wear rates based on actual miles driven per 1/32" of tread loss:
 
-### Inputs & Parameters
-
+### Tire Wear Mileage Life Estimator Inputs & Parameters
 | Input Parameter | Description |
 | :--- | :--- |
 | **New Tread Depth (\(T_{new}\))** | Factory tread depth when brand new (typically 10/32") |
@@ -180,8 +178,7 @@ The estimator calculates empirical wear rates based on actual miles driven per 1
 
 ---
 
-### Step-by-Step Formulas
-
+### Step-by-Step Tire Wear Mileage Life Estimator Formulas
 #### 1. Usable Tread Depths
 \[
 \text{Usable Tread Total} = T_{new} - T_{limit} = T_{new} - 2
@@ -221,8 +218,7 @@ M_{total} = M_{current} + M_{remaining}
 
 ---
 
-## Step-by-Step How-To Guide
-
+## How to Use the Tire Wear Mileage Life Estimator Step-by-Step
 1. **Measure Tread**: Use a depth gauge in outer, center, and inner grooves. Record the lowest depth reading in 32nds.
 2. **Input Current Mileage**: Enter total miles put on these tires (e.g. `25,000 miles`).
 3. **Set Annual Mileage**: Input your typical annual miles (e.g. `12,000 miles/yr`).
@@ -230,8 +226,7 @@ M_{total} = M_{current} + M_{remaining}
 
 ---
 
-## Frequently Asked Questions
-
+## Tire Wear Mileage Life Estimator Frequently Asked Questions
 ### What is the minimum legal tread depth for tires?
 In the United States and Canada, the legal minimum tread depth is **2/32 of an inch (1.6 mm)**. Tires with 2/32 or less tread must be replaced immediately for safety.
 

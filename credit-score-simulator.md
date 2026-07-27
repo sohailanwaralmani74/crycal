@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Credit Score Simulator | Interactive Online Tool"
+title: "Credit Score Simulator | Income & Expense Planning"
 description: "Simulate your credit score with our free Credit Score Simulator. Adjust payment history, credit utilization, credit age, and more."
 permalink: /credit-score-simulator
 tool_id: credit-score-simulator
@@ -171,12 +171,10 @@ faq:
     answer: "The main factors are payment history (35%), credit utilization (30%), credit age (15%), account mix (10%), and inquiries (10%). This simulator uses these exact weights."
   - question: "What is a good credit score?"
     answer: "Credit scores typically range from 300-850. 700+ is generally considered good, 740+ is very good, and 800+ is excellent."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server."
 
 ---
 
-# Credit Score Simulator Calculator
+# Credit Score Simulator - Plan Monthly Income & Expenses
 
 Use this credit score simulator to understand how different financial actions affect your credit score. Adjust your payment history, credit utilization, credit age, inquiries, and account mix — the tool shows real-time impact on your simulated score with multiple charts. This credit score impact simulator helps you make smarter financial decisions.
 
@@ -224,8 +222,7 @@ Each factor is scored individually, then weighted to produce a final simulated s
 
 ---
 
-## Frequently Asked Questions
-
+## Credit Score Simulator Frequently Asked Questions
 ### What is a credit score simulator?
 A credit score simulator helps you understand how different financial actions affect your credit score. It estimates the impact of changes to payment history, utilization, credit age, inquiries, and account mix.
 
@@ -237,8 +234,5 @@ The main factors are payment history (35%), credit utilization (30%), credit age
 
 ### What is a good credit score?
 Credit scores typically range from 300-850. 700+ is generally considered good, 740+ is very good, and 800+ is excellent.
-
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server.
 
 ---

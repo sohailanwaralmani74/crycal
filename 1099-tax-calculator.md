@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "1099 Tax | Interactive Online Tool"
+title: "1099 Tax Calculator | Self-Employment Tax Rate"
 description: "Use our free 1099 Tax Calculator to estimate federal and state self-employment tax, quarterly payments, and how much to save for taxes as an..."
 permalink: /1099-tax-calculator
 tool_id: 1099-tax-calculator
@@ -231,12 +231,10 @@ faq:
     answer: "Quarterly estimated tax payments are typically due in April, June, September, and January. The calculator shows your estimated quarterly payment amount."
   - question: "What deductions can I claim as a 1099 worker?"
     answer: "Common deductions include home office, supplies, travel, meals, insurance, vehicle expenses, equipment, and professional services. Enter your business expenses in the calculator."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. No data is sent to any server."
 
 ---
 
-# 1099 Tax Calculator
+# 1099 Tax Calculator - Calculate Self-Employment & Quarterly Tax
 
 Estimate your 1099 tax liability with our free **1099 Tax Calculator**. Enter your income, business expenses, filing status, and deductions to see your self-employment tax, federal tax, state tax, and quarterly payments — all without your data leaving your browser.
 
@@ -274,8 +272,7 @@ The tool handles **1099 tax calculator with deductions**, **1099 tax calculator 
 
 ---
 
-## Frequently Asked Questions
-
+## 1099 Tax Calculator Frequently Asked Questions
 ### What is a 1099 tax calculator?
 
 A 1099 tax calculator estimates the self-employment tax, federal income tax, and state income tax owed by independent contractors, freelancers, and other self-employed individuals who receive 1099 income.
@@ -300,6 +297,3 @@ Quarterly estimated tax payments are typically due in April, June, September, an
 
 Common deductions include home office, supplies, travel, meals, insurance, vehicle expenses, equipment, and professional services. Enter your business expenses in the calculator.
 
-### Is my data stored anywhere?
-
-No. All calculations run locally in your browser. No data is sent to any server.

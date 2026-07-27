@@ -1,6 +1,6 @@
 ---
 layout: "tool"
-title: "Gross Margin by Cohort Calculator"
+title: "Gross Margin by Cohort Calculator | SaaS Unit Economics & CAC"
 description: "Compare gross margin expansion across 2022 vs 2023 vs 2024 customer cohorts to analyze cloud hosting and support scale efficiencies."
 permalink: "/gross-margin-by-cohort-calculator"
 tool_id: "gross-margin-by-cohort-calculator"
@@ -131,11 +131,9 @@ faq:
     a: "New customer cohorts incur initial implementation engineering, setup support, and trial database provisioning COGS."
   - q: "What is a healthy YoY margin expansion rate?"
     a: "Healthy SaaS platforms expand gross margin by 2 to 5 percentage points per year until stabilizing around 80%-85%."
-  - q: "Is data saved to an external server?"
-    a: "No. All calculations run strictly inside your browser."
 ---
 
-# Calculate Gross Margin by Cohort
+# Gross Margin by Cohort Calculator - Calculate LTV, CAC & Payback Ratio
 
 Compare gross margin expansion across 2022 vs 2023 vs 2024 customer cohorts to analyze cloud hosting and support scale efficiencies. Use our free **Gross Margin by Cohort Calculator** to evaluate your SaaS business performance and make data-driven growth decisions — without any data leaving your browser.
 
@@ -147,24 +145,21 @@ Cohort gross margin analysis tracks whether mature customer cohorts become progr
 
 Having accurate, real-time insights into this metric helps SaaS founders, CFOs, and growth teams optimize capital allocation, protect operating runway, and achieve top-tier venture scalability.
 
-## Mathematical Formula & Derivation
-
+## Gross Margin by Cohort Calculator Formula & Derivation
 The mathematical derivation for this financial metric is expressed as:
 
 $$\text{Cohort Gross Margin \%} = \frac{\text{Cohort Revenue} - \text{Cohort COGS}}{\text{Cohort Revenue}} \times 100\%$$ \n$$\text{Blended Gross Margin \%} = \frac{\sum \text{Revenue} - \sum \text{COGS}}{\sum \text{Revenue}} \times 100\%$$
 
 Where all input values are evaluated over a standardized monthly or annual accounting period.
 
-## Real-World SaaS Benchmark Comparison
-
+## Gross Margin by Cohort Calculator SaaS Benchmarks
 | Cohort Year | Revenue Trajectory | COGS % Trend | Margin Profile |
 | --- | --- | --- | --- |
 | 2022 Cohort (Mature) | Stable / Expanding | Low Support Overhead | High Margin (80%+) |
 | 2023 Cohort (Ramping) | Growing Revenue | Moderate Support Needs | Standard Margin (75%-80%) |
 | 2024 Cohort (New) | High Growth | Initial Onboarding Overhead | Ramping Margin (70%-75%) |
 
-## Step-by-Step Calculation Guide
-
+## Step-by-Step Gross Margin by Cohort Calculator Calculation Guide
 1. **Enter Core Financial Inputs:** Supply your monthly sales spend, user counts, ARPU, or recurring revenue figures.
 2. **Review Intermediate Outputs:** Examine calculated gross profit, churn, payback, or unit contribution scores.
 3. **Assess Benchmark Ratings:** Compare your results against SaaS industry standards to identify growth bottlenecks.
@@ -172,8 +167,7 @@ Where all input values are evaluated over a standardized monthly or annual accou
 
 ---
 
-## Frequently Asked Questions
-
+## Gross Margin by Cohort Calculator Frequently Asked Questions
 ### What is Cohort Gross Margin Analysis?
 It evaluates gross profit margins across customer signup years to verify if older customer cohorts expand in profitability as account maintenance automates.
 
@@ -183,5 +177,3 @@ New customer cohorts incur initial implementation engineering, setup support, an
 ### What is a healthy YoY margin expansion rate?
 Healthy SaaS platforms expand gross margin by 2 to 5 percentage points per year until stabilizing around 80%-85%.
 
-### Is data saved to an external server?
-No. All calculations run strictly inside your browser.

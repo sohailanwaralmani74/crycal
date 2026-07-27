@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Dilution | Interactive Online Tool"
+title: "Dilution Calculator | Startup Funding & Valuation"
 description: "Calculate existing shareholder equity dilution percentage and post-round equity value after issuing new shares to investors and option pools."
 permalink: /dilution-calculator
 tool_id: dilution-calculator
@@ -135,7 +135,7 @@ faq:
 
 ---
 
-# Dilution Calculator
+# Dilution Calculator - Calculate ARR Multiple & Valuation
 
 Calculate founder ownership retention and equity dilution with our free **Equity Dilution Calculator**. Model post-money valuations, investor ownership stakes, option pool dilution, and post-round equity value.
 
@@ -186,8 +186,7 @@ $$\text{Post-Round Founder Stake Value (\$)} = V_{post} \times \left( \frac{\tex
 
 ---
 
-## Frequently Asked Questions
-
+## Dilution Calculator Frequently Asked Questions
 ### What is equity dilution in a startup?
 Equity dilution occurs when a company issues new shares to new investors or employee option pools, reducing the ownership percentage of existing shareholders.
 

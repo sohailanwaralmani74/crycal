@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Iht | Interactive Online Tool"
+title: "IHT Tax Calculator | Tax Rates & Deductions"
 description: "Estimate UK Inheritance Tax (IHT) on your estate with nil-rate bands, residence relief, gifts, and charity reduction. Plan your estate tax efficiently."
 permalink: /iht-calculator
 tool_id: iht-calculator
@@ -164,11 +164,9 @@ faq:
     answer: "Gifts made within 7 years of death are added back to the estate. They are taxed at 40% if above the nil-rate band, with taper relief reducing the tax if gifted 3-7 years before death."
   - question: "Does leaving money to charity reduce Inheritance Tax?"
     answer: "Yes — if you leave at least 10% of your estate to charity, the IHT rate reduces from 40% to 36% on the taxable portion."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. No data is sent to any server."
 ---
 
-# Iht Calculator
+# IHT Tax Calculator - Calculate Tax Liability & Savings
 
 Estimate UK Inheritance Tax (IHT) on your estate with our free **IHT Calculator**. Enter your estate value, main residence, gifts, and charity percentage to see your total tax liability and effective rate — all without your data leaving your browser.
 
@@ -219,8 +217,7 @@ The tool handles **RNRB**, **spouse transfer**, **7-year gifts**, **charity redu
 
 ---
 
-## Frequently Asked Questions
-
+## IHT Tax Calculator Frequently Asked Questions
 ### What is Inheritance Tax (IHT) in the UK?
 Inheritance Tax is a tax on the estate of someone who has died. In the UK, it is charged at 40% on the portion above the nil-rate band (£325,000 in 2025/26).
 
@@ -239,5 +236,3 @@ Gifts made within 7 years of death are added back to the estate. They are taxed 
 ### Does leaving money to charity reduce IHT?
 Yes — leaving at least 10% of your estate to charity reduces the IHT rate from 40% to 36% on the taxable portion.
 
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. No data is sent to any server.

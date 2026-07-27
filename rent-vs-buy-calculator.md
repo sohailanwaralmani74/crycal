@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Rent Vs Buy | Interactive Online Tool"
+title: "Rent vs Buy Calculator | Housing Wealth & Ownership Cost"
 description: "Compare the financial cost of renting versus buying a home. See which option makes more sense for your situation. Calculate to grow."
 permalink: /rent-vs-buy-calculator
 tool_id: rent-vs-buy
@@ -258,12 +258,10 @@ faq:
     answer: "The buy scenario includes mortgage principal and interest, property taxes, home insurance, maintenance, HOA fees, and selling costs (when you sell). It also accounts for home appreciation and the investment return on your down payment."
   - question: "What costs are included in the 'Rent' scenario?"
     answer: "The rent scenario includes monthly rent, renters insurance, and rent increases. It also accounts for the investment return on your down payment (since you're not using it for a down payment)."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server."
 
 ---
 
-# Rent Vs Buy Calculator
+# Rent vs Buy Calculator - Compare Long-Term Renting vs Home Buying
 
 Use this Rent vs Buy Calculator to compare the financial cost of renting versus buying a home. Enter the home price, down payment, mortgage details, rental costs, appreciation, and investment returns — the tool shows the total cost of each option, net gains, and the break-even point. Whether you're a first-time homebuyer or deciding whether to renew your lease, this rent versus buy calculator helps you make an informed decision.
 
@@ -312,8 +310,7 @@ The break-even point is the month when **Cumulative Buy Cost = Cumulative Rent C
 
 ---
 
-## Frequently Asked Questions
-
+## Rent vs Buy Calculator Frequently Asked Questions
 ### What is the Rent vs Buy Calculator?
 It compares the total cost of renting a home versus buying one over a specific time period. It accounts for mortgage payments, taxes, insurance, maintenance, HOA fees, rent increases, home appreciation, and investment returns.
 
@@ -325,9 +322,6 @@ The buy scenario includes mortgage principal and interest, property taxes, home 
 
 ### What costs are included in the 'Rent' scenario?
 The rent scenario includes monthly rent, renters insurance, and rent increases. It also accounts for the investment return on your down payment (since you're not using it for a down payment).
-
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server.
 
 ---
 

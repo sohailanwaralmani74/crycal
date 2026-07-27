@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Car Depreciation | Interactive Online Tool"
+title: "Car Depreciation Calculator | 5-Year Ownership Expenses"
 description: "Calculate your vehicles depreciation curve year-by-year from Year 1 to Year 5 based on vehicle type, initial purchase price, and annual mileage."
 permalink: /car-depreciation-calculator
 tool_id: car-depreciation-calculator
@@ -138,7 +138,7 @@ faq:
 
 ---
 
-# Car Depreciation Calculator
+# Car Depreciation Calculator - Calculate Total Cost of Vehicle Ownership
 
 Calculate how fast your car loses market value over 1 to 5 years based on vehicle category, age, and annual driving mileage.
 
@@ -229,8 +229,7 @@ $$\text{Depreciation \%} = \left( \frac{V_0 - V_t}{V_0} \right) \times 100\%$$
 
 ---
 
-## Step-by-Step Guide
-
+## Step-by-Step Car Depreciation Calculator Guide
 ### Step 1: Input Initial Purchase Price
 Enter the negotiated price or MSRP of the car.
 
@@ -245,8 +244,7 @@ Review residual values for Years 1 through 5 in dollar amounts and percentage ch
 
 ---
 
-## Frequently Asked Questions
-
+## Car Depreciation Calculator Frequently Asked Questions
 ### How fast do new cars lose value?
 A new car typically loses 15% to 20% of its value during the first year, and roughly 15% each year after, retaining about 40% of its original purchase price after 5 years.
 
@@ -265,5 +263,5 @@ Rapid advancements in battery technology, range improvements, and tax credit dyn
 ### Is car depreciation tax deductible?
 If you use your vehicle for business purposes, business-related depreciation can be deducted under standard IRS guidelines or standard mileage rates.
 
-### Is this calculation private?
+### Is Car Depreciation Calculator calculation private?
 Yes. All computations are executed client-side in your browser.

@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Sales Win Rate Calculator | Won Deals & Opportunity"
+title: "Win Rate Calculator | SaaS Pipeline & Win Rate"
 description: "Calculate SaaS sales win rate percentage, win-to-loss ratio, and pipeline deal conversion with instant browser-based math and charts."
 permalink: /win-rate-calculator
 tool_id: win-rate-calculator
@@ -133,7 +133,7 @@ faq:
     answer: "Improving discovery qualification, enforcing strict ICP fit criteria, improving sales enablement collateral, and conducting loss reviews boost win rates."
 ---
 
-# SaaS Sales Win Rate & Close Rate Calculator
+# Win Rate Calculator - Calculate Sales Funnel Conversions
 
 Calculate sales win rate percentage, win-to-loss ratio, closed-won revenue, and lost opportunity pipeline value. All calculations execute 100% privately in your web browser.
 
@@ -147,8 +147,7 @@ Tracking win rates across sales reps, market segments, and deal sizes identifies
 
 ---
 
-## Mathematical Formulas & Mechanics
-
+## Win Rate Calculator Mathematical Formulas & Mechanics
 ### 1. Win Rate Percentage ($WR$)
 For closed-won deals $N_{	ext{won}}$ and total opportunities $N_{	ext{opp}}$ ($N_{	ext{opp}} = N_{	ext{won}} + N_{	ext{lost}}$):
 
@@ -171,8 +170,7 @@ $$V_{	ext{pipe}} = N_{	ext{opp}} 	imes ACV$$
 
 ---
 
-## Real-World Comparison & Benchmark Table
-
+## Win Rate Calculator Benchmarks & Comparison Table
 | SaaS Segment | Average ACV ($) | Benchmark Win Rate (%) | Win-to-Loss Ratio | Average Sales Cycle (Days) |
 | :--- | :--- | :--- | :--- | :--- |
 | **Self-Serve / PLG** | $1,200 - $3,600 | 5% - 15% | 0.05 : 1 | 1 - 7 Days |
@@ -182,8 +180,7 @@ $$V_{	ext{pipe}} = N_{	ext{opp}} 	imes ACV$$
 
 ---
 
-## Step-by-Step How-To Guide
-
+## How to Use the Win Rate Calculator Step-by-Step
 1. **Input Closed-Won Deals:** Enter total deals won within your target period (quarter or year).
 2. **Input Total Opportunities:** Enter total qualified opportunities closed (Won + Lost).
 3. **Specify Average Deal Size (ACV):** Enter average annual contract value in dollars.
@@ -192,8 +189,7 @@ $$V_{	ext{pipe}} = N_{	ext{opp}} 	imes ACV$$
 
 ---
 
-## Frequently Asked Questions
-
+## Win Rate Calculator Frequently Asked Questions
 ### What is a good sales win rate for B2B SaaS?
 The average B2B SaaS win rate ranges between 20% and 30% for qualified opportunities. High-performing enterprise sales teams achieve win rates between 30% and 40%.
 

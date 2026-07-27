@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Contractor Labor Cost | Interactive Online Tool"
+title: "Contractor Labor Cost Calculator | Project Cost & Estimating"
 description: "Calculate contractor labor costs, standard 40/60 or 50/50 material-to-labor ratios, hourly crew burn rates, overhead, and contractor markups."
 permalink: /contractor-labor-cost-calculator
 tool_id: contractor-labor-cost-calculator
@@ -145,7 +145,7 @@ faq:
   - question: "Is my personal data saved when using this calculator?"
 ---
 
-# Contractor Labor Cost Calculator
+# Contractor Labor Cost Calculator - Calculate Project Timeline & Budget
 
 Calculate labor expenses, crew hourly rates, labor-to-material cost ratios (40/60, 50/50, 60/40), and contractor overhead markups to audit bids or estimate job profitability.
 
@@ -212,8 +212,7 @@ General contractors frequently charge what is known in the industry as **"10 and
 
 ---
 
-## Frequently Asked Questions
-
+## Contractor Labor Cost Calculator Frequently Asked Questions
 ### What is a typical labor-to-material ratio in construction?
 The standard rule of thumb across residential building is a 50/50 split (labor cost equals material cost). However, material-heavy trades like roofing average 40/60, while labor-intensive trades like painting average 65/35.
 
@@ -232,5 +231,3 @@ Ask for an itemized breakdown of material allowances versus labor hours. Calcula
 ### What is crew hourly burn rate?
 Crew hourly burn rate is the total hourly cost of all workers active on site (e.g., a 4-person crew billed at $50/hr per worker has an hourly burn rate of $200/hr).
 
-### Is my personal data saved when using this calculator?
-No. All calculations run strictly in your web browser environment. No bid numbers or financial entries are logged or stored.

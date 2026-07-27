@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Electrical Load Amperage | Interactive Online Tool"
+title: "Electrical Load Amperage Calculator | Electrical Load & Wiring"
 description: "Calculate total residential electrical service load in amperes and determine if a 100A, 200A, or 400A panel is required per NEC 220 demand factors."
 permalink: /electrical-load-amperage-calculator
 tool_id: electrical-load-amperage-calculator
@@ -163,7 +163,7 @@ faq:
 
 ---
 
-# Electrical Load Amperage Calculator
+# Electrical Load Amperage Calculator - Calculate Amps, Wire Gauge & Breaker Size
 
 Calculate your home's **total electrical service load in amperes** using our **Electrical Load Amperage Calculator**. Based on **National Electrical Code (NEC) Article 220**, this tool determines whether your home requires a 100-amp, 200-amp, or 400-amp main breaker panel.
 
@@ -222,8 +222,7 @@ $$\text{Service Amperage (A)} = \frac{\text{Total Demanded Load (VA)}}{240\ \tex
 
 ---
 
-## Frequently Asked Questions
-
+## Electrical Load Amperage Calculator Frequently Asked Questions
 ### Why is a load calculation required before adding an EV charger or heat pump?
 Adding a 48A Level 2 EV charger adds 11.5 kW of continuous load. If your home's existing load calculation is already at 85A on a 100A panel, adding the charger would cause main breaker tripping or wall fire risks.
 
@@ -242,5 +241,3 @@ If your total calculated demand amperage exceeds 80A (80% of 100A), or if you la
 ### How does an EV charger affect total home electrical load?
 Continuous loads like EV chargers must be calculated at 100% of their nameplate rating (or 125% for branch circuit sizing). A 40A charger adds 32A of continuous demand @ 240V (7.68 kW).
 
-### Is my personal data saved when using this calculator?
-No. All calculations run strictly in your web browser. No inputs are stored or transmitted.

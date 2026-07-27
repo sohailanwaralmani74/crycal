@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Stud Framing | Interactive Online Tool"
+title: "Stud Framing Calculator | Lumber & Framing Estimating"
 description: "Calculate wall studs (16 or 24 OC), top and bottom plates, corner posts, window/door headers, waste factors, and total lumber costs."
 permalink: /stud-framing-calculator
 tool_id: stud-framing-calculator
@@ -147,11 +147,9 @@ faq:
     answer: "Each door or window opening requires at least 2 extra studs: 1 king stud and 1 jack (trimmer) stud on each side, plus header and cripple studs."
   - question: "What length board should be used for wall plates?"
     answer: "16-foot dimensional boards are standard for wall plates because they reduce joint splices across long wall spans."
-  - question: "Is my wall framing data saved on external servers?"
-    answer: "No. All calculation logic executes locally in your browser."
 ---
 
-# Stud Framing Calculator
+# Stud Framing Calculator - Calculate Board Feet & Wood Quantity
 
 Calculate exact **wall studs**, **bottom sole plates**, **double top plates**, corner assemblies, opening trimmers, and overall material costs for wall framing.
 
@@ -193,8 +191,7 @@ $$\text{16ft Plate Boards} = \left\lceil \frac{\text{Plate Linear Feet}}{16} \ri
 
 ---
 
-## Frequently Asked Questions
-
+## Stud Framing Calculator Frequently Asked Questions
 ### How do you calculate studs needed for a wall?
 The general rule of thumb for 16" OC framing is 1 stud per linear foot of wall. The exact formula is: (Wall Length in inches / 16) + 1 starter stud + extra studs for corners and openings + 10% waste.
 
@@ -213,5 +210,3 @@ Each door or window opening requires at least 2 extra studs: 1 king stud and 1 j
 ### What length board should be used for wall plates?
 16-foot dimensional boards are standard for wall plates because they reduce joint splices across long wall spans.
 
-### Is my wall framing data saved on external servers?
-No. All calculation logic executes locally in your browser.

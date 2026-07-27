@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Subfloor | Interactive Online Tool"
+title: "Subfloor Calculator | Flooring Square Footage"
 description: "Calculate 3/4 tongue-and-groove (T&G) subfloor plywood sheets, construction adhesive tubes, floor screws, and total material cost."
 permalink: /subfloor-calculator
 tool_id: subfloor-calculator
@@ -141,11 +141,9 @@ faq:
     answer: "A standard 4x8 subfloor sheet requires 36 screws (6 inches apart along edge seams and 12 inches apart along interior joist supports)."
   - question: "Should subfloor panels be laid staggered or aligned?"
     answer: "Subfloor panels must always be laid perpendicular to floor joists with end joints staggered by at least two joist bays in a running bond pattern."
-  - question: "Is my personal data saved anywhere?"
-    answer: "No. All calculations run locally in your web browser."
 ---
 
-# Subfloor Calculator
+# Subfloor Calculator - Calculate Tiles, Planks & Material Need
 
 Calculate exact quantities of **3/4" tongue-and-groove (T&G) subfloor panels**, **heavy-duty construction adhesive tubes**, **subfloor screws**, and total material costs with our free **Subfloor Calculator**.
 
@@ -202,8 +200,7 @@ The table below shows subfloor material requirements (10% waste, 3/4" T&G sheets
 
 ---
 
-## Frequently Asked Questions
-
+## Subfloor Calculator Frequently Asked Questions
 ### What thickness plywood or OSB is required for subflooring?
 Standard residential building codes require 23/32-inch or 3/4-inch tongue-and-groove (T&G) OSB or CDX plywood sheathing over joists spaced 16 inches on-center.
 
@@ -222,5 +219,3 @@ A standard 4x8 subfloor sheet requires 36 screws (6 inches apart along edge seam
 ### Should subfloor panels be laid staggered or aligned?
 Subfloor panels must always be laid perpendicular to floor joists with end joints staggered by at least two joist bays in a running bond pattern.
 
-### Is my personal data saved anywhere?
-No. All calculations run locally in your web browser.

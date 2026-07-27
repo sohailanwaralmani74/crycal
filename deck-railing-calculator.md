@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Deck Railing Calculator | Balusters, Posts & Rail Spacing"
+title: "Deck Railing Calculator | Lumber & Framing Estimating"
 description: "Calculate balusters, baluster spacing gap, structural post counts, and top/bottom rails for deck perimeter railing linear feet."
 permalink: /deck-railing-calculator
 tool_id: deck-railing-calculator
@@ -163,7 +163,7 @@ faq:
     answer: "For a continuous 40 ft straight run with 6 ft maximum post spacing, you will need 8 posts (1 start post, 6 intermediate posts, and 1 end post)."
 ---
 
-# Deck Railing & Baluster Spacing Calculator
+# Deck Railing Calculator - Calculate Board Feet & Wood Quantity
 
 Calculate total baluster counts, exact uniform gap spacing (under 4 inches IRC code limit), structural railing posts, and top/bottom rails for deck guardrails. All calculations execute 100% privately in your web browser with zero server tracking.
 
@@ -177,8 +177,7 @@ Planning guardrail materials manually often leads to overbuying lumber or discov
 
 ---
 
-## Mathematical Formulas & Mechanics
-
+## Deck Railing Calculator Mathematical Formulas & Mechanics
 ### 1. Guardrail Post Count ($N_{	ext{posts}}$)
 For a total continuous railing length $L_{	ext{rail}}$ (in feet) and maximum allowed post spacing $L_{	ext{post}}$ (6 ft or 8 ft):
 
@@ -208,8 +207,7 @@ $$L_{	ext{rails}} = 2 	imes L_{	ext{rail}} \quad (	ext{Top Handrail + Bottom Bas
 
 ---
 
-## Real-World Comparison & Benchmark Table
-
+## Deck Railing Calculator Benchmarks & Comparison Table
 | Railing Length (Linear Feet) | Recommended Posts (6 ft Max Spacing) | 2x2 Wood Balusters (1.5" Wide) | 3/4" Metal Spindles (0.75" Wide) | Top & Bottom Rail Linear Ft | Estimated Material Cost ($) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **10 Feet** | 3 Posts | 24 Balusters | 24 Spindles | 20 Linear Ft | $200 - $350 |
@@ -220,8 +218,7 @@ $$L_{	ext{rails}} = 2 	imes L_{	ext{rail}} \quad (	ext{Top Handrail + Bottom Bas
 
 ---
 
-## Step-by-Step How-To Guide
-
+## How to Use the Deck Railing Calculator Step-by-Step
 1. **Measure Deck Perimeter:** Measure all outer deck edges that require guardrails and enter the total linear feet.
 2. **Specify Baluster & Post Dimensions:** Select baluster width (1.5" for 2x2 wood, 0.75" for metal) and choose 6 ft or 8 ft maximum post spacing.
 3. **Set Target Gap:** Enter your target maximum gap (IRC code requires strictly less than 4.0 inches; 3.75 inches provides a comfortable safety margin).
@@ -230,8 +227,7 @@ $$L_{	ext{rails}} = 2 	imes L_{	ext{rail}} \quad (	ext{Top Handrail + Bottom Bas
 
 ---
 
-## Frequently Asked Questions
-
+## Deck Railing Calculator Frequently Asked Questions
 ### What is the maximum legal spacing between deck balusters?
 The International Residential Code (IRC Section R312) requires that balusters be spaced so that a 4-inch diameter sphere cannot pass through any opening between guards.
 

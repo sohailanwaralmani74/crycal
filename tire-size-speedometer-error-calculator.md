@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Tire Size Speedometer Error | Interactive Online Tool"
+title: "Tire Size Speedometer Error Calculator | Vehicle Specs & Power"
 description: "Calculate actual vehicle speed versus speedometer reading when changing tire width, aspect ratio, or wheel rim diameter."
 permalink: /tire-size-speedometer-error-calculator
 tool_id: tire-size-speedometer-error-calculator
@@ -157,7 +157,7 @@ faq:
 
 ---
 
-# Tire Size Speedometer Error Calculator
+# Tire Size Speedometer Error Calculator - Calculate Horsepower & Acceleration
 
 Calculate your **actual vehicle speed versus speedometer reading** and overall diameter difference when changing tire widths, aspect ratios, or wheel rim sizes.
 
@@ -219,8 +219,7 @@ Key tire fitment parameters:
 
 ---
 
-## Mathematical Formulas
-
+## Tire Size Speedometer Error Calculator Mathematical Formulas
 ### 1. Overall Tire Diameter ($D_{\text{inches}}$)
 \[
 D_{\text{inches}} = D_{\text{rim}} + \left( \frac{2 \times W_{\text{mm}} \times (A_{\%}/100)}{25.4} \right)
@@ -243,8 +242,7 @@ v_{\text{actual}} = v_{\text{indicated}} \times \left( \frac{D_{\text{new}}}{D_{
 
 ---
 
-## Real-World Tire Size Comparison Matrix
-
+## Tire Size Speedometer Error Calculator Comparison Matrix
 | Stock Size | New Plus Size | Stock Diameter | New Diameter | Diameter Diff % | Speedo Reading @ 65 MPH | Actual Speed |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **225/45R17** | **245/40R18** | 24.97 in | **25.72 in** | **+2.99%** | 65.0 MPH | **66.9 MPH** |
@@ -254,8 +252,7 @@ v_{\text{actual}} = v_{\text{indicated}} \times \left( \frac{D_{\text{new}}}{D_{
 
 ---
 
-## Step-by-Step Usage Guide
-
+## Step-by-Step Tire Size Speedometer Error Calculator Usage Guide
 1. **Enter Factory Tire Size**: Input stock width (e.g. 225 mm), aspect ratio (45), and rim size (17 inches).
 2. **Enter Aftermarket Tire Size**: Input new width (e.g. 245 mm), aspect ratio (40), and rim size (18 inches).
 3. **Set Speedometer Reading**: Enter cruising speed shown on your instrument cluster (e.g. 65 mph).
@@ -263,8 +260,7 @@ v_{\text{actual}} = v_{\text{indicated}} \times \left( \frac{D_{\text{new}}}{D_{
 
 ---
 
-## Frequently Asked Questions
-
+## Tire Size Speedometer Error Calculator Frequently Asked Questions
 ### How do custom tire sizes affect speedometer accuracy?
 Vehicle speedometers calculate vehicle speed by counting wheel revolutions per minute. If you install taller tires, each revolution covers a greater distance, making your actual speed faster than the speedometer indicates.
 

@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Paint | Interactive Online Tool"
+title: "Paint Calculator | Wall Paint Gallon Coverage"
 description: "Calculate paint gallons and quarts needed for walls and ceilings, deducting doors and windows for 1 or 2 coats of coverage."
 permalink: /paint-calculator
 tool_id: paint-calculator
@@ -168,11 +168,9 @@ faq:
     answer: "Two coats of paint over 1 coat of primer yield optimal opacity, sheen uniformity, and long-term durability."
   - question: "Should I buy gallons or quarts of paint?"
     answer: "If your project requires 1 gallon plus 1 quart, buying two separate single gallons is often cheaper than 1 gallon + 2 expensive quart cans."
-  - question: "Is my personal data saved when using this tool?"
-    answer: "No. All calculations run strictly inside your browser."
 ---
 
-# Paint Calculator
+# Paint Calculator - Calculate Surface Area & Paint Gallons
 
 Calculate exact **paint gallons, quarts, and total project cost** for your wall and ceiling painting projects using our free **Paint Calculator**.
 
@@ -224,8 +222,7 @@ $$\text{Gallons Needed} = \left\lceil \frac{\text{Net Paintable Area} \times \te
 
 ---
 
-## Frequently Asked Questions
-
+## Paint Calculator Frequently Asked Questions
 ### How many gallons of paint do I need for a 12x12 room?
 A 12x12 room with 8 ft ceilings has 432 sq ft of wall area (minus 72 sq ft for doors/windows) plus 144 sq ft ceiling = 504 net sq ft. For 2 coats (1,008 total sq ft), you need 3 gallons of paint (at 350 sq ft/gal coverage).
 
@@ -244,5 +241,3 @@ Two coats of paint over 1 coat of primer yield optimal opacity, sheen uniformity
 ### Should I buy gallons or quarts of paint?
 If your project requires 1 gallon plus 1 quart, buying two separate single gallons is often cheaper than 1 gallon + 2 expensive quart cans.
 
-### Is my personal data saved when using this tool?
-No. All calculations run strictly inside your browser.

@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Self Employment Tax | Interactive Online Tool"
+title: "Self Employment Tax Calculator | Tax Rates & Deductions"
 description: "Calculate your self-employment tax, income tax, and net earnings. Enter your net profit, tax rates, and deductions — works for any country."
 permalink: /self-employment-tax-calculator
 tool_id: self-employment-tax
@@ -192,12 +192,10 @@ faq:
     answer: "Yes — you can enter deductible business expenses, which reduce your net income subject to tax."
   - question: "Does this calculator work for any country?"
     answer: "Yes — you enter your own tax rates, social security rates, and caps. The tool works for any country's self-employment tax system."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server."
 
 ---
 
-# Self Employment Tax Calculator
+# Self Employment Tax Calculator - Calculate Tax Liability & Savings
 
 Use this self-employment tax calculator to estimate your tax liability as a freelancer, contractor, or small business owner. Enter your net profit, income tax rate, social security rate, medicare rate, and deductions — the tool works for any country. This self-employed tax calculator gives you an accurate breakdown of your tax obligations and net earnings.
 
@@ -250,8 +248,7 @@ Running your own business means managing your own taxes. This self-employed tax 
 
 ---
 
-## Frequently Asked Questions
-
+## Self Employment Tax Calculator Frequently Asked Questions
 ### What is self-employment tax?
 Self-employment tax is the tax that self-employed individuals pay to fund social security, Medicare, and other state programs. It typically includes both the employee and employer portions of these contributions.
 
@@ -263,9 +260,6 @@ Yes — you can enter deductible business expenses, which reduce your net income
 
 ### Does this calculator work for any country?
 Yes — you enter your own tax rates, social security rates, and caps. The tool works for any country's self-employment tax system.
-
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server.
 
 ---
 

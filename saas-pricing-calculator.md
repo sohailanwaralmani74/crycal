@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Saas Pricing | Interactive Online Tool"
+title: "Saas Pricing Calculator | SaaS Pricing & Packaging"
 description: "Compare cost-plus and value-based pricing models for your SaaS product. Calculate optimal target tier prices, gross margins, and value capture."
 permalink: /saas-pricing-calculator
 tool_id: saas-pricing-calculator
@@ -163,7 +163,7 @@ faq:
 
 ---
 
-# Saas Pricing Calculator
+# Saas Pricing Calculator - Calculate Tier Profitability & ARPU
 
 Calculate and optimize your SaaS subscription tier pricing by comparing **Cost-Plus** pricing floors against **Value-Based** pricing ceilings.
 
@@ -180,8 +180,7 @@ This calculator bridges both models:
 
 ---
 
-## Key Mathematical Formulas
-
+## Key Saas Pricing Calculator Mathematical Formulas
 ### 1. Cost-Plus Pricing Formula
 
 $$ \text{Total COGS} = \text{Hosting Cost} + \text{Support Cost} + \text{Other COGS} $$
@@ -222,8 +221,7 @@ $$ \text{Hybrid Target Price} = \max\left( \text{Cost-Plus Price}, (0.30 \times 
 
 ---
 
-## Frequently Asked Questions
-
+## Saas Pricing Calculator Frequently Asked Questions
 ### What is the difference between cost-plus and value-based pricing in SaaS?
 Cost-plus pricing calculates price by adding a target gross margin percentage to direct COGS. Value-based pricing bases price on the economic value, ROI, and time saved for the customer.
 

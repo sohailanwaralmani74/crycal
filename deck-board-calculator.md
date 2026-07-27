@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Deck Board Calculator | Decking Boards & Cost"
+title: "Deck Board Calculator | Lumber & Framing Estimating"
 description: "Calculate total deck boards (5/4x6 or 2x6), total linear feet, 10% waste allowance, stock board counts, and material costs for any deck size."
 permalink: /deck-board-calculator
 tool_id: deck-board-calculator
@@ -169,7 +169,7 @@ faq:
     answer: "Yes. Composite boards expand length-wise and width-wise with temperature shifts, requiring specific gapping (typically 3/16) specified by manufacturers like Trex or TimberTech."
 ---
 
-# Decking Board Quantity & Layout Calculator
+# Deck Board Calculator - Calculate Board Feet & Wood Quantity
 
 Calculate total deck boards, exact linear footage, parallel board rows, stock board counts, and material costs for wood or composite decking. All calculations run 100% privately in your web browser.
 
@@ -183,8 +183,7 @@ Laying out deck boards requires calculating exact parallel rows across the deck 
 
 ---
 
-## Mathematical Formulas & Mechanics
-
+## Deck Board Calculator Mathematical Formulas & Mechanics
 ### 1. Deck Surface Area ($A_{	ext{deck}}$)
 $$A_{	ext{deck}} = L_{	ext{deck}} 	imes W_{	ext{deck}}$$
 
@@ -217,8 +216,7 @@ ceil$$
 
 ---
 
-## Real-World Comparison & Benchmark Table
-
+## Deck Board Calculator Benchmarks & Comparison Table
 | Deck Dimensions | Area (Sq Ft) | 5.5" Boards (1/8" Gap) Linear Feet | 16ft Stock Boards Required (10% Waste) | Pressure-Treated Wood Cost ($) | Composite Decking Cost ($) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **10 ft x 12 ft** | 120 Sq Ft | 256 Linear Ft | 18 Boards (16ft) | $350 - $550 | $900 - $1,500 |
@@ -229,8 +227,7 @@ ceil$$
 
 ---
 
-## Step-by-Step How-To Guide
-
+## How to Use the Deck Board Calculator Step-by-Step
 1. **Determine Board Orientation:** Decide whether deck boards will run parallel to the house wall or perpendicular.
 2. **Measure Surface Dimensions:** Enter deck length (parallel to board direction) and width (perpendicular to board direction).
 3. **Select Board Material:** Choose 5.5" actual width for standard 5/4x6 or 2x6 boards and set desired gap spacing (1/8").
@@ -239,8 +236,7 @@ ceil$$
 
 ---
 
-## Frequently Asked Questions
-
+## Deck Board Calculator Frequently Asked Questions
 ### What is the actual width of a standard 5/4x6 or 2x6 deck board?
 A standard 5/4x6 or 2x6 deck board has an actual face width of 5.5 inches (140 mm).
 

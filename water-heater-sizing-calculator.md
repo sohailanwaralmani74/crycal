@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Water Heater Sizing | Interactive Online Tool"
+title: "Water Heater Sizing Calculator | Plumbing Flow & Pipe Sizing"
 description: "Calculate required tank water heater capacity (FHR gallons) or tankless water heater GPM flow rate and BTU input based on peak hour hot water demand."
 permalink: /water-heater-sizing-calculator
 tool_id: water-heater-sizing-calculator
@@ -145,7 +145,7 @@ faq:
 
 ---
 
-# Water Heater Sizing Calculator
+# Water Heater Sizing Calculator - Calculate Pipe Diameter & GPM Flow
 
 Determine the exact water heater capacity for your home using our **Water Heater Sizing Calculator**. Calculate **First Hour Rating (FHR) in gallons** for storage tank units or **peak flow rate (GPM)** and **temperature rise ($\Delta T$)** for on-demand tankless water heaters.
 
@@ -209,8 +209,7 @@ Where:
 
 ---
 
-## Frequently Asked Questions
-
+## Water Heater Sizing Calculator Frequently Asked Questions
 ### What is First Hour Rating (FHR) for tank water heaters?
 First Hour Rating (FHR) is the standardized Yellow EnergyGuide metric representing the total number of gallons of hot water a storage tank heater can supply in one hour starting with a full tank of hot water.
 
@@ -229,5 +228,3 @@ Tankless units heat water instantly as it passes through the heat exchanger. Hea
 ### Is a gas tankless water heater better than an electric tankless?
 Gas tankless units output 160,000 to 199,000 BTU/hr, easily supplying 7 to 10 GPM for whole homes. Electric tankless units require massive electrical panel upgrades (120A to 150A dedicated circuits) and are generally limited to warm climates or single-point-of-use fixtures.
 
-### Is my personal data saved when using this calculator?
-No. All calculations run strictly in your web browser. No usage or fixture data is saved.

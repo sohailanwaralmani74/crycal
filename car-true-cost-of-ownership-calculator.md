@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Car True Cost Of Ownership | Interactive Online Tool"
+title: "Car True Cost of Ownership Calculator | 5-Year Ownership Expenses"
 description: "Calculate your vehicles total 5-year cost of ownership including depreciation, fuel, insurance, maintenance, repairs, and state fees."
 permalink: /car-true-cost-of-ownership-calculator
 tool_id: car-true-cost-of-ownership-calculator
@@ -170,12 +170,10 @@ faq:
     answer: "Yes, upgrading from a 20 MPG vehicle to a 35 MPG vehicle can save $3,000 to $5,000 in fuel costs over 5 years at average gas prices."
   - question: "Are loan interest payments included in TCO?"
     answer: "If you finance your vehicle, interest charges add directly to your 5-year TCO. This baseline calculator focuses on core vehicle operating expenses and depreciation."
-  - question: "Is my personal data saved when using this calculator?"
-    answer: "No. All calculations run strictly inside your web browser locally."
 
 ---
 
-# Car True Cost Of Ownership Calculator
+# Car True Cost of Ownership Calculator - Calculate Total Cost of Vehicle Ownership
 
 Calculate your vehicle's total **5-year cost of ownership (TCO)** including depreciation, fuel, insurance premiums, routine maintenance, and state tag fees.
 
@@ -271,8 +269,7 @@ $$\text{Cost Per Mile} = \frac{\text{Total 5-Year TCO}}{5 \times \text{Annual Mi
 
 ---
 
-## Step-by-Step Guide to Using the Calculator
-
+## Step-by-Step Guide for Using the Car True Cost of Ownership Calculator
 ### Step 1: Enter Vehicle Price
 Input the purchase price or estimated market value of your vehicle.
 
@@ -287,8 +284,7 @@ Analyze total 5-year TCO, average monthly cost, cost per mile, and visual charts
 
 ---
 
-## Frequently Asked Questions
-
+## Car True Cost of Ownership Calculator Frequently Asked Questions
 ### What is Car True Cost of Ownership (TCO)?
 True Cost of Ownership measures all expenses associated with owning and driving a car over time, including depreciation, fuel, insurance, repairs, interest, and government registration fees.
 
@@ -307,5 +303,3 @@ Yes, upgrading from a 20 MPG vehicle to a 35 MPG vehicle can save $3,000 to $5,0
 ### Are loan interest payments included in TCO?
 If you finance your vehicle, interest charges add directly to your 5-year TCO. This baseline calculator focuses on core vehicle operating expenses and depreciation.
 
-### Is my personal data saved when using this calculator?
-No. All calculations run strictly inside your web browser locally.

@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Churn Cost | Interactive Online Tool"
+title: "Churn Cost Calculator | SaaS Churn & Retention"
 description: "Calculate the cumulative 1-year financial cost of customer churn. Model compounding lost MRR and wasted acquisition costs (CAC)."
 permalink: /churn-cost-calculator
 tool_id: churn-cost-calculator
@@ -130,7 +130,7 @@ faq:
 
 ---
 
-# Churn Cost Calculator
+# Churn Cost Calculator - Calculate Logo Churn & Revenue Retention
 
 Calculate the true **Cumulative 1-Year Financial Cost of Churn**, combining compounding monthly revenue leakage with wasted Customer Acquisition Cost (CAC) replacement expenses.
 
@@ -180,8 +180,7 @@ $$\text{Total 1-Year Financial Churn Impact} = \text{Cumulative 1-Year Lost Reve
 
 ---
 
-## Frequently Asked Questions
-
+## Churn Cost Calculator Frequently Asked Questions
 ### Why is the true cost of churn far higher than just 1 month of lost revenue?
 Because churn compounds over time. Losing $1,000 of MRR in Month 1 deprives your business of $1,000 every single month thereafter ($12,000 over 12 months), plus the CAC spent replacing that customer.
 

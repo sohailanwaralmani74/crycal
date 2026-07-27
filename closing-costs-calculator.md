@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Closing Costs | Interactive Online Tool"
+title: "Closing Costs Calculator | Mortgage Payment & Interest"
 description: "Enter loan amount, origination fees, appraisal, title insurance, and more to see your total closing costs and percentage. Estimate Closing cost."
 permalink: /closing-costs-calculator
 tool_id: closing-costs
@@ -212,12 +212,10 @@ faq:
     answer: "Closing costs are typically paid by the buyer, though sellers may contribute to some costs. The buyer and seller can negotiate who pays which fees."
   - question: "Can I roll closing costs into my mortgage?"
     answer: "Some closing costs can be financed into the loan amount, but this increases your loan balance and total interest. Not all costs can be rolled in."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server."
 
 ---
 
-# Closing Costs Calculator
+# Closing Costs Calculator - Calculate Home Loan Payment & Amortization
 
 Use this closing costs calculator to estimate the total fees and expenses you'll pay at closing. Enter your loan amount and the costs for origination, appraisal, title insurance, escrow, recording, inspection, survey, prepaid interest, homeowner's insurance, property tax escrow, and other fees — the tool shows your total closing costs and percentage of the loan amount. This closing cost estimator helps you budget for your home purchase or refinance.
 
@@ -236,8 +234,7 @@ Closing costs can be a significant expense when buying or refinancing a home. Th
 
 ---
 
-## How Closing Costs Are Calculated
-
+## How Closing Costs Calculator Fees Are Calculated
 **Total Closing Costs = Sum of All Individual Closing Cost Components**
 
 **Percentage of Loan Amount = (Total Closing Costs ÷ Loan Amount) × 100**
@@ -264,8 +261,7 @@ Closing costs can be a significant expense when buying or refinancing a home. Th
 
 ---
 
-## Frequently Asked Questions
-
+## Closing Costs Calculator Frequently Asked Questions
 ### What are closing costs?
 Closing costs are fees and expenses paid at the closing of a real estate transaction. They include lender fees, third-party fees, and prepaid items like insurance and taxes.
 
@@ -277,8 +273,5 @@ Closing costs are typically paid by the buyer, though sellers may contribute to 
 
 ### Can I roll closing costs into my mortgage?
 Some closing costs can be financed into the loan amount, but this increases your loan balance and total interest. Not all costs can be rolled in.
-
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server.
 
 ---

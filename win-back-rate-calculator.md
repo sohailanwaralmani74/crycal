@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Win Back Rate Calculator | Churn Customer Recovery"
+title: "Win Back Rate Calculator | SaaS Churn & Retention"
 description: "Calculate customer win-back rate percentage, churn reactivation revenue, and win-back ROI with instant browser-based calculations."
 permalink: /win-back-rate-calculator
 tool_id: win-back-rate-calculator
@@ -134,7 +134,7 @@ faq:
     answer: "Yes. Involuntary churn (payment failures) requires automated dunning billing retries, whereas voluntary churn requires product feature and pricing alignment offers."
 ---
 
-# SaaS Win-Back Rate & Reactivation Calculator
+# Win Back Rate Calculator - Calculate Logo Churn & Revenue Retention
 
 Calculate customer win-back rate percentage, reactivated MRR/ARR, customer acquisition cost per win-back, and campaign ROI. All calculations execute 100% privately in your browser.
 
@@ -148,8 +148,7 @@ Without tracking win-back metrics, teams risk over-investing in ineffective outr
 
 ---
 
-## Mathematical Formulas & Mechanics
-
+## Win Back Rate Calculator Mathematical Formulas & Mechanics
 ### 1. Win-Back Rate Percentage ($WBR$)
 For reactivated customers $N_{	ext{winback}}$ and targeted churned cohort $N_{	ext{churned}}$:
 
@@ -173,8 +172,7 @@ $$ROI_{	ext{winback}} = rac{ARR_{	ext{winback}}}{C_{	ext{campaign}}}$$
 
 ---
 
-## Real-World Comparison & Benchmark Table
-
+## Win Back Rate Calculator Benchmarks & Comparison Table
 | Business Model | Targeted Churned Cohort | Benchmark Win-Back Rate (%) | Reactivated ARR per 100 Churned | CAC per Win-Back vs New CAC |
 | :--- | :--- | :--- | :--- | :--- |
 | **B2C Subscription App** | 1,000 Users | 3% - 8% | $3,600 - $9,600 | 80% Lower |
@@ -184,8 +182,7 @@ $$ROI_{	ext{winback}} = rac{ARR_{	ext{winback}}}{C_{	ext{campaign}}}$$
 
 ---
 
-## Step-by-Step How-To Guide
-
+## How to Use the Win Back Rate Calculator Step-by-Step
 1. **Define Churned Cohort:** Enter total targeted lost customer accounts.
 2. **Track Reactivations:** Input number of accounts that re-subscribed.
 3. **Input Account Value (ARPU):** Enter average monthly revenue per user.
@@ -194,8 +191,7 @@ $$ROI_{	ext{winback}} = rac{ARR_{	ext{winback}}}{C_{	ext{campaign}}}$$
 
 ---
 
-## Frequently Asked Questions
-
+## Win Back Rate Calculator Frequently Asked Questions
 ### What is a good win-back rate for SaaS?
 Average SaaS win-back rates range from 5% to 15% for targeted win-back campaigns. B2B enterprise software with high switching costs often achieves win-back rates between 15% and 25%.
 

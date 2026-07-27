@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Mpg | Interactive Online Tool"
+title: "MPG Calculator | Gas Mileage & Fuel Economy"
 description: "Calculate your vehicles exact miles per gallon (MPG) from odometer readings and fuel tank fill-up gallons, along with fuel cost per mile."
 permalink: /mpg-calculator
 tool_id: mpg-calculator
@@ -132,7 +132,7 @@ faq:
 
 ---
 
-# Mpg Calculator
+# MPG Calculator - Calculate Miles Per Gallon & Trip Cost
 
 Calculate your vehicle's exact miles per gallon (MPG) from odometer readings and gas pump gallons, along with fuel cost per mile.
 
@@ -221,8 +221,7 @@ $$\text{Cost Per 100 Miles} = \left( \frac{100}{\text{MPG}} \right) \times \text
 
 ---
 
-## Step-by-Step Guide
-
+## Step-by-Step MPG Calculator Guide
 ### Step 1: Record Odometer at Fill-Up #1
 Fill your gas tank until the pump automatically clicks off. Record your exact odometer reading.
 
@@ -237,8 +236,7 @@ Input these numbers into the calculator to get your real MPG and cost per mile.
 
 ---
 
-## Frequently Asked Questions
-
+## MPG Calculator Frequently Asked Questions
 ### How do you calculate actual MPG manually?
 Divide the total miles driven between fill-ups by the number of gallons needed to refill the tank: MPG = Miles Driven ÷ Gallons Pumped.
 
@@ -257,5 +255,5 @@ Cold weather decreases fuel economy by 10% to 20% due to increased engine fricti
 ### What is L/100km conversion for MPG?
 To convert US MPG to Liters per 100 Kilometers (L/100km): divide 235.215 by your US MPG rating (e.g., 25 MPG = 9.4 L/100km).
 
-### Is this calculator private?
+### Is the MPG Calculator private?
 Yes, all computations execute client-side in your browser.

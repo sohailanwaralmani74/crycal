@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Hot Tub Pad Size | Interactive Online Tool"
+title: "Hot Tub Pad Size Calculator | Outdoor & Landscape Estimating"
 description: "Calculate concrete hot tub pad dimensions, 4-6 slab thickness, ready-mix concrete volume (cu yds & 80lb bags), and filled tub weight load (PSF/PSI)."
 permalink: /hot-tub-pad-size-calculator
 tool_id: hot-tub-pad-size-calculator
@@ -172,11 +172,9 @@ faq:
     answer: "Pouring a 9ft x 9ft x 6-inch concrete hot tub slab costs $150 to $250 in DIY concrete materials (or ready-mix delivery), and $800 to $1,500 for professional contractor pouring."
   - question: "How long should concrete cure before placing a hot tub on it?"
     answer: "Allow the concrete pad to cure for at least 7 days before placing an empty hot tub on it, and 14 to 28 days before filling it with water to reach full 4,000 PSI compressive strength."
-  - question: "Is my personal data saved when using this calculator?"
-    answer: "No. All calculation formulas run locally in your web browser."
 ---
 
-# Hot Tub Pad Size Calculator
+# Hot Tub Pad Size Calculator - Calculate Mulch, Sod & Material Volume
 
 Determine concrete hot tub pad dimensions, 4-6 inch slab thickness, ready-mix concrete volume (cubic yards & 80lb bags), filled operating weight, and soil load bearing PSF with our free **Hot Tub Pad Size Calculator**.
 
@@ -232,8 +230,7 @@ $$\text{Soil Bearing Load (PSF)} = \frac{\text{Total Operating Weight} + \text{C
 
 ---
 
-## Frequently Asked Questions
-
+## Hot Tub Pad Size Calculator Frequently Asked Questions
 ### How thick should a concrete pad be for a hot tub?
 A hot tub concrete pad should be at least 4 inches thick for small 2-person tubs (under 300 gallons), and 6 inches thick with #3 (3/8-inch) rebar mesh for medium and large 6-8 person spas (400+ gallons).
 
@@ -252,5 +249,3 @@ Pouring a 9ft x 9ft x 6-inch concrete hot tub slab costs $150 to $250 in DIY con
 ### How long should concrete cure before placing a hot tub on it?
 Allow the concrete pad to cure for at least 7 days before placing an empty hot tub on it, and 14 to 28 days before filling it with water to reach full 4,000 PSI compressive strength.
 
-### Is my personal data saved when using this calculator?
-No. All calculation formulas run locally in your web browser.

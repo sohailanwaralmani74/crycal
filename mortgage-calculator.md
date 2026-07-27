@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Mortgage | Interactive Online Tool"
+title: "Mortgage Calculator | Monthly PITI Payment & Interest"
 description: "Calculate your monthly mortgage payments with our free mortgage calculator. Estimate payments, total interest, and amortization schedule."
 permalink: /mortgage-calculator
 tool_id: mortgage
@@ -187,12 +187,10 @@ faq:
     answer: "We use the standard mortgage payment formula: M = P × r × (1 + r)^n ÷ ((1 + r)^n − 1), where P is the loan amount, r is the monthly interest rate, and n is the number of monthly payments."
   - question: "What is a good down payment?"
     answer: "A 20% down payment is ideal because it avoids PMI, reduces your monthly payment, and lowers the total interest paid. However, many programs allow down payments as low as 3-5%."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server."
 
 ---
 
-# Mortgage Calculator
+# Mortgage Calculator - Calculate Home Loan Payment & Amortization
 
 Use this mortgage calculator to estimate your monthly mortgage payments, total interest, and amortization schedule. Enter the home price, down payment, loan term, interest rate, property taxes, insurance, and PMI — the tool shows your full payment breakdown, total loan cost, and visual amortization schedule. Whether you're buying your first home or refinancing, this mortgage calculator helps you plan your home purchase with confidence.
 
@@ -245,8 +243,7 @@ Where:
 
 ---
 
-## Frequently Asked Questions
-
+## Mortgage Calculator Frequently Asked Questions
 ### How does the mortgage calculator work?
 It calculates your monthly mortgage payment based on the loan amount, interest rate, loan term, property taxes, insurance, and PMI. The payment is then broken down into principal, interest, taxes, insurance, and PMI.
 
@@ -258,9 +255,6 @@ We use the standard mortgage payment formula: M = P × r × (1 + r)^n ÷ ((1 + r
 
 ### What is a good down payment?
 A 20% down payment is ideal because it avoids PMI, reduces your monthly payment, and lowers the total interest paid. However, many programs allow down payments as low as 3-5%.
-
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server.
 
 ---
 

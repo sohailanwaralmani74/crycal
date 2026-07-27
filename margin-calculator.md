@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Margin | Interactive Online Tool"
+title: "Margin Calculator | Investment & Portfolio Return"
 description: "Calculate stock trading margin requirements, leverage ratios, annual margin interest charges, and liquidation margin call prices."
 permalink: /margin-calculator
 tool_id: margin-calculator
@@ -135,11 +135,9 @@ faq:
     answer: "If you fail to deposit cash or securities promptly, your brokerage firm has the legal right to sell your stock holdings without prior notice to cover the deficit."
   - question: "Can you lose more money than your initial investment when trading on margin?"
     answer: "Yes! Because margin uses debt leverage, a severe stock price decline can wipe out 100% of your cash equity and leave you owing additional money to your broker."
-  - question: "Is my personal financial data saved on any server?"
-    answer: "No. All calculations run locally inside your web browser. History and saved presets are stored strictly in your browser's local storage."
 ---
 
-# Margin Calculator
+# Margin Calculator - Calculate Return, Yield & Portfolio Risk
 
 Calculate stock trading margin requirements, leverage ratios, annual margin interest charges, and liquidation margin call prices with our free **Margin Calculator**.
 
@@ -178,8 +176,7 @@ $$\text{Max Price Drop \%} = 1 - \frac{1 - (\text{Initial Margin \%} \div 100)}{
 
 ---
 
-## Frequently Asked Questions
-
+## Margin Calculator Frequently Asked Questions
 ### What is margin trading in stock markets?
 Margin trading allows investors to borrow funds from a brokerage firm to purchase more stock shares than they could with cash alone, amplifying both potential gains and losses.
 
@@ -198,5 +195,3 @@ If you fail to deposit cash or securities promptly, your brokerage firm has the 
 ### Can you lose more money than your initial investment when trading on margin?
 Yes! Because margin uses debt leverage, a severe stock price decline can wipe out 100% of your cash equity and leave you owing additional money to your broker.
 
-### Is my personal financial data saved on any server?
-No. All calculations run locally inside your web browser. History and saved presets are stored strictly in your browser's local storage.

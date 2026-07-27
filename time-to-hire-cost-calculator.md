@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Time To Hire Cost | Interactive Online Tool"
+title: "Time to Hire Cost Calculator | SaaS Team & Operating Cost"
 description: "Estimate lost revenue opportunity cost, external recruiter fees, and internal labor costs resulting from an unfilled open position over N days."
 permalink: /time-to-hire-cost-calculator
 tool_id: time-to-hire-cost-calculator
@@ -143,7 +143,7 @@ faq:
     answer: "Reduce vacancy costs by maintaining an active candidate talent pipeline, streamlining interview stages (max 3 rounds), leveraging AI resume screening tools, and setting clear job offer SLAs."
 ---
 
-# Time To Hire Cost Calculator
+# Time to Hire Cost Calculator - Calculate OpEx & Headcount Budget
 
 Calculate the hidden financial drain of open job positions with our **Time to Hire Cost Calculator**. Quantify lost revenue opportunity cost, recruiter agency fees, and internal interview labor expenses.
 
@@ -159,8 +159,7 @@ Leaving critical revenue-generating roles (Account Executives, SDRs) or core pro
 
 ---
 
-## Mathematical Formulas
-
+## Time to Hire Cost Calculator Mathematical Formulas
 ### 1. Lost Revenue Opportunity Cost
 
 $$ \text{Daily Revenue Rate} = \frac{\text{Annual Target Revenue}}{365} $$
@@ -191,8 +190,7 @@ $$ \text{Daily Cost of Vacancy (\$ / day)} = \frac{\text{Total Vacancy Cost}}{\t
 
 ---
 
-## Step-by-Step Guide
-
+## Step-by-Step Time to Hire Cost Calculator Guide
 1. **Track Requisition Open Days**: Input days elapsed from job posting to signed candidate offer acceptance.
 2. **Assign Revenue Output Target**: Use quota targets for sales roles or revenue/employee for dev roles.
 3. **Include Agency Placement Fees**: Factor in 15%-25% recruiter placement fees if using external headhunters.
@@ -200,8 +198,7 @@ $$ \text{Daily Cost of Vacancy (\$ / day)} = \frac{\text{Total Vacancy Cost}}{\t
 
 ---
 
-## Frequently Asked Questions
-
+## Time to Hire Cost Calculator Frequently Asked Questions
 ### What is Time to Hire Cost?
 Time to Hire Cost (also known as Cost of Vacancy) measures the combined financial loss created by an open position, including lost revenue opportunity, recruiter agency fees, job board advertising, and internal interview labor.
 

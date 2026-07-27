@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Cd Ladder | Interactive Online Tool"
+title: "CD Ladder Calculator | Compound Interest & Savings"
 description: "Use CD Ladder Calculator to build a CD ladder strategy. Enter target amount, ladder rungs, and CD rates to optimize yield and liquidity."
 permalink: /cd-ladder-calculator
 tool_id: cd-ladder-calculator
@@ -161,12 +161,10 @@ faq:
     answer: "Interest is typically compounded daily or monthly. The calculator uses daily compounding for accuracy. Each CD earns interest at the rate you enter, and the total interest is summed across all CDs."
   - question: "What is the best CD ladder length?"
     answer: "A common strategy is a 5-rung ladder over 60 months (12, 24, 36, 48, 60 months). This provides annual access to funds while capturing higher long-term rates. However, the best length depends on your liquidity needs."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. No data is sent to any server."
 
 ---
 
-# Cd Ladder Calculator
+# CD Ladder Calculator - Project Wealth Accumulation & Yield
 
 Build a certificate of deposit (CD) ladder strategy with our free **CD Ladder Calculator**. Enter your total investment, number of rungs, ladder length, and CD rate to see your maturity schedule, total returns, and optimal allocation — all without your data leaving your browser.
 
@@ -273,8 +271,7 @@ A **CD ladder** is a savings strategy where you invest in multiple certificates 
 
 ---
 
-## Frequently Asked Questions
-
+## CD Ladder Calculator Frequently Asked Questions
 ### What is a CD ladder?
 A CD ladder is a strategy where you invest in multiple CDs with staggered maturity dates, providing regular access to funds while capturing higher yields on longer-term CDs.
 
@@ -290,5 +287,3 @@ A common strategy is a 5-rung ladder over 60 months (12, 24, 36, 48, 60 months).
 ### How is interest calculated for a CD ladder?
 Interest is typically compounded daily or monthly. The calculator uses daily compounding for accuracy.
 
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. No data is sent to any server.

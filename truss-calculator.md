@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Roof Truss Quantity & Cost Calculator"
+title: "Truss Calculator | Roofing Material Estimating"
 description: "Calculate total roof trusses, common vs gable end truss counts, 24 vs 16 inch OC spacing, and package costs with instant, private browser execution."
 permalink: /truss-calculator
 tool_id: truss-calculator
@@ -144,7 +144,7 @@ faq:
     answer: "No, gable end trusses rest continuously along the exterior end wall top plate, transferring vertical loads directly into the end wall framing."
 ---
 
-# Roof Truss Framing & Order Cost Estimator
+# Truss Calculator - Calculate Shingles, Squares & Flashing
 
 Estimate exact pre-engineered roof truss package quantities, common web trusses, gable end framing, and lumber order costs for residential or commercial buildings.
 All calculations execute 100% privately inside your web browser with client-side processing, immediate dynamic results, and complete data privacy.
@@ -157,7 +157,7 @@ Pre-engineered wooden roof trusses are manufactured off-site to exact structural
 
 This **Roof Truss Calculator** determines exact truss quantities based on overall building footprint length, on-center spacing ($24"$ vs $16"$), and specific gable end truss requirements.
 
-### Key Benefits
+### Key Benefits of Truss Calculator
 * **Exact Framing Logic:** Calculates starter truss addition plus interior common truss counts automatically.
 * **Gable Separation:** Separates vertical-studded gable end trusses from interior structural web common trusses.
 * **Snow Load Adjustments:** Supports switching between standard 24" OC spacing and heavy-load 16" OC spacing.
@@ -165,8 +165,7 @@ This **Roof Truss Calculator** determines exact truss quantities based on overal
 
 ---
 
-## Mathematical Formulas & Mechanics
-
+## Truss Calculator Mathematical Formulas & Mechanics
 ### 1. Total Truss Count Formula
 Total roof trusses ($N_{\text{total}}$) required for building length ($L_{\text{bldg}}$ in feet) at on-center spacing ($S_{\text{oc}}$ in feet):
 
@@ -188,8 +187,7 @@ $$C_{\text{package}} = (N_{\text{common}} \times P_{\text{common}}) + (N_{\text{
 
 ---
 
-## Real-World Comparison & Benchmark Table
-
+## Truss Calculator Benchmarks & Comparison Table
 The benchmark table below illustrates standard roof truss order quantities and package pricing for common building lengths at **24" On-Center Spacing**:
 
 | Building Length | Total Trusses | Gable End Trusses | Common Trusses | Estimated Package Cost ($125/Common, $165/Gable) |
@@ -202,8 +200,7 @@ The benchmark table below illustrates standard roof truss order quantities and p
 
 ---
 
-## Step-by-Step How-To Guide
-
+## How to Use the Truss Calculator Step-by-Step
 1. **Verify Outside Wall Dimensions:** Measure exact exterior building length from outside face of stud wall to outside face of opposite stud wall.
 2. **Confirm Roof Design:** Determine if the building uses gable end walls (requires 2 gable end trusses) or hip roof design (hip roof packages use hip layout trusses).
 3. **Verify Local Building Code Spacing:** Residential IRC code standard is 24" OC. High wind or heavy snow zones ($>50\text{ PSF}$) may mandate 16" OC spacing.
@@ -212,8 +209,7 @@ The benchmark table below illustrates standard roof truss order quantities and p
 
 ---
 
-## Frequently Asked Questions
-
+## Truss Calculator Frequently Asked Questions
 ### How do you calculate the number of roof trusses needed for a building?
 The formula for standard 24" OC spacing is: (Building Length in feet / 2) + 1 starter truss. For a 40ft building: (40 / 2) + 1 = 21 total trusses.
 

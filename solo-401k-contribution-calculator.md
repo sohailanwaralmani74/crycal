@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Solo 401K Contribution | Interactive Online Tool"
+title: "Solo 401K Contribution Calculator | Calculation & Analysis"
 description: "Use the Solo 401(k) Contribution Calculator to estimate your maximum allowed employee deferral, employer contribution, and total contribution as..."
 permalink: /solo-401k-contribution-calculator
 tool_id: solo-401k-contribution-calculator
@@ -132,11 +132,9 @@ faq:
     answer: "Starting in 2025, employees ages 60 to 63 may be eligible for a higher 'super' catch-up contribution limit than the standard age-50 catch-up, under provisions of the SECURE 2.0 Act."
   - question: "Can my spouse also contribute to my Solo 401(k)?"
     answer: "Yes, if your spouse works in the business and receives compensation, they can also make employee and employer contributions to the same Solo 401(k) plan, subject to their own limits."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. No data is sent to any server."
 ---
 
-# Solo 401K Contribution Calculator
+# Solo 401K Contribution Calculator - Calculate & Optimize Results
 
 Use the **Solo 401(k) Contribution Calculator** to estimate your maximum allowed employee deferral, employer contribution, and total contribution as a self-employed business owner.
 
@@ -200,8 +198,7 @@ This **Solo 401(k) calculator** is designed for:
 
 ---
 
-## Frequently Asked Questions
-
+## Solo 401K Contribution Calculator Frequently Asked Questions
 ### What is a Solo 401(k)?
 A Solo 401(k) is a retirement plan designed for self-employed individuals with no employees (other than a spouse), allowing contributions in both the "employee" and "employer" roles for higher total contribution limits.
 
@@ -213,8 +210,5 @@ Starting in 2025, employees ages 60 to 63 may be eligible for a higher "super" c
 
 ### Can my spouse also contribute to my Solo 401(k)?
 Yes, if your spouse works in the business and receives compensation, they can also make employee and employer contributions to the same Solo 401(k) plan, subject to their own limits.
-
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. No data is sent to any server.
 
 <p class="tool-disclaimer">IRS contribution limits are adjusted periodically for inflation and are subject to change. Please verify current limits before relying on these results for tax filing purposes.</p>

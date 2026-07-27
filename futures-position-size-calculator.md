@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Futures Position Size | Interactive Online Tool"
+title: "Futures Position Size Calculator | Investment & Portfolio Return"
 description: "Calculate the optimal number of futures contracts to trade. Enter your account balance, risk percentage, entry price, stop-loss price, tick size."
 permalink: /futures-position-size-calculator
 tool_id: futures-position-size
@@ -203,7 +203,7 @@ faq:
 
 ---
 
-# Futures Position Size Calculator
+# Futures Position Size Calculator - Calculate Return, Yield & Portfolio Risk
 
 Use this futures position size calculator to determine the optimal number of futures contracts for your trades. Enter your account balance, risk percentage, entry price, stop-loss price, tick size, and tick value — the tool shows your position size in contracts, risk amount, and stop distance in both points and ticks. This futures sizing calculator helps you manage risk and trade with discipline.
 
@@ -255,8 +255,7 @@ Proper position sizing is essential for managing risk in futures trading. This f
 
 ---
 
-## Frequently Asked Questions
-
+## Futures Position Size Calculator Frequently Asked Questions
 ### What is a tick?
 A tick is the minimum price movement of a futures contract. For ES (S&P 500), the tick size is 0.25 points.
 

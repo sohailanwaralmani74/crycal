@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Deck Footing Post | Interactive Online Tool"
+title: "Deck Footing Post Calculator | Lumber & Framing Estimating"
 description: "Calculate the number of concrete footings, 80lb concrete bags, Sonotube volumes, 4x4 or 6x6 post quantities, total post height, and material..."
 permalink: /deck-footing-post-calculator
 tool_id: deck-footing-post-calculator
@@ -165,11 +165,9 @@ faq:
     answer: "Footing spacing depends on beam sizing. For standard residential decks, placing footings 6 to 8 feet apart on-center provides optimal structural rigidity without sagging."
   - question: "Does this calculator include concrete waste?"
     answer: "Yes, the concrete bag and cubic yardage outputs automatically include a 10% safety margin for ground spillage and irregular hole digging."
-  - question: "Is my personal data stored anywhere?"
-    answer: "No. All calculations run locally in your web browser."
 ---
 
-# Deck Footing Post Calculator
+# Deck Footing Post Calculator - Calculate Board Feet & Wood Quantity
 
 Calculate the required number of concrete piers, **80 lb ready-mix concrete bags**, Sonotube cylinder volumes, **4x4 or 6x6 timber support posts**, total post height footage, and estimated project cost with our free **Deck Footing & Post Calculator**.
 
@@ -227,8 +225,7 @@ The table below shows concrete footing volumes, bag requirements (80 lb bags yie
 
 ---
 
-## Frequently Asked Questions
-
+## Deck Footing Post Calculator Frequently Asked Questions
 ### How deep must deck footings be dug?
 Deck footings must extend below the local frost depth line to prevent frost heave. This typically ranges from 12 inches in warm climates to 36–48+ inches in cold northern regions.
 
@@ -247,5 +244,3 @@ Footing spacing depends on beam sizing. For standard residential decks, placing 
 ### Does this calculator include concrete waste?
 Yes, the concrete bag and cubic yardage outputs automatically include a 10% safety margin for ground spillage and irregular hole digging.
 
-### Is my personal data stored anywhere?
-No. All calculations run locally in your web browser.

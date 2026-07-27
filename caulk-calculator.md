@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Caulk | Interactive Online Tool"
+title: "Caulk Calculator | Drywall & Paint Estimating"
 description: "Calculate caulk tubes needed based on joint width, depth in inches, total linear feet, tube size (10.1 oz vs 28 oz), and waste factor."
 permalink: /caulk-calculator
 tool_id: caulk-calculator
@@ -166,11 +166,9 @@ faq:
     answer: "Acrylic latex caulk is paintable, cleans up with water, and is best for interior trim, baseboards, and dry walls. Silicone caulk is 100% waterproof, highly flexible, non-paintable, and essential for shower surrounds, sinks, and exterior glass windows."
   - question: "How much does a tube of caulk cost?"
     answer: "Standard painter's acrylic caulk costs $3 to $5 per tube. Premium silicone, polyurethane, and elastomeric window/siding caulk range from $6.50 to $12.00 per tube."
-  - question: "Is my personal data saved when using this calculator?"
-    answer: "No. All logic operates locally in your browser."
 ---
 
-# Caulk Calculator
+# Caulk Calculator - Calculate Paint Coverage & Sheet Count
 
 Estimate caulk tube quantities, linear feet coverage, foam backer rod requirements, and material costs with our free **Caulk Calculator**.
 
@@ -220,8 +218,7 @@ $$\text{Tubs Needed} = \left\lceil \frac{\text{Total Joint Volume (cu in)} \time
 
 ---
 
-## Frequently Asked Questions
-
+## Caulk Calculator Frequently Asked Questions
 ### How many linear feet does a 10.1 oz tube of caulk cover?
 A standard 10.1 oz tube of caulk covers approximately 24 linear feet for a 1/4" x 1/4" joint, 48 linear feet for a 1/8" x 1/4" joint, and 12 linear feet for a 3/8" x 1/4" joint.
 
@@ -240,5 +237,3 @@ Acrylic latex caulk is paintable, cleans up with water, and is best for interior
 ### How much does a tube of caulk cost?
 Standard painter's acrylic caulk costs $3 to $5 per tube. Premium silicone, polyurethane, and elastomeric window/siding caulk range from $6.50 to $12.00 per tube.
 
-### Is my personal data saved when using this calculator?
-No. All logic operates locally in your browser.

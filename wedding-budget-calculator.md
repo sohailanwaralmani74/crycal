@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Wedding Budget | Interactive Online Tool"
+title: "Wedding Budget Calculator | Income & Expense Planning"
 description: "Estimate and allocate total wedding budget across venue, catering, photography, attire, entertainment, and decor vendor categories."
 permalink: /wedding-budget-calculator
 tool_id: wedding-budget-calculator
@@ -111,11 +111,9 @@ faq:
     answer: "Guest count directly drives catering, bar costs, table rentals, invitation counts, and favor costs—representing over 50% of variable wedding expenses."
   - question: "What is a reasonable buffer for unexpected wedding expenses?"
     answer: "Financial planners recommend holding back 10% to 15% of your total budget for last-minute additions, weather backup plans, overtime vendor fees, and tips."
-  - question: "Is my personal financial data saved on any server?"
-    answer: "No. All calculations run locally inside your web browser. History and saved presets are stored strictly in your browser's local storage."
 ---
 
-# Wedding Budget Calculator
+# Wedding Budget Calculator - Plan Monthly Income & Expenses
 
 Estimate and allocate your total wedding budget across venue, catering, photography, attire, and decor with our free **Wedding Budget Calculator**.
 
@@ -168,8 +166,7 @@ Planning a wedding requires balancing multiple vendor contracts simultaneously. 
 
 ---
 
-## Frequently Asked Questions
-
+## Wedding Budget Calculator Frequently Asked Questions
 ### How should a wedding budget be allocated across categories?
 Industry benchmarks suggest allocating approximately 45-50% for venue and catering, 10-12% for photography/video, 10% for music/entertainment, 10% for flowers/decor, 8% for attire/beauty, and 8-10% for emergency cushion and gifts.
 
@@ -188,5 +185,3 @@ Guest count directly drives catering, bar costs, table rentals, invitation count
 ### What is a reasonable buffer for unexpected wedding expenses?
 Financial planners recommend holding back 10% to 15% of your total budget for last-minute additions, weather backup plans, overtime vendor fees, and tips.
 
-### Is my personal financial data saved on any server?
-No. All calculations run locally inside your web browser. History and saved presets are stored strictly in your browser's local storage.

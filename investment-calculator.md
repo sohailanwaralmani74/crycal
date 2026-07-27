@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Investment | Interactive Online Tool"
+title: "Investment Calculator | Compound Interest & Savings"
 description: "Calculate the future value of your investments with compound growth. Enter lump sum, monthly contributions, expected return, and time horizon."
 permalink: /investment-calculator
 tool_id: investment
@@ -149,12 +149,10 @@ faq:
     answer: "For stocks, historical averages are around 7-10% per year. Bonds typically yield 3-5%. Use conservative estimates for planning, and adjust based on your risk profile."
   - question: "Can I use this calculator for SIP investments?"
     answer: "This calculator handles lump sum investments with optional monthly contributions. For pure SIP (regular monthly investments with no initial lump sum), we have a dedicated SIP Calculator."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server."
 
 ---
 
-# Investment Calculator
+# Investment Calculator - Project Wealth Accumulation & Yield
 
 Use this investment calculator to project how your money will grow over time. Enter your initial investment (lump sum), optional monthly contributions, expected annual return, and time horizon — the tool shows your future value, total returns, and CAGR. Whether you're planning for retirement or evaluating a potential investment, this calculator gives you the numbers you need.
 
@@ -197,8 +195,7 @@ Where:
 
 ---
 
-## How to Use This Tool
-
+## How to Use the Investment Calculator
 1.  Select your **account currency** from the picker in the site header.
 2.  Enter your **initial investment** (lump sum).
 3.  Set your **monthly contribution** (optional — leave at 0 if none).
@@ -209,8 +206,7 @@ Where:
 
 ---
 
-## Frequently Asked Questions
-
+## Investment Calculator Frequently Asked Questions
 ### What is an investment calculator?
 An investment calculator projects the future value of your investments based on your initial lump sum, monthly contributions, expected return rate, and time horizon. It helps you plan for financial goals.
 
@@ -222,9 +218,6 @@ For stocks, historical averages are around 7-10% per year. Bonds typically yield
 
 ### Can I use this calculator for SIP investments?
 This calculator handles lump sum investments with optional monthly contributions. For pure SIP (regular monthly investments with no initial lump sum), we have a dedicated SIP Calculator.
-
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server.
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Refinance | Interactive Online Tool"
+title: "Refinance Calculator | Rate Drop Break-Even Period"
 description: "Compare your current mortgage with a refinanced mortgage. See monthly savings, total interest savings, and break-even point."
 permalink: /refinance-calculator
 tool_id: refinance
@@ -182,12 +182,10 @@ faq:
     answer: "The refinance estimate includes closing costs, which typically cover appraisal, title search, origination fees, and other lender fees. You can adjust this amount based on your actual estimate."
   - question: "When does refinancing make sense?"
     answer: "Refinancing makes sense if you can lower your interest rate by at least 0.5-1% and plan to stay in your home long enough to break even on the closing costs."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server."
 
 ---
 
-# Refinance Calculator
+# Refinance Calculator - Calculate Refinance Savings & Closing Fees
 
 Use this refinance mortgage calculator to compare your current mortgage with a refinanced mortgage. Enter your current loan balance, interest rate, remaining term, new rate, new term, and closing costs — the tool shows your monthly payment comparison, total interest savings, and break-even point. Whether you're considering a refinance home loan, a refi mortgage, or just want a refinance estimate, this refinance mortgage payment calculator gives you the numbers you need.
 
@@ -239,8 +237,7 @@ Whether you need a refinance mortgage estimator or a full refi mortgage calculat
 
 ---
 
-## Frequently Asked Questions
-
+## Refinance Calculator Frequently Asked Questions
 ### What is the Refinance Calculator?
 It's a refinance mortgage calculator that compares your current mortgage with a new loan. It calculates your new payment, total interest, and break‑even point — so you can decide if a refi mortgage makes sense.
 
@@ -255,9 +252,6 @@ Closing costs typically include appraisal, title search, origination fees, and o
 
 ### Why use this refinance mortgage payment calculator?
 It gives you a complete financial picture — monthly payment, total interest, interest saved, and break‑even — so you can compare your refinance house loan options side by side.
-
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server.
 
 ---
 

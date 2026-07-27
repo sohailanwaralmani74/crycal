@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Volume Discount | Interactive Online Tool"
+title: "Volume Discount Calculator | SaaS Pricing & Packaging"
 description: "Calculate tiered volume seat discounts, effective per-seat prices, and total buyer savings for enterprise seat volume licensing."
 permalink: /volume-discount-calculator
 tool_id: volume-discount-calculator
@@ -149,7 +149,7 @@ faq:
 
 ---
 
-# Volume Discount Calculator
+# Volume Discount Calculator - Calculate Tier Profitability & ARPU
 
 Calculate **graduated tiered seat pricing**, **effective price per seat**, and **enterprise buyer volume savings**.
 
@@ -163,8 +163,7 @@ This calculator evaluates **Graduated Tiered (Bracketed)** vs. **Flat Volume Dis
 
 ---
 
-## Key Mathematical Formulas
-
+## Key Volume Discount Calculator Mathematical Formulas
 ### 1. Graduated Tiered Seat Calculation (Bracketed)
 
 $$ \text{Tier 1 (1-10)} = \min(\text{Seats}, 10) \times \text{P}_1 $$
@@ -205,8 +204,7 @@ $$ \text{Effective Discount \%} = \frac{\text{Un-Discounted Base Total} - \text{
 
 ---
 
-## Frequently Asked Questions
-
+## Volume Discount Calculator Frequently Asked Questions
 ### What is the difference between Graduated Tiered and Flat Volume discounting?
 Graduated Tiered pricing charges different prices for seats within specific brackets (like tax brackets). Flat Volume pricing applies the lower tier price across all purchased seats once a volume threshold is met.
 

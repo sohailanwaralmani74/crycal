@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Gear Ratio | Interactive Online Tool"
+title: "Gear Ratio Calculator | Vehicle Specs & Power"
 description: "Calculate engine RPM at highway speeds based on transmission gear ratios, tire overall diameter, final drive axle ratio, and vehicle speed."
 permalink: /gear-ratio-calculator
 tool_id: gear-ratio-calculator
@@ -129,7 +129,7 @@ faq:
 
 ---
 
-# Gear Ratio Calculator
+# Gear Ratio Calculator - Calculate Horsepower & Acceleration
 
 Calculate engine speed in **RPM at highway speeds** based on transmission gear ratios, final drive axle ratio, tire overall diameter, and target vehicle speed.
 
@@ -192,8 +192,7 @@ Key drivetrain variables:
 
 ---
 
-## Mathematical Formulas
-
+## Gear Ratio Calculator Mathematical Formulas
 ### 1. Overall Drive Ratio ($G_{\text{total}}$)
 \[
 G_{\text{total}} = G_{\text{gear}} \times G_{\text{final}}
@@ -223,8 +222,7 @@ v_{\text{mph}} = \frac{\text{RPM} \times D_{\text{tire}}}{G_{\text{total}} \time
 
 ---
 
-## Step-by-Step Usage Guide
-
+## Step-by-Step Gear Ratio Calculator Usage Guide
 1. **Enter Gear Ratio**: Input selected transmission gear ratio (e.g. 0.82 for 5th gear).
 2. **Provide Final Drive**: Input differential axle ratio (e.g. 3.73).
 3. **Set Tire Diameter**: Provide total tire height in inches (e.g. 26.5 inches).
@@ -233,8 +231,7 @@ v_{\text{mph}} = \frac{\text{RPM} \times D_{\text{tire}}}{G_{\text{total}} \time
 
 ---
 
-## Frequently Asked Questions
-
+## Gear Ratio Calculator Frequently Asked Questions
 ### What is the formula for calculating engine RPM from speed and gear ratio?
 $\text{RPM} = \frac{\text{MPH} \times \text{Transmission Ratio} \times \text{Final Drive Ratio} \times 336}{\text{Tire Diameter (inches)}}$.
 

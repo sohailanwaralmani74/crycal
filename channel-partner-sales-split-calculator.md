@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Channel Partner Sales Split Calculator | Reseller Margin Tool"
+title: "Channel Partner Sales Split Calculator | SaaS Pipeline & Win Rate"
 description: "Calculate channel partner payouts, reseller margins, and net vendor revenue. 100% free and private browser execution."
 permalink: /channel-partner-sales-split-calculator
 tool_id: channel-partner-sales-split-calculator
@@ -124,7 +124,7 @@ faq:
     answer: "Yes, 100%. All calculation algorithms execute locally inside your web browser. No partnership agreement data is stored or transmitted."
 ---
 
-# Channel Partner Sales Split Calculator
+# Channel Partner Sales Split Calculator - Calculate Sales Funnel Conversions
 
 Calculate reseller commission payouts, partner margin splits, and net retained vendor revenue with our free channel sales calculator.
 Featuring multi-currency support, custom internal cost modeling, and 100% private browser execution so your partnership economics remain confidential.
@@ -141,8 +141,7 @@ Understanding partner margin economics is critical when structuring tier-based p
 
 ---
 
-## Mathematical Formulas & Mechanics
-
+## Channel Partner Sales Split Calculator Mathematical Formulas & Mechanics
 The gross partner payout ($P_{\text{partner}}$) earned by a reseller or referral partner is calculated as:
 
 $$P_{\text{partner}} = \text{Total Deal Size} \times \left( \frac{\text{Partner Margin \%}}{100} \right)$$
@@ -161,8 +160,7 @@ $$\text{Margin}_{\text{net}} = \left( \frac{R_{\text{net}}}{\text{Total Deal Siz
 
 ---
 
-## Real-World Comparison & Benchmark Table
-
+## Channel Partner Sales Split Calculator Benchmarks & Comparison Table
 The benchmark matrix below illustrates partner payouts and net vendor revenue across different channel partner tiers for a **$50,000 SaaS Deal** with $5,000 in internal support costs:
 
 | Partner Tier / Program | Partner Margin % | Partner Payout | Internal Support Cost | Net Vendor Revenue | Net Vendor Margin % | Partner Responsibilities |
@@ -177,8 +175,7 @@ The benchmark matrix below illustrates partner payouts and net vendor revenue ac
 
 ---
 
-## Step-by-Step How-To Guide
-
+## How to Use the Channel Partner Sales Split Calculator Step-by-Step
 1. **Select Currency**: Choose your preferred currency ($ USD, € EUR, £ GBP) from the header selector.
 2. **Enter Total Deal Size**: Input total gross contract value (ACV/ARR) closed through the channel partner.
 3. **Set Partner Margin Percentage**: Input agreed partner commission rate (e.g., 10% for referral, 20% for reseller).
@@ -188,8 +185,7 @@ The benchmark matrix below illustrates partner payouts and net vendor revenue ac
 
 ---
 
-## Frequently Asked Questions
-
+## Channel Partner Sales Split Calculator Frequently Asked Questions
 ### What is a channel partner sales split?
 A channel partner sales split defines the percentage of gross contract revenue retained by a third-party reseller (VAR, MSP, affiliate) as commission or discount.
 

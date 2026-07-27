@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Btu Hvac Sizing | Interactive Online Tool"
+title: "BTU HVAC Sizing Calculator | HVAC & Insulation Sizing"
 description: "Calculate required heating and cooling BTUs, AC tonnage, and HVAC equipment sizing based on room area, climate zone, and insulation."
 permalink: /btu-hvac-sizing-calculator
 tool_id: btu-hvac-sizing-calculator
@@ -158,11 +158,9 @@ faq:
     answer: "An oversized air conditioner cools the room too quickly ('short-cycling') without running long enough to remove humidity, leading to clammy air, high energy bills, and shortened compressor life."
   - question: "Does ceiling height affect BTU calculation?"
     answer: "Yes. Rooms with high or vaulted ceilings (10 ft to 16 ft) hold significantly greater cubic air volume, requiring proportional increases in heating and cooling BTUs."
-  - question: "Is my personal HVAC project data saved online?"
-    answer: "No. All calculation models execute locally within your web browser."
 ---
 
-# Btu Hvac Sizing Calculator
+# BTU HVAC Sizing Calculator - Calculate BTU Load & R-Value Insulation
 
 Calculate required heating and cooling BTUs, air conditioner tonnage, and equipment sizing based on floor area, ceiling height, climate zone, and building insulation.
 
@@ -220,8 +218,7 @@ where:
 
 ---
 
-## Frequently Asked Questions
-
+## BTU HVAC Sizing Calculator Frequently Asked Questions
 ### What is a BTU in HVAC sizing?
 A BTU (British Thermal Unit) measures heat energy. One BTU is the heat required to raise the temperature of 1 pound of water by 1°F. HVAC units are rated in BTUs per hour (BTU/hr).
 
@@ -240,5 +237,3 @@ An oversized air conditioner cools the room too quickly ('short-cycling') withou
 ### Does ceiling height affect BTU calculation?
 Yes. Rooms with high or vaulted ceilings (10 ft to 16 ft) hold significantly greater cubic air volume, requiring proportional increases in heating and cooling BTUs.
 
-### Is my personal HVAC project data saved online?
-No. All calculation models execute locally within your web browser.

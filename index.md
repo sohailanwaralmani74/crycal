@@ -282,10 +282,10 @@ keywords: free online calculators, private browser calculators, financial calcul
         <a href="/ltv-customer-lifetime-value-calculator" class="cat-tool-item"><span class="tool-name">LTV Calculator</span><span class="tool-arrow">&rarr;</span></a>
         <a href="/mrr-calculator" class="cat-tool-item"><span class="tool-name">MRR Calculator</span><span class="tool-arrow">&rarr;</span></a>
         <a href="/customer-churn-rate-calculator" class="cat-tool-item"><span class="tool-name">Customer Churn Rate</span><span class="tool-arrow">&rarr;</span></a>
-        <a href="/saas-valuation-calculator" class="cat-tool-item"><span class="tool-name">SaaS Valuation Calculator</span><span class="tool-arrow">&rarr;</span></a>
+        <a href="/arr-multiple-benchmark-calculator" class="cat-tool-item"><span class="tool-name">ARR Valuation Multiples</span><span class="tool-arrow">&rarr;</span></a>
       </div>
       <div class="cat-card-footer">
-        <a href="/saas" class="cat-view-all-btn">Browse All 121 SaaS &amp; Business Metrics Tools &rarr;</a>
+        <a href="/saas" class="cat-view-all-btn">Browse All 121 SaaS &amp; Subscription Tools &rarr;</a>
       </div>
     </div>
 

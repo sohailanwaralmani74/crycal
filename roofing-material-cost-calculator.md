@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Roofing Material Cost | Interactive Online Tool"
+title: "Roofing Material Cost Calculator | Roofing Material Estimating"
 description: "Estimate roof replacement costs by material type including 3-tab asphalt, architectural shingles, standing seam metal, tile, and slate."
 permalink: /roofing-material-cost-calculator
 tool_id: roofing-material-cost-calculator
@@ -153,11 +153,9 @@ faq:
     answer: "Old roof removal and dumpster disposal typically add $1.00 to $2.50 per square foot depending on local dumping fees and the number of old shingle layers being removed."
   - question: "What accessories are included in underlayment costs?"
     answer: "Roofing accessories include synthetic or felt underlayment, drip edge metal flashing, ice and water shield membrane, starter strips, ridge caps, and roofing nails."
-  - question: "Is my personal financial data saved anywhere?"
-    answer: "No. All calculations are executed locally in your browser."
 ---
 
-# Roofing Material Cost Calculator
+# Roofing Material Cost Calculator - Calculate Shingles, Squares & Flashing
 
 Calculate total installed cost, **Cost Per Square Foot**, material expenses, underlayment accessories, and contractor labor fees with our free **Roofing Material Cost Calculator**.
 
@@ -205,8 +203,7 @@ $$\text{Total Installed Cost per Sq Ft} = \frac{\text{Total Installed Cost}}{\te
 
 ---
 
-## Frequently Asked Questions
-
+## Roofing Material Cost Calculator Frequently Asked Questions
 ### What is the average cost to replace a roof?
 The average cost to replace a 2,000 sq ft roof ranges from $7,500 to $14,000 for architectural shingles, $14,000 to $25,000 for metal, and $25,000 to $50,000+ for tile or slate.
 
@@ -225,5 +222,3 @@ Old roof removal and dumpster disposal typically add $1.00 to $2.50 per square f
 ### What accessories are included in underlayment costs?
 Roofing accessories include synthetic or felt underlayment, drip edge metal flashing, ice and water shield membrane, starter strips, ridge caps, and roofing nails.
 
-### Is my personal financial data saved anywhere?
-No. All calculations are executed locally in your browser.

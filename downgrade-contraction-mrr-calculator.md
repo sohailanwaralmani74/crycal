@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Downgrade Contraction Mrr | Interactive Online Tool"
+title: "Downgrade Contraction Mrr Calculator | SaaS Recurring Revenue"
 description: "Calculate revenue lost specifically from customer plan downgrades and seat reductions. Measure contraction MRR rate and annualized loss."
 permalink: /downgrade-contraction-mrr-calculator
 tool_id: downgrade-contraction-mrr-calculator
@@ -128,7 +128,7 @@ faq:
 
 ---
 
-# Downgrade Contraction Mrr Calculator
+# Downgrade Contraction Mrr Calculator - Calculate MRR, ARR & Growth Metrics
 
 Calculate your total **Contraction MRR**, monthly **Contraction Rate (%)**, and **Annualized Downgrade Loss** caused by plan tier downgrades, seat reductions, and feature cancellations.
 
@@ -172,8 +172,7 @@ $$\text{Annualized Contraction Loss} = \text{Total Contraction MRR} \times 12$$
 
 ---
 
-## Frequently Asked Questions
-
+## Downgrade Contraction Mrr Calculator Frequently Asked Questions
 ### What is Contraction MRR in SaaS?
 Contraction MRR is the total recurring revenue lost from existing customers who reduce their subscription tier, remove user seats, or cancel specific product add-on modules without fully cancelling their account.
 

@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Series Funding Benchmark | Interactive Online Tool"
+title: "Series Funding Benchmark Calculator | Startup Funding & Valuation"
 description: "Compare your companys ARR, growth rate, and retention against VC benchmarks for Seed, Series A, and Series B funding rounds."
 permalink: /series-funding-benchmark-calculator
 tool_id: series-funding-benchmark-calculator
@@ -138,7 +138,7 @@ faq:
 
 ---
 
-# Series Funding Benchmark Calculator
+# Series Funding Benchmark Calculator - Calculate ARR Multiple & Valuation
 
 Evaluate your SaaS startup's readiness for **Seed**, **Series A**, or **Series B** venture capital funding rounds with our free **Series Funding Benchmark Calculator**. Compare your ARR, growth rate, and NRR against institutional VC criteria.
 
@@ -188,8 +188,7 @@ $$\text{Overall Readiness Score} = (\text{ARR Score} \times 0.45) + (\text{Growt
 
 ---
 
-## Frequently Asked Questions
-
+## Series Funding Benchmark Calculator Frequently Asked Questions
 ### What ARR is required for a Series A funding round?
 Institutional Series A rounds typically require $1.5M to $3.0M in ARR along with 100%+ YoY growth rate and strong net retention (>110%).
 

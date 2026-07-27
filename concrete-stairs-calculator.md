@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Concrete Stairs | Interactive Online Tool"
+title: "Concrete Stairs Calculator | Concrete & Masonry Estimating"
 description: "Calculate concrete volume in cubic yards, cubic feet, and 80lb/60lb pre-mixed bags for concrete stairs, risers, treads, and top landing platforms."
 permalink: /concrete-stairs-calculator
 tool_id: concrete-stairs-calculator
@@ -151,11 +151,9 @@ faq:
     answer: "IRC building codes specify a maximum riser height of 7.75 inches (7 inches standard) and a minimum tread depth of 10 to 11 inches."
   - question: "Do outdoor concrete stairs require rebar?"
     answer: "Yes. Concrete stairs require #4 rebar cages pinned into foundation footings or porch walls to prevent settling, cracking, or tipping forward."
-  - question: "Is my personal data saved anywhere?"
-    answer: "No. All calculation logic runs strictly inside your local browser."
 ---
 
-# Concrete Stairs Calculator
+# Concrete Stairs Calculator - Calculate Volume, Bags & Materials
 
 Determine exact concrete volume in **cubic yards**, **cubic feet**, and **pre-mixed bag counts** (80 lb, 60 lb, 40 lb) for outdoor concrete steps, entrance stoops, and top landing platforms.
 
@@ -200,8 +198,7 @@ $$\text{80 lb Bags Needed} = \left\lceil \frac{\text{Total Cu Ft} \times 1.10}{0
 
 ---
 
-## Frequently Asked Questions
-
+## Concrete Stairs Calculator Frequently Asked Questions
 ### How much concrete do I need for a 5-step staircase?
 A 5-step solid concrete staircase (7 in riser, 11 in tread, 4 ft wide) with a 3 ft top landing requires approximately 1.83 cubic yards (49.5 cubic feet) of concrete, or 91 bags of 80 lb concrete.
 
@@ -220,5 +217,3 @@ IRC building codes specify a maximum riser height of 7.75 inches (7 inches stand
 ### Do outdoor concrete stairs require rebar?
 Yes. Concrete stairs require #4 rebar cages pinned into foundation footings or porch walls to prevent settling, cracking, or tipping forward.
 
-### Is my personal data saved anywhere?
-No. All calculation logic runs strictly inside your local browser.

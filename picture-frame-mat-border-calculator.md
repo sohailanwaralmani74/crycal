@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Picture Frame Mat Border | Interactive Online Tool"
+title: "Picture Frame Mat Border Calculator | Interior Design"
 description: "Calculate picture frame exterior dimensions, custom mat board window opening cuts, mat border width, and artwork overlap allowances."
 permalink: /picture-frame-mat-border-calculator
 tool_id: picture-frame-mat-border-calculator
@@ -135,11 +135,9 @@ faq:
     answer: "Bottom-weighting is a traditional framing practice where the bottom mat border is cut 0.25\" to 0.5\" wider than the top and side borders to correct the optical illusion of art slipping downward."
   - question: "Can I cut my own mat board windows at home?"
     answer: "Yes. Using a handheld 45° bevel mat cutter, a heavy metal straightedge guide, and self-healing cutting mat allows DIYers to cut custom windows in standard 4-ply mat board."
-  - question: "Is my personal data saved when using this calculator?"
-    answer: "No. All calculations run strictly inside your web browser."
 ---
 
-# Picture Frame Mat Border Calculator
+# Picture Frame Mat Border Calculator - Calculate Dimensions, Spacing & Cut Widths
 
 Framing artwork, photography, or diplomas requires exact measurements to achieve a gallery-worthy display. Use our **Picture Frame Mat Border Calculator** to calculate exact mat window opening cut dimensions, outer mat board sizes, glass order dimensions, and overall frame exterior footprint.
 
@@ -196,8 +194,7 @@ The table below shows popular print sizes, standard mat border widths, resulting
 
 ---
 
-## Frequently Asked Questions
-
+## Picture Frame Mat Border Calculator Frequently Asked Questions
 ### Why is the mat window opening cut slightly smaller than the artwork?
 A standard 1/4-inch (0.25") overlap allowance per side is subtracted from the artwork size so the mat window sits over the edges of the print, preventing the image from falling through the window cut.
 
@@ -216,5 +213,3 @@ Bottom-weighting is a traditional framing practice where the bottom mat border i
 ### Can I cut my own mat board windows at home?
 Yes. Using a handheld 45° bevel mat cutter, a heavy metal straightedge guide, and self-healing cutting mat allows DIYers to cut custom windows in standard 4-ply mat board.
 
-### Is my personal data saved when using this calculator?
-No. All calculations run strictly inside your web browser.

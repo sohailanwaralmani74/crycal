@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Topsoil | Interactive Online Tool"
+title: "Topsoil Calculator | Outdoor & Landscape Estimating"
 description: "Calculate topsoil cubic yards, soil weight in tons (1.3 tons/yd³), 40lb bag counts, and material costs for lawn grading and garden beds."
 permalink: /topsoil-calculator
 tool_id: topsoil-calculator
@@ -134,11 +134,9 @@ faq:
     answer: "Top-dressing existing turf typically requires a thin layer of 1/4 to 1/2 inch (approx 0.77 to 1.54 cubic yards per 1,000 sq ft)."
   - question: "Is bulk topsoil cheaper than buying 40 lb bags?"
     answer: "Yes, bulk topsoil costs $25 to $45 per yard, whereas 65 bags of 40 lb topsoil ($3.50/bag) cost around $227. Bulk is over 75% cheaper for projects requiring more than 1 cubic yard."
-  - question: "Is my personal data saved on your server?"
-    answer: "No. All computations take place locally inside your browser ensuring 100% data privacy."
 ---
 
-# Topsoil Calculator
+# Topsoil Calculator - Calculate Mulch, Sod & Material Volume
 
 Estimate topsoil requirements in **cubic yards**, convert volume to **weight in tons**, determine **40 lb bag counts**, and compare bulk soil prices against bagged soil.
 
@@ -190,8 +188,7 @@ $$\text{Total Bulk Cost} = \text{Volume (cu yd)} \times \text{Price per Cu Yd}$$
 
 ---
 
-## Frequently Asked Questions
-
+## Topsoil Calculator Frequently Asked Questions
 ### How many cubic yards of topsoil do I need for 500 sq ft at 4 inches depth?
 For 500 sq ft at 4 inches depth, you need approximately 6.17 cubic yards (or 166.7 cubic feet) of topsoil.
 
@@ -210,5 +207,3 @@ Top-dressing existing turf typically requires a thin layer of 1/4 to 1/2 inch (a
 ### Is bulk topsoil cheaper than buying 40 lb bags?
 Yes, bulk topsoil costs $25 to $45 per yard, whereas 65 bags of 40 lb topsoil ($3.50/bag) cost around $227. Bulk is over 75% cheaper for projects requiring more than 1 cubic yard.
 
-### Is my personal data saved on your server?
-No. All computations take place locally inside your browser ensuring 100% data privacy.

@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Deck Size Cost | Interactive Online Tool"
+title: "Deck Size Cost Calculator | Outdoor & Landscape Estimating"
 description: "Calculate deck square footage, material costs (pressure-treated pine, cedar, Trex composite), railing expenses, framing substructure, labor..."
 permalink: /deck-size-cost-calculator
 tool_id: deck-size-cost-calculator
@@ -161,11 +161,9 @@ faq:
     answer: "Professional contractor labor generally accounts for 50% to 65% of the total deck construction bill. Building DIY saves labor costs but requires specialized tools, structural code compliance, and framing experience."
   - question: "Do I need railings for a low-profile ground-level deck?"
     answer: "Building codes (IRC) typically require guardrails if the deck surface is 30 inches or more above the adjacent ground level. Decks under 30 inches generally do not require railings, though low-profile perimeter steps are common."
-  - question: "Is my personal data saved when using this calculator?"
-    answer: "No. All calculations run entirely inside your browser and no data is sent to external servers."
 ---
 
-# Deck Size Cost Calculator
+# Deck Size Cost Calculator - Calculate Mulch, Sod & Material Volume
 
 Planning a new outdoor deck requires balancing surface area, premium materials, structural joist framing, and professional labor costs. Use our **Deck Size & Build Cost Calculator** to instantly calculate your deck’s total square footage, material expenses across wood and composite options, perimeter railing costs, and total projected budget.
 
@@ -225,8 +223,7 @@ The table below illustrates total estimated build costs across common deck dimen
 
 ---
 
-## Frequently Asked Questions
-
+## Deck Size Cost Calculator Frequently Asked Questions
 ### How much does it cost to build a deck per square foot?
 On average, building a deck costs $30 to $60 per square foot for pressure-treated wood, $45 to $75 for cedar, and $60 to $110+ per square foot for composite Trex or Ipe hardwood, including materials, framing, and professional labor.
 
@@ -245,5 +242,3 @@ Professional contractor labor generally accounts for 50% to 65% of the total dec
 ### Do I need railings for a low-profile ground-level deck?
 Building codes (IRC) typically require guardrails if the deck surface is 30 inches or more above the adjacent ground level. Decks under 30 inches generally do not require railings, though low-profile perimeter steps are common.
 
-### Is my personal data saved when using this calculator?
-No. All calculations run entirely inside your browser and no data is sent to external servers.

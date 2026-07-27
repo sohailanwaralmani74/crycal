@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Quarter Mile Time Estimator | Interactive Online Tool"
+title: "Quarter Mile Time Estimator | Vehicle Specs & Power"
 description: "Calculate 1/4 mile elapsed time (ET) in seconds and trap speed in MPH from peak horsepower, vehicle weight, and drivetrain layout (FWD, RWD, AWD)."
 permalink: /quarter-mile-time-estimator
 tool_id: quarter-mile-time-estimator
@@ -118,7 +118,7 @@ faq:
 
 ---
 
-# Quarter Mile Time Estimator Calculator
+# Quarter Mile Time Estimator - Calculate Horsepower & Acceleration
 
 Estimate **1/4 mile elapsed time (ET)** in seconds and **trap speed** in MPH using peak horsepower, vehicle weight, and drivetrain layout.
 
@@ -180,8 +180,7 @@ Key drag strip metrics:
 
 ---
 
-## Mathematical Formulas
-
+## Quarter Mile Time Estimator Mathematical Formulas
 ### 1. 1/4 Mile Elapsed Time ($\text{ET}_{1/4}$)
 \[
 \text{ET}_{1/4} = 5.825 \times \left( \frac{\text{Weight}_{\text{lbs}}}{\text{HP}} \right)^{0.333} \times M_{\text{drivetrain}}
@@ -216,8 +215,7 @@ v_{\text{trap}} = 234 \times \left( \frac{\text{HP}}{\text{Weight}_{\text{lbs}}}
 
 ---
 
-## Step-by-Step Usage Guide
-
+## Step-by-Step Quarter Mile Time Estimator Usage Guide
 1. **Enter Horsepower**: Input total engine flywheel horsepower (e.g. 450 hp).
 2. **Provide Total Weight**: Enter vehicle curb weight plus driver in pounds (e.g. 3,500 lbs).
 3. **Select Drivetrain**: Choose FWD, RWD, or AWD.
@@ -225,8 +223,7 @@ v_{\text{trap}} = 234 \times \left( \frac{\text{HP}}{\text{Weight}_{\text{lbs}}}
 
 ---
 
-## Frequently Asked Questions
-
+## Quarter Mile Time Estimator Frequently Asked Questions
 ### How is 1/4 mile elapsed time (ET) calculated from horsepower and weight?
 1/4 mile ET is calculated using empirical drag racing formulas (e.g. Hale's Formula): $ET = 5.825 \times (\text{Weight} / \text{HP})^{1/3}$.
 

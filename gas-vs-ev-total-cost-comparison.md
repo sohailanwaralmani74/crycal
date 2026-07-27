@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Gas Vs Ev Total Cost Comparison | Interactive Online Tool"
+title: "Gas vs EV Total Cost Comparison Calculator | EV Charging & Range"
 description: "Free online Gas Vs Ev Total Cost Comparison. Calculate loan payments, interest growth, taxes, and financial metrics with instant browser math and charts."
 permalink: /gas-vs-ev-total-cost-comparison
 tool_id: gas-vs-ev-total-cost-comparison
@@ -195,7 +195,7 @@ faq:
 
 ---
 
-# Gas Vs Ev Total Cost Comparison Calculator
+# Gas vs EV Total Cost Comparison Calculator - Calculate Charging Time & Battery Cost
 
 Compare the complete 5-year Total Cost of Ownership (TCO) between a gasoline-powered car and an electric vehicle (EV).
 
@@ -258,8 +258,7 @@ Key ownership factors:
 
 ---
 
-## Mathematical Formulas
-
+## Gas vs EV Total Cost Comparison Calculator Mathematical Formulas
 ### 1. Annual & 5-Year Fuel Costs
 \[
 \text{Fuel}_{\text{gas, 5yr}} = 5 \times \left( \frac{\text{Miles}_{\text{annual}}}{\text{MPG}} \right) \times P_{\text{gas}}
@@ -297,8 +296,7 @@ Key ownership factors:
 
 ---
 
-## Step-by-Step Usage Guide
-
+## Step-by-Step Gas vs EV Total Cost Comparison Calculator Usage Guide
 1. **Enter Purchase Prices**: Input sticker price for both gas and electric models.
 2. **Apply EV Incentives**: Enter eligible federal tax credits ($7,500) or local rebates.
 3. **Set Annual Driving Mileage**: Input expected miles driven per year (e.g. 12,000 miles).
@@ -307,8 +305,7 @@ Key ownership factors:
 
 ---
 
-## Frequently Asked Questions
-
+## Gas vs EV Total Cost Comparison Calculator Frequently Asked Questions
 ### Is an EV cheaper over 5 years than a gas car despite a higher purchase price?
 In most cases, yes. While EVs may carry a higher sticker price, federal tax credits ($7,500), lower fuel costs (saving ~$1,000+/yr), and lower maintenance costs offset the price difference within 3 to 5 years.
 

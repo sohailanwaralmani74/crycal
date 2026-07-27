@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Safe Conversion | Interactive Online Tool"
+title: "SAFE Conversion Calculator | Startup Funding & Valuation"
 description: "Calculate SAFE note conversion share price, equity ownership, and share issuance at a valuation cap or discount rate during a priced funding round."
 permalink: /safe-conversion-calculator
 tool_id: safe-conversion-calculator
@@ -146,7 +146,7 @@ faq:
 
 ---
 
-# Safe Conversion Calculator
+# SAFE Conversion Calculator - Calculate ARR Multiple & Valuation
 
 Calculate SAFE note equity conversion price and share ownership with our free **SAFE Conversion Calculator**. Compare Valuation Cap vs Discount Rate mechanisms to determine effective share prices and equity percentages during priced funding rounds.
 
@@ -197,8 +197,7 @@ $$\text{Effective Discount (\%)} = \left( 1 - \frac{P_{eff}}{P_{\text{Series A}}
 
 ---
 
-## Frequently Asked Questions
-
+## SAFE Conversion Calculator Frequently Asked Questions
 ### What is a SAFE note in startup fundraising?
 A SAFE (Simple Agreement for Future Equity) is a financial contract created by Y Combinator that grants investors rights to future equity upon a qualifying priced financing round.
 

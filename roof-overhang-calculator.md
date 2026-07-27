@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Roof Overhang | Interactive Online Tool"
+title: "Roof Overhang Calculator | Roofing Material Estimating"
 description: "Calculate rafter overhang tail length, vertical fascia board drop below top plate, recommended fascia width, and required soffit intake vent area in sq ft."
 permalink: /roof-overhang-calculator
 tool_id: roof-overhang-calculator
@@ -131,11 +131,9 @@ faq:
     answer: "The International Residential Code (IRC R806.2) requires 1 sq ft of Net Free Vent Area (NFVA) per 300 sq ft of attic floor space when 50% to 80% is placed in the ridge exhaust. Soffit intake requires 50% of total NFVA."
   - question: "What size fascia board should I use?"
     answer: "Fascia board width depends on rafter tail plumb cut depth. 2x6 rafters typically take 1x6 fascia (5.5\" width), while 2x8 rafters or steep roof drops require 1x8 fascia (7.25\" width)."
-  - question: "Is my roof overhang calculation saved on external servers?"
-    answer: "No. All calculations run strictly inside your local web browser."
 ---
 
-# Roof Overhang Calculator
+# Roof Overhang Calculator - Calculate Shingles, Squares & Flashing
 
 Calculate exact **rafter overhang tail lengths**, vertical fascia board drop below wall plates, recommended stock fascia lumber depth, and code-compliant **soffit intake vent area**.
 
@@ -186,8 +184,7 @@ $$\text{Total Intake NFVA (sq in)} = \text{Total Intake NFVA (sq ft)} \times 144
 
 ---
 
-## Frequently Asked Questions
-
+## Roof Overhang Calculator Frequently Asked Questions
 ### What is a rafter overhang tail?
 A rafter overhang tail is the extended end of a common rafter that protrudes beyond the exterior wall top plate to form the roof eave, protecting siding and windows from rain.
 
@@ -206,5 +203,3 @@ The International Residential Code (IRC R806.2) requires 1 sq ft of Net Free Ven
 ### What size fascia board should I use?
 Fascia board width depends on rafter tail plumb cut depth. 2x6 rafters typically take 1x6 fascia (5.5" width), while 2x8 rafters or steep roof drops require 1x8 fascia (7.25" width).
 
-### Is my roof overhang calculation saved on external servers?
-No. All calculations run strictly inside your local web browser.

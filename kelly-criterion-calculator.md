@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Kelly Criterion Calculator | Interactive Online Tool"
+title: "Kelly Criterion Calculator | Investment & Portfolio Return"
 description: "Calculate the optimal position size using the Kelly Criterion Calculator. Kelly Criterion Calculator is browser based and free tool."
 permalink: /kelly-criterion-calculator
 tool_id: kelly-criterion
@@ -150,7 +150,7 @@ faq:
 
 ---
 
-# Kelly Criterion Calculator
+# Kelly Criterion Calculator - Calculate Return, Yield & Portfolio Risk
 
 Use this Kelly Criterion calculator to determine the optimal fraction of your capital to risk on each trade. Enter your win probability, win/loss ratio, and account balance — the tool shows your optimal bet size, the amount to risk, and expected growth rate. This Kelly bet calculator helps you maximize long-term growth.
 
@@ -197,8 +197,7 @@ Where f is the Kelly fraction.
 
 ---
 
-## Frequently Asked Questions
-
+## Kelly Criterion Calculator Frequently Asked Questions
 ### What is the Kelly Criterion?
 The Kelly Criterion is a formula used to determine the optimal size of a series of bets. It maximizes the expected log growth of your capital over the long run.
 

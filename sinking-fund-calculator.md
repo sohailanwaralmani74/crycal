@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Sinking Fund | Interactive Online Tool"
+title: "Sinking Fund Calculator | Income & Expense Planning"
 description: "Calculate how much you need to save each month to reach a financial goal by a specific date. Enter target amount, savings, time, and expected return."
 permalink: /sinking-fund-calculator
 tool_id: sinking-fund
@@ -149,12 +149,10 @@ faq:
     answer: "The calculator uses the future value of an annuity formula, solving for the periodic payment needed to reach your target, considering interest earned on your savings."
   - question: "What is a good return rate for a sinking fund?"
     answer: "For short-term goals (under 3 years), a conservative rate of 2-4% is common. For longer goals, you may consider higher returns, but also higher risk."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server."
 
 ---
 
-# Sinking Fund Calculator
+# Sinking Fund Calculator - Plan Monthly Income & Expenses
 
 Use this sinking fund calculator to determine how much you need to save each month to reach a financial goal by a specific date. Enter your target amount, current savings, time horizon, and expected return — the tool shows your required monthly contribution, total contributions, and interest earned. This savings goal calculator helps you plan for big expenses like a vacation, car, or down payment.
 
@@ -199,18 +197,16 @@ Where **P** is the periodic contribution, **r** is the periodic interest rate, a
 ---
 
 
-## Strategic Value & Implementation Guidance
-
+## Strategic Guidance for Sinking Fund Calculator
 Using this interactive calculation engine provides a clear, quantitative roadmap for your decisions. By eliminating mathematical uncertainty, you can optimize financial allocations, compare scenarios side-by-side, and make data-driven choices.
 
-### Key Tactical Benefits
+### Key Tactical Benefits of Sinking Fund Calculator
 - **Mathematical Certainty**: Eliminates guesswork by modeling multi-variable compounding and precise cost structures.
 - **Scenario Comparison**: Test multiple interest rates, payment timelines, and capital allocations in real-time.
 - **Privacy Assurance**: All data remains 100% confidential within your local browser memory, with zero remote server logging.
 - **Export & Audit Readiness**: Log calculations to local browser storage, export full histories to CSV/Excel, or share via link.
 
-## Frequently Asked Questions
-
+## Sinking Fund Calculator Frequently Asked Questions
 ### What is a sinking fund?
 A sinking fund is money set aside for a specific future expense. You contribute regularly to build up enough funds by the time the expense is due.
 
@@ -219,8 +215,5 @@ The calculator uses the future value of an annuity formula, solving for the peri
 
 ### What is a good return rate for a sinking fund?
 For short-term goals (under 3 years), a conservative rate of 2-4% is common. For longer goals, you may consider higher returns, but also higher risk.
-
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server.
 
 ---

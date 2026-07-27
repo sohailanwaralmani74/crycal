@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "401K | Interactive Online Tool"
+title: "401k Calculator | Retirement Savings & Employer Match"
 description: "Estimate your 401k retirement savings with our free 401k calculator. Plan your contributions, employer match, and see your projected growth."
 permalink: /401k-calculator
 tool_id: 401k
@@ -206,12 +206,10 @@ faq:
     answer: "A common employer match is 50% or 100% of employee contributions up to a certain percentage of salary (often 3-6%). This calculator uses a fixed match percentage, but you can adjust it to match your employer's policy."
   - question: "How do fees impact my 401k growth?"
     answer: "Even small fees (0.5-1%) can significantly reduce your retirement savings over decades. This calculator subtracts annual fees from your balance to show the impact."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server."
 
 ---
 
-# 401K Calculator
+# 401k Calculator - Project Growth, Interest & Contributions
 
 Use this 401k calculator to estimate how much your 401k account will grow by retirement. Enter your current age, retirement age, current balance, salary, contribution percentage, employer match, expected return, and fees — the tool shows your final balance, total contributions, employer match, and inflation-adjusted value.
 
@@ -268,8 +266,7 @@ The Inflation-Adjusted Value is calculated by discounting the final balance usin
 
 ---
 
-## Frequently Asked Questions
-
+## 401k Calculator Frequently Asked Questions
 ### What is a 401k calculator?
 A 401k calculator is a retirement planning tool that estimates how much your 401k account will grow over time based on your contributions, employer match, and investment returns.
 
@@ -285,8 +282,6 @@ A common employer match is 50% or 100% of employee contributions up to a certain
 ### How do fees impact my 401k growth?
 Even small fees (0.5-1%) can significantly reduce your retirement savings over decades. This calculator subtracts annual fees from your balance to show the impact.
 
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server.
 
 ---
 

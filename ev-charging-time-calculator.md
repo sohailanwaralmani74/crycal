@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Ev Charging Time | Interactive Online Tool"
+title: "EV Charging Time Calculator | EV Charging & Range"
 description: "Calculate EV charging time in hours and minutes across Level 1 (120V), Level 2 (240V), and DC Fast Charging (400V/800V) based on battery size..."
 permalink: /ev-charging-time-calculator
 tool_id: ev-charging-time-calculator
@@ -156,7 +156,7 @@ faq:
 
 ---
 
-# Ev Charging Time Calculator
+# EV Charging Time Calculator - Calculate Charging Time & Battery Cost
 
 Calculate electric vehicle (EV) charging time in hours and minutes for Level 1 (120V), Level 2 (240V), and DC Fast Charging (400V/800V).
 
@@ -218,8 +218,7 @@ Key charging categories:
 
 ---
 
-## Mathematical Formulas
-
+## EV Charging Time Calculator Mathematical Formulas
 ### 1. Effective Charging Power ($P_{\text{effective}}$)
 \[
 P_{\text{effective}} = \min\left(P_{\text{station}}, \; P_{\text{vehicle\_max}}\right) \times \left(\frac{\eta}{100}\right)
@@ -250,8 +249,7 @@ T_{\text{hours}} = \frac{E_{\text{delivered}}}{P_{\text{effective}}} \times M_{\
 
 ---
 
-## Step-by-Step Usage Guide
-
+## Step-by-Step EV Charging Time Calculator Usage Guide
 1. **Input Battery kWh**: Enter your EV usable battery capacity (e.g. 80 kWh).
 2. **Set Charge Window**: Select starting battery % (e.g. 10%) and target % (e.g. 80%).
 3. **Specify Charger Rating**: Input charger output rating in kW (e.g. 11.5 kW Level 2 or 150 kW DC Fast).
@@ -260,8 +258,7 @@ T_{\text{hours}} = \frac{E_{\text{delivered}}}{P_{\text{effective}}} \times M_{\
 
 ---
 
-## Frequently Asked Questions
-
+## EV Charging Time Calculator Frequently Asked Questions
 ### How long does it take to charge an electric car at home?
 Using a 240V Level 2 charger (7.6 kW to 11.5 kW), a typical EV takes 5 to 8 hours for a 10% to 80% charge. Using a standard 120V wall outlet (Level 1), it takes 40 to 60+ hours.
 

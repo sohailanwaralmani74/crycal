@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Metal Roofing | Interactive Online Tool"
+title: "Metal Roofing Calculator | Roofing Material Estimating"
 description: "Calculate standing seam metal panels count by width (12, 16, or 24), panel linear feet, fasteners count, ridge trim, and material cost."
 permalink: /metal-roofing-calculator
 tool_id: metal-roofing-calculator
@@ -148,11 +148,9 @@ faq:
     answer: "Ridge cap trim covers the apex junction of opposing roof slopes. You need 1 linear foot of ridge cap trim per linear foot of top ridge line."
   - question: "Can metal roofing be installed over existing shingles?"
     answer: "In many jurisdictions, lightweight metal roofing can be installed over 1 layer of existing asphalt shingles using 1x3 furring strips, saving tear-off disposal costs."
-  - question: "Is my personal data saved when using this calculator?"
-    answer: "No. All calculations are executed locally in your browser."
 ---
 
-# Metal Roofing Calculator
+# Metal Roofing Calculator - Calculate Shingles, Squares & Flashing
 
 Calculate exact **Standing Seam Metal Panels** sheet count, panel linear footage, neoprene screw counts, ridge cap trim, and material cost with our free **Metal Roofing Calculator**.
 
@@ -199,8 +197,7 @@ $$\text{Total Metal Material Cost} = (\text{Total Lin Ft} \times \text{Price/Lin
 
 ---
 
-## Frequently Asked Questions
-
+## Metal Roofing Calculator Frequently Asked Questions
 ### How many metal panels do I need for my roof?
 Divide your total roof eave length in inches by panel coverage width (e.g. 16 inches). Multiply by number of roof sides (e.g. 2 for gable) and add 10% waste.
 
@@ -219,5 +216,3 @@ Ridge cap trim covers the apex junction of opposing roof slopes. You need 1 line
 ### Can metal roofing be installed over existing shingles?
 In many jurisdictions, lightweight metal roofing can be installed over 1 layer of existing asphalt shingles using 1x3 furring strips, saving tear-off disposal costs.
 
-### Is my personal data saved when using this calculator?
-No. All calculations are executed locally in your browser.

@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Retaining Wall Block | Interactive Online Tool"
+title: "Retaining Wall Block Calculator | Outdoor & Landscape Estimating"
 description: "Calculate retaining wall block count by length and height, top capstones, gravel drainage backfill cubic yards, and total project cost."
 permalink: /retaining-wall-block-calculator
 tool_id: retaining-wall-block-calculator
@@ -151,11 +151,9 @@ faq:
     answer: "Yes. Capstones seal the top course of hollow or pin-connected wall blocks, preventing rainwater penetration into block cores and providing a clean finished aesthetic."
   - question: "When does a retaining wall require building permits and geogrid?"
     answer: "Retaining walls exceeding 3 to 4 feet in total height generally require engineered geogrid soil reinforcement layers and building permits."
-  - question: "Is my personal data saved anywhere?"
-    answer: "No. All calculations run locally in your web browser."
 ---
 
-# Retaining Wall Block Calculator
+# Retaining Wall Block Calculator - Calculate Mulch, Sod & Material Volume
 
 Determine exact material requirements for segmental concrete block retaining walls with our **Retaining Wall Block Calculator**. Calculate **interlocking wall blocks**, **top capstones**, **gravel drainage backfill**, and total project costs.
 
@@ -212,8 +210,7 @@ The table below outlines material requirements across standard retaining wall di
 
 ---
 
-## Frequently Asked Questions
-
+## Retaining Wall Block Calculator Frequently Asked Questions
 ### How many 12x6 blocks do I need for a 30 ft long, 3.5 ft high retaining wall?
 A 30 ft long by 3.5 ft high wall has 105 sq ft of face area. Using standard 12" × 6" blocks (0.5 sq ft per block), you will need 221 wall blocks (including 5% cut waste) and 30 capstones.
 
@@ -232,5 +229,3 @@ Yes. Capstones seal the top course of hollow or pin-connected wall blocks, preve
 ### When does a retaining wall require building permits and geogrid?
 Retaining walls exceeding 3 to 4 feet in total height generally require engineered geogrid soil reinforcement layers and building permits.
 
-### Is my personal data saved anywhere?
-No. All calculations run locally in your web browser.

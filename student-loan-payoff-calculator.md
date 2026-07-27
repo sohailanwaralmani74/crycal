@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Student Loan Payoff | Interactive Online Tool"
+title: "Student Loan Payoff Calculator | Debt Elimination & Payoff"
 description: "Calculate how long it will take to pay off your student loans and how much interest you can save with extra payments. Free, and private."
 permalink: /student-loan-payoff-calculator
 tool_id: student-loan-payoff
@@ -149,12 +149,10 @@ faq:
     answer: "Interest rates vary. Federal student loans for 2024-2025 range from about 5.5% to 8.5%, while private loans may be higher. Enter your exact rate for the most accurate result."
   - question: "Should I pay off student loans early or invest?"
     answer: "It depends on your interest rate. If your rate is higher than your expected investment return, paying extra makes sense. If your rate is low, investing may be better."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server."
 
 ---
 
-# Student Loan Payoff Calculator
+# Student Loan Payoff Calculator - Calculate Payoff Schedule & Interest Savings
 
 Use this student loan payoff calculator to see how extra payments can help you become debt-free sooner. Enter your loan balance, interest rate, current payment, and extra monthly payment — the tool shows your original payoff date, new payoff date, time saved, and total interest saved. This student loan payoff estimator helps you plan your path to financial freedom.
 
@@ -203,8 +201,7 @@ The simulation runs month by month for both scenarios:
 
 ---
 
-## Frequently Asked Questions
-
+## Student Loan Payoff Calculator Frequently Asked Questions
 ### How does the student loan payoff calculator work?
 It simulates your student loan payments with and without extra payments, showing you exactly how much time and interest you can save.
 
@@ -216,9 +213,6 @@ Interest rates vary. Federal student loans for 2024-2025 range from about 5.5% t
 
 ### Should I pay off student loans early or invest?
 It depends on your interest rate. If your rate is higher than your expected investment return, paying extra makes sense. If your rate is low, investing may be better.
-
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server.
 
 ---
 

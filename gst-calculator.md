@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "GST Calculator | Inclusive & Exclusive Tax Tool"
+title: "GST Calculator | Tax Rates & Deductions"
 description: "Calculate Goods and Services Tax (GST) additions or reverse calculations to extract net price and tax amounts. 100% private browser tool."
 permalink: /gst-calculator
 tool_id: gst-calculator
@@ -124,7 +124,7 @@ faq:
     answer: "Yes, all GST calculations execute 100% locally inside your web browser. No invoice amounts, business rates, or customer data leave your device."
 ---
 
-# GST Calculator
+# GST Calculator - Calculate Tax Liability & Savings
 
 Calculate Goods and Services Tax (**GST**) additions or reverse calculations to extract net price and tax amounts with 100% private browser execution.
 
@@ -136,8 +136,7 @@ Goods and Services Tax (GST) is an indirect consumption tax levied on the sale o
 
 Calculating GST manually—especially reverse GST calculations from tax-inclusive prices—can lead to rounding errors and accounting discrepancies. For instance, removing an 18% GST rate from a $118 inclusive price requires dividing by 1.18 rather than multiplying by 0.18. This GST calculator supports both forward tax addition and reverse tax extraction across standard rates (such as 5%, 10%, 12%, 18%, and 28%) or custom tax percentages, ensuring fast and accurate tax calculations securely and privately.
 
-## Mathematical Formulas & Mechanics
-
+## GST Calculator Mathematical Formulas & Mechanics
 GST calculations depend on whether you are performing a forward calculation (adding GST to a net price) or a reverse calculation (extracting GST from an inclusive gross price).
 
 ### 1. Forward GST Calculation (Add GST / Net to Gross)
@@ -156,8 +155,7 @@ $$T_{gst} = A_{gross} - A_{net} = A_{gross} \times \left(\frac{r_{gst}}{100 + r_
 
 Where $A_{net}$ represents base price excluding tax, $T_{gst}$ represents calculated GST tax amount, and $A_{gross}$ represents final total price inclusive of tax.
 
-## Real-World Comparison & Benchmark Table
-
+## GST Calculator Benchmarks & Comparison Table
 | Base Input Amount | GST Tax Rate % | Calculation Mode | Net Price (Exclusive) | Calculated GST Tax | Gross Price (Inclusive) |
 |---|---|---|---|---|---|
 | **$500.00** | 5.0% | Add GST (Forward) | $500.00 | $25.00 | **$525.00** |
@@ -166,16 +164,14 @@ Where $A_{net}$ represents base price excluding tax, $T_{gst}$ represents calcul
 | **$1,000.00** | 18.0% | Remove GST (Reverse) | $847.46 | $152.54 | **$1,000.00** |
 | **$2,500.00** | 28.0% | Add GST (Forward) | $2,500.00 | $700.00 | **$3,200.00** |
 
-## Step-by-Step How-To Guide
-
+## How to Use the GST Calculator Step-by-Step
 1. **Enter Base Amount / Price**: Input monetary dollar value for base cost or gross invoice total.
 2. **Specify GST Rate Percentage**: Input statutory GST rate percentage (e.g., 5%, 10%, 12%, 18%, or 28%).
 3. **Select Calculation Mode**: Choose "Add GST (Net to Gross)" or "Remove GST (Gross to Net)".
 4. **Review Net & Gross Totals**: Analyze calculated net pre-tax price, GST tax portion, and gross total.
 5. **Apply Outputs to Invoicing & Accounting**: Transfer computed breakdown amounts into invoices or tax returns.
 
-## Frequently Asked Questions
-
+## GST Calculator Frequently Asked Questions
 ### How do you calculate GST?
 To add GST: Net Amount × (GST Rate / 100). To remove GST: Gross Amount - (Gross Amount / (1 + GST Rate / 100)).
 

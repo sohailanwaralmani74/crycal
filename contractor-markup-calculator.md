@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Contractor Markup | Interactive Online Tool"
+title: "Contractor Markup Calculator | Project Cost & Estimating"
 description: "Calculate contractor cost-plus markup percentage, gross profit margin %, client bid price, direct job costs, and overhead allocation."
 permalink: /contractor-markup-calculator
 tool_id: contractor-markup-calculator
@@ -128,11 +128,9 @@ faq:
     answer: "Direct costs include building materials, hourly field labor wages (plus payroll taxes and workers comp), subcontractor bid quotes, dumpster rentals, permit fees, and equipment rentals."
   - question: "What is a cost-plus contract?"
     answer: "A cost-plus contract is an agreement where the client pays the actual direct project costs incurred plus an agreed-upon fixed percentage markup (e.g., Cost + 15% or Cost + 20%)."
-  - question: "Is my personal data saved when using this calculator?"
-    answer: "No. All calculations run strictly inside your web browser."
 ---
 
-# Contractor Markup Calculator
+# Contractor Markup Calculator - Calculate Project Timeline & Budget
 
 Accurate bidding is the foundation of a successful construction business. Confusing **markup percentage** on costs with **profit margin percentage** on sales is one of the leading causes of contractor insolvency. Use our **Contractor Markup Calculator** to calculate cost-plus markup dollars, client bid pricing, gross profit margin %, and overhead expense recovery.
 
@@ -189,8 +187,7 @@ The table below illustrates client bid pricing, markup dollar profit, and result
 
 ---
 
-## Frequently Asked Questions
-
+## Contractor Markup Calculator Frequently Asked Questions
 ### What is the difference between markup percentage and profit margin percentage?
 Markup is the percentage added to cost to calculate bid price (e.g., $100 cost + 25% markup = $125 bid price). Profit margin is the percentage of the final bid price that represents profit (e.g., $25 profit / $125 bid price = 20% margin). Markup percentage is always higher than profit margin percentage.
 
@@ -209,5 +206,3 @@ Direct costs include building materials, hourly field labor wages (plus payroll 
 ### What is a cost-plus contract?
 A cost-plus contract is an agreement where the client pays the actual direct project costs incurred plus an agreed-upon fixed percentage markup (e.g., Cost + 15% or Cost + 20%).
 
-### Is my personal data saved when using this calculator?
-No. All calculations run strictly inside your web browser.

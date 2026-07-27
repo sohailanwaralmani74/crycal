@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Average Deal Size (ACV) Calculator"
+title: "Average Deal Size Calculator | SaaS Pipeline & Win Rate"
 description: "Calculate Average Deal Size, Average Contract Value (ACV), and sales pipeline requirements with instant, 100% private browser calculation."
 permalink: /average-deal-size-calculator
 tool_id: average-deal-size-calculator
@@ -132,7 +132,7 @@ faq:
     answer: "Yes, larger deal sizes require more executive approvals, security reviews, and legal procurement, extending sales cycles from weeks to months."
 ---
 
-# Average Deal Size & Contract Value Estimator
+# Average Deal Size Calculator - Calculate Sales Funnel Conversions
 
 Calculate Average Deal Size, Average Contract Value (ACV), total closed deal volume required to hit quota targets, and qualified sales pipeline coverage requirements.
 All calculations execute 100% privately inside your web browser with client-side execution, real-time updates, and total data privacy.
@@ -145,7 +145,7 @@ Relying on sales revenue targets without understanding underlying deal metrics c
 
 This **Average Deal Size Calculator** calculates Average Contract Value (ACV), calculates required closed-won deal counts, and models total pipeline coverage needs.
 
-### Key Benefits
+### Key Benefits of Average Deal Size Calculator
 * **Exact ACV Calculation:** Computes precise average revenue per contract closed.
 * **Quota Capacity Modeling:** Calculates exact number of closed deals required to hit annual revenue targets.
 * **Pipeline Coverage Forecasting:** Determines total dollar volume of pipeline required based on win rates.
@@ -174,8 +174,7 @@ $$\text{Pipeline Coverage Multiple} = \frac{100}{W_{\text{rate}}}$$
 
 ---
 
-## Real-World Comparison & Benchmark Table
-
+## Average Deal Size Calculator Benchmarks & Comparison Table
 The benchmark table below demonstrates deal capacity and sales pipeline coverage models for a **$1,000,000 Annual Revenue Goal**:
 
 | Market Segment | Average Deal Size (ACV) | Deals Needed ($1M Goal) | Win Rate (%) | Pipeline Multiple | Total Pipeline Required ($) |
@@ -188,8 +187,7 @@ The benchmark table below demonstrates deal capacity and sales pipeline coverage
 
 ---
 
-## Step-by-Step How-To Guide
-
+## How to Use the Average Deal Size Calculator Step-by-Step
 1. **Calculate Historical Closed Revenue:** Sum up total ARR or ACV booked from new customer contracts over the past 12 months.
 2. **Count Total Closed-Won Deals:** Count total number of unique closed-won deals signed during the same timeframe.
 3. **Compute Baseline Average Deal Size:** Divide total revenue by deal count to find your current ACV benchmark.
@@ -198,8 +196,7 @@ The benchmark table below demonstrates deal capacity and sales pipeline coverage
 
 ---
 
-## Frequently Asked Questions
-
+## Average Deal Size Calculator Frequently Asked Questions
 ### How do you calculate Average Deal Size in SaaS?
 Average Deal Size (ACV) = Total Closed Revenue / Total Number of Closed Deals. For example, $500,000 in new ARR from 25 deals equals a $20,000 Average Deal Size.
 

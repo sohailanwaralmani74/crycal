@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Rule Of 72 Calculator | Interactive Online Tool"
+title: "Rule of 72 Calculator | Compound Interest & Savings"
 description: "Estimate how long it takes to double your money using the Rule of 72. Enter your expected annual return rate to see doubling time."
 permalink: /rule-of-72-calculator
 tool_id: rule-of-72
@@ -119,12 +119,10 @@ faq:
     answer: "The formula is: Years to Double = 72 ÷ Annual Rate. For example, at 8% return: 72 ÷ 8 = 9 years. The exact formula is: t = ln(2) / ln(1 + r)."
   - question: "Can I use this calculator for any rate?"
     answer: "Yes. Use it for stocks, bonds, savings accounts, or any investment with a fixed annual return rate. The calculator works for any positive rate."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server."
 
 ---
 
-# Rule Of 72 Calculator - Calculate Rule Of 72
+# Rule of 72 Calculator - Project Wealth Accumulation & Yield
 
 Use this Rule of 72 calculator to estimate how long it takes to double your money. Enter your expected annual return rate to see the doubling time, or enter a target time to find the required rate. Learn the Rule of 72 formula and see your investment growth visualised.
 
@@ -170,8 +168,7 @@ The Rule of 72 is most accurate for rates between 6% and 10%. This calculator sh
 
 ---
 
-## How to Use This Tool
-
+## How to Use the Rule of 72 Calculator
 1.  Select your **account currency** from the picker in the site header.
 2.  Enter your **annual return rate** (e.g., 7 for 7%).
 3.  Set a **target time** (optional) — enter a time in years to find the required rate. Leave at 0 to calculate doubling time.
@@ -180,8 +177,7 @@ The Rule of 72 is most accurate for rates between 6% and 10%. This calculator sh
 
 ---
 
-## Frequently Asked Questions
-
+## Rule of 72 Calculator Frequently Asked Questions
 ### What is the Rule of 72?
 The Rule of 72 is a quick formula to estimate how long it takes for an investment to double at a fixed annual rate of return. Divide 72 by the annual rate to get the approximate number of years.
 
@@ -193,9 +189,6 @@ The formula is: Years to Double = 72 ÷ Annual Rate. For example, at 8% return: 
 
 ### Can I use this calculator for any rate?
 Yes. Use it for stocks, bonds, savings accounts, or any investment with a fixed annual return rate. The calculator works for any positive rate.
-
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server.
 
 ---
 

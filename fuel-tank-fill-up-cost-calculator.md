@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Fuel Tank Fill Up Cost | Interactive Online Tool"
+title: "Fuel Tank Fill Up Cost Calculator | Gas Mileage & MPG Economy"
 description: "Calculate the exact cost to fill your gas tank based on total tank size in gallons, current fuel gauge level, fuel grade, and price per gallon."
 permalink: /fuel-tank-fill-up-cost-calculator
 tool_id: fuel-tank-fill-up-cost-calculator
@@ -137,7 +137,7 @@ faq:
 
 ---
 
-# Fuel Tank Fill Up Cost Calculator
+# Fuel Tank Fill Up Cost Calculator - Calculate Fuel Consumption & Trip Cost
 
 Calculate the total cost to fill your gas tank based on total tank size in gallons, current fuel gauge level, fuel grade, and price per gallon.
 
@@ -228,8 +228,7 @@ $$\text{Fill Cost} = \text{Gallons Needed} \times \text{Effective Price Per Gall
 
 ---
 
-## Step-by-Step Guide
-
+## Step-by-Step Fuel Tank Fill Up Cost Calculator Guide
 ### Step 1: Input Tank Capacity
 Enter total fuel tank capacity in gallons from your car's manual.
 
@@ -244,8 +243,7 @@ Review exact gallons needed, total money required to fill, and range miles added
 
 ---
 
-## Frequently Asked Questions
-
+## Fuel Tank Fill Up Cost Calculator Frequently Asked Questions
 ### How do I find my vehicle's total gas tank capacity?
 Check your vehicle's owner's manual under 'Capacities' or search your car's year, make, and model specs online. Most sedans hold 14.5 to 16 gallons, while trucks hold 24 to 36 gallons.
 
@@ -264,5 +262,5 @@ No! Topping off overfills your tank into the vapor recovery system (charcoal can
 ### How many miles can I drive when the low fuel light comes on?
 Most low fuel warning lights illuminate when 1.5 to 2.5 gallons remain in the tank, giving you roughly 30 to 50 miles of reserve range.
 
-### Is this calculator private?
+### Is the Fuel Tank Fill Up Cost Calculator private?
 Yes, all data processing takes place strictly inside your browser.

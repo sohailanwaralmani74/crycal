@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Life Insurance | Interactive Online Tool"
+title: "Life Insurance Calculator | Insurance Policy & Coverage"
 description: "Estimate how much life insurance coverage you need. Calculate income replacement, debt coverage, final expenses, and more."
 permalink: /life-insurance-calculator
 tool_id: life-insurance
@@ -201,12 +201,10 @@ faq:
     answer: "Inflation reduces the purchasing power of a fixed payout over time. This calculator adjusts for inflation using the rate you provide."
   - question: "Should I include my spouse's income in the calculation?"
     answer: "Yes — if your spouse works, their income can reduce the amount of coverage needed. Enter their income to get a more accurate estimate."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server."
 
 ---
 
-# Life Insurance Calculator
+# Life Insurance Calculator - Calculate Premium Cost & Coverage Need
 
 Use this life insurance calculator to estimate how much coverage you need to protect your family. Enter your income, debts, final expenses, children's education costs, and existing savings — the tool shows your total insurance need and recommended coverage. Whether you're buying term life, whole life, or reviewing your existing policy, this life insurance needs calculator gives you a clear starting point.
 
@@ -258,8 +256,7 @@ Where:
 
 ---
 
-## Frequently Asked Questions
-
+## Life Insurance Calculator Frequently Asked Questions
 ### How much life insurance do I need?
 The amount depends on your income, debts, final expenses, and dependents. This life insurance calculator gives you an estimate based on the DIME method (Debt, Income, Mortgage, Education).
 
@@ -274,9 +271,6 @@ Inflation reduces the purchasing power of a fixed payout over time. This calcula
 
 ### Should I include my spouse's income in the calculation?
 Yes — if your spouse works, their income can reduce the amount of coverage needed. Enter their income to get a more accurate estimate.
-
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server.
 
 ---
 

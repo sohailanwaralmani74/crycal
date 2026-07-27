@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Mortar Calculator | Brick & CMU Block Mortar Bags"
+title: "Mortar Calculator | Concrete & Masonry Estimating"
 description: "Calculate 70lb or 80lb mortar bags, total cubic feet of mortar, masonry units, and costs for brick veneer or CMU block wall construction."
 permalink: /mortar-calculator
 tool_id: mortar-calculator
@@ -159,7 +159,7 @@ faq:
     answer: "A 10% waste factor is recommended to account for joint strike scraping, board drying, and mortar board droppings."
 ---
 
-# Masonry Mortar Bag & Volume Calculator
+# Mortar Calculator - Calculate Volume, Bags & Materials
 
 Calculate 70lb or 80lb pre-mixed mortar bags, total cubic feet of wet mortar, jobsite cement and sand quantities, and material costs for brick and CMU block laying. All calculations execute 100% privately in your browser.
 
@@ -173,8 +173,7 @@ Mortar consumption varies based on unit dimensions, joint thickness (standard 3/
 
 ---
 
-## Mathematical Formulas & Mechanics
-
+## Mortar Calculator Mathematical Formulas & Mechanics
 ### 1. Base Mortar Volume ($V_{	ext{mortar\_cuft}}$)
 Empirical consumption factors per unit (for 3/8" joints):
 - Standard Modular Brick: $0.0050	ext{ cu ft}$ per brick (7.5 80lb bags per 1,000 bricks)
@@ -205,8 +204,7 @@ $$	ext{Sand (Tons)} = rac{V_{	ext{total\_cuft}} 	imes 100}{2000}$$
 
 ---
 
-## Real-World Comparison & Benchmark Table
-
+## Mortar Calculator Benchmarks & Comparison Table
 | Masonry Unit Type | Quantity | 80lb Pre-Mixed Mortar Bags (10% Waste) | Total Wet Mortar Volume (Cu Ft) | Jobsite Masonry Cement (94lb Bags) | Jobsite Masonry Sand (Tons) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Standard Modular Brick** | 500 Bricks | 4 Bags | 2.75 Cu Ft | 1 Bag | 0.14 Tons |
@@ -217,8 +215,7 @@ $$	ext{Sand (Tons)} = rac{V_{	ext{total\_cuft}} 	imes 100}{2000}$$
 
 ---
 
-## Step-by-Step How-To Guide
-
+## How to Use the Mortar Calculator Step-by-Step
 1. **Select Masonry Unit:** Choose standard modular brick, 8" CMU block, 12" CMU block, or stone veneer.
 2. **Input Unit Quantity:** Enter total bricks, blocks, or wall surface square footage.
 3. **Set Joint Thickness:** Keep standard 3/8" (0.375 in) joint thickness.
@@ -227,8 +224,7 @@ $$	ext{Sand (Tons)} = rac{V_{	ext{total\_cuft}} 	imes 100}{2000}$$
 
 ---
 
-## Frequently Asked Questions
-
+## Mortar Calculator Frequently Asked Questions
 ### How many 80lb bags of mortar do I need for 1,000 bricks?
 Laying 1,000 standard modular bricks with 3/8-inch mortar joints requires approximately 7.0 to 7.5 bags of 80lb pre-mixed masonry mortar (or about 5.0 cubic feet of wet mortar).
 

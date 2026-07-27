@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Lighting Fixture Spacing | Interactive Online Tool"
+title: "Lighting Fixture Spacing Calculator | Interior Design"
 description: "Calculate recessed downlight fixture count, grid rows and columns, fixture-to-fixture spacing, and distance from walls in feet."
 permalink: /lighting-fixture-spacing-calculator
 tool_id: lighting-fixture-spacing-calculator
@@ -142,11 +142,9 @@ faq:
     answer: "Standard architectural calculations use a Coefficient of Utilization (CU) of 0.60 to 0.70, accounting for light absorption by wall paint, furniture, and light fixtures."
   - question: "How do I prevent dark shadows in corners?"
     answer: "Ensure perimeter lights sit no further than 2 to 3 feet from corner walls and avoid placing downlights directly above ceiling fan blades to eliminate strobing effects."
-  - question: "Is my personal data saved when using this calculator?"
-    answer: "No. All calculations run strictly inside your web browser."
 ---
 
-# Lighting Fixture Spacing Calculator
+# Lighting Fixture Spacing Calculator - Calculate Dimensions, Spacing & Cut Widths
 
 Achieving even, shadow-free illumination across a room requires proper fixture placement and grid geometry. Use our **Lighting Fixture Spacing Calculator** to calculate exact recessed downlight fixture counts, row and column grid arrays, fixture-to-fixture spacing, and wall offset distances in feet.
 
@@ -205,8 +203,7 @@ The table below illustrates lighting grid layouts, fixture quantities, and spaci
 
 ---
 
-## Frequently Asked Questions
-
+## Lighting Fixture Spacing Calculator Frequently Asked Questions
 ### How far apart should recessed lights be spaced?
 A standard rule of thumb is to divide ceiling height by 2. For an 8-foot ceiling, space fixtures 4 feet apart. For a 10-foot ceiling, space fixtures 5 feet apart. In addition, wall-to-fixture distance should be exactly half of the fixture-to-fixture distance.
 
@@ -225,5 +222,3 @@ Standard architectural calculations use a Coefficient of Utilization (CU) of 0.6
 ### How do I prevent dark shadows in corners?
 Ensure perimeter lights sit no further than 2 to 3 feet from corner walls and avoid placing downlights directly above ceiling fan blades to eliminate strobing effects.
 
-### Is my personal data saved when using this calculator?
-No. All calculations run strictly inside your web browser.

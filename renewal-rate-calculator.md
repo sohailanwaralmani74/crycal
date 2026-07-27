@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Renewal Rate | Interactive Online Tool"
+title: "Renewal Rate Calculator | SaaS Churn & Retention"
 description: "Calculate the percentage of annual or multi-year contracts successfully renewed at term expiration. Evaluate gross and net contract renewals."
 permalink: /renewal-rate-calculator
 tool_id: renewal-rate-calculator
@@ -126,7 +126,7 @@ faq:
 
 ---
 
-# Renewal Rate Calculator
+# Renewal Rate Calculator - Calculate Logo Churn & Revenue Retention
 
 Calculate your **Logo Renewal Rate (%)**, **Dollar Renewal Rate (%)**, and **Non-Renewal Rate (%)** to evaluate subscription term renewal performance.
 
@@ -173,8 +173,7 @@ $$\text{Lost Renewal Revenue Value} = \text{Expiring Contracts Value} - \text{Re
 
 ---
 
-## Frequently Asked Questions
-
+## Renewal Rate Calculator Frequently Asked Questions
 ### What is Contract Renewal Rate?
 Contract Renewal Rate measures the percentage of expiring subscriptions or annual contracts that are successfully renewed by customers at the end of their term.
 

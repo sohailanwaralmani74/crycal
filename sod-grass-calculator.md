@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Sod Grass | Interactive Online Tool"
+title: "Sod Grass Calculator | Outdoor & Landscape Estimating"
 description: "Calculate sod square footage, pallet counts (450 sq ft/pallet), roll counts (10 sq ft/roll), 5% cutting waste allowance, and total sod costs."
 permalink: /sod-grass-calculator
 tool_id: sod-grass-calculator
@@ -125,11 +125,9 @@ faq:
     answer: "A single sod pallet weighs between 1,500 and 3,000 lbs depending on soil moisture content. A standard pickup truck can usually carry only one pallet at a time."
   - question: "How soon must sod be installed after delivery?"
     answer: "Sod is a perishable live plant and must be laid within 24 to 48 hours of delivery to prevent root heat damage and yellowing."
-  - question: "Is my personal data stored or transmitted?"
-    answer: "No. All calculation formulas execute directly within your web browser, preserving total privacy."
 ---
 
-# Sod Grass Calculator
+# Sod Grass Calculator - Calculate Mulch, Sod & Material Volume
 
 Calculate sod requirements in **total square feet**, determine full **pallet counts** (450 sq ft/pallet) and individual **roll counts** (10 sq ft/roll), and factor in a **5% to 10% waste buffer**.
 
@@ -177,8 +175,7 @@ $$\text{Total Material Cost} = \text{Total Sod Area} \times \text{Price per Sq F
 
 ---
 
-## Frequently Asked Questions
-
+## Sod Grass Calculator Frequently Asked Questions
 ### How many square feet of sod come on a standard pallet?
 A standard sod pallet contains 450 square feet of grass turf (usually 45 rolls measuring 2 ft x 5 ft or 171 slabs measuring 16 in x 24 in).
 
@@ -197,5 +194,3 @@ A single sod pallet weighs between 1,500 and 3,000 lbs depending on soil moistur
 ### How soon must sod be installed after delivery?
 Sod is a perishable live plant and must be laid within 24 to 48 hours of delivery to prevent root heat damage and yellowing.
 
-### Is my personal data stored or transmitted?
-No. All calculation formulas execute directly within your web browser, preserving total privacy.

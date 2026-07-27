@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Debt Snowball | Interactive Online Tool"
+title: "Debt Snowball Calculator | Debt Payoff & Elimination Strategy"
 description: "Pay off your debts faster using the debt snowball method. List your debts, add extra payments, and see your complete payoff plan."
 permalink: /debt-snowball-calculator
 tool_id: debt-snowball
@@ -25,7 +25,7 @@ inputs:
       - daily
       - monthly
 
-# Debts are added dynamically via JavaScript
+# Debt Snowball Calculator - Eliminate Debt Balances Smallest to Largest
 # Each debt has: name, balance, interestRate, minimumPayment
 
 outputs:
@@ -123,8 +123,6 @@ faq:
     answer: "The payment you were making on the paid-off debt (minimum payment + any extra) rolls to the next debt. This accelerates your payoff."
   - question: "Can I add more debts later?"
     answer: "Yes — you can add, edit, or remove debts at any time. The calculator updates instantly."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server."
 
 ---
 
@@ -171,8 +169,7 @@ The debt snowball method is a proven strategy for paying off debt. This calculat
 
 ---
 
-## Frequently Asked Questions
-
+## Debt Snowball Calculator Frequently Asked Questions
 ### What is the debt snowball method?
 The debt snowball method involves listing your debts from smallest to largest balance, paying minimums on all debts, and putting any extra money toward the smallest balance until it's paid off. Then you roll that payment to the next debt — like a snowball growing as it rolls downhill.
 
@@ -184,9 +181,6 @@ The payment you were making on the paid-off debt (minimum payment + any extra) r
 
 ### Can I add more debts later?
 Yes — you can add, edit, or remove debts at any time. The calculator updates instantly.
-
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server.
 
 ---
 

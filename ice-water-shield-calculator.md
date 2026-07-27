@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Ice Water Shield | Interactive Online Tool"
+title: "Ice Water Shield Calculator | Roofing Material Estimating"
 description: "Calculate rolls of self-adhering ice & water shield membrane needed for roof eaves (24 past interior wall code), valleys, and low-slope roof sections."
 permalink: /ice-water-shield-calculator
 tool_id: ice-water-shield-calculator
@@ -159,11 +159,9 @@ faq:
     answer: "Yes. Building codes and shingle manufacturers require a 36-inch wide strip of ice and water shield centered down all roof valley seams prior to metal flashing or shingle installation."
   - question: "Is ice & water shield required on low-slope roofs?"
     answer: "Yes. Roofs with slopes between 2:12 and 4:12 pitch require either two layers of felt underlayment or 100% coverage of self-adhering ice & water shield across the entire roof surface."
-  - question: "Is my ice & water shield calculation saved on external servers?"
-    answer: "No. All calculations execute locally in your web browser."
 ---
 
-# Ice Water Shield Calculator
+# Ice Water Shield Calculator - Calculate Shingles, Squares & Flashing
 
 Calculate exact **rolls of self-adhering ice & water shield membrane** required for roof eaves, valley seams, and low-slope roof sections in compliance with **IRC R905.1.2 ice barrier building codes**.
 
@@ -205,8 +203,7 @@ $$\text{Rolls Needed} = \left\lceil \frac{\text{Total Gross Sq Ft}}{\text{Roll S
 
 ---
 
-## Step-by-Step Installation Guidelines
-
+## Step-by-Step Ice Water Shield Calculator Installation
 1. **Clean Deck Surface**: Ensure plywood deck sheathing is dry, clean, and free of protruding nails or debris.
 2. **Apply Eave Courses**: Peel split-back release film and roll membrane parallel to eaves, extending 0.25" past drip edge metal.
 3. **Overlap End & Side Laps**: Overlap side courses by at least 3 inches and end laps by 6 inches.
@@ -215,8 +212,7 @@ $$\text{Rolls Needed} = \left\lceil \frac{\text{Total Gross Sq Ft}}{\text{Roll S
 
 ---
 
-## Frequently Asked Questions
-
+## Ice Water Shield Calculator Frequently Asked Questions
 ### What is ice & water shield?
 Ice & water shield is a self-adhering rubberized asphalt membrane installed under shingles along eaves, valleys, roof penetrations, and low-slope areas to seal around nails and prevent leaks caused by ice dams or wind-driven rain.
 
@@ -235,5 +231,3 @@ Yes. Building codes and shingle manufacturers require a 36-inch wide strip of ic
 ### Is ice & water shield required on low-slope roofs?
 Yes. Roofs with slopes between 2:12 and 4:12 pitch require either two layers of felt underlayment or 100% coverage of self-adhering ice & water shield across the entire roof surface.
 
-### Is my ice & water shield calculation saved on external servers?
-No. All calculations execute locally in your web browser.

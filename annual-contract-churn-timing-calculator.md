@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Annual Contract Churn Timing Calculator"
+title: "Annual Contract Churn Timing Calculator | SaaS Churn & Retention"
 description: "Forecast annual contract renewal cliffs, cohort churn timing, ARR impact, and non-renewal hazard rates with 100% private browser calculation."
 permalink: /annual-contract-churn-timing-calculator
 tool_id: annual-contract-churn-timing-calculator
@@ -132,7 +132,7 @@ faq:
     answer: "Logo churn measures the percentage of customer accounts lost, while ARR churn measures the dollar value lost. High-value customer churn causes disproportionate ARR loss."
 ---
 
-# Free Online Annual Contract Churn Timing Calculator
+# Annual Contract Churn Timing Calculator - Calculate Logo Churn & Revenue Retention
 
 Forecast annual contract expiration timing, renewal cliff schedules, non-renewal hazard rates, and gross ARR lost across subscription portfolios.
 All calculations process 100% privately inside your web browser with client-side execution, instant recalculations, and total data privacy.
@@ -145,7 +145,7 @@ Unlike monthly subscriptions where churn occurs continuously, annual contract ch
 
 This **Annual Contract Churn Timing Calculator** models expiration cohorts, quarterly renewal cliffs, and ARR retention forecasts to help Customer Success and Finance teams plan ahead.
 
-### Key Benefits
+### Key Benefits of Annual Contract Churn Timing Calculator
 * **Renewal Cliff Visibility:** Models contract expiration timing to highlight quarters with high churn risk.
 * **ARR Impact Breakdown:** Computes total portfolio ARR, gross ARR lost, and net retained annual revenue.
 * **Hazard Rate Analysis:** Pinpoints non-renewal spikes concentrated around 12-month contract milestones.
@@ -174,8 +174,7 @@ $$ARR_{\text{lost\_peak}} = \text{Gross ARR Lost} \times \left(\frac{C_{\text{pe
 
 ---
 
-## Real-World Comparison & Benchmark Table
-
+## Annual Contract Churn Timing Calculator Benchmarks & Comparison Table
 The benchmark reference table below demonstrates annual contract renewal cliff models for a **100 Annual Contract Portfolio ($25,000 ACV = $2,500,000 Total Portfolio ARR)**:
 
 | Target Renewal Rate | Gross Logo Churn | Contracts Churned | Annual ARR Lost | Net Retained ARR | Renewal Risk Category |
@@ -188,8 +187,7 @@ The benchmark reference table below demonstrates annual contract renewal cliff m
 
 ---
 
-## Step-by-Step How-To Guide
-
+## How to Use the Annual Contract Churn Timing Calculator Step-by-Step
 1. **Audit Contract Expiration Dates:** Group all active annual contracts by their month and quarter of expiration.
 2. **Calculate Average Contract Value:** Divide total annual recurring revenue (ARR) by total active annual contracts.
 3. **Set Historical Renewal Rate:** Input your company's historical annual contract renewal rate (typically 80% to 90%).
@@ -198,8 +196,7 @@ The benchmark reference table below demonstrates annual contract renewal cliff m
 
 ---
 
-## Frequently Asked Questions
-
+## Annual Contract Churn Timing Calculator Frequently Asked Questions
 ### Why does annual contract churn concentrate at month 12?
 Annual contracts prevent month-to-month cancellations, creating a structural 'renewal cliff' at month 12 where non-renewals manifest simultaneously.
 

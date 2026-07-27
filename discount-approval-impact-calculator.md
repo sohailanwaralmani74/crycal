@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Discount Approval Impact Calculator | SaaS Revenue Tool"
+title: "Discount Approval Impact Calculator | SaaS Pipeline & Win Rate"
 description: "Calculate the cumulative financial impact of sales discounting on ARR, revenue loss, and gross margins. 100% free and private browser execution."
 permalink: /discount-approval-impact-calculator
 tool_id: discount-approval-impact-calculator
@@ -119,11 +119,9 @@ faq:
     answer: "Most modern commission plans adjust rep payouts based on net ARR generated, penalizing reps who rely on heavy discounting rather than value selling."
   - question: "How can RevOps enforce discount governance?"
     answer: "RevOps can enforce discount tiers using automated CPQ (Configure, Price, Quote) workflows that mandate executive sign-offs for non-standard pricing."
-  - question: "Is our company pricing data stored or shared?"
-    answer: "No. All financial calculations take place strictly inside your local web browser session. No pricing or volume data is ever transmitted or logged."
 ---
 
-# Discount Approval Impact Calculator
+# Discount Approval Impact Calculator - Calculate Sales Funnel Conversions
 
 Calculate total revenue lost, ARR erosion, and margin compression caused by sales discounting across your commercial pipeline.
 Featuring multi-currency support, deal volume modeling, and 100% private browser execution so your pricing strategy remains strictly confidential.
@@ -140,8 +138,7 @@ The long-term impact of discounting extends far beyond initial contract values. 
 
 ---
 
-## Mathematical Formulas & Mechanics
-
+## Discount Approval Impact Calculator Mathematical Formulas & Mechanics
 The discount amount per individual deal contract ($D_{\text{deal}}$) is calculated as:
 
 $$D_{\text{deal}} = \text{Base Price} \times \left( \frac{\text{Discount Percentage}}{100} \right)$$
@@ -160,8 +157,7 @@ $$\text{ARR}_{\text{realized}} = P_{\text{net}} \times V = (\text{Base Price} \t
 
 ---
 
-## Real-World Comparison & Benchmark Table
-
+## Discount Approval Impact Calculator Benchmarks & Comparison Table
 The benchmark table below details the cumulative ARR loss across various discount percentages for a baseline annual contract value of **$10,000 across 50 annual deals** ($500,000 potential ARR):
 
 | Approved Discount (%) | Single Deal Discount | Net Realized Price | Total Revenue Lost (50 Deals) | Realized ARR Captured | ARR Leakage % | Approval Tier Required |
@@ -176,8 +172,7 @@ The benchmark table below details the cumulative ARR loss across various discoun
 
 ---
 
-## Step-by-Step How-To Guide
-
+## How to Use the Discount Approval Impact Calculator Step-by-Step
 1. **Select Currency**: Choose your preferred currency ($ USD, € EUR, £ GBP) from the site header.
 2. **Enter Base List Price**: Input the standard non-discounted annual price for your product or service tier.
 3. **Specify Discount Percentage**: Input the average percentage discount being requested or historically granted.
@@ -187,8 +182,7 @@ The benchmark table below details the cumulative ARR loss across various discoun
 
 ---
 
-## Frequently Asked Questions
-
+## Discount Approval Impact Calculator Frequently Asked Questions
 ### Why is tracking sales discount approval impact essential in SaaS?
 Unmonitored sales discounts compound across hundreds of contracts, permanently depressing ARR, lowering gross margins, and reducing SaaS enterprise valuation multiples.
 
@@ -207,5 +201,3 @@ Most modern commission plans adjust rep payouts based on net ARR generated, pena
 ### How can RevOps enforce discount governance?
 RevOps can enforce discount tiers using automated CPQ (Configure, Price, Quote) workflows that mandate executive sign-offs for non-standard pricing.
 
-### Is our company pricing data stored or shared?
-No. All financial calculations take place strictly inside your local web browser session. No pricing or volume data is ever transmitted or logged.

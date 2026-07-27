@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Zero To Sixty Mph Estimator | Interactive Online Tool"
+title: "Zero to Sixty Mph Estimator | Vehicle Specs & Power"
 description: "Estimate 0 to 60 mph acceleration time from horsepower, vehicle curb weight, drivetrain layout (FWD, RWD, AWD), transmission type, and tire grip."
 permalink: /zero-to-sixty-mph-estimator
 tool_id: zero-to-sixty-mph-estimator
@@ -139,7 +139,7 @@ faq:
 
 ---
 
-# Zero To Sixty Mph Estimator Calculator
+# Zero to Sixty Mph Estimator - Calculate Horsepower & Acceleration
 
 Estimate vehicle **0 to 60 mph acceleration time** in seconds based on horsepower, curb weight, drivetrain layout (FWD, RWD, AWD), transmission type, and tire grip.
 
@@ -202,8 +202,7 @@ Key performance variables:
 
 ---
 
-## Mathematical Formulas
-
+## Zero to Sixty Mph Estimator Mathematical Formulas
 ### 1. Weight-to-Power Ratio ($R_{W/P}$)
 \[
 R_{W/P} = \frac{\text{Weight}_{\text{lbs}}}{\text{Horsepower}_{\text{hp}}}
@@ -238,8 +237,7 @@ Where drivetrain multipliers ($M_{\text{drivetrain}}$) are:
 
 ---
 
-## Step-by-Step Usage Guide
-
+## Step-by-Step Zero to Sixty Mph Estimator Usage Guide
 1. **Enter Horsepower**: Input crank or total motor output horsepower rating.
 2. **Provide Curb Weight**: Input total vehicle weight in pounds.
 3. **Select Drivetrain**: Choose FWD, RWD, or AWD.
@@ -248,8 +246,7 @@ Where drivetrain multipliers ($M_{\text{drivetrain}}$) are:
 
 ---
 
-## Frequently Asked Questions
-
+## Zero to Sixty Mph Estimator Frequently Asked Questions
 ### How is 0-60 mph acceleration time estimated?
 0-60 mph acceleration depends primarily on power-to-weight ratio (hp/ton or lbs/hp) modified by traction limits (drivetrain/tires) and shift time losses (transmission type).
 

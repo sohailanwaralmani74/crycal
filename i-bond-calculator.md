@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "I Bond | Interactive Online Tool"
+title: "I Bond Calculator | Compound Interest & Savings"
 description: "Enter your purchase date, amount, and fixed rate to see your bonds redemption value and total interest earned using I Bond Calculator."
 permalink: /i-bond-calculator
 tool_id: i-bond-calculator
@@ -138,12 +138,10 @@ faq:
     answer: "I Bond inflation rates change twice a year — on May 1 and November 1 — based on the Consumer Price Index (CPI)."
   - question: "How often does interest compound on I Bonds?"
     answer: "I Bond interest is compounded semiannually. The composite rate is applied to the bond's value every six months."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. No data is sent to any server."
 
 ---
 
-# I Bond Calculator
+# I Bond Calculator - Project Wealth Accumulation & Yield
 
 Calculate the current value of your Series I Savings Bond with our free **I Bond Calculator**. Select your purchase date, enter your purchase amount and fixed rate to see your bond's redemption value, total interest earned, and composite rate — all without your data leaving your browser.
 
@@ -235,8 +233,7 @@ The tool updates instantly as you adjust any input — no "Calculate" button req
 
 ---
 
-## Frequently Asked Questions
-
+## I Bond Calculator Frequently Asked Questions
 ### What is an I Bond?
 A Series I Savings Bond (I Bond) is a U.S. government savings bond designed to protect your savings from inflation. It earns interest based on a fixed rate plus an inflation-adjusted rate that changes every six months.
 
@@ -252,5 +249,3 @@ I Bond inflation rates change twice a year — on May 1 and November 1 — based
 ### How often does interest compound on I Bonds?
 I Bond interest is compounded semiannually. The composite rate is applied to the bond's value every six months.
 
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. No data is sent to any server.

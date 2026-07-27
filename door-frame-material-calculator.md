@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Door Frame Material | Interactive Online Tool"
+title: "Door Frame Material Calculator | Window & Door Estimating"
 description: "Calculate pre-hung door jamb width, framing rough opening dimensions (RO), casing trim linear feet, and door threshold materials."
 permalink: /door-frame-material-calculator
 tool_id: door-frame-material-calculator
@@ -165,7 +165,7 @@ faq:
 
 ---
 
-# Door Frame Material Calculator
+# Door Frame Material Calculator - Calculate Dimensions & Energy Efficiency
 
 Calculate exact **pre-hung door jamb widths**, **framing rough opening dimensions (RO)**, and **casing trim linear feet** using our **Door Frame Material Calculator**. Eliminate sizing errors when ordering pre-hung doors for **2x4 framing (4-9/16" jambs)** or **2x6 exterior walls (6-9/16" jambs)**.
 
@@ -226,8 +226,7 @@ $$\text{Total Casing Linear Feet} = \text{Trim per Door} \times N_{\text{doors}}
 
 ---
 
-## Frequently Asked Questions
-
+## Door Frame Material Calculator Frequently Asked Questions
 ### What is the standard jamb width for a 2x4 wall?
 The standard pre-hung door jamb width for a 2x4 wall (3.5" stud + two 1/2" drywall sheets) is **4-9/16 inches (4.5625 in)**.
 
@@ -246,5 +245,3 @@ International Residential Code (IRC) requires at least one exterior egress door 
 ### How many linear feet of casing trim are needed for one door?
 A standard 30" x 80" interior door requires approximately **15 linear feet per side**, or **30 to 33 linear feet** of casing trim to frame both sides of the door opening (including 10% miter waste).
 
-### Is my personal data saved when using this calculator?
-No. All calculations run locally in your web browser. No door dimensions are stored.

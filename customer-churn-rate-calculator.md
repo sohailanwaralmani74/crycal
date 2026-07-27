@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Customer Churn Rate | Interactive Online Tool"
+title: "Customer Churn Rate Calculator | SaaS Churn & Retention"
 description: "Calculate your monthly and annual customer account churn rate %. Evaluate logo attrition, account retention rate, and customer lifetime duration."
 permalink: /customer-churn-rate-calculator
 tool_id: customer-churn-rate-calculator
@@ -108,7 +108,7 @@ faq:
 
 ---
 
-# Customer Churn Rate Calculator
+# Customer Churn Rate Calculator - Calculate Logo Churn & Revenue Retention
 
 Calculate your **Monthly Customer Churn Rate (%)**, **Annualized Compounding Churn Rate (%)**, and implied **Average Customer Lifetime (Months)**.
 
@@ -155,8 +155,7 @@ $$\text{Implied Customer Lifetime (Months)} = \frac{1}{\text{Monthly Churn Rate 
 
 ---
 
-## Frequently Asked Questions
-
+## Customer Churn Rate Calculator Frequently Asked Questions
 ### What is Customer Churn Rate?
 Customer Churn Rate (or logo churn rate) is the percentage of total customer accounts that cancel or fail to renew their subscription during a given period.
 

@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Sustainable Growth Rate Calculator | Interactive Online Tool"
+title: "Sustainable Growth Rate Calculator | Compound Interest & Savings"
 description: "Calculate the sustainable growth rate for any company. Sustainable Growth Rate Calculator works in browser and free."
 permalink: /sustainable-growth-rate-calculator
 tool_id: sustainable-growth-rate-calculator
@@ -166,12 +166,10 @@ faq:
     answer: "The actual growth rate is the company's real sales growth. The SGR is the maximum sustainable rate. If actual growth exceeds SGR, the company may need external financing."
   - question: "How does the sustainable growth rate formula work?"
     answer: "The sustainable growth rate formula works by multiplying ROE by the retention ratio. It shows how much a company can grow using its own earnings without external capital."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. No data is sent to any server."
 
 ---
 
-# Sustainable Growth Rate Calculator
+# Sustainable Growth Rate Calculator - Project Wealth Accumulation & Yield
 
 Calculate the sustainable growth rate (SGR) for any company with our free **Sustainable Growth Rate Calculator**. Enter ROE and retention ratio to see the maximum organic growth rate without external equity — all without your data leaving your browser.
 
@@ -229,8 +227,7 @@ The tool also provides the **sustainable growth rate example** with **formula fo
 
 ---
 
-## Frequently Asked Questions
-
+## Sustainable Growth Rate Calculator Frequently Asked Questions
 ### What is the Sustainable Growth Rate (SGR)?
 The SGR is the maximum growth rate a company can achieve without raising additional equity or increasing financial leverage, using only internally generated earnings.
 
@@ -246,5 +243,3 @@ Actual growth is real sales growth. SGR is the maximum sustainable rate. If actu
 ### How does the sustainable growth rate formula work?
 The formula works by multiplying ROE by the retention ratio, showing how much a company can grow using its own earnings without external capital.
 
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. No data is sent to any server.

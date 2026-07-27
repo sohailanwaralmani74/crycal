@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Fuel Cost Road Trip | Interactive Online Tool"
+title: "Fuel Cost Road Trip Calculator | Gas Mileage & MPG Economy"
 description: "Calculate total fuel expenses, gallons required, gas cost per person, and fill-up count for any road trip based on distance, MPG, and gas prices."
 permalink: /fuel-cost-road-trip-calculator
 tool_id: fuel-cost-road-trip-calculator
@@ -134,7 +134,7 @@ faq:
 
 ---
 
-# Fuel Cost Road Trip Calculator
+# Fuel Cost Road Trip Calculator - Calculate Fuel Consumption & Trip Cost
 
 Calculate total fuel expenses, gallons required, gas cost per passenger, and estimated fill-up stops for any road trip.
 
@@ -148,8 +148,7 @@ Using this **Fuel Cost Road Trip Calculator**, you can determine exact fuel cost
 
 ---
 
-## Calculation Flow
-
+## Fuel Cost Road Trip Calculator Calculation Flow
 <div class="flow-chart">
   <div class="flow-title">Road Trip Fuel Calculation Flow</div>
 
@@ -225,8 +224,7 @@ $$\text{Cost Per Person} = \frac{\text{Total Gas Cost}}{\text{Passenger Count}}$
 
 ---
 
-## Step-by-Step Guide
-
+## Step-by-Step Fuel Cost Road Trip Calculator Guide
 ### Step 1: Input Round-Trip Distance
 Enter the total driving distance in miles (include expected local driving at your destination).
 
@@ -241,8 +239,7 @@ Examine total gas bill, per-person share, and planned fuel stops.
 
 ---
 
-## Frequently Asked Questions
-
+## Fuel Cost Road Trip Calculator Frequently Asked Questions
 ### How do you calculate gas cost for a road trip?
 Divide total trip miles by vehicle MPG to find total gallons needed, then multiply gallons by average gas price per gallon: Total Cost = (Miles ÷ MPG) × Gas Price.
 
@@ -261,5 +258,5 @@ Adding a 10% to 15% safety buffer to your calculated gas budget accounts for une
 ### How many tank refills will I need?
 Assuming a standard 14-gallon gas tank refilled when 2 gallons remain (12 gallons per fill), divide total gallons needed by 12.
 
-### Is this calculator private?
+### Is the Fuel Cost Road Trip Calculator private?
 Yes, all data processing takes place strictly inside your browser.

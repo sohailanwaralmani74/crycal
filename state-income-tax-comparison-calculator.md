@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "State Income Tax Comparison | Relocation Tax Tool"
+title: "State Income Tax Comparison Calculator | Tax Rates & Deductions"
 description: "Compare state income tax rates, annual liabilities, and take-home pay boosts when relocating between U.S. states. 100% private browser tool."
 permalink: /state-income-tax-comparison-calculator
 tool_id: state-income-tax-comparison-calculator
@@ -124,7 +124,7 @@ faq:
     answer: "Yes, all state tax comparison calculations execute 100% locally in your browser. No income details, relocation targets, or personal data leave your device."
 ---
 
-# State Income Tax Comparison Calculator
+# State Income Tax Comparison Calculator - Calculate Tax Liability & Savings
 
 Compare annual state income tax liabilities and net relocation cash savings between U.S. states with 100% private browser execution.
 
@@ -136,8 +136,7 @@ State income tax policies vary dramatically across the United States. While high
 
 Evaluating state tax burdens involves looking beyond headline marginal rates to understand effective tax rates on your specific gross income. Additionally, when planning a interstate move, individuals must account for how state income tax savings interact with local property taxes, sales tax rates, and overall cost of living adjustments. This calculator models tax liabilities across two state jurisdictions, allowing you to quantify annual and monthly take-home pay increases securely and privately.
 
-## Mathematical Formulas & Mechanics
-
+## State Income Tax Comparison Calculator Mathematical Formulas & Mechanics
 State tax liability calculations multiply gross annual income ($I_{gross}$) by the respective effective state tax rate percentages ($\tau_1$ for current state, $\tau_2$ for destination state).
 
 ### 1. Individual State Tax Liability
@@ -156,8 +155,7 @@ $$\Delta N_{monthly} = \frac{\Delta T_{annual}}{12}$$
 
 Where $I_{gross}$ represents gross annual earnings, $\tau_1$ and $\tau_2$ represent effective state tax percentages, and $\Delta T_{annual}$ represents net cash retained annually.
 
-## Real-World Comparison & Benchmark Table
-
+## State Income Tax Comparison Calculator Benchmarks & Comparison Table
 | Gross Annual Income | Current State Effective Rate | Relocation State Rate | Current State Annual Tax | Relocation State Tax | Annual Cash Savings | Monthly Take-Home Boost |
 |---|---|---|---|---|---|---|
 | **$80,000** | 6.00% | 0.00% | $4,800 | $0 | **$4,800** | **$400.00** |
@@ -166,16 +164,14 @@ Where $I_{gross}$ represents gross annual earnings, $\tau_1$ and $\tau_2$ repres
 | **$200,000** | 10.00% | 0.00% | $20,000 | $0 | **$20,000** | **$1,666.67** |
 | **$350,000** | 11.30% | 0.00% | $39,550 | $0 | **$39,550** | **$3,295.83** |
 
-## Step-by-Step How-To Guide
-
+## How to Use the State Income Tax Comparison Calculator Step-by-Step
 1. **Enter Annual Gross Income**: Input total annual gross salary, wages, or self-employment earnings.
 2. **Input Current State Effective Tax Rate**: Enter effective state tax percentage for your current home state.
 3. **Input Relocation State Effective Tax Rate**: Enter effective state tax rate for your proposed target state (0.00% for zero-tax states).
 4. **Evaluate Annual Tax Obligations**: Review tax liabilities calculated for both state jurisdictions side-by-side.
 5. **Analyze Relocation Savings Boost**: Review net annual tax savings and monthly paycheck take-home pay improvements.
 
-## Frequently Asked Questions
-
+## State Income Tax Comparison Calculator Frequently Asked Questions
 ### Which U.S. states have zero state income tax?
 Currently, 9 U.S. states have no traditional state income tax on earned wages: Alaska, Florida, Nevada, New Hampshire (dividends/interest only), South Dakota, Tennessee, Texas, Washington, and Wyoming.
 

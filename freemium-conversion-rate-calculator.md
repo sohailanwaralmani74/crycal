@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Freemium Conversion Rate | Interactive Online Tool"
+title: "Freemium Conversion Rate Calculator | SaaS Pricing & Packaging"
 description: "Calculate paid upgrade revenue, MRR, and ARR based on your free user base size, conversion rates, and paid pricing tiers."
 permalink: /freemium-conversion-rate-calculator
 tool_id: freemium-conversion-rate-calculator
@@ -142,7 +142,7 @@ faq:
 
 ---
 
-# Freemium Conversion Rate Calculator
+# Freemium Conversion Rate Calculator - Calculate Tier Profitability & ARPU
 
 Calculate expected **Monthly Recurring Revenue (MRR)** and **Annual Recurring Revenue (ARR)** from converting free users to paid SaaS subscriptions.
 
@@ -156,8 +156,7 @@ This tool calculates how subtle shifts in conversion rates (e.g., moving from 1.
 
 ---
 
-## Key Mathematical Formulas
-
+## Key Freemium Conversion Rate Calculator Mathematical Formulas
 ### 1. Converted Paid Customers
 
 $$ \text{Paid Customers} = \text{Free User Base} \times \text{Conversion Rate \%} $$
@@ -195,8 +194,7 @@ $$ \text{RPFU} = \frac{\text{Freemium MRR}}{\text{Free User Base}} = \text{Conve
 
 ---
 
-## Frequently Asked Questions
-
+## Freemium Conversion Rate Calculator Frequently Asked Questions
 ### What is a good freemium conversion rate in SaaS?
 Industry benchmark free-to-paid conversion rates for self-serve B2B SaaS range between 2% and 5%. Developer tools and high-friction products average 1% to 2%, while product-led viral tools reach 4% to 7%.
 

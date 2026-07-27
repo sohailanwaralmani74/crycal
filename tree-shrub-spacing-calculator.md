@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Tree Shrub Spacing | Interactive Online Tool"
+title: "Tree Shrub Spacing Calculator | Outdoor & Landscape Estimating"
 description: "Calculate plant and tree counts for privacy hedge screens, windbreaks, square orchard grids, and triangular staggered landscapes based on spacing feet."
 permalink: /tree-shrub-spacing-calculator
 tool_id: tree-shrub-spacing-calculator
@@ -154,11 +154,9 @@ faq:
     answer: "Create a 3-foot radius mulch ring around each trunk. A 3-inch deep mulch ring consumes about 0.06 cubic yards of mulch per tree."
   - question: "How much do privacy hedge shrubs cost?"
     answer: "Potted 3-gallon shrubs cost $20 to $40 each, while 6-foot tall balled-and-burlapped evergreen trees cost $75 to $150 each."
-  - question: "Is my personal data saved when using this calculator?"
-    answer: "No. All calculation formulas run locally in your web browser."
 ---
 
-# Tree Shrub Spacing Calculator
+# Tree Shrub Spacing Calculator - Calculate Mulch, Sod & Material Volume
 
 Determine exact plant and tree counts, ground coverage, row arrangements, bark mulch volume, and material costs for privacy hedges and orchards with our free **Tree & Shrub Spacing Calculator**.
 
@@ -209,8 +207,7 @@ $$\text{Triangular Grid Plants} = \left( \left\lfloor \frac{\text{Length}}{\text
 
 ---
 
-## Frequently Asked Questions
-
+## Tree Shrub Spacing Calculator Frequently Asked Questions
 ### How far apart should privacy hedge trees be planted?
 Fast-growing evergreen privacy trees (like Emerald Green Arborvitae or Leyland Cypress) should be planted 3 to 6 feet apart on center for a tight visual screen. Larger shade trees require 12 to 20 feet of spacing.
 
@@ -229,5 +226,3 @@ Create a 3-foot radius mulch ring around each trunk. A 3-inch deep mulch ring co
 ### How much do privacy hedge shrubs cost?
 Potted 3-gallon shrubs cost $20 to $40 each, while 6-foot tall balled-and-burlapped evergreen trees cost $75 to $150 each.
 
-### Is my personal data saved when using this calculator?
-No. All calculation formulas run locally in your web browser.

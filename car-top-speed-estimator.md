@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Car Top Speed Estimator | Interactive Online Tool"
+title: "Car Top Speed Estimator | Vehicle Specs & Power"
 description: "Estimate theoretical maximum top speed in MPH and km/h based on wheel horsepower, drag coefficient (Cd), frontal area, air density, and rolling resistance."
 permalink: /car-top-speed-estimator
 tool_id: car-top-speed-estimator
@@ -145,7 +145,7 @@ faq:
 
 ---
 
-# Car Top Speed Estimator Calculator
+# Car Top Speed Estimator - Calculate Horsepower & Acceleration
 
 Estimate a vehicle's **theoretical aerodynamic top speed** in MPH and km/h based on wheel horsepower (whp), drag coefficient ($C_d$), frontal area, air density, and tire rolling resistance.
 
@@ -207,8 +207,7 @@ Key aerodynamic factors:
 
 ---
 
-## Mathematical Formulas
-
+## Car Top Speed Estimator Mathematical Formulas
 ### 1. Total Resistance Power Equation ($P_{\text{total}}$)
 \[
 P_{\text{total}} = \left[ \frac{1}{2} \cdot \rho \cdot \left(C_d \cdot A_{\text{m2}}\right) \cdot v^3 \right] + \left[ C_{rr} \cdot m_{\text{kg}} \cdot g \cdot v \right]
@@ -238,8 +237,7 @@ v_{\text{mph}} = v_{\text{m/s}} \times 2.23694, \quad v_{\text{km/h}} = v_{\text
 
 ---
 
-## Step-by-Step Usage Guide
-
+## Step-by-Step Car Top Speed Estimator Usage Guide
 1. **Enter Wheel Horsepower**: Input net horsepower available at the wheels (whp).
 2. **Provide Cd and Frontal Area**: Input drag coefficient ($C_d$) and frontal area (sq ft).
 3. **Set Air Density & Weight**: Provide local air density and gross vehicle weight.
@@ -247,8 +245,7 @@ v_{\text{mph}} = v_{\text{m/s}} \times 2.23694, \quad v_{\text{km/h}} = v_{\text
 
 ---
 
-## Frequently Asked Questions
-
+## Car Top Speed Estimator Frequently Asked Questions
 ### Why does doubling horsepower not double a car's top speed?
 Aerodynamic drag force increases with the square of velocity ($v^2$), which means the power required to overcome air resistance increases with the cube of velocity ($v^3$). Doubling top speed requires 8 times more horsepower ($2^3 = 8$).
 

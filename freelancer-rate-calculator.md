@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Freelancer Rate | Interactive Online Tool"
+title: "Freelancer Rate Calculator | Income & Expense Planning"
 description: "Calculate your optimal freelance hourly rate with our free Freelancer Rate Calculator."
 permalink: /freelancer-rate-calculator
 tool_id: freelancer-rate-calculator
@@ -175,12 +175,10 @@ faq:
     answer: "Yes — enter your hourly rate and the calculator will show your projected take-home income and total revenue."
   - question: "What is the difference between pre-tax income and total revenue?"
     answer: "Pre-tax income is the amount needed before taxes. Total revenue includes expenses and taxes on top of your desired income."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. No data is sent to any server."
 
 ---
 
-# Freelancer Rate Calculator
+# Freelancer Rate Calculator - Plan Monthly Income & Expenses
 
 Calculate your optimal freelance hourly rate with our free **Freelancer Rate Calculator**. Enter desired income, taxes, expenses, and billable hours to find your rate — all without your data leaving your browser.
 
@@ -202,10 +200,8 @@ This dual‑functionality makes it a powerful **gig worker rate calculator** and
 
 ---
 
-## Calculation Flow
-
-### Inputs
-
+## Freelancer Rate Calculator Calculation Flow
+### Freelancer Rate Calculator Inputs
 | Input | Description |
 |-------|-------------|
 | Desired Income | Annual income after tax (target) |
@@ -271,8 +267,7 @@ This **freelancer rate calculator** is designed for:
 
 ---
 
-## Frequently Asked Questions
-
+## Freelancer Rate Calculator Frequently Asked Questions
 ### What is a freelancer rate calculator?
 A freelancer rate calculator helps independent contractors, gig workers, and freelancers determine their optimal hourly or project rate by factoring in desired income, taxes, expenses, and non‑billable hours.
 
@@ -288,5 +283,3 @@ Yes — enter your hourly rate and the calculator will show your projected take�
 ### What is the difference between pre-tax income and total revenue?
 Pre‑tax income is the amount needed before taxes. Total revenue includes expenses and taxes on top of your desired income.
 
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. No data is sent to any server.

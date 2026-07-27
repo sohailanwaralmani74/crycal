@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Public Vs Home Ev Charging Cost | Interactive Online Tool"
+title: "Public vs Home EV Charging Cost Calculator | EV Charging & Range"
 description: "Compare residential home electricity rates ($0.14/kWh) versus public DC fast charging rates ($0.42/kWh) and calculate annual savings based on..."
 permalink: /public-vs-home-ev-charging-cost-calculator
 tool_id: public-vs-home-ev-charging-cost-calculator
@@ -144,7 +144,7 @@ faq:
 
 ---
 
-# Public Vs Home Ev Charging Cost Calculator
+# Public vs Home EV Charging Cost Calculator - Calculate Charging Time & Battery Cost
 
 Compare residential utility rates ($0.14/kWh) against commercial public charging stations ($0.42/kWh) and calculate your total annual fuel cost based on your home charging percentage.
 
@@ -207,8 +207,7 @@ Key financial insights:
 
 ---
 
-## Mathematical Formulas
-
+## Public vs Home EV Charging Cost Calculator Mathematical Formulas
 ### 1. Total Annual Energy Needed ($\text{kWh}_{\text{annual}}$)
 \[
 \text{kWh}_{\text{annual}} = \frac{\text{Miles}_{\text{annual}}}{\text{Efficiency}_{\text{mi/kWh}}}
@@ -246,8 +245,7 @@ C_{\text{mile}} = \frac{\text{Cost}_{\text{blended}}}{\text{Miles}_{\text{annual
 
 ---
 
-## Step-by-Step Usage Guide
-
+## Step-by-Step Public vs Home EV Charging Cost Calculator Usage Guide
 1. **Enter Annual Miles**: Input expected yearly driving distance (e.g. 13,000 miles).
 2. **Set EV Efficiency**: Provide vehicle efficiency rating (e.g. 3.5 mi/kWh).
 3. **Input Electricity Rates**: Enter home utility rate ($0.14/kWh) and public charger rate ($0.42/kWh).
@@ -256,8 +254,7 @@ C_{\text{mile}} = \frac{\text{Cost}_{\text{blended}}}{\text{Miles}_{\text{annual
 
 ---
 
-## Frequently Asked Questions
-
+## Public vs Home EV Charging Cost Calculator Frequently Asked Questions
 ### Why is public DC fast charging so much more expensive than home charging?
 Public station operators must recoup high commercial demand charges, multi-million dollar transformer hardware installations, network software maintenance, and land lease costs.
 

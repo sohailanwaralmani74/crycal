@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Gravel Driveway | Interactive Online Tool"
+title: "Gravel Driveway Calculator | Outdoor & Landscape Estimating"
 description: "Calculate gravel driveway volume in cubic yards, weight in tons (1.4 tons/yd), depth in inches, and total delivered gravel material cost."
 permalink: /gravel-driveway-calculator
 tool_id: gravel-driveway-calculator
@@ -144,11 +144,9 @@ faq:
     answer: "A standard single-car driveway should be 10 to 12 feet wide. A double-car driveway should be 20 to 24 feet wide."
   - question: "How much does a ton of driveway gravel cost delivered?"
     answer: "Driveway gravel costs $25 to $50 per ton depending on aggregate type, quarry distance, and delivery fees. Total installed cost ranges from $1.50 to $3.00 per square foot."
-  - question: "Is my personal data saved anywhere?"
-    answer: "No. All calculations run locally in your web browser."
 ---
 
-# Gravel Driveway Calculator
+# Gravel Driveway Calculator - Calculate Mulch, Sod & Material Volume
 
 Determine exact aggregate quantities for installing or resurfacing a residential driveway using our **Gravel Driveway Calculator**. Calculate **cubic yards**, **weight in tons** (1.4 tons/yd density), **gravel depth**, and total delivered cost.
 
@@ -203,8 +201,7 @@ The table below outlines aggregate requirements across common driveway sizes:
 
 ---
 
-## Frequently Asked Questions
-
+## Gravel Driveway Calculator Frequently Asked Questions
 ### How many tons of gravel do I need for a 50 ft by 12 ft driveway at 4 inches deep?
 A 50 ft × 12 ft driveway (600 sq ft) at 4 inches deep requires 7.41 cubic yards of gravel. At a standard crushed stone density of 1.40 tons per yard, you will need 10.37 tons.
 
@@ -223,5 +220,3 @@ A standard single-car driveway should be 10 to 12 feet wide. A double-car drivew
 ### How much does a ton of driveway gravel cost delivered?
 Driveway gravel costs $25 to $50 per ton depending on aggregate type, quarry distance, and delivery fees. Total installed cost ranges from $1.50 to $3.00 per square foot.
 
-### Is my personal data saved anywhere?
-No. All calculations run locally in your web browser.

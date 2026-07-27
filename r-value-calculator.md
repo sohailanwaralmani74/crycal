@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "R Value | Interactive Online Tool"
+title: "R Value Calculator | HVAC & Insulation Sizing"
 description: "Calculate total assembly effective R-value, U-factor, stud thermal bridging loss, and insulation thermal performance."
 permalink: /r-value-calculator
 tool_id: r-value-calculator
@@ -144,11 +144,9 @@ faq:
     answer: "US IECC building energy codes typically require R-13 to R-20 cavity insulation, or R-13 cavity insulation plus R-5 continuous exterior rigid foam insulation depending on climate zone."
   - question: "Does this calculator account for indoor and outdoor air films?"
     answer: "Yes, standard indoor wall surface air film (R-0.68) and outdoor air film (R-0.17) are included in total assembly effective R-value calculations."
-  - question: "Is my custom insulation data stored or sent anywhere?"
-    answer: "No. All calculation logic runs strictly inside your local web browser environment."
 ---
 
-# R Value Calculator
+# R Value Calculator - Calculate BTU Load & R-Value Insulation
 
 Calculate total assembly effective thermal R-value, overall U-factor, wood/steel stud thermal bridging losses, and envelope insulation efficiency.
 
@@ -208,8 +206,7 @@ $$\text{Thermal Efficiency (\%)} = \frac{R_{\text{eff}}}{R_{\text{nominal\_total
 
 ---
 
-## Frequently Asked Questions
-
+## R Value Calculator Frequently Asked Questions
 ### What is R-value in building insulation?
 R-value measures thermal resistance to heat flow. Higher R-values indicate greater insulating power. Effective R-value accounts for structural studs that conduct heat through thermal bridging.
 
@@ -228,5 +225,3 @@ US IECC building energy codes typically require R-13 to R-20 cavity insulation, 
 ### Does this calculator account for indoor and outdoor air films?
 Yes, standard indoor wall surface air film (R-0.68) and outdoor air film (R-0.17) are included in total assembly effective R-value calculations.
 
-### Is my custom insulation data stored or sent anywhere?
-No. All calculation logic runs strictly inside your local web browser environment.

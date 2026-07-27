@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Tire Revolutions Per Mile | Interactive Online Tool"
+title: "Tire Revolutions per Mile Calculator | Tire Size & Wheel Fitment"
 description: "Calculate exact tire revolutions per mile and kilometer based on tire width, aspect ratio, rim size, and loaded tire squish deflection factor."
 permalink: /tire-revolutions-per-mile-calculator
 tool_id: tire-revolutions-per-mile-calculator
@@ -127,7 +127,7 @@ faq:
 
 ---
 
-# Tire Revolutions Per Mile Calculator
+# Tire Revolutions per Mile Calculator - Calculate Diameter & Speedometer Offset
 
 Calculate exact tire revolutions per mile, revolutions per kilometer, and loaded rolling radius with our free **Tire Revolutions Per Mile Calculator**.
 
@@ -141,12 +141,10 @@ This calculator computes exact rotation counts, incorporating real-world loaded 
 
 ---
 
-## Calculation Flow & Mathematical Formulas
-
+## Tire Revolutions per Mile Calculator Calculation Flow & Formulas
 The formula computes unloaded sidewall height, applies loaded deflection radius, and calculates rolling circumference:
 
-### Inputs & Parameters
-
+### Tire Revolutions per Mile Calculator Inputs & Parameters
 | Parameter | Unit | Description |
 | :--- | :--- | :--- |
 | **Section Width (\(W\))** | mm | Tire section width |
@@ -156,8 +154,7 @@ The formula computes unloaded sidewall height, applies loaded deflection radius,
 
 ---
 
-### Step-by-Step Formulas
-
+### Step-by-Step Tire Revolutions per Mile Calculator Formulas
 #### 1. Unloaded Sidewall & Diameter
 \[
 H_{sidewall} = \frac{W \times \frac{AR}{100}}{25.4} \quad \text{(in inches)}
@@ -197,8 +194,7 @@ N_{km} = \frac{N_{mile}}{1.609344}
 
 ---
 
-## Step-by-Step How-To Guide
-
+## How to Use the Tire Revolutions per Mile Calculator Step-by-Step
 1. **Locate Tire Size**: Read tire size code off tire sidewall (e.g., `225/50R17`).
 2. **Enter Metrics**: Input width (`225`), aspect ratio (`50`), and rim size (`17`).
 3. **Set Deflection**: Keep 3.0% for standard passenger cars or set 4.0% for heavy loaded trucks.
@@ -206,8 +202,7 @@ N_{km} = \frac{N_{mile}}{1.609344}
 
 ---
 
-## Frequently Asked Questions
-
+## Tire Revolutions per Mile Calculator Frequently Asked Questions
 ### What is tire revolutions per mile (revs/mile)?
 Tire revolutions per mile is the exact number of times a tire completes a full 360-degree rotation while traveling a distance of one mile (63,360 inches).
 

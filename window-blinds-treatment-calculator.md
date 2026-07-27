@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Window Blinds Treatment | Interactive Online Tool"
+title: "Window Blinds Treatment Calculator | Interior Design Measurements"
 description: "Calculate inside mount vs outside mount blind ordering dimensions, slat count, square footage, and custom window blind costs."
 permalink: /window-blinds-treatment-calculator
 tool_id: window-blinds-treatment-calculator
@@ -156,11 +156,9 @@ faq:
     answer: "A 60-inch tall blind with 2-inch slats contains approximately 30 horizontal slats plus bottom rail and valance components."
   - question: "How much do custom faux wood blinds cost per window?"
     answer: "Standard 2-inch faux wood blinds cost $40 to $120 per window depending on size. Custom real wood or motorized cellular shades range from $150 to $400+ per window."
-  - question: "Is my personal data saved when using this calculator?"
-    answer: "No. All calculations run strictly inside your web browser."
 ---
 
-# Window Blinds Treatment Calculator
+# Window Blinds Treatment Calculator - Calculate Dimensions, Spacing & Cut Widths
 
 Measuring windows correctly for custom blinds, shades, or shutters ensures flawless operation and light control. Use our **Window Blinds & Treatment Calculator** to calculate exact inside mount vs. outside mount ordering dimensions, horizontal slat counts, total square footage, and custom treatment costs.
 
@@ -219,8 +217,7 @@ The table below details ordering dimensions, slat counts, square footage, and cu
 
 ---
 
-## Frequently Asked Questions
-
+## Window Blinds Treatment Calculator Frequently Asked Questions
 ### What is the difference between inside mount and outside mount blinds?
 Inside mount blinds fit inside the window frame recess for a clean, built-in architectural look. Outside mount blinds mount on the wall or trim surrounding the window frame, which is ideal when window depth is shallow or to block light leaks completely.
 
@@ -239,5 +236,3 @@ A 60-inch tall blind with 2-inch slats contains approximately 30 horizontal slat
 ### How much do custom faux wood blinds cost per window?
 Standard 2-inch faux wood blinds cost $40 to $120 per window depending on size. Custom real wood or motorized cellular shades range from $150 to $400+ per window.
 
-### Is my personal data saved when using this calculator?
-No. All calculations run strictly inside your web browser.

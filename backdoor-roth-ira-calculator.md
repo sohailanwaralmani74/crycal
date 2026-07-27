@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Backdoor Roth Ira | Interactive Online Tool"
+title: "Backdoor Roth Ira Calculator | Calculation & Analysis"
 description: "Use our free Backdoor Roth IRA Calculator to determine your eligibility, calculate taxable amounts, and see the benefits of a Roth conversion."
 permalink: /backdoor-roth-ira-calculator
 tool_id: backdoor-roth-ira-calculator
@@ -169,12 +169,10 @@ faq:
     answer: "For 2024, the Roth IRA contribution limit phases out starting at $146,000 (single) and $230,000 (married joint). Above these limits, you cannot contribute directly to a Roth IRA."
   - question: "What is the 5-year rule for Roth IRA conversions?"
     answer: "Roth IRA conversions have a 5-year aging rule. If you withdraw converted funds within 5 years of the conversion, you may owe a 10% penalty on the taxable portion."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. No data is sent to any server."
 
 ---
 
-# Backdoor Roth Ira Calculator
+# Backdoor Roth Ira Calculator - Calculate & Optimize Results
 
 Determine your Backdoor Roth IRA eligibility and calculate tax implications with our free **Backdoor Roth IRA Calculator**. Enter your income, contribution amount, and existing IRA balance to see if a backdoor Roth conversion makes sense — all without your data leaving your browser.
 
@@ -237,8 +235,7 @@ If your income exceeds these limits, a Backdoor Roth IRA may be your only option
 
 ---
 
-## How to Use This Calculator
-
+## How to Use the Backdoor Roth Ira Calculator
 1. **Enter your annual income** — your Modified Adjusted Gross Income (MAGI).
 2. **Select your filing status** — Single, Married Joint, or Married Separate.
 3. **Enter your contribution amount** — the amount for the Traditional IRA.
@@ -250,8 +247,7 @@ The tool updates instantly as you adjust any input — no "Calculate" button req
 
 ---
 
-## Frequently Asked Questions
-
+## Backdoor Roth Ira Calculator Frequently Asked Questions
 ### What is a Backdoor Roth IRA?
 A Backdoor Roth IRA is a strategy for high-income earners who exceed the Roth IRA income limits to contribute to a Roth IRA by converting a Traditional IRA.
 
@@ -267,5 +263,3 @@ For 2024, the Roth IRA contribution limit phases out starting at $146,000 (singl
 ### What is the 5-year rule for Roth IRA conversions?
 Roth IRA conversions have a 5-year aging rule. If you withdraw converted funds within 5 years, you may owe a 10% penalty on the taxable portion.
 
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. No data is sent to any server.

@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Spackle Patching Compound | Interactive Online Tool"
+title: "Spackle Patching Compound Calculator | Drywall & Paint Estimating"
 description: "Calculate spackle tub volume, pints/quarts, container count, and sanding block supplies for wall hole repairs, anchor dents, and drywall touch-ups."
 permalink: /spackle-patching-compound-calculator
 tool_id: spackle-patching-compound-calculator
@@ -150,11 +150,9 @@ faq:
     answer: "Yes. Raw spackle is porous and will absorb paint unevenly, causing shiny or dull spots ('flashing'). Apply 1 coat of drywall primer or self-priming paint over patches."
   - question: "How much does a tub of spackle cost?"
     answer: "An 8 fl oz tub costs $4 to $6, a 16 fl oz pint tub costs $7 to $11, and a 32 fl oz quart tub costs $12 to $18 at hardware stores."
-  - question: "Is my personal data saved when using this calculator?"
-    answer: "No. All logic operates locally in your browser."
 ---
 
-# Spackle Patching Compound Calculator
+# Spackle Patching Compound Calculator - Calculate Paint Coverage & Sheet Count
 
 Estimate spackle volume in fluid ounces, pints, quarts, container tub counts, and sanding supplies for wall hole repairs with our free **Spackle & Patching Compound Calculator**.
 
@@ -206,8 +204,7 @@ $$\text{Tubs Needed} = \left\lceil \frac{\text{Total Vol (fl oz)}}{\text{Contain
 
 ---
 
-## Frequently Asked Questions
-
+## Spackle Patching Compound Calculator Frequently Asked Questions
 ### How much spackle do I need for nail holes?
 A single nail hole consumes less than 0.05 fluid ounces of spackle. A standard 8 fl oz half-pint tub of spackle will easily repair 150 to 200 small nail holes.
 
@@ -226,5 +223,3 @@ Yes. Raw spackle is porous and will absorb paint unevenly, causing shiny or dull
 ### How much does a tub of spackle cost?
 An 8 fl oz tub costs $4 to $6, a 16 fl oz pint tub costs $7 to $11, and a 32 fl oz quart tub costs $12 to $18 at hardware stores.
 
-### Is my personal data saved when using this calculator?
-No. All logic operates locally in your browser.

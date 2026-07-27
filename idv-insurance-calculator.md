@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Idv Insurance | Interactive Online Tool"
+title: "IDV Insurance Calculator | Insurance Policy & Coverage"
 description: "Calculate your cars Insured Declared Value (IDV) for insurance purposes. Enter your vehicles ex-showroom price, registration year, and depreciation rate."
 permalink: /idv-calculator
 tool_id: idv-calculator
@@ -149,12 +149,10 @@ faq:
     answer: "Depreciation rates vary by country and insurer. In India, IRDAI sets rates from 5% (under 6 months) to 50% (over 5 years)."
   - question: "Why does IDV matter?"
     answer: "Your IDV determines your premium and your payout in case of total loss. A higher IDV means higher premium but better coverage."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. No data is sent to any server."
 
 ---
 
-# Idv Insurance Calculator
+# IDV Insurance Calculator - Calculate Premium Cost & Coverage Need
 
 Calculate your car's Insured Declared Value (IDV) for insurance purposes with our free IDV calculator. Enter your ex-showroom price, registration year, and accessories cost. We auto-calculate depreciation based on vehicle age, let you override rates manually, and show you a clear breakdown—all without your data leaving your browser.
 
@@ -191,8 +189,7 @@ This exact formula powers our calculator, ensuring your results match industry-s
 
 ---
 
-## How to Use This Tool
-
+## How to Use the IDV Insurance Calculator
 1. **Select your account currency** from the picker in the site header.
 2. **Enter your ex-showroom price** — the manufacturer's listed price of your vehicle.
 3. **Select your registration year** — the year your vehicle was first registered.
@@ -204,8 +201,7 @@ The tool updates instantly as you adjust any input—no "Calculate" button requi
 
 ---
 
-## Frequently Asked Questions
-
+## IDV Insurance Calculator Frequently Asked Questions
 ### What is IDV in car insurance?
 IDV (Insured Declared Value) is the current market value of your car. It's the maximum amount your insurer will pay if your car is stolen or declared a total loss.
 
@@ -224,7 +220,7 @@ Your IDV determines your premium and your payout in case of total loss. A higher
 ### Is my financial data safe?
 Yes. Absolutely. All calculations run locally in your browser. We do not collect, store, or transmit any of your data. Your privacy is built into the tool's design.
 
-### Can I use this for any country?
+### Can I use the IDV Insurance Calculator globally?
 Yes. The tool is country-agnostic. Use your local currency via the global picker and adjust the depreciation rate to match your country's insurance rules.
 
 ---

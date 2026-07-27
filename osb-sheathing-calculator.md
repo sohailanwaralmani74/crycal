@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "OSB Roof & Wall Sheathing Calculator"
+title: "OSB Sheathing Calculator | Lumber & Framing Estimating"
 description: "Calculate 4x8 OSB panels needed for roof decks and wall framing, incorporating waste percentage, sheet thickness, and total material costs privately."
 permalink: /osb-sheathing-calculator
 tool_id: osb-sheathing-calculator
@@ -134,7 +134,7 @@ faq:
     answer: "OSB is typically 20% to 30% cheaper than CDX plywood while offering consistent density without core voids or knots."
 ---
 
-# OSB Subfloor, Wall & Roof Sheathing Estimator
+# OSB Sheathing Calculator - Calculate Board Feet & Wood Quantity
 
 Calculate Orientated Strand Board (OSB) panel quantities, waste sheet allowances, and total material costs for subfloors, exterior walls, and roof decks.
 All calculations process 100% privately inside your web browser with real-time recalculations and zero tracking.
@@ -147,7 +147,7 @@ Orientated Strand Board (OSB) is the most widely used structural sheathing panel
 
 This **OSB Sheathing Calculator** computes net sheet counts, incorporates recommended waste multipliers for complex roof pitches or window cut-outs, and calculates total material expenditure.
 
-### Key Benefits
+### Key Benefits of OSB Sheathing Calculator
 * **Multi-Panel Support:** Calculates sheet counts for $4\text{x}8$, $4\text{x}9$, and $4\text{x}10$ OSB panel sizes.
 * **Smart Waste Estimation:** Account for diagonal gable cuts, window/door openings, and edge trimming.
 * **Structural Application Guidance:** Designed for wall sheathing, roof decks, and subfloor installations.
@@ -155,8 +155,7 @@ This **OSB Sheathing Calculator** computes net sheet counts, incorporates recomm
 
 ---
 
-## Mathematical Formulas & Mechanics
-
+## OSB Sheathing Calculator Mathematical Formulas & Mechanics
 ### 1. Panel Coverage Area
 Coverage area per panel ($A_{\text{panel}}$ in sq ft):
 
@@ -182,8 +181,7 @@ $$C_{\text{material}} = N_{\text{total}} \times P_{\text{sheet}}$$
 
 ---
 
-## Real-World Comparison & Benchmark Table
-
+## OSB Sheathing Calculator Benchmarks & Comparison Table
 The benchmark reference table below demonstrates OSB $4\text{x}8$ panel order requirements across common residential construction surfaces:
 
 | Project Type | Surface Area | Net 4x8 Sheets | Recommended Waste (%) | Total Sheets to Order | Estimated Cost ($18.50/Sheet) |
@@ -196,8 +194,7 @@ The benchmark reference table below demonstrates OSB $4\text{x}8$ panel order re
 
 ---
 
-## Step-by-Step How-To Guide
-
+## How to Use the OSB Sheathing Calculator Step-by-Step
 1. **Calculate Total Surface Area:** Multiply length by height for wall segments, or roof plane length by sloped rafter length for roof decks.
 2. **Select Panel Thickness:** Use $7/16"$ for walls/roofs at 24" OC, or $23/32"$ T&G for floor joists at 16" OC.
 3. **Determine Waste Percentage:** Use 5% to 8% for simple rectangular walls; use 12% to 15% for complex roofs with valleys and hips.
@@ -206,8 +203,7 @@ The benchmark reference table below demonstrates OSB $4\text{x}8$ panel order re
 
 ---
 
-## Frequently Asked Questions
-
+## OSB Sheathing Calculator Frequently Asked Questions
 ### How many square feet does a 4x8 sheet of OSB cover?
 A standard 4 ft by 8 ft OSB panel covers exactly 32 square feet.
 

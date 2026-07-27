@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Backsplash Tile | Interactive Online Tool"
+title: "Backsplash Tile Calculator | Interior Design Measurements"
 description: "Calculate kitchen backsplash square footage, tile count, box quantities, outlet cutout deductions, waste allowance, and material cost."
 permalink: /backsplash-tile-calculator
 tool_id: backsplash-tile-calculator
@@ -170,7 +170,7 @@ faq:
   - question: "Is my personal data saved when using this calculator?"
 ---
 
-# Backsplash Tile Calculator
+# Backsplash Tile Calculator - Calculate Dimensions, Spacing & Cut Widths
 
 Calculate net wall square footage, individual tile counts, full retail box orders, outlet deductions, and material costs for kitchen tile backsplashes.
 
@@ -231,8 +231,7 @@ Benchmark comparison for a standard **12 ft long × 18 in high (18 sq ft) kitche
 
 ---
 
-## Frequently Asked Questions
-
+## Backsplash Tile Calculator Frequently Asked Questions
 ### How do I measure square footage for a kitchen backsplash?
 Measure the length of your countertop in feet and the height from the counter to upper cabinets in inches. Multiply length by (height ÷ 12) to calculate wall square footage.
 
@@ -251,5 +250,3 @@ Most standard 3x6 subway tiles are packaged in boxes containing 10 to 12.5 squar
 ### How much does a kitchen backsplash cost to tile?
 Materials typically cost $5 to $15 per square foot for subway tile or $15 to $30+ per sq ft for natural marble or glass mosaic. Professional labor adds $10 to $20 per sq ft.
 
-### Is my personal data saved when using this calculator?
-No. All calculations run locally in your web browser. No data is sent or saved remotely.

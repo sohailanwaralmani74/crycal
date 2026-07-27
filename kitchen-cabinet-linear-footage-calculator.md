@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Kitchen Cabinet Linear Footage | Interactive Online Tool"
+title: "Kitchen Cabinet Linear Footage Calculator | Interior Design"
 description: "Calculate upper and base kitchen cabinet linear footage, corner lazy susan deductions, linear feet costs, and total cabinet budgeting."
 permalink: /kitchen-cabinet-linear-footage-calculator
 tool_id: kitchen-cabinet-linear-footage-calculator
@@ -144,11 +144,9 @@ faq:
     answer: "Kitchen cabinet widths increase in 3-inch increments, typically ranging from 9 inches to 36 inches wide. Base cabinet standard depth is 24 inches, while upper wall cabinet standard depth is 12 inches."
   - question: "Does linear footage include appliances like refrigerators and dishwashers?"
     answer: "No. Deduct the width of freestanding ranges (30\"), dishwashers (24\"), and refrigerators (36\") from your base cabinet wall measurements, as no cabinet box sits underneath those appliances."
-  - question: "Is my data stored when using this calculator?"
-    answer: "No. All calculations run strictly inside your client browser."
 ---
 
-# Kitchen Cabinet Linear Footage Calculator
+# Kitchen Cabinet Linear Footage Calculator - Calculate Dimensions, Spacing & Cut Widths
 
 Planning a kitchen remodel requires an accurate measurement of cabinet **linear footage**. Whether you are purchasing stock RTA (ready-to-assemble) boxes or ordering semi-custom cabinetry, suppliers quote pricing based on linear feet. Use our **Kitchen Cabinet Linear Footage Calculator** to calculate net base linear footage, upper wall cabinet footage, corner lazy susan units, and total project costs.
 
@@ -207,8 +205,7 @@ The table below illustrates linear footage and cost estimates across popular kit
 
 ---
 
-## Frequently Asked Questions
-
+## Kitchen Cabinet Linear Footage Calculator Frequently Asked Questions
 ### How is kitchen cabinet linear footage calculated?
 Linear footage is calculated by measuring the total distance in feet along the back walls where cabinets will be installed. Base cabinet linear footage and upper wall cabinet linear footage are usually calculated separately because their depths and unit prices differ.
 
@@ -227,5 +224,3 @@ Kitchen cabinet widths increase in 3-inch increments, typically ranging from 9 i
 ### Does linear footage include appliances like refrigerators and dishwashers?
 No. Deduct the width of freestanding ranges (30"), dishwashers (24"), and refrigerators (36") from your base cabinet wall measurements, as no cabinet box sits underneath those appliances.
 
-### Is my data stored when using this calculator?
-No. All calculations run strictly inside your client browser.

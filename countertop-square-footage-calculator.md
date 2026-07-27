@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Countertop Square Footage | Interactive Online Tool"
+title: "Countertop Square Footage Calculator | Interior Design"
 description: "Calculate total countertop square footage, sink and cooktop cutout deductions, slab count, waste factor, and total material cost."
 permalink: /countertop-square-footage-calculator
 tool_id: countertop-square-footage-calculator
@@ -167,7 +167,7 @@ faq:
   - question: "Is my input data saved on the server?"
 ---
 
-# Countertop Square Footage Calculator
+# Countertop Square Footage Calculator - Calculate Dimensions, Spacing & Cut Widths
 
 Calculate exact countertop square footage, sink/cooktop cutouts, required slab quantities, and total material budget for granite, quartz, marble, or solid surface kitchen counters.
 
@@ -227,8 +227,7 @@ $$\text{Slabs Needed} = \left\lceil \frac{\text{Total Order Area (sq ft)}}{\text
 
 ---
 
-## Frequently Asked Questions
-
+## Countertop Square Footage Calculator Frequently Asked Questions
 ### How do you calculate square footage for kitchen countertops?
 Multiply the countertop length in inches by the depth in inches, then divide by 144 to convert to square feet. Repeat for kitchen islands and backsplashes, then sum all areas together.
 
@@ -247,5 +246,3 @@ For 50 net square feet, adding a 15% waste factor equals 57.5 sq ft. If each sla
 ### How much does installed quartz or granite cost per square foot?
 Installed quartz ranges from $65 to $135 per square foot, while granite ranges from $50 to $100 per square foot. Prices include material, edge profiling, cutouts, and professional installation.
 
-### Is my input data saved on the server?
-No. All calculations are performed entirely in your browser. No personal data or financial inputs are uploaded or stored anywhere.

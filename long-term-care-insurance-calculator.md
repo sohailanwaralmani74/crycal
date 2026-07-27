@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Long Term Care Insurance | Interactive Online Tool"
+title: "Long Term Care Insurance Calculator | Insurance Policy & Coverage"
 description: "Estimate your long-term care insurance costs. Enter your age, base rate, coverage amount, benefit period, and factors to see your estimated premium."
 permalink: /long-term-care-insurance-calculator
 tool_id: long-term-care-insurance-calculator
@@ -227,12 +227,10 @@ faq:
     answer: "An elimination period is the waiting period before benefits begin after a qualifying event. Typical periods are 30, 60, or 90 days."
   - question: "Why add inflation protection?"
     answer: "Inflation protection increases your benefit amount over time to keep pace with rising care costs, but it also raises your premium."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. No data is sent to any server."
 
 ---
 
-# Long Term Care Insurance Calculator
+# Long Term Care Insurance Calculator - Calculate Premium Cost & Coverage Need
 
 Estimate your long‑term care insurance costs. Enter your age, base rate, coverage amount, benefit period, and factors to see your estimated premium — all without your data leaving your browser.
 
@@ -285,8 +283,7 @@ This **long term care insurance cost estimator** is designed for:
 
 ---
 
-## Frequently Asked Questions
-
+## Long Term Care Insurance Calculator Frequently Asked Questions
 ### What is long-term care insurance?
 Long‑term care insurance helps cover the cost of care services not covered by health insurance, such as nursing home care, assisted living, and in‑home care.
 
@@ -302,5 +299,3 @@ An elimination period is the waiting period before benefits begin after a qualif
 ### Why add inflation protection?
 Inflation protection increases your benefit amount over time to keep pace with rising care costs, but it also raises your premium.
 
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. No data is sent to any server.

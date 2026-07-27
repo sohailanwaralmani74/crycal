@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Deck Wood Stain | Interactive Online Tool"
+title: "Deck Wood Stain Calculator | Drywall & Paint Estimating"
 description: "Calculate deck stain gallons, quarts, and container counts for deck floor boards, railing balusters, and steps based on wood condition and coats."
 permalink: /deck-wood-stain-calculator
 tool_id: deck-wood-stain-calculator
@@ -170,11 +170,9 @@ faq:
     answer: "Quality deck stains cost between $40 and $65 per gallon for oil-based semi-transparent or acrylic solid stains from leading manufacturers."
   - question: "Can I use interior wood stain on an outdoor deck?"
     answer: "No. Outdoor deck stains contain UV blockers, mildewcides, and water-repellent resins essential for surviving rain, foot traffic, and sun exposure."
-  - question: "Is my data stored when calculating stain volume?"
-    answer: "No. All calculations are performed entirely in your browser."
 ---
 
-# Deck Wood Stain Calculator
+# Deck Wood Stain Calculator - Calculate Paint Coverage & Sheet Count
 
 Determine wood stain gallons, quart containers, and total material cost for deck floor boards, railings, balusters, and steps with our free **Deck Wood Stain Calculator**.
 
@@ -225,8 +223,7 @@ $$\text{Stain Gallons (2 Coats)} = \left( \frac{\text{Total Area}}{\text{Coverag
 
 ---
 
-## Frequently Asked Questions
-
+## Deck Wood Stain Calculator Frequently Asked Questions
 ### How many gallons of stain do I need for a 12x16 deck?
 A 12x16 deck (192 sq ft floor) with 40 ft of railing and 4 steps equals about 350 total surface sq ft. For 2 coats on pressure-treated wood, you need approximately 3.5 gallons (3 gallon pails and 2 quart cans).
 
@@ -245,5 +242,3 @@ Quality deck stains cost between $40 and $65 per gallon for oil-based semi-trans
 ### Can I use interior wood stain on an outdoor deck?
 No. Outdoor deck stains contain UV blockers, mildewcides, and water-repellent resins essential for surviving rain, foot traffic, and sun exposure.
 
-### Is my data stored when calculating stain volume?
-No. All calculations are performed entirely in your browser.

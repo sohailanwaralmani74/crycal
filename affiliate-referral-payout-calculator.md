@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Affiliate Referral Payout | Interactive Online Tool"
+title: "Affiliate Referral Payout Calculator | SaaS Marketing & Ad ROI"
 description: "Calculate monthly and annual affiliate partner commissions, recurring payout obligations, and net retained SaaS subscription revenue."
 permalink: /affiliate-referral-payout-calculator
 tool_id: affiliate-referral-payout-calculator
@@ -133,7 +133,7 @@ faq:
     answer: "Optimize your program by creating tiered commission brackets for top-producing affiliates, providing high-converting marketing banners, and using automated payout platforms like Impact or PartnerStack."
 ---
 
-# Affiliate Referral Payout Calculator
+# Affiliate Referral Payout Calculator - Calculate Customer Acquisition & Ad Return
 
 Accurately calculate affiliate partner commissions, recurring revenue share payouts, and net retained subscription revenue with our **Affiliate Referral Payout Calculator**.
 
@@ -149,8 +149,7 @@ Affiliate and partner marketing is a powerful performance-based growth channel. 
 
 ---
 
-## Mathematical Formulas
-
+## Affiliate Referral Payout Calculator Mathematical Formulas
 ### 1. Gross Revenue & Monthly Payouts
 
 $$ \text{Gross Monthly Referred Revenue} = \text{Referred Customers} \times \text{Monthly Subscription Price} $$
@@ -175,8 +174,7 @@ $$ \text{Net Retained Revenue} = \text{Gross Monthly Revenue} - \text{Monthly Af
 
 ---
 
-## Step-by-Step Guide
-
+## Step-by-Step Affiliate Referral Payout Calculator Guide
 1. **Input Active Referred Cohort**: Enter active referred paying subscribers.
 2. **Define Plan Pricing**: Set your average customer monthly subscription price.
 3. **Set Partner Terms**: Input commission percentage and duration limit (e.g. 12 months).
@@ -184,8 +182,7 @@ $$ \text{Net Retained Revenue} = \text{Gross Monthly Revenue} - \text{Monthly Af
 
 ---
 
-## Frequently Asked Questions
-
+## Affiliate Referral Payout Calculator Frequently Asked Questions
 ### What is an affiliate referral payout calculator?
 An affiliate referral payout calculator helps SaaS vendors, e-commerce stores, and partnership managers compute commission liabilities owed to affiliate partners.
 

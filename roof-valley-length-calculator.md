@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Roof Valley Length | Interactive Online Tool"
+title: "Roof Valley Length Calculator | Roofing Material Estimating"
 description: "Calculate roof valley rafter lengths, 3D pitch multiplier factors, and W-valley metal flashing linear feet for intersecting roof gables."
 permalink: /roof-valley-length-calculator
 tool_id: roof-valley-length-calculator
@@ -143,11 +143,9 @@ faq:
     answer: "Open valleys feature exposed W-profile metal flashing along the valley center line, providing superior water runoff and debris shedding. Closed valleys weave shingles across the intersection without visible metal."
   - question: "Can I use this calculator for unequal roof pitches?"
     answer: "Yes. The calculator uses exact 3D vector geometry: M_v = √(1 + (P_major / 12)² + (P_minor / 12)²) to solve both equal and intersecting unequal pitch roof intersections."
-  - question: "Is my roofing calculation saved on external servers?"
-    answer: "No. All calculation logic runs strictly inside your web browser locally."
 ---
 
-# Roof Valley Length Calculator
+# Roof Valley Length Calculator - Calculate Shingles, Squares & Flashing
 
 Calculate exact **roof valley rafter lengths**, 3D pitch multiplier factors, overhang tail extensions, and **W-valley metal flashing linear feet** for intersecting roof gables.
 
@@ -197,8 +195,7 @@ $$\text{W-Valley Flashing Needed (ft)} = \text{Total Valley Length} \times \left
 
 ---
 
-## Frequently Asked Questions
-
+## Roof Valley Length Calculator Frequently Asked Questions
 ### What is a roof valley rafter?
 A roof valley rafter is an inclined framing member located at the internal intersection of two sloped roof planes. It supports jack rafters from both roof slopes and channels rainwater down toward the eave gutter.
 
@@ -217,5 +214,3 @@ Open valleys feature exposed W-profile metal flashing along the valley center li
 ### Can I use this calculator for unequal roof pitches?
 Yes. The calculator uses exact 3D vector geometry: M_v = √(1 + (P_major / 12)² + (P_minor / 12)²) to solve both equal and intersecting unequal pitch roof intersections.
 
-### Is my roofing calculation saved on external servers?
-No. All calculation logic runs strictly inside your web browser locally.

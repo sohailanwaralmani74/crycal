@@ -1,6 +1,6 @@
 ---
 layout: "tool"
-title: "Unit Contribution Calculator"
+title: "Unit Contribution Calculator | SaaS Unit Economics & CAC"
 description: "Calculate unit contribution margin by SMB vs Mid-Market vs Enterprise customer segments."
 permalink: "/unit-contribution-calculator"
 tool_id: "unit-contribution-calculator"
@@ -136,11 +136,9 @@ faq:
     a: "SMB accounts rely on self-serve automated infrastructure with low manual support overhead."
   - q: "How can teams optimize low-margin segments?"
     a: "Automate customer support workflows and restructure cloud hosting allocation."
-  - q: "Is data stored remotely?"
-    a: "No. All calculations run strictly in your browser."
 ---
 
-# Calculate Unit Contribution Margin
+# Unit Contribution Calculator - Calculate LTV, CAC & Payback Ratio
 
 Calculate unit contribution margin by SMB vs Mid-Market vs Enterprise customer segments. Use our free **Unit Contribution Calculator** to evaluate your SaaS business performance and make data-driven growth decisions — without any data leaving your browser.
 
@@ -152,24 +150,21 @@ Unit contribution analysis across customer segments identifies which plan tier g
 
 Having accurate, real-time insights into this metric helps SaaS founders, CFOs, and growth teams optimize capital allocation, protect operating runway, and achieve top-tier venture scalability.
 
-## Mathematical Formula & Derivation
-
+## Unit Contribution Calculator Formula & Derivation
 The mathematical derivation for this financial metric is expressed as:
 
 $$\text{Unit Contribution (\$)} = \text{ARPU} - \text{Monthly COGS}$$ \n$$\text{Unit Margin \%} = \frac{\text{ARPU} - \text{Monthly COGS}}{\text{ARPU}} \times 100\%$$
 
 Where all input values are evaluated over a standardized monthly or annual accounting period.
 
-## Real-World SaaS Benchmark Comparison
-
+## Unit Contribution Calculator SaaS Benchmarks
 | Customer Segment | Target Monthly ARPU | Target Unit Margin % | Primary Overhead |
 | --- | --- | --- | --- |
 | SMB | $30 - $150 | 80% - 85% | Automated Infrastructure |
 | Mid-Market | $300 - $1,500 | 75% - 82% | Dedicated Account Managers |
 | Enterprise | $2,000 - $10,000+ | 82% - 88% | Custom SLAs & Security Integration |
 
-## Step-by-Step Calculation Guide
-
+## Step-by-Step Unit Contribution Calculator Calculation Guide
 1. **Enter Core Financial Inputs:** Supply your monthly sales spend, user counts, ARPU, or recurring revenue figures.
 2. **Review Intermediate Outputs:** Examine calculated gross profit, churn, payback, or unit contribution scores.
 3. **Assess Benchmark Ratings:** Compare your results against SaaS industry standards to identify growth bottlenecks.
@@ -177,8 +172,7 @@ Where all input values are evaluated over a standardized monthly or annual accou
 
 ---
 
-## Frequently Asked Questions
-
+## Unit Contribution Calculator Frequently Asked Questions
 ### What is Unit Contribution by Segment?
 Unit Contribution measures net dollar profit generated per customer account per month after subtracting direct hosting and servicing COGS for each customer tier.
 
@@ -191,5 +185,3 @@ SMB accounts rely on self-serve automated infrastructure with low manual support
 ### How can teams optimize low-margin segments?
 Automate customer support workflows and restructure cloud hosting allocation.
 
-### Is data stored remotely?
-No. All calculations run strictly in your browser.

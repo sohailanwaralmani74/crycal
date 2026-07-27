@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Blended Marketing Roi | Interactive Online Tool"
+title: "Blended Marketing Roi Calculator | SaaS Marketing & Ad ROI"
 description: "Calculate overall blended marketing ROI, total ad spend across organic, paid, social, and partner channels, and blended customer acquisition efficiency."
 permalink: /blended-marketing-roi-calculator
 tool_id: blended-marketing-roi-calculator
@@ -141,7 +141,7 @@ faq:
     answer: "Improve blended ROI by shifting budget toward high-margin organic channels, negotiating lower affiliate commission structures, and eliminating underperforming paid ad ad groups."
 ---
 
-# Blended Marketing Roi Calculator
+# Blended Marketing Roi Calculator - Calculate Customer Acquisition & Ad Return
 
 Gain a comprehensive view of your entire growth engine with our **Blended Marketing ROI Calculator**. Evaluate overall Marketing Efficiency Ratio (MER), total spend, and net profit across all acquisition channels.
 
@@ -157,8 +157,7 @@ Modern customer buyer journeys involve multiple touchpoints across Google search
 
 ---
 
-## Mathematical Formulas
-
+## Blended Marketing Roi Calculator Mathematical Formulas
 ### 1. Total Blended Marketing Investment
 
 $$ \text{Total Spend} = \text{Paid Spend} + \text{Organic Spend} + \text{Social Spend} + \text{Partner Spend} $$
@@ -185,8 +184,7 @@ $$ \text{Marketing Efficiency Ratio (MER)} = \frac{\text{Total Revenue Generated
 
 ---
 
-## Step-by-Step Guide
-
+## Step-by-Step Blended Marketing Roi Calculator Guide
 1. **Consolidate Marketing Expenditures**: Aggregate ad platform receipts, SEO retainers, PR costs, and affiliate payouts.
 2. **Pull Attributed Gross Revenue**: Export total revenue closed from marketing-sourced and marketing-influenced deals.
 3. **Compute Blended Metrics**: Divide revenue by total spend to determine your company's MER.
@@ -194,8 +192,7 @@ $$ \text{Marketing Efficiency Ratio (MER)} = \frac{\text{Total Revenue Generated
 
 ---
 
-## Frequently Asked Questions
-
+## Blended Marketing Roi Calculator Frequently Asked Questions
 ### What is Blended Marketing ROI?
 Blended Marketing ROI measures total net marketing returns across all paid, organic, social, and partner channels combined, rather than evaluating channels in silos.
 

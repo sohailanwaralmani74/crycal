@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Ac Tonnage | Interactive Online Tool"
+title: "AC Tonnage Calculator | HVAC Cooling Capacity & Tonnage"
 description: "Calculate required central AC tonnage (1.5 to 5.0 tons) and BTU cooling load based on home square footage, ceiling height, climate zone, and insulation."
 permalink: /ac-tonnage-calculator
 tool_id: ac-tonnage-calculator
@@ -163,11 +163,9 @@ faq:
     answer: "Residential central air conditioners come in half-ton increments ranging from 1.5 tons (18,000 BTUs) up to 5.0 tons (60,000 BTUs). Homes needing over 5 tons require multiple AC units or zoning systems."
   - question: "How much airflow CFM is needed per ton of AC?"
     answer: "Standard central air systems require approximately 400 CFM (Cubic Feet per Minute) of blower airflow per ton of cooling. A 3-ton system requires 1,200 CFM airflow."
-  - question: "Is my personal data saved when using this calculator?"
-    answer: "No. All calculation formulas run locally in your browser."
 ---
 
-# Ac Tonnage Calculator
+# AC Tonnage Calculator - Calculate Room BTU & Tonnage Requirements
 
 Estimate required central AC tonnage (1.5 to 5.0 tons), total BTU cooling load, blower airflow CFM, and summer energy usage with our free **AC Tonnage Calculator**.
 
@@ -219,8 +217,7 @@ $$\text{Blower Airflow (CFM)} = \text{Calculated Tons} \times 400 \text{ CFM/ton
 
 ---
 
-## Frequently Asked Questions
-
+## AC Tonnage Calculator Frequently Asked Questions
 ### What is a ton of air conditioning?
 One ton of air conditioning equals 12,000 BTUs (British Thermal Units) of cooling capacity per hour. It is derived from the amount of heat required to melt one short ton (2,000 lbs) of ice in 24 hours.
 
@@ -239,5 +236,3 @@ Residential central air conditioners come in half-ton increments ranging from 1.
 ### How much airflow CFM is needed per ton of AC?
 Standard central air systems require approximately 400 CFM (Cubic Feet per Minute) of blower airflow per ton of cooling. A 3-ton system requires 1,200 CFM airflow.
 
-### Is my personal data saved when using this calculator?
-No. All calculation formulas run locally in your browser.

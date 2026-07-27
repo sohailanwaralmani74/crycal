@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Stock Split | Interactive Online Tool"
+title: "Stock Split Calculator | Compound Interest & Savings"
 description: "Use our free Stock Split Calculator to calculate your new share count and adjusted cost basis after a forward or reverse stock split."
 permalink: /stock-split-calculator
 tool_id: stock-split-calculator
@@ -121,12 +121,10 @@ faq:
     answer: "Adjusted Cost Per Share = Total Cost Basis ÷ New Shares. The total cost basis remains unchanged in a stock split."
   - question: "Does a stock split affect my total cost basis?"
     answer: "No. The total cost basis remains unchanged. Only the number of shares and the cost per share are adjusted."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. No data is sent to any server."
 
 ---
 
-# Stock Split Calculator
+# Stock Split Calculator - Project Wealth Accumulation & Yield
 
 Calculate your new share count and adjusted cost basis after a stock split with our free **Stock Split Calculator**. Enter your current shares, total cost basis, and split ratio to see your adjusted holdings — all without your data leaving your browser.
 
@@ -205,8 +203,7 @@ The tool updates instantly as you adjust any input — no "Calculate" button req
 
 ---
 
-## Frequently Asked Questions
-
+## Stock Split Calculator Frequently Asked Questions
 ### What is a stock split?
 A stock split is when a company divides its existing shares into multiple shares to increase liquidity. The total value of your investment stays the same, but the number of shares increases and the price per share decreases proportionally.
 
@@ -222,5 +219,3 @@ Adjusted Cost Per Share = Total Cost Basis ÷ New Shares. The total cost basis r
 ### Does a stock split affect my total cost basis?
 No. The total cost basis remains unchanged. Only the number of shares and the cost per share are adjusted.
 
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. No data is sent to any server.

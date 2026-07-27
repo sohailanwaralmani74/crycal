@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Mega Backdoor Roth | Interactive Online Tool"
+title: "Mega Backdoor Roth Calculator | Calculation & Analysis"
 description: "Use the Mega Backdoor Roth Calculator to find out how much extra after-tax 401(k) contribution room you have available to convert to a Roth account."
 permalink: /mega-backdoor-roth-calculator
 tool_id: mega-backdoor-roth-calculator
@@ -125,11 +125,9 @@ faq:
     answer: "Yes. Your 401(k) plan must explicitly allow after-tax contributions and either in-service withdrawals or in-plan Roth conversions for the mega backdoor Roth strategy to work."
   - question: "Are mega backdoor Roth conversions taxed?"
     answer: "The after-tax contributions themselves are not taxed again upon conversion, but any investment growth that occurred before the conversion may be subject to tax, so converting promptly minimizes any tax owed."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. No data is sent to any server."
 ---
 
-# Mega Backdoor Roth Calculator
+# Mega Backdoor Roth Calculator - Calculate & Optimize Results
 
 Use the **Mega Backdoor Roth Calculator** to find out how much extra after-tax 401(k) contribution room you have available to convert to a Roth account.
 
@@ -188,8 +186,7 @@ This **mega backdoor Roth calculator** is designed for:
 
 ---
 
-## Frequently Asked Questions
-
+## Mega Backdoor Roth Calculator Frequently Asked Questions
 ### What is a mega backdoor Roth?
 A mega backdoor Roth is a strategy where you make after-tax contributions to a 401(k) plan (beyond the regular employee deferral limit) and then convert or roll them into a Roth account, allowing for substantially larger Roth contributions than the standard IRA or 401(k) Roth limits.
 
@@ -201,8 +198,5 @@ Yes. Your 401(k) plan must explicitly allow after-tax contributions and either i
 
 ### Are mega backdoor Roth conversions taxed?
 The after-tax contributions themselves are not taxed again upon conversion, but any investment growth that occurred before the conversion may be subject to tax, so converting promptly minimizes any tax owed.
-
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. No data is sent to any server.
 
 <p class="tool-disclaimer">Not all 401(k) plans permit after-tax contributions or mega backdoor Roth conversions. Confirm plan rules with your plan administrator, and verify current IRS limits before acting on these results.</p>

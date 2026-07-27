@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Fencing Cost | Interactive Online Tool"
+title: "Fencing Cost Calculator | Outdoor & Landscape Estimating"
 description: "Calculate total installed fencing cost by linear feet, fence material (wood, vinyl, chain link, aluminum), height, gate count, and labor."
 permalink: /fencing-cost-calculator
 tool_id: fencing-cost-calculator
@@ -151,11 +151,9 @@ faq:
     answer: "Fence post holes must be dug to a depth equal to 1/3 of the total post length (or at least 6 inches below the local winter frost line), typically 24 to 36 inches deep."
   - question: "Is vinyl fencing lower maintenance than wood fencing?"
     answer: "Yes. Vinyl (PVC) fencing requires no staining, sealing, or painting and will not rot, warp, or split over time. Wood fencing requires restaining every 2 to 3 years."
-  - question: "Is my personal data saved anywhere?"
-    answer: "No. All calculations run locally in your web browser."
 ---
 
-# Fencing Cost Calculator
+# Fencing Cost Calculator - Calculate Mulch, Sod & Material Volume
 
 Calculate total installed costs for residential and commercial yard property boundaries with our **Fencing Cost Calculator**. Compare **wood**, **vinyl**, **chain link**, **aluminum**, and **composite fencing** across 4 ft, 6 ft, and 8 ft heights.
 
@@ -212,8 +210,7 @@ The table below outlines cost estimates across fence materials for a standard 15
 
 ---
 
-## Frequently Asked Questions
-
+## Fencing Cost Calculator Frequently Asked Questions
 ### How much does it cost to fence 150 linear feet of yard?
 For 150 linear feet of 6-foot fence, professional installation costs approx. $3,900 to $4,800 for pressure-treated wood ($26/ft avg), $5,100 to $6,300 for white vinyl ($34/ft avg), and $2,700 to $3,300 for chain link ($18/ft avg).
 
@@ -232,5 +229,3 @@ Fence post holes must be dug to a depth equal to 1/3 of the total post length (o
 ### Is vinyl fencing lower maintenance than wood fencing?
 Yes. Vinyl (PVC) fencing requires no staining, sealing, or painting and will not rot, warp, or split over time. Wood fencing requires restaining every 2 to 3 years.
 
-### Is my personal data saved anywhere?
-No. All calculations run locally in your web browser.

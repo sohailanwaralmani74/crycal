@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Home Ev Charger Payback | Interactive Online Tool"
+title: "Home EV Charger Payback Calculator | EV Charging & Range"
 description: "Calculate the payback period in months and 5-year savings for installing a Level 2 home EV charger versus using public charging stations."
 permalink: /home-ev-charger-payback-calculator
 tool_id: home-ev-charger-payback-calculator
@@ -163,7 +163,7 @@ faq:
 
 ---
 
-# Home Ev Charger Payback Calculator
+# Home EV Charger Payback Calculator - Calculate Charging Time & Battery Cost
 
 Calculate the financial return on investment (ROI), payback period in months, and 5-year savings for installing a Level 2 home charger versus relying on public stations.
 
@@ -225,8 +225,7 @@ Key benefits of home Level 2 installation:
 
 ---
 
-## Mathematical Formulas
-
+## Home EV Charger Payback Calculator Mathematical Formulas
 ### 1. Net Equipment & Installation Outlay ($\text{Cost}_{\text{net}}$)
 \[
 \text{Cost}_{\text{net}} = \text{Cost}_{\text{hardware}} + \text{Cost}_{\text{install}} - \text{Rebates}
@@ -260,8 +259,7 @@ T_{\text{payback}} = \frac{\text{Cost}_{\text{net}}}{S_{\text{monthly}}}
 
 ---
 
-## Step-by-Step Usage Guide
-
+## Step-by-Step Home EV Charger Payback Calculator Usage Guide
 1. **Enter Hardware & Labor**: Input the purchase price of your Level 2 wall charger and electrician quotes.
 2. **Apply Rebates**: Subtract any state incentives, federal tax credits (Section 30C), or local electric utility rebates.
 3. **Set Electric Rates**: Enter your home residential power rate ($/kWh) and typical local public fast charging rate ($/kWh).
@@ -270,8 +268,7 @@ T_{\text{payback}} = \frac{\text{Cost}_{\text{net}}}{S_{\text{monthly}}}
 
 ---
 
-## Frequently Asked Questions
-
+## Home EV Charger Payback Calculator Frequently Asked Questions
 ### How long does it take for a home EV charger to pay for itself?
 For an average driver traveling 1,100 miles per month, a Level 2 home charger ($1,100 net installation cost) pays for itself in 10 to 14 months compared to using public fast chargers.
 

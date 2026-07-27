@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Tile Grout | Interactive Online Tool"
+title: "Tile Grout Calculator | Flooring Square Footage"
 description: "Calculate tile grout needed in pounds and 25 lb / 10 lb bags based on tile length, width, thickness, and grout joint width in inches."
 permalink: /tile-grout-calculator
 tool_id: tile-grout-calculator
@@ -148,11 +148,9 @@ faq:
     answer: "A 10% waste factor is recommended to compensate for grout left on the float, bucket residue, and joint over-packing during wiping."
   - question: "Can I use premixed grout instead of dry powder bags?"
     answer: "Yes. Premixed grout containers are rated by coverage area (e.g. 1-gallon pails covering ~100 sq ft). Convert calculated pounds directly to pail equivalents."
-  - question: "Is my personal project data stored on external servers?"
-    answer: "No. All calculations are executed privately inside your web browser."
 ---
 
-# Tile Grout Calculator
+# Tile Grout Calculator - Calculate Tiles, Planks & Material Need
 
 Calculate the exact **grout required in pounds** and the total number of **grout bags to purchase** based on tile dimensions, tile thickness, and grout joint width with our free **Tile Grout Calculator**.
 
@@ -208,8 +206,7 @@ $$\text{Bags Required} = \lceil \frac{\text{Total Grout Weight (lbs)}}{\text{Bag
 
 ---
 
-## Frequently Asked Questions
-
+## Tile Grout Calculator Frequently Asked Questions
 ### How much grout do I need for 100 sq ft of 12x12 tiles with 1/8" joints?
 For 100 sq ft of 12x12 tile (3/8" thickness) with a 1/8" grout joint, you need approximately 10 to 12 lbs of dry grout mix (or one 25 lb bag).
 
@@ -228,5 +225,3 @@ A 10% waste factor is recommended to compensate for grout left on the float, buc
 ### Can I use premixed grout instead of dry powder bags?
 Yes. Premixed grout containers are rated by coverage area (e.g. 1-gallon pails covering ~100 sq ft). Convert calculated pounds directly to pail equivalents.
 
-### Is my personal project data stored on external servers?
-No. All calculations are executed privately inside your web browser.

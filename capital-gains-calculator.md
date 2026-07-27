@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Capital Gains | Interactive Online Tool"
+title: "Capital Gains Calculator | Tax Rates & Deductions"
 description: "Calculate your capital gains tax on stocks, real estate, crypto, and other assets. Enter your sale price, purchase price, costs, and exemptions."
 permalink: /capital-gains-calculator
 tool_id: capital-gains
@@ -207,12 +207,10 @@ faq:
     answer: "Cost basis = Purchase Price + Improvement Costs + Selling Costs. It represents your total investment in the asset."
   - question: "Can I use this for any country?"
     answer: "Yes — you enter your own tax rates and exemption amounts. This tool works for any country's capital gains tax system."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server."
 
 ---
 
-# Capital Gains Calculator
+# Capital Gains Calculator - Calculate Tax Liability & Savings
 
 Use this capital gains calculator to calculate the tax on your investment profits. Enter the sale price, purchase price, holding period, tax rates, costs, and exemptions — the tool works for any country. Whether you're selling stocks, real estate, or cryptocurrency, this capital gains tax calculator gives you an accurate estimate of your tax liability.
 
@@ -260,8 +258,7 @@ Understanding your capital gains tax is essential for investment planning. This 
 
 ---
 
-## Frequently Asked Questions
-
+## Capital Gains Calculator Frequently Asked Questions
 ### What is capital gains tax?
 Capital gains tax is a tax on the profit from the sale of an asset. It applies to stocks, real estate, crypto, and other investments.
 
@@ -271,10 +268,7 @@ Short-term capital gains are from assets held for less than the long-term thresh
 ### How is the cost basis calculated?
 Cost basis = Purchase Price + Improvement Costs + Selling Costs. It represents your total investment in the asset.
 
-### Can I use this for any country?
+### Can I use the Capital Gains Calculator globally?
 Yes — you enter your own tax rates and exemption amounts. This tool works for any country's capital gains tax system.
-
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server.
 
 ---

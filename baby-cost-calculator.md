@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Baby Cost | Interactive Online Tool"
+title: "Baby Cost Calculator | Income & Expense Planning"
 description: "Estimate first-year baby expenses including diapers, nursery gear, formula, medical care, and childcare."
 permalink: /baby-cost-calculator
 tool_id: baby-cost-calculator
@@ -121,11 +121,9 @@ faq:
     answer: "Out-of-pocket medical costs depend on your health plan's maximum annual out-of-pocket limit. Most parents meet their deductible and out-of-pocket maximum during the birth year."
   - question: "Should parents set up a Dependent Care FSA (DCFSA)?"
     answer: "Yes! A Dependent Care FSA allows you to set aside up to $5,000 per year pre-tax for eligible daycare expenses, saving $1,000+ in income taxes."
-  - question: "Is my personal financial data saved on any server?"
-    answer: "No. All calculations run locally inside your web browser. History and saved presets are stored strictly in your browser's local storage."
 ---
 
-# Baby Cost Calculator
+# Baby Cost Calculator - Plan Monthly Income & Expenses
 
 Estimate total first-year newborn expenses including daycare, diapers, nursery gear, and medical bills with our free **Baby Cost Calculator**.
 
@@ -160,8 +158,7 @@ Estimate total first-year newborn expenses including daycare, diapers, nursery g
 
 ---
 
-## Frequently Asked Questions
-
+## Baby Cost Calculator Frequently Asked Questions
 ### How much does a baby cost in the first year on average?
 On average, parents spend between $12,000 and $20,000+ during a baby's first year, with infant childcare and medical out-of-pocket expenses representing the largest portion.
 
@@ -180,5 +177,3 @@ Out-of-pocket medical costs depend on your health plan's maximum annual out-of-p
 ### Should parents set up a Dependent Care FSA (DCFSA)?
 Yes! A Dependent Care FSA allows you to set aside up to $5,000 per year pre-tax for eligible daycare expenses, saving $1,000+ in income taxes.
 
-### Is my personal financial data saved on any server?
-No. All calculations run locally inside your web browser. History and saved presets are stored strictly in your browser's local storage.

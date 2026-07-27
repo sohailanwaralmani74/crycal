@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Attic Ventilation | Interactive Online Tool"
+title: "Attic Ventilation Calculator | HVAC & Insulation Sizing"
 description: "Free online Attic Ventilation. Calculate exact building material counts, unit costs, and coverage with instant browser math and charts."
 permalink: /attic-ventilation-calculator
 tool_id: attic-ventilation-calculator
@@ -157,11 +157,9 @@ faq:
     answer: "No. Never mix continuous ridge vents with roof turtle vents, powered attic fans, or gable end vents. Mixing exhaust vent types causes short-circuiting, where air circulates between nearby roof vents without pulling hot air from the lower soffits."
   - question: "How much does attic vent installation cost?"
     answer: "Continuous ridge vent materials cost $2.50 to $4.50 per linear foot, while soffit vents cost $4 to $8 each. Professional roofing installation typically ranges from $300 to $900 for an average home."
-  - question: "Is my personal data saved when using this calculator?"
-    answer: "No. All logic operates locally in your browser."
 ---
 
-# Attic Ventilation Calculator
+# Attic Ventilation Calculator - Calculate BTU Load & R-Value Insulation
 
 Determine total Net Free Vent Area (NFVA) in square inches, soffit intake vent counts, and continuous ridge exhaust vent linear feet with our free **Attic Ventilation Calculator**.
 
@@ -219,8 +217,7 @@ $$\text{Ridge Vent Linear Feet} = \frac{\text{Exhaust NFVA (sq in)}}{\text{Ridge
 
 ---
 
-## Frequently Asked Questions
-
+## Attic Ventilation Calculator Frequently Asked Questions
 ### What is Net Free Vent Area (NFVA)?
 Net Free Vent Area (NFVA) is the total unobstructed open area through which air can pass in a vent, taking into account grilles, louvers, mesh screens, and baffles. Most vents provide 50% to 75% actual NFVA relative to their overall physical dimension.
 
@@ -239,5 +236,3 @@ No. Never mix continuous ridge vents with roof turtle vents, powered attic fans,
 ### How much does attic vent installation cost?
 Continuous ridge vent materials cost $2.50 to $4.50 per linear foot, while soffit vents cost $4 to $8 each. Professional roofing installation typically ranges from $300 to $900 for an average home.
 
-### Is my personal data saved when using this calculator?
-No. All logic operates locally in your browser.

@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Shingle | Interactive Online Tool"
+title: "Shingle Calculator | Roofing Material Estimating"
 description: "Calculate exact asphalt shingle bundles, starter strip rolls, ridge cap bundles, and waste percentages for roof replacement projects."
 permalink: /shingle-calculator
 tool_id: shingle-calculator
@@ -136,11 +136,9 @@ faq:
     answer: "A standard bundle of hip and ridge cap shingles covers approximately 25 to 33 linear feet of ridge line."
   - question: "Should I cut field shingles for starter and ridge caps?"
     answer: "While 3-tab field shingles were historically cut into starter pieces and cap shingles, modern architectural shingles require dedicated manufactured starter strips and ridge cap bundles to preserve manufacturer warranties."
-  - question: "Is my personal data saved when using this calculator?"
-    answer: "No. All calculations are processed locally in your browser."
 ---
 
-# Shingle Calculator
+# Shingle Calculator - Calculate Shingles, Squares & Flashing
 
 Calculate exact **Shingle Bundles** ($3\text{ bundles} = 1\text{ roofing square}$), starter strip rolls, hip/ridge cap bundles, and material waste percentages with our free **Shingle Calculator**.
 
@@ -186,8 +184,7 @@ $$\text{Ridge Cap Bundles} = \left\lceil \frac{\text{Total Ridge \& Hip Length (
 
 ---
 
-## Frequently Asked Questions
-
+## Shingle Calculator Frequently Asked Questions
 ### How many bundles of shingles are in a square?
 There are 3 bundles of standard architectural or 3-tab asphalt shingles per roofing square (1 square = 100 sq ft, 1 bundle = 33.33 sq ft).
 
@@ -206,5 +203,3 @@ A standard bundle of hip and ridge cap shingles covers approximately 25 to 33 li
 ### Should I cut field shingles for starter and ridge caps?
 While 3-tab field shingles were historically cut into starter pieces and cap shingles, modern architectural shingles require dedicated manufactured starter strips and ridge cap bundles to preserve manufacturer warranties.
 
-### Is my personal data saved when using this calculator?
-No. All calculations are processed locally in your browser.

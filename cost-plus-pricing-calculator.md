@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Cost Plus Pricing | Interactive Online Tool"
+title: "Cost Plus Pricing Calculator | SaaS Pricing & Packaging"
 description: "Calculate subscription plan pricing based on hosting, support, and licensing COGS plus target gross margin percentage."
 permalink: /cost-plus-pricing-calculator
 tool_id: cost-plus-pricing-calculator
@@ -154,7 +154,7 @@ faq:
 
 ---
 
-# Cost Plus Pricing Calculator
+# Cost Plus Pricing Calculator - Calculate Tier Profitability & ARPU
 
 Calculate the minimum **subscription price** required to hit your target **gross margin percentage** based on direct infrastructure, support, and licensing costs.
 
@@ -168,8 +168,7 @@ This calculator tallies your direct variable costs — hosting, customer support
 
 ---
 
-## Key Mathematical Formulas
-
+## Key Cost Plus Pricing Calculator Mathematical Formulas
 ### 1. Direct COGS per Customer
 
 $$ \text{Direct COGS} = \text{Hosting Cost} + \text{Support Cost} + \text{Licensing Cost} $$
@@ -208,8 +207,7 @@ $$ \text{Total Monthly Gross Profit} = \text{Gross Profit per Customer} \times \
 
 ---
 
-## Frequently Asked Questions
-
+## Cost Plus Pricing Calculator Frequently Asked Questions
 ### What is Cost-Plus pricing in B2B SaaS?
 Cost-Plus pricing sets a product price by adding a fixed markup or target gross margin percentage onto direct Cost of Goods Sold (COGS).
 

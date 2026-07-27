@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Bond Yield To Maturity | Interactive Online Tool"
+title: "Bond Yield to Maturity Calculator | Compound Interest & Savings"
 description: "Use the Bond Yield to Maturity Calculator to estimate the total return youll earn if you hold a bond until it matures, based on price, coupon..."
 permalink: /bond-yield-to-maturity-calculator
 tool_id: bond-yield-to-maturity-calculator
@@ -119,11 +119,9 @@ faq:
     answer: "Current yield only considers annual coupon income relative to price, while YTM also factors in any gain or loss from the difference between the purchase price and face value at maturity."
   - question: "Why would a bond trade below face value?"
     answer: "A bond trades below face value (at a discount) when its coupon rate is lower than prevailing market interest rates, making it less attractive unless priced lower to compensate investors."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. No data is sent to any server."
 ---
 
-# Bond Yield To Maturity Calculator
+# Bond Yield to Maturity Calculator - Project Wealth Accumulation & Yield
 
 Use the **Bond Yield to Maturity Calculator** to estimate the total return you'll earn if you hold a bond until it matures, based on price, coupon rate, and time to maturity.
 
@@ -194,8 +192,7 @@ This **bond yield calculator** is designed for:
 
 ---
 
-## Frequently Asked Questions
-
+## Bond Yield to Maturity Calculator Frequently Asked Questions
 ### What is yield to maturity (YTM)?
 Yield to maturity is the total annualized return an investor can expect if a bond is held until it matures, accounting for coupon payments, purchase price, and face value.
 
@@ -208,5 +205,3 @@ Current yield only considers annual coupon income relative to price, while YTM a
 ### Why would a bond trade below face value?
 A bond trades below face value (at a discount) when its coupon rate is lower than prevailing market interest rates, making it less attractive unless priced lower to compensate investors.
 
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. No data is sent to any server.

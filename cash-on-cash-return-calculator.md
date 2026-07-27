@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Cash on Cash Return Calculator | Real Estate Yield"
+title: "Cash on Cash Return Calculator | Investment & Portfolio Return"
 description: "Calculate leveraged cash-on-cash return rates and annual pre-tax cash flow for real estate investments. 100% free and private browser execution."
 permalink: /cash-on-cash-return-calculator
 tool_id: cash-on-cash-return-calculator
@@ -123,7 +123,7 @@ faq:
     answer: "Yes, 100%. All calculation algorithms execute locally inside your web browser. No property address, purchase price, or cash flow figures are transmitted or stored."
 ---
 
-# Cash on Cash Return Calculator
+# Cash on Cash Return Calculator - Calculate Return, Yield & Portfolio Risk
 
 Calculate annual pre-tax cash flow and cash-on-cash yield percentages for leveraged real estate investments with precision.
 Featuring multi-currency support, debt service deductions, and 100% private browser execution so your investment portfolio data remains confidential.
@@ -140,8 +140,7 @@ Analyzing Cash-on-Cash returns is essential when comparing competing investment 
 
 ---
 
-## Mathematical Formulas & Mechanics
-
+## Cash on Cash Return Calculator Mathematical Formulas & Mechanics
 The Net Pre-Tax Annual Cash Flow ($CF_{\text{annual}}$) is calculated by subtracting annual mortgage debt service ($DS$) from Net Operating Income ($\text{NOI}$):
 
 $$CF_{\text{annual}} = \text{NOI} - DS$$
@@ -160,8 +159,7 @@ $$T_{\text{payback}} = \frac{C_{\text{total}}}{CF_{\text{annual}}} = \frac{100}{
 
 ---
 
-## Real-World Comparison & Benchmark Table
-
+## Cash on Cash Return Calculator Benchmarks & Comparison Table
 The benchmark table below compares Cash-on-Cash yields and net cash flow across different real estate financing structures for a **$300,000 Rental Property** with $31,500 annual NOI:
 
 | Acquisition Strategy | Total Out-of-Pocket Cash | Annual Debt Service (P&I) | Annual Net Cash Flow | Cash-on-Cash Return % | Payback Period | Yield Rating |
@@ -176,8 +174,7 @@ The benchmark table below compares Cash-on-Cash yields and net cash flow across 
 
 ---
 
-## Step-by-Step How-To Guide
-
+## How to Use the Cash on Cash Return Calculator Step-by-Step
 1. **Select Currency**: Choose your preferred currency ($ USD, € EUR, £ GBP) from the site header.
 2. **Enter Out-of-Pocket Cash**: Input total initial cash deployed (down payment + closing costs + rehab costs).
 3. **Enter Net Operating Income (NOI)**: Input annual rental income remaining after deducting property taxes, insurance, repairs, and property management fees.
@@ -187,8 +184,7 @@ The benchmark table below compares Cash-on-Cash yields and net cash flow across 
 
 ---
 
-## Frequently Asked Questions
-
+## Cash on Cash Return Calculator Frequently Asked Questions
 ### What is Cash-on-Cash Return in real estate?
 Cash-on-Cash return measures the annual pre-tax cash flow earned on a rental property relative to the total out-of-pocket cash invested.
 

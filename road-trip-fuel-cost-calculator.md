@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Road Trip Fuel Cost | Interactive Online Tool"
+title: "Road Trip Fuel Cost Calculator | Road Trip Fuel & ETA"
 description: "Calculate total road trip gas cost, total gallons required, fuel cost per mile, and fair cost split per passenger for multi-waypoint road trips."
 permalink: /road-trip-fuel-cost-calculator
 tool_id: road-trip-fuel-cost-calculator
@@ -141,7 +141,7 @@ faq:
 
 ---
 
-# Road Trip Fuel Cost Calculator
+# Road Trip Fuel Cost Calculator - Calculate Drive Time & Fuel Expense
 
 Plan your next cross-country journey or weekend getaway with our free **Road Trip Fuel Cost Calculator**. Calculate total gas expenses, total gallons needed, cost per mile, and fair passenger cost splits in seconds.
 
@@ -155,12 +155,10 @@ This calculator simplifies trip budgeting by providing upfront estimates of tota
 
 ---
 
-## Calculation Flow & Mathematical Formulas
-
+## Road Trip Fuel Cost Calculator Calculation Flow & Formulas
 The calculation multiplies total trip distance by average fuel rate and splits the resulting expense:
 
-### Inputs & Parameters
-
+### Road Trip Fuel Cost Calculator Inputs & Parameters
 | Parameter | Unit | Description |
 | :--- | :--- | :--- |
 | **Leg Distance (\(D_{leg}\))** | miles | One-way distance between origin and destination |
@@ -171,8 +169,7 @@ The calculation multiplies total trip distance by average fuel rate and splits t
 
 ---
 
-### Step-by-Step Formulas
-
+### Step-by-Step Road Trip Fuel Cost Calculator Formulas
 #### 1. Total Trip Distance (\(D_{total}\))
 \[
 D_{total} = D_{leg} \times M_{trip}
@@ -211,8 +208,7 @@ C_{mile} = \frac{P_{gas}}{MPG}
 
 ---
 
-## Step-by-Step How-To Guide
-
+## How to Use the Road Trip Fuel Cost Calculator Step-by-Step
 1. **Enter Mileage**: Input your destination distance (e.g. `600 miles`) and select **Round Trip**.
 2. **Set Vehicle MPG**: Enter your car's highway fuel economy rating.
 3. **Input Gas Price**: Enter estimated average gas price along your travel route.
@@ -220,8 +216,7 @@ C_{mile} = \frac{P_{gas}}{MPG}
 
 ---
 
-## Frequently Asked Questions
-
+## Road Trip Fuel Cost Calculator Frequently Asked Questions
 ### How do you calculate road trip gas cost?
 Divide total trip miles by vehicle MPG to get total gallons needed, then multiply by average gas price per gallon.
 

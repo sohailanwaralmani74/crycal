@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Deferred Revenue | Interactive Online Tool"
+title: "Deferred Revenue Calculator | SaaS Recurring Revenue"
 description: "Calculate unearned subscription deferred revenue balances from annual upfront billings and model monthly GAAP earned revenue burn down."
 permalink: /deferred-revenue-calculator
 tool_id: deferred-revenue-calculator
@@ -119,7 +119,7 @@ faq:
 
 ---
 
-# Deferred Revenue Calculator
+# Deferred Revenue Calculator - Calculate MRR, ARR & Growth Metrics
 
 Calculate remaining Deferred Revenue balance sheet liabilities and track monthly GAAP earned revenue burn-down schedules from upfront annual subscription billings.
 
@@ -166,8 +166,7 @@ $$\text{Remaining Deferred Revenue} = \text{Upfront Annual Billing} - \text{Cumu
 
 ---
 
-## Frequently Asked Questions
-
+## Deferred Revenue Calculator Frequently Asked Questions
 ### What is Deferred Revenue in SaaS?
 Deferred revenue (or unearned revenue) is cash collected upfront from customers for subscription services that have not yet been delivered. It is listed as a short-term liability on the balance sheet.
 

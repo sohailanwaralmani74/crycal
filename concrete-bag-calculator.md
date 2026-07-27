@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Concrete Bag | Interactive Online Tool"
+title: "Concrete Bag Calculator | Concrete & Masonry Estimating"
 description: "Calculate total 60 lb and 80 lb ready-mix concrete bags required for any volume, price per bag, total cost, and waste factor."
 permalink: /concrete-bag-calculator
 tool_id: concrete-bag-calculator
@@ -131,7 +131,7 @@ faq:
   - answer: "No. All calculation logic executes locally inside your web browser."
 ---
 
-# Concrete Bag Calculator
+# Concrete Bag Calculator - Calculate Volume, Bags & Materials
 
 Calculate exact **60 lb and 80 lb Pre-Mix Concrete Bags** needed for any slab, footing, post hole, or repair job along with total material cost.
 
@@ -179,8 +179,7 @@ $$\text{Total Cost (60 lb)} = \text{60 lb Bags Needed} \times \text{Price Per 60
 
 ---
 
-## Frequently Asked Questions
-
+## Concrete Bag Calculator Frequently Asked Questions
 ### How many 80lb bags of concrete do I need for 1 cubic yard?
 You need 45 bags of 80 lb pre-mix concrete to equal 1 cubic yard (27 cubic feet) of concrete.
 
@@ -199,5 +198,3 @@ Yes, 80 lb bags almost always offer a lower price per cubic foot of concrete com
 ### When should I switch from bags to ready-mix truck delivery?
 For projects requiring more than 1 cubic yard (45 bags of 80lb concrete), ready-mix truck delivery is faster, less labor-intensive, and often cheaper.
 
-### Is my calculation data saved?
-No. All calculation logic executes locally inside your web browser.

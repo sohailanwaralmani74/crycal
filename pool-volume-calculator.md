@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Pool Volume | Interactive Online Tool"
+title: "Pool Volume Calculator | Outdoor & Landscape Estimating"
 description: "Calculate swimming pool water volume in US gallons and liters for rectangular, round, or oval pools based on dimensions and shallow/deep end depths."
 permalink: /pool-volume-calculator
 tool_id: pool-volume-calculator
@@ -133,11 +133,9 @@ faq:
     answer: "One US gallon of fresh water weighs approximately 8.34 pounds (1.0 kg per liter). A 20,000 gallon swimming pool contains over 166,800 pounds (83.4 tons) of water."
   - question: "What is the turnover rate for a swimming pool?"
     answer: "Turnover rate is the time required for a pool pump to circulate the total pool water volume through the filter system, typically recommended as 8 hours for residential pools."
-  - question: "Is my personal data saved on this site?"
-    answer: "No. All pool volume calculations are computed locally inside your web browser. No data is sent or stored externally."
 ---
 
-# Pool Volume Calculator
+# Pool Volume Calculator - Calculate Mulch, Sod & Material Volume
 
 Calculate exact pool water capacity in **US Gallons** and **Liters** for rectangular, round, and oval pools with our free **Pool Volume Calculator**.
 
@@ -197,8 +195,7 @@ $$\text{Water Mass (Lbs)} = \text{Volume (US Gallons)} \times 8.34$$
 
 ---
 
-## Frequently Asked Questions
-
+## Pool Volume Calculator Frequently Asked Questions
 ### How do I calculate pool volume in gallons?
 For rectangular pools, multiply Length × Width × Average Depth × 7.48. For round pools, multiply 3.14159 × Radius² × Average Depth × 7.48. For oval pools, multiply 3.14159 × Half Length × Half Width × Average Depth × 7.48.
 
@@ -217,5 +214,3 @@ One US gallon of fresh water weighs approximately 8.34 pounds (1.0 kg per liter)
 ### What is the turnover rate for a swimming pool?
 Turnover rate is the time required for a pool pump to circulate the total pool water volume through the filter system, typically recommended as 8 hours for residential pools.
 
-### Is my personal data saved on this site?
-No. All pool volume calculations are computed locally inside your web browser. No data is sent or stored externally.

@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Compound Interest | Interactive Online Tool"
+title: "Compound Interest Calculator | Savings & Investment Growth"
 description: "Calculate compound interest with daily, monthly, or annual compounding. Includes inflation adjustment, monthly contributions."
 permalink: /compound-interest-calculator
 tool_id: compound-interest
@@ -122,7 +122,7 @@ structured_data:
     - "Shareable Calculation Links — one click to save and share"
     - "Calculation History — save, review, and export past results to CSV or Excel"
 
-# BreadcrumbList Schema — injected as separate JSON‑LD in tool.html
+# Compound Interest Calculator - Project Compounding Returns Over Time
 breadcrumb:
   - name: Home
     url: /
@@ -159,8 +159,6 @@ faq:
     answer: "Historical stock market returns average around 7-10% per year. Conservative investments like bonds may yield 3-5%. Always use realistic rates based on your investment strategy."
   - question: "Does this calculator account for inflation?"
     answer: "Yes. Enter your expected inflation rate to see the inflation-adjusted value of your savings in today's dollars."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. History and presets are saved in your browser's localStorage — nothing is sent to a server."
 ---
 
 # Compound Interest Calculator
@@ -200,8 +198,7 @@ This exact formula powers our calculator, ensuring your results match industry-s
 
 ---
 
-## How to Use This Tool
-
+## How to Use the Compound Interest Calculator
 1.  Select your **account currency** from the picker in the site header.
 2.  Enter your **initial principal** (the amount you start with).
 3.  Set your **monthly contribution** (optional—leave at 0 if none).
@@ -214,8 +211,7 @@ The tool updates instantly as you adjust any input—no "Calculate" button requi
 
 ---
 
-## Frequently Asked Questions
-
+## Compound Interest Calculator Frequently Asked Questions
 ### What is compound interest?
 Compound interest is the interest earned on both your initial principal and the accumulated interest from previous periods. It's often called "interest on interest" and is the single most powerful force in long-term wealth building.
 

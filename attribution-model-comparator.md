@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Attribution Model Comparator | Interactive Online Tool"
+title: "Attribution Model Comparator | SaaS Marketing & Ad ROI"
 description: "Compare closed revenue credit under First-Touch, Last-Touch, and Linear attribution models across multi-touch customer buyer journeys."
 permalink: /attribution-model-comparator
 tool_id: attribution-model-comparator
@@ -130,7 +130,7 @@ faq:
     answer: "First-touch overvalues awareness and ignores sales enablement, while last-touch overvalues retargeting and ignores top-of-funnel lead generation."
 ---
 
-# Attribution Model Comparator Calculator
+# Attribution Model Comparator - Calculate Customer Acquisition & Ad Return
 
 Understand how different marketing attribution rules distribute revenue credit across your customer acquisition funnel with our **Attribution Model Comparator**.
 
@@ -146,8 +146,7 @@ Attribution choice drastically alters how marketing budget is distributed. Relyi
 
 ---
 
-## Mathematical Formulas
-
+## Attribution Model Comparator Mathematical Formulas
 ### 1. Single-Touch Attribution Models
 
 $$ \text{First-Touch Credit (\$) } = \text{Total Revenue} \times \left( \frac{\text{First-Touch Weight \%}}{100} \right) $$
@@ -175,8 +174,7 @@ $$ \text{Model Variance} = |\text{First-Touch Credit} - \text{Last-Touch Credit}
 
 ---
 
-## Step-by-Step Guide
-
+## Step-by-Step Attribution Model Comparator Guide
 1. **Enter Total Closed Deal Revenue**: Input aggregate dollar revenue from a closed cohort.
 2. **Define Touchpoint Volume**: Set the average number of marketing interactions before deal close (typically 3-6 in B2B).
 3. **Compare Attribution Output**: Analyze how revenue shifts between top-of-funnel discovery and bottom-of-funnel closing.
@@ -184,8 +182,7 @@ $$ \text{Model Variance} = |\text{First-Touch Credit} - \text{Last-Touch Credit}
 
 ---
 
-## Frequently Asked Questions
-
+## Attribution Model Comparator Frequently Asked Questions
 ### What is an attribution model?
 An attribution model is a rule or set of rules that determines how credit for sales and conversions is assigned to touchpoints in marketing funnels.
 

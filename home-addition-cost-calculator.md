@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Home Addition Cost | Interactive Online Tool"
+title: "Home Addition Cost Calculator | Project Cost & Estimating"
 description: "Calculate room addition costs based on added square footage, foundation type, story count, finish tier, HVAC extension, and permit fees."
 permalink: /home-addition-cost-calculator
 tool_id: home-addition-cost-calculator
@@ -153,7 +153,7 @@ faq:
   - question: "Is my personal data saved when using this calculator?"
 ---
 
-# Home Addition Cost Calculator
+# Home Addition Cost Calculator - Calculate Project Timeline & Budget
 
 Calculate room addition expenses based on square footage, story count, foundation structure, HVAC extensions, and finish quality tiers.
 
@@ -219,8 +219,7 @@ Cost breakdown for adding a **400 sq ft room addition (20 ft × 20 ft)**:
 
 ---
 
-## Frequently Asked Questions
-
+## Home Addition Cost Calculator Frequently Asked Questions
 ### How much does a 400 sq ft room addition cost?
 A standard 400 sq ft room addition typically costs between $60,000 and $110,000 ($150 to $275 per sq ft), depending on foundation type, bathroom inclusion, and finish quality.
 
@@ -239,5 +238,3 @@ Yes. Building departments require stamped architectural drawings, structural eng
 ### How much value does a room addition add to a home?
 A well-designed room addition generally recovers 60% to 80% of its total construction cost in added home appraisal value, while significantly enhancing everyday functional living space.
 
-### Is my personal data saved when using this calculator?
-No. All calculations run strictly in your web browser environment. No property details or cost figures are logged or stored.

@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Car Down Payment | Interactive Online Tool"
+title: "Car Down Payment Calculator | Auto Loan & Financing"
 description: "Calculate monthly payment reductions and total interest saved by putting 10%, 20%, or 30% down on a vehicle purchase."
 permalink: /car-down-payment-calculator
 tool_id: car-down-payment-calculator
@@ -138,12 +138,10 @@ faq:
     answer: "GAP (Guaranteed Asset Protection) insurance covers the gap between your car's market value and your remaining loan balance if the car is totaled. Putting 20% or 30% down eliminates the need for GAP insurance because your loan balance will be lower than the car's market value."
   - question: "Should I put 30% down or invest the extra cash?"
     answer: "If your auto loan APR is high (e.g., 7% or above), putting 30% down yields a guaranteed return equal to that APR. If your loan interest rate is low (e.g., 0% to 3.9% promotional rate), keeping cash invested in high-yield assets may yield a higher net return."
-  - question: "Is my personal data saved anywhere?"
-    answer: "No. All calculations are executed locally inside your web browser. No financial data is sent to external servers."
 
 ---
 
-# Car Down Payment Calculator
+# Car Down Payment Calculator - Calculate Monthly Car Payment & Interest
 
 Compare monthly payments, loan balance reductions, and total interest saved across **10%**, **20%**, and **30%** down payment tiers with our free **Car Down Payment Calculator**.
 
@@ -216,8 +214,7 @@ Our **car down payment calculator** enables you to:
 
 ---
 
-## Formula & Mathematical Principles
-
+## Car Down Payment Calculator Formulas & Principles
 For vehicle price \(V\), trade-in \(T\), monthly interest rate \(r = \text{APR}/12/100\), term \(n\), and down payment percentage \(p \in \{0.10, 0.20, 0.30\}\):
 
 ### Net Principal Financed
@@ -252,8 +249,7 @@ I_p = (M_p \cdot n) - P_p
 
 ---
 
-## Real-World Comparison & Case Study
-
+## Car Down Payment Calculator Real-World Case Study
 Assuming a **$40,000 vehicle** at **6.5% APR** over a **60-month loan term**:
 
 | Down Payment Tier | Down Payment Cash | Financed Principal | Monthly Payment | Total Interest Paid | Interest Saved vs 10% |
@@ -266,8 +262,7 @@ Assuming a **$40,000 vehicle** at **6.5% APR** over a **60-month loan term**:
 
 ---
 
-## Step-by-Step Guide to Using the Calculator
-
+## Step-by-Step Guide for Using the Car Down Payment Calculator
 1. **Enter Car Purchase Price**: Input the MSRP or agreed vehicle price.
 2. **Input Expected APR**: Enter the financing interest rate.
 3. **Select Loan Duration**: Choose 36, 48, 60, 72, or 84 months.
@@ -276,8 +271,7 @@ Assuming a **$40,000 vehicle** at **6.5% APR** over a **60-month loan term**:
 
 ---
 
-## Frequently Asked Questions (FAQ)
-
+## Car Down Payment Calculator Frequently Asked Questions
 ### Why is 20% down recommended when buying a car?
 Putting 20% down on a new vehicle covers its rapid first-year depreciation (typically 15% to 20%), preventing you from becoming 'upside-down' (owing more than the car is worth). It also qualifies you for lower loan interest rates and reduces monthly payments.
 
@@ -296,5 +290,3 @@ GAP (Guaranteed Asset Protection) insurance covers the gap between your car's ma
 ### Should I put 30% down or invest the extra cash?
 If your auto loan APR is high (e.g., 7% or above), putting 30% down yields a guaranteed return equal to that APR. If your loan interest rate is low (e.g., 0% to 3.9% promotional rate), keeping cash invested in high-yield assets may yield a higher net return.
 
-### Is my personal data saved anywhere?
-No. All calculations are executed locally inside your web browser. No financial data is sent to external servers.

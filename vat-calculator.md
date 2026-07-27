@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Vat | Interactive Online Tool"
+title: "VAT Calculator | Value Added Tax Amount"
 description: "Use our free VAT Calculator to calculate Value Added Tax. Enter the net price, VAT rate, or gross price to see the VAT amount and total."
 permalink: /vat-calculator
 tool_id: vat-calculator
@@ -138,12 +138,10 @@ faq:
     answer: "An ex VAT calculator shows the price before VAT is added. It's useful for business pricing and invoicing."
   - question: "What is the difference between VAT and sales tax?"
     answer: "VAT is applied at each stage of production, while sales tax is applied only at the final point of sale to the consumer."
-  - question: "Is my data stored anywhere?"
-    answer: "No. All calculations run locally in your browser. No data is sent to any server."
 
 ---
 
-# Vat Calculator
+# VAT Calculator - Calculate Net, Gross & VAT Amounts
 
 Calculate Value Added Tax with our free **VAT Calculator**. Enter the net price, VAT rate, or gross price to see the VAT amount and total — all without your data leaving your browser.
 
@@ -252,8 +250,7 @@ The tool updates instantly as you adjust any input — no "Calculate" button req
 
 ---
 
-## Frequently Asked Questions
-
+## VAT Calculator Frequently Asked Questions
 ### What is a VAT calculator?
 A VAT calculator is a tool that calculates Value Added Tax on goods and services. It can add VAT to a net price, remove VAT from a gross price, or calculate VAT from a total amount.
 
@@ -284,5 +281,3 @@ The standard Malta VAT rate is 18%.
 ### What is the VAT rate in the Philippines?
 The standard Philippines VAT rate is 12%.
 
-### Is my data stored anywhere?
-No. All calculations run locally in your browser. No data is sent to any server.

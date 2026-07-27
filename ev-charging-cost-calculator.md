@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Ev Charging Cost | Interactive Online Tool"
+title: "EV Charging Cost Calculator | EV Charging Cost per Mile"
 description: "Calculate your electric vehicle (EV) charging cost per session, per kWh, and monthly electricity bill impact."
 permalink: /ev-charging-cost-calculator
 tool_id: ev-charging-cost-calculator
@@ -159,7 +159,7 @@ faq:
 
 ---
 
-# Ev Charging Cost Calculator
+# EV Charging Cost Calculator - Calculate Electric Vehicle Charging Cost
 
 Estimate your electric vehicle (EV) home charging cost per session, monthly electricity bill addition, and effective cost per mile.
 
@@ -223,8 +223,7 @@ Key benefits of calculating EV charging costs:
 
 ---
 
-## Mathematical Formulas
-
+## EV Charging Cost Calculator Mathematical Formulas
 ### 1. Battery Energy Added ($E_{\text{battery}}$)
 \[
 E_{\text{battery}} = C_{\text{battery}} \times \left( \frac{\text{SOC}_{\text{target}} - \text{SOC}_{\text{start}}}{100} \right)
@@ -253,8 +252,7 @@ E_{\text{grid}} = \frac{E_{\text{battery}}}{\eta / 100}
 
 ---
 
-## Step-by-Step Usage Guide
-
+## Step-by-Step EV Charging Cost Calculator Usage Guide
 1. **Locate Battery Specifications**: Look up your vehicle's usable battery size in kWh (e.g. 75 kWh).
 2. **Set State of Charge (SOC)**: Enter typical daily starting level (e.g., 20%) and stopping level (e.g., 80%).
 3. **Check Electric Rate**: Find your residential utility rate per kWh from your monthly electric bill.
@@ -263,8 +261,7 @@ E_{\text{grid}} = \frac{E_{\text{battery}}}{\eta / 100}
 
 ---
 
-## Frequently Asked Questions
-
+## EV Charging Cost Calculator Frequently Asked Questions
 ### How much does it cost to charge an electric car at home?
 Charging an EV at home typically costs between $5 and $14 per full charge, depending on your battery size (50–100 kWh) and residential electricity rate ($0.12 to $0.28 per kWh).
 

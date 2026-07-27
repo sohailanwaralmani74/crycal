@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Grandfathering Cost | Interactive Online Tool"
+title: "Grandfathering Cost Calculator | SaaS Pricing & Packaging"
 description: "Estimate lost expansion revenue, annual cost, and breakeven churn thresholds when leaving existing SaaS accounts on legacy price points."
 permalink: /grandfathering-cost-calculator
 tool_id: grandfathering-cost-calculator
@@ -144,7 +144,7 @@ faq:
 
 ---
 
-# Grandfathering Cost Calculator
+# Grandfathering Cost Calculator - Calculate Tier Profitability & ARPU
 
 Calculate the **unrealized revenue left on the table** by keeping legacy customers on historical pricing plans, and evaluate **breakeven migration thresholds**.
 
@@ -158,8 +158,7 @@ This calculator quantifies the **monthly and cumulative opportunity cost** of gr
 
 ---
 
-## Key Mathematical Formulas
-
+## Key Grandfathering Cost Calculator Mathematical Formulas
 ### 1. Monthly Unrealized Revenue (Foregone Expansion)
 
 $$ \text{Price Delta} = \text{New Price} - \text{Legacy Price} $$
@@ -201,8 +200,7 @@ $$ \text{Breakeven Churn Rate \%} = \frac{\text{New Price} - \text{Legacy Price}
 
 ---
 
-## Frequently Asked Questions
-
+## Grandfathering Cost Calculator Frequently Asked Questions
 ### What is grandfathering in SaaS pricing?
 Grandfathering allows existing customer accounts to keep their lower historical subscription rates when new, higher prices are launched for new signups.
 

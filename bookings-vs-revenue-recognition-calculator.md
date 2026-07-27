@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Bookings Vs Revenue Recognition | Interactive Online Tool"
+title: "Bookings vs Revenue Recognition Calculator | SaaS Recurring"
 description: "Compare signed contract ACV bookings, upfront cash billings, and ASC 606 GAAP monthly recognized revenue schedules."
 permalink: /bookings-vs-revenue-recognition-calculator
 tool_id: bookings-vs-revenue-recognition-calculator
@@ -121,7 +121,7 @@ faq:
 
 ---
 
-# Bookings Vs Revenue Recognition Calculator
+# Bookings vs Revenue Recognition Calculator - Calculate MRR, ARR & Growth Metrics
 
 Model signed contract Bookings, upfront Cash Billings, and ASC 606 GAAP Monthly Recognized Revenue schedules for subscription software contracts.
 
@@ -168,8 +168,7 @@ $$\text{Initial Deferred Revenue} = \text{Upfront Cash Collected} - \text{Month 
 
 ---
 
-## Frequently Asked Questions
-
+## Bookings vs Revenue Recognition Calculator Frequently Asked Questions
 ### What is the difference between Bookings, Billings, and Revenue Recognition?
 Bookings represent signed contract value. Billings represent invoices issued and cash collected. Revenue Recognition represents GAAP/IFRS earned revenue recognized evenly over the performance period (ASC 606).
 

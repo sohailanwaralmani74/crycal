@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Founder Dilution Multiple Rounds | Interactive Online Tool"
+title: "Founder Dilution Multiple Rounds Calculator | Startup Funding &"
 description: "Track founder ownership retention percentage and dollar equity value across Seed, Series A, and Series B venture capital funding rounds."
 permalink: /founder-dilution-multiple-rounds-calculator
 tool_id: founder-dilution-multiple-rounds-calculator
@@ -164,7 +164,7 @@ faq:
 
 ---
 
-# Founder Dilution Multiple Rounds Calculator
+# Founder Dilution Multiple Rounds Calculator - Calculate ARR Multiple & Valuation
 
 Track founder equity retention and dollar value across Seed, Series A, and Series B funding rounds with our free **Founder Dilution Calculator**. Model cumulative compounding dilution across successive venture capital rounds.
 
@@ -217,8 +217,7 @@ $$\text{Founder Stake Value at Series B (\$)} = V_{\text{post}, \text{Series B}}
 
 ---
 
-## Frequently Asked Questions
-
+## Founder Dilution Multiple Rounds Calculator Frequently Asked Questions
 ### How much equity do founders typically retain by Series B?
 Founders typically retain 15% to 30% cumulative ownership by the end of a Series B funding round, down from 100% at incorporation.
 

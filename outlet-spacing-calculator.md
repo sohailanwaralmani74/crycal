@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Outlet Spacing | Interactive Online Tool"
+title: "Outlet Spacing Calculator | Electrical Load & Wiring"
 description: "Calculate the minimum required electrical wall outlet receptacles and box counts for room perimeters under NEC 210.52 12-foot and 6-foot rules."
 permalink: /outlet-spacing-calculator
 tool_id: outlet-spacing-calculator
@@ -141,7 +141,7 @@ faq:
 
 ---
 
-# Outlet Spacing Calculator
+# Outlet Spacing Calculator - Calculate Amps, Wire Gauge & Breaker Size
 
 Calculate the **minimum required electrical wall outlet receptacles** for any room using our **Outlet Spacing Calculator**. Fully compliant with **NEC Article 210.52**, this tool helps homeowners and electricians plan electrical rough-ins according to **12-foot living room** and **4-foot kitchen countertop** spacing rules.
 
@@ -204,8 +204,7 @@ $$\text{Kitchen Outlets per Segment} = \max\left(1, \left\lceil \frac{\text{Coun
 
 ---
 
-## Frequently Asked Questions
-
+## Outlet Spacing Calculator Frequently Asked Questions
 ### What is the NEC 12-foot rule for wall outlets?
 The NEC 12-foot rule requires that no point along any unbroken wall space be more than 6 feet from an electrical outlet. This means outlets along a continuous wall must be placed no more than 12 feet apart.
 
@@ -224,5 +223,3 @@ Standard wall outlets are typically installed 12 to 18 inches above the finished
 ### How much wire cable is needed per outlet receptacle?
 On average, expect to use 15 to 25 linear feet of 12/2 or 14/2 NM-B Non-Metallic Sheathed Cable (Romex) per outlet location, including box entry loops and vertical wall drops.
 
-### Is my personal data saved when using this calculator?
-No. All calculations are computed locally inside your web browser. No data is stored or logged.

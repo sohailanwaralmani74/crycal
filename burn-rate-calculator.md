@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: "Burn Rate | Interactive Online Tool"
+title: "Burn Rate Calculator | Startup Funding & Valuation"
 description: "Calculate your startups gross monthly spend, net monthly cash burn, annualized burn rate, and capital efficiency ratio."
 permalink: /burn-rate-calculator
 tool_id: burn-rate-calculator
@@ -137,12 +137,10 @@ faq:
     answer: "Burn rate determines how fast a company consumes investor capital. Uncontrolled burn shortens runway and forces diluted emergency fundraising rounds."
   - question: "How can a startup reduce net burn rate?"
     answer: "Startups reduce net burn by increasing monthly cash collections, pausing non-performing ad channels, negotiating vendor software discounts, and freezing non-critical headcount."
-  - question: "Is my data stored or tracked?"
-    answer: "No. All calculation models execute locally inside your client web browser."
 
 ---
 
-# Burn Rate Calculator
+# Burn Rate Calculator - Calculate ARR Multiple & Valuation
 
 Calculate your startup's gross monthly expenses and net cash burn with our free **Burn Rate Calculator**. Analyze expense allocations across payroll, hosting, marketing, and admin while tracking annualized burn metrics.
 
@@ -191,8 +189,7 @@ $$\text{Net Burn Ratio (\%)} = \left( \frac{\text{Net Burn}}{\text{Gross Burn}} 
 
 ---
 
-## Frequently Asked Questions
-
+## Burn Rate Calculator Frequently Asked Questions
 ### What is gross burn rate vs net burn rate?
 Gross burn rate is total operating expenditure in a given month. Net burn rate is gross expenses minus cash incoming from customer revenue (Gross Expenses − Revenue = Net Burn).
 
@@ -208,5 +205,3 @@ Burn rate determines how fast a company consumes investor capital. Uncontrolled 
 ### How can a startup reduce net burn rate?
 Startups reduce net burn by increasing monthly cash collections, pausing non-performing ad channels, negotiating vendor software discounts, and freezing non-critical headcount.
 
-### Is my data stored or tracked?
-No. All calculation models execute locally inside your client web browser.
