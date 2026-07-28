@@ -161,9 +161,11 @@ This calculator customizes your maintenance schedule based on oil chemistry, ann
 ---
 
 ## Oil Change Interval Calculator Calculation Flow & Formulas
+
 The maintenance engine scales baseline oil intervals by driving severity multipliers:
 
 ### Oil Change Interval Calculator Inputs & Parameters
+
 | Parameter | Unit | Description |
 | :--- | :--- | :--- |
 | **Base Interval (\(M_{base}\))** | miles | Baseline miles (Conventional=4k, Blend=6k, Synthetic=9k, High-Mileage=11k) |
@@ -175,22 +177,27 @@ The maintenance engine scales baseline oil intervals by driving severity multipl
 ---
 
 ### Step-by-Step Oil Change Interval Calculator Formulas
+
 #### 1. Recommended Mileage Interval (\(I_{recommended}\))
+
 \[
 I_{recommended} = M_{base} \times F_{severe}
 \]
 
 #### 2. Target Service Odometer (\(M_{next}\))
+
 \[
 M_{next} = M_{last} + I_{recommended}
 \]
 
 #### 3. Recommended Time Limit (\(T_{recommended}\))
+
 \[
 T_{recommended} = T_{base} \times F_{severe}
 \]
 
 #### 4. Remaining Miles (\(M_{remaining}\))
+
 \[
 M_{remaining} = M_{next} - M_{current}
 \]
@@ -209,6 +216,7 @@ M_{remaining} = M_{next} - M_{current}
 ---
 
 ## How to Use the Oil Change Interval Calculator Step-by-Step
+
 1. **Select Oil Type**: Choose the formulation used during your last service (e.g. **Full Synthetic**).
 2. **Select Driving Conditions**: Choose **Severe** if you drive short city trips or commute in heavy traffic.
 3. **Input Last Service Odometer**: Enter the mileage reading recorded on your windshield sticker.
@@ -217,23 +225,31 @@ M_{remaining} = M_{next} - M_{current}
 ---
 
 ## Oil Change Interval Calculator Frequently Asked Questions
+
 ### How often should engine oil be changed?
+
 Conventional oil should be changed every **3,000 to 5,000 miles** (or 6 months). Synthetic blend oil lasts **5,000 to 7,500 miles**. Full synthetic oil lasts **7,500 to 10,000+ miles** (or 12 months).
 
 ### What qualifies as severe driving conditions for oil changes?
+
 Severe driving includes frequent trips under 5 miles, extensive idling or stop-and-go traffic, commercial towing, driving in dusty environments, and extreme sub-freezing temperatures.
 
 ### Does engine oil degrade over time if I don't drive many miles?
+
 Yes. Moisture condensation, fuel dilution, and oxidation degrade engine oil over time even if the vehicle sits idle. Oil should be changed at least **once per year** regardless of low mileage.
 
 ### Can I switch from conventional oil to full synthetic oil?
+
 Yes. Modern engines can seamlessly transition to full synthetic oil, which offers superior thermal resistance, cold-start lubrication, and extended service intervals.
 
 ### What happens if I delay an oil change for too long?
+
 Over-extended oil service causes thermal breakdown, sludge accumulation, valve train wear, oil starvation, and severe internal engine damage.
 
 ### Do oil life monitoring systems on modern dashboards accurately measure oil health?
+
 Yes. Intelligent Oil Life Monitors (IOLM) calculate oil degradation using algorithm parameters including engine revs, operating temperatures, idle duration, and trip length.
 
 ### Is my maintenance schedule private?
+
 Yes. All data processes locally inside your browser.

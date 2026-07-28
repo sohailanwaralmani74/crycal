@@ -188,23 +188,31 @@ Where:
 ---
 
 ## NRR Calculator Frequently Asked Questions
+
 ### What is Net Revenue Retention (NRR)?
+
 Net Revenue Retention (NRR) measures the percentage of recurring revenue retained from an existing cohort of customers over a given period, including account upgrades (expansion), downgrades (contraction), and cancellations (churn).
 
 ### What is a good NRR percentage for SaaS?
+
 An NRR above 100% means existing customers are expanding faster than they are churning (net negative churn). For B2B SaaS, 100%–110% is solid, 110%–120% is great, and 120%+ (e.g., Snowflake, Twilio) is top-tier public SaaS benchmark.
 
 ### What is the formula for NRR?
+
 NRR % = [(Starting MRR + Expansion MRR − Contraction MRR − Churned MRR) / Starting MRR] × 100.
 
 ### How does NRR differ from GRR?
+
 GRR (Gross Revenue Retention) excludes expansion revenue and cannot exceed 100%. NRR includes expansion revenue and can exceed 100%.
 
 ### Does NRR include new customer acquisitions?
+
 No. NRR exclusively tracks the revenue performance of an existing cohort of accounts present at the start of the period.
 
 ### Why do investors care so much about NRR?
+
 NRR indicates product-market fit, customer satisfaction, and compounding sales efficiency. High NRR enables software companies to grow revenue even without acquiring new logos.
 
 ### How frequently should SaaS companies measure NRR?
+
 Most SaaS companies measure NRR monthly and report trailing 12-month (TTM) NRR on a quarterly or annual basis.

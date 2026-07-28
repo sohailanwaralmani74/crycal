@@ -227,21 +227,28 @@ The table below illustrates material requirements across standard patio project 
 ---
 
 ## Paver Calculator Frequently Asked Questions
+
 ### How many 6x9 pavers do I need for a 300 square foot patio?
+
 Each 6x9 paver covers 0.375 square feet. For a 300 sq ft patio, you need 800 net pavers. Including 10% for edge cutting waste, you will need 880 pavers.
 
 ### How many 4x8 brick pavers are in 1 square foot?
+
 A standard 4" × 8" brick paver covers 0.222 square feet ($4 \times 8 / 144 = 0.2222$). Exactly 4.5 brick pavers cover 1 square foot.
 
 ### How deep should the gravel base be under a concrete block paver patio?
+
 Pedestrian patios and walkways require a minimum 4-inch deep compacted gravel base (Crusher Run / dense grade). Residential driveways require 8 to 12 inches of compacted base stone.
 
 ### How much bedding sand is needed under pavers?
+
 Paver installations require a uniform 1-inch thick bedding layer of coarse concrete sand (washed concrete sand, ASTM C33). For 300 sq ft, 1 inch of sand equals approx. 0.93 cubic yards.
 
 ### What is polymeric sand and why is it used for paver joints?
+
 Polymeric sand is a blend of graded sand and polymer binders swept into paver joints. When activated with water, it hardens to prevent weed growth, ant hills, and sand washout.
 
 ### How much does a paver patio cost per square foot?
+
 DIY paver patio materials (pavers, gravel, sand) cost $4 to $8 per square foot. Professional contractor installation ranges from $15 to $30 per square foot.
 

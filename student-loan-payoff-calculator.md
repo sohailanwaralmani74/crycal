@@ -202,16 +202,21 @@ The simulation runs month by month for both scenarios:
 ---
 
 ## Student Loan Payoff Calculator Frequently Asked Questions
+
 ### How does the student loan payoff calculator work?
+
 It simulates your student loan payments with and without extra payments, showing you exactly how much time and interest you can save.
 
 ### Is paying extra on student loans worth it?
+
 Yes — even small extra payments can save hundreds in interest and shorten your loan term by months or even years.
 
 ### What is the average student loan interest rate?
+
 Interest rates vary. Federal student loans for 2024-2025 range from about 5.5% to 8.5%, while private loans may be higher. Enter your exact rate for the most accurate result.
 
 ### Should I pay off student loans early or invest?
+
 It depends on your interest rate. If your rate is higher than your expected investment return, paying extra makes sense. If your rate is low, investing may be better.
 
 ---

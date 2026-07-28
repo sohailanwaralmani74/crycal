@@ -207,21 +207,28 @@ $$\text{Bags Required} = \lceil \frac{\text{Total Grout Weight (lbs)}}{\text{Bag
 ---
 
 ## Tile Grout Calculator Frequently Asked Questions
+
 ### How much grout do I need for 100 sq ft of 12x12 tiles with 1/8" joints?
+
 For 100 sq ft of 12x12 tile (3/8" thickness) with a 1/8" grout joint, you need approximately 10 to 12 lbs of dry grout mix (or one 25 lb bag).
 
 ### How does tile size affect grout usage?
+
 Smaller tiles (such as 2x2 subway or mosaic tiles) have many more grout joint lines per square foot, requiring significantly more grout than large 24x24 tiles.
 
 ### What is the standard grout joint width for floor tiles?
+
 Standard floor tile grout joint widths range from 1/8" (for rectified porcelain tiles) to 1/4" or 3/8" (for handmade or irregular edge ceramic/quarry tiles).
 
 ### Should I choose sanded or unsanded grout?
+
 Use unsanded grout for thin joints under 1/8" wide (especially polished stone or glass). Use sanded grout for joints 1/8" wide or larger to prevent shrinking and cracking.
 
 ### How much grout waste should I account for?
+
 A 10% waste factor is recommended to compensate for grout left on the float, bucket residue, and joint over-packing during wiping.
 
 ### Can I use premixed grout instead of dry powder bags?
+
 Yes. Premixed grout containers are rated by coverage area (e.g. 1-gallon pails covering ~100 sq ft). Convert calculated pounds directly to pail equivalents.
 

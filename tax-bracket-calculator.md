@@ -18,6 +18,7 @@ inputs:
     placeholder: "Enter your taxable income"
 
 # Tax Bracket Calculator - Calculate Federal Income Tax Brackets
+
 # Each bracket has: from (number), to (number or null), rate (%)
 
 outputs:
@@ -169,16 +170,21 @@ Tax brackets are applied progressively. Each bracket has:
 ---
 
 ## Tax Bracket Calculator Frequently Asked Questions
+
 ### How does this tax bracket calculator work?
+
 You define your own tax brackets with From, To, and Rate. The calculator applies them in order to your income.
 
 ### Can I use the Tax Bracket Calculator globally?
+
 Yes — this tool is designed for any progressive tax system. Just enter your country's brackets.
 
 ### What is the difference between marginal and effective tax rate?
+
 Your marginal rate is the rate you pay on your last dollar of income. Your effective rate is the average rate you pay on all your income.
 
 ### How do I add a tax bracket?
+
 Click 'Add Bracket'. Enter the From, To, and Rate for each bracket. Leave To blank for the highest bracket.
 
 ---

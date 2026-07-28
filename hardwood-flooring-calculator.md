@@ -194,21 +194,28 @@ Below is an estimated budget comparison for a **500 sq ft room** using **22 sq f
 ---
 
 ## Hardwood Flooring Calculator Frequently Asked Questions
+
 ### How many square feet are in a box of hardwood flooring?
+
 A standard carton of solid or engineered hardwood flooring typically contains between 18 and 25 square feet, depending on board length and plank width.
 
 ### Why is a 10% to 15% waste factor mandatory for hardwood flooring?
+
 Hardwood boards contain natural imperfections, knot cutouts, and end-trim scrap. In addition, installer staggered joint rules require trimming plank ends.
 
 ### What is the difference in installation cost between solid and engineered hardwood?
+
 Solid hardwood is nail-down or staple-down ($4.00 to $8.00/sq ft labor). Engineered hardwood can be glued, floated, or stapled ($3.00 to $6.00/sq ft labor).
 
 ### Can I install solid hardwood in basements or over concrete?
+
 Solid hardwood should NOT be installed below grade or directly over concrete slabs due to moisture expansion. Engineered hardwood or floating floor systems are required.
 
 ### How many extra cartons of hardwood should I store?
+
 Always order and save 1 to 2 extra unopened cartons for future plank replacement in case of water damage, scratches, or room modifications.
 
 ### How do I calculate hardwood cost for multi-room projects?
+
 Measure each room separately, sum total net square footage, apply a global 10% to 12% waste factor, and divide by carton coverage.
 

@@ -217,21 +217,28 @@ The table below illustrates phase durations, buffer days, total work days, and c
 ---
 
 ## Project Timeline Duration Estimator Frequently Asked Questions
+
 ### How long does a typical kitchen renovation take?
+
 A complete kitchen renovation typically takes 6 to 10 weeks (30 to 50 work days) from demolition to final walkthrough, excluding 3 to 6 weeks of prior design and cabinet lead time.
 
 ### How long does a bathroom remodel take?
+
 A full midrange bathroom remodel takes 3 to 5 weeks (15 to 25 work days) of active labor, covering demolition, plumbing rough-in, waterproofing, tile setting, vanity installation, and electrical trim.
 
 ### Why do home renovation projects get delayed?
+
 Common causes of renovation delays include municipal permit approval backlogs, hidden structural or mold damage uncovered during demolition, long custom cabinetry lead times, and failed rough inspection re-examinations.
 
 ### How many work days are in a calendar month?
+
 Based on a standard 5-day work week (Monday through Friday), there are approximately 21.6 working days per calendar month (4.33 weeks per month).
 
 ### What is a critical path in construction scheduling?
+
 The critical path is the sequence of dependent task activities that determines the shortest possible project completion duration. Delaying any activity on the critical path directly extends the overall project deadline.
 
 ### Why should I add a delay contingency buffer to my schedule?
+
 Adding a 15% to 20% delay contingency buffer provides a realistic buffer for weather disruptions, subcontractor scheduling conflicts, and municipal inspection delays, ensuring clients have accurate expectations.
 

@@ -173,9 +173,11 @@ This calculator tracks your exact mileage and age limits to ensure you replace y
 ---
 
 ## Timing Belt Replacement Interval Calculator Calculation Flow & Formulas
+
 The maintenance engine measures miles logged against OEM manufacturer mileage and time thresholds:
 
 ### Timing Belt Replacement Interval Calculator Inputs & Parameters
+
 | Parameter | Unit | Description |
 | :--- | :--- | :--- |
 | **OEM Miles (\(M_{oem}\))** | miles | Manufacturer mileage limit (typically 90,000 miles) |
@@ -187,22 +189,27 @@ The maintenance engine measures miles logged against OEM manufacturer mileage an
 ---
 
 ### Step-by-Step Timing Belt Replacement Interval Calculator Formulas
+
 #### 1. Accumulated Belt Miles (\(M_{belt}\))
+
 \[
 M_{belt} = M_{curr} - M_{last}
 \]
 
 #### 2. Remaining Mileage Budget (\(M_{rem}\))
+
 \[
 M_{rem} = M_{oem} - M_{belt}
 \]
 
 #### 3. Target Replacement Odometer (\(M_{target}\))
+
 \[
 M_{target} = M_{last} + M_{oem}
 \]
 
 #### 4. Estimated Service Cost vs Catastrophic Repair Risk
+
 \[
 \text{Preventative Service Cost} = \$650 \text{ (Labor)} + \$140 \text{ (Parts \& Water Pump)} = \$790
 \]
@@ -222,6 +229,7 @@ M_{target} = M_{last} + M_{oem}
 ---
 
 ## How to Use the Timing Belt Replacement Interval Calculator Step-by-Step
+
 1. **Check Owner's Manual**: Note OEM recommended interval (e.g. `90,000 miles` or `7 years`).
 2. **Determine Engine Type**: Check if your vehicle has an **Interference Engine**.
 3. **Input Mileage Data**: Enter current odometer and mileage when belt was last replaced (0 if original).
@@ -230,23 +238,31 @@ M_{target} = M_{last} + M_{oem}
 ---
 
 ## Timing Belt Replacement Interval Calculator Frequently Asked Questions
+
 ### What is a timing belt and what does it do?
+
 A timing belt is a reinforced rubber belt with teeth that synchronizes the rotation of the crankshaft and camshaft so the engine's valves open and close at exact intervals relative to piston position.
 
 ### What is an interference engine?
+
 In an interference engine, the clearance between open valves and rising pistons is extremely tight. If the timing belt snaps, pistons smash into open valves, bending valves, damaging cylinder heads, and destroying the engine.
 
 ### What is a non-interference engine?
+
 In a non-interference engine, there is sufficient physical clearance between pistons and valves. If the belt snaps, the engine simply shuts off safely without internal mechanical destruction.
 
 ### Why should the water pump be replaced at the same time as the timing belt?
+
 On most engines, the timing belt drives the water pump. Replacing the water pump during timing belt service adds only ~$100 in parts while saving $500+ in duplicated labor costs later.
 
 ### What is the 60,000 to 100,000 mile timing belt rule?
+
 Automotive manufacturers specify replacing timing belts every **60,000 to 105,000 miles (or 7 to 10 years)** because rubber degrades over time regardless of driving conditions.
 
 ### What is the difference between a timing belt and a timing chain?
+
 Timing belts are made of rubber and require periodic replacement every 60k-100k miles. Timing chains are made of metal, lubricated by engine oil, and usually last the full life of the vehicle.
 
 ### Is my vehicle schedule data kept private?
+
 Yes. All calculations process 100% locally within your web browser.

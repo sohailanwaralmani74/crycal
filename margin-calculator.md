@@ -146,10 +146,12 @@ Calculate stock trading margin requirements, leverage ratios, annual margin inte
 ## Key Margin Formulas
 
 ### 1. Borrowed Loan & Equity
+
 $$\text{Investor Equity} = \text{Purchase Amount} \times \frac{\text{Initial Margin \%}}{100}$$
 $$\text{Margin Loan} = \text{Purchase Amount} - \text{Investor Equity}$$
 
 ### 2. Margin Call Price Drop Threshold
+
 $$\text{Max Price Drop \%} = 1 - \frac{1 - (\text{Initial Margin \%} \div 100)}{1 - (\text{Maintenance Margin \%} \div 100)}$$
 
 ---
@@ -177,21 +179,28 @@ $$\text{Max Price Drop \%} = 1 - \frac{1 - (\text{Initial Margin \%} \div 100)}{
 ---
 
 ## Margin Calculator Frequently Asked Questions
+
 ### What is margin trading in stock markets?
+
 Margin trading allows investors to borrow funds from a brokerage firm to purchase more stock shares than they could with cash alone, amplifying both potential gains and losses.
 
 ### What triggers a margin call?
+
 A margin call occurs when your account equity falls below the brokerage maintenance margin requirement (typically 25% to 30%), requiring you to deposit cash or liquidate positions.
 
 ### How does Regulation T (Reg T) govern initial margin?
+
 Federal Reserve Regulation T dictates that investors must deposit at least 50% of the total purchase price in cash or eligible securities when buying stocks on margin.
 
 ### How is annual margin interest calculated?
+
 Margin interest is calculated daily on your outstanding borrowed loan balance based on your brokerage's annual margin interest rate, and billed monthly to your account.
 
 ### What happens if you do not satisfy a margin call?
+
 If you fail to deposit cash or securities promptly, your brokerage firm has the legal right to sell your stock holdings without prior notice to cover the deficit.
 
 ### Can you lose more money than your initial investment when trading on margin?
+
 Yes! Because margin uses debt leverage, a severe stock price decline can wipe out 100% of your cash equity and leave you owing additional money to your broker.
 

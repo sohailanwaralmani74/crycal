@@ -152,11 +152,13 @@ Key metrics evaluated:
 ## Cash Runway Formula
 
 ### Static Cash Runway Formula
+
 Without revenue growth, cash runway ($R_{static}$) in months is:
 
 $$R_{static} = \frac{\text{Cash Balance}}{\text{Monthly Expenses} - \text{Monthly Revenue}} = \frac{C}{\text{Net Burn}}$$
 
 ### Dynamic Cash Runway Simulation
+
 With compounding revenue growth rate ($g$), cash balance at month $t$ is calculated iteratively:
 
 $$\text{Revenue}_t = \text{Revenue}_0 \times (1 + g)^t$$
@@ -188,18 +190,24 @@ The dynamic runway is the month $t$ where $\text{Cash}_t \le 0$.
 ---
 
 ## Runway Calculator Frequently Asked Questions
+
 ### What is cash runway in a startup?
+
 Cash runway is the total number of months a company can continue operating before running out of cash, calculated by dividing cash balance by net monthly cash burn rate.
 
 ### How is static runway vs dynamic runway calculated?
+
 Static runway assumes constant net monthly burn (Cash / Net Burn). Dynamic runway models month-by-month cash balances incorporating revenue growth and variable cost changes.
 
 ### What is a healthy runway for a SaaS startup?
+
 Venture capitalists generally recommend maintaining 18 to 24 months of cash runway prior to raising a new venture capital funding round.
 
 ### What is the difference between gross burn and net burn?
+
 Gross burn is total operating expenditure per month, while net burn is gross expenses minus cash revenue collected (Gross Expenses − Revenue = Net Burn).
 
 ### When should a startup start raising funds based on runway?
+
 Founders should begin fundraising when they have 6 to 12 months of runway remaining, as institutional fundraising rounds typically require 3 to 6 months to close.
 

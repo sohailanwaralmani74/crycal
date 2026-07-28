@@ -201,7 +201,9 @@ This dual‑functionality makes it a powerful **gig worker rate calculator** and
 ---
 
 ## Freelancer Rate Calculator Calculation Flow
+
 ### Freelancer Rate Calculator Inputs
+
 | Input | Description |
 |-------|-------------|
 | Desired Income | Annual income after tax (target) |
@@ -268,18 +270,24 @@ This **freelancer rate calculator** is designed for:
 ---
 
 ## Freelancer Rate Calculator Frequently Asked Questions
+
 ### What is a freelancer rate calculator?
+
 A freelancer rate calculator helps independent contractors, gig workers, and freelancers determine their optimal hourly or project rate by factoring in desired income, taxes, expenses, and non‑billable hours.
 
 ### How is the recommended hourly rate calculated?
+
 The recommended rate is calculated as: (Desired Income + Taxes + Expenses) ÷ (Billable Hours per Year).
 
 ### What are non-billable hours?
+
 Non‑billable hours are hours spent on administrative work, marketing, invoicing, and other tasks that are not directly billed to clients.
 
 ### Can I calculate income from an hourly rate?
+
 Yes — enter your hourly rate and the calculator will show your projected take‑home income and total revenue.
 
 ### What is the difference between pre-tax income and total revenue?
+
 Pre‑tax income is the amount needed before taxes. Total revenue includes expenses and taxes on top of your desired income.
 

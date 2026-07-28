@@ -172,16 +172,21 @@ This **Social Security spousal benefit calculator** is designed for:
 ---
 
 ## Social Security Spousal Benefit Calculator Frequently Asked Questions
+
 ### What is a Social Security spousal benefit?
+
 A Social Security spousal benefit allows a person to receive up to 50% of their spouse's Primary Insurance Amount (PIA), if that amount is higher than their own benefit based on their own work record.
 
 ### How much is the maximum spousal benefit?
+
 The maximum spousal benefit is 50% of the worker's Primary Insurance Amount, available only if the spouse claims at their own full retirement age.
 
 ### What happens if I claim spousal benefits early?
+
 Claiming before your full retirement age permanently reduces your spousal benefit, with reductions applied for each month claimed early, down to as low as 32.5% of the worker's PIA at age 62.
 
 ### Do I automatically get my own benefit plus a spousal benefit?
+
 No. Social Security pays you the higher of your own benefit or the spousal benefit, not both combined — this is sometimes called "deemed filing."
 
 <p class="tool-disclaimer">This is a simplified estimate. Actual Social Security benefit calculations involve additional rules and factors. Consult the Social Security Administration or a financial advisor for personalized guidance.</p>

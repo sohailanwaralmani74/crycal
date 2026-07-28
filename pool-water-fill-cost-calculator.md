@@ -182,23 +182,31 @@ $$\text{Effective Cost Per 1,000 Gal} = \frac{\text{Total Fill Cost}}{\text{Thou
 ---
 
 ## Pool Water Fill Cost Calculator Frequently Asked Questions
+
 ### How much does it cost to fill an 18,000-gallon pool with tap water?
+
 Filling an 18,000-gallon pool using municipal tap water typically costs between $108 and $270 depending on municipal rates ($6 to $15 per 1,000 gallons total including water and sewer fees).
 
 ### What is the average municipal cost per 1,000 gallons of water?
+
 In the United States, average municipal water rates range from $4.00 to $10.00 per 1,000 gallons for water, plus an additional $3.00 to $8.00 per 1,000 gallons for sewer fees.
 
 ### Can I get a sewer credit when filling a swimming pool?
+
 Yes, many city utilities offer a pool fill sewer credit if you notify them in advance, waiving the sewer surcharge since pool water does not enter the municipal wastewater treatment system.
 
 ### How much does bulk water truck delivery cost for a pool?
+
 Water truck delivery typically costs between $175 and $350 per load (approx 3,000 to 6,000 gallons per tanker load), or roughly $35 to $70 per 1,000 gallons delivered.
 
 ### Is it cheaper to fill a pool with a hose or water truck?
+
 Filling with a garden hose using city water is almost always much cheaper ($100-$250 total) than bulk water delivery ($600-$1,200 total), though a water truck takes hours rather than days.
 
 ### How long does it take to fill a pool with a garden hose?
+
 A standard garden hose delivering 9 to 12 gallons per minute (GPM) takes approximately 24 to 36 hours of continuous running to fill an 18,000-gallon pool.
 
 ### Does filling a pool put extra strain on a well system?
+
 Yes. Filling a pool from a private well can burn out your well pump motor or temporarily dry out your aquifer. It is often recommended to fill in stages or hire a bulk water truck.

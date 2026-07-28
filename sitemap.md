@@ -59,6 +59,7 @@ This page lists every public page on Wanjaaro. Use these links to navigate the f
 ---
 
 ## Retirement
+
 - <a href="/rmd-calculator">RMD Calculator</a> — Calculate your Required Minimum Distribution from retirement accounts and avoid IRS penalties.
 - <a href="/social-security-break-even-calculator">Social Security Break-Even Calculator</a> — Compare claiming ages 62, 67, and 70 to find your break-even point.
 - <a href="/pension-lump-sum-vs-annuity-calculator">Pension Lump Sum vs Annuity Calculator</a> — Compare taking a lump sum payout versus a lifetime annuity pension.

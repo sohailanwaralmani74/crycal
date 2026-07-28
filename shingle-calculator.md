@@ -185,21 +185,28 @@ $$\text{Ridge Cap Bundles} = \left\lceil \frac{\text{Total Ridge \& Hip Length (
 ---
 
 ## Shingle Calculator Frequently Asked Questions
+
 ### How many bundles of shingles are in a square?
+
 There are 3 bundles of standard architectural or 3-tab asphalt shingles per roofing square (1 square = 100 sq ft, 1 bundle = 33.33 sq ft).
 
 ### How many square feet does 1 bundle of shingles cover?
+
 One standard bundle of shingles covers approximately 33.33 square feet. Heavyweight designer shingles may cover 25 square feet per bundle.
 
 ### What is starter strip and why is it needed?
+
 Starter strip shingles are installed along the eave and rake edges before field shingles to prevent wind uplift and water infiltration at roof borders.
 
 ### How many linear feet does a starter strip bundle cover?
+
 A standard bundle of starter strip shingles covers approximately 100 to 105 linear feet of roof edge.
 
 ### How many linear feet does a bundle of ridge caps cover?
+
 A standard bundle of hip and ridge cap shingles covers approximately 25 to 33 linear feet of ridge line.
 
 ### Should I cut field shingles for starter and ridge caps?
+
 While 3-tab field shingles were historically cut into starter pieces and cap shingles, modern architectural shingles require dedicated manufactured starter strips and ridge cap bundles to preserve manufacturer warranties.
 

@@ -156,9 +156,11 @@ This calculator simplifies trip budgeting by providing upfront estimates of tota
 ---
 
 ## Road Trip Fuel Cost Calculator Calculation Flow & Formulas
+
 The calculation multiplies total trip distance by average fuel rate and splits the resulting expense:
 
 ### Road Trip Fuel Cost Calculator Inputs & Parameters
+
 | Parameter | Unit | Description |
 | :--- | :--- | :--- |
 | **Leg Distance (\(D_{leg}\))** | miles | One-way distance between origin and destination |
@@ -170,27 +172,33 @@ The calculation multiplies total trip distance by average fuel rate and splits t
 ---
 
 ### Step-by-Step Road Trip Fuel Cost Calculator Formulas
+
 #### 1. Total Trip Distance (\(D_{total}\))
+
 \[
 D_{total} = D_{leg} \times M_{trip}
 \]
 
 #### 2. Total Fuel Required (\(G_{total}\))
+
 \[
 G_{total} = \frac{D_{total}}{MPG} \quad \text{(in gallons)}
 \]
 
 #### 3. Total Fuel Cost (\(C_{total}\))
+
 \[
 C_{total} = G_{total} \times P_{gas}
 \]
 
 #### 4. Cost Per Passenger Share (\(C_{person}\))
+
 \[
 C_{person} = \frac{C_{total}}{N}
 \]
 
 #### 5. Fuel Cost Per Mile (\(C_{mile}\))
+
 \[
 C_{mile} = \frac{P_{gas}}{MPG}
 \]
@@ -209,6 +217,7 @@ C_{mile} = \frac{P_{gas}}{MPG}
 ---
 
 ## How to Use the Road Trip Fuel Cost Calculator Step-by-Step
+
 1. **Enter Mileage**: Input your destination distance (e.g. `600 miles`) and select **Round Trip**.
 2. **Set Vehicle MPG**: Enter your car's highway fuel economy rating.
 3. **Input Gas Price**: Enter estimated average gas price along your travel route.
@@ -217,23 +226,31 @@ C_{mile} = \frac{P_{gas}}{MPG}
 ---
 
 ## Road Trip Fuel Cost Calculator Frequently Asked Questions
+
 ### How do you calculate road trip gas cost?
+
 Divide total trip miles by vehicle MPG to get total gallons needed, then multiply by average gas price per gallon.
 
 ### Should I use combined MPG or highway MPG for a road trip?
+
 For long highway road trips with minimal city driving, use your vehicle's **Highway MPG** rating for the most accurate fuel consumption estimate.
 
 ### How does cargo and passenger weight affect MPG on a road trip?
+
 An extra 100 pounds of luggage or passenger weight reduces vehicle fuel economy by approximately **1% to 2%** due to increased inertia and rolling resistance.
 
 ### Does roof cargo box ruin road trip fuel economy?
+
 Yes. Roof racks and cargo boxes increase aerodynamic drag significantly, reducing fuel economy by **10% to 25%** at highway speeds above 65 mph.
 
 ### How can I calculate fuel cost per mile?
+
 Fuel cost per mile is calculated by dividing gas price per gallon by your vehicle's average MPG (e.g. $3.50 / 25 MPG = $0.14 per mile).
 
 ### What is the best way to split gas costs among friends?
+
 Divide the total gas receipts by the number of total travelers. Using this calculator before departure gives everyone an upfront budget estimate.
 
 ### Is my trip route data kept confidential?
+
 Yes. All computations take place locally inside your browser.

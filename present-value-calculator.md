@@ -175,15 +175,20 @@ This **PV calculator** is designed for:
 ---
 
 ## Present Value Calculator Frequently Asked Questions
+
 ### What is present value?
+
 Present value is the current worth of a future sum of money, discounted back at a specific rate to account for the time value of money.
 
 ### How is present value calculated?
+
 Present value is calculated by dividing the future value by (1 + discount rate/compounding periods) raised to the power of the number of compounding periods.
 
 ### Why does money today have more value than money in the future?
+
 Money available today can be invested to earn a return, so a dollar today is generally worth more than a dollar received in the future — this is the time value of money.
 
 ### What discount rate should I use?
+
 The discount rate typically reflects your required rate of return, cost of capital, or a benchmark like inflation or a risk-free rate such as Treasury yields.
 

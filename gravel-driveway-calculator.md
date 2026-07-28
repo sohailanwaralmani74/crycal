@@ -202,21 +202,28 @@ The table below outlines aggregate requirements across common driveway sizes:
 ---
 
 ## Gravel Driveway Calculator Frequently Asked Questions
+
 ### How many tons of gravel do I need for a 50 ft by 12 ft driveway at 4 inches deep?
+
 A 50 ft × 12 ft driveway (600 sq ft) at 4 inches deep requires 7.41 cubic yards of gravel. At a standard crushed stone density of 1.40 tons per yard, you will need 10.37 tons.
 
 ### How many cubic yards of gravel are in 1 ton?
+
 One ton of crushed stone gravel equals approximately 0.71 cubic yards ($1 / 1.40 = 0.714$). Conversely, 1 cubic yard of crushed gravel weighs approximately 1.40 tons (2,800 lbs).
 
 ### What depth of gravel is recommended for a residential driveway?
+
 New gravel driveways require a total depth of 4 to 6 inches composed of 2 to 3 layered lifts (e.g., 4 inches of dense coarse base topped with 2 inches of fine crushed stone). Top-up resurfacing requires 2 inches.
 
 ### What is Crusher Run / #411 gravel and why is it used for driveways?
+
 Crusher Run (also known as #411 or Dense Grade Aggregate) is a mix of 3/4-inch crushed stone down to fine rock dust. The stone dust fills voids between angular rocks, compacting into a dense, solid driveway surface.
 
 ### How wide should a single-car vs double-car gravel driveway be?
+
 A standard single-car driveway should be 10 to 12 feet wide. A double-car driveway should be 20 to 24 feet wide.
 
 ### How much does a ton of driveway gravel cost delivered?
+
 Driveway gravel costs $25 to $50 per ton depending on aggregate type, quarry distance, and delivery fees. Total installed cost ranges from $1.50 to $3.00 per square foot.
 

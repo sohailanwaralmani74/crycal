@@ -334,6 +334,7 @@ Your **FIRE Number** (Financial Independence, Retire Early) is the amount you ne
 ---
 
 ## How to Use the Retirement Planner Calculator
+
 1. **Enter your personal information** — current age, retirement age, and annual income.
 2. **Enter your savings and contributions** — current savings, annual contribution, and employer match.
 3. **Set your assumptions** — expected return, inflation rate, and safe withdrawal rate.
@@ -362,21 +363,25 @@ The tool updates instantly as you adjust any input — no "Calculate" button req
 ## Retirement Planning Tips
 
 ### Expense Management
+
 - Track your spending to identify areas to reduce.
 - Consider downsizing your home or relocating to a lower-cost area.
 - Delay major purchases until after retirement.
 
 ### Contribution Strategies
+
 - Aim to save at least 15% of your income for retirement.
 - Take full advantage of employer matching contributions.
 - Increase your contribution rate by 1-2% each year.
 
 ### Investment Strategies
+
 - Diversify your investments across asset classes.
 - Consider your risk tolerance and time horizon.
 - Reduce risk as you approach retirement.
 
 ### Retirement Age Considerations
+
 - Delaying retirement by 1-2 years can significantly improve your finances.
 - Consider working part-time in early retirement.
 - Coordinate Social Security claiming with your retirement date.
@@ -384,21 +389,28 @@ The tool updates instantly as you adjust any input — no "Calculate" button req
 ---
 
 ## Retirement Planner Calculator Frequently Asked Questions
+
 ### What is a Retirement Planner?
+
 A Retirement Planner is a comprehensive tool that projects whether your current savings, contributions, and investment returns will sustain your desired lifestyle throughout retirement.
 
 ### What is retirement and planning?
+
 Retirement and planning involves determining your retirement goals, estimating your expenses, calculating your savings needs, and creating a strategy to achieve financial security.
 
 ### What are retirement planning tools?
+
 Retirement planning tools are calculators and software that help you project your retirement savings, estimate your income needs, and track your progress.
 
 ### What is a retirement financial planner?
+
 A retirement financial planner is a professional or tool that helps you assess your current finances, set retirement goals, and develop a strategy to achieve those goals.
 
 ### What does the retirement planner do?
+
 The retirement planner calculates your projected savings, annual income, FIRE number, and the gap between income and expenses, providing personalized tips and recommendations.
 
 ### Is a nationwide retirement planner available?
+
 Yes — this Retirement Planner works for anyone regardless of location. It uses global inputs and assumes no specific country-specific rules.
 

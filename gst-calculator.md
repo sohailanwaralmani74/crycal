@@ -137,9 +137,11 @@ Goods and Services Tax (GST) is an indirect consumption tax levied on the sale o
 Calculating GST manually—especially reverse GST calculations from tax-inclusive prices—can lead to rounding errors and accounting discrepancies. For instance, removing an 18% GST rate from a $118 inclusive price requires dividing by 1.18 rather than multiplying by 0.18. This GST calculator supports both forward tax addition and reverse tax extraction across standard rates (such as 5%, 10%, 12%, 18%, and 28%) or custom tax percentages, ensuring fast and accurate tax calculations securely and privately.
 
 ## GST Calculator Mathematical Formulas & Mechanics
+
 GST calculations depend on whether you are performing a forward calculation (adding GST to a net price) or a reverse calculation (extracting GST from an inclusive gross price).
 
 ### 1. Forward GST Calculation (Add GST / Net to Gross)
+
 For a net pre-tax amount ($A_{net}$) and GST percentage rate ($r_{gst}$):
 
 $$T_{gst} = A_{net} \times \left(\frac{r_{gst}}{100}\right)$$
@@ -147,6 +149,7 @@ $$T_{gst} = A_{net} \times \left(\frac{r_{gst}}{100}\right)$$
 $$A_{gross} = A_{net} + T_{gst} = A_{net} \times \left(1 + \frac{r_{gst}}{100}\right)$$
 
 ### 2. Reverse GST Calculation (Remove GST / Gross to Net)
+
 For an inclusive gross total amount ($A_{gross}$) and GST percentage rate ($r_{gst}$):
 
 $$A_{net} = \frac{A_{gross}}{1 + \left(\frac{r_{gst}}{100}\right)}$$
@@ -156,6 +159,7 @@ $$T_{gst} = A_{gross} - A_{net} = A_{gross} \times \left(\frac{r_{gst}}{100 + r_
 Where $A_{net}$ represents base price excluding tax, $T_{gst}$ represents calculated GST tax amount, and $A_{gross}$ represents final total price inclusive of tax.
 
 ## GST Calculator Benchmarks & Comparison Table
+
 | Base Input Amount | GST Tax Rate % | Calculation Mode | Net Price (Exclusive) | Calculated GST Tax | Gross Price (Inclusive) |
 |---|---|---|---|---|---|
 | **$500.00** | 5.0% | Add GST (Forward) | $500.00 | $25.00 | **$525.00** |
@@ -165,6 +169,7 @@ Where $A_{net}$ represents base price excluding tax, $T_{gst}$ represents calcul
 | **$2,500.00** | 28.0% | Add GST (Forward) | $2,500.00 | $700.00 | **$3,200.00** |
 
 ## How to Use the GST Calculator Step-by-Step
+
 1. **Enter Base Amount / Price**: Input monetary dollar value for base cost or gross invoice total.
 2. **Specify GST Rate Percentage**: Input statutory GST rate percentage (e.g., 5%, 10%, 12%, 18%, or 28%).
 3. **Select Calculation Mode**: Choose "Add GST (Net to Gross)" or "Remove GST (Gross to Net)".
@@ -172,23 +177,31 @@ Where $A_{net}$ represents base price excluding tax, $T_{gst}$ represents calcul
 5. **Apply Outputs to Invoicing & Accounting**: Transfer computed breakdown amounts into invoices or tax returns.
 
 ## GST Calculator Frequently Asked Questions
+
 ### How do you calculate GST?
+
 To add GST: Net Amount × (GST Rate / 100). To remove GST: Gross Amount - (Gross Amount / (1 + GST Rate / 100)).
 
 ### What is the difference between GST inclusive and GST exclusive pricing?
+
 GST exclusive (net price) refers to base product cost before tax, whereas GST inclusive (gross price) represents the total final retail price including sales tax.
 
 ### How does reverse GST calculation work?
+
 Reverse GST calculation extracts pre-tax base cost and embedded tax from a gross price by dividing total price by (1 + GST Rate / 100).
 
 ### Which countries utilize Goods and Services Tax (GST) systems?
+
 GST systems are utilized internationally by major economies including India, Australia, Canada, New Zealand, Singapore, and Malaysia.
 
 ### What standard GST tax rate slabs apply to goods and services?
+
 Standard GST structures enforce tax slabs ranging from 5% (essential goods), 10% or 12% (standard items), 18% (services/manufacturing), to 28% (luxury items).
 
 ### Can businesses claim Input Tax Credits (ITC) on GST paid?
+
 Yes, registered businesses can claim Input Tax Credit on GST paid for business inputs, offsetting taxes collected from customers on final sales.
 
 ### Is commercial pricing and invoice data kept private?
+
 Yes, all GST calculations execute 100% locally inside your web browser. No invoice amounts, business rates, or customer data leave your device.

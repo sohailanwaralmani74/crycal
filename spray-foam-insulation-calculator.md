@@ -192,23 +192,31 @@ where Open Cell R-Value $\approx 3.7 / \text{in}$ and Closed Cell R-Value $\appr
 ---
 
 ## Spray Foam Insulation Calculator Frequently Asked Questions
+
 ### What is a board foot in spray foam insulation?
+
 A board foot (bd ft) is a unit of volume measuring 12 inches wide by 12 inches long by 1 inch thick (144 cubic inches or 1 square foot at 1 inch depth).
 
 ### How many board feet of spray foam do I need for 1,000 sq ft at 3 inches thickness?
+
 1,000 sq ft sprayed at 3 inches depth equals 3,000 raw board feet. Adding a 10% waste and trimming allowance requires approximately 3,300 board feet.
 
 ### What is the difference between open cell and closed cell spray foam?
+
 Open cell foam is lightweight (0.5 lb/cu ft), soft, provides ~R-3.7 per inch, and acts as an acoustic air barrier. Closed cell foam is dense (2.0 lb/cu ft), rigid, provides ~R-6.8 per inch, adds structural rigidity, and acts as a Class II vapor barrier.
 
 ### How much does spray foam insulation cost per square foot?
+
 Open cell spray foam costs between $1.50 and $3.00 per sq ft installed (3.5 inches depth). Closed cell spray foam costs between $2.50 and $5.50 per sq ft installed (2 to 3 inches depth).
 
 ### What thickness of closed cell spray foam is needed for a vapor barrier?
+
 Closed cell spray foam functions as a code-compliant vapor retarder/barrier when applied at a minimum thickness of 1.5 to 2.0 inches.
 
 ### Does this calculator include over-spray and stud trimming waste?
+
 Yes, the calculator includes an adjustable over-spray and wall stud shaving waste allowance (default 10%).
 
 ### Is my personal calculation data uploaded anywhere?
+
 No. All computations process locally inside your Web browser.

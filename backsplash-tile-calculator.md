@@ -232,21 +232,28 @@ Benchmark comparison for a standard **12 ft long × 18 in high (18 sq ft) kitche
 ---
 
 ## Backsplash Tile Calculator Frequently Asked Questions
+
 ### How do I measure square footage for a kitchen backsplash?
+
 Measure the length of your countertop in feet and the height from the counter to upper cabinets in inches. Multiply length by (height ÷ 12) to calculate wall square footage.
 
 ### How many 3x6 subway tiles do I need for a 15 sq ft backsplash?
+
 Each 3x6 inch subway tile covers 0.125 square feet. For a 15 sq ft backsplash, you need 120 net tiles. Adding 10% waste brings the total to 132 tiles.
 
 ### Do electrical outlets reduce the amount of backsplash tile needed?
+
 Yes. Each standard single or double electrical outlet gang box removes about 0.15 square feet of tile area. Our calculator automatically subtracts this area.
 
 ### How much tile waste should I add for a backsplash?
+
 Add 10% waste for standard horizontal subway tile installation, and 15% for herringbone, chevron, or diagonal glass mosaic patterns.
 
 ### How many square feet are in a box of subway tiles?
+
 Most standard 3x6 subway tiles are packaged in boxes containing 10 to 12.5 square feet (roughly 80 to 100 tiles per carton).
 
 ### How much does a kitchen backsplash cost to tile?
+
 Materials typically cost $5 to $15 per square foot for subway tile or $15 to $30+ per sq ft for natural marble or glass mosaic. Professional labor adds $10 to $20 per sq ft.
 

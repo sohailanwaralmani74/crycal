@@ -235,6 +235,7 @@ Closing costs can be a significant expense when buying or refinancing a home. Th
 ---
 
 ## How Closing Costs Calculator Fees Are Calculated
+
 **Total Closing Costs = Sum of All Individual Closing Cost Components**
 
 **Percentage of Loan Amount = (Total Closing Costs ÷ Loan Amount) × 100**
@@ -262,16 +263,21 @@ Closing costs can be a significant expense when buying or refinancing a home. Th
 ---
 
 ## Closing Costs Calculator Frequently Asked Questions
+
 ### What are closing costs?
+
 Closing costs are fees and expenses paid at the closing of a real estate transaction. They include lender fees, third-party fees, and prepaid items like insurance and taxes.
 
 ### How much are closing costs typically?
+
 Closing costs typically range from 2% to 5% of the loan amount. This calculator helps you get a more precise estimate based on your specific costs.
 
 ### Who pays closing costs?
+
 Closing costs are typically paid by the buyer, though sellers may contribute to some costs. The buyer and seller can negotiate who pays which fees.
 
 ### Can I roll closing costs into my mortgage?
+
 Some closing costs can be financed into the loan amount, but this increases your loan balance and total interest. Not all costs can be rolled in.
 
 ---

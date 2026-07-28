@@ -125,6 +125,7 @@ Average Revenue Per User (ARPU) is the fundamental baseline metric for SaaS mone
 Having accurate, real-time insights into this metric helps SaaS founders, CFOs, and growth teams optimize capital allocation, protect operating runway, and achieve top-tier venture scalability.
 
 ## ARPU Calculator Formula & Derivation
+
 The mathematical derivation for this financial metric is expressed as:
 
 $$\text{Monthly ARPU} = \frac{\text{Total Monthly Recurring Revenue (MRR)}}{\text{Active Subscribers}}$$ \n$$\text{Annualized ARPU} = \text{Monthly ARPU} \times 12$$
@@ -132,6 +133,7 @@ $$\text{Monthly ARPU} = \frac{\text{Total Monthly Recurring Revenue (MRR)}}{\tex
 Where all input values are evaluated over a standardized monthly or annual accounting period.
 
 ## ARPU Calculator SaaS Benchmarks
+
 | ARPU Range | Target Segment Profile | Go-To-Market Strategy |
 | --- | --- | --- |
 | $10 - $49 / mo | Consumer / Micro-SMB | Low-touch PLG Self-Serve |
@@ -140,6 +142,7 @@ Where all input values are evaluated over a standardized monthly or annual accou
 | >= $1,000 / mo | Enterprise B2B | High-Touch Field Sales & ABM |
 
 ## Step-by-Step ARPU Calculator Calculation Guide
+
 1. **Enter Core Financial Inputs:** Supply your monthly sales spend, user counts, ARPU, or recurring revenue figures.
 2. **Review Intermediate Outputs:** Examine calculated gross profit, churn, payback, or unit contribution scores.
 3. **Assess Benchmark Ratings:** Compare your results against SaaS industry standards to identify growth bottlenecks.
@@ -148,21 +151,28 @@ Where all input values are evaluated over a standardized monthly or annual accou
 ---
 
 ## ARPU Calculator Frequently Asked Questions
+
 ### What is ARPU?
+
 ARPU (Average Revenue Per User) measures the average monthly subscription revenue generated per active subscriber or user account.
 
 ### How does ARPU differ from ARPA?
+
 ARPU measures revenue per individual user or seat, whereas ARPA (Average Revenue Per Account) measures total revenue per B2B customer organization.
 
 ### Why is expanding ARPU critical for SaaS scaling?
+
 Raising ARPU expands lifetime value (LTV) and improves LTV:CAC ratios organically without increasing ad spend.
 
 ### What strategies boost ARPU?
+
 Boost ARPU by introducing usage-based pricing meters, unbundling premium features into paid add-ons, and instituting seat tier minimums.
 
 ### How does expansion revenue factor into ARPU?
+
 Expansion revenue (upsells, feature upgrades) increases ARPU over time as existing cohorts expand account spend.
 
 ### How often should ARPU be evaluated?
+
 Monitor ARPU monthly by customer tier and pricing plan cohort.
 

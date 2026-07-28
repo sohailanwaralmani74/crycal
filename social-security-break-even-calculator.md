@@ -171,6 +171,7 @@ Deciding when to claim Social Security is one of the most important retirement d
 ---
 
 ## Social Security Break Even Calculator Break-Even Analysis
+
 The **break-even age** is the age at which the total lifetime benefits from claiming later equal the total lifetime benefits from claiming earlier.
 
 **Example:**
@@ -211,18 +212,24 @@ The tool updates instantly as you adjust any input — no "Calculate" button req
 ---
 
 ## Social Security Break Even Calculator Frequently Asked Questions
+
 ### What is the Social Security break-even age?
+
 The break-even age is the age at which total lifetime benefits from claiming later equal total lifetime benefits from claiming earlier.
 
 ### What are the claiming age adjustments?
+
 Claiming at 62 results in a 30% reduction from your FRA benefit. Claiming at 70 results in a 24% increase. The exact percentages depend on your birth year.
 
 ### What is my Full Retirement Age (FRA)?
+
 Your FRA depends on your birth year. For those born 1954-1959, FRA is 66 plus a few months. For those born 1960 or later, FRA is 67.
 
 ### What happens if I claim before my FRA?
+
 If you claim before your FRA, your benefit is permanently reduced. The reduction is about 5/9 of 1% for each month before FRA (up to 36 months), and 5/12 of 1% for additional months.
 
 ### What happens if I delay claiming past my FRA?
+
 If you delay claiming past your FRA, your benefit increases by 8% per year until age 70. After 70, there is no additional benefit increase.
 

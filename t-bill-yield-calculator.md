@@ -192,18 +192,24 @@ This **t bill interest rate calculator** is designed for:
 ---
 
 ## T-Bill Yield Calculator Frequently Asked Questions
+
 ### What is a T-Bill yield calculator?
+
 A T-Bill yield calculator helps investors determine the return on Treasury Bills by calculating discount yield, investment yield, and annualized return.
 
 ### What is the formula for Treasury Bill yield?
+
 The discount yield formula is: (Face Value − Purchase Price) ÷ Face Value × (360 ÷ Days to Maturity). The investment yield formula is: (Face Value − Purchase Price) ÷ Purchase Price × (365 ÷ Days to Maturity).
 
 ### What is the difference between discount yield and investment yield?
+
 Discount yield uses a 360-day year and face value as the denominator. Investment yield uses a 365-day year and purchase price as the denominator, making it more comparable to other investments.
 
 ### How is the yield to maturity calculated on a Treasury Bill?
+
 Yield to maturity on a T-Bill is calculated using the investment yield formula: (Face Value − Purchase Price) ÷ Purchase Price × (365 ÷ Days to Maturity).
 
 ### What is the formula for calculating yield on Treasury Bills?
+
 The Treasury Bill yield formula is: Discount Yield = (Discount ÷ Face Value) × (360 ÷ Days). Investment Yield = (Discount ÷ Purchase Price) × (365 ÷ Days).
 

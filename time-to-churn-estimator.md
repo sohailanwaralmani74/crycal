@@ -170,23 +170,31 @@ $$\text{Margin-Adjusted LTV} = \text{Gross LTV} \times \frac{\text{Gross Margin 
 ---
 
 ## Time to Churn Estimator Frequently Asked Questions
+
 ### What is Time-to-Churn?
+
 Time-to-Churn estimates the average duration in months or years that a customer stays active before cancelling their subscription.
 
 ### What is the formula for Average Customer Lifetime in Months?
+
 Average Customer Lifetime (Months) = 1 / Monthly Churn Rate (decimal) = 100 / Monthly Churn Rate (%).
 
 ### How does Customer Lifetime connect to Customer Lifetime Value (LTV)?
+
 Customer Lifetime Value (LTV) = ARPU × Average Customer Lifetime (Months) × Gross Margin (%).
 
 ### What is the impact of reducing monthly churn from 3% to 1.5%?
+
 Cutting monthly churn in half doubles average customer lifetime from 33.3 months to 66.7 months, doubling total LTV.
 
 ### Why is estimating Time-to-Churn critical for setting CAC Payback targets?
+
 If your average customer lifetime is 18 months, your CAC payback period must be well below 18 months (ideally 6 to 12 months) to avoid losing money on customer acquisition.
 
 ### Is customer lifetime distribution linear in real-world SaaS?
+
 No. Real-world churn follows a non-linear decay curve where early churn is high (Month 1–3) and stabilizes into a flat retention tail after Month 6.
 
 ### How can SaaS companies extend customer time-to-churn?
+
 By improving early onboarding activation, driving feature adoption, securing annual prepaid contracts, and establishing proactive Customer Success health scores.

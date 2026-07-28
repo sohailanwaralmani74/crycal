@@ -164,6 +164,7 @@ This calculator quantifies **deal equivalence ratios**, **sales cycle velocities
 ---
 
 ## Key Enterprise vs Smb Pricing Calculator Mathematical Formulas
+
 ### 1. Annual Revenue by Segment
 
 $$ \text{SMB Annual ARR} = \text{SMB ACV} \times \text{SMB Deals Closed / Year} $$
@@ -202,20 +203,27 @@ $$ \text{SMB Deal Equivalent} = \frac{\text{Enterprise ACV}}{\text{SMB ACV}} $$
 ---
 
 ## Enterprise vs Smb Pricing Calculator Frequently Asked Questions
+
 ### What is the difference between SMB and Enterprise ACV in SaaS?
+
 SMB ACV typically ranges from $500 to $5,000 per year with short, self-serve sales cycles (1 to 30 days). Enterprise ACV ranges from $30,000 to $200,000+ per year with complex sales cycles (60 to 180+ days).
 
 ### What is the Deal Equivalence Ratio?
+
 The Deal Equivalence Ratio indicates how many SMB transactions are required to generate the exact same ARR as one Enterprise deal. Formula: Ratio = Enterprise ACV ÷ SMB ACV.
 
 ### Which motion is better: High-Touch Enterprise or Low-Touch SMB?
+
 Neither is universally better. SMB provides high customer volume, fast feedback loops, and lower CAC dependency, while Enterprise provides high ARR per account, higher retention, and massive contract expansion potential.
 
 ### Why do enterprise sales cycles take so much longer?
+
 Enterprise deals require security reviews (SOC2/ISO), legal contract redlines, procurement approvals, custom SLA negotiations, and multi-stakeholder buy-in.
 
 ### What is 'Moving Upmarket' in SaaS?
+
 Moving upmarket occurs when a product originally built for SMBs adds enterprise security (SSO/SAML), team administration, and compliance features to target larger ACV deals.
 
 ### How does churn differ between SMB and Enterprise accounts?
+
 SMB monthly churn averages 2% to 5% (higher small business failure rates), whereas Enterprise net churn is often negative (-10% to -30% net expansion) due to seat expansion.

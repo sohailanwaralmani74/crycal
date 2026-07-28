@@ -170,23 +170,31 @@ $$\text{Ending Customers} = \text{Starting Customers} - \text{Lost Customers} + 
 ---
 
 ## Logo Churn Calculator Frequently Asked Questions
+
 ### What is Logo Churn in SaaS?
+
 Logo churn (or customer account churn) measures the percentage of total customer accounts or business entities that cancel their subscriptions during a specific time period.
 
 ### What is the difference between Logo Churn and Revenue Churn?
+
 Logo Churn tracks the count of lost customer accounts regardless of contract size. Revenue Churn tracks the total subscription dollars lost from cancellations and downgrades.
 
 ### What is the formula for Logo Churn Rate %?
+
 Logo Churn Rate % = (Lost Customers / Starting Customers) × 100.
 
 ### How do you calculate Annualized Logo Churn from a monthly rate?
+
 Annualized Logo Churn % = [1 − (1 − Monthly Churn Rate)^12] × 100.
 
 ### What is a good monthly Logo Churn rate for B2B SaaS?
+
 For Enterprise B2B SaaS, monthly logo churn should be under 0.5%–1.0% (5%–10% annually). For SMB SaaS, 1.5%–3.0% per month is typical.
 
 ### Why is high Logo Churn dangerous even if Revenue Churn is low?
+
 High logo churn depletes your total addressable market (TAM), reduces referral network effects, and indicates poor product usability or weak onboarding.
 
 ### Does Logo Churn include customer upgrades or downgrades?
+
 No. Account tier upgrades or downgrades affect revenue churn, but do not change logo churn unless the customer completely cancels.

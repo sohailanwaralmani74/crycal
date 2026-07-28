@@ -121,9 +121,11 @@ Residential rental real estate offers a key tax advantage: tax depreciation writ
 Understanding your annual depreciation write-off is critical for tax planning and budgeting net rental income. Property values are divided between land and building structure. Land is non-depreciable because it does not wear out. Accurately establishing your land-to-building ratio is essential for optimizing tax deductions without triggering IRS audit risks. This calculator models your annual and monthly depreciation allowances while accounting for land allocations securely and privately.
 
 ## Rental Property Depreciation Calculator Mathematical Formulas & Mechanics
+
 Under IRS Code Section 168, residential rental properties placed in service after 1986 follow the 27.5-year straight-line MACRS schedule.
 
 ### 1. Land & Building Basis Allocation
+
 The depreciable building basis ($B_{dep}$) is determined by subtracting land value ($L_{amount}$) from total purchase price ($P_{total}$):
 
 $$L_{amount} = P_{total} \times \left(\frac{L_{\%}}{100}\right)$$
@@ -131,6 +133,7 @@ $$L_{amount} = P_{total} \times \left(\frac{L_{\%}}{100}\right)$$
 $$B_{dep} = P_{total} - L_{amount} = P_{total} \times \left(1 - \frac{L_{\%}}{100}\right)$$
 
 ### 2. Annual & Monthly Depreciation Write-Offs
+
 Using straight-line depreciation over 27.5 years, annual ($D_{annual}$) and monthly ($D_{monthly}$) deductions are:
 
 $$D_{annual} = \frac{B_{dep}}{27.5}$$
@@ -140,6 +143,7 @@ $$D_{monthly} = \frac{D_{annual}}{12}$$
 Where $P_{total}$ represents total acquisition cost, $L_{\%}$ represents estimated land percentage, and $B_{dep}$ represents total depreciable cost basis.
 
 ## Rental Property Depreciation Calculator Benchmarks & Comparison Table
+
 | Property Acquisition Cost | Land Allocation % | Depreciable Building Basis | Annual Tax Deduction (27.5 Yrs) | Monthly Paper Tax Write-Off | 10-Year Cumulative Write-Off |
 |---|---|---|---|---|---|
 | **$250,000** | 15% ($37,500) | $212,500 | $7,727.27 | $643.94 | $77,272.70 |
@@ -149,6 +153,7 @@ Where $P_{total}$ represents total acquisition cost, $L_{\%}$ represents estimat
 | **$1,500,000** | 30% ($450,000) | $1,050,000 | $38,181.82 | $3,181.82 | $381,818.20 |
 
 ## How to Use the Rental Property Depreciation Calculator Step-by-Step
+
 1. **Enter Total Property Purchase Price**: Input total property acquisition cost including purchase price and closing fees.
 2. **Specify Estimated Land Value Percentage**: Select estimated land percentage (typically 15%–30%).
 3. **Review Depreciable Building Basis**: Examine calculated depreciable cost basis excluding non-depreciable land allocation.
@@ -156,21 +161,28 @@ Where $P_{total}$ represents total acquisition cost, $L_{\%}$ represents estimat
 5. **Incorporate Depreciation into Tax Returns**: Use output numbers when filing IRS Schedule E (Form 1040) to minimize tax liability.
 
 ## Rental Property Depreciation Calculator Frequently Asked Questions
+
 ### How does IRS rental property depreciation work?
+
 The IRS allows residential real estate investors to write off the building value (excluding land) evenly over 27.5 years as a non-cash paper expense, reducing taxable rental income.
 
 ### Can land value be depreciated for tax purposes?
+
 No, IRS rules state land does not wear out or decay over time, so land value cannot be depreciated and must be separated from total property cost basis.
 
 ### What is depreciation recapture when selling a rental property?
+
 When selling a property, the IRS taxes total accumulated depreciation claimed (or claimable) at a maximum rate of 25% under Section 1250 depreciation recapture rules.
 
 ### How do capital improvements affect property depreciation schedules?
+
 Major capital improvements (such as roof replacement or HVAC units) are added to building cost basis and depreciated over separate MACRS recovery periods.
 
 ### What happens if I forget to claim depreciation on my tax return?
+
 The IRS calculates depreciation recapture based on allowed or allowable depreciation, meaning you owe recapture tax even if write-offs were never claimed on tax returns.
 
 ### What recovery period applies to commercial rental properties?
+
 Commercial rental properties follow a 39-year MACRS straight-line depreciation schedule, compared to 27.5 years for residential rental properties.
 

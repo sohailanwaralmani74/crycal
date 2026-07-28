@@ -196,16 +196,21 @@ This **college savings calculator** is designed for:
 ---
 
 ## 529 Plan Growth Calculator Frequently Asked Questions
+
 ### What is a 529 plan?
+
 A 529 plan is a tax-advantaged savings account designed to help families save for education expenses, with earnings growing tax-free and tax-free withdrawals for qualified education costs.
 
 ### How is 529 plan growth calculated?
+
 529 plan growth is calculated using compound interest on the current balance plus the future value of ongoing monthly contributions, similar to a standard investment growth projection.
 
 ### Do 529 plan contributions reduce federal taxes?
+
 No, 529 contributions are not deductible on federal taxes. However, many states offer a state income tax deduction or credit for contributions to their own 529 plan.
 
 ### Are 529 plan withdrawals taxed?
+
 Withdrawals are tax-free at the federal level (and often state level) as long as they're used for qualified education expenses like tuition, fees, room and board, and books.
 
 

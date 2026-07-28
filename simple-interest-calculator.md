@@ -172,15 +172,20 @@ Adjust any field and the results update immediately — no page reloads or butto
 ---
 
 ## Simple Interest Calculator Frequently Asked Questions
+
 ### What is the difference between simple and compound interest?
+
 Simple interest is calculated only on the principal amount. Compound interest is calculated on both the principal and the accumulated interest from previous periods. If you're looking for the simple interest formula, it's P × r × t.
 
 ### Can I use this simple interest loan calculator for borrowing?
+
 Yes. Enter the loan amount as the principal, the annual interest rate, and the loan term in years — the tool shows the total interest owed and the final repayment amount. It works as a reliable interest calculator simple interest for both lenders and borrowers.
 
 ### How accurate is this calculator?
+
 It uses the standard simple interest formula and produces mathematically accurate results for the inputs you provide. It's a dependable basic interest calculator for all your financial estimates.
 
 ### What is the simple interest cal formula for daily interest?
+
 The formula remains the same, but time (t) is expressed as a fraction of a year (e.g., days/365). Our calculator uses annual time periods, but you can enter fractional years for shorter terms.
 ---

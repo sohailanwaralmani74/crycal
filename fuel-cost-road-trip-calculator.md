@@ -149,6 +149,7 @@ Using this **Fuel Cost Road Trip Calculator**, you can determine exact fuel cost
 ---
 
 ## Fuel Cost Road Trip Calculator Calculation Flow
+
 <div class="flow-chart">
   <div class="flow-title">Road Trip Fuel Calculation Flow</div>
 
@@ -205,9 +206,11 @@ Using this **Fuel Cost Road Trip Calculator**, you can determine exact fuel cost
 ## Road Trip Fuel Formulas
 
 ### 1. Total Trip Gas Expense
+
 $$\text{Total Gas Cost} = \left( \frac{\text{Trip Distance}}{\text{MPG}} \right) \times \text{Gas Price}$$
 
 ### 2. Fair Passenger Split
+
 $$\text{Cost Per Person} = \frac{\text{Total Gas Cost}}{\text{Passenger Count}}$$
 
 ---
@@ -225,38 +228,51 @@ $$\text{Cost Per Person} = \frac{\text{Total Gas Cost}}{\text{Passenger Count}}$
 ---
 
 ## Step-by-Step Fuel Cost Road Trip Calculator Guide
+
 ### Step 1: Input Round-Trip Distance
+
 Enter the total driving distance in miles (include expected local driving at your destination).
 
 ### Step 2: Input Highway MPG Rating
+
 Enter your vehicle's highway MPG rating.
 
 ### Step 3: Set Gas Price & Travelers
+
 Input estimated average gas price along your route and total number of passengers.
 
 ### Step 4: Review Gas Budget & Refill Schedule
+
 Examine total gas bill, per-person share, and planned fuel stops.
 
 ---
 
 ## Fuel Cost Road Trip Calculator Frequently Asked Questions
+
 ### How do you calculate gas cost for a road trip?
+
 Divide total trip miles by vehicle MPG to find total gallons needed, then multiply gallons by average gas price per gallon: Total Cost = (Miles ÷ MPG) × Gas Price.
 
 ### How do I split gas costs fairly with passengers?
+
 Divide the total gas cost calculated at the end of the trip by the total number of passengers (including the driver): Share = Total Cost ÷ Passengers.
 
 ### Should round-trip mileage be entered?
+
 Yes, make sure to enter the complete round-trip mileage (e.g., 425 miles each way = 850 total miles) to get an accurate full-trip budget.
 
 ### How do highway speeds affect road trip MPG?
+
 Driving over 65 mph significantly reduces fuel economy. Every 5 mph you drive above 60 mph is equivalent to paying an extra $0.25 to $0.35 per gallon of gas.
 
 ### Should I budget extra gas money for traffic and city driving?
+
 Adding a 10% to 15% safety buffer to your calculated gas budget accounts for unexpected detours, traffic jams, and city sightseeing.
 
 ### How many tank refills will I need?
+
 Assuming a standard 14-gallon gas tank refilled when 2 gallons remain (12 gallons per fill), divide total gallons needed by 12.
 
 ### Is the Fuel Cost Road Trip Calculator private?
+
 Yes, all data processing takes place strictly inside your browser.

@@ -211,21 +211,28 @@ $$\text{Tape Rolls} = \left\lceil \frac{\text{Tape Feet Needed}}{\text{Roll Leng
 ---
 
 ## Drywall Mud Joint Compound Calculator Frequently Asked Questions
+
 ### How much drywall mud do I need for 1,000 sq ft?
+
 For 1,000 sq ft of drywall receiving 3 coats (Level 4 finish), you need approximately 53 gallons of joint compound, which equals 12 pails of 4.5-gallon mud.
 
 ### How many gallons of joint compound are needed per 100 sq ft?
+
 A good rule of thumb is approximately 5.3 gallons of joint compound per 100 sq ft for a standard 3-coat finish (bedding coat, fill coat, and finish coat).
 
 ### How many rolls of tape do I need for drywall?
+
 You need approximately 1 linear foot of tape for every 2 sq ft of drywall surface area. For 800 sq ft of drywall, you need about 440 ft of tape (two 250-foot rolls).
 
 ### What is the difference between setting compound (hot mud) and pre-mixed compound?
+
 Setting compound (powder mixed with water) hardens by chemical reaction in 20-90 minutes and does not shrink, making it ideal for deep fills and taping. Pre-mixed compound dries by air evaporation and is easiest for skim coating and final sanding.
 
 ### How many coats of mud are required for drywall?
+
 Standard paintable drywall requires 3 coats: 1 bedding coat for tape, 1 fill/feather coat (8-inch knife), and 1 final finish/skim coat (10-12 inch knife).
 
 ### How much does a bucket of drywall joint compound cost?
+
 A standard 4.5-gallon box or 5-gallon bucket of pre-mixed joint compound costs between $15.00 and $24.00 at major home improvement centers.
 

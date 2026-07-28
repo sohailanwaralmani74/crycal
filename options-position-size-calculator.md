@@ -219,19 +219,25 @@ Proper position sizing is critical for options trading. This options position si
 ---
 
 ## Options Position Size Calculator Frequently Asked Questions
+
 ### How is the number of option contracts calculated?
+
 Number of Contracts = (Account Balance × Risk%) ÷ (Option Premium × Contract Multiplier). This ensures your total premium paid does not exceed your risk limit.
 
 ### What is delta and why is it important?
+
 Delta measures the sensitivity of an option's price to a $1 change in the underlying price. It helps you understand your equivalent share exposure.
 
 ### What is the contract multiplier?
+
 The contract multiplier is the number of shares represented by one option contract. For standard equity options, it's 100 shares per contract.
 
 ### What is delta-adjusted shares?
+
 Delta-adjusted shares = Number of Contracts × Delta × Contract Multiplier. This is the equivalent number of shares you are controlling.
 
 ### Can I use this calculator for index options?
+
 Yes — just enter the appropriate contract multiplier (e.g., 100 for SPX, 1 for some index options).
 
 ---

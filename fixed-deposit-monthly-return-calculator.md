@@ -226,18 +226,24 @@ The tool updates instantly as you adjust any input — no "Calculate" button req
 ---
 
 ## Fixed Deposit Monthly Return Calculator Frequently Asked Questions
+
 ### What is a fixed deposit monthly return calculator?
+
 A fixed deposit monthly return calculator helps you estimate the monthly interest you will earn from your fixed deposit investment.
 
 ### How is monthly interest calculated for a fixed deposit?
+
 Monthly interest is calculated as: (Principal × Annual Interest Rate) ÷ 12. With compounding, interest is added to the principal.
 
 ### What is compounding frequency?
+
 Compounding frequency determines how often earned interest is added to the principal. More frequent compounding results in higher returns.
 
 ### What is the effective annual yield?
+
 Effective annual yield is the actual annual return after accounting for compounding — higher than the nominal rate when compounding occurs more than once per year.
 
 ### What is the typical tenure for a fixed deposit?
+
 Fixed deposit tenures typically range from 1 month to 120 months (10 years).
 

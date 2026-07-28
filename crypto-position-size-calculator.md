@@ -237,16 +237,21 @@ Proper position sizing is essential for managing risk in crypto trading. This cr
 ---
 
 ## Crypto Position Size Calculator Frequently Asked Questions
+
 ### What is the difference between linear and inverse contracts?
+
 Linear contracts (USDT-margined) use USDT as collateral and have linear PnL. Inverse contracts (Coin-margined) use the cryptocurrency itself as collateral and have inverse PnL.
 
 ### How is position size calculated for linear contracts?
+
 Position Size = Risk Amount ÷ (Entry Price − Stop-Loss Price). Each contract is worth $1 (or your contract size).
 
 ### How is position size calculated for inverse contracts?
+
 Position Size = Risk Amount × Entry Price ÷ (Entry Price − Stop-Loss Price). This accounts for the inverse PnL formula.
 
 ### What is required margin?
+
 Required Margin = Total Exposure ÷ Leverage. This is the minimum amount of collateral required to open the position.
 
 ---

@@ -174,7 +174,9 @@ Mortar consumption varies based on unit dimensions, joint thickness (standard 3/
 ---
 
 ## Mortar Calculator Mathematical Formulas & Mechanics
+
 ### 1. Base Mortar Volume ($V_{	ext{mortar\_cuft}}$)
+
 Empirical consumption factors per unit (for 3/8" joints):
 - Standard Modular Brick: $0.0050	ext{ cu ft}$ per brick (7.5 80lb bags per 1,000 bricks)
 - 8" x 8" x 16" CMU Block: $0.0220	ext{ cu ft}$ per block (3.3 80lb bags per 100 blocks)
@@ -183,28 +185,35 @@ Empirical consumption factors per unit (for 3/8" joints):
 
 Including waste allowance ($	ext{Waste } \%$):
 
-$$V_{	ext{total\_cuft}} = N_{	ext{units}} 	imes V_{	ext{unit\_factor}} 	imes \left(1 + rac{	ext{Waste } \%}{100}
+$$V_{	ext{total\_cuft}} = N_{	ext{units}} 	imes V_{	ext{unit\_factor}} 	imes \left(1 + 
+rac{	ext{Waste } \%}{100}
 ight)$$
 
 ### 2. Pre-Mixed Mortar Bag Count ($N_{	ext{bags}}$)
+
 For 80 lb bag yield ($0.67	ext{ cu ft}$) or 70 lb bag yield ($0.58	ext{ cu ft}$):
 
-$$N_{	ext{bags}} = \left\lceil rac{V_{	ext{total\_cuft}}}{V_{	ext{bag\_yield}}} 
+$$N_{	ext{bags}} = \left\lceil 
+rac{V_{	ext{total\_cuft}}}{V_{	ext{bag\_yield}}} 
 ight
 ceil$$
 
 ### 3. Equivalent Jobsite Bulk Mix (Masonry Cement & Sand)
+
 For a 1:3 jobsite proportion (1 bag 94lb Masonry Cement to $3	ext{ cu ft}$ damp masonry sand):
 
-$$N_{	ext{cement\_94lb}} = \left\lceil rac{V_{	ext{total\_cuft}}}{3.0} 
+$$N_{	ext{cement\_94lb}} = \left\lceil 
+rac{V_{	ext{total\_cuft}}}{3.0} 
 ight
 ceil$$
 
-$$	ext{Sand (Tons)} = rac{V_{	ext{total\_cuft}} 	imes 100}{2000}$$
+$$	ext{Sand (Tons)} = 
+rac{V_{	ext{total\_cuft}} 	imes 100}{2000}$$
 
 ---
 
 ## Mortar Calculator Benchmarks & Comparison Table
+
 | Masonry Unit Type | Quantity | 80lb Pre-Mixed Mortar Bags (10% Waste) | Total Wet Mortar Volume (Cu Ft) | Jobsite Masonry Cement (94lb Bags) | Jobsite Masonry Sand (Tons) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Standard Modular Brick** | 500 Bricks | 4 Bags | 2.75 Cu Ft | 1 Bag | 0.14 Tons |
@@ -216,6 +225,7 @@ $$	ext{Sand (Tons)} = rac{V_{	ext{total\_cuft}} 	imes 100}{2000}$$
 ---
 
 ## How to Use the Mortar Calculator Step-by-Step
+
 1. **Select Masonry Unit:** Choose standard modular brick, 8" CMU block, 12" CMU block, or stone veneer.
 2. **Input Unit Quantity:** Enter total bricks, blocks, or wall surface square footage.
 3. **Set Joint Thickness:** Keep standard 3/8" (0.375 in) joint thickness.
@@ -225,23 +235,31 @@ $$	ext{Sand (Tons)} = rac{V_{	ext{total\_cuft}} 	imes 100}{2000}$$
 ---
 
 ## Mortar Calculator Frequently Asked Questions
+
 ### How many 80lb bags of mortar do I need for 1,000 bricks?
+
 Laying 1,000 standard modular bricks with 3/8-inch mortar joints requires approximately 7.0 to 7.5 bags of 80lb pre-mixed masonry mortar (or about 5.0 cubic feet of wet mortar).
 
 ### How many 80lb bags of mortar do I need for 100 CMU blocks?
+
 Laying 100 standard 8x8x16 concrete masonry blocks requires approximately 3.0 to 3.5 bags of 80lb pre-mixed mortar (or about 2.2 cubic feet of wet mortar).
 
 ### What is the difference between Type N, Type S, and Type M mortar?
+
 Type N (750 PSI) is general-purpose mortar for exterior above-grade brick walls. Type S (1,800 PSI) is high-strength mortar for structural load-bearing walls and below-grade foundations. Type M (2,500 PSI) is heavy structural mortar.
 
 ### How much mortar volume does an 80lb pre-mixed bag yield?
+
 One 80lb bag of pre-mixed masonry mortar yields approximately 0.67 cubic feet of wet mixed mortar.
 
 ### What is the standard mortar joint thickness for brick and block?
+
 The standard joint thickness for both modular brick and CMU concrete block laying is 3/8 inch (0.375 in).
 
 ### Should I buy pre-mixed mortar bags or mix cement and sand on site?
+
 For projects under 500 bricks or 100 blocks, pre-mixed 80lb bags save significant setup time. For large commercial projects, jobsite mixing (1 bag masonry cement to 3 parts damp sand) is more cost-effective.
 
 ### How much mortar waste should be added for masonry work?
+
 A 10% waste factor is recommended to account for joint strike scraping, board drying, and mortar board droppings.

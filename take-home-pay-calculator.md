@@ -232,16 +232,21 @@ Where:
 ---
 
 ## Take Home Pay Calculator Frequently Asked Questions
+
 ### What is take-home pay?
+
 Take-home pay is the amount of money you receive after all taxes and deductions have been subtracted from your gross salary.
 
 ### How is take-home pay calculated?
+
 Take-Home Pay = Gross Salary − (Income Tax + Social Security + Medicare + Pension + Other Deductions).
 
 ### What is the difference between social security and pension?
+
 Social security (or national insurance) is a mandatory state contribution. Pension (or 401k, PF/EPF, CPF) is a retirement savings contribution that may be mandatory or voluntary depending on your country.
 
 ### Can I use the Take Home Pay Calculator globally?
+
 Yes — you enter your own tax rates and deductions. This tool works for any country's tax system.
 
 ---

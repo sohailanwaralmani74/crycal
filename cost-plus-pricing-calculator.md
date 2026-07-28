@@ -169,6 +169,7 @@ This calculator tallies your direct variable costs — hosting, customer support
 ---
 
 ## Key Cost Plus Pricing Calculator Mathematical Formulas
+
 ### 1. Direct COGS per Customer
 
 $$ \text{Direct COGS} = \text{Hosting Cost} + \text{Support Cost} + \text{Licensing Cost} $$
@@ -208,20 +209,27 @@ $$ \text{Total Monthly Gross Profit} = \text{Gross Profit per Customer} \times \
 ---
 
 ## Cost Plus Pricing Calculator Frequently Asked Questions
+
 ### What is Cost-Plus pricing in B2B SaaS?
+
 Cost-Plus pricing sets a product price by adding a fixed markup or target gross margin percentage onto direct Cost of Goods Sold (COGS).
 
 ### What expenses are included in SaaS COGS?
+
 SaaS COGS includes hosting infrastructure (AWS/GCP), database storage, customer support salaries, third-party API fees (Stripe/Twilio/OpenAI), and merchant processing fees.
 
 ### What expenses are excluded from SaaS COGS?
+
 Sales commissions, marketing ad spend, software R&D engineering salaries, administrative overhead, and legal fees are Operating Expenses (OpEx), not COGS.
 
 ### Why is 75% to 85% considered the standard B2B SaaS gross margin?
+
 A high gross margin (75%+) ensures sufficient gross profit dollars to reinvest in sales, marketing, and R&D engineering required for rapid software growth.
 
 ### How does payment processing fee affect cost-plus calculations?
+
 Because payment fees (e.g. 2.9% + $0.30) are charged on top of total gross revenue, they must be incorporated into the margin divisor formula.
 
 ### What are the limitations of cost-plus pricing?
+
 Cost-plus pricing ignores customer willingness to pay, competitor price points, and perceived software value, often underpricing highly valuable software.

@@ -151,6 +151,7 @@ Standard mortgages require 12 monthly payments per year. A biweekly schedule tak
 ## Biweekly Mortgage Formulas
 
 ### 1. Monthly Amortization Formula
+
 $$\text{PMT}_{\text{Monthly}} = P \times \frac{r(1 + r)^n}{(1 + r)^n - 1}$$
 
 Where:
@@ -159,6 +160,7 @@ Where:
 - **$n$** = Total Repayment Months ($30 \times 12 = 360$)
 
 ### 2. Biweekly Payment & Annual Contribution
+
 $$\text{PMT}_{\text{Biweekly}} = \frac{\text{PMT}_{\text{Monthly}}}{2}$$
 
 $$\text{Annual Contributions} = 26 \times \text{PMT}_{\text{Biweekly}} = 13 \times \text{PMT}_{\text{Monthly}}$$
@@ -183,6 +185,7 @@ $$\text{Annual Contributions} = 26 \times \text{PMT}_{\text{Biweekly}} = 13 \tim
 ---
 
 ## How to Use the Biweekly Mortgage Payment Calculator
+
 1. Select your **account currency** from the header picker.
 2. Enter your current **mortgage principal balance** (e.g., $350,000).
 3. Input your **annual interest rate** (e.g., 6.5%).
@@ -192,15 +195,20 @@ $$\text{Annual Contributions} = 26 \times \text{PMT}_{\text{Biweekly}} = 13 \tim
 ---
 
 ## Biweekly Mortgage Payment Calculator Frequently Asked Questions
+
 ### How does a biweekly mortgage payment schedule work?
+
 Instead of making 12 full monthly payments per year, you pay half of your monthly payment every two weeks. Since there are 52 weeks in a year, you make 26 half-payments—which equals 13 full monthly payments every 12 months. That 13th extra payment applies directly to principal.
 
 ### How much time and interest can biweekly payments save?
+
 On a $350,000 30-year mortgage at 6.5% interest, biweekly payments shorten the loan term from 30 years to approximately 24.5 years, saving over $85,000 in total interest costs.
 
 ### Should I pay my lender a fee for a biweekly payment program?
+
 No. Avoid paying third-party setup fees or monthly administration fees. You can achieve the exact same financial result for free by sending 1/12th of your monthly principal and interest payment to your lender as an extra principal payment each month.
 
 ### What is the difference between bimonthly and biweekly payments?
+
 Bimonthly means paying twice a month (24 payments per year = 12 full payments). Biweekly means paying every two weeks (26 payments per year = 13 full payments). Only a true biweekly schedule generates an extra full monthly payment per year.
 

@@ -171,6 +171,7 @@ Adding extra principal payments to your monthly mortgage is one of the most effe
 ---
 
 ## How to Use the Extra Mortgage Payment Calculator
+
 1. Select your **account currency** from the header picker.
 2. Enter your current **loan balance** (e.g., $300,000).
 3. Input your **interest rate** (e.g., 6.5%) and **remaining years** (e.g., 25).
@@ -181,20 +182,26 @@ Adding extra principal payments to your monthly mortgage is one of the most effe
 
 
 ## Strategic Guidance for Extra Mortgage Payment Calculator
+
 Using this interactive calculation engine provides a clear, quantitative roadmap for your decisions. By eliminating mathematical uncertainty, you can optimize financial allocations, compare scenarios side-by-side, and make data-driven choices.
 
 ### Key Tactical Benefits of Extra Mortgage Payment Calculator
+
 - **Mathematical Certainty**: Eliminates guesswork by modeling multi-variable compounding and precise cost structures.
 - **Scenario Comparison**: Test multiple interest rates, payment timelines, and capital allocations in real-time.
 - **Privacy Assurance**: All data remains 100% confidential within your local browser memory, with zero remote server logging.
 - **Export & Audit Readiness**: Log calculations to local browser storage, export full histories to CSV/Excel, or share via link.
 
 ## Extra Mortgage Payment Calculator Frequently Asked Questions
+
 ### How do extra principal payments affect my mortgage?
+
 Every extra dollar paid goes 100% toward principal reduction. By lowering your loan principal faster, less interest accrues each subsequent month, shortening your loan payoff timeline dramatically.
 
 ### Is it better to make extra monthly payments or a single lump-sum payment?
+
 Lump-sum payments made early in the mortgage term yield maximum interest savings because they immediately reduce principal for the remaining duration. However, consistent extra monthly payments build a steady financial habit and shorten loan life significantly over time.
 
 ### Do mortgage lenders charge prepayment penalties for extra payments?
+
 Most conventional, FHA, VA, and USDA home loans do not charge prepayment penalties. However, always review your loan agreement or check with your servicer to verify.

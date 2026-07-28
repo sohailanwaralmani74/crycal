@@ -186,9 +186,11 @@ However, DIY repairs take longer, require special tools, and consume valuable we
 ---
 
 ## Diy vs Mechanic Repair Cost Calculator Calculation Flow & Formulas
+
 The comparison engine evaluates shop quotes against DIY cash outlay and time valuation:
 
 ### Diy vs Mechanic Repair Cost Calculator Inputs & Parameters
+
 | Parameter | Unit | Description |
 | :--- | :--- | :--- |
 | **Mechanic Rate (\(R_{mech}\))** | $/hr | Hourly mechanic labor rate |
@@ -203,7 +205,9 @@ The comparison engine evaluates shop quotes against DIY cash outlay and time val
 ---
 
 ### Step-by-Step Diy vs Mechanic Repair Cost Calculator Formulas
+
 #### 1. Mechanic Shop Total Cost (\(C_{mechanic}\))
+
 \[
 \text{Labor Total} = R_{mech} \times H_{mech}
 \]
@@ -215,16 +219,19 @@ C_{mechanic} = \text{Labor Total} + P_{shop} + \text{Shop Fees}
 \]
 
 #### 2. DIY Direct Cash Outlay (\(C_{diy\_cash}\))
+
 \[
 C_{diy\_cash} = P_{diy} + T_{tools}
 \]
 
 #### 3. Direct Out-of-Pocket Cash Savings (\(S_{cash}\))
+
 \[
 S_{cash} = C_{mechanic} - C_{diy\_cash}
 \]
 
 #### 4. Total DIY Cost Including Personal Time (\(C_{diy\_total}\))
+
 \[
 C_{diy\_total} = C_{diy\_cash} + \left(H_{diy} \times V_{time}\right)
 \]
@@ -233,6 +240,7 @@ C_{diy\_total} = C_{diy\_cash} + \left(H_{diy} \times V_{time}\right)
 \]
 
 #### 5. Break-even Personal Hourly Value (\(V_{breakeven}\))
+
 \[
 V_{breakeven} = \frac{S_{cash}}{H_{diy}}
 \]
@@ -251,6 +259,7 @@ V_{breakeven} = \frac{S_{cash}}{H_{diy}}
 ---
 
 ## How to Use the Diy vs Mechanic Repair Cost Calculator Step-by-Step
+
 1. **Enter Shop Quote**: Input the mechanic's labor rate, estimated labor hours, parts price, and shop fee percentage.
 2. **Enter DIY Parts & Tools**: Input online parts pricing (from AutoZone, RockAuto, etc.) and specialty tool costs.
 3. **Set Personal Time Value**: Enter your estimated DIY repair hours and what your personal time is worth per hour.
@@ -259,23 +268,31 @@ V_{breakeven} = \frac{S_{cash}}{H_{diy}}
 ---
 
 ## Diy vs Mechanic Repair Cost Calculator Frequently Asked Questions
+
 ### Is DIY auto repair always cheaper than taking your car to a mechanic?
+
 Direct out-of-pocket cash costs are almost always **50% to 70% lower** for DIY repairs. However, when factoring in special tool purchases, longer repair times, frustration, and the financial value of your personal time, complex jobs may favor a professional.
 
 ### Why do mechanic shops charge higher prices for auto parts than online retailers?
+
 Independent shops and dealerships markup auto parts prices by **30% to 100%+** to cover parts warranty guarantees, immediate delivery logistics, shop overhead, and business profit margins.
 
 ### What auto repairs are best for beginners to DIY?
+
 Ideal beginner DIY repairs include engine air filter changes, cabin air filter replacement, wiper blades, battery replacement, spark plugs, basic oil changes, and front brake pad replacement.
 
 ### What auto repairs should be left to professional mechanics?
+
 Repairs involving internal engine head gaskets, transmission rebuilds, AC refrigerant recovery, high-voltage EV batteries, structural frame welding, and complex electrical diagnostics should be performed by certified technicians.
 
 ### What are shop supply fees on a mechanic invoice?
+
 Shop supply fees (typically 5% to 10% capped at $50-$100) cover consumable shop items like brake cleaner, shop towels, lubricants, fasteners, gloves, and hazardous waste disposal fees.
 
 ### Does DIY auto repair void vehicle manufacturer warranty?
+
 No. Under the US **Magnuson-Moss Warranty Act**, vehicle manufacturers cannot void warranty coverage simply because maintenance or repairs were performed by the owner or an independent shop, provided parts meet OEM specifications.
 
 ### Is my repair comparison data private?
+
 Yes. All computations process 100% locally inside your web browser.

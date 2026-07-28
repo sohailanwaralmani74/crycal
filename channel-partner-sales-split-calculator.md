@@ -142,6 +142,7 @@ Understanding partner margin economics is critical when structuring tier-based p
 ---
 
 ## Channel Partner Sales Split Calculator Mathematical Formulas & Mechanics
+
 The gross partner payout ($P_{\text{partner}}$) earned by a reseller or referral partner is calculated as:
 
 $$P_{\text{partner}} = \text{Total Deal Size} \times \left( \frac{\text{Partner Margin \%}}{100} \right)$$
@@ -161,6 +162,7 @@ $$\text{Margin}_{\text{net}} = \left( \frac{R_{\text{net}}}{\text{Total Deal Siz
 ---
 
 ## Channel Partner Sales Split Calculator Benchmarks & Comparison Table
+
 The benchmark matrix below illustrates partner payouts and net vendor revenue across different channel partner tiers for a **$50,000 SaaS Deal** with $5,000 in internal support costs:
 
 | Partner Tier / Program | Partner Margin % | Partner Payout | Internal Support Cost | Net Vendor Revenue | Net Vendor Margin % | Partner Responsibilities |
@@ -176,6 +178,7 @@ The benchmark matrix below illustrates partner payouts and net vendor revenue ac
 ---
 
 ## How to Use the Channel Partner Sales Split Calculator Step-by-Step
+
 1. **Select Currency**: Choose your preferred currency ($ USD, € EUR, £ GBP) from the header selector.
 2. **Enter Total Deal Size**: Input total gross contract value (ACV/ARR) closed through the channel partner.
 3. **Set Partner Margin Percentage**: Input agreed partner commission rate (e.g., 10% for referral, 20% for reseller).
@@ -186,23 +189,31 @@ The benchmark matrix below illustrates partner payouts and net vendor revenue ac
 ---
 
 ## Channel Partner Sales Split Calculator Frequently Asked Questions
+
 ### What is a channel partner sales split?
+
 A channel partner sales split defines the percentage of gross contract revenue retained by a third-party reseller (VAR, MSP, affiliate) as commission or discount.
 
 ### What are typical channel partner commission rates in SaaS?
+
 Referral partners typically earn 10% to 15%, co-sell partners earn 15% to 20%, and full-service Value-Added Resellers (VARs) earn 25% to 35% of ARR.
 
 ### How does channel partner sales lower internal Customer Acquisition Cost (CAC)?
+
 Channel partners leverage their own sales forces and established buyer relationships, reducing the vendor's direct AE and SDR hiring costs.
 
 ### Are partner commission splits paid on gross contract value or net profit?
+
 In SaaS, partner margins are standardly calculated on gross annual recurring revenue (ARR) or first-year contract value.
 
 ### What is the difference between a referral partner and a VAR?
+
 Referral partners simply introduce leads for a small fee (10%), while Value-Added Resellers (VARs) manage product demos, contract closing, implementation, and support for higher margins (30%).
 
 ### What internal sales costs should vendors include?
+
 Vendors should include Partner Account Manager (PAM) salaries, deal desk legal costs, solution architect demo support, and partner portal software fees.
 
 ### Is partner payout data kept confidential?
+
 Yes, 100%. All calculation algorithms execute locally inside your web browser. No partnership agreement data is stored or transmitted.

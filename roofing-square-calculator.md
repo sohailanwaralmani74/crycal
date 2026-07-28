@@ -190,21 +190,28 @@ $$\text{Total Squares (with Waste)} = \frac{\text{Actual Roof Area} \times (1 + 
 ---
 
 ## Roofing Square Calculator Frequently Asked Questions
+
 ### What is a roofing square?
+
 A roofing square is the standard industry measurement unit equal to exactly 100 square feet of roof surface area.
 
 ### How many bundles of shingles are in a roofing square?
+
 For standard 3-tab and architectural asphalt shingles, 3 bundles equal 1 roofing square (each bundle covers 33.33 sq ft).
 
 ### How does roof pitch affect total square footage?
+
 A steeper roof pitch increases surface area. For example, a 6/12 pitch increases horizontal footprint area by ~11.8%, while a steep 12/12 pitch increases area by 41.4%.
 
 ### How much waste should I add for a roof replacement?
+
 A standard gable roof requires a 10% waste factor. Hip roofs, dormers, and complex valleys require a 15% to 20% waste factor due to extra diagonal cuts.
 
 ### How do overhangs change the roofing square count?
+
 Roof overhangs extend beyond the exterior walls. A 1.5-foot overhang on a 30'x40' home increases the roof footprint from 1,200 sq ft to 1,419 sq ft before applying pitch multipliers.
 
 ### How many squares do I need for a 2,000 sq ft house?
+
 A 2,000 sq ft single-story house with a 6/12 pitch and 1.5-ft overhangs typically requires approximately 26 to 28 roofing squares including waste.
 

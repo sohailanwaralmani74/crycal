@@ -149,13 +149,17 @@ Without tracking win-back metrics, teams risk over-investing in ineffective outr
 ---
 
 ## Win Back Rate Calculator Mathematical Formulas & Mechanics
+
 ### 1. Win-Back Rate Percentage ($WBR$)
+
 For reactivated customers $N_{	ext{winback}}$ and targeted churned cohort $N_{	ext{churned}}$:
 
-$$WBR = \left(rac{N_{	ext{winback}}}{N_{	ext{churned}}}
+$$WBR = \left(
+rac{N_{	ext{winback}}}{N_{	ext{churned}}}
 ight) 	imes 100$$
 
 ### 2. Reactivated MRR & ARR ($MRR_{	ext{winback}}, ARR_{	ext{winback}}$)
+
 For average revenue per user ($ARPU$):
 
 $$MRR_{	ext{winback}} = N_{	ext{winback}} 	imes ARPU$$
@@ -163,16 +167,21 @@ $$MRR_{	ext{winback}} = N_{	ext{winback}} 	imes ARPU$$
 $$ARR_{	ext{winback}} = MRR_{	ext{winback}} 	imes 12$$
 
 ### 3. Cost Per Win-Back Customer ($CAC_{	ext{winback}}$)
+
 For total win-back campaign expenditure $C_{	ext{campaign}}$:
 
-$$CAC_{	ext{winback}} = rac{C_{	ext{campaign}}}{N_{	ext{winback}}}$$
+$$CAC_{	ext{winback}} = 
+rac{C_{	ext{campaign}}}{N_{	ext{winback}}}$$
 
 ### 4. Win-Back Campaign ROI Multiple ($ROI_{	ext{winback}}$)
-$$ROI_{	ext{winback}} = rac{ARR_{	ext{winback}}}{C_{	ext{campaign}}}$$
+
+$$ROI_{	ext{winback}} = 
+rac{ARR_{	ext{winback}}}{C_{	ext{campaign}}}$$
 
 ---
 
 ## Win Back Rate Calculator Benchmarks & Comparison Table
+
 | Business Model | Targeted Churned Cohort | Benchmark Win-Back Rate (%) | Reactivated ARR per 100 Churned | CAC per Win-Back vs New CAC |
 | :--- | :--- | :--- | :--- | :--- |
 | **B2C Subscription App** | 1,000 Users | 3% - 8% | $3,600 - $9,600 | 80% Lower |
@@ -183,6 +192,7 @@ $$ROI_{	ext{winback}} = rac{ARR_{	ext{winback}}}{C_{	ext{campaign}}}$$
 ---
 
 ## How to Use the Win Back Rate Calculator Step-by-Step
+
 1. **Define Churned Cohort:** Enter total targeted lost customer accounts.
 2. **Track Reactivations:** Input number of accounts that re-subscribed.
 3. **Input Account Value (ARPU):** Enter average monthly revenue per user.
@@ -192,23 +202,31 @@ $$ROI_{	ext{winback}} = rac{ARR_{	ext{winback}}}{C_{	ext{campaign}}}$$
 ---
 
 ## Win Back Rate Calculator Frequently Asked Questions
+
 ### What is a good win-back rate for SaaS?
+
 Average SaaS win-back rates range from 5% to 15% for targeted win-back campaigns. B2B enterprise software with high switching costs often achieves win-back rates between 15% and 25%.
 
 ### Why is winning back churned customers cheaper than acquiring new leads?
+
 Churned customers already understand your product value and onboarding workflow. Re-engaging them costs 50% to 75% less than acquiring cold new leads.
 
 ### How do you calculate customer win-back rate?
+
 Win-Back Rate = (Reactivated Customers / Total Targeted Churned Customers) * 100.
 
 ### What is reactivated MRR?
+
 Reactivated MRR is the recurring monthly revenue generated when previously churned subscribers resume active paid subscriptions.
 
 ### When is the best time to launch a win-back campaign?
+
 The optimal window is 60 to 180 days after churn, allowing time for product updates or competitor friction to develop while brand awareness remains fresh.
 
 ### What incentives drive high win-back rates?
+
 Effective win-back incentives include reactivation discounts, free feature upgrade trials, waiving re-boarding fees, and highlighting newly released core features.
 
 ### Should involuntary churn accounts be targeted differently?
+
 Yes. Involuntary churn (payment failures) requires automated dunning billing retries, whereas voluntary churn requires product feature and pricing alignment offers.

@@ -237,6 +237,7 @@ Our **negative equity car loan calculator** provides:
 ---
 
 ## Negative Equity Car Loan Calculator Formulas & Principles
+
 Given current vehicle market value \(V_{\text{old}}\), existing loan balance \(B_{\text{old}}\), new car purchase price \(V_{\text{new}}\), cash down payment \(D\), interest rate \(r = \text{APR}/12/100\), and new term \(n\):
 
 ### Negative Equity Deficit Gap
@@ -275,6 +276,7 @@ M_{\text{base}} = P_{\text{base}} \cdot \frac{r(1 + r)^n}{(1 + r)^n - 1}
 ---
 
 ## Negative Equity Car Loan Calculator Real-World Case Study
+
 Buying a **$32,000 new car** with **$2,000 cash down** at **7.0% APR** over **60 months**:
 
 | Old Vehicle Status | Old Balance | Car Value | Rollover Gap | New Financed Principal | Total Monthly Payment | Monthly Rollover Penalty |
@@ -289,6 +291,7 @@ Buying a **$32,000 new car** with **$2,000 cash down** at **7.0% APR** over **60
 ---
 
 ## Step-by-Step Guide for Using the Negative Equity Car Loan Calculator
+
 1. **Enter Current Car Market Value**: Look up wholesale trade-in value on Edmunds or Kelley Blue Book.
 2. **Input Outstanding Payoff Balance**: Enter exact payoff balance from your current lender statement.
 3. **Specify New Car Purchase Price**: Enter agreed selling price of the new automobile.
@@ -298,23 +301,31 @@ Buying a **$32,000 new car** with **$2,000 cash down** at **7.0% APR** over **60
 ---
 
 ## Negative Equity Car Loan Calculator Frequently Asked Questions
+
 ### What does it mean to be 'upside-down' on a car loan?
+
 Being 'upside-down' (or having negative equity) means your remaining auto loan balance exceeds the current market trade-in value of your car. For example, if you owe $19,000 on a car worth $14,000, you have $5,000 in negative equity.
 
 ### Can I trade in a car with negative equity?
+
 Yes, dealers often allow you to trade in an underwater vehicle by rolling the unpaid negative equity gap directly into your new vehicle loan. However, this increases your new loan principal, monthly payment, and interest burden.
 
 ### Why is rolling over negative equity risky?
+
 Rolling over old debt compounds negative equity on your new vehicle from day one. You pay interest on old car debt while financing a depreciating new asset, creating a dangerous cycle of snowballing auto debt.
 
 ### How can I get out of negative equity?
+
 To eliminate negative equity: 1) make extra monthly principal payments on your current loan, 2) keep driving the current car until the balance drops below market value, or 3) make a lump-sum cash contribution when trading in.
 
 ### Will lenders allow rolling over negative equity?
+
 Lenders set maximum Loan-to-Value (LTV) limits—typically between 110% and 130% of the new car's invoice or MSRP. If your negative equity causes the total loan to exceed the LTV cap, you must pay cash upfront to cover the difference.
 
 ### Does GAP insurance cover negative equity from a trade-in rollover?
+
 Most standard GAP insurance policies explicitly exclude rolled-over negative equity from prior loans. GAP insurance only covers depreciation on the new vehicle itself.
 
 ### Is my personal financial information kept private?
+
 Yes. All computations execute locally in your web browser. No data is stored or transmitted to external servers.

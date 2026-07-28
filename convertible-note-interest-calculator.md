@@ -167,9 +167,11 @@ Key metrics:
 ## Convertible Debt Mathematical Formulas
 
 ### Simple Interest Model
+
 $$I_{simple} = P \times \left( \frac{\text{Rate}}{100} \right) \times \left( \frac{\text{Months}}{12} \right)$$
 
 ### Annual Compounding Model
+
 $$V_{compound} = P \times \left( 1 + \frac{\text{Rate}}{100} \right)^{\frac{\text{Months}}{12}}$$
 
 $$I_{compound} = V_{compound} - P$$
@@ -200,20 +202,27 @@ $$\text{Total Shares Issued } (S) = \frac{P + I}{P_{share}}$$
 ---
 
 ## Convertible Note Interest Calculator Frequently Asked Questions
+
 ### What is a convertible note in startup fundraising?
+
 A convertible note is a short-term debt instrument that converts into equity during a future priced financing round rather than being repaid in cash.
 
 ### How does interest accrue on a convertible note?
+
 Interest accrues continuously over the life of the note. Most convertible notes specify Simple Interest calculated annually (Principal × Rate × Years).
 
 ### Does interest on a convertible note get paid in cash?
+
 Rarely. In startup convertible notes, accrued interest is added to the principal balance and converts into preferred stock alongside the principal.
 
 ### What is the typical interest rate on convertible notes?
+
 Standard convertible note interest rates range between 5% and 8% per annum in venture capital markets.
 
 ### What happens to accrued interest if the note reaches maturity without a funding round?
+
 Upon maturity, noteholders can either extend the maturity date, demand cash repayment (if company cash permits), or convert at an agreed maturity cap price.
 
 ### Is my convertible note data private?
+
 Yes. All computations execute locally in your client web browser.

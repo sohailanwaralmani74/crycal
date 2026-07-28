@@ -173,16 +173,21 @@ This **annuity calculator** is designed for:
 ---
 
 ## Annuity Payout Calculator Frequently Asked Questions
+
 ### What is an annuity payout?
+
 An annuity payout is the fixed periodic payment an annuity holder receives in exchange for a lump-sum premium, calculated so that the principal plus interest is paid out evenly over the chosen term.
 
 ### How is the annuity payment calculated?
+
 The payment is calculated using the annuity payment formula, which amortizes the principal plus interest evenly across all payments over the payout term at the given interest rate.
 
 ### What's the difference between a period-certain and lifetime annuity?
+
 A period-certain annuity pays out over a fixed number of years regardless of whether the holder is alive, while a lifetime annuity pays for as long as the holder lives, which involves actuarial calculations based on life expectancy rather than a fixed term.
 
 ### Are annuity payments taxed?
+
 For non-qualified annuities purchased with after-tax dollars, a portion of each payment (the return of principal) is typically tax-free, while the interest/earnings portion is taxable as ordinary income. Qualified annuities (funded with pre-tax dollars) are generally fully taxable.
 
 <p class="tool-disclaimer">This calculator estimates a fixed period-certain payout. Lifetime annuity payments depend on actuarial life expectancy factors and will vary by provider.</p>

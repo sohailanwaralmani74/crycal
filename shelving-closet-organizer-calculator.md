@@ -216,21 +216,28 @@ The table below demonstrates board requirements, bracket counts, and material co
 ---
 
 ## Shelving Closet Organizer Calculator Frequently Asked Questions
+
 ### How far apart should closet shelf brackets be spaced?
+
 Space shelf brackets every 24 inches for standard closet garment hanging and pantry storage. For heavy bookshelf loads or garage storage, space brackets every 16 inches directly into wall studs.
 
 ### How much weight can a standard shelf bracket hold?
+
 Heavy-duty steel shelf brackets mounted into 2x4 wall studs hold 150 to 300 lbs per pair. Light-duty plastic or wire shelf brackets hold 30 to 50 lbs per pair.
 
 ### What is the best board length to buy for closet shelving?
+
 8-foot and 12-foot board lengths yield the least cutting waste for standard 4ft, 6ft, or 8ft closet walls. Choose pre-cut 12-inch or 16-inch deep melamine or pine shelf boards.
 
 ### What depth should closet shelves be?
+
 Standard sweater/shirt shelves are 12 inches deep. Linen and pantry shelves perform best at 14 to 16 inches deep, and garage storage shelves are typically 18 to 24 inches deep.
 
 ### Do I need to anchor shelf brackets into wall studs?
+
 Yes! Always secure shelf support brackets into solid wood wall studs using 2.5-inch wood screws. If studs are inaccessible, use heavy-duty steel toggle bolts rated for hollow drywall.
 
 ### How high should the top shelf in a closet be mounted?
+
 Mount the main top closet shelf 84 inches (7 feet) above the floor. This leaves space for a clothes hanging rod beneath at 66 to 72 inches while providing top storage for luggage.
 

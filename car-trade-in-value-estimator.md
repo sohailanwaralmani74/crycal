@@ -217,12 +217,15 @@ Using this **Car Trade-In Value Estimator**, you can calculate the net financial
 ## Trade-In Valuation Formulas
 
 ### 1. Dealer Trade-In Offer
+
 $$\text{Trade-In Value} = 0.82 \times \left[ \text{Retail Value} \times F_{\text{Condition}} - (\Delta \text{Miles} \times 0.10) \right]$$
 
 ### 2. State Sales Tax Credit
+
 $$\text{Tax Credit} = \text{Trade-In Value} \times \left( \frac{\text{Tax Rate}}{100} \right)$$
 
 ### 3. Net Private Sale Advantage
+
 $$\text{Net Advantage} = \text{Private Sale Value} - \left( \text{Trade-In Value} + \text{Tax Credit} \right)$$
 
 ---
@@ -239,38 +242,51 @@ $$\text{Net Advantage} = \text{Private Sale Value} - \left( \text{Trade-In Value
 ---
 
 ## Step-by-Step Car Trade In Value Estimator Guide
+
 ### Step 1: Input Baseline Retail Value
+
 Enter current estimated retail value from market listings or valuation guides.
 
 ### Step 2: Select Vehicle Condition Grade
+
 Be honest about mechanical performance, interior wear, tire life, and body scratches.
 
 ### Step 3: Enter Odometer Reading & State Tax Rate
+
 Input odometer mileage and local state vehicle sales tax percentage.
 
 ### Step 4: Compare Net Financial Advantage
+
 Determine if the net private selling premium is worth the extra time and effort required to sell privately.
 
 ---
 
 ## Car Trade In Value Estimator Frequently Asked Questions
+
 ### Why is dealer trade-in value lower than private party sale value?
+
 Car dealerships purchase trade-in vehicles at wholesale prices (typically 12% to 20% below retail) to cover reconditioning, inspection, warranty costs, and profit margin.
 
 ### What is a state sales tax trade-in credit?
+
 In 42 states, when you trade in a vehicle at a dealership toward a new car purchase, sales tax is assessed only on the price difference. This can save you hundreds in sales tax.
 
 ### Is selling a car privately worth the extra hassle?
+
 Selling privately yields $1,500 to $3,500 more gross cash, but requires creating listings, answering messages, meeting strangers for test drives, and handling title transfer paperwork.
 
 ### How does vehicle condition affect trade-in value?
+
 Vehicle condition impacts offer price by 10% to 30%. Cars in Excellent condition command top dollar, while Poor condition cars face heavy reconditioning deducts.
 
 ### Does high mileage decrease trade-in value?
+
 Yes, excess mileage lowers trade-in value by approximately $0.08 to $0.15 for every mile driven over the national annual average (12,000 miles/yr).
 
 ### Should I repair dented bodywork before trading in?
+
 Minor cosmetic touch-ups or detail cleaning yield good ROI, but expensive body repairs rarely pay off since dealers perform body repairs at wholesale labor rates.
 
 ### Is Car Trade In Value Estimator calculation private?
+
 Yes, all data processing takes place strictly inside your browser.

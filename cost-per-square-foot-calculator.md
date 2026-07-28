@@ -197,21 +197,28 @@ It is a common surprise that smaller homes (e.g. 1,200 sq ft) cost significantly
 ---
 
 ## Cost per Square Foot Calculator Frequently Asked Questions
+
 ### How do you calculate cost per square foot for building a home?
+
 Divide total construction cost by total finished living square feet. For example, a $450,000 home build with 2,400 finished square feet equals $187.50 per square foot.
 
 ### What is included in heated living square footage?
+
 Heated living square footage includes fully enclosed, climate-controlled, finished interior space with minimum 7-foot ceiling heights (kitchens, bedrooms, bathrooms, finished basements).
 
 ### Does cost per square foot include land acquisition costs?
+
 Standard construction cost per square foot excludes raw land purchase price, site grading, municipal utility tap fees, and financing closing costs unless specified as a complete turn-key package.
 
 ### What is the difference between a spec home and a custom home build cost?
+
 Spec (speculative) homes built by high-volume production builders cost $120 to $170 per sq ft due to bulk material purchasing. Custom homes designed by architects cost $240 to $350+ per sq ft.
 
 ### Why does a smaller house cost more per square foot to build?
+
 Smaller homes still require expensive core infrastructure (septic/sewer, electrical service panel, kitchen appliances, HVAC unit), which spreads across fewer square feet, driving up the unit rate.
 
 ### How much does garage or basement area add to construction costs?
+
 Attached garage space adds about $35 to $50 per sq ft. Unfinished basements cost $30 to $45 per sq ft to pour and frame, while finishing a basement later costs an additional $40 to $75 per sq ft.
 

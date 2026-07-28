@@ -155,21 +155,28 @@ Calculate local and cross-country relocation expenses with our free **Moving Cos
 ---
 
 ## Moving Cost Calculator Frequently Asked Questions
+
 ### How much do professional movers cost on average?
+
 Local moves (under 100 miles) typically cost between $800 and $2,500 depending on home size. Long-distance moves (500+ miles) average between $2,500 and $7,500+.
 
 ### What is the cheapest way to move long-distance?
+
 Renting a DIY moving truck (such as U-Haul or Penske) or using portable moving containers (like PODS or ABF U-Pack) is significantly cheaper than hiring full-service movers.
 
 ### How far in advance should I book professional movers?
+
 Book movers 4 to 6 weeks in advance during off-peak seasons, and 8 to 12 weeks in advance during peak summer moving months (May through September).
 
 ### Are packing boxes and materials included in mover quotes?
+
 Basic furniture padding and blankets are usually included, but cardboard boxes, bubble wrap, tape, and mattress covers carry extra charges unless specified in a full-packing contract.
 
 ### What extra hidden fees should I watch for in moving quotes?
+
 Watch out for stair fees, long-carry surcharges (distance from truck to front door), heavy item surcharges (pianos, safes), and shuttle fees if large trucks cannot access narrow streets.
 
 ### How much emergency buffer should I add to my moving budget?
+
 Add a 15% to 20% emergency buffer to cover unexpected hotel stays, takeout meals, cleaning fees, and utility deposit connection costs.
 

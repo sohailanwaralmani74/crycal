@@ -157,6 +157,7 @@ Human capital is the primary growth driver and largest cost center for software 
 ---
 
 ## Headcount Planning Calculator Mathematical Formulas
+
 ### 1. Future Headcount Requirement
 
 $$ \text{Total Future Headcount} = \text{Ceiling}\left( \frac{\text{Target ARR}}{\text{Target ARR per Employee}} \right) $$
@@ -182,6 +183,7 @@ $$ \text{Additional Payroll OpEx (\$)} = \text{New Hires Needed} \times \text{Av
 ---
 
 ## Step-by-Step Headcount Planning Calculator Guide
+
 1. **Enter Financial Growth Targets**: Input current ARR and next 12-month target ARR goal.
 2. **Input Current Staff Count**: Enter existing full-time workforce headcount.
 3. **Set Fully-Loaded Compensation**: Use realistic salary + 25% benefits load for your market.
@@ -190,20 +192,27 @@ $$ \text{Additional Payroll OpEx (\$)} = \text{New Hires Needed} \times \text{Av
 ---
 
 ## Headcount Planning Calculator Frequently Asked Questions
+
 ### What is headcount planning?
+
 Headcount planning is the operational process of forecasting workforce requirements, net new hires, and associated payroll costs required to achieve business growth objectives.
 
 ### How is required headcount calculated from target ARR?
+
 Total Future Headcount = Target ARR / Target ARR per Employee Benchmark. New Hires Needed = Total Future Headcount - Current Headcount.
 
 ### Why is headcount planning critical for SaaS companies?
+
 Payroll represents 65% to 80% of total SaaS operating expenses (OpEx). Poor headcount planning causes premature cash exhaustion or growth bottlenecks.
 
 ### What is a realistic ARR target per employee for headcount capacity?
+
 Early-stage SaaS targets $120k to $180k per employee, growth-stage SaaS targets $180k to $250k, and mature SaaS targets $250k+ per employee.
 
 ### How should hiring be phased over a fiscal year?
+
 Phase hiring quarterly to allow new team members 60 to 90 days to fully ramp before counting on their full revenue or engineering output.
 
 ### How can companies reduce payroll OpEx during growth?
+
 Reduce payroll expansion by leveraging AI workflow automation, hiring nearshore talent, increasing self-serve customer onboarding, and expanding contractor support.

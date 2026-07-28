@@ -154,6 +154,7 @@ Understanding the transition between these two phases is essential to prevent "p
 ---
 
 ## HELOC Calculator Mathematical Formulas & Mechanics
+
 During the interest-only draw period ($t \le \text{Draw Years}$), the monthly payment ($M_{\text{draw}}$) based on current borrowed balance ($B$) and annual variable interest rate ($r_{\text{annual}}$) is:
 
 $$r_{\text{monthly}} = \frac{r_{\text{annual}}}{12 \times 100}$$
@@ -175,6 +176,7 @@ $$\text{Total Repayment Interest} = (M_{\text{repay}} \times n_{\text{repay}}) -
 ---
 
 ## HELOC Calculator Benchmarks & Comparison Table
+
 The benchmark table below demonstrates phase payment shifts and cumulative interest costs for a **$50,000 HELOC balance at 8.50% APR** across different repayment phase structures:
 
 | HELOC Credit Balance | Variable Interest Rate | Draw Period (Interest-Only) | Draw Phase Payment | Repayment Period (P&I) | Repayment Phase Payment | Monthly Payment Jump | Total Lifetime Interest |
@@ -190,6 +192,7 @@ The benchmark table below demonstrates phase payment shifts and cumulative inter
 ---
 
 ## How to Use the HELOC Calculator Step-by-Step
+
 1. **Select Currency**: Choose your preferred currency ($ USD, € EUR, £ GBP) from the site header.
 2. **Enter Credit Line Balance**: Input total active borrowed balance on your HELOC.
 3. **Set Variable Interest Rate**: Input current variable interest rate (Prime Rate + Lender Margin).
@@ -200,23 +203,31 @@ The benchmark table below demonstrates phase payment shifts and cumulative inter
 ---
 
 ## HELOC Calculator Frequently Asked Questions
+
 ### What is a Home Equity Line of Credit (HELOC)?
+
 A HELOC is a revolving line of credit secured by home equity that allows borrowers to withdraw funds as needed during a draw period and repay principal over a subsequent repayment period.
 
 ### What is the draw period on a HELOC?
+
 The draw period (typically 10 years) is the initial phase during which you can withdraw cash up to your credit limit and make minimum interest-only monthly payments.
 
 ### What is the repayment period on a HELOC?
+
 The repayment period (typically 10 to 20 years) begins after the draw period ends. You can no longer borrow money and must make fully amortizing principal and interest payments.
 
 ### What causes HELOC payment shock?
+
 Payment shock occurs when the draw period ends and monthly payments abruptly jump because you begin paying back principal in addition to interest.
 
 ### Are HELOC interest rates fixed or variable?
+
 HELOCs typically feature variable interest rates tied to the U.S. Prime Rate, meaning monthly payments fluctuate as benchmark interest rates change.
 
 ### Is interest paid on a HELOC tax-deductible?
+
 HELOC interest is tax-deductible only if loan proceeds are used exclusively to buy, build, or substantially improve the primary or secondary residence securing the loan.
 
 ### Is my personal financial information stored?
+
 No, 100%. All calculation formulas run locally within your web browser. No personal equity or credit line metrics are stored or transmitted.

@@ -142,6 +142,7 @@ Using this **Car Fuel Cost Calculator**, you can plan your monthly budget or eva
 ---
 
 ## Car Fuel Cost Calculator Calculation Flow
+
 <div class="flow-chart">
   <div class="flow-title">Fuel Cost Calculation Flow</div>
 
@@ -197,9 +198,11 @@ Using this **Car Fuel Cost Calculator**, you can plan your monthly budget or eva
 ## Fuel Spending Formulas
 
 ### 1. Annual Fuel Expense
+
 $$\text{Annual Cost} = \left( \frac{\text{Annual Miles}}{\text{MPG}} \right) \times \text{Gas Price}$$
 
 ### 2. Fuel Cost Per Mile
+
 $$\text{Cost Per Mile} = \frac{\text{Gas Price}}{\text{MPG}}$$
 
 ---
@@ -217,38 +220,51 @@ $$\text{Cost Per Mile} = \frac{\text{Gas Price}}{\text{MPG}}$$
 ---
 
 ## Step-by-Step Car Fuel Cost Calculator Guide
+
 ### Step 1: Input Annual Driving Mileage
+
 Enter your total estimated yearly mileage (commute, road trips, errands).
 
 ### Step 2: Input Vehicle MPG
+
 Enter the EPA combined miles-per-gallon rating for your vehicle.
 
 ### Step 3: Set Local Fuel Price
+
 Enter current local fuel price per gallon.
 
 ### Step 4: Examine Financial Summary
+
 Check your monthly fuel budget, cost per mile, and 5-year total.
 
 ---
 
 ## Car Fuel Cost Calculator Frequently Asked Questions
+
 ### How is annual fuel cost calculated?
+
 Annual fuel cost is calculated by dividing annual miles by MPG to find total gallons consumed, then multiplying gallons by price per gallon.
 
 ### What is the average annual gas cost in the US?
+
 Driving 13,500 miles per year at 25 MPG with gas at $3.50/gal costs approximately $1,890 per year, or $157 per month.
 
 ### How much does 1 MPG improvement save?
+
 Improving from 20 MPG to 21 MPG at 12,000 miles/yr saves ~23 gallons or ~$80/yr. Improving from 10 MPG to 11 MPG saves ~109 gallons or ~$380/yr.
 
 ### Does highway driving use less fuel than city driving?
+
 Yes. City driving involves frequent stopping and idling which reduces efficiency by 15% to 30% compared to steady highway cruising.
 
 ### How do driving habits impact gas mileage?
+
 Aggressive acceleration, speeding over 65 mph, low tire pressure, and carrying unnecessary weight can reduce fuel efficiency by up to 20%.
 
 ### Can premium gas increase fuel economy?
+
 Only if your vehicle's engine requires or recommends high-octane fuel. In standard vehicles, premium gas provides no extra MPG benefit.
 
 ### Is the Car Fuel Cost Calculator private?
+
 Yes, all computations take place strictly inside your browser.

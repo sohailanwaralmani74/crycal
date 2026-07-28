@@ -179,19 +179,25 @@ If Bob held the investment for 5 years, his annualized ROI (CAGR) would be:
 ---
 
 ## ROI Calculator Frequently Asked Questions
+
 ### What is ROI?
+
 Return on Investment (ROI) is a widely used metric that measures the profitability of an investment relative to its cost. It provides a quick, simple way to evaluate the potential return of anything from stocks and real estate to business ventures.
 
 ### What is the ROI formula?
+
 The basic ROI formula is: ROI = (Gain from Investment − Cost of Investment) ÷ Cost of Investment × 100. For example, if you invest $50,000 and earn $70,000 in profits, your ROI is 40%.
 
 ### What is the difference between ROI and annualized ROI?
+
 ROI does not account for time. Two investments with the same ROI can have vastly different holding periods. Annualized ROI (CAGR) adjusts for time, showing the average yearly return and enabling fair comparisons between different investment durations.
 
 ### Why is ROI sometimes difficult to use?
+
 The challenge lies in defining 'cost' and 'gain'. Different investors include different factors such as taxes, insurance, capital expenditures, or operating costs. This variability makes ROI a useful starting point, but it should be supplemented with other metrics.
 
 ### Can I use this calculator for any investment?
+
 Yes — use it for stocks, mutual funds, real estate, crypto, or any investment where you have start and end values.
 
 ---

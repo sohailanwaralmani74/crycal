@@ -167,15 +167,20 @@ This **perpetuity valuation calculator** is designed for:
 ---
 
 ## Perpetuity Calculator Frequently Asked Questions
+
 ### What is a perpetuity?
+
 A perpetuity is a stream of equal (or growing) cash flows that continues indefinitely, with no end date. Common examples include certain preferred stock dividends and some government bonds.
 
 ### How do you calculate the present value of a perpetuity?
+
 The present value of a level perpetuity is calculated by dividing the annual cash flow by the discount rate: PV = C ÷ r.
 
 ### What is a growing perpetuity?
+
 A growing perpetuity is a cash flow stream that increases at a constant rate each period. It's valued using the Gordon Growth Model: PV = C ÷ (r − g), where g is the growth rate.
 
 ### Why must the discount rate be greater than the growth rate?
+
 If the growth rate equals or exceeds the discount rate, the present value formula produces an undefined or negative result, since the cash flows would grow faster than they're being discounted.
 

@@ -222,21 +222,28 @@ Category split for a standard **$35,000 mid-range kitchen remodeling project**:
 ---
 
 ## Kitchen Remodel Cost Calculator Frequently Asked Questions
+
 ### How much does a full kitchen remodel cost?
+
 Nationally, the average mid-range kitchen remodel costs approximately $35,000 to $45,000. Minor cosmetic updates average $15,000 to $25,000, while high-end luxury kitchens range from $65,000 to $120,000+.
 
 ### What is the 30/20/20/30 rule for kitchen remodeling?
+
 The 30/20/20/30 rule allocates 30% of your total budget to cabinetry and hardware, 20% to countertops and backsplash, 20% to appliances and fixtures, and 30% to contractor labor and trade installation.
 
 ### Which component is the most expensive in a kitchen remodel?
+
 Kitchen cabinetry is consistently the most expensive material purchase, accounting for 30% to 35% of total project costs.
 
 ### How much does labor cost in a kitchen renovation?
+
 Contractor and skilled trade labor (carpenters, plumbers, electricians, tile setters) typically accounts for 25% to 35% of total renovation expenditures.
 
 ### Can I save money by refacing cabinets instead of replacing them?
+
 Yes. Cabinet refacing (replacing doors and drawer fronts while retaining original cabinet boxes) saves 30% to 50% compared to brand new custom cabinetry.
 
 ### What percentage of home value should I spend on a kitchen remodel?
+
 Real estate experts recommend spending 5% to 15% of your home's total appraised market value on a kitchen remodel to maximize equity return without over-improving.
 

@@ -116,6 +116,7 @@ Popularized by Craft Ventures, the Burn Multiple measures how efficiently a star
 Having accurate, real-time insights into this metric helps SaaS founders, CFOs, and growth teams optimize capital allocation, protect operating runway, and achieve top-tier venture scalability.
 
 ## Burn Multiple Calculator Formula & Derivation
+
 The mathematical derivation for this financial metric is expressed as:
 
 $$\text{Burn Multiple} = \frac{\text{Net Cash Burn}}{\text{Net New ARR Generated}}$$ \n$$\text{ARR Generated per \$1 Burned} = \frac{\text{Net New ARR}}{\text{Net Cash Burn}}$$
@@ -123,6 +124,7 @@ $$\text{Burn Multiple} = \frac{\text{Net Cash Burn}}{\text{Net New ARR Generated
 Where all input values are evaluated over a standardized monthly or annual accounting period.
 
 ## Burn Multiple Calculator SaaS Benchmarks
+
 | Burn Multiple | Efficiency Rating | Venture Investor Verdict |
 | --- | --- | --- |
 | < 1.0x | Amazing (Elite) | Highly Scalable Engine; Premium Valuation |
@@ -132,6 +134,7 @@ Where all input values are evaluated over a standardized monthly or annual accou
 | >= 2.5x | Dangerous | Severe Cash Crisis; Immediate Restructuring Required |
 
 ## Step-by-Step Burn Multiple Calculator Calculation Guide
+
 1. **Enter Core Financial Inputs:** Supply your monthly sales spend, user counts, ARPU, or recurring revenue figures.
 2. **Review Intermediate Outputs:** Examine calculated gross profit, churn, payback, or unit contribution scores.
 3. **Assess Benchmark Ratings:** Compare your results against SaaS industry standards to identify growth bottlenecks.
@@ -140,21 +143,28 @@ Where all input values are evaluated over a standardized monthly or annual accou
 ---
 
 ## Burn Multiple Calculator Frequently Asked Questions
+
 ### What is the Burn Multiple?
+
 The Burn Multiple measures how much net cash a SaaS startup burns for every dollar of net new Annual Recurring Revenue (ARR) generated.
 
 ### What is a good Burn Multiple benchmark?
+
 Under 1.0x is amazing (elite efficiency). 1.0x to 1.5x is good. 1.5x to 2.0x is suspect. Above 2.5x is dangerous.
 
 ### How does stage affect Burn Multiple expectations?
+
 Early Seed stage companies naturally have higher Burn Multiples (2.0x+) due to R&D setup costs. Series A and B startups must trim their Burn Multiple under 1.5x.
 
 ### What causes a high Burn Multiple?
+
 High Burn Multiples are caused by excessive engineering overhead, high customer churn, inefficient ad channels, or over-staffed sales teams.
 
 ### How can startups improve their Burn Multiple?
+
 Improve the metric by increasing pricing tiers, trimming non-performing marketing campaigns, automating customer success, and delaying non-essential hiring.
 
 ### How often should Burn Multiple be evaluated?
+
 Calculate Burn Multiple quarterly on a 6-month trailing basis to smooth out lumpy enterprise deal closings.
 

@@ -197,15 +197,20 @@ This **FV calculator** is designed for:
 ---
 
 ## Future Value Calculator Frequently Asked Questions
+
 ### What is future value?
+
 Future value is the projected worth of a current sum of money, plus any additional contributions, after it grows at a given rate of return over a specific period.
 
 ### How is future value calculated?
+
 Future value is calculated by compounding the present value at the given rate over the number of periods, then adding the future value of any regular contributions.
 
 ### What's the difference between future value and present value?
+
 Future value projects what money today will be worth later, while present value discounts a future sum back to what it's worth today. They are inverse calculations.
 
 ### Does compounding frequency matter?
+
 Yes. More frequent compounding (e.g., daily vs. annually) results in slightly higher future value at the same nominal rate, since interest is calculated and added more often.
 

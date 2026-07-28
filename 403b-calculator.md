@@ -220,15 +220,20 @@ This **403(b) calculator** is designed for:
 ---
 
 ## 403b Calculator Frequently Asked Questions
+
 ### What is a 403(b) plan?
+
 A 403(b) plan is a tax-advantaged retirement savings plan available to employees of public schools, nonprofit organizations, and certain ministers, functioning similarly to a 401(k) offered by for-profit employers.
 
 ### How is 403(b) growth calculated?
+
 403(b) growth is calculated by compounding your existing balance and ongoing contributions (both yours and your employer's match) at your expected rate of return over your years until retirement.
 
 ### Does my employer match count toward my contribution limit?
+
 No. Employer matching contributions do not count against your individual employee elective deferral limit, though they do count toward the overall combined contribution limit for the plan.
 
 ### What's the difference between a 403(b) and a 401(k)?
+
 They function very similarly, but 403(b) plans are offered by nonprofit, educational, and religious organizations, while 401(k) plans are offered by for-profit employers. Both offer tax-deferred (or Roth) growth.
 

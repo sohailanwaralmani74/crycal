@@ -186,6 +186,7 @@ Deciding whether to take a lump sum or lifetime annuity is one of the most impor
 ---
 
 ## Pension Lump Sum vs Annuity Calculator Break-Even Analysis
+
 The **break-even age** is when the total value of the lump sum (if invested) equals the total annuity payments received. After the break-even age, the annuity option becomes more valuable.
 
 **Example:**
@@ -206,6 +207,7 @@ The **break-even age** is when the total value of the lump sum (if invested) equ
 ---
 
 ## How to Use the Pension Lump Sum vs Annuity Calculator
+
 1. **Enter your lump sum offer** — the amount your pension plan offers.
 2. **Enter your monthly annuity payment** — the monthly payment for life.
 3. **Enter your expected investment return** — annual return if you invest the lump sum.
@@ -217,15 +219,20 @@ The tool updates instantly as you adjust any input — no "Calculate" button req
 ---
 
 ## Pension Lump Sum vs Annuity Calculator Frequently Asked Questions
+
 ### What is a pension lump sum vs annuity?
+
 A lump sum is a one-time payment you receive upfront. An annuity is a series of monthly payments for life. This calculator helps you compare which option is better.
 
 ### How is the break-even age calculated?
+
 The break-even age is when the total value of the lump sum (if invested) equals the total annuity payments received.
 
 ### What investment return should I use?
+
 A conservative estimate is 4-6% for a balanced portfolio. Use a lower rate for a conservative estimate, and a higher rate for a more aggressive estimate.
 
 ### What about inflation?
+
 The calculator includes an inflation adjustment option. Enter your expected inflation rate to see the real value of your annuity payments over time.
 

@@ -151,6 +151,7 @@ Using this **Engine Idle Fuel Waste Calculator**, you can calculate your exact a
 ---
 
 ## Engine Idle Fuel Waste Calculator Calculation Flow
+
 <div class="flow-chart">
   <div class="flow-title">Engine Idle Waste Flow</div>
 
@@ -208,9 +209,11 @@ Using this **Engine Idle Fuel Waste Calculator**, you can calculate your exact a
 ## Idling Consumption Formulas
 
 ### 1. Daily Fuel Wasted
+
 $$\text{Daily Gallons} = \left( \frac{\text{Daily Idle Minutes}}{60} \right) \times \text{Consumption Rate (gal/hr)}$$
 
 ### 2. Annual Money Wasted
+
 $$\text{Annual Waste (\$)} = \text{Daily Gallons} \times \text{Operating Days} \times \text{Gas Price}$$
 
 ---
@@ -227,38 +230,51 @@ $$\text{Annual Waste (\$)} = \text{Daily Gallons} \times \text{Operating Days} \
 ---
 
 ## Step-by-Step Engine Idle Fuel Waste Calculator Guide
+
 ### Step 1: Estimate Daily Idling Time
+
 Include drive-thrus, traffic light queues, warming up the vehicle in the morning, and parked waiting periods.
 
 ### Step 2: Choose Engine Type
+
 Select 4-Cylinder, V6, V8, or Heavy Diesel.
 
 ### Step 3: Input Driving Days & Gas Cost
+
 Enter how many days per week/year you drive and local gas price.
 
 ### Step 4: Evaluate Financial Savings from Shutting Off
+
 See how much money you save by turning off your key when parked over 10 seconds.
 
 ---
 
 ## Engine Idle Fuel Waste Calculator Frequently Asked Questions
+
 ### How much fuel does an idling engine consume per hour?
+
 A standard 4-cylinder engine burns 0.2 to 0.4 gallons per hour while idling. A V6 burns 0.5 to 0.7 gallons/hr, and a large V8 or diesel burns 0.8 to 1.2 gallons/hr.
 
 ### Is it better to turn off the engine or let it idle?
+
 Restarting a modern fuel-injected engine uses only about 10 seconds worth of fuel. If you expect to idle for more than 10 seconds, turning off the engine saves fuel and reduces wear.
 
 ### Does engine idling cause mechanical wear?
+
 Yes. Idling causes incomplete combustion, leading to fuel residue buildup on spark plugs, oil contamination, and exhaust system condensation.
 
 ### How much CO2 is produced per gallon of idle fuel?
+
 Burning one gallon of gasoline produces approximately 19.6 pounds of carbon dioxide (CO2).
 
 ### How does automatic Start-Stop technology save money?
+
 Automatic Start-Stop systems shut off the engine at traffic lights, cutting city driving fuel waste by 5% to 10% and saving $100 to $250 per year.
 
 ### Does winter idling warm up the car faster?
+
 No. Modern fuel-injected engines warm up significantly faster when driving gently than when idling in the driveway.
 
 ### Is the Engine Idle Fuel Waste Calculator private?
+
 Yes, all data processing takes place strictly inside your browser.

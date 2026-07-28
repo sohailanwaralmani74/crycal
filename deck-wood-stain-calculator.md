@@ -224,21 +224,28 @@ $$\text{Stain Gallons (2 Coats)} = \left( \frac{\text{Total Area}}{\text{Coverag
 ---
 
 ## Deck Wood Stain Calculator Frequently Asked Questions
+
 ### How many gallons of stain do I need for a 12x16 deck?
+
 A 12x16 deck (192 sq ft floor) with 40 ft of railing and 4 steps equals about 350 total surface sq ft. For 2 coats on pressure-treated wood, you need approximately 3.5 gallons (3 gallon pails and 2 quart cans).
 
 ### How much square footage does 1 gallon of deck stain cover?
+
 One gallon of wood stain covers 150 to 250 sq ft for the first coat depending on wood porosity. A second coat requires less stain, covering 300 to 400 sq ft per gallon.
 
 ### How do railings and balusters affect deck stain calculation?
+
 Railings with vertical balusters/spindles add approximately 2.5 to 3.0 square feet of surface area per linear foot of railing due to their four-sided geometry.
 
 ### Should I apply 1 or 2 coats of deck stain?
+
 Transparent and semi-transparent penetrating oil stains generally require 1 saturation coat. Solid latex stains and new unprimed wood require 2 coats for maximum lifespan.
 
 ### How much does a gallon of quality deck stain cost?
+
 Quality deck stains cost between $40 and $65 per gallon for oil-based semi-transparent or acrylic solid stains from leading manufacturers.
 
 ### Can I use interior wood stain on an outdoor deck?
+
 No. Outdoor deck stains contain UV blockers, mildewcides, and water-repellent resins essential for surviving rain, foot traffic, and sun exposure.
 

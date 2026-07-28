@@ -159,6 +159,7 @@ The transition toward remote and hybrid work environments has fundamentally resh
 ---
 
 ## Office vs Remote Cost Comparison Calculator Mathematical Formulas
+
 ### 1. In-Office Facility Costs
 
 $$ \text{Monthly Office Expense} = \text{Monthly Lease \& Utilities} + \text{Monthly Office Perks} $$
@@ -190,6 +191,7 @@ $$ \text{Net Annual Remote Savings (\$)} = \text{Total Annual Office Cost} - \te
 ---
 
 ## Step-by-Step Office vs Remote Cost Comparison Calculator Guide
+
 1. **Calculate Fixed Lease Expenses**: Sum monthly rent, HVAC utilities, and janitorial services.
 2. **Include Office Amenities**: Add monthly costs for coffee, snacks, catering, and office supplies.
 3. **Define Remote Allowance**: Input monthly home office stipend (e.g. $150/month).
@@ -198,20 +200,27 @@ $$ \text{Net Annual Remote Savings (\$)} = \text{Total Annual Office Cost} - \te
 ---
 
 ## Office vs Remote Cost Comparison Calculator Frequently Asked Questions
+
 ### What is the average cost of commercial office space per employee?
+
 In major metropolitan areas, commercial office space costs $5,000 to $12,000 per employee annually ($400 to $1,000+ per month per desk).
 
 ### How is annual in-office cost calculated?
+
 Formula: Annual Office Cost = (Monthly Office Lease + Monthly Office Perks) × 12 months.
 
 ### How is annual remote work cost calculated?
+
 Formula: Annual Remote Cost = (Headcount × Monthly Remote Stipend × 12) + Annual Offsite Retreat Budget.
 
 ### Does remote work completely eliminate real estate costs?
+
 While remote work eliminates daily office leases, companies typically reallocate 20% to 30% of lease savings toward monthly stipends, co-working memberships (WeWork), and annual in-person retreats.
 
 ### What are the hidden costs of remote work compliance?
+
 Hidden costs include multi-state payroll registration fees, state-specific tax filings, international employer-of-record (EOR) services (Deel/Rippling), and remote hardware shipping.
 
 ### How do hybrid office models affect workspace costs?
+
 Hybrid models reduce office space requirements by 30% to 50% using hot-desking, but require desk booking software licenses and ongoing rent commitments.

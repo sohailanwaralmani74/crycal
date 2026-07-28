@@ -192,12 +192,15 @@ Key geometric parameters:
 ---
 
 ## Engine Displacement Calculator Mathematical Formulas
+
 ### 1. Single Cylinder Volume in Cubic Inches ($V_{\text{cyl, in3}}$)
+
 \[
 V_{\text{cyl, in3}} = \pi \times \left( \frac{\text{Bore}_{\text{in}}}{2} \right)^2 \times \text{Stroke}_{\text{in}} = 0.785398 \times \text{Bore}^2 \times \text{Stroke}
 \]
 
 ### 2. Total Displacement Calculations
+
 \[
 \text{CID} = V_{\text{cyl, in3}} \times N_{\text{cylinders}}
 \]
@@ -209,6 +212,7 @@ V_{\text{cyl, in3}} = \pi \times \left( \frac{\text{Bore}_{\text{in}}}{2} \right
 \]
 
 ### 3. Bore-to-Stroke Ratio ($R_{B/S}$)
+
 \[
 R_{B/S} = \frac{\text{Bore}}{\text{Stroke}}
 \]
@@ -228,6 +232,7 @@ R_{B/S} = \frac{\text{Bore}}{\text{Stroke}}
 ---
 
 ## Step-by-Step Engine Displacement Calculator Usage Guide
+
 1. **Select Input Units**: Choose Inches or Millimeters.
 2. **Input Cylinder Bore**: Enter cylinder diameter (e.g. 4.00 inches).
 3. **Input Piston Stroke**: Enter piston stroke length (e.g. 3.48 inches).
@@ -237,23 +242,31 @@ R_{B/S} = \frac{\text{Bore}}{\text{Stroke}}
 ---
 
 ## Engine Displacement Calculator Frequently Asked Questions
+
 ### What is engine displacement?
+
 Engine displacement is the total swept volume of air/fuel mixture displaced by all pistons moving from Bottom Dead Center (BDC) to Top Dead Center (TDC) inside the cylinders.
 
 ### What is the formula for calculating engine displacement?
+
 $\text{Displacement} = \pi \times \left( \frac{\text{Bore}}{2} \right)^2 \times \text{Stroke} \times \text{Number of Cylinders}$.
 
 ### What is an oversquare (short-stroke) vs undersquare (long-stroke) engine?
+
 An oversquare engine has a bore larger than its stroke (ratio > 1.0), favoring high RPM power. An undersquare engine has a stroke larger than its bore (ratio < 1.0), favoring low-end torque.
 
 ### How many cubic inches are in 1 Liter of engine displacement?
+
 1 Liter equals approximately 61.0237 cubic inches (CID).
 
 ### Why is a 350 Chevy engine referred to as a 5.7L?
+
 350 cubic inches multiplied by 0.016387 equates to 5.735 Liters, rounded conventionally to 5.7L.
 
 ### How does boring out an engine cylinder increase displacement?
+
 Machining the cylinder walls to a wider diameter increases cylinder cross-sectional area, allowing more air-fuel charge per stroke.
 
 ### Does the engine displacement calculator store my data?
+
 No. All calculations take place 100% locally in your web browser.

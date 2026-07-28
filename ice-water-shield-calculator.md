@@ -204,6 +204,7 @@ $$\text{Rolls Needed} = \left\lceil \frac{\text{Total Gross Sq Ft}}{\text{Roll S
 ---
 
 ## Step-by-Step Ice Water Shield Calculator Installation
+
 1. **Clean Deck Surface**: Ensure plywood deck sheathing is dry, clean, and free of protruding nails or debris.
 2. **Apply Eave Courses**: Peel split-back release film and roll membrane parallel to eaves, extending 0.25" past drip edge metal.
 3. **Overlap End & Side Laps**: Overlap side courses by at least 3 inches and end laps by 6 inches.
@@ -213,21 +214,28 @@ $$\text{Rolls Needed} = \left\lceil \frac{\text{Total Gross Sq Ft}}{\text{Roll S
 ---
 
 ## Ice Water Shield Calculator Frequently Asked Questions
+
 ### What is ice & water shield?
+
 Ice & water shield is a self-adhering rubberized asphalt membrane installed under shingles along eaves, valleys, roof penetrations, and low-slope areas to seal around nails and prevent leaks caused by ice dams or wind-driven rain.
 
 ### What is the building code requirement for eave ice barrier protection?
+
 Under International Residential Code (IRC R905.1.2), in areas with a history of ice damming, ice barrier membrane must extend from the eave edge to a point at least 24 inches inside the exterior wall line.
 
 ### How many courses (passes) of ice and water shield do I need?
+
 If horizontal overhang is 18 inches and wall thickness is 6 inches, total depth to reach 24" inside is 48 inches along the slope. Since standard rolls are 36" wide (with a 3" lap overlap = 33" net), 2 courses are required along the eave.
 
 ### How wide is a standard roll of ice and water shield?
+
 Standard rolls are 36 inches (3 feet) wide and typically come in lengths of 33 feet (100 sq ft roll), 50 feet (150 sq ft roll), or 65 feet (195 sq ft roll).
 
 ### Do you put ice and water shield in roof valleys?
+
 Yes. Building codes and shingle manufacturers require a 36-inch wide strip of ice and water shield centered down all roof valley seams prior to metal flashing or shingle installation.
 
 ### Is ice & water shield required on low-slope roofs?
+
 Yes. Roofs with slopes between 2:12 and 4:12 pitch require either two layers of felt underlayment or 100% coverage of self-adhering ice & water shield across the entire roof surface.
 

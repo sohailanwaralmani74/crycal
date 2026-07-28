@@ -218,20 +218,27 @@ $$\text{Founder Stake Value at Series B (\$)} = V_{\text{post}, \text{Series B}}
 ---
 
 ## Founder Dilution Multiple Rounds Calculator Frequently Asked Questions
+
 ### How much equity do founders typically retain by Series B?
+
 Founders typically retain 15% to 30% cumulative ownership by the end of a Series B funding round, down from 100% at incorporation.
 
 ### How is multi-round equity dilution calculated?
+
 Dilution compounds across rounds: Founder Ownership Post-Series B = Founder Ownership Post-Series A × (1 − Series B Investor Ownership %).
 
 ### Does dilution mean founders are losing money?
+
 No. A smaller percentage of a significantly larger post-money company valuation usually results in a much higher total dollar value for the founder's stake.
 
 ### What is a standard dilution percentage for Seed vs Series A vs Series B?
+
 Seed rounds typically dilute 15%–20%, Series A rounds dilute 20%–25%, and Series B rounds dilute 15%–20%.
 
 ### How can founders minimize equity dilution across rounds?
+
 Founders minimize dilution by building capital-efficient growth, negotiating higher pre-money valuations, and right-sizing option pools.
 
 ### Is my multi-round cap table data private?
+
 Yes. All computations execute locally in your client web browser.

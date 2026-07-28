@@ -188,21 +188,28 @@ The table below illustrates client bid pricing, markup dollar profit, and result
 ---
 
 ## Contractor Markup Calculator Frequently Asked Questions
+
 ### What is the difference between markup percentage and profit margin percentage?
+
 Markup is the percentage added to cost to calculate bid price (e.g., $100 cost + 25% markup = $125 bid price). Profit margin is the percentage of the final bid price that represents profit (e.g., $25 profit / $125 bid price = 20% margin). Markup percentage is always higher than profit margin percentage.
 
 ### What is a normal contractor markup percentage?
+
 Residential remodeling contractors typically markup costs between 25% and 50% (resulting in 20% to 33% profit margins). Specialty trade subcontractors (electrical, plumbing) markup materials 30% to 60%, while large commercial general contractors markup 10% to 20%.
 
 ### Why do contractors fail when confusing markup with margin?
+
 If a contractor has 20% overhead expenses and applies a 20% markup to direct costs, they will lose money. A 20% markup yields only a 16.7% gross margin, which fails to cover the 20% overhead requirement.
 
 ### What formula converts profit margin percentage to markup percentage?
+
 To convert desired margin % to markup %: $\text{Markup \%} = \frac{\text{Margin \%}}{100 - \text{Margin \%}} \times 100$. For example, a 25% margin requires a 33.3% markup.
 
 ### What direct costs should be included in a contractor bid?
+
 Direct costs include building materials, hourly field labor wages (plus payroll taxes and workers comp), subcontractor bid quotes, dumpster rentals, permit fees, and equipment rentals.
 
 ### What is a cost-plus contract?
+
 A cost-plus contract is an agreement where the client pays the actual direct project costs incurred plus an agreed-upon fixed percentage markup (e.g., Cost + 15% or Cost + 20%).
 

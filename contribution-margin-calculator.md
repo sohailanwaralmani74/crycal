@@ -136,6 +136,7 @@ Contribution margin measures how much revenue remains after paying all direct, v
 Having accurate, real-time insights into this metric helps SaaS founders, CFOs, and growth teams optimize capital allocation, protect operating runway, and achieve top-tier venture scalability.
 
 ## Contribution Margin Calculator Formula & Derivation
+
 The mathematical derivation for this financial metric is expressed as:
 
 $$\text{Total Variable Costs} = \text{Variable COGS} + \text{Variable S\&M} + \text{Variable CS}$$ \n$$\text{Contribution Margin \%} = \frac{\text{Total Revenue} - \text{Total Variable Costs}}{\text{Total Revenue}} \times 100\%$$
@@ -143,6 +144,7 @@ $$\text{Total Variable Costs} = \text{Variable COGS} + \text{Variable S\&M} + \t
 Where all input values are evaluated over a standardized monthly or annual accounting period.
 
 ## Contribution Margin Calculator SaaS Benchmarks
+
 | Margin Range | Business Profile | Operational Viability |
 | --- | --- | --- |
 | >= 60% | Mature High-Efficiency SaaS | High Net Profitability |
@@ -151,6 +153,7 @@ Where all input values are evaluated over a standardized monthly or annual accou
 | < 20% | Unprofitable Unit Scale | Requires Immediate Cost Restructuring |
 
 ## Step-by-Step Contribution Margin Calculator Calculation Guide
+
 1. **Enter Core Financial Inputs:** Supply your monthly sales spend, user counts, ARPU, or recurring revenue figures.
 2. **Review Intermediate Outputs:** Examine calculated gross profit, churn, payback, or unit contribution scores.
 3. **Assess Benchmark Ratings:** Compare your results against SaaS industry standards to identify growth bottlenecks.
@@ -159,23 +162,31 @@ Where all input values are evaluated over a standardized monthly or annual accou
 ---
 
 ## Contribution Margin Calculator Frequently Asked Questions
+
 ### What is Contribution Margin in SaaS?
+
 Contribution Margin is the revenue left over after deducting all variable costs directly associated with serving customers and driving sales conversions.
 
 ### How does Contribution Margin differ from Gross Margin?
+
 Gross margin only deducts direct product COGS (hosting, payment processing), whereas contribution margin also deducts variable sales, ad spend, and marketing costs.
 
 ### What is a good contribution margin target for SaaS?
+
 A healthy contribution margin for mature SaaS companies is 50% to 65%+. Early-stage companies investing aggressively in growth may see 30% to 45%.
 
 ### Why is Contribution Margin important for breakeven analysis?
+
 Contribution margin reveals whether selling another subscription unit adds cash to cover fixed corporate overhead or increases net operating loss.
 
 ### How can SaaS businesses expand Contribution Margin?
+
 Expand margin by optimizing paid ad channel efficiency, raising customer ARPU, and automating customer success workflows.
 
 ### What happens if Contribution Margin is negative?
+
 Negative contribution margin means each new customer costs more in direct variable expenses than they generate in subscription revenue.
 
 ### Is data uploaded to a server?
+
 No. All calculations run strictly in your web browser.

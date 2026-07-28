@@ -138,9 +138,11 @@ Unexpected medical emergencies or complex surgical procedures can generate overw
 Patients navigating medical bills generally have two primary resolution options: negotiating a prompt-pay lump-sum settlement discount (often 15% to 40% off gross charges) or establishing a zero-interest monthly installment plan based on household budget constraints. Evaluating these scenarios allows patients to advocate effectively during billing negotiations. This calculator computes net discounted balances, repayment durations, and cumulative dollar savings, giving patients clear data to resolve medical bills securely and privately.
 
 ## Medical Debt Payoff Calculator Mathematical Formulas & Mechanics
+
 The medical debt payoff calculation computes net discounted balances, cash savings from negotiation, and total repayment duration under interest-free installment schedules.
 
 ### 1. Negotiated Discount & Net Settlement Balance
+
 For a total gross medical bill ($B_{gross}$) and negotiated settlement discount percentage ($D_{\%}$):
 
 $$S_{discount} = B_{gross} \times \left(\frac{D_{\%}}{100}\right)$$
@@ -148,6 +150,7 @@ $$S_{discount} = B_{gross} \times \left(\frac{D_{\%}}{100}\right)$$
 $$B_{net} = B_{gross} - S_{discount} = B_{gross} \times \left(1 - \frac{D_{\%}}{100}\right)$$
 
 ### 2. Interest-Free Payment Plan Repayment Duration
+
 Assuming a 0% interest hospital installment agreement with fixed monthly payment ($P_{monthly}$), total months required to pay off the net balance ($N_{months}$) is:
 
 $$N_{months} = \left\lceil \frac{B_{net}}{P_{monthly}} \right\rceil$$
@@ -155,6 +158,7 @@ $$N_{months} = \left\lceil \frac{B_{net}}{P_{monthly}} \right\rceil$$
 Where $B_{gross}$ is total original healthcare charges, $D_{\%}$ is estimated lump-sum discount %, $S_{discount}$ is dollar savings, and $N_{months}$ is total repayment months rounded up.
 
 ## Medical Debt Payoff Calculator Benchmarks & Comparison Table
+
 | Original Medical Bill | Negotiated Discount % | Discount Dollar Savings | Net Discounted Balance | Monthly Budget ($0% Int) | Repayment Duration (Months) |
 |---|---|---|---|---|---|
 | **$5,000** | 15% | $750 | $4,250 | $250 | **17 Months** |
@@ -164,6 +168,7 @@ Where $B_{gross}$ is total original healthcare charges, $D_{\%}$ is estimated lu
 | **$75,000** | 40% | $30,000 | $45,000 | $1,000 | **45 Months** |
 
 ## How to Use the Medical Debt Payoff Calculator Step-by-Step
+
 1. **Enter Total Outstanding Medical Bill**: Input total balance owed across hospital bills, doctor fees, or lab invoices.
 2. **Set Monthly Payment Plan Budget**: Input affordable monthly cash amount available for interest-free installment plans.
 3. **Specify Negotiated Settlement Discount %**: Enter targeted prompt-pay cash discount percentage (typically 15% to 40%).
@@ -171,23 +176,31 @@ Where $B_{gross}$ is total original healthcare charges, $D_{\%}$ is estimated lu
 5. **Evaluate Interest-Free Payoff Timeline**: Review total months required to pay off the balance under your monthly budget.
 
 ## Medical Debt Payoff Calculator Frequently Asked Questions
+
 ### Can medical bills be negotiated?
+
 Yes! Hospitals and medical billing departments frequently offer prompt-pay cash discounts (typically 15% to 30%), financial assistance charity programs based on income, or zero-interest monthly installment plans.
 
 ### Are hospital monthly payment plans interest-free?
+
 Most non-profit hospitals and major health networks offer 0% interest payment plans directly to patients without charging financial finance fees.
 
 ### What is hospital financial assistance (Charity Care) under Section 501(r)?
+
 Non-profit hospitals are legally required under IRS Section 501(r) to maintain financial assistance policies offering free or discounted care to patients earning below specific income thresholds.
 
 ### How do credit reporting agencies handle paid or unpaid medical debt?
+
 Equifax, Experian, and TransUnion do not report paid medical debt, do not report unpaid medical debt under $500, and enforce a 1-year waiting period before reporting unpaid debts over $500.
 
 ### Should you put medical debt on a credit card?
+
 Generally no; putting medical debt on a high-interest credit card converts interest-free medical debt into high-interest consumer debt and strips away consumer credit protections.
 
 ### What is an itemized medical bill and why should you request one?
+
 An itemized bill details every specific procedure code, medication, and supply fee, allowing patients to spot duplicate charges, billing errors, or incorrect insurance coding.
 
 ### Is private medical billing and personal health data secured?
+
 Yes, all medical debt calculations execute 100% locally inside your web browser. No medical conditions, bill amounts, or personal details are saved or transmitted.

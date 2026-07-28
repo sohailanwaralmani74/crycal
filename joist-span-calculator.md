@@ -169,6 +169,7 @@ Over-spanning floor joists results in bouncy, squeaky floors, cracked drywall ce
 This **Joist Span Calculator** determines maximum clear span limits between beam supports based on lumber species, nominal size ($2\text{x}6$ to $2\text{x}12$), on-center spacing ($12"$, $16"$, $24"$), and design live/dead loads.
 
 ### Key Benefits of Joist Span Calculator
+
 * **Code-Compliant Engine:** Built on American Wood Council (AWC) and IRC allowable joist span tables.
 * **Species Engineering:** Adjusts spans for Southern Yellow Pine, Douglas Fir, SPF, and Hem-Fir.
 * **Deflection Standards:** Enforces $L/360$ living area deflection limits and $L/240$ deck/roof limits.
@@ -177,7 +178,9 @@ This **Joist Span Calculator** determines maximum clear span limits between beam
 ---
 
 ## Joist Span Calculator Mathematical Formulas & Mechanics
+
 ### 1. Bending Stress & Allowable Moment
+
 Maximum allowable bending moment ($M_{\text{allow}}$) for joist section modulus ($S$) and allowable bending design value ($F_b'$):
 
 $$M_{\text{allow}} = F_b' \times S$$
@@ -185,6 +188,7 @@ $$M_{\text{allow}} = F_b' \times S$$
 Where section modulus $S = \frac{b \cdot d^2}{6}$ (for actual width $b$ and actual depth $d$).
 
 ### 2. Maximum Span Based on Bending Stress
+
 Maximum clear span ($L_{\text{bend}}$ in feet) under total uniform load ($w$ in lbs/linear foot):
 
 $$L_{\text{bend}} = \sqrt{\frac{8 \times M_{\text{allow}}}{w}}$$
@@ -192,6 +196,7 @@ $$L_{\text{bend}} = \sqrt{\frac{8 \times M_{\text{allow}}}{w}}$$
 Where load per linear foot $w = \left(\frac{\text{Live Load} + \text{Dead Load}}{144}\right) \times S_{\text{oc\_in}}$.
 
 ### 3. Deflection-Limited Maximum Span
+
 For live-load deflection limit $L/360$ and Modulus of Elasticity ($E'$):
 
 $$L_{\text{deflect}} = \left( \frac{384 \times E' \times I}{5 \times w_{\text{live}} \times 360} \right)^{1/3}$$
@@ -201,6 +206,7 @@ Where moment of inertia $I = \frac{b \cdot d^3}{12}$. The final allowable span i
 ---
 
 ## Joist Span Calculator Benchmarks & Comparison Table
+
 The IRC span benchmark table below displays maximum clear spans for **Southern Yellow Pine #2** under standard residential floor loads ($40\text{ PSF Live} / 10\text{ PSF Dead}$):
 
 | Joist Size | 12-Inch Spacing (12" OC) | 16-Inch Spacing (16" OC) | 24-Inch Spacing (24" OC) | Typical Application |
@@ -213,6 +219,7 @@ The IRC span benchmark table below displays maximum clear spans for **Southern Y
 ---
 
 ## How to Use the Joist Span Calculator Step-by-Step
+
 1. **Identify Wood Species Grade:** Check the grade stamp printed on your framing lumber (e.g., SYP #2, Doug-Fir #2, SPF #2).
 2. **Select Joist Nominal Size:** Determine if framing uses $2\text{x}6$, $2\text{x}8$, $2\text{x}10$, or $2\text{x}12$ dimensional lumber.
 3. **Determine Framing Spacing:** Standard floor framing uses 16 inches on-center; heavy subfloors or decks use 12 inches on-center.
@@ -222,23 +229,31 @@ The IRC span benchmark table below displays maximum clear spans for **Southern Y
 ---
 
 ## Joist Span Calculator Frequently Asked Questions
+
 ### How far can a 2x10 joist span for a floor?
+
 A Southern Yellow Pine #2 2x10 joist spaced 16 inches on-center can span up to 16 feet 1 inch under standard residential floor loads (40 PSF live load / 10 PSF dead load).
 
 ### How far can a 2x8 joist span for an outdoor deck?
+
 A Southern Pine #2 2x8 deck joist spaced 16 inches on-center can safely span up to 12 feet 6 inches clear distance between beam supports.
 
 ### What is the maximum span for a 2x6 joist?
+
 A 2x6 Southern Pine #2 joist spaced 16 inches on-center spans up to 9 feet 9 inches for residential floors, or 9 feet 0 inches for exterior decks.
 
 ### Does 12-inch joist spacing allow longer clear spans than 16-inch spacing?
+
 Yes, decreasing joist spacing from 16 inches to 12 inches on-center increases allowable clear span length by approximately 10% to 15%.
 
 ### What is the difference between L/360 and L/240 deflection limits?
+
 L/360 mandates that maximum joist bending deflection under full live load cannot exceed the span length divided by 360 (prevents cracked drywall ceilings). L/240 is less stringent (span / 240) and applies to decks or roofs.
 
 ### Can I use 2x10 joists spaced at 24 inches on-center for a living room?
+
 Yes, but 24-inch joist spacing reduces maximum span from 16'1" down to 13'8" and requires 3/4-inch subflooring to prevent floor bounciness.
 
 ### Which wood species has the highest structural span rating?
+
 Southern Yellow Pine #2 and Douglas Fir-Larch #2 have the highest modulus of elasticity ($E$) and bending strength ($F_b$), allowing longer spans than Spruce-Pine-Fir (SPF).

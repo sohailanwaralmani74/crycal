@@ -228,18 +228,24 @@ The tool also provides the **sustainable growth rate example** with **formula fo
 ---
 
 ## Sustainable Growth Rate Calculator Frequently Asked Questions
+
 ### What is the Sustainable Growth Rate (SGR)?
+
 The SGR is the maximum growth rate a company can achieve without raising additional equity or increasing financial leverage, using only internally generated earnings.
 
 ### What is the formula for sustainable growth rate?
+
 The formula is: SGR = Return on Equity (ROE) × Retention Ratio. The retention ratio is the percentage of earnings retained (1 − dividend payout ratio).
 
 ### What is a good sustainable growth rate?
+
 A good SGR varies by industry. Generally, 10-20% is healthy for mature companies, while high-growth companies may have SGR above 25%.
 
 ### What is the difference between SGR and actual growth rate?
+
 Actual growth is real sales growth. SGR is the maximum sustainable rate. If actual growth exceeds SGR, the company may need external financing.
 
 ### How does the sustainable growth rate formula work?
+
 The formula works by multiplying ROE by the retention ratio, showing how much a company can grow using its own earnings without external capital.
 

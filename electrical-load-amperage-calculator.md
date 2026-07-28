@@ -187,15 +187,19 @@ Before upgrading your electrical service or adding heavy appliances, building in
 Residential load sizing follows the NEC 220 standard calculation method:
 
 ### 1. General Lighting & Receptacle Load:
+
 $$\text{General Load (VA)} = (\text{Sq Ft} \times 3\ \text{VA/sq ft}) + (\text{Small Appliance Circuits} \times 1,500\ \text{VA}) + (\text{Laundry Circuits} \times 1,500\ \text{VA})$$
 
 ### 2. General Load Demand Factor:
+
 $$\text{Demanded General VA} = 3,000\ \text{VA} + \left[ (\text{General Load} - 3,000\ \text{VA}) \times 0.35 \right]$$
 
 ### 3. Major Appliance & HVAC Load:
+
 $$\text{Total Demanded Load (VA)} = \text{Demanded General VA} + \text{Range VA} + \text{Dryer VA} + \text{Water Heater VA} + \text{HVAC VA} + \text{EV Charger VA}$$
 
 ### 4. Service Panel Amperage (@ 240V):
+
 $$\text{Service Amperage (A)} = \frac{\text{Total Demanded Load (VA)}}{240\ \text{V}}$$
 
 ---
@@ -223,21 +227,28 @@ $$\text{Service Amperage (A)} = \frac{\text{Total Demanded Load (VA)}}{240\ \tex
 ---
 
 ## Electrical Load Amperage Calculator Frequently Asked Questions
+
 ### Why is a load calculation required before adding an EV charger or heat pump?
+
 Adding a 48A Level 2 EV charger adds 11.5 kW of continuous load. If your home's existing load calculation is already at 85A on a 100A panel, adding the charger would cause main breaker tripping or wall fire risks.
 
 ### What is the NEC general lighting load per square foot?
+
 The NEC assigns a base unit load of 3 Volt-Amperes (VA) per square foot of living space for general lighting and general-purpose wall receptacles.
 
 ### How does the NEC demand factor work for general loads?
+
 Since not all lights and outlets are used simultaneously, NEC 220 allows taking the first 3,000 VA at 100%, and applying a 35% demand factor to any remaining general load between 3,001 and 120,000 VA.
 
 ### Is a 100 amp panel enough for a modern home?
+
 100-amp panels are usually adequate for homes under 1,500 sq ft using natural gas for heating, hot water, and cooking. However, 100A panels rarely have sufficient headroom for Level 2 EV chargers or heat pumps.
 
 ### When do I need to upgrade to a 200 amp or 400 amp panel?
+
 If your total calculated demand amperage exceeds 80A (80% of 100A), or if you lack physical breaker space for new double-pole breakers, upgrading to a 200-amp panel is strongly recommended.
 
 ### How does an EV charger affect total home electrical load?
+
 Continuous loads like EV chargers must be calculated at 100% of their nameplate rating (or 125% for branch circuit sizing). A 40A charger adds 32A of continuous demand @ 240V (7.68 kW).
 

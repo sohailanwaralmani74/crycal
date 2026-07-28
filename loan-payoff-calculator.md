@@ -202,16 +202,21 @@ The simulation runs month by month for both scenarios:
 ---
 
 ## Loan Payoff Calculator Frequently Asked Questions
+
 ### What is the Loan Payoff Calculator?
+
 It shows how extra monthly payments can shorten your loan term and reduce the total interest paid. Use it for personal loans, auto loans, student loans, or any fixed-rate installment loan.
 
 ### How do I calculate my loan payoff amount?
+
 Enter your current balance, interest rate, and monthly payment. The calculator shows your payoff date and total interest. Adding extra payments shows your new payoff date and total interest saved.
 
 ### Is it worth paying extra on my loan?
+
 Yes — even small extra payments can save hundreds in interest and shorten your loan term by months or even years. This loan payoff calculator shows you the exact impact.
 
 ### How does the loan amortization payoff work?
+
 Each month, a portion of your payment goes toward interest and the rest reduces principal. Extra payments reduce principal faster, accelerating the loan amortization and saving you interest.
 
 ---

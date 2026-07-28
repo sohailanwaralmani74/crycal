@@ -132,6 +132,7 @@ $$\text{Sales Tax Amount} = \text{Item Price} \times \frac{\text{Combined Sales 
 $$\text{Total Price} = \text{Item Price} + \text{Sales Tax Amount}$$
 
 ### Reverse Sales Tax Formula (Extracting Pre-Tax Price)
+
 $$\text{Item Price (Pre-Tax)} = \frac{\text{Total Price}}{1 + (\text{Sales Tax Rate \%} \div 100)}$$
 
 ---
@@ -158,21 +159,28 @@ $$\text{Item Price (Pre-Tax)} = \frac{\text{Total Price}}{1 + (\text{Sales Tax R
 ---
 
 ## Sales Tax Calculator Frequently Asked Questions
+
 ### How do you calculate sales tax on a purchase?
+
 Sales tax is calculated by multiplying the before-tax purchase price by the combined state, county, and local sales tax rate percentage.
 
 ### What is a combined sales tax rate?
+
 A combined sales tax rate is the total sales tax percentage levied on a purchase, combining state-level sales tax, county tax, and local city or municipal sales taxes.
 
 ### Why do sales tax rates vary by city and zip code?
+
 Local jurisdictions (cities, counties, and special transit districts) add local sales tax surcharges on top of state base rates to fund local infrastructure, schools, and emergency services.
 
 ### Are groceries and clothing exempt from sales tax?
+
 In many U.S. states, essential groceries and prescription medicines are exempt from retail sales tax. Some states also offer clothing tax exemptions or annual tax-free holidays.
 
 ### How do I calculate the pre-tax price from a total that includes sales tax?
+
 To extract the before-tax base price from a total inclusive of tax, divide the total price by (1 + Sales Tax Rate / 100).
 
 ### Does online shopping include sales tax?
+
 Following the South Dakota v. Wayfair Supreme Court ruling, most online retailers collect state and local sales tax based on the buyer's delivery shipping address.
 

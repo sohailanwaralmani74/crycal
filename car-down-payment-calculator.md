@@ -215,6 +215,7 @@ Our **car down payment calculator** enables you to:
 ---
 
 ## Car Down Payment Calculator Formulas & Principles
+
 For vehicle price \(V\), trade-in \(T\), monthly interest rate \(r = \text{APR}/12/100\), term \(n\), and down payment percentage \(p \in \{0.10, 0.20, 0.30\}\):
 
 ### Net Principal Financed
@@ -250,6 +251,7 @@ I_p = (M_p \cdot n) - P_p
 ---
 
 ## Car Down Payment Calculator Real-World Case Study
+
 Assuming a **$40,000 vehicle** at **6.5% APR** over a **60-month loan term**:
 
 | Down Payment Tier | Down Payment Cash | Financed Principal | Monthly Payment | Total Interest Paid | Interest Saved vs 10% |
@@ -263,6 +265,7 @@ Assuming a **$40,000 vehicle** at **6.5% APR** over a **60-month loan term**:
 ---
 
 ## Step-by-Step Guide for Using the Car Down Payment Calculator
+
 1. **Enter Car Purchase Price**: Input the MSRP or agreed vehicle price.
 2. **Input Expected APR**: Enter the financing interest rate.
 3. **Select Loan Duration**: Choose 36, 48, 60, 72, or 84 months.
@@ -272,21 +275,28 @@ Assuming a **$40,000 vehicle** at **6.5% APR** over a **60-month loan term**:
 ---
 
 ## Car Down Payment Calculator Frequently Asked Questions
+
 ### Why is 20% down recommended when buying a car?
+
 Putting 20% down on a new vehicle covers its rapid first-year depreciation (typically 15% to 20%), preventing you from becoming 'upside-down' (owing more than the car is worth). It also qualifies you for lower loan interest rates and reduces monthly payments.
 
 ### Is a 10% down payment enough for a car loan?
+
 A 10% down payment is acceptable—especially for used vehicles—but it leaves a larger loan balance. This results in higher monthly payments, increased lifetime interest expense, and a higher risk of negative equity if you decide to trade in early.
 
 ### Does a larger down payment lower your interest rate?
+
 Yes. Lenders view a larger down payment as lower loan-to-value (LTV) risk. Borrowers putting 20% or 30% down frequently qualify for tier-1 credit interest rates.
 
 ### Can I use trade-in equity as part of my down payment?
+
 Absolutly. Net positive trade-in equity (trade-in value minus remaining loan balance) counts directly as down payment equity toward your new car purchase.
 
 ### What is GAP insurance and how does down payment affect it?
+
 GAP (Guaranteed Asset Protection) insurance covers the gap between your car's market value and your remaining loan balance if the car is totaled. Putting 20% or 30% down eliminates the need for GAP insurance because your loan balance will be lower than the car's market value.
 
 ### Should I put 30% down or invest the extra cash?
+
 If your auto loan APR is high (e.g., 7% or above), putting 30% down yields a guaranteed return equal to that APR. If your loan interest rate is low (e.g., 0% to 3.9% promotional rate), keeping cash invested in high-yield assets may yield a higher net return.
 

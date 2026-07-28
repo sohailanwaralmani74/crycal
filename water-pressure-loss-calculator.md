@@ -179,15 +179,19 @@ If pressure loss is not accurately calculated during plumbing design, upper-floo
 ## Pressure Loss Formulas
 
 ### 1. Hazen-Williams Friction Loss (PSI per 100 ft):
+
 $$P_{100} = 4.52 \times \frac{Q^{1.852}}{C^{1.852} \times d^{4.8655}}$$
 
 ### 2. Total Friction Pressure Drop ($P_{\text{friction}}$):
+
 $$P_{\text{friction}} = P_{100} \times \left( \frac{\text{Length (ft)}}{100} \right)$$
 
 ### 3. Static Elevation Head Loss/Gain ($P_{\text{elevation}}$):
+
 $$P_{\text{elevation}} = 0.433 \times \text{Elevation Rise (ft)}$$
 
 ### 4. Residual Outlet Pressure ($P_{\text{outlet}}$):
+
 $$P_{\text{outlet}} = P_{\text{supply}} - P_{\text{friction}} - P_{\text{elevation}}$$
 
 Where:
@@ -220,21 +224,28 @@ Where:
 ---
 
 ## Water Pressure Loss Calculator Frequently Asked Questions
+
 ### How much water pressure is lost per foot of vertical height?
+
 For every 1 foot of vertical elevation rise, water pressure drops by exactly **0.433 PSI** due to gravity. Pumping water up 20 feet to a second-floor bathroom results in an automatic 8.66 PSI static pressure loss.
 
 ### What is the Hazen-Williams formula for pipe friction loss?
+
 The Hazen-Williams formula is an empirical fluid mechanics equation used to calculate friction head loss in water pipes based on flow rate (GPM), internal pipe diameter, length, and surface roughness (C-factor).
 
 ### Why does PEX pipe have higher friction loss than copper pipe?
+
 Although PEX and copper both have smooth internal walls ($C=150$), PEX tubing has thicker wall dimensions, resulting in a slightly smaller internal diameter for the same nominal trade size (e.g., 3/4" PEX ID is 0.671" vs 3/4" Copper ID of 0.745").
 
 ### What is acceptable water pressure for a residential home?
+
 Ideal residential water pressure is between **40 PSI and 60 PSI**. Pressures below 30 PSI cause weak fixture flow, while pressures above 80 PSI damage appliances and violate building codes (requiring a pressure reducing valve PRV).
 
 ### How does flow rate (GPM) affect pressure drop in pipes?
+
 Friction pressure drop increases non-linearly with flow rate ($P \propto Q^{1.852}$). Doubling water flow rate through the same pipe increases friction pressure drop by nearly **3.6 times**.
 
 ### How can I fix low water pressure on a second floor?
+
 You can fix low upper-floor pressure by: (1) Upsizing supply lines from 1/2" to 3/4" to reduce friction loss, (2) Adjusting your main pressure reducing valve (PRV), or (3) Installing an inline water pressure booster pump.
 

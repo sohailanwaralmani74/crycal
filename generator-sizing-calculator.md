@@ -202,12 +202,15 @@ Electric motors in refrigerators, sump pumps, well pumps, and air conditioners r
 ## Generator Sizing Formulas
 
 ### 1. Total Running Wattage:
+
 $$W_{\text{running}} = \sum (\text{Appliance Continuous Running Watts})$$
 
 ### 2. Peak Starting Surge Wattage:
+
 $$W_{\text{surge}} = W_{\text{running}} + \max\left( W_{\text{start, i}} - W_{\text{run, i}} \right)$$
 
 ### 3. Recommended Generator Capacity (with Buffer):
+
 $$W_{\text{generator}} = W_{\text{surge}} \times \left(1 + \frac{\text{Safety Margin \%}}{100}\right)$$
 
 $$\text{Generator Capacity (kW)} = \frac{W_{\text{generator}}}{1,000}$$
@@ -245,21 +248,28 @@ Where:
 ---
 
 ## Generator Sizing Calculator Frequently Asked Questions
+
 ### What is the difference between running watts and starting surge watts?
+
 Running (continuous) watts is the electrical power required to keep an appliance operating. Starting (surge) watts is the brief 2 to 3 second power spike required by electric motor rotors to break static friction and get spinning.
 
 ### Why do electric motors require starting surge wattage?
+
 When an electric motor stops, its magnetic rotor field collapses. Upon starting, the stationary motor acts almost as a direct short circuit for a fraction of a second, drawing up to 300% to 500% of its normal operating current (inrush current).
 
 ### What size generator is needed to run a 3.5 ton central air conditioner?
+
 A 3.5 ton central AC requires approx 5,000 running watts and up to 13,500 starting surge watts. Combined with household refrigerators and lights, you need a minimum **14kW to 18kW standby generator** (or install a Soft Start kit on the compressor to reduce surge by 60–70%).
 
 ### Can a 7,500 watt portable generator power a whole house?
+
 A 7,500W running / 9,500W surge portable generator can easily run essential household circuits (refrigerator, sump pump, gas furnace, lights, TV, and microwave), but cannot run large electric water heaters or 4-ton central AC systems simultaneously.
 
 ### When should I choose a standby generator over a portable generator?
+
 Choose a standby generator (Generac, Kohler, Briggs & Stratton 14kW–26kW) if you want automatic hands-free startup within 10 seconds of a blackout, direct utility gas hookup (no gasoline refueling), and full whole-house AC cooling.
 
 ### What size transfer switch do I need for my generator?
+
 For portable generators (5kW–12kW), a 30A or 50A manual transfer switch with a 4-prong NEMA L14-30 or CS6365 inlet box is standard. Whole-house standby generators utilize a 100A or 200A automatic transfer switch (ATS).
 

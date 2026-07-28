@@ -228,21 +228,28 @@ $$\text{Slabs Needed} = \left\lceil \frac{\text{Total Order Area (sq ft)}}{\text
 ---
 
 ## Countertop Square Footage Calculator Frequently Asked Questions
+
 ### How do you calculate square footage for kitchen countertops?
+
 Multiply the countertop length in inches by the depth in inches, then divide by 144 to convert to square feet. Repeat for kitchen islands and backsplashes, then sum all areas together.
 
 ### How many square feet is a standard slab of granite or quartz?
+
 A standard jumbo slab of granite or quartz measures approximately 126 inches by 63 inches, which equals roughly 55 to 58 square feet of usable stone area.
 
 ### Do sink and cooktop cutouts reduce countertop costs?
+
 No. Fabricators purchase and cut full slabs, so cutout stone is wasted or used for small backsplashes. Fabricators often charge an additional cut and polish fee ($150–$300) for sink openings.
 
 ### What is a typical waste factor for countertop fabrication?
+
 Fabricators typically apply a 15% waste factor for straight-run counters. For complex kitchen layouts with L-shapes, directional veining, or seams, waste allowance can reach 20% to 25%.
 
 ### How many slabs of granite do I need for a 50 sq ft kitchen?
+
 For 50 net square feet, adding a 15% waste factor equals 57.5 sq ft. If each slab is 55 sq ft, you will need 2 full slabs to ensure seam matching and adequate coverage.
 
 ### How much does installed quartz or granite cost per square foot?
+
 Installed quartz ranges from $65 to $135 per square foot, while granite ranges from $50 to $100 per square foot. Prices include material, edge profiling, cutouts, and professional installation.
 

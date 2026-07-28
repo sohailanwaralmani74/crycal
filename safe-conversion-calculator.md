@@ -198,20 +198,27 @@ $$\text{Effective Discount (\%)} = \left( 1 - \frac{P_{eff}}{P_{\text{Series A}}
 ---
 
 ## SAFE Conversion Calculator Frequently Asked Questions
+
 ### What is a SAFE note in startup fundraising?
+
 A SAFE (Simple Agreement for Future Equity) is a financial contract created by Y Combinator that grants investors rights to future equity upon a qualifying priced financing round.
 
 ### How does a SAFE valuation cap work?
+
 A valuation cap sets a maximum effective valuation at which the SAFE converts into equity. If the priced round valuation exceeds the cap, SAFE holders convert at the lower cap price.
 
 ### How does a SAFE discount rate work?
+
 A discount rate allows SAFE holders to purchase shares at a percentage discount (e.g., 20%) off the priced round share price.
 
 ### Does the SAFE convert using the Valuation Cap or Discount Rate?
+
 SAFE holders always receive whichever mechanism produces the lowest share price (i.e. the maximum number of shares).
 
 ### What is the difference between Pre-Money SAFE and Post-Money SAFE?
+
 A Post-Money SAFE fixes the investor's ownership percentage regardless of other SAFEs issued, whereas a Pre-Money SAFE ownership dilutes alongside all pre-money instruments.
 
 ### Is my SAFE note data private?
+
 Yes. All computations execute locally in your web browser.

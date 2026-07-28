@@ -157,9 +157,11 @@ Plugging a 16-amp continuous load into a 15-amp or 20-amp circuit breaker withou
 Under **NEC Section 210.20(A)**, overcurrent protection devices (circuit breakers and fuses) must be sized according to the following formulas:
 
 ### Standard Breaker (80% Rated):
+
 $$\text{MCA (Amps)} = (1.25 \times I_{\text{continuous}}) + (1.00 \times I_{\text{non-continuous}})$$
 
 ### 100%-Rated Breaker Assembly:
+
 $$\text{MCA (Amps)} = I_{\text{continuous}} + I_{\text{non-continuous}}$$
 
 Where:
@@ -196,21 +198,28 @@ Where:
 ---
 
 ## Circuit Breaker Sizing Calculator Frequently Asked Questions
+
 ### What is the NEC 80% continuous load rule?
+
 The NEC requires standard thermal-magnetic breakers to carry no more than 80% of their amp rating when powering continuous loads (running 3 hours or longer). Conversely, continuous loads must be multiplied by 1.25 when sizing breakers.
 
 ### How do I calculate Minimum Circuit Ampacity (MCA)?
+
 Multiply continuous load amps by 1.25, then add non-continuous load amps: $\text{MCA} = (1.25 \times \text{Cont. Amps}) + \text{Non-Cont. Amps}$. Select the next standard breaker size equal to or higher than MCA.
 
 ### What size breaker do I need for a 12A continuous load?
+
 $12\text{A} \times 1.25 = 15\text{A}$. You need a minimum **15-amp circuit breaker** wired with 14 AWG copper conductor wire.
 
 ### What size breaker is needed for a Level 2 EV charger?
+
 A 32A Level 2 EV charger is a continuous load ($32\text{A} \times 1.25 = 40\text{A}$ breaker with 8 AWG wire). A 48A EV charger requires $48\text{A} \times 1.25 = 60\text{A}$ breaker wired with 6 AWG THHN copper wire.
 
 ### Can a circuit breaker be smaller than the wire gauge capacity?
+
 Yes. It is safe and legal under NEC codes to use larger wire (upsizing wire to limit voltage drop) on a smaller breaker (e.g., 10 AWG wire on a 20A breaker). However, wire gauge must **never** be smaller than the breaker rating.
 
 ### What is the difference between a standard breaker and a 100%-rated breaker?
+
 Standard breakers trip thermally under prolonged 100% rated current. Special 100%-rated breakers feature electronic trip units and special enclosures rated to carry 100% full nameplate load continuously without a 125% multiplier.
 

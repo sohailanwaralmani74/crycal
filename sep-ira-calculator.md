@@ -169,16 +169,21 @@ This **SEP IRA contribution calculator** is designed for:
 ---
 
 ## SEP IRA Calculator Frequently Asked Questions
+
 ### What is a SEP IRA?
+
 A SEP IRA (Simplified Employee Pension) is a retirement plan that allows self-employed individuals and small business owners to make tax-deductible contributions to their own and their employees' retirement accounts.
 
 ### How much can I contribute to a SEP IRA?
+
 SEP IRA contributions are generally limited to the lesser of 25% of compensation or the IRS annual dollar limit, which is adjusted periodically for inflation.
 
 ### Are SEP IRA contributions tax-deductible?
+
 Yes. SEP IRA contributions are generally tax-deductible as a business expense or above-the-line deduction, reducing your taxable income for the year.
 
 ### Can employees contribute to their own SEP IRA?
+
 No. Only the employer (including a self-employed individual for themselves) makes SEP IRA contributions; employees cannot make their own salary-deferral contributions to a SEP IRA.
 
 <p class="tool-disclaimer">IRS contribution limits are adjusted periodically for inflation. Please verify the current limit before relying on these results for tax filing purposes.</p>

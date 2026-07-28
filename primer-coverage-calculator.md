@@ -195,21 +195,28 @@ The table below shows primer requirements across standard project surface areas 
 ---
 
 ## Primer Coverage Calculator Frequently Asked Questions
+
 ### How many square feet does 1 gallon of primer cover?
+
 One gallon of primer covers 250 to 300 square feet on raw drywall or bare wood, 350 square feet on previously painted walls, and 200 square feet on rough masonry or stucco.
 
 ### How many gallons of primer do I need for 1,200 sq ft of new drywall?
+
 Raw drywall absorbs more paint primer than sealed walls (approx. 250 sq ft per gallon). For 1,200 sq ft, 1 coat requires 5 gallons of primer.
 
 ### Do I need 1 or 2 coats of primer on bare drywall?
+
 One coat of quality PVA (Polyvinyl Acetate) drywall primer sealer is sufficient for new drywall. Two coats are recommended when sealing smoke stains, water damage, or knots in raw wood.
 
 ### What is PVA drywall primer sealer?
+
 PVA primer is a formulated latex undercoat designed to seal raw drywall paper and mud joints, preventing uneven paint sheen absorption (flashing).
 
 ### Should I buy 5-gallon pails or 1-gallon cans of primer?
+
 Contractor 5-gallon pails are 20% to 30% cheaper per gallon than individual 1-gallon paint cans, making them ideal for projects over 1,000 square feet.
 
 ### Can primer be tinted to match the topcoat paint color?
+
 Yes. Tinting primer to a 50% gray or light shade matching your topcoat paint improves coverage, especially when painting deep reds, dark blues, or vibrant yellows.
 

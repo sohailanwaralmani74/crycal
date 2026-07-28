@@ -187,21 +187,28 @@ $$\text{Total Cost} = \text{Sheets Needed} \times \text{Price Per Sheet}$$
 ---
 
 ## Drywall Sheet Calculator Frequently Asked Questions
+
 ### How many 4x8 drywall sheets do I need for a 12x12 room?
+
 A standard 12x12 room with 8 ft ceilings has 384 sq ft of walls and 144 sq ft of ceiling (528 sq ft total). With a 10% waste factor (580.8 sq ft), you need 19 sheets of 4x8 drywall.
 
 ### Should I use 4x8 or 4x12 drywall sheets?
+
 Use 4x8 sheets if working solo or in confined stairwells. Use 4x12 sheets for large open walls and high ceilings to reduce joint seam taping by up to 25%.
 
 ### How much waste percentage should I add for drywall?
+
 Add 10% for standard rectangular rooms with minimal openings, 15% for rooms with many windows/doors/angles, and up to 20% for vaulted ceilings or curved walls.
 
 ### How much does a 4x8 sheet of drywall cost?
+
 Standard 1/2-inch 4x8 drywall sheets typically cost between $12.00 and $18.00 per sheet depending on region, brand, and moisture/fire resistance features.
 
 ### What thickness drywall should I use for walls and ceilings?
+
 Use 1/2-inch drywall for standard interior residential walls. Use 5/8-inch Type X fire-rated drywall for garage walls adjacent to living spaces and ceilings with 24-inch joist spacing to prevent sagging.
 
 ### How do I calculate total square feet of drywall for a room?
+
 Multiply total wall perimeter by wall height, add the ceiling area (length × width), then subtract major door/window openings larger than 20 sq ft.
 

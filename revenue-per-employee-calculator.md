@@ -137,6 +137,7 @@ Revenue Per Employee is the ultimate indicator of operational leverage, software
 ---
 
 ## Revenue per Employee Calculator Mathematical Formulas
+
 ### 1. Revenue Per Employee (RPE)
 
 $$ \text{Revenue Per Employee (RPE)} = \frac{\text{Annual Recurring Revenue (ARR)}}{\text{Total Full-Time Headcount (FTEs)}} $$
@@ -161,6 +162,7 @@ $$ \text{Variance vs Target} = \text{Actual RPE} - \text{Target Benchmark RPE} $
 ---
 
 ## Step-by-Step Revenue per Employee Calculator Guide
+
 1. **Pull Current ARR**: Input active Annual Recurring Revenue from your subscription engine.
 2. **Count Total FTEs**: Include all salaried full-time employees across engineering, sales, and support.
 3. **Compare Status to Benchmarks**: Evaluate whether your RPE indicates lean productivity or over-staffing.
@@ -169,20 +171,27 @@ $$ \text{Variance vs Target} = \text{Actual RPE} - \text{Target Benchmark RPE} $
 ---
 
 ## Revenue per Employee Calculator Frequently Asked Questions
+
 ### What is Revenue Per Employee (RPE)?
+
 Revenue Per Employee (RPE) is an operational efficiency ratio calculated by dividing a company's total annual revenue by its total full-time employee headcount.
 
 ### How is Revenue Per Employee calculated?
+
 Formula: Revenue Per Employee = Total Annual Revenue / Total Full-Time Employees.
 
 ### What is a good Revenue Per Employee for SaaS?
+
 For SaaS companies, $150,000 to $250,000 RPE is considered healthy. Top-tier public SaaS companies (Apple, Microsoft, Salesforce, Zoom) achieve $300,000 to $1,000,000+ RPE.
 
 ### Why is Revenue Per Employee an important metric for investors?
+
 Venture capital and private equity investors use RPE to gauge organizational leverage, automation efficiency, and over-hiring risks during scale.
 
 ### How does headcount growth affect RPE during early scaling?
+
 RPE often dips temporarily during aggressive hiring sprees before new hires reach full productivity ramps.
 
 ### How can a company increase Revenue Per Employee?
+
 Increase RPE by automating manual customer support workflows, expanding self-serve PLG tiers, optimizing pricing models, and upskilling existing team members.

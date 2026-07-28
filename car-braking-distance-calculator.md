@@ -192,17 +192,21 @@ Key stopping phases:
 ---
 
 ## Car Braking Distance Calculator Mathematical Formulas
+
 ### 1. Perception-Reaction Distance ($d_{\text{react}}$)
+
 \[
 d_{\text{react}} = v_{\text{mph}} \times 1.46667 \times t_{\text{react}}
 \]
 
 ### 2. Physical Braking Distance ($d_{\text{brake}}$)
+
 \[
 d_{\text{brake}} = \frac{v_{\text{mph}}^2}{2 \cdot g \cdot (\\mu + G) \cdot (0.3048 / 1.46667^2)} = \frac{v_{\text{mph}}^2}{30 \times (\\mu + G)}
 \]
 
 ### 3. Total Stopping Distance ($d_{\text{total}}$)
+
 \[
 d_{\text{total}} = d_{\text{react}} + d_{\text{brake}}
 \]
@@ -222,6 +226,7 @@ d_{\text{total}} = d_{\text{react}} + d_{\text{brake}}
 ---
 
 ## Step-by-Step Car Braking Distance Calculator Usage Guide
+
 1. **Enter Vehicle Speed**: Input initial travel speed in MPH (e.g. 60 mph).
 2. **Select Road Condition**: Choose dry, wet, snow, or ice surface friction.
 3. **Input Reaction Delay**: Set reaction time in seconds (e.g. 1.5 seconds).
@@ -231,23 +236,31 @@ d_{\text{total}} = d_{\text{react}} + d_{\text{brake}}
 ---
 
 ## Car Braking Distance Calculator Frequently Asked Questions
+
 ### What is the difference between braking distance and stopping distance?
+
 Braking distance is the physical distance the car travels from when brakes are applied until coming to a complete stop. Total stopping distance includes reaction distance (distance traveled during driver perception and leg movement time).
 
 ### What is the standard formula for vehicle braking distance?
+
 $\text{Braking Distance (ft)} = \frac{v^2}{30 \times (\\mu + G)}$, where $v$ is speed in MPH, $\\mu$ is tire friction coefficient, and $G$ is road slope grade.
 
 ### How does wet asphalt or ice increase stopping distance?
+
 Wet asphalt cuts friction ($\\mu$) from ~0.8 to ~0.5 (increasing braking distance by ~60%), while glare ice drops friction to ~0.1 (increasing braking distance by 800%).
 
 ### Why does doubling speed quadruple braking distance?
+
 Kinetic energy increases with the square of velocity ($E_k = \frac{1}{2} m v^2$). Therefore, doubling speed from 30 mph to 60 mph quadruples the required braking energy and physical braking distance.
 
 ### What is an average human driver reaction time?
+
 The average unalert driver reaction time is between 1.2 and 1.5 seconds. Alert drivers react in ~0.7 to 1.0 seconds, while distracted drivers can take 2.5+ seconds.
 
 ### Does Anti-lock Braking System (ABS) reduce braking distance?
+
 ABS prevents wheels from locking up, allowing drivers to steer while braking and maintaining maximum peak threshold friction ($\\mu$), but it does not bypass the laws of physics on ice or snow.
 
 ### Does the car braking distance calculator store my data?
+
 No. All calculations run strictly in your local browser.

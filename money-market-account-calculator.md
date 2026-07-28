@@ -224,18 +224,24 @@ This **money market interest calculator** is designed for:
 ---
 
 ## Money Market Account Calculator Frequently Asked Questions
+
 ### What is a money market account calculator?
+
 A money market account calculator helps you estimate the growth of your money market account by calculating interest earned with compounding and monthly contributions.
 
 ### How is money market interest calculated?
+
 Money market interest is calculated using compound interest with monthly contributions. The formula is: Ending Balance = (Initial Deposit + Monthly Contributions) × (1 + APY ÷ n)^(n × t).
 
 ### What is the difference between APY and interest rate?
+
 APY includes the effect of compounding, while the interest rate is the nominal rate without compounding. APY shows the actual annual return.
 
 ### How often does a money market account compound interest?
+
 Most money market accounts compound interest daily or monthly. Daily compounding yields slightly more than monthly compounding at the same APY.
 
 ### What is the effective annual yield?
+
 Effective annual yield is the actual annual return after accounting for compounding. It is higher than the nominal APY when compounding occurs more than once per year.
 

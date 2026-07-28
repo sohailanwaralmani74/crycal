@@ -255,21 +255,28 @@ $$\text{Seam Tape Rolls} = \left\lceil \frac{\text{Seam Tape Feet}}{180 \text{ f
 ---
 
 ## Vapor Barrier Calculator Frequently Asked Questions
+
 ### What thickness vapor barrier should I use in a crawlspace?
+
 Building code requires a minimum of 6 mil polyethylene sheeting for dirt crawlspace floors. However, 10 mil to 20 mil reinforced vapor retarders are strongly recommended for crawlspace encapsulation to withstand foot traffic and puncture from rocks.
 
 ### How much overlap is required for vapor barrier seams?
+
 Seams should overlap by at least 6 to 12 inches and be continuously sealed with waterproof crawlspace seam tape (vapor retarder tape). Overlapping without tape allows ground moisture vapor to escape into the crawlspace.
 
 ### How do I calculate poly rolls for crawlspace encapsulation?
+
 Add the floor square footage (length × width) to the perimeter wall square footage (perimeter feet × wall height). Multiply by 1.15 for seam overlap, then divide by the square footage of one plastic roll.
 
 ### What is the difference between 6 mil, 10 mil, and 20 mil plastic sheeting?
+
 6 mil (0.006 inches) is lightweight plastic standard for wall studs. 10 mil (0.010 inches) is heavy-duty puncture-resistant poly for crawlspaces. 20 mil (0.020 inches) is thick commercial-grade reinforced membrane designed for high-traffic storage crawlspaces.
 
 ### Do I put a vapor barrier on wall studs inside or outside?
+
 In cold climates (US Climate Zones 5-8), the vapor retarder is installed on the interior warm side of the wall framing (under drywall). In hot humid climates, vapor barriers belong on the exterior side of the wall assembly.
 
 ### How much does a roll of 10 mil vapor barrier cost?
+
 A 10 ft × 100 ft (1,000 sq ft) roll of 6 mil clear poly costs $60 to $90. A 10 mil virgin poly roll of the same size costs $150 to $220. Heavy 20 mil reinforced membrane costs $300 to $450 per roll.
 

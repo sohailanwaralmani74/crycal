@@ -221,28 +221,36 @@ The 50/30/20 rule is one of the simplest and most effective ways to budget. This
 
 
 ## Strategic Guidance for 50/30/20 Budget Calculator
+
 Using this interactive calculation engine provides a clear, quantitative roadmap for your decisions. By eliminating mathematical uncertainty, you can optimize financial allocations, compare scenarios side-by-side, and make data-driven choices.
 
 ### Key Tactical Benefits of 50/30/20 Budget Calculator
+
 - **Mathematical Certainty**: Eliminates guesswork by modeling multi-variable compounding and precise cost structures.
 - **Scenario Comparison**: Test multiple interest rates, payment timelines, and capital allocations in real-time.
 - **Privacy Assurance**: All data remains 100% confidential within your local browser memory, with zero remote server logging.
 - **Export & Audit Readiness**: Log calculations to local browser storage, export full histories to CSV/Excel, or share via link.
 
 ## 50/30/20 Budget Calculator Frequently Asked Questions
+
 ### What is the 50/30/20 rule?
+
 The 50/30/20 rule is a simple budgeting framework where you allocate 50% of your after-tax income to Needs, 30% to Wants, and 20% to Savings and Debt Repayment.
 
 ### What counts as Needs?
+
 Needs are essential expenses like rent/mortgage, utilities, groceries, transportation, insurance, and minimum debt payments.
 
 ### What counts as Wants?
+
 Wants are non-essential expenses like dining out, entertainment, travel, subscriptions, and luxury items.
 
 ### What counts as Savings / Debt?
+
 Savings includes emergency funds, retirement contributions, investments, and extra debt payments beyond the minimum.
 
 ### Can I customize the percentages?
+
 Yes — you can adjust the percentages to fit your personal financial goals and situation.
 
 ---

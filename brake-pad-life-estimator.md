@@ -166,9 +166,11 @@ Instead of waiting for unpleasant squealing noises, this estimator tracks your e
 ---
 
 ## Brake Pad Life Estimator Calculation Flow & Formulas
+
 The engine computes miles driven per millimeter of wear to project remaining pad life:
 
 ### Brake Pad Life Estimator Inputs & Parameters
+
 | Parameter | Unit | Description |
 | :--- | :--- | :--- |
 | **Current Thickness (\(T_{curr}\))** | mm | Measured pad friction material (e.g. 6.0 mm) |
@@ -180,7 +182,9 @@ The engine computes miles driven per millimeter of wear to project remaining pad
 ---
 
 ### Step-by-Step Brake Pad Life Estimator Formulas
+
 #### 1. Usable Thickness Amounts
+
 \[
 \text{Total Usable Material} = T_{new} - T_{limit}
 \]
@@ -192,16 +196,19 @@ The engine computes miles driven per millimeter of wear to project remaining pad
 \]
 
 #### 2. Wear Rate (Miles per 1 mm Material)
+
 \[
 R_{wear} = \frac{M_{curr}}{\text{Material Worn}}
 \]
 
 #### 3. Estimated Remaining Miles (\(M_{rem}\))
+
 \[
 M_{rem} = \text{Material Remaining} \times R_{wear} \times F_{habit}
 \]
 
 #### 4. Target Replacement Odometer (\(M_{replace}\))
+
 \[
 M_{replace} = M_{curr} + M_{rem}
 \]
@@ -221,6 +228,7 @@ M_{replace} = M_{curr} + M_{rem}
 ---
 
 ## How to Use the Brake Pad Life Estimator Step-by-Step
+
 1. **Inspect Pad Thickness**: Measure inner and outer pad friction lining thickness with a gauge during an oil change or tire rotation.
 2. **Input Current Mileage**: Enter total miles logged on the current brake set (e.g. `35,000 miles`).
 3. **Select Driving Habits**: Choose your typical braking environment (e.g. **Average Mixed**).
@@ -229,23 +237,31 @@ M_{replace} = M_{curr} + M_{rem}
 ---
 
 ## Brake Pad Life Estimator Frequently Asked Questions
+
 ### What is the minimum safe brake pad thickness?
+
 Automotive technicians recommend replacing brake pads when friction material reaches **3 mm (1/8 inch)**. Pads measuring 2 mm or lower are critically worn and pose extreme failure and rotor damage risks.
 
 ### How long do brand new brake pads typically last?
+
 Factory brake pads usually last between **30,000 and 70,000 miles** depending on driving habits, vehicle weight, friction compound material, and city versus highway travel.
 
 ### What are the warning signs of worn brake pads?
+
 Common warning signs include high-pitched metal squealing (caused by mechanical wear indicators), grinding noises, spongy brake pedal feel, vehicle pulling to one side, and brake warning light illumination.
 
 ### What is the difference between ceramic, semi-metallic, and organic brake pads?
+
 Ceramic pads offer quiet operation, low dust, and long lifespan; semi-metallic pads provide superior high-temperature stopping power for heavy towing; organic pads offer quiet, soft engagement but wear quickly.
 
 ### Why do front brake pads wear out faster than rear brake pads?
+
 During braking, vehicle weight shifts forward onto the front axle. Front brakes perform approximately **60% to 70%** of total stopping force, causing front pads to wear faster than rear pads.
 
 ### What happens if I drive on completely worn brake pads (0-1 mm)?
+
 Driving on fully depleted pads causes metal-on-metal contact between the steel backing plate and rotor discs, gouging rotors, generating intense heat, increasing stopping distances, and risking brake failure.
 
 ### Is my brake inspection data kept private?
+
 Yes. All calculations process strictly inside your web browser.

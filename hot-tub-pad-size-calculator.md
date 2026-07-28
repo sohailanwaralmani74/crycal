@@ -231,21 +231,28 @@ $$\text{Soil Bearing Load (PSF)} = \frac{\text{Total Operating Weight} + \text{C
 ---
 
 ## Hot Tub Pad Size Calculator Frequently Asked Questions
+
 ### How thick should a concrete pad be for a hot tub?
+
 A hot tub concrete pad should be at least 4 inches thick for small 2-person tubs (under 300 gallons), and 6 inches thick with #3 (3/8-inch) rebar mesh for medium and large 6-8 person spas (400+ gallons).
 
 ### How much does a filled hot tub weigh?
+
 A typical 7ft x 7ft hot tub weighs around 800 lbs dry. Filled with 400 gallons of water (3,336 lbs) and 6 adult bathers (1,050 lbs), the total operating weight exceeds 5,100 lbs (over 2.5 tons).
 
 ### What is the recommended concrete pad size for a 7x7 hot tub?
+
 For a 7ft x 7ft hot tub, a 9ft x 9ft concrete slab (adding 12 inches of overhang on all sides) is recommended. This provides space for entry steps, cover lifter clearance, and maintenance access.
 
 ### Can I put a hot tub on pavers instead of concrete?
+
 Installing a hot tub directly on pavers is not recommended unless built on a 6-inch compacted crushed gravel base with polymeric sand seams. Pavers without a solid base can settle unevenly under 5,000 lbs of weight, cracking the acrylic tub shell.
 
 ### How much does a concrete hot tub pad cost?
+
 Pouring a 9ft x 9ft x 6-inch concrete hot tub slab costs $150 to $250 in DIY concrete materials (or ready-mix delivery), and $800 to $1,500 for professional contractor pouring.
 
 ### How long should concrete cure before placing a hot tub on it?
+
 Allow the concrete pad to cure for at least 7 days before placing an empty hot tub on it, and 14 to 28 days before filling it with water to reach full 4,000 PSI compressive strength.
 

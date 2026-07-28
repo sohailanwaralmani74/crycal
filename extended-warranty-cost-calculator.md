@@ -227,6 +227,7 @@ Our **extended warranty cost calculator** helps you:
 ---
 
 ## Extended Warranty Cost Calculator Formulas & Principles
+
 Given warranty price \(W_{\text{price}}\), duration in years \(Y\), deductible per visit \(D_{\text{visit}}\), estimated annual repairs \(R_{\text{annual}}\), and reliability factor \(F_{\text{rel}}\) (High = 0.70, Medium = 1.00, Low = 1.40):
 
 ### Estimated Annual Repair Visit Frequency
@@ -259,6 +260,7 @@ V_{\text{net}} = C_{\text{repairs}} - C_{\text{warranty}}
 ---
 
 ## Extended Warranty Cost Calculator Real-World Case Study
+
 Evaluating a **$2,800 extended warranty** with a **$100 deductible** over **4 years** ($800 base annual repair estimate):
 
 | Vehicle Reliability Rating | Reliability Multiplier | Total Warranty Cost (Price + Deductible) | Estimated Repair Expense (Without Warranty) | Net Financial Value | Financial Recommendation |
@@ -272,6 +274,7 @@ Evaluating a **$2,800 extended warranty** with a **$100 deductible** over **4 ye
 ---
 
 ## Step-by-Step Guide for Using the Extended Warranty Cost Calculator
+
 1. **Enter Quoted Warranty Price**: Input the dealer's upfront warranty quote.
 2. **Select Coverage Length & Deductible**: Choose warranty duration (2 to 6 years) and deductible per visit.
 3. **Input Annual Repair Estimate**: Enter estimated annual out-of-pocket mechanical repair costs.
@@ -281,23 +284,31 @@ Evaluating a **$2,800 extended warranty** with a **$100 deductible** over **4 ye
 ---
 
 ## Extended Warranty Cost Calculator Frequently Asked Questions
+
 ### Are extended car warranties worth the cost?
+
 Consumer Reports and financial studies indicate that most drivers pay significantly more for an extended warranty than they receive in covered repairs. For reliable brands (Toyota, Honda), self-insuring is almost always cheaper. For complex luxury or low-reliability vehicles, a warranty may offer peace of mind.
 
 ### What is the difference between a warranty and a vehicle service contract?
+
 A manufacturer warranty is included free with a new vehicle purchase. An extended warranty sold by dealerships or third parties is legally a 'Vehicle Service Contract' (VSC) that you pay extra for.
 
 ### What does an extended auto warranty typically cover?
+
 Bumper-to-bumper warranties cover electrical components, air conditioning, and tech systems. Powertrain warranties cover only engine, transmission, and drivetrain components. Wear-and-tear items (tires, brake pads, wiper blades, oil changes) are never covered.
 
 ### Should I roll an extended warranty into my car loan?
+
 No. Financing a $2,800 extended warranty inside a 60-month auto loan at 7% APR adds an extra $540+ in interest charges, making the warranty significantly more expensive.
 
 ### Can I cancel an extended car warranty for a refund?
+
 Yes, in most states you can cancel a service contract at any time. If cancelled within 30 to 60 days, you receive a 100% full refund. Afterwards, you receive a pro-rated refund minus a small administrative cancellation fee.
 
 ### What is a repair deductible?
+
 A deductible is the fee you pay out-of-pocket each time you bring your car to the repair shop under warranty (typically $0, $50, or $100 per visit).
 
 ### Is my personal financial data kept safe?
+
 Yes. All calculations process locally inside your web browser. No data is shared with warranty telemarketers or third-party servers.

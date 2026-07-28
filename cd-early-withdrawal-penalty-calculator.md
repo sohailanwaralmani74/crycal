@@ -223,15 +223,20 @@ If the penalty is small and you have a better use for the money, early withdrawa
 ---
 
 ## CD Early Withdrawal Penalty Calculator Frequently Asked Questions
+
 ### What is a CD early withdrawal penalty?
+
 A fee charged by the bank when you withdraw money from a CD before its maturity date, typically 3-6 months of interest.
 
 ### How is the penalty calculated?
+
 It is calculated as: (Deposit Amount × Interest Rate) ÷ 12 × Penalty Months.
 
 ### When does a CD early withdrawal penalty apply?
+
 When you withdraw funds before the CD's maturity date. Most banks allow a grace period of 7-10 days after maturity without penalty.
 
 ### What is the penalty period on a CD?
+
 The number of months of interest you forfeit. For CDs under 12 months, it's often 3 months. For longer-term CDs, it can be 6 months or more.
 

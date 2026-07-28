@@ -139,6 +139,7 @@ The long-term impact of discounting extends far beyond initial contract values. 
 ---
 
 ## Discount Approval Impact Calculator Mathematical Formulas & Mechanics
+
 The discount amount per individual deal contract ($D_{\text{deal}}$) is calculated as:
 
 $$D_{\text{deal}} = \text{Base Price} \times \left( \frac{\text{Discount Percentage}}{100} \right)$$
@@ -158,6 +159,7 @@ $$\text{ARR}_{\text{realized}} = P_{\text{net}} \times V = (\text{Base Price} \t
 ---
 
 ## Discount Approval Impact Calculator Benchmarks & Comparison Table
+
 The benchmark table below details the cumulative ARR loss across various discount percentages for a baseline annual contract value of **$10,000 across 50 annual deals** ($500,000 potential ARR):
 
 | Approved Discount (%) | Single Deal Discount | Net Realized Price | Total Revenue Lost (50 Deals) | Realized ARR Captured | ARR Leakage % | Approval Tier Required |
@@ -173,6 +175,7 @@ The benchmark table below details the cumulative ARR loss across various discoun
 ---
 
 ## How to Use the Discount Approval Impact Calculator Step-by-Step
+
 1. **Select Currency**: Choose your preferred currency ($ USD, € EUR, £ GBP) from the site header.
 2. **Enter Base List Price**: Input the standard non-discounted annual price for your product or service tier.
 3. **Specify Discount Percentage**: Input the average percentage discount being requested or historically granted.
@@ -183,21 +186,28 @@ The benchmark table below details the cumulative ARR loss across various discoun
 ---
 
 ## Discount Approval Impact Calculator Frequently Asked Questions
+
 ### Why is tracking sales discount approval impact essential in SaaS?
+
 Unmonitored sales discounts compound across hundreds of contracts, permanently depressing ARR, lowering gross margins, and reducing SaaS enterprise valuation multiples.
 
 ### What is a standard sales discount rate in B2B software?
+
 Standard SaaS discounts range between 5% and 15%. Discounts above 20% typically require formal approval from a VP of Sales, CRO, or CFO.
 
 ### How does discounting impact SaaS gross margins?
+
 Because cost of goods sold (COGS) and hosting infrastructure remain fixed, every dollar discounted directly reduces 100% pure gross profit.
 
 ### Should discounts be traded for multi-year contract commitments?
+
 Yes. Offering a 10% to 15% discount in exchange for a binding 3-year prepay contract secures long-term customer LTV and reduces churn risk.
 
 ### How do sales discounts impact Account Executive commissions?
+
 Most modern commission plans adjust rep payouts based on net ARR generated, penalizing reps who rely on heavy discounting rather than value selling.
 
 ### How can RevOps enforce discount governance?
+
 RevOps can enforce discount tiers using automated CPQ (Configure, Price, Quote) workflows that mandate executive sign-offs for non-standard pricing.
 

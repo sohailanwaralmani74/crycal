@@ -146,6 +146,7 @@ Cohort gross margin analysis tracks whether mature customer cohorts become progr
 Having accurate, real-time insights into this metric helps SaaS founders, CFOs, and growth teams optimize capital allocation, protect operating runway, and achieve top-tier venture scalability.
 
 ## Gross Margin by Cohort Calculator Formula & Derivation
+
 The mathematical derivation for this financial metric is expressed as:
 
 $$\text{Cohort Gross Margin \%} = \frac{\text{Cohort Revenue} - \text{Cohort COGS}}{\text{Cohort Revenue}} \times 100\%$$ \n$$\text{Blended Gross Margin \%} = \frac{\sum \text{Revenue} - \sum \text{COGS}}{\sum \text{Revenue}} \times 100\%$$
@@ -153,6 +154,7 @@ $$\text{Cohort Gross Margin \%} = \frac{\text{Cohort Revenue} - \text{Cohort COG
 Where all input values are evaluated over a standardized monthly or annual accounting period.
 
 ## Gross Margin by Cohort Calculator SaaS Benchmarks
+
 | Cohort Year | Revenue Trajectory | COGS % Trend | Margin Profile |
 | --- | --- | --- | --- |
 | 2022 Cohort (Mature) | Stable / Expanding | Low Support Overhead | High Margin (80%+) |
@@ -160,6 +162,7 @@ Where all input values are evaluated over a standardized monthly or annual accou
 | 2024 Cohort (New) | High Growth | Initial Onboarding Overhead | Ramping Margin (70%-75%) |
 
 ## Step-by-Step Gross Margin by Cohort Calculator Calculation Guide
+
 1. **Enter Core Financial Inputs:** Supply your monthly sales spend, user counts, ARPU, or recurring revenue figures.
 2. **Review Intermediate Outputs:** Examine calculated gross profit, churn, payback, or unit contribution scores.
 3. **Assess Benchmark Ratings:** Compare your results against SaaS industry standards to identify growth bottlenecks.
@@ -168,12 +171,16 @@ Where all input values are evaluated over a standardized monthly or annual accou
 ---
 
 ## Gross Margin by Cohort Calculator Frequently Asked Questions
+
 ### What is Cohort Gross Margin Analysis?
+
 It evaluates gross profit margins across customer signup years to verify if older customer cohorts expand in profitability as account maintenance automates.
 
 ### Why do newer cohorts sometimes have lower initial gross margins?
+
 New customer cohorts incur initial implementation engineering, setup support, and trial database provisioning COGS.
 
 ### What is a healthy YoY margin expansion rate?
+
 Healthy SaaS platforms expand gross margin by 2 to 5 percentage points per year until stabilizing around 80%-85%.
 

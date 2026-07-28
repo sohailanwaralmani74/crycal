@@ -194,21 +194,28 @@ The table below outlines texture compound requirements across standard ceiling s
 ---
 
 ## Ceiling Texture Calculator Frequently Asked Questions
+
 ### How many bags of knockdown ceiling texture do I need for 1,000 sq ft?
+
 A standard 50 lb bag of un-mixed dry knockdown texture mix covers 400 square feet. For 1,000 sq ft, you will need 3 bags (150 lbs total).
 
 ### How many square feet does a 40 lb bag of popcorn texture cover?
+
 A 40 lb bag of popcorn acoustic ceiling texture mix covers approximately 300 to 350 square feet depending on spray nozzle setting and thickness.
 
 ### What is the difference between popcorn, knockdown, and orange peel texture?
+
 Popcorn uses polystyrene aggregate to absorb sound. Orange peel is a light fine stipple sprayed with an air compressor. Knockdown is sprayed as droplets then flattened with a wide drywall knife.
 
 ### How much water is added to dry ceiling texture mix?
+
 A standard 50 lb bag of un-thinned texture compound typically requires 4 to 5 gallons of clean water, mixed to a thick pancake batter consistency.
 
 ### Should ceilings be primed before spraying texture?
+
 Yes. Raw drywall ceilings must be sealed with a quality drywall primer sealer before spraying texture to ensure uniform adhesion and prevent compound flaking.
 
 ### How much does ceiling texture compound cost per square foot?
+
 Dry texture compound materials cost $0.03 to $0.08 per square foot. Total contractor-installed ceiling texturing ranges from $1.25 to $2.50 per square foot.
 

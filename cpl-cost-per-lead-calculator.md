@@ -147,6 +147,7 @@ Understanding your **Cost Per Lead** is critical for maintaining profitable mark
 ---
 
 ## CPL Calculator Mathematical Formulas
+
 ### 1. Cost Per Lead (CPL)
 
 $$ \text{CPL} = \frac{\text{Total Marketing Spend}}{\text{Total Leads Generated}} $$
@@ -182,20 +183,27 @@ $$ \text{Cost Per MQL} = \frac{\text{Total Marketing Spend}}{\text{MQL Count}} =
 ---
 
 ## CPL Calculator Frequently Asked Questions
+
 ### What is Cost Per Lead (CPL)?
+
 Cost Per Lead (CPL) is an acquisition metric measuring the average financial cost required to generate a single new marketing lead.
 
 ### How is CPL calculated?
+
 CPL is calculated by dividing total advertising spend by total leads generated: CPL = Total Campaign Spend / Total Leads.
 
 ### What is a good CPL for B2B SaaS?
+
 Average B2B SaaS CPL ranges from $40 to $150 for top-of-funnel content leads, and $150 to $400+ for high-intent demo requests on Google or LinkedIn Ads.
 
 ### What is the difference between CPL and CPA?
+
 CPL measures the cost to acquire a raw contact/lead, whereas CPA (Cost Per Acquisition) measures the cost to acquire a paying customer.
 
 ### What is Cost Per MQL?
+
 Cost Per MQL (CPMQL) is the cost to acquire a Marketing Qualified Lead. It is calculated by dividing total spend by the number of qualified leads (or CPL / MQL Conversion Rate).
 
 ### How can I lower my CPL?
+
 Lower CPL by refining ad targeting, improving lead form conversion rates, running lead magnet campaigns, or reallocating budget to lower-cost channels.

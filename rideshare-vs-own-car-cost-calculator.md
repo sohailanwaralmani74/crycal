@@ -166,9 +166,11 @@ For urban residents who work from home or rely on public transit for daily commu
 ---
 
 ## Rideshare vs Own Car Cost Calculator Calculation Flow & Formulas
+
 The engine converts weekly rideshare fares to monthly averages (4.33 weeks/month) and compares them directly against fixed and variable vehicle ownership expenses:
 
 ### Rideshare vs Own Car Cost Calculator Inputs & Parameters
+
 | Parameter | Unit | Description |
 | :--- | :--- | :--- |
 | **Weekly Rideshare Trips (\(N_{trips}\))** | trips/week | Total Uber/Lyft rides per week |
@@ -181,22 +183,27 @@ The engine converts weekly rideshare fares to monthly averages (4.33 weeks/month
 ---
 
 ### Step-by-Step Rideshare vs Own Car Cost Calculator Formulas
+
 #### 1. Total Monthly Rideshare Expense (\(C_{rideshare}\))
+
 \[
 C_{rideshare} = \left(N_{trips} \times 4.33\right) \times F_{avg} \times \left(1 + \frac{T_{pct}}{100}\right)
 \]
 
 #### 2. Total Monthly Car Ownership Expense (\(C_{ownership}\))
+
 \[
 C_{ownership} = C_{loan} + C_{ins} + C_{ops}
 \]
 
 #### 3. Net Monthly Difference (\(\Delta C_{monthly}\))
+
 \[
 \Delta C_{monthly} = C_{ownership} - C_{rideshare}
 \]
 
 #### 4. Annual Financial Savings (\(S_{annual}\))
+
 \[
 S_{annual} = |\Delta C_{monthly}| \times 12
 \]
@@ -214,6 +221,7 @@ S_{annual} = |\Delta C_{monthly}| \times 12
 ---
 
 ## How to Use the Rideshare vs Own Car Cost Calculator Step-by-Step
+
 1. **Enter Rideshare Frequency**: Input your average number of weekly Uber/Lyft trips (e.g. `10 trips`).
 2. **Input Average Fare & Tip**: Enter average single trip fare and tip percentage (e.g. `$22` + `15%`).
 3. **Input Ownership Expenses**: Enter car loan payment, insurance premium, and fuel/parking expenses.
@@ -222,23 +230,31 @@ S_{annual} = |\Delta C_{monthly}| \times 12
 ---
 
 ## Rideshare vs Own Car Cost Calculator Frequently Asked Questions
+
 ### Is it cheaper to rely on Uber/Lyft or own a personal car?
+
 Relying on Uber/Lyft is generally cheaper if you travel fewer than **10 to 12 trips per week** in urban areas with high parking costs. For suburban or daily highway commuters (15+ trips/week), owning a car is typically more cost-effective.
 
 ### What hidden costs are involved in owning a personal car?
+
 Beyond car payments and fuel, car ownership includes auto insurance premiums, registration tag fees, routine maintenance (oil, tires, brakes), unexpected repairs, parking permits, and vehicle depreciation.
 
 ### How does surge pricing affect rideshare costs?
+
 Prime time or surge pricing during bad weather, rush hour, or concert events can double or triple standard Uber/Lyft fares, increasing monthly rideshare budgets unpredictably.
 
 ### What is the average monthly cost of owning a new car in the US?
+
 According to AAA, the average total cost to own and operate a new vehicle is approximately **$800 to $1,000 per month** (including loan payments, insurance, fuel, and depreciation).
 
 ### Does owning a car outright (paid off) beat rideshare services?
+
 Yes. Once a personal car is paid off (eliminating the monthly car payment), monthly ownership expenses drop significantly to just insurance, fuel, and maintenance, easily beating high rideshare usage.
 
 ### What lifestyle factors favor owning a car over rideshare?
+
 Car ownership offers immediate availability, road trip capability, child safety seat convenience, personal storage space, and zero waiting time during peak demand periods.
 
 ### Is my personal budget data private?
+
 Yes. All computations execute locally inside your web browser without logging.

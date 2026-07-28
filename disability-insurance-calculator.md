@@ -244,19 +244,25 @@ Disability insurance is about protecting your most valuable asset — your abili
 ---
 
 ## Disability Insurance Calculator Frequently Asked Questions
+
 ### What is disability insurance?
+
 Disability insurance replaces a portion of your income if you become unable to work due to illness or injury. It helps you cover essential expenses like rent, mortgage, and food.
 
 ### How much disability insurance do I need?
+
 A common rule of thumb is to replace 60-80% of your after-tax income. This calculator helps you find a more precise number based on your expenses and existing benefits.
 
 ### What is an elimination period?
+
 An elimination period (or waiting period) is the time between becoming disabled and when your benefits start. Common periods are 30, 60, 90, or 180 days. Longer waiting periods lower your premium.
 
 ### What is a benefit period?
+
 The benefit period is how long you receive disability payments. Common options are 2 years, 5 years, or until age 65.
 
 ### Should I count my employer's disability benefit?
+
 Yes — most employers offer short-term and long-term disability coverage. Factor this into your calculation to avoid over-insuring.
 
 ---

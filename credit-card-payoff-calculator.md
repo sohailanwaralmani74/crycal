@@ -200,16 +200,21 @@ The simulation runs month by month for both scenarios:
 ---
 
 ## Credit Card Payoff Calculator Frequently Asked Questions
+
 ### How long will it take to pay off my credit card?
+
 This credit card payoff calculator shows you exactly how many months it will take based on your current balance, interest rate, and payment. Add an extra payment to see the new payoff date.
 
 ### Is paying extra on my credit card worth it?
+
 Yes — credit card interest is typically high (18-25% APR). Even a small extra payment can save hundreds in interest and shorten your payoff time by months or years.
 
 ### How is credit card interest calculated?
+
 Most credit cards compound interest daily using the daily periodic rate (APR ÷ 365). This calculator simulates that, but you can also choose monthly compounding.
 
 ### What is the best way to pay off credit card debt?
+
 The debt snowball (pay smallest balance first) and debt avalanche (pay highest interest first) are common strategies. This calculator helps you see the impact of extra payments on a single card.
 
 ---

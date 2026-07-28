@@ -218,21 +218,28 @@ Benchmark cost matrix for different bathroom sizes and finish levels:
 ---
 
 ## Bathroom Remodel Cost Calculator Frequently Asked Questions
+
 ### How much does it cost to remodel a 50 sq ft full bathroom?
+
 A standard 50 sq ft full hallway bathroom remodel costs between $12,000 and $20,000 ($240 to $400 per sq ft), including new tile, tub/shower surround, vanity, toilet, and labor.
 
 ### What is the average cost to renovate a half bath powder room?
+
 A half bath powder room (20 to 30 sq ft) generally costs $3,500 to $7,500 since it does not require a bathtub, shower tile surround, or complex shower waterproofing.
 
 ### How much does a primary master bathroom remodel cost?
+
 A luxury master bathroom (80 to 150+ sq ft) featuring double vanities, walk-in tile steam shower, and freestanding soaking tub ranges from $22,000 to $50,000+.
 
 ### Why is waterproofing so important in bathroom tiling?
+
 Tile and grout lines are not naturally waterproof. Water passes through grout over time. Installing a bonded membrane (like Schluter-KERDI or RedGard) prevents hidden wall rot, subfloor damage, and toxic mold.
 
 ### How much extra does moving plumbing lines cost in a bathroom?
+
 Relocating a toilet drain stack, shower valve, or vanity sink drain adds $1,500 to $3,500 in plumbing labor because subfloor joists and wall framing must be cut and re-routed.
 
 ### How long does a bathroom renovation typically take?
+
 A full bathroom gut overhaul typically takes 2 to 3 weeks of active trade work (demolition, plumbing rough-in, electrical, tile setting, glass installation, and final fixture trim out).
 

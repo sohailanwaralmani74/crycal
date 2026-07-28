@@ -182,23 +182,31 @@ $$\text{Net MRR Addition} = (\text{New MRR} + \text{Expansion MRR}) - (\text{Con
 ---
 
 ## Saas Quick Ratio Calculator Frequently Asked Questions
+
 ### What is the SaaS Quick Ratio?
+
 The SaaS Quick Ratio measures a subscription business's growth efficiency by dividing gross MRR gains (New MRR + Expansion MRR) by gross MRR losses (Contraction MRR + Churned MRR).
 
 ### What is the formula for the SaaS Quick Ratio?
+
 SaaS Quick Ratio = (New MRR + Expansion MRR) / (Contraction MRR + Churned MRR).
 
 ### What is a good SaaS Quick Ratio benchmark?
+
 A Quick Ratio of 4.0 or higher is considered excellent (venture-scale growth). A ratio between 2.0 and 4.0 is healthy, while a ratio below 1.0 means your business is shrinking.
 
 ### Why is the SaaS Quick Ratio named after the accounting quick ratio?
+
 Both metrics assess liquidity and health under pressure. In SaaS, it evaluates whether new growth outpaces churn fast enough to support compounding momentum.
 
 ### How does high expansion MRR improve the Quick Ratio?
+
 Expansion MRR increases the numerator without requiring new marketing acquisition spend, rapidly boosting your Quick Ratio efficiency.
 
 ### Can a company grow overall revenue with a Quick Ratio below 4.0?
+
 Yes, any Quick Ratio above 1.0 means net MRR is positive, but companies with ratios between 1.0 and 2.0 burn significant capital replacing churned revenue.
 
 ### How often should founders check their SaaS Quick Ratio?
+
 Founders and CFOs typically track the SaaS Quick Ratio monthly alongside CAC payback period and Net Revenue Retention (NRR).

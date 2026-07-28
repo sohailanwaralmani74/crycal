@@ -209,10 +209,12 @@ Using this **Car Depreciation Calculator**, you can accurately project your vehi
 ## Depreciation Formulas
 
 ### 1. Residual Value Model
+
 $$V_t = V_0 \times \prod_{i=1}^{t} (1 - d_i)$$
 Where $V_0$ is purchase price and $d_i$ is year $i$'s depreciation factor.
 
 ### 2. Percentage Loss Formula
+
 $$\text{Depreciation \%} = \left( \frac{V_0 - V_t}{V_0} \right) \times 100\%$$
 
 ---
@@ -230,38 +232,51 @@ $$\text{Depreciation \%} = \left( \frac{V_0 - V_t}{V_0} \right) \times 100\%$$
 ---
 
 ## Step-by-Step Car Depreciation Calculator Guide
+
 ### Step 1: Input Initial Purchase Price
+
 Enter the negotiated price or MSRP of the car.
 
 ### Step 2: Select Vehicle Segment
+
 Choose Sedan, SUV, Truck, Luxury, or Electric. Each class applies tailored market retention algorithms.
 
 ### Step 3: Set Mileage Expectations
+
 Input expected annual miles driven. High mileage (e.g., >15,000 miles/yr) increases annual depreciation rates.
 
 ### Step 4: Examine Residual Trajectory
+
 Review residual values for Years 1 through 5 in dollar amounts and percentage charts.
 
 ---
 
 ## Car Depreciation Calculator Frequently Asked Questions
+
 ### How fast do new cars lose value?
+
 A new car typically loses 15% to 20% of its value during the first year, and roughly 15% each year after, retaining about 40% of its original purchase price after 5 years.
 
 ### Which vehicle types hold their value best?
+
 Trucks and popular crossovers/SUVs typically retain higher resale values, whereas luxury sedans and EVs experience faster early-stage depreciation.
 
 ### How does mileage affect depreciation?
+
 Driving significantly above the average 12,000 miles per year accelerates component wear and lowers market value by 1% to 3% for every extra 5,000 miles.
 
 ### Can I reduce my car's depreciation rate?
+
 Yes. Keeping strict maintenance records, keeping mileage moderate, parking in a garage, and buying slightly used (2–3 years old) helps avoid steep early depreciation.
 
 ### Why do electric vehicles (EVs) depreciate differently?
+
 Rapid advancements in battery technology, range improvements, and tax credit dynamics often lead to steeper initial depreciation rates for older EV models.
 
 ### Is car depreciation tax deductible?
+
 If you use your vehicle for business purposes, business-related depreciation can be deducted under standard IRS guidelines or standard mileage rates.
 
 ### Is Car Depreciation Calculator calculation private?
+
 Yes. All computations are executed client-side in your browser.

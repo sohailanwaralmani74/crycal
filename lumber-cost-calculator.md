@@ -172,21 +172,28 @@ $$\text{Total Order Cost with Waste (\$)} = \text{Subtotal Material Cost} \times
 ---
 
 ## Lumber Cost Calculator Frequently Asked Questions
+
 ### What is linear feet in lumber?
+
 Linear feet (or lineal feet) measures the straight-line length of a piece of lumber in feet, regardless of its width or thickness. A 12-foot 2x4 and a 12-foot 2x10 are both 12 linear feet long.
 
 ### How do you convert linear feet to total lumber cost?
+
 Multiply total linear feet by the price per linear foot ($/LF). For example, 100 linear feet at $1.50 per LF equals $150.00 subtotal.
 
 ### How much waste should I add for dimensional lumber?
+
 Standard framing projects recommend adding 10% waste for straight runs and 15% for complex roofs or angled cuts to handle warped, split, or defective lumber.
 
 ### Why do longer boards cost more per linear foot?
+
 Lumber mills charge a premium for longer timber (e.g., 16' and 20' lengths) because clear, straight logs of that length are rarer and more expensive to harvest.
 
 ### What is the difference between nominal and actual lumber dimensions?
+
 Nominal size is the size before drying and surfacing (e.g., 2x4). Actual size is the dressed dimension after surfacing (e.g., 1.5" × 3.5"). Pricing is based on nominal designations.
 
 ### How do I calculate per-board price from linear foot price?
+
 Multiply the board's length in feet by the price per linear foot. For an 8-foot board priced at $1.20/LF, the price per board is 8 × $1.20 = $9.60.
 

@@ -247,19 +247,25 @@ Where:
 ---
 
 ## Roth Ira Calculator Frequently Asked Questions
+
 ### What is a Roth IRA?
+
 A Roth IRA is an individual retirement account where contributions are made with after‑tax dollars. The key benefit is that qualified withdrawals in retirement are completely tax‑free, including all investment returns.
 
 ### How does the Roth IRA calculator work?
+
 It projects the growth of your Roth IRA based on your current balance, annual contributions, expected return, fees, and time until retirement. It shows the power of tax‑free compounding.
 
 ### What is the Roth IRA contribution limit?
+
 For 2024, the annual contribution limit is $6,500 for individuals under 50 and $7,500 for those 50 and older. However, contributions may be limited by your income level (phase‑out ranges apply).
 
 ### Are Roth IRA withdrawals really tax‑free?
+
 Yes — as long as you meet the five‑year holding requirement and are age 59½ or older, or meet certain other exceptions, all withdrawals are federal income‑tax‑free. Rule might be differ country wise.
 
 ### How is a Roth IRA different from a Traditional IRA?
+
 Traditional IRA contributions are often tax‑deductible but withdrawals are taxed. Roth IRA contributions are not tax‑deductible but withdrawals are tax‑free. Roth IRAs also have no Required Minimum Distributions (RMDs) during your lifetime.
 
 ---

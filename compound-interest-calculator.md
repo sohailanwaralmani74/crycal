@@ -123,6 +123,7 @@ structured_data:
     - "Calculation History — save, review, and export past results to CSV or Excel"
 
 # Compound Interest Calculator - Project Compounding Returns Over Time
+
 breadcrumb:
   - name: Home
     url: /
@@ -131,6 +132,7 @@ breadcrumb:
   - name: Compound Interest Calculator
 
 # HowTo Schema — injected as separate JSON‑LD in tool.html
+
 howto:
   name: "How to Use the Compound Interest Calculator"
   description: "Follow these steps to calculate your future savings with compound interest."
@@ -199,6 +201,7 @@ This exact formula powers our calculator, ensuring your results match industry-s
 ---
 
 ## How to Use the Compound Interest Calculator
+
 1.  Select your **account currency** from the picker in the site header.
 2.  Enter your **initial principal** (the amount you start with).
 3.  Set your **monthly contribution** (optional—leave at 0 if none).
@@ -212,22 +215,29 @@ The tool updates instantly as you adjust any input—no "Calculate" button requi
 ---
 
 ## Compound Interest Calculator Frequently Asked Questions
+
 ### What is compound interest?
+
 Compound interest is the interest earned on both your initial principal and the accumulated interest from previous periods. It's often called "interest on interest" and is the single most powerful force in long-term wealth building.
 
 ### How does compounding frequency affect my returns?
+
 More frequent compounding (daily vs monthly vs annually) results in higher returns because interest is calculated and added more often. The difference becomes more significant over longer periods—daily compounding typically yields the highest return for a given rate.
 
 ### What is a realistic annual return rate to use?
+
 Use 7-10% for long-term stock market averages (historically accurate), 3-5% for conservative bonds or high-yield savings, and adjust based on your risk tolerance. Always use realistic, conservative estimates for planning.
 
 ### Does this calculator adjust for inflation?
+
 Yes. Enter your expected inflation rate, and the "Inflation-Adjusted Value" output shows your future balance in today's dollars, giving you a clearer picture of real purchasing power.
 
 ### Is my financial data safe?
+
 Yes. Absolutely. All calculations run locally in your browser. We do not collect, store, or transmit any of your data. Your privacy is built into the tool's design.
 
 ### Can I save or share my calculation?
+
 Yes. Use the **Share** button to generate a unique URL containing your exact inputs. Bookmark it, share it, or revisit it later—no account needed.
 
 ---

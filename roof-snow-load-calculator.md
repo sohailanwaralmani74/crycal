@@ -222,21 +222,28 @@ $$\text{Total Weight (US Tons)} = \frac{\text{Total Snow Weight (lbs)}}{2000}$$
 ---
 
 ## Roof Snow Load Calculator Frequently Asked Questions
+
 ### What is roof snow load?
+
 Roof snow load is the downward structural force imposed on a roof structure by accumulated snow and ice, measured in pounds per square foot (PSF) or total weight in pounds.
 
 ### What is the ASCE 7 formula for flat roof snow load?
+
 Flat roof snow load is calculated as p_f = 0.7 × C_e × C_t × I_s × p_g, where C_e is exposure, C_t is thermal factor, I_s is importance factor, and p_g is ground snow load.
 
 ### How does roof pitch reduce snow load?
+
 Steeper roofs shed snow naturally. Under ASCE 7 rules, roofs with slope angles above 30 degrees receive a slope factor reduction (C_s). At slopes above 70 degrees, design snow load drops to zero for unobstructed warm roofs.
 
 ### How much does accumulated snow weigh?
+
 Fresh dry snow weighs 3 to 5 lbs per cubic foot. Settled or wet packed snow weighs 12 to 20 lbs/ft³, while ice weighs approximately 57 lbs per cubic foot.
 
 ### When is roof snow load dangerous for home structures?
+
 Most residential roofs built to code can support 20 to 40 PSF. If accumulated snow and ice exceeds 20 to 25 PSF (or approximately 2 feet of packed snow), structural evaluation or safe snow removal is recommended.
 
 ### What is the difference between ground snow load and roof snow load?
+
 Ground snow load (p_g) is measured flat on unheated ground. Roof snow load (p_s) is typically lower than ground snow load due to thermal heat loss, wind blowing snow away, and sloped gravity shedding.
 

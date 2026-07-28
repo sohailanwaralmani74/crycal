@@ -178,6 +178,7 @@ Email remains the highest-yielding owned distribution channel for SaaS, eCommerc
 ---
 
 ## Email Marketing Roi Calculator Mathematical Formulas
+
 ### 1. Email Engagement Funnel
 
 $$ \text{Total Opens} = \text{Emails Sent} \times \text{Open Rate \%} $$
@@ -210,6 +211,7 @@ $$ \text{Email ROI \%} = \left( \frac{\text{Net Email Profit}}{\text{Total Month
 ---
 
 ## Step-by-Step Email Marketing Roi Calculator Guide
+
 1. **Calculate Fully Loaded Costs**: Aggregate ESP monthly billings and team hours allocated to email creation.
 2. **Review Campaign Engagement**: Import open rates and CTR from your ESP analytics dashboard.
 3. **Set Average Deal Value**: Use ACV (Annual Contract Value) for SaaS or AOV for eCommerce.
@@ -218,20 +220,27 @@ $$ \text{Email ROI \%} = \left( \frac{\text{Net Email Profit}}{\text{Total Month
 ---
 
 ## Email Marketing Roi Calculator Frequently Asked Questions
+
 ### What is Email Marketing ROI?
+
 Email Marketing ROI measures the net financial return generated from email campaigns relative to total expenses including ESP software and content creation labor.
 
 ### How is Email Marketing ROI calculated?
+
 Email ROI is calculated as: ROI (%) = [(Generated Revenue - Total Email Costs) / Total Email Costs] × 100%.
 
 ### What is a good ROI for email marketing?
+
 Industry benchmarks report an average Email Marketing ROI of 36:1 to 42:1 ($36 to $42 returned for every $1 spent), making it one of the highest-yielding digital channels.
 
 ### How do I calculate total email marketing expenses?
+
 Total monthly expenses include software subscription fees (Klaviyo, HubSpot, Mailchimp) plus internal labor and agency retainer fees dedicated to email.
 
 ### What is Click-to-Customer Conversion Rate?
+
 Click-to-Customer conversion rate is the percentage of subscribers who click a link inside your email and subsequently complete a purchase or subscribe.
 
 ### How can I improve my email marketing ROI?
+
 Improve ROI by cleaning inactive subscribers, segmenting subscriber lists by intent, conducting A/B testing on subject lines, and creating automated drip onboarding sequences.

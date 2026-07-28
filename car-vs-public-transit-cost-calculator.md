@@ -236,9 +236,11 @@ Using this **Car vs Public Transit Cost Calculator**, you can determine exactly 
 ## Cost Comparison Formulas
 
 ### 1. Total Monthly Car Cost
+
 $$\text{Car Cost} = \text{Loan Payment} + \text{Insurance} + \text{Fuel} + \text{Parking/Tolls} + \text{Maintenance Reserve}$$
 
 ### 2. Cumulative 5-Year Savings
+
 $$\text{5-Year Savings} = 60 \times \left( \text{Car Cost} - \text{Transit Cost} \right)$$
 
 ---
@@ -260,35 +262,47 @@ $$\text{5-Year Savings} = 60 \times \left( \text{Car Cost} - \text{Transit Cost}
 ---
 
 ## Step-by-Step Car vs Public Transit Cost Calculator Guide
+
 ### Step 1: Detail All Monthly Vehicle Expenses
+
 Enter your car loan or lease payment, insurance premium, monthly gas bill, parking fees, and routine maintenance reserve.
 
 ### Step 2: Input Transit & Rideshare Fares
+
 Input your local monthly bus/subway pass fee plus any budget allocated for weekend Uber or Lyft rides.
 
 ### Step 3: Evaluate Financial Differentials
+
 Compare total monthly costs side-by-side to calculate your monthly, annual, and 5-year savings potential.
 
 ---
 
 ## Car vs Public Transit Cost Calculator Frequently Asked Questions
+
 ### How much money can you save by taking public transit instead of driving?
+
 The average American household saves between $8,000 and $12,000 per year by using public transportation instead of owning and driving a second car.
 
 ### What hidden car expenses are often overlooked when comparing to transit?
+
 Drivers frequently forget parking fees, toll roads, vehicle depreciation, annual registration/taxes, interest on car loans, and unexpected mechanical repairs.
 
 ### Is public transit cheaper if I still need occasional rideshares?
+
 Yes. Even factoring in $50 to $150 per month for weekend rideshares or occasional car rentals, transit remains thousands of dollars cheaper than owning a vehicle full-time.
 
 ### What non-financial factors should I consider besides cost?
+
 Consider transit reliability, commute time difference, physical activity (walking), stress levels from traffic, ability to work/read on the train, and climate footprint.
 
 ### Can I save money by going from two cars to one car?
+
 Eliminating a second vehicle while combining public transit with a shared household car offers an ideal balance of financial savings and personal flexibility.
 
 ### Are transit pass purchases tax-free?
+
 Many employers offer pre-tax commuter benefits (IRS Section 132f), allowing you to pay for transit passes using pre-tax dollars to save an additional 20% to 30%.
 
 ### Is the Car vs Public Transit Cost Calculator private?
+
 Yes, all computations run locally in your web browser.

@@ -150,6 +150,7 @@ Affiliate and partner marketing is a powerful performance-based growth channel. 
 ---
 
 ## Affiliate Referral Payout Calculator Mathematical Formulas
+
 ### 1. Gross Revenue & Monthly Payouts
 
 $$ \text{Gross Monthly Referred Revenue} = \text{Referred Customers} \times \text{Monthly Subscription Price} $$
@@ -175,6 +176,7 @@ $$ \text{Net Retained Revenue} = \text{Gross Monthly Revenue} - \text{Monthly Af
 ---
 
 ## Step-by-Step Affiliate Referral Payout Calculator Guide
+
 1. **Input Active Referred Cohort**: Enter active referred paying subscribers.
 2. **Define Plan Pricing**: Set your average customer monthly subscription price.
 3. **Set Partner Terms**: Input commission percentage and duration limit (e.g. 12 months).
@@ -183,20 +185,27 @@ $$ \text{Net Retained Revenue} = \text{Gross Monthly Revenue} - \text{Monthly Af
 ---
 
 ## Affiliate Referral Payout Calculator Frequently Asked Questions
+
 ### What is an affiliate referral payout calculator?
+
 An affiliate referral payout calculator helps SaaS vendors, e-commerce stores, and partnership managers compute commission liabilities owed to affiliate partners.
 
 ### What is a standard SaaS affiliate commission rate?
+
 Standard SaaS affiliate commission rates range from 20% to 30% recurring for the first 12 months, or 15% to 20% recurring lifetime.
 
 ### How is monthly affiliate payout calculated?
+
 Monthly Payout = Active Referred Customers × Monthly Plan Price × Commission Rate %.
 
 ### What is Net Retained SaaS Revenue?
+
 Net Retained Revenue is the portion of subscription revenue kept by the SaaS company after paying partner affiliate commissions.
 
 ### Why do SaaS companies use 12-month commission caps?
+
 Setting a 12-month cap limits long-term financial liabilities and aligns affiliate payouts with typical first-year customer payback periods.
 
 ### How can I optimize my affiliate partner program?
+
 Optimize your program by creating tiered commission brackets for top-producing affiliates, providing high-converting marketing banners, and using automated payout platforms like Impact or PartnerStack.

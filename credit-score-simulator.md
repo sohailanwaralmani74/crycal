@@ -223,16 +223,21 @@ Each factor is scored individually, then weighted to produce a final simulated s
 ---
 
 ## Credit Score Simulator Frequently Asked Questions
+
 ### What is a credit score simulator?
+
 A credit score simulator helps you understand how different financial actions affect your credit score. It estimates the impact of changes to payment history, utilization, credit age, inquiries, and account mix.
 
 ### How accurate is this credit score simulator?
+
 This simulator provides an estimate based on common credit scoring factors. It is designed for educational and illustrative purposes, not as a substitute for an official credit report or score.
 
 ### What factors affect my credit score?
+
 The main factors are payment history (35%), credit utilization (30%), credit age (15%), account mix (10%), and inquiries (10%). This simulator uses these exact weights.
 
 ### What is a good credit score?
+
 Credit scores typically range from 300-850. 700+ is generally considered good, 740+ is very good, and 800+ is excellent.
 
 ---

@@ -171,16 +171,21 @@ This **catch-up contribution calculator** is designed for:
 ---
 
 ## Catch Up Contribution Calculator Frequently Asked Questions
+
 ### What is a catch-up contribution?
+
 A catch-up contribution is an additional amount that individuals age 50 and older are permitted to contribute to retirement accounts beyond the standard annual limit, intended to help those closer to retirement save more.
 
 ### What is the SECURE 2.0 enhanced catch-up contribution?
+
 Starting in 2025, employees ages 60 to 63 participating in 401(k), 403(b), or similar plans may be eligible for a higher "super" catch-up limit than the standard age-50 catch-up amount, under the SECURE 2.0 Act.
 
 ### Do catch-up contribution limits apply to IRAs too?
+
 Yes. Traditional and Roth IRAs also have a catch-up contribution amount available starting at age 50, though it's typically smaller than 401(k)-style plan catch-up amounts.
 
 ### Does the enhanced catch-up apply to everyone?
+
 The enhanced age 60-63 catch-up generally applies to employer-sponsored plans like 401(k) and 403(b) plans; IRA catch-up amounts don't have this enhanced tier.
 
 <p class="tool-disclaimer">IRS contribution limits are adjusted periodically for inflation. Please verify current limits before relying on these results for tax filing purposes.</p>

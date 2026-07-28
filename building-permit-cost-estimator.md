@@ -212,21 +212,28 @@ The table below illustrates permit fee components, trade sub-permits, plan revie
 ---
 
 ## Building Permit Cost Estimator Frequently Asked Questions
+
 ### How are building permit fees calculated?
+
 Building permit fees are calculated using a tiered sliding scale based on total project valuation (materials plus labor). A base administrative fee is charged for the first $10,000, plus an incremental charge ($5 to $10) for every additional $1,000 of project value.
 
 ### What is construction project valuation?
+
 Construction valuation is the total estimated fair market cost of materials, labor, overhead, and contractor profit required to complete the project, as declared on building permit applications.
 
 ### Are electrical, plumbing, and HVAC permits included in the main building permit?
+
 No. Most municipalities require separate trade sub-permits for electrical, plumbing, and mechanical work. Trade permits typically cost 15% to 25% of the main building permit fee, or flat minimum fees of $75 to $150 per trade.
 
 ### What is a plan review fee?
+
 Plan review fees cover the cost of municipal plan examiners and structural engineers reviewing blueprint drawings for building code compliance before issuing a permit. It is usually assessed as a 25% to 50% surcharge on top of the base permit fee.
 
 ### What happens if I start construction without a building permit?
+
 Starting work without a permit results in Stop Work orders, double or triple permit penalty fines, potential demolition of uninspected work, and severe title complications when selling the property.
 
 ### How long does it take to get a building permit issued?
+
 Simple over-the-counter permits (roofing, water heaters) are issued same-day. Major residential additions, structural remodels, or new home construction require 2 to 6 weeks for plan review.
 

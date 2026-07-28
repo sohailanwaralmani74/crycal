@@ -173,23 +173,31 @@ Where $N$ is the duration in months.
 ---
 
 ## CMGR Calculator Frequently Asked Questions
+
 ### What is Compound Monthly Growth Rate (CMGR)?
+
 CMGR is the geometric average month-over-month growth rate required for a business to grow from a starting revenue figure to an ending revenue figure over a specific number of months.
 
 ### What is the formula for CMGR?
+
 CMGR (%) = [(Ending Revenue / Starting Revenue)^(1 / N) − 1] × 100, where N is the number of months.
 
 ### Why is CMGR superior to Average Monthly Growth Rate?
+
 Arithmetic average monthly growth rate distorts true performance due to compounding. CMGR provides the exact geometric compounding rate.
 
 ### What is a good CMGR percentage for SaaS startups?
+
 For early-stage startups ($0–$1M ARR), 10%–15%+ CMGR is top-tier (3x–5x annual growth). For Series A ($1M–$5M ARR), 5%–8% CMGR is benchmark.
 
 ### How do you annualize a monthly CMGR figure?
+
 Annualized Rate (%) = [(1 + CMGR)^12 − 1] × 100.
 
 ### Can CMGR be used for non-revenue metrics like Active Users?
+
 Yes! CMGR can be used to measure compounding monthly growth for Monthly Active Users (MAU), lead volume, or website traffic.
 
 ### How does CMGR compare to CAGR?
+
 CAGR measures annual compounding over years. CMGR measures monthly compounding over months.

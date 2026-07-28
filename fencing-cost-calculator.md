@@ -211,21 +211,28 @@ The table below outlines cost estimates across fence materials for a standard 15
 ---
 
 ## Fencing Cost Calculator Frequently Asked Questions
+
 ### How much does it cost to fence 150 linear feet of yard?
+
 For 150 linear feet of 6-foot fence, professional installation costs approx. $3,900 to $4,800 for pressure-treated wood ($26/ft avg), $5,100 to $6,300 for white vinyl ($34/ft avg), and $2,700 to $3,300 for chain link ($18/ft avg).
 
 ### Which fence material is cheapest to install?
+
 Galvanized chain link is the cheapest fence material at $14 to $22 per linear foot installed, followed by pressure-treated pine wood ($22 to $28/ft).
 
 ### What is the average contractor labor cost to install a fence per foot?
+
 Professional fence installation labor ranges from $10 to $20 per linear foot depending on soil post hole digging conditions, slope terrain, and old fence removal.
 
 ### How many fence posts and panels are needed for 150 linear feet?
+
 Standard fence panels are 8 feet wide. 150 linear feet requires 19 panels ($150 / 8 = 18.75$) and 20 fence posts (1 post every 8 feet plus 1 end terminal post).
 
 ### How deep should fence post holes be dug?
+
 Fence post holes must be dug to a depth equal to 1/3 of the total post length (or at least 6 inches below the local winter frost line), typically 24 to 36 inches deep.
 
 ### Is vinyl fencing lower maintenance than wood fencing?
+
 Yes. Vinyl (PVC) fencing requires no staining, sealing, or painting and will not rot, warp, or split over time. Wood fencing requires restaining every 2 to 3 years.
 

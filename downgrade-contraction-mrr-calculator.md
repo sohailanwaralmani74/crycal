@@ -173,23 +173,31 @@ $$\text{Annualized Contraction Loss} = \text{Total Contraction MRR} \times 12$$
 ---
 
 ## Downgrade Contraction Mrr Calculator Frequently Asked Questions
+
 ### What is Contraction MRR in SaaS?
+
 Contraction MRR is the total recurring revenue lost from existing customers who reduce their subscription tier, remove user seats, or cancel specific product add-on modules without fully cancelling their account.
 
 ### How does Contraction MRR differ from Full Churn MRR?
+
 Contraction MRR measures account tier downgrades where the customer remains active. Full Churn MRR measures complete account cancellations.
 
 ### What is the formula for Contraction Rate %?
+
 Contraction Rate % = (Total Contraction MRR / Starting MRR) × 100.
 
 ### Why is tracking Contraction MRR a leading indicator of future churn?
+
 Customers who downgrade plan tiers or reduce seat counts often exhibit declining engagement and are at high risk of complete cancellation within 3 to 6 months.
 
 ### What are common causes of SaaS contraction MRR?
+
 1) Company downsizing (seat removals), 2) Underutilization of premium features, 3) Price sensitivity during budget cuts, and 4) Weak product adoption.
 
 ### What is a healthy monthly Contraction Rate benchmark?
+
 For B2B SaaS, a monthly contraction rate under 0.5% to 1.0% is considered healthy.
 
 ### How can Customer Success teams reduce Contraction MRR?
+
 By proactively monitoring feature usage triggers, offering targeted user retraining, restructuring value tiers, and addressing seat underutilization early.

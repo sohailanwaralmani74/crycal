@@ -206,21 +206,28 @@ The table below illustrates linear footage and cost estimates across popular kit
 ---
 
 ## Kitchen Cabinet Linear Footage Calculator Frequently Asked Questions
+
 ### How is kitchen cabinet linear footage calculated?
+
 Linear footage is calculated by measuring the total distance in feet along the back walls where cabinets will be installed. Base cabinet linear footage and upper wall cabinet linear footage are usually calculated separately because their depths and unit prices differ.
 
 ### How do corner cabinets affect linear footage calculations?
+
 Standard base lazy susans occupy 36 inches (3 feet) along each wall of an L-shaped corner. When measuring along walls, measuring both wall legs to the corner point double-counts a 3ft x 3ft corner square. Standard linear foot calculators deduct 3 linear feet from one wall or treat corner units as separate fixed-cost modules.
 
 ### What is the average cost per linear foot for kitchen cabinets?
+
 Stock cabinets range from $100 to $250 per linear foot. Semi-custom cabinets range from $250 to $450 per linear foot, while fully custom hardwood cabinets range from $500 to $1,200+ per linear foot.
 
 ### Are upper and base cabinets sold together or separately?
+
 Cabinets are quoted per linear foot, but base cabinets and upper wall cabinets are priced as separate items because base cabinets require deep boxes and drawers while upper cabinets require upper hanging hardware.
 
 ### How wide are standard kitchen cabinet boxes?
+
 Kitchen cabinet widths increase in 3-inch increments, typically ranging from 9 inches to 36 inches wide. Base cabinet standard depth is 24 inches, while upper wall cabinet standard depth is 12 inches.
 
 ### Does linear footage include appliances like refrigerators and dishwashers?
+
 No. Deduct the width of freestanding ranges (30"), dishwashers (24"), and refrigerators (36") from your base cabinet wall measurements, as no cabinet box sits underneath those appliances.
 

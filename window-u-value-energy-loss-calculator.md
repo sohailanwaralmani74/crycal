@@ -174,17 +174,21 @@ Lower U-factors mean better insulation. Upgrading $250\text{ sq ft}$ of old sing
 ## Thermal Heat Loss Formulas
 
 ### 1. Equivalent R-Value ($R$):
+
 $$R = \frac{1}{U}$$
 
 ### 2. Peak Conductive Heat Loss Rate ($Q_{\text{peak}}$):
+
 $$Q_{\text{peak}} = U \times A_{\text{window}} \times \Delta T$$
 
 ### 3. Annual Heating Energy Loss (BTU & kWh):
+
 $$\text{Annual BTU Loss} = U \times A_{\text{window}} \times \text{HDD} \times 24$$
 
 $$\text{Annual kWh Loss} = \frac{\text{Annual BTU Loss}}{3,412}$$
 
 ### 4. Annual Energy Cost Savings :
+
 $$\text{Annual Savings (\$)} = (\text{Annual kWh}_{\text{old}} - \text{Annual kWh}_{\text{new}}) \times \text{Cost}_{\text{kWh}}$$
 
 Where:
@@ -219,21 +223,28 @@ Where:
 ---
 
 ## Window U Value Energy Loss Calculator Frequently Asked Questions
+
 ### What is the difference between U-value (U-factor) and R-value?
+
 **R-value** measures resistance to heat flow (higher is better). **U-value (U-factor)** measures the rate of heat flow through a material (lower is better). They are mathematical reciprocals of each other: $R = 1/U$ and $U = 1/R$.
 
 ### How do I convert U-value to R-value?
+
 Divide 1 by the U-value. For example, an Energy Star window with a U-value of $0.27$ has an equivalent R-value of $1 / 0.27 = 3.70$.
 
 ### What is a good Energy Star U-value for windows?
+
 In Northern US climates, Energy Star requires a U-factor of **0.27 or lower**. In Southern climates, a U-factor of **0.30 to 0.40** with a low Solar Heat Gain Coefficient (SHGC) is recommended.
 
 ### How much heat is lost through single pane vs double pane windows?
+
 Single-pane clear glass ($U=1.10$) loses **4 times more heat** than an Energy Star double-pane Low-E window ($U=0.27$). Upgrading saves up to 75% of conductive window energy loss.
 
 ### What is Heating Degree Days (HDD)?
+
 Heating Degree Days (HDD) is a geographic weather index representing how cold a climate is over a year. It measures the sum of daily temperature differences below $65^\circ\text{F}$ (e.g., Chicago has ~6,300 HDD; Atlanta has ~2,800 HDD).
 
 ### How long does it take for new Energy Star windows to pay for themselves?
+
 Depending on climate severity and fuel costs, replacing single-pane windows with Energy Star double-pane windows yields typical utility savings of $200 to $500 per year, providing complete thermal payback over time while dramatically improving room comfort.
 

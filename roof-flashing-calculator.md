@@ -195,21 +195,28 @@ $$\text{Step Flashing Pieces Gross} = \left\lceil \text{Step Flashing Net} \time
 ---
 
 ## Roof Flashing Calculator Frequently Asked Questions
+
 ### What is roof flashing?
+
 Roof flashing consists of thin sheet metal strips (aluminum, galvanized steel, or copper) installed at roof joints, valleys, walls, and chimneys to prevent water penetration.
 
 ### How do you calculate step flashing pieces?
+
 Step Flashing Pieces = (Total Sidewall Length in Inches / Shingle Exposure in Inches) + 1 piece per wall run. At 5-inch exposure, each foot of wall requires 2.4 step flashing cards (4"x4"x7").
 
 ### How many drip edge sticks do I need?
+
 Add total eave feet plus rake slope feet, multiply by 1.10 (10% for lap overlaps and corner cuts), and divide by 10 feet (standard commercial metal stick length).
 
 ### What components are in a chimney flashing kit?
+
 A complete chimney flashing kit includes a base apron (front), step flashing cards (sides), counter-flashing embedded in masonry mortar joints, and a back head apron or cricket (saddle).
 
 ### What size drip edge should be used?
+
 Standard aluminum drip edge has a 1.5" to 2" roof flange deck overlap and a 1.5" vertical drop leg to direct water cleanly into gutters without touching fascia boards.
 
 ### Why is 10% waste added to flashing calculations?
+
 10% waste accounts for 2-inch to 4-inch lap joint overlaps, corner miters, rake edge overhang tabs, and trimming offcuts.
 

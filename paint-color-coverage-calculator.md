@@ -199,21 +199,28 @@ Below is a benchmark estimate for a typical **14' × 16' room (8' ceiling height
 ---
 
 ## Paint Color Coverage Calculator Frequently Asked Questions
+
 ### How many square feet does 1 gallon of paint cover?
+
 A standard 1-gallon can of interior latex paint covers approximately 350 to 400 square feet per coat on smooth primed drywall.
 
 ### When should I buy paint in quarts instead of gallons?
+
 Quarts are ideal for smaller accent feature walls under 150-200 sq ft (for 2 coats). Since 4 quarts equal 1 gallon, if you need 2 quarts or less, buying quarts avoids wasting half a gallon.
 
 ### How do I calculate paint needed for an accent wall?
+
 Multiply accent wall width by height to find square footage, multiply by number of coats (usually 2), then divide by coverage per gallon (350 sq ft). Convert fractional gallons to quarts by multiplying by 4.
 
 ### Do I need to subtract windows and doors from room wall area?
+
 Yes. Subtract standard door openings (approx. 20 sq ft each) and medium windows (approx. 15 sq ft each) to avoid overestimating paint volume.
 
 ### Why is 2 coats of paint recommended?
+
 Two coats provide optimal color depth, hide surface blemishes, ensure uniform sheen, and increase durability compared to a single coat.
 
 ### Does unprimed drywall require more paint?
+
 Yes. Fresh, unprimed drywall absorbs liquid quickly, reducing coverage down to 250-300 sq ft per gallon. Always apply a dedicated primer sealer first.
 

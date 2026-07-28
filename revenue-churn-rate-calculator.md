@@ -170,23 +170,31 @@ $$\text{Implied NRR (\%)} = 100 - \text{Net Monthly Revenue Churn (\%)} \quad (\
 ---
 
 ## Revenue Churn Rate Calculator Frequently Asked Questions
+
 ### What is Revenue Churn Rate?
+
 Revenue Churn Rate measures the percentage of recurring subscription dollars lost during a period due to customer cancellations (churn) and plan downgrades (contraction).
 
 ### What is the formula for Gross Revenue Churn Rate %?
+
 Gross Revenue Churn Rate (%) = (Gross Lost MRR / Starting MRR) × 100.
 
 ### What is the formula for Net Revenue Churn Rate %?
+
 Net Revenue Churn Rate (%) = [(Gross Lost MRR − Expansion MRR) / Starting MRR] × 100.
 
 ### What does a negative Net Revenue Churn Rate mean?
+
 A negative Net Revenue Churn Rate means expansion MRR from existing customers exceeded lost revenue from cancellations and downgrades (Net Negative Churn).
 
 ### What is a healthy monthly Gross Revenue Churn Rate benchmark?
+
 For Enterprise SaaS, monthly gross revenue churn should be under 0.5%–1.0%. For Mid-Market, under 1.0%–1.5%. For SMB SaaS, under 2.0%–3.0%.
 
 ### How does Revenue Churn Rate connect to Net Revenue Retention (NRR)?
+
 Implied NRR (%) = 100% − Net Revenue Churn Rate (%). For example, a -2% Net Revenue Churn Rate yields an NRR of 102%.
 
 ### Why do investors emphasize Revenue Churn over Customer Logo Churn?
+
 Revenue churn measures economic impact. Losing a high-paying enterprise account harms financial sustainability far more than losing several low-tier accounts.

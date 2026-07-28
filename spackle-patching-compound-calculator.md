@@ -205,21 +205,28 @@ $$\text{Tubs Needed} = \left\lceil \frac{\text{Total Vol (fl oz)}}{\text{Contain
 ---
 
 ## Spackle Patching Compound Calculator Frequently Asked Questions
+
 ### How much spackle do I need for nail holes?
+
 A single nail hole consumes less than 0.05 fluid ounces of spackle. A standard 8 fl oz half-pint tub of spackle will easily repair 150 to 200 small nail holes.
 
 ### What size spackle tub should I buy for moving out of an apartment?
+
 For a typical 1 to 2 bedroom apartment move-out, a 16 fl oz pint tub or 32 fl oz quart tub of lightweight color-changing spackle is usually sufficient to repair all picture hanging holes and minor wall dents.
 
 ### What is the difference between spackle and joint compound?
+
 Spackle is thicker, fast-drying, and formulated with vinyl or acrylic binders designed for patching isolated holes without shrinking. Joint compound (drywall mud) is thinner and designed for taping and skim-coating large wall areas.
 
 ### How long does spackle take to dry before painting?
+
 Lightweight spackle dries in 30 minutes to 2 hours for small holes. Heavy-duty spackle in deep holes (over 1/2 inch) can take 4 to 8 hours to dry completely.
 
 ### Do I need to prime spackled wall repairs before painting?
+
 Yes. Raw spackle is porous and will absorb paint unevenly, causing shiny or dull spots ("flashing"). Apply 1 coat of drywall primer or self-priming paint over patches.
 
 ### How much does a tub of spackle cost?
+
 An 8 fl oz tub costs $4 to $6, a 16 fl oz pint tub costs $7 to $11, and a 32 fl oz quart tub costs $12 to $18 at hardware stores.
 

@@ -256,19 +256,25 @@ Proper position sizing is essential for managing risk in futures trading. This f
 ---
 
 ## Futures Position Size Calculator Frequently Asked Questions
+
 ### What is a tick?
+
 A tick is the minimum price movement of a futures contract. For ES (S&P 500), the tick size is 0.25 points.
 
 ### What is tick value?
+
 Tick value is the monetary value of one tick movement per contract. For ES, the tick value is $12.50 per tick.
 
 ### How is futures position size calculated?
+
 Position Size = Risk Amount ÷ (Stop Distance in Points × Value Per Point). This gives you the number of contracts to trade.
 
 ### What is the value per point?
+
 Value Per Point = Tick Value ÷ Tick Size. For ES: $12.50 ÷ 0.25 = $50.00 per point.
 
 ### Can I use this calculator for any futures market?
+
 Yes — just enter the correct tick size and tick value for the contract you're trading (e.g., NQ, CL, GC, etc.).
 
 ---

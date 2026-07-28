@@ -219,17 +219,21 @@ Key charging categories:
 ---
 
 ## EV Charging Time Calculator Mathematical Formulas
+
 ### 1. Effective Charging Power ($P_{\text{effective}}$)
+
 \[
 P_{\text{effective}} = \min\left(P_{\text{station}}, \; P_{\text{vehicle\_max}}\right) \times \left(\frac{\eta}{100}\right)
 \]
 
 ### 2. Required Energy Delivered ($E_{\text{delivered}}$)
+
 \[
 E_{\text{delivered}} = C_{\text{battery}} \times \left( \frac{\text{SOC}_{\text{target}} - \text{SOC}_{\text{start}}}{100} \right)
 \]
 
 ### 3. Charging Duration in Hours ($T_{\text{hours}}$)
+
 For SOC targets above 80% on DC Fast chargers, a taper factor ($1.4\times$) accounts for BMS power throttling:
 \[
 T_{\text{hours}} = \frac{E_{\text{delivered}}}{P_{\text{effective}}} \times M_{\text{taper}}
@@ -250,6 +254,7 @@ T_{\text{hours}} = \frac{E_{\text{delivered}}}{P_{\text{effective}}} \times M_{\
 ---
 
 ## Step-by-Step EV Charging Time Calculator Usage Guide
+
 1. **Input Battery kWh**: Enter your EV usable battery capacity (e.g. 80 kWh).
 2. **Set Charge Window**: Select starting battery % (e.g. 10%) and target % (e.g. 80%).
 3. **Specify Charger Rating**: Input charger output rating in kW (e.g. 11.5 kW Level 2 or 150 kW DC Fast).
@@ -259,23 +264,31 @@ T_{\text{hours}} = \frac{E_{\text{delivered}}}{P_{\text{effective}}} \times M_{\
 ---
 
 ## EV Charging Time Calculator Frequently Asked Questions
+
 ### How long does it take to charge an electric car at home?
+
 Using a 240V Level 2 charger (7.6 kW to 11.5 kW), a typical EV takes 5 to 8 hours for a 10% to 80% charge. Using a standard 120V wall outlet (Level 1), it takes 40 to 60+ hours.
 
 ### Why does DC Fast Charging slow down after 80%?
+
 To prevent thermal breakdown and lithium plating, EV battery management systems (BMS) taper charging power significantly once the state of charge exceeds 80%.
 
 ### What limits my charging speed: the charger or the vehicle?
+
 Charging speed is determined by whichever device has the lower power capacity: the EV's maximum acceptance rate or the charging station's maximum output rate.
 
 ### What is the difference between Level 1, Level 2, and DC Fast Charging?
+
 Level 1 operates on 120V AC (~1.4 kW, 3–5 mi/hr range added). Level 2 operates on 240V AC (3.7–19.2 kW, 15–45 mi/hr range added). DC Fast Charging delivers 50–350 kW direct current (100–600+ mi/hr range added).
 
 ### How many miles of range do I get per hour of charging?
+
 A standard 11.5 kW Level 2 home charger adds approximately 35 to 40 miles of driving range for every hour connected.
 
 ### How does cold weather affect charging time?
+
 Cold temperatures increase battery internal resistance, causing the vehicle's computer to throttle charging power until the battery conditions itself to optimal thermal levels.
 
 ### Does the EV charging time calculator store my data?
+
 No. All calculations run strictly in your local browser.

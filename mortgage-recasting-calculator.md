@@ -208,18 +208,24 @@ This **home loan recast calculator** is designed for:
 ---
 
 ## Mortgage Recasting Calculator Frequently Asked Questions
+
 ### What is a mortgage recast?
+
 A mortgage recast is when you make a large lump‑sum payment toward your principal and your lender recalculates your monthly payment based on the new lower balance, while keeping the same interest rate and loan term.
 
 ### How does a mortgage recast calculator work?
+
 It takes your current loan balance, interest rate, remaining term, and lump‑sum payment to compute your new monthly payment, total savings, and break‑even period.
 
 ### What is the difference between a recast and a refinance?
+
 A recast keeps your existing interest rate and loan term, only lowering your monthly payment. A refinance replaces your entire loan with a new one, potentially changing the rate, term, and costs.
 
 ### Is there a fee to recast a mortgage?
+
 Yes — most lenders charge a recast fee, typically between $150 and $500. The calculator includes a recast fee input.
 
 ### How long does it take to break even on a mortgage recast?
+
 The break‑even period is the number of months it takes for your monthly savings to cover the cost of the recast fee (if any).
 

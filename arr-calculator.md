@@ -119,6 +119,7 @@ ARR measures the normalized annualized value of your recurring subscription reve
 Having accurate, real-time insights into this metric helps SaaS founders, CFOs, and growth teams optimize capital allocation, protect operating runway, and achieve top-tier venture scalability.
 
 ## ARR Calculator Formula & Derivation
+
 The mathematical derivation for this financial metric is expressed as:
 
 $$\text{MRR Run-Rate} = \text{Current MRR} \times 12$$ \n$$\text{Contract ARR} = \frac{\text{Prepaid Contracts Total}}{\text{Contract Term (Years)}}$$ \n$$\text{Total ARR} = \text{MRR Run-Rate} + \text{Contract ARR}$$
@@ -126,6 +127,7 @@ $$\text{MRR Run-Rate} = \text{Current MRR} \times 12$$ \n$$\text{Contract ARR} =
 Where all input values are evaluated over a standardized monthly or annual accounting period.
 
 ## ARR Calculator SaaS Benchmarks
+
 | ARR Milestone Tier | Typical Valuation Multiple | Primary Strategic Goal |
 | --- | --- | --- |
 | < $1M ARR | Early Stage (N/A) | Achieve Product-Market Fit |
@@ -134,6 +136,7 @@ Where all input values are evaluated over a standardized monthly or annual accou
 | >= $20M ARR | 10x - 15x+ ARR Multiple | Target IPO / Strategic Acquisition |
 
 ## Step-by-Step ARR Calculator Calculation Guide
+
 1. **Enter Core Financial Inputs:** Supply your monthly sales spend, user counts, ARPU, or recurring revenue figures.
 2. **Review Intermediate Outputs:** Examine calculated gross profit, churn, payback, or unit contribution scores.
 3. **Assess Benchmark Ratings:** Compare your results against SaaS industry standards to identify growth bottlenecks.
@@ -142,12 +145,16 @@ Where all input values are evaluated over a standardized monthly or annual accou
 ---
 
 ## ARR Calculator Frequently Asked Questions
+
 ### What is Annual Recurring Revenue (ARR)?
+
 ARR is the annual value of recurring revenue generated from active subscription contracts.
 
 ### How does ARR differ from MRR?
+
 ARR measures annual recurring revenue run-rate (MRR * 12), whereas MRR measures monthly recurring subscription revenue.
 
 ### Should one-time consulting revenue be included in ARR?
+
 No. One-time setup fees and professional services must be excluded from ARR.
 

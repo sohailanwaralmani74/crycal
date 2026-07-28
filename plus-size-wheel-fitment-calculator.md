@@ -165,9 +165,11 @@ If you mount larger wheels without decreasing tire sidewall height proportionall
 ---
 
 ## Plus Size Wheel Fitment Calculator Calculation Flow & Formulas
+
 Plus sizing follows standard rim diameter additions paired with lower aspect ratios:
 
 ### Plus Size Wheel Fitment Calculator Inputs & Parameters
+
 | Parameter | Unit | Description |
 | :--- | :--- | :--- |
 | **OEM Width (\(W_{oem}\))** | mm | Factory tire section width |
@@ -178,7 +180,9 @@ Plus sizing follows standard rim diameter additions paired with lower aspect rat
 ---
 
 ### Step-by-Step Plus Size Wheel Fitment Calculator Formulas
+
 #### 1. OEM Overall Diameter (\(D_{oem}\))
+
 \[
 H_{oem\_sw} = \frac{W_{oem} \times \frac{AR_{oem}}{100}}{25.4}
 \]
@@ -187,6 +191,7 @@ D_{oem} = R_{oem} + (2 \times H_{oem\_sw}) \quad \text{(in inches)}
 \]
 
 #### 2. Plus-Sized Rim & Overall Diameter (\(D_{plus}\))
+
 \[
 R_{plus} = R_{oem} + K
 \]
@@ -198,6 +203,7 @@ D_{plus} = R_{plus} + (2 \times H_{plus\_sw}) \quad \text{(in inches)}
 \]
 
 #### 3. Compliance Percentage Variance (\(\Delta D_{\%}\))
+
 \[
 \Delta D_{\%} = \left(\frac{D_{plus} - D_{oem}}{D_{oem}}\right) \times 100
 \]
@@ -216,6 +222,7 @@ D_{plus} = R_{plus} + (2 \times H_{plus\_sw}) \quad \text{(in inches)}
 ---
 
 ## How to Use the Plus Size Wheel Fitment Calculator Step-by-Step
+
 1. **Enter OEM Specs**: Read stock tire dimensions off door pillar (e.g. `205/55R16`).
 2. **Select Plus Upgrade**: Choose Plus 1 (+1" wheel), Plus 2 (+2" wheel), or Plus 3 (+3" wheel).
 3. **Select New Width & Profile**: Test wider widths (e.g. `225`) paired with lower aspect ratios (e.g. `45` or `40`).
@@ -224,23 +231,31 @@ D_{plus} = R_{plus} + (2 \times H_{plus\_sw}) \quad \text{(in inches)}
 ---
 
 ## Plus Size Wheel Fitment Calculator Frequently Asked Questions
+
 ### What is Plus 1 wheel upsizing?
+
 Plus 1 sizing increases wheel rim diameter by 1 inch while reducing sidewall aspect ratio (and usually increasing section width) to keep total outer tire height virtually identical to stock.
 
 ### What is Plus 2 wheel upsizing?
+
 Plus 2 sizing increases wheel rim diameter by 2 inches (e.g. from 16" to 18") while using a lower-profile tire to maintain OEM overall diameter within ±3%.
 
 ### Why is it important to keep overall tire diameter within 3%?
+
 Keeping overall tire height within 3% preserves original gearing ratios, maintains ABS and traction control sensor calibration, and prevents speedometer inaccuracies.
 
 ### What are the performance benefits of Plus sizing?
+
 Plus sizing increases tire contact patch width and shortens sidewall height, reducing sidewall flex during hard cornering for sharper steering response and improved dry handling.
 
 ### Does Plus sizing make the ride harsher?
+
 Yes. Shorter sidewalls provide less rubber cushioning, resulting in a firmer, stiffer ride over bumps and potholes.
 
 ### Can Plus sizing cause rim damage from potholes?
+
 Low profile tires used in Plus 2 and Plus 3 fitments have less sidewall cushion, increasing the likelihood of rim damage if hitting severe potholes at speed.
 
 ### Are my wheel sizing choices stored online?
+
 No. All calculations run strictly inside your web browser.

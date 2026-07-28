@@ -207,15 +207,20 @@ This **HSA calculator** is designed for:
 ---
 
 ## HSA Growth Calculator Frequently Asked Questions
+
 ### What is an HSA?
+
 A Health Savings Account (HSA) is a tax-advantaged account available to people with high-deductible health plans, offering triple tax benefits: tax-deductible contributions, tax-free growth, and tax-free withdrawals for qualified medical expenses.
 
 ### How is HSA growth calculated?
+
 HSA growth is calculated using compound interest applied to the current balance plus the future value of annual contributions from both you and your employer, similar to a standard investment projection.
 
 ### Can I invest my HSA funds?
+
 Many HSA providers allow you to invest funds above a certain cash threshold in mutual funds, stocks, or ETFs, which can significantly increase long-term growth compared to leaving funds in cash.
 
 ### What happens to unused HSA funds?
+
 Unlike FSAs, HSA funds roll over year to year with no expiration, and the account remains yours even if you change jobs or health plans.
 

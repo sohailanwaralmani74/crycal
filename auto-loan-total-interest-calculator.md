@@ -191,6 +191,7 @@ Our **auto loan total interest calculator** helps you:
 ---
 
 ## Auto Loan Total Interest Calculator Formulas & Principles
+
 Given net loan principal \(P\), monthly interest rate \(r = \text{APR}/12/100\), and loan duration in months \(n\):
 
 ### Monthly Payment Equation
@@ -214,6 +215,7 @@ I_n = (M_n \cdot n) - P
 ---
 
 ## Auto Loan Total Interest Calculator Real-World Case Study
+
 Financing a **$30,000 auto loan** at **7.0% APR**:
 
 | Loan Term | Monthly Payment | Total Payments | Total Interest Paid | Interest Cost Ratio (% of Principal) |
@@ -229,6 +231,7 @@ Financing a **$30,000 auto loan** at **7.0% APR**:
 ---
 
 ## Step-by-Step Guide for Using the Auto Loan Total Interest Calculator
+
 1. **Enter Net Loan Amount**: Input the total principal financed after trade-in and down payment credits.
 2. **Input Interest Rate (APR)**: Enter your loan interest rate.
 3. **Analyze Interest Escalation**: Compare total interest costs across 36, 48, 60, 72, and 84-month terms.
@@ -238,21 +241,28 @@ Financing a **$30,000 auto loan** at **7.0% APR**:
 ---
 
 ## Auto Loan Total Interest Calculator Frequently Asked Questions
+
 ### Why does an 84-month car loan cost so much more in interest?
+
 An 84-month (7-year) loan spreads principal repayments over a long timeline, meaning your principal balance remains high for years. Daily compounding interest applies to a large balance for 84 months, often doubling or tripling total interest paid compared to a 36-month loan.
 
 ### What is the most recommended auto loan term length?
+
 Financial experts generally recommend the '20/4/10' rule: put 20% down, finance for no more than 4 years (48 months), and ensure total transportation costs stay under 10% of gross income.
 
 ### Do lenders charge higher APRs for longer loan terms?
+
 Yes. Lenders view 72-month and 84-month loans as higher default risk due to vehicle depreciation and borrower life changes. APRs for 72+ month loans are typically 1% to 3% higher than 36 or 48-month rates.
 
 ### How can I calculate total interest paid manually?
+
 Total interest equals (Monthly Payment × Total Months Financed) minus Original Financed Principal.
 
 ### Can I take an 84-month loan to get low payments and pay it off early?
+
 Yes, provided your loan contract has no prepayment penalties. However, because interest rates are often higher on 84-month loans, you will still pay more interest per month unless you make aggressive extra principal payments from month 1.
 
 ### What is simple interest on a car loan?
+
 Simple interest accrues daily on the remaining unpaid principal balance. As you pay down principal each month, less daily interest accrues for the following month.
 

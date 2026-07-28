@@ -204,21 +204,28 @@ The table below illustrates lighting grid layouts, fixture quantities, and spaci
 ---
 
 ## Lighting Fixture Spacing Calculator Frequently Asked Questions
+
 ### How far apart should recessed lights be spaced?
+
 A standard rule of thumb is to divide ceiling height by 2. For an 8-foot ceiling, space fixtures 4 feet apart. For a 10-foot ceiling, space fixtures 5 feet apart. In addition, wall-to-fixture distance should be exactly half of the fixture-to-fixture distance.
 
 ### How far from the wall should recessed lights be installed?
+
 Recessed lights should be placed at half the distance between fixtures from the wall. For example, if fixtures are spaced 6 feet apart, place the first fixture 3 feet from the wall to eliminate shadows.
 
 ### What is a foot-candle (FC)?
+
 A foot-candle is a unit of illuminance equal to one lumen per square foot. Living rooms and bedrooms require 10 to 30 FC, kitchens and bathrooms require 40 to 50 FC, and detailed work areas require 70+ FC.
 
 ### Should I use 4-inch or 6-inch recessed can lights?
+
 4-inch LED recessed lights provide modern, sleek accent and general lighting with minimal glare. 6-inch fixtures provide wider flood coverage and are traditional in larger high-ceiling living rooms.
 
 ### What ceiling coefficient of utilization is used in lighting calculations?
+
 Standard architectural calculations use a Coefficient of Utilization (CU) of 0.60 to 0.70, accounting for light absorption by wall paint, furniture, and light fixtures.
 
 ### How do I prevent dark shadows in corners?
+
 Ensure perimeter lights sit no further than 2 to 3 feet from corner walls and avoid placing downlights directly above ceiling fan blades to eliminate strobing effects.
 

@@ -204,18 +204,24 @@ $$\text{Unvested Shares} = S_{total} - S_{vested}$$
 ---
 
 ## Startup Equity Vesting Calculator Frequently Asked Questions
+
 ### What is a 4-year vesting schedule with a 1-year cliff?
+
 A standard 4-year vesting schedule with a 1-year cliff means no shares vest during the first 12 months. At month 12, exactly 25% of the total grant vests at once, followed by 1/48th vesting monthly for the remaining 36 months.
 
 ### What happens if an employee leaves before the 1-year cliff?
+
 If an employee leaves before reaching the 12-month cliff, zero shares vest, and all granted stock options return to the unallocated option pool.
 
 ### How is the dollar value of vested equity calculated?
+
 Vested Dollar Value = Vested Shares × Current Share Price, where Share Price = Company Valuation ÷ Total Company Shares Outstanding.
 
 ### What is acceleration of vesting?
+
 Acceleration allows unvested shares to vest immediately upon specific events, such as acquisition (Single-Trigger) or acquisition followed by termination (Double-Trigger).
 
 ### Do founders also have vesting schedules?
+
 Yes. Venture capital investors require co-founders to submit to 4-year reverse vesting schedules to ensure long-term alignment and protect company continuity.
 

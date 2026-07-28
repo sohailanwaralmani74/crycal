@@ -235,16 +235,21 @@ The simulation continues until the balance reaches zero or the age exceeds 99.
 ---
 
 ## Retirement Withdrawal Calculator Frequently Asked Questions
+
 ### How does the retirement withdrawal calculator work?
+
 It simulates your retirement savings over time, accounting for investment returns, withdrawals, and inflation. It shows you exactly how long your funds will last based on your withdrawal rate.
 
 ### What is the 4% rule?
+
 The 4% rule is a common guideline for retirement withdrawals — withdraw 4% of your portfolio in the first year and adjust for inflation thereafter. It is designed to help your savings last 30 years.
 
 ### What is the difference between fixed and inflation‑adjusted withdrawals?
+
 Fixed withdrawals keep the same dollar amount each year. Inflation‑adjusted withdrawals increase each year based on the inflation rate, preserving your purchasing power over time.
 
 ### What is a sustainable withdrawal rate?
+
 A sustainable withdrawal rate allows your savings to last through retirement without running out. This varies based on your expected returns, time horizon, and risk tolerance. This calculator helps you find a sustainable rate.
 
 ---

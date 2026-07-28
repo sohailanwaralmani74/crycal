@@ -162,30 +162,39 @@ $$\text{Projected 4-Year Total} = \sum_{y=0}^{3} \text{Future Annual Cost} \time
 
 
 ## Strategic Guidance for College Cost Calculator
+
 Using this interactive calculation engine provides a clear, quantitative roadmap for your decisions. By eliminating mathematical uncertainty, you can optimize financial allocations, compare scenarios side-by-side, and make data-driven choices.
 
 ### Key Tactical Benefits of College Cost Calculator
+
 - **Mathematical Certainty**: Eliminates guesswork by modeling multi-variable compounding and precise cost structures.
 - **Scenario Comparison**: Test multiple interest rates, payment timelines, and capital allocations in real-time.
 - **Privacy Assurance**: All data remains 100% confidential within your local browser memory, with zero remote server logging.
 - **Export & Audit Readiness**: Log calculations to local browser storage, export full histories to CSV/Excel, or share via link.
 
 ## College Cost Calculator Frequently Asked Questions
+
 ### Why does education inflation matter for college planning?
+
 College tuition historically increases at 4% to 6% per year—roughly double the general rate of inflation. Accounting for tuition inflation ensures your 529 savings goals remain accurate.
 
 ### What expenses are included in 4-year college costs?
+
 College costs include tuition, mandatory student fees, room and board, textbooks, supplies, transportation, and personal living expenses.
 
 ### How does a 529 College Savings Plan help?
+
 A 529 plan allows your investments to grow 100% tax-free, and withdrawals used for qualified higher education expenses are completely tax-free.
 
 ### What is the average cost of a 4-year public vs private university?
+
 Currently, in-state public university 4-year costs average $100,000–$120,000 total, while private universities average $220,000–$300,000+ total.
 
 ### How much should parents save per month for college?
+
 Starting at birth, saving $250 to $400 per month in a 529 plan can cover 50% to 75% of a 4-year in-state public college total cost.
 
 ### What happens if a child decides not to go to college?
+
 529 plan funds can be transferred tax-free to siblings or family members, used for trade schools/apprenticeships, or rolled into a Roth IRA (up to $35,000 lifetime limit).
 

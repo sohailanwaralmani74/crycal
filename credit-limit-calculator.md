@@ -208,16 +208,21 @@ This calculator uses these weights to estimate your credit limit based on your s
 ---
 
 ## Credit Limit Calculator Frequently Asked Questions
+
 ### What is a credit limit calculator?
+
 A credit limit calculator estimates how much credit card limit you might qualify for based on your income, debts, and credit score.
 
 ### How is credit limit calculated?
+
 Lenders typically base credit limits on your income, debt-to-income ratio, credit score, and existing credit. This calculator uses these same factors.
 
 ### What is a good credit limit?
+
 A good credit limit depends on your income and spending habits. Generally, a higher limit can improve your credit utilization ratio if you don't increase your spending.
 
 ### How can I increase my credit limit?
+
 You can increase your credit limit by improving your credit score, paying down debts, increasing your income, or requesting a credit line increase from your issuer.
 
 ---

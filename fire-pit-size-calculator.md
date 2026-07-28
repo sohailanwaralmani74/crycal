@@ -225,21 +225,28 @@ The table below outlines material requirements across common fire pit dimensions
 ---
 
 ## Fire Pit Size Calculator Frequently Asked Questions
+
 ### How many blocks do I need to build a 36-inch circular fire pit?
+
 A 36-inch inside diameter fire pit with 8-inch deep blocks has a 52-inch outer diameter (163.36-inch circumference). Using 12-inch wide blocks, you need 14 blocks per ring. For a 16-inch high wall (4 courses), you need 56 blocks in total.
 
 ### What is the ideal inside diameter for a backyard wood-burning fire pit?
+
 The ideal inside diameter for a backyard fire pit is 36 inches to 44 inches. This size comfortably accommodates standard 16 to 18-inch firewood logs while keeping seating at a safe distance.
 
 ### How much lava rock or fire glass do I need for the bottom of a fire pit?
+
 A 36-inch diameter fire pit filled 4 inches deep requires 2.36 cubic feet of lava rock, which equals 5 bags of 0.5 cu ft decorative lava rock.
 
 ### Should a fire pit have a steel insert ring?
+
 Yes. A heavy-gauge steel fire pit ring insert protects concrete retaining wall blocks from direct heat exposure, thermal expansion cracking, and spalling.
 
 ### Do concrete fire pit blocks need landscape adhesive?
+
 Yes. Apply heavy-duty high-temperature construction adhesive or masonry adhesive between block courses to lock the ring structure permanently in place.
 
 ### How much does it cost to build a DIY block fire pit?
+
 A DIY block fire pit built with curved retaining wall blocks and lava rock costs $150 to $350 in materials. Contractor-installed stone fire pits range from $800 to $2,500.
 

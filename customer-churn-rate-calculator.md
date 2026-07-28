@@ -156,23 +156,31 @@ $$\text{Implied Customer Lifetime (Months)} = \frac{1}{\text{Monthly Churn Rate 
 ---
 
 ## Customer Churn Rate Calculator Frequently Asked Questions
+
 ### What is Customer Churn Rate?
+
 Customer Churn Rate (or logo churn rate) is the percentage of total customer accounts that cancel or fail to renew their subscription during a given period.
 
 ### What is the formula for Monthly Customer Churn Rate?
+
 Monthly Churn Rate (%) = (Lost Customers / Starting Customers) × 100.
 
 ### How do you calculate Annualized Churn Rate from a monthly percentage?
+
 Annual Churn Rate (%) = [1 − (1 − Monthly Churn Rate)^12] × 100.
 
 ### What is a good customer churn rate for SaaS?
+
 For Enterprise B2B SaaS, monthly churn should be under 0.5%–1.0% (5%–10% annually). For Mid-Market SaaS, 1%–1.5% monthly. For SMB SaaS, 2%–3% monthly is typical.
 
 ### How does Customer Churn Rate impact Average Customer Lifetime?
+
 Average Customer Lifetime (Months) = 1 / Monthly Churn Rate (decimal). For example, a 2% monthly churn rate yields an average customer lifespan of 50 months.
 
 ### Why is logo churn rate different from revenue churn rate?
+
 Logo churn measures account count attrition, while revenue churn measures dollar value lost. Losing 10 micro-accounts ($10/mo) is 10 lost logos but minimal revenue loss compared to losing 1 enterprise logo ($10,000/mo).
 
 ### What are the primary drivers of customer churn?
+
 Poor onboarding, lack of product usage, poor customer service, price sensitivity, and competitor replacement.

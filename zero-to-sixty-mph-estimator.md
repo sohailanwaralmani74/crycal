@@ -203,17 +203,21 @@ Key performance variables:
 ---
 
 ## Zero to Sixty Mph Estimator Mathematical Formulas
+
 ### 1. Weight-to-Power Ratio ($R_{W/P}$)
+
 \[
 R_{W/P} = \frac{\text{Weight}_{\text{lbs}}}{\text{Horsepower}_{\text{hp}}}
 \]
 
 ### 2. Ideal Baseline 0-60 Time ($t_{\text{base}}$)
+
 \[
 t_{\text{base}} = 13.8 \times \left( R_{W/P} \right)^{0.62}
 \]
 
 ### 3. Final Adjusted 0-60 mph Time ($t_{0-60}$)
+
 \[
 t_{0-60} = \max\left(1.8, \; t_{\text{base}} \times M_{\text{drivetrain}} \times M_{\text{trans}} \times M_{\text{tire}}\right)
 \]
@@ -238,6 +242,7 @@ Where drivetrain multipliers ($M_{\text{drivetrain}}$) are:
 ---
 
 ## Step-by-Step Zero to Sixty Mph Estimator Usage Guide
+
 1. **Enter Horsepower**: Input crank or total motor output horsepower rating.
 2. **Provide Curb Weight**: Input total vehicle weight in pounds.
 3. **Select Drivetrain**: Choose FWD, RWD, or AWD.
@@ -247,23 +252,31 @@ Where drivetrain multipliers ($M_{\text{drivetrain}}$) are:
 ---
 
 ## Zero to Sixty Mph Estimator Frequently Asked Questions
+
 ### How is 0-60 mph acceleration time estimated?
+
 0-60 mph acceleration depends primarily on power-to-weight ratio (hp/ton or lbs/hp) modified by traction limits (drivetrain/tires) and shift time losses (transmission type).
 
 ### Why does AWD accelerate faster to 60 mph than RWD or FWD with the same horsepower?
+
 AWD distributes engine torque across all four tires, doubling available contact patch area during launch and eliminating initial wheelspin.
 
 ### How much faster is a Dual-Clutch (DCT) or EV transmission than a manual?
+
 Dual-clutch (DCT) gearboxes shift in under 100 milliseconds without losing boost, saving 0.2 to 0.4 seconds compared to manual gear changes.
 
 ### What is 1-foot rollout in 0-60 testing?
+
 Drag strip timing equipment allows 1 foot of rolling distance before starting the timer, which subtracts approximately 0.2 to 0.3 seconds from raw standing start times.
 
 ### What power-to-weight ratio is required for a sub-4.0 second 0-60 time?
+
 Achieving sub-4.0 second 0-60 mph acceleration generally requires a weight-to-power ratio below 9.0 lbs/hp along with performance tires or AWD traction.
 
 ### How does vehicle weight impact acceleration?
+
 According to Newton's Second Law ($F = ma$), reducing vehicle mass increases acceleration for any given thrust force.
 
 ### Does the 0-60 mph estimator store my data?
+
 No. All calculations run 100% locally within your web browser.

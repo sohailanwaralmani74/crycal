@@ -217,25 +217,32 @@ Umbrella insurance protects your assets from lawsuits. This umbrella insurance c
 
 
 ## Strategic Guidance for Umbrella Insurance Calculator
+
 Using this interactive calculation engine provides a clear, quantitative roadmap for your decisions. By eliminating mathematical uncertainty, you can optimize financial allocations, compare scenarios side-by-side, and make data-driven choices.
 
 ### Key Tactical Benefits of Umbrella Insurance Calculator
+
 - **Mathematical Certainty**: Eliminates guesswork by modeling multi-variable compounding and precise cost structures.
 - **Scenario Comparison**: Test multiple interest rates, payment timelines, and capital allocations in real-time.
 - **Privacy Assurance**: All data remains 100% confidential within your local browser memory, with zero remote server logging.
 - **Export & Audit Readiness**: Log calculations to local browser storage, export full histories to CSV/Excel, or share via link.
 
 ## Umbrella Insurance Calculator Frequently Asked Questions
+
 ### What is umbrella insurance?
+
 Umbrella insurance provides additional liability coverage beyond what your home, auto, and other policies offer. It protects your assets in case of a lawsuit.
 
 ### How much umbrella coverage do I need?
+
 A common rule of thumb is to have enough umbrella coverage to protect your net worth and future income. This calculator helps you find a more precise number.
 
 ### What does umbrella insurance cover?
+
 Umbrella insurance covers bodily injury, property damage, personal injury (libel, slander), and landlord liability. It also covers legal defense costs.
 
 ### How much does umbrella insurance cost?
+
 Umbrella insurance is relatively inexpensive. A $1 million policy typically costs $150-$300 per year. Additional coverage is usually cheaper per million.
 
 ---

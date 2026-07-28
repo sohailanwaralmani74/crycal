@@ -202,16 +202,21 @@ The simulation runs month by month for both scenarios:
 ---
 
 ## Mortgage Payoff Calculator Frequently Asked Questions
+
 ### What is the Mortgage Payoff Calculator?
+
 It shows how extra monthly payments can shorten your mortgage term and reduce the total interest paid. You enter your current loan balance, rate, payment, and extra amount — and the tool tells you your new payoff date and total savings.
 
 ### How much can I save by paying extra on my mortgage?
+
 Even an extra $50-$200 per month can save thousands in interest and shave years off your loan. This calculator shows you the exact impact based on your numbers.
 
 ### What is the best way to pay off my mortgage early?
+
 Making extra payments toward principal is the most direct way. Bi-weekly payments, lump sum payments, and small monthly increases all help. Use this tool to test different scenarios.
 
 ### How is interest saved calculated?
+
 The calculator simulates your loan with and without extra payments. The difference in total interest between the two scenarios is your interest saved.
 
 ---

@@ -216,21 +216,28 @@ Below is an overage breakdown for a **1,500 sq ft flooring order** priced at **$
 ---
 
 ## Material Waste Percentage Calculator Frequently Asked Questions
+
 ### What is the standard waste factor percentage in construction?
+
 The industry standard waste factor across most residential construction materials (flooring, drywall, roofing, siding) is **10%**.
 
 ### Why do contractors need to add a waste percentage to material orders?
+
 Off-cut scrap pieces created when cutting materials around corners, doors, and outlets are rarely large enough to reuse. Waste allowance ensures tradesmen do not run out of materials mid-job.
 
 ### How do you calculate material total order with waste?
+
 Multiply net quantity by $(1 + \frac{\text{Waste \%}}{100})$. For example, 1,000 sq ft with 10% waste equals $1,000 \times 1.10 = 1,100 \text{ sq ft}$.
 
 ### How much waste percentage should I add for diagonal or herringbone tile?
+
 Add **15% to 20% waste allowance** for diagonal, chevron, or herringbone patterns because perimeter cuts produce triangular scraps that cannot be re-installed elsewhere.
 
 ### What happens if I order zero waste allowance?
+
 Ordering zero waste almost guarantees running out of material before project completion. Re-ordering later risks freight delays and color dye-lot mismatches between production runs.
 
 ### Should I keep leftover construction materials after the job?
+
 Yes. Keeping 1 full extra carton of flooring, tile, or siding allows easy future repair of water damage or cracked tiles without needing to replace the entire room.
 

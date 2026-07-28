@@ -170,6 +170,7 @@ Designing an outdoor timber pergola requires precise structural framing calculat
 This **Pergola & Gazebo Calculator** generates an exact structural bill-of-materials—separating posts, double beam headers, roof rafters, top purlins, and heavy-duty structural connector hardware.
 
 ### Key Benefits of Pergola Gazebo Calculator
+
 * **Complete Structural Takeoff:** Calculates 6x6 posts, double 2x10 beams, and 2x8 roof rafters in one step.
 * **Shade Density Optimization:** Supports 16" OC and 24" OC rafter spacing for custom shade control.
 * **Wood Grade Comparison:** Compares pressure-treated pine, Western Red Cedar, and Redwood pricing.
@@ -178,7 +179,9 @@ This **Pergola & Gazebo Calculator** generates an exact structural bill-of-mater
 ---
 
 ## Pergola Gazebo Calculator Mathematical Formulas & Mechanics
+
 ### 1. Structural Rafter Count
+
 Rafter members ($N_{\text{rafters}}$) across pergola length ($L_{\text{pergola}}$ in feet) at on-center spacing ($S_{\text{oc}}$ in feet):
 
 $$N_{\text{rafters}} = \left\lceil \frac{L_{\text{pergola}}}{S_{\text{oc}}} \right\rceil + 1$$
@@ -186,16 +189,19 @@ $$N_{\text{rafters}} = \left\lceil \frac{L_{\text{pergola}}}{S_{\text{oc}}} \rig
 Where $S_{\text{oc}} = 1.3333\text{ ft}$ (16" OC) or $S_{\text{oc}} = 2.0\text{ ft}$ (24" OC).
 
 ### 2. Double Beam Header Formula
+
 Double support beams ($N_{\text{beams}}$) spanning pergola length ($L_{\text{pergola}}$):
 
 $$N_{\text{beams}} = 2 \times \left\lceil \frac{L_{\text{pergola}}}{16\text{ ft max span}} \right\rceil$$
 
 ### 3. Support Post Count
+
 Corner support posts ($N_{\text{posts}}$) for footprint length ($L$) and width ($W$):
 
 $$N_{\text{posts}} = \begin{cases} 4 & \text{if } L \le 16\text{ ft and } W \le 16\text{ ft} \\ 6 & \text{if } L > 16\text{ ft or } W > 16\text{ ft} \end{cases}$$
 
 ### 4. Total Material Budget
+
 Total installed framing cost ($C_{\text{pergola}}$):
 
 $$C_{\text{pergola}} = A_{\text{footprint}} \times P_{\text{sqft\_lumber}} \times M_{\text{species\_multiplier}}$$
@@ -203,6 +209,7 @@ $$C_{\text{pergola}} = A_{\text{footprint}} \times P_{\text{sqft\_lumber}} \time
 ---
 
 ## Pergola Gazebo Calculator Benchmarks & Comparison Table
+
 The benchmark reference table below demonstrates structural material specifications and cost estimates across popular pergola sizes:
 
 | Footprint Size | Area (Sq Ft) | 6x6 Posts | Double 2x10 Beams | 2x8 Rafters (16" OC) | Estimated Cost (PT Pine) | Estimated Cost (Cedar) |
@@ -216,6 +223,7 @@ The benchmark reference table below demonstrates structural material specificati
 ---
 
 ## How to Use the Pergola Gazebo Calculator Step-by-Step
+
 1. **Establish Patio Footprint:** Stake out corner locations on your patio or lawn to define overall pergola length and width.
 2. **Dig Post Footings:** Excavate 12-inch diameter holes 36 to 48 inches deep below the frost line; pour concrete piers with elevated post brackets.
 3. **Erect 6x6 Corner Posts:** Plumb posts using structural bracing; attach posts to concrete anchors using 5/8-inch wedge anchor bolts.
@@ -225,23 +233,31 @@ The benchmark reference table below demonstrates structural material specificati
 ---
 
 ## Pergola Gazebo Calculator Frequently Asked Questions
+
 ### How many 6x6 posts do I need for a 12x16 pergola?
+
 A 12x16 foot free-standing pergola requires 4 corner 6x6 support posts if unspanned, or 6 posts if mid-span support is added for heavy timber beams.
 
 ### What size beams should be used for a 16-foot pergola span?
+
 A 16-foot clear beam span requires double 2x10 or double 2x12 pressure-treated or cedar beams through-bolted to 6x6 posts with 1/2-inch stainless steel carriage bolts.
 
 ### How far apart should pergola rafters be spaced?
+
 Pergola rafters are typically spaced 16 inches or 24 inches on-center. Spacing at 16 inches provides superior structural rigidity and denser shade projection.
 
 ### What is the cost difference between pressure-treated pine and cedar for a pergola?
+
 Western Red Cedar framing lumber costs roughly 2.0 to 2.5 times more than pressure-treated pine, but offers natural rot resistance without chemical treatment.
 
 ### How deep should pergola post footings be buried in concrete?
+
 Post footings should extend below the local frost line (typically 36 to 48 inches deep) and rest on concrete pier footings with elevated post anchor brackets.
 
 ### Should pergola beams sit on top of posts or be notched?
+
 Beams should sit directly on top of notched 6x6 posts or post-cap steel brackets to transfer vertical gravity loads directly down the post timber.
 
 ### Do you need a building permit for an outdoor pergola?
+
 Free-standing pergolas under 120 to 200 sq ft often do not require permits, but attached pergolas or those near property lines require building approval.

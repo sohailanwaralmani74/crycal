@@ -211,21 +211,28 @@ The table below outlines material requirements across standard retaining wall di
 ---
 
 ## Retaining Wall Block Calculator Frequently Asked Questions
+
 ### How many 12x6 blocks do I need for a 30 ft long, 3.5 ft high retaining wall?
+
 A 30 ft long by 3.5 ft high wall has 105 sq ft of face area. Using standard 12" × 6" blocks (0.5 sq ft per block), you will need 221 wall blocks (including 5% cut waste) and 30 capstones.
 
 ### How many blocks cover 1 square foot of retaining wall face area?
+
 For standard 12" × 6" blocks (0.5 sq ft face per block), exactly 2 blocks cover 1 square foot. For 18" × 8" jumbo blocks (1.0 sq ft face), 1 block covers 1 square foot.
 
 ### Why is gravel drainage backfill necessary behind retaining walls?
+
 Clean crushed gravel placed directly behind wall blocks creates a drainage column that prevents hydrostatic water pressure buildup, which is the leading cause of retaining wall tipping and structural failure.
 
 ### How deep should a retaining wall base course be buried?
+
 The bottom row (base course) of retaining wall blocks must be buried below ground level on a compacted 6-inch crushed stone leveling pad (approx. 1 inch of embedment per foot of wall height).
 
 ### Do I need top capstones for my segmental retaining wall?
+
 Yes. Capstones seal the top course of hollow or pin-connected wall blocks, preventing rainwater penetration into block cores and providing a clean finished aesthetic.
 
 ### When does a retaining wall require building permits and geogrid?
+
 Retaining walls exceeding 3 to 4 feet in total height generally require engineered geogrid soil reinforcement layers and building permits.
 

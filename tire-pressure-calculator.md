@@ -169,9 +169,11 @@ When ambient temperatures drop drastically in winter or when carrying heavy carg
 ---
 
 ## Tire Pressure Calculator Calculation Flow & Formulas
+
 The engine combines Gay-Lussac's Ideal Gas Law approximations for temperature with linear load distribution factors:
 
 ### Tire Pressure Calculator Inputs & Parameters
+
 | Input Parameter | Description |
 | :--- | :--- |
 | **Baseline OEM PSI (\(P_{base}\))** | Cold tire pressure printed on vehicle door jamb |
@@ -183,17 +185,21 @@ The engine combines Gay-Lussac's Ideal Gas Law approximations for temperature wi
 ---
 
 ### Step-by-Step Tire Pressure Calculator Formulas
+
 #### 1. Temperature Pressure Adjustment (\(\Delta P_{temp}\))
+
 \[
 \Delta P_{temp} = \frac{T_{base} - T_{current}}{10} \times 1.0 \text{ PSI}
 \]
 
 #### 2. Cargo Load Pressure Adjustment (\(\Delta P_{load}\))
+
 \[
 \Delta P_{load} = \left(\frac{L}{L_{max}}\right) \times 6.0 \text{ PSI}
 \]
 
 #### 3. Recommended Cold Target Inflation (\(P_{target}\))
+
 \[
 P_{target} = \min\left(P_{base} + \Delta P_{temp} + \Delta P_{load},\, P_{sidewall\_max}\right)
 \]
@@ -212,6 +218,7 @@ P_{target} = \min\left(P_{base} + \Delta P_{temp} + \Delta P_{load},\, P_{sidewa
 ---
 
 ## How to Use the Tire Pressure Calculator Step-by-Step
+
 1. **Check Door Placard**: Note your car's recommended cold pressure (e.g., `32 PSI`).
 2. **Input Current Weather**: Enter today's ambient outdoor temperature.
 3. **Account for Weight**: Enter total estimated cargo, gear, and tongue weight.
@@ -220,21 +227,28 @@ P_{target} = \min\left(P_{base} + \Delta P_{temp} + \Delta P_{load},\, P_{sidewa
 ---
 
 ## Tire Pressure Calculator Frequently Asked Questions
+
 ### How much does tire pressure drop when temperature decreases?
+
 As a general rule of thumb, tire pressure drops by approximately **1 PSI for every 10°F (5.6°C)** drop in ambient temperature due to thermal contraction of air inside the tire.
 
 ### Should I add extra PSI when towing or hauling heavy loads?
+
 Yes. Adding **2 to 6 PSI** (without exceeding the tire sidewall max PSI rating) helps support heavy cargo loads, reduces sidewall flexing, prevents overheating, and improves stability.
 
 ### When should tire pressure be measured?
+
 Tire pressure must be measured when tires are **cold**—meaning the car has been parked for at least 3 hours or driven less than 1 mile at low speeds.
 
 ### Can cold tire PSI exceed the number on the vehicle door jamb?
+
 Yes, when compensating for heavy payloads or severe winter cold, as long as it does not exceed the Maximum PSI rating stamped directly on the tire sidewall.
 
 ### What happens if tires are underinflated in cold weather?
+
 Underinflated tires suffer from increased rolling resistance, reduced fuel economy, accelerated shoulder tread wear, sluggish handling, and higher risk of hydroplaning.
 
 ### Does driving increase tire pressure?
+
 Yes. Friction and heat generated while driving typically increase internal tire pressure by **3 to 5 PSI** above cold inflation pressure.
 

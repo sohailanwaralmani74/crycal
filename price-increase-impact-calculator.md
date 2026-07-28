@@ -159,6 +159,7 @@ This calculator answers the critical question: **How many customers can we affor
 ---
 
 ## Key Price Increase Impact Calculator Mathematical Formulas
+
 ### 1. New Monthly Price & Post-Increase MRR
 
 $$ \text{New Price} = \text{Current Price} \times (1 + \text{Price Increase \%}) $$
@@ -201,20 +202,27 @@ $$ \text{Max Tolerable Churn \%} = \frac{\text{Price Increase \%}}{1 + \text{Pri
 ---
 
 ## Price Increase Impact Calculator Frequently Asked Questions
+
 ### Why do most SaaS price increases result in net revenue gain?
+
 Because price elasticity in B2B SaaS is typically low. A 20% price increase usually causes less than 5% customer churn, leaving a 15% net revenue gain.
 
 ### What is Maximum Tolerable Churn?
+
 Maximum Tolerable Churn is the exact percentage of customer cancellations a SaaS company can sustain after a price increase before net revenue falls below baseline MRR.
 
 ### How is Maximum Tolerable Churn calculated?
+
 Formula: Max Tolerable Churn % = (Price Increase %) ÷ (1 + Price Increase %). For example, a 25% price increase allows up to 20% churn before net MRR declines.
 
 ### Should I grandfather existing customers during a price increase?
+
 Grandfathering preserves existing customer goodwill, but delays expansion revenue. Many SaaS companies offer legacy users a 6-12 month grace period before applying new rates.
 
 ### How should SaaS companies communicate a price increase?
+
 Give at least 30 to 60 days advance notice, frame the change around added product value/features released, and provide options for annual prepay locking at current rates.
 
 ### How often should B2B SaaS companies increase prices?
+
 Most mature B2B SaaS companies evaluate and adjust pricing every 12 to 18 months as product functionality and ROI value increase.

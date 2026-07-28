@@ -218,21 +218,28 @@ The tool handles **RNRB**, **spouse transfer**, **7-year gifts**, **charity redu
 ---
 
 ## IHT Tax Calculator Frequently Asked Questions
+
 ### What is Inheritance Tax (IHT) in the UK?
+
 Inheritance Tax is a tax on the estate of someone who has died. In the UK, it is charged at 40% on the portion above the nil-rate band (£325,000 in 2025/26).
 
 ### What is the nil-rate band?
+
 The nil-rate band (NRB) is the threshold below which no IHT is payable. For 2025/26, the standard NRB is £325,000 per person.
 
 ### What is the residence nil-rate band?
+
 The RNRB is an additional allowance of up to £175,000 (2025/26) if you leave your main residence to direct descendants.
 
 ### Can I transfer unused nil-rate band to my spouse?
+
 Yes — unused NRB and RNRB can be transferred to a surviving spouse or civil partner, potentially doubling the allowances.
 
 ### How do gifts affect Inheritance Tax?
+
 Gifts made within 7 years of death are added back to the estate. They are taxed at 40% above the NRB, with taper relief reducing tax if gifted 3-7 years before death.
 
 ### Does leaving money to charity reduce IHT?
+
 Yes — leaving at least 10% of your estate to charity reduces the IHT rate from 40% to 36% on the taxable portion.
 

@@ -220,7 +220,9 @@ Our **car loan early payoff calculator** helps you:
 ---
 
 ## Car Loan Early Payoff Calculator Formulas & Principles
+
 ### Standard Monthly Amortization
+
 For remaining balance \(B\), monthly rate \(r = \text{APR}/12/100\), and remaining term \(n\):
 
 \[
@@ -228,6 +230,7 @@ M = B \cdot \frac{r(1 + r)^n}{(1 + r)^n - 1}
 \]
 
 ### Accelerated Monthly Strategy
+
 Total monthly payment \(M_{\text{acc}} = M + E\). The shortened number of months \(n_{\text{acc}}\) is:
 
 \[
@@ -235,6 +238,7 @@ n_{\text{acc}} = \frac{\ln\left( \frac{M_{\text{acc}}}{M_{\text{acc}} - r B} \ri
 \]
 
 ### Bi-Weekly Strategy
+
 Bi-weekly payment \(M_{\text{bw}} = M / 2\). Total annual payments = \(26 \cdot M_{\text{bw}} = 13 \cdot M\).
 Effective monthly contribution = \(M_{\text{eff}} = \frac{13 \cdot M}{12}\).
 
@@ -250,6 +254,7 @@ Effective monthly contribution = \(M_{\text{eff}} = \frac{13 \cdot M}{12}\).
 ---
 
 ## Car Loan Early Payoff Calculator Real-World Case Study
+
 Financing a **$20,000 car loan balance** at **6.8% APR** with **48 remaining months** (standard payment = **$477.03/mo**):
 
 | Payoff Strategy | Monthly Outlay | Payoff Duration | Months Saved | Total Interest Paid | Total Interest Saved |
@@ -265,6 +270,7 @@ Financing a **$20,000 car loan balance** at **6.8% APR** with **48 remaining mon
 ---
 
 ## Step-by-Step Guide for Using the Car Loan Early Payoff Calculator
+
 1. **Enter Current Loan Balance**: Check your recent loan statement for the exact principal balance.
 2. **Input Current APR & Term**: Enter your interest rate and remaining scheduled months.
 3. **Select Payoff Strategy**: Choose between extra monthly payments or bi-weekly scheduling.
@@ -274,23 +280,31 @@ Financing a **$20,000 car loan balance** at **6.8% APR** with **48 remaining mon
 ---
 
 ## Car Loan Early Payoff Calculator Frequently Asked Questions
+
 ### How does bi-weekly auto loan payment work?
+
 With bi-weekly payments, you pay half of your standard monthly payment every two weeks. Because there are 52 weeks in a year, you make 26 half-payments (equivalent to 13 full monthly payments per year). That extra full payment each year directly reduces principal, shortening your loan term.
 
 ### Are extra payments applied directly to principal?
+
 Most simple-interest car loans automatically apply extra payments to principal if your regular monthly bill is up to date. However, confirm with your loan servicer that extra payments are tagged as 'Principal Only' rather than an advance against future monthly bills.
 
 ### Is paying off a car loan early always beneficial?
+
 Paying off high-interest loans (e.g., above 6%) yields an immediate risk-free return equal to your APR. For low-rate loans (e.g., 0% to 3%), you may prefer to invest extra cash elsewhere.
 
 ### Will early payoff trigger any hidden fees?
+
 Under federal law and state regulations, standard consumer auto loans rarely carry prepayment penalties today. Always review your original contract disclosures to verify.
 
 ### How much faster will bi-weekly payments pay off my loan?
+
 Bi-weekly payments typically shave 5 to 8 months off a standard 60-month loan without requiring a significant budget adjustment.
 
 ### What is the lump-sum early payoff strategy?
+
 Instead of extra recurring monthly payments, a lump-sum payoff applies a single large sum (e.g., tax refund or bonus) directly to principal, lowering future daily interest accrual immediately.
 
 ### Is my personal financial information safe?
+
 Yes. All calculations process strictly inside your local web browser. No financial data is collected or sent to remote servers.

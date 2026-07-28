@@ -187,21 +187,28 @@ The table below outlines airflow capacities across standard residential round du
 ---
 
 ## Duct Sizing Calculator Frequently Asked Questions
+
 ### How do I calculate required duct size for a given CFM?
+
 Divide CFM by air velocity in FPM to get duct area in square feet ($A = \text{CFM} / \text{FPM}$). Convert to square inches by multiplying by 144, then solve for round diameter $d = \sqrt{(4 \times A) / \pi}$.
 
 ### What size duct is needed for 400 CFM airflow?
+
 At a standard residential branch duct velocity of 700 FPM, 400 CFM requires an exact diameter of 10.2 inches, which rounds up to a standard 10-inch or 12-inch round flex duct.
 
 ### What is recommended air velocity (FPM) in residential ductwork?
+
 Branch ducts and flex runs should maintain 600 to 700 FPM to prevent noise. Main supply trunk ducts operate at 700 to 900 FPM. Main return trunks run at 600 to 800 FPM.
 
 ### What CFM is required per ton of air conditioning?
+
 A standard central HVAC cooling system requires approximately 400 CFM of airflow per 1 ton (12,000 BTU) of cooling capacity (e.g., a 3-ton unit needs 1,200 CFM).
 
 ### Why does flexible ducting have higher pressure loss than rigid sheet metal?
+
 Flex duct has inner corrugated wire ribbing and sag that creates friction resistance, increasing static pressure drop by 20% to 50% compared to smooth galvanized sheet metal.
 
 ### What happens if an HVAC duct is undersized?
+
 Undersized ducts create high static pressure, noisy air registers, restricted airflow, uneven room cooling/heating, and premature blower motor failure.
 

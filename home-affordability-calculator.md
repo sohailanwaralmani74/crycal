@@ -270,19 +270,25 @@ Buying a home is one of the biggest financial decisions you'll make. This afford
 ---
 
 ## Home Affordability Calculator Frequently Asked Questions
+
 ### How much house can I afford?
+
 The amount depends on your income, debts, down payment, interest rate, and lender guidelines. This home affordability calculator gives you a clear estimate based on standard DTI limits.
 
 ### How is maximum home price calculated?
+
 The affordability calculator uses your income, debts, down payment, and interest rate to determine the maximum loan amount you can qualify for — then adds your down payment to show the total home price you can afford.
 
 ### What are front-end and back-end DTI limits?
+
 Front-end DTI is the percentage of your income going toward housing costs. Back-end DTI includes all monthly debts. Lenders typically use 28% and 36% as guidelines, but this calculator lets you adjust them.
 
 ### How expensive of a house can I afford?
+
 This home affordability calculator factors in your full financial picture — including taxes, insurance, and HOA fees — so you can see how expensive of a home you can truly afford.
 
 ### How much home can you afford on a $100,000 salary?
+
 With a $100,000 salary, minimal debts, and a 20% down payment, you can typically afford a home in the $300,000-$400,000 range, depending on interest rates and taxes. Use this calculator to get a personalized estimate.
 
 ---

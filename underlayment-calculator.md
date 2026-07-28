@@ -168,11 +168,14 @@ Utilizing this **Underlayment Calculator** helps roofing contractors and DIY hom
 ---
 
 ## Underlayment Calculator Mathematical Formulas & Mechanics
+
 ### 1. Roof Squares & Waste Area Formula
+
 $$\text{Roof Squares} = \frac{A_{\text{roof}}}{100}$$
 $$A_{\text{gross}} = A_{\text{roof}} \times \left(1 + \frac{W}{100}\right)$$
 
 ### 2. Effective Net Roll Coverage Area
+
 $$\text{Net Roll Coverage} = A_{\text{roll}} \times \left(1 - \frac{\text{Lap Overhead (\%)}}{100}\right)$$
 
 Where nominal roll areas ($A_{\text{roll}}$) are:
@@ -182,6 +185,7 @@ Where nominal roll areas ($A_{\text{roll}}$) are:
 - **Peel & Stick Ice Shield:** $200\text{ sq ft}$ (Net $\approx 180\text{ sq ft}$)
 
 ### 3. Total Required Rolls & Material Cost
+
 $$\text{Total Rolls (Standard Slope)} = \left\lceil \frac{A_{\text{gross}}}{\text{Net Roll Coverage}} \right\rceil$$
 $$\text{Total Rolls (Low Slope 2/12 - 4/12)} = 2 \times \left\lceil \frac{A_{\text{gross}}}{\text{Net Roll Coverage}} \right\rceil$$
 $$\text{Total Material Cost} = \text{Total Rolls} \times \text{Price per Roll}$$
@@ -189,6 +193,7 @@ $$\text{Total Material Cost} = \text{Total Rolls} \times \text{Price per Roll}$$
 ---
 
 ## Underlayment Calculator Benchmarks & Comparison Table
+
 Material comparison and roll requirements for a standard $2,500\text{ sq ft}$ roof surface:
 
 | Underlayment Type | Nominal Roll Size | Net Coverage / Roll | Rolls Needed (25 Squares + 10% Waste) | Weight per Roll | Exposure Limit |
@@ -201,6 +206,7 @@ Material comparison and roll requirements for a standard $2,500\text{ sq ft}$ ro
 ---
 
 ## How to Use the Underlayment Calculator Step-by-Step
+
 1. **Measure Sloped Roof Area:** Determine total sloped square footage or calculate ground footprint multiplied by pitch slope multiplier.
 2. **Select Material Type:** Choose synthetic underlayment, #30 felt, #15 felt, or self-adhered peel-and-stick ice & water shield.
 3. **Select Pitch Slope Classification:** Choose standard slope ($\ge 4/12$) or low slope ($2/12$ to $4/12$ requiring double-layer application).
@@ -210,23 +216,31 @@ Material comparison and roll requirements for a standard $2,500\text{ sq ft}$ ro
 ---
 
 ## Underlayment Calculator Frequently Asked Questions
+
 ### How many square feet are in a roll of synthetic roof underlayment?
+
 A standard roll of synthetic roof underlayment measures 4 feet wide by 250 feet long, containing 1,000 square feet (10 roofing squares) nominal gross area.
 
 ### How much actual roof coverage does a roll of synthetic underlayment provide?
+
 After accounting for standard 4-inch horizontal laps and 6-inch end overlaps, a 1,000 sq ft synthetic roll covers approximately 880 to 900 square feet of actual roof surface.
 
 ### What underlayment is required for low-slope roofs (2/12 to 4/12 pitch)?
+
 Building codes (IRC/IBC) require a double-layer underlayment application on low-slope roofs (2/12 to 4/12 pitch), achieved by overlapping courses by 19 inches (half-lap), effectively doubling roll requirements.
 
 ### Is synthetic underlayment better than #30 felt paper?
+
 Synthetic underlayment is lighter, stronger, tear-resistant, covers up to 5x more area per roll than #30 felt, and offers superior UV exposure limits during installation.
 
 ### How many rolls of #30 felt do I need for a 2,000 sq ft roof?
+
 A roll of #30 felt covers 216 sq ft gross (approx 190 sq ft net). For a 2,000 sq ft roof with 10% waste, you need approximately 12 rolls of #30 felt.
 
 ### What is the recommended overlap for roof underlayment seams?
+
 Standard slope roofs require a minimum 4-inch horizontal side lap and 6-inch vertical end lap. Eaves and valleys in cold climates require self-adhering ice & water shield.
 
 ### How much waste allowance should be added for roof hips and valleys?
+
 Simple gable roofs require 5% to 10% waste, while complex roofs with hips, valleys, dormers, and skylights require 12% to 15% waste.

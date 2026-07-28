@@ -204,18 +204,24 @@ The tool updates instantly as you adjust any input — no "Calculate" button req
 ---
 
 ## Stock Split Calculator Frequently Asked Questions
+
 ### What is a stock split?
+
 A stock split is when a company divides its existing shares into multiple shares to increase liquidity. The total value of your investment stays the same, but the number of shares increases and the price per share decreases proportionally.
 
 ### What is a reverse stock split?
+
 A reverse stock split is when a company combines multiple shares into one share. The total value of your investment stays the same, but the number of shares decreases and the price per share increases proportionally.
 
 ### How is the new share count calculated?
+
 New Shares = Current Shares × Split Ratio. For a 2:1 forward split with 100 shares, new shares = 200. For a 1:2 reverse split with 100 shares, new shares = 50.
 
 ### How is the adjusted cost per share calculated?
+
 Adjusted Cost Per Share = Total Cost Basis ÷ New Shares. The total cost basis remains unchanged in a stock split.
 
 ### Does a stock split affect my total cost basis?
+
 No. The total cost basis remains unchanged. Only the number of shares and the cost per share are adjusted.
 

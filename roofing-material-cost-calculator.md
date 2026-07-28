@@ -204,21 +204,28 @@ $$\text{Total Installed Cost per Sq Ft} = \frac{\text{Total Installed Cost}}{\te
 ---
 
 ## Roofing Material Cost Calculator Frequently Asked Questions
+
 ### What is the average cost to replace a roof?
+
 The average cost to replace a 2,000 sq ft roof ranges from $7,500 to $14,000 for architectural shingles, $14,000 to $25,000 for metal, and $25,000 to $50,000+ for tile or slate.
 
 ### What is the cheapest roofing material?
+
 Standard 3-tab asphalt shingles are the cheapest roofing material ($90 to $110 per square for materials, $4.00 to $6.00 per sq ft installed).
 
 ### How much does a square of architectural shingles cost?
+
 Architectural shingle materials cost between $120 and $180 per square ($1.20 to $1.80 per sq ft). Total installed cost ranges from $4.50 to $7.50 per sq ft.
 
 ### Why is metal roofing more expensive than asphalt?
+
 Standing seam metal roofs use higher quality galvanized steel or aluminum, require specialized trim/flashing, and demand skilled labor, yielding a 40-70 year lifespan vs 20-25 years for shingles.
 
 ### How much does old roof tear-off and disposal cost?
+
 Old roof removal and dumpster disposal typically add $1.00 to $2.50 per square foot depending on local dumping fees and the number of old shingle layers being removed.
 
 ### What accessories are included in underlayment costs?
+
 Roofing accessories include synthetic or felt underlayment, drip edge metal flashing, ice and water shield membrane, starter strips, ridge caps, and roofing nails.
 

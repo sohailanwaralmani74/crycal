@@ -244,16 +244,21 @@ Where:
 ---
 
 ## Mortgage Calculator Frequently Asked Questions
+
 ### How does the mortgage calculator work?
+
 It calculates your monthly mortgage payment based on the loan amount, interest rate, loan term, property taxes, insurance, and PMI. The payment is then broken down into principal, interest, taxes, insurance, and PMI.
 
 ### What is PMI and when do I pay it?
+
 Private Mortgage Insurance (PMI) is required when your down payment is less than 20% of the home price. It protects the lender if you default. You can request cancellation once your equity reaches 20%.
 
 ### What is the formula used for mortgage calculations?
+
 We use the standard mortgage payment formula: M = P × r × (1 + r)^n ÷ ((1 + r)^n − 1), where P is the loan amount, r is the monthly interest rate, and n is the number of monthly payments.
 
 ### What is a good down payment?
+
 A 20% down payment is ideal because it avoids PMI, reduces your monthly payment, and lowers the total interest paid. However, many programs allow down payments as low as 3-5%.
 
 ---

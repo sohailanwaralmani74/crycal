@@ -201,21 +201,28 @@ $$\text{Landing Tread Linear Feet} = \frac{\text{Tread Width (in)}}{12}$$
 ---
 
 ## Stair Tread Calculator Frequently Asked Questions
+
 ### What is the difference between stair treads and risers?
+
 A stair tread is the horizontal surface that you step on. A stair riser is the vertical face between each step.
 
 ### How many treads do I need for a staircase?
+
 For a straight single-flight staircase, the number of tread caps required equals the number of vertical risers minus 1 (Treads = Risers - 1). The top riser steps directly onto the upper landing floor.
 
 ### What are retrofit stair tread caps?
+
 Retrofit stair tread caps (or tread overlays) are 5/8" to 3/4" thick solid wood or composite boards designed to cap directly over existing rough carpeted framing treads without rebuilding the staircase.
 
 ### How do you calculate side return trim for open stairs?
+
 Each open step requires a 45-degree mitered side return piece (approximately 11.5 inches long). Multiply open sides count by the number of treads, then multiply by 11.5 inches to convert to linear feet.
 
 ### What is a landing tread?
+
 A landing tread (or stair nose) is a specialized grooved molding installed along the edge of the upper floor landing to transition flat floorboards to the top stair riser.
 
 ### What is the standard width of a residential stair tread?
+
 Standard residential stair treads are 36 inches (3 feet) wide. Custom staircases range from 42 to 48 inches wide.
 

@@ -272,18 +272,24 @@ A **CD ladder** is a savings strategy where you invest in multiple certificates 
 ---
 
 ## CD Ladder Calculator Frequently Asked Questions
+
 ### What is a CD ladder?
+
 A CD ladder is a strategy where you invest in multiple CDs with staggered maturity dates, providing regular access to funds while capturing higher yields on longer-term CDs.
 
 ### How does a CD ladder work?
+
 You divide your investment across multiple CDs with different maturity dates. When the shortest-term CD matures, you reinvest the proceeds into a new CD at the longest end of your ladder.
 
 ### What are the benefits of a CD ladder?
+
 A CD ladder provides regular access to funds, reduces reinvestment risk, and allows you to capture higher yields on longer-term CDs while maintaining liquidity.
 
 ### What is the best CD ladder length?
+
 A common strategy is a 5-rung ladder over 60 months (12, 24, 36, 48, 60 months). This provides annual access to funds while capturing higher long-term rates.
 
 ### How is interest calculated for a CD ladder?
+
 Interest is typically compounded daily or monthly. The calculator uses daily compounding for accuracy.
 

@@ -212,21 +212,28 @@ $$\text{Primer Gallons} = \left\lceil \frac{\text{Floor Area}}{\text{Primer Cove
 ---
 
 ## Floor Leveling Compound Calculator Frequently Asked Questions
+
 ### What is self-leveling underlayment (SLU)?
+
 Self-leveling underlayment (SLU) is a cementitious pourable compound that flows easily across uneven concrete or wood subfloors to create a flat, smooth, level base for luxury vinyl plank, tile, or hardwood flooring.
 
 ### How many square feet does a 50lb bag of self-leveler cover?
+
 A standard 50lb bag of self-leveling compound covers approximately 40 sq ft at 1/8" depth, 20 sq ft at 1/4" depth, 10 sq ft at 1/2" depth, and 5 sq ft at 1" depth.
 
 ### Formula for self-leveling compound bags?
+
 Bags Needed = (Floor Area in sq ft × Pour Depth in inches) / (0.125 × Bag Yield at 1/8" in sq ft). Add 10% for mixing loss and edge expansion foam borders.
 
 ### Why is subfloor primer required before pouring SLU?
+
 Primer seals porous concrete or wood subfloors, preventing the substrate from rapidly absorbing water from the SLU mix. This prevents pinholes, air bubbles, and weak bonding.
 
 ### How thick can you pour self-leveling underlayment?
+
 Most standard self-levelers can be poured from 1/8" up to 1" thick in a single lift. For deeper pours up to 2" or 3", aggregate extension (pea gravel) must be added per manufacturer instructions.
 
 ### How long does self-leveling compound take to dry?
+
 SLU is walkable in 2 to 4 hours. You can install ceramic tile in 4 to 12 hours, while moisture-sensitive floors like luxury vinyl or hardwood require 16 to 24 hours of drying.
 

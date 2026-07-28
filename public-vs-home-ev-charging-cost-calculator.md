@@ -208,12 +208,15 @@ Key financial insights:
 ---
 
 ## Public vs Home EV Charging Cost Calculator Mathematical Formulas
+
 ### 1. Total Annual Energy Needed ($\text{kWh}_{\text{annual}}$)
+
 \[
 \text{kWh}_{\text{annual}} = \frac{\text{Miles}_{\text{annual}}}{\text{Efficiency}_{\text{mi/kWh}}}
 \]
 
 ### 2. Home & Public Cost Components
+
 \[
 \text{Cost}_{\text{home}} = \text{kWh}_{\text{annual}} \times \left( \frac{\%_{\text{home}}}{100} \right) \times R_{\text{home}}
 \]
@@ -222,11 +225,13 @@ Key financial insights:
 \]
 
 ### 3. Total Blended Annual Cost ($\text{Cost}_{\text{blended}}$)
+
 \[
 \text{Cost}_{\text{blended}} = \text{Cost}_{\text{home}} + \text{Cost}_{\text{public}}
 \]
 
 ### 4. Blended Cost per Mile ($C_{\text{mile}}$)
+
 \[
 C_{\text{mile}} = \frac{\text{Cost}_{\text{blended}}}{\text{Miles}_{\text{annual}}}
 \]
@@ -246,6 +251,7 @@ C_{\text{mile}} = \frac{\text{Cost}_{\text{blended}}}{\text{Miles}_{\text{annual
 ---
 
 ## Step-by-Step Public vs Home EV Charging Cost Calculator Usage Guide
+
 1. **Enter Annual Miles**: Input expected yearly driving distance (e.g. 13,000 miles).
 2. **Set EV Efficiency**: Provide vehicle efficiency rating (e.g. 3.5 mi/kWh).
 3. **Input Electricity Rates**: Enter home utility rate ($0.14/kWh) and public charger rate ($0.42/kWh).
@@ -255,23 +261,31 @@ C_{\text{mile}} = \frac{\text{Cost}_{\text{blended}}}{\text{Miles}_{\text{annual
 ---
 
 ## Public vs Home EV Charging Cost Calculator Frequently Asked Questions
+
 ### Why is public DC fast charging so much more expensive than home charging?
+
 Public station operators must recoup high commercial demand charges, multi-million dollar transformer hardware installations, network software maintenance, and land lease costs.
 
 ### What is a typical home vs public charging split for EV owners?
+
 Industry surveys indicate EV owners do approximately 80% to 90% of their total annual charging at home overnight, relying on public fast chargers mainly during long road trips.
 
 ### How much can I save per year by charging 85% at home?
+
 For a vehicle driven 13,000 miles per year, charging 85% at home saves approximately $900 to $1,200 per year compared to relying 100% on public DC fast chargers.
 
 ### What is the average cost per mile for home charging vs public fast charging?
+
 At 3.5 mi/kWh, home charging ($0.14/kWh) costs ~$0.040 per mile, while public fast charging ($0.42/kWh) costs ~$0.120 per mile.
 
 ### Do public Level 2 stations cost less than DC fast chargers?
+
 Yes. Public Level 2 stations often charge $0.20 to $0.30 per kWh (or flat hourly rates), which is significantly cheaper than DC fast chargers ($0.40 to $0.55/kWh).
 
 ### Does utility Time-of-Use (TOU) off-peak pricing lower home charging costs further?
+
 Yes. Many electric utilities offer off-peak EV rates as low as $0.06 to $0.10 per kWh between midnight and 6 AM, maximizing your savings.
 
 ### Does the Public vs Home EV charging calculator store my data?
+
 No. All calculations run 100% locally within your browser session.

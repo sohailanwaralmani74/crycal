@@ -193,15 +193,20 @@ This **bond yield calculator** is designed for:
 ---
 
 ## Bond Yield to Maturity Calculator Frequently Asked Questions
+
 ### What is yield to maturity (YTM)?
+
 Yield to maturity is the total annualized return an investor can expect if a bond is held until it matures, accounting for coupon payments, purchase price, and face value.
 
 ### How is YTM calculated?
+
 YTM can be approximated using a simplified formula, or calculated precisely by finding the discount rate that makes the present value of all future coupon payments and the face value equal to the bond's current price.
 
 ### What's the difference between current yield and YTM?
+
 Current yield only considers annual coupon income relative to price, while YTM also factors in any gain or loss from the difference between the purchase price and face value at maturity.
 
 ### Why would a bond trade below face value?
+
 A bond trades below face value (at a discount) when its coupon rate is lower than prevailing market interest rates, making it less attractive unless priced lower to compensate investors.
 

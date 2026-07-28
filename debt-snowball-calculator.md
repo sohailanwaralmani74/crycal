@@ -26,6 +26,7 @@ inputs:
       - monthly
 
 # Debt Snowball Calculator - Eliminate Debt Balances Smallest to Largest
+
 # Each debt has: name, balance, interestRate, minimumPayment
 
 outputs:
@@ -170,16 +171,21 @@ The debt snowball method is a proven strategy for paying off debt. This calculat
 ---
 
 ## Debt Snowball Calculator Frequently Asked Questions
+
 ### What is the debt snowball method?
+
 The debt snowball method involves listing your debts from smallest to largest balance, paying minimums on all debts, and putting any extra money toward the smallest balance until it's paid off. Then you roll that payment to the next debt — like a snowball growing as it rolls downhill.
 
 ### How is this different from the debt avalanche method?
+
 The debt avalanche method targets the highest interest rate first, saving the most money in interest. The debt snowball targets the smallest balance first, providing psychological wins and momentum. This calculator uses the snowball method.
 
 ### What happens when I pay off a debt?
+
 The payment you were making on the paid-off debt (minimum payment + any extra) rolls to the next debt. This accelerates your payoff.
 
 ### Can I add more debts later?
+
 Yes — you can add, edit, or remove debts at any time. The calculator updates instantly.
 
 ---

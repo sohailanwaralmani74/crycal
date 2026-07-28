@@ -259,16 +259,21 @@ Understanding your capital gains tax is essential for investment planning. This 
 ---
 
 ## Capital Gains Calculator Frequently Asked Questions
+
 ### What is capital gains tax?
+
 Capital gains tax is a tax on the profit from the sale of an asset. It applies to stocks, real estate, crypto, and other investments.
 
 ### What is the difference between short-term and long-term capital gains?
+
 Short-term capital gains are from assets held for less than the long-term threshold (typically 1 year in many countries). Long-term gains are from assets held for longer and are often taxed at a lower rate.
 
 ### How is the cost basis calculated?
+
 Cost basis = Purchase Price + Improvement Costs + Selling Costs. It represents your total investment in the asset.
 
 ### Can I use the Capital Gains Calculator globally?
+
 Yes — you enter your own tax rates and exemption amounts. This tool works for any country's capital gains tax system.
 
 ---

@@ -147,6 +147,7 @@ Relying exclusively on direct-response performance ads (Google Search, retargeti
 ---
 
 ## Brand vs Performance Ad Spend Calculator Mathematical Formulas
+
 ### 1. Budget Division
 
 $$ \text{Brand Budget (\$) } = \text{Total Ad Budget} \times \left( \frac{\text{Brand Share \%}}{100} \right) $$
@@ -174,6 +175,7 @@ $$ \text{Organic Lift Factor} = 1.0 + \left( \frac{\text{Brand Share \%}}{100} \
 ---
 
 ## Step-by-Step Brand vs Performance Ad Spend Calculator Guide
+
 1. **Set Aggregate Ad Budget**: Input available monthly advertising dollars.
 2. **Select Ratio Framework**: Choose between 60/40 (classic), 50/50 (balanced), or 30/70 (early growth).
 3. **Input Direct CAC**: Enter direct performance CAC from Google/LinkedIn Search Ads.
@@ -182,20 +184,27 @@ $$ \text{Organic Lift Factor} = 1.0 + \left( \frac{\text{Brand Share \%}}{100} \
 ---
 
 ## Brand vs Performance Ad Spend Calculator Frequently Asked Questions
+
 ### What is the 60/40 Rule in Advertising?
+
 Developed by researchers Les Binet and Peter Field, the 60/40 rule recommends spending 60% of marketing budget on long-term brand building and 40% on short-term performance activation.
 
 ### What is Brand Advertising?
+
 Brand advertising creates emotional connection, mental availability, and long-term brand equity without demanding immediate conversion.
 
 ### What is Performance Advertising?
+
 Performance advertising focuses on immediate direct-response conversions (clicks, form fills, sales) with trackable short-term metrics.
 
 ### Why does over-indexing on performance ads hurt SaaS growth?
+
 Over-indexing on performance ads exhausts high-intent demand pools, leading to skyrocketing CAC and plateaued growth as audience market saturation occurs.
 
 ### What is the optimal split for B2B SaaS?
+
 While 60/40 is standard for consumer brands, B2B SaaS firms typically start at 40% Brand / 60% Performance during early stages, transitioning toward 50/50 or 60/40 as ARR scales beyond $10M.
 
 ### How does brand spend lower performance CAC?
+
 Strong brand awareness increases ad click-through rates (CTR) and conversion rates on direct-response ads, lowering overall Customer Acquisition Cost.

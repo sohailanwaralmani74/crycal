@@ -208,21 +208,28 @@ $$\text{Triangular Grid Plants} = \left( \left\lfloor \frac{\text{Length}}{\text
 ---
 
 ## Tree Shrub Spacing Calculator Frequently Asked Questions
+
 ### How far apart should privacy hedge trees be planted?
+
 Fast-growing evergreen privacy trees (like Emerald Green Arborvitae or Leyland Cypress) should be planted 3 to 6 feet apart on center for a tight visual screen. Larger shade trees require 12 to 20 feet of spacing.
 
 ### What is a double staggered row hedge?
+
 A double staggered row consists of two parallel planting lines spaced 3 to 4 feet apart, with trees in the second row positioned opposite the gaps in the first row. This creates a dense, impenetrable screen in half the growing time.
 
 ### How does triangular spacing differ from square grid spacing?
+
 Triangular (equilateral) spacing places plants at the vertices of equilateral triangles rather than squares. This allows 15.5% more plants per square foot while maintaining equal root space in all directions.
 
 ### How many privacy trees do I need for a 100 foot property line?
+
 For a 100-foot property line, planting single-row arborvitae spaced 4 feet apart requires 26 trees. A double-staggered row spaced 5 feet apart requires 40 trees.
 
 ### How do I calculate mulch for tree root rings?
+
 Create a 3-foot radius mulch ring around each trunk. A 3-inch deep mulch ring consumes about 0.06 cubic yards of mulch per tree.
 
 ### How much do privacy hedge shrubs cost?
+
 Potted 3-gallon shrubs cost $20 to $40 each, while 6-foot tall balled-and-burlapped evergreen trees cost $75 to $150 each.
 

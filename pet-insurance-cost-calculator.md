@@ -181,6 +181,7 @@ The **pet insurance calculator** considers:
 ## Pet Insurance Cost Factors
 
 ### Pet Insurance Cost Calculator Inputs
+
 | Input | Description |
 |-------|-------------|
 | **Pet Type** | Type of pet (e.g., Dog, Cat, Rabbit, Bird) |
@@ -329,18 +330,24 @@ This **pet insurance calculator** is designed for:
 ---
 
 ## Pet Insurance Cost Calculator Frequently Asked Questions
+
 ### How much is pet insurance per month?
+
 Pet insurance typically costs $30–$60 per month for dogs and $15–$30 per month for cats. Costs vary based on pet type, age, breed, location, and coverage level.
 
 ### How much is pet insurance for a dog?
+
 Dog insurance costs an average of $35–$55 per month for accident and illness coverage. Large breeds and older dogs typically cost more.
 
 ### How much is pet insurance for a cat?
+
 Cat insurance costs an average of $20–$35 per month for comprehensive coverage. Indoor cats generally cost less to insure than outdoor cats.
 
 ### How much does pet health insurance cost?
+
 Pet health insurance costs vary widely based on pet type, age, breed, location, and coverage level. The calculator provides a personalized estimate.
 
 ### How much is pet insurance for a rabbit?
+
 Rabbit insurance typically costs $10–$25 per month, depending on the rabbit's age, breed, and location.
 

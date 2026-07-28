@@ -148,20 +148,28 @@ Tracking win rates across sales reps, market segments, and deal sizes identifies
 ---
 
 ## Win Rate Calculator Mathematical Formulas & Mechanics
+
 ### 1. Win Rate Percentage ($WR$)
+
 For closed-won deals $N_{	ext{won}}$ and total opportunities $N_{	ext{opp}}$ ($N_{	ext{opp}} = N_{	ext{won}} + N_{	ext{lost}}$):
 
-$$WR = \left(rac{N_{	ext{won}}}{N_{	ext{opp}}}
+$$WR = \left(
+rac{N_{	ext{won}}}{N_{	ext{opp}}}
 ight) 	imes 100$$
 
 ### 2. Loss Rate Percentage ($LR$)
-$$LR = 100 - WR = \left(rac{N_{	ext{lost}}}{N_{	ext{opp}}}
+
+$$LR = 100 - WR = \left(
+rac{N_{	ext{lost}}}{N_{	ext{opp}}}
 ight) 	imes 100$$
 
 ### 3. Win-to-Loss Ratio ($WLR$)
-$$WLR = rac{N_{	ext{won}}}{N_{	ext{lost}}}$$
+
+$$WLR = 
+rac{N_{	ext{won}}}{N_{	ext{lost}}}$$
 
 ### 4. Won Revenue & Pipeline Value ($R_{	ext{won}}, V_{	ext{pipe}}$)
+
 For average annual contract value $ACV$:
 
 $$R_{	ext{won}} = N_{	ext{won}} 	imes ACV$$
@@ -171,6 +179,7 @@ $$V_{	ext{pipe}} = N_{	ext{opp}} 	imes ACV$$
 ---
 
 ## Win Rate Calculator Benchmarks & Comparison Table
+
 | SaaS Segment | Average ACV ($) | Benchmark Win Rate (%) | Win-to-Loss Ratio | Average Sales Cycle (Days) |
 | :--- | :--- | :--- | :--- | :--- |
 | **Self-Serve / PLG** | $1,200 - $3,600 | 5% - 15% | 0.05 : 1 | 1 - 7 Days |
@@ -181,6 +190,7 @@ $$V_{	ext{pipe}} = N_{	ext{opp}} 	imes ACV$$
 ---
 
 ## How to Use the Win Rate Calculator Step-by-Step
+
 1. **Input Closed-Won Deals:** Enter total deals won within your target period (quarter or year).
 2. **Input Total Opportunities:** Enter total qualified opportunities closed (Won + Lost).
 3. **Specify Average Deal Size (ACV):** Enter average annual contract value in dollars.
@@ -190,23 +200,31 @@ $$V_{	ext{pipe}} = N_{	ext{opp}} 	imes ACV$$
 ---
 
 ## Win Rate Calculator Frequently Asked Questions
+
 ### What is a good sales win rate for B2B SaaS?
+
 The average B2B SaaS win rate ranges between 20% and 30% for qualified opportunities. High-performing enterprise sales teams achieve win rates between 30% and 40%.
 
 ### How is sales win rate calculated?
+
 Sales Win Rate is calculated as (Closed-Won Opportunities / Total Qualified Opportunities) * 100. Total opportunities must include both won and lost deals.
 
 ### What is the difference between win rate and conversion rate?
+
 Win rate measures deals closed-won out of qualified sales opportunities. Lead conversion rate measures top-of-funnel leads that convert into opportunities.
 
 ### Should disqualified leads be included in win rate calculations?
+
 No. Unqualified leads or early-stage prospects should be excluded. Win rate should strictly measure qualified opportunities that entered the active sales pipeline.
 
 ### How does sales cycle length impact win rate?
+
 Generally, shorter sales cycles yield higher win rates because deal momentum remains strong and prospect buying intent stays high.
 
 ### What is a win-to-loss ratio?
+
 The win-to-loss ratio compares won deals directly to lost deals (Won Deals / Lost Deals). A 1:2 ratio means 1 win for every 2 losses (33.3% win rate).
 
 ### How can sales teams improve their win rate?
+
 Improving discovery qualification, enforcing strict ICP fit criteria, improving sales enablement collateral, and conducting loss reviews boost win rates.

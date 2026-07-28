@@ -249,16 +249,21 @@ Running your own business means managing your own taxes. This self-employed tax 
 ---
 
 ## Self Employment Tax Calculator Frequently Asked Questions
+
 ### What is self-employment tax?
+
 Self-employment tax is the tax that self-employed individuals pay to fund social security, Medicare, and other state programs. It typically includes both the employee and employer portions of these contributions.
 
 ### How is self-employment tax calculated?
+
 Self-employment tax is calculated on your net profit from self-employment. In many countries, it includes social security and Medicare contributions at rates that may be higher than employee rates because you pay both shares.
 
 ### Can I deduct business expenses?
+
 Yes — you can enter deductible business expenses, which reduce your net income subject to tax.
 
 ### Does this calculator work for any country?
+
 Yes — you enter your own tax rates, social security rates, and caps. The tool works for any country's self-employment tax system.
 
 ---

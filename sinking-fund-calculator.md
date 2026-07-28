@@ -198,22 +198,28 @@ Where **P** is the periodic contribution, **r** is the periodic interest rate, a
 
 
 ## Strategic Guidance for Sinking Fund Calculator
+
 Using this interactive calculation engine provides a clear, quantitative roadmap for your decisions. By eliminating mathematical uncertainty, you can optimize financial allocations, compare scenarios side-by-side, and make data-driven choices.
 
 ### Key Tactical Benefits of Sinking Fund Calculator
+
 - **Mathematical Certainty**: Eliminates guesswork by modeling multi-variable compounding and precise cost structures.
 - **Scenario Comparison**: Test multiple interest rates, payment timelines, and capital allocations in real-time.
 - **Privacy Assurance**: All data remains 100% confidential within your local browser memory, with zero remote server logging.
 - **Export & Audit Readiness**: Log calculations to local browser storage, export full histories to CSV/Excel, or share via link.
 
 ## Sinking Fund Calculator Frequently Asked Questions
+
 ### What is a sinking fund?
+
 A sinking fund is money set aside for a specific future expense. You contribute regularly to build up enough funds by the time the expense is due.
 
 ### How is the required contribution calculated?
+
 The calculator uses the future value of an annuity formula, solving for the periodic payment needed to reach your target, considering interest earned on your savings.
 
 ### What is a good return rate for a sinking fund?
+
 For short-term goals (under 3 years), a conservative rate of 2-4% is common. For longer goals, you may consider higher returns, but also higher risk.
 
 ---

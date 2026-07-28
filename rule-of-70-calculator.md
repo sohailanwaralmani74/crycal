@@ -152,15 +152,20 @@ This **Rule of 70 calculator** is designed for:
 ---
 
 ## Rule of 70 Calculator Frequently Asked Questions
+
 ### What is the Rule of 70?
+
 The Rule of 70 is a quick way to estimate how many years it takes for a value to double at a given annual growth rate, calculated by dividing 70 by the growth rate percentage.
 
 ### How accurate is the Rule of 70?
+
 The Rule of 70 is a close approximation, most accurate for lower growth rates (roughly 1–10%). For higher rates, the exact logarithmic formula is more precise.
 
 ### What is the difference between the Rule of 70 and Rule of 72?
+
 Both estimate doubling time. The Rule of 72 is more commonly used for investment returns because it divides evenly by more common rates (like 6, 8, 9, and 12), while the Rule of 70 is often preferred for population and economic growth.
 
 ### What is the exact formula for doubling time?
+
 The exact doubling time is calculated as ln(2) divided by ln(1 + growth rate), which accounts precisely for compounding.
 

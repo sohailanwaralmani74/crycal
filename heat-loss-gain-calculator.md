@@ -246,21 +246,28 @@ $$\text{Total Envelope Heat Loss (BTU/hr)} = (Q_{\text{wall}} + Q_{\text{window}
 ---
 
 ## Heat Loss Gain Calculator Frequently Asked Questions
+
 ### What is the difference between heat loss and heat gain?
+
 Heat loss measures thermal energy escaping outward through walls, windows, and ceilings during cold winter weather. Heat gain measures external heat entering the building through conduction and solar radiation during summer.
 
 ### How do you convert R-value to U-factor?
+
 U-factor is the reciprocal of R-value: U = 1 / R. For example, a wall with R-13 insulation has a U-factor of 1 / 13 = 0.0769 BTU/hr·ft²·°F.
 
 ### What is the fundamental formula for conductive heat loss?
+
 Conductive heat transfer is calculated using Fourier's Law: Q = U × A × ΔT, where Q is heat loss in BTU/hr, U is thermal transmittance (1/R), A is surface area in sq ft, and ΔT is temperature difference between indoors and outdoors.
 
 ### Why do windows lose so much more heat than insulated walls?
+
 Standard double-pane windows have a U-factor of 0.30 (equivalent to R-3.3), whereas an R-13 wall plus drywall and siding provides an effective assembly rating of R-15 (U-factor 0.066). Windows leak heat nearly 5 times faster per square foot.
 
 ### What is MBH in heating capacity?
+
 MBH represents 1,000 BTUs per hour (M = Roman numeral 1,000). A furnace rated at 60 MBH produces 60,000 BTUs of heat per hour.
 
 ### How does air infiltration affect heat loss calculations?
+
 Infiltration (drafts through cracks and door gaps) accounts for 20% to 40% of total building heat loss. Standard Manual J calculations add air exchange infiltration BTUs to basic conductive envelope losses.
 

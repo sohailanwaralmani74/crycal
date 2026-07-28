@@ -155,6 +155,7 @@ Designing effective sales compensation plans requires balancing rep motivation w
 This **Sales Quota Attainment Calculator** models base variable commission, attainment percentages, and tier accelerators for sales leaders and reps alike.
 
 ### Key Benefits of Sales Quota Attainment Calculator
+
 * **Exact Attainment Tracking:** Calculates precise quota attainment percentages across any target period.
 * **Tier Accelerator Modeling:** Simulates multiplier bonuses ($150\% \text{ to } 200\%$) for revenue booked past 100% quota.
 * **OTE Payout Breakdown:** Separates base salary, standard variable commission, and accelerated bonus payouts.
@@ -163,17 +164,21 @@ This **Sales Quota Attainment Calculator** models base variable commission, atta
 ---
 
 ## Sales Quota Attainment Calculator Mathematical Formulas & Mechanics
+
 ### 1. Quota Attainment Percentage
+
 Attainment percentage ($A_{\text{pct}}$) from closed revenue ($R_{\text{closed}}$) and target quota ($Q_{\text{target}}$):
 
 $$A_{\text{pct}} = \left(\frac{R_{\text{closed}}}{Q_{\text{target}}}\right) \times 100$$
 
 ### 2. Base Variable Commission Rate
+
 Base variable commission rate ($C_{\text{rate}}$) from target variable commission ($V_{\text{target}}$):
 
 $$C_{\text{rate}} = \frac{V_{\text{target}}}{Q_{\text{target}}}$$
 
 ### 3. Accelerated Commission & Total Payout
+
 If $R_{\text{closed}} \le Q_{\text{target}}$:
 
 $$\text{Commission} = R_{\text{closed}} \times C_{\text{rate}}$$
@@ -189,6 +194,7 @@ $$\text{Total Payout} = \text{Base Salary} + \text{Base Comm} + \text{Accelerate
 ---
 
 ## Sales Quota Attainment Calculator Benchmarks & Comparison Table
+
 The benchmark compensation table below displays quota attainment earnings for an AE with a **$100,000 OTE ($50k Base / $50k Variable)** on a **$500,000 Annual Quota** with a **150% Accelerator (>100% Attainment)**:
 
 | Closed Revenue | Attainment (%) | Base Salary | Standard Variable Comm | Accelerated Bonus | Total OTE Payout | Effective Pay Rate |
@@ -202,6 +208,7 @@ The benchmark compensation table below displays quota attainment earnings for an
 ---
 
 ## How to Use the Sales Quota Attainment Calculator Step-by-Step
+
 1. **Define Performance Period:** Establish whether quota targets and commissions are calculated monthly, quarterly, or annually.
 2. **Input Assigned Quota Target:** Enter total revenue target assigned to the account executive or sales representative.
 3. **Verify Closed-Won Bookings:** Enter verified closed-won ARR or ACV contracts booked within the active compensation period.
@@ -211,23 +218,31 @@ The benchmark compensation table below displays quota attainment earnings for an
 ---
 
 ## Sales Quota Attainment Calculator Frequently Asked Questions
+
 ### How do you calculate sales quota attainment percentage?
+
 Quota Attainment Percentage = (Closed-Won Revenue / Target Revenue Quota) * 100. For example, $275,000 closed on a $250,000 quota equals 110% attainment.
 
 ### What is On-Target Earnings (OTE) in sales compensation?
+
 OTE (On-Target Earnings) is the total expected annual compensation for a sales rep who hits exactly 100% of their assigned quota, typically split 50% base salary and 50% variable commission.
 
 ### What is a commission accelerator in sales compensation plans?
+
 A commission accelerator is a multiplier (e.g., 1.5x or 2.0x standard commission rate) applied to all revenue closed after a rep crosses 100% quota attainment.
 
 ### What is an acceptable average quota attainment rate for SaaS sales teams?
+
 In healthy SaaS companies, average team quota attainment ranges from 60% to 70% of reps hitting 100% quota. If fewer than 50% hit quota, targets are likely unachievable.
 
 ### What is the typical Quota-to-OTE ratio in SaaS?
+
 Standard SaaS Quota-to-OTE ratio is 4x to 6x. For example, an AE with a $150,000 OTE ($75k base / $75k variable) typically carries a $600,000 to $900,000 annual ARR quota.
 
 ### What is a commission cliff or threshold?
+
 A commission cliff requires reps to achieve a minimum attainment threshold (e.g., 50% or 70% of quota) before earning any variable commission payouts.
 
 ### How do clawbacks work in sales commission plans?
+
 A clawback clause allows companies to reclaim paid commission if a customer churns or cancels within a specified window (e.g., 60 to 90 days after signing).

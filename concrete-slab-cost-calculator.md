@@ -164,21 +164,28 @@ $$\text{Total Project Cost} = \text{Material Cost} + \text{Labor Cost}$$
 ---
 
 ## Concrete Slab Cost Calculator Frequently Asked Questions
+
 ### How much does a 20x20 concrete slab cost?
+
 A 20x20 concrete slab (400 sq ft, 4 inches thick) typically costs between $2,400 and $4,400 installed ($6 to $11 per sq ft), depending on labor and site preparation.
 
 ### What is the average cost per square foot for pouring a concrete slab?
+
 The national average cost for an installed concrete slab ranges from $6.00 to $12.00 per square foot, including site excavation, rebar mesh, forms, concrete, and finishing labor.
 
 ### How many cubic yards of concrete are needed for a 400 sq ft slab?
+
 A 400 sq ft slab at 4 inches thickness requires approximately 4.94 cubic yards of concrete (including a 10% waste factor).
 
 ### What factors increase concrete slab installation costs?
+
 Costs increase with thicker slabs (6 inches vs 4 inches), stamped/colored finishes, site grading, pump truck rental, and heavy rebar reinforcement.
 
 ### How does slab thickness affect total cost?
+
 Increasing slab thickness from 4 inches to 6 inches increases concrete volume (and material cost) by 50%.
 
 ### Is DIY pouring cheaper than hiring a contractor?
+
 DIY saves labor ($3 to $7/sq ft), but requires building forms, ordering ready-mix or mixing 50+ heavy bags, leveling, screeding, and floating before concrete sets.
 

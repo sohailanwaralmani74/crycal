@@ -141,6 +141,7 @@ Return on Ad Spend (ROAS) is the core North Star metric for performance marketer
 ---
 
 ## ROAS Calculator Mathematical Formulas
+
 ### 1. Return on Ad Spend (ROAS)
 
 $$ \text{ROAS} = \frac{\text{Attributed Revenue}}{\text{Total Ad Spend}} $$
@@ -178,20 +179,27 @@ $$ \text{Break-Even ROAS Target} = \frac{1}{\text{Gross Margin \%}} $$
 ---
 
 ## ROAS Calculator Frequently Asked Questions
+
 ### What is ROAS?
+
 ROAS stands for Return on Ad Spend. It measures the gross revenue generated for every dollar spent on advertising.
 
 ### How is ROAS calculated?
+
 ROAS is calculated using the formula: ROAS = Gross Revenue Generated / Total Ad Spend.
 
 ### What is a good ROAS for SaaS?
+
 For SaaS companies, a good target ROAS is typically 3x to 5x (300% to 500%), though high-margin SaaS products can operate profitably at lower upfront ROAS if customer LTV is high.
 
 ### What is Break-Even ROAS?
+
 Break-Even ROAS is the minimum ROAS needed to cover both advertising costs and product cost of goods sold (COGS). Formula: Break-Even ROAS = 1 / Gross Margin Percentage.
 
 ### What is the difference between ROAS and ROI?
+
 ROAS measures gross revenue generated per dollar spent strictly on ads, whereas ROI measures net profit relative to all marketing investments including personnel, tools, and creative production.
 
 ### How can I improve my campaign ROAS?
+
 You can improve ROAS by narrowing audience targeting, optimizing landing page conversion rates, increasing Average Order Value (AOV), or refining ad copy and creatives.

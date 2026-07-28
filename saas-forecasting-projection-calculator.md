@@ -191,23 +191,31 @@ $$\text{Cumulative Earned Revenue} = \sum_{m=1}^{12 \times k} \text{Month}_m \te
 ---
 
 ## Saas Forecasting Projection Calculator Frequently Asked Questions
+
 ### How does a SaaS revenue forecasting model work?
+
 The model calculates monthly compounding MRR using the formula: Month_n MRR = Month_(n-1) MRR + New Logo MRR + (Month_(n-1) MRR × Expansion %) − (Month_(n-1) MRR × Churn %). Exit ARR is calculated as Month 12, 24, or 36 MRR × 12.
 
 ### Why is net negative churn essential for long-term SaaS scale?
+
 When monthly expansion rate % exceeds monthly churn rate %, existing cohorts grow over time, allowing new logo MRR to accelerate overall business compounding.
 
 ### What is Exit ARR?
+
 Exit ARR is the annualized recurring revenue run rate at the final month of a fiscal year (Month 12, 24, or 36).
 
 ### How do changes in monthly churn impact 3-year ARR projections?
+
 Even a 1% reduction in monthly churn can increase 3-year exit ARR by 30% to 50%+ due to compounding retention benefits.
 
 ### What assumptions should early-stage SaaS companies use for new logo MRR growth?
+
 Early-stage founders should model conservative linear new logo additions unless backed by historical customer acquisition channel data.
 
 ### Should one-off setup fees be included in MRR projections?
+
 No. Professional service setup fees are non-recurring and must be tracked separately from subscription MRR forecasts.
 
 ### How often should financial models update their revenue forecasts?
+
 Most SaaS companies re-forecast quarterly to adjust for actual new logo sales velocity and empirical churn trends.

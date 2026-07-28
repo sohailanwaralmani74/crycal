@@ -131,6 +131,7 @@ Conducting a regular subscription audit is one of the fastest ways to recover di
 ---
 
 ## Subscription Tracker Calculator Mathematical Formulas & Mechanics
+
 To normalize annual subscriptions ($S_{\text{annual}}$) into equivalent monthly cost entries ($S_{\text{monthly\_equiv}}$):
 
 $$S_{\text{monthly\_equiv}} = \frac{S_{\text{annual}}}{12}$$
@@ -150,6 +151,7 @@ $$P_{\text{cat}} = \left( \frac{\text{Category Monthly Total}}{C_{\text{monthly\
 ---
 
 ## Subscription Tracker Calculator Benchmarks & Comparison Table
+
 The benchmark matrix below illustrates common subscription spending profiles, monthly costs, and 1-year vs 5-year aggregate financial impacts:
 
 | Household Profile | Tracked Services | Primary Categories | Combined Monthly Cost | Total Annual Expense | 5-Year Cumulative Spend | Annual Savings Potential |
@@ -165,6 +167,7 @@ The benchmark matrix below illustrates common subscription spending profiles, mo
 ---
 
 ## How to Use the Subscription Tracker Calculator Step-by-Step
+
 1. **Select Currency**: Choose your preferred currency ($ USD, € EUR, £ GBP) from the site header panel.
 2. **Review Bank/Card Statements**: Gather recent bank or credit card statements to list all recurring auto-debit charges.
 3. **Add Individual Subscriptions**: Click "Add Subscription" and input service name, cost, billing frequency (monthly or yearly), and category.
@@ -175,23 +178,31 @@ The benchmark matrix below illustrates common subscription spending profiles, mo
 ---
 
 ## Subscription Tracker Calculator Frequently Asked Questions
+
 ### What is a subscription tracker?
+
 A subscription tracker is a personal finance tool that aggregates all your recurring monthly and annual subscription bills into a single dashboard to calculate total ongoing expenses.
 
 ### What is subscription creep?
+
 Subscription creep occurs when small, recurring monthly fees ($10 to $30) accumulate unnoticed across multiple digital services, creating significant annual spending leakage.
 
 ### How much does the average person spend on subscriptions monthly?
+
 Studies show the average consumer spends over $219 per month ($2,600+ per year) on recurring subscriptions, often underestimating their true spend by 2x to 3x.
 
 ### Should annual subscriptions be converted to monthly equivalents?
+
 Yes. Annual subscriptions should be divided by 12 to calculate true monthly cash outflow, ensuring accurate monthly budget allocation.
 
 ### What categories of subscriptions should I track?
+
 Track streaming video (Netflix, Hulu), audio (Spotify), SaaS software, cloud storage, gym memberships, news subscriptions, and recurring meal kit deliveries.
 
 ### How can I audit and reduce subscription costs?
+
 Conduct a quarterly audit, cancel services unused for 30+ days, switch monthly plans to discounted annual billing, and share family plans when eligible.
 
 ### Is my personal subscription and credit card data safe?
+
 Yes, 100%. All calculation algorithms execute locally inside your web browser. No credit card details, account names, or financial figures are stored or transmitted.

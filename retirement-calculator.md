@@ -231,6 +231,7 @@ If you set a target annual income, the calculator shows the shortfall or surplus
 ---
 
 ## How to Use the Retirement Calculator
+
 1.  Select your **account currency** from the picker in the site header.
 2.  Enter your **current age** and **expected retirement age**.
 3.  Enter your **current retirement savings**.
@@ -243,19 +244,25 @@ If you set a target annual income, the calculator shows the shortfall or surplus
 ---
 
 ## Retirement Calculator Frequently Asked Questions
+
 ### How does the retirement calculator work?
+
 Our retirement calculator uses your current savings, monthly contributions, expected return rate, and inflation to project your savings at retirement. It then compares your projected savings to your desired annual income to show whether you're on track.
 
 ### How much do I need to retire?
+
 A common rule of thumb is to have 10-12 times your annual income saved by retirement. However, the exact amount depends on your desired lifestyle, retirement age, and expected returns. Use this retirement savings calculator to get a personalized estimate.
 
 ### What is a safe withdrawal rate in retirement?
+
 The 4% rule is a common guideline — withdraw 4% of your portfolio in the first year of retirement and adjust for inflation thereafter. This is designed to make your savings last 30 years.
 
 ### Does this retirement planner account for inflation?
+
 Yes. Enter your expected inflation rate, and the tool will show your retirement income and savings in both nominal and inflation-adjusted terms.
 
 ### What is the difference between this and a retirement income calculator?
+
 This retirement planning calculator projects your total savings and then estimates your sustainable annual income. A retirement income calculator focuses specifically on how much you can withdraw each year without running out of money.
 
 ---

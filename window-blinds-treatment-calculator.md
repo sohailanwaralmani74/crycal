@@ -218,21 +218,28 @@ The table below details ordering dimensions, slat counts, square footage, and cu
 ---
 
 ## Window Blinds Treatment Calculator Frequently Asked Questions
+
 ### What is the difference between inside mount and outside mount blinds?
+
 Inside mount blinds fit inside the window frame recess for a clean, built-in architectural look. Outside mount blinds mount on the wall or trim surrounding the window frame, which is ideal when window depth is shallow or to block light leaks completely.
 
 ### Should I deduct 1/2 inch myself for inside mount blinds?
+
 No. Always order exact window opening measurements for inside mount blinds. Blind manufacturers make a standard 3/8" to 1/2" factory deduction from the ordered width so the blind raises and lowers without binding against the window frame.
 
 ### How much depth is needed for inside mount 2-inch faux wood blinds?
+
 A minimum casing depth of 2 inches is required for standard inside mounting, and 2.75 to 3 inches is required for a completely flush inside mount where the headrail does not project past the wall surface.
 
 ### How do I measure outside mount window blinds?
+
 Measure the width of the window opening or outer trim molding and add 2 to 3 inches of wall overlap per side (4 to 6 inches total width). For height, measure from where the headrail will mount down to 2 inches below the window sill.
 
 ### How many slats are in a 60-inch tall 2-inch faux wood blind?
+
 A 60-inch tall blind with 2-inch slats contains approximately 30 horizontal slats plus bottom rail and valance components.
 
 ### How much do custom faux wood blinds cost per window?
+
 Standard 2-inch faux wood blinds cost $40 to $120 per window depending on size. Custom real wood or motorized cellular shades range from $150 to $400+ per window.
 

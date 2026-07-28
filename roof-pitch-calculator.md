@@ -165,21 +165,28 @@ $$\text{Sloped Roof Area (sq ft)} = \text{Flat Footprint Area (sq ft)} \times M$
 ---
 
 ## Roof Pitch Calculator Frequently Asked Questions
+
 ### What is roof pitch?
+
 Roof pitch is the measure of the steepness of a roof slope, expressed as inches of vertical rise per 12 inches (1 foot) of horizontal run (e.g., a 6/12 pitch rises 6 inches for every 12 inches of run).
 
 ### How do you calculate roof pitch ratio?
+
 Pitch Ratio = Total Rise (in inches) / Total Run (in feet). For example, 72 inches of rise over 12 feet of run = 72 / 12 = 6/12 pitch.
 
 ### How do you convert roof pitch to degrees?
+
 Pitch angle in degrees = arctan(Pitch / 12) × (180 / π). For example, a 7/12 pitch equals arctan(7/12) = 30.26 degrees.
 
 ### What is a roof pitch multiplier factor?
+
 The pitch multiplier is the ratio of sloped roof length to flat horizontal run: Multiplier = √(1 + (Pitch/12)²). Multiplying flat attic footprint area by this factor gives true sloped roof surface square footage.
 
 ### What is considered a low slope vs steep slope roof?
+
 Flat roofs are 0/12 to 2/12 pitch. Low-slope roofs are 2/12 to 4/12. Standard residential roofs are 4/12 to 9/12. Steep-slope roofs are 10/12 to 18/12 pitch.
 
 ### Why is roof pitch important for shingle installation?
+
 Standard asphalt shingles require a minimum 4/12 pitch for proper water drainage without special underlayment. Pitch also determines snow load shed and wind resistance ratings.
 

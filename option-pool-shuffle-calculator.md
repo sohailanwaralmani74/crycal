@@ -184,18 +184,24 @@ $$\text{Post-Money Pool Founder Equity (\%)} = \left( \frac{V_{pre}}{V_{post}} \
 ---
 
 ## Option Pool Shuffle Calculator Frequently Asked Questions
+
 ### What is the 'Option Pool Shuffle' in VC fundraising?
+
 The 'Option Pool Shuffle' is a term sheet tactic where investors require the unallocated employee option pool to be created in the pre-money valuation. This effectively reduces the true pre-money valuation, forcing existing founders to absorb 100% of the option pool dilution.
 
 ### Why do investors prefer pre-money option pools?
+
 Pre-money option pools ensure investors purchase their target ownership percentage (e.g., 20%) fully protected against immediate dilution from the option pool.
 
 ### How does creating a pool pre-money lower effective pre-money valuation?
+
 If headline pre-money is $10M and a 10% post-money pool ($1.25M) is carved out pre-money, the true effective pre-money valuation for founders drops to $8.75M.
 
 ### How can founders negotiate the Option Pool Shuffle?
+
 Founders can negotiate by: 1) Sizing the option pool based on a realistic 12–18 month hiring budget rather than a arbitrary 15% template; 2) Requesting a post-money option pool; or 3) Increasing the headline pre-money valuation.
 
 ### What is a typical option pool size for Series A rounds?
+
 Series A option pools typically range between 8% and 12% of post-money capitalization, depending on existing team size and executive hiring plans.
 

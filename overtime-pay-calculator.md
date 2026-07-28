@@ -160,18 +160,23 @@ The **Annual Projection** output is a simple extrapolation — it assumes the ex
 ## Overtime Pay Calculator FAQ
 
 ### How is overtime pay calculated?
+
 Hours up to your regular threshold are paid at your normal hourly rate. Hours beyond that threshold are paid at your overtime multiplier (commonly 1.5x, known as time-and-a-half), and if you set a double-time threshold, hours beyond that are paid at your double-time multiplier instead.
 
 ### What is time and a half?
+
 Time and a half means overtime hours are paid at 1.5 times your regular hourly rate. It's the most common overtime multiplier, but this calculator lets you enter any multiplier your employer or local rules actually use.
 
 ### Does every country use a 40-hour overtime threshold?
+
 No. Overtime rules vary widely by country and even by industry or union agreement. This calculator has no built-in country rule — enter your own regular hours threshold and multiplier to match your actual situation, anywhere in the world.
 
 ### What is double-time?
+
 Double-time means hours worked beyond a second, higher threshold are paid at double your regular rate (or whatever double-time multiplier applies). It's optional here — leave the Double-Time Threshold at 0 if it doesn't apply to you.
 
 ### Can I project my annual pay from this?
+
 Yes. Set Pay Periods Per Year to match how often this hours pattern repeats (52 for weekly, 26 for bi-weekly, 12 for monthly), and the Annual Projection output multiplies your total pay for this period across the year.
 
 ---

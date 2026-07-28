@@ -185,21 +185,28 @@ $$\text{Total Intake NFVA (sq in)} = \text{Total Intake NFVA (sq ft)} \times 144
 ---
 
 ## Roof Overhang Calculator Frequently Asked Questions
+
 ### What is a rafter overhang tail?
+
 A rafter overhang tail is the extended end of a common rafter that protrudes beyond the exterior wall top plate to form the roof eave, protecting siding and windows from rain.
 
 ### How do you calculate rafter overhang length?
+
 Rafter Overhang Tail Length = Horizontal Overhang (in) × √(1 + (Pitch / 12)²). For a 16-inch horizontal overhang on a 6/12 pitch roof, tail length = 16 × 1.118 = 17.89 inches.
 
 ### What is fascia drop below wall plate?
+
 Fascia drop is the vertical distance the outer edge of the rafter tail extends below the top plate level. Formula: Vertical Drop = Horizontal Overhang (in) × (Pitch / 12).
 
 ### How wide should a roof overhang be?
+
 Standard residential roof overhangs range from 12 to 24 inches. A 16 to 18-inch overhang offers ideal solar shading, window weather protection, and architectural balance for standard 8 to 9-foot wall heights.
 
 ### How much soffit vent area is required by building code?
+
 The International Residential Code (IRC R806.2) requires 1 sq ft of Net Free Vent Area (NFVA) per 300 sq ft of attic floor space when 50% to 80% is placed in the ridge exhaust. Soffit intake requires 50% of total NFVA.
 
 ### What size fascia board should I use?
+
 Fascia board width depends on rafter tail plumb cut depth. 2x6 rafters typically take 1x6 fascia (5.5" width), while 2x8 rafters or steep roof drops require 1x8 fascia (7.25" width).
 

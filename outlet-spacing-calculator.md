@@ -161,12 +161,15 @@ The **National Electrical Code (NEC)** mandates strict receptacle outlet spacing
 ## NEC 210.52 Receptacle Spacing Formulas
 
 ### 1. Gross Room Perimeter:
+
 $$\text{Perimeter}_{\text{gross}} = 2 \times (\text{Length} + \text{Width})$$
 
 ### 2. Net Usable Wall Space:
+
 $$\text{Perimeter}_{\text{net}} = \text{Perimeter}_{\text{gross}} - \text{Width}_{\text{openings}}$$
 
 ### 3. General Room 12-Foot Rule (NEC 210.52(A)):
+
 - No point along a wall floor line can be more than **6 feet ($1.8\text{ m}$)** horizontally from a receptacle outlet.
 - Maximum distance between two adjacent outlets along an unbroken wall is **12 feet ($3.6\text{ m}$)**.
 - Any unbroken wall space **2 feet ($600\text{ mm}$)** or wider requires an outlet.
@@ -174,6 +177,7 @@ $$\text{Perimeter}_{\text{net}} = \text{Perimeter}_{\text{gross}} - \text{Width}
 $$\text{Outlets per Segment} = \max\left(1, \left\lceil \frac{\text{Segment Length (ft)}}{12} \right\rceil \right) \quad (\text{if Segment Length} \ge 2\text{ ft})$$
 
 ### 4. Kitchen Countertop 4-Foot Rule (NEC 210.52(C)):
+
 - No point on a countertop space can be more than **24 inches ($2\text{ ft}$)** horizontally from an outlet.
 - Maximum spacing between outlets along countertops is **4 feet ($48\text{ inches}$)**.
 - Any countertop wall space **12 inches ($300\text{ mm}$)** or wider requires an outlet.
@@ -205,21 +209,28 @@ $$\text{Kitchen Outlets per Segment} = \max\left(1, \left\lceil \frac{\text{Coun
 ---
 
 ## Outlet Spacing Calculator Frequently Asked Questions
+
 ### What is the NEC 12-foot rule for wall outlets?
+
 The NEC 12-foot rule requires that no point along any unbroken wall space be more than 6 feet from an electrical outlet. This means outlets along a continuous wall must be placed no more than 12 feet apart.
 
 ### What is the minimum wall length that requires an electrical outlet?
+
 In living rooms and bedrooms, any separate unbroken wall section that is 2 feet (24 inches) wide or greater requires at least one receptacle outlet.
 
 ### How far apart should outlets be spaced in a kitchen?
+
 On kitchen countertops, outlets must be placed so that no point on the counter is more than 24 inches from an outlet. Consequently, maximum spacing between countertop outlets is 4 feet (48 inches).
 
 ### Do doorways and floor-to-ceiling windows count as wall space?
+
 No. Doorways, archways, fireplaces, and floor-to-ceiling glass windows that break floor line continuity divide wall space into separate independent wall segments.
 
 ### What height should wall receptacle outlets be installed?
+
 Standard wall outlets are typically installed 12 to 18 inches above the finished floor (measured to the bottom of the electrical box). Kitchen countertop outlets are typically set 40 to 44 inches above finished floor (4 to 8 inches above counter surface).
 
 ### How much wire cable is needed per outlet receptacle?
+
 On average, expect to use 15 to 25 linear feet of 12/2 or 14/2 NM-B Non-Metallic Sheathed Cable (Romex) per outlet location, including box entry loops and vertical wall drops.
 

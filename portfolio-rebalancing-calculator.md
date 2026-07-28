@@ -160,30 +160,39 @@ $$\text{Rebalance Trade} = \text{Target Stock Value} - \text{Current Stock Value
 
 
 ## Strategic Guidance for Portfolio Rebalancing Calculator
+
 Using this interactive calculation engine provides a clear, quantitative roadmap for your decisions. By eliminating mathematical uncertainty, you can optimize financial allocations, compare scenarios side-by-side, and make data-driven choices.
 
 ### Key Tactical Benefits of Portfolio Rebalancing Calculator
+
 - **Mathematical Certainty**: Eliminates guesswork by modeling multi-variable compounding and precise cost structures.
 - **Scenario Comparison**: Test multiple interest rates, payment timelines, and capital allocations in real-time.
 - **Privacy Assurance**: All data remains 100% confidential within your local browser memory, with zero remote server logging.
 - **Export & Audit Readiness**: Log calculations to local browser storage, export full histories to CSV/Excel, or share via link.
 
 ## Portfolio Rebalancing Calculator Frequently Asked Questions
+
 ### Why is portfolio rebalancing important?
+
 Rebalancing controls risk by preventing outperforming assets from over-concentrating your portfolio, restoring your desired risk-reward profile.
 
 ### How often should investors rebalance their portfolio?
+
 Most financial advisors recommend rebalancing on a calendar schedule (once or twice per year) or when asset allocation drifts by more than 5% from target weights.
 
 ### What are the tax implications of rebalancing in taxable accounts?
+
 Selling appreciated assets in taxable brokerage accounts triggers capital gains taxes. Rebalancing inside tax-advantaged accounts (IRAs, 401ks) incurs zero tax liability.
 
 ### How can investors rebalance without triggering taxable sales?
+
 Rebalance by directing new monthly cash contributions, dividend payouts, or 401(k) contributions toward underweighted asset classes rather than selling overweighted assets.
 
 ### What is asset allocation drift?
+
 Drift occurs when outperforming assets grow faster than other holdings, shifting your portfolio's risk profile to become more aggressive than originally intended.
 
 ### Should rebalancing be done during market downturns?
+
 Yes! Rebalancing during market downturns forces you to buy equities at discounted prices ('buy low, sell high'), setting up stronger long-term compounding.
 

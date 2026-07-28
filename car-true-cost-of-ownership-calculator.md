@@ -245,13 +245,16 @@ Using this **Car TCO Calculator**, you can evaluate the complete 5-year financia
 ## Key Formulas
 
 ### 1. Cumulative Depreciation Formula
+
 $$\text{Depreciation Value Loss} = P \times \left[ 1 - (1 - r)^t \right]$$
 Where $P$ is purchase price, $r$ is annual depreciation rate, and $t = 5$ years.
 
 ### 2. Total Fuel Cost
+
 $$\text{Fuel Cost}_{5\text{Yr}} = 5 \times \left( \frac{\text{Annual Miles}}{\text{MPG}} \right) \times \text{Gas Price}$$
 
 ### 3. Operating Cost Per Mile
+
 $$\text{Cost Per Mile} = \frac{\text{Total 5-Year TCO}}{5 \times \text{Annual Miles}}$$
 
 ---
@@ -270,36 +273,48 @@ $$\text{Cost Per Mile} = \frac{\text{Total 5-Year TCO}}{5 \times \text{Annual Mi
 ---
 
 ## Step-by-Step Guide for Using the Car True Cost of Ownership Calculator
+
 ### Step 1: Enter Vehicle Price
+
 Input the purchase price or estimated market value of your vehicle.
 
 ### Step 2: Set Driving Habits & Fuel Specs
+
 Enter your expected annual driving distance, vehicle combined MPG rating, and local gas price.
 
 ### Step 3: Enter Recurring Fixed & Maintenance Costs
+
 Input estimated yearly amounts for auto insurance premiums, maintenance/repairs, and annual state tag/property tax fees.
 
 ### Step 4: Review Detailed Results & Charts
+
 Analyze total 5-year TCO, average monthly cost, cost per mile, and visual charts.
 
 ---
 
 ## Car True Cost of Ownership Calculator Frequently Asked Questions
+
 ### What is Car True Cost of Ownership (TCO)?
+
 True Cost of Ownership measures all expenses associated with owning and driving a car over time, including depreciation, fuel, insurance, repairs, interest, and government registration fees.
 
 ### Why is depreciation usually the largest car expense?
+
 Most new vehicles lose 15% to 20% of their value in year one and 10% to 15% each subsequent year, making depreciation the single largest hidden cost of vehicle ownership.
 
 ### How is cost per mile calculated?
+
 Cost per mile is calculated by dividing total 5-year ownership costs (depreciation + fuel + insurance + maintenance + fees) by total miles driven over 5 years.
 
 ### How does mileage affect 5-year TCO?
+
 Higher mileage directly increases fuel spending, accelerates tire and brake wear, and causes steeper depreciation loss.
 
 ### Does fuel efficiency significantly reduce TCO?
+
 Yes, upgrading from a 20 MPG vehicle to a 35 MPG vehicle can save $3,000 to $5,000 in fuel costs over 5 years at average gas prices.
 
 ### Are loan interest payments included in TCO?
+
 If you finance your vehicle, interest charges add directly to your 5-year TCO. This baseline calculator focuses on core vehicle operating expenses and depreciation.
 

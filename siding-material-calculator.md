@@ -174,27 +174,35 @@ This **Siding Material Calculator** calculates net wall coverage area, deducts w
 ---
 
 ## Siding Material Calculator Mathematical Formulas & Mechanics
+
 ### 1. Net Wall Surface Area ($A_{	ext{net\_sqft}}$)
+
 For gross wall area $A_{	ext{gross}}$ and total window/door openings $A_{	ext{openings}}$:
 
 $$A_{	ext{net\_sqft}} = A_{	ext{gross}} - A_{	ext{openings}}$$
 
 ### 2. Siding Squares Required ($N_{	ext{squares}}$)
+
 Including waste allowance percentage ($	ext{Waste } \%$):
 
-$$A_{	ext{total\_sqft}} = A_{	ext{net\_sqft}} 	imes \left(1 + rac{	ext{Waste } \%}{100}
+$$A_{	ext{total\_sqft}} = A_{	ext{net\_sqft}} 	imes \left(1 + 
+rac{	ext{Waste } \%}{100}
 ight)$$
 
-$$N_{	ext{squares}} = rac{A_{	ext{total\_sqft}}}{100}$$
+$$N_{	ext{squares}} = 
+rac{A_{	ext{total\_sqft}}}{100}$$
 
 ### 3. Corner Trim Posts ($N_{	ext{corners}}$)
+
 For total corner linear feet $L_{	ext{corners}}$ (assuming standard 10ft corner trim posts):
 
-$$N_{	ext{corners}} = \left\lceil rac{L_{	ext{corners}}}{10} 
+$$N_{	ext{corners}} = \left\lceil 
+rac{L_{	ext{corners}}}{10} 
 ight
 ceil$$
 
 ### 4. Starter Strip Linear Feet ($L_{	ext{starter}}$)
+
 Starter strips run along the bottom perimeter of all exterior walls:
 
 $$L_{	ext{starter}} = 	ext{Total Exterior Wall Base Perimeter (Linear Feet)}$$
@@ -202,6 +210,7 @@ $$L_{	ext{starter}} = 	ext{Total Exterior Wall Base Perimeter (Linear Feet)}$$
 ---
 
 ## Siding Material Calculator Benchmarks & Comparison Table
+
 | House Size & Type | Exterior Wall Area (Sq Ft) | Window & Door Deductions | Siding Squares Required (10% Waste) | Vinyl Siding Material Cost ($) | Fiber Cement Material Cost ($) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Small Ranch (1,200 sq ft home)** | 1,200 Sq Ft | 200 Sq Ft | 11 Squares | $1,800 - $2,800 | $3,300 - $5,000 |
@@ -212,6 +221,7 @@ $$L_{	ext{starter}} = 	ext{Total Exterior Wall Base Perimeter (Linear Feet)}$$
 ---
 
 ## How to Use the Siding Material Calculator Step-by-Step
+
 1. **Measure Exterior Elevations:** Measure heights and widths of all exterior wall sections, including gable triangles.
 2. **Deduct Openings:** Calculate total area of windows, entry doors, sliding glass doors, and garage doors.
 3. **Select Siding Material:** Input cost per siding square ($100	ext{ sq ft}$) for your chosen siding material.
@@ -221,23 +231,31 @@ $$L_{	ext{starter}} = 	ext{Total Exterior Wall Base Perimeter (Linear Feet)}$$
 ---
 
 ## Siding Material Calculator Frequently Asked Questions
+
 ### What is a square of siding?
+
 A square of siding is the industry standard unit of measurement equal to 100 square feet of wall coverage area.
 
 ### How do I calculate gable end triangle siding area?
+
 To calculate a triangular gable area, multiply the gable base width by the height from eave to peak, then divide by 2.
 
 ### Should window and door openings be deducted from siding estimates?
+
 Major openings larger than 25 square feet (like garage doors or sliding glass doors) should be deducted. Small single windows can be ignored to account for cutting waste.
 
 ### How many siding squares do I need for a 2,000 sq ft house?
+
 A typical 2,000 sq ft two-story home has approximately 1,800 to 2,200 sq ft of exterior wall area, requiring 20 to 24 squares of siding including waste.
 
 ### What is J-channel and how much do I need?
+
 J-channel seals siding edges around windows, doors, soffits, and fascia. Calculate J-channel by summing total linear feet around all window and door perimeters.
 
 ### How much waste allowance should I add for siding installation?
+
 Add a 10% waste factor for basic rectangular houses. For complex multi-gable homes with dormers and architectural features, add 15% waste.
 
 ### What is the price difference between vinyl and fiber cement siding?
+
 Vinyl siding costs $150 to $300 per square for materials. Fiber cement (e.g. James Hardie) costs $300 to $550 per square.

@@ -170,11 +170,13 @@ In venture financing, preferred stock holds priority over common stock upon a co
 ## Waterfall Mathematical Model
 
 ### Non-Participating Preferred Formula
+
 $$\text{Investor Payout}_{NonPart} = \min\left(\text{Exit}, \max\left(M \times I, \text{Exit} \times \frac{\text{Inv \%}}{100}\right)\right)$$
 
 $$\text{Founder Payout}_{NonPart} = \text{Exit} - \text{Investor Payout}_{NonPart}$$
 
 ### Participating Preferred Formula
+
 $$\text{Pref Payout} = \min(\text{Exit}, M \times I)$$
 
 $$\text{Remaining Proceeds} = \text{Exit} - \text{Pref Payout}$$
@@ -206,20 +208,27 @@ $$\text{Investor Payout}_{Part} = \begin{cases} \min(\text{Cap} \times I, \text{
 ---
 
 ## Liquidation Preference Calculator Frequently Asked Questions
+
 ### What is a liquidation preference in venture capital?
+
 A liquidation preference dictates the order and amount of cash payout investors receive before common stock founders during a company sale, merger, or liquidation.
 
 ### What is the difference between Non-Participating and Participating Preferred stock?
+
 Non-Participating Preferred allows investors to choose either their liquidation preference OR their pro-rata common equity share. Participating Preferred allows investors to take their preference FIRST and THEN participate pro-rata in remaining proceeds ('double-dipping').
 
 ### What is a standard liquidation preference multiple?
+
 A 1.0x Non-Participating Preferred liquidation preference is standard in founder-friendly venture capital term sheets.
 
 ### What is a participation cap?
+
 A participation cap limits the total payout a participating preferred investor can receive (e.g., 2.0x or 3.0x total invested capital), protecting common founders in high-value exits.
 
 ### Why are participating preferred terms considered aggressive?
+
 Participating preferred terms reduce founder exit payouts significantly in modest exits by allowing investors to double-dip on preference and common distributions.
 
 ### Is my exit scenario calculation stored anywhere?
+
 No. All calculation models run strictly inside your web browser.

@@ -170,6 +170,7 @@ This calculator compares **gross ARR** and **net ARR after support costs** acros
 ---
 
 ## Key Free Trial Length Roi Calculator Mathematical Formulas
+
 ### 1. New Annualized Converts by Trial Length
 
 $$ \text{Annual Converts}_d = (\text{Monthly Leads} \times 12) \times \text{Conv Rate}_d \% $$
@@ -206,20 +207,27 @@ $$ \text{Net ARR}_d = \text{Gross ARR}_d - \text{Annual Trial Support Cost} $$
 ---
 
 ## Free Trial Length Roi Calculator Frequently Asked Questions
+
 ### Why is 14 days considered the industry standard trial length?
+
 A 14-day trial provides enough urgency to encourage quick onboarding while giving business users two work weeks to evaluate software value.
 
 ### Why are 30-day trials increasingly discouraged in B2B SaaS?
+
 30-day trials create procrastination. Users delay testing until day 25, leading to lower conversion rates and higher infrastructure/support costs per lead.
 
 ### When is a 7-day trial superior?
+
 7-day trials work exceptionally well for simple self-serve products with instant time-to-value (TTV) where users can setup and experience ROI within minutes.
 
 ### How does trial length affect sales cycle velocity?
+
 Shorter trials (7 to 14 days) compress the sales cycle, enabling faster cash collection and quicker feedback on marketing channels.
 
 ### What is Opt-In vs Opt-Out (Credit Card Required) trial?
+
 Opt-in trials (no credit card required) yield 3x-5x higher signup volume but lower conversion rates (2%-5%). Opt-out trials yield fewer signups but much higher conversion (40%-60%).
 
 ### How is Net Annual ARR calculated for trial models?
+
 Net ARR = (Trial Leads × 12 Months × Conversion Rate % × ACV) - (Trial Leads × 12 Months × Support Cost per Lead).

@@ -216,13 +216,16 @@ Key range reduction factors:
 ---
 
 ## EV Range Estimator Mathematical Formulas
+
 ### 1. Speed Adjustment Factor ($M_{\text{speed}}$)
+
 Standard baseline speed is 55 mph ($M_{\text{speed}} = 1.0$):
 \[
 M_{\text{speed}} = 1.0 - 0.012 \times \max(0, \text{Speed} - 55)
 \]
 
 ### 2. Temperature Penalty Factor ($M_{\text{temp}}$)
+
 Optimal battery temperature is 70°F ($M_{\text{temp}} = 1.0$):
 \[
 M_{\text{temp}} = \begin{cases}
@@ -232,6 +235,7 @@ M_{\text{temp}} = \begin{cases}
 \]
 
 ### 3. Total Estimated Real-World Range
+
 \[
 \text{Range}_{\text{real}} = \text{Capacity}_{\text{kWh}} \times \left( \text{Eff}_{\text{base}} \times M_{\text{speed}} \times M_{\text{temp}} \times M_{\text{terrain}} \right) - \left( \frac{P_{\text{HVAC}}}{\text{Speed}} \times \text{Capacity}_{\text{kWh}} \right)
 \]
@@ -251,6 +255,7 @@ M_{\text{temp}} = \begin{cases}
 ---
 
 ## Step-by-Step EV Range Estimator Usage Guide
+
 1. **Enter Net Battery Capacity**: Provide your vehicle's usable battery size in kWh (e.g. 75 kWh).
 2. **Input Rated Efficiency**: Enter your EV's rated EPA efficiency (e.g. 3.5 mi/kWh or ~285 Wh/mi).
 3. **Select Cruise Speed**: Set your highway speed (e.g. 70 mph).
@@ -260,23 +265,31 @@ M_{\text{temp}} = \begin{cases}
 ---
 
 ## EV Range Estimator Frequently Asked Questions
+
 ### Why is EPA rated range often higher than real-world highway range?
+
 EPA tests combine moderate speeds (average ~48 mph) and ambient temperatures (70°F–75°F). Cruising at 70–75 mph significantly increases aerodynamic drag, reducing range by 15% to 25%.
 
 ### How much range do electric cars lose in cold weather?
+
 In freezing temperatures (20°F or lower), EVs can lose 20% to 35% of their total driving range due to cabin heating demands and reduced battery chemical performance.
 
 ### Does driving 75 mph consume significantly more energy than 65 mph?
+
 Yes. Aerodynamic drag increases with the square of speed, while power required increases with the cube of speed. Increasing speed from 65 mph to 75 mph increases energy consumption by roughly 18–22%.
 
 ### How does heat pump HVAC compare to resistive heating?
+
 Heat pumps are 2x to 3x more energy efficient than traditional resistive heaters down to ~25°F, preserving up to 15% more range during winter road trips.
 
 ### What is the optimal speed for maximum EV highway range?
+
 Most electric cars achieve maximum range at steady speeds between 45 mph and 55 mph.
 
 ### Does terrain elevation affect total EV trip range?
+
 Uphill driving consumes substantial kinetic and potential energy, but regenerative braking recovers up to 60–70% of that energy when descending.
 
 ### Does the EV range estimator store my data?
+
 No. All calculation parameters run strictly within your browser for absolute privacy.

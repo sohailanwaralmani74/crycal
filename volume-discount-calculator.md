@@ -164,6 +164,7 @@ This calculator evaluates **Graduated Tiered (Bracketed)** vs. **Flat Volume Dis
 ---
 
 ## Key Volume Discount Calculator Mathematical Formulas
+
 ### 1. Graduated Tiered Seat Calculation (Bracketed)
 
 $$ \text{Tier 1 (1-10)} = \min(\text{Seats}, 10) \times \text{P}_1 $$
@@ -205,20 +206,27 @@ $$ \text{Effective Discount \%} = \frac{\text{Un-Discounted Base Total} - \text{
 ---
 
 ## Volume Discount Calculator Frequently Asked Questions
+
 ### What is the difference between Graduated Tiered and Flat Volume discounting?
+
 Graduated Tiered pricing charges different prices for seats within specific brackets (like tax brackets). Flat Volume pricing applies the lower tier price across all purchased seats once a volume threshold is met.
 
 ### Why is Graduated Tiered pricing preferred by SaaS companies?
+
 Graduated Tiered pricing prevents 'negative cliff' anomalies where buying 11 seats would cost less total money than buying 10 seats under flat pricing.
 
 ### What is the Effective Price per Seat?
+
 Effective Price per Seat is the total monthly invoice divided by the total number of seats purchased. Formula: Effective Rate = Total Invoice ÷ Total Seats.
 
 ### What volume discounts do enterprise B2B buyers expect?
+
 Enterprise buyers purchasing 100+ seats typically expect 20% to 40% effective discounts compared to single-seat starter rates.
 
 ### How do volume discounts impact gross margin?
+
 Because SaaS incremental hosting cost per user seat is very low ($1-$3/user), high-volume seat discounts expand gross profit dollars despite lower unit prices.
 
 ### Can volume discounts be combined with annual prepay discounts?
+
 Yes, enterprise contracts often stack a 20% volume discount with an additional 15% annual prepay discount.

@@ -160,6 +160,7 @@ This calculator quantifies **three core value drivers**:
 ---
 
 ## Key Value Based Pricing Calculator Mathematical Formulas
+
 ### 1. Total Monthly Value Created
 
 $$ \text{Labor Savings} = \text{Hours Saved} \times \text{Hourly Wage Rate} $$
@@ -199,20 +200,27 @@ $$ \text{Payback Period (Days)} = \left( \frac{\text{Recommended Price}}{\text{T
 ---
 
 ## Value Based Pricing Calculator Frequently Asked Questions
+
 ### What is value-based pricing in SaaS?
+
 Value-based pricing sets subscription prices based on the quantified economic ROI, labor savings, and revenue expansion created for the buyer, rather than development or hosting costs.
 
 ### Why is value-based pricing superior for B2B SaaS?
+
 It aligns software cost directly with business value, enabling high gross margins (80%+), commanding premium price points, and eliminating price resistance when ROI is proven.
 
 ### What percentage of created value should a SaaS company capture?
+
 B2B SaaS companies typically capture 10% to 30% of total created value, leaving 70% to 90% of economic surplus to the customer to ensure high satisfaction and low churn.
 
 ### What customer ROI multiplier is required to close B2B sales easily?
+
 Enterprise buyers generally expect at least a 5x to 10x ROI multiplier (paying $1 for every $5 to $10 of business value created).
 
 ### How do I calculate monthly labor savings?
+
 Labor Savings = (Hours Saved per Month) × (Employee Hourly Compensation Rate including benefits).
 
 ### How do I communicate value-based pricing on my website?
+
 Highlight ROI case studies, calculator widgets showing savings, and tier feature packaging tied directly to business outcomes (e.g. leads processed or hours automated).

@@ -182,9 +182,11 @@ Running electrical wire over long distances creates electrical resistance ($R$).
 The circular mil ($CM$) area required to limit voltage drop is calculated using the standard National Electrical Code resistance equations:
 
 ### Single-Phase 2-Wire Circuits:
+
 $$CM = \frac{2 \times K \times I \times L}{V_{drop}}$$
 
 ### Three-Phase 3-Wire Circuits:
+
 $$CM = \frac{\sqrt{3} \times K \times I \times L}{V_{drop}}$$
 
 Where:
@@ -224,21 +226,28 @@ Where:
 ---
 
 ## Wire Gauge Calculator Frequently Asked Questions
+
 ### Why is wire gauge calculation important?
+
 Choosing undersized wire causes resistance heating, voltage drops, dimming lights, motor overheating, and severe fire hazards inside wall cavities.
 
 ### What is the NEC maximum allowed voltage drop?
+
 The National Electrical Code (NEC Informational Note 210.19) recommends limiting voltage drop to 3% for branch circuits and 5% for overall system runs (feeders + branch circuits).
 
 ### How does distance affect required wire size?
+
 As wire run length increases, total electrical resistance increases linearly. To keep voltage drop below 3%, you must increase wire cross-sectional diameter (upsize AWG gauge).
 
 ### Can I use aluminum wire instead of copper?
+
 Yes, aluminum is widely used for main service entrance lines and large subpanel feeders due to lower cost. However, aluminum has higher electrical resistance ($K=21.2$) than copper ($K=12.9$), requiring 1 to 2 gauge sizes larger.
 
 ### What wire gauge is needed for a 20 amp 120V circuit at 100 feet?
+
 At 100 feet under a 20A load at 120V, a standard 12 AWG copper wire produces a 3.3% voltage drop (3.96V drop). To remain under 3.0% voltage drop, you should upsize to 10 AWG copper wire.
 
 ### What is the difference between single-phase and three-phase voltage drop formulas?
+
 Single-phase circuits require current to travel out and back on two conductors ($2 \times L$). Three-phase balanced circuits share current across three phase legs, using a multiplier of $\sqrt{3} \approx 1.732$ instead of 2.
 

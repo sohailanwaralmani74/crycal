@@ -158,6 +158,7 @@ Hiring managers often compare a contractor's $100/hr rate directly against an em
 ---
 
 ## Contractor vs Full Time Cost Calculator Mathematical Formulas
+
 ### 1. Annual Contractor Cost
 
 $$ \text{Annual Contractor Cost (\$)} = \text{Contractor Hourly Rate} \times \text{Weekly Hours} \times 48 \text{ Weeks} $$
@@ -186,6 +187,7 @@ $$ \text{Cost Variance (\$)} = |\text{Annual Contractor Cost} - \text{Total Annu
 ---
 
 ## Step-by-Step Contractor vs Full Time Cost Calculator Guide
+
 1. **Input Contractor Rate & Hours**: Enter quoted 1099 hourly rate and weekly capacity.
 2. **Input FT Base Salary**: Set target market base salary for equivalent full-time role.
 3. **Include Full Benefits Load**: Add employer FICA taxes, health premiums, and software tools.
@@ -194,20 +196,27 @@ $$ \text{Cost Variance (\$)} = |\text{Annual Contractor Cost} - \text{Total Annu
 ---
 
 ## Contractor vs Full Time Cost Calculator Frequently Asked Questions
+
 ### What is the difference between a 1099 contractor and a full-time employee (W-2)?
+
 A 1099 contractor is an independent worker who pays their own taxes and benefits with no employer overhead, whereas a W-2 full-time employee receives benefits, PTO, and employer payroll tax contributions.
 
 ### Why do contractor hourly rates seem higher than employee hourly rates?
+
 Contractors set higher hourly rates because they cover their own health insurance, self-employment taxes (15.3%), unpaid time off, and business expenses.
 
 ### How is annual contractor cost calculated?
+
 Formula: Annual Contractor Cost = Contractor Hourly Rate × Weekly Hours × 48 Work Weeks (assuming 4 weeks unpaid PTO).
 
 ### When should a company hire a contractor instead of a full-time employee?
+
 Hire contractors for specialized short-term projects (e.g. SOC2 compliance audit, brand redesign) or when project duration is under 6 months.
 
 ### What is employee misclassification risk?
+
 Misclassifying full-time workers as 1099 contractors to avoid payroll taxes can result in severe IRS and DOL financial penalties.
 
 ### How do I choose between a contractor and a full-time hire?
+
 Choose full-time for core strategic intellectual property (IP) roles, and contractors for non-core, specialized, or variable-workload projects.

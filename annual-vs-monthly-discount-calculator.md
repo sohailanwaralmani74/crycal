@@ -159,6 +159,7 @@ However, offering discounts (e.g. "2 months free") reduces total recognized reve
 ---
 
 ## Key Annual vs Monthly Discount Calculator Mathematical Formulas
+
 ### 1. Annual Upfront Discount Price
 
 $$ \text{Annual Price} = (\text{Monthly Price} \times 12) \times (1 - \text{Annual Discount \%}) $$
@@ -199,20 +200,27 @@ $$ \text{Total 12-Month Cash} = \text{Day 1 Cash} + \text{Monthly Customer Cash}
 ---
 
 ## Annual vs Monthly Discount Calculator Frequently Asked Questions
+
 ### Why do SaaS companies offer 15% to 20% annual prepay discounts?
+
 Annual prepay provides immediate working capital cash flow, eliminates monthly credit card payment failures, and guarantees 12-month customer retention, dramatically reducing annual churn.
 
 ### How does annual billing reduce customer churn?
+
 Monthly subscribers make 12 purchase decisions per year, whereas annual subscribers make 1. Annual cohorts average 50% to 70% lower annual churn than monthly cohorts.
 
 ### What is the standard annual prepay discount in B2B SaaS?
+
 The industry standard annual discount is 17% to 20% (often marketed as '2 months free'). Discounts above 25% dilute long-term customer lifetime value (LTV).
 
 ### How does accounting handle annual prepay cash?
+
 Cash collected upfront is booked as Deferred Revenue (liability) on the balance sheet and recognized ratably as GAAP revenue over 12 months.
 
 ### What is the optimal annual plan take rate?
+
 Healthy B2B SaaS companies achieve a 30% to 50% annual plan take rate. High-touch enterprise SaaS often reaches 80%+ annual billing.
 
 ### Is upfront cash better than a higher full-price monthly yield?
+
 For fast-growing startups requiring capital for acquisition (CAC payback), upfront cash collected in Month 1 is far superior to delayed monthly cash flow.

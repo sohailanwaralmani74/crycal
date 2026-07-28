@@ -224,21 +224,28 @@ The table below illustrates total estimated build costs across common deck dimen
 ---
 
 ## Deck Size Cost Calculator Frequently Asked Questions
+
 ### How much does it cost to build a deck per square foot?
+
 On average, building a deck costs $30 to $60 per square foot for pressure-treated wood, $45 to $75 for cedar, and $60 to $110+ per square foot for composite Trex or Ipe hardwood, including materials, framing, and professional labor.
 
 ### What is the cheapest decking material?
+
 Pressure-treated pine is the most economical decking material, costing around $15 to $20 per square foot for materials alone. However, it requires annual staining and sealing to prevent rot and warping.
 
 ### Is composite decking worth the extra cost over real wood?
+
 Yes, composite decking (like Trex or TimberTech) has higher initial upfront costs ($40–$60/sq ft), but requires virtually zero maintenance, does not splinter, and lasts 25 to 30+ years, saving money on stain and maintenance over time.
 
 ### How much does framing and joists cost for a deck?
+
 Substructure framing (pressure-treated 2x8 or 2x10 joists, beams, post anchors, and hardware) typically costs between $6.00 and $10.00 per square foot of deck surface.
 
 ### What percentage of deck cost is labor?
+
 Professional contractor labor generally accounts for 50% to 65% of the total deck construction bill. Building DIY saves labor costs but requires specialized tools, structural code compliance, and framing experience.
 
 ### Do I need railings for a low-profile ground-level deck?
+
 Building codes (IRC) typically require guardrails if the deck surface is 30 inches or more above the adjacent ground level. Decks under 30 inches generally do not require railings, though low-profile perimeter steps are common.
 

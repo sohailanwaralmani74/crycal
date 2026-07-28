@@ -187,20 +187,27 @@ $$\text{Post-Round Founder Stake Value (\$)} = V_{post} \times \left( \frac{\tex
 ---
 
 ## Dilution Calculator Frequently Asked Questions
+
 ### What is equity dilution in a startup?
+
 Equity dilution occurs when a company issues new shares to new investors or employee option pools, reducing the ownership percentage of existing shareholders.
 
 ### How is post-money valuation calculated?
+
 Post-Money Valuation = Pre-Money Valuation + New Investment Amount.
 
 ### How does an unallocated option pool cause extra dilution?
+
 Creating an unallocated option pool pre-money forces existing founders to absorb 100% of the pool dilution before new investor capital enters.
 
 ### Does dilution reduce the total dollar value of founder shares?
+
 Not necessarily. Although founder percentage ownership decreases, if the valuation increases sufficiently, the dollar value of the founder's stake increases.
 
 ### What is a typical investor dilution percentage per round?
+
 Priced Seed and Series A funding rounds typically dilute existing shareholders by 15% to 25% per round.
 
 ### Is my cap table data secure?
+
 Yes. All computations execute locally in your web browser with zero server data storage.

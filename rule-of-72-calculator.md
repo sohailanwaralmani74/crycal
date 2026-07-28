@@ -169,6 +169,7 @@ The Rule of 72 is most accurate for rates between 6% and 10%. This calculator sh
 ---
 
 ## How to Use the Rule of 72 Calculator
+
 1.  Select your **account currency** from the picker in the site header.
 2.  Enter your **annual return rate** (e.g., 7 for 7%).
 3.  Set a **target time** (optional) — enter a time in years to find the required rate. Leave at 0 to calculate doubling time.
@@ -178,16 +179,21 @@ The Rule of 72 is most accurate for rates between 6% and 10%. This calculator sh
 ---
 
 ## Rule of 72 Calculator Frequently Asked Questions
+
 ### What is the Rule of 72?
+
 The Rule of 72 is a quick formula to estimate how long it takes for an investment to double at a fixed annual rate of return. Divide 72 by the annual rate to get the approximate number of years.
 
 ### How accurate is the Rule of 72?
+
 The Rule of 72 is most accurate for rates between 6% and 10%. For rates outside this range, the error increases. This calculator shows both the Rule of 72 estimate and the exact calculation.
 
 ### What is the Rule of 72 formula?
+
 The formula is: Years to Double = 72 ÷ Annual Rate. For example, at 8% return: 72 ÷ 8 = 9 years. The exact formula is: t = ln(2) / ln(1 + r).
 
 ### Can I use this calculator for any rate?
+
 Yes. Use it for stocks, bonds, savings accounts, or any investment with a fixed annual return rate. The calculator works for any positive rate.
 
 ---

@@ -149,6 +149,7 @@ Utilization rate is the core operating metric for professional services, agencie
 ---
 
 ## Employee Utilization Rate Calculator Mathematical Formulas
+
 ### 1. Utilization Rate Percentage
 
 $$ \text{Utilization Rate \%} = \left( \frac{\text{Billable Hours}}{\text{Total Available Weekly Hours}} \right) \times 100\% $$
@@ -174,6 +175,7 @@ $$ \text{Annual Billed Revenue (\$)} = \text{Weekly Billed Revenue} \times 48 \t
 ---
 
 ## Step-by-Step Employee Utilization Rate Calculator Guide
+
 1. **Log Available Work Hours**: Set base work week hours (typically 40 hours per week).
 2. **Track Time Logs**: Import billable hours billed to client accounts or dedicated product features.
 3. **Subtract Internal Overhead**: Track hours spent in internal status meetings and admin tasks.
@@ -182,20 +184,27 @@ $$ \text{Annual Billed Revenue (\$)} = \text{Weekly Billed Revenue} \times 48 \t
 ---
 
 ## Employee Utilization Rate Calculator Frequently Asked Questions
+
 ### What is Employee Utilization Rate?
+
 Employee Utilization Rate is the ratio of billable or core productive work hours compared to total available working hours, expressed as a percentage.
 
 ### How is Utilization Rate calculated?
+
 Formula: Utilization Rate (%) = (Billable / Core Task Hours / Total Available Work Hours) × 100%.
 
 ### What is a good target utilization rate for professional services and SaaS?
+
 For consulting agencies and services teams, a target billable utilization rate is 70% to 85%. Rates above 85% risk employee burnout and high turnover.
 
 ### What counts as non-billable administrative time?
+
 Non-billable time includes internal team sync meetings, sales prospecting, invoicing administrative tasks, professional training, and paid time off (PTO).
 
 ### How does low utilization impact profitability?
+
 Low utilization means employees generate insufficient client revenue to cover their fully-loaded payroll cost, eroding gross margins.
 
 ### How can managers increase employee utilization rates?
+
 Increase utilization by streamlining internal meetings, automating admin reporting, assigning dedicated project managers, and setting clear weekly billable target hours.

@@ -192,21 +192,28 @@ $$\text{LED Bulb Equivalent Count} = \left\lceil \frac{\text{Daylight Lumens}}{8
 ---
 
 ## Skylight Sizing Calculator Frequently Asked Questions
+
 ### How big should a skylight be for a room?
+
 Architectural guidelines state that skylight glass area should equal 5% to 10% of room floor area. A 150 sq ft room with standard windows requires 7.5 to 12 sq ft of skylight area (e.g., one 30"x46" unit).
 
 ### What are standard skylight sizes?
+
 Standard rough opening sizes include 22.5"x22.5" (3.36 sq ft glass), 22.5"x46.5" (7.03 sq ft), 30.5"x46.5" (9.58 sq ft), and 46.5"x46.5" (14.69 sq ft).
 
 ### Why is light shaft flaring important?
+
 Flaring light shaft walls outward (perpendicular to roof slope on top, vertical on bottom) spreads natural light broader into the room and increases perceived illumination by up to 30%.
 
 ### How many lumens does a skylight provide?
+
 On a clear sunny day, a clean skylight delivers approximately 500 to 600 lumens per square foot of glass area. A 7 sq ft skylight yields ~4,000 lumens—equivalent to four 60-watt incandescent bulbs.
 
 ### Should skylights face North, South, East, or West?
+
 North-facing skylights provide steady, cool diffuse daylight without solar heat gain. South-facing skylights provide intense warmth and light. East yields morning sun, and West provides late afternoon illumination.
 
 ### Can a skylight be too big for a room?
+
 Yes. Oversized skylights exceeding 12% of floor area can cause severe summer overheating and excessive winter thermal heat loss unless equipped with Low-E coatings or blinds.
 

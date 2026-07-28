@@ -184,21 +184,28 @@ $$\text{Soffit Vents Needed (16"x8")} = \lceil \frac{\text{Ridge Exhaust NFVA (s
 ---
 
 ## Ridge Vent Calculator Frequently Asked Questions
+
 ### What is Net Free Vent Area (NFVA)?
+
 Net Free Vent Area (NFVA) is the unobstructed open area of a vent through which air can freely flow, accounting for louvers, screens, and internal baffles.
 
 ### How much ridge vent do I need per square foot of attic?
+
 Under the 1:300 code rule, divide attic square footage by 300 to get total NFVA in sq ft, multiply by 144 to convert to sq in, then divide by 2 for exhaust (50%). Finally, divide exhaust sq in by the ridge vent rating (e.g., 18 sq in/ft).
 
 ### Why is a balanced 50/50 attic ventilation system important?
+
 Equal distribution between lower soffit intake vents (50%) and upper ridge exhaust vents (50%) creates natural thermal convection (stack effect) to remove moisture in winter and heat in summer.
 
 ### Can you install too much ridge vent?
+
 Ridge vent length should not exceed available intake vent capacity. If exhaust capacity significantly exceeds soffit intake, ridge vents may draw air or rain/snow backward from neighboring roof vents.
 
 ### How far from roof edges should ridge vents stop?
+
 Stop ridge vents 6 to 12 inches short of gable end rake edges to preserve weather seal integrity and aesthetic roof lines.
 
 ### What if my roof ridge line is too short for the required vent length?
+
 If available ridge length is shorter than required linear feet, install high-profile ridge vents with higher NFVA ratings (e.g., 20-24 sq in/ft) or supplement with powered/roof deck vents.
 

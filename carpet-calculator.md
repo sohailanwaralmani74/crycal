@@ -177,24 +177,33 @@ This **Carpet Calculator** converts room measurements into exact square yards, d
 ---
 
 ## Carpet Calculator Mathematical Formulas & Mechanics
+
 ### 1. Net Room Square Footage ($A_{	ext{sqft}}$)
+
 $$A_{	ext{sqft}} = L_{	ext{room}} 	imes W_{	ext{room}}$$
 
 ### 2. Base Square Yards ($A_{	ext{sqyd}}$)
-$$A_{	ext{sqyd}} = rac{A_{	ext{sqft}}}{9}$$
+
+$$A_{	ext{sqyd}} = 
+rac{A_{	ext{sqft}}}{9}$$
 
 ### 3. Total Carpet Square Yards with Waste ($A_{	ext{carpet\_sqyd}}$)
+
 Including seam and pattern waste percentage ($	ext{Waste } \%$):
 
-$$A_{	ext{carpet\_sqyd}} = A_{	ext{sqyd}} 	imes \left(1 + rac{	ext{Waste } \%}{100}
+$$A_{	ext{carpet\_sqyd}} = A_{	ext{sqyd}} 	imes \left(1 + 
+rac{	ext{Waste } \%}{100}
 ight)$$
 
 ### 4. 12-Foot Roll Linear Feet ($L_{	ext{roll\_ft}}$)
+
 For 12ft standard roll width ($W_{	ext{roll}} = 12	ext{ ft} = 4	ext{ yards}$):
 
-$$L_{	ext{roll\_ft}} = rac{A_{	ext{carpet\_sqyd}} 	imes 9}{12} = A_{	ext{carpet\_sqyd}} 	imes 0.75$$
+$$L_{	ext{roll\_ft}} = 
+rac{A_{	ext{carpet\_sqyd}} 	imes 9}{12} = A_{	ext{carpet\_sqyd}} 	imes 0.75$$
 
 ### 5. Total Project Cost ($C_{	ext{total}}$)
+
 For carpet price $P_{	ext{carpet}}$, padding price $P_{	ext{pad}}$, and labor cost $P_{	ext{labor}}$ (all per sq yd):
 
 $$C_{	ext{total}} = A_{	ext{carpet\_sqyd}} 	imes (P_{	ext{carpet}} + P_{	ext{pad}} + P_{	ext{labor}})$$
@@ -202,6 +211,7 @@ $$C_{	ext{total}} = A_{	ext{carpet\_sqyd}} 	imes (P_{	ext{carpet}} + P_{	ext{pad
 ---
 
 ## Carpet Calculator Benchmarks & Comparison Table
+
 | Room Dimensions | Net Area (Sq Ft) | Square Yards (10% Waste) | 12ft Roll Linear Feet | Carpet & Pad Material Cost ($) | Total Installed Cost ($) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **10 ft x 12 ft** | 120 Sq Ft | 14.7 Sq Yd | 11.0 Linear Ft | $500 - $750 | $600 - $950 |
@@ -212,6 +222,7 @@ $$C_{	ext{total}} = A_{	ext{carpet\_sqyd}} 	imes (P_{	ext{carpet}} + P_{	ext{pad
 ---
 
 ## How to Use the Carpet Calculator Step-by-Step
+
 1. **Measure Max Dimensions:** Measure longest length and widest width into closet alcoves and doorways.
 2. **Convert to Square Yards:** Divide net square feet by 9.
 3. **Account for Roll Seams:** If room width exceeds 12 feet, select 12ft roll width and include 10% to 15% seam waste.
@@ -221,23 +232,31 @@ $$C_{	ext{total}} = A_{	ext{carpet\_sqyd}} 	imes (P_{	ext{carpet}} + P_{	ext{pad
 ---
 
 ## Carpet Calculator Frequently Asked Questions
+
 ### How do I convert square feet to square yards of carpet?
+
 To convert square feet to square yards, divide total square feet by 9 (since 1 square yard = 3 ft x 3 ft = 9 sq ft).
 
 ### Why is carpet sold by the square yard?
+
 Carpet rolls are manufactured in standard 12-foot (4-yard) widths, making square yards the traditional unit of measure for mills, distributors, and installers.
 
 ### How wide is a standard roll of carpet?
+
 The industry standard carpet roll width is 12 feet (3.66 meters). Some commercial carpet styles are available in 15-foot widths.
 
 ### How much seam waste should I allow when ordering carpet?
+
 Add a 10% waste factor for rectangular rooms. For rooms wider than 12 feet requiring seams, or carpet with repeating patterns, add 15% to 20% waste.
 
 ### Do I need the same amount of padding as carpet?
+
 Padding is sold in square yards just like carpet. You need slightly less padding because pad rolls can be seamed anywhere without worrying about carpet pile direction.
 
 ### What thickness carpet pad is best?
+
 For residential plush carpet, a 7/16-inch thick, 6 lb to 8 lb density rebond foam pad provides optimal durability and comfort underfoot.
 
 ### How much does carpet installation cost per square yard?
+
 Residential carpet installation labor typically costs $5.00 to $10.00 per square yard, excluding old carpet removal and tack strip replacement.

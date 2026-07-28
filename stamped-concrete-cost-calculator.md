@@ -189,21 +189,28 @@ $$\text{Total Installed Cost} = \text{Total Materials Cost} + \text{Labor & Stam
 ---
 
 ## Stamped Concrete Cost Calculator Frequently Asked Questions
+
 ### How much does stamped concrete cost per square foot?
+
 Stamped concrete costs between $12.00 and $22.00 per square foot installed for basic single-pattern designs. Complex multi-color bordered designs range from $18.00 to $28.00+ per square foot.
 
 ### How much does a 500 sq ft stamped concrete patio cost?
+
 A 500 sq ft stamped concrete patio typically costs between $6,500 and $10,500 installed, depending on stamp pattern complexity, integral color choice, and local labor rates.
 
 ### What materials are needed for stamped concrete?
+
 Key materials include ready-mix concrete, rebar mesh, dry-shake color hardener or integral pigment, powdered/liquid antique release agent, flexible polyurethane texture stamps, and UV-resistant acrylic sealer.
 
 ### Is stamped concrete cheaper than pavers or natural stone?
+
 Yes. Stamped concrete ($12–$22/sq ft) is significantly cheaper than natural bluestone or flagstone ($25–$45/sq ft) and comparable to high-end interlocking paver stones.
 
 ### How often does stamped concrete need to be resealed?
+
 Decorative stamped concrete should be resealed every 2 to 3 years with a high-grade solvent-based or water-based acrylic sealer to maintain gloss and color vibrancy.
 
 ### Does stamped concrete crack?
+
 Like all concrete slabs, stamped concrete can crack over time. Professional contractors install expansion and control joints cut along pattern lines to minimize visible cracking.
 

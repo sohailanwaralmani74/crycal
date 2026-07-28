@@ -200,6 +200,7 @@ This shows you the true annual return accounting for compounding frequency — e
 ---
 
 ## How to Use the High Yield Savings Calculator
+
 1.  Select your **account currency** from the picker in the site header.
 2.  Enter your **initial deposit** (starting balance).
 3.  Set your **monthly contribution** (how much you'll add each month).
@@ -212,19 +213,25 @@ The tool updates instantly — you'll see your final balance, total contribution
 ---
 
 ## High Yield Savings Calculator Frequently Asked Questions
+
 ### What is a high-yield savings account?
+
 A high-yield savings account (HYSA) is a savings account that offers a higher annual percentage yield (APY) compared to traditional savings accounts, typically 10-20 times higher. It's a low‑risk way to earn more on your emergency fund or short‑term savings.
 
 ### How much interest will I earn in a high-yield savings account?
+
 Our high yield savings calculator shows you exactly how much interest you'll earn based on your initial deposit, monthly contributions, APY, and time period. The result is broken down by contributions and interest earned.
 
 ### What is the current best APY for high-yield savings accounts?
+
 The best high-yield savings calculator accounts for current market rates. As of 2024-2025, top HYSA rates range from 4-5% APY. Always check current rates from reputable banks as they change regularly.
 
 ### How does compounding frequency affect my savings?
+
 More frequent compounding (daily vs monthly) results in slightly higher returns because interest is calculated and added more often. The difference becomes more significant over longer time periods. Our savings yield calculator accounts for your chosen frequency.
 
 ### What is the difference between APY and interest rate?
+
 APY (Annual Percentage Yield) includes the effect of compounding. It shows the total amount of interest you'll earn over a year, accounting for how often interest is compounded. This makes it the best number to compare different high-yield savings accounts.
 
 ---

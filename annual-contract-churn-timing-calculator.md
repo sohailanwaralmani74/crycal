@@ -146,6 +146,7 @@ Unlike monthly subscriptions where churn occurs continuously, annual contract ch
 This **Annual Contract Churn Timing Calculator** models expiration cohorts, quarterly renewal cliffs, and ARR retention forecasts to help Customer Success and Finance teams plan ahead.
 
 ### Key Benefits of Annual Contract Churn Timing Calculator
+
 * **Renewal Cliff Visibility:** Models contract expiration timing to highlight quarters with high churn risk.
 * **ARR Impact Breakdown:** Computes total portfolio ARR, gross ARR lost, and net retained annual revenue.
 * **Hazard Rate Analysis:** Pinpoints non-renewal spikes concentrated around 12-month contract milestones.
@@ -156,11 +157,13 @@ This **Annual Contract Churn Timing Calculator** models expiration cohorts, quar
 ## Annual Contract Churn Timing Calculator Formulas
 
 ### 1. Total Portfolio ARR
+
 Total annual contract ARR ($ARR_{\text{total}}$) for $N_{\text{contracts}}$ active contracts at average ACV ($ACV_{\text{avg}}$):
 
 $$ARR_{\text{total}} = N_{\text{contracts}} \times ACV_{\text{avg}}$$
 
 ### 2. Projected Non-Renewals & Gross ARR Lost
+
 Projected non-renewing contracts ($N_{\text{churn}}$) for expected renewal rate ($R_{\text{renew}}$ in %):
 
 $$N_{\text{churn}} = \left\lceil N_{\text{contracts}} \times \left(1 - \frac{R_{\text{renew}}}{100}\right) \right\rceil$$
@@ -168,6 +171,7 @@ $$N_{\text{churn}} = \left\lceil N_{\text{contracts}} \times \left(1 - \frac{R_{
 $$\text{Gross ARR Lost} = N_{\text{churn}} \times ACV_{\text{avg}}$$
 
 ### 3. Quarterly Churn Concentration
+
 ARR lost in peak renewal quarter ($ARR_{\text{lost\_peak}}$) for concentration percentage ($C_{\text{peak}}$):
 
 $$ARR_{\text{lost\_peak}} = \text{Gross ARR Lost} \times \left(\frac{C_{\text{peak}}}{100}\right)$$
@@ -175,6 +179,7 @@ $$ARR_{\text{lost\_peak}} = \text{Gross ARR Lost} \times \left(\frac{C_{\text{pe
 ---
 
 ## Annual Contract Churn Timing Calculator Benchmarks & Comparison Table
+
 The benchmark reference table below demonstrates annual contract renewal cliff models for a **100 Annual Contract Portfolio ($25,000 ACV = $2,500,000 Total Portfolio ARR)**:
 
 | Target Renewal Rate | Gross Logo Churn | Contracts Churned | Annual ARR Lost | Net Retained ARR | Renewal Risk Category |
@@ -188,6 +193,7 @@ The benchmark reference table below demonstrates annual contract renewal cliff m
 ---
 
 ## How to Use the Annual Contract Churn Timing Calculator Step-by-Step
+
 1. **Audit Contract Expiration Dates:** Group all active annual contracts by their month and quarter of expiration.
 2. **Calculate Average Contract Value:** Divide total annual recurring revenue (ARR) by total active annual contracts.
 3. **Set Historical Renewal Rate:** Input your company's historical annual contract renewal rate (typically 80% to 90%).
@@ -197,23 +203,31 @@ The benchmark reference table below demonstrates annual contract renewal cliff m
 ---
 
 ## Annual Contract Churn Timing Calculator Frequently Asked Questions
+
 ### Why does annual contract churn concentrate at month 12?
+
 Annual contracts prevent month-to-month cancellations, creating a structural 'renewal cliff' at month 12 where non-renewals manifest simultaneously.
 
 ### How do you calculate gross annual contract churn rate?
+
 Gross Annual Contract Churn Rate (%) = (Total Annual Contracts Churned / Total Contracts Up for Renewal) * 100.
 
 ### What is an annual contract renewal cliff?
+
 An annual renewal cliff refers to a quarter where a large percentage of total ARR contracts expire simultaneously, creating sudden revenue drop risk.
 
 ### What is a good renewal rate for annual B2B SaaS contracts?
+
 Enterprise SaaS targets an annual contract renewal rate of 90% to 95%+ (logo retention), while mid-market SaaS targets 85% to 90%.
 
 ### How far in advance should CS teams engage annual contract renewals?
+
 Customer Success teams should begin formal renewal discussions 90 to 120 days prior to annual contract expiration dates to mitigate churn risks.
 
 ### How does multi-year contracting affect annual churn timing?
+
 Multi-year contracts (2-year or 3-year terms) defer non-renewal exposure, smoothing out annual churn cliffs and extending customer lifetime value.
 
 ### What is the difference between logo churn and ARR churn on annual contracts?
+
 Logo churn measures the percentage of customer accounts lost, while ARR churn measures the dollar value lost. High-value customer churn causes disproportionate ARR loss.

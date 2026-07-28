@@ -199,21 +199,28 @@ The table below shows 4x8 sheet requirements (32 sq ft per sheet, 10% waste fact
 ---
 
 ## Plywood Sheet Calculator Frequently Asked Questions
+
 ### How many square feet are in a standard 4x8 sheet of plywood?
+
 A standard 4x8 sheet of plywood or OSB covers exactly 32 square feet ($4 \text{ ft} \times 8 \text{ ft} = 32 \text{ sq ft}$).
 
 ### How many sheets of plywood do I need for 1,000 square feet?
+
 Without waste, 1,000 sq ft requires 31.25 sheets ($1,000 / 32 = 31.25$). Including a standard 10% waste factor, you will need 35 sheets of 4x8 plywood.
 
 ### What waste factor should I use for plywood sheathing?
+
 Use 10% waste for simple subfloors and rectangular walls. Use 15% for roofs with dormers, hips, and valleys, or 20% for irregular angled architecture.
 
 ### What is the difference between OSB and Plywood sheathing?
+
 OSB (Oriented Strand Board) is made from compressed wood strands and is generally cheaper and more uniform. CDX Plywood is made from layered wood veneers, offering better moisture resistance and stiffness.
 
 ### What thickness plywood should be used for subfloors vs roof sheathing?
+
 Subfloors typically require 3/4-inch tongue-and-groove CDX plywood or OSB over joists spaced 16 inches on-center. Roof sheathing typically uses 1/2-inch or 5/8-inch OSB/plywood with H-clips.
 
 ### How many sheets of OSB are in a standard mill pallet / lift?
+
 A full mill bundle/pallet of 7/16-inch OSB typically contains 80 sheets. A lift of 23/32-inch subfloor panels typically contains 45 sheets.
 

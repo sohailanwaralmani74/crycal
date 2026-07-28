@@ -189,23 +189,31 @@ $$\text{Total Bulk Cost} = \text{Volume (cu yd)} \times \text{Price per Cu Yd}$$
 ---
 
 ## Mulch Calculator Frequently Asked Questions
+
 ### How many cubic yards of mulch do I need for 1,000 square feet?
+
 At a standard depth of 3 inches, 1,000 square feet requires approximately 9.26 cubic yards of mulch (or 250 cubic feet).
 
 ### How many 2 cu ft bags of mulch make a cubic yard?
+
 One cubic yard equals 27 cubic feet. Therefore, it takes 13.5 bags (rounded up to 14 bags) of 2 cu ft mulch to equal 1 cubic yard.
 
 ### How many 3 cu ft bags of mulch are in a cubic yard?
+
 Exactly 9 bags of 3 cu ft mulch make up 1 cubic yard (27 cu ft / 3 cu ft = 9 bags).
 
 ### What depth should mulch be applied?
+
 Most garden beds thrive with 2 to 3 inches of mulch. Depths over 4 inches can smother plant roots and impede oxygen flow to soil.
 
 ### Is bulk mulch cheaper than bagged mulch?
+
 Bulk mulch is usually 30% to 50% cheaper per cubic yard for large areas over 3 cubic yards, though delivery fees ($40-$100) must be considered for smaller jobs.
 
 ### How much does a cubic yard of mulch cover at 2 inches depth?
+
 One cubic yard of mulch covers 162 square feet at a depth of 2 inches, 108 square feet at 3 inches, and 81 square feet at 4 inches.
 
 ### Is my calculation saved or shared with third parties?
+
 No. All computations take place locally inside your browser ensuring 100% data privacy.

@@ -267,21 +267,26 @@ The Inflation-Adjusted Value is calculated by discounting the final balance usin
 ---
 
 ## 401k Calculator Frequently Asked Questions
+
 ### What is a 401k calculator?
+
 A 401k calculator is a retirement planning tool that estimates how much your 401k account will grow over time based on your contributions, employer match, and investment returns.
 
 ### How does the 401k calculator work?
+
 It uses your current age, retirement age, current balance, salary, contribution percentage, employer match, expected returns, and fees to project your 401k balance at retirement. It also shows the breakdown of contributions, employer match, and investment returns.
 
 ### What is the 401k contribution limit?
+
 This vary on country or state level, Employer policies and so on. Search for you employer policies or state rules you are living in.
 
 ### What is a good 401k match?
+
 A common employer match is 50% or 100% of employee contributions up to a certain percentage of salary (often 3-6%). This calculator uses a fixed match percentage, but you can adjust it to match your employer's policy.
 
 ### How do fees impact my 401k growth?
-Even small fees (0.5-1%) can significantly reduce your retirement savings over decades. This calculator subtracts annual fees from your balance to show the impact.
 
+Even small fees (0.5-1%) can significantly reduce your retirement savings over decades. This calculator subtracts annual fees from your balance to show the impact.
 
 ---
 

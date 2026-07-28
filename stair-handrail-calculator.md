@@ -174,33 +174,43 @@ In addition, building codes (IRC and ADA accessibility standards) enforce strict
 ---
 
 ## Stair Handrail Calculator Mathematical Formulas & Mechanics
+
 ### 1. Stair Flight Hypotenuse Length ($L_{	ext{hyp}}$)
+
 For total horizontal run $R_{	ext{run}}$ and total vertical rise $R_{	ext{rise}}$ (in inches):
 
 $$L_{	ext{hyp}} = \sqrt{(R_{	ext{run}})^2 + (R_{	ext{rise}})^2}$$
 
 ### 2. Incline Slope Angle ($	heta$)
-$$	heta = rctan\left(rac{R_{	ext{rise}}}{R_{	ext{run}}}
-ight) 	imes \left(rac{180}{\pi}
+
+$$	heta = rctan\left(
+rac{R_{	ext{rise}}}{R_{	ext{run}}}
+ight) 	imes \left(
+rac{180}{\pi}
 ight)$$
 
 ### 3. Total Handrail Cut Length ($L_{	ext{rail\_in}}, L_{	ext{rail\_ft}}$)
+
 Adding top horizontal extension $E_{	ext{top}}$ and bottom extension $E_{	ext{bot}}$:
 
 $$L_{	ext{rail\_in}} = L_{	ext{hyp}} + E_{	ext{top}} + E_{	ext{bot}}$$
 
-$$L_{	ext{rail\_ft}} = rac{L_{	ext{rail\_in}}}{12}$$
+$$L_{	ext{rail\_ft}} = 
+rac{L_{	ext{rail\_in}}}{12}$$
 
 ### 4. Wall Bracket Count ($N_{	ext{brackets}}$)
+
 For maximum bracket spacing distance $S_{	ext{bracket}}$ (e.g., 36 inches):
 
-$$N_{	ext{brackets}} = \left\lceil rac{L_{	ext{rail\_in}}}{S_{	ext{bracket}}} 
+$$N_{	ext{brackets}} = \left\lceil 
+rac{L_{	ext{rail\_in}}}{S_{	ext{bracket}}} 
 ight
 ceil + 1$$
 
 ---
 
 ## Stair Handrail Calculator Benchmarks & Comparison Table
+
 | Stair Flight Type | Total Rise / Run | Incline Angle | Sloped Railing Length | Brackets Required (36" Max) | Estimated Material Cost ($) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Short 4-Riser Porch** | 28" Rise / 40" Run | 35.0° | 4.0 Feet (48") | 3 Brackets | $80 - $150 |
@@ -211,6 +221,7 @@ ceil + 1$$
 ---
 
 ## How to Use the Stair Handrail Calculator Step-by-Step
+
 1. **Measure Total Run & Rise:** Measure horizontal distance from top riser to bottom tread nose, and vertical distance from bottom floor to top landing.
 2. **Enter ADA Extensions:** Add 12 inches for top horizontal extension and 12 inches for bottom tread extension.
 3. **Specify Bracket Spacing:** Set wall bracket spacing to 36 inches (anchor directly into wall framing studs).
@@ -220,23 +231,31 @@ ceil + 1$$
 ---
 
 ## Stair Handrail Calculator Frequently Asked Questions
+
 ### What is the standard height for a stair handrail?
+
 Building codes (IRC Section R311.7.8) require handrail height to be between 34 inches and 38 inches measured vertically from the tread nosing to the top of the handrail.
 
 ### How long should a stair handrail be?
+
 A stair handrail must be continuous along the full length of the flight, extending from directly above the top riser to directly above the lowest tread riser plus required ADA extensions.
 
 ### What are ADA handrail extension requirements?
+
 ADA standards require handrails to extend horizontally at least 12 inches beyond the top riser and continue to slope for the depth of one tread plus 12 inches beyond the bottom riser.
 
 ### How far apart should wall handrail brackets be installed?
+
 Wall brackets should be installed into solid wall studs spaced no more than 36 inches apart (48 inches maximum for heavy steel/hardwood rails), with end brackets located within 12 inches of rail ends.
 
 ### How do you calculate handrail angle?
+
 Handrail slope angle equals arctan(total rise / total run). Standard residential stair angles range between 30 and 37 degrees.
 
 ### What is the required handrail grip size (graspability)?
+
 Type I graspable handrails must have a circular cross-section diameter between 1.25 inches and 2.0 inches, or non-circular perimeter between 4.0 and 6.25 inches.
 
 ### Are safety end returns required on stair handrails?
+
 Yes. Building codes require handrail ends to return smoothly to the wall, post, or safety end terminal to prevent clothing or purse straps from catching.

@@ -170,6 +170,7 @@ Webinars remain one of the most effective middle-of-funnel conversion tools for 
 ---
 
 ## Webinar Roi Calculator Mathematical Formulas
+
 ### 1. Webinar Conversion Funnel
 
 $$ \text{Live Attendees} = \text{Registrants} \times \text{Attendance Rate \%} $$
@@ -199,6 +200,7 @@ $$ \text{Webinar ROI \%} = \left( \frac{\text{Net Webinar Profit}}{\text{Total W
 ---
 
 ## Step-by-Step Webinar Roi Calculator Guide
+
 1. **Calculate Total Promotion Spend**: Aggregate ad spend across LinkedIn and email list promotion.
 2. **Track Registration Metrics**: Import registration count and live attendee logs from Zoom/Demio.
 3. **Set Conversion Percentages**: Use historical sales data for attendee demo requests and deal win rates.
@@ -207,20 +209,27 @@ $$ \text{Webinar ROI \%} = \left( \frac{\text{Net Webinar Profit}}{\text{Total W
 ---
 
 ## Webinar Roi Calculator Frequently Asked Questions
+
 ### What is Webinar ROI?
+
 Webinar ROI measures the financial return (ARR or customer gross revenue) generated from hosting a promotional webinar relative to total production and advertising costs.
 
 ### How is Webinar ROI calculated?
+
 Formula: Webinar ROI (%) = [(New ARR Generated - Total Webinar Cost) / Total Webinar Cost] × 100%.
 
 ### What is a good live attendance rate for webinars?
+
 Average live attendance rates for B2B SaaS webinars range from 35% to 45% of total registrants.
 
 ### How many webinar registrants turn into closed deals?
+
 On average, 1% to 3% of total webinar registrants eventually become closed-won paying customers in B2B SaaS.
 
 ### How can I increase webinar attendance?
+
 Increase attendance by sending 24-hour and 1-hour SMS/email reminders, partnering with co-marketing guests, and holding live Q&A sessions with exclusive attendee bonuses.
 
 ### What should be included in total webinar cost?
+
 Include ad promotion spend (LinkedIn/Google), landing page software fees, speaker fees, and internal team preparation labor.

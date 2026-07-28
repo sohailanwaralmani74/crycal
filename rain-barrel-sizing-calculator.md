@@ -215,21 +215,28 @@ $$\text{Days of Garden Irrigation} = \frac{\text{Effective Harvest (gal)}}{\text
 ---
 
 ## Rain Barrel Sizing Calculator Frequently Asked Questions
+
 ### How many gallons of water does 1 inch of rain generate from a roof?
+
 One inch of rain falling on a 1,000 square foot roof generates approximately 623 gallons of stormwater runoff.
 
 ### How many rain barrels do I need for an 800 sq ft roof section?
+
 For an 800 sq ft roof draining to one downspout during a 1-inch rainfall, approximately 473 gallons of water are harvested. This requires nine 55-gallon rain barrels or one 500-gallon cistern tank.
 
 ### What is the universal roof runoff formula?
+
 The formula is: Harvested Gallons = Roof Footprint (sq ft) × Rainfall Depth (inches) × 0.623 (conversion constant) × Runoff Efficiency Rate.
 
 ### What is a first-flush diverter and why is it needed?
+
 A first-flush diverter routes the initial 10 to 20 gallons of rain (which carries bird droppings, dust, and roof pollen) away from the rain barrel, ensuring clean water enters your storage tanks.
 
 ### Can I connect multiple rain barrels together in series?
+
 Yes. Connecting rain barrels in series using 3/4-inch overflow hoses at the top of each barrel allows water to automatically fill the first barrel and cascade down to subsequent barrels.
 
 ### How much does a 55-gallon rain barrel cost?
+
 A standard 55-gallon food-grade plastic rain barrel with brass spigot and overflow valve costs between $75 and $120.
 

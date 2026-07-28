@@ -311,16 +311,21 @@ The break-even point is the month when **Cumulative Buy Cost = Cumulative Rent C
 ---
 
 ## Rent vs Buy Calculator Frequently Asked Questions
+
 ### What is the Rent vs Buy Calculator?
+
 It compares the total cost of renting a home versus buying one over a specific time period. It accounts for mortgage payments, taxes, insurance, maintenance, HOA fees, rent increases, home appreciation, and investment returns.
 
 ### How is the break-even point calculated?
+
 The break-even point is the month when the cumulative cost of buying becomes less than the cumulative cost of renting. Before this point, renting is cheaper; after this point, buying is cheaper.
 
 ### What costs are included in the 'Buy' scenario?
+
 The buy scenario includes mortgage principal and interest, property taxes, home insurance, maintenance, HOA fees, and selling costs (when you sell). It also accounts for home appreciation and the investment return on your down payment.
 
 ### What costs are included in the 'Rent' scenario?
+
 The rent scenario includes monthly rent, renters insurance, and rent increases. It also accounts for the investment return on your down payment (since you're not using it for a down payment).
 
 ---

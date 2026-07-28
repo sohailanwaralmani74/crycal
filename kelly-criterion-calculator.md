@@ -198,19 +198,25 @@ Where f is the Kelly fraction.
 ---
 
 ## Kelly Criterion Calculator Frequently Asked Questions
+
 ### What is the Kelly Criterion?
+
 The Kelly Criterion is a formula used to determine the optimal size of a series of bets. It maximizes the expected log growth of your capital over the long run.
 
 ### What is the Kelly formula?
+
 f* = (bp - q) / b, where f* is the fraction of capital to bet, b is the net odds (win/loss ratio), p is the win probability, and q is the loss probability (1 - p).
 
 ### What is fractional Kelly?
+
 Fractional Kelly is a conservative version where you risk only a fraction (e.g., 50% or 25%) of the full Kelly bet. This reduces volatility while preserving much of the growth.
 
 ### What is a good Kelly percentage?
+
 A good Kelly percentage depends on your risk tolerance. Full Kelly can be aggressive. Many traders use half-Kelly (50%) to reduce drawdowns while maintaining good growth.
 
 ### Can I use this for trading?
+
 Yes — the Kelly Criterion is widely used by traders to size positions based on their edge and win rate.
 
 ---

@@ -160,21 +160,28 @@ Calculate fair rent and utility splits between housemates with our free **Roomma
 ---
 
 ## Roommate Bill Split Calculator Frequently Asked Questions
+
 ### What is the fairest way to split rent between roommates?
+
 The fairest methods account for bedroom square footage, private bathroom access, and parking privileges, or split expenses proportionally based on income.
 
 ### How should shared household utilities (electric, wifi, water) be split?
+
 Shared utilities should almost always be split 100% equally among all housemates, regardless of bedroom size differences.
 
 ### How does income-proportional rent splitting work?
+
 In an income-proportional split, each roommate's rent share matches their percentage of combined household income (e.g., if Partner A earns 60% of total household income, they pay 60% of rent).
 
 ### How do you calculate rent for a couple sharing a bedroom with single roommates?
+
 Couples taking one bedroom should pay a higher share of utilities (divided by total heads) and a 10% to 20% premium on total rent to reflect shared common living space.
 
 ### What should roommates do if one person pays all bills upfront?
+
 Use digital payment apps (Venmo, Zelle, Splitwise) immediately upon bill receipt, establishing a strict 5-day repayment policy to prevent friction.
 
 ### How should master bedroom or private bathroom premiums be priced?
+
 A common standard adds a 10% to 15% rent premium for a private bathroom and 5% to 10% for significantly larger square footage.
 

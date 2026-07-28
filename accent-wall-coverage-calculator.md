@@ -222,21 +222,28 @@ The table below demonstrates trim footage, 8ft board counts, grid box dimensions
 ---
 
 ## Accent Wall Coverage Calculator Frequently Asked Questions
+
 ### What is the standard spacing between board and batten strips?
+
 Standard spacing between vertical battens ranges from 12 inches to 20 inches on center. Spacing of 14 to 16 inches creates a classic, balanced architectural proportion for 8-foot to 9-foot ceilings.
 
 ### What size lumber should I use for a board and batten accent wall?
+
 1x4 boards (actual size 0.75" × 3.5") or 1x3 boards (actual size 0.75" × 2.5") made of primed MDF or clear pine are the most popular materials for DIY board and batten feature walls.
 
 ### How many gallons of paint do I need for a board and batten accent wall?
+
 One gallon of paint covers 350 to 400 square feet per coat. Because board and batten walls have extra trim surface area and seams, plan for 2 coats and order 1 to 2 gallons for a standard 12' × 9' room.
 
 ### How do I calculate uniform grid spacing for a lattice accent wall?
+
 Subtract the cumulative width of all trim boards from the total wall width, then divide the remaining clear width by the number of box openings to get exact inner box widths.
 
 ### Should I attach trim boards directly to drywall or install a thin backing sheet?
+
 If your drywall is smooth, nail primed trim boards directly into studs and drywall using construction adhesive and 2-inch brad nails. If your drywall is heavily textured (knockdown or orange peel), install 3mm smooth hardboard backing first.
 
 ### What tools are needed to install a board and batten accent wall?
+
 You will need a miter saw, 18-gauge brad nailer, laser level, tape measure, caulk gun (paintable acrylic latex caulk), wood filler, sandpaper, and paint rollers.
 

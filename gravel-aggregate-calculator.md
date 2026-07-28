@@ -194,21 +194,28 @@ $$\text{Total Cost} = \text{Tons} \times \text{Price Per Ton}$$
 ---
 
 ## Gravel Aggregate Calculator Frequently Asked Questions
+
 ### How many tons of gravel are in a cubic yard?
+
 One cubic yard of crushed gravel weighs approximately 1.35 tons (2,700 lbs), while pea gravel weighs ~1.30 tons and decomposed granite weighs ~1.50 tons.
 
 ### How many square feet does a ton of gravel cover at 3 inches depth?
+
 One ton of crushed stone (approx. 0.74 cubic yards) covers roughly 80 square feet at a depth of 3 inches.
 
 ### How thick should a gravel driveway be?
+
 A gravel driveway should have a total depth of 4 to 6 inches, typically consisting of a 3-inch subbase of heavy crushed stone topped with 2 inches of decorative gravel.
 
 ### Why do I need to add a compaction factor to gravel calculations?
+
 When gravel is spread and compacted with a plate compactor or driven over, its volume decreases by 10% to 15% as smaller stones settle into air gaps.
 
 ### How much does a yard of gravel cost?
+
 Bulk gravel costs between $35 and $65 per cubic yard ($40 to $75 per ton), depending on material type and local quarry proximity.
 
 ### What is the difference between pea gravel and crushed stone?
+
 Pea gravel consists of naturally rounded, smooth river stones ideal for pathways, whereas crushed stone has sharp angular edges that interlock tightly for stable driveways.
 

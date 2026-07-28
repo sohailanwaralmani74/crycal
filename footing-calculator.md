@@ -183,21 +183,28 @@ $$\text{Total Footing Cost} = (\text{Concrete Vol} \times \text{Price/yd}) + (\t
 ---
 
 ## Footing Calculator Frequently Asked Questions
+
 ### How much concrete do I need for a 150 ft footing?
+
 A 150 ft long footing that is 20 inches wide and 12 inches deep requires approximately 10.19 cubic yards of concrete (including a 10% waste factor).
 
 ### How is continuous footing volume calculated?
+
 Volume (cu yd) = [Length (ft) × (Width (in) / 12) × (Depth (in) / 12) / 27] × 1.10 (waste factor).
 
 ### How much rebar overlap should be added for footings?
+
 Building codes generally require a minimum 30-diameter or 12 to 15 inch rebar lap splice. Adding 15% extra to total linear length accounts for laps, corner bends, and cutting waste.
 
 ### What size rebar is standard for residential footings?
+
 Standard residential footings use #4 rebar (1/2 inch diameter) or #5 rebar (5/8 inch diameter) laid continuously on rebar chairs.
 
 ### How deep should house foundation footings be poured?
+
 Footings must extend below your local frost depth line (typically 12 inches in warm climates up to 48+ inches in freezing northern regions).
 
 ### How wide should a concrete footing be relative to the wall?
+
 As a rule of thumb, foundation footings are twice as wide as the foundation wall they support (e.g., a 20-inch wide footing for a 10-inch stem wall).
 

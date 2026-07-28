@@ -238,19 +238,25 @@ Whether you need a refinance mortgage estimator or a full refi mortgage calculat
 ---
 
 ## Refinance Calculator Frequently Asked Questions
+
 ### What is the Refinance Calculator?
+
 It's a refinance mortgage calculator that compares your current mortgage with a new loan. It calculates your new payment, total interest, and break‑even point — so you can decide if a refi mortgage makes sense.
 
 ### How is the break‑even point calculated?
+
 Divide your closing costs by your monthly savings. That gives you the number of months to recover your costs. This refinance calculator shows it in years and months.
 
 ### When does refinancing make sense?
+
 Refinancing makes sense when you can lower your rate by at least 0.5‑1% and plan to stay in your home long enough to break even. Use this refinance home loan calculator to test different scenarios.
 
 ### What's included in the refinance estimate?
+
 Closing costs typically include appraisal, title search, origination fees, and other lender charges. Adjust the closing costs field based on your actual Loan Estimate.
 
 ### Why use this refinance mortgage payment calculator?
+
 It gives you a complete financial picture — monthly payment, total interest, interest saved, and break‑even — so you can compare your refinance house loan options side by side.
 
 ---

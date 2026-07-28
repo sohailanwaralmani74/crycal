@@ -171,7 +171,9 @@ Using this **Header Beam Size Calculator** allows builders, framers, and enginee
 ---
 
 ## Header Beam Size Calculator Mathematical Formulas & Mechanics
+
 ### 1. Tributary Load Calculation
+
 $$\text{Tributary Width } W_{\text{trib}} = \frac{\text{Building Width}}{2}$$
 $$w_{\text{total}} = W_{\text{trib}} \times \left( q_{\text{roof\_dead}} + q_{\text{roof\_snow}} + q_{\text{floor\_live}} \right) + q_{\text{wall}}$$
 
@@ -181,10 +183,12 @@ Where typical design loads are:
 - Floor Dead Load: $10\text{ psf}$
 
 ### 2. Bending Moment & Shear Equations
+
 $$M_{\text{max}} = \frac{w_{\text{total}} \times L^2}{8}$$
 $$V_{\text{max}} = \frac{w_{\text{total}} \times L}{2}$$
 
 ### 3. Deflection Limitation (L/240 Total Load)
+
 $$\Delta_{\text{actual}} = \frac{5 \cdot w_{\text{total}} \cdot L^4}{384 \cdot E \cdot I} \le \Delta_{\text{allowable}} = \frac{L \cdot 12}{240}$$
 
 Where $E$ is Modulus of Elasticity ($1.4 \times 10^6\text{ psi}$ for SPF #2; $2.0 \times 10^6\text{ psi}$ for LVL) and $I = \frac{b h^3}{12}$ is Moment of Inertia.
@@ -192,6 +196,7 @@ Where $E$ is Modulus of Elasticity ($1.4 \times 10^6\text{ psi}$ for SPF #2; $2.
 ---
 
 ## Header Beam Size Calculator Benchmarks & Comparison Table
+
 Maximum allowable clear spans for double $2\times$ headers supporting roof + 1 clear-span floor ($28\text{ ft}$ building width, $30\text{ psf}$ snow load):
 
 | Header Size | SPF #2 Max Span | SYP #2 Max Span | 2.0E LVL (Double 1-3/4") | Req. Jack Studs ($\le 6\text{ ft}$) | Req. Jack Studs ($> 6\text{ ft}$) |
@@ -206,6 +211,7 @@ Maximum allowable clear spans for double $2\times$ headers supporting roof + 1 c
 ---
 
 ## How to Use the Header Beam Size Calculator Step-by-Step
+
 1. **Measure Opening Clear Span:** Measure exact rough opening width in feet for door, window, or garage framed opening.
 2. **Determine Tributary Building Span:** Input building width to determine weight transferred from ceiling joists and roof rafters.
 3. **Select Loading Condition:** Choose single story (roof load only), 2-story (roof + 1 floor), or 3-story (roof + 2 floors).
@@ -215,23 +221,31 @@ Maximum allowable clear spans for double $2\times$ headers supporting roof + 1 c
 ---
 
 ## Header Beam Size Calculator Frequently Asked Questions
+
 ### Rule of thumb for door and window header sizing?
+
 A common traditional rule of thumb is header depth in inches equals opening width in feet plus 2 inches (e.g., 4-ft opening = double 2x6; 6-ft opening = double 2x8; 8-ft opening = double 2x10). However, heavy snow or multi-story loads require calculated engineering.
 
 ### How many jack studs (trimmers) are required per side for a header?
+
 Openings up to 6 feet wide supporting a single story typically require 1 jack stud per side. Openings from 6 to 10 feet wide require 2 jack studs per side. Spans over 10 feet or heavy multi-story loads require 3 jack studs or steel bearing plates.
 
 ### When should engineered LVL headers be used instead of dimensional lumber?
+
 Engineered LVL headers (Laminated Veneer Lumber) should be used for spans exceeding 8 to 10 feet, wide garage door openings (16 ft), or heavily loaded exterior walls where dimensional lumber exceeds maximum depth limits.
 
 ### What is tributary width in header load calculations?
+
 Tributary width is half the span of joists or rafters supported by the wall containing the header. For a 28-foot wide building where rafters span center-to-ridge, the tributary roof width supported by an exterior wall is 14 feet.
 
 ### What deflection limits apply to window and door headers?
+
 Building codes (IRC) mandate a maximum deflection limit of L/240 for total load and L/360 for live load on standard exterior walls. Openings with sensitive glass or sliding doors often require L/480 to prevent binding.
 
 ### Can non-bearing interior wall headers be smaller?
+
 Yes, non-load-bearing interior partition wall headers do not support floor or roof loads. Double 2x4 headers are structurally sufficient for non-bearing spans up to 8 feet wide.
 
 ### How is a double 2x header insulated in exterior framing?
+
 Standard 2x dimensional lumber headers are 3.5 inches thick in a 2x6 wall (5.5 inches deep), leaving a 2-inch interior gap that should be filled with rigid foam insulation (R-10 to R-13) to prevent thermal bridging.

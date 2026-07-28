@@ -194,21 +194,28 @@ $$\text{Total Cost} = (\text{Blocks} \times \text{Block Cost}) + (\text{Capstone
 ---
 
 ## Retaining Wall Calculator Frequently Asked Questions
+
 ### How many retaining wall blocks do I need for a 40 ft long, 4 ft high wall?
+
 A 40 ft long by 4 ft high retaining wall using standard 12 in × 6 in blocks requires 336 wall blocks (including 5% waste) and 40 capstones.
 
 ### How much gravel backfill is needed behind a retaining wall?
+
 Industry standards require a minimum 12-inch wide column of clean crushed stone (angular gravel) directly behind the wall for drainage. A 40 ft long by 4 ft high wall requires approximately 6.52 cubic yards of gravel backfill (including compaction).
 
 ### How many blocks cover 1 square foot of wall?
+
 For standard 12 in × 6 in blocks (0.5 sq ft face area per block), exactly 2 blocks cover 1 square foot of wall face area.
 
 ### Do retaining walls need a buried base course?
+
 Yes. Retaining walls require a minimum of 1 course (or 1 inch of depth per foot of wall height) buried below ground level on a 6-inch compacted crushed stone leveling pad.
 
 ### When is geogrid soil reinforcement required?
+
 Segmental retaining walls over 3 to 4 feet in height generally require geogrid soil reinforcement layers embedded back into the hillside, engineered plans, and building permits.
 
 ### How much does a retaining wall cost per square foot?
+
 DIY block retaining wall materials cost $12 to $25 per square foot. Total contractor-installed cost ranges from $25 to $50 per square foot.
 

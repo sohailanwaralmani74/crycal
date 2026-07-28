@@ -260,19 +260,25 @@ For example:
 ---
 
 ## FIRE Calculator Frequently Asked Questions
+
 ### What is the FIRE movement?
+
 FIRE stands for Financial Independence, Retire Early. It's a movement focused on achieving financial independence through aggressive saving and investing, allowing you to retire much earlier than the traditional retirement age.
 
 ### How is my FI Number calculated?
+
 Your FI Number is calculated as: Annual Expenses ÷ Safe Withdrawal Rate. For example, if your annual expenses are $40,000 and your safe withdrawal rate is 4%, your FI Number is $1,000,000.
 
 ### What is a safe withdrawal rate?
+
 A safe withdrawal rate is the percentage of your portfolio you can withdraw each year without running out of money. The traditional 4% rule is based on US data, but many FIRE enthusiasts use 3-4% depending on their risk tolerance and time horizon.
 
 ### How does my savings rate affect my FIRE journey?
+
 Your savings rate is the single most important factor in FIRE. A higher savings rate means you're saving more and spending less, which accelerates your path to financial independence dramatically.
 
 ### What's the difference between leanFIRE, regular FIRE, and fatFIRE?
+
 LeanFIRE involves retiring with a bare-minimum lifestyle (lower expenses). Regular FIRE is the standard approach with moderate expenses. FatFIRE involves retiring with a high-expense lifestyle, requiring a much larger FI Number.
 
 ---

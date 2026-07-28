@@ -130,6 +130,7 @@ The power of zero-based budgeting lies in eliminating unallocated cash leakage. 
 ---
 
 ## Zero Based Budget Calculator Mathematical Formulas & Mechanics
+
 Total net monthly income ($I_{\text{total}}$) across $p$ distinct income sources is calculated as:
 
 $$I_{\text{total}} = \sum_{a=1}^{p} \text{Income}_a$$
@@ -153,6 +154,7 @@ $$A_{\text{cat}} = \left( \frac{\text{Category Expense Allocation}}{I_{\text{tot
 ---
 
 ## Zero Based Budget Calculator Benchmarks & Comparison Table
+
 The table below illustrates a complete Zero-Based Budget allocation breakdown for a monthly net income of **$5,000.00**:
 
 | Budget Category | Sub-Category Line Items | Monthly Allocation | % of Total Income | Budget Function | Status Check |
@@ -171,6 +173,7 @@ The table below illustrates a complete Zero-Based Budget allocation breakdown fo
 ---
 
 ## How to Use the Zero Based Budget Calculator Step-by-Step
+
 1. **Select Pay Frequency**: Choose your pay cycle (Monthly, Bi-Weekly, or Weekly) from the dropdown menu.
 2. **Add All Income Sources**: Input net take-home pay for all primary salaries, side hustles, and rental income streams.
 3. **Add Fixed Essential Expenses**: Enter mandatory monthly bills (housing, utilities, transportation, insurance).
@@ -181,23 +184,31 @@ The table below illustrates a complete Zero-Based Budget allocation breakdown fo
 ---
 
 ## Zero Based Budget Calculator Frequently Asked Questions
+
 ### What is Zero-Based Budgeting (ZBB)?
+
 Zero-Based Budgeting is a personal finance method where your total monthly net income minus total monthly expenses, debt payments, and savings allocations equals exactly zero ($0.00).
 
 ### Does Zero-Based Budgeting mean keeping $0 in your checking account?
+
 No. A zero-based budget allocates every dollar to a specific budget category, including emergency savings and checking account buffer categories.
 
 ### How does Zero-Based Budgeting differ from the 50/30/20 budget rule?
+
 The 50/30/20 rule uses percentage guidelines for needs, wants, and savings, while Zero-Based Budgeting assigns explicit dollar amounts to every single category until no unallocated funds remain.
 
 ### What should I do if my remaining balance is positive (surplus)?
+
 If you have unallocated surplus cash, assign it directly toward high-interest debt payoff, emergency fund savings, or retirement investments until the balance reaches $0.
 
 ### What should I do if my remaining balance is negative (deficit)?
+
 If your budget shows a deficit, trim discretionary wants (dining out, entertainment, subscriptions) until total allocated expenses equal total income.
 
 ### How often should a Zero-Based Budget be updated?
+
 You should create a fresh zero-based budget at the start of every month or pay period to accommodate seasonal expense changes and irregular income.
 
 ### Is my personal budget and income data kept private?
+
 Yes, 100%. All calculation algorithms execute locally inside your web browser. No income, debt, or personal expense data is stored or transmitted.

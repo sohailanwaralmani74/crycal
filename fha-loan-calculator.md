@@ -173,6 +173,7 @@ By factoring in your home purchase price, down payment percentage (minimum 3.5%)
 ---
 
 ## FHA Loan Calculator Mathematical Formulas & Mechanics
+
 The down payment dollar amount ($D$) based on home purchase price ($P$) and down payment percentage ($d \ge 3.5\%$) is:
 
 $$D = P \times \left( \frac{d}{100} \right)$$
@@ -204,6 +205,7 @@ $$M_{\text{total}} = M_{\text{PI}} + M_{\text{MIP}}$$
 ---
 
 ## FHA Loan Calculator Benchmarks & Comparison Table
+
 The benchmark table below outlines FHA loan components across purchase price tiers for a **30-year fixed term at 6.50% interest** with **3.5% down payment** (UFMIP 1.75%, Annual MIP 0.55%):
 
 | Home Purchase Price | Down Payment (3.5%) | Base Loan Amount | Upfront MIP (1.75%) | Total Financed Balance | Monthly P&I | Monthly MIP (0.55%) | Total Monthly FHA Payment |
@@ -219,6 +221,7 @@ The benchmark table below outlines FHA loan components across purchase price tie
 ---
 
 ## How to Use the FHA Loan Calculator Step-by-Step
+
 1. **Select Currency**: Choose your local currency symbol ($ USD, € EUR, £ GBP) from the site header.
 2. **Enter Home Purchase Price**: Input total purchase price of the property.
 3. **Set Down Payment Percentage**: Enter down payment percentage (minimum 3.5% required for FHA).
@@ -229,23 +232,31 @@ The benchmark table below outlines FHA loan components across purchase price tie
 ---
 
 ## FHA Loan Calculator Frequently Asked Questions
+
 ### What is an FHA home loan?
+
 An FHA loan is a mortgage insured by the Federal Housing Administration, designed for first-time buyers and borrowers with lower credit scores, requiring a minimum down payment of 3.5%.
 
 ### What is the FHA Upfront Mortgage Insurance Premium (UFMIP)?
+
 FHA loans require a mandatory 1.75% upfront MIP fee based on the base loan balance, which is standardly financed directly into the total mortgage amount.
 
 ### What is the FHA Annual Mortgage Insurance Premium (MIP)?
+
 The annual MIP is a recurring annual fee (typically 0.55% for 30-year terms with 3.5% down) divided into 12 monthly installments added to your mortgage payment.
 
 ### Can FHA mortgage insurance (MIP) be removed?
+
 If you put down 3.5%, MIP remains for the entire life of the loan. To remove MIP, you must refinance into a conventional mortgage once reaching 20% equity.
 
 ### What minimum credit score is required for an FHA loan?
+
 Borrowers with a credit score of 580+ qualify for 3.5% down payment. Borrowers with scores between 500 and 579 require a 10% down payment.
 
 ### How does FHA compare to conventional 3% down mortgages?
+
 FHA loans have more lenient credit requirements, but conventional loans allow PMI cancellation at 20% equity, whereas FHA MIP persists for the life of the loan.
 
 ### Is my personal financial information stored or uploaded?
+
 No, 100%. All calculation formulas run locally inside your web browser. No personal or property financial data is recorded or transmitted.

@@ -181,6 +181,7 @@ This calculator bridges both models:
 ---
 
 ## Key Saas Pricing Calculator Mathematical Formulas
+
 ### 1. Cost-Plus Pricing Formula
 
 $$ \text{Total COGS} = \text{Hosting Cost} + \text{Support Cost} + \text{Other COGS} $$
@@ -222,20 +223,27 @@ $$ \text{Hybrid Target Price} = \max\left( \text{Cost-Plus Price}, (0.30 \times 
 ---
 
 ## Saas Pricing Calculator Frequently Asked Questions
+
 ### What is the difference between cost-plus and value-based pricing in SaaS?
+
 Cost-plus pricing calculates price by adding a target gross margin percentage to direct COGS. Value-based pricing bases price on the economic value, ROI, and time saved for the customer.
 
 ### Why is cost-plus pricing considered a floor for SaaS?
+
 Cost-plus ensures you cover unit costs and maintain gross margins, but it ignores customer willingness to pay and often leaves significant revenue on the table.
 
 ### What is an acceptable value capture percentage for B2B SaaS?
+
 Most B2B SaaS platforms capture between 10% and 30% of the total ROI created for customers, leaving 70% to 90% of economic surplus to the customer.
 
 ### What is a good SaaS gross margin percentage?
+
 Healthy B2B SaaS software businesses typically target gross margins between 75% and 85%. Margins below 70% indicate high infrastructure or human support overhead.
 
 ### How does the hybrid target price work?
+
 The hybrid price blends cost-plus floor security with value-based upside, weighting 70% toward value-based pricing while guaranteeing target gross margins.
 
 ### Can I use this calculator for tiered pricing tiers?
+
 Yes, you can run calculations for Starter, Pro, and Enterprise tiers by adjusting user usage assumptions and value metrics per tier.

@@ -180,9 +180,11 @@ This estimator provides realistic price estimates tailored to your vehicle's spe
 ---
 
 ## Car Detailing Cost Estimator Calculation Flow & Formulas
+
 The detailing cost engine multiplies base package rates by vehicle size and condition factors, appending add-on totals:
 
 ### Car Detailing Cost Estimator Inputs & Parameters
+
 | Parameter | Unit | Description |
 | :--- | :--- | :--- |
 | **Base Package (\(P_{base}\))** | $ | Express = $80, Full = $220, Premium = $450, Ceramic = $900 |
@@ -193,17 +195,21 @@ The detailing cost engine multiplies base package rates by vehicle size and cond
 ---
 
 ### Step-by-Step Car Detailing Cost Estimator Formulas
+
 #### 1. Adjusted Base Package Cost (\(C_{package}\))
+
 \[
 C_{package} = P_{base} \times F_{size} \times F_{cond}
 \]
 
 #### 2. Total Add-on Services (\(A_{total}\))
+
 \[
 A_{total} = A_{paint} + A_{headlight} + A_{engine}
 \]
 
 #### 3. Total Detailing Cost (\(C_{detail}\))
+
 \[
 C_{detail} = C_{package} + A_{total}
 \]
@@ -222,6 +228,7 @@ C_{detail} = C_{package} + A_{total}
 ---
 
 ## How to Use the Car Detailing Cost Estimator Step-by-Step
+
 1. **Select Vehicle Size**: Choose your vehicle category (e.g. **Midsize Sedan**).
 2. **Select Service Tier**: Choose your target package (e.g. **Full Interior & Exterior Detail**).
 3. **Select Vehicle Condition**: Choose **Moderate** for family daily drivers.
@@ -230,23 +237,31 @@ C_{detail} = C_{package} + A_{total}
 ---
 
 ## Car Detailing Cost Estimator Frequently Asked Questions
+
 ### How much does a full car detail cost on average?
+
 A full professional interior and exterior detail averages **$175 to $250 for sedans**, **$220 to $320 for SUVs**, and **$250 to $375 for large trucks** and passenger vans.
 
 ### What is included in a Full Interior & Exterior Detail?
+
 A full detail includes hand washing, clay bar decontamination, wheel & tire cleaning, tire dressing, interior vacuuming, carpet & seat shampooing, leather conditioning, window cleaning, and dash/door trim protection.
 
 ### Why do SUVs and trucks cost more to detail than sedans?
+
 SUVs, minivans, and trucks have significantly larger exterior surface areas, taller rooflines, extra carpet square footage, and third-row seating—requiring **30% to 50% more labor time** and products.
 
 ### What is paint correction in auto detailing?
+
 Paint correction is a machine polishing process using abrasive compounds and pads to remove clear coat scratches, swirl marks, oxidation, and water spots.
 
 ### Is ceramic coating worth the high price tag?
+
 Yes. Ceramic coating forms a semi-permanent hydrophobic chemical bond over the clear coat, offering **2 to 5+ years** of UV protection, extreme water repelling, and resistance to chemical etching.
 
 ### How long does a professional car detail take?
+
 Express details take 1 to 2 hours; Full details take 3 to 5 hours; Premium paint correction and ceramic coating packages take 8 to 24+ hours over 1 to 2 days.
 
 ### Is my vehicle estimate private?
+
 Yes. All computations process 100% locally within your web browser.

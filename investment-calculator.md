@@ -196,6 +196,7 @@ Where:
 ---
 
 ## How to Use the Investment Calculator
+
 1.  Select your **account currency** from the picker in the site header.
 2.  Enter your **initial investment** (lump sum).
 3.  Set your **monthly contribution** (optional — leave at 0 if none).
@@ -207,16 +208,21 @@ Where:
 ---
 
 ## Investment Calculator Frequently Asked Questions
+
 ### What is an investment calculator?
+
 An investment calculator projects the future value of your investments based on your initial lump sum, monthly contributions, expected return rate, and time horizon. It helps you plan for financial goals.
 
 ### How is CAGR calculated?
+
 CAGR (Compound Annual Growth Rate) is the annualized return of your investment. It's calculated as (Ending Value / Beginning Value)^(1/n) − 1, where n is the number of years. It smooths out volatility to show a consistent annual growth rate.
 
 ### What is a realistic expected annual return?
+
 For stocks, historical averages are around 7-10% per year. Bonds typically yield 3-5%. Use conservative estimates for planning, and adjust based on your risk profile.
 
 ### Can I use this calculator for SIP investments?
+
 This calculator handles lump sum investments with optional monthly contributions. For pure SIP (regular monthly investments with no initial lump sum), we have a dedicated SIP Calculator.
 
 ---

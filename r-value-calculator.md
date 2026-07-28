@@ -207,21 +207,28 @@ $$\text{Thermal Efficiency (\%)} = \frac{R_{\text{eff}}}{R_{\text{nominal\_total
 ---
 
 ## R Value Calculator Frequently Asked Questions
+
 ### What is R-value in building insulation?
+
 R-value measures thermal resistance to heat flow. Higher R-values indicate greater insulating power. Effective R-value accounts for structural studs that conduct heat through thermal bridging.
 
 ### What is U-factor and how does it relate to R-value?
+
 U-factor (or U-value) measures rate of heat transfer (BTU/hr·ft²·°F). It is the mathematical inverse of effective R-value (U = 1 / R_eff). Lower U-factors represent better insulating performance.
 
 ### Why is nominal insulation R-value higher than effective assembly R-value?
+
 Nominal R-value applies only to the cavity insulation itself. Because wood studs (R-1.25/in) or steel studs conduct heat faster than insulation, framing creates 'thermal bridges' that lower the total wall assembly R-value by 15% to 50%.
 
 ### How does steel stud framing affect wall R-value?
+
 Steel is a powerful heat conductor. Steel studs create severe thermal bridging that can reduce nominal fiberglass R-13 cavity insulation down to an effective assembly rating of just R-6 to R-7.
 
 ### What R-value is recommended for residential walls?
+
 US IECC building energy codes typically require R-13 to R-20 cavity insulation, or R-13 cavity insulation plus R-5 continuous exterior rigid foam insulation depending on climate zone.
 
 ### Does this calculator account for indoor and outdoor air films?
+
 Yes, standard indoor wall surface air film (R-0.68) and outdoor air film (R-0.17) are included in total assembly effective R-value calculations.
 

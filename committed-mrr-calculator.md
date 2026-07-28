@@ -188,23 +188,31 @@ $$\text{Committed ARR (CARR)} = \text{CMRR} \times 12$$
 ---
 
 ## Committed Mrr Calculator Frequently Asked Questions
+
 ### What is Committed MRR (CMRR)?
+
 Committed Monthly Recurring Revenue (CMRR) is a forward-looking SaaS metric that measures guaranteed monthly revenue by adding signed contracts starting in the future and subtracting known impending cancellations or downgrades from current active MRR.
 
 ### What is Committed ARR (CARR)?
+
 Committed Annual Recurring Revenue (CARR) is simply Committed MRR multiplied by 12 (CMRR × 12).
 
 ### Why is CMRR more predictive than current MRR for Enterprise B2B SaaS?
+
 Enterprise software sales often involve 30-to-90 day implementation delays between contract signing and go-live billing. CMRR gives executives a true picture of locked-in future revenue.
 
 ### What is the formula for CMRR?
+
 CMRR = Current Active MRR + Signed Future New MRR + Signed Future Expansion MRR − Known Pending Churn MRR − Known Pending Contraction MRR.
 
 ### Does CMRR include sales pipeline opportunities that haven't been signed?
+
 No. CMRR strictly includes executed, legally binding contracts. Unsigned sales pipeline leads or verbal promises must be excluded.
 
 ### How do venture capital investors view CMRR during fundraising?
+
 VC investors evaluate CMRR to gauge true growth velocity, especially when large enterprise deals are signed near quarter-end but await technical implementation.
 
 ### How does CMRR differ from ARR?
+
 ARR measures current live annualized billing, while CARR incorporates signed future contracts and scheduled cancellations before they hit the billing system.

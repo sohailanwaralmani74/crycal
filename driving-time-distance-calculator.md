@@ -163,9 +163,11 @@ This planner calculates pure wheel time as well as total elapsed time incorporat
 ---
 
 ## Driving Time Distance Calculator Calculation Flow & Formulas
+
 The engine converts total distance to pure driving duration and appends scheduled break intervals:
 
 ### Driving Time Distance Calculator Inputs & Parameters
+
 | Parameter | Unit | Description |
 | :--- | :--- | :--- |
 | **Distance (\(D\))** | miles | Total driving distance |
@@ -177,27 +179,33 @@ The engine converts total distance to pure driving duration and appends schedule
 ---
 
 ### Step-by-Step Driving Time Distance Calculator Formulas
+
 #### 1. Pure Driving Duration (\(T_{drive}\))
+
 \[
 T_{drive} = \frac{D}{S_{avg}} \quad \text{(in hours)}
 \]
 
 #### 2. Number of Rest Stops (\(N_{stops}\))
+
 \[
 N_{stops} = \lfloor \frac{T_{drive}}{I_{rest}} \rfloor \quad \text{(if } T_{drive} \text{ exceeds interval)}
 \]
 
 #### 3. Total Rest Duration (\(T_{break\_total}\))
+
 \[
 T_{break\_total} = \frac{N_{stops} \times T_{rest}}{60} \quad \text{(in hours)}
 \]
 
 #### 4. Total Elapsed Journey Duration (\(T_{total}\))
+
 \[
 T_{total} = T_{drive} + T_{break\_total}
 \]
 
 #### 5. Estimated Arrival Time (ETA)
+
 \[
 \text{ETA} = \text{Start Time} + T_{total}
 \]
@@ -216,6 +224,7 @@ T_{total} = T_{drive} + T_{break\_total}
 ---
 
 ## How to Use the Driving Time Distance Calculator Step-by-Step
+
 1. **Enter Total Distance**: Input total route miles (e.g. `450 miles`).
 2. **Set Average Speed**: Enter realistic average cruising speed (e.g. `65 mph`).
 3. **Configure Rest Stops**: Enter rest interval (e.g. `2.5 hours`) and break length (e.g. `20 mins`).
@@ -224,23 +233,31 @@ T_{total} = T_{drive} + T_{break\_total}
 ---
 
 ## Driving Time Distance Calculator Frequently Asked Questions
+
 ### How do you calculate pure driving time?
+
 Pure driving time is calculated by dividing total distance by average speed (Time = Distance / Speed).
 
 ### Why is average driving speed lower than the posted highway speed limit?
+
 Average speed accounts for stoplights, highway traffic slowdowns, toll plazas, construction zones, and speed limit reductions through urban areas.
 
 ### How often should drivers take rest breaks on long trips?
+
 Safety organizations recommend taking a 15-to-20-minute break every **2 to 3 hours** of continuous driving to combat fatigue and maintain alert reaction times.
 
 ### How do rest stops affect overall trip ETA?
+
 Taking three 20-minute breaks adds **1 full hour** to your total elapsed trip time, shifting your estimated arrival time accordingly.
 
 ### What average speed should I use for long-distance highway travel?
+
 For interstate highways with 70 mph speed limits, a realistic overall average speed including minor slowdowns is typically **60 to 65 mph**.
 
 ### How does night driving affect travel time?
+
 Night driving usually features lighter traffic permitting higher sustained average speeds, but reduced visibility requires greater driver alertness and rest frequency.
 
 ### Is my travel itinerary stored on any server?
+
 No. All calculation parameters remain completely private within your local web browser.

@@ -202,16 +202,21 @@ This **retirement healthcare cost calculator** is designed for:
 ---
 
 ## Retirement Healthcare Cost Calculator Frequently Asked Questions
+
 ### How much does healthcare cost in retirement?
+
 Healthcare costs in retirement vary widely based on health status, location, and coverage, but many studies estimate a retired couple may need several hundred thousand dollars over retirement to cover premiums, out-of-pocket costs, and long-term care needs.
 
 ### Why does healthcare inflation matter for retirement planning?
+
 Healthcare costs have historically risen faster than general inflation, so using a higher healthcare-specific inflation rate provides a more realistic projection of future medical expenses than using standard inflation assumptions.
 
 ### Does this calculator include long-term care costs?
+
 No. This calculator estimates routine healthcare costs like premiums, copays, and out-of-pocket medical expenses. Long-term care (such as nursing home or assisted living costs) should be budgeted for separately, as it can be substantially more expensive.
 
 ### What is "present value" in this context?
+
 Present value shows what your total projected healthcare costs are worth in today's dollars, discounted at your expected investment return rate, helping you understand how much you'd need to set aside today to cover future costs.
 
 <p class="tool-disclaimer">This is a general estimate and does not constitute medical, insurance, or financial advice. Actual healthcare costs vary significantly by individual health status, location, and coverage choices.</p>

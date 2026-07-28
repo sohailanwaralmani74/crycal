@@ -222,17 +222,21 @@ Key volume components:
 ---
 
 ## Engine Compression Ratio Calculator Mathematical Formulas
+
 ### 1. Single Cylinder Swept Volume ($V_s$) in CC
+
 \[
 V_s = \left[ \pi \times \left(\frac{\text{Bore}_{\text{in}}}{2}\right)^2 \times \text{Stroke}_{\text{in}} \right] \times 16.387064
 \]
 
 ### 2. Clearance Volume Sub-Components in CC
+
 - **Gasket Volume ($V_{\text{gasket}}$)**: $\pi \times \left( \frac{\text{GasketBore}}{2} \right)^2 \times \text{GasketThickness} \times 16.387064$
 - **Deck Volume ($V_{\text{deck}}$)**: $\pi \times \left( \frac{\text{Bore}}{2} \right)^2 \times \text{DeckHeight} \times 16.387064$
 - **Total Clearance Volume ($V_c$)**: $V_{\text{chamber}} + V_{\text{piston}} + V_{\text{gasket}} + V_{\text{deck}}$
 
 ### 3. Static Compression Ratio ($\text{CR}$)
+
 \[
 \text{CR} = \frac{V_s + V_c}{V_c}
 \]
@@ -251,6 +255,7 @@ V_s = \left[ \pi \times \left(\frac{\text{Bore}_{\text{in}}}{2}\right)^2 \times 
 ---
 
 ## Step-by-Step Engine Compression Ratio Calculator Usage Guide
+
 1. **Enter Bore & Stroke**: Input cylinder bore (e.g. 4.00 in) and stroke (3.48 in).
 2. **Provide Chamber Volume**: Enter cylinder head chamber CC (e.g. 64 cc).
 3. **Set Piston Volume**: Input dish volume (+cc) or dome volume (-cc).
@@ -260,23 +265,31 @@ V_s = \left[ \pi \times \left(\frac{\text{Bore}_{\text{in}}}{2}\right)^2 \times 
 ---
 
 ## Engine Compression Ratio Calculator Frequently Asked Questions
+
 ### What is static compression ratio?
+
 Static compression ratio is the ratio of cylinder maximum volume at Bottom Dead Center (BDC) to cylinder minimum volume at Top Dead Center (TDC): $\text{CR} = \frac{V_{\text{swept}} + V_{\text{clearance}}}{V_{\text{clearance}}}$.
 
 ### How does piston dish vs dome affect compression ratio?
+
 A dished piston increases clearance volume ($+ \text{cc}$), lowering compression ratio. A domed piston displaces clearance volume ($-\text{cc}$), raising compression ratio.
 
 ### What is a good static compression ratio for a street engine?
+
 Naturally aspirated pump-gas street engines run between 9.5:1 and 10.5:1 on 87-93 octane fuel. Direct injection engines can run up to 12.0:1 without detonation.
 
 ### What compression ratio is recommended for turbocharged or supercharged engines?
+
 Forced induction engines typically run lower static compression ratios (8.5:1 to 9.5:1) to prevent engine detonation under boost.
 
 ### How does head gasket thickness impact compression ratio?
+
 Thinner head gaskets reduce clearance volume, increasing compression ratio and improving quench distance, while thicker gaskets lower compression.
 
 ### What is the difference between static and dynamic compression ratio?
+
 Static compression ratio is purely mechanical geometry. Dynamic compression ratio accounts for intake valve closing (IVC) position, calculating real compression starting only after the intake valve seals.
 
 ### Does the engine compression ratio calculator store my data?
+
 No. All calculations take place 100% locally in your web browser.

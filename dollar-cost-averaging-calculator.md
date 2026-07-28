@@ -199,6 +199,7 @@ The dollar cost averaging strategy is straightforward: you invest a fixed amount
 ---
 
 ## How to Use the Dollar Cost Averaging Calculator
+
 1.  Select your **account currency** from the picker in the site header.
 2.  Enter your **initial investment (lump sum)** — leave at 0 for a pure DCA analysis.
 3.  Set your **monthly investment** amount.
@@ -212,19 +213,25 @@ The tool updates instantly — you'll see your DCA final value, total invested, 
 ---
 
 ## Dollar Cost Averaging Calculator Frequently Asked Questions
+
 ### What is dollar cost averaging (DCA)?
+
 Dollar cost averaging (DCA) is an investment strategy where you invest a fixed amount of money at regular intervals, regardless of market conditions. This reduces the impact of market volatility and eliminates the need to time the market.
 
 ### How does the dollar cost averaging calculator work?
+
 Our DCA calculator simulates monthly investments over your chosen time period, with realistic price fluctuations based on expected return and volatility. It shows your final portfolio value, average cost per share, and compares DCA to a lump sum investment.
 
 ### What is the DCA formula and cost averaging formula?
+
 The cost averaging formula is simple: Average Cost Per Share = Total Amount Invested ÷ Total Shares Purchased. With dollar cost averaging, you buy more shares when prices are low and fewer when prices are high, which lowers your average cost per share over time.
 
 ### Is dollar cost averaging better than lump sum investing?
+
 It depends on market conditions. Historically, lump sum investing has outperformed DCA about two-thirds of the time in rising markets. However, DCA can be a better strategy for risk-averse investors, volatile markets, or when you have psychological concerns about investing a large amount at once.
 
 ### How do I calculate dollar cost averaging returns?
+
 Use our DCA calculator — enter your monthly investment amount, time period, expected return, and volatility. The tool simulates monthly purchases and shows your final value, total invested, and average cost per share. You can also compare DCA against a lump sum investment.
 
 ---

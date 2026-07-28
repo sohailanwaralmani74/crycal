@@ -142,9 +142,11 @@ This calculator computes backspacing in inches and precise millimeter position s
 ---
 
 ## Wheel Offset Backspacing Calculator Calculation Flow & Formulas
+
 Backspacing calculations account for the true overall wheel width, which includes a **0.5-inch total lip margin** (0.25" on each flange):
 
 ### Wheel Offset Backspacing Calculator Inputs & Parameters
+
 | Parameter | Unit | Description |
 | :--- | :--- | :--- |
 | **Wheel Width (\(W\))** | inches (in) | Nominal rim width between tire bead seats |
@@ -154,18 +156,22 @@ Backspacing calculations account for the true overall wheel width, which include
 ---
 
 ### Step-by-Step Wheel Offset Backspacing Calculator Formulas
+
 #### 1. Wheel Backspacing (\(BS\))
+
 \[
 BS = \left(\frac{W}{2}\right) + \left(\frac{ET}{25.4}\right) + 0.5 \quad \text{(in inches)}
 \]
 
 #### 2. Inner Suspension Clearance Change (\(\Delta C_{inner}\))
+
 \[
 \Delta C_{inner} = \left(\frac{W_{new} - W_{current}}{2} \times 25.4\right) + \left(ET_{new} - ET_{current}\right) \quad \text{(in mm)}
 \]
 *(Positive value = less clearance towards suspension)*
 
 #### 3. Outer Fender Extension (\(\Delta E_{outer}\))
+
 \[
 \Delta E_{outer} = \left(\frac{W_{new} - W_{current}}{2} \times 25.4\right) - \left(ET_{new} - ET_{current}\right) \quad \text{(in mm)}
 \]
@@ -184,6 +190,7 @@ BS = \left(\frac{W}{2}\right) + \left(\frac{ET}{25.4}\right) + 0.5 \quad \text{(
 ---
 
 ## How to Use the Wheel Offset Backspacing Calculator Step-by-Step
+
 1. **Find Stock Wheel Specs**: Locate your factory wheel width and offset stamped on the back of the wheel spokes (e.g. `8Jx18 ET45`).
 2. **Input Current Specs**: Enter 8.0 inches for width and 45 mm for offset.
 3. **Input New Wheel Specs**: Enter target wheel width and offset (e.g. `9.0" ET35`).
@@ -192,21 +199,28 @@ BS = \left(\frac{W}{2}\right) + \left(\frac{ET}{25.4}\right) + 0.5 \quad \text{(
 ---
 
 ## Wheel Offset Backspacing Calculator Frequently Asked Questions
+
 ### What is wheel offset?
+
 Wheel offset is the distance from the wheel's hub mounting surface to its true centerline, measured in millimeters. Positive offset tucks the wheel inward; negative offset pushes the wheel outward.
 
 ### What is wheel backspacing?
+
 Wheel backspacing is the distance from the hub mounting surface to the inside back edge of the wheel flange, measured in inches.
 
 ### How do you convert wheel offset to backspacing?
+
 Backspacing (in inches) = (Wheel Width / 2) + (Offset in mm / 25.4) + 0.5 inches (the 0.5" accounts for the standard wheel lip thickness).
 
 ### What happens if a wheel has too much backspacing?
+
 Too much backspacing moves the inner edge of the wheel closer to the suspension struts, tie rods, and brake calipers, potentially causing severe rubbing during steering maneuvers.
 
 ### What happens if a wheel has too little backspacing?
+
 Too little backspacing pushes the wheel further out toward the fender, which can rub against the fender lip or plastic fender liner over bumps.
 
 ### Is positive or negative offset more common on modern vehicles?
+
 Most modern front-wheel drive and all-wheel drive vehicles use positive offset wheels (typically +35mm to +50mm), whereas classic muscle cars and lifted trucks often use zero or negative offset.
 

@@ -217,22 +217,28 @@ Buying mortgage points can lower your monthly payment but costs money upfront. T
 
 
 ## Strategic Guidance for Mortgage Points Calculator
+
 Using this interactive calculation engine provides a clear, quantitative roadmap for your decisions. By eliminating mathematical uncertainty, you can optimize financial allocations, compare scenarios side-by-side, and make data-driven choices.
 
 ### Key Tactical Benefits of Mortgage Points Calculator
+
 - **Mathematical Certainty**: Eliminates guesswork by modeling multi-variable compounding and precise cost structures.
 - **Scenario Comparison**: Test multiple interest rates, payment timelines, and capital allocations in real-time.
 - **Privacy Assurance**: All data remains 100% confidential within your local browser memory, with zero remote server logging.
 - **Export & Audit Readiness**: Log calculations to local browser storage, export full histories to CSV/Excel, or share via link.
 
 ## Mortgage Points Calculator Frequently Asked Questions
+
 ### What are mortgage points?
+
 Mortgage points (or discount points) are upfront fees paid to reduce your interest rate. One point typically costs 1% of the loan amount and lowers the rate by about 0.25%.
 
 ### Is buying mortgage points worth it?
+
 Buying points is worth it if you plan to stay in the home long enough to break even on the upfront cost. This calculator shows you exactly how long that takes.
 
 ### What is the break-even period?
+
 The break-even period is the number of months it takes for your monthly savings to cover the upfront cost of the points.
 
 ---

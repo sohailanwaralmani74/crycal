@@ -159,6 +159,7 @@ Running out of collated framing nails or deck screws mid-day shuts down construc
 This **Screw & Nail Quantity Calculator** computes exact fastener piece counts, translates total units into standard retail/wholesale box quantities, and calculates hardware budgets.
 
 ### Key Benefits of Screw Nail Quantity Calculator
+
 * **Multi-Application Engineering:** Supports wall framing, drywall hanging, deck board attachment, and subfloor sheathing.
 * **Code-Compliant Density:** Incorporates IRC fastener spacing guidelines ($6"\text{ edge} / 12"\text{ field}$).
 * **Box Unit Conversion:** Automatically converts individual fastener counts into standard 1 lb, 5 lb, or 1,000-count boxes.
@@ -167,7 +168,9 @@ This **Screw & Nail Quantity Calculator** computes exact fastener piece counts, 
 ---
 
 ## Screw Nail Quantity Calculator Mathematical Formulas & Mechanics
+
 ### 1. Fastener Density Formula
+
 Fasteners per square foot ($D_{\text{fastener}}$) based on application type and fastener spacing ($S_{\text{inch}}$):
 
 $$D_{\text{fastener}} = \frac{144\text{ sq in}}{S_{\text{inch}} \times S_{\text{joist}}}$$
@@ -178,11 +181,13 @@ $$D_{\text{fastener}} = \frac{144\text{ sq in}}{S_{\text{inch}} \times S_{\text{
 * **Subfloor Allowance:** $1.3\text{ screws / sq ft}$
 
 ### 2. Total Fastener Count
+
 Total individual fasteners ($N_{\text{fasteners}}$) for total project area ($A_{\text{project}}$) with waste allowance ($W_{\text{waste}} = 5\%$):
 
 $$N_{\text{fasteners}} = \left\lceil A_{\text{project}} \times D_{\text{fastener}} \times 1.05 \right\rceil$$
 
 ### 3. Box Quantity & Cost
+
 Total boxes to purchase ($B_{\text{boxes}}$) for box capacity ($C_{\text{box}}$):
 
 $$B_{\text{boxes}} = \left\lceil \frac{N_{\text{fasteners}}}{C_{\text{box}}} \right\rceil$$
@@ -192,6 +197,7 @@ $$C_{\text{total}} = B_{\text{boxes}} \times P_{\text{box}}$$
 ---
 
 ## Screw Nail Quantity Calculator Benchmarks & Comparison Table
+
 The benchmark reference table below demonstrates standard fastener quantities and box requirements across common residential construction tasks:
 
 | Project Task | Coverage Area | Fastener Density | Total Fasteners Needed | Recommended Box Package | Estimated Cost |
@@ -205,6 +211,7 @@ The benchmark reference table below demonstrates standard fastener quantities an
 ---
 
 ## How to Use the Screw Nail Quantity Calculator Step-by-Step
+
 1. **Identify Application Type:** Select framing nails ($16\text{d}$), drywall screws ($1-1/4"$), deck screws ($3"$), or subfloor screws ($2"$).
 2. **Calculate Total Surface Area:** Multiply length by width of floor/deck surface, or length by height for wall studs.
 3. **Verify IRC Fastener Schedule:** Fasten sheathing edges at 6 inches on-center and intermediate field studs at 12 inches on-center.
@@ -214,23 +221,31 @@ The benchmark reference table below demonstrates standard fastener quantities an
 ---
 
 ## Screw Nail Quantity Calculator Frequently Asked Questions
+
 ### How many framing nails do I need per square foot of wall?
+
 Wall framing requires approximately 1.5 to 2.0 framing nails per square foot of wall area to assemble top plates, bottom plates, studs, and corner posts.
 
 ### How many screws are needed for a 4x8 sheet of drywall?
+
 A standard 4x8 sheet of drywall (32 sq ft) requires 32 to 36 drywall screws when spaced 12 inches apart on interior studs, or roughly 1.1 screws per sq ft.
 
 ### How many deck screws are needed per square foot of decking?
+
 Installing 5.5-inch wide deck boards over joists spaced 16 inches on-center requires 3.5 to 4.0 screws per square foot (2 screws at every joist intersection).
 
 ### How many nails come in a 25 lb box of framing nails?
+
 A 25 lb box of 3-1/2 inch (16d) smooth shank framing nails contains approximately 1,150 to 1,250 loose nails, or 2,000 collated strip nails for pneumatic nailers.
 
 ### What size framing nails are required by IRC building code?
+
 The International Residential Code (IRC) specifies 16d common nails (3-1/2" x 0.162") or 16d box nails (3-1/2" x 0.135") for wall stud face-nailing and plate attachment.
 
 ### Should subfloor sheathing be nailed or screwed?
+
 Screwing or using ring-shank subfloor nails combined with subfloor construction adhesive is strongly recommended to permanently prevent squeaky floor joints.
 
 ### How many screws do I need for 500 sq ft of subflooring?
+
 Subfloor sheathing requires approximately 1.25 fasteners per sq ft. For 500 sq ft of subflooring, plan for 625 to 675 subfloor screws or ring nails.

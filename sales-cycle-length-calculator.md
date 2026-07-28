@@ -145,27 +145,38 @@ Understanding sales cycle duration enables accurate revenue forecasting and capa
 ---
 
 ## Sales Cycle Length Calculator Mathematical Formulas & Mechanics
+
 ### 1. Average Sales Cycle Length ($T_{	ext{cycle\_days}}, T_{	ext{cycle\_months}}$)
+
 For cumulative days to close $D_{	ext{total}}$ across closed deals $N_{	ext{closed}}$:
 
-$$T_{	ext{cycle\_days}} = rac{D_{	ext{total}}}{N_{	ext{closed}}}$$
+$$T_{	ext{cycle\_days}} = 
+rac{D_{	ext{total}}}{N_{	ext{closed}}}$$
 
-$$T_{	ext{cycle\_months}} = rac{T_{	ext{cycle\_days}}}{30.4375}$$
+$$T_{	ext{cycle\_months}} = 
+rac{T_{	ext{cycle\_days}}}{30.4375}$$
 
 ### 2. Annual Pipeline Turnover Cycles ($C_{	ext{turnover}}$)
-$$C_{	ext{turnover}} = rac{365}{T_{	ext{cycle\_days}}}$$
+
+$$C_{	ext{turnover}} = 
+rac{365}{T_{	ext{cycle\_days}}}$$
 
 ### 3. Sales Pipeline Velocity ($V_{	ext{sales}}$)
+
 For active pipeline opportunities $N_{	ext{active}}$, win rate $WR$ (decimal), and average deal value $ACV$:
 
-$$V_{	ext{sales}} = rac{N_{	ext{active}} 	imes WR 	imes ACV}{T_{	ext{cycle\_days}}} \quad (	ext{\$ per Day})$$
+$$V_{	ext{sales}} = 
+rac{N_{	ext{active}} 	imes WR 	imes ACV}{T_{	ext{cycle\_days}}} \quad (	ext{\$ per Day})$$
 
 ### 4. Forecasted Monthly Deal Capacity ($N_{	ext{monthly\_deals}}$)
-$$N_{	ext{monthly\_deals}} = rac{N_{	ext{active}} 	imes WR 	imes 30.4375}{T_{	ext{cycle\_days}}}$$
+
+$$N_{	ext{monthly\_deals}} = 
+rac{N_{	ext{active}} 	imes WR 	imes 30.4375}{T_{	ext{cycle\_days}}}$$
 
 ---
 
 ## Sales Cycle Length Calculator Benchmarks & Comparison Table
+
 | SaaS Segment | Average ACV ($) | Benchmark Sales Cycle | Annual Turnover Cycles | Sales Velocity ($/day per 50 opps) |
 | :--- | :--- | :--- | :--- | :--- |
 | **Self-Serve / Product-Led** | $1,200 - $3,600 | 1 - 7 Days | 52+ Cycles | $1,500 - $5,000 / Day |
@@ -176,6 +187,7 @@ $$N_{	ext{monthly\_deals}} = rac{N_{	ext{active}} 	imes WR 	imes 30.4375}{T_{	e
 ---
 
 ## How to Use the Sales Cycle Length Calculator Step-by-Step
+
 1. **Input Sample Closed Deals:** Enter total number of closed-won deals analyzed.
 2. **Input Total Days to Close:** Enter cumulative days from opportunity creation to close.
 3. **Specify Average Deal Size (ACV):** Enter average annual contract value in dollars.
@@ -185,23 +197,31 @@ $$N_{	ext{monthly\_deals}} = rac{N_{	ext{active}} 	imes WR 	imes 30.4375}{T_{	e
 ---
 
 ## Sales Cycle Length Calculator Frequently Asked Questions
+
 ### What is sales cycle length?
+
 Sales cycle length is the average number of days required for a prospect to move from initial qualified sales opportunity to closed-won customer.
 
 ### What is a normal sales cycle length for B2B SaaS?
+
 SMB SaaS deals ($1k-$10k ACV) average 14 to 30 days. Mid-market deals ($10k-$50k ACV) average 30 to 90 days. Enterprise deals ($100k+ ACV) average 90 to 180+ days.
 
 ### How does sales cycle length impact sales velocity?
+
 Sales velocity measures revenue generated per day. Reducing sales cycle length directly increases sales velocity by allowing sales reps to close more deals per quarter.
 
 ### How is sales velocity calculated?
+
 Sales Velocity = (Active Opportunities * Win Rate % * Average Deal ACV) / Average Sales Cycle Length in Days.
 
 ### Why do enterprise sales cycles take longer?
+
 Enterprise sales cycles involve multiple stakeholders, legal compliance reviews, security audits, procurement approvals, and customized contract terms.
 
 ### How can sales teams shorten their sales cycle?
+
 Teams can shorten sales cycles by refining ICP qualification, implementing mutual action plans (MAPs), multi-threading executive sponsors early, and offering clear buying triggers.
 
 ### Should lost deals be included in sales cycle calculations?
+
 Sales cycle length is usually calculated on closed-won deals to measure successful buyer journeys. Tracking days to closed-lost separately helps identify pipeline bottleneck stages.

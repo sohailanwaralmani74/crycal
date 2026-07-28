@@ -148,9 +148,11 @@ Building a custom home or undertaking a major residential renovation requires sp
 During the construction phase, borrowers pay interest only on the cumulative funds actually drawn, rather than accruing interest on the total approved loan amount. Once home construction is finished, the loan converts into a permanent long-term amortizing mortgage (under a single-close loan) or requires refinancing into a conventional mortgage. Modeling monthly interest-only draw costs during the build phase helps homeowners budget housing expenses while managing simultaneous rent or existing mortgage obligations. This calculator computes draw interest and permanent mortgage payments securely and privately.
 
 ## Construction Loan Calculator Mathematical Formulas & Mechanics
+
 Construction loan calculations estimate average monthly interest-only payments during the build phase ($P_{draw}$) and final amortizing payments ($P_{perm}$) upon completion.
 
 ### 1. Construction Phase Draw Interest
+
 Given total construction loan ($L_{total}$), average drawn percentage ($D_{\%}$), construction duration in months ($m$), and annual interest rate ($r_{annual}$):
 
 $$\text{Average Drawn Principal } L_{avg} = L_{total} \times \left(\frac{D_{\%}}{100}\right)$$
@@ -160,6 +162,7 @@ $$P_{draw} = L_{avg} \times \left(\frac{r_{annual}}{1200}\right)$$
 $$\text{Total Construction Interest } I_{build} = P_{draw} \times m$$
 
 ### 2. Post-Construction Permanent Mortgage Installment
+
 Upon home completion, the full principal ($L_{total}$) converts to a permanent 30-year ($N_{months} = 360$) amortizing mortgage at rate $r_{perm} = \frac{r_{annual}}{1200}$:
 
 $$P_{perm} = L_{total} \times \left[ \frac{r_{perm}(1 + r_{perm})^{360}}{(1 + r_{perm})^{360} - 1} \right]$$
@@ -167,6 +170,7 @@ $$P_{perm} = L_{total} \times \left[ \frac{r_{perm}(1 + r_{perm})^{360}}{(1 + r_
 Where $L_{total}$ is total build cost, $D_{\%}$ is average draw %, $P_{draw}$ is monthly build interest, and $P_{perm}$ is final monthly mortgage payment.
 
 ## Construction Loan Calculator Benchmarks & Comparison Table
+
 | Construction Loan Budget | Interest Rate % | Build Duration | Avg Draw % | Monthly Build Interest | Total Build Interest | Permanent 30-Yr Payment |
 |---|---|---|---|---|---|---|
 | **$300,000** | 7.00% | 9 Months | 50% | $875.00 | $7,875.00 | **$1,995.91** |
@@ -176,6 +180,7 @@ Where $L_{total}$ is total build cost, $D_{\%}$ is average draw %, $P_{draw}$ is
 | **$1,000,000** | 7.25% | 18 Months | 55% | $3,322.92 | $59,812.50 | **$6,821.76** |
 
 ## How to Use the Construction Loan Calculator Step-by-Step
+
 1. **Enter Total Construction Budget**: Input total approved loan principal needed to cover land and building costs.
 2. **Specify Construction Interest Rate**: Input expected annual interest rate charged during short-term building draws.
 3. **Select Construction Duration**: Input estimated building timeframe in months (typically 6 to 18 months).
@@ -183,23 +188,31 @@ Where $L_{total}$ is total build cost, $D_{\%}$ is average draw %, $P_{draw}$ is
 5. **Review Phased Monthly Costs**: Analyze monthly interest-only payments during construction and permanent monthly mortgage payments.
 
 ## Construction Loan Calculator Frequently Asked Questions
+
 ### How does a residential construction loan work?
+
 A construction loan is a short-term, interest-only loan used to fund building a custom home. Funds are disbursed in periodic draws to builders as construction milestones are completed.
 
 ### What is the difference between a single-closing (construction-to-permanent) and two-closing loan?
+
 A single-closing loan automatically converts your construction loan into a permanent long-term mortgage upon home completion, saving closing costs, whereas a two-closing loan requires separate closings.
 
 ### How are monthly interest payments calculated during the construction phase?
+
 During building, borrowers pay interest only on the funds actually drawn down by the builder rather than the total approved loan principal amount.
 
 ### What average draw percentage occurs during home construction?
+
 Because draws scale up as building progresses from land prep to interior finishes, the average outstanding drawn balance typically equals approximately 50% to 60% of total construction principal.
 
 ### What down payment is required for custom home construction loans?
+
 Construction loans present higher risk for lenders, typically requiring equity or down payment of 20% to 30% of total land and construction appraisal value.
 
 ### What happens if home construction runs over schedule or budget?
+
 Lenders build contingency reserves (usually 5% to 10%) into construction budgets, and loan extensions can be granted, though additional interest charges accrue during delayed building months.
 
 ### Is home building financial data kept private in this tool?
+
 Yes, all construction loan calculations run 100% locally inside your web browser. No project budgets, interest rates, or land values leave your device.

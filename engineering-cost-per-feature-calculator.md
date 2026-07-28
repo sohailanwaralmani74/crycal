@@ -159,6 +159,7 @@ Software engineering is one of the highest operating expenses for SaaS organizat
 ---
 
 ## Engineering Cost per Feature Calculator Mathematical Formulas
+
 ### 1. Developer Labor Cost
 
 $$ \text{Weekly Salary / Dev} = \frac{\text{Avg Annual Fully-Loaded Dev Salary}}{52} $$
@@ -188,6 +189,7 @@ $$ \text{Required ARR for 1-Yr Breakeven} = \text{Total Feature Cost (\$)} $$
 ---
 
 ## Step-by-Step Engineering Cost per Feature Calculator Guide
+
 1. **Scope Engineering Capacity**: Define developer headcount dedicated to the sprint.
 2. **Estimate Sprint Timeline**: Estimate realistic sprint weeks including code reviews and testing.
 3. **Include Fully-Loaded Salaries**: Factor in base salary plus 25% benefits load.
@@ -196,20 +198,27 @@ $$ \text{Required ARR for 1-Yr Breakeven} = \text{Total Feature Cost (\$)} $$
 ---
 
 ## Engineering Cost per Feature Calculator Frequently Asked Questions
+
 ### What is Engineering Cost Per Feature?
+
 Engineering Cost Per Feature is an R&D financial metric measuring the total fully-loaded capital spent to design, develop, test, and release a specific software product capability.
 
 ### How is Engineering Cost Per Feature calculated?
+
 Formula: Total Feature Cost = [Engineers × (Annual Dev Salary / 52) × Sprint Weeks] + PM & Designer Costs + QA Infrastructure Costs.
 
 ### Why should product teams track feature engineering costs?
+
 Tracking cost per feature helps CPOs and CTOs prioritize high-ROI roadmap initiatives, eliminate scope creep, and evaluate build vs buy decisions.
 
 ### What is Required ARR to Breakeven on a Feature?
+
 Required ARR is the new annual recurring revenue needed from feature upgrades to recoup the total R&D development investment within 12 months.
 
 ### How does scope creep affect engineering cost per feature?
+
 A 2-week sprint delay on a 4-engineer team increases total feature R&D cost by $20,000+ in wasted developer bandwidth.
 
 ### How can software teams lower engineering feature costs?
+
 Lower feature costs by using modular microservice architectures, conducting thorough Figma prototyping before coding, leveraging open-source components, and maintaining strict sprint scope management.

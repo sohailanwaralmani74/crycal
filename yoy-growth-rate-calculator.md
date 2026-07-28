@@ -160,23 +160,31 @@ $$\text{Implied CMGR (\%)} = \left[ \left(\frac{\text{Current Year Revenue}}{\te
 ---
 
 ## Yoy Growth Rate Calculator Frequently Asked Questions
+
 ### What is Year-Over-Year (YoY) Growth Rate?
+
 YoY Growth Rate compares financial metrics (such as ARR or revenue) in a given period to the exact same period in the previous year, eliminating seasonal fluctuations.
 
 ### What is the formula for YoY Growth Rate?
+
 YoY Growth Rate (%) = [(Current Year Revenue − Prior Year Revenue) / Prior Year Revenue] × 100.
 
 ### What is a good YoY growth rate for SaaS startups?
+
 Early-stage SaaS startups ($1M–$10M ARR) typically target 100%–300%+ YoY growth ("Triple, Triple, Double, Double"). Mature B2B SaaS companies ($50M+ ARR) benchmark at 30%–50%+ YoY.
 
 ### How does YoY growth differ from MoM growth?
+
 Month-over-Month (MoM) tracks short-term monthly changes, whereas Year-over-Year (YoY) tracks 12-month annual growth momentum and irons out seasonal noise.
 
 ### What is the T2D3 growth framework in SaaS?
+
 T2D3 stands for "Triple, Triple, Double, Double, Double"—a venture growth benchmark where a startup grows from $1M to $3M (3x), $3M to $9M (3x), $9M to $18M (2x), $18M to $36M (2x), and $36M to $72M (2x).
 
 ### Can YoY growth rate be negative?
+
 Yes. If current year revenue is lower than prior year revenue, the resulting YoY growth rate is negative, indicating revenue contraction.
 
 ### How do venture capitalists evaluate YoY growth against Rule of 40?
+
 VC investors combine YoY revenue growth rate percentage with free cash flow margin to calculate Rule of 40 financial efficiency.

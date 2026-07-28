@@ -262,6 +262,7 @@ Closing costs on Long Island are among the highest in the country due to unique 
 ## Long Island Closing Costs Explained
 
 ### Buyer Closing Costs
+
 | Cost | Rate / Estimate |
 |------|-----------------|
 | **Mortgage Recording Tax** | **1.05%** of loan amount (0.80% county + 0.25% state) |
@@ -274,6 +275,7 @@ Closing costs on Long Island are among the highest in the country due to unique 
 | **Appraisal Fee** | ~$550 |
 
 ### Seller Closing Costs
+
 | Cost | Rate / Estimate |
 |------|-----------------|
 | **Agent Commission** | 5-6% total (split between buyer/seller agents) |
@@ -285,6 +287,7 @@ Closing costs on Long Island are among the highest in the country due to unique 
 ---
 
 ## How Long Island Closing Costs Calculator Fees Are Calculated
+
 **Buyer Costs** = Mortgage Recording Tax + Mansion Tax (if ≥$1M) + Title Insurance + Attorney + Bank Fees + Escrow + Inspection + Appraisal + Survey + Miscellaneous
 
 **Seller Costs** = Agent Commission + NYS Transfer Tax + County Transfer Tax + Attorney + Title Insurance + Miscellaneous
@@ -296,6 +299,7 @@ Closing costs on Long Island are among the highest in the country due to unique 
 ---
 
 ## How to Use the Long Island Closing Costs Calculator
+
 1. Enter the **purchase price**.
 2. Enter your **loan amount** or **down payment percentage**.
 3. Enter the **annual property tax** for the home.
@@ -307,19 +311,25 @@ Closing costs on Long Island are among the highest in the country due to unique 
 ---
 
 ## Long Island Closing Costs Calculator Frequently Asked Questions
+
 ### What is the mortgage recording tax on Long Island?
+
 The mortgage recording tax is 1.05% of the loan amount in Nassau and Suffolk counties — one of the highest rates in the country.
 
 ### What is the mansion tax?
+
 It's a 1% tax on purchases of $1,000,000 or more in New York State, paid by the buyer.
 
 ### How much are closing costs for a buyer on Long Island?
+
 Buyers typically pay 2% to 6% of the purchase price. On a $685,000 home, expect $17,125–$34,250.
 
 ### What closing costs does the seller pay?
+
 Sellers pay agent commissions (5-6%), NYS transfer tax (0.4%), and county transfer taxes — typically 8-10% of the sale price.
 
 ### How does property tax escrow work?
+
 Lenders collect 4-6 months of property taxes at closing to build a cushion for future tax payments. This amount is held in your escrow account.
 
 ---

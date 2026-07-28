@@ -210,21 +210,28 @@ $$\text{Double Rolls Needed} = \left\lceil \frac{\text{Net Wall Area}}{\text{Usa
 ---
 
 ## Wallpaper Calculator Frequently Asked Questions
+
 ### Why is wallpaper priced in single rolls but sold in double rolls?
+
 Historically wallpaper prices were advertised per single roll, but to provide long continuous strips for tall walls, manufacturers package wallpaper almost exclusively as single bolt "double rolls" (approx 56 sq ft).
 
 ### How many square feet are in a double roll of wallpaper?
+
 A standard American double roll (20.5 inches wide by 33 feet long) contains 56.3 square feet. However, due to trimming and pattern matching, usable coverage is typically 40 to 48 square feet per double roll.
 
 ### How does pattern repeat affect wallpaper waste?
+
 Large pattern repeats (18 to 24 inches) require matching recurring design motifs across adjacent wall strips, which generates 15% to 25% waste at the top and bottom of each cut strip.
 
 ### How many double rolls of wallpaper do I need for a 12x12 room?
+
 A 12x12 room with 8 ft ceilings has a 48 ft perimeter (384 sq ft wall area). Subtracting 40 sq ft for doors/windows leaves 344 sq ft. With a 12-inch pattern repeat, you need approximately 8 double rolls of wallpaper.
 
 ### Should I subtract window and door openings when calculating wallpaper?
+
 Subtract standard windows and doors only if they cover large continuous wall sections. For small windows, contractors recommend ignoring deductions to preserve extra wallpaper for repairs.
 
 ### What is the difference between straight match and drop match patterns?
+
 A straight match aligns patterns horizontally across adjacent strips at the same ceiling height. A drop match shifts the design half a pattern repeat down on consecutive strips, producing higher offcut waste.
 

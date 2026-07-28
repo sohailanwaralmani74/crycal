@@ -183,21 +183,27 @@ These reference points assume full-time hours with no unpaid time off. If you wo
 ## Hourly to Salary Calculator FAQ
 
 ### How do I convert an hourly wage to an annual salary?
+
 Multiply your hourly rate by the hours you work per day, then by the days you work per week, then by the weeks you work per year. For a typical full-time schedule of 8 hours a day, 5 days a week, 52 weeks a year, that's hourly rate times 2,080.
 
 ### How much is $20 an hour annually?
+
 At a typical full-time schedule (8 hours a day, 5 days a week, 52 weeks a year), $20 an hour works out to $41,600 a year before tax. Enter your own schedule above if it differs from full-time.
 
 ### How much is $25 an hour annually?
+
 At a typical full-time schedule (8 hours a day, 5 days a week, 52 weeks a year), $25 an hour works out to $52,000 a year before tax. Enter your own schedule above if it differs from full-time.
 
 ### Does this account for overtime pay?
+
 No. This calculator assumes a consistent schedule at your entered hourly rate. If you regularly work overtime at a different rate, calculate your regular and overtime pay separately and add them together.
 
 ### Is the annual salary shown my take-home pay?
+
 Not by default — it's your gross salary. Enter your own Tax Rate and Other Deductions below to see an estimated Take-Home Pay based on your own numbers, since tax rules vary too much by country to calculate automatically.
 
 ### Does this work for any country or currency?
+
 Yes. The math is based purely on your hourly rate and your work schedule, with no country-specific rules built in, so it works with any currency and any work pattern worldwide.
 
 ---

@@ -254,6 +254,7 @@ Our **auto loan vs lease calculator** provides:
 ---
 
 ## Auto Loan vs Lease Calculator Formulas & Principles
+
 ### 1. Auto Loan Monthly Payment & Total Out-of-Pocket
 
 Given purchase price \(V\), down payment \(D_L\), loan APR rate \(r = \text{APR}/12/100\), and term \(n_L\):
@@ -269,6 +270,7 @@ M_{\text{loan}} = P_{\text{loan}} \cdot \frac{r(1 + r)^{n_L}}{(1 + r)^{n_L} - 1}
 \]
 
 ### 2. Vehicle Equity & Depreciation
+
 Assuming residual market value \(R\) at the end of the lease period \(n_S\):
 
 \[
@@ -276,6 +278,7 @@ Assuming residual market value \(R\) at the end of the lease period \(n_S\):
 \]
 
 ### 3. Lease Total Out-of-Pocket & Net Cost
+
 Given lease down payment \(D_S\), monthly payment \(M_{\text{lease}}\), and term \(n_S\):
 
 \[
@@ -287,6 +290,7 @@ Given lease down payment \(D_S\), monthly payment \(M_{\text{lease}}\), and term
 ---
 
 ## Auto Loan vs Lease Calculator Real-World Case Study
+
 Comparing a **$38,000 Vehicle** over a 36-month timeline:
 - **Option A (Buying)**: $4,000 down payment, 60-month loan at 6.5% APR ($665.23/mo). At month 36, remaining loan balance is $14,920, car market value is $21,000 (Equity = **$6,080**).
 - **Option B (Leasing)**: $3,000 down payment, 36-month lease ($420/mo). Ending equity = **$0**.
@@ -304,6 +308,7 @@ Comparing a **$38,000 Vehicle** over a 36-month timeline:
 ---
 
 ## Step-by-Step Guide for Using the Auto Loan vs Lease Calculator
+
 1. **Enter Vehicle Price**: Input the MSRP or negotiated purchase price.
 2. **Configure Loan Parameters**: Input expected loan APR, down payment, and term length (e.g., 60 months).
 3. **Configure Lease Parameters**: Enter lease monthly payment, upfront drive-off cost, and estimated residual value.
@@ -313,23 +318,31 @@ Comparing a **$38,000 Vehicle** over a 36-month timeline:
 ---
 
 ## Auto Loan vs Lease Calculator Frequently Asked Questions
+
 ### Is it financially better to buy or lease a car?
+
 Financially, buying a vehicle and driving it for 6 to 10 years is almost always cheaper than leasing consecutive new cars every 3 years. Buying builds tangible equity that can be liquidated or traded in, whereas leasing means paying strictly for the vehicle's rapid early depreciation without acquiring ownership.
 
 ### What is the main advantage of leasing a vehicle?
+
 Leasing offers lower monthly payments for luxury or newer vehicle models, manufacturer warranty coverage throughout the lease, and the flexibility to drive a new car every 2 to 3 years without sales hassle.
 
 ### What does residual value mean in an auto lease?
+
 Residual value is the estimated wholesale market value of the vehicle at the end of the lease agreement. Lease payments are calculated by taking the difference between the vehicle's initial price and its residual value, plus interest (money factor) and taxes.
 
 ### Are lease payments subject to sales tax?
+
 In most states, sales tax on a lease is added to your monthly payment (taxing the monthly usage amount), whereas when buying a car, sales tax is usually charged upfront on the full net vehicle purchase price.
 
 ### What happens at the end of a car lease vs auto loan?
+
 At the end of an auto loan, you own the car free and clear with $0 monthly payments. At the end of a lease, you must either return the car to the dealership, pay excess mileage/wear fees, or exercise your buyout option to purchase it at its residual value.
 
 ### Can I trade in a leased car early?
+
 Yes, but terminating a lease early often incurs early termination fees or requires rolling positive/negative equity into a new financing contract.
 
 ### Is my personal financial data kept private?
+
 Yes. All computations execute locally in your browser. No inputs or results are sent to third parties or remote servers.

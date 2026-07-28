@@ -208,21 +208,28 @@ Below is an estimated material breakdown for a **400 sq ft room** with **24 sq f
 ---
 
 ## Laminate Flooring Calculator Frequently Asked Questions
+
 ### Do I need underlayment for laminate flooring?
+
 Yes. Unless your laminate planks come manufactured with pre-attached foam backing, separate foam or felt underlayment is required to smooth minor subfloor imperfections, reduce sound, and act as a vapor barrier.
 
 ### How many square feet are in a box of laminate flooring?
+
 Most residential laminate flooring cartons contain between 18 and 26 square feet per box.
 
 ### How many underlayment rolls do I need?
+
 Divide total room square footage (plus 5% to 10% overlap waste) by roll coverage (typically 100 sq ft or 200 sq ft per roll) and round UP to the next full roll.
 
 ### What are transition strips (T-moldings) used for?
+
 T-molding transition strips span doorway expansion gaps between laminate flooring and adjacent rooms (such as carpet, tile, or vinyl) to cover raw edges and accommodate expansion.
 
 ### Why is a 3/8-inch expansion gap required around laminate perimeter?
+
 Laminate expands and contracts with changes in seasonal humidity. Leaving a 1/4" to 3/8" gap against walls (covered by baseboards or quarter-round molding) prevents buckling.
 
 ### Can laminate flooring be installed over concrete?
+
 Yes, provided you use an underlayment with an integrated 6-mil polyethylene vapor barrier film to block subfloor moisture.
 

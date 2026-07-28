@@ -196,9 +196,11 @@ Using this **Car CO2 Emissions Calculator**, you can measure your vehicle's exac
 ## Carbon Emission Formulas
 
 ### 1. Total Annual CO2 Weight (Pounds)
+
 $$\text{Pounds CO2} = \left( \frac{\text{Annual Miles}}{\text{MPG}} \right) \times \text{CO2 Factor}_{\text{Fuel}}$$
 
 ### 2. Tree Offset Requirement
+
 $$\text{Trees Needed} = \frac{\text{Pounds CO2}}{48 \text{ lbs CO2 absorbed / tree / year}}$$
 
 ---
@@ -216,38 +218,51 @@ $$\text{Trees Needed} = \frac{\text{Pounds CO2}}{48 \text{ lbs CO2 absorbed / tr
 ---
 
 ## Step-by-Step Car Co2 Emissions Calculator Guide
+
 ### Step 1: Input Annual Driving Mileage
+
 Enter total estimated miles driven in a year.
 
 ### Step 2: Input Vehicle MPG
+
 Enter your vehicle's combined city/highway MPG rating.
 
 ### Step 3: Select Fuel Type
+
 Choose Gasoline, Diesel, or E85 Flex Fuel.
 
 ### Step 4: Examine Environmental Impact
+
 Review metric tons of CO2, grams per mile, and how many trees are required to neutralize your carbon emissions.
 
 ---
 
 ## Car Co2 Emissions Calculator Frequently Asked Questions
+
 ### How much CO2 is produced by burning one gallon of gasoline?
+
 Burning one gallon of standard E10 gasoline releases 19.64 pounds (8.89 kg) of CO2 directly into the atmosphere.
 
 ### Why does diesel produce more CO2 per gallon than gasoline?
+
 Diesel fuel is denser and contains more carbon atoms per gallon than gasoline, producing 22.38 pounds (10.15 kg) of CO2 per gallon burned.
 
 ### What is the average annual carbon footprint of a US passenger vehicle?
+
 A typical US passenger car driving 12,500 miles per year at 24 MPG emits approximately 4.6 metric tons (10,200 lbs) of carbon dioxide annually.
 
 ### How many trees does it take to absorb a car's annual CO2 emissions?
+
 A mature tree absorbs roughly 48 pounds (22 kg) of CO2 per year. Offsetting a standard car emitting 4.6 metric tons requires about 210 mature trees.
 
 ### Do electric vehicles (EVs) produce CO2 emissions?
+
 EVs produce zero direct tailpipe emissions. However, power plant grid generation creates indirect emissions averaging 1.5 to 2.0 metric tons of CO2 per year.
 
 ### How does driving style impact vehicle carbon emissions?
+
 Aggressive acceleration, speeding, and excessive idling increase fuel consumption by 15% to 30%, increasing carbon emissions proportionately.
 
 ### Is the Car Co2 Emissions Calculator private?
+
 Yes, all data processing takes place strictly inside your browser.

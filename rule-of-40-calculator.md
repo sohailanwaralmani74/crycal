@@ -114,6 +114,7 @@ The Rule of 40 is the premier venture capital benchmark for software companies. 
 Having accurate, real-time insights into this metric helps SaaS founders, CFOs, and growth teams optimize capital allocation, protect operating runway, and achieve top-tier venture scalability.
 
 ## Rule of 40 Calculator Formula & Derivation
+
 The mathematical derivation for this financial metric is expressed as:
 
 $$\text{Rule of 40 Score} = \text{YoY Revenue Growth Rate \%} + \text{Free Cash Flow Margin \%}$$
@@ -121,6 +122,7 @@ $$\text{Rule of 40 Score} = \text{YoY Revenue Growth Rate \%} + \text{Free Cash 
 Where all input values are evaluated over a standardized monthly or annual accounting period.
 
 ## Rule of 40 Calculator SaaS Benchmarks
+
 | Score Range | Venture Performance Tier | Valuation Premium |
 | --- | --- | --- |
 | >= 40% | Outperformer / Elite Tier | Premium Valuation Multiples (10x-15x+ ARR) |
@@ -129,6 +131,7 @@ Where all input values are evaluated over a standardized monthly or annual accou
 | < 15% | Struggling SaaS | Distressed Valuation Multiples (< 3x ARR) |
 
 ## Step-by-Step Rule of 40 Calculator Calculation Guide
+
 1. **Enter Core Financial Inputs:** Supply your monthly sales spend, user counts, ARPU, or recurring revenue figures.
 2. **Review Intermediate Outputs:** Examine calculated gross profit, churn, payback, or unit contribution scores.
 3. **Assess Benchmark Ratings:** Compare your results against SaaS industry standards to identify growth bottlenecks.
@@ -137,21 +140,28 @@ Where all input values are evaluated over a standardized monthly or annual accou
 ---
 
 ## Rule of 40 Calculator Frequently Asked Questions
+
 ### What is the Rule of 40 in SaaS?
+
 The Rule of 40 states that a healthy SaaS company's combined annual revenue growth rate percentage and profit margin percentage should equal or exceed 40%.
 
 ### What profit metric should be used in the Rule of 40?
+
 Free Cash Flow (FCF) margin is preferred by venture capital investors, though EBITDA margin is frequently used for mature public SaaS companies.
 
 ### Can a company satisfy the Rule of 40 while burning cash?
+
 Yes. A startup growing at 60% YoY with a -15% FCF margin scores 45%, successfully satisfying the Rule of 40.
 
 ### Why is the Rule of 40 crucial for valuation multiples?
+
 SaaS companies exceeding the 40% benchmark command significantly higher revenue valuation multiples (e.g. 10x-20x ARR) in fundraising and public markets.
 
 ### At what scale does the Rule of 40 become relevant?
+
 It becomes meaningful once a SaaS company reaches $1M+ in ARR, where unit economics stabilize.
 
 ### How can low-scoring companies reach 40%?
+
 Companies can increase price/ARPU to boost ARR growth or trim non-essential sales & marketing spend to increase cash margins.
 

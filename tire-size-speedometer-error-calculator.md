@@ -220,22 +220,27 @@ Key tire fitment parameters:
 ---
 
 ## Tire Size Speedometer Error Calculator Mathematical Formulas
+
 ### 1. Overall Tire Diameter ($D_{\text{inches}}$)
+
 \[
 D_{\text{inches}} = D_{\text{rim}} + \left( \frac{2 \times W_{\text{mm}} \times (A_{\%}/100)}{25.4} \right)
 \]
 
 ### 2. Diameter Difference Percentage ($\Delta_{\%}$)
+
 \[
 \Delta_{\%} = \left( \frac{D_{\text{new}} - D_{\text{orig}}}{D_{\text{orig}}} \right) \times 100
 \]
 
 ### 3. Actual Vehicle Speed ($v_{\text{actual}}$)
+
 \[
 v_{\text{actual}} = v_{\text{indicated}} \times \left( \frac{D_{\text{new}}}{D_{\text{orig}}} \right)
 \]
 
 ### 4. Tire Revolutions Per Mile ($\text{RPM}_{\text{mile}}$)
+
 \[
 \text{RPM}_{\text{mile}} = \frac{63,360}{\pi \times D_{\text{inches}}}
 \]
@@ -243,6 +248,7 @@ v_{\text{actual}} = v_{\text{indicated}} \times \left( \frac{D_{\text{new}}}{D_{
 ---
 
 ## Tire Size Speedometer Error Calculator Comparison Matrix
+
 | Stock Size | New Plus Size | Stock Diameter | New Diameter | Diameter Diff % | Speedo Reading @ 65 MPH | Actual Speed |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **225/45R17** | **245/40R18** | 24.97 in | **25.72 in** | **+2.99%** | 65.0 MPH | **66.9 MPH** |
@@ -253,6 +259,7 @@ v_{\text{actual}} = v_{\text{indicated}} \times \left( \frac{D_{\text{new}}}{D_{
 ---
 
 ## Step-by-Step Tire Size Speedometer Error Calculator Usage Guide
+
 1. **Enter Factory Tire Size**: Input stock width (e.g. 225 mm), aspect ratio (45), and rim size (17 inches).
 2. **Enter Aftermarket Tire Size**: Input new width (e.g. 245 mm), aspect ratio (40), and rim size (18 inches).
 3. **Set Speedometer Reading**: Enter cruising speed shown on your instrument cluster (e.g. 65 mph).
@@ -261,23 +268,31 @@ v_{\text{actual}} = v_{\text{indicated}} \times \left( \frac{D_{\text{new}}}{D_{
 ---
 
 ## Tire Size Speedometer Error Calculator Frequently Asked Questions
+
 ### How do custom tire sizes affect speedometer accuracy?
+
 Vehicle speedometers calculate vehicle speed by counting wheel revolutions per minute. If you install taller tires, each revolution covers a greater distance, making your actual speed faster than the speedometer indicates.
 
 ### How do you calculate overall tire diameter from P-metric specs?
+
 $\text{Diameter (inches)} = \text{Rim Diameter} + \left( 2 \times \frac{\text{Width (mm)} \times (\text{Aspect Ratio} / 100)}{25.4} \right)$.
 
 ### What is the recommended maximum tire diameter change threshold?
+
 Automotive engineers recommend keeping overall tire diameter changes within ±3% of original factory specifications to avoid ABS, traction control, transmission shift point, and speedo calibration errors.
 
 ### How do I calculate revolutions per mile (RPM) for a tire?
+
 $\text{Revolutions per Mile} = \frac{63,360}{\pi \times \text{Overall Diameter (inches)}}$.
 
 ### What happens if my new tires are smaller in diameter than stock?
+
 Smaller tires rotate faster for any given speed, causing your speedometer to read faster than your actual ground speed, while artificially inflating recorded odometer mileage.
 
 ### Can a vehicle speedometer be recalibrated for larger tires?
+
 Yes, many modern vehicles can be recalibrated via an OBD-II diagnostic tuner tool, dealership software, or speedometer recalibration module.
 
 ### Does the tire size speedometer error calculator store my data?
+
 No. All calculations take place 100% locally within your browser session.

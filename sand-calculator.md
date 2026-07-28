@@ -194,21 +194,28 @@ $$\text{Total Bulk Cost} = \text{Tons} \times \text{Price Per Ton}$$
 ---
 
 ## Sand Calculator Frequently Asked Questions
+
 ### How many tons of sand are in a cubic yard?
+
 One cubic yard of dry sand weighs approximately 1.35 tons (2,700 lbs). Damp sand can weigh up to 1.50 tons per cubic yard.
 
 ### How thick should the sand bed be under patio pavers?
+
 Interlocking brick and concrete pavers require a uniform 1-inch (25mm) layer of coarse concrete sand screed over a compacted gravel base.
 
 ### How many 50lb bags of sand equal 1 cubic yard?
+
 It takes 54 bags of 50 lb sand to equal 1 cubic yard of sand.
 
 ### What is the difference between concrete sand and masonry sand?
+
 Concrete sand (paver sand) has coarse, angular grains ideal for paver bedding and locking joints. Masonry sand is finely washed and screened for smooth mortar mixing.
 
 ### How many square feet does 1 ton of sand cover at 1 inch depth?
+
 One ton of sand (approx. 0.74 cu yds) covers approximately 240 square feet at a depth of 1 inch.
 
 ### When is bulk sand cheaper than buying 50lb bags?
+
 For projects requiring more than 0.5 cubic yards (27 bags of 50lb sand), ordering bulk sand from a landscape supply yard is significantly cheaper.
 

@@ -259,7 +259,9 @@ Key ownership factors:
 ---
 
 ## Gas vs EV Total Cost Comparison Calculator Mathematical Formulas
+
 ### 1. Annual & 5-Year Fuel Costs
+
 \[
 \text{Fuel}_{\text{gas, 5yr}} = 5 \times \left( \frac{\text{Miles}_{\text{annual}}}{\text{MPG}} \right) \times P_{\text{gas}}
 \]
@@ -268,6 +270,7 @@ Key ownership factors:
 \]
 
 ### 2. Annual & 5-Year Maintenance Costs
+
 \[
 \text{Maint}_{\text{gas, 5yr}} = 5 \times \text{Miles}_{\text{annual}} \times C_{\text{maint, gas}}
 \]
@@ -276,6 +279,7 @@ Key ownership factors:
 \]
 
 ### 3. 5-Year Total Cost of Ownership (TCO)
+
 \[
 \text{TCO}_{\text{gas}} = \text{Price}_{\text{gas}} + \text{Fuel}_{\text{gas, 5yr}} + \text{Maint}_{\text{gas, 5yr}}
 \]
@@ -297,6 +301,7 @@ Key ownership factors:
 ---
 
 ## Step-by-Step Gas vs EV Total Cost Comparison Calculator Usage Guide
+
 1. **Enter Purchase Prices**: Input sticker price for both gas and electric models.
 2. **Apply EV Incentives**: Enter eligible federal tax credits ($7,500) or local rebates.
 3. **Set Annual Driving Mileage**: Input expected miles driven per year (e.g. 12,000 miles).
@@ -306,23 +311,31 @@ Key ownership factors:
 ---
 
 ## Gas vs EV Total Cost Comparison Calculator Frequently Asked Questions
+
 ### Is an EV cheaper over 5 years than a gas car despite a higher purchase price?
+
 In most cases, yes. While EVs may carry a higher sticker price, federal tax credits ($7,500), lower fuel costs (saving ~$1,000+/yr), and lower maintenance costs offset the price difference within 3 to 5 years.
 
 ### How much cheaper is EV maintenance than gas car maintenance?
+
 EVs cost roughly 40% to 50% less to maintain because they do not require oil changes, spark plug replacements, transmission flushes, or timing belts, and regenerative braking extends brake pad life.
 
 ### How does annual mileage impact the EV break-even point?
+
 Higher annual mileage accelerates the break-even point. Driving 15,000+ miles per year yields faster fuel savings than driving 6,000 miles per year.
 
 ### Does this calculator account for vehicle depreciation?
+
 This tool focuses on direct cash outlay (purchase price net of tax credits, fuel, and routine maintenance). Depreciation varies widely by make and model.
 
 ### What is the average electricity cost per mile for an EV?
+
 At $0.16/kWh and 3.5 mi/kWh, an EV costs ~$0.046 per mile to fuel, compared to ~$0.130 per mile for a 28 MPG gas car at $3.65/gal.
 
 ### Can EV tax credits be applied directly at the point of sale?
+
 Yes, starting in 2024, eligible US buyers can transfer the federal $7,500 tax credit to participating dealers to reduce the vehicle purchase price upfront.
 
 ### Does the Gas vs EV comparison calculator store my data?
+
 No. All calculations run strictly in your local browser.

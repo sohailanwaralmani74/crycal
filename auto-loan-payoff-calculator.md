@@ -212,6 +212,7 @@ Our **auto loan payoff calculator** helps you:
 ---
 
 ## Auto Loan Payoff Calculator Formulas & Principles
+
 The standard monthly payment \(M\) on the remaining balance \(B\) over remaining months \(n\) at monthly rate \(r = \text{APR}/12/100\) is:
 
 \[
@@ -241,6 +242,7 @@ n' = \frac{\ln\left( \frac{M'}{M' - r B} \right)}{\ln(1 + r)}
 ---
 
 ## Auto Loan Payoff Calculator Real-World Case Study
+
 Assuming a **$22,000 remaining balance** at **7.25% APR** with **48 remaining months** (standard payment = **$529.27/mo**), here is how adding extra monthly payments changes the payoff:
 
 | Extra Payment | Total Monthly Payment | Payoff Term | Months Saved | Total Interest Paid | Total Interest Saved |
@@ -256,6 +258,7 @@ Assuming a **$22,000 remaining balance** at **7.25% APR** with **48 remaining mo
 ---
 
 ## Step-by-Step Guide for Using the Auto Loan Payoff Calculator
+
 1. **Enter Current Balance**: Look up your exact remaining payoff balance online or on your monthly statement.
 2. **Input Loan APR**: Enter your current interest rate.
 3. **Set Remaining Months**: Input how many months remain under your original contract.
@@ -265,23 +268,31 @@ Assuming a **$22,000 remaining balance** at **7.25% APR** with **48 remaining mo
 ---
 
 ## Auto Loan Payoff Calculator Frequently Asked Questions
+
 ### How does an extra monthly payment reduce my auto loan payoff time?
+
 Because auto loans use simple interest accrued daily, extra payments go 100% toward reducing the principal balance. A lower principal balance means less daily interest accrues, allowing future standard payments to cover even more principal and drastically shortening your payoff timeline.
 
 ### Are auto loans subject to prepayment penalties?
+
 Most modern consumer auto loans in the United States do not have prepayment penalties. However, it is important to check your original finance agreement or ask your lender to ensure your contract uses simple interest without prepayment fees.
 
 ### Should I notify my lender when making extra payments?
+
 Yes, ensure your additional funds are designated specifically as an 'Extra Principal Payment' rather than an advance payment on next month's standard bill. Advancing the payment date does not reduce interest accrual as effectively as direct principal reduction.
 
 ### Is paying off a car loan early better than investing?
+
 Paying off a high-interest auto loan (e.g., 7% or higher) yields a guaranteed return equal to your loan's interest rate. If your loan interest rate is low (e.g., under 4%), you might earn a higher net return by investing extra cash in high-yield savings or market index funds.
 
 ### Does paying off a car loan early affect my credit score?
+
 Paying off an auto loan closes an active installment account, which may cause a minor, temporary dip in your credit score due to reduced credit mix. However, the long-term savings on interest and reduced debt-to-income ratio far outweigh any brief credit score fluctuation.
 
 ### What is the bi-weekly auto payment strategy?
+
 Making half of your monthly payment every two weeks results in 26 half-payments per year—the equivalent of 13 full monthly payments annually. This extra full payment per year accelerates payoff and reduces overall interest.
 
 ### Is my personal financial information secure?
+
 Yes. All calculations are computed entirely on your device inside your browser runtime. No data is stored, tracked, or sent to external servers.

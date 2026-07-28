@@ -186,6 +186,7 @@ This tool helps product and growth teams simulate **attach rates** across multip
 ---
 
 ## Key Addon Upsell Revenue Calculator Mathematical Formulas
+
 ### 1. Core Plan Base MRR
 
 $$ \text{Core MRR} = \text{Active Accounts} \times \text{Core ARPU} $$
@@ -229,20 +230,27 @@ $$ \text{ARPU Lift \%} = \frac{\text{Total Add-On Expansion MRR}}{\text{Core MRR
 ---
 
 ## Addon Upsell Revenue Calculator Frequently Asked Questions
+
 ### What is an add-on in SaaS packaging?
+
 An add-on is a modular, unbundled product feature or service (e.g. extra API capacity, dedicated IP, premium analytics, or priority support) sold independently of core subscription plans.
 
 ### What is an attach rate in SaaS?
+
 Attach rate is the percentage of total customer accounts that purchase a specific add-on or upsell package alongside their core plan.
 
 ### Why are add-ons crucial for expansion ARR?
+
 Add-ons enable modular expansion without requiring customers to upgrade to an entirely higher plan tier, leading to higher net revenue retention (NRR) and lower churn.
 
 ### What are typical B2B SaaS add-on attach rates?
+
 Utility add-ons (extra storage, seats) achieve 20% to 40% attach rates. Specialized modules (AI add-ons, CRM sync) average 10% to 25%, while premium enterprise support averages 5% to 15%.
 
 ### How is expansion ARPU lift calculated?
+
 ARPU Lift % = (Total Add-On Expansion MRR ÷ Core Base MRR) × 100.
 
 ### Should add-ons be billed monthly or annually?
+
 Align add-on billing with the core plan term (e.g. annual prepay for annual contracts) to simplify billing and lock in expansion ARR.

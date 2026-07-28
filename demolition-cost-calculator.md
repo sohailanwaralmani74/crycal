@@ -201,21 +201,28 @@ The table below presents labor cost, debris weight, recommended roll-off dumpste
 ---
 
 ## Demolition Cost Calculator Frequently Asked Questions
+
 ### How much does interior demolition cost per square foot?
+
 Interior gut demolition typically costs between $2.00 and $6.00 per square foot depending on structural complexity, plaster vs drywall removal, electrical disconnects, and regional labor rates.
 
 ### What size dumpster do I need for a 1,000 sq ft house gut demolition?
+
 A full interior gut of a 1,000 sq ft house generates approximately 15 to 20 tons of construction debris (heavy tile, plaster, flooring, framing), requiring two 30-yard or 40-yard roll-off dumpsters.
 
 ### How much weight can a 20-yard roll-off dumpster hold?
+
 A standard 20-yard dumpster holds up to 10 cubic yards of dense material or 20 cubic yards of light material, with a weight allowance limit of 2 to 3 tons (4,000 to 6,000 lbs).
 
 ### What are landfill tipping fees?
+
 Landfill tipping fees are charges assessed by municipal solid waste facilities or recycling centers to dump commercial construction debris, averaging $50 to $90 per ton across North America.
 
 ### Does demolition cost include hazardous material removal (asbestos/lead)?
+
 No. Standard demolition quotes cover non-hazardous materials. Asbestos abatement (popcorn ceilings, pipe wrap, vinyl tile) or lead paint containment adds $5.00 to $15.00 per square foot.
 
 ### What utility disconnects are required before interior demolition?
+
 Main electric service must be shut off, gas lines capped by a licensed plumber, and water supplies isolated before tearing into interior walls or ceiling drywall.
 

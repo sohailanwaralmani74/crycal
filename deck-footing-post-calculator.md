@@ -226,21 +226,28 @@ The table below shows concrete footing volumes, bag requirements (80 lb bags yie
 ---
 
 ## Deck Footing Post Calculator Frequently Asked Questions
+
 ### How deep must deck footings be dug?
+
 Deck footings must extend below the local frost depth line to prevent frost heave. This typically ranges from 12 inches in warm climates to 36–48+ inches in cold northern regions.
 
 ### How many 80 lb bags of concrete are needed for a 12x36 inch footing?
+
 A cylindrical footing hole measuring 12 inches in diameter and 36 inches deep has a volume of approx 2.36 cubic feet, which requires 4 bags of 80 lb ready-mix concrete (each bag yields 0.60 cu ft).
 
 ### Should I use 4x4 or 6x6 posts for my deck?
+
 Modern IRC building codes strongly recommend or mandate 6x6 posts for decks over 6 feet tall or supporting heavy loads, as 4x4 posts are prone to twisting and limited in structural load capacity.
 
 ### What is the maximum post spacing for a deck?
+
 Standard post spacing is typically 6 feet to 8 feet along support beams, depending on joist span, beam size (e.g., double 2x8 or double 2x10), and deck design loads.
 
 ### How far apart should deck footings be placed?
+
 Footing spacing depends on beam sizing. For standard residential decks, placing footings 6 to 8 feet apart on-center provides optimal structural rigidity without sagging.
 
 ### Does this calculator include concrete waste?
+
 Yes, the concrete bag and cubic yardage outputs automatically include a 10% safety margin for ground spillage and irregular hole digging.
 

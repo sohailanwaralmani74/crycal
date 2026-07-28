@@ -162,9 +162,11 @@ This estimator calculates your total toll spending based on vehicle axle count, 
 ---
 
 ## Toll Cost Estimator Calculation Flow & Formulas
+
 Toll costs scale linearly with axle multipliers, transponder discount factors, and peak hour surge rates:
 
 ### Toll Cost Estimator Inputs & Parameters
+
 | Parameter | Unit | Description |
 | :--- | :--- | :--- |
 | **Gantries Passed (\(N_{gantry}\))** | count | Number of toll plazas or camera gantries |
@@ -176,17 +178,21 @@ Toll costs scale linearly with axle multipliers, transponder discount factors, a
 ---
 
 ### Step-by-Step Toll Cost Estimator Formulas
+
 #### 1. Adjusted Base Toll Per Plaza (\(P_{plaza}\))
+
 \[
 P_{plaza} = P_{base} \times M_{axle} \times F_{pay} \times F_{peak}
 \]
 
 #### 2. Total Highway Toll Expense (\(C_{tolls}\))
+
 \[
 C_{tolls} = N_{gantry} \times P_{plaza}
 \]
 
 #### 3. Transponder Savings vs Cash/Plate (\(S_{transponder}\))
+
 \[
 S_{transponder} = \left(N_{gantry} \times P_{base} \times M_{axle} \times 1.20 \times F_{peak}\right) - C_{tolls}
 \]
@@ -205,6 +211,7 @@ S_{transponder} = \left(N_{gantry} \times P_{base} \times M_{axle} \times 1.20 \
 ---
 
 ## How to Use the Toll Cost Estimator Step-by-Step
+
 1. **Count Toll Gantries**: Estimate how many toll plazas you will cross along your highway route.
 2. **Select Axles**: Select your vehicle type (2-axle passenger car vs 3+ axle trailer setup).
 3. **Select Payment**: Choose **Transponder** if you use E-ZPass/SunPass or **Cash/Plate** if unequipped.
@@ -213,23 +220,31 @@ S_{transponder} = \left(N_{gantry} \times P_{base} \times M_{axle} \times 1.20 \
 ---
 
 ## Toll Cost Estimator Frequently Asked Questions
+
 ### Why are electronic transponder tolls cheaper than cash or pay-by-plate?
+
 Toll authorities offer **15% to 35% discounts** for transponders (like E-ZPass, SunPass, TxTag) because automated electronic billing eliminates manual toll booth operator labor and paper invoicing processing costs.
 
 ### How do vehicle axles affect toll costs?
+
 Highway tolls scale with vehicle axle count and weight because heavier 3-axle, 4-axle, and 5-axle commercial vehicles cause significantly greater pavement wear than standard 2-axle passenger cars.
 
 ### What is Pay-by-Plate or Video Toll invoicing?
+
 If you drive through an electronic toll gantry without a valid transponder, license plate cameras take a picture of your plate and mail an invoice with administrative surcharges (typically **+20% to +50%**).
 
 ### What is peak hour surge pricing on express toll lanes?
+
 High-Occupancy Toll (HOT) lanes dynamically adjust toll rates based on real-time highway congestion to guarantee minimum traffic flow speeds during rush hours.
 
 ### Is E-ZPass accepted in all US states?
+
 E-ZPass is accepted across 19 eastern and midwestern US states. Other regional transponder networks include SunPass (FL), TxTag (TX), and Fastrak (CA).
 
 ### How can I avoid tolls on road trips?
+
 Use GPS navigation apps like Google Maps or Waze with the "Avoid Tolls" option enabled to route along free state highways.
 
 ### Is my toll route calculation private?
+
 Yes. All calculations execute locally inside your web browser.

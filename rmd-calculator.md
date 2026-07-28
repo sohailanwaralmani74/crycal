@@ -251,18 +251,24 @@ John must withdraw at least $20,243 from his IRA during the year.
 ---
 
 ## RMD Calculator Frequently Asked Questions
+
 ### What is a Required Minimum Distribution (RMD)?
+
 A Required Minimum Distribution (RMD) is the minimum amount you must withdraw from your retirement accounts each year once you reach a certain age.
 
 ### What age do I need to start taking RMDs?
+
 The RMD age depends on your birth year. If you were born between 1951-1959, you must start at age 73. If you were born in 1960 or later, you must start at age 75.
 
 ### How is my RMD calculated?
+
 Your RMD is calculated by dividing your retirement account balance as of December 31 by your life expectancy factor from the IRS Uniform Lifetime Table.
 
 ### What happens if I don't take my RMD?
+
 If you fail to take your full RMD, the IRS imposes a 25% penalty on the amount not withdrawn (reduced to 10% if corrected within the correction window).
 
 ### Can I withdraw more than my RMD?
+
 Yes. You can always withdraw more than your RMD. However, you cannot use excess withdrawals in one year to offset RMDs in future years.
 

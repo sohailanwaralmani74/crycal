@@ -220,19 +220,25 @@ Choosing between term and whole life insurance is one of the most important fina
 ---
 
 ## Term vs Whole Life Calculator Frequently Asked Questions
+
 ### What is the difference between term and whole life insurance?
+
 Term life insurance provides coverage for a specific period (e.g., 10-30 years). Whole life insurance provides lifelong coverage and builds cash value that you can borrow against or withdraw. Term is typically much cheaper.
 
 ### Is whole life insurance worth it?
+
 For most people, term life insurance is more cost-effective because it's significantly cheaper. The difference in premiums can be invested to potentially grow more than the cash value of a whole life policy.
 
 ### What is the "buy term and invest the difference" strategy?
+
 This strategy involves buying cheaper term life insurance and investing the difference between the term premium and the whole life premium. Over time, the invested difference can potentially grow to a larger amount than the whole life cash value.
 
 ### How does whole life cash value grow?
+
 Whole life insurance policies build cash value through a combination of guaranteed interest and dividends. The cash value grows tax-deferred and can be borrowed against or withdrawn.
 
 ### When does whole life make sense?
+
 Whole life can make sense for high-net-worth individuals with estate planning needs, those who have maxed out other tax-advantaged accounts, or those who want guaranteed coverage for life.
 
 ---

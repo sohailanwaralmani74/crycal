@@ -193,15 +193,20 @@ This **safe withdrawal rate calculator** is designed for:
 ---
 
 ## 4% Rule FIRE Calculator Frequently Asked Questions
+
 ### What is the 4% rule?
+
 The 4% rule is a retirement withdrawal guideline suggesting that withdrawing 4% of your portfolio in the first year of retirement, then adjusting that dollar amount for inflation each subsequent year, has historically had a high probability of lasting 30 years without depleting the portfolio.
 
 ### Is the 4% rule still considered safe?
+
 The 4% rule remains a widely used starting point, though many financial planners now suggest a more conservative rate (around 3-3.5%) given current market valuations, longer lifespans, and lower expected future returns, or recommend a flexible, dynamic withdrawal strategy instead.
 
 ### How does the withdrawal amount change over time?
+
 Under the classic 4% rule, the dollar amount of your withdrawal increases each year by the inflation rate, keeping your purchasing power constant regardless of portfolio performance.
 
 ### What happens if the market drops significantly?
+
 The classic 4% rule doesn't adjust for market downturns, which is a key criticism — some retirees use more flexible strategies that reduce withdrawals during down markets to improve portfolio longevity.
 

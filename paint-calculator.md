@@ -223,21 +223,28 @@ $$\text{Gallons Needed} = \left\lceil \frac{\text{Net Paintable Area} \times \te
 ---
 
 ## Paint Calculator Frequently Asked Questions
+
 ### How many gallons of paint do I need for a 12x12 room?
+
 A 12x12 room with 8 ft ceilings has 432 sq ft of wall area (minus 72 sq ft for doors/windows) plus 144 sq ft ceiling = 504 net sq ft. For 2 coats (1,008 total sq ft), you need 3 gallons of paint (at 350 sq ft/gal coverage).
 
 ### How much square feet does 1 gallon of paint cover?
+
 Standard interior acrylic paint covers 350 to 400 square feet per gallon on smooth, primed surfaces. Textured walls or porous raw drywall reduce coverage to 250–300 sq ft per gallon.
 
 ### How much area is deducted for doors and windows?
+
 Standard deductions are 21 sq ft per door (3 ft × 7 ft) and 15 sq ft per window (3 ft × 5 ft).
 
 ### Is 1 coat of paint enough?
+
 One coat is only sufficient when applying the exact same color premium paint over an already primed surface. Color transitions or raw drywall always require 2 coats.
 
 ### How many coats of paint are needed over primer?
+
 Two coats of paint over 1 coat of primer yield optimal opacity, sheen uniformity, and long-term durability.
 
 ### Should I buy gallons or quarts of paint?
+
 If your project requires 1 gallon plus 1 quart, buying two separate single gallons is often cheaper than 1 gallon + 2 expensive quart cans.
 

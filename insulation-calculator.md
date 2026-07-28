@@ -194,21 +194,28 @@ $$\text{Cost Per Sq Ft} = \frac{\text{Total Material Cost}}{\text{Area (sq ft)}}
 ---
 
 ## Insulation Calculator Frequently Asked Questions
+
 ### How many packages of fiberglass insulation do I need for 1,000 sq ft?
+
 For R-13 insulation at 16-inch stud spacing, 1,000 sq ft requires approximately 11 packages (with 10% waste). For R-30 attic insulation, 1,000 sq ft requires about 23 packages.
 
 ### What is the square footage coverage of a standard fiberglass batt package?
+
 Coverage varies by R-value and width. An R-13 package for 16-inch framing covers ~106.6 sq ft, while R-19 covers ~77.5 sq ft, R-30 covers ~48.75 sq ft, and R-38 covers ~42.8 sq ft per bundle.
 
 ### What R-value insulation should I use for exterior walls?
+
 Standard 2x4 exterior wall cavities require R-13 or R-15 insulation. Deeper 2x6 exterior walls typically use R-19 or R-21 insulation.
 
 ### What is the difference between 16-inch and 24-inch insulation batts?
+
 16-inch on-center framing uses batts manufactured at 15 inches wide to fit snugly into 14.5-inch cavity bays. 24-inch on-center framing uses 23-inch wide batts for 22.5-inch cavity bays.
 
 ### Should I choose faced or unfaced fiberglass insulation?
+
 Faced insulation features a kraft paper vapor retarder used on exterior wall cavities facing the interior warm side. Unfaced insulation is ideal for adding layers over existing attic insulation or soundproofing interior walls.
 
 ### Does this calculator include waste for cutting around electrical boxes?
+
 Yes, you can adjust the waste factor percentage (5% to 20%) to account for trimming around windows, door framing, wiring, and plumbing pipes.
 

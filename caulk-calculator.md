@@ -219,21 +219,28 @@ $$\text{Tubs Needed} = \left\lceil \frac{\text{Total Joint Volume (cu in)} \time
 ---
 
 ## Caulk Calculator Frequently Asked Questions
+
 ### How many linear feet does a 10.1 oz tube of caulk cover?
+
 A standard 10.1 oz tube of caulk covers approximately 24 linear feet for a 1/4" x 1/4" joint, 48 linear feet for a 1/8" x 1/4" joint, and 12 linear feet for a 3/8" x 1/4" joint.
 
 ### How many tubes of caulk do I need for a whole house trim?
+
 For an average 2,000 sq ft home (interior baseboard trim, crown molding, and window casings), you will need about 12 to 18 standard 10.1 oz tubes of paintable acrylic latex caulk.
 
 ### When should I use foam backer rod with caulk?
+
 Use closed-cell foam backer rod whenever a joint gap is deeper than 1/4 inch or wider than 3/8 inch. Backer rod prevents three-sided adhesion failure and reduces caulk consumption by up to 50%.
 
 ### What is the standard ratio of joint width to joint depth?
+
 The ideal width-to-depth ratio for elastomeric sealant is 2:1. For joints up to 1/2 inch wide, the sealant depth should be equal to width (1/4" depth for 1/4" width). For joints wider than 1/2 inch, sealant depth should be limited to 1/4 to 3/8 inch.
 
 ### What is the difference between acrylic latex and silicone caulk?
+
 Acrylic latex caulk is paintable, cleans up with water, and is best for interior trim, baseboards, and dry walls. Silicone caulk is 100% waterproof, highly flexible, non-paintable, and essential for shower surrounds, sinks, and exterior glass windows.
 
 ### How much does a tube of caulk cost?
+
 Standard painter's acrylic caulk costs $3 to $5 per tube. Premium silicone, polyurethane, and elastomeric window/siding caulk range from $6.50 to $12.00 per tube.
 

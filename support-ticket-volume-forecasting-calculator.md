@@ -154,6 +154,7 @@ As SaaS customer acquisition accelerates, support ticket volume scales alongside
 ---
 
 ## Support Ticket Volume Forecasting Calculator Mathematical Formulas
+
 ### 1. Customer Ticket Ratio & Gross Projection
 
 $$ \text{Tickets Per Customer Account} = \frac{\text{Current Monthly Tickets}}{\text{Current Customers}} $$
@@ -183,6 +184,7 @@ $$ \text{Additional FTE Agents Needed} = \text{Max}\left( 0, \text{Total Support
 ---
 
 ## Step-by-Step Support Ticket Volume Forecasting Calculator Guide
+
 1. **Pull Historical Account & Ticket Counts**: Export total active customer subscriptions and monthly closed ticket logs.
 2. **Input Account Growth Projections**: Enter forecasted customer accounts from your sales team targets.
 3. **Factor AI Deflection Savings**: Set conservative deflection targets for knowledge base articles.
@@ -191,20 +193,27 @@ $$ \text{Additional FTE Agents Needed} = \text{Max}\left( 0, \text{Total Support
 ---
 
 ## Support Ticket Volume Forecasting Calculator Frequently Asked Questions
+
 ### What is support ticket volume forecasting?
+
 Support ticket volume forecasting is the operational practice of estimating future customer service request counts based on customer account growth rates, product release updates, and ticket deflection initiatives.
 
 ### How is projected ticket volume calculated?
+
 Formula: Tickets per Customer = Current Monthly Tickets / Current Customers. Projected Gross Tickets = Projected Customers × Tickets per Customer.
 
 ### What is ticket deflection rate?
+
 Ticket deflection rate is the percentage of customer issues resolved by self-service help centers, community forums, or AI chatbots before reaching a human support agent.
 
 ### What is a standard monthly ticket capacity per support agent?
+
 A standard full-time SaaS support agent handles 250 to 450 email/chat tickets per month, depending on technical issue complexity.
 
 ### How does product scaling impact ticket volume per customer?
+
 As product UI/UX matures and self-service onboarding improves, tickets per customer account typically decrease by 10% to 25% over time.
 
 ### How can customer ops leaders reduce ticket volume growth?
+
 Reduce ticket volume growth by embedding contextual in-app guidance, optimizing error message copy, releasing video walk-throughs, and implementing AI auto-resolution bots.

@@ -224,16 +224,21 @@ Proper position sizing is essential for risk management in stock trading. This s
 ---
 
 ## Stock Position Size Calculator Frequently Asked Questions
+
 ### How is stock position size calculated?
+
 Position size (shares) = Risk Amount ÷ Stop-Loss per Share. Risk Amount = Account Balance × (Risk% / 100).
 
 ### What is the stop-loss per share?
+
 The stop-loss per share is the dollar amount you're willing to lose per share. If you buy at $50 and set a stop at $47.50, your stop-loss per share is $2.50.
 
 ### Why is stock price optional?
+
 The stock price is optional because the core calculation only needs the stop-loss per share and risk amount. The price is used to show the total cost and position value.
 
 ### What is a good risk percentage for stocks?
+
 Most traders risk 1-2% of their account balance per trade. This helps protect your capital during drawdowns.
 
 ---

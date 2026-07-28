@@ -174,21 +174,28 @@ $$\text{Pitch Angle } (\theta) = \arctan\left(\frac{\text{Pitch}}{12}\right) \ti
 ---
 
 ## Rafter Length Calculator Frequently Asked Questions
+
 ### What is the formula for calculating rafter length?
+
 Rafter length is calculated using the Pythagorean theorem: Rafter Length = √(Adjusted Run² + Total Rise²), where Adjusted Run = Roof Run - (Half Ridge Thickness / 12) and Total Rise = Adjusted Run × (Pitch / 12).
 
 ### What is roof run?
+
 Roof run is the horizontal distance from the outer edge of the wall plate to the center of the roof ridge beam. For a symmetrical gable roof, run equals half the total building width.
 
 ### Why must you deduct ridge board thickness from rafter length?
+
 Rafters meet at the center of the roof against a ridge beam. Deducting half the thickness of the ridge beam (0.75" for a 1.5" 2x board) ensures the rafter plumb cut fits tight against the ridge.
 
 ### How do you calculate rafter overhang?
+
 Overhang length equals (Horizontal Overhang in feet) × √(1 + (Pitch / 12)²). For a 12-inch overhang on a 6/12 pitch roof, the rafter tail length is 1.118 feet (13.4 inches).
 
 ### What size lumber should I purchase for rafters?
+
 Always round up to the next standard commercial board length (e.g., 8', 10', 12', 14', 16', 18', 20') to allow for bird's mouth plumb cuts and fascia trimming.
 
 ### How do you convert pitch to degrees?
+
 Pitch angle in degrees = arctan(Pitch / 12) × (180 / π). For example, a 6/12 pitch equals arctan(0.5) = 26.57 degrees.
 

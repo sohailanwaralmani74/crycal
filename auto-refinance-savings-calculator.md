@@ -237,7 +237,9 @@ Our **auto refinance savings calculator** helps you:
 ---
 
 ## Auto Refinance Savings Calculator Formulas & Principles
+
 ### Monthly Payment Formulas
+
 For balance \(B\), current monthly rate \(r_1 = \text{APR}_1/12/100\), remaining term \(n_1\):
 
 \[
@@ -257,6 +259,7 @@ M_2 = B \cdot \frac{r_2(1 + r_2)^{n_2}}{(1 + r_2)^{n_2} - 1}
 \]
 
 ### Net Lifetime Interest Savings
+
 Total interest paid under old loan: \(I_1 = (M_1 \cdot n_1) - B\)
 Total interest paid under refinanced loan: \(I_2 = (M_2 \cdot n_2) - B\)
 
@@ -273,6 +276,7 @@ Total interest paid under refinanced loan: \(I_2 = (M_2 \cdot n_2) - B\)
 ---
 
 ## Auto Refinance Savings Calculator Real-World Case Study
+
 Consider a **$24,000 auto loan balance** with **48 remaining months** at **8.5% APR** ($591.90/mo). Refinancing to **5.5% APR** with **$150 in fees**:
 
 | Refinance Option | New Term | New Monthly Payment | Monthly Savings | Net Lifetime Savings | Break-Even Horizon |
@@ -287,6 +291,7 @@ Consider a **$24,000 auto loan balance** with **48 remaining months** at **8.5% 
 ---
 
 ## Step-by-Step Guide for Using the Auto Refinance Savings Calculator
+
 1. **Enter Current Balance**: Input your current loan payoff balance.
 2. **Input Current Rate & Term**: Enter your current APR and remaining term length in months.
 3. **Enter Refinanced Rate & Term**: Input the lower APR offered by your new lender and select your target loan term.
@@ -296,21 +301,28 @@ Consider a **$24,000 auto loan balance** with **48 remaining months** at **8.5% 
 ---
 
 ## Auto Refinance Savings Calculator Frequently Asked Questions
+
 ### When is the right time to refinance an auto loan?
+
 Refinancing makes financial sense if interest rates have dropped by 1% to 2% or more, if your credit score has improved since buying the car, or if you originally financed through a high-rate dealer financing program.
 
 ### How does refinancing an auto loan work?
+
 Refinancing replaces your existing car loan with a new loan from a different lender (or credit union) featuring a lower APR or adjusted term length. The new lender pays off your old loan balance, and you begin making payments under the new terms.
 
 ### Are there fees associated with auto loan refinancing?
+
 Refinancing fees for car loans are usually minimal—often ranging between $50 and $200 for state title transfers, lien re-registration, or lender processing. These fees are easily recouped if your interest rate drops significantly.
 
 ### Can I extend my loan term to lower my monthly payment?
+
 Yes, extending your term (e.g., from 36 remaining months to a new 48-month loan) lowers your monthly payment. However, extending the term may increase the total interest paid over time even with a lower interest rate.
 
 ### Does refinancing a car loan hurt your credit score?
+
 Applying for refinancing triggers a hard credit inquiry, which may temporarily dip your credit score by a few points. However, lower monthly payments make managing debt easier, which benefits your score long-term.
 
 ### Is there a minimum loan balance required to refinance?
+
 Most auto lenders require a minimum remaining balance of $5,000 to $7,500 and that the vehicle is less than 7 to 10 years old with under 100,000 to 125,000 miles.
 

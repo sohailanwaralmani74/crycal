@@ -203,16 +203,21 @@ The calculator simulates your loan amortization month by month using your intere
 ---
 
 ## PMI Calculator Frequently Asked Questions
+
 ### What is PMI?
+
 Private Mortgage Insurance (PMI) is a type of insurance that protects the lender if you default on your mortgage. It is typically required when your down payment is less than 20% of the home price.
 
 ### How is PMI calculated?
+
 PMI is calculated as an annual percentage of the loan amount, divided by 12 for monthly payments. The rate depends on your down payment percentage and credit score.
 
 ### When can I cancel PMI?
+
 You can cancel PMI when your loan-to-value (LTV) ratio reaches 80% or less. This can happen through principal payments, property appreciation, or a combination of both. This calculator shows you the exact month you can request cancellation.
 
 ### Does PMI cost the same for everyone?
+
 No. The PMI rate varies based on your down payment percentage and credit score. A larger down payment and higher credit score typically result in a lower PMI rate.
 
 ---

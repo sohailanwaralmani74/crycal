@@ -167,6 +167,7 @@ This tool helps product and marketing leads model **discounted revenue**, **post
 ---
 
 ## Key Discount Promo Code Revenue Calculator Mathematical Formulas
+
 ### 1. Discounted Price & Promo Revenue
 
 $$ \text{Discounted Price} = \text{Standard Price} \times (1 - \text{Discount \%}) $$
@@ -208,20 +209,27 @@ $$ \text{Gross Margin \%} = \frac{\text{Total 1-Year Revenue} - \text{Total 1-Ye
 ---
 
 ## Discount Promo Code Revenue Calculator Frequently Asked Questions
+
 ### Are promotional discounts effective for B2B SaaS?
+
 Limited-time discounts work well for customer acquisition, but deep permanent discounts (>30%) attract price-sensitive customers who churn rapidly when prices reset.
 
 ### What is a healthy post-discount retention rate?
+
 High-performing SaaS products retain 70% to 85% of discounted cohort signups when prices revert to full standard rates. Retention rates below 50% indicate discount misuse.
 
 ### How long should a promo discount last?
+
 The optimal promo duration is 3 to 6 months. This gives users enough time to build habit and extract product ROI before paying full price.
 
 ### How do promo discounts affect unit gross margin?
+
 Because direct COGS (hosting, support) remain fixed, a 20% price discount reduces gross profit dollar margins proportionally more than 20%.
 
 ### Should I discount monthly or annual plans?
+
 Offering discounts on annual plans (e.g. 20% off annual prepay) is generally superior because it secures upfront cash flow and 12-month retention.
 
 ### How do I calculate total 12-month campaign revenue?
+
 12-Month Revenue = (Signups × Discounted Price × Promo Months) + (Signups × Retention % × Full Price × Remaining Months).

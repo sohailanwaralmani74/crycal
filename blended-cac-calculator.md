@@ -140,6 +140,7 @@ Blended CAC provides a holistic view of your overall go-to-market expense by ave
 Having accurate, real-time insights into this metric helps SaaS founders, CFOs, and growth teams optimize capital allocation, protect operating runway, and achieve top-tier venture scalability.
 
 ## Blended Cac Calculator Formula & Derivation
+
 The mathematical derivation for this financial metric is expressed as:
 
 $$\text{Total Spend} = \text{Paid Spend} + \text{Organic Budget} + \text{Team Salaries}$$ \n$$\text{Blended CAC} = \frac{\text{Total Spend}}{\text{Paid Customers} + \text{Organic Customers}}$$
@@ -147,6 +148,7 @@ $$\text{Total Spend} = \text{Paid Spend} + \text{Organic Budget} + \text{Team Sa
 Where all input values are evaluated over a standardized monthly or annual accounting period.
 
 ## Blended Cac Calculator SaaS Benchmarks
+
 | Channel Mix Profile | Organic Share | Paid Share | Blended CAC Health |
 | --- | --- | --- | --- |
 | Organic Dominant | >= 70% | <= 30% | Highly Efficient Unit Economics |
@@ -154,6 +156,7 @@ Where all input values are evaluated over a standardized monthly or annual accou
 | Paid Heavy | < 40% | > 60% | Vulnerable to Rising Ad Costs |
 
 ## Step-by-Step Blended Cac Calculator Calculation Guide
+
 1. **Enter Core Financial Inputs:** Supply your monthly sales spend, user counts, ARPU, or recurring revenue figures.
 2. **Review Intermediate Outputs:** Examine calculated gross profit, churn, payback, or unit contribution scores.
 3. **Assess Benchmark Ratings:** Compare your results against SaaS industry standards to identify growth bottlenecks.
@@ -162,18 +165,24 @@ Where all input values are evaluated over a standardized monthly or annual accou
 ---
 
 ## Blended Cac Calculator Frequently Asked Questions
+
 ### What is Blended CAC?
+
 Blended CAC measures total sales and marketing spend divided by total new customers acquired across all paid and organic channels combined.
 
 ### Why evaluate Paid CAC vs Blended CAC separately?
+
 Relying solely on Blended CAC can mask inefficient paid ad campaigns if organic inbound traffic is strong.
 
 ### What is a healthy organic customer mix percentage?
+
 High-performing SaaS companies aim for 50%+ of new customers coming from organic inbound channels (SEO, word-of-mouth, viral loops).
 
 ### How can teams lower their Blended CAC?
+
 Lower Blended CAC by scaling SEO content creation, encouraging customer referral programs, and improving ad conversion rates.
 
 ### How often should Blended CAC be evaluated?
+
 Evaluate Blended CAC monthly to monitor channel mix shifts over time.
 

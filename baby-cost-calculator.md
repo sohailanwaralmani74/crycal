@@ -159,21 +159,28 @@ Estimate total first-year newborn expenses including daycare, diapers, nursery g
 ---
 
 ## Baby Cost Calculator Frequently Asked Questions
+
 ### How much does a baby cost in the first year on average?
+
 On average, parents spend between $12,000 and $20,000+ during a baby's first year, with infant childcare and medical out-of-pocket expenses representing the largest portion.
 
 ### What is the single largest expense in a baby's first year?
+
 Infant daycare or full-time nanny care is almost universally the single largest expense, often ranging from $800 to $2,500+ per month depending on region.
 
 ### How much should parents budget for diapers and wipes per month?
+
 Expect to spend between $70 and $110 per month on diapers and wipes during the first year, as newborns go through 8 to 12 diapers per day.
 
 ### How can expecting parents reduce nursery and gear costs?
+
 Buy convertible cribs that grow with the child, accept secondhand clothing and gear from family/friends, and focus registry gifts on essential safety items like car seats.
 
 ### How do health insurance deductibles impact birth medical costs?
+
 Out-of-pocket medical costs depend on your health plan's maximum annual out-of-pocket limit. Most parents meet their deductible and out-of-pocket maximum during the birth year.
 
 ### Should parents set up a Dependent Care FSA (DCFSA)?
+
 Yes! A Dependent Care FSA allows you to set aside up to $5,000 per year pre-tax for eligible daycare expenses, saving $1,000+ in income taxes.
 

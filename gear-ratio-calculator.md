@@ -193,17 +193,21 @@ Key drivetrain variables:
 ---
 
 ## Gear Ratio Calculator Mathematical Formulas
+
 ### 1. Overall Drive Ratio ($G_{\text{total}}$)
+
 \[
 G_{\text{total}} = G_{\text{gear}} \times G_{\text{final}}
 \]
 
 ### 2. Engine Speed in RPM ($\text{RPM}$)
+
 \[
 \text{RPM} = \frac{v_{\text{mph}} \times G_{\text{total}} \times 336.135}{D_{\text{tire}}}
 \]
 
 ### 3. Vehicle Speed at Target RPM ($v_{\text{mph}}$)
+
 \[
 v_{\text{mph}} = \frac{\text{RPM} \times D_{\text{tire}}}{G_{\text{total}} \times 336.135}
 \]
@@ -223,6 +227,7 @@ v_{\text{mph}} = \frac{\text{RPM} \times D_{\text{tire}}}{G_{\text{total}} \time
 ---
 
 ## Step-by-Step Gear Ratio Calculator Usage Guide
+
 1. **Enter Gear Ratio**: Input selected transmission gear ratio (e.g. 0.82 for 5th gear).
 2. **Provide Final Drive**: Input differential axle ratio (e.g. 3.73).
 3. **Set Tire Diameter**: Provide total tire height in inches (e.g. 26.5 inches).
@@ -232,23 +237,31 @@ v_{\text{mph}} = \frac{\text{RPM} \times D_{\text{tire}}}{G_{\text{total}} \time
 ---
 
 ## Gear Ratio Calculator Frequently Asked Questions
+
 ### What is the formula for calculating engine RPM from speed and gear ratio?
+
 $\text{RPM} = \frac{\text{MPH} \times \text{Transmission Ratio} \times \text{Final Drive Ratio} \times 336}{\text{Tire Diameter (inches)}}$.
 
 ### What is a final drive ratio?
+
 The final drive ratio (or axle ratio) is the ring-and-pinion gear ratio in the differential that multiplies transmission output speed before rotating the drive axles.
 
 ### How does changing tire size affect engine RPM?
+
 Installing taller tires increases rolling circumference, lowering engine RPM at any given speed. Installing shorter tires increases engine RPM.
 
 ### What is an overdrive gear ratio?
+
 An overdrive gear has a ratio numerical value below 1.00:1 (e.g. 0.70:1). The driveshaft rotates faster than the engine crankshaft, lowering RPM for high-speed fuel economy.
 
 ### Why do shorter axle ratios (e.g. 4.10 vs 3.31) improve off-the-line acceleration?
+
 Numerically higher ratios multiply engine torque more aggressively at the drive wheels, increasing initial acceleration force at the expense of higher highway cruising RPM.
 
 ### How do I find my vehicle's tire diameter in inches?
+
 For a 225/45R17 tire: $\text{Diameter} = 17 + 2 \times (225 \times 0.45 / 25.4) = 24.97 \text{ inches}$.
 
 ### Does the gear ratio calculator store my data?
+
 No. All calculations take place 100% locally in your browser.

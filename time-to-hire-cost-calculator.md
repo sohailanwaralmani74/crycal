@@ -160,6 +160,7 @@ Leaving critical revenue-generating roles (Account Executives, SDRs) or core pro
 ---
 
 ## Time to Hire Cost Calculator Mathematical Formulas
+
 ### 1. Lost Revenue Opportunity Cost
 
 $$ \text{Daily Revenue Rate} = \frac{\text{Annual Target Revenue}}{365} $$
@@ -191,6 +192,7 @@ $$ \text{Daily Cost of Vacancy (\$ / day)} = \frac{\text{Total Vacancy Cost}}{\t
 ---
 
 ## Step-by-Step Time to Hire Cost Calculator Guide
+
 1. **Track Requisition Open Days**: Input days elapsed from job posting to signed candidate offer acceptance.
 2. **Assign Revenue Output Target**: Use quota targets for sales roles or revenue/employee for dev roles.
 3. **Include Agency Placement Fees**: Factor in 15%-25% recruiter placement fees if using external headhunters.
@@ -199,20 +201,27 @@ $$ \text{Daily Cost of Vacancy (\$ / day)} = \frac{\text{Total Vacancy Cost}}{\t
 ---
 
 ## Time to Hire Cost Calculator Frequently Asked Questions
+
 ### What is Time to Hire Cost?
+
 Time to Hire Cost (also known as Cost of Vacancy) measures the combined financial loss created by an open position, including lost revenue opportunity, recruiter agency fees, job board advertising, and internal interview labor.
 
 ### How is Daily Cost of Vacancy calculated?
+
 Formula: Daily Cost of Vacancy = Total Cost of Vacant Position / Days Position Remains Vacant.
 
 ### What is Lost Opportunity Cost during a job vacancy?
+
 Lost Opportunity Cost measures unearned revenue or delayed software feature output resulting from missing key personnel. Formula: (Annual Target Revenue / 365) × Days Vacant.
 
 ### What is the average Time to Hire for tech and SaaS companies?
+
 Average time to hire for software engineers and Enterprise Account Executives ranges from 40 to 65 days.
 
 ### How do internal interviewing hours cost money?
+
 Every hour senior engineers or executives spend screening resumes and interviewing candidates is an hour taken away from core product development and deal closing.
 
 ### How can talent acquisition teams reduce Time to Hire costs?
+
 Reduce vacancy costs by maintaining an active candidate talent pipeline, streamlining interview stages (max 3 rounds), leveraging AI resume screening tools, and setting clear job offer SLAs.

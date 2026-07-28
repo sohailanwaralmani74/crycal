@@ -189,20 +189,27 @@ $$\text{Overall Readiness Score} = (\text{ARR Score} \times 0.45) + (\text{Growt
 ---
 
 ## Series Funding Benchmark Calculator Frequently Asked Questions
+
 ### What ARR is required for a Series A funding round?
+
 Institutional Series A rounds typically require $1.5M to $3.0M in ARR along with 100%+ YoY growth rate and strong net retention (>110%).
 
 ### What are typical benchmarks for a Seed round?
+
 Seed rounds typically require $250k to $1.0M in ARR (or strong early user momentum), 150%+ YoY growth, and target raises of $1M–$3M at $6M–$12M valuations.
 
 ### What are typical benchmarks for a Series B round?
+
 Series B rounds require $5M to $10M+ in ARR, 75%+ YoY growth, proven unit economics (LTV/CAC > 3.0), and target raises of $12M–$25M at $60M–$120M valuations.
 
 ### How is the Funding Readiness Score calculated?
+
 The readiness score evaluates your ARR, YoY growth rate, and NRR weighted against venture capital target thresholds for the selected round.
 
 ### What if my company falls short of the ARR benchmark?
+
 If ARR falls short, companies can compensate with hypergrowth (>200% YoY), exceptional NRR (>130%), or top-tier gross margins.
 
 ### Is my fundraising metric data private?
+
 Yes. All computations execute locally in your client web browser.

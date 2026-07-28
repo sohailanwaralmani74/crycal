@@ -209,21 +209,28 @@ The table below illustrates fabric panel requirements, cut lengths, and total fa
 ---
 
 ## Curtain Drape Fabric Calculator Frequently Asked Questions
+
 ### What fullness ratio should I select for custom curtains?
+
 For standard grommet, rod pocket, or ring-top curtains, use 2.0x fullness (twice the curtain rod width). For light sheer fabrics, 1.5x to 2.0x works well, while luxury pinch-pleated drapes require 2.5x to 3.0x fullness.
 
 ### How do I calculate cut length including headers and hems?
+
 Add finished curtain height + top header allowance (usually 4 to 8 inches) + bottom hem allowance (usually 8 inches for a double 4-inch turn). Standard total hem allowance is 16 inches.
 
 ### How does vertical pattern repeat affect fabric yardage?
+
 When fabric features a vertical pattern, each panel cut length must be rounded up to the next full pattern repeat increment so motifs align seamlessly across adjacent drapery panels.
 
 ### How far past the window frame should the curtain rod extend?
+
 Extend curtain rods 6 to 12 inches beyond each side of the window casing (12 to 24 inches total wider than the glass). This allows drapes to stack off the glass, maximizing natural sunlight.
 
 ### How many fabric yards are in a meter?
+
 1 yard equals 36 inches (0.9144 meters). 1 meter equals 39.37 inches (1.0936 yards). To convert fabric yards to meters, multiply total yards by 0.9144.
 
 ### Should I buy extra fabric for drapery lining?
+
 If adding privacy or blackout lining, buy the exact same yardage of lining fabric as your main face fabric (using 54-inch width lining).
 

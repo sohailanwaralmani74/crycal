@@ -176,23 +176,31 @@ $$\text{Annualized Revenue Loss Impact} = (\text{Churned MRR} + \text{Contractio
 ---
 
 ## Revenue Churn Calculator Frequently Asked Questions
+
 ### What is Revenue Churn?
+
 Revenue churn measures the percentage of recurring subscription dollars lost over a given period due to customer cancellations (churn) and plan downgrades (contraction).
 
 ### What is the difference between Gross Revenue Churn and Net Revenue Churn?
+
 Gross Revenue Churn looks only at lost dollars (cancellations + downgrades). Net Revenue Churn subtracts expansion MRR gained from existing accounts.
 
 ### Can Net Revenue Churn be negative?
+
 Yes! Negative net revenue churn occurs when expansion MRR from existing customers exceeds lost revenue from cancellations and downgrades.
 
 ### What is the formula for Gross Revenue Churn?
+
 Gross Revenue Churn % = [(Churned MRR + Contraction MRR) / Starting MRR] × 100.
 
 ### What is the formula for Net Revenue Churn?
+
 Net Revenue Churn % = [(Churned MRR + Contraction MRR − Expansion MRR) / Starting MRR] × 100.
 
 ### Why is Revenue Churn more informative than Customer Logo Churn?
+
 Because losing a $10,000/mo enterprise account has a vastly different financial impact than losing a $20/mo self-serve account.
 
 ### What is a healthy monthly Gross Revenue Churn rate for B2B SaaS?
+
 For Enterprise SaaS, monthly gross churn should be below 0.5%–1.0%. For Mid-Market, below 1.0%–1.5%. For SMB SaaS, below 2.0%–3.0%.

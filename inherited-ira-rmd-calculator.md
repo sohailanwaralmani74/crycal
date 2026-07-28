@@ -174,16 +174,21 @@ This **inherited IRA calculator** is designed for:
 ---
 
 ## Inherited Ira Rmd Calculator Frequently Asked Questions
+
 ### What is an inherited IRA RMD?
+
 An inherited IRA RMD (Required Minimum Distribution) is the minimum amount a beneficiary must withdraw each year from an inherited retirement account, with the calculation method depending on the beneficiary's relationship to the original owner and other factors.
 
 ### What is the 10-year rule for inherited IRAs?
+
 Under the SECURE Act, most non-spouse beneficiaries who are not "eligible designated beneficiaries" must fully distribute the inherited IRA within 10 years of the original owner's death, and may also owe annual RMDs during that period if the original owner had already started taking RMDs.
 
 ### Who qualifies as an eligible designated beneficiary?
+
 Eligible designated beneficiaries include surviving spouses, minor children of the account owner (until they reach the age of majority), disabled or chronically ill individuals, and beneficiaries not more than 10 years younger than the account owner. They can generally use the life expectancy method instead of the 10-year rule.
 
 ### What happens if I don't take my RMD?
+
 Failing to take a required RMD can result in an IRS excise tax penalty on the amount not withdrawn, though this penalty has been reduced under SECURE 2.0 if corrected in a timely manner.
 
 <p class="tool-disclaimer">Inherited IRA distribution rules are complex and depend on factors specific to your situation, including the original owner's age at death and applicable law changes. This calculator uses approximate life expectancy factors. Consult a tax advisor or the IRS Single Life Expectancy Table for precise figures.</p>

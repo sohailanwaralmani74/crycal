@@ -221,21 +221,28 @@ When planning a comprehensive mid-range home renovation, budget allocations typi
 ---
 
 ## Home Renovation Cost Estimator Frequently Asked Questions
+
 ### How much does it cost to renovate a 2,000 sq ft house?
+
 A cosmetic refresh for a 2,000 sq ft home ranges from $30,000 to $60,000. A complete mid-range remodel costs between $90,000 and $180,000, while a high-end luxury gut overhaul can range from $200,000 to $400,000+.
 
 ### What is the average cost per square foot to remodel a home?
+
 Nationally, cosmetic remodels average $25 to $40 per sq ft, mid-range remodels cost $60 to $90 per sq ft, and custom high-end gut renovations run $120 to $200+ per sq ft.
 
 ### What is the difference between cosmetic and gut renovation?
+
 Cosmetic renovations update surface finishes without touching walls or plumbing locations. Gut renovations strip the interior down to wooden studs, replacing electrical wiring, plumbing lines, insulation, and floor plans.
 
 ### How much emergency contingency budget should I save?
+
 Contractors recommend setting aside 15% contingency for newer homes and 20% to 25% for historic homes built before 1970 to cover hidden rot, knob-and-tube wiring, or mold.
 
 ### Why do home renovation costs vary by geographic location?
+
 Labor union rates, trade licensing, local building permit fees, and local real estate values significantly affect contractor pricing. High-cost urban centers like NYC or San Francisco can cost 50% more than national averages.
 
 ### Which home renovations offer the highest Return on Investment (ROI)?
+
 Minor kitchen remodels, garage door replacements, entry door upgrades, and manufactured stone veneer siding historically yield the highest ROI (70% to 90% cost recouped at resale).
 

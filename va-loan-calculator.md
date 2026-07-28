@@ -169,6 +169,7 @@ Because the VA Funding Fee varies based on whether you are using your VA benefit
 ---
 
 ## VA Loan Calculator Mathematical Formulas & Mechanics
+
 The total down payment dollar amount ($D$) based on home purchase price ($P$) and down payment percentage ($d$) is:
 
 $$D = P \times \left( \frac{d}{100} \right)$$
@@ -192,6 +193,7 @@ $$M = L_{\text{total}} \cdot \frac{r(1 + r)^n}{(1 + r)^n - 1}$$
 ---
 
 ## VA Loan Calculator Benchmarks & Comparison Table
+
 The table below details VA loan payments and funding fee amounts across home purchase prices for a **30-year fixed term at 6.25% interest** with **0% down payment** (First-Time Use: **2.15% Funding Fee**):
 
 | Home Purchase Price | Down Payment (0%) | Base Loan | VA Funding Fee (2.15%) | Total Financed Balance | Monthly Payment (P&I) | Total Lifetime Interest |
@@ -207,6 +209,7 @@ The table below details VA loan payments and funding fee amounts across home pur
 ---
 
 ## How to Use the VA Loan Calculator Step-by-Step
+
 1. **Select Currency**: Choose your preferred currency ($ USD, € EUR, £ GBP) in the site header.
 2. **Enter Home Purchase Price**: Input the total purchase price of the home you plan to buy.
 3. **Set Down Payment Percentage**: Keep 0% for standard VA financing or input a down payment percentage.
@@ -217,21 +220,28 @@ The table below details VA loan payments and funding fee amounts across home pur
 ---
 
 ## VA Loan Calculator Frequently Asked Questions
+
 ### What is a VA home loan?
+
 A VA loan is a mortgage guaranteed by the U.S. Department of Veterans Affairs, offering zero down payment and zero monthly PMI for active duty service members, veterans, and eligible surviving spouses.
 
 ### What is the VA Funding Fee?
+
 The VA Funding Fee is a one-time government fee required by law to sustain the VA home loan program. It varies from 1.25% to 3.3% depending on down payment size and prior VA loan usage.
 
 ### Who is exempt from paying the VA Funding Fee?
+
 Veterans receiving VA disability compensation, Purple Heart recipients, and surviving spouses receiving DIC benefits are fully exempt from the VA Funding Fee.
 
 ### Do VA loans require monthly Private Mortgage Insurance (PMI)?
+
 No. Unlike conventional loans with under 20% down or FHA loans, VA loans never require monthly mortgage insurance premiums.
 
 ### Can the VA Funding Fee be financed into the loan balance?
+
 Yes. Almost all VA borrowers choose to roll the one-time funding fee into their total financed loan balance rather than paying cash at closing.
 
 ### What is the minimum credit score required for a VA loan?
+
 The VA does not set a minimum credit score requirement, but most VA-approved mortgage lenders look for a score of 620 or higher.
 

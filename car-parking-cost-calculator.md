@@ -167,9 +167,11 @@ This calculator calculates exact net monthly and annual costs across all three o
 ---
 
 ## Car Parking Cost Calculator Calculation Flow & Formulas
+
 The engine evaluates monthly net expenses across daily garage rates, monthly permits, and street meters:
 
 ### Car Parking Cost Calculator Inputs & Parameters
+
 | Parameter | Unit | Description |
 | :--- | :--- | :--- |
 | **Daily Garage Rate (\(R_{daily}\))** | $/day | Daily drop-in parking rate |
@@ -182,22 +184,27 @@ The engine evaluates monthly net expenses across daily garage rates, monthly per
 ---
 
 ### Step-by-Step Car Parking Cost Calculator Formulas
+
 #### 1. Net Monthly Daily Garage Cost (\(C_{daily\_net}\))
+
 \[
 C_{daily\_net} = \max\left(0,\, \left(R_{daily} \times W\right) - S\right)
 \]
 
 #### 2. Net Monthly Permit Cost (\(C_{permit\_net}\))
+
 \[
 C_{permit\_net} = \max\left(0,\, R_{permit} - S\right)
 \]
 
 #### 3. Net Monthly Street Meter Cost (\(C_{meter\_net}\))
+
 \[
 C_{meter\_net} = \max\left(0,\, \left(R_{meter} \times H \times W\right) - S\right)
 \]
 
 #### 4. Break-Even Office Days (\(W_{breakeven}\))
+
 \[
 W_{breakeven} = \frac{R_{permit}}{R_{daily}}
 \]
@@ -216,6 +223,7 @@ W_{breakeven} = \frac{R_{permit}}{R_{daily}}
 ---
 
 ## How to Use the Car Parking Cost Calculator Step-by-Step
+
 1. **Input Daily & Monthly Rates**: Enter your garage drop-in daily rate (e.g. `$25`) and monthly permit cost (e.g. `$320`).
 2. **Set Commute Frequency**: Enter how many workdays per month you actually drive and park (e.g. `20 days` for full-time, `8 days` for hybrid).
 3. **Include Employer Subsidy**: Enter any monthly subsidy paid by your employer.
@@ -224,23 +232,31 @@ W_{breakeven} = \frac{R_{permit}}{R_{daily}}
 ---
 
 ## Car Parking Cost Calculator Frequently Asked Questions
+
 ### Is a monthly parking permit always cheaper than paying daily garage rates?
+
 Not always. A monthly permit is typically cheaper if you commute to the office **4 to 5 days per week** (16 to 20+ days/month). For hybrid employees working in-office 1 to 2 days per week (4 to 8 days/month), paying daily rates is significantly cheaper.
 
 ### How many days per month is the break-even point for a monthly parking permit?
+
 Break-even days = **Monthly Permit Price / Daily Garage Rate**. For example, if a permit costs $300/month and the daily rate is $25/day, the break-even point is exactly **12 days per month**.
 
 ### Are employer parking subsidies tax-exempt?
+
 Yes. In the United States, Section 132(f) of the IRS tax code allows qualified transportation fringe benefits (qualified parking) to be paid pre-tax up to monthly statutory caps (e.g. ~$300/month).
 
 ### What are the risks of using street parking meters daily?
+
 While street meters may seem cheaper per hour, time limits (e.g. 2-hour caps), ticket penalties for expired meters, ticket sweeps, and street sweeping regulations can drastically increase overall monthly costs.
 
 ### How does hybrid work change parking financial decisions?
+
 Hybrid schedules dramatically favor daily rates or flex passes. Paying $25/day for 8 office days ($200) saves **$120/month** compared to a $320 monthly permit.
 
 ### What is an Early Bird garage rate?
+
 Many commercial garages offer discounted "Early Bird" daily rates (e.g. $15 instead of $25) if you enter before 8:30 AM and exit after 3:30 PM.
 
 ### Is my parking budget data kept private?
+
 Yes. All computations are calculated locally inside your web browser.

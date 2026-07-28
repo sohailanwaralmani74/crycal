@@ -173,23 +173,31 @@ $$\text{Reactivation Share (\%)} = \frac{\text{Reactivated MRR}}{\text{Total Gro
 ---
 
 ## New vs Expansion Mrr Split Calculator Frequently Asked Questions
+
 ### Why is the New vs. Expansion MRR split important for SaaS?
+
 The split shows where growth originates. Early-stage SaaS companies rely mostly on New Logo MRR (70%–90%), while mature scale-ups generate 30%–50%+ of new MRR from account expansion.
 
 ### What is New Logo MRR?
+
 New Logo MRR is monthly recurring revenue generated from first-time customers subscribing to your product during the period.
 
 ### What is Expansion MRR?
+
 Expansion MRR is additional recurring revenue generated from existing customers upgrading their subscription plans or purchasing add-ons.
 
 ### What is Reactivated MRR?
+
 Reactivated MRR is recurring revenue from previous customers who had cancelled but re-subscribed during the current evaluation period.
 
 ### What is a healthy MRR growth split for a Series A/B SaaS company?
+
 A healthy target is 60%–70% New Logo MRR and 30%–40% Expansion MRR. As companies reach scale ($20M+ ARR), expansion should ideally represent 40%–50%+ of gross added MRR.
 
 ### How does the split impact Customer Acquisition Cost (CAC) payback?
+
 High reliance on New Logo MRR increases overall sales & marketing costs (higher CAC). Increasing Expansion MRR lowers blended CAC payback significantly.
 
 ### How often should growth teams measure this split?
+
 SaaS sales and growth leaders track the New vs. Expansion MRR split monthly to allocate marketing spend and Customer Success resources.

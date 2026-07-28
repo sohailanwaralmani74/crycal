@@ -218,21 +218,28 @@ $$\text{Ridge Vent Linear Feet} = \frac{\text{Exhaust NFVA (sq in)}}{\text{Ridge
 ---
 
 ## Attic Ventilation Calculator Frequently Asked Questions
+
 ### What is Net Free Vent Area (NFVA)?
+
 Net Free Vent Area (NFVA) is the total unobstructed open area through which air can pass in a vent, taking into account grilles, louvers, mesh screens, and baffles. Most vents provide 50% to 75% actual NFVA relative to their overall physical dimension.
 
 ### What is the 1:150 vs 1:300 attic ventilation rule?
+
 The International Residential Code (IRC) requires 1 square foot of NFVA for every 150 square feet of attic floor space (1:150). However, the ratio drops to 1:300 if at least 40% to 50% of vent area is located in the upper roof (ridge) and a Class I or II vapor retarder is installed on the ceiling.
 
 ### Why is intake soffit ventilation more important than exhaust?
+
 Without adequate intake airflow at the eaves/soffits, ridge exhaust vents create a vacuum that pulls conditioned indoor air out of the living area or draws rainwater into the attic.
 
 ### How many feet of ridge vent do I need for a 1,500 sq ft attic?
+
 For a 1,500 sq ft attic under the 1:300 rule, total NFVA is 720 sq in. A 50/50 split requires 360 sq in of exhaust. With standard 18 sq in/ft ridge vent, you need 20 linear feet of continuous ridge vent.
 
 ### Can you mix different types of roof exhaust vents?
+
 No. Never mix continuous ridge vents with roof turtle vents, powered attic fans, or gable end vents. Mixing exhaust vent types causes short-circuiting, where air circulates between nearby roof vents without pulling hot air from the lower soffits.
 
 ### How much does attic vent installation cost?
+
 Continuous ridge vent materials cost $2.50 to $4.50 per linear foot, while soffit vents cost $4 to $8 each. Professional roofing installation typically ranges from $300 to $900 for an average home.
 

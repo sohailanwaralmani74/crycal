@@ -156,30 +156,39 @@ $$\text{Target Cash \%} = 10\%$$
 
 
 ## Strategic Guidance for Asset Allocation Calculator
+
 Using this interactive calculation engine provides a clear, quantitative roadmap for your decisions. By eliminating mathematical uncertainty, you can optimize financial allocations, compare scenarios side-by-side, and make data-driven choices.
 
 ### Key Tactical Benefits of Asset Allocation Calculator
+
 - **Mathematical Certainty**: Eliminates guesswork by modeling multi-variable compounding and precise cost structures.
 - **Scenario Comparison**: Test multiple interest rates, payment timelines, and capital allocations in real-time.
 - **Privacy Assurance**: All data remains 100% confidential within your local browser memory, with zero remote server logging.
 - **Export & Audit Readiness**: Log calculations to local browser storage, export full histories to CSV/Excel, or share via link.
 
 ## Asset Allocation Calculator Frequently Asked Questions
+
 ### What is the Rule of 110 in asset allocation?
+
 The Rule of 110 estimates your stock allocation percentage by subtracting your age from 110 (e.g., at age 35, 110 - 35 = 75% stocks, with 25% allocated to bonds and cash).
 
 ### Why does age play a key role in asset allocation?
+
 Younger investors have decades to recover from short-term stock market downturns and benefit from higher equity growth, while retirees require capital preservation and steady fixed income.
 
 ### What is the difference between stocks, bonds, and cash reserves?
+
 Stocks offer high long-term capital growth with higher volatility. Bonds provide steady interest income and downside protection. Cash reserves offer emergency liquidity with zero volatility.
 
 ### How does risk tolerance adjust standard age-based rules?
+
 Aggressive investors add 10% to 15% more stock exposure to standard age rules, while conservative investors reduce stock exposure by 10% to 15% in favor of bonds.
 
 ### What is a target-date fund?
+
 A target-date fund automatically adjusts its asset allocation over time, shifting from aggressive equities to conservative bonds as you approach your target retirement year.
 
 ### How often should asset allocation models be reviewed?
+
 Review your asset allocation annually or whenever major life events occur (marriage, career changes, birth of a child, approaching retirement).
 

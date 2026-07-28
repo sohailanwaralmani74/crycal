@@ -178,9 +178,11 @@ This calculator allows you to test different combinations—such as moving from 
 ---
 
 ## Tire Size Comparison Calculator Calculation Flow & Formulas
+
 The engine uses standard metric-to-imperial conversions to calculate physical tire dimensions:
 
 ### Tire Size Comparison Calculator Inputs & Parameters
+
 | Parameter | Unit | Description |
 | :--- | :--- | :--- |
 | **Section Width (\(W\))** | millimeters (mm) | Total width of tire from sidewall to sidewall |
@@ -191,17 +193,21 @@ The engine uses standard metric-to-imperial conversions to calculate physical ti
 ---
 
 ### Step-by-Step Tire Size Comparison Calculator Formulas
+
 #### 1. Sidewall Height (\(H_{sidewall}\))
+
 \[
 H_{sidewall} = \frac{W \times \frac{AR}{100}}{25.4} \quad \text{(in inches)}
 \]
 
 #### 2. Overall Diameter (\(D_{overall}\))
+
 \[
 D_{overall} = R + \left(2 \times H_{sidewall}\right) \quad \text{(in inches)}
 \]
 
 #### 3. Tire Circumference (\(C\)) & Revolutions Per Mile (\(N_{revs}\))
+
 \[
 C = \pi \times D_{overall}
 \]
@@ -210,6 +216,7 @@ N_{revs} = \frac{63,360}{C}
 \]
 
 #### 4. Speedometer Variance (\(S_{actual}\))
+
 \[
 S_{actual} = S_{target} \times \left(\frac{D_{new}}{D_{oem}}\right)
 \]
@@ -217,6 +224,7 @@ S_{actual} = S_{target} \times \left(\frac{D_{new}}{D_{oem}}\right)
 ---
 
 ## Tire Size Comparison Calculator Comparison Matrix
+
 | OEM Spec | Target Spec | OEM Diam | Target Diam | Diam Diff (%) | Speedo at 60 mph | Recommendation |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **205/55R16** | **225/45R17** | 24.88" | 24.97" | +0.36% | 60.2 mph | Perfect Match (< 1%) |
@@ -226,6 +234,7 @@ S_{actual} = S_{target} \times \left(\frac{D_{new}}{D_{oem}}\right)
 ---
 
 ## How to Use the Tire Size Comparison Calculator Step-by-Step
+
 1. **Locate OEM Specs**: Read your current tire size off the driver's door jamb placard or current tire sidewall (e.g., `225/45R17`).
 2. **Input Baseline (Tire 1)**: Enter width (`225`), aspect ratio (`45`), and rim diameter (`17`) into the Tire 1 column.
 3. **Input Comparison (Tire 2)**: Enter your prospective tire size specifications into the Tire 2 column.
@@ -234,23 +243,31 @@ S_{actual} = S_{target} \times \left(\frac{D_{new}}{D_{oem}}\right)
 ---
 
 ## Tire Size Comparison Calculator Frequently Asked Questions
+
 ### How do you calculate tire overall diameter from standard tire sizing metrics?
+
 Tire diameter is calculated by converting section width to inches, multiplying by the aspect ratio percentage to find sidewall height, multiplying sidewall height by 2, and adding the wheel rim diameter.
 
 ### What is an acceptable tire diameter difference percentage when changing wheels?
+
 Automotive engineers recommend keeping new tire diameters within **±3%** of the original equipment (OEM) tire size to avoid ABS, traction control, and transmission calibration errors.
 
 ### Why does speedometer accuracy change when changing tire size?
+
 Speedometers measure wheel rotation speed. If a new tire has a larger circumference, the car travels further per rotation, making the actual speed higher than shown on the speedometer.
 
 ### What is tire aspect ratio?
+
 Aspect ratio is the height of the tire sidewall expressed as a percentage of the section width. For example, a 225/45 tire has a sidewall height equal to 45% of 225 mm.
 
 ### How does tire size affect revolutions per mile?
+
 Larger diameter tires have a larger rolling circumference, taking fewer revolutions to cover one mile compared to smaller tires.
 
 ### Can I put wider tires on my existing factory rims?
+
 Yes, provided the tire section width falls within the rim's approved width range (typically ±10-20mm from OEM) without causing suspension or fender rubbing.
 
 ### Is my comparison data kept private?
+
 Yes. All computations are calculated locally in JavaScript within your browser. No input data is sent to external servers.

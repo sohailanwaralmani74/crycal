@@ -165,6 +165,7 @@ Not all customer acquisitions are created equal. Paid ads deliver fast pipeline 
 ---
 
 ## Acquisition Channel Comparison Calculator Mathematical Formulas
+
 ### 1. Channel CAC
 
 $$ \text{CAC}_{\text{Channel 1}} = \frac{\text{Channel 1 Spend}}{\text{Channel 1 Closed Deals}} $$
@@ -189,6 +190,7 @@ $$ \text{Payback Months} = \frac{\text{Channel CAC}}{\text{ARPU} \times \left( \
 ---
 
 ## Step-by-Step Acquisition Channel Comparison Calculator Guide
+
 1. **Gather Monthly Spend Data**: Import ad invoices, agency retainers, and tool costs per channel.
 2. **Track Attribution Deals**: Pull closed-won customer counts per source channel from your CRM.
 3. **Input Subscription Unit Economics**: Enter ARPU and gross margin.
@@ -197,20 +199,27 @@ $$ \text{Payback Months} = \frac{\text{Channel CAC}}{\text{ARPU} \times \left( \
 ---
 
 ## Acquisition Channel Comparison Calculator Frequently Asked Questions
+
 ### What is an acquisition channel comparison calculator?
+
 An acquisition channel comparison calculator allows growth teams to compare Customer Acquisition Cost (CAC) and payback periods across marketing channels.
 
 ### How is Channel CAC calculated?
+
 Channel CAC = Monthly Channel Spend / Monthly Closed Deals from Channel.
 
 ### How is CAC Payback Period calculated?
+
 Formula: Payback Months = Channel CAC / (ARPU × Gross Margin %).
 
 ### What is a good CAC Payback Period for SaaS?
+
 For self-serve SMB SaaS, a good CAC payback period is 6 to 12 months. For Enterprise SaaS with annual contracts, payback under 18 months is healthy.
 
 ### Why should CAC be evaluated alongside payback months?
+
 A channel might have a low CAC but attract low-ARPU customers, leading to longer payback times. Evaluating both metrics ensures capital efficiency.
 
 ### How can I lower payback months on paid channels?
+
 Lower payback months by increasing initial contract upfront billing (annual prepaid plans), expanding expansion revenue, or improving onboarding activation.

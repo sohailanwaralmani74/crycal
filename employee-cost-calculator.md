@@ -150,6 +150,7 @@ A common mistake made by startup founders and hiring managers is budgeting stric
 ---
 
 ## Employee Cost Calculator Mathematical Formulas
+
 ### 1. Benefits & Payroll Tax Expense
 
 $$ \text{Benefits \& Tax Cost} = \text{Base Salary} \times \left( \frac{\text{Benefits \& Tax \%}}{100} \right) $$
@@ -177,6 +178,7 @@ $$ \text{Monthly Loaded Expense} = \frac{\text{Total Fully-Loaded Cost}}{12} $$
 ---
 
 ## Step-by-Step Employee Cost Calculator Guide
+
 1. **Input Agreed Base Salary**: Enter gross annual compensation before withholding.
 2. **Set Payroll Tax & Benefits Load**: Use 25% as standard benchmark for health + 401(k) + FICA.
 3. **Add Equipment & Tool Expenses**: Include laptop, monitor, Slack, Jira, GitHub, and Salesforce seat costs.
@@ -185,20 +187,27 @@ $$ \text{Monthly Loaded Expense} = \frac{\text{Total Fully-Loaded Cost}}{12} $$
 ---
 
 ## Employee Cost Calculator Frequently Asked Questions
+
 ### What is fully-loaded employee cost?
+
 Fully-loaded employee cost is the complete total expense a business incurs to employ a team member, including base salary, employer payroll taxes, health benefits, bonuses, hardware, software tools, and office overhead.
 
 ### What is the typical fully-loaded multiplier on base salary?
+
 In the US, the fully-loaded cost multiplier typically ranges from 1.25x to 1.40x of the employee's base salary (25% to 40% added on top of base pay).
 
 ### What expenses make up payroll taxes and benefits?
+
 Payroll taxes and benefits include employer FICA (Social Security & Medicare, 7.65%), FUTA/SUTA unemployment taxes, health/dental insurance premiums, 401(k) matches, and worker's compensation.
 
 ### How does remote work affect fully-loaded employee cost?
+
 Remote work reduces physical office lease expenses but introduces remote stipends, home office setup allowances, and multi-state payroll compliance fees.
 
 ### Why is fully-loaded cost essential for SaaS financial modeling?
+
 Modeling base salary alone underestimates OpEx by 25%+ to 40%, leading to unexpected cash burn and inaccurate runway calculations.
 
 ### How can companies optimize fully-loaded employee costs?
+
 Optimize expenses by offering competitive flexible benefits, bundling enterprise software licensing, hiring contractors for short-term projects, and optimizing health plan structures.

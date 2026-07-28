@@ -236,19 +236,25 @@ Your debt-to-income ratio is one of the most important metrics for financial hea
 ---
 
 ## Debt to Income Calculator Frequently Asked Questions
+
 ### What is debt-to-income ratio (DTI)?
+
 Your debt-to-income ratio is the percentage of your gross monthly income that goes toward debt payments. Lenders use it to evaluate your ability to manage monthly payments and repay loans.
 
 ### How is DTI calculated?
+
 DTI = (Total Monthly Debt Payments ÷ Total Monthly Income) × 100. A lower DTI indicates better financial health and higher borrowing capacity.
 
 ### What is a good DTI ratio?
+
 A DTI of 36% or less is considered good. 37-43% is acceptable but may limit borrowing options. Above 43% may make it difficult to get approved for loans.
 
 ### What is the difference between front-end and back-end DTI?
+
 Front-end DTI only includes housing expenses (mortgage/rent, property taxes, insurance). Back-end DTI includes all debts (housing, auto, credit cards, student loans, etc.).
 
 ### What is the maximum DTI for a mortgage?
+
 Most conventional mortgages require a back-end DTI of 43% or less. FHA loans may allow up to 50% with compensating factors.
 
 ---

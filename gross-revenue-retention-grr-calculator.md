@@ -174,23 +174,31 @@ Where:
 ---
 
 ## GRR Calculator Frequently Asked Questions
+
 ### What is Gross Revenue Retention (GRR)?
+
 Gross Revenue Retention (GRR) measures the percentage of recurring revenue retained from an existing cohort of customers over a period, accounting for downgrades and churn, but intentionally excluding expansion revenue.
 
 ### Why can GRR never exceed 100%?
+
 Because expansion revenue is omitted from GRR. The maximum possible GRR is 100%, achieved when there is zero contraction and zero churn.
 
 ### What is a good GRR percentage for SaaS?
+
 For Enterprise SaaS, 90%–95%+ is benchmark. For Mid-Market SaaS, 85%–90% is healthy. For SMB SaaS, 80%+ is typical due to higher baseline SMB business turnover.
 
 ### What is the formula for GRR?
+
 GRR % = [(Starting MRR − Contraction MRR − Churned MRR) / Starting MRR] × 100.
 
 ### Why is GRR preferred by lenders and venture capital investors?
+
 GRR isolates baseline customer retention. High expansion revenue can mask underlying customer dissatisfaction if NRR is high but GRR is low.
 
 ### What is the difference between GRR and NRR?
+
 GRR measures baseline revenue stability (max 100%), while NRR measures net growth from existing customers (can exceed 100% via expansion).
 
 ### How can SaaS companies improve GRR?
+
 By reducing voluntary cancellations, improving onboarding, fixing payment failure workflows (dunning), and preventing customer downgrades.

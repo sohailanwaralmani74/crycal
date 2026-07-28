@@ -251,33 +251,44 @@ The tool updates instantly as you adjust any input — no "Calculate" button req
 ---
 
 ## VAT Calculator Frequently Asked Questions
+
 ### What is a VAT calculator?
+
 A VAT calculator is a tool that calculates Value Added Tax on goods and services. It can add VAT to a net price, remove VAT from a gross price, or calculate VAT from a total amount.
 
 ### How do I add VAT to a price?
+
 Use the "Net to Gross" mode. Enter the net price and VAT rate, and the calculator will show the gross price including VAT.
 
 ### How do I remove VAT from a price?
+
 Use the "Gross to Net" mode. Enter the gross price and VAT rate, and the calculator will show the net price excluding VAT.
 
 ### How do I reverse calculate VAT?
+
 Use the "Gross to Net" mode. Enter the gross price and VAT rate, and the calculator will show the VAT amount extracted from the gross price.
 
 ### What is the VAT rate in the UK?
+
 The standard UK VAT rate is 20%.
 
 ### What is the VAT rate in South Africa?
+
 The standard South Africa VAT rate is 15%.
 
 ### What is the VAT rate in the UAE?
+
 The standard UAE VAT rate is 5%.
 
 ### What is the VAT rate in Ireland?
+
 The standard Ireland VAT rate is 23%.
 
 ### What is the VAT rate in Malta?
+
 The standard Malta VAT rate is 18%.
 
 ### What is the VAT rate in the Philippines?
+
 The standard Philippines VAT rate is 12%.
 

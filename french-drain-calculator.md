@@ -223,21 +223,28 @@ $$\text{Filter Fabric Area (sq ft)} = \text{Fabric Perimeter (ft)} \times \text{
 ---
 
 ## French Drain Calculator Frequently Asked Questions
+
 ### What is the best gravel size for a french drain?
+
 Clean washed #57 stone (3/4-inch to 1-inch crushed aggregate) is the industry standard for french drains. It leaves 45% open void space for rapid groundwater flow while supporting heavy soil loads.
 
 ### Why is geotextile filter fabric required in a french drain?
+
 Non-woven geotextile filter fabric wraps the entire gravel trench, acting as a sieve that lets groundwater enter while permanently blocking dirt silt, clay particles, and sand from clogging the gravel voids and pipe holes.
 
 ### How much slope is needed for a french drain?
+
 A french drain requires a minimum downward slope of 1 inch for every 10 feet of trench length (a 1% slope gradient) toward the gravity outlet.
 
 ### Should perforated pipe holes face up or down in a french drain?
+
 Perforated pipe holes must ALWAYS face DOWN toward the bottom of the trench. Water rises from the water table into the bottom of the gravel bed and flows into the pipe holes from underneath.
 
 ### How many tons of gravel are in a cubic yard?
+
 One cubic yard of clean washed #57 drainage gravel weighs approximately 1.35 tons (2,700 lbs).
 
 ### How much does it cost to install a french drain per foot?
+
 DIY materials cost $8 to $14 per linear foot for gravel, pipe, and fabric. Professional contractor installation costs $30 to $65 per linear foot depending on trench depth and hand vs machine digging.
 

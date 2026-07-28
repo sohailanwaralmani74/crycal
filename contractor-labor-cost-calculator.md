@@ -213,21 +213,28 @@ General contractors frequently charge what is known in the industry as **"10 and
 ---
 
 ## Contractor Labor Cost Calculator Frequently Asked Questions
+
 ### What is a typical labor-to-material ratio in construction?
+
 The standard rule of thumb across residential building is a 50/50 split (labor cost equals material cost). However, material-heavy trades like roofing average 40/60, while labor-intensive trades like painting average 65/35.
 
 ### How do contractors calculate their hourly labor rate?
+
 Contractors calculate hourly billing rates by adding direct wages + payroll taxes (FICA) + worker's compensation insurance + employee benefits + allocated business overhead expenses.
 
 ### What is a normal contractor markup percentage for overhead and profit?
+
 Standard general contractor markup ranges from 15% to 25% above hard direct costs. The industry benchmark "10 and 10" rule equals approximately 21% compounding markup.
 
 ### Why is labor more expensive than materials in custom tile or painting?
+
 Custom tile setting and interior painting require high manual craftsmanship, surface preparation, precision cutting, and drying times relative to the physical cost of raw tile boxes or paint cans.
 
 ### How can homeowners verify if a contractor quote is fair?
+
 Ask for an itemized breakdown of material allowances versus labor hours. Calculate the implied hourly worker rate by dividing labor cost by estimated crew hours.
 
 ### What is crew hourly burn rate?
+
 Crew hourly burn rate is the total hourly cost of all workers active on site (e.g., a 4-person crew billed at $50/hr per worker has an hourly burn rate of $200/hr).
 

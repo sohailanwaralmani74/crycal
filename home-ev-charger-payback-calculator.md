@@ -226,22 +226,27 @@ Key benefits of home Level 2 installation:
 ---
 
 ## Home EV Charger Payback Calculator Mathematical Formulas
+
 ### 1. Net Equipment & Installation Outlay ($\text{Cost}_{\text{net}}$)
+
 \[
 \text{Cost}_{\text{net}} = \text{Cost}_{\text{hardware}} + \text{Cost}_{\text{install}} - \text{Rebates}
 \]
 
 ### 2. Monthly Energy Savings ($S_{\text{monthly}}$)
+
 \[
 S_{\text{monthly}} = \left( \frac{\text{Miles}_{\text{monthly}}}{\text{Efficiency}_{\text{mi/kWh}}} \right) \times (R_{\text{public}} - R_{\text{home}})
 \]
 
 ### 3. Payback Period in Months ($T_{\text{payback}}$)
+
 \[
 T_{\text{payback}} = \frac{\text{Cost}_{\text{net}}}{S_{\text{monthly}}}
 \]
 
 ### 4. 5-Year Cumulative Net Savings ($\text{Savings}_{\text{5yr}}$)
+
 \[
 \text{Savings}_{\text{5yr}} = (S_{\text{monthly}} \times 60) - \text{Cost}_{\text{net}}
 \]
@@ -260,6 +265,7 @@ T_{\text{payback}} = \frac{\text{Cost}_{\text{net}}}{S_{\text{monthly}}}
 ---
 
 ## Step-by-Step Home EV Charger Payback Calculator Usage Guide
+
 1. **Enter Hardware & Labor**: Input the purchase price of your Level 2 wall charger and electrician quotes.
 2. **Apply Rebates**: Subtract any state incentives, federal tax credits (Section 30C), or local electric utility rebates.
 3. **Set Electric Rates**: Enter your home residential power rate ($/kWh) and typical local public fast charging rate ($/kWh).
@@ -269,23 +275,31 @@ T_{\text{payback}} = \frac{\text{Cost}_{\text{net}}}{S_{\text{monthly}}}
 ---
 
 ## Home EV Charger Payback Calculator Frequently Asked Questions
+
 ### How long does it take for a home EV charger to pay for itself?
+
 For an average driver traveling 1,100 miles per month, a Level 2 home charger ($1,100 net installation cost) pays for itself in 10 to 14 months compared to using public fast chargers.
 
 ### How much cheaper is home charging than public DC fast charging?
+
 Home charging ($0.14–$0.18/kWh) is generally 60% to 70% cheaper than commercial public charging stations ($0.40–$0.50/kWh).
 
 ### What federal or state incentives exist for home charger installation?
+
 In the US, the Federal Section 30C tax credit offers up to 30% of installation costs (max $1,000) in eligible census tracts, plus additional local electric utility rebates ranging from $250 to $1,000.
 
 ### Is a Level 2 home charger worth the installation cost?
+
 Yes. In addition to financial savings of $800 to $1,400 per year, Level 2 home chargers offer overnight convenience and predictable charging schedules.
 
 ### What factors impact the installation cost of a 240V Level 2 charger?
+
 Installation cost depends on main electrical panel capacity, distance from panel to garage/driveway, NEMA 14-50 outlet installation, and local permitting requirements.
 
 ### How much money will I save over 5 years with a home EV charger?
+
 A typical EV owner saves between $3,500 and $6,000 over 5 years after recovering the initial equipment and installation costs.
 
 ### Does the home EV charger payback calculator store my data?
+
 No. All calculations are executed strictly within your local browser session.

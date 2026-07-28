@@ -165,9 +165,11 @@ Instead of guessing when to buy new tires, this calculator tracks your exact wea
 ---
 
 ## Tire Wear Mileage Life Estimator Calculation Flow & Formulas
+
 The estimator calculates empirical wear rates based on actual miles driven per 1/32" of tread loss:
 
 ### Tire Wear Mileage Life Estimator Inputs & Parameters
+
 | Input Parameter | Description |
 | :--- | :--- |
 | **New Tread Depth (\(T_{new}\))** | Factory tread depth when brand new (typically 10/32") |
@@ -179,7 +181,9 @@ The estimator calculates empirical wear rates based on actual miles driven per 1
 ---
 
 ### Step-by-Step Tire Wear Mileage Life Estimator Formulas
+
 #### 1. Usable Tread Depths
+
 \[
 \text{Usable Tread Total} = T_{new} - T_{limit} = T_{new} - 2
 \]
@@ -191,16 +195,19 @@ The estimator calculates empirical wear rates based on actual miles driven per 1
 \]
 
 #### 2. Wear Rate (Miles per 1/32" Tread)
+
 \[
 R_{wear} = \frac{M_{current}}{\text{Usable Tread Worn}}
 \]
 
 #### 3. Estimated Remaining Miles (\(M_{remaining}\))
+
 \[
 M_{remaining} = \text{Usable Tread Remaining} \times R_{wear} \times F_{style}
 \]
 
 #### 4. Total Projected Tire Lifespan (\(M_{total}\))
+
 \[
 M_{total} = M_{current} + M_{remaining}
 \]
@@ -219,6 +226,7 @@ M_{total} = M_{current} + M_{remaining}
 ---
 
 ## How to Use the Tire Wear Mileage Life Estimator Step-by-Step
+
 1. **Measure Tread**: Use a depth gauge in outer, center, and inner grooves. Record the lowest depth reading in 32nds.
 2. **Input Current Mileage**: Enter total miles put on these tires (e.g. `25,000 miles`).
 3. **Set Annual Mileage**: Input your typical annual miles (e.g. `12,000 miles/yr`).
@@ -227,23 +235,31 @@ M_{total} = M_{current} + M_{remaining}
 ---
 
 ## Tire Wear Mileage Life Estimator Frequently Asked Questions
+
 ### What is the minimum legal tread depth for tires?
+
 In the United States and Canada, the legal minimum tread depth is **2/32 of an inch (1.6 mm)**. Tires with 2/32 or less tread must be replaced immediately for safety.
 
 ### How does a tread depth gauge work?
+
 A tread depth gauge measures the depth of the tire's main circumferential grooves in 32nds of an inch. New passenger tires typically start at 10/32 to 11/32 of an inch.
 
 ### What is the Penny Test for tire wear?
+
 Insert a Lincoln penny into your tire tread with Lincoln's head upside down. If the top of Lincoln's head is visible, your tread is at or below 2/32 inch and tires must be replaced.
 
 ### What does UTQG Treadwear rating mean?
+
 UTQG (Uniform Tire Quality Grading) treadwear is a relative rating. A tire rated 500 will theoretically last twice as long as a tire rated 250 under identical controlled test conditions.
 
 ### Why do tires wear down faster on drive wheels?
+
 Drive wheels transfer engine torque and acceleration forces to the pavement, causing faster tread abrasion than non-driven trailing wheels. Regular tire rotation every 5,000 to 7,500 miles prevents uneven wear.
 
 ### How many years do tires last before dry rot occurs?
+
 Even if sufficient tread remains, major tire manufacturers recommend replacing tires after **6 years** from manufacture due to rubber oxidation and dry rot, with an absolute hard limit of 10 years.
 
 ### Is my tire measurement data kept private?
+
 Yes. All computations are calculated locally in your browser without tracking or external servers.

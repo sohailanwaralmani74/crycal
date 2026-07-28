@@ -212,21 +212,28 @@ The table below shows stair geometry calculations across common total rise heigh
 ---
 
 ## Stair Stringer Calculator Frequently Asked Questions
+
 ### What is the maximum allowed stair riser height according to building code (IRC)?
+
 The International Residential Code (IRC) specifies a maximum riser height of 7.75 inches (7-3/4 in) and a minimum tread depth of 10 inches.
 
 ### What is the ideal riser height and tread depth for comfortable stairs?
+
 The golden rule of stair design states that $\text{Riser Height} + \text{Tread Depth} = 17 \text{ to } 18 \text{ inches}$. Ideal residential stairs feature a 7.5-inch riser and a 10.5-inch tread.
 
 ### Why is there one fewer tread than risers?
+
 The upper floor landing acts as the top step. Therefore, the number of horizontal treads is always equal to $\text{Number of Risers} - 1$.
 
 ### How many stringers do I need for a deck staircase?
+
 Standard wood deck stairs spaced up to 36 inches wide require 3 stringers (spaced 16 inches on-center). Stairs from 36 to 48 inches wide require 4 stringers.
 
 ### What size lumber board should be used for stair stringers?
+
 Stair stringers must be cut from 2x12 structural lumber boards. Never use 2x10s for cut stringers, as notch cutouts leave insufficient throat strength.
 
 ### How do I adjust the bottom and top of a cut stringer?
+
 You must deduct the thickness of one tread board (e.g. 1.0 or 1.5 inches) from the bottom of the stringer so the first step matches all upper risers.
 

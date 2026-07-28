@@ -224,6 +224,7 @@ Key eligibility rules:
 ## Mathematical & Rule Logic
 
 ### 1. Income (AGI) Thresholds
+
 \[
 \text{Cap}_{\text{AGI}} = \begin{cases}
 \$150,000 & \text{Single} \\
@@ -233,6 +234,7 @@ Key eligibility rules:
 \]
 
 ### 2. Vehicle MSRP Thresholds
+
 \[
 \text{Cap}_{\text{MSRP}} = \begin{cases}
 \$55,000 & \text{Sedans, Hatchbacks, Passenger Cars} \\
@@ -241,6 +243,7 @@ Key eligibility rules:
 \]
 
 ### 3. Federal Credit Component Split
+
 \[
 \text{Credit}_{\text{federal}} = \begin{cases}
 \$0 & \text{if AGI > Cap OR MSRP > Cap OR Overseas Assembly} \\
@@ -265,6 +268,7 @@ Key eligibility rules:
 ---
 
 ## Step-by-Step EV Tax Credit Calculator Usage Guide
+
 1. **Enter Vehicle MSRP**: Input total window sticker price including factory options.
 2. **Select Body Classification**: Choose Sedan ($55k limit) or SUV/Truck ($80k limit).
 3. **Provide Filing Status & AGI**: Select your tax filing status and input your Adjusted Gross Income.
@@ -274,23 +278,31 @@ Key eligibility rules:
 ---
 
 ## EV Tax Credit Calculator Frequently Asked Questions
+
 ### What are the income (AGI) limits for the federal $7,500 EV tax credit?
+
 Under IRS Section 30D, Modified AGI must not exceed $150,000 for single filers, $225,000 for heads of household, or $300,000 for married couples filing jointly.
 
 ### What are the MSRP limits for electric vehicle eligibility?
+
 The manufacturer's suggested retail price (MSRP) cannot exceed $80,000 for vans, SUVs, and pickup trucks, or $55,000 for sedans and passenger cars.
 
 ### Can the $7,500 EV tax credit be transferred at point of sale?
+
 Yes, starting in 2024, eligible buyers can transfer the credit directly to registered automobile dealers to reduce the vehicle purchase price upfront at the dealership.
 
 ### How does battery critical mineral and component sourcing affect the credit?
+
 The $7,500 credit is split into two $3,750 portions: $3,750 for critical mineral sourcing requirements and $3,750 for battery component manufacturing in North America.
 
 ### Can I use either current or prior year AGI to qualify?
+
 Yes. Taxpayers can use their Modified AGI from either the year the vehicle is delivered or the preceding tax year to meet income thresholds.
 
 ### Do leased electric vehicles have income and MSRP limits?
+
 Leased EVs qualify under Commercial Clean Vehicle Credit (Section 45W), which currently passes the $7,500 savings through the leasing company without buyer income or MSRP restrictions.
 
 ### Does the EV tax credit estimator store my data?
+
 No. All calculations take place 100% locally inside your web browser.

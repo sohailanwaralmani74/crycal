@@ -187,16 +187,21 @@ This **mega backdoor Roth calculator** is designed for:
 ---
 
 ## Mega Backdoor Roth Calculator Frequently Asked Questions
+
 ### What is a mega backdoor Roth?
+
 A mega backdoor Roth is a strategy where you make after-tax contributions to a 401(k) plan (beyond the regular employee deferral limit) and then convert or roll them into a Roth account, allowing for substantially larger Roth contributions than the standard IRA or 401(k) Roth limits.
 
 ### How much can I contribute through a mega backdoor Roth?
+
 Your after-tax contribution room is the overall 415(c) limit (plus catch-up if eligible) minus your employee elective deferrals and any employer contributions already made.
 
 ### Does my employer plan need to allow this?
+
 Yes. Your 401(k) plan must explicitly allow after-tax contributions and either in-service withdrawals or in-plan Roth conversions for the mega backdoor Roth strategy to work.
 
 ### Are mega backdoor Roth conversions taxed?
+
 The after-tax contributions themselves are not taxed again upon conversion, but any investment growth that occurred before the conversion may be subject to tax, so converting promptly minimizes any tax owed.
 
 <p class="tool-disclaimer">Not all 401(k) plans permit after-tax contributions or mega backdoor Roth conversions. Confirm plan rules with your plan administrator, and verify current IRS limits before acting on these results.</p>

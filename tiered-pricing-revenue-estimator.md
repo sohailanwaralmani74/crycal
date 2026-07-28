@@ -179,6 +179,7 @@ However, revenue is heavily weighted by the **customer mix percentage**. Moving 
 ---
 
 ## Key Tiered Pricing Revenue Estimator Mathematical Formulas
+
 ### 1. Per-Tier Revenue Formulas
 
 $$ \text{Starter Accounts} = \text{Total Customers} \times \text{Starter Mix \%} $$
@@ -221,20 +222,27 @@ $$ \text{Blended ARPU} = \frac{\text{Total MRR}}{\text{Total Customers}} $$
 ---
 
 ## Tiered Pricing Revenue Estimator Frequently Asked Questions
+
 ### What is a typical SaaS customer tier distribution mix?
+
 A common self-serve B2B SaaS distribution mix is 50% Starter, 35% Pro, and 15% Enterprise. In enterprise-heavy SaaS, Enterprise may account for 70%+ of total revenue despite being 10% of customer accounts.
 
 ### Why is the Enterprise tier critical for blended ARPU?
+
 Because Enterprise tiers command 5x to 15x higher ACV, increasing the Enterprise customer mix by even 5% can dramatically raise your overall blended ARPU and total ARR.
 
 ### What should be included in Starter vs Pro vs Enterprise tiers?
+
 Starter includes core features for individuals; Pro adds team collaboration, higher usage limits, and integrations; Enterprise adds SSO/SAML, custom SLA, audit logs, and dedicated account management.
 
 ### How many pricing tiers should a SaaS company offer?
+
 The gold standard is 3 tiers (e.g. Starter, Pro, Enterprise). Offering fewer limits market segment coverage, while offering more than 4 creates decision paralysis for buyers.
 
 ### How is Blended ARPU calculated?
+
 Blended ARPU = Total MRR ÷ Total Paying Customers. It represents the weighted average monthly revenue generated per active account.
 
 ### What happens if my tier mix percentages don't add up to 100%?
+
 The calculator automatically normalizes your mix percentages proportionally to ensure accurate financial projections.

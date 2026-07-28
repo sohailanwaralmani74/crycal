@@ -164,16 +164,20 @@ Using this **Vinyl Plank Flooring Calculator** enables homeowners, interior desi
 ---
 
 ## Vinyl Plank Flooring Calculator Mathematical Formulas & Mechanics
+
 ### 1. Net Room Square Footage
+
 $$\text{Area}_{\text{net}} = L_{\text{ft}} \times W_{\text{ft}}$$
 
 For L-shaped rooms or multi-room layouts, calculate sum of individual rectangular sections:
 $$\text{Area}_{\text{net}} = \sum (L_i \times W_i)$$
 
 ### 2. Gross Area with Cutting Waste
+
 $$\text{Area}_{\text{gross}} = \text{Area}_{\text{net}} \times \left(1 + \frac{W}{100}\right)$$
 
 ### 3. Box Quantity & Total Project Cost
+
 $$\text{Total Boxes} = \left\lceil \frac{\text{Area}_{\text{gross}}}{\text{Sq Ft per Box}} \right\rceil$$
 $$\text{Purchased Square Feet} = \text{Total Boxes} \times \text{Sq Ft per Box}$$
 $$\text{Total Material Cost} = \text{Purchased Square Feet} \times \text{Price per Sq Ft}$$
@@ -181,6 +185,7 @@ $$\text{Total Material Cost} = \text{Purchased Square Feet} \times \text{Price p
 ---
 
 ## Vinyl Plank Flooring Calculator Benchmarks & Comparison Table
+
 Standard LVP box coverage, wear layer specifications, and material cost benchmarks:
 
 | LVP Grade / Tier | Wear Layer Thickness | Plank Thickness | Typical Box Coverage | Material Price / Sq Ft | Recommended Use Case |
@@ -193,6 +198,7 @@ Standard LVP box coverage, wear layer specifications, and material cost benchmar
 ---
 
 ## How to Use the Vinyl Plank Flooring Calculator Step-by-Step
+
 1. **Measure Room Length & Width:** Measure longest room dimensions in feet to compute net room floor area.
 2. **Enter Box Coverage Specs:** Check manufacturer box label for square feet contained per carton (typically 18 to 24 sq ft).
 3. **Select Cutting Waste Factor:** Set 10% waste for standard straight layout, or 15% for diagonal or multi-door layouts.
@@ -202,23 +208,31 @@ Standard LVP box coverage, wear layer specifications, and material cost benchmar
 ---
 
 ## Vinyl Plank Flooring Calculator Frequently Asked Questions
+
 ### How many square feet are in a box of vinyl plank flooring?
+
 A standard box of luxury vinyl plank (LVP) flooring typically contains 18 to 24 square feet, depending on plank width, length, and manufacturer specifications.
 
 ### How much waste percentage should I add for LVP flooring?
+
 Add 10% waste for standard rectangular rooms with straight installations. Add 15% waste for rooms with multiple doorways, closets, hallways, or diagonal plank patterns.
 
 ### Why must you round up to whole boxes of LVP?
+
 Flooring retailers sell luxury vinyl plank only by full sealed cartons. Partial boxes cannot be purchased, and extra planks are needed for future repairs and color batch matching.
 
 ### Does luxury vinyl plank (LVP) require underlayment?
+
 If the LVP planks feature an attached acoustic foam pad (IXPE or EVA pad), additional underlayment is not required unless installed over concrete requiring a 6-mil polyethylene vapor barrier.
 
 ### How much does luxury vinyl plank (LVP) flooring cost per square foot?
+
 LVP flooring costs $2.00 to $7.00 per square foot for materials depending on wear layer thickness (6 mil, 12 mil, or 20 mil commercial core).
 
 ### How do you calculate LVP flooring for multiple connected rooms?
+
 Measure each room's length and width separately, calculate each room's square footage, sum the room totals together, and apply your waste percentage to the grand total.
 
 ### What wear layer thickness is best for residential LVP flooring?
+
 A 12-mil wear layer is ideal for standard residential homes, while a 20-mil wear layer is recommended for heavy foot traffic, pets, and commercial spaces.

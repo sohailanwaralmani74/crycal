@@ -236,6 +236,7 @@ If your income exceeds these limits, a Backdoor Roth IRA may be your only option
 ---
 
 ## How to Use the Backdoor Roth Ira Calculator
+
 1. **Enter your annual income** — your Modified Adjusted Gross Income (MAGI).
 2. **Select your filing status** — Single, Married Joint, or Married Separate.
 3. **Enter your contribution amount** — the amount for the Traditional IRA.
@@ -248,18 +249,24 @@ The tool updates instantly as you adjust any input — no "Calculate" button req
 ---
 
 ## Backdoor Roth Ira Calculator Frequently Asked Questions
+
 ### What is a Backdoor Roth IRA?
+
 A Backdoor Roth IRA is a strategy for high-income earners who exceed the Roth IRA income limits to contribute to a Roth IRA by converting a Traditional IRA.
 
 ### Who is eligible for a Backdoor Roth IRA?
+
 Anyone with earned income can technically do a Backdoor Roth IRA. However, the pro-rata rule may apply if you have existing Traditional IRA balances.
 
 ### What is the pro-rata rule?
+
 The pro-rata rule requires you to consider all your Traditional IRA accounts when calculating the taxable portion of a Roth conversion.
 
 ### What are the Roth IRA income limits for 2024?
+
 For 2024, the Roth IRA contribution limit phases out starting at $146,000 (single) and $230,000 (married joint).
 
 ### What is the 5-year rule for Roth IRA conversions?
+
 Roth IRA conversions have a 5-year aging rule. If you withdraw converted funds within 5 years, you may owe a 10% penalty on the taxable portion.
 

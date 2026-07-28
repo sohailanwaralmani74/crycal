@@ -234,18 +234,24 @@ The tool updates instantly as you adjust any input — no "Calculate" button req
 ---
 
 ## I Bond Calculator Frequently Asked Questions
+
 ### What is an I Bond?
+
 A Series I Savings Bond (I Bond) is a U.S. government savings bond designed to protect your savings from inflation. It earns interest based on a fixed rate plus an inflation-adjusted rate that changes every six months.
 
 ### How is the I Bond composite rate calculated?
+
 The composite rate is calculated using the formula: Composite Rate = [Fixed Rate + (2 × Semiannual Inflation Rate) + (Fixed Rate × Semiannual Inflation Rate)].
 
 ### What is the current I Bond rate?
+
 As of May 2026, the composite rate is 4.26% with a 0.90% fixed rate for bonds purchased through October 2026.
 
 ### When do I Bond rates change?
+
 I Bond inflation rates change twice a year — on May 1 and November 1 — based on the Consumer Price Index (CPI).
 
 ### How often does interest compound on I Bonds?
+
 I Bond interest is compounded semiannually. The composite rate is applied to the bond's value every six months.
 

@@ -174,23 +174,31 @@ $$\text{Lost Renewal Revenue Value} = \text{Expiring Contracts Value} - \text{Re
 ---
 
 ## Renewal Rate Calculator Frequently Asked Questions
+
 ### What is Contract Renewal Rate?
+
 Contract Renewal Rate measures the percentage of expiring subscriptions or annual contracts that are successfully renewed by customers at the end of their term.
 
 ### What is the difference between Logo Renewal Rate and Dollar Renewal Rate?
+
 Logo Renewal Rate measures the count of renewed customer accounts. Dollar Renewal Rate measures the total revenue retained from expiring contracts.
 
 ### What is the formula for Logo Renewal Rate %?
+
 Logo Renewal Rate (%) = (Renewed Contracts Count / Expiring Contracts Count) × 100.
 
 ### What is the formula for Dollar Renewal Rate %?
+
 Dollar Renewal Rate (%) = (Renewed Contracts Total Value / Expiring Contracts Total Value) × 100.
 
 ### What is a good contract renewal rate for Enterprise B2B SaaS?
+
 For Enterprise B2B SaaS, an annual contract renewal rate of 85%–90%+ for logos and 90%–95%+ for dollars is considered benchmark.
 
 ### How do multi-year contracts affect annual renewal rate calculations?
+
 Only contracts actually expiring in the current period are included in the denominator. Multi-year contracts in mid-term are excluded until their renewal period arrives.
 
 ### How can Customer Success teams improve renewal rates?
+
 By initiating renewal discussions 90 days before expiration, tracking product adoption triggers, resolving support tickets early, and offering flexible term extensions.

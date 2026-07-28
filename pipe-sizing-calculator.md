@@ -152,9 +152,11 @@ Conversely, over-sizing pipes increases material installation costs and causes h
 ## Water Pipe Sizing Formulas
 
 ### 1. Water Velocity Equation:
+
 $$V = \frac{0.408 \times Q}{d^2}$$
 
 ### 2. Required Internal Pipe Diameter ($d$):
+
 $$d = \sqrt{\frac{0.408 \times Q}{V_{\text{max}}}}$$
 
 Where:
@@ -190,21 +192,28 @@ Where:
 ---
 
 ## Pipe Sizing Calculator Frequently Asked Questions
+
 ### What is a Water Supply Fixture Unit (WSFU)?
+
 A Water Supply Fixture Unit (WSFU) is a design index number assigned to plumbing fixtures that represents their relative water consumption and peak simultaneous usage probability.
 
 ### Why is water velocity limited to 8 FPS in copper pipes?
+
 Water moving through copper pipes at velocities above 8 Feet Per Second (FPS) creates turbulent scouring action that erodes the protective internal oxide film, leading to pinhole leaks and pipe failure.
 
 ### What size water pipe is needed for a whole house?
+
 Most modern single-family residences with 2.5 bathrooms (15 to 25 WSFU) require a **3/4-inch or 1-inch main water supply line** from the water meter, branching off into 1/2-inch lines to individual fixtures.
 
 ### How does PEX inner diameter compare to copper pipe?
+
 PEX tubing has thicker pipe walls than Type L copper. Consequently, 3/4" PEX has an inner diameter of approx 0.671 inches compared to 0.745 inches for 3/4" copper. This means PEX has slightly higher friction loss for the same nominal trade size.
 
 ### What is Hunter's Curve in plumbing design?
+
 Developed by Dr. Roy B. Hunter at the National Bureau of Standards, Hunter's Curve is the empirical probability curve used by US plumbing codes to convert total fixture units (WSFU) into realistic peak simultaneous GPM flow demand.
 
 ### Can I run a 1/2 inch PEX branch line to a bathroom?
+
 A 1/2-inch PEX branch line can supply up to two fixtures (e.g., a sink and a toilet) simultaneously. However, if feeding a full bathroom (sink, toilet, and shower), a 3/4-inch trunk line feeding 1/2-inch branches is recommended to prevent pressure drops.
 

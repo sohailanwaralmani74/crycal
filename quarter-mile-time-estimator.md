@@ -181,7 +181,9 @@ Key drag strip metrics:
 ---
 
 ## Quarter Mile Time Estimator Mathematical Formulas
+
 ### 1. 1/4 Mile Elapsed Time ($\text{ET}_{1/4}$)
+
 \[
 \text{ET}_{1/4} = 5.825 \times \left( \frac{\text{Weight}_{\text{lbs}}}{\text{HP}} \right)^{0.333} \times M_{\text{drivetrain}}
 \]
@@ -192,11 +194,13 @@ Where $M_{\text{drivetrain}}$ launch multipliers are:
 - **FWD**: $1.06$ (Front traction spin)
 
 ### 2. 1/4 Mile Trap Speed ($v_{\text{trap}}$)
+
 \[
 v_{\text{trap}} = 234 \times \left( \frac{\text{HP}}{\text{Weight}_{\text{lbs}}} \right)^{0.333}
 \]
 
 ### 3. 1/8 Mile Split Conversions
+
 \[
 \text{ET}_{1/8} = \text{ET}_{1/4} \times 0.64, \quad v_{1/8} = v_{\text{trap}} \times 0.80
 \]
@@ -216,6 +220,7 @@ v_{\text{trap}} = 234 \times \left( \frac{\text{HP}}{\text{Weight}_{\text{lbs}}}
 ---
 
 ## Step-by-Step Quarter Mile Time Estimator Usage Guide
+
 1. **Enter Horsepower**: Input total engine flywheel horsepower (e.g. 450 hp).
 2. **Provide Total Weight**: Enter vehicle curb weight plus driver in pounds (e.g. 3,500 lbs).
 3. **Select Drivetrain**: Choose FWD, RWD, or AWD.
@@ -224,23 +229,31 @@ v_{\text{trap}} = 234 \times \left( \frac{\text{HP}}{\text{Weight}_{\text{lbs}}}
 ---
 
 ## Quarter Mile Time Estimator Frequently Asked Questions
+
 ### How is 1/4 mile elapsed time (ET) calculated from horsepower and weight?
+
 1/4 mile ET is calculated using empirical drag racing formulas (e.g. Hale's Formula): $ET = 5.825 \times (\text{Weight} / \text{HP})^{1/3}$.
 
 ### How is 1/4 mile trap speed (MPH) calculated?
+
 Trap speed is determined primarily by total power-to-weight ratio regardless of launch traction: $\text{Speed} = 234 \times (\text{HP} / \text{Weight})^{1/3}$.
 
 ### What is the relationship between 1/8 mile and 1/4 mile ET?
+
 1/8 mile ET is typically equal to ~0.64 × 1/4 mile ET, while 1/8 mile trap speed is roughly ~0.80 × 1/4 mile trap speed.
 
 ### Does flywheel horsepower or wheel horsepower produce more accurate estimates?
+
 Calculators using flywheel horsepower assume an average drivetrain loss (~15% for RWD/FWD, ~20% for AWD). Wheel horsepower yields exact direct force.
 
 ### Why does AWD improve 1/4 mile ET but not trap speed?
+
 AWD eliminates wheelspin during the initial 60-foot launch, lowering overall ET, but drivetrain friction and weight slightly reduce final top-end trap speed.
 
 ### How much horsepower is needed for a 10-second 1/4 mile in a 3,500 lb vehicle?
+
 Running a 10.0-second 1/4 mile at 3,500 lbs typically requires approximately 650 to 750 horsepower along with drag radial tires.
 
 ### Does the 1/4 mile estimator store my data?
+
 No. All calculations take place 100% locally in your web browser.

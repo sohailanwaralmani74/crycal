@@ -90,6 +90,7 @@ shortName: Retirement
 Using this interactive calculation engine provides a clear, quantitative roadmap for your decisions. By eliminating mathematical uncertainty, you can optimize financial allocations, compare scenarios side-by-side, and make data-driven choices.
 
 ### Key Tactical Benefits
+
 - **Mathematical Certainty**: Eliminates guesswork by modeling multi-variable compounding and precise cost structures.
 - **Scenario Comparison**: Test multiple interest rates, payment timelines, and capital allocations in real-time.
 - **Privacy Assurance**: All data remains 100% confidential within your local browser memory, with zero remote server logging.
@@ -102,6 +103,7 @@ Using this interactive calculation engine provides a clear, quantitative roadmap
 Understanding these metrics in detail provides founders, financial planners, and managers with an actionable framework for sustainable long-term decision making.
 
 ### Key Decision Factors
+
 1. **Capital Optimization**: Focus cash flow and investment on channels delivering the highest net lifetime value.
 2. **Risk Mitigation**: Build reserves to withstand macroeconomic fluctuations and rate adjustments.
 3. **Data Integrity**: Audit inputs periodically against verified bank statements, billing receipts, or contracts.

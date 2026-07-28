@@ -152,30 +152,39 @@ $$\text{Cap Rate \%} = \frac{\text{NOI}}{\text{Property Purchase Price}} \times 
 
 
 ## Strategic Guidance for Rental Property Cap Rate Calculator
+
 Using this interactive calculation engine provides a clear, quantitative roadmap for your decisions. By eliminating mathematical uncertainty, you can optimize financial allocations, compare scenarios side-by-side, and make data-driven choices.
 
 ### Key Tactical Benefits of Rental Property Cap Rate Calculator
+
 - **Mathematical Certainty**: Eliminates guesswork by modeling multi-variable compounding and precise cost structures.
 - **Scenario Comparison**: Test multiple interest rates, payment timelines, and capital allocations in real-time.
 - **Privacy Assurance**: All data remains 100% confidential within your local browser memory, with zero remote server logging.
 - **Export & Audit Readiness**: Log calculations to local browser storage, export full histories to CSV/Excel, or share via link.
 
 ## Rental Property Cap Rate Calculator Frequently Asked Questions
+
 ### What is a good Cap Rate for rental properties?
+
 A good Cap Rate generally falls between 5% and 10%, depending on property location, market risk, and asset class.
 
 ### What is the difference between Cap Rate and Cash-on-Cash Return?
+
 Cap Rate evaluates a property's unleveraged return regardless of financing. Cash-on-Cash return evaluates the leveraged return on out-of-pocket cash invested after mortgage payments.
 
 ### What expenses are included in Net Operating Income (NOI)?
+
 NOI includes property taxes, insurance, property management fees, routine maintenance, utilities paid by landlord, and vacancy reserves. Mortgage debt service is NOT included.
 
 ### Why does a lower Cap Rate often indicate higher property valuation?
+
 Cap Rates move inversely to property values. Low Cap Rates (3% to 5%) occur in prime, low-risk markets where buyers pay premium prices for stable income streams.
 
 ### How do interest rates affect real estate Cap Rates?
+
 As interest rates rise, borrowing costs increase, causing buyers to demand higher Cap Rates, which exerts downward pressure on property purchase prices.
 
 ### Can Cap Rate be increased after purchasing a property?
+
 Yes! Real estate investors increase Cap Rates by raising rental rates to market value, reducing operating expenses, or adding value through unit renovations.
 

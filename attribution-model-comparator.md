@@ -147,6 +147,7 @@ Attribution choice drastically alters how marketing budget is distributed. Relyi
 ---
 
 ## Attribution Model Comparator Mathematical Formulas
+
 ### 1. Single-Touch Attribution Models
 
 $$ \text{First-Touch Credit (\$) } = \text{Total Revenue} \times \left( \frac{\text{First-Touch Weight \%}}{100} \right) $$
@@ -175,6 +176,7 @@ $$ \text{Model Variance} = |\text{First-Touch Credit} - \text{Last-Touch Credit}
 ---
 
 ## Step-by-Step Attribution Model Comparator Guide
+
 1. **Enter Total Closed Deal Revenue**: Input aggregate dollar revenue from a closed cohort.
 2. **Define Touchpoint Volume**: Set the average number of marketing interactions before deal close (typically 3-6 in B2B).
 3. **Compare Attribution Output**: Analyze how revenue shifts between top-of-funnel discovery and bottom-of-funnel closing.
@@ -183,20 +185,27 @@ $$ \text{Model Variance} = |\text{First-Touch Credit} - \text{Last-Touch Credit}
 ---
 
 ## Attribution Model Comparator Frequently Asked Questions
+
 ### What is an attribution model?
+
 An attribution model is a rule or set of rules that determines how credit for sales and conversions is assigned to touchpoints in marketing funnels.
 
 ### What is First-Touch Attribution?
+
 First-Touch attribution assigns 100% of conversion credit to the very first marketing channel or touchpoint a user interacted with (e.g., initial blog post or Google search ad).
 
 ### What is Last-Touch Attribution?
+
 Last-Touch attribution assigns 100% of conversion credit to the final channel a user interacted with immediately before converting (e.g., final demo booking page or retargeting ad).
 
 ### What is Linear Attribution?
+
 Linear attribution splits conversion credit equally among all recorded marketing touchpoints across the buyer journey.
 
 ### Which attribution model is best for B2B SaaS?
+
 B2B SaaS with long sales cycles benefits most from W-Shaped or Linear attribution models, which value both top-of-funnel discovery and bottom-of-funnel conversion.
 
 ### Why do First-Touch and Last-Touch models cause budget bias?
+
 First-touch overvalues awareness and ignores sales enablement, while last-touch overvalues retargeting and ignores top-of-funnel lead generation.

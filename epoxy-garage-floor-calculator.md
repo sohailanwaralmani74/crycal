@@ -182,10 +182,13 @@ Using this **Epoxy Garage Floor Calculator** enables homeowners, contractors, an
 ---
 
 ## Epoxy Garage Floor Calculator Mathematical Formulas & Mechanics
+
 ### 1. Garage Surface Area
+
 $$\text{Area (sq ft)} = L_{\text{ft}} \times W_{\text{ft}}$$
 
 ### 2. Epoxy Resin Gallons Required
+
 $$\text{Gallons per Coat} = \frac{\text{Area (sq ft)}}{\text{Coverage Rate (sq ft/gal)}}$$
 $$\text{Total Gallons Required} = \left\lceil \text{Gallons per Coat} \times N_{\text{coats}} \times \left(1 + \frac{W}{100}\right) \right\rceil$$
 
@@ -196,6 +199,7 @@ Where coverage rates by resin chemistry are:
 - **Polyaspartic / Polyurea Topcoat:** $250\text{ sq ft / gal}$ (at $6\text{ mils}$ DFT)
 
 ### 3. Decorative Flake Weight Calculation
+
 $$\text{Flake Weight (Lbs)} = \text{Area (sq ft)} \times \text{Broadcast Density Factor (lbs/sq ft)}$$
 
 Where broadcast factors are:
@@ -206,6 +210,7 @@ Where broadcast factors are:
 ---
 
 ## Epoxy Garage Floor Calculator Benchmarks & Comparison Table
+
 Material breakdown and coverage rates for a standard 2-car garage ($24'\times 24' = 576\text{ sq ft}$):
 
 | Coating System | Basecoat Gallons | Flake Weight (Medium) | Clear Topcoat Gallons | Total Material Cost | Expected Lifespan |
@@ -218,6 +223,7 @@ Material breakdown and coverage rates for a standard 2-car garage ($24'\times 24
 ---
 
 ## How to Use the Epoxy Garage Floor Calculator Step-by-Step
+
 1. **Measure Garage Dimensions:** Measure length and width of garage floor in feet to determine net square footage.
 2. **Select Epoxy Chemistry:** Choose 100% solids epoxy, solvent-based epoxy, water-based DIY kit, or polyaspartic topcoat.
 3. **Select Number of Coats:** Choose 1 coat (basic coverage), 2 coats (primer + basecoat), or 3 coats (primer + basecoat + clear topcoat).
@@ -227,23 +233,31 @@ Material breakdown and coverage rates for a standard 2-car garage ($24'\times 24
 ---
 
 ## Epoxy Garage Floor Calculator Frequently Asked Questions
+
 ### How many gallons of epoxy are needed for a 2-car garage?
+
 A standard 2-car garage (400 to 500 sq ft) requires 2 to 3 gallons of 100% solids epoxy per coat. A complete 2-coat system (primer/basecoat + clear topcoat) typically requires 4 to 6 total gallons.
 
 ### What is the difference between 100% solids epoxy and water-based epoxy?
+
 100% solids epoxy contains no evaporating solvents or water, curing to 100% of its wet film thickness (10-12 mils per coat). Water-based epoxy contains 40-60% water, evaporating during cure to leave a thin 2-3 mil protective layer.
 
 ### How many pounds of decorative flakes are needed for a full broadcast garage floor?
+
 A full refusal broadcast (where flakes completely cover the base coat until no epoxy shows through) requires approximately 0.5 lbs of vinyl flakes per square foot—or 250 lbs of flakes for a 500 sq ft garage.
 
 ### Is a clear polyaspartic topcoat necessary over epoxy flakes?
+
 Yes. Decorative vinyl flakes create a rough, raised surface that traps dirt and oil. A clear polyaspartic or urethane topcoat seals the flakes, provides UV yellowing protection, and creates a smooth cleanable surface.
 
 ### How much surface prep is required before applying garage floor epoxy?
+
 Concrete must be mechanically diamond ground or acid etched to achieve a Concrete Surface Profile (CSP) of 2 to 3 (similar to 80-grit sandpaper). Skipping surface prep causes 90% of DIY epoxy floor peeling failures.
 
 ### How long does garage epoxy take to dry before parking cars?
+
 Standard 100% solids epoxy requires 24 hours for foot traffic and 3 to 7 days for vehicle traffic. Fast-curing polyaspartic topcoats allow vehicle parking within 24 to 48 hours.
 
 ### What is the average cost per square foot for epoxy garage floor materials?
+
 DIY water-based kits cost $1.00 to $2.00 per sq ft in materials. High-performance commercial 100% solids epoxy systems with flakes and polyaspartic topcoat cost $3.00 to $5.00 per sq ft in materials.

@@ -257,19 +257,25 @@ Where:
 ---
 
 ## Life Insurance Calculator Frequently Asked Questions
+
 ### How much life insurance do I need?
+
 The amount depends on your income, debts, final expenses, and dependents. This life insurance calculator gives you an estimate based on the DIME method (Debt, Income, Mortgage, Education).
 
 ### What is the DIME method for life insurance?
+
 DIME stands for Debt, Income, Mortgage, and Education. It's a common method for calculating life insurance needs. This calculator uses a similar approach.
 
 ### What is the 10x income rule for life insurance?
+
 The 10x income rule suggests buying a life insurance policy worth 10 times your annual income. This calculator provides a more detailed estimate based on your specific debts and obligations.
 
 ### How does inflation affect my life insurance need?
+
 Inflation reduces the purchasing power of a fixed payout over time. This calculator adjusts for inflation using the rate you provide.
 
 ### Should I include my spouse's income in the calculation?
+
 Yes — if your spouse works, their income can reduce the amount of coverage needed. Enter their income to get a more accurate estimate.
 
 ---

@@ -152,22 +152,27 @@ Evaluating **Seat-Based Churn** equips product, revenue, and customer success le
 ---
 
 ## Seat Based Churn Calculator Mathematical Formulas & Mechanics
+
 ### 1. Gross Seat Churn Rate Formula
+
 $$\text{Seat Churn Rate (\%)} = \left( \frac{S_{\text{churned}}}{S_{\text{start}}} \right) \times 100$$
 
 Where $S_{\text{churned}}$ includes both fully cancelled seats and downscaled seats from retained accounts, and $S_{\text{start}}$ represents starting active seats.
 
 ### 2. Ending Seat Count & Net Seat Growth
+
 $$S_{\text{ending}} = S_{\text{start}} + S_{\text{added}} - S_{\text{churned}}$$
 $$\text{Net Seat Growth} = S_{\text{added}} - S_{\text{churned}}$$
 
 ### 3. Financial MRR Impact Equations
+
 $$\text{MRR Lost to Seat Churn} = S_{\text{churned}} \times \text{ARPU}_{\text{seat}}$$
 $$\text{Net MRR Impact} = (S_{\text{added}} - S_{\text{churned}}) \times \text{ARPU}_{\text{seat}}$$
 
 ---
 
 ## Seat Based Churn Calculator Benchmarks & Comparison Table
+
 The table below outlines typical monthly seat churn rates and expansion dynamics across B2B SaaS verticals:
 
 | SaaS Segment | Target Monthly Seat Churn | Contraction Share of Churn | Healthy Net Seat Growth | Typical Primary Churn Driver |
@@ -180,6 +185,7 @@ The table below outlines typical monthly seat churn rates and expansion dynamics
 ---
 
 ## How to Use the Seat Based Churn Calculator Step-by-Step
+
 1. **Input Initial Active Seats:** Enter the total active, billable user licenses assigned at the start of your monthly or annual tracking period.
 2. **Record Seat Expansion & New Sales:** Input total new seats activated through new customer acquisition plus seat upgrades in existing accounts.
 3. **Specify Cancelled & Contracted Seats:** Enter total seats removed—combining seats from fully churned accounts and reduced seat counts from downscaling accounts.
@@ -189,23 +195,31 @@ The table below outlines typical monthly seat churn rates and expansion dynamics
 ---
 
 ## Seat Based Churn Calculator Frequently Asked Questions
+
 ### What is seat-based churn in SaaS?
+
 Seat-based churn measures the percentage of individual user licenses or seats lost during a period, accounting for both account cancellations and seat downscaling (contraction).
 
 ### How does seat churn differ from account (logo) churn?
+
 Account churn tracks lost customer accounts, whereas seat churn tracks lost individual user licenses. An enterprise account staying active while scaling from 500 seats to 200 seats generates 300 churned seats without increasing logo churn.
 
 ### What is a good seat churn rate benchmark for SaaS?
+
 For per-seat SaaS companies, gross seat churn rates below 1% to 2% per month (or under 10% to 12% annually) are considered high-performing, especially when combined with positive net seat expansion.
 
 ### Can seat churn be negative?
+
 Gross seat churn cannot be negative, but Net Seat Churn can be negative when expansion seats from existing accounts exceed the total seats lost from cancellations and contractions.
 
 ### How does seat churn affect Net Revenue Retention (NRR)?
+
 Seat contraction directly depresses NRR. Since seat licenses are the primary value metric for seat-priced SaaS, preventing seat reduction is essential to maintaining NRR above 110%.
 
 ### What causes seat churn in B2B software?
+
 Common causes include customer layoff cycles, low feature adoption, unassigned shelfware licenses, lack of team onboarding, and cost-cutting initiatives by department heads.
 
 ### How can SaaS teams reduce seat contraction?
+
 Track seat utilization rates in product analytics. Identifying accounts with underutilized licenses allows customer success teams to re-engage users before annual renewal contraction occurs.

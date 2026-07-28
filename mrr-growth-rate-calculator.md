@@ -140,6 +140,7 @@ MRR Growth Rate tracks monthly recurring revenue trajectory while dissecting gro
 Having accurate, real-time insights into this metric helps SaaS founders, CFOs, and growth teams optimize capital allocation, protect operating runway, and achieve top-tier venture scalability.
 
 ## MRR Growth Rate Calculator Formula & Derivation
+
 The mathematical derivation for this financial metric is expressed as:
 
 $$\text{Net New MRR} = \text{New MRR} + \text{Expansion MRR} - \text{Contraction MRR} - \text{Churned MRR}$$ \n$$\text{MoM Growth Rate \%} = \frac{\text{Net New MRR}}{\text{Beginning MRR}} \times 100\%$$ \n$$\text{Net Revenue Retention (NRR) \%} = \frac{\text{Beginning MRR} + \text{Expansion} - \text{Contraction} - \text{Churn}}{\text{Beginning MRR}} \times 100\%$$
@@ -147,6 +148,7 @@ $$\text{Net New MRR} = \text{New MRR} + \text{Expansion MRR} - \text{Contraction
 Where all input values are evaluated over a standardized monthly or annual accounting period.
 
 ## MRR Growth Rate Calculator SaaS Benchmarks
+
 | Company Scale | MoM Growth Target | Annualized CAGR Target | NRR Benchmark Target |
 | --- | --- | --- | --- |
 | Early Seed Stage | 10% - 15% MoM | 200% - 400%+ | 100% - 105% |
@@ -154,6 +156,7 @@ Where all input values are evaluated over a standardized monthly or annual accou
 | Series B+ Stage | 3% - 6% MoM | 40% - 100% | 115% - 130%+ |
 
 ## Step-by-Step MRR Growth Rate Calculator Calculation Guide
+
 1. **Enter Core Financial Inputs:** Supply your monthly sales spend, user counts, ARPU, or recurring revenue figures.
 2. **Review Intermediate Outputs:** Examine calculated gross profit, churn, payback, or unit contribution scores.
 3. **Assess Benchmark Ratings:** Compare your results against SaaS industry standards to identify growth bottlenecks.
@@ -162,15 +165,20 @@ Where all input values are evaluated over a standardized monthly or annual accou
 ---
 
 ## MRR Growth Rate Calculator Frequently Asked Questions
+
 ### What is Net New MRR?
+
 Net New MRR represents the net change in monthly recurring revenue added during the month after accounting for new customer additions, upgrades, downgrades, and lost accounts.
 
 ### What is a good MoM MRR growth rate benchmark?
+
 Early-stage SaaS startups ($100k-$1M ARR) target 10%-15%+ MoM growth. Growth-stage startups ($1M-$10M ARR) target 5%-8% MoM growth.
 
 ### What is Net Revenue Retention (NRR)?
+
 NRR measures recurring revenue retained from existing customers over a period, including expansion upgrades minus churn and contraction.
 
 ### What is a top-tier NRR benchmark?
+
 Top-tier Enterprise SaaS companies achieve 110%-130%+ NRR, indicating that revenue grows over time even with zero new customer acquisition.
 

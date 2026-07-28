@@ -218,21 +218,28 @@ $$\text{Blower Airflow (CFM)} = \text{Calculated Tons} \times 400 \text{ CFM/ton
 ---
 
 ## AC Tonnage Calculator Frequently Asked Questions
+
 ### What is a ton of air conditioning?
+
 One ton of air conditioning equals 12,000 BTUs (British Thermal Units) of cooling capacity per hour. It is derived from the amount of heat required to melt one short ton (2,000 lbs) of ice in 24 hours.
 
 ### How many square feet does a 3-ton AC unit cool?
+
 A 3-ton central AC unit (36,000 BTUs) typically cools 1,500 to 1,800 square feet in warm climates, and up to 2,100 square feet in well-insulated homes in cooler climates.
 
 ### What happens if an AC unit is oversized?
+
 An oversized AC unit "short cycles" — turning on and off rapidly without running long enough to dehumidify the air. This results in clammy indoor air, high electric bills, uneven temperatures, and premature compressor failure.
 
 ### What happens if an AC unit is undersized?
+
 An undersized AC unit runs continuously during peak summer heat without reaching the set thermostat temperature, causing excessive power bills and component wear.
 
 ### What sizes do residential central AC units come in?
+
 Residential central air conditioners come in half-ton increments ranging from 1.5 tons (18,000 BTUs) up to 5.0 tons (60,000 BTUs). Homes needing over 5 tons require multiple AC units or zoning systems.
 
 ### How much airflow CFM is needed per ton of AC?
+
 Standard central air systems require approximately 400 CFM (Cubic Feet per Minute) of blower airflow per ton of cooling. A 3-ton system requires 1,200 CFM airflow.
 

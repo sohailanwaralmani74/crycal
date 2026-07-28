@@ -205,22 +205,28 @@ Saving for a down payment is one of the biggest challenges for homebuyers. This 
 
 
 ## Strategic Guidance for Down Payment Calculator
+
 Using this interactive calculation engine provides a clear, quantitative roadmap for your decisions. By eliminating mathematical uncertainty, you can optimize financial allocations, compare scenarios side-by-side, and make data-driven choices.
 
 ### Key Tactical Benefits of Down Payment Calculator
+
 - **Mathematical Certainty**: Eliminates guesswork by modeling multi-variable compounding and precise cost structures.
 - **Scenario Comparison**: Test multiple interest rates, payment timelines, and capital allocations in real-time.
 - **Privacy Assurance**: All data remains 100% confidential within your local browser memory, with zero remote server logging.
 - **Export & Audit Readiness**: Log calculations to local browser storage, export full histories to CSV/Excel, or share via link.
 
 ## Down Payment Calculator Frequently Asked Questions
+
 ### What is a down payment?
+
 A down payment is the amount of money you pay upfront when buying a home. It's typically a percentage of the total home price.
 
 ### How much down payment do I need?
+
 A 20% down payment is ideal to avoid PMI, but many programs allow as little as 3-5%. This calculator helps you find your exact amount.
 
 ### What is PMI and when do I pay it?
+
 Private Mortgage Insurance (PMI) is required when your down payment is less than 20%. It protects the lender if you default. You can request cancellation once you reach 20% equity.
 
 ---

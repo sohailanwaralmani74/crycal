@@ -198,21 +198,28 @@ $$\text{Total Metal Material Cost} = (\text{Total Lin Ft} \times \text{Price/Lin
 ---
 
 ## Metal Roofing Calculator Frequently Asked Questions
+
 ### How many metal panels do I need for my roof?
+
 Divide your total roof eave length in inches by panel coverage width (e.g. 16 inches). Multiply by number of roof sides (e.g. 2 for gable) and add 10% waste.
 
 ### What is the difference between 12-inch and 16-inch standing seam panels?
+
 16-inch panels cover more area per sheet requiring fewer total seams and lower overall labor costs. 12-inch panels provide higher wind uplift resistance and reduce oil-canning wave appearance on steep roofs.
 
 ### How many screws are needed per metal roofing panel?
+
 Standing seam metal roofs require clip fasteners spaced every 18 to 24 inches along seams (~80 screws per square). Exposed fastener corrugated panels require 80 to 100 neoprene-washer screws per square.
 
 ### How much does standing seam metal roofing cost per square foot?
+
 Standing seam metal panel materials cost between $3.50 and $5.50 per linear foot ($3.00 to $5.00 per sq ft). Total installed cost with contractor labor ranges from $9.00 to $15.00 per sq ft.
 
 ### What ridge cap trim is needed for a metal roof?
+
 Ridge cap trim covers the apex junction of opposing roof slopes. You need 1 linear foot of ridge cap trim per linear foot of top ridge line.
 
 ### Can metal roofing be installed over existing shingles?
+
 In many jurisdictions, lightweight metal roofing can be installed over 1 layer of existing asphalt shingles using 1x3 furring strips, saving tear-off disposal costs.
 

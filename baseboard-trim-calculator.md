@@ -201,21 +201,28 @@ The table below shows trim material requirements across standard room layouts:
 ---
 
 ## Baseboard Trim Calculator Frequently Asked Questions
+
 ### How do I calculate linear feet of baseboard trim needed for a room?
+
 Measure the room's perimeter (Length + Width) × 2 in feet, subtract the total width of all doorways and floor openings, and add 10% for corner miter cuts.
 
 ### How many 12-foot baseboard trim boards do I need for 120 linear feet?
+
 After deducting 12 ft of doorways from a 120 ft perimeter (108 net feet) and adding 10% miter waste (118.8 gross feet), you will need 10 boards of 12-foot length.
 
 ### Should I buy 8 ft, 12 ft, or 16 ft baseboard molding boards?
+
 Longer 12 ft or 16 ft boards reduce visible wall seam joints in large rooms, creating a cleaner finish. 8 ft boards are easier to transport in passenger vehicles.
 
 ### What is a standard waste factor for baseboard trim installation?
+
 A standard 10% waste factor covers 45-degree miter corner cuts, scarf joint overlaps, and defective end trimmings. Increase to 15% for rooms with many corners.
 
 ### How much does baseboard trim cost per linear foot?
+
 Pine or MDF baseboard molding costs $1.50 to $3.50 per linear foot. Premium solid hardwood or composite trim ranges from $4.00 to $8.00 per linear foot.
 
 ### How far above hard flooring should baseboards be installed?
+
 Baseboards installed over hardwood, laminate, or tile should be placed directly against the flooring (or elevated 3/8-inch above subfloor if carpeting will be laid later).
 

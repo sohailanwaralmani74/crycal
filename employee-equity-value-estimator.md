@@ -190,20 +190,27 @@ $$\text{Net Take-Home Cash} = G_{pre} - \text{Tax Liability}$$
 ---
 
 ## Employee Equity Value Estimator Frequently Asked Questions
+
 ### What is strike price in employee stock options?
+
 Strike price (or exercise price) is the fixed price per share at which an employee can purchase company stock, established by a 409A valuation at the time of grant.
 
 ### How is net pre-tax profit calculated for stock options?
+
 Pre-Tax Profit = Number of Shares × (Exit Share Price − Strike Price).
 
 ### What is the difference between ISOs and NSOs?
+
 Incentive Stock Options (ISOs) may qualify for favorable long-term capital gains tax treatment if held for required periods, whereas Non-Qualified Stock Options (NSOs) trigger ordinary income tax upon exercise.
 
 ### What is cashless exercise?
+
 In a cashless exercise during an acquisition or IPO, the exercise strike price is automatically withheld from your gross exit proceeds, requiring zero out-of-pocket cash from the employee.
 
 ### How does company dilution affect employee options?
+
 Future venture capital funding rounds dilute total company ownership percentage, but if the company valuation increases significantly, the dollar value per share still grows.
 
 ### Is my personal equity data private?
+
 Yes. All computations execute locally in your client web browser with zero server data storage.

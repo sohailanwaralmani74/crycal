@@ -159,6 +159,7 @@ This calculator quantifies the **monthly and cumulative opportunity cost** of gr
 ---
 
 ## Key Grandfathering Cost Calculator Mathematical Formulas
+
 ### 1. Monthly Unrealized Revenue (Foregone Expansion)
 
 $$ \text{Price Delta} = \text{New Price} - \text{Legacy Price} $$
@@ -201,20 +202,27 @@ $$ \text{Breakeven Churn Rate \%} = \frac{\text{New Price} - \text{Legacy Price}
 ---
 
 ## Grandfathering Cost Calculator Frequently Asked Questions
+
 ### What is grandfathering in SaaS pricing?
+
 Grandfathering allows existing customer accounts to keep their lower historical subscription rates when new, higher prices are launched for new signups.
 
 ### Why do SaaS founders grandfather legacy customers?
+
 Grandfathering rewards early adopters, preserves brand loyalty, avoids negative social media feedback, and prevents immediate customer cancellation spikes.
 
 ### What is the hidden financial cost of long-term grandfathering?
+
 Indefinite grandfathering creates a massive opportunity cost where legacy power accounts pay 50% to 70% below current market rates while consuming significant customer support resources.
 
 ### What is a sunsetting grace period?
+
 A sunsetting grace period guarantees legacy rates for a fixed window (e.g. 12 to 24 months) before automatically transitioning accounts to standard current rates.
 
 ### How is Breakeven Churn Rate calculated for grandfathered price migration?
+
 Breakeven Churn % = (New Price - Legacy Price) ÷ New Price. If expected churn is lower than this threshold, migrating legacy users increases net MRR.
 
 ### How should SaaS teams transition grandfathered customers?
+
 Provide 60-90 days advance notice, offer a temporary 15% legacy loyalty discount off the new price, or encourage upgrading to annual billing at current rates.

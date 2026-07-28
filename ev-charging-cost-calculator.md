@@ -224,17 +224,21 @@ Key benefits of calculating EV charging costs:
 ---
 
 ## EV Charging Cost Calculator Mathematical Formulas
+
 ### 1. Battery Energy Added ($E_{\text{battery}}$)
+
 \[
 E_{\text{battery}} = C_{\text{battery}} \times \left( \frac{\text{SOC}_{\text{target}} - \text{SOC}_{\text{start}}}{100} \right)
 \]
 
 ### 2. Grid Energy Consumption ($E_{\text{grid}}$)
+
 \[
 E_{\text{grid}} = \frac{E_{\text{battery}}}{\eta / 100}
 \]
 
 ### 3. Monthly EV Electricity Cost ($\text{Bill}_{\text{monthly}}$)
+
 \[
 \text{Bill}_{\text{monthly}} = \left( \frac{\text{Miles}_{\text{monthly}}}{\text{Efficiency}_{\text{mi/kWh}}} \right) \times \left( \frac{1}{\eta / 100} \right) \times R_{\text{kWh}}
 \]
@@ -253,6 +257,7 @@ E_{\text{grid}} = \frac{E_{\text{battery}}}{\eta / 100}
 ---
 
 ## Step-by-Step EV Charging Cost Calculator Usage Guide
+
 1. **Locate Battery Specifications**: Look up your vehicle's usable battery size in kWh (e.g. 75 kWh).
 2. **Set State of Charge (SOC)**: Enter typical daily starting level (e.g., 20%) and stopping level (e.g., 80%).
 3. **Check Electric Rate**: Find your residential utility rate per kWh from your monthly electric bill.
@@ -262,23 +267,31 @@ E_{\text{grid}} = \frac{E_{\text{battery}}}{\eta / 100}
 ---
 
 ## EV Charging Cost Calculator Frequently Asked Questions
+
 ### How much does it cost to charge an electric car at home?
+
 Charging an EV at home typically costs between $5 and $14 per full charge, depending on your battery size (50–100 kWh) and residential electricity rate ($0.12 to $0.28 per kWh).
 
 ### What is the formula for EV charging cost?
+
 Session Cost = (Battery Capacity in kWh × (Target SOC% - Start SOC%) / 100) ÷ (Efficiency / 100) × Residential Electricity Rate ($/kWh).
 
 ### Why does grid energy drawn exceed battery energy added?
+
 Charging involves thermal losses, AC-to-DC conversion losses, and battery conditioning power. Typical Level 2 home chargers operate at 88% to 92% efficiency.
 
 ### How much will an EV increase my monthly electric bill?
+
 Driving 1,000 miles per month in an efficient EV (3.5 mi/kWh) adds approximately 315 kWh to your electric bill, which costs roughly $45–$55 per month at average US utility rates.
 
 ### Is home EV charging cheaper than gasoline?
+
 Yes, home EV charging usually costs $0.04 to $0.06 per mile compared to $0.12 to $0.16 per mile for a 28 MPG gasoline vehicle.
 
 ### How does charging to 80% vs 100% impact battery health and cost?
+
 Charging to 80% daily preserves battery longevity and avoids the slower, less efficient top-off phase between 80% and 100%.
 
 ### Does the EV charging cost calculator store my data?
+
 No. All calculations are executed 100% locally in your browser session for maximum privacy.

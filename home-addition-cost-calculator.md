@@ -220,21 +220,28 @@ Cost breakdown for adding a **400 sq ft room addition (20 ft × 20 ft)**:
 ---
 
 ## Home Addition Cost Calculator Frequently Asked Questions
+
 ### How much does a 400 sq ft room addition cost?
+
 A standard 400 sq ft room addition typically costs between $60,000 and $110,000 ($150 to $275 per sq ft), depending on foundation type, bathroom inclusion, and finish quality.
 
 ### Is it cheaper to build out or build up a second story?
+
 Building out (ground-level addition) is generally 15% to 25% cheaper than building up a second story. Building up requires removing the existing roof, reinforcing main floor ceiling joists, and supporting lower load-bearing walls.
 
 ### What is the average cost per square foot for a home addition?
+
 Nationally, ground-level home additions cost $150 to $300 per square foot. High-end additions featuring luxury bathrooms or kitchens can reach $350 to $450 per square foot.
 
 ### Which foundation type is best for a home addition?
+
 Poured concrete slabs are the most economical. Crawlspaces match raised-floor homes and simplify plumbing access. Full basements maximize square footage but add significant excavation costs.
 
 ### Do home additions require architectural plans and permits?
+
 Yes. Building departments require stamped architectural drawings, structural engineering load calculations, and building, electrical, and plumbing permits before construction can commence.
 
 ### How much value does a room addition add to a home?
+
 A well-designed room addition generally recovers 60% to 80% of its total construction cost in added home appraisal value, while significantly enhancing everyday functional living space.
 

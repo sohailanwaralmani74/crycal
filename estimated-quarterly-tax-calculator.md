@@ -135,9 +135,11 @@ Unlike traditional W-2 employees whose employers automatically deduct federal an
 Failing to make required quarterly tax payments can lead to substantial underpayment penalties and unexpected tax bills at tax time. Self-employed taxes consist of two primary components: self-employment tax (15.3% for Social Security and Medicare) and federal/state income tax on net taxable business profit. This calculator projects your total annual tax liability, calculates half-SE tax deductions, and divides your obligation into four equal quarterly voucher payments securely and privately.
 
 ## Estimated Quarterly Tax Calculator Mathematical Formulas & Mechanics
+
 The quarterly estimated tax calculation computes self-employment tax, adjusted taxable income, federal and state income tax liabilities, and quarterly voucher installments.
 
 ### 1. Net Schedule C Earnings & Self-Employment Tax
+
 Given projected net 1099 business profit ($N_{biz}$), net taxable earnings subject to SE tax ($E_{se}$) and SE tax ($T_{se}$) at rate $15.3\%$ are:
 
 $$E_{se} = N_{biz} \times 0.9235$$
@@ -149,6 +151,7 @@ Half of SE tax ($D_{se} = 0.5 \times T_{se}$) is deducted from AGI before applyi
 $$I_{taxable} = \max\left(0, N_{biz} - D_{se} - D_{std}\right)$$
 
 ### 2. Income Tax Liability & Quarterly Voucher Installments
+
 Federal income tax ($T_{fed}$) and state income tax ($T_{state} = I_{taxable} \times \frac{r_{state}}{100}$) are calculated, yielding total annual obligation ($T_{total}$):
 
 $$T_{total} = T_{se} + T_{fed} + T_{state}$$
@@ -158,6 +161,7 @@ $$\text{Quarterly Payment Voucher } V_{quarterly} = \frac{T_{total}}{4}$$
 Where $N_{biz}$ is net business profit, $T_{se}$ is self-employment tax, $T_{total}$ is total tax liability, and $V_{quarterly}$ is quarterly payment amount due on IRS Form 1040-ES.
 
 ## Estimated Quarterly Tax Calculator Benchmarks & Comparison Table
+
 | Net 1099 Business Profit | Tax Filing Status | SE Tax (15.3%) | Federal & State Income Tax | Total Annual Tax Liability | Required Quarterly Voucher (Form 1040-ES) |
 |---|---|---|---|---|---|
 | **$40,000** | Single | $5,651.82 | $2,120.00 | $7,771.82 | **$1,942.96** |
@@ -167,6 +171,7 @@ Where $N_{biz}$ is net business profit, $T_{se}$ is self-employment tax, $T_{tot
 | **$150,000** | Single | $21,194.33 | $23,560.00 | $44,754.33 | **$11,188.58** |
 
 ## How to Use the Estimated Quarterly Tax Calculator Step-by-Step
+
 1. **Enter Net 1099 Business Income**: Input projected gross 1099 revenue minus eligible business operational expenses.
 2. **Select Tax Filing Status**: Choose Single or Married Filing Jointly to set standard deduction limits.
 3. **Input Estimated State Tax Rate**: Enter applicable state income tax rate percentage (0% for zero-tax states).
@@ -174,21 +179,28 @@ Where $N_{biz}$ is net business profit, $T_{se}$ is self-employment tax, $T_{tot
 5. **Set Reminders for Quarterly Deadlines**: Divide total tax liability by 4 and submit quarterly voucher payments on April 15, June 15, Sept 15, and Jan 15.
 
 ## Estimated Quarterly Tax Calculator Frequently Asked Questions
+
 ### Who is required to pay quarterly estimated taxes?
+
 Freelancers, 1099 contractors, small business owners, and investors who expect to owe $1,000 or more in federal income tax must pay quarterly estimated taxes to the IRS.
 
 ### What are the official IRS quarterly estimated tax payment deadlines?
+
 Standard IRS quarterly deadlines are April 15 (Q1), June 15 (Q2), September 15 (Q3), and January 15 of the following year (Q4).
 
 ### How is self-employment tax (SE Tax) calculated?
+
 Self-employment tax equals 15.3% of 92.35% of net business earnings, covering Social Security (12.4% up to cap) and Medicare (2.9%).
 
 ### What is the IRS safe harbor rule to avoid underpayment penalties?
+
 Under safe harbor rules, you avoid penalties if you pay 90% of current-year tax liability or 100% of prior-year tax liability (110% if AGI exceeds $150,000).
 
 ### Can self-employed taxpayers deduct half of their self-employment tax?
+
 Yes, the IRS allows self-employed individuals to deduct 50% of total self-employment tax paid as an above-the-line adjustment to income on Schedule 1 (Form 1040).
 
 ### What happens if a quarterly tax payment deadline is missed?
+
 Missing an estimated tax deadline triggers IRS underpayment penalties and interest charges computed from the payment due date until paid.
 

@@ -149,6 +149,7 @@ Evaluating CAC Payback Period across individual acquisition channels enables mar
 Having accurate, real-time insights into this metric helps SaaS founders, CFOs, and growth teams optimize capital allocation, protect operating runway, and achieve top-tier venture scalability.
 
 ## Channel Payback Period Calculator Formula & Derivation
+
 The mathematical derivation for this financial metric is expressed as:
 
 $$\text{Monthly Gross Profit} = \text{ARPU} \times \text{Gross Margin \%}$$ \n$$\text{Channel Payback Period (Months)} = \frac{\text{Channel CAC}}{\text{Monthly Gross Profit}}$$
@@ -156,6 +157,7 @@ $$\text{Monthly Gross Profit} = \text{ARPU} \times \text{Gross Margin \%}$$ \n$$
 Where all input values are evaluated over a standardized monthly or annual accounting period.
 
 ## Channel Payback Period Calculator SaaS Benchmarks
+
 | Acquisition Channel | Typical CAC Range | Avg Payback Period | Scalability |
 | --- | --- | --- | --- |
 | SEO / Inbound Content | $300 - $800 | 4 - 8 Months | High Long-Term Compounding |
@@ -164,6 +166,7 @@ Where all input values are evaluated over a standardized monthly or annual accou
 | Outbound Sales AE | $2,500 - $5,000+ | 14 - 24 Months | High Enterprise ACV |
 
 ## Step-by-Step Channel Payback Period Calculator Calculation Guide
+
 1. **Enter Core Financial Inputs:** Supply your monthly sales spend, user counts, ARPU, or recurring revenue figures.
 2. **Review Intermediate Outputs:** Examine calculated gross profit, churn, payback, or unit contribution scores.
 3. **Assess Benchmark Ratings:** Compare your results against SaaS industry standards to identify growth bottlenecks.
@@ -172,15 +175,20 @@ Where all input values are evaluated over a standardized monthly or annual accou
 ---
 
 ## Channel Payback Period Calculator Frequently Asked Questions
+
 ### Why compare payback periods by channel?
+
 Different marketing channels carry wildly different CAC and payback profiles. Reallocating budget to fast-payback channels accelerates overall company cash flow.
 
 ### Which channel typically has the shortest CAC payback?
+
 SEO Inbound and Product-Led Growth (PLG) usually yield the shortest payback periods (< 6-9 months) due to low variable acquisition expense.
 
 ### Why do LinkedIn Ads often have longer payback periods?
+
 LinkedIn Ads offer precise B2B audience targeting but carry high CPMs, resulting in higher CAC and longer payback periods.
 
 ### How can teams optimize slow-payback channels?
+
 Improve slow channels by narrowing ad targeting, increasing landing page conversion rates, and promoting annual upfront billing.
 

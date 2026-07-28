@@ -189,18 +189,24 @@ $$\text{Total Material Cost} = \text{Block Cost} + (\text{Mortar Bags} \times 12
 ---
 
 ## Concrete Block CMU Calculator Frequently Asked Questions
+
 ### How many 8x8x16 CMU blocks are in a square foot?
+
 There are 1.125 standard 8x8x16 CMU blocks per square foot of wall area (accounting for a standard 3/8-inch mortar joint).
 
 ### How many 8x8x16 CMU blocks do I need for a 100 sq ft wall?
+
 You need 113 blocks for a 100 sq ft wall without waste, or 124 blocks assuming a standard 10% waste margin.
 
 ### How many mortar bags do I need per 100 CMU blocks?
+
 You need approximately 3.3 to 3.5 bags of 80 lb mortar mix per 100 standard CMU blocks (roughly 1 bag per 30 blocks).
 
 ### What is the difference between nominal and actual CMU block dimensions?
+
 A standard 8x8x16 block actually measures 7-5/8" x 7-5/8" x 15-5/8". Adding 3/8" mortar joints creates the nominal 8" x 8" x 16" dimension.
 
 ### Should I fill CMU block cores with concrete or grout?
+
 Structural retaining walls or foundation walls require core-filling with grout and vertical rebar reinforcement every 16 or 32 inches.
 

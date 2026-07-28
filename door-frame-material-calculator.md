@@ -187,17 +187,20 @@ Framers also require exact **Rough Opening (RO)** dimensions before building wal
 ## Door Framing Formulas
 
 ### 1. Wall Jamb Depth ($D_{\text{jamb}}$):
+
 $$D_{\text{jamb}} = W_{\text{stud}} + T_{\text{sheathing\_left}} + T_{\text{sheathing\_right}}$$
 
 - **2x4 Wall Stud (3.5") + 1.0" Drywall**: $4.50\text{ in} \rightarrow \text{Standard } 4\text{-}9/16\text{" (4.5625") Jamb}$
 - **2x6 Wall Stud (5.5") + 1.0" Drywall**: $6.50\text{ in} \rightarrow \text{Standard } 6\text{-}9/16\text{" (6.5625") Jamb}$
 
 ### 2. Framing Rough Opening (RO):
+
 $$\text{RO}_{\text{width}} = W_{\text{door}} + 2.0\text{ inches}$$
 
 $$\text{RO}_{\text{height}} = H_{\text{door}} + 2.5\text{ inches}$$
 
 ### 3. Casing Trim Linear Feet (2 Sides):
+
 $$\text{Trim per Door (ft)} = 2 \times \left[ \frac{(2 \times (H_{\text{door}} + W_{\text{casing}})) + (W_{\text{door}} + (2 \times W_{\text{casing}}))}{12} \right]$$
 
 $$\text{Total Casing Linear Feet} = \text{Trim per Door} \times N_{\text{doors}} \times 1.10\ \text{(Waste Factor)}$$
@@ -227,21 +230,28 @@ $$\text{Total Casing Linear Feet} = \text{Trim per Door} \times N_{\text{doors}}
 ---
 
 ## Door Frame Material Calculator Frequently Asked Questions
+
 ### What is the standard jamb width for a 2x4 wall?
+
 The standard pre-hung door jamb width for a 2x4 wall (3.5" stud + two 1/2" drywall sheets) is **4-9/16 inches (4.5625 in)**.
 
 ### What is the standard jamb width for a 2x6 wall?
+
 The standard pre-hung door jamb width for a 2x6 wall (5.5" stud + two 1/2" drywall sheets or exterior sheathing) is **6-9/16 inches (6.5625 in)**.
 
 ### How do I calculate the rough opening (RO) for a pre-hung door?
+
 To calculate the rough opening width, add **2 inches** to the door slab width. To calculate rough opening height, add **2-1/2 inches** to the door slab height (e.g., a 36" x 80" door requires a 38" x 82-1/2" rough opening).
 
 ### What is the difference between a pre-hung door and a slab door?
+
 A **slab door** is simply the un-bored door panel without hinges or frame. A **pre-hung door** comes fully assembled with the door slab pre-hinged inside a matching wood jamb frame, threshold, and latch bore.
 
 ### Why is a 36-inch door required for exterior entryways?
+
 International Residential Code (IRC) requires at least one exterior egress door in every home to have a clear width of at least 32 inches, which requires a **36-inch (3-0) nominal door slab**. 36-inch doors also comply with ADA accessibility.
 
 ### How many linear feet of casing trim are needed for one door?
+
 A standard 30" x 80" interior door requires approximately **15 linear feet per side**, or **30 to 33 linear feet** of casing trim to frame both sides of the door opening (including 10% miter waste).
 

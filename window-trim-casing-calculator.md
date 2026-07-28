@@ -164,18 +164,23 @@ Buying trim based on simple perimeter dimensions ($\text{Perimeter} = 2W + 2H$) 
 ## Window Trim Geometry Formulas
 
 ### 1. Top Casing Header Piece:
+
 $$L_{\text{header}} = W_{\text{window}} + (2 \times W_{\text{casing}})$$
 
 ### 2. Side Casing Legs (Left & Right):
+
 $$L_{\text{leg}} = H_{\text{window}} + W_{\text{casing}}$$
 
 ### 3. Window Stool Ledge (Horizontal Sill):
+
 $$L_{\text{stool}} = W_{\text{window}} + (2 \times W_{\text{casing}}) + (2 \times O_{\text{horn}})$$
 
 ### 4. Window Apron (Trim Below Stool):
+
 $$L_{\text{apron}} = W_{\text{window}} + (2 \times W_{\text{casing}})$$
 
 ### 5. Total Net Linear Feet Per Window:
+
 $$\text{Linear Feet}_{\text{net}} = \frac{L_{\text{header}} + (2 \times L_{\text{leg}}) + L_{\text{stool}} + L_{\text{apron}}}{12}$$
 
 $$\text{Total Linear Feet (with Waste)} = \text{Linear Feet}_{\text{net}} \times N_{\text{windows}} \times \left(1 + \frac{\text{Waste \%}}{100}\right)$$
@@ -209,21 +214,28 @@ Where:
 ---
 
 ## Window Trim Casing Calculator Frequently Asked Questions
+
 ### What is the difference between window casing, stool, and apron?
+
 **Window casing** is the decorative trim framing the top and sides. The **window stool** is the flat horizontal shelf at the bottom sill. The **apron** is the decorative trim board mounted flat against the wall directly underneath the stool.
 
 ### How do I calculate 45-degree miter cuts for window casing?
+
 Because 45-degree miter cuts flare outwards, the outside edge of top and side casing boards is longer than the inside window opening by exactly the width of the trim profile on each end ($+2 \times W_{\text{casing}}$).
 
 ### What is a window stool horn?
+
 A window stool horn is the notched side extension of the horizontal stool board that projects past the side casing on the left and right sides (typically extending 2 to 3 inches beyond the casing).
 
 ### How much extra trim should I buy for miter waste?
+
 Add a minimum **10% to 15% waste allowance** to account for miter cut ends, blade kerf, knots, and defect trimming on stock moulding sticks.
 
 ### Is picture-frame window casing cheaper than traditional stool and apron trim?
+
 Yes. Picture-frame casing uses 45-degree mitered casing trim on all 4 sides (no stool or apron), reducing total material cost and installation labor time.
 
 ### What size stock moulding boards should I purchase?
+
 16-foot moulding boards provide superior cut yields with minimal scrap waste compared to 8-foot boards, allowing you to cut complete side legs and headers from a single continuous stick.
 

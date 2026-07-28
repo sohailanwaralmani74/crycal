@@ -207,9 +207,11 @@ Using this **Fuel Savings MPG Upgrade Calculator**, you can calculate the exact 
 ## MPG Upgrade Formulas
 
 ### 1. Annual Gallons Saved
+
 $$\text{Gallons Saved} = \text{Annual Miles} \times \left( \frac{1}{\text{MPG}_{\text{Current}}} - \frac{1}{\text{MPG}_{\text{New}}} \right)$$
 
 ### 2. Annual Dollar Savings
+
 $$\text{Annual Savings} = \text{Gallons Saved} \times \text{Gas Price}$$
 
 ---
@@ -227,38 +229,51 @@ $$\text{Annual Savings} = \text{Gallons Saved} \times \text{Gas Price}$$
 ---
 
 ## Step-by-Step Fuel Savings Mpg Upgrade Calculator Guide
+
 ### Step 1: Input Annual Driving Miles
+
 Enter your expected total driving distance per year.
 
 ### Step 2: Input Current vs Upgraded MPG
+
 Enter your current car's combined MPG rating and target new car's MPG rating.
 
 ### Step 3: Enter Gas Price
+
 Input current local price per gallon of gasoline.
 
 ### Step 4: Examine Savings Payback
+
 Review annual dollar savings, gallons of fuel reduced, and 5-year cumulative return.
 
 ---
 
 ## Fuel Savings Mpg Upgrade Calculator Frequently Asked Questions
+
 ### Why is MPG savings math non-linear?
+
 Fuel savings depend on gallons per mile (1/MPG). Upgrading from 10 to 20 MPG cuts fuel use by 50 gallons per 1,000 miles, whereas upgrading from 30 to 40 MPG only saves 8.3 gallons.
 
 ### How much money does upgrading from 20 MPG to 35 MPG save?
+
 Driving 14,000 miles per year at $3.60/gal, upgrading from 20 MPG to 35 MPG saves $1,080 per year, or $5,400 over 5 years.
 
 ### Is it financially smart to trade in a paid-off car just for better MPG?
+
 Usually no, if taking on a large new car loan payment. However, if your current vehicle requires heavy repairs or high insurance, the combined savings make upgrading attractive.
 
 ### What is the formula for annual fuel savings?
+
 Annual Savings = Annual Miles × Price Per Gallon × [(1 ÷ Current MPG) - (1 ÷ New MPG)].
 
 ### How many gallons of gasoline are saved annually?
+
 Gallons Saved = Annual Miles × [(1 ÷ Current MPG) - (1 ÷ New MPG)].
 
 ### Does upgrading to a hybrid save money for highway commuters?
+
 Standard hybrids provide massive savings in city stop-and-go driving, but still provide 15% to 30% fuel savings on long highway commutes.
 
 ### Is the Fuel Savings Mpg Upgrade Calculator private?
+
 Yes, all data processing takes place strictly inside your browser.

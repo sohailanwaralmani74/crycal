@@ -176,7 +176,9 @@ Because CMU block cores vary significantly by block width (6", 8", 10", 12") and
 ---
 
 ## Masonry Grout Calculator Mathematical Formulas & Mechanics
+
 ### 1. Core Fill Volume per Block ($V_{	ext{core\_unit}}$)
+
 Empirical grout volume per block based on nominal CMU dimensions:
 - 6" x 8" x 16" Block: $V_{	ext{core\_unit}} = 0.20	ext{ cu ft}$
 - 8" x 8" x 16" Block: $V_{	ext{core\_unit}} = 0.28	ext{ cu ft}$
@@ -184,21 +186,27 @@ Empirical grout volume per block based on nominal CMU dimensions:
 - 12" x 8" x 16" Block: $V_{	ext{core\_unit}} = 0.44	ext{ cu ft}$
 
 ### 2. Net Required Grout Volume ($V_{	ext{cuft}}$)
+
 For total blocks $N_{	ext{cmu}}$, fill fraction $F_{	ext{fill}}$ ($1.0$ for full, $0.5$ for half, $0.32$ for 3rd core):
 
-$$V_{	ext{cuft}} = N_{	ext{cmu}} 	imes V_{	ext{core\_unit}} 	imes F_{	ext{fill}} 	imes \left(1 + rac{	ext{Waste } \%}{100}
+$$V_{	ext{cuft}} = N_{	ext{cmu}} 	imes V_{	ext{core\_unit}} 	imes F_{	ext{fill}} 	imes \left(1 + 
+rac{	ext{Waste } \%}{100}
 ight)$$
 
-$$V_{	ext{cuyd}} = rac{V_{	ext{cuft}}}{27}$$
+$$V_{	ext{cuyd}} = 
+rac{V_{	ext{cuft}}}{27}$$
 
 ### 3. Bagged Grout Quantity ($N_{	ext{bags}}$)
+
 Standard 80 lb pre-mixed grout bag yields $0.67	ext{ cu ft}$:
 
-$$N_{	ext{bags}} = \left\lceil rac{V_{	ext{cuft}}}{0.67} 
+$$N_{	ext{bags}} = \left\lceil 
+rac{V_{	ext{cuft}}}{0.67} 
 ight
 ceil$$
 
 ### 4. Cost Comparison ($C_{	ext{bagged}}, C_{	ext{ready\_mix}}$)
+
 $$C_{	ext{bagged}} = N_{	ext{bags}} 	imes P_{	ext{bag}}$$
 
 $$C_{	ext{ready\_mix}} = V_{	ext{cuyd}} 	imes P_{	ext{yard}}$$
@@ -206,6 +214,7 @@ $$C_{	ext{ready\_mix}} = V_{	ext{cuyd}} 	imes P_{	ext{yard}}$$
 ---
 
 ## Masonry Grout Calculator Benchmarks & Comparison Table
+
 | CMU Block Size | Core Fill Density | Grout Volume per 100 Blocks | 80lb Bags per 100 Blocks | Bulk Yards per 500 Blocks | Recommended Grout Type |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **6" x 8" x 16"** | Full (100% Cores) | 20.0 Cu Ft (0.74 Cu Yd) | 30 Bags | 3.70 Cu Yd | Fine Masonry Grout |
@@ -217,6 +226,7 @@ $$C_{	ext{ready\_mix}} = V_{	ext{cuyd}} 	imes P_{	ext{yard}}$$
 ---
 
 ## How to Use the Masonry Grout Calculator Step-by-Step
+
 1. **Calculate Block Quantity:** Determine total CMU blocks in wall panels requiring grout reinforcement.
 2. **Select Block Profile & Fill Scheme:** Choose block size (e.g. 8x8x16) and specify full grout fill or partial fill (rebar cells only).
 3. **Include Waste Allowance:** Set a 10% waste factor for absorption into porous block web walls and mortar keyways.
@@ -226,23 +236,31 @@ $$C_{	ext{ready\_mix}} = V_{	ext{cuyd}} 	imes P_{	ext{yard}}$$
 ---
 
 ## Masonry Grout Calculator Frequently Asked Questions
+
 ### How much grout is needed for an 8x8x16 CMU block?
+
 A standard 8x8x16 hollow CMU block requires approximately 0.28 to 0.30 cubic feet of grout to completely fill both interior cores.
 
 ### What is the difference between fine grout and coarse grout?
+
 Fine grout contains Portland cement, sand, and water for grout spaces smaller than 2 inches. Coarse grout contains added 3/8-inch pea gravel aggregate for grout spaces 2 inches or larger.
 
 ### How many 80lb bags of grout equal one cubic yard?
+
 One 80lb bag of pre-mixed masonry grout yields approximately 0.67 cubic feet. Therefore, 41 bags equal one cubic yard of wet grout (27 / 0.67 = 40.3 bags).
 
 ### Do all CMU cores need to be grouted?
+
 No. Non-bearing or interior partitions often grout only rebar vertical cells (every 32" or 48" on center) and bond beams, while retaining walls require 100% full grout fill.
 
 ### When should I order bulk ready-mix grout instead of 80lb bags?
+
 If your grout requirement exceeds 1.0 to 1.5 cubic yards (40 to 60 bags), ordering a bulk ready-mix grout truck with a high-slump masonry grout pump saves significant labor.
 
 ### What slump should masonry grout have for pouring?
+
 Masonry grout must have a high slump of 8 to 11 inches to flow freely around dense rebar steel and completely fill hollow block cores without honeycomb voids.
 
 ### How much waste allowance should be added for CMU grouting?
+
 Include a 10% waste factor to account for grout absorption into porous concrete blocks, head joint seepage, and pump hopper residue.

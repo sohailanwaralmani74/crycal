@@ -209,22 +209,28 @@ Consolidating debt can simplify your finances and save you money. This debt cons
 
 
 ## Strategic Guidance for Debt Consolidation Calculator
+
 Using this interactive calculation engine provides a clear, quantitative roadmap for your decisions. By eliminating mathematical uncertainty, you can optimize financial allocations, compare scenarios side-by-side, and make data-driven choices.
 
 ### Key Tactical Benefits of Debt Consolidation Calculator
+
 - **Mathematical Certainty**: Eliminates guesswork by modeling multi-variable compounding and precise cost structures.
 - **Scenario Comparison**: Test multiple interest rates, payment timelines, and capital allocations in real-time.
 - **Privacy Assurance**: All data remains 100% confidential within your local browser memory, with zero remote server logging.
 - **Export & Audit Readiness**: Log calculations to local browser storage, export full histories to CSV/Excel, or share via link.
 
 ## Debt Consolidation Calculator Frequently Asked Questions
+
 ### What is debt consolidation?
+
 Debt consolidation combines multiple debts into a single loan, ideally with a lower interest rate, making it easier to manage and potentially saving you money.
 
 ### How much can I save by consolidating?
+
 Savings depend on the new interest rate and loan term. This calculator shows you the exact difference.
 
 ### What is the difference between current and new payoff time?
+
 Current payoff time is based on your current payment. New payoff time is based on the consolidation loan term.
 
 ---

@@ -199,16 +199,21 @@ This **Solo 401(k) calculator** is designed for:
 ---
 
 ## Solo 401K Contribution Calculator Frequently Asked Questions
+
 ### What is a Solo 401(k)?
+
 A Solo 401(k) is a retirement plan designed for self-employed individuals with no employees (other than a spouse), allowing contributions in both the "employee" and "employer" roles for higher total contribution limits.
 
 ### How much can I contribute to a Solo 401(k)?
+
 You can contribute as an employee (elective deferral, up to the annual limit plus catch-up if eligible) and as an employer (a percentage of net self-employment income), subject to an overall combined dollar limit.
 
 ### What is the SECURE 2.0 enhanced catch-up contribution?
+
 Starting in 2025, employees ages 60 to 63 may be eligible for a higher "super" catch-up contribution limit than the standard age-50 catch-up, under provisions of the SECURE 2.0 Act.
 
 ### Can my spouse also contribute to my Solo 401(k)?
+
 Yes, if your spouse works in the business and receives compensation, they can also make employee and employer contributions to the same Solo 401(k) plan, subject to their own limits.
 
 <p class="tool-disclaimer">IRS contribution limits are adjusted periodically for inflation and are subject to change. Please verify current limits before relying on these results for tax filing purposes.</p>

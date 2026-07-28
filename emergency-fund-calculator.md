@@ -241,16 +241,21 @@ An emergency fund is the foundation of financial security. This emergency fund c
 ---
 
 ## Emergency Fund Calculator Frequently Asked Questions
+
 ### How much should I have in my emergency fund?
+
 Financial experts typically recommend 3-6 months of essential expenses. This calculator helps you find your specific target based on your actual monthly expenses.
 
 ### What counts as an emergency expense?
+
 Emergency expenses include job loss, medical emergencies, urgent home repairs, car repairs, and unexpected essential expenses that you can't cover with your regular income.
 
 ### What is a good emergency fund target?
+
 A good emergency fund target depends on your situation. Single-income households or freelancers may need 6-9 months. Dual-income households with stable jobs may need 3-4 months.
 
 ### Should I include debt payments in my emergency fund calculation?
+
 Yes — include minimum debt payments as part of your essential expenses. This ensures you can keep paying your debts even during a financial emergency.
 
 ---

@@ -203,9 +203,11 @@ Using this **MPG Calculator**, you can accurately track your real-world fuel eco
 ## Core Fuel Economy Formulas
 
 ### 1. Actual Miles Per Gallon (MPG)
+
 $$\text{MPG} = \frac{\text{Ending Odometer} - \text{Starting Odometer}}{\text{Gallons Pumped}}$$
 
 ### 2. Fuel Expense Per 100 Miles
+
 $$\text{Cost Per 100 Miles} = \left( \frac{100}{\text{MPG}} \right) \times \text{Gas Price}$$
 
 ---
@@ -222,38 +224,51 @@ $$\text{Cost Per 100 Miles} = \left( \frac{100}{\text{MPG}} \right) \times \text
 ---
 
 ## Step-by-Step MPG Calculator Guide
+
 ### Step 1: Record Odometer at Fill-Up #1
+
 Fill your gas tank until the pump automatically clicks off. Record your exact odometer reading.
 
 ### Step 2: Drive Until Next Refuel
+
 Drive as you normally would for several days or weeks until your tank is low.
 
 ### Step 3: Record Odometer & Gallons at Fill-Up #2
+
 Fill your tank completely again. Record the new odometer reading, total gallons pumped, and price per gallon from your receipt.
 
 ### Step 4: Calculate Exact Fuel Economy
+
 Input these numbers into the calculator to get your real MPG and cost per mile.
 
 ---
 
 ## MPG Calculator Frequently Asked Questions
+
 ### How do you calculate actual MPG manually?
+
 Divide the total miles driven between fill-ups by the number of gallons needed to refill the tank: MPG = Miles Driven ÷ Gallons Pumped.
 
 ### Why is manual MPG calculation better than dashboard computer estimates?
+
 Dashboard fuel economy gauges use mathematical engine algorithms that often overestimate actual MPG by 2% to 5%. Fill-up calculation measures actual gallons consumed.
 
 ### What is a good MPG rating for a vehicle?
+
 25 to 30 MPG is solid for standard gasoline sedans/crossovers. Hybrids achieve 45 to 55 MPG, whereas trucks and performance SUVs average 15 to 20 MPG.
 
 ### Why does my MPG change between fill-ups?
+
 MPG fluctuates due to traffic congestion, ratio of city vs highway driving, aggressive braking/acceleration, vehicle payload weight, and tire pressure.
 
 ### How much does cold weather decrease gas mileage?
+
 Cold weather decreases fuel economy by 10% to 20% due to increased engine friction, fuel winter blends, heating fan usage, and longer engine warmup times.
 
 ### What is L/100km conversion for MPG?
+
 To convert US MPG to Liters per 100 Kilometers (L/100km): divide 235.215 by your US MPG rating (e.g., 25 MPG = 9.4 L/100km).
 
 ### Is the MPG Calculator private?
+
 Yes, all computations execute client-side in your browser.

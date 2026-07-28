@@ -219,18 +219,22 @@ Key degradation factors:
 ---
 
 ## EV Battery Degradation Calculator Mathematical Formulas
+
 ### 1. Total Annual Degradation Rate ($R_{\text{annual}}$)
+
 Initial year-1 degradation involves a slight initial capacity settling (~2.5%), followed by steady annual loss:
 \[
 R_{\text{annual}} = R_{\text{cal}} + \left( \frac{\text{Miles}_{\text{annual}}}{100,000} \times R_{\text{cycle}} \right) \times M_{\text{climate}} \times M_{\text{fastcharge}} \times M_{\text{chem}}
 \]
 
 ### 2. Retained State of Health ($\text{SOH}_{\%}$)
+
 \[
 \text{SOH}_{\%} = \max\left(50\%, \; 100\% - 2.5\% - [ (t_{\text{years}} - 1) \times R_{\text{annual}} ] \right)
 \]
 
 ### 3. Remaining Capacity & Max Range
+
 \[
 C_{\text{remaining}} = C_{\text{original}} \times \left(\frac{\text{SOH}_{\%}}{100}\right)
 \]
@@ -253,6 +257,7 @@ C_{\text{remaining}} = C_{\text{original}} \times \left(\frac{\text{SOH}_{\%}}{1
 ---
 
 ## Step-by-Step EV Battery Degradation Calculator Usage Guide
+
 1. **Enter Original Factory Specs**: Input usable kWh capacity (e.g. 77 kWh) and original EPA range (e.g. 300 miles).
 2. **Set Vehicle Age & Miles**: Provide vehicle age in years and average miles driven per year.
 3. **Select Fast Charging Frequency**: Choose how often DC fast charging (100kW+) is used.
@@ -262,23 +267,31 @@ C_{\text{remaining}} = C_{\text{original}} \times \left(\frac{\text{SOH}_{\%}}{1
 ---
 
 ## EV Battery Degradation Calculator Frequently Asked Questions
+
 ### How fast do electric car batteries degrade over time?
+
 Modern electric vehicle batteries degrade at an average rate of 1.5% to 2.3% per year. Most modern EVs retain 80% to 88% of original capacity after 8 to 10 years.
 
 ### Does frequent DC Fast Charging degrade battery health faster?
+
 Yes. High-current DC fast charging generates additional thermal stress and lithium plating inside cells, accelerating degradation by approximately 0.4% to 0.8% extra per year.
 
 ### How does hot climate affect EV battery longevity?
+
 High ambient temperatures (above 90°F / 32°C) accelerate solid electrolyte interphase (SEI) growth inside lithium-ion cells, increasing capacity loss compared to moderate climates.
 
 ### What is the difference between LFP and NMC battery degradation?
+
 LFP (Lithium Iron Phosphate) batteries offer significantly longer cycle life (2,000–3,000+ cycles) and tolerate 100% daily charging better than NMC/NCA (Nickel Manganese Cobalt) chemistries.
 
 ### What is EV State of Health (SOH)?
+
 State of Health (SOH) is the ratio of current maximum usable energy capacity (kWh) to original factory design capacity, expressed as a percentage.
 
 ### What is typical EV battery warranty coverage?
+
 Most auto manufacturers provide battery warranties covering 8 years or 100,000 miles against capacity loss exceeding 30% (70% SOH minimum guarantee).
 
 ### Does the EV battery degradation estimator store my data?
+
 No. All calculations run strictly in your local browser.

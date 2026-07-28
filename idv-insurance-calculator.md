@@ -190,6 +190,7 @@ This exact formula powers our calculator, ensuring your results match industry-s
 ---
 
 ## How to Use the IDV Insurance Calculator
+
 1. **Select your account currency** from the picker in the site header.
 2. **Enter your ex-showroom price** — the manufacturer's listed price of your vehicle.
 3. **Select your registration year** — the year your vehicle was first registered.
@@ -202,25 +203,33 @@ The tool updates instantly as you adjust any input—no "Calculate" button requi
 ---
 
 ## IDV Insurance Calculator Frequently Asked Questions
+
 ### What is IDV in car insurance?
+
 IDV (Insured Declared Value) is the current market value of your car. It's the maximum amount your insurer will pay if your car is stolen or declared a total loss.
 
 ### How is IDV calculated?
+
 IDV is calculated as: (Ex-Showroom Price – Depreciation) + (Accessories Cost – Accessories Depreciation). This tool does it all for you automatically.
 
 ### What is the standard depreciation rate for car insurance?
+
 Depreciation rates vary by country and insurer. In India, IRDAI sets rates from 5% (under 6 months) to 50% (over 5 years). The tool auto-calculates these for you.
 
 ### Can I change the depreciation rate?
+
 Yes. The tool auto-calculates a rate based on vehicle age, but you can manually override it to match your insurer's specific rate.
 
 ### Why does IDV matter?
+
 Your IDV determines your premium and your payout in case of total loss. A higher IDV means higher premium but better coverage. A lower IDV means lower premium but you risk being underinsured.
 
 ### Is my financial data safe?
+
 Yes. Absolutely. All calculations run locally in your browser. We do not collect, store, or transmit any of your data. Your privacy is built into the tool's design.
 
 ### Can I use the IDV Insurance Calculator globally?
+
 Yes. The tool is country-agnostic. Use your local currency via the global picker and adjust the depreciation rate to match your country's insurance rules.
 
 ---

@@ -136,9 +136,11 @@ A major medical diagnosis such as cancer, stroke, or heart attack can create sev
 Determining the ideal critical illness benefit amount requires balancing several financial factors: annual earnings replacement, estimated out-of-pocket medical coinsurance maxes, and existing liquid emergency savings. Carrying insufficient coverage risks forcing premature withdrawals from retirement accounts or accumulating high-interest debt during treatment. Conversely, purchasing excessive insurance inflates monthly policy premiums needlessly. This calculator evaluates your specific income level, target recovery timeline, expected out-of-pocket healthcare costs, and liquid reserves to determine an optimal, tailored insurance policy benefit amount.
 
 ## Critical Illness Insurance Calculator Mathematical Formulas & Mechanics
+
 The critical illness insurance coverage calculation combines income replacement requirements and healthcare cost exposure, offset by available liquid emergency reserves.
 
 ### 1. Income Replacement & Gross Exposure
+
 Gross financial need ($N_{gross}$) is determined by multiplying annual gross income ($I_{annual}$) by the desired recovery period in years ($Y_{recovery}$), and adding total estimated out-of-pocket medical expenses ($M_{oop}$):
 
 $$I_{replacement} = I_{annual} \times Y_{recovery}$$
@@ -146,6 +148,7 @@ $$I_{replacement} = I_{annual} \times Y_{recovery}$$
 $$N_{gross} = I_{replacement} + M_{oop}$$
 
 ### 2. Net Benefit Policy Recommendation
+
 The recommended lump-sum benefit policy amount ($B_{policy}$) subtracts existing liquid emergency savings ($S_{liquid}$) from gross financial need ($N_{gross}$), with a minimum bound of zero:
 
 $$B_{policy} = \max\left(0, N_{gross} - S_{liquid}\right)$$
@@ -153,6 +156,7 @@ $$B_{policy} = \max\left(0, N_{gross} - S_{liquid}\right)$$
 Where $I_{annual}$ represents your current gross annual earnings, $Y_{recovery}$ is your target financial buffer duration (1 to 5 years), $M_{oop}$ represents out-of-pocket deductibles and medical expenses, and $S_{liquid}$ represents emergency funds available to absorb expenses.
 
 ## Critical Illness Insurance Calculator Benchmarks & Comparison Table
+
 | Annual Gross Income | Replacement Duration | Total Income Replaced | Out-of-Pocket Medical | Liquid Emergency Savings | Recommended Benefit Policy |
 |---|---|---|---|---|---|
 | **$50,000** | 1 Year | $50,000 | $10,000 | $15,000 | **$45,000** |
@@ -162,6 +166,7 @@ Where $I_{annual}$ represents your current gross annual earnings, $Y_{recovery}$
 | **$200,000** | 3 Years | $600,000 | $30,000 | $100,000 | **$530,000** |
 
 ## How to Use the Critical Illness Insurance Calculator Step-by-Step
+
 1. **Enter Annual Gross Income**: Input your current total annual salary or self-employment earnings before taxes.
 2. **Select Income Replacement Duration**: Choose the number of years (1 to 5 years) you want household expenses covered during recovery.
 3. **Estimate Out-of-Pocket Medical Costs**: Include health insurance deductibles, copays, out-of-network care, and experimental treatments.
@@ -169,23 +174,31 @@ Where $I_{annual}$ represents your current gross annual earnings, $Y_{recovery}$
 5. **Review Recommended Policy Amount**: Analyze the calculated net lump-sum critical illness insurance policy benefit required.
 
 ## Critical Illness Insurance Calculator Frequently Asked Questions
+
 ### What is critical illness insurance?
+
 Critical illness insurance pays a tax-free lump-sum cash benefit upon diagnosis of covered major medical conditions such as cancer, heart attack, or stroke.
 
 ### How is critical illness insurance different from standard health insurance?
+
 Health insurance pays doctors and hospitals directly for medical treatments, whereas critical illness insurance pays cash directly to policyholders to use for any purpose.
 
 ### Are critical illness insurance payout benefits taxable?
+
 No, lump-sum benefits paid from individual critical illness policies paid with post-tax dollars are received 100% tax-free under IRS regulations.
 
 ### How much critical illness insurance coverage should I carry?
+
 Financial advisors typically recommend carrying enough coverage to replace 1 to 3 years of gross income plus max out-of-pocket health plan deductibles and experimental treatment costs.
 
 ### What medical conditions are typically covered by critical illness policies?
+
 Standard policies cover major conditions including invasive cancer, heart attack, stroke, major organ transplants, end-stage renal failure, and coronary artery bypass surgery.
 
 ### Can critical illness insurance funds be used for non-medical expenses?
+
 Yes, because benefits are paid as unrestricted cash, funds can cover mortgages, child care, debt payments, transportation, or living expenses during medical leave.
 
 ### Is personal health and financial data kept private in this tool?
+
 Yes, all insurance computations run 100% locally inside your web browser. No personal health information or income figures are transmitted to external servers.

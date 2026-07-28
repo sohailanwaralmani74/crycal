@@ -199,21 +199,28 @@ $$\text{80 lb Bags Needed} = \left\lceil \frac{\text{Total Cu Ft} \times 1.10}{0
 ---
 
 ## Concrete Stairs Calculator Frequently Asked Questions
+
 ### How much concrete do I need for a 5-step staircase?
+
 A 5-step solid concrete staircase (7 in riser, 11 in tread, 4 ft wide) with a 3 ft top landing requires approximately 1.83 cubic yards (49.5 cubic feet) of concrete, or 91 bags of 80 lb concrete.
 
 ### How do you calculate concrete volume for stairs?
+
 Step Volume (cu ft) = Width (ft) × [Tread (in) / 12] × [Riser (in) / 12] × [N × (N + 1) / 2], where N is the number of steps. Platform Volume = Width (ft) × Landing Depth (ft) × Total Height (ft).
 
 ### How many 80lb bags of concrete make a cubic yard?
+
 It takes 45 bags of 80 lb concrete to equal 1 cubic yard (27 cubic feet) of mixed concrete.
 
 ### Is it cheaper to use pre-mixed bags or order ready-mix concrete for stairs?
+
 For small staircases under 1 cubic yard (under 45 bags), pre-mixed bags ($200–$300) are usually cheaper than paying short-load delivery fees ($150–$200 extra) for ready-mix trucks. For larger staircases over 1.5 cubic yards, ready-mix is faster and less labor intensive.
 
 ### What is standard riser height and tread depth according to building codes?
+
 IRC building codes specify a maximum riser height of 7.75 inches (7 inches standard) and a minimum tread depth of 10 to 11 inches.
 
 ### Do outdoor concrete stairs require rebar?
+
 Yes. Concrete stairs require #4 rebar cages pinned into foundation footings or porch walls to prevent settling, cracking, or tipping forward.
 

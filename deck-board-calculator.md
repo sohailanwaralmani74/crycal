@@ -184,39 +184,50 @@ Laying out deck boards requires calculating exact parallel rows across the deck 
 ---
 
 ## Deck Board Calculator Mathematical Formulas & Mechanics
+
 ### 1. Deck Surface Area ($A_{	ext{deck}}$)
+
 $$A_{	ext{deck}} = L_{	ext{deck}} 	imes W_{	ext{deck}}$$
 
 ### 2. Effective Board Coverage Width ($W_{	ext{eff}}$)
+
 For actual board width $W_{	ext{board}}$ (5.5 inches for 5/4x6) and gap width $G_{	ext{board}}$ (0.125 inches):
 
-$$W_{	ext{eff}} = rac{W_{	ext{board}} + G_{	ext{board}}}{12} \quad (	ext{Feet})$$
+$$W_{	ext{eff}} = 
+rac{W_{	ext{board}} + G_{	ext{board}}}{12} \quad (	ext{Feet})$$
 
 ### 3. Total Parallel Board Rows ($N_{	ext{rows}}$)
+
 For deck width $W_{	ext{deck}}$ perpendicular to board orientation:
 
-$$N_{	ext{rows}} = \left\lceil rac{W_{	ext{deck}}}{W_{	ext{eff}}} 
+$$N_{	ext{rows}} = \left\lceil 
+rac{W_{	ext{deck}}}{W_{	ext{eff}}} 
 ight
 ceil$$
 
 ### 4. Total Decking Linear Feet ($L_{	ext{total\_lin}}$)
+
 Including waste factor percentage ($	ext{Waste } \%$):
 
 $$L_{	ext{raw\_lin}} = N_{	ext{rows}} 	imes L_{	ext{deck}}$$
 
-$$L_{	ext{total\_lin}} = L_{	ext{raw\_lin}} 	imes \left(1 + rac{	ext{Waste } \%}{100}
+$$L_{	ext{total\_lin}} = L_{	ext{raw\_lin}} 	imes \left(1 + 
+rac{	ext{Waste } \%}{100}
 ight)$$
 
 ### 5. Stock Board Count ($N_{	ext{stock\_boards}}$)
+
 For chosen stock board purchase length $L_{	ext{stock}}$ (e.g., 16 feet):
 
-$$N_{	ext{stock\_boards}} = \left\lceil rac{L_{	ext{total\_lin}}}{L_{	ext{stock}}} 
+$$N_{	ext{stock\_boards}} = \left\lceil 
+rac{L_{	ext{total\_lin}}}{L_{	ext{stock}}} 
 ight
 ceil$$
 
 ---
 
 ## Deck Board Calculator Benchmarks & Comparison Table
+
 | Deck Dimensions | Area (Sq Ft) | 5.5" Boards (1/8" Gap) Linear Feet | 16ft Stock Boards Required (10% Waste) | Pressure-Treated Wood Cost ($) | Composite Decking Cost ($) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **10 ft x 12 ft** | 120 Sq Ft | 256 Linear Ft | 18 Boards (16ft) | $350 - $550 | $900 - $1,500 |
@@ -228,6 +239,7 @@ ceil$$
 ---
 
 ## How to Use the Deck Board Calculator Step-by-Step
+
 1. **Determine Board Orientation:** Decide whether deck boards will run parallel to the house wall or perpendicular.
 2. **Measure Surface Dimensions:** Enter deck length (parallel to board direction) and width (perpendicular to board direction).
 3. **Select Board Material:** Choose 5.5" actual width for standard 5/4x6 or 2x6 boards and set desired gap spacing (1/8").
@@ -237,23 +249,31 @@ ceil$$
 ---
 
 ## Deck Board Calculator Frequently Asked Questions
+
 ### What is the actual width of a standard 5/4x6 or 2x6 deck board?
+
 A standard 5/4x6 or 2x6 deck board has an actual face width of 5.5 inches (140 mm).
 
 ### How wide should the gap be between deck boards?
+
 Pressure-treated wood boards should be installed tightly or with a small 1/16" to 1/8" gap as they shrink as they dry. Composite decking requires a uniform 1/8" to 3/16" gap for expansion.
 
 ### How many linear feet of deck boards do I need per square foot?
+
 For standard 5.5-inch wide boards with a 1/8-inch gap, you need approximately 2.13 linear feet of decking per square foot of deck surface.
 
 ### What stock board length should I buy to minimize waste?
+
 Choose stock board lengths (12ft, 16ft, 20ft) that are exact multiples of your deck section length or allow full end-to-end runs without random mid-span butt joints.
 
 ### How much waste allowance should I add for deck board installation?
+
 A 10% waste factor is recommended for straight deck patterns. For diagonal 45-degree decking patterns, add a 15% to 20% waste allowance.
 
 ### How many deck boards do I need for a 16x20 deck?
+
 A 16x20 deck (320 sq ft) using 5.5" boards laid parallel to the 20ft side requires 35 rows of boards, totaling 700 linear feet (or roughly 49 16ft stock boards with waste).
 
 ### Does composite decking require different board spacing than wood?
+
 Yes. Composite boards expand length-wise and width-wise with temperature shifts, requiring specific gapping (typically 3/16") specified by manufacturers like Trex or TimberTech.

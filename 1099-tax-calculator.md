@@ -273,6 +273,7 @@ The tool handles **1099 tax calculator with deductions**, **1099 tax calculator 
 ---
 
 ## 1099 Tax Calculator Frequently Asked Questions
+
 ### What is a 1099 tax calculator?
 
 A 1099 tax calculator estimates the self-employment tax, federal income tax, and state income tax owed by independent contractors, freelancers, and other self-employed individuals who receive 1099 income.

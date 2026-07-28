@@ -184,21 +184,28 @@ $$\text{Total Project Cost} = \text{Material Cost} + (\text{Wall Area} \times \t
 ---
 
 ## Stucco Calculator Frequently Asked Questions
+
 ### How many bags of stucco base coat do I need for 1,000 sq ft?
+
 For a traditional 3-coat stucco system (7/8 inch total thickness), 1,000 sq ft requires approximately 100 bags of 80 lb base coat (50 bags for scratch coat and 50 bags for brown coat, including 10% waste) plus 14 bags of finish coat.
 
 ### What is the coverage of an 80 lb bag of stucco?
+
 An 80 lb bag of pre-blended stucco base coat covers approximately 20 to 22 sq ft at 3/8 inch thickness. Finish coat bags cover approximately 75 to 80 sq ft per 80 lb bag at 1/8 inch thickness.
 
 ### How much does exterior stucco installation cost per square foot?
+
 Exterior stucco costs between $8.00 and $15.00 per square foot installed for 3-coat traditional stucco, including materials, lath wire, scratch, brown, finish coats, and labor.
 
 ### What is the difference between 3-coat, 2-coat, and 1-coat stucco?
+
 3-coat stucco is traditional 7/8 in plaster over wood framing and wire lath. 2-coat is 1/2 in applied directly over masonry or CMU block. 1-coat is a modern 3/8 in fiber-reinforced polymer mix over rigid foam insulation.
 
 ### Does this calculator include waste factors?
+
 Yes, the calculator automatically adds a 10% material waste factor to account for wall texture, board scrap, and mixer residual.
 
 ### How much lath wire and building paper are needed for stucco?
+
 For wood-framed walls, you will need 1 roll of grade D building paper per 500 sq ft and expanded metal lath sheets equaling your total net wall square footage plus 10% for lap joints.
 

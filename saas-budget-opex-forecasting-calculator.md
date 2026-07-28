@@ -160,6 +160,7 @@ Maintaining tight financial discipline across operating departments is essential
 ---
 
 ## Saas Budget Opex Forecasting Calculator Mathematical Formulas
+
 ### 1. Total Monthly & Annual OpEx
 
 $$ \text{Total Monthly OpEx} = \text{R\&D} + \text{S\&M} + \text{G\&A} + \text{Hosting} $$
@@ -187,6 +188,7 @@ $$ \text{R\&D Share \%} = \left( \frac{\text{R\&D Spend}}{\text{Total Monthly Op
 ---
 
 ## Step-by-Step Saas Budget Opex Forecasting Calculator Guide
+
 1. **Audit Monthly Department Budgets**: Extract monthly payroll and tool invoices for R&D, S&M, and G&A.
 2. **Include Cloud Infrastructure**: Add monthly AWS, GCP, or Azure billings.
 3. **Set Growth Expectations**: Input next year's planned OpEx expansion percentage.
@@ -195,20 +197,27 @@ $$ \text{R\&D Share \%} = \left( \frac{\text{R\&D Spend}}{\text{Total Monthly Op
 ---
 
 ## Saas Budget Opex Forecasting Calculator Frequently Asked Questions
+
 ### What is SaaS OpEx?
+
 SaaS OpEx (Operating Expenses) encompasses all recurring operational expenditures required to run, sell, and maintain a software company, excluding direct COGS host server charges.
 
 ### What are the four primary OpEx buckets in SaaS?
+
 The four core buckets are: 1. Research & Development (R&D), 2. Sales & Marketing (S&M), 3. General & Administrative (G&A), and 4. Cloud Infrastructure / Hosting.
 
 ### How is total annual OpEx calculated?
+
 Formula: Total Annual OpEx = (R&D + S&M + G&A + Hosting) × 12 months.
 
 ### What is the typical OpEx department split for growing SaaS?
+
 Growth-stage SaaS benchmarks: R&D (35%-45%), S&M (40%-50%), G&A (10%-15%), and Cloud Hosting (5%-10%).
 
 ### Why is hosting spend tracked in OpEx forecasting?
+
 While hosting is technically a COGS line item for gross margin calculations, ops teams track monthly cloud infrastructure alongside OpEx to prevent unbudgeted cloud bill spikes.
 
 ### How can SaaS companies control OpEx growth?
+
 Control OpEx by auditing unused SaaS seat licenses, negotiating enterprise cloud discounts (AWS EDP), optimizing PPC ad spend, and setting strict hiring plan gates.

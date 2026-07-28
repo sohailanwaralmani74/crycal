@@ -125,6 +125,7 @@ CAC Payback Period measures the speed at which customer acquisition capital is r
 Having accurate, real-time insights into this metric helps SaaS founders, CFOs, and growth teams optimize capital allocation, protect operating runway, and achieve top-tier venture scalability.
 
 ## CAC Payback Period Calculator Formula & Derivation
+
 The mathematical derivation for this financial metric is expressed as:
 
 $$\text{CAC Payback Period (Months)} = \frac{\text{CAC}}{\text{ARPU} \times \text{Gross Margin \%}}$$
@@ -132,6 +133,7 @@ $$\text{CAC Payback Period (Months)} = \frac{\text{CAC}}{\text{ARPU} \times \tex
 Where all input values are evaluated over a standardized monthly or annual accounting period.
 
 ## CAC Payback Period Calculator SaaS Benchmarks
+
 | Market Segment | Typical Payback | Venture Benchmark | Capital Intensity |
 | --- | --- | --- | --- |
 | Freemium / PLG | 6 - 12 Months | Top Tier | Low Cash Burn |
@@ -139,6 +141,7 @@ Where all input values are evaluated over a standardized monthly or annual accou
 | Enterprise Sales-Led | 18 - 24 Months | Capital Intensive | High Funding Required |
 
 ## Step-by-Step CAC Payback Period Calculator Calculation Guide
+
 1. **Enter Core Financial Inputs:** Supply your monthly sales spend, user counts, ARPU, or recurring revenue figures.
 2. **Review Intermediate Outputs:** Examine calculated gross profit, churn, payback, or unit contribution scores.
 3. **Assess Benchmark Ratings:** Compare your results against SaaS industry standards to identify growth bottlenecks.
@@ -147,21 +150,28 @@ Where all input values are evaluated over a standardized monthly or annual accou
 ---
 
 ## CAC Payback Period Calculator Frequently Asked Questions
+
 ### What is CAC Payback Period?
+
 CAC Payback Period is the number of months required for a customer's monthly gross profit to fully offset the upfront cost spent to acquire them.
 
 ### Why is CAC Payback Period critical for cash runway?
+
 SaaS businesses pay acquisition costs on day one but collect subscription revenue over time. Long payback periods burn cash rapidly, risking insolvency.
 
 ### What is a good CAC payback benchmark for SaaS?
+
 For SMB SaaS, under 12 months is elite. For Mid-Market, 12-18 months is standard. For Enterprise SaaS, 18-24 months is acceptable with multi-year commitments.
 
 ### Why use Gross Margin instead of Revenue?
+
 Revenue overstates cash recovery because servicing customers incurs infrastructure hosting and support staff costs.
 
 ### How does annual upfront billing affect payback?
+
 Upfront annual prepayments recover CAC immediately on day one, reducing effective payback to zero months.
 
 ### How can I reduce my CAC payback period?
+
 Reduce payback by offering discounts on annual upfront plans, expanding add-on feature sales, and lowering paid ad customer acquisition costs.
 

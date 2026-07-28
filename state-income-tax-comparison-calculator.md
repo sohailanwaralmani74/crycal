@@ -137,9 +137,11 @@ State income tax policies vary dramatically across the United States. While high
 Evaluating state tax burdens involves looking beyond headline marginal rates to understand effective tax rates on your specific gross income. Additionally, when planning a interstate move, individuals must account for how state income tax savings interact with local property taxes, sales tax rates, and overall cost of living adjustments. This calculator models tax liabilities across two state jurisdictions, allowing you to quantify annual and monthly take-home pay increases securely and privately.
 
 ## State Income Tax Comparison Calculator Mathematical Formulas & Mechanics
+
 State tax liability calculations multiply gross annual income ($I_{gross}$) by the respective effective state tax rate percentages ($\tau_1$ for current state, $\tau_2$ for destination state).
 
 ### 1. Individual State Tax Liability
+
 Annual tax owed to State 1 ($T_1$) and State 2 ($T_2$) are computed as:
 
 $$T_1 = I_{gross} \times \left(\frac{\tau_1}{100}\right)$$
@@ -147,6 +149,7 @@ $$T_1 = I_{gross} \times \left(\frac{\tau_1}{100}\right)$$
 $$T_2 = I_{gross} \times \left(\frac{\tau_2}{100}\right)$$
 
 ### 2. Net Tax Savings & Monthly Take-Home Pay Boost
+
 Annual tax savings ($\Delta T_{annual}$) and monthly take-home pay boost ($\Delta N_{monthly}$) achieved by moving from State 1 to State 2 are given by:
 
 $$\Delta T_{annual} = T_1 - T_2 = I_{gross} \times \left(\frac{\tau_1 - \tau_2}{100}\right)$$
@@ -156,6 +159,7 @@ $$\Delta N_{monthly} = \frac{\Delta T_{annual}}{12}$$
 Where $I_{gross}$ represents gross annual earnings, $\tau_1$ and $\tau_2$ represent effective state tax percentages, and $\Delta T_{annual}$ represents net cash retained annually.
 
 ## State Income Tax Comparison Calculator Benchmarks & Comparison Table
+
 | Gross Annual Income | Current State Effective Rate | Relocation State Rate | Current State Annual Tax | Relocation State Tax | Annual Cash Savings | Monthly Take-Home Boost |
 |---|---|---|---|---|---|---|
 | **$80,000** | 6.00% | 0.00% | $4,800 | $0 | **$4,800** | **$400.00** |
@@ -165,6 +169,7 @@ Where $I_{gross}$ represents gross annual earnings, $\tau_1$ and $\tau_2$ repres
 | **$350,000** | 11.30% | 0.00% | $39,550 | $0 | **$39,550** | **$3,295.83** |
 
 ## How to Use the State Income Tax Comparison Calculator Step-by-Step
+
 1. **Enter Annual Gross Income**: Input total annual gross salary, wages, or self-employment earnings.
 2. **Input Current State Effective Tax Rate**: Enter effective state tax percentage for your current home state.
 3. **Input Relocation State Effective Tax Rate**: Enter effective state tax rate for your proposed target state (0.00% for zero-tax states).
@@ -172,23 +177,31 @@ Where $I_{gross}$ represents gross annual earnings, $\tau_1$ and $\tau_2$ repres
 5. **Analyze Relocation Savings Boost**: Review net annual tax savings and monthly paycheck take-home pay improvements.
 
 ## State Income Tax Comparison Calculator Frequently Asked Questions
+
 ### Which U.S. states have zero state income tax?
+
 Currently, 9 U.S. states have no traditional state income tax on earned wages: Alaska, Florida, Nevada, New Hampshire (dividends/interest only), South Dakota, Tennessee, Texas, Washington, and Wyoming.
 
 ### What is the difference between statutory top marginal state tax rates and effective state tax rates?
+
 Statutory top marginal rates apply only to income exceeding specific state bracket thresholds, whereas effective state tax rates represent total state tax paid divided by gross income.
 
 ### How does relocating to a zero-state-income-tax state impact overall take-home pay?
+
 Relocating from high-tax states (like California or New York) to zero-income-tax states (like Florida or Texas) immediately boosts net take-home pay by 5% to 13% of gross salary.
 
 ### Do states without income tax make up for lost revenue with higher sales or property taxes?
+
 Yes, states lacking income tax often impose higher local property tax rates, higher sales taxes, or specialized excise taxes on fuels and tourism.
 
 ### What establishes state tax residency for income tax purposes?
+
 State tax residency generally requires spending at least 183 days within the state annually, establishing a primary physical domicile, and moving driver licenses and voter registrations.
 
 ### How do remote work rules affect state income tax obligations?
+
 Remote workers may owe state income taxes to their resident state and, under certain convenience-of-the-employer rules, to the state where their employer's headquarters are located.
 
 ### Is income and relocation data kept private in this tool?
+
 Yes, all state tax comparison calculations execute 100% locally in your browser. No income details, relocation targets, or personal data leave your device.

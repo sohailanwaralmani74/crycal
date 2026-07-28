@@ -163,9 +163,11 @@ This estimator factors in battery age, ambient climate temperatures, driving rou
 ---
 
 ## Car Battery Life Cost Estimator Calculation Flow & Formulas
+
 The engine applies climate degradation multipliers and installation fees to baseline chemical lifespans:
 
 ### Car Battery Life Cost Estimator Inputs & Parameters
+
 | Parameter | Unit | Description |
 | :--- | :--- | :--- |
 | **Chemistry Base Lifespan (\(L_{base}\))** | years | Flooded = 4.0 yrs, AGM = 6.0 yrs, Gel = 5.0 yrs |
@@ -177,22 +179,27 @@ The engine applies climate degradation multipliers and installation fees to base
 ---
 
 ### Step-by-Step Car Battery Life Cost Estimator Formulas
+
 #### 1. Total Expected Lifespan (\(L_{expected}\))
+
 \[
 L_{expected} = L_{base} \times F_{climate} \times F_{routine} \quad \text{(in years)}
 \]
 
 #### 2. Remaining Lifespan (\(L_{remaining}\))
+
 \[
 L_{remaining} = \max\left(0,\, L_{expected} - \text{Battery Age}\right)
 \]
 
 #### 3. Total Replacement Cost (\(C_{replacement}\))
+
 \[
 C_{replacement} = P_{unit} + C_{labor}
 \]
 
 #### 4. Effective Monthly Cost of Ownership (\(C_{monthly}\))
+
 \[
 C_{monthly} = \frac{C_{replacement}}{L_{expected} \times 12}
 \]
@@ -210,6 +217,7 @@ C_{monthly} = \frac{C_{replacement}}{L_{expected} \times 12}
 ---
 
 ## How to Use the Car Battery Life Cost Estimator Step-by-Step
+
 1. **Select Battery Chemistry**: Choose standard **Flooded** or upgraded **AGM**.
 2. **Enter Battery Age**: Locate date sticker on battery top (e.g., `2.5 years`).
 3. **Select Climate & Commute**: Choose **Hot Desert** or **Cold Winter** climate and daily drive type.
@@ -218,21 +226,28 @@ C_{monthly} = \frac{C_{replacement}}{L_{expected} \times 12}
 ---
 
 ## Car Battery Life Cost Estimator Frequently Asked Questions
+
 ### How long does a typical car battery last?
+
 A standard flooded lead-acid car battery lasts **3 to 5 years** under normal conditions, whereas AGM (Absorbed Glass Mat) batteries typically last **5 to 7 years**.
 
 ### Why does extreme heat kill car batteries faster than cold weather?
+
 High engine bay and ambient heat accelerates internal plate grid corrosion and electrolyte evaporation inside the battery. While cold weather reveals a weak battery by increasing engine cranking resistance, heat is what causes the underlying chemical damage.
 
 ### What is an AGM battery and is it worth the extra cost?
+
 AGM (Absorbed Glass Mat) batteries use fiberglass mats absorbed in electrolyte. They resist vibration, charge up to 5x faster, endure deep cycling, and last **40% longer** than flooded batteries—making them essential for vehicles with Start-Stop technology.
 
 ### Why do short trips shorten car battery lifespan?
+
 Starting an engine consumes significant battery energy. Short trips under 10 minutes do not allow the vehicle's alternator enough driving time to fully recharge the battery back to 100% capacity.
 
 ### How can I tell if my car battery is about to fail?
+
 Warning signs include slow engine cranking ("rur-rur-rur" sound on start), dimming headlights at idle, battery warning light on dashboard, clicking noises when turning key, or a swollen battery case.
 
 ### What is parasitic battery drain?
+
 Parasitic drain occurs when electrical components (dash cams, alarm systems, keyless entry modules) continue drawing power from the battery while the ignition is switched off.
 

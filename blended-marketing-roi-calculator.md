@@ -158,6 +158,7 @@ Modern customer buyer journeys involve multiple touchpoints across Google search
 ---
 
 ## Blended Marketing Roi Calculator Mathematical Formulas
+
 ### 1. Total Blended Marketing Investment
 
 $$ \text{Total Spend} = \text{Paid Spend} + \text{Organic Spend} + \text{Social Spend} + \text{Partner Spend} $$
@@ -185,6 +186,7 @@ $$ \text{Marketing Efficiency Ratio (MER)} = \frac{\text{Total Revenue Generated
 ---
 
 ## Step-by-Step Blended Marketing Roi Calculator Guide
+
 1. **Consolidate Marketing Expenditures**: Aggregate ad platform receipts, SEO retainers, PR costs, and affiliate payouts.
 2. **Pull Attributed Gross Revenue**: Export total revenue closed from marketing-sourced and marketing-influenced deals.
 3. **Compute Blended Metrics**: Divide revenue by total spend to determine your company's MER.
@@ -193,20 +195,27 @@ $$ \text{Marketing Efficiency Ratio (MER)} = \frac{\text{Total Revenue Generated
 ---
 
 ## Blended Marketing Roi Calculator Frequently Asked Questions
+
 ### What is Blended Marketing ROI?
+
 Blended Marketing ROI measures total net marketing returns across all paid, organic, social, and partner channels combined, rather than evaluating channels in silos.
 
 ### How is Blended Marketing ROI calculated?
+
 Formula: Blended ROI (%) = [(Total Revenue Generated - Total Blended Marketing Spend) / Total Blended Marketing Spend] × 100%.
 
 ### Why is blended ROI better than single-channel ROAS?
+
 Single-channel attribution often over-credits paid ads or double-counts touchpoints. Blended ROI provides an accurate holistic picture of company marketing profitability (MER - Marketing Efficiency Ratio).
 
 ### What is Marketing Efficiency Ratio (MER)?
+
 MER (also known as Blended ROAS) is total gross revenue divided by total marketing spend. MER = Total Revenue / Total Marketing Spend.
 
 ### What is a good Blended Marketing ROI?
+
 A healthy blended ROI for growth-stage SaaS ranges from 250% to 500%+ (MER of 3.5x to 6.0x), ensuring sustainable unit economics.
 
 ### How can I improve my blended marketing ROI?
+
 Improve blended ROI by shifting budget toward high-margin organic channels, negotiating lower affiliate commission structures, and eliminating underperforming paid ad ad groups.

@@ -299,18 +299,24 @@ Higher part-time income = lower savings target = faster Barista FIRE.
 ---
 
 ## Barista Fire Calculator Frequently Asked Questions
+
 ### What is Barista FIRE?
+
 Barista FIRE is a variation of the FIRE movement where you semi-retire early and work a part-time job to cover a portion of your living expenses. Your investments cover the rest.
 
 ### How is Barista FIRE different from Coast FIRE?
+
 Coast FIRE means you stop saving entirely and let compound interest work. Barista FIRE means you continue working part-time to cover some expenses while your investments grow.
 
 ### How is Barista FIRE calculated?
+
 Barista FIRE Number = (Annual Expenses – Annual Part-Time Income) ÷ Safe Withdrawal Rate.
 
 ### What is a good Barista FIRE number?
+
 Your Barista FIRE number depends on your expenses and part-time income. For example, if your annual expenses are $50,000 and you earn $25,000 from part-time work, your Barista FIRE number is $625,000.
 
 ### How many hours will I need to work in Barista FIRE?
+
 The calculator estimates your hours based on your part-time income and hourly rate. If you earn $25,000 per year at $25/hour, you'd work about 20 hours per week.
 

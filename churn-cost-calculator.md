@@ -181,23 +181,31 @@ $$\text{Total 1-Year Financial Churn Impact} = \text{Cumulative 1-Year Lost Reve
 ---
 
 ## Churn Cost Calculator Frequently Asked Questions
+
 ### Why is the true cost of churn far higher than just 1 month of lost revenue?
+
 Because churn compounds over time. Losing $1,000 of MRR in Month 1 deprives your business of $1,000 every single month thereafter ($12,000 over 12 months), plus the CAC spent replacing that customer.
 
 ### How is Cumulative 1-Year Lost Revenue calculated?
+
 Each month's churned MRR creates a permanent monthly loss. Cumulative 1-year lost revenue sums the monthly revenue deficits across all 12 months.
 
 ### What is Wasted CAC Replacement Cost?
+
 When a customer churns, the sales and marketing spend (CAC) incurred to acquire them is lost. Replacing that churned customer requires spending CAC a second time.
 
 ### What is the formula for Total 1-Year Churn Impact?
+
 Total 1-Year Churn Impact = Cumulative 1-Year Lost Revenue + Wasted CAC Replacement Cost.
 
 ### How much does reducing churn by 1% increase company valuation?
+
 In SaaS, a 1% reduction in monthly churn can increase company valuation by 20% to 40%+ over 3 to 5 years due to higher ARR compounding and improved gross margins.
 
 ### Should Customer Success budget be allocated based on churn cost?
+
 Yes. Knowing your exact annual churn cost allows executives to justify investing in Customer Success managers, onboarding software, and retention campaigns.
 
 ### How does ARPU influence total churn cost?
+
 Higher ARPU means each churned account creates a larger monthly revenue deficit, increasing the total cumulative annual cost of churn.

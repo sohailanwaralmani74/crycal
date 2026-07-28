@@ -214,7 +214,9 @@ Calculate your trucking cost per mile with our free **Trucking Cost Per Mile Cal
 This **cost per mile trucking calculator** follows a simple flow to compute your operating costs and trip profitability.
 
 ## Trucking Cost per Mile Calculator Calculation Flow
+
 ### Trucking Cost per Mile Calculator Inputs
+
 | Input | Description |
 |-------|-------------|
 | Truck Payment | Monthly truck payment or lease |
@@ -305,18 +307,24 @@ This **trucking cost per mile calculator** is designed for:
 ---
 
 ## Trucking Cost per Mile Calculator Frequently Asked Questions
+
 ### What is a trucking cost per mile calculator?
+
 A trucking cost per mile calculator helps owner‑operators and trucking companies determine their total operating cost for every mile driven and calculate net profit per load.
 
 ### How is fuel cost per mile calculated?
+
 Fuel cost per mile is calculated by dividing the fuel price per gallon by the average MPG.
 
 ### What is the break‑even rate?
+
 The break‑even rate is the minimum amount you need to charge per mile to cover all your costs without making a profit.
 
 ### How is trip profit calculated?
+
 Trip profit per mile is the load rate minus total cost per mile. Total trip profit is that amount multiplied by load miles.
 
 ### What is the recommended rate?
+
 The recommended rate is the break‑even rate plus your desired profit margin, helping you set profitable shipping rates.
 

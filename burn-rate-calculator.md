@@ -190,18 +190,24 @@ $$\text{Net Burn Ratio (\%)} = \left( \frac{\text{Net Burn}}{\text{Gross Burn}} 
 ---
 
 ## Burn Rate Calculator Frequently Asked Questions
+
 ### What is gross burn rate vs net burn rate?
+
 Gross burn rate is total operating expenditure in a given month. Net burn rate is gross expenses minus cash incoming from customer revenue (Gross Expenses − Revenue = Net Burn).
 
 ### How do you calculate monthly burn rate?
+
 Gross Burn = Payroll + Infrastructure + Marketing + Admin. Net Burn = Gross Burn − Monthly Cash Receipts.
 
 ### What is a good Burn Multiple for a SaaS startup?
+
 Burn Multiple = Net Burn / Net New ARR generated. A Burn Multiple under 1.0x is considered incredible, 1.0x–1.5x is good, and above 2.5x indicates capital inefficiency.
 
 ### Why do investors care about burn rate?
+
 Burn rate determines how fast a company consumes investor capital. Uncontrolled burn shortens runway and forces diluted emergency fundraising rounds.
 
 ### How can a startup reduce net burn rate?
+
 Startups reduce net burn by increasing monthly cash collections, pausing non-performing ad channels, negotiating vendor software discounts, and freezing non-critical headcount.
 

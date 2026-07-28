@@ -184,23 +184,31 @@ $$\text{Annualized Expansion ARR Impact} = \text{Total Expansion MRR} \times 12$
 ---
 
 ## Expansion Revenue Calculator Frequently Asked Questions
+
 ### What is Expansion Revenue in SaaS?
+
 Expansion revenue is the additional recurring revenue generated from existing customers through plan upgrades, additional seat licenses, feature add-ons, product cross-sells, or usage-based consumption increases.
 
 ### Why is expansion revenue cheaper than new customer acquisition?
+
 Selling to existing satisfied customers costs significantly less (CAC for expansion is often 4x–5x lower) than acquiring brand-new logos.
 
 ### What is the formula for Expansion Rate %?
+
 Expansion Rate % = (Total Expansion MRR / Starting MRR) × 100.
 
 ### What is a good monthly expansion rate for SaaS?
+
 A monthly expansion rate of 1.5% to 3%+ (18%–35%+ annually) is considered strong for B2B SaaS.
 
 ### What are the four primary drivers of SaaS expansion revenue?
+
 1) Plan Tier Upgrades, 2) Seat/User Add-ons, 3) Product Module Cross-sells, and 4) Usage/Consumption Overages.
 
 ### How does expansion revenue impact Net Revenue Retention (NRR)?
+
 Expansion revenue directly drives NRR above 100%. When expansion exceeds total contraction plus churn, the business achieves net negative churn.
 
 ### Should one-time expansion services be included in Expansion MRR?
+
 No. One-time setup fees or consulting services are non-recurring and should not be included in Monthly Recurring Revenue (MRR).

@@ -169,23 +169,31 @@ $$\text{Initial Deferred Revenue} = \text{Upfront Cash Collected} - \text{Month 
 ---
 
 ## Bookings vs Revenue Recognition Calculator Frequently Asked Questions
+
 ### What is the difference between Bookings, Billings, and Revenue Recognition?
+
 Bookings represent signed contract value. Billings represent invoices issued and cash collected. Revenue Recognition represents GAAP/IFRS earned revenue recognized evenly over the performance period (ASC 606).
 
 ### What is ASC 606 / IFRS 15 revenue recognition?
+
 ASC 606 is the accounting standard requiring companies to recognize subscription revenue ratably over the duration of the software contract service period, regardless of when cash is billed or paid.
 
 ### How is monthly recognized revenue calculated under ASC 606?
+
 Monthly Recognized Revenue = Total Contract Value / Contract Term in Months.
 
 ### What happens to upfront cash collected under ASC 606?
+
 Upfront cash collected is initially placed on the balance sheet as Deferred Revenue (unearned revenue liability) and recognized into Income Statement revenue equal installments each month.
 
 ### Why do SaaS founders confuse Bookings with Recognized Revenue?
+
 Founders often treat a $120,000 upfront annual cash payment as $120,000 of immediate revenue, whereas GAAP accounting requires recognizing $10,000 per month across 12 months.
 
 ### What is the impact of multi-year prepaid contracts on revenue recognition?
+
 A 3-year $360,000 prepaid contract creates $360,000 in immediate cash bookings and billings, but GAAP revenue recognition remains $10,000 per month ($120,000/year).
 
 ### Why is GAAP revenue recognition critical for SaaS audit and valuation?
+
 Auditors, banks, and enterprise buyers evaluate GAAP revenue to verify compliance, rule out artificially inflated sales figures, and assess true operational performance.

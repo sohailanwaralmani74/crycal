@@ -212,16 +212,21 @@ Proper lot sizing is essential for risk management in Forex trading. This lot si
 ---
 
 ## Lot Size Calculator Frequently Asked Questions
+
 ### What is a lot size in Forex?
+
 A lot size is the number of currency units you trade. Standard lot = 100,000 units, Mini lot = 10,000 units, Micro lot = 1,000 units.
 
 ### How is lot size calculated?
+
 Lot Size = (Account Balance × Risk%) ÷ (Stop-Loss Pips × Pip Value). This gives you the position size in standard lots.
 
 ### What is a pip value?
+
 A pip value is the monetary value of one pip movement. For a standard lot in most USD pairs, 1 pip is worth $10.
 
 ### Can I use this calculator for any currency pair?
+
 Yes — just enter the correct pip value for your pair. For JPY pairs, the pip value is typically different (e.g., ¥1,000 for a standard lot).
 
 ---

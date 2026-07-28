@@ -137,6 +137,7 @@ Cost of Service measures the true fully-loaded operational expense required to m
 Having accurate, real-time insights into this metric helps SaaS founders, CFOs, and growth teams optimize capital allocation, protect operating runway, and achieve top-tier venture scalability.
 
 ## Cost of Service Calculator Formula & Derivation
+
 The mathematical derivation for this financial metric is expressed as:
 
 $$\text{Total Cost of Service} = \text{AWS} + \text{APIs} + \text{CS Salaries} + \text{DevOps Salaries}$$ \n$$\text{Cost to Serve Per Account} = \frac{\text{Total Cost of Service}}{\text{Active Accounts}}$$ 
@@ -144,6 +145,7 @@ $$\text{Total Cost of Service} = \text{AWS} + \text{APIs} + \text{CS Salaries} +
 Where all input values are evaluated over a standardized monthly or annual accounting period.
 
 ## Cost of Service Calculator SaaS Benchmarks
+
 | Cost Component | Typical % of Total COGS | Optimization Lever |
 | --- | --- | --- |
 | Cloud Infrastructure (AWS/GCP) | 30% - 45% | Reserved Instances & DB Query Tuning |
@@ -151,6 +153,7 @@ Where all input values are evaluated over a standardized monthly or annual accou
 | Third-Party APIs (Twilio, etc.) | 10% - 20% | Volume Tier Pricing Negotiations |
 
 ## Step-by-Step Cost of Service Calculator Calculation Guide
+
 1. **Enter Core Financial Inputs:** Supply your monthly sales spend, user counts, ARPU, or recurring revenue figures.
 2. **Review Intermediate Outputs:** Examine calculated gross profit, churn, payback, or unit contribution scores.
 3. **Assess Benchmark Ratings:** Compare your results against SaaS industry standards to identify growth bottlenecks.
@@ -159,12 +162,16 @@ Where all input values are evaluated over a standardized monthly or annual accou
 ---
 
 ## Cost of Service Calculator Frequently Asked Questions
+
 ### What is Cost of Service in SaaS?
+
 Cost of Service represents all direct technical infrastructure and customer support staff expenses required to maintain active customer accounts.
 
 ### What is included in Cost to Serve?
+
 Included expenses: AWS/GCP server hosting, third-party software API licenses (Intercom, SendGrid), customer support rep compensation, and DevOps infrastructure maintenance.
 
 ### How can teams reduce Cost to Serve per account?
+
 Automate customer onboarding workflows, optimize cloud database instance sizes, and build self-serve help centers.
 

@@ -233,9 +233,11 @@ Using this **Car Cost Per Mile Calculator**, you can accurately calculate road t
 ## Per-Mile Calculation Formulas
 
 ### 1. Total Cost Per Mile Formula
+
 $$\text{CPM}_{\text{Total}} = \frac{\text{Fuel} + \text{Maintenance} + \text{Tolls} + \text{Insurance} + \text{Loan Interest} + \text{Depreciation}}{\text{Annual Miles}}$$
 
 ### 2. Variable Cost Per Mile
+
 $$\text{CPM}_{\text{Variable}} = \frac{\text{Fuel} + \text{Maintenance} + \text{Tolls}}{\text{Annual Miles}}$$
 
 ---
@@ -255,38 +257,51 @@ $$\text{CPM}_{\text{Variable}} = \frac{\text{Fuel} + \text{Maintenance} + \text{
 ---
 
 ## Step-by-Step Car Cost per Mile Calculator Guide
+
 ### Step 1: Input Annual Driving Mileage
+
 Enter total estimated miles driven in a year.
 
 ### Step 2: Fill Out Variable Expenses
+
 Input annual gas expenses, maintenance budget, and parking/tolls fees.
 
 ### Step 3: Fill Out Fixed Overhead Costs
+
 Input annual auto insurance, estimated annual depreciation, and loan interest paid.
 
 ### Step 4: Analyze Per-Mile Metrics
+
 Review total per-mile rate, variable per-mile rate, and 100-mile trip estimate.
 
 ---
 
 ## Car Cost per Mile Calculator Frequently Asked Questions
+
 ### What is the average cost per mile to drive a car in the US?
+
 According to AAA data, driving a new or late-model vehicle costs between $0.58 and $0.72 per mile when accounting for depreciation, fuel, insurance, and maintenance.
 
 ### What is the difference between fixed and variable car costs?
+
 Fixed costs (insurance, loan interest, depreciation) occur whether you drive 1,000 miles or 20,000 miles. Variable costs (fuel, tires, oil, tolls) increase directly with each mile driven.
 
 ### What is the IRS standard mileage rate?
+
 The IRS sets an annual standard mileage rate (typically $0.65 to $0.67 per mile) for business travel reimbursement, covering depreciation, fuel, insurance, and upkeep.
 
 ### How does driving more miles affect my per-mile cost?
+
 Driving higher annual mileage spreads your fixed overhead (insurance, financing) over more miles, lowering your fixed cost per mile, though total dollar spending rises.
 
 ### How can I lower my cost per mile?
+
 You can lower your cost per mile by driving a fuel-efficient used vehicle (to minimize depreciation), shopping for cheaper car insurance, and performing timely maintenance.
 
 ### Why is depreciation included in cost per mile?
+
 Every mile driven reduces vehicle market value. Neglecting depreciation severely underestimates the true cost of trips and vehicle usage.
 
 ### Is Car Cost per Mile Calculator calculation private?
+
 Yes, all data processing takes place strictly inside your browser.

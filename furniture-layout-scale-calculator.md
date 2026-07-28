@@ -201,21 +201,28 @@ The table below demonstrates furniture density ratios, remaining open room spans
 ---
 
 ## Furniture Layout Scale Calculator Frequently Asked Questions
+
 ### What is the standard minimum walkway clearance in living room design?
+
 Main traffic pathways require 30 to 36 inches of unobstructed width so two people can pass each other comfortably. Secondary pathways between accent chairs or end tables require a minimum of 24 inches.
 
 ### How far should a coffee table be from a sofa?
+
 Place your coffee table 14 to 18 inches away from the front edge of the sofa seat cushion. This allows comfortable legroom while keeping drinks and remotes within arm's reach without standing up.
 
 ### What percentage of a room should be covered by furniture?
+
 Ideally, furniture should occupy 30% to 40% of total room square footage. Covering more than 50% makes a room feel cramped and cluttered, while under 20% can feel cavernous and unanchored.
 
 ### How far should a sofa be from a TV screen?
+
 The ideal TV viewing distance is approximately 1.5 to 2.5 times the diagonal screen size. For a 65-inch TV, position the sofa 8 to 11 feet away (96 to 132 inches).
 
 ### How much space is needed behind dining room chairs?
+
 Leave at least 36 inches between the edge of a dining table and surrounding walls or sideboards so guests can pull chairs back and walk behind seated diners easily.
 
 ### Can a sofa block a window?
+
 While it is best to leave windows clear, low-backed sofas (under sill height) can sit in front of windows without blocking natural light. Ensure at least a 2-inch gap between sofa back cushions and window drapes.
 

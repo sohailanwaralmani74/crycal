@@ -478,24 +478,32 @@ The tool updates instantly as you adjust any input — no "Calculate" button req
 ---
 
 ## Us Inflation Calculator Frequently Asked Questions
+
 ### What is a US Inflation Calculator?
+
 A US Inflation Calculator shows how the purchasing power of the dollar has changed over time due to inflation using historical CPI data.
 
 ### How does the inflation calculator work?
+
 It uses historical CPI data from the Bureau of Labor Statistics to compare prices from the start year to the end year.
 
 ### What is the Consumer Price Index (CPI)?
+
 The CPI is a measure of the average change in prices paid by consumers for goods and services.
 
 ### What years does the calculator cover?
+
 The calculator covers 1913 to the present year.
 
 ### What is the average inflation rate in the US?
+
 The average annual inflation rate has been about 3.2% over the past 100 years.
 
 ### How do I calculate the inflation-adjusted value of the dollar?
+
 Enter the amount, start year, and end year — the calculator shows the adjusted value.
 
 ### What is purchasing power?
+
 Purchasing power is the value of a currency expressed in terms of the amount of goods or services that one unit of money can buy.
 

@@ -195,21 +195,28 @@ The table below shows popular print sizes, standard mat border widths, resulting
 ---
 
 ## Picture Frame Mat Border Calculator Frequently Asked Questions
+
 ### Why is the mat window opening cut slightly smaller than the artwork?
+
 A standard 1/4-inch (0.25") overlap allowance per side is subtracted from the artwork size so the mat window sits over the edges of the print, preventing the image from falling through the window cut.
 
 ### What is the standard mat border width for framed art?
+
 For small prints (5x7 or 8x10), a 2-inch border is standard. For medium prints (11x14 to 16x20), a 2.5 to 3-inch border is recommended. Large prints (20x30+) benefit from 3.5 to 4.5-inch borders.
 
 ### What size frame do I need for an 8x10 photo with a mat?
+
 An 8x10 photo with a 2-inch mat border requires an 11x14 frame (glass size). The mat opening will be 7.5" x 9.5" to secure the print.
 
 ### What size frame do I need for an 11x14 photo with a mat?
+
 An 11x14 photo with a 2.5-inch mat border requires a 16x20 frame glass size. The mat window cut will be 10.5" x 13.5".
 
 ### What is weighted matting?
+
 Bottom-weighting is a traditional framing practice where the bottom mat border is cut 0.25" to 0.5" wider than the top and side borders to correct the optical illusion of art slipping downward.
 
 ### Can I cut my own mat board windows at home?
+
 Yes. Using a handheld 45° bevel mat cutter, a heavy metal straightedge guide, and self-healing cutting mat allows DIYers to cut custom windows in standard 4-ply mat board.
 

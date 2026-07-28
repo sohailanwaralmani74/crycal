@@ -172,22 +172,26 @@ This **Asphalt Calculator** allows contractors and homeowners to:
 ## MHow to Calculate Asphalt
 
 ### 1. Surface Area & Volume Equations
+
 $$\text{Area (sq ft)} = L_{\text{ft}} \times W_{\text{ft}}$$
 $$V_{\text{cu ft}} = \text{Area (sq ft)} \times \left(\frac{D_{\text{inches}}}{12}\right)$$
 $$V_{\text{cu yd}} = \frac{V_{\text{cu ft}}}{27}$$
 
 ### 2. Net & Gross Asphalt Tonnage
+
 $$\text{Tonnage}_{\text{net}} = \frac{V_{\text{cu ft}} \times \text{Density (lbs/ft}^3\text{)}}{2000}$$
 $$\text{Tonnage}_{\text{gross}} = \text{Tonnage}_{\text{net}} \times \left(1 + \frac{W}{100}\right)$$
 
 Where standard dense hot mix asphalt density is $145\text{ lbs/ft}^3$ ($2.025\text{ tons/yd}^3$).
 
 ### 3. Total Material Cost
+
 $$\text{Total Cost} = \text{Tonnage}_{\text{gross}} \times \text{Price per Ton}$$
 
 ---
 
 ## Asphalt Calculator Benchmarks & Comparison Table
+
 Coverage rates and volume benchmarks per ton of hot mix asphalt across common compacted thicknesses:
 
 | Compacted Thickness | Coverage per Ton (Sq Ft) | Volume per Ton (Cu Yds) | Recommended Application |
@@ -202,6 +206,7 @@ Coverage rates and volume benchmarks per ton of hot mix asphalt across common co
 ---
 
 ## How to Use the Asphalt Calculator Step-by-Step
+
 1. **Measure Paving Dimensions:** Measure length and width of the driveway or parking lot in feet to calculate total square footage.
 2. **Select Compacted Depth:** Choose thickness in inches based on expected load requirements (e.g., 2" overlay, 3" driveway, 4" parking lot).
 3. **Set Material Density:** Use default 145 lbs/cu ft for standard dense hot mix asphalt (HMA).
@@ -211,23 +216,31 @@ Coverage rates and volume benchmarks per ton of hot mix asphalt across common co
 ---
 
 ## Asphalt Calculator Frequently Asked Questions
+
 ### How many square feet does 1 ton of asphalt cover?
+
 At a standard compacted depth of 2 inches, 1 ton of asphalt covers approximately 80 square feet. At 3 inches depth, 1 ton covers roughly 53.3 square feet.
 
 ### What is the recommended asphalt thickness for residential driveways?
+
 A standard residential asphalt driveway requires a 3-inch compacted asphalt surface over a 6- to 8-inch aggregate base.
 
 ### How much does a ton of hot mix asphalt cost?
+
 Hot mix asphalt material typically costs between $80 and $130 per ton at the plant, depending on crude oil prices and regional market rates.
 
 ### What density factor should be used for hot mix asphalt?
+
 Standard dense-graded hot mix asphalt (HMA) has an average compacted density of 145 lbs per cubic foot (or 2.025 tons per cubic yard).
 
 ### How much compaction loss occurs during asphalt rolling?
+
 Loose uncompacted hot asphalt compresses by approximately 20% to 25% when rolled. A 3.75-inch loose lift compacts down to a 3-inch finished pavement layer.
 
 ### Can cold patch asphalt be calculated with this tool?
+
 Yes, cold mix asphalt has a similar uncompacted bulk density (~140–145 lbs/cu ft), though it is generally purchased in 50 lb bags for localized pothole repair.
 
 ### Why should a waste and compaction factor be added?
+
 Adding 5% to 10% accounts for subgrade thickness variations, edge spillage, hand raking loss, and truck bed residual waste.

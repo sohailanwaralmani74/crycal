@@ -156,14 +156,18 @@ Using this **Pipeline Coverage Ratio Calculator** enables sales VP's, managers, 
 ---
 
 ## Pipeline Coverage Ratio Calculator Mathematical Formulas & Mechanics
+
 ### 1. Pipeline Coverage Ratio
+
 $$\text{Pipeline Coverage Ratio} = \frac{\text{Active Open Pipeline Value (\$)}}{\text{Sales Quota Target (\$)}}$$
 
 ### 2. Mathematically Required Pipeline (for 100% Quota)
+
 $$\text{Required Coverage Multiple} = \frac{100}{\text{Win Rate (\%)}} = \frac{1}{\text{Win Rate (decimal)}}$$
 $$\text{Required Pipeline Value (\$)} = \frac{\text{Sales Quota Target (\$)}}{\text{Win Rate (decimal)}}$$
 
 ### 3. Pipeline Gap & Attainment Projection
+
 $$\text{Pipeline Gap (\$)} = \text{Active Open Pipeline} - \text{Required Pipeline}$$
 $$\text{Projected Revenue (\$)} = \text{Active Open Pipeline} \times \left( \frac{\text{Win Rate (\%)}}{100} \right)$$
 $$\text{Projected Quota Attainment (\%)} = \left( \frac{\text{Projected Revenue}}{\text{Sales Quota Target}} \right) \times 100$$
@@ -171,6 +175,7 @@ $$\text{Projected Quota Attainment (\%)} = \left( \frac{\text{Projected Revenue}
 ---
 
 ## Pipeline Coverage Ratio Calculator Benchmarks & Comparison Table
+
 Required pipeline coverage multiples across historical win rates and sales models:
 
 | Historical Opportunity Win Rate | Mathematically Required Coverage | Standard Target Coverage | Primary Sales Model | Risk Level at 3.0x Coverage |
@@ -184,6 +189,7 @@ Required pipeline coverage multiples across historical win rates and sales model
 ---
 
 ## How to Use the Pipeline Coverage Ratio Calculator Step-by-Step
+
 1. **Input Sales Quota Target:** Enter total revenue target in dollars for your individual account executive or full sales team.
 2. **Enter Active Open Pipeline Value:** Sum total unweighted dollar value of active open deals scheduled to close within the period.
 3. **Set Historical Win Rate:** Input average opportunity-to-won win rate percentage based on historical CRM close data.
@@ -193,23 +199,31 @@ Required pipeline coverage multiples across historical win rates and sales model
 ---
 
 ## Pipeline Coverage Ratio Calculator Frequently Asked Questions
+
 ### What is a pipeline coverage ratio?
+
 The pipeline coverage ratio measures total open sales pipeline value relative to your sales quota target. For example, $1,000,000 in open pipeline against a $250,000 quota yields a 4.0x pipeline coverage ratio.
 
 ### What is a good pipeline coverage ratio in B2B SaaS?
+
 A standard benchmark for B2B SaaS sales teams is 3.0x to 4.0x pipeline coverage. If your historical win rate is 25%, you mathematically require 4.0x coverage to hit 100% of your quota target.
 
 ### How does opportunity win rate impact required pipeline coverage?
+
 Required coverage is inversely proportional to win rate. A rep with a 33% win rate needs 3.0x coverage, while a rep with a 20% win rate requires 5.0x coverage to achieve the same quota goal.
 
 ### Why is a 1.0x pipeline coverage ratio insufficient?
+
 A 1.0x coverage ratio assumes a 100% win rate—which never happens in B2B sales. Having only 1.0x coverage guarantees missing your sales target unless deals expand dramatically.
 
 ### What is weighted vs unweighted pipeline coverage?
+
 Unweighted coverage measures total raw open deal values. Weighted coverage multiplies each deal by its stage probability percentage (e.g., $100k deal at 50% demo stage = $50k weighted value).
 
 ### When during the quarter should pipeline coverage be measured?
+
 Pipeline coverage should be measured at Day 1 of the sales quarter based on deals with close dates within that quarter, allowing time for SDRs to generate missing coverage if a deficit exists.
 
 ### How can sales leaders fix a pipeline coverage deficit?
+
 Increase SDR outbound prospecting, launch targeted marketing lead generation campaigns, shorten sales cycle length, or train account executives to improve demo win rates.

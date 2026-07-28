@@ -167,23 +167,31 @@ $$\text{Remaining Deferred Revenue} = \text{Upfront Annual Billing} - \text{Cumu
 ---
 
 ## Deferred Revenue Calculator Frequently Asked Questions
+
 ### What is Deferred Revenue in SaaS?
+
 Deferred revenue (or unearned revenue) is cash collected upfront from customers for subscription services that have not yet been delivered. It is listed as a short-term liability on the balance sheet.
 
 ### Why is Deferred Revenue recorded as a liability rather than equity or profit?
+
 Because the software provider still owes the customer service performance over the remaining contract term. If the service terminates early, unearned cash may be refundable.
 
 ### How does Deferred Revenue burn down over time?
+
 Each month, an equal portion of deferred revenue transfers from the balance sheet (liability) to the income statement as earned GAAP revenue.
 
 ### What is the formula for Remaining Deferred Revenue?
+
 Remaining Deferred Revenue = Total Upfront Cash − (Monthly Earned Revenue × Months Elapsed).
 
 ### How does upfront annual billing improve SaaS cash flow?
+
 Upfront annual billing provides immediate positive working capital, eliminating working capital deficits and allowing companies to re-invest cash into customer acquisition.
 
 ### What is the impact of contract cancellation on Deferred Revenue?
+
 If a contract cancels early, remaining deferred revenue is either refunded in cash or credited, reducing the balance sheet liability.
 
 ### How do auditors verify Deferred Revenue balances?
+
 Auditors reconcile invoice billing dates, contract start/end dates, and ratable monthly revenue schedules across customer contracts.

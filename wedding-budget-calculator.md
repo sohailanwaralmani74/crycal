@@ -167,21 +167,28 @@ Planning a wedding requires balancing multiple vendor contracts simultaneously. 
 ---
 
 ## Wedding Budget Calculator Frequently Asked Questions
+
 ### How should a wedding budget be allocated across categories?
+
 Industry benchmarks suggest allocating approximately 45-50% for venue and catering, 10-12% for photography/video, 10% for music/entertainment, 10% for flowers/decor, 8% for attire/beauty, and 8-10% for emergency cushion and gifts.
 
 ### What is the average cost per guest for a wedding?
+
 The average cost per guest ranges from $150 to $350+ depending on venue location, dinner service style (plated vs buffet), and open bar options.
 
 ### How can couples prevent wedding budget overspending?
+
 Keep a strict guest count, secure 15% emergency cash cushion, limit bar options to beer and wine, and avoid locking in venue contracts before agreeing on a total budget cap.
 
 ### Should hidden costs like tips and service fees be included in the budget?
+
 Yes! Service charges (often 20-24% added by venues) and sales taxes can add thousands to catering contracts. Always factor these into your venue/catering allocation.
 
 ### How does guest count impact overall wedding expenses?
+
 Guest count directly drives catering, bar costs, table rentals, invitation counts, and favor costs—representing over 50% of variable wedding expenses.
 
 ### What is a reasonable buffer for unexpected wedding expenses?
+
 Financial planners recommend holding back 10% to 15% of your total budget for last-minute additions, weather backup plans, overtime vendor fees, and tips.
 

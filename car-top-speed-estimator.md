@@ -208,7 +208,9 @@ Key aerodynamic factors:
 ---
 
 ## Car Top Speed Estimator Mathematical Formulas
+
 ### 1. Total Resistance Power Equation ($P_{\text{total}}$)
+
 \[
 P_{\text{total}} = \left[ \frac{1}{2} \cdot \rho \cdot \left(C_d \cdot A_{\text{m2}}\right) \cdot v^3 \right] + \left[ C_{rr} \cdot m_{\text{kg}} \cdot g \cdot v \right]
 \]
@@ -220,6 +222,7 @@ Where:
 - $1 \text{ HP} = 745.7 \text{ Watts}$
 
 ### 2. Convertible Terminal Speed Conversion
+
 \[
 v_{\text{mph}} = v_{\text{m/s}} \times 2.23694, \quad v_{\text{km/h}} = v_{\text{m/s}} \times 3.6
 \]
@@ -238,6 +241,7 @@ v_{\text{mph}} = v_{\text{m/s}} \times 2.23694, \quad v_{\text{km/h}} = v_{\text
 ---
 
 ## Step-by-Step Car Top Speed Estimator Usage Guide
+
 1. **Enter Wheel Horsepower**: Input net horsepower available at the wheels (whp).
 2. **Provide Cd and Frontal Area**: Input drag coefficient ($C_d$) and frontal area (sq ft).
 3. **Set Air Density & Weight**: Provide local air density and gross vehicle weight.
@@ -246,23 +250,31 @@ v_{\text{mph}} = v_{\text{m/s}} \times 2.23694, \quad v_{\text{km/h}} = v_{\text
 ---
 
 ## Car Top Speed Estimator Frequently Asked Questions
+
 ### Why does doubling horsepower not double a car's top speed?
+
 Aerodynamic drag force increases with the square of velocity ($v^2$), which means the power required to overcome air resistance increases with the cube of velocity ($v^3$). Doubling top speed requires 8 times more horsepower ($2^3 = 8$).
 
 ### What is Drag Coefficient (Cd)?
+
 Drag Coefficient ($C_d$) measures how efficiently a vehicle shape pierces through surrounding air. Modern sleek cars range from 0.20 to 0.35 $C_d$, while boxy trucks exceed 0.45 $C_d$.
 
 ### What is total drag area ($C_d \times A$)?
+
 Total drag area ($C_d \times A$) multiplies drag coefficient by frontal area (sq ft) to determine total aerodynamic air resistance.
 
 ### What limits top speed: gearing or aerodynamics?
+
 A vehicle's top speed can be gear-limited (engine hits redline in top gear) or power-drag-limited (aerodynamic air resistance equals maximum engine thrust).
 
 ### How does altitude / air density impact top speed?
+
 At higher elevations, air density ($\rho$) is lower, reducing aerodynamic drag. However, naturally aspirated engines lose ~3% power per 1,000 feet of elevation unless turbocharged.
 
 ### What is wheel horsepower (whp) vs crank horsepower?
+
 Crank horsepower is measured at the engine flywheel, whereas wheel horsepower (whp) measures power after ~12%–18% drivetrain mechanical friction losses.
 
 ### Does the car top speed estimator store my data?
+
 No. All calculations run strictly in your local browser.

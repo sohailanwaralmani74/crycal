@@ -192,21 +192,28 @@ Below is a spacing guide for arranging **3 identical frames** across different w
 ---
 
 ## Wall Art Gallery Wall Spacing Calculator Frequently Asked Questions
+
 ### What is the standard eye-level height for hanging wall art?
+
 The museum standard eye-level hanging height is 57 inches (or 145 cm) from the floor to the exact vertical center of the artwork frame.
 
 ### How much space should be between frames in a gallery wall?
+
 The ideal gap spacing between gallery wall frames is 2 to 3 inches (5 to 7.5 cm) for medium frames, or 3 to 4 inches for large oversized artwork.
 
 ### How high should art be hung above a sofa or headboard?
+
 The bottom edge of artwork should hang 6 to 10 inches above the top of a sofa back, console table, or headboard.
 
 ### How do I calculate gap spacing for a row of frames?
+
 Subtract total combined frame width from available gallery space, then divide by (Number of Frames − 1).
 
 ### What if my room has high ceilings (10+ feet)?
+
 For rooms with 10-foot or higher ceilings, adjust eye-level center height up slightly to 60 inches from the floor.
 
 ### How do I find where to put the picture nail/hook?
+
 Measure from top of frame to the taut hanging wire/hook bracket, then subtract that distance from the Frame Top Edge Height above floor.
 

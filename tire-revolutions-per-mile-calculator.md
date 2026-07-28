@@ -142,9 +142,11 @@ This calculator computes exact rotation counts, incorporating real-world loaded 
 ---
 
 ## Tire Revolutions per Mile Calculator Calculation Flow & Formulas
+
 The formula computes unloaded sidewall height, applies loaded deflection radius, and calculates rolling circumference:
 
 ### Tire Revolutions per Mile Calculator Inputs & Parameters
+
 | Parameter | Unit | Description |
 | :--- | :--- | :--- |
 | **Section Width (\(W\))** | mm | Tire section width |
@@ -155,7 +157,9 @@ The formula computes unloaded sidewall height, applies loaded deflection radius,
 ---
 
 ### Step-by-Step Tire Revolutions per Mile Calculator Formulas
+
 #### 1. Unloaded Sidewall & Diameter
+
 \[
 H_{sidewall} = \frac{W \times \frac{AR}{100}}{25.4} \quad \text{(in inches)}
 \]
@@ -164,16 +168,19 @@ D_{unloaded} = R + (2 \times H_{sidewall})
 \]
 
 #### 2. Loaded Diameter (\(D_{loaded}\))
+
 \[
 D_{loaded} = R + \left(2 \times H_{sidewall} \times \left(1 - \frac{\delta}{100}\right)\right)
 \]
 
 #### 3. Loaded Circumference (\(C_{loaded}\))
+
 \[
 C_{loaded} = \pi \times D_{loaded} \quad \text{(in inches)}
 \]
 
 #### 4. Revolutions Per Mile (\(N_{mile}\)) & Kilometer (\(N_{km}\))
+
 \[
 N_{mile} = \frac{63,360}{C_{loaded}}
 \]
@@ -195,6 +202,7 @@ N_{km} = \frac{N_{mile}}{1.609344}
 ---
 
 ## How to Use the Tire Revolutions per Mile Calculator Step-by-Step
+
 1. **Locate Tire Size**: Read tire size code off tire sidewall (e.g., `225/50R17`).
 2. **Enter Metrics**: Input width (`225`), aspect ratio (`50`), and rim size (`17`).
 3. **Set Deflection**: Keep 3.0% for standard passenger cars or set 4.0% for heavy loaded trucks.
@@ -203,23 +211,31 @@ N_{km} = \frac{N_{mile}}{1.609344}
 ---
 
 ## Tire Revolutions per Mile Calculator Frequently Asked Questions
+
 ### What is tire revolutions per mile (revs/mile)?
+
 Tire revolutions per mile is the exact number of times a tire completes a full 360-degree rotation while traveling a distance of one mile (63,360 inches).
 
 ### Why is loaded tire radius smaller than static unloaded radius?
+
 When a tire supports vehicle weight, the bottom section of the tire deflects (squishes), reducing the rolling radius by approximately 2% to 4% compared to an unweighted tire off the ground.
 
 ### Why is revs per mile important for speedometer calibration?
+
 Engine Control Units (ECUs) and transmission controllers calibrate vehicle speed and odometer distance based on pulses per revolution. Changing revs/mile alters speedometer accuracy.
 
 ### How many inches are in one mile?
+
 There are exactly **63,360 inches** in one statute mile (5,280 feet × 12 inches).
 
 ### How do you calculate revolutions per kilometer from revs per mile?
+
 To convert revolutions per mile to revolutions per kilometer, divide the revs per mile by **1.609344** (since 1 mile = 1.609344 km).
 
 ### Do worn tires increase revolutions per mile?
+
 Yes. As tire tread wears down by 8/32 of an inch, overall diameter decreases by 0.5 inches, causing the tire to rotate ~2% more times per mile.
 
 ### Is my calculation saved in any online database?
+
 No. All calculations run strictly inside your browser for total user privacy.

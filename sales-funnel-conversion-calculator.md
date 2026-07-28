@@ -179,20 +179,25 @@ Using this **Sales Funnel Conversion Calculator** enables revenue operations, sa
 ---
 
 ## Sales Funnel Conversion Calculator Mathematical Formulas & Mechanics
+
 ### 1. Stage-by-Stage Conversion Rates
+
 $$\text{Visitor-to-Lead Rate (\%)} = \left( \frac{\text{Leads}}{\text{Visitors}} \right) \times 100$$
 $$\text{Lead-to-SQL Rate (\%)} = \left( \frac{\text{SQLs}}{\text{Leads}} \right) \times 100$$
 $$\text{Opportunity Win Rate (\%)} = \left( \frac{\text{Closed-Won Deals}}{\text{Opportunities}} \right) \times 100$$
 
 ### 2. Overall Funnel Conversion Rate
+
 $$\text{Overall Funnel Conversion (\%)} = \left( \frac{\text{Closed-Won Deals}}{\text{Visitors}} \right) \times 100$$
 
 ### 3. Total Closed Revenue Calculation
+
 $$\text{Total Closed Revenue} = \text{Closed-Won Deals} \times \text{Average Contract Value (ACV)}$$
 
 ---
 
 ## Sales Funnel Conversion Calculator Benchmarks & Comparison Table
+
 Standard performance metrics across SaaS funnel business models:
 
 | Funnel Stage Transition | Inbound PLG Benchmark | Inbound Sales-Led | Outbound Enterprise | Primary Optimization Lever |
@@ -207,6 +212,7 @@ Standard performance metrics across SaaS funnel business models:
 ---
 
 ## How to Use the Sales Funnel Conversion Calculator Step-by-Step
+
 1. **Enter Website Visitors:** Input total traffic count for your measured period (e.g., monthly unique visitors).
 2. **Input Lead & Qualification Numbers:** Enter total leads created, along with marketing-qualified (MQL) and sales-qualified (SQL) totals.
 3. **Specify Opportunities & Wins:** Input total qualified deals opened by account executives and final closed-won customer counts.
@@ -216,23 +222,31 @@ Standard performance metrics across SaaS funnel business models:
 ---
 
 ## Sales Funnel Conversion Calculator Frequently Asked Questions
+
 ### What is a sales funnel conversion rate?
+
 A sales funnel conversion rate measures the percentage of prospects that progress from one stage of your marketing and sales funnel to the next, ultimate concluding in a closed-won customer.
 
 ### How do you calculate overall funnel conversion rate?
+
 Divide total closed-won deals by total top-of-funnel website visitors and multiply by 100: (Closed Deals / Visitors) * 100.
 
 ### What is a good B2B SaaS visitor-to-lead conversion rate?
+
 Average B2B SaaS visitor-to-lead conversion rates range between 1.5% and 3.5%, while high-performing product-led growth (PLG) sites achieve 5% to 8%.
 
 ### What is the difference between MQL and SQL conversion rates?
+
 MQL conversion measures leads that fit target demographic criteria, whereas SQL conversion measures qualified leads accepted by sales reps for active discovery calls.
 
 ### Why is tracking stage-by-stage drop-off important?
+
 Tracking stage drop-off pinpoints specific friction points—such as poor landing page copy, slow lead response times, or weak demo closing skills.
 
 ### How does deal size impact required funnel volume?
+
 Lower average deal sizes require higher top-of-funnel traffic volumes to achieve revenue goals, while enterprise deals require lower volume but higher conversion velocity.
 
 ### How can teams improve sales funnel conversion rates?
+
 Optimize landing page conversion elements, align sales and marketing qualification criteria, shorten lead response times, and implement targeted automated email nurtures.

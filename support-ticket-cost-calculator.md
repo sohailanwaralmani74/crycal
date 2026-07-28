@@ -148,6 +148,7 @@ Customer support is a critical component of customer retention and SaaS gross ma
 ---
 
 ## Support Ticket Cost Calculator Mathematical Formulas
+
 ### 1. Cost Per Ticket
 
 $$ \text{Total Monthly Support Expense} = \text{Monthly Support Payroll} + \text{Monthly Support Software} $$
@@ -176,6 +177,7 @@ $$ \text{Annual Support Expenditure} = \text{Total Monthly Support Expense} \tim
 ---
 
 ## Step-by-Step Support Ticket Cost Calculator Guide
+
 1. **Sum Monthly Support Payroll**: Include salaries, benefits, and team lead management overhead.
 2. **Add Helpdesk Tool Subscriptions**: Add Zendesk, Intercom, Gong, and phone provider invoices.
 3. **Export Monthly Ticket Count**: Filter closed/resolved tickets from your helpdesk report.
@@ -184,20 +186,27 @@ $$ \text{Annual Support Expenditure} = \text{Total Monthly Support Expense} \tim
 ---
 
 ## Support Ticket Cost Calculator Frequently Asked Questions
+
 ### What is Cost Per Support Ticket?
+
 Cost Per Support Ticket is a customer operations metric measuring the fully-loaded financial cost to answer, troubleshoot, and resolve a single customer inquiry.
 
 ### How is Cost Per Support Ticket calculated?
+
 Formula: Cost Per Ticket = (Monthly Support Payroll + Monthly Support Software Costs) / Total Monthly Resolved Tickets.
 
 ### What is a good cost per ticket for B2B SaaS?
+
 Tier 1 email/chat support averages $8 to $15 per ticket. Complex technical Tier 2/3 engineering support averages $25 to $60+ per ticket.
 
 ### Why is cost per ticket important for SaaS gross margins?
+
 High support ticket costs reduce gross margins. Lowering ticket resolution costs increases net subscription gross margin percentage.
 
 ### How does AI and self-service knowledge base affect cost per ticket?
+
 AI chatbots and self-service knowledge bases deflect repetitive tier-1 tickets, lowering overall ticket volume and freeing agents for complex inquiries.
 
 ### How can a company reduce support ticket cost?
+
 Reduce cost per ticket by improving in-product UI UX clarity, publishing detailed documentation, using AI auto-responders, and implementing macros for common questions.

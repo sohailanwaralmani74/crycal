@@ -180,25 +180,32 @@ Where:
 
 
 ## Strategic Guidance for CAGR Calculator
+
 Using this interactive calculation engine provides a clear, quantitative roadmap for your decisions. By eliminating mathematical uncertainty, you can optimize financial allocations, compare scenarios side-by-side, and make data-driven choices.
 
 ### Key Tactical Benefits of CAGR Calculator
+
 - **Mathematical Certainty**: Eliminates guesswork by modeling multi-variable compounding and precise cost structures.
 - **Scenario Comparison**: Test multiple interest rates, payment timelines, and capital allocations in real-time.
 - **Privacy Assurance**: All data remains 100% confidential within your local browser memory, with zero remote server logging.
 - **Export & Audit Readiness**: Log calculations to local browser storage, export full histories to CSV/Excel, or share via link.
 
 ## CAGR Calculator Frequently Asked Questions
+
 ### What is CAGR?
+
 CAGR stands for Compound Annual Growth Rate. It's the annualized rate of return that would be required for an investment to grow from its initial value to its final value over a specific time period.
 
 ### What is the CAGR formula?
+
 CAGR = (Final Value / Initial Value)^(1 / Years) − 1. This gives you the average annual growth rate over the time period.
 
 ### What is the difference between CAGR and average return?
+
 Average return is the arithmetic mean of annual returns. CAGR is the geometric mean, which accounts for compounding and gives a more accurate picture of investment growth over time.
 
 ### Can I use this calculator for any investment?
+
 Yes — use it for stocks, mutual funds, crypto, real estate, or any investment where you have start and end values.
 
 ---

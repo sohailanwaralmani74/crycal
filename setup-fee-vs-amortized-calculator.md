@@ -157,6 +157,7 @@ This calculator helps finance and sales teams evaluate whether to charge **Upfro
 ---
 
 ## Key Setup Fee vs Amortized Calculator Mathematical Formulas
+
 ### 1. Upfront Model Total Contract Value & Day 1 Cash
 
 $$ \text{Day 1 Cash (Upfront)} = \text{Annual Subscription} + \text{Upfront Setup Fee} $$
@@ -196,20 +197,27 @@ $$ \text{Contract Delta} = \text{Total Amortized TCV} - \text{Total Upfront TCV}
 ---
 
 ## Setup Fee vs Amortized Calculator Frequently Asked Questions
+
 ### Why do B2B SaaS companies charge setup or onboarding fees?
+
 Setup fees cover professional services costs (custom data migration, API integrations, staff training), qualify buyer commitment, and offset initial customer acquisition costs.
 
 ### What is an amortized setup fee?
+
 An amortized setup fee divides a lump-sum onboarding charge into equal monthly installments spread across the contract term (e.g., $3,000 setup divided into $250/month over 12 months).
 
 ### Why apply an amortization markup premium?
+
 Charging a 10% to 15% premium for monthly amortization compensates the SaaS vendor for taking on credit risk and giving up immediate Day 1 cash liquidity.
 
 ### Does waiving setup fees increase sales conversions?
+
 Waiving setup fees increases short-term deal velocity but can increase 90-day churn if buyers lack skin in the game or skip crucial implementation milestones.
 
 ### How does CapEx vs OpEx affect enterprise setup fee preferences?
+
 Enterprise buyers with rigid capital expenditure (CapEx) budgets often prefer lump-sum upfront setup fees, while SMB buyers prefer OpEx monthly installments.
 
 ### How is Total Amortized Contract Value calculated?
+
 TCV Amortized = (Annual Subscription Fee) + (Upfront Setup Fee × (1 + Markup %)).

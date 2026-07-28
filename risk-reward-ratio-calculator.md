@@ -233,19 +233,25 @@ Understanding your risk-reward ratio is essential for consistent trading. This r
 ---
 
 ## Risk Reward Ratio Calculator Frequently Asked Questions
+
 ### What is the risk-reward ratio?
+
 The risk-reward ratio compares the potential loss (risk) to the potential gain (reward) on a trade. It's calculated as (Entry − Stop-Loss) / (Take-Profit − Entry).
 
 ### What is a good risk-reward ratio?
+
 A ratio of 1:2 or higher is generally considered good. This means you're risking $1 to make $2 or more. Professional traders typically target 1:2 or 1:3.
 
 ### What is the reward-to-risk ratio?
+
 The reward-to-risk ratio is the inverse of the risk-reward ratio. It shows how much you stand to gain for every dollar risked. A 1:2 risk-reward ratio equals a 2:1 reward-to-risk ratio.
 
 ### How do I calculate my risk per trade?
+
 Risk per trade = (Entry Price − Stop-Loss Price) × Position Size × Per-Unit Value. This calculator does this automatically when you enter position size and per-unit value.
 
 ### What is the required take-profit for a target ratio?
+
 The required take-profit for a target ratio is the price level that achieves your desired risk-reward ratio. This calculator shows the required take-profit for a 1:2 ratio as a benchmark.
 
 ---

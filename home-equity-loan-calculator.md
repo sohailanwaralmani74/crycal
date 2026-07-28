@@ -144,6 +144,7 @@ Furthermore, this tool operates with 100% client-side privacy. Your income, debt
 ---
 
 ## Home Equity Loan Calculator Mathematical Formulas & Mechanics
+
 The monthly payment for a fixed-rate home equity loan is calculated using the standard annuity amortization formula:
 
 $$M = P \cdot \frac{r(1 + r)^n}{(1 + r)^n - 1}$$
@@ -169,6 +170,7 @@ $$\text{Principal Portion}_t = M - \text{Interest Portion}_t$$
 ---
 
 ## Home Equity Loan Calculator Benchmarks & Comparison Table
+
 The following comparison matrix illustrates how repayment schedules and interest costs scale across common loan terms for a **$60,000 Home Equity Loan** at a fixed **7.75% APR**:
 
 | Loan Term | Monthly Payment | Total Repayment | Cumulative Interest | Interest % of Principal |
@@ -184,6 +186,7 @@ The following comparison matrix illustrates how repayment schedules and interest
 ---
 
 ## How to Use the Home Equity Loan Calculator Step-by-Step
+
 1. **Set Currency Preference**: Use the currency dropdown in the top header to format figures for USD ($), EUR (€), GBP (£), or 170+ other global currencies.
 2. **Enter Desired Loan Amount**: Input the lump-sum principal amount you intend to borrow against your equity.
 3. **Specify Fixed Interest Rate**: Input the annual percentage rate (APR) quoted by your lender or credit union.
@@ -194,23 +197,31 @@ The following comparison matrix illustrates how repayment schedules and interest
 ---
 
 ## Home Equity Loan Calculator Frequently Asked Questions
+
 ### What is a Home Equity Loan?
+
 A home equity loan is a fixed-rate second mortgage that provides a single lump-sum payout backed by your property equity, paid back over a structured term with fixed monthly payments.
 
 ### How does a Home Equity Loan differ from a HELOC?
+
 A Home Equity Loan provides a lump sum with a fixed interest rate and equal monthly payments. A HELOC is a revolving credit line with variable rates and flexible draw periods.
 
 ### How much home equity can I borrow?
+
 Most lenders limit your Combined Loan-to-Value (CLTV) ratio to 80% or 85% of your home's appraised market value minus your primary mortgage balance.
 
 ### Are home equity loan interest payments tax-deductible?
+
 Interest may be tax-deductible if the loan proceeds are used exclusively to buy, build, or substantially improve the primary or secondary home securing the loan.
 
 ### What credit score is required for a home equity loan?
+
 Most lenders require a minimum credit score of 620 to 680, along with a debt-to-income (DTI) ratio below 43% and sufficient home equity.
 
 ### What closing costs are associated with home equity loans?
+
 Closing costs typically range between 2% and 5% of the loan amount, covering appraisal fees, title search, origination fees, and credit checks.
 
 ### Is my financial information safe while using this tool?
+
 Yes, 100%. All calculation formulas run locally in your web browser. No financial data is sent to external servers or stored anywhere.

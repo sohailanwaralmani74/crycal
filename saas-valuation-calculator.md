@@ -208,20 +208,27 @@ $$V = \text{ARR} \times M_{eff}$$
 ---
 
 ## Saas Valuation Calculator Frequently Asked Questions
+
 ### How is SaaS valuation calculated using ARR multiples?
+
 SaaS valuation is calculated by multiplying Annual Recurring Revenue (ARR) by an ARR multiple: Valuation = ARR × Multiple. The multiple is adjusted based on growth rate, NRR, and gross margins.
 
 ### What is a standard SaaS ARR valuation multiple?
+
 Public and private SaaS multiples typically range between 5x and 15x ARR depending on market conditions, with high-growth top quartile companies commanding multiples above 15x–20x.
 
 ### How does growth rate impact valuation multiples?
+
 Growth rate is the strongest driver of SaaS valuation multiples. A company growing at 100%+ YoY can command a 2x to 3x premium over a company growing at 20% YoY.
 
 ### Why is Net Revenue Retention (NRR) important for valuation?
+
 NRR above 110%–120% proves expansion from existing customers, demonstrating strong product-market fit, lower churn, and higher compounding efficiency, which expands valuation multiples.
 
 ### What is the difference between pre-money and post-money valuation?
+
 Pre-money valuation is the agreed value of the company before receiving new investment capital, whereas post-money valuation equals pre-money valuation plus the new capital raised.
 
 ### Is my data private when using this calculator?
+
 Yes. All calculations execute locally in your web browser. No financial data is ever stored or transmitted to external servers.

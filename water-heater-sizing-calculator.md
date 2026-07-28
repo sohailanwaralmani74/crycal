@@ -167,12 +167,15 @@ For **tankless water heaters**, sizing depends heavily on **incoming groundwater
 ## Water Heater Sizing Formulas
 
 ### 1. Temperature Rise ($\Delta T$):
+
 $$\Delta T = T_{\text{target}} - T_{\text{incoming}}$$
 
 ### 2. Tank First Hour Rating (FHR Demand):
+
 $$\text{FHR (Gallons)} = (\text{Showers} \times 16) + (\text{Occupants} \times 3) + 15\ (\text{Laundry}) + 6\ (\text{Dishwasher})$$
 
 ### 3. Tankless BTU Heating Requirement:
+
 $$\text{BTU/hr} = \frac{\text{GPM} \times \Delta T \times 8.33 \times 60}{\text{Thermal Efficiency}}$$
 
 $$\text{Gas BTU/hr} \approx \text{GPM} \times \Delta T \times 500$$
@@ -210,21 +213,28 @@ Where:
 ---
 
 ## Water Heater Sizing Calculator Frequently Asked Questions
+
 ### What is First Hour Rating (FHR) for tank water heaters?
+
 First Hour Rating (FHR) is the standardized Yellow EnergyGuide metric representing the total number of gallons of hot water a storage tank heater can supply in one hour starting with a full tank of hot water.
 
 ### How do I size a tankless water heater?
+
 Add up the flow rates (GPM) of all fixtures you plan to run at the exact same time, then calculate the temperature rise ($\Delta T = T_{\text{output}} - T_{\text{incoming}}$). Select a unit rated for that GPM flow at your calculated $\Delta T$.
 
 ### What is temperature rise (Delta T) in water heater sizing?
+
 Temperature rise ($\Delta T$) is the temperature difference between incoming cold groundwater and desired hot tap water ($120^\circ\text{F}$). The larger the $\Delta T$, the more energy required, reducing the max GPM a tankless unit can produce.
 
 ### What size water heater do I need for a family of 4?
+
 A typical family of 4 requires a **50-gallon gas tank** (FHR 65–75 gallons), a **66–80 gallon electric/heat pump tank** (FHR 60–70 gallons), or a **7.5 to 9.5 GPM gas tankless unit**.
 
 ### Why does incoming groundwater temperature affect tankless water heater capacity?
+
 Tankless units heat water instantly as it passes through the heat exchanger. Heating $40^\circ\text{F}$ winter groundwater to $120^\circ\text{F}$ ($\Delta T = 80^\circ\text{F}$) takes double the heating energy of warming $60^\circ\text{F}$ groundwater ($\Delta T = 60^\circ\text{F}$).
 
 ### Is a gas tankless water heater better than an electric tankless?
+
 Gas tankless units output 160,000 to 199,000 BTU/hr, easily supplying 7 to 10 GPM for whole homes. Electric tankless units require massive electrical panel upgrades (120A to 150A dedicated circuits) and are generally limited to warm climates or single-point-of-use fixtures.
 

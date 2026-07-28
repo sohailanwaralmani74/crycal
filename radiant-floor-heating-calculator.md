@@ -204,21 +204,28 @@ $$\text{Circuit Amperage Draw (Amps)} = \frac{\text{Thermostat Wattage Load (W)}
 ---
 
 ## Radiant Floor Heating Calculator Frequently Asked Questions
+
 ### How do you calculate net heated floor area for radiant heat?
+
 Net Heated Area = (Total Room Area - Unheated Fixture Area) × 0.90. A 4-inch perimeter buffer is subtracted around all exterior walls to avoid wasting heat under baseboards.
 
 ### How many watts per square foot does radiant floor heat use?
+
 Standard electric radiant floor heating systems consume 12 watts per square foot under tile, stone, or luxury vinyl plank, providing fast warmup times to 80°F–85°F.
 
 ### How much cable do I need per square foot of heated floor?
+
 At standard 3-inch cable spacing, loose heating wire requires 4 linear feet of cable per square foot of net heated floor area. At 4-inch spacing, it requires 3 linear feet per sq ft.
 
 ### Can electric heating cable be cut to length?
+
 NEVER cut electric resistance heating cable wire! Cutting resistance wire alters electrical ohms, causing extreme overheating and dangerous fire hazards. Always size heating mats/cables slightly smaller than net area.
 
 ### When should I use 120V vs 240V radiant heat?
+
 Use 120V for small heated areas up to 150 sq ft (max 15 Amps / 1,800 Watts). Use 240V for larger spaces over 150 sq ft (up to 300 sq ft on a single thermostat).
 
 ### How deep under tile should radiant heating cable be embedded?
+
 Heating cables should be fully encapsulated in self-leveling underlayment (SLU) or thin-set mortar with a minimum 1/4" mortar coverage above the wire.
 

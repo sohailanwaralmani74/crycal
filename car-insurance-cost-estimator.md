@@ -173,6 +173,7 @@ Using this **Car Insurance Cost Estimator**, you can anticipate your insurance b
 ---
 
 ## Car Insurance Cost Estimator Calculation Flow
+
 <div class="flow-chart">
   <div class="flow-title">Insurance Premium Calculation Flow</div>
 
@@ -229,9 +230,11 @@ Using this **Car Insurance Cost Estimator**, you can anticipate your insurance b
 ## Insurance Rating Formulas
 
 ### 1. Base Rate Calculation
+
 $$\text{Base Rate} = \$600 + (0.015 \times \text{Vehicle Value})$$
 
 ### 2. Adjusted Annual Premium
+
 $$\text{Annual Premium} = \text{Base Rate} \times F_{\text{Age}} \times F_{\text{Category}} \times F_{\text{Coverage}} \times F_{\text{Record}} \times F_{\text{Deductible}}$$
 
 ---
@@ -248,38 +251,51 @@ $$\text{Annual Premium} = \text{Base Rate} \times F_{\text{Age}} \times F_{\text
 ---
 
 ## Step-by-Step Car Insurance Cost Estimator Guide
+
 ### Step 1: Provide Vehicle & Driver Profile
+
 Enter vehicle value, driver age, and body category.
 
 ### Step 2: Choose Coverage Limits & Deductible
+
 Select state minimum, standard, full coverage, or premium full coverage along with collision deductible.
 
 ### Step 3: Select Driving History
+
 Indicate clean record, minor traffic ticket, recent accident fault, or major moving violation.
 
 ### Step 4: Compare Monthly vs Annual Expense
+
 Evaluate how changing coverage levels or raising deductibles changes your annual premium.
 
 ---
 
 ## Car Insurance Cost Estimator Frequently Asked Questions
+
 ### What factors affect auto insurance rates the most?
+
 Driver age, driving record, vehicle value/category, ZIP code location, coverage limits, and chosen deductible are the primary factors determining insurance premiums.
 
 ### Why do teen and young adult drivers pay higher premiums?
+
 Drivers aged 16 to 24 have statistically higher accident rates, causing insurance companies to charge premiums that are 50% to 150% above average.
 
 ### How much does raising my deductible save?
+
 Increasing your comprehensive and collision deductible from $250 to $1,000 can lower annual premiums by 15% to 25%.
 
 ### What is the difference between state minimum and full coverage?
+
 State minimum coverage only satisfies basic legal liability for bodily injury and property damage to others. Full coverage adds collision and comprehensive protection for your own car.
 
 ### Does car color impact insurance cost?
+
 No, car color has zero effect on auto insurance premiums. Insurers care about make, model, year, engine size, body style, and safety features.
 
 ### How long does a speeding ticket affect insurance?
+
 In most states, a minor speeding ticket impacts your insurance rate for 3 years, after which it drops off your MVR (Motor Vehicle Record).
 
 ### Is Car Insurance Cost Estimator calculation private?
+
 Yes, all data processing takes place strictly inside your browser.

@@ -181,22 +181,27 @@ Key ratio metrics:
 ---
 
 ## Horsepower to Weight Ratio Calculator Mathematical Formulas
+
 ### 1. Gross Weight ($W_{\text{gross}}$)
+
 \[
 W_{\text{gross}} = W_{\text{curb}} + W_{\text{driver}}
 \]
 
 ### 2. Horsepower per US Short Ton ($\text{Ratio}_{\text{hp/ton}}$)
+
 \[
 \text{Ratio}_{\text{hp/ton}} = \frac{\text{HP}}{W_{\text{gross}} / 2000}
 \]
 
 ### 3. Pounds per Horsepower ($\text{Ratio}_{\text{lbs/hp}}$)
+
 \[
 \text{Ratio}_{\text{lbs/hp}} = \frac{W_{\text{gross}}}{\text{HP}}
 \]
 
 ### 4. Kilowatts per Metric Tonne ($\text{Ratio}_{\text{kW/tonne}}$)
+
 \[
 \text{Ratio}_{\text{kW/tonne}} = \frac{\text{HP} \times 0.7457}{W_{\text{gross}} / 2204.62}
 \]
@@ -217,6 +222,7 @@ W_{\text{gross}} = W_{\text{curb}} + W_{\text{driver}}
 ---
 
 ## Step-by-Step Horsepower to Weight Ratio Calculator Usage Guide
+
 1. **Enter Horsepower**: Input peak engine output rating (e.g. 400 hp).
 2. **Input Curb Weight**: Enter factory curb weight (e.g. 3,200 lbs).
 3. **Add Driver & Cargo Weight**: Enter combined driver and passenger payload (e.g. 180 lbs).
@@ -225,23 +231,31 @@ W_{\text{gross}} = W_{\text{curb}} + W_{\text{driver}}
 ---
 
 ## Horsepower to Weight Ratio Calculator Frequently Asked Questions
+
 ### What is a good horsepower-to-weight ratio for a sports car?
+
 A sports car typically has a power-to-weight ratio between 200 and 300 hp per ton (8 to 10 lbs/hp). High-performance supercars exceed 400 hp per ton (sub-5 lbs/hp).
 
 ### Why is power-to-weight ratio more important than peak horsepower?
+
 A lightweight car with moderate horsepower (e.g. 300 hp in a 2,200 lb Lotus) will out-accelerate and out-handle a heavy vehicle with higher horsepower (e.g. 450 hp in a 5,000 lb SUV).
 
 ### How is hp per ton calculated?
+
 hp per US ton = Horsepower ÷ (Gross Weight in lbs ÷ 2,000).
 
 ### What is the difference between US Ton, Metric Tonne, and Imperial Ton in power calculations?
+
 1 US Short Ton = 2,000 lbs. 1 Metric Tonne = 1,000 kg (2,204.62 lbs). 1 Imperial Long Ton = 2,240 lbs.
 
 ### What power-to-weight ratio do Formula 1 cars achieve?
+
 Formula 1 cars produce approximately 1,000 hp for a minimum weight of 1,760 lbs (798 kg), yielding an incredible ~1,136 hp per ton (~1.76 lbs/hp).
 
 ### Does adding 200 lbs of passenger weight significantly affect performance?
+
 Yes. Adding 200 lbs to a 3,000 lb 300 hp car worsens the weight-to-power ratio from 10.0 lbs/hp to 10.67 lbs/hp, increasing 0-60 time by ~0.2 seconds.
 
 ### Does the horsepower-to-weight ratio calculator store my data?
+
 No. All calculations run strictly in your local browser.

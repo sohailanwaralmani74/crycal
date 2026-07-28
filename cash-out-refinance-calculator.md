@@ -154,9 +154,11 @@ As home values appreciate, home equity accumulates. A cash-out refinance replace
 Mortgage underwriting standards cap maximum borrowing limits relative to your home's appraised fair market value. For conventional mortgages, lenders enforce a maximum 80% Loan-to-Value (LTV) limit, requiring borrowers to maintain at least 20% equity after refinancing. Evaluating how much cash you can extract, how your new balance impacts monthly payments, and total closing costs is essential before refinancing. This calculator projects your maximum cash payout, updated monthly mortgage installments, and retained home equity securely and privately.
 
 ## Cash Out Refinance Calculator Mathematical Formulas & Mechanics
+
 The calculation determines maximum borrowing capacity under LTV guidelines, net cash payout, and new monthly mortgage installments.
 
 ### 1. Maximum Loan Amount & Cash-Out Payout
+
 Given appraised home value ($V_{home}$), maximum allowed LTV percentage ($LTV_{\%}$), and existing balance ($B_{exist}$):
 
 $$\text{Maximum Allowed Loan } L_{max} = V_{home} \times \left(\frac{LTV_{\%}}{100}\right)$$
@@ -166,6 +168,7 @@ $$\text{Maximum Cash-Out Payout } C_{payout} = \max\left(0, L_{max} - B_{exist}\
 $$\text{Retained Equity } E_{retained} = V_{home} - L_{max}$$
 
 ### 2. New Monthly Mortgage Payment
+
 The updated monthly principal and interest payment ($M_{new}$) on loan ($L_{max}$) at monthly rate $r = \frac{r_{new}}{1200}$ for $N_{months} = 12 \times Y_{term}$:
 
 $$M_{new} = L_{max} \times \left[ \frac{r(1 + r)^{N_{months}}}{(1 + r)^{N_{months}} - 1} \right]$$
@@ -173,6 +176,7 @@ $$M_{new} = L_{max} \times \left[ \frac{r(1 + r)^{N_{months}}}{(1 + r)^{N_{month
 Where $V_{home}$ is home appraisal value, $B_{exist}$ is current mortgage balance, $C_{payout}$ is cash received, and $M_{new}$ is updated monthly installment.
 
 ## Cash Out Refinance Calculator Benchmarks & Comparison Table
+
 | Appraised Home Value | Existing Mortgage Balance | Max LTV Limit % | Max Refinance Loan Amount | Max Cash-Out Payout | New Rate & Term | Updated Monthly Payment | Retained Home Equity |
 |---|---|---|---|---|---|---|---|
 | **$350,000** | $180,000 | 80% | $280,000 | **$100,000** | 6.50% (30 Yr) | **$1,770.00** | $70,000 |
@@ -182,6 +186,7 @@ Where $V_{home}$ is home appraisal value, $B_{exist}$ is current mortgage balanc
 | **$900,000** | $450,000 | 80% | $720,000 | **$270,000** | 6.25% (15 Yr) | **$6,177.30** | $180,000 |
 
 ## How to Use the Cash Out Refinance Calculator Step-by-Step
+
 1. **Enter Appraised Home Value**: Input current estimated fair market value of your residential property.
 2. **Input Existing Mortgage Balance**: Enter total principal balance currently owed on your primary mortgage.
 3. **Select Maximum Allowed LTV %**: Choose maximum loan-to-value limit (typically 80% for conventional loans or 85% for VA loans).
@@ -189,23 +194,31 @@ Where $V_{home}$ is home appraisal value, $B_{exist}$ is current mortgage balanc
 5. **Review Cash Payout & New Payments**: Analyze maximum cash payout available, updated monthly payment, and retained home equity.
 
 ## Cash Out Refinance Calculator Frequently Asked Questions
+
 ### What is a cash-out refinance?
+
 A cash-out refinance replaces your existing mortgage with a new, larger home loan, paying off your old loan balance and providing the remaining difference to you in cash at closing.
 
 ### What is the maximum Loan-to-Value (LTV) ratio allowed for a cash-out refinance?
+
 Conventional mortgage guidelines typically limit cash-out refinancing to a maximum of 80% LTV, meaning you must retain at least 20% equity in your home post-refinance.
 
 ### How are cash-out refinance proceeds taxed?
+
 Cash-out refinance proceeds are non-taxable because the funds represent borrowed debt principal rather than earned taxable income.
 
 ### What is the difference between a cash-out refinance and a HELOC?
+
 A cash-out refinance replaces your primary first mortgage with a single new loan, whereas a HELOC (Home Equity Line of Credit) adds a second revolving mortgage alongside your existing first mortgage.
 
 ### What closing costs are associated with a cash-out refinance?
+
 Cash-out refinancing incurs standard mortgage closing costs (typically 2% to 5% of the new loan balance), including appraisal, origination, title insurance, and escrow fees.
 
 ### Can cash-out refinance interest be deducted on federal tax returns?
+
 Mortgage interest on cash-out funds is tax-deductible only if the proceeds are used specifically to buy, build, or substantially improve the primary home securing the loan.
 
 ### Is home valuation and mortgage data kept private in this tool?
+
 Yes, all cash-out refinance calculations execute 100% locally inside your web browser. No property values, loan balances, or cash-out amounts leave your device.

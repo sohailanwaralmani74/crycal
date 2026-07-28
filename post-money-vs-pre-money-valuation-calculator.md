@@ -179,27 +179,35 @@ $$\text{Existing Founder Ownership (\%)} = \left( \frac{V_{pre}}{V_{post}} \righ
 
 
 ## Strategic Guidance for Post Money vs Pre Money Valuation Calculator
+
 Using this interactive calculation engine provides a clear, quantitative roadmap for your decisions. By eliminating mathematical uncertainty, you can optimize financial allocations, compare scenarios side-by-side, and make data-driven choices.
 
 ### Key Tactical Benefits of Post Money vs Pre Money Valuation Calculator
+
 - **Mathematical Certainty**: Eliminates guesswork by modeling multi-variable compounding and precise cost structures.
 - **Scenario Comparison**: Test multiple interest rates, payment timelines, and capital allocations in real-time.
 - **Privacy Assurance**: All data remains 100% confidential within your local browser memory, with zero remote server logging.
 - **Export & Audit Readiness**: Log calculations to local browser storage, export full histories to CSV/Excel, or share via link.
 
 ## Post Money vs Pre Money Valuation Calculator Frequently Asked Questions
+
 ### What is the difference between pre-money and post-money valuation?
+
 Pre-money valuation is the agreed value of the startup before adding new investment capital. Post-money valuation is the company value immediately after receiving the investment: Post-Money = Pre-Money + Investment.
 
 ### How do you calculate investor equity ownership percentage?
+
 Investor Ownership % = (Investment Amount ÷ Post-Money Valuation) × 100.
 
 ### How is share price determined in a priced round?
+
 Share Price = Pre-Money Valuation ÷ Existing Pre-Round Fully Diluted Shares.
 
 ### How many new shares are issued in a funding round?
+
 New Shares Issued = Investment Amount ÷ Share Price.
 
 ### Why is agreeing on pre-money valuation critical for founders?
+
 A higher pre-money valuation directly increases share price, minimizing the number of new shares issued and reducing founder equity dilution.
 

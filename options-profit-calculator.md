@@ -151,9 +151,11 @@ Calculate net profit, maximum loss risk, break-even stock price, and return on i
 ## Options Break-Even Formulas
 
 ### 1. Long Call Break-Even
+
 $$\text{Break-Even}_{\text{Call}} = \text{Strike Price} + \text{Premium Paid}$$
 
 ### 2. Long Put Break-Even
+
 $$\text{Break-Even}_{\text{Put}} = \text{Strike Price} - \text{Premium Paid}$$
 
 ---
@@ -183,30 +185,39 @@ $$\text{Break-Even}_{\text{Put}} = \text{Strike Price} - \text{Premium Paid}$$
 
 
 ## Strategic Guidance for Options Profit Calculator
+
 Using this interactive calculation engine provides a clear, quantitative roadmap for your decisions. By eliminating mathematical uncertainty, you can optimize financial allocations, compare scenarios side-by-side, and make data-driven choices.
 
 ### Key Tactical Benefits of Options Profit Calculator
+
 - **Mathematical Certainty**: Eliminates guesswork by modeling multi-variable compounding and precise cost structures.
 - **Scenario Comparison**: Test multiple interest rates, payment timelines, and capital allocations in real-time.
 - **Privacy Assurance**: All data remains 100% confidential within your local browser memory, with zero remote server logging.
 - **Export & Audit Readiness**: Log calculations to local browser storage, export full histories to CSV/Excel, or share via link.
 
 ## Options Profit Calculator Frequently Asked Questions
+
 ### How do you calculate break-even for call and put options?
+
 For a Call Option: Strike Price + Premium Paid. For a Put Option: Strike Price - Premium Paid.
 
 ### What is the maximum risk when buying option contracts?
+
 When buying options (Long Call or Long Put), your maximum risk is strictly limited to 100% of the premium capital paid upfront.
 
 ### What does 1 option contract represent?
+
 Standard equity option contracts control 100 shares of the underlying stock. Buying 2 contracts controls 200 shares.
 
 ### How does implied volatility (IV) affect option pricing?
+
 Higher implied volatility increases option premiums because market participants expect larger potential price swings before expiration.
 
 ### What is intrinsic value vs extrinsic value (time value)?
+
 Intrinsic value is the in-the-money amount of an option. Extrinsic value is the premium paid for remaining time until expiration and implied volatility.
 
 ### What happens if an option expires out-of-the-money (OTM)?
+
 If an option expires out-of-the-money, it expires worthless, and the option buyer loses the full premium paid.
 

@@ -178,36 +178,47 @@ Planning guardrail materials manually often leads to overbuying lumber or discov
 ---
 
 ## Deck Railing Calculator Mathematical Formulas & Mechanics
+
 ### 1. Guardrail Post Count ($N_{	ext{posts}}$)
+
 For a total continuous railing length $L_{	ext{rail}}$ (in feet) and maximum allowed post spacing $L_{	ext{post}}$ (6 ft or 8 ft):
 
-$$N_{	ext{posts}} = \left\lceil rac{L_{	ext{rail}}}{L_{	ext{post}}} 
+$$N_{	ext{posts}} = \left\lceil 
+rac{L_{	ext{rail}}}{L_{	ext{post}}} 
 ight
 ceil + 1$$
 
 ### 2. Clear Span per Section ($S_{	ext{clear}}$)
+
 Assuming standard 3.5-inch actual width for 4x4 posts ($W_{	ext{post}} = 3.5	ext{ in}$):
 
-$$S_{	ext{clear}} = rac{(L_{	ext{rail}} 	imes 12) - (N_{	ext{posts}} 	imes W_{	ext{post}})}{N_{	ext{posts}} - 1}$$
+$$S_{	ext{clear}} = 
+rac{(L_{	ext{rail}} 	imes 12) - (N_{	ext{posts}} 	imes W_{	ext{post}})}{N_{	ext{posts}} - 1}$$
 
 ### 3. Balusters per Section ($N_{	ext{bal\_sec}}$)
+
 For a target maximum spacing gap $G_{	ext{max}}$ (e.g., 3.75 inches) and baluster width $W_{	ext{bal}}$ (1.5 in for 2x2 wood or 0.75 in for metal):
 
-$$N_{	ext{bal\_sec}} = \left\lceil rac{S_{	ext{clear}} - G_{	ext{max}}}{W_{	ext{bal}} + G_{	ext{max}}} 
+$$N_{	ext{bal\_sec}} = \left\lceil 
+rac{S_{	ext{clear}} - G_{	ext{max}}}{W_{	ext{bal}} + G_{	ext{max}}} 
 ight
 ceil$$
 
 $$	ext{Total Balusters} = N_{	ext{bal\_sec}} 	imes (N_{	ext{posts}} - 1)$$
 
 ### 4. Exact Uniform Gap Spacing ($G_{	ext{exact}}$)
-$$G_{	ext{exact}} = rac{S_{	ext{clear}} - (N_{	ext{bal\_sec}} 	imes W_{	ext{bal}})}{N_{	ext{bal\_sec}} + 1}$$
+
+$$G_{	ext{exact}} = 
+rac{S_{	ext{clear}} - (N_{	ext{bal\_sec}} 	imes W_{	ext{bal}})}{N_{	ext{bal\_sec}} + 1}$$
 
 ### 5. Rail Linear Footage ($L_{	ext{rails}}$)
+
 $$L_{	ext{rails}} = 2 	imes L_{	ext{rail}} \quad (	ext{Top Handrail + Bottom Base Rail})$$
 
 ---
 
 ## Deck Railing Calculator Benchmarks & Comparison Table
+
 | Railing Length (Linear Feet) | Recommended Posts (6 ft Max Spacing) | 2x2 Wood Balusters (1.5" Wide) | 3/4" Metal Spindles (0.75" Wide) | Top & Bottom Rail Linear Ft | Estimated Material Cost ($) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **10 Feet** | 3 Posts | 24 Balusters | 24 Spindles | 20 Linear Ft | $200 - $350 |
@@ -219,6 +230,7 @@ $$L_{	ext{rails}} = 2 	imes L_{	ext{rail}} \quad (	ext{Top Handrail + Bottom Bas
 ---
 
 ## How to Use the Deck Railing Calculator Step-by-Step
+
 1. **Measure Deck Perimeter:** Measure all outer deck edges that require guardrails and enter the total linear feet.
 2. **Specify Baluster & Post Dimensions:** Select baluster width (1.5" for 2x2 wood, 0.75" for metal) and choose 6 ft or 8 ft maximum post spacing.
 3. **Set Target Gap:** Enter your target maximum gap (IRC code requires strictly less than 4.0 inches; 3.75 inches provides a comfortable safety margin).
@@ -228,23 +240,31 @@ $$L_{	ext{rails}} = 2 	imes L_{	ext{rail}} \quad (	ext{Top Handrail + Bottom Bas
 ---
 
 ## Deck Railing Calculator Frequently Asked Questions
+
 ### What is the maximum legal spacing between deck balusters?
+
 The International Residential Code (IRC Section R312) requires that balusters be spaced so that a 4-inch diameter sphere cannot pass through any opening between guards.
 
 ### How many balusters do I need per foot of deck railing?
+
 For standard 2x2 wood balusters (1.5" actual width), you need approximately 3 balusters per linear foot of deck railing. For 3/4" metal spindles, you need roughly 2.5 to 3 balusters per linear foot.
 
 ### What is the maximum post spacing for deck guardrails?
+
 IRC building code limits structural post spacing to a maximum of 8 feet on center. Spacing posts at 6 feet on center provides a much stiffer, wobble-free guardrail.
 
 ### What is the minimum height for residential deck railing?
+
 Residential deck guardrails must be a minimum of 36 inches high above the deck surface (measured from deck boards to the top of the rail) for decks elevated 30 inches or more above grade.
 
 ### How do I calculate uniform baluster spacing between posts?
+
 Subtract total baluster widths from the clear section length between posts, then divide remaining space by (number of balusters + 1) to find the exact gap.
 
 ### Are bottom rails required on deck guardrails?
+
 Yes. Bottom rails support the lower ends of balusters and must be installed no higher than 4 inches above the deck surface to prevent a 4-inch sphere from passing underneath.
 
 ### How many posts are needed for a 40 foot deck railing?
+
 For a continuous 40 ft straight run with 6 ft maximum post spacing, you will need 8 posts (1 start post, 6 intermediate posts, and 1 end post).

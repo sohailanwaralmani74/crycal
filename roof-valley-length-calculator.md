@@ -196,21 +196,28 @@ $$\text{W-Valley Flashing Needed (ft)} = \text{Total Valley Length} \times \left
 ---
 
 ## Roof Valley Length Calculator Frequently Asked Questions
+
 ### What is a roof valley rafter?
+
 A roof valley rafter is an inclined framing member located at the internal intersection of two sloped roof planes. It supports jack rafters from both roof slopes and channels rainwater down toward the eave gutter.
 
 ### What is the formula for calculating roof valley length?
+
 For equal pitch roofs, Valley Length = Roof Run × √(2 + (Pitch / 12)²). The 3D valley multiplier is M_v = √(2 + (P/12)²). For a 6/12 pitch, M_v = √(2 + 0.25) = 1.500.
 
 ### How does roof pitch affect valley rafter length?
+
 Because a valley rafter sits at a 45-degree angle in plan view relative to the main building walls, its horizontal run is 1.414 times longer than a common rafter run. As pitch increases, 3D hypotenuse length grows accordingly.
 
 ### How much W-valley metal flashing do I need to buy?
+
 Calculate total valley rafter length including overhang extension, then add a 10% allowance for lap joints (6" overlap per section) and trimming cuts. Divide by 10 feet to determine standard commercial metal strip counts.
 
 ### What is the difference between open and closed roof valleys?
+
 Open valleys feature exposed W-profile metal flashing along the valley center line, providing superior water runoff and debris shedding. Closed valleys weave shingles across the intersection without visible metal.
 
 ### Can I use this calculator for unequal roof pitches?
+
 Yes. The calculator uses exact 3D vector geometry: M_v = √(1 + (P_major / 12)² + (P_minor / 12)²) to solve both equal and intersecting unequal pitch roof intersections.
 

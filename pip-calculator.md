@@ -193,18 +193,24 @@ The result is then converted to your account currency using a live exchange rate
 ---
 
 ## Pip Calculator Frequently Asked Questions
+
 ### What is a pip?
+
 A pip (Percentage in Point) is the smallest price movement in a financial instrument. In Forex, most pairs have a pip size of 0.0001. JPY pairs have a pip size of 0.01. Gold and other commodities may have different pip sizes.
 
 ### How is pip value calculated?
+
 Pip value is calculated as: Pip Size × Contract Size × Trade Size.
 
 ### How does the currency conversion work?
+
 This tool fetches a live exchange rate to convert your pip value from the quote currency into your account currency. Only the two currency codes are sent to the rate provider.
 
 ### Where do the exchange rates come from?
+
 Rates come from a third-party public exchange rate API, for reference only — not for trade execution.
 
 ### What happens if a live rate can't be fetched?
+
 The tool falls back to showing your pip value in the quote currency, with a clear note that conversion is unavailable.
 

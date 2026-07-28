@@ -175,18 +175,24 @@ This **apy apr converter** is designed for:
 ---
 
 ## APY vs APR Calculator Frequently Asked Questions
+
 ### What is the difference between APY and APR?
+
 APR is the simple annual interest rate without compounding. APY includes the effect of compounding, showing the actual return or cost over a year.
 
 ### How do I convert APR to APY?
+
 APY = (1 + APR ÷ n)^n − 1, where n is the number of compounding periods per year. For example, 6% APR compounded monthly = 6.17% APY.
 
 ### How do I convert APY to APR?
+
 APR = n × ((1 + APY)^(1/n) − 1), where n is the number of compounding periods per year.
 
 ### Why is APY higher than APR?
+
 APY is higher because it includes the effect of compounding — interest earned on interest. The more frequently interest compounds, the larger the difference.
 
 ### What is the formula for APR to APY conversion?
+
 The formula is: APY = (1 + APR ÷ n)^n − 1, where n is the number of compounding periods per year.
 

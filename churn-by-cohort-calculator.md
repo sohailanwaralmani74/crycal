@@ -171,15 +171,19 @@ Conducting **Cohort Churn Analysis** allows product, growth, and customer succes
 ---
 
 ## Churn by Cohort Calculator Mathematical Formulas & Mechanics
+
 ### 1. Cohort Retention Rate by Month ($M_t$)
+
 $$\text{Retention Rate } R_t (\%) = \left( \frac{C_t}{C_0} \right) \times 100$$
 
 Where $C_0$ is initial cohort customer count at Month 0, and $C_t$ is active customers remaining at Month $t$.
 
 ### 2. Cumulative Cohort Churn Rate
+
 $$\text{Cumulative Churn Rate } K_t (\%) = 100 - R_t = \left( \frac{C_0 - C_t}{C_0} \right) \times 100$$
 
 ### 3. Retained Cohort MRR Trajectory
+
 $$\text{Cohort MRR}_t = C_t \times \text{ARPU}_t$$
 
 If expansion occurs within retained accounts:
@@ -188,6 +192,7 @@ $$\text{Cohort MRR}_t = C_0 \times \text{ARPU}_0 \times \left( \frac{\text{Net R
 ---
 
 ## Churn by Cohort Calculator Benchmarks & Comparison Table
+
 Standard 12-month cohort customer retention benchmarks across B2B and B2C SaaS models:
 
 | SaaS Business Model | Month 1 Retention Target | Month 3 Retention Target | Month 6 Retention Target | Month 12 Retention Target | Retention Curve Trajectory |
@@ -200,6 +205,7 @@ Standard 12-month cohort customer retention benchmarks across B2B and B2C SaaS m
 ---
 
 ## How to Use the Churn by Cohort Calculator Step-by-Step
+
 1. **Enter Initial Cohort Size (Month 0):** Input total number of new paying customer accounts acquired in your chosen cohort month.
 2. **Input Retained Customer Counts:** Enter active remaining customers at Month 1, Month 3, Month 6, and Month 12 checkpoints.
 3. **Set Starting ARPU:** Input average monthly subscription revenue per account at signup.
@@ -210,42 +216,54 @@ Standard 12-month cohort customer retention benchmarks across B2B and B2C SaaS m
 
 
 ## Strategic Guidance for Churn by Cohort Calculator
+
 Using this interactive calculation engine provides a clear, quantitative roadmap for your decisions. By eliminating mathematical uncertainty, you can optimize financial allocations, compare scenarios side-by-side, and make data-driven choices.
 
 ### Key Tactical Benefits of Churn by Cohort Calculator
+
 - **Mathematical Certainty**: Eliminates guesswork by modeling multi-variable compounding and precise cost structures.
 - **Scenario Comparison**: Test multiple interest rates, payment timelines, and capital allocations in real-time.
 - **Privacy Assurance**: All data remains 100% confidential within your local browser memory, with zero remote server logging.
 - **Export & Audit Readiness**: Log calculations to local browser storage, export full histories to CSV/Excel, or share via link.
 
 ## Churn by Cohort Calculator Frequently Asked Questions
+
 ### What is cohort churn analysis in SaaS?
+
 Cohort churn analysis tracks a specific group of customers who signed up during the same timeframe (e.g., January 2026 cohort) to measure how customer retention and revenue decay over subsequent months.
 
 ### Why is cohort churn better than blended monthly churn?
+
 Blended monthly churn masks retention trends because high growth in new customers hides churn in older customer groups. Cohort analysis isolates specific customer age groups to reveal true long-term retention health.
 
 ### What is a 'flattening' retention curve?
+
 A flattening retention curve occurs when customer retention stabilizes after initial onboarding (e.g., dropping to 70% in Month 3 and remaining flat through Month 12). A flat retention curve is the ultimate indicator of Product-Market Fit.
 
 ### What is a good 12-month customer retention rate for SaaS?
+
 For B2B Enterprise SaaS, 12-month customer retention above 80% to 90% is excellent. For Mid-Market SaaS, 70% to 80% is healthy, while SMB/PLG SaaS targets 55% to 70% retention.
 
 ### How does cohort expansion affect cohort revenue?
+
 If expansion revenue from retained customers (seat upgrades, upsells) exceeds lost revenue from churned customers, net cohort MRR increases over time—resulting in Net Negative Churn (NRR > 100%).
 
 ### How do onboarding improvements show up in cohort analysis?
+
 Onboarding improvements increase the Month 1 retention baseline (e.g., moving M1 retention from 80% to 90%), lifting the entire retention curve for subsequent months.
 
 ### What tools generate cohort retention triangles?
+
 Popular SaaS analytics platforms that generate automated cohort retention matrices include Mixpanel, Amplitude, Baremetrics, ProfitWell, and ChartMogul.
 
 
 
 ## Advanced Churn by Cohort Calculator Guidelines
+
 Understanding these metrics in detail provides founders, financial planners, and managers with an actionable framework for sustainable long-term decision making.
 
 ### Key Decision Factors for Churn by Cohort Calculator
+
 1. **Capital Optimization**: Focus cash flow and investment on channels delivering the highest net lifetime value.
 2. **Risk Mitigation**: Build reserves to withstand macroeconomic fluctuations and rate adjustments.
 3. **Data Integrity**: Audit inputs periodically against verified bank statements, billing receipts, or contracts.

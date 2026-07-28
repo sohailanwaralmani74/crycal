@@ -151,6 +151,7 @@ Unit contribution analysis across customer segments identifies which plan tier g
 Having accurate, real-time insights into this metric helps SaaS founders, CFOs, and growth teams optimize capital allocation, protect operating runway, and achieve top-tier venture scalability.
 
 ## Unit Contribution Calculator Formula & Derivation
+
 The mathematical derivation for this financial metric is expressed as:
 
 $$\text{Unit Contribution (\$)} = \text{ARPU} - \text{Monthly COGS}$$ \n$$\text{Unit Margin \%} = \frac{\text{ARPU} - \text{Monthly COGS}}{\text{ARPU}} \times 100\%$$
@@ -158,6 +159,7 @@ $$\text{Unit Contribution (\$)} = \text{ARPU} - \text{Monthly COGS}$$ \n$$\text{
 Where all input values are evaluated over a standardized monthly or annual accounting period.
 
 ## Unit Contribution Calculator SaaS Benchmarks
+
 | Customer Segment | Target Monthly ARPU | Target Unit Margin % | Primary Overhead |
 | --- | --- | --- | --- |
 | SMB | $30 - $150 | 80% - 85% | Automated Infrastructure |
@@ -165,6 +167,7 @@ Where all input values are evaluated over a standardized monthly or annual accou
 | Enterprise | $2,000 - $10,000+ | 82% - 88% | Custom SLAs & Security Integration |
 
 ## Step-by-Step Unit Contribution Calculator Calculation Guide
+
 1. **Enter Core Financial Inputs:** Supply your monthly sales spend, user counts, ARPU, or recurring revenue figures.
 2. **Review Intermediate Outputs:** Examine calculated gross profit, churn, payback, or unit contribution scores.
 3. **Assess Benchmark Ratings:** Compare your results against SaaS industry standards to identify growth bottlenecks.
@@ -173,15 +176,20 @@ Where all input values are evaluated over a standardized monthly or annual accou
 ---
 
 ## Unit Contribution Calculator Frequently Asked Questions
+
 ### What is Unit Contribution by Segment?
+
 Unit Contribution measures net dollar profit generated per customer account per month after subtracting direct hosting and servicing COGS for each customer tier.
 
 ### Why does Enterprise often have higher gross contribution dollars?
+
 Enterprise accounts pay significantly higher ARPU, generating large absolute dollar profit despite custom support SLAs.
 
 ### Why might SMB have higher margin percentage?
+
 SMB accounts rely on self-serve automated infrastructure with low manual support overhead.
 
 ### How can teams optimize low-margin segments?
+
 Automate customer support workflows and restructure cloud hosting allocation.
 

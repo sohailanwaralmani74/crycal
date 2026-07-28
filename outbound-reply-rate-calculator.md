@@ -136,6 +136,7 @@ Distinguishing between total reply rate and positive reply rate is vital for cam
 ---
 
 ## Outbound Reply Rate Calculator Mathematical Formulas & Mechanics
+
 The Total Reply Rate ($R_{\text{total}}$) measures total human responses relative to total successfully delivered outreach emails ($E_{\text{sent}}$):
 
 $$\text{Total Reply Rate (\%)} = \left( \frac{\text{Replies Received}}{\text{Emails Sent}} \right) \times 100$$
@@ -155,6 +156,7 @@ $$M = E_{\text{campaign}} \times \left( \frac{\text{Positive Reply Rate}}{100} \
 ---
 
 ## Outbound Reply Rate Calculator Benchmarks & Comparison Table
+
 The benchmark table below outlines campaign metrics across various B2B outbound targeting strategies based on a **1,000 Delivered Email Campaign**:
 
 | Outreach Strategy | Emails Sent | Total Replies | Total Reply Rate | Positive Replies | Positive Reply Rate | Positive Share % | Campaign Performance |
@@ -170,6 +172,7 @@ The benchmark table below outlines campaign metrics across various B2B outbound 
 ---
 
 ## How to Use the Outbound Reply Rate Calculator Step-by-Step
+
 1. **Select Campaign Inputs**: Gather your email sequence metrics from your sales engagement platform (e.g., Outreach, Salesloft, Instantly).
 2. **Enter Emails Sent**: Input total delivered email count (subtracting hard bounces and invalid addresses).
 3. **Enter Total Replies**: Input total prospect responses (excluding automated OOO out-of-office auto-replies).
@@ -180,23 +183,31 @@ The benchmark table below outlines campaign metrics across various B2B outbound 
 ---
 
 ## Outbound Reply Rate Calculator Frequently Asked Questions
+
 ### What is a good total cold email reply rate in B2B SaaS?
+
 A healthy overall cold email reply rate in B2B SaaS ranges between 3% and 7%. Top-tier personalized campaigns achieve reply rates of 8% to 12%.
 
 ### What is a positive reply rate?
+
 The positive reply rate measures the percentage of total sent emails that result in interested prospects agreeing to a meeting or requesting more information.
 
 ### Why is tracking positive reply rate superior to open rates?
+
 Email security filters and Apple Mail Privacy Protection generate false open signals. Reply rates measure genuine prospect intent and human engagement.
 
 ### Should Out-of-Office (OOO) and bounce messages count as replies?
+
 No. Automated Out-of-Office auto-replies, system bounces, and spam notifications should be filtered out before calculating true human reply rates.
 
 ### What percentage of total replies should ideally be positive?
+
 In well-targeted outbound campaigns, at least 20% to 30% of total prospect replies should be positive interest inquiries rather than unsubscribes or rejections.
 
 ### How can SDR teams improve low positive reply rates?
+
 SDRs can boost positive replies by personalizing cold outreach, targeting verified ICP contact lists, keeping emails under 100 words, and offering clear low-friction CTAs.
 
 ### Is sales email campaign data uploaded or stored?
+
 No, 100%. All calculations process locally within your browser. No prospect email data, list counts, or campaign numbers are transmitted or logged.

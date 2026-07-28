@@ -213,21 +213,28 @@ The table below shows total material requirements, section counts, anchoring sta
 ---
 
 ## Landscape Edging Calculator Frequently Asked Questions
+
 ### How many landscape stakes do I need per foot of edging?
+
 For standard plastic coil edging, place an anchoring stake every 2 to 3 feet (24 to 36 inches). For curved borders or loose soil, place stakes every 1.5 to 2 feet (18 to 24 inches) plus an extra stake at all joints.
 
 ### How much overlap should I account for when connecting edging?
+
 Allow 4 to 6 inches of overlap at every joint or connection point. Adding a 10% waste margin in the calculator comfortably covers corner cuts and overlapping seams.
 
 ### Should I choose 4 ft rigid strips or 20 ft flexible rolls?
+
 Flexible 20 ft rolls are best for sweeping, curved flower beds and continuous borders with minimal seams. Rigid 4 ft or 10 ft metal/plastic strips work best for crisp, straight lawn edges and formal rectangular designs.
 
 ### How deep should landscape edging be installed?
+
 Edging should be buried approximately 2 to 4 inches into the soil so that 0.5 to 1 inch remains above the grass soil level. This prevents grass roots from spreading while allowing lawn mowers to pass over safely.
 
 ### What is the average cost of garden landscape edging per foot?
+
 Standard black plastic coil edging costs $0.60 to $1.20 per linear foot. Metal or aluminum edging costs $2.50 to $4.50 per foot, and stone or concrete pavers range from $3.50 to $8.00+ per foot.
 
 ### Can I install garden edging on slope inclines?
+
 Yes, flexible plastic and bendable aluminum edging conform well to slope contours. Increase stake frequency on steep inclines to prevent soil movement and washouts.
 

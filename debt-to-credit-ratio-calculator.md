@@ -182,18 +182,24 @@ The tool updates instantly as you adjust any input — no "Calculate" button req
 ---
 
 ## Debt to Credit Ratio Calculator Frequently Asked Questions
+
 ### What is debt to credit ratio (credit utilization)?
+
 Your debt to credit ratio, also called credit utilization, is the percentage of your available credit that you're currently using.
 
 ### How is credit utilization calculated?
+
 Credit utilization is calculated by dividing your total debt by your total credit limit, then multiplying by 100.
 
 ### What is a good credit utilization ratio?
+
 A utilization ratio below 30% is generally considered good. Below 10% is excellent.
 
 ### Why is credit utilization important?
+
 Credit utilization is the second most important factor in your credit score, accounting for about 30% of your FICO score.
 
 ### How can I lower my credit utilization?
+
 You can lower your utilization by paying down balances, requesting a credit limit increase, or opening a new credit card.
 

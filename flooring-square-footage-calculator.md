@@ -195,21 +195,28 @@ Below is a benchmark estimate for a **300 sq ft room** at **$4.50/sq ft material
 ---
 
 ## Flooring Square Footage Calculator Frequently Asked Questions
+
 ### How do I calculate square footage for a room?
+
 To calculate square footage for a rectangular room, multiply length in feet by width in feet (Length × Width = Square Feet). For an L-shaped room, divide it into two rectangles, calculate each area, and add them together.
 
 ### Why do I need to add a waste factor for flooring?
+
 Flooring planks and tiles must be cut to fit edges, walls, corners, and doorways. Off-cuts and damaged boards during installation cannot always be reused. Adding 5% to 15% ensures you have enough material.
 
 ### What is the standard waste percentage for flooring?
+
 Standard waste factor guidelines are 5% for simple rectangular rooms with straight plank installation, 10% for standard tile or plank layouts with doorways, and 15% for diagonal installations or complex multi-angle rooms.
 
 ### Should I round up when purchasing flooring boxes?
+
 Yes. Always round up your final calculated total order square footage to the next full carton or box size. Most retailers do not sell partial flooring cartons.
 
 ### How much does labor cost to install flooring?
+
 Flooring installation labor typically ranges from $1.50 to $4.50 per square foot for carpet and vinyl planks, up to $4.00 to $8.00 per square foot for hardwood and porcelain tile.
 
 ### How do I calculate flooring square footage for irregular or non-rectangular rooms?
+
 Break the floor plan into smaller simple geometric shapes (rectangles and right triangles), compute the square footage of each section, sum them together, and then add your waste percentage.
 

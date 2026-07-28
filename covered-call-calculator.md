@@ -142,9 +142,11 @@ Calculate option premium income, annualized option yield, downside protection pe
 ## Covered Call Strategy Formulas
 
 ### 1. Downside Break-Even Price
+
 $$\text{Break-Even} = \text{Current Stock Price} - \text{Option Premium Received}$$
 
 ### 2. Maximum Profit (If Called Away)
+
 $$\text{Max Profit} = (\text{Strike Price} - \text{Stock Price}) + \text{Option Premium Received}$$
 
 ---
@@ -171,21 +173,28 @@ $$\text{Max Profit} = (\text{Strike Price} - \text{Stock Price}) + \text{Option 
 ---
 
 ## Covered Call Calculator Frequently Asked Questions
+
 ### What is a covered call option strategy?
+
 A covered call involves owning 100 shares of stock and selling a call option against those shares to generate instant income (premium), providing a downside buffer while capping upside profit.
 
 ### How does a covered call provide downside protection?
+
 The cash premium received from selling the call option reduces your cost basis in the underlying stock, lowering your break-even point by the exact premium amount.
 
 ### What happens if the stock price rises above the call strike price?
+
 Your shares will be called away at the strike price. You keep 100% of the option premium plus any capital appreciation up to the strike price, but forgo gains above the strike.
 
 ### How do you annualize covered call option yields?
+
 To annualize option yield: (Premium / Stock Price) × (365 / Days to Expiration) × 100.
 
 ### Can covered call options be sold on dividend-paying stocks?
+
 Yes! Combining dividend yields with option premium yields generates powerful double-digit income streams for long-term buy-and-hold investors.
 
 ### What is the primary risk of selling covered calls?
+
 The primary risks are capped upside gains during sharp stock rallies and downside loss exposure if the underlying stock drops significantly below your break-even price.
 

@@ -192,21 +192,28 @@ $$\text{16ft Plate Boards} = \left\lceil \frac{\text{Plate Linear Feet}}{16} \ri
 ---
 
 ## Stud Framing Calculator Frequently Asked Questions
+
 ### How do you calculate studs needed for a wall?
+
 The general rule of thumb for 16" OC framing is 1 stud per linear foot of wall. The exact formula is: (Wall Length in inches / 16) + 1 starter stud + extra studs for corners and openings + 10% waste.
 
 ### Why do walls require 3 plate boards?
+
 Standard building code requires a single bottom plate (sole plate) nailed to the floor and a double top plate at the ceiling to tie intersecting walls together and distribute roof loads.
 
 ### What is the difference between 16" OC and 24" OC spacing?
+
 16" On-Center means stud centers are spaced 16 inches apart (standard for exterior load-bearing walls). 24" On-Center is used in Advanced Framing (OEV) to reduce wood thermal bridging and lower material costs.
 
 ### How many extra studs do I need for wall corners?
+
 Each corner post or wall intersection requires 2 to 3 studs (a 3-stud corner provides drywall backing inside the room).
 
 ### How many extra studs are needed for window and door openings?
+
 Each door or window opening requires at least 2 extra studs: 1 king stud and 1 jack (trimmer) stud on each side, plus header and cripple studs.
 
 ### What length board should be used for wall plates?
+
 16-foot dimensional boards are standard for wall plates because they reduce joint splices across long wall spans.
 

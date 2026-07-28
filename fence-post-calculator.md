@@ -215,21 +215,28 @@ The table below shows total post counts and concrete bag requirements (based on 
 ---
 
 ## Fence Post Calculator Frequently Asked Questions
+
 ### How far apart should fence posts be spaced?
+
 Standard fence post spacing is 8 feet on-center for residential wood or vinyl privacy fences. In areas with high wind loads or for heavy-duty metal fencing, 6-foot spacing is recommended.
 
 ### How many bags of concrete do I need per fence post?
+
 Most standard 4x4 fence posts set in a 10-inch wide by 24-to-36 inch deep hole require 1.5 to 2 bags (50 lb or 80 lb) of fast-setting concrete mix.
 
 ### How deep should a fence post hole be dug?
+
 A fence post hole should be dug to a depth equal to 1/3 to 1/2 of the above-ground post height, or below the local frost line (typically 24 to 36 inches deep).
 
 ### What size post hole diameter is recommended?
+
 The hole diameter should be 3 times the width of the post. For a standard 4x4 post (3.5 inches actual), dig a 10 to 12-inch wide hole.
 
 ### Should gate posts be larger than regular line posts?
+
 Yes, gate posts endure heavy rotational loads. Use 6x6 posts or heavy-gauge steel for gate support to prevent sagging and misalignment over time.
 
 ### Is fast-setting concrete better than standard concrete for fence posts?
+
 Fast-setting concrete (like Quikrete Fast-Set) allows you to pour dry mix into the hole and add water without premixing, hardening in 20 to 40 minutes.
 

@@ -170,6 +170,7 @@ This calculator helps product leaders model the **net ARR impact** by balancing 
 ---
 
 ## Key Feature Gating Roi Calculator Mathematical Formulas
+
 ### 1. Target Active Feature Users & Upgrades
 
 $$ \text{Active Feature Users} = \text{Lower-Tier Accounts} \times \text{Feature Usage \%} $$
@@ -213,20 +214,27 @@ $$ \text{Net 12-Month ARR Impact} = \text{Net Monthly Revenue Gain} \times 12 $$
 ---
 
 ## Feature Gating Roi Calculator Frequently Asked Questions
+
 ### What is feature gating in B2B SaaS?
+
 Feature gating (or paywalling) restricts access to specific advanced software features (such as SSO, CRM sync, or automated reporting) to higher-priced subscription tiers.
 
 ### Which features should be moved behind higher paywalls?
+
 Move features that scale with company size or enterprise complexity—such as Single Sign-On (SSO), audit logs, custom role permissions, or advanced API limits.
 
 ### How do I minimize customer backlash when gating an existing feature?
+
 Grandfather existing active users for 6-12 months, or gate the feature only for new accounts created after the pricing update.
 
 ### What is a healthy upgrade conversion rate from feature paywalls?
+
 Well-designed feature paywalls achieve 10% to 25% upgrade conversion rates among active users who rely on the gated workflow daily.
 
 ### How is net monthly expansion revenue calculated?
+
 Net MRR Gain = (Upgraded Accounts × (Higher Price - Lower Price)) - (Churned Accounts × Lower Price).
 
 ### What is the 'SSO Tax' in SaaS packaging?
+
 The 'SSO Tax' refers to requiring enterprise accounts to upgrade to a top-tier plan (often 3x-5x price lift) solely to enable SAML Single Sign-On security.

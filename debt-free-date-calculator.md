@@ -146,9 +146,11 @@ Carrying multiple consumer debts—such as high-interest credit cards, personal 
 The two primary accelerated debt elimination methods are the Debt Avalanche and Debt Snowball strategies. The Debt Avalanche method targets accounts with the highest interest rates (APR) first, maximizing interest savings. The Debt Snowball method targets accounts with the smallest principal balances first, generating quick psychological wins. This calculator evaluates your total debt balance, weighted average interest rate, and dedicated monthly budget, helping you pick the optimal strategy securely and privately.
 
 ## Debt Free Date Calculator Mathematical Formulas & Mechanics
+
 The debt-free date calculation models monthly compounding interest amortization under a dedicated monthly payment budget ($P_{budget}$).
 
 ### 1. Monthly Amortization & Payoff Duration
+
 Given total starting debt principal ($B_0$), monthly interest rate ($r_m = \frac{APR_{avg}}{1200}$), and fixed monthly budget ($P_{budget} > B_0 \times r_m$):
 
 Total months to become debt-free ($n$) is calculated by solving the logarithm equation:
@@ -156,6 +158,7 @@ Total months to become debt-free ($n$) is calculated by solving the logarithm eq
 $$n = -\frac{\ln\left(1 - \frac{B_0 \times r_m}{P_{budget}}\right)}{\ln(1 + r_m)}$$
 
 ### 2. Cumulative Interest & Total Repayment
+
 Total lifetime repayment ($R_{total}$) and cumulative interest paid ($I_{total}$) are determined by:
 
 $$R_{total} = P_{budget} \times n$$
@@ -165,6 +168,7 @@ $$I_{total} = R_{total} - B_0 = (P_{budget} \times n) - B_0$$
 Where $B_0$ is total combined principal, $r_m$ is average monthly interest rate, $n$ is months to debt freedom, and $I_{total}$ is total interest expense.
 
 ## Debt Free Date Calculator Benchmarks & Comparison Table
+
 | Total Combined Debt | Average Interest Rate (APR) | Dedicated Monthly Budget | Payoff Duration (Months) | Time to Debt-Free | Cumulative Interest Paid | Total Amount Repaid |
 |---|---|---|---|---|---|---|
 | **$15,000** | 18.0% | $450 | 44 Months | **3.7 Years** | $4,800.00 | $19,800.00 |
@@ -174,6 +178,7 @@ Where $B_0$ is total combined principal, $r_m$ is average monthly interest rate,
 | **$50,000** | 19.5% | $1,400 | 48 Months | **4.0 Years** | $17,200.00 | $67,200.00 |
 
 ## How to Use the Debt Free Date Calculator Step-by-Step
+
 1. **Enter Total Combined Debt Balance**: Input combined total balance owed across credit cards, personal loans, and consumer debts.
 2. **Specify Average Interest Rate (APR)**: Input weighted average annual interest rate percentage across all debt balances.
 3. **Set Dedicated Monthly Payment Budget**: Enter total fixed dollar amount you can commit monthly toward debt payoff.
@@ -181,23 +186,31 @@ Where $B_0$ is total combined principal, $r_m$ is average monthly interest rate,
 5. **Review Payoff Date & Interest Savings**: Analyze your calculated debt-free month/year, total interest paid, and total cost of debt.
 
 ## Debt Free Date Calculator Frequently Asked Questions
+
 ### What is the difference between Debt Avalanche and Debt Snowball?
+
 Debt Avalanche prioritizes paying off debts with the highest interest rates first to minimize interest cost, whereas Debt Snowball prioritizes paying off debts with the smallest balances first to build psychological momentum.
 
 ### How does increasing your monthly payment budget accelerate your debt-free date?
+
 Every dollar added above the minimum required payment goes 100% toward principal reduction, rapidly cutting total interest charges and shortening repayment timelines exponentially.
 
 ### Which debt payoff strategy mathematically saves the most money?
+
 The Debt Avalanche strategy mathematically saves the most money because eliminating high-APR debts first reduces total compounding interest charges across your portfolio.
 
 ### Why do financial experts often recommend the Debt Snowball method?
+
 Debt Snowball delivers quick emotional wins by completely eliminating small balances rapidly, boosting psychological motivation and behavioral adherence to long-term debt payoff plans.
 
 ### What happens when one debt balance is completely paid off?
+
 Under both strategies, the monthly payment previously allocated to a paid-off debt is rolled over and added to the payment of the next targeted debt, creating an accelerating payment snowball.
 
 ### Should I keep an emergency fund while aggressively paying off debt?
+
 Yes, maintaining a modest emergency fund ($1,000 to $2,500) prevents unexpected expenses from forcing you to rely on high-interest credit cards again during debt payoff.
 
 ### Is personal financial and debt data kept private in this tool?
+
 Yes, all debt-free date calculations execute 100% locally inside your web browser. No debt balances, interest rates, or income figures leave your device.

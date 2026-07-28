@@ -224,22 +224,28 @@ Balance transfers can be a powerful tool to reduce credit card interest. This ba
 
 
 ## Strategic Guidance for Balance Transfer Calculator
+
 Using this interactive calculation engine provides a clear, quantitative roadmap for your decisions. By eliminating mathematical uncertainty, you can optimize financial allocations, compare scenarios side-by-side, and make data-driven choices.
 
 ### Key Tactical Benefits of Balance Transfer Calculator
+
 - **Mathematical Certainty**: Eliminates guesswork by modeling multi-variable compounding and precise cost structures.
 - **Scenario Comparison**: Test multiple interest rates, payment timelines, and capital allocations in real-time.
 - **Privacy Assurance**: All data remains 100% confidential within your local browser memory, with zero remote server logging.
 - **Export & Audit Readiness**: Log calculations to local browser storage, export full histories to CSV/Excel, or share via link.
 
 ## Balance Transfer Calculator Frequently Asked Questions
+
 ### What is a balance transfer?
+
 A balance transfer moves debt from one credit card to another, typically to take advantage of a 0% APR promotional period and save on interest.
 
 ### What is a balance transfer fee?
+
 Most cards charge a fee (typically 3-5%) to transfer a balance. This calculator includes that fee in the total cost.
 
 ### How is interest saved calculated?
+
 Interest saved = Current Total Interest − Transfer Total Interest. This shows the net benefit of the transfer.
 
 ---

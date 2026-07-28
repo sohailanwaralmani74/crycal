@@ -230,21 +230,28 @@ $$\text{Turf Nails Count} = \left( \frac{2 \times (\text{Length} + \text{Width})
 ---
 
 ## Artificial Turf Calculator Frequently Asked Questions
+
 ### Why is silica sand infill necessary for artificial turf?
+
 Silica sand infill weighs down the turf backing to prevent shifting and wrinkling, holds synthetic grass blades upright, protects the backing from solar UV degradation, and acts as a ballast buffer for pet paws and foot traffic.
 
 ### How many pounds of silica sand infill are needed per square foot?
+
 Standard residential lawns require 1.5 to 2.0 lbs of silica sand infill per square foot. High-traffic areas, dog runs, and putting greens require 2.5 lbs per square foot.
 
 ### What width do artificial turf rolls come in?
+
 Artificial turf rolls are manufactured in standard 15-foot wide continuous rolls. When installing, all cuts must face the same blade grain direction to prevent shading differences.
 
 ### How far apart should turf nails be installed?
+
 Install 6-inch galvanized turf nails or 6-inch landscape staples 3 to 4 inches apart along all perimeter edges, and every 12 to 24 inches in a grid pattern across the center of the lawn.
 
 ### How long does artificial turf last?
+
 High-quality synthetic turf lasts 15 to 25 years with minimal maintenance (occasional brushing and rinsing).
 
 ### How much does artificial turf cost per square foot?
+
 Turf materials cost between $2.50 and $6.00 per square foot for synthetic grass, plus $0.50 to $1.00 per square foot for crushed rock base, silica sand infill, seam tape, and nails.
 

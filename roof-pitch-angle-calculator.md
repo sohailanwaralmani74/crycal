@@ -138,6 +138,7 @@ Roof pitch directly dictates material selection, structural load limits, water d
 This **Roof Pitch Angle & Slope Calculator** converts simple level-and-tape measurements into exact pitch fractions ($6:12$), slope degrees ($26.57^\circ$), and rafter multipliers ($1.118$).
 
 ### Key Benefits of Roof Pitch Angle Calculator
+
 * **Complete Slope Trigonometry:** Calculates pitch ratio, angle degrees, percentage slope, and rafter multiplier.
 * **Sloped Surface Area Multiplier:** Converts flat floor plans into true 3D sloped roof surface area.
 * **Safety & Code Compliance:** Identifies steep-slope thresholds ($>4:12$) mandating harness ties and scaffolding.
@@ -146,22 +147,27 @@ This **Roof Pitch Angle & Slope Calculator** converts simple level-and-tape meas
 ---
 
 ## Roof Pitch Angle Calculator Mathematical Formulas & Mechanics
+
 ### 1. Roof Pitch Angle in Degrees
+
 Pitch angle ($\theta$ in degrees) calculated from vertical rise ($R_{\text{rise}}$) and horizontal run ($R_{\text{run}}$):
 
 $$\theta = \arctan\left(\frac{R_{\text{rise}}}{R_{\text{run}}}\right) \times \left(\frac{180}{\pi}\right)$$
 
 ### 2. Slope Percentage
+
 Percentage slope ($S_{\text{pct}}$):
 
 $$S_{\text{pct}} = \left(\frac{R_{\text{rise}}}{R_{\text{run}}}\right) \times 100$$
 
 ### 3. Slope Factor / Rafter Multiplier
+
 The rafter length multiplier ($M_{\text{rafter}}$) based on the Pythagorean theorem:
 
 $$M_{\text{rafter}} = \frac{\sqrt{R_{\text{rise}}^2 + R_{\text{run}}^2}}{R_{\text{run}}}$$
 
 ### 4. Actual Sloped Roof Surface Area
+
 Actual surface area ($A_{\text{sloped}}$) from flat ground footprint ($A_{\text{flat}}$):
 
 $$A_{\text{sloped}} = A_{\text{flat}} \times M_{\text{rafter}}$$
@@ -169,6 +175,7 @@ $$A_{\text{sloped}} = A_{\text{flat}} \times M_{\text{rafter}}$$
 ---
 
 ## Roof Pitch Angle Calculator Benchmarks & Comparison Table
+
 The slope reference table below shows pitch conversions, slope angles, rafter multipliers, and actual surface areas for a **1,500 Sq Ft flat footprint**:
 
 | Roof Pitch Ratio (X:12) | Pitch Angle (Degrees) | Slope Percentage (%) | Rafter Multiplier | Actual Sloped Area (1,500 sq ft flat) | Roof Type Classification |
@@ -183,6 +190,7 @@ The slope reference table below shows pitch conversions, slope angles, rafter mu
 ---
 
 ## How to Use the Roof Pitch Angle Calculator Step-by-Step
+
 1. **Grab a 12-Inch Carpenter Level:** Place a standard 12-inch level horizontally against the roof rafter or surface.
 2. **Measure Vertical Rise:** Use a tape measure to measure the vertical distance from the 12-inch end of the level up to the bottom of the rafter.
 3. **Calculate Pitch Fraction:** If the vertical distance is 6 inches, your pitch ratio is $6/12$ (or 6:12).
@@ -192,23 +200,31 @@ The slope reference table below shows pitch conversions, slope angles, rafter mu
 ---
 
 ## Roof Pitch Angle Calculator Frequently Asked Questions
+
 ### What is a 6/12 roof pitch in degrees?
+
 A 6/12 roof pitch (6 inches of rise per 12 inches of run) equals an angle of 26.57 degrees with a slope of 50% and a rafter multiplier of 1.118.
 
 ### How do you calculate roof pitch angle in degrees?
+
 The formula is: Pitch Angle (Degrees) = arctan(Rise / Run) * (180 / π). For a 6/12 pitch: arctan(6/12) = 26.57°.
 
 ### What is the rafter multiplier for a 8/12 roof pitch?
+
 The rafter multiplier (pitch factor) for an 8/12 pitch is 1.202. Multiply your flat footprint area by 1.202 to get the actual sloped roof surface area.
 
 ### What is considered a low-slope vs steep-slope roof?
+
 Low-slope roofs have a pitch less than 4/12 (under 18.43°). Steep-slope roofs have a pitch of 4/12 or greater, requiring shingles or metal panels.
 
 ### How do you measure roof pitch from inside the attic?
+
 Place a 12-inch level horizontally against the underside of an exposed roof rafter. Measure vertically from the 12-inch mark on the level up to the bottom edge of the rafter.
 
 ### What is a 12/12 roof pitch?
+
 A 12/12 pitch has 12 inches of vertical rise for every 12 inches of horizontal run, resulting in a 45-degree angle and a rafter multiplier of 1.414.
 
 ### Why is the rafter multiplier important for shingle estimates?
+
 Ground footprint measurements undercount roof surface area on sloped roofs. Multiplying footprint square footage by the rafter multiplier ensures accurate shingle bundle ordering.

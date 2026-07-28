@@ -203,25 +203,32 @@ Understanding your insurance needs is essential for protecting your home and bel
 
 
 ## Strategic Guidance for Home Renters Insurance Calculator
+
 Using this interactive calculation engine provides a clear, quantitative roadmap for your decisions. By eliminating mathematical uncertainty, you can optimize financial allocations, compare scenarios side-by-side, and make data-driven choices.
 
 ### Key Tactical Benefits of Home Renters Insurance Calculator
+
 - **Mathematical Certainty**: Eliminates guesswork by modeling multi-variable compounding and precise cost structures.
 - **Scenario Comparison**: Test multiple interest rates, payment timelines, and capital allocations in real-time.
 - **Privacy Assurance**: All data remains 100% confidential within your local browser memory, with zero remote server logging.
 - **Export & Audit Readiness**: Log calculations to local browser storage, export full histories to CSV/Excel, or share via link.
 
 ## Home Renters Insurance Calculator Frequently Asked Questions
+
 ### What is dwelling coverage?
+
 Dwelling coverage protects the physical structure of your home. It covers damage from fire, wind, hail, and other covered perils.
 
 ### What is personal property coverage?
+
 Personal property coverage protects your belongings — furniture, electronics, clothing, and other items inside your home.
 
 ### What is liability coverage?
+
 Liability coverage protects you if someone is injured on your property and sues you. It covers legal fees and settlements.
 
 ### How is the estimated premium calculated?
+
 The estimated premium is calculated using a simplified model based on coverage amounts, deductible, and other factors. Actual premiums vary by insurer and location.
 
 ---

@@ -164,21 +164,28 @@ $$\text{80 lb Bags} = \lceil \text{Total cu ft} \times 0.6 \rceil \quad | \quad 
 ---
 
 ## Concrete Yardage Calculator Frequently Asked Questions
+
 ### How do you calculate cubic yards of concrete?
+
 Multiply Length (ft) × Width (ft) × Thickness (ft) and divide by 27. (Thickness in feet = Inches / 12).
 
 ### How many 80lb bags of concrete make a cubic yard?
+
 It takes 45 bags of 80 lb pre-mix concrete to equal 1 cubic yard (27 cubic feet).
 
 ### How many 60lb bags of concrete make a cubic yard?
+
 It takes 60 bags of 60 lb pre-mix concrete to equal 1 cubic yard (27 cubic feet).
 
 ### Why should you add a waste factor to concrete calculations?
+
 Subgrades are rarely perfectly level, and forms flex under pressure. Adding a 5% to 10% waste factor prevents running short during a pour.
 
 ### What thickness is recommended for concrete slabs?
+
 Standard walkways and patios require 4 inches. Residential driveways require 5 to 6 inches, while heavy equipment pads require 6+ inches with rebar reinforcement.
 
 ### When is ready-mix truck delivery cheaper than buying bags?
+
 For projects requiring more than 1 cubic yard (approx. 45 bags of 80lb concrete), ready-mix truck delivery saves significant labor and often costs less overall.
 

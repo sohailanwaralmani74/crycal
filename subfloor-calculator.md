@@ -201,21 +201,28 @@ The table below shows subfloor material requirements (10% waste, 3/4" T&G sheets
 ---
 
 ## Subfloor Calculator Frequently Asked Questions
+
 ### What thickness plywood or OSB is required for subflooring?
+
 Standard residential building codes require 23/32-inch or 3/4-inch tongue-and-groove (T&G) OSB or CDX plywood sheathing over joists spaced 16 inches on-center.
 
 ### How many sheets of 4x8 T&G plywood do I need for an 800 sq ft room?
+
 An 800 sq ft room requires 25 net sheets ($800 / 32 = 25$). Including a standard 10% waste factor, you will need 28 sheets of 4x8 subfloor panels.
 
 ### Why is subfloor adhesive necessary when installing subfloors?
+
 Subfloor construction adhesive bonds the plywood panel directly to floor joists, eliminating floor squeaks, increasing structural stiffness, and preventing nail-pop movement over time.
 
 ### How many tubes of subfloor adhesive do I need per sheet of plywood?
+
 One 28-ounce tube of heavy-duty subfloor construction adhesive covers approximately 5 full 4x8 sheets of subfloor panels (laying a continuous 1/4-inch bead on joists).
 
 ### How many screws are needed per 4x8 sheet of subfloor?
+
 A standard 4x8 subfloor sheet requires 36 screws (6 inches apart along edge seams and 12 inches apart along interior joist supports).
 
 ### Should subfloor panels be laid staggered or aligned?
+
 Subfloor panels must always be laid perpendicular to floor joists with end joints staggered by at least two joist bays in a running bond pattern.
 

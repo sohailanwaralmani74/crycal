@@ -184,21 +184,28 @@ $$\text{Total Cost} = (\text{Volume} \times \text{Price/yd}) + (\text{Rebar Feet
 ---
 
 ## Concrete Driveway Cost Calculator Frequently Asked Questions
+
 ### How much does a 2-car concrete driveway cost?
+
 A standard 2-car concrete driveway (20 ft × 50 ft = 1,000 sq ft, 5 inches thick) costs between $7,000 and $13,000 installed ($7 to $13 per sq ft), including site excavation, gravel subbase, rebar mesh, forms, concrete, and finishing labor.
 
 ### How many cubic yards of concrete are needed for a 1,000 sq ft driveway?
+
 A 1,000 sq ft driveway poured at 5 inches thickness requires approximately 16.98 cubic yards of concrete (including a 10% waste factor).
 
 ### Should a concrete driveway be 4 inches or 6 inches thick?
+
 A 4-inch slab is adequate for standard passenger cars. However, a 5 or 6-inch thick slab with rebar reinforcement is strongly recommended for pickup trucks, SUVs, delivery vehicles, and freezing climates.
 
 ### How much rebar is needed for a concrete driveway?
+
 For an 18-inch on-center grid across a 20 × 50 ft driveway, you will need approximately 1,600 linear feet of #4 (1/2 in) rebar.
 
 ### What is the average cost to replace an existing driveway?
+
 Replacing an existing asphalt or concrete driveway adds $1.50 to $3.50 per square foot for demo, jackhammering, hauling, and disposal of old material.
 
 ### How long after pouring before I can drive on a new concrete driveway?
+
 You can walk on new concrete after 24 to 48 hours. Wait at least 7 days before driving light passenger cars, and 28 days before parking heavy trucks or RVs.
 

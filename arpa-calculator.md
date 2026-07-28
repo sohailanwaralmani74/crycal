@@ -124,6 +124,7 @@ ARPA measures account contract size for B2B SaaS platforms. Higher ARPA companie
 Having accurate, real-time insights into this metric helps SaaS founders, CFOs, and growth teams optimize capital allocation, protect operating runway, and achieve top-tier venture scalability.
 
 ## ARPA Calculator Formula & Derivation
+
 The mathematical derivation for this financial metric is expressed as:
 
 $$\text{Monthly ARPA} = \frac{\text{Total Monthly Recurring Revenue (MRR)}}{\text{Total Active Accounts}}$$ \n$$\text{Revenue Per Seat} = \frac{\text{Monthly ARPA}}{\text{Average Seats Per Account}}$$
@@ -131,6 +132,7 @@ $$\text{Monthly ARPA} = \frac{\text{Total Monthly Recurring Revenue (MRR)}}{\tex
 Where all input values are evaluated over a standardized monthly or annual accounting period.
 
 ## ARPA Calculator SaaS Benchmarks
+
 | Account Segment | Monthly ARPA Range | Annual Contract Value (ACV) | GTM Model |
 | --- | --- | --- | --- |
 | SMB | $100 - $499 | $1,200 - $5,988 | Inbound / Self-Serve |
@@ -138,6 +140,7 @@ Where all input values are evaluated over a standardized monthly or annual accou
 | Enterprise | >= $2,500 | >= $30,000 | Field Sales / ABM |
 
 ## Step-by-Step ARPA Calculator Calculation Guide
+
 1. **Enter Core Financial Inputs:** Supply your monthly sales spend, user counts, ARPU, or recurring revenue figures.
 2. **Review Intermediate Outputs:** Examine calculated gross profit, churn, payback, or unit contribution scores.
 3. **Assess Benchmark Ratings:** Compare your results against SaaS industry standards to identify growth bottlenecks.
@@ -146,21 +149,28 @@ Where all input values are evaluated over a standardized monthly or annual accou
 ---
 
 ## ARPA Calculator Frequently Asked Questions
+
 ### What is ARPA in B2B SaaS?
+
 ARPA (Average Revenue Per Account) measures the average monthly recurring revenue generated per client company or account.
 
 ### What is the difference between ARPA and ARPU?
+
 ARPA measures revenue per client business entity, while ARPU measures revenue per individual seat or user license.
 
 ### What is a good ARPA benchmark for B2B SaaS?
+
 SMB ARPA ranges from $100 to $500/mo. Mid-Market ARPA ranges from $1,000 to $5,000/mo. Enterprise ARPA exceeds $10,000+/mo.
 
 ### How can B2B SaaS companies expand ARPA?
+
 Expand ARPA by implementing multi-seat expansion pricing, introducing enterprise feature tiers, and selling value-add modules.
 
 ### How does ARPA impact sales strategy?
+
 High ARPA accounts support outbound SDR/AE sales teams, whereas low ARPA accounts require self-serve automated onboarding.
 
 ### How frequently should ARPA be evaluated?
+
 Evaluate ARPA quarterly by account cohort and industry vertical.
 

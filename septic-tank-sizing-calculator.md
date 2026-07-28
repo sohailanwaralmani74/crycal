@@ -159,15 +159,18 @@ Health departments regulate septic system sizing based on **bedroom count** (2 o
 ## Septic Tank Sizing Formulas
 
 ### 1. Estimated Daily Wastewater Flow ($Q$):
+
 $$Q = (\text{Bedrooms} \times 150\ \text{GPD}) + \text{Fixture Additions}$$
 
 ### 2. Minimum Septic Tank Volume ($V_{\text{tank}}$):
+
 - **1–3 Bedrooms**: Minimum $1,000\ \text{Gallons}$.
 - **4 Bedrooms**: Minimum $1,250\ \text{Gallons}$.
 - **5 Bedrooms**: Minimum $1,500\ \text{Gallons}$.
 - **If Garbage Disposal Installed**: $V_{\text{tank}} = \max\left(1,250, V_{\text{base}} \times 1.20\right)$
 
 ### 3. Drain Field Absorption Area ($A_{\text{field}}$):
+
 $$A_{\text{field}} = \frac{Q}{R_{\text{application}}}$$
 
 Where:
@@ -200,21 +203,28 @@ Where:
 ---
 
 ## Septic Tank Sizing Calculator Frequently Asked Questions
+
 ### Why are septic tanks sized by bedroom count instead of bathroom count?
+
 Health departments use bedroom counts because bedrooms determine long-term potential occupancy (2 persons per bedroom). Bathrooms indicate fixture convenience rather than overall daily wastewater generation.
 
 ### What is the minimum septic tank size for a 3-bedroom home?
+
 The national standard minimum septic tank capacity for a 3-bedroom home is **1,000 gallons** (or **1,250 gallons** if an in-sink garbage disposal is installed).
 
 ### How does a garbage disposal affect septic tank sizing?
+
 Garbage disposals shred un-digested food waste into fine particles that settle slowly into sludge. Disposals increase solid accumulation rates by 30% to 50%, requiring a 20% larger tank capacity and more frequent pumping.
 
 ### What is a soil percolation test (perc test)?
+
 A perc test measures how fast water drains through native soil, expressed in Minutes Per Inch (MPI). Fast sandy soil (5–15 MPI) requires smaller drain fields, while heavy clay soil (60–90 MPI) requires large absorption fields or engineered mound systems.
 
 ### How large does a septic drain field need to be?
+
 For a 3-bedroom home (450 GPD) in average soil (30 MPI), a gravel trench drain field requires approximately **750 square feet** of trench bottom area (approx 250 linear feet of 3-foot wide trench).
 
 ### What happens if a septic tank is undersized?
+
 An undersized tank shortens hydraulic retention time, allowing suspended solids and grease to escape into the leach field pipes, blinding soil pores and causing premature drain field failure.
 

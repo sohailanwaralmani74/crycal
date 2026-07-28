@@ -209,9 +209,11 @@ Using this **Fuel Tank Fill-Up Cost Calculator**, you can calculate how much mon
 ## Fill-Up Formulas
 
 ### 1. Gallons Needed to Fill
+
 $$\text{Gallons Needed} = \text{Tank Capacity} \times \left( 1 - \frac{\text{Fuel Gauge \%}}{100} \right)$$
 
 ### 2. Total Fill-Up Expense
+
 $$\text{Fill Cost} = \text{Gallons Needed} \times \text{Effective Price Per Gallon}$$
 
 ---
@@ -229,38 +231,51 @@ $$\text{Fill Cost} = \text{Gallons Needed} \times \text{Effective Price Per Gall
 ---
 
 ## Step-by-Step Fuel Tank Fill Up Cost Calculator Guide
+
 ### Step 1: Input Tank Capacity
+
 Enter total fuel tank capacity in gallons from your car's manual.
 
 ### Step 2: Select Current Fuel Gauge Reading
+
 Select Empty (0%), 1/4 (25%), 1/2 (50%), or 3/4 (75%).
 
 ### Step 3: Choose Fuel Grade & Base Price
+
 Select Regular, Midgrade, Premium, or Diesel along with baseline gas price per gallon.
 
 ### Step 4: Examine Pump Cost Estimates
+
 Review exact gallons needed, total money required to fill, and range miles added.
 
 ---
 
 ## Fuel Tank Fill Up Cost Calculator Frequently Asked Questions
+
 ### How do I find my vehicle's total gas tank capacity?
+
 Check your vehicle's owner's manual under 'Capacities' or search your car's year, make, and model specs online. Most sedans hold 14.5 to 16 gallons, while trucks hold 24 to 36 gallons.
 
 ### Is it bad to run your gas tank close to empty?
+
 Yes. Driving on empty exposes your fuel pump to overheating (gasoline cools the electric pump motor) and sucks up debris resting at the bottom of the fuel tank.
 
 ### Does filling up in the morning save money?
+
 Slightly. Gasoline expands in heat and contracts when cool. Fuel stored in underground tanks remains relatively constant in temperature, making morning savings negligible.
 
 ### Why is premium gasoline more expensive?
+
 Premium gas (91-93 octane) contains anti-knock additives required for high-compression or turbocharged engines. It costs $0.60 to $0.90 more per gallon than Regular 87 octane.
 
 ### Should I top off the pump after it clicks off?
+
 No! Topping off overfills your tank into the vapor recovery system (charcoal canister), causing mechanical damage and fuel spills.
 
 ### How many miles can I drive when the low fuel light comes on?
+
 Most low fuel warning lights illuminate when 1.5 to 2.5 gallons remain in the tank, giving you roughly 30 to 50 miles of reserve range.
 
 ### Is the Fuel Tank Fill Up Cost Calculator private?
+
 Yes, all data processing takes place strictly inside your browser.

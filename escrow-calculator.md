@@ -147,6 +147,7 @@ Using an escrow calculator helps prevent unexpected financial surprises during a
 ---
 
 ## Escrow Calculator Mathematical Formulas & Mechanics
+
 The monthly escrow deposit consists of three main components: monthly property tax reserve, monthly hazard insurance reserve, and monthly private mortgage insurance (PMI):
 
 $$\text{Monthly Tax Escrow} = \frac{\text{Annual Property Tax Amount}}{12}$$
@@ -164,6 +165,7 @@ $$\text{Maximum Allowed Escrow Cushion} = \frac{\text{Annual Property Tax} + \te
 ---
 
 ## Escrow Calculator Benchmarks & Comparison Table
+
 The following comparison illustrates monthly escrow breakdowns across various property tax rates and insurance premiums for typical residential properties:
 
 | Property Profile | Annual Tax | Annual Insurance | Monthly PMI | Monthly Escrow | Total Annual Escrow | Escrow % of PITI |
@@ -179,6 +181,7 @@ The following comparison illustrates monthly escrow breakdowns across various pr
 ---
 
 ## How to Use the Escrow Calculator Step-by-Step
+
 1. **Choose Currency**: Select your currency symbol ($ USD, € EUR, £ GBP, etc.) in the site header.
 2. **Enter Annual Property Tax**: Input your total annual county and city real estate tax assessment.
 3. **Enter Annual Homeowners Insurance**: Input the total annual cost of your hazard homeowner policy.
@@ -188,23 +191,31 @@ The following comparison illustrates monthly escrow breakdowns across various pr
 ---
 
 ## Escrow Calculator Frequently Asked Questions
+
 ### What is a mortgage escrow account?
+
 A mortgage escrow account is a holding account managed by your loan servicer to collect monthly funds for annual property taxes, homeowners insurance, and mortgage insurance.
 
 ### Why do lenders require an escrow account?
+
 Lenders mandate escrow accounts to guarantee that property taxes and insurance premiums are paid on time, protecting the home from tax liens or uninsured property damage.
 
 ### What causes an escrow shortage or deficit?
+
 Escrow shortages occur when local property tax assessments increase or insurance policy premiums rise above the lender's original annual cost estimates.
 
 ### What is an escrow cushion buffer?
+
 Federal law (RESPA) allows lenders to maintain a cushion equal to up to two months (1/6th) of your total annual escrow disbursements to cover unexpected fee increases.
 
 ### Can I manage property taxes and insurance without an escrow account?
+
 Some lenders permit escrow waivers if you have at least 20% home equity (80% LTV or lower), strong credit, and pay an escrow waiver fee.
 
 ### How often do mortgage lenders conduct escrow analysis?
+
 Servicers perform an annual escrow analysis to reconcile actual disbursements against collections and adjust monthly escrow deposits for the coming year.
 
 ### Is my personal data secure while using this tool?
+
 Yes. All calculation algorithms execute 100% locally inside your web browser. No property or payment data is stored or transmitted.

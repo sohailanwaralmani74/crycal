@@ -192,21 +192,28 @@ The table below shows recommended rug sizes, wall border clearances, and room co
 ---
 
 ## Rug Size Calculator Frequently Asked Questions
+
 ### What is the standard clearance between an area rug and the wall?
+
 The classic interior design rule of thumb is leaving 18 inches of bare floor exposed between the edge of the area rug and the room walls. In smaller rooms (under 10x12 ft), a 12-inch border works best.
 
 ### What size rug do I need for a living room?
+
 For a standard living room, an 8' × 10' or 9' × 12' rug is ideal. Ensure at least the front legs of sofas and accent chairs rest comfortably on top of the rug to anchor the room visually.
 
 ### What size rug is required for a dining room table?
+
 A dining room rug must extend at least 24 inches beyond all sides of the dining table so chair back legs remain on the rug even when guests pull chairs out to sit.
 
 ### What size rug fits under a Queen bed?
+
 An 8' × 10' rug is the standard size for a Queen bed. It should extend under the bottom two-thirds of the mattress and stick out 24 to 36 inches around the sides and foot of the bed.
 
 ### What size rug fits under a King bed?
+
 A 9' × 12' or 10' × 14' rug is ideal for a King-size bed, allowing 36 inches of plush rug coverage on both sides and at the foot of the bed.
 
 ### Should a rug be larger or smaller than the sofa?
+
 An area rug should always be wider than your main sofa by at least 6 inches on both ends (12 inches total wider than the sofa) to prevent the seating arrangement from looking cramped.
 

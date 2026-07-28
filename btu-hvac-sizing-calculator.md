@@ -219,21 +219,28 @@ where:
 ---
 
 ## BTU HVAC Sizing Calculator Frequently Asked Questions
+
 ### What is a BTU in HVAC sizing?
+
 A BTU (British Thermal Unit) measures heat energy. One BTU is the heat required to raise the temperature of 1 pound of water by 1°F. HVAC units are rated in BTUs per hour (BTU/hr).
 
 ### How many BTUs equal 1 ton of air conditioning?
+
 1 ton of air conditioning equals 12,000 BTU/hr of cooling capacity. A 3-ton AC unit produces 36,000 BTU/hr of cooling.
 
 ### How many BTUs per square foot are needed for cooling and heating?
+
 Cooling generally requires 20 to 35 BTUs per square foot depending on climate zone. Heating requires 30 BTUs per sq ft in warm southern states up to 60 BTUs per sq ft in sub-zero northern states.
 
 ### What size air conditioner do I need for a 1,500 sq ft home?
+
 A 1,500 sq ft house typically requires a 2.5-ton to 3.5-ton AC unit (30,000 to 42,000 BTUs) depending on climate zone, ceiling height, and insulation.
 
 ### What happens if an HVAC system is oversized?
+
 An oversized air conditioner cools the room too quickly ('short-cycling') without running long enough to remove humidity, leading to clammy air, high energy bills, and shortened compressor life.
 
 ### Does ceiling height affect BTU calculation?
+
 Yes. Rooms with high or vaulted ceilings (10 ft to 16 ft) hold significantly greater cubic air volume, requiring proportional increases in heating and cooling BTUs.
 

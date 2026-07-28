@@ -200,16 +200,21 @@ Property taxes are one of the largest ongoing costs of homeownership. This prope
 ---
 
 ## Property Tax Calculator Frequently Asked Questions
+
 ### What is a property tax calculator?
+
 A property tax calculator estimates the amount of property tax you owe based on your property value, assessment ratio, and local tax rate. It works for any jurisdiction.
 
 ### What is an assessment ratio?
+
 The assessment ratio is the percentage of your property's value that the local government uses for tax purposes. Some jurisdictions assess at 100%, others at 50% or other percentages.
 
 ### What is the typical property tax rate?
+
 Property tax rates vary widely by location. The US average is about 1.2%, but rates range from 0.5% in some states to over 2% in others. This calculator allows you to enter your exact rate.
 
 ### What are property tax exemptions?
+
 Exemptions reduce your taxable property value. Common exemptions include homestead exemptions, senior citizen exemptions, and veteran exemptions. Enter the total amount of exemptions you qualify for.
 
 ---

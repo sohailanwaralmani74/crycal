@@ -163,6 +163,7 @@ Using this **Gas vs Electric Car Cost Calculator**, you can accurately project y
 ---
 
 ## Gas vs Electric Car Cost Calculator Calculation Flow
+
 <div class="flow-chart">
   <div class="flow-title">Gas vs EV Fuel Cost Flow</div>
 
@@ -218,9 +219,11 @@ Using this **Gas vs Electric Car Cost Calculator**, you can accurately project y
 ## Fuel & Energy Formulas
 
 ### 1. Gas Car Annual Cost
+
 $$\text{Annual Gas Cost} = \left( \frac{\text{Annual Miles}}{\text{MPG}} \right) \times \text{Gas Price}$$
 
 ### 2. EV Electricity Annual Cost
+
 $$\text{Annual EV Cost} = \left( \text{Annual Miles} \times \frac{\text{kWh/100mi}}{100} \right) \times \text{Electricity Rate}$$
 
 ---
@@ -238,38 +241,51 @@ $$\text{Annual EV Cost} = \left( \text{Annual Miles} \times \frac{\text{kWh/100m
 ---
 
 ## Step-by-Step Gas vs Electric Car Cost Calculator Guide
+
 ### Step 1: Input Annual Driving Distance
+
 Enter how many miles you drive in a typical year.
 
 ### Step 2: Input Gasoline Parameters
+
 Enter your baseline gas car MPG and local gas price per gallon.
 
 ### Step 3: Input Electric Vehicle Parameters
+
 Enter the EV energy consumption (default: 30 kWh per 100 miles) and your electric utility rate per kWh.
 
 ### Step 4: Compare Annual & 5-Year Savings
+
 Analyze your annual fuel dollar savings and 5-year cumulative fuel benefit.
 
 ---
 
 ## Gas vs Electric Car Cost Calculator Frequently Asked Questions
+
 ### Is electricity cheaper than gas per mile?
+
 Yes, charging an EV at home typically costs $0.03 to $0.05 per mile, compared to $0.12 to $0.20 per mile for a gasoline car, offering a 60% to 75% savings on fuel.
 
 ### How is EV efficiency measured?
+
 EV efficiency is measured in kWh per 100 miles (or miles per kWh). Efficient EVs consume 25 to 30 kWh per 100 miles, whereas larger EV trucks consume 40 to 50 kWh per 100 miles.
 
 ### Does public fast charging cost more than home charging?
+
 Yes. DC Fast Charging (DCFC) costs $0.35 to $0.55 per kWh, which is 2x to 3x higher than home overnight electric rates.
 
 ### How much can an EV save in fuel over 5 years?
+
 Driving 13,500 miles per year, an EV typically saves $1,000 to $1,800 annually in fuel, resulting in $5,000 to $9,000 in 5-year fuel savings.
 
 ### What is an eMPG (MPGe) rating?
+
 MPGe (Miles Per Gallon Equivalent) measures how far an EV can travel on 33.7 kWh of electricity, which contains the energy equivalent of one gallon of gasoline.
 
 ### Do EVs also save money on routine maintenance?
+
 Yes. EVs require no oil changes, spark plugs, or timing belts, and regenerative braking extends brake pad life significantly, saving ~$400/yr in maintenance.
 
 ### Is the Gas vs Electric Car Cost Calculator private?
+
 Yes, all computations run locally in your web browser.

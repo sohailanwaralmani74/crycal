@@ -240,18 +240,24 @@ After 10 years of 5% dividend growth, your YOC has grown from 4% to 6.52% — al
 ---
 
 ## Dividend Yield on Cost Calculator Frequently Asked Questions
+
 ### What is dividend yield on cost (YOC)?
+
 Dividend Yield on Cost (YOC) is the annual dividend income divided by your original purchase price. It shows the effective yield you're earning based on what you originally paid for the stock.
 
 ### How is yield on cost calculated?
+
 Yield on Cost = (Annual Dividend Per Share ÷ Purchase Price Per Share) × 100.
 
 ### What is the difference between yield on cost and current yield?
+
 Yield on Cost is based on your original purchase price. Current Yield is based on the current market price. YOC grows over time as dividends increase.
 
 ### Why is yield on cost important?
+
 Yield on Cost shows the true return on your original investment. For long-term investors, YOC can grow significantly as companies increase dividends, often reaching 10% or more after many years.
 
 ### How does dividend growth affect yield on cost?
+
 As companies raise their dividends, your annual dividend income increases. Since your original cost basis stays the same, your yield on cost grows over time.
 

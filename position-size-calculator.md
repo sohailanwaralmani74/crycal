@@ -204,25 +204,32 @@ Position sizing is the cornerstone of risk management. This pure position size c
 
 
 ## Strategic Guidance for Position Size Calculator
+
 Using this interactive calculation engine provides a clear, quantitative roadmap for your decisions. By eliminating mathematical uncertainty, you can optimize financial allocations, compare scenarios side-by-side, and make data-driven choices.
 
 ### Key Tactical Benefits of Position Size Calculator
+
 - **Mathematical Certainty**: Eliminates guesswork by modeling multi-variable compounding and precise cost structures.
 - **Scenario Comparison**: Test multiple interest rates, payment timelines, and capital allocations in real-time.
 - **Privacy Assurance**: All data remains 100% confidential within your local browser memory, with zero remote server logging.
 - **Export & Audit Readiness**: Log calculations to local browser storage, export full histories to CSV/Excel, or share via link.
 
 ## Position Size Calculator Frequently Asked Questions
+
 ### What is position size?
+
 Position size is the number of units (lots, shares, contracts) you should trade to keep your risk within your defined limit. It's calculated as (Account Balance × Risk%) ÷ (Stop Loss × Per-Unit Value).
 
 ### What is the per-unit value?
+
 The per-unit value is the monetary worth of one pip, point, tick, or dollar move. For Forex, a standard lot's pip value is typically $10 for USD-based pairs. For stocks, it's $1 per share.
 
 ### How is risk amount calculated?
+
 Risk Amount = Account Balance × (Risk% / 100). This is the maximum amount you're willing to lose on this trade.
 
 ### Can I use this calculator for any asset?
+
 Yes — it works for Forex, stocks, crypto, futures, commodities, and any other asset class. Just set the appropriate stop-loss distance and per-unit value.
 
 ---

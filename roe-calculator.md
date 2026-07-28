@@ -148,6 +148,7 @@ Furthermore, analyzing ROE is vital when evaluating corporate management quality
 ---
 
 ## ROE Calculator Mathematical Formulas & Mechanics
+
 The basic formula for Return on Equity ($\text{ROE}$) is calculated as:
 
 $$\text{ROE (\%)} = \left( \frac{\text{Net Income}}{\text{Shareholders' Equity}} \right) \times 100$$
@@ -165,6 +166,7 @@ $$\text{ROE} = \underbrace{\left(\frac{\text{Net Income}}{\text{Revenue}}\right)
 ---
 
 ## ROE Calculator Benchmarks & Comparison Table
+
 The benchmark table below outlines ROE metrics and performance assessments across various business profiles and leverage structures for a company with **$500,000 Net Income**:
 
 | Corporate Profile | Shareholders' Equity | Financial Leverage | ROE % | Net Profit Margin | Asset Turnover | Equity Multiplier | Performance Assessment |
@@ -180,6 +182,7 @@ The benchmark table below outlines ROE metrics and performance assessments acros
 ---
 
 ## How to Use the ROE Calculator Step-by-Step
+
 1. **Select Currency**: Choose your preferred currency ($ USD, € EUR, £ GBP) from the site header.
 2. **Input Net Income**: Enter annual net profit after tax and preferred dividends from the income statement.
 3. **Input Shareholders' Equity**: Enter total shareholders' equity (total assets minus total liabilities) from the balance sheet.
@@ -190,23 +193,31 @@ The benchmark table below outlines ROE metrics and performance assessments acros
 ---
 
 ## ROE Calculator Frequently Asked Questions
+
 ### What is Return on Equity (ROE)?
+
 Return on Equity (ROE) is a financial profitability metric that measures how effectively a company generates net income relative to total shareholders' equity.
 
 ### What is considered a good ROE percentage?
+
 An ROE of 15% to 20% is generally considered good to excellent across most industries. Comparing ROE against industry peers is necessary for meaningful analysis.
 
 ### What is the 3-Step DuPont Analysis?
+
 DuPont analysis breaks down ROE into three core components: Net Profit Margin (Profitability), Asset Turnover (Efficiency), and Equity Multiplier (Financial Leverage).
 
 ### Can a high ROE be misleading?
+
 Yes. A company can achieve an artificially high ROE by taking on excessive debt, which reduces shareholders' equity (the denominator) while increasing financial risk.
 
 ### What causes negative ROE?
+
 A negative ROE occurs when a business operates at a net loss (negative net income) or has negative net shareholders' equity due to accumulated losses.
 
 ### Why use Average Shareholders' Equity instead of Ending Equity?
+
 Using average equity ($\text{Beginning Equity} + \text{Ending Equity} / 2$) accounts for equity fluctuations, stock buybacks, or new share issuances during the fiscal year.
 
 ### Is my corporate financial data private?
+
 Yes, 100%. All calculation algorithms execute locally inside your web browser. No corporate income, balance sheet, or equity metrics are uploaded or logged.

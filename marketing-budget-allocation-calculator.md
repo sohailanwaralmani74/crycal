@@ -167,6 +167,7 @@ Effective growth strategy requires balanced capital deployment across high-inten
 ---
 
 ## Marketing Budget Allocation Calculator Mathematical Formulas
+
 ### 1. Channel Budget Allocation
 
 $$ \text{Channel Spend (\$) } = \text{Total Monthly Budget} \times \left( \frac{\text{Channel Share \%}}{\sum \text{All Shares \%}} \right) $$
@@ -193,6 +194,7 @@ $$ \text{Channel Customers} = \frac{\text{Channel Spend (\$)}}{\text{Target CAC}
 ---
 
 ## Step-by-Step Marketing Budget Allocation Calculator Guide
+
 1. **Set Monthly Growth Capital**: Input your available monthly marketing budget.
 2. **Define Unit Target CAC**: Base your target CAC on maintaining an $LTV:CAC \ge 3:1$ ratio.
 3. **Adjust Percentage Weights**: Set allocation percentages for PPC, LinkedIn, SEO, and Events.
@@ -201,20 +203,27 @@ $$ \text{Channel Customers} = \frac{\text{Channel Spend (\$)}}{\text{Target CAC}
 ---
 
 ## Marketing Budget Allocation Calculator Frequently Asked Questions
+
 ### What is a marketing budget allocation calculator?
+
 A marketing budget allocation calculator helps CMOs, founders, and growth leaders divide a fixed budget across marketing channels to hit target customer acquisition metrics.
 
 ### How much budget should SaaS companies spend on marketing?
+
 Early-stage growth SaaS companies typically allocate 30% to 50%+ of gross revenue to sales and marketing, while mature SaaS firms spend 15% to 25%.
 
 ### How is projected customer volume calculated?
+
 Projected customer acquisitions are calculated as: Total Monthly Marketing Budget / Target CAC.
 
 ### Why is channel allocation important?
+
 Diversifying marketing spend prevents over-reliance on a single advertising network and lowers risk when ad costs fluctuate.
 
 ### What is the recommended split between paid and organic channels?
+
 A common benchmark for B2B SaaS is 60% paid direct response (PPC + Paid Social) and 40% organic long-term compounding (SEO, Content, Brand & Events).
 
 ### What happens if channel percentages do not add up to 100%?
+
 The calculator automatically scales and normalizes percentage shares to ensure 100% of your budget is accurately distributed.

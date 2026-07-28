@@ -153,9 +153,11 @@ High-interest credit card debt can impede financial growth as monthly payments a
 However, balance transfer offers carry upfront costs—typically a 3% to 5% balance transfer fee. Evaluating whether a transfer is advantageous requires comparing interest saved over the promotional period against the upfront fee. Cardholders must determine the fixed monthly payment necessary to wipe out the balance before the 0% APR period expires. This calculator performs these calculations instantly, empowering you to eliminate debt strategically, securely, and privately.
 
 ## Balance Transfer Payoff Calculator Mathematical Formulas & Mechanics
+
 The evaluation computes the upfront transfer fee, new balance, required monthly payment, and net savings.
 
 ### 1. Upfront Transfer Fee & Total Starting Principal
+
 The transfer fee ($F_{transfer}$) is calculated from transferred balance ($B$) and fee percentage ($r_{fee}$):
 
 $$F_{transfer} = B \times \left(\frac{r_{fee}}{100}\right)$$
@@ -163,6 +165,7 @@ $$F_{transfer} = B \times \left(\frac{r_{fee}}{100}\right)$$
 $$B_{new} = B + F_{transfer}$$
 
 ### 2. Required Monthly Payment & Net Savings
+
 To achieve a $0 balance at the end of the promo duration ($m_{promo}$ months), required monthly payment ($P_{req}$) is:
 
 $$P_{req} = \frac{B_{new}}{m_{promo}}$$
@@ -174,6 +177,7 @@ $$\text{Net Financial Savings } S_{net} = I_{old} - F_{transfer}$$
 Where $B$ is initial principal, $r_{fee}$ is transfer fee %, $m_{promo}$ is promo duration, and $S_{net}$ represents net cash saved.
 
 ## Balance Transfer Payoff Calculator Benchmarks & Comparison Table
+
 | Transferred Debt Balance | Current APR % | 0% Promo Duration | Transfer Fee % (Amount) | New Principal Balance | Required Monthly Payment | Net Interest Savings |
 |---|---|---|---|---|---|---|
 | **$5,000** | 22.0% | 12 Months | 3.0% ($150) | $5,150 | $429.17 | **$450.00** |
@@ -183,6 +187,7 @@ Where $B$ is initial principal, $r_{fee}$ is transfer fee %, $m_{promo}$ is prom
 | **$20,000** | 21.5% | 18 Months | 4.0% ($800) | $20,800 | $1,155.56 | **$2,820.00** |
 
 ## How to Use the Balance Transfer Payoff Calculator Step-by-Step
+
 1. **Enter Credit Card Balance to Transfer**: Input current high-interest credit card debt total.
 2. **Specify Current APR**: Input ongoing interest rate percentage currently charged on existing credit card.
 3. **Input Balance Transfer Fee Percentage**: Enter promotional transfer fee (typically 3% to 5%).
@@ -190,23 +195,31 @@ Where $B$ is initial principal, $r_{fee}$ is transfer fee %, $m_{promo}$ is prom
 5. **Review Required Monthly Payment & Net Savings**: Evaluate monthly payment target needed to achieve total debt payoff before promo expiry.
 
 ## Balance Transfer Payoff Calculator Frequently Asked Questions
+
 ### How does a 0% APR balance transfer credit card work?
+
 A 0% APR balance transfer credit card allows you to transfer existing high-interest credit card balances onto a new card that charges zero interest for a promotional window (typically 12 to 21 months).
 
 ### What is a balance transfer fee and how is it added to my balance?
+
 Credit card issuers charge an upfront balance transfer fee of 3% to 5% of the transferred amount. This fee is automatically added to your new account principal balance.
 
 ### How do I calculate the required monthly payment to eliminate debt during 0% APR?
+
 Divide your total new balance (transferred principal plus upfront balance transfer fee) by the total number of months in the promotional 0% APR window.
 
 ### What happens if I fail to pay off the full balance before the 0% APR promo ends?
+
 Any remaining unpaid principal balance after the promotional window expires will begin accruing interest at the card's standard ongoing purchase/transfer APR.
 
 ### Does transferring credit card balances hurt your credit score?
+
 Opening a new credit card triggers a temporary hard inquiry, but acquiring new credit limit capacity improves overall credit utilization ratios, which can boost credit scores long term.
 
 ### Can I transfer balances between two credit cards from the same issuing bank?
+
 No, credit card issuers generally prohibit transferring balances between accounts held within their own institution; transfers must be between different banks.
 
 ### Is my personal debt and financial information kept private?
+
 Yes, all balance transfer calculations run 100% locally inside your web browser. No credit balances, interest rates, or financial details are saved or transmitted.

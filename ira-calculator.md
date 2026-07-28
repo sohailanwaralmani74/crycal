@@ -246,19 +246,25 @@ The Inflation-Adjusted Value is calculated by discounting the final balance usin
 ---
 
 ## IRA Calculator Frequently Asked Questions
+
 ### What is an IRA calculator?
+
 An IRA calculator projects how much your Individual Retirement Account (IRA) will grow by the time you retire. It estimates the future value of your IRA based on your contributions, investment returns, fees, and time horizon.
 
 ### How is this different from an RMD calculator?
+
 An IRA calculator is used during the accumulation phase to estimate growth before retirement. An RMD (Required Minimum Distribution) calculator is used during the distribution phase to determine mandatory withdrawals after you reach a certain age.
 
 ### What is the IRA contribution limit?
+
 For 2024, the annual IRA contribution limit is $6,500 for individuals under 50 and $7,500 for those 50 and older. This calculator uses the limit you enter and models future increases based on your growth rate.
 
 ### What is the difference between Traditional and Roth IRA?
+
 Traditional IRA contributions are tax-deductible, and withdrawals are taxed in retirement. Roth IRA contributions are made with after-tax dollars, but withdrawals in retirement are tax-free. This calculator works for both — it projects your balance regardless of tax treatment.
 
 ### How do fees affect my IRA growth?
+
 Even small fees can significantly reduce your retirement savings over decades. This calculator subtracts annual fees from your balance to show the impact.
 
 ---

@@ -180,21 +180,28 @@ $$\text{Total Cost (60 lb)} = \text{60 lb Bags Needed} \times \text{Price Per 60
 ---
 
 ## Concrete Bag Calculator Frequently Asked Questions
+
 ### How many 80lb bags of concrete do I need for 1 cubic yard?
+
 You need 45 bags of 80 lb pre-mix concrete to equal 1 cubic yard (27 cubic feet) of concrete.
 
 ### How many 60lb bags of concrete make 1 cubic yard?
+
 You need 60 bags of 60 lb pre-mix concrete to equal 1 cubic yard of concrete.
 
 ### What is the yield of an 80lb concrete bag?
+
 An 80 lb bag of pre-mix concrete yields approximately 0.60 cubic feet (0.022 cubic yards) of mixed wet concrete.
 
 ### What is the yield of a 60lb concrete bag?
+
 A 60 lb bag of pre-mix concrete yields approximately 0.45 cubic feet (0.017 cubic yards) of mixed wet concrete.
 
 ### Are 80lb bags cheaper per cubic foot than 60lb bags?
+
 Yes, 80 lb bags almost always offer a lower price per cubic foot of concrete compared to 60 lb or 40 lb bags.
 
 ### When should I switch from bags to ready-mix truck delivery?
+
 For projects requiring more than 1 cubic yard (45 bags of 80lb concrete), ready-mix truck delivery is faster, less labor-intensive, and often cheaper.
 

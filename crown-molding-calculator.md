@@ -207,21 +207,28 @@ The table below demonstrates board stock requirements, miter waste footage, and 
 ---
 
 ## Crown Molding Calculator Frequently Asked Questions
+
 ### Why do I need a 15% waste allowance for crown molding?
+
 Cutting 45° miter joints for inside/outside corners, coping joints, and 45° scarf splices requires trimming angles off board ends. A 15% waste factor ensures you don't run short due to mis-cuts or wood knots.
 
 ### Should I buy 12-foot or 16-foot crown molding sticks?
+
 Using longer 16-foot or 12-foot molding sticks is strongly recommended because longer boards span entire wall lengths without needing mid-wall scarf joint splices, creating a seamless professional finish.
 
 ### What is the difference between coped joints and mitered joints for inside corners?
+
 A mitered inside corner cuts both molding pieces at a 45° bevel. A coped inside corner cuts one piece square against the wall and uses a coping saw to profile-cut the overlapping piece. Coped joints resist opening up when walls expand or contract.
 
 ### How much does crown molding cost per linear foot?
+
 MDF crown molding costs $1.50 to $3.00 per linear foot. Solid pine or oak ranges from $3.00 to $6.00 per foot, while decorative polyurethane or flexible crown molding costs $4.00 to $9.00 per foot.
 
 ### Do I need corner blocks for crown molding?
+
 Decorative corner blocks eliminate the need for complicated 45° bevel miter cuts. Molding sticks butt straight into 90° corner blocks, simplifying installation for DIYers.
 
 ### How do I measure room perimeter for crown molding?
+
 Measure each wall along the ceiling line in inches, sum all walls, then divide by 12 to convert total perimeter to linear feet.
 

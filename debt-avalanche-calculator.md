@@ -26,6 +26,7 @@ inputs:
       - monthly
 
 # Debt Avalanche Calculator - Calculate Payoff Schedule & Interest Savings
+
 # Each debt has: name, balance, interestRate, minimumPayment
 
 outputs:
@@ -170,16 +171,21 @@ The debt avalanche method is the most financially efficient way to pay off debt.
 ---
 
 ## Debt Avalanche Calculator Frequently Asked Questions
+
 ### What is the debt avalanche method?
+
 The debt avalanche method involves listing your debts from highest to lowest interest rate, paying minimums on all debts, and putting any extra money toward the highest-rate debt until it's paid off. Then you roll that payment to the next highest-rate debt — saving the most money on interest.
 
 ### How is this different from the debt snowball method?
+
 The debt avalanche targets the highest interest rate first, saving the most money in interest. The debt snowball targets the smallest balance first, providing psychological wins and momentum. This calculator uses the avalanche method.
 
 ### What happens when I pay off a debt?
+
 The payment you were making on the paid-off debt (minimum payment + any extra) rolls to the next debt. This accelerates your payoff.
 
 ### Can I add more debts later?
+
 Yes — you can add, edit, or remove debts at any time. The calculator updates instantly.
 
 ---

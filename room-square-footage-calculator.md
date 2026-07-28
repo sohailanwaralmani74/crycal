@@ -218,21 +218,28 @@ The table below illustrates total floor area calculations, square yardage, waste
 ---
 
 ## Room Square Footage Calculator Frequently Asked Questions
+
 ### How do I calculate square footage for an L-shaped room?
+
 Divide the L-shaped room into two separate rectangular boxes. Measure the length and width of each box in feet, multiply length × width for each section to find their square footage, then add the two numbers together.
 
 ### How do I convert square feet to square yards?
+
 Divide total square feet by 9 to get square yards. For example, a 180 sq ft room equals 20 square yards (180 ÷ 9 = 20 sq yd). Carpet and sheet vinyl are typically sold in square yards.
 
 ### What waste percentage should I add for flooring?
+
 Add a 10% waste factor for standard plank or carpet tile installations, 12% for ceramic tile, and 15% for diagonal tile patterns or rooms with multiple doorway cutouts.
 
 ### How do I measure room square footage with inches?
+
 If measuring in inches, multiply length in inches by width in inches, then divide the total by 144 to get square feet (e.g., 144 in × 120 in = 17,280 sq in ÷ 144 = 120 sq ft).
 
 ### Does square footage include closet space?
+
 In real estate appraisal, livable square footage generally includes attached walk-in closets. For flooring orders, always measure closets separately so you purchase sufficient material.
 
 ### What is the average flooring cost per square foot?
+
 Laminate and luxury vinyl plank (LVP) range from $2.50 to $6.00/sq ft. Hardwood flooring ranges from $6.00 to $14.00/sq ft, and porcelain tile ranges from $4.00 to $10.00/sq ft.
 

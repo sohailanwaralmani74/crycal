@@ -174,9 +174,11 @@ Simply asking passengers to "chip in for gas" neglects vehicle wear and tear bor
 ---
 
 ## Carpool Cost Split Calculator Calculation Flow & Formulas
+
 The formula combines fuel consumption, mileage wear, and fixed toll/parking expenses across all commuters:
 
 ### Carpool Cost Split Calculator Inputs & Parameters
+
 | Parameter | Unit | Description |
 | :--- | :--- | :--- |
 | **Commute Miles (\(D_{daily}\))** | miles | Daily round-trip mileage |
@@ -190,27 +192,33 @@ The formula combines fuel consumption, mileage wear, and fixed toll/parking expe
 ---
 
 ### Step-by-Step Carpool Cost Split Calculator Formulas
+
 #### 1. Total Monthly Mileage (\(M_{month}\))
+
 \[
 M_{month} = D_{daily} \times W_{days}
 \]
 
 #### 2. Monthly Gas Expense (\(C_{gas}\))
+
 \[
 C_{gas} = \left(\frac{M_{month}}{MPG}\right) \times P_{fuel}
 \]
 
 #### 3. Monthly Wear & Maintenance (\(C_{wear}\))
+
 \[
 C_{wear} = M_{month} \times R_{wear}
 \]
 
 #### 4. Total Monthly Commute Expense (\(C_{total}\))
+
 \[
 C_{total} = C_{gas} + C_{wear} + C_{fixed}
 \]
 
 #### 5. Individual Monthly Share (\(C_{share\_month}\)) & Daily Share (\(C_{share\_day}\))
+
 \[
 C_{share\_month} = \frac{C_{total}}{N_{riders}}
 \]
@@ -219,6 +227,7 @@ C_{share\_day} = \frac{C_{share\_month}}{W_{days}}
 \]
 
 #### 6. Driver Cash Reimbursement (\(R_{driver}\))
+
 \[
 R_{driver} = C_{total} \times \left(\frac{N_{riders} - 1}{N_{riders}}\right)
 \]
@@ -237,6 +246,7 @@ R_{driver} = C_{total} \times \left(\frac{N_{riders} - 1}{N_{riders}}\right)
 ---
 
 ## How to Use the Carpool Cost Split Calculator Step-by-Step
+
 1. **Enter Commute Metrics**: Input daily round-trip distance (e.g. `40 miles`) and working days per month (e.g. `20 days`).
 2. **Set Vehicle Costs**: Enter MPG, gas price, and wear rate (default `$0.15/mi`).
 3. **Include Tolls & Parking**: Enter total monthly highway tolls and parking pass fees.
@@ -245,23 +255,31 @@ R_{driver} = C_{total} \times \left(\frac{N_{riders} - 1}{N_{riders}}\right)
 ---
 
 ## Carpool Cost Split Calculator Frequently Asked Questions
+
 ### Why should carpool cost sharing include vehicle wear and tear?
+
 Driving a vehicle incurs costs beyond gas, including oil changes, tire wear, brake replacement, and overall mileage depreciation (typically **$0.15 to $0.25 per mile** according to AAA and IRS data).
 
 ### How does carpooling save commuters money?
+
 Carpooling splits fixed commuting costs (gas, tolls, parking, depreciation) evenly among 3 or 4 people, reducing individual transportation expenses by **60% to 75% per month**.
 
 ### How is driver monthly reimbursement calculated?
+
 Driver monthly reimbursement equals total monthly commute expenses multiplied by the passenger percentage (e.g. 3 passengers out of 4 total riders pay 75% of total costs back to the driver).
 
 ### What is a reasonable wear and maintenance rate per mile?
+
 Standard wear and maintenance rates range from **$0.12 to $0.20 per mile** for sedans and **$0.18 to $0.30 per mile** for trucks and heavy SUVs.
 
 ### What if carpool members rotate driving duties?
+
 If members rotate driving equally using their own vehicles, direct cash exchange is unnecessary as costs naturally balance out over time.
 
 ### Are carpool payments taxable income for the driver?
+
 No. The IRS considers passenger carpool reimbursements for actual driving expenses to be non-taxable expense sharing, provided the driver is not making a commercial profit.
 
 ### Is my carpool data kept private?
+
 Yes. All calculations remain 100% private in your browser.

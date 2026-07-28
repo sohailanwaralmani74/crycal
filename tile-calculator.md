@@ -226,21 +226,28 @@ Below is a benchmark breakdown for a **15 ft × 12 ft (180 sq ft) room** assumin
 ---
 
 ## Tile Calculator Frequently Asked Questions
+
 ### How many 12x12 tiles do I need for a 100 sq ft room?
+
 A 100 sq ft room requires exactly 100 net 12x12 inch tiles. Adding a 10% waste factor brings the recommendation to 110 tiles (or approximately 7 boxes at 16 sq ft per box).
 
 ### How many 12x24 tiles cover 100 square feet?
+
 Each 12x24 inch tile covers 2 square feet. For a 100 sq ft room, you need 50 net tiles. Adding a 10% waste factor requires 55 tiles (or 4 boxes at 16 sq ft per box).
 
 ### Why do I need more waste percentage for large format tiles?
+
 Large tiles (such as 12x24 or 24x24) produce larger off-cut scraps along walls and corners that often cannot be reused in another row, requiring 10% to 15% waste overage.
 
 ### How do I determine how many square feet are in a box of tiles?
+
 Check the manufacturer packaging or product specification page. Standard floor tile boxes usually contain between 10 and 20 square feet per box.
 
 ### Do grout joints affect the tile count calculation?
+
 Grout joint widths (1/8" to 1/4") reduce the required tile area slightly, but in practice, installers treat this extra space as a safety margin for edge cuts and layout alignment.
 
 ### Should I buy extra tiles for future repairs?
+
 Yes. Keeping 1 full extra box (or 5% to 10% extra) of your specific dye lot is strongly recommended for future plumbing repairs, cracked tiles, or remodeling.
 

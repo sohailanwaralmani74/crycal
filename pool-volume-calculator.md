@@ -196,21 +196,28 @@ $$\text{Water Mass (Lbs)} = \text{Volume (US Gallons)} \times 8.34$$
 ---
 
 ## Pool Volume Calculator Frequently Asked Questions
+
 ### How do I calculate pool volume in gallons?
+
 For rectangular pools, multiply Length × Width × Average Depth × 7.48. For round pools, multiply 3.14159 × Radius² × Average Depth × 7.48. For oval pools, multiply 3.14159 × Half Length × Half Width × Average Depth × 7.48.
 
 ### How is average pool depth calculated?
+
 Average depth is calculated by adding the shallow end depth and deep end depth together, then dividing by 2: `(Shallow Depth + Deep Depth) / 2`.
 
 ### Why is knowing pool water volume important?
+
 Knowing exact pool volume is critical for applying correct pool chemicals (chlorine shock, algaecides, pH balancers), sizing pool pumps and filters, and estimating pool heating costs.
 
 ### How many gallons of water are in a 16x32 pool?
+
 A standard 16x32 foot rectangular pool with a shallow depth of 3 feet and deep end of 8 feet (5.5 ft avg depth) holds approximately 21,050 US gallons (79,700 liters).
 
 ### How much does pool water weigh?
+
 One US gallon of fresh water weighs approximately 8.34 pounds (1.0 kg per liter). A 20,000 gallon swimming pool contains over 166,800 pounds (83.4 tons) of water.
 
 ### What is the turnover rate for a swimming pool?
+
 Turnover rate is the time required for a pool pump to circulate the total pool water volume through the filter system, typically recommended as 8 hours for residential pools.
 

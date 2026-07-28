@@ -284,18 +284,24 @@ This **long term care insurance cost estimator** is designed for:
 ---
 
 ## Long Term Care Insurance Calculator Frequently Asked Questions
+
 ### What is long-term care insurance?
+
 Long‑term care insurance helps cover the cost of care services not covered by health insurance, such as nursing home care, assisted living, and in‑home care.
 
 ### How much does long-term care insurance cost?
+
 Costs vary by age, health, coverage amount, benefit period, and other factors. The calculator provides a personalized estimate.
 
 ### What is a benefit period?
+
 A benefit period is the length of time the policy will pay for your care (e.g., 2 years, 5 years, or lifetime).
 
 ### What is an elimination period?
+
 An elimination period is the waiting period before benefits begin after a qualifying event. Typical periods are 30, 60, or 90 days.
 
 ### Why add inflation protection?
+
 Inflation protection increases your benefit amount over time to keep pace with rising care costs, but it also raises your premium.
 

@@ -198,15 +198,20 @@ This **zero-coupon bond calculator** is designed for:
 ---
 
 ## Zero Coupon Bond Calculator Frequently Asked Questions
+
 ### What is a zero-coupon bond?
+
 A zero-coupon bond is a bond that pays no periodic interest. Instead, it's sold at a discount to its face value and pays the full face value at maturity, with the difference representing the investor's return.
 
 ### How do you calculate the price of a zero-coupon bond?
+
 The price is calculated by discounting the face value back to the present using the yield to maturity: Price = Face Value ÷ (1 + y/n)^(n×t).
 
 ### How do you find the yield of a zero-coupon bond?
+
 Given the purchase price, face value, and time to maturity, the implied yield is found by rearranging the price formula: y = n × [(Face Value ÷ Price)^(1 ÷ (n×t)) − 1].
 
 ### Why do zero-coupon bonds trade at a discount?
+
 Since zero-coupon bonds pay no periodic interest, investors buy them below face value so that the price appreciation to face value at maturity represents their entire return.
 

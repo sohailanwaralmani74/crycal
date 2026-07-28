@@ -185,21 +185,28 @@ $$\text{Total Cost (\$)} = \text{Total Board Feet} \times \text{Price per Board 
 ---
 
 ## Board Feet Calculator Frequently Asked Questions
+
 ### What is a board foot?
+
 A board foot (BF) is a unit of volume for measuring lumber in North America. One board foot represents a piece of wood 1 inch thick, 12 inches wide, and 1 foot (12 inches) long, equaling 144 cubic inches of wood volume.
 
 ### What is the formula for board feet?
+
 The formula for board feet when length is in feet is: Board Feet = (Thickness in inches × Width in inches × Length in feet) / 12. If length is measured in inches, divide by 144: Board Feet = (Thickness in inches × Width in inches × Length in inches) / 144.
 
 ### How do you calculate board feet for rough vs dressed lumber?
+
 Rough-sawn hardwood is sold by nominal thickness quarters (e.g., 4/4 = 1", 5/4 = 1.25", 8/4 = 2"). Board feet is calculated based on nominal un-surfaced dimensions prior to planing, even though surfaced boards are slightly thinner.
 
 ### How many board feet are in a 2x4 8 feet long?
+
 A 2x4-8' board contains 5.33 board feet. Nominal calculation: (2 inches × 4 inches × 8 feet) / 12 = 5.333 BF.
 
 ### What is the difference between linear feet and board feet?
+
 Linear feet measures only the overall length of a board regardless of width or thickness. Board feet measures 3D volume (length × width × thickness).
 
 ### How much waste should I add when ordering hardwood lumber?
+
 Woodworkers generally add 15% to 20% waste for rough hardwood lumber to account for defects, knots, wane, and machining loss.
 

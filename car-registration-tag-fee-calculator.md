@@ -217,9 +217,11 @@ Using this **Car Registration & Tag Fee Calculator**, you can accurately project
 ## State Tax & Fee Models
 
 ### 1. Value-Based Ad Valorem Tax Formula
+
 $$\text{Tax} = \text{Fair Market Value} \times r_{\text{ad\_valorem}}$$
 
 ### 2. Weight-Based Surcharge Formula
+
 $$\text{Weight Fee} = \text{Base Rate} + \left( \text{Weight in Tons} \times \text{Tonnage Fee} \right)$$
 
 ---
@@ -236,38 +238,51 @@ $$\text{Weight Fee} = \text{Base Rate} + \left( \text{Weight in Tons} \times \te
 ---
 
 ## Step-by-Step Car Registration Tag Fee Calculator Guide
+
 ### Step 1: Input Fair Market Value
+
 Enter your car's estimated current market value or purchase price.
 
 ### Step 2: Input Vehicle Weight & Age
+
 Enter vehicle curb weight (lbs) and current vehicle age in years.
 
 ### Step 3: Choose State Tag Model
+
 Select Flat, Value-based, Weight-based, or Hybrid according to your state DMV rules.
 
 ### Step 4: Review Total Annual & 5-Year Costs
+
 Examine total annual registration fee, ad valorem tax portion, and 5-year cumulative trend.
 
 ---
 
 ## Car Registration Tag Fee Calculator Frequently Asked Questions
+
 ### How are car registration fees calculated by state?
+
 States use four primary methods: flat-rate renewal (e.g., Texas $50.75), vehicle weight (e.g., Florida), MSRP/depreciated value (e.g., California, Colorado), or a hybrid model.
 
 ### What is an Ad Valorem tax on vehicles?
+
 An Ad Valorem tax is a property tax based on the fair market value of your vehicle. It decreases annually as your car depreciates.
 
 ### Why do heavier vehicles pay higher registration fees?
+
 Heavy vehicles (SUVs, trucks) cause greater wear and tear on highway pavement, so many state DMVs charge extra weight-based road maintenance fees.
 
 ### Are vehicle registration fees tax deductible?
+
 Only the portion of registration fees based on vehicle value (Ad Valorem tax) is deductible on federal Schedule A if you itemize deductions.
 
 ### How much does a new license plate cost?
+
 A new standard license plate typically costs $15 to $50, while specialty or personalized vanity plates carry additional annual renewal fees ($25–$100).
 
 ### What happens if I register my car late?
+
 Late DMV registration incurs late penalties ranging from $10 to 100% of the registration fee, plus potential law enforcement citation fines.
 
 ### Is the Car Registration Tag Fee Calculator private?
+
 Yes, all data processing takes place strictly inside your browser.

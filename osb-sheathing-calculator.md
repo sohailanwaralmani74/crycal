@@ -148,6 +148,7 @@ Orientated Strand Board (OSB) is the most widely used structural sheathing panel
 This **OSB Sheathing Calculator** computes net sheet counts, incorporates recommended waste multipliers for complex roof pitches or window cut-outs, and calculates total material expenditure.
 
 ### Key Benefits of OSB Sheathing Calculator
+
 * **Multi-Panel Support:** Calculates sheet counts for $4\text{x}8$, $4\text{x}9$, and $4\text{x}10$ OSB panel sizes.
 * **Smart Waste Estimation:** Account for diagonal gable cuts, window/door openings, and edge trimming.
 * **Structural Application Guidance:** Designed for wall sheathing, roof decks, and subfloor installations.
@@ -156,7 +157,9 @@ This **OSB Sheathing Calculator** computes net sheet counts, incorporates recomm
 ---
 
 ## OSB Sheathing Calculator Mathematical Formulas & Mechanics
+
 ### 1. Panel Coverage Area
+
 Coverage area per panel ($A_{\text{panel}}$ in sq ft):
 
 $$A_{\text{panel}} = W_{\text{sheet}} \times L_{\text{sheet}}$$
@@ -166,6 +169,7 @@ $$A_{\text{panel}} = W_{\text{sheet}} \times L_{\text{sheet}}$$
 * $4\text{x}10\text{ Panel}: 4 \times 10 = 40\text{ sq ft}$
 
 ### 2. Net & Total Sheet Calculations
+
 Net sheets required ($N_{\text{net}}$) for surface area ($A_{\text{surface}}$):
 
 $$N_{\text{net}} = \left\lceil \frac{A_{\text{surface}}}{A_{\text{panel}}} \right\rceil$$
@@ -175,6 +179,7 @@ Total sheets to order ($N_{\text{total}}$) with waste percentage ($W_{\text{pct}
 $$N_{\text{total}} = \left\lceil N_{\text{net}} \times \left(1 + \frac{W_{\text{pct}}}{100}\right) \right\rceil$$
 
 ### 3. Total Material Cost
+
 Total sheathing cost ($C_{\text{material}}$):
 
 $$C_{\text{material}} = N_{\text{total}} \times P_{\text{sheet}}$$
@@ -182,6 +187,7 @@ $$C_{\text{material}} = N_{\text{total}} \times P_{\text{sheet}}$$
 ---
 
 ## OSB Sheathing Calculator Benchmarks & Comparison Table
+
 The benchmark reference table below demonstrates OSB $4\text{x}8$ panel order requirements across common residential construction surfaces:
 
 | Project Type | Surface Area | Net 4x8 Sheets | Recommended Waste (%) | Total Sheets to Order | Estimated Cost ($18.50/Sheet) |
@@ -195,6 +201,7 @@ The benchmark reference table below demonstrates OSB $4\text{x}8$ panel order re
 ---
 
 ## How to Use the OSB Sheathing Calculator Step-by-Step
+
 1. **Calculate Total Surface Area:** Multiply length by height for wall segments, or roof plane length by sloped rafter length for roof decks.
 2. **Select Panel Thickness:** Use $7/16"$ for walls/roofs at 24" OC, or $23/32"$ T&G for floor joists at 16" OC.
 3. **Determine Waste Percentage:** Use 5% to 8% for simple rectangular walls; use 12% to 15% for complex roofs with valleys and hips.
@@ -204,23 +211,31 @@ The benchmark reference table below demonstrates OSB $4\text{x}8$ panel order re
 ---
 
 ## OSB Sheathing Calculator Frequently Asked Questions
+
 ### How many square feet does a 4x8 sheet of OSB cover?
+
 A standard 4 ft by 8 ft OSB panel covers exactly 32 square feet.
 
 ### How many sheets of OSB do I need for 1,200 sq ft?
+
 For 1,200 sq ft, you need 38 sheets net (1200 / 32). With a 10% waste allowance, order 42 total OSB panels.
 
 ### What OSB thickness should be used for roof decking?
+
 7/16-inch or 1/2-inch APA-rated OSB is standard for roof rafters or trusses spaced 24 inches on-center. 5/8-inch is used for heavy snow loads.
 
 ### What OSB thickness is required for subflooring?
+
 Subfloors require 23/32-inch (3/4-inch nominal) tongue-and-groove (T&G) OSB panels glued and screwed to floor joists spaced 16 inches on-center.
 
 ### Which side of OSB sheathing faces out on a roof deck?
+
 The textured, grid-marked non-skid side faces UP/OUT for worker safety, with the smooth stamped side facing down into the attic space.
 
 ### Should OSB sheathing panels be installed with a expansion gap?
+
 Yes, APA guidelines mandate leaving a 1/8-inch expansion gap at all panel edge and end joints to prevent buckling from humidity.
 
 ### Is OSB better or cheaper than CDX plywood for wall framing?
+
 OSB is typically 20% to 30% cheaper than CDX plywood while offering consistent density without core voids or knots.

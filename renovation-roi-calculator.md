@@ -193,21 +193,28 @@ The table below details average national project costs, recoup percentages, valu
 ---
 
 ## Renovation Roi Calculator Frequently Asked Questions
+
 ### Which home renovations have the highest return on investment (ROI)?
+
 Exterior curb appeal projects consistently deliver the highest ROI: Garage door replacements recoup ~194%, steel entry door replacements return ~188%, and fiber-cement siding replacements return ~88% at resale.
 
 ### Why do minor kitchen remodels have a higher ROI than major luxury kitchen overhauls?
+
 Minor kitchen remodels (refacing cabinets, updating quartz countertops, replacing appliances) recoup ~85% of costs because they eliminate buyer red flags efficiently. Major luxury overhauls ($80,000+) recoup only ~54% because highly custom tastes may not appeal to all prospective buyers.
 
 ### How does home renovation ROI affect property appraisal value?
+
 Appraisers increase home value based on updated functional utility, square footage additions, and recent local comparable sales. However, dollar-for-dollar value increases rarely exceed 100% for interior aesthetic updates.
 
 ### What is the 70% rule in real estate house flipping?
+
 The 70% rule states that an investor should pay no more than 70% of the After Repair Value (ARV) minus estimated repair costs when purchasing a property to flip.
 
 ### Do room additions add more value than interior remodeling?
+
 Adding square footage (primary suite, room addition, finished basement) increases overall house square footage, driving higher absolute appraisal dollar increases than upgrading existing space.
 
 ### How do I calculate net cost at resale for a renovation?
+
 Net cost at resale equals the total project cost minus the dollar increase in home value upon resale. For example, a $50,000 remodel that adds $35,000 in home value has a net out-of-pocket cost of $15,000.
 

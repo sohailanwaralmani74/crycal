@@ -150,6 +150,7 @@ In Product-Led Growth (PLG) SaaS models, the free trial is your primary sales fu
 ---
 
 ## Trial to Paid Conversion Calculator Mathematical Formulas
+
 ### 1. Trial to Paid Conversion Rate
 
 $$ \text{Conversion Rate \%} = \left( \frac{\text{New Paying Subscribers}}{\text{Total Free Trial Signups}} \right) \times 100\% $$
@@ -175,6 +176,7 @@ $$ \text{Revenue Per Trial Signup} = \frac{\text{New MRR Generated}}{\text{Total
 ---
 
 ## Step-by-Step Trial to Paid Conversion Calculator Guide
+
 1. **Define Cohort Window**: Select a 30-day or 90-day signup cohort where trials have completed.
 2. **Enter Signup Totals**: Input total trial signups and corresponding converted paid accounts.
 3. **Specify Average ARPU**: Enter the weighted average subscription tier price.
@@ -183,20 +185,27 @@ $$ \text{Revenue Per Trial Signup} = \frac{\text{New MRR Generated}}{\text{Total
 ---
 
 ## Trial to Paid Conversion Calculator Frequently Asked Questions
+
 ### What is Trial to Paid Conversion Rate?
+
 Trial to Paid Conversion Rate is the percentage of users who start a free trial and convert into paying subscribers at the end of the trial period.
 
 ### How is Trial to Paid Conversion Rate calculated?
+
 Formula: Conversion Rate (%) = (New Paying Subscribers / Total Free Trial Signups) × 100%.
 
 ### What is a good trial to paid conversion rate for SaaS?
+
 Opt-in trials (no credit card required) average 3% to 10% conversion, while opt-out trials (credit card required upfront) average 25% to 60%.
 
 ### What is Revenue Per Free Trial Signup?
+
 Revenue Per Trial Signup measures the expected monetary value of every free trial user. Formula: (New MRR / Total Free Trial Signups).
 
 ### Should I require a credit card upfront for free trials?
+
 Requiring a credit card increases trial-to-paid conversion rate but reduces total trial volume by 40% to 70%. Choose based on product complexity and self-serve onboarding friction.
 
 ### How can I improve my trial to paid conversion rate?
+
 Improve conversion by shortening trial duration (e.g. 14 days vs 30 days), sending automated behavior-triggered onboarding emails, offering in-app live chat support, and displaying clear upgrade CTAs.

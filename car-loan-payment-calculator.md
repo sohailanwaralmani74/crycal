@@ -236,6 +236,7 @@ Using our **car loan payment calculator** allows you to:
 ---
 
 ## Car Loan Payment Calculator Formulas & Principles
+
 The monthly payment \(M\) for an auto loan is computed using the standard fixed-rate amortization formula:
 
 \[
@@ -248,6 +249,7 @@ Where:
 - \(n\) = Total number of monthly payments (loan term in months)
 
 ### Net Loan Principal Calculation
+
 The net principal \(P\) incorporates vehicle sticker price \(V\), cash down payment \(D\), trade-in allowance \(T\), and sales tax rate \(t\):
 
 \[
@@ -255,6 +257,7 @@ P = (V - T) \cdot (1 + t) - D
 \]
 
 ### Total Financing Cost
+
 The total out-of-pocket expenditure over the life of the loan equals total monthly payments plus down payment and trade-in value:
 
 \[
@@ -264,6 +267,7 @@ The total out-of-pocket expenditure over the life of the loan equals total month
 ---
 
 ## Car Loan Payment Calculator Real-World Case Study
+
 Consider purchasing a **$35,000 vehicle** with **$3,000 trade-in**, **$5,000 cash down**, **7% sales tax**, and an interest rate of **6.5% APR**. The table below compares loan term lengths:
 
 | Loan Term | Net Principal | Monthly Payment | Total Interest Paid | Total Vehicle Cost |
@@ -279,6 +283,7 @@ Consider purchasing a **$35,000 vehicle** with **$3,000 trade-in**, **$5,000 cas
 ---
 
 ## Step-by-Step Guide for Using the Car Loan Payment Calculator
+
 1. **Enter Purchase Details**: Type in the selling price or MSRP of the automobile.
 2. **Add Cash & Trade-in**: Input any upfront cash down payment and trade-in credit granted by the dealership.
 3. **Select Loan Parameters**: Choose an APR matching your credit tier and select your desired loan duration (36 to 84 months).
@@ -288,21 +293,28 @@ Consider purchasing a **$35,000 vehicle** with **$3,000 trade-in**, **$5,000 cas
 ---
 
 ## Car Loan Payment Calculator Frequently Asked Questions
+
 ### How is a car loan monthly payment calculated?
+
 Car loan payments are calculated using standard fixed-rate loan amortization. The net financed amount is derived by adding sales tax to the vehicle price and subtracting any down payment or trade-in allowance. The formula amortizes this net principal over the chosen loan term at the monthly interest rate.
 
 ### Does sales tax apply to the vehicle price before trade-in?
+
 In most US states, sales tax is calculated on the net price after deducting your trade-in allowance (e.g., $35,000 car - $3,000 trade-in = $32,000 taxable value). However, cash down payments generally do not reduce the taxable purchase price.
 
 ### What is a good APR for an auto loan?
+
 Auto loan interest rates vary by credit score, vehicle type (new vs. used), and economic conditions. Prime borrowers with credit scores above 720 typically secure rates between 4% and 7%, while subprime buyers may face rates ranging from 10% to 18%.
 
 ### How does loan term length affect monthly payments and total interest?
+
 Longer loan terms (e.g., 72 or 84 months) lower your monthly payment but significantly increase the total interest paid over the life of the loan. Shorter terms (e.g., 36 or 48 months) raise your monthly payment but minimize borrowing costs.
 
 ### What fees should be included in the vehicle price?
+
 For maximum accuracy, add dealer documentation fees, destination charges, title, registration, and optional dealer add-ons into your total vehicle purchase price.
 
 ### Can I pay off my car loan early to reduce interest?
+
 Yes, most simple-interest auto loans allow early payoff without prepayment penalties. Making extra principal payments directly reduces your remaining balance and lowers overall interest expense.
 

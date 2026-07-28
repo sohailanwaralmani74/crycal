@@ -176,21 +176,28 @@ $$\text{Total Material Cost} = \text{Total Sod Area} \times \text{Price per Sq F
 ---
 
 ## Sod Grass Calculator Frequently Asked Questions
+
 ### How many square feet of sod come on a standard pallet?
+
 A standard sod pallet contains 450 square feet of grass turf (usually 45 rolls measuring 2 ft x 5 ft or 171 slabs measuring 16 in x 24 in).
 
 ### How many rolls of sod do I need for 1,000 square feet?
+
 With a standard 5% waste factor, 1,000 sq ft requires 1,050 sq ft of sod, which equals 105 individual 10 sq ft rolls (or 2.33 pallets, rounded up to 3 pallets).
 
 ### Why should I add 5% to 10% waste for sod?
+
 Cutting sod to fit curved garden edges, trees, stepping stones, and fence borders creates non-reusable scrap pieces.
 
 ### How much does a pallet of sod cost?
+
 A pallet of sod costs between $180 and $350 depending on grass species (Bermuda, Zoysia, St. Augustine, Tall Fescue, or Kentucky Bluegrass) and regional farm proximity.
 
 ### How much does a pallet of sod weigh?
+
 A single sod pallet weighs between 1,500 and 3,000 lbs depending on soil moisture content. A standard pickup truck can usually carry only one pallet at a time.
 
 ### How soon must sod be installed after delivery?
+
 Sod is a perishable live plant and must be laid within 24 to 48 hours of delivery to prevent root heat damage and yellowing.
 

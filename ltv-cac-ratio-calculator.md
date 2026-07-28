@@ -123,6 +123,7 @@ The LTV:CAC ratio is the ultimate metric for SaaS venture scalability. It measur
 Having accurate, real-time insights into this metric helps SaaS founders, CFOs, and growth teams optimize capital allocation, protect operating runway, and achieve top-tier venture scalability.
 
 ## LTV:CAC Ratio Calculator Formula & Derivation
+
 The mathematical derivation for this financial metric is expressed as:
 
 $$\text{LTV:CAC Ratio} = \frac{\text{Customer Lifetime Value (LTV)}}{\text{Customer Acquisition Cost (CAC)}}$$ \n$$\text{Unit ROI \%} = \frac{\text{LTV} - \text{CAC}}{\text{CAC}} \times 100\%$$
@@ -130,6 +131,7 @@ $$\text{LTV:CAC Ratio} = \frac{\text{Customer Lifetime Value (LTV)}}{\text{Custo
 Where all input values are evaluated over a standardized monthly or annual accounting period.
 
 ## LTV:CAC Ratio Calculator SaaS Benchmarks
+
 | LTV:CAC Ratio | Interpretation | Strategic Recommendation |
 | --- | --- | --- |
 | < 1.0x | Value Destroying | Stop ad spend immediately; overhaul retention and pricing |
@@ -138,6 +140,7 @@ Where all input values are evaluated over a standardized monthly or annual accou
 | >= 5.0x | Under-invested | Aggressively increase sales & marketing budget to capture market share |
 
 ## Step-by-Step LTV:CAC Ratio Calculator Calculation Guide
+
 1. **Enter Core Financial Inputs:** Supply your monthly sales spend, user counts, ARPU, or recurring revenue figures.
 2. **Review Intermediate Outputs:** Examine calculated gross profit, churn, payback, or unit contribution scores.
 3. **Assess Benchmark Ratings:** Compare your results against SaaS industry standards to identify growth bottlenecks.
@@ -146,21 +149,28 @@ Where all input values are evaluated over a standardized monthly or annual accou
 ---
 
 ## LTV:CAC Ratio Calculator Frequently Asked Questions
+
 ### What is a good LTV:CAC ratio for SaaS?
+
 The gold standard for SaaS is 3:1 or higher. A 3:1 ratio indicates a healthy balance between sales expansion and customer profitability.
 
 ### What does an LTV:CAC ratio below 1:1 mean?
+
 A ratio under 1:1 means you lose money on every customer acquired. The business model is unsustainable unless acquisition cost is drastically reduced or lifetime value expanded.
 
 ### Can an LTV:CAC ratio be too high (e.g., > 5:1)?
+
 Yes. A ratio above 5:1 often signals under-investment in growth. You may be missing market share by under-funding marketing and sales execution.
 
 ### How does CAC payback period tie into LTV:CAC ratio?
+
 While LTV:CAC measures overall long-term unit profitability, CAC Payback Period measures cash velocity (speed of capital recovery). Both are essential for startup health.
 
 ### How often should LTV:CAC be evaluated?
+
 Evaluate LTV:CAC quarterly by customer segment (SMB, Mid-Market, Enterprise) and acquisition channel to catch margin decay early.
 
 ### How can I improve my LTV:CAC ratio?
+
 Improve the ratio by raising prices/ARPU, extending customer retention, optimizing paid ad targeting, and expanding organic inbound leads.
 

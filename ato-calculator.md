@@ -217,6 +217,7 @@ Failing to estimate ATO liabilities accurately can lead to severe cash flow shor
 ---
 
 ## ATO Tax Calculator Mathematical Formulas & Mechanics
+
 The Net GST Payable ($GST_{\text{net}}$) reported on Box 1A and 1B of your BAS is calculated as:
 
 $$GST_{\text{net}} = GST_{\text{collected}} - GST_{\text{paid}}$$
@@ -240,6 +241,7 @@ $$BAS_{\text{quarterly}} = \left( \frac{GST_{\text{net}}}{4} \right) + \left( \f
 ---
 
 ## ATO Tax Calculator Benchmarks & Comparison Table
+
 The matrix below details quarterly BAS liabilities and annual ATO tax obligations across business income tiers for an **Australian Small Business (Company Entity @ 25% Tax Rate)**:
 
 | Total Business Income | Claimable Deductions | Taxable Income | Net GST Payable (Annual) | Corporate Tax (25%) | Super Guarantee (11.5%) | Total Annual ATO Liability | Estimated Quarterly BAS Payment |
@@ -255,6 +257,7 @@ The matrix below details quarterly BAS liabilities and annual ATO tax obligation
 ---
 
 ## How to Use the ATO Tax Calculator Step-by-Step
+
 1. **Select Entity Structure**: Choose your business type (Sole Trader, Company, Partnership, or Trust) from the dropdown.
 2. **Enter Business Income & Deductions**: Input total gross revenue (excluding GST) and claimable tax-deductible expenses.
 3. **Input GST Figures**: Enter total GST collected on customer invoices and GST paid on supplier purchases.
@@ -264,23 +267,31 @@ The matrix below details quarterly BAS liabilities and annual ATO tax obligation
 ---
 
 ## ATO Tax Calculator Frequently Asked Questions
+
 ### What is a Business Activity Statement (BAS) in Australia?
+
 A BAS is a form submitted to the Australian Taxation Office (ATO) by registered businesses to report and pay Goods and Services Tax (GST), PAYG withholding, and PAYG instalments.
 
 ### When is a business required to register for GST in Australia?
+
 Australian businesses must register for GST if their annual gross turnover reaches or is expected to reach $75,000 AUD ($150,000 AUD for non-profit organizations).
 
 ### How is Net GST payable calculated on a BAS?
+
 Net GST payable is calculated as GST collected on sales (1/11th of GST-inclusive sales) minus GST paid on eligible business inputs and expenses (input tax credits).
 
 ### What is the mandatory Superannuation Guarantee (SG) rate?
+
 For the 2023–2024 tax year, the compulsory Superannuation Guarantee rate is 11.0%, increasing to 11.5% for the 2024–2025 tax year.
 
 ### How does tax calculation differ between Sole Traders and Companies?
+
 Sole traders pay income tax at individual progressive marginal rates (0% to 45%), while Australian proprietary limited companies pay a flat company tax rate (25% for base rate entities).
 
 ### When are quarterly BAS lodgments due to the ATO?
+
 Quarterly BAS lodgments are due on October 28 (Q1), February 28 (Q2), April 28 (Q3), and July 28 (Q4).
 
 ### Is my Australian business tax data secure?
+
 Yes, 100%. All calculation formulas execute locally in your web browser. No business turnover, GST figures, or TFN data are transmitted to external servers.

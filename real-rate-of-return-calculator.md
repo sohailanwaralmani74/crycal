@@ -162,15 +162,20 @@ This **inflation-adjusted return calculator** is designed for:
 ---
 
 ## Real Rate of Return Calculator Frequently Asked Questions
+
 ### What is the real rate of return?
+
 The real rate of return is the annual percentage return on an investment after adjusting for the effects of inflation, reflecting the actual increase in purchasing power.
 
 ### How is the real rate of return calculated?
+
 The exact real rate of return uses the Fisher equation: Real Rate = [(1 + Nominal Rate) ÷ (1 + Inflation Rate)] − 1. A common approximation simply subtracts inflation from the nominal rate.
 
 ### Why does the exact method differ from the approximation?
+
 The approximation (nominal minus inflation) ignores the compounding interaction between the two rates. At low rates the difference is small, but it grows more significant at higher nominal or inflation rates.
 
 ### Can the real rate of return be negative?
+
 Yes. If inflation exceeds your nominal return, your real rate of return will be negative, meaning your purchasing power actually declined even though your account balance grew.
 

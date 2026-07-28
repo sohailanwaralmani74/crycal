@@ -229,21 +229,28 @@ The table below shows picket and 2x4 rail requirements across common fence lengt
 ---
 
 ## Fence Panel Picket Calculator Frequently Asked Questions
+
 ### How many pickets do I need for a 100 ft privacy fence?
+
 For a 100 ft privacy fence using standard 5.5-inch wide pickets with zero gap, you need approximately 219 pickets (or 241 pickets with a 10% waste factor).
 
 ### How many 2x4 horizontal rails are needed for a 6 ft fence?
+
 A standard 6 ft tall wood privacy fence requires 3 horizontal 2x4 rails per section (top, middle, and bottom) to prevent picket warping and sagging.
 
 ### What is the actual width of a 1x6 fence picket?
+
 Although marketed as 1x6 inches, the actual nominal width of a standard wood fence picket is 5.5 inches (5-1/2 inches).
 
 ### What is the difference between privacy, semi-privacy, and shadowbox picket spacing?
+
 Full privacy fences have 0-inch gap (pickets flush against each other). Semi-privacy uses 0.5 to 2-inch gaps. Shadowbox fences alternate pickets on opposite sides of the rail with 2 to 3.5-inch overlaps.
 
 ### Why is 3 rails recommended instead of 2 rails for 6 ft privacy fences?
+
 Two rails allow 6-foot vertical pickets to warp, twist, and cup in sun and rain exposure. A middle third rail locks the center of pickets straight.
 
 ### Should I buy pre-assembled panels or build stick-by-stick with individual pickets?
+
 Pre-assembled 6x8 ft panels save installation time on flat ground, but stick-building with individual pickets allows step-down customization on sloped terrain and superior overall strength.
 

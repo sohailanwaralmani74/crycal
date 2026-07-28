@@ -168,23 +168,31 @@ $$\text{Projected Exit ARR} = \text{Month 12 Revenue} \times 12$$
 ---
 
 ## Revenue Run Rate Calculator Frequently Asked Questions
+
 ### What is a Revenue Run Rate (ARR Run Rate)?
+
 A revenue run rate extrapolates current short-term financial performance (such as a recent month or quarter) over a full 12-month period, assuming existing performance continues.
 
 ### How is Monthly Revenue Run Rate calculated?
+
 Monthly Run Rate (ARR) = Most Recent Monthly Revenue × 12.
 
 ### How is Quarterly Revenue Run Rate calculated?
+
 Quarterly Run Rate (ARR) = Most Recent Quarterly Revenue × 4.
 
 ### When is using a Revenue Run Rate misleading?
+
 Run rates can be misleading for seasonal businesses, non-recurring one-off sales spikes, or early-stage startups experiencing high month-to-month volatility.
 
 ### What is the difference between Run Rate ARR and Trailing 12-Month (TTM) Revenue?
+
 TTM Revenue sums actual historical revenue earned over the past 12 months. Run Rate ARR projects future annual revenue based on current monthly performance.
 
 ### How do venture capitalists use Run Rate ARR during valuation?
+
 Investors multiply current Run Rate ARR (or Exit ARR) by valuation multiples (e.g. 10x ARR) to establish current company valuation.
 
 ### What is Exit ARR?
+
 Exit ARR is the projected annual run rate at the final month (Month 12) of a forecast period.

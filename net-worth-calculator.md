@@ -257,19 +257,25 @@ Where:
 ---
 
 ## Net Worth Calculator Frequently Asked Questions
+
 ### What is net worth?
+
 Net worth is the total value of everything you own (assets) minus everything you owe (liabilities). It's a measure of your overall financial health.
 
 ### How is net worth calculated?
+
 Net Worth = Total Assets − Total Liabilities. A positive net worth means you own more than you owe. A negative net worth means you owe more than you own.
 
 ### What counts as an asset?
+
 Assets include cash, savings, investments, retirement accounts, real estate, vehicles, and anything else of value that you own.
 
 ### What counts as a liability?
+
 Liabilities include mortgages, credit card debt, auto loans, student loans, personal loans, and any other debts you owe.
 
 ### What is a good net worth?
+
 A good net worth depends on your age, income, and financial goals. Generally, a positive and growing net worth is a sign of good financial health.
 
 ---

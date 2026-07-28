@@ -206,6 +206,7 @@ The calculator solves for **t** (time to reach target) or **PMT** (required mont
 ---
 
 ## How to Use the Savings Goal Calculator
+
 1.  Select your **account currency** from the picker in the site header.
 2.  Enter your **target amount** (the amount you want to save).
 3.  Enter your **current savings** (what you already have).
@@ -219,16 +220,21 @@ The tool updates instantly — you'll see the time to reach your goal, the requi
 ---
 
 ## Savings Goal Calculator Frequently Asked Questions
+
 ### How does the Savings Goal Calculator work?
+
 It calculates either the time needed to reach your target or the monthly contribution required based on your current savings, interest rate, and target amount.
 
 ### What if I set both monthly contribution and time?
+
 The calculator will show both the time to reach your goal AND the required monthly contribution. If you want to see a specific scenario, adjust one of the inputs to see how it affects the other.
 
 ### What is a realistic interest rate for savings?
+
 High-yield savings accounts currently offer 4-5%. Investment accounts may average 7-10% over the long term. Use a rate that matches your savings vehicle.
 
 ### Can I use this for debt repayment goals?
+
 Yes. Enter your current balance as current savings, your target balance (0) as the target amount, and your monthly payment as the monthly contribution.
 
 ---

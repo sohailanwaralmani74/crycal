@@ -142,14 +142,17 @@ Federal estate taxes apply to the transfer of property at death for high-net-wor
 Gross estate calculations encompass all real property, corporate shares, personal property, cash reserves, and life insurance policy death proceeds over which the decedent retained incidents of ownership. Subtracting mortgages, outstanding liabilities, administrative expenses, and charitable bequests yields the net taxable estate. By testing different asset values, exemption limits, and liability scenarios in this calculator, individuals and families can proactively evaluate trust structures, gifting strategies, and insurance liquidity plans.
 
 ## Estate Tax Calculator Mathematical Formulas & Mechanics
+
 The federal estate tax liability calculation determines the net estate value, compares it against applicable lifetime exemption allowances, and applies statutory federal tax rates.
 
 ### 1. Net Estate Value
+
 Gross estate assets ($A_{gross}$) are reduced by total estate debts, mortgages, funeral fees, and administrative expenses ($D_{estate}$):
 
 $$E_{net} = A_{gross} - D_{estate}$$
 
 ### 2. Taxable Estate & Federal Estate Tax
+
 The taxable estate portion ($E_{taxable}$) above the federal lifetime exemption threshold ($X_{lifetime}$) is determined by:
 
 $$E_{taxable} = \max\left(0, E_{net} - X_{lifetime}\right)$$
@@ -161,6 +164,7 @@ $$T_{estate} = E_{taxable} \times r_{estate}$$
 Where $A_{gross}$ includes all taxable assets, $D_{estate}$ includes liabilities and expenses, $X_{lifetime}$ represents the individual's remaining federal gift and estate exemption, and $r_{estate}$ represents top federal estate tax rates.
 
 ## Estate Tax Calculator Benchmarks & Comparison Table
+
 | Gross Estate Assets | Debts & Expenses | Net Estate Value | Lifetime Exemption Limit | Taxable Excess Above Cap | Federal Estate Tax (40%) |
 |---|---|---|---|---|---|
 | **$12,000,000** | $500,000 | $11,500,000 | $13,610,000 | $0 | **$0** |
@@ -170,6 +174,7 @@ Where $A_{gross}$ includes all taxable assets, $D_{estate}$ includes liabilities
 | **$35,000,000 (Married)** | $2,000,000 | $33,000,000 | $27,220,000 | $5,780,000 | **$2,312,000** |
 
 ## How to Use the Estate Tax Calculator Step-by-Step
+
 1. **Enter Gross Estate Value**: Input total gross estate asset value, including real estate, investments, business holdings, and life insurance.
 2. **Input Estate Debts & Liabilities**: Enter mortgages, loan balances, unpaid debts, executor fees, and legal administrative costs.
 3. **Set Lifetime Federal Exemption Limit**: Input applicable federal exemption amount ($13.61M individual or $27.22M for combined married portability).
@@ -177,23 +182,31 @@ Where $A_{gross}$ includes all taxable assets, $D_{estate}$ includes liabilities
 5. **Review Taxable Excess & Liability**: Analyze net estate value, excess above exemption, and projected federal estate tax owed.
 
 ## Estate Tax Calculator Frequently Asked Questions
+
 ### What is the federal estate tax exemption?
+
 The federal estate tax exemption is the dollar threshold below which an estate pays zero federal estate tax ($13.61 Million per individual in 2024, or $27.22 Million for married couples).
 
 ### What assets are included in a decedent's gross estate?
+
 Gross estate includes real estate, stocks, bonds, business interests, bank accounts, retirement plans, personal property, and life insurance policy death benefits owned by the decedent.
 
 ### How does the marital deduction affect federal estate taxes?
+
 The unlimited marital deduction allows individuals to transfer unlimited asset amounts to a surviving U.S. citizen spouse completely free of federal estate taxes.
 
 ### What is estate tax portability for married couples?
+
 Portability allows a surviving spouse to elect to transfer any unused portion of their deceased spouse's federal lifetime estate tax exemption (DSUE) to their own exemption.
 
 ### What is the federal estate tax rate on taxable assets?
+
 Assets in net taxable estates exceeding the federal lifetime exemption limit are taxed at a top progressive federal estate tax rate of 40%.
 
 ### How do state estate taxes differ from federal estate taxes?
+
 Several states impose separate state-level estate or inheritance taxes with significantly lower exemption thresholds (ranging from $1 Million to $6 Million).
 
 ### Is confidential estate and asset data kept private?
+
 Yes, all estate tax calculations run 100% locally inside your web browser. No asset valuations, debt figures, or estate details are stored or transmitted.

@@ -223,21 +223,28 @@ $$\text{Recommended Wire Gauge} = \begin{cases} \text{16/2 AWG} & \text{if Load 
 ---
 
 ## Outdoor Lighting Spacing Calculator Frequently Asked Questions
+
 ### How far apart should landscape path lights be spaced?
+
 Path lights should be spaced 6 to 10 feet apart on center, alternating (staggered) on opposite sides of the walkway. This creates pools of overlapping light without harsh glaring hotspots.
 
 ### How do I size a low-voltage landscape lighting transformer?
+
 Add up the wattage of all path lights and spotlights on the circuit, then multiply by 1.25 (an 80% maximum continuous load rule). For example, a 60-watt fixture load requires at least a 75-watt transformer.
 
 ### What wire gauge should I use for 12V landscape lighting?
+
 Use 16/2 AWG for runs under 50 ft (loads under 100W), 14/2 AWG for runs up to 100 ft (loads up to 150W), and 12/2 AWG for long runs up to 150 ft (loads up to 200W) to prevent voltage drop.
 
 ### Why do low-voltage 12V LED lights flicker at the end of a long wire run?
+
 Voltage drop occurs when electrical resistance in thin wire reduces voltage below 10.5V at the end of a long cable run. Upgrading from 14/2 to 12/2 wire or using a multi-tap transformer (13V-15V terminals) solves voltage drop flickering.
 
 ### What is the difference between LED and halogen landscape lights?
+
 LED fixtures consume 80% less power than older halogen lights (a 3W LED equals a 20W halogen) and last up to 50,000 hours compared to 2,000 hours for halogen bulbs.
 
 ### How deep should low-voltage landscape wire be buried?
+
 NEC code requires 12-volt low-voltage landscape wire to be buried at least 6 inches deep in soil or garden beds.
 
