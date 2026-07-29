@@ -216,7 +216,7 @@ Standard residential slab rebar spacing ranges from 12 to 18 inches center-to-ce
 
 ### What size rebar is best for driveways and patios?
 
-#4 rebar (1/2-inch diameter) is the standard recommendation for residential concrete driveways, patios, and garage slabs.
+4 rebar (1/2-inch diameter) is the standard recommendation for residential concrete driveways, patios, and garage slabs.
 
 ### How much lap splice overlap is required for rebar?
 
@@ -224,7 +224,7 @@ Code generally requires a lap splice overlap equal to 30 to 40 times the bar dia
 
 ### How heavy is #4 rebar per foot?
 
-#4 rebar weighs 0.668 lbs per linear foot. A standard 20-foot stick weighs approximately 13.36 lbs.
+4 rebar weighs 0.668 lbs per linear foot. A standard 20-foot stick weighs approximately 13.36 lbs.
 
 ### Why is edge clearance required for rebar?
 
