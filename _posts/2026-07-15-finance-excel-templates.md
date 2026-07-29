@@ -9,6 +9,7 @@ read_time: 12
 excerpt: "Download free finance Excel templates for budgeting, debt management, retirement planning, investing, tax planning, mortgage, and business finance."
 short_name: Finance Excel Templates
 h1: Finance Excel Templates – Download Finance Templates for free
+type: blog
 ---
 
 

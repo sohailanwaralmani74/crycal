@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Wanjaaro — 500+ Free Calculators for Finance & Business"
+title: "Wanjaaro | 500+ Free Calculators for Finance, Construction, Auto & SaaS"
 description: Explore 500+ free, browser-based calculators across Finance, Construction, Automotive, and SaaS. 100% private, client-side math, no signup required.
 is_homepage: true
 permalink: /
