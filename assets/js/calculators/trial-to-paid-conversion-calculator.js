@@ -14,7 +14,7 @@
       paidConversions: paidConversions,
       avgArpu: avgArpu,
       creditCardRequired: creditCardRequired
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -74,7 +74,7 @@
       benchmarkStatus: status,
       nonConverted: signups - conversions,
       error: null
-    };
+    }
   }
 
   function updateTool() {
@@ -103,7 +103,7 @@
       nonConverted: result.nonConverted,
       newMrr: result.newMrr,
       newArr: result.newArr
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -151,7 +151,7 @@
             title: { display: true, text: 'Trial Cohort Conversion Split', color: '#e8edf0' }
           }
         }
-      };
+      }
     }
 
     if (tab === 'revenue') {
@@ -182,7 +182,7 @@
             x: { ticks: { color: '#8899aa' } }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -195,9 +195,12 @@
   }
 
   function resetTool() {
-    document.getElementById('input_totalTrialSignups').value = 500;
-    document.getElementById('input_paidConversions').value = 45;
-    document.getElementById('input_avgArpu').value = 99;
+    var _el_input_totalTrialSignups = document.getElementById('input_totalTrialSignups');
+    _el_input_totalTrialSignups.value = (_el_input_totalTrialSignups.dataset && _el_input_totalTrialSignups.dataset.default !== undefined) ? _el_input_totalTrialSignups.dataset.default : (_el_input_totalTrialSignups.getAttribute('value') || '');
+    var _el_input_paidConversions = document.getElementById('input_paidConversions');
+    _el_input_paidConversions.value = (_el_input_paidConversions.dataset && _el_input_paidConversions.dataset.default !== undefined) ? _el_input_paidConversions.dataset.default : (_el_input_paidConversions.getAttribute('value') || '');
+    var _el_input_avgArpu = document.getElementById('input_avgArpu');
+    _el_input_avgArpu.value = (_el_input_avgArpu.dataset && _el_input_avgArpu.dataset.default !== undefined) ? _el_input_avgArpu.dataset.default : (_el_input_avgArpu.getAttribute('value') || '');
     document.getElementById('input_creditCardRequired').value = 'no';
     updateTool();
   }
@@ -212,9 +215,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

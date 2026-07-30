@@ -11,7 +11,7 @@
       trial14ConvRate: (parseFloat(document.getElementById('input_trial14ConvRate').value) || 0) / 100,
       trial30ConvRate: (parseFloat(document.getElementById('input_trial30ConvRate').value) || 0) / 100,
       trialSupportCostPerLead: parseFloat(document.getElementById('input_trialSupportCostPerLead').value) || 0
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -64,7 +64,7 @@
       netARR30: netARR30,
       totalAnnualSupportCost: totalAnnualSupportCost,
       winningTrialLength: winner
-    };
+    }
   }
 
   function updateTool() {

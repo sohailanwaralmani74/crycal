@@ -12,7 +12,7 @@
       monthlyChurnRatePct: parseFloat(document.getElementById('input_monthlyChurnRatePct').value) || 0.1,
       arpu: parseFloat(document.getElementById('input_arpu').value) || 0,
       grossMarginPct: parseFloat(document.getElementById('input_grossMarginPct').value) || 80
-    };
+    }
   }
 
   function formatCurrency(amount) {

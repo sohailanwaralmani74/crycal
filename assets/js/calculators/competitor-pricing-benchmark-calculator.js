@@ -11,7 +11,7 @@
       yourPrice: parseFloat(document.getElementById('input_yourProposedPrice').value) || 0,
       featureIndex: parseFloat(document.getElementById('input_featureFeatureMultiplier').value) || 1.0,
       targetCustomers: parseFloat(document.getElementById('input_targetCustomers').value) || 0
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -64,7 +64,7 @@
       c2: inputs.c2,
       c3: inputs.c3,
       yourPrice: inputs.yourPrice
-    };
+    }
   }
 
   function updateTool() {

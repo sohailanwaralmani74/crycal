@@ -8,7 +8,7 @@
       mpg: parseFloat(document.getElementById('input_mpg').value) || 1,
       gasPrice: parseFloat(document.getElementById('input_gasPrice').value) || 0,
       passengerCount: parseFloat(document.getElementById('input_passengerCount').value) || 1
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -51,7 +51,7 @@
       totalGallons: totalGallons,
       costPerPerson: costPerPerson,
       tankFillUps: tankFillUps
-    };
+    }
   }
 
   function updateTool() {
@@ -125,7 +125,7 @@
             }
           }
         }
-      };
+      }
     } else if (tab === 'distanceBreakdown') {
       var dist = inputs.tripDistance;
       var cpm = (inputs.gasPrice / Math.max(1, inputs.mpg));
@@ -161,7 +161,7 @@
             }
           }
         }
-      };
+      }
     }
     return null;
   }
@@ -172,10 +172,14 @@
   }
 
   function resetTool() {
-    document.getElementById('input_tripDistance').value = 850;
-    document.getElementById('input_mpg').value = 26;
-    document.getElementById('input_gasPrice').value = 3.65;
-    document.getElementById('input_passengerCount').value = 3;
+    var _el_input_tripDistance = document.getElementById('input_tripDistance');
+    _el_input_tripDistance.value = (_el_input_tripDistance.dataset && _el_input_tripDistance.dataset.default !== undefined) ? _el_input_tripDistance.dataset.default : (_el_input_tripDistance.getAttribute('value') || '');
+    var _el_input_mpg = document.getElementById('input_mpg');
+    _el_input_mpg.value = (_el_input_mpg.dataset && _el_input_mpg.dataset.default !== undefined) ? _el_input_mpg.dataset.default : (_el_input_mpg.getAttribute('value') || '');
+    var _el_input_gasPrice = document.getElementById('input_gasPrice');
+    _el_input_gasPrice.value = (_el_input_gasPrice.dataset && _el_input_gasPrice.dataset.default !== undefined) ? _el_input_gasPrice.dataset.default : (_el_input_gasPrice.getAttribute('value') || '');
+    var _el_input_passengerCount = document.getElementById('input_passengerCount');
+    _el_input_passengerCount.value = (_el_input_passengerCount.dataset && _el_input_passengerCount.dataset.default !== undefined) ? _el_input_passengerCount.dataset.default : (_el_input_passengerCount.getAttribute('value') || '');
     updateTool();
   }
 
@@ -189,9 +193,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

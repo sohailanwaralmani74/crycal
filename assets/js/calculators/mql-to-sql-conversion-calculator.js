@@ -24,7 +24,7 @@
     return {
       mqls: parseFloat(document.getElementById('input_mqls')?.value) || 0,
       sqls: parseFloat(document.getElementById('input_sqls')?.value) || 0
-    };
+    }
   }
 
   function updateTool() {

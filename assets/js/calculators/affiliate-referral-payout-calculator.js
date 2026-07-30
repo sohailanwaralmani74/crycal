@@ -14,7 +14,7 @@
       monthlySubscriptionPrice: monthlySubscriptionPrice,
       commissionRate: commissionRate / 100,
       payoutDurationMonths: payoutDurationMonths
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -63,7 +63,7 @@
       netSaasRevenue: netMonthlyRevenue,
       effectiveCommissionCost: effectiveCostPercent,
       error: null
-    };
+    }
   }
 
   function updateTool() {
@@ -91,7 +91,7 @@
       monthlyPayout: result.monthlyPayout,
       netRevenue: result.netSaasRevenue,
       duration: inputs.payoutDurationMonths
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -139,7 +139,7 @@
             title: { display: true, text: 'Monthly Gross Referred Revenue Split ($)', color: '#e8edf0' }
           }
         }
-      };
+      }
     }
 
     if (tab === 'projection') {
@@ -179,7 +179,7 @@
             x: { ticks: { color: '#8899aa' } }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -192,10 +192,14 @@
   }
 
   function resetTool() {
-    document.getElementById('input_referredCustomers').value = 150;
-    document.getElementById('input_monthlySubscriptionPrice').value = 149;
-    document.getElementById('input_commissionRate').value = 20;
-    document.getElementById('input_payoutDurationMonths').value = 12;
+    var _el_input_referredCustomers = document.getElementById('input_referredCustomers');
+    _el_input_referredCustomers.value = (_el_input_referredCustomers.dataset && _el_input_referredCustomers.dataset.default !== undefined) ? _el_input_referredCustomers.dataset.default : (_el_input_referredCustomers.getAttribute('value') || '');
+    var _el_input_monthlySubscriptionPrice = document.getElementById('input_monthlySubscriptionPrice');
+    _el_input_monthlySubscriptionPrice.value = (_el_input_monthlySubscriptionPrice.dataset && _el_input_monthlySubscriptionPrice.dataset.default !== undefined) ? _el_input_monthlySubscriptionPrice.dataset.default : (_el_input_monthlySubscriptionPrice.getAttribute('value') || '');
+    var _el_input_commissionRate = document.getElementById('input_commissionRate');
+    _el_input_commissionRate.value = (_el_input_commissionRate.dataset && _el_input_commissionRate.dataset.default !== undefined) ? _el_input_commissionRate.dataset.default : (_el_input_commissionRate.getAttribute('value') || '');
+    var _el_input_payoutDurationMonths = document.getElementById('input_payoutDurationMonths');
+    _el_input_payoutDurationMonths.value = (_el_input_payoutDurationMonths.dataset && _el_input_payoutDurationMonths.dataset.default !== undefined) ? _el_input_payoutDurationMonths.dataset.default : (_el_input_payoutDurationMonths.getAttribute('value') || '');
     updateTool();
   }
 
@@ -209,9 +213,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

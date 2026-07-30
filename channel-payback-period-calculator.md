@@ -126,14 +126,14 @@ howto:
     - name: "Inspect Interactive Charts"
       text: "Switch visual chart tabs to analyze detailed breakdowns and curves."
 faq:
-  - q: "Why compare payback periods by channel?"
-    a: "Different marketing channels carry wildly different CAC and payback profiles. Reallocating budget to fast-payback channels accelerates overall company cash flow."
-  - q: "Which channel typically has the shortest CAC payback?"
-    a: "SEO Inbound and Product-Led Growth (PLG) usually yield the shortest payback periods (< 6-9 months) due to low variable acquisition expense."
-  - q: "Why do LinkedIn Ads often have longer payback periods?"
-    a: "LinkedIn Ads offer precise B2B audience targeting but carry high CPMs, resulting in higher CAC and longer payback periods."
-  - q: "How can teams optimize slow-payback channels?"
-    a: "Improve slow channels by narrowing ad targeting, increasing landing page conversion rates, and promoting annual upfront billing."
+  - question: "Why compare payback periods by channel?"
+    answer: "Different marketing channels carry wildly different CAC and payback profiles. Reallocating budget to fast-payback channels accelerates overall company cash flow."
+  - question: "Which channel typically has the shortest CAC payback?"
+    answer: "SEO Inbound and Product-Led Growth (PLG) usually yield the shortest payback periods (< 6-9 months) due to low variable acquisition expense."
+  - question: "Why do LinkedIn Ads often have longer payback periods?"
+    answer: "LinkedIn Ads offer precise B2B audience targeting but carry high CPMs, resulting in higher CAC and longer payback periods."
+  - question: "How can teams optimize slow-payback channels?"
+    answer: "Teams can optimize slow-payback channels by narrowing ad targeting, increasing landing page conversion rates, and promoting annual upfront billing."
 ---
 
 # Channel Payback Period Calculator - Calculate LTV, CAC & Payback Ratio
@@ -190,5 +190,5 @@ LinkedIn Ads offer precise B2B audience targeting but carry high CPMs, resulting
 
 ### How can teams optimize slow-payback channels?
 
-Improve slow channels by narrowing ad targeting, increasing landing page conversion rates, and promoting annual upfront billing.
+Teams can optimize slow-payback channels by narrowing ad targeting, increasing landing page conversion rates, and promoting annual upfront billing.
 

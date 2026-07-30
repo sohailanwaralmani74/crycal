@@ -34,7 +34,7 @@
       beneficiaryType: beneficiaryType,
       beneficiaryAge: beneficiaryAge,
       yearsSinceInheritance: yearsSinceInheritance
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -88,7 +88,7 @@
         rmdAsPercent: null,
         distributionDeadline: 'End of Year 5 (no annual RMD required)',
         error: null
-      };
+      }
     }
 
     if (type === 'non_eligible_10yr') {
@@ -98,7 +98,7 @@
         rmdAsPercent: null,
         distributionDeadline: 'End of Year 10 (annual RMDs may apply if original owner had begun RMDs; consult a tax advisor)',
         error: null
-      };
+      }
     }
 
     // Spouse or eligible designated beneficiary — life expectancy method
@@ -121,7 +121,7 @@
       rmdAsPercent: rmdAsPercent,
       distributionDeadline: 'Based on life expectancy (no fixed depletion deadline)',
       error: null
-    };
+    }
   }
 
   function updateTool() {
@@ -154,10 +154,13 @@
   }
 
   function resetTool() {
-    document.getElementById('input_inheritedBalance').value = 200000;
+    var _el_input_inheritedBalance = document.getElementById('input_inheritedBalance');
+    _el_input_inheritedBalance.value = (_el_input_inheritedBalance.dataset && _el_input_inheritedBalance.dataset.default !== undefined) ? _el_input_inheritedBalance.dataset.default : (_el_input_inheritedBalance.getAttribute('value') || '');
     document.getElementById('input_beneficiaryType').value = 'eligible_designated';
-    document.getElementById('input_beneficiaryAge').value = 55;
-    document.getElementById('input_yearsSinceInheritance').value = 0;
+    var _el_input_beneficiaryAge = document.getElementById('input_beneficiaryAge');
+    _el_input_beneficiaryAge.value = (_el_input_beneficiaryAge.dataset && _el_input_beneficiaryAge.dataset.default !== undefined) ? _el_input_beneficiaryAge.dataset.default : (_el_input_beneficiaryAge.getAttribute('value') || '');
+    var _el_input_yearsSinceInheritance = document.getElementById('input_yearsSinceInheritance');
+    _el_input_yearsSinceInheritance.value = (_el_input_yearsSinceInheritance.dataset && _el_input_yearsSinceInheritance.dataset.default !== undefined) ? _el_input_yearsSinceInheritance.dataset.default : (_el_input_yearsSinceInheritance.getAttribute('value') || '');
     updateTool();
   }
 
@@ -170,9 +173,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

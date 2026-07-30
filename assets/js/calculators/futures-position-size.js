@@ -21,7 +21,7 @@
       tickValue: parseFloat(document.getElementById('input_tickValue').value) || 0,
       contractMultiplier: parseFloat(document.getElementById('input_contractMultiplier').value) || 1,
       leverage: parseFloat(document.getElementById('input_leverage').value) || 1
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -112,7 +112,7 @@
         tickValue: inputs.tickValue,
         positionSizeContracts: positionSizeContracts,
         riskAmount: riskAmount
-      };
+      }
       window.logHistory(snapshot);
     }
     if (typeof window.renderPresetDropdown === 'function') {
@@ -193,7 +193,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -207,15 +207,24 @@
 
   // ── Reset Tool ──
   function resetTool() {
-    document.getElementById('input_accountBalance').value = 50000;
-    document.getElementById('input_riskPercent').value = 1.0;
-    document.getElementById('input_entryPrice').value = 5000.00;
-    document.getElementById('input_stopLossPrice').value = 4950.00;
-    document.getElementById('input_currentPrice').value = 5000.00;
-    document.getElementById('input_tickSize').value = 0.25;
-    document.getElementById('input_tickValue').value = 12.50;
-    document.getElementById('input_contractMultiplier').value = 50;
-    document.getElementById('input_leverage').value = 1;
+    var _el_input_accountBalance = document.getElementById('input_accountBalance');
+    _el_input_accountBalance.value = (_el_input_accountBalance.dataset && _el_input_accountBalance.dataset.default !== undefined) ? _el_input_accountBalance.dataset.default : (_el_input_accountBalance.getAttribute('value') || '');
+    var _el_input_riskPercent = document.getElementById('input_riskPercent');
+    _el_input_riskPercent.value = (_el_input_riskPercent.dataset && _el_input_riskPercent.dataset.default !== undefined) ? _el_input_riskPercent.dataset.default : (_el_input_riskPercent.getAttribute('value') || '');
+    var _el_input_entryPrice = document.getElementById('input_entryPrice');
+    _el_input_entryPrice.value = (_el_input_entryPrice.dataset && _el_input_entryPrice.dataset.default !== undefined) ? _el_input_entryPrice.dataset.default : (_el_input_entryPrice.getAttribute('value') || '');
+    var _el_input_stopLossPrice = document.getElementById('input_stopLossPrice');
+    _el_input_stopLossPrice.value = (_el_input_stopLossPrice.dataset && _el_input_stopLossPrice.dataset.default !== undefined) ? _el_input_stopLossPrice.dataset.default : (_el_input_stopLossPrice.getAttribute('value') || '');
+    var _el_input_currentPrice = document.getElementById('input_currentPrice');
+    _el_input_currentPrice.value = (_el_input_currentPrice.dataset && _el_input_currentPrice.dataset.default !== undefined) ? _el_input_currentPrice.dataset.default : (_el_input_currentPrice.getAttribute('value') || '');
+    var _el_input_tickSize = document.getElementById('input_tickSize');
+    _el_input_tickSize.value = (_el_input_tickSize.dataset && _el_input_tickSize.dataset.default !== undefined) ? _el_input_tickSize.dataset.default : (_el_input_tickSize.getAttribute('value') || '');
+    var _el_input_tickValue = document.getElementById('input_tickValue');
+    _el_input_tickValue.value = (_el_input_tickValue.dataset && _el_input_tickValue.dataset.default !== undefined) ? _el_input_tickValue.dataset.default : (_el_input_tickValue.getAttribute('value') || '');
+    var _el_input_contractMultiplier = document.getElementById('input_contractMultiplier');
+    _el_input_contractMultiplier.value = (_el_input_contractMultiplier.dataset && _el_input_contractMultiplier.dataset.default !== undefined) ? _el_input_contractMultiplier.dataset.default : (_el_input_contractMultiplier.getAttribute('value') || '');
+    var _el_input_leverage = document.getElementById('input_leverage');
+    _el_input_leverage.value = (_el_input_leverage.dataset && _el_input_leverage.dataset.default !== undefined) ? _el_input_leverage.dataset.default : (_el_input_leverage.getAttribute('value') || '');
     if (typeof window.updateTool === 'function') window.updateTool();
   }
 
@@ -231,9 +240,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
   });
 
 })();

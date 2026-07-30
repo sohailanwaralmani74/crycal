@@ -18,7 +18,7 @@
       // (balance growing instead of shrinking) with no warning — block it.
       extraPayment: Math.max(0, parseFloat(document.getElementById('input_extraPayment').value) || 0),
       compoundingFrequency: document.getElementById('input_compoundingFrequency').value
-    };
+    }
   }
 
   // ── Get compounding periods per year (normalized so "semiannually" and
@@ -87,7 +87,7 @@
       totalPayment: totalPaymentSum,
       monthlyPayment: basePayment,
       totalMonths: month
-    };
+    }
   }
 
   // ── Main Calculation ──
@@ -112,7 +112,7 @@
       payoffDate: payoffDate,
       schedule: result.schedule,
       totalMonths: result.totalMonths
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -199,7 +199,7 @@
           maintainAspectRatio: false,
           plugins: { legend: { display: false }, title: { display: true, text: 'Enter valid loan details', font: { size: 14 } } }
         }
-      };
+      }
     }
 
     var labels = schedule.map(function(d) { return d.month; });
@@ -232,7 +232,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'balance') {
@@ -266,7 +266,7 @@
             x: { title: { display: true, text: 'Month' } }
           }
         }
-      };
+      }
     }
 
     if (tab === 'interest') {
@@ -318,7 +318,7 @@
             x: { title: { display: true, text: 'Month' } }
           }
         }
-      };
+      }
     }
 
     return null;

@@ -10,7 +10,7 @@
       deductiblePerVisit: parseFloat(document.getElementById('input_deductiblePerVisit').value) || 0,
       estimatedAnnualRepairs: parseFloat(document.getElementById('input_estimatedAnnualRepairs').value) || 0,
       vehicleReliabilityTier: document.getElementById('input_vehicleReliabilityTier').value
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -69,7 +69,7 @@
       totalEstimatedOutofPocket: totalExpectedRepairs,
       netFinancialValue: netValue,
       financialVerdict: verdict
-    };
+    }
   }
 
   function updateTool() {
@@ -141,7 +141,7 @@
             }
           }
         }
-      };
+      }
     } else if (tab === 'annual_breakdown') {
       var Y = inputs.warrantyDurationYears;
       var labels = [];
@@ -194,7 +194,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;

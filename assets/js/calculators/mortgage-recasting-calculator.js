@@ -22,7 +22,7 @@
       recastFee: recastFee,
       originalTerm: originalTerm,
       originalRate: originalRate / 100
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -119,13 +119,11 @@
     var paymentData = {
       'Current Payment': currentPayment,
       'Recast Payment': recastPayment
-    };
-
+    }
     var interestData = {
       'Current Interest': currentTotalInterest,
       'Recast Interest': recastTotalInterest
-    };
-
+    }
     return {
       currentPayment: currentPayment,
       recastPayment: recastPayment,
@@ -138,7 +136,7 @@
       paymentData: paymentData,
       interestData: interestData,
       error: null
-    };
+    }
   }
 
   // ── Main Update ──
@@ -193,7 +191,7 @@
       recastInterest: result.recastTotalInterest,
       monthlySavings: result.monthlySavings,
       interestSavings: result.interestSavings
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -282,7 +280,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'interest') {
@@ -343,7 +341,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -361,13 +359,20 @@
 
   // ── Reset Tool ──
   function resetTool() {
-    document.getElementById('input_loanBalance').value = 250000;
-    document.getElementById('input_interestRate').value = 6.5;
-    document.getElementById('input_remainingTerm').value = 25;
-    document.getElementById('input_lumpSumPayment').value = 50000;
-    document.getElementById('input_recastFee').value = 0;
-    document.getElementById('input_originalTerm').value = 30;
-    document.getElementById('input_originalRate').value = 6.5;
+    var _el_input_loanBalance = document.getElementById('input_loanBalance');
+    _el_input_loanBalance.value = (_el_input_loanBalance.dataset && _el_input_loanBalance.dataset.default !== undefined) ? _el_input_loanBalance.dataset.default : (_el_input_loanBalance.getAttribute('value') || '');
+    var _el_input_interestRate = document.getElementById('input_interestRate');
+    _el_input_interestRate.value = (_el_input_interestRate.dataset && _el_input_interestRate.dataset.default !== undefined) ? _el_input_interestRate.dataset.default : (_el_input_interestRate.getAttribute('value') || '');
+    var _el_input_remainingTerm = document.getElementById('input_remainingTerm');
+    _el_input_remainingTerm.value = (_el_input_remainingTerm.dataset && _el_input_remainingTerm.dataset.default !== undefined) ? _el_input_remainingTerm.dataset.default : (_el_input_remainingTerm.getAttribute('value') || '');
+    var _el_input_lumpSumPayment = document.getElementById('input_lumpSumPayment');
+    _el_input_lumpSumPayment.value = (_el_input_lumpSumPayment.dataset && _el_input_lumpSumPayment.dataset.default !== undefined) ? _el_input_lumpSumPayment.dataset.default : (_el_input_lumpSumPayment.getAttribute('value') || '');
+    var _el_input_recastFee = document.getElementById('input_recastFee');
+    _el_input_recastFee.value = (_el_input_recastFee.dataset && _el_input_recastFee.dataset.default !== undefined) ? _el_input_recastFee.dataset.default : (_el_input_recastFee.getAttribute('value') || '');
+    var _el_input_originalTerm = document.getElementById('input_originalTerm');
+    _el_input_originalTerm.value = (_el_input_originalTerm.dataset && _el_input_originalTerm.dataset.default !== undefined) ? _el_input_originalTerm.dataset.default : (_el_input_originalTerm.getAttribute('value') || '');
+    var _el_input_originalRate = document.getElementById('input_originalRate');
+    _el_input_originalRate.value = (_el_input_originalRate.dataset && _el_input_originalRate.dataset.default !== undefined) ? _el_input_originalRate.dataset.default : (_el_input_originalRate.getAttribute('value') || '');
     updateTool();
   }
 
@@ -383,9 +388,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

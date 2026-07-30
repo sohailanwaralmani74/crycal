@@ -26,7 +26,7 @@
       inflationRate: parseFloat(document.getElementById('input_inflationRate').value) || 0,
       safeWithdrawalRate: parseFloat(document.getElementById('input_safeWithdrawalRate').value) || 4.0,
       compoundingFrequency: document.getElementById('input_compoundingFrequency').value
-    };
+    }
   }
 
   // ── Compounding periods per year (normalized so "semiannually" and
@@ -159,7 +159,7 @@
       netWorth: inputs.currentSavings,
       yearData: yearData,
       monthlySavings: monthlySavings
-    };
+    }
   }
 
   // ── Format duration (years) with months rollover ──
@@ -270,7 +270,7 @@
             x: { title: { display: true, text: 'Age' } }
           }
         }
-      };
+      }
     }
 
     if (tab === 'milestone') {
@@ -300,7 +300,7 @@
             x: { title: { display: true, text: 'Age' } }
           }
         }
-      };
+      }
     }
 
     if (tab === 'breakdown') {
@@ -330,7 +330,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
     return null;
   }

@@ -115,15 +115,15 @@ faq:
   - question: "How does a Home Equity Loan differ from a HELOC?"
     answer: "A Home Equity Loan provides a lump sum with a fixed interest rate and equal monthly payments. A HELOC is a revolving credit line with variable rates and flexible draw periods."
   - question: "How much home equity can I borrow?"
-    answer: "Most lenders limit your Combined Loan-to-Value (CLTV) ratio to 80% or 85% of your home's appraised market value minus your primary mortgage balance."
+    answer: "Most lenders limit how much home equity you can borrow by capping your Combined Loan-to-Value (CLTV) ratio to 80% or 85% of your home's appraised market value minus your primary mortgage balance."
   - question: "Are home equity loan interest payments tax-deductible?"
-    answer: "Interest may be tax-deductible if the loan proceeds are used exclusively to buy, build, or substantially improve the primary or secondary home securing the loan."
+    answer: "Home equity loan interest payments may be tax-deductible if the loan proceeds are used exclusively to buy, build, or substantially improve the primary or secondary home securing the loan."
   - question: "What credit score is required for a home equity loan?"
-    answer: "Most lenders require a minimum credit score of 620 to 680, along with a debt-to-income (DTI) ratio below 43% and sufficient home equity."
+    answer: "A home equity loan typically requires a minimum credit score of 620 to 680, along with a debt-to-income (DTI) ratio below 43% and sufficient home equity."
   - question: "What closing costs are associated with home equity loans?"
-    answer: "Closing costs typically range between 2% and 5% of the loan amount, covering appraisal fees, title search, origination fees, and credit checks."
+    answer: "Closing costs associated with home equity loans typically range between 2% and 5% of the loan amount, covering appraisal fees, title search, origination fees, and credit checks."
   - question: "Is my financial information safe while using this tool?"
-    answer: "Yes, 100%. All calculation formulas run locally in your web browser. No financial data is sent to external servers or stored anywhere."
+    answer: "Yes — your financial information is 100% safe. All calculation formulas run locally in your web browser, and no financial data is sent to external servers or stored anywhere."
 ---
 
 # Home Equity Loan Calculator - Calculate Home Loan Payment & Amortization
@@ -208,20 +208,20 @@ A Home Equity Loan provides a lump sum with a fixed interest rate and equal mont
 
 ### How much home equity can I borrow?
 
-Most lenders limit your Combined Loan-to-Value (CLTV) ratio to 80% or 85% of your home's appraised market value minus your primary mortgage balance.
+Most lenders limit how much home equity you can borrow by capping your Combined Loan-to-Value (CLTV) ratio to 80% or 85% of your home's appraised market value minus your primary mortgage balance.
 
 ### Are home equity loan interest payments tax-deductible?
 
-Interest may be tax-deductible if the loan proceeds are used exclusively to buy, build, or substantially improve the primary or secondary home securing the loan.
+Home equity loan interest payments may be tax-deductible if the loan proceeds are used exclusively to buy, build, or substantially improve the primary or secondary home securing the loan.
 
 ### What credit score is required for a home equity loan?
 
-Most lenders require a minimum credit score of 620 to 680, along with a debt-to-income (DTI) ratio below 43% and sufficient home equity.
+A home equity loan typically requires a minimum credit score of 620 to 680, along with a debt-to-income (DTI) ratio below 43% and sufficient home equity.
 
 ### What closing costs are associated with home equity loans?
 
-Closing costs typically range between 2% and 5% of the loan amount, covering appraisal fees, title search, origination fees, and credit checks.
+Closing costs associated with home equity loans typically range between 2% and 5% of the loan amount, covering appraisal fees, title search, origination fees, and credit checks.
 
 ### Is my financial information safe while using this tool?
 
-Yes, 100%. All calculation formulas run locally in your web browser. No financial data is sent to external servers or stored anywhere.
+Yes — your financial information is 100% safe. All calculation formulas run locally in your web browser, and no financial data is sent to external servers or stored anywhere.

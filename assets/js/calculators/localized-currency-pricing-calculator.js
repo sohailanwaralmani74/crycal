@@ -12,7 +12,7 @@
       gbpPppFactor: parseFloat(document.getElementById('input_gbpPppFactor').value) || 0,
       audFxRate: parseFloat(document.getElementById('input_audFxRate').value) || 0,
       audPppFactor: parseFloat(document.getElementById('input_audPppFactor').value) || 0
-    };
+    }
   }
 
   function formatCurrencyCustom(amount, symbol) {
@@ -57,7 +57,7 @@
       gbpUsdEquivalent: gbpUsdEquivalent,
       audUsdEquivalent: audUsdEquivalent,
       baseUsdPrice: inputs.baseUsdPrice
-    };
+    }
   }
 
   function updateTool() {

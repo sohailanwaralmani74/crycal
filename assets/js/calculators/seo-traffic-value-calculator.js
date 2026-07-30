@@ -12,7 +12,7 @@
       monthlyOrganicVisits: monthlyOrganicVisits,
       avgPpcCpc: avgPpcCpc,
       monthlySeoCost: monthlySeoCost
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -58,7 +58,7 @@
       netMonthlySavings: netSavings,
       seoRoi: seoRoi,
       error: null
-    };
+    }
   }
 
   function updateTool() {
@@ -85,7 +85,7 @@
       monthlyValue: result.monthlyTrafficValue,
       netSavings: result.netMonthlySavings,
       annualValue: result.annualTrafficValue
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -142,7 +142,7 @@
             x: { ticks: { color: '#8899aa' } }
           }
         }
-      };
+      }
     }
 
     if (tab === 'value') {
@@ -173,7 +173,7 @@
             x: { ticks: { color: '#8899aa' } }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -186,9 +186,12 @@
   }
 
   function resetTool() {
-    document.getElementById('input_monthlyOrganicVisits').value = 35000;
-    document.getElementById('input_avgPpcCpc').value = 4.50;
-    document.getElementById('input_monthlySeoCost').value = 6000;
+    var _el_input_monthlyOrganicVisits = document.getElementById('input_monthlyOrganicVisits');
+    _el_input_monthlyOrganicVisits.value = (_el_input_monthlyOrganicVisits.dataset && _el_input_monthlyOrganicVisits.dataset.default !== undefined) ? _el_input_monthlyOrganicVisits.dataset.default : (_el_input_monthlyOrganicVisits.getAttribute('value') || '');
+    var _el_input_avgPpcCpc = document.getElementById('input_avgPpcCpc');
+    _el_input_avgPpcCpc.value = (_el_input_avgPpcCpc.dataset && _el_input_avgPpcCpc.dataset.default !== undefined) ? _el_input_avgPpcCpc.dataset.default : (_el_input_avgPpcCpc.getAttribute('value') || '');
+    var _el_input_monthlySeoCost = document.getElementById('input_monthlySeoCost');
+    _el_input_monthlySeoCost.value = (_el_input_monthlySeoCost.dataset && _el_input_monthlySeoCost.dataset.default !== undefined) ? _el_input_monthlySeoCost.dataset.default : (_el_input_monthlySeoCost.getAttribute('value') || '');
     updateTool();
   }
 
@@ -202,9 +205,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

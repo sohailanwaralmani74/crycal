@@ -24,7 +24,7 @@
     return {
       onboarding: parseFloat(document.getElementById('input_onboarding_days')?.value) || 0,
       implementation: parseFloat(document.getElementById('input_implementation_days')?.value) || 0
-    };
+    }
   }
 
   function updateTool() {

@@ -29,7 +29,7 @@
   2013: 233.0, 2014: 236.7, 2015: 237.0, 2016: 240.0, 2017: 245.1,
   2018: 251.1, 2019: 255.7, 2020: 258.8, 2021: 271.0, 2022: 292.7,
   2023: 304.7, 2024: 313.7, 2025: 321.943, 2026: 335.123
-};
+}
   // ── Get Inputs ──
   function getInputs() {
     var amount = parseFloat(document.getElementById('input_amount').value) || 0;
@@ -42,7 +42,7 @@
       startYear: startYear,
       endYear: endYear,
       customRate: customRate / 100
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -145,7 +145,7 @@
       amount: amount,
       startYear: startYear,
       endYear: endYear
-    };
+    }
   }
 
   // ── Main Update ──
@@ -191,7 +191,7 @@
       annualRate: result.annualRate,
       totalChange: result.totalChange,
       inflationImpact: result.inflationImpact
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -293,7 +293,7 @@
             mode: 'index'
           }
         }
-      };
+      }
     }
 
     if (tab === 'breakdown') {
@@ -326,7 +326,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -344,10 +344,12 @@
 
   // ── Reset Tool ──
   function resetTool() {
-    document.getElementById('input_amount').value = 100;
+    var _el_input_amount = document.getElementById('input_amount');
+    _el_input_amount.value = (_el_input_amount.dataset && _el_input_amount.dataset.default !== undefined) ? _el_input_amount.dataset.default : (_el_input_amount.getAttribute('value') || '');
     document.getElementById('input_startYear').value = '2000';
     document.getElementById('input_endYear').value = '2024';
-    document.getElementById('input_customRate').value = 0;
+    var _el_input_customRate = document.getElementById('input_customRate');
+    _el_input_customRate.value = (_el_input_customRate.dataset && _el_input_customRate.dataset.default !== undefined) ? _el_input_customRate.dataset.default : (_el_input_customRate.getAttribute('value') || '');
     updateTool();
   }
 
@@ -363,9 +365,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

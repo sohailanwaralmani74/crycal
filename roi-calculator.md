@@ -123,7 +123,7 @@ faq:
   - question: "Why is ROI sometimes difficult to use?"
     answer: "The challenge lies in defining 'cost' and 'gain'. Different investors include different factors such as taxes, insurance, capital expenditures, or operating costs. This variability makes ROI a useful starting point, but it should be supplemented with other metrics."
   - question: "Can I use this calculator for any investment?"
-    answer: "Yes — use it for stocks, mutual funds, real estate, crypto, or any investment where you have start and end values."
+    answer: "You can use this calculator for stocks, mutual funds, real estate, crypto, or any investment where you have start and end values."
 
 ---
 
@@ -198,6 +198,6 @@ The challenge lies in defining 'cost' and 'gain'. Different investors include di
 
 ### Can I use this calculator for any investment?
 
-Yes — use it for stocks, mutual funds, real estate, crypto, or any investment where you have start and end values.
+You can use this calculator for stocks, mutual funds, real estate, crypto, or any investment where you have start and end values.
 
 ---

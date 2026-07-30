@@ -24,7 +24,7 @@
     return {
       totalDays: parseFloat(document.getElementById('input_total_days')?.value) || 0,
       deals: parseFloat(document.getElementById('input_number_deals')?.value) || 0
-    };
+    }
   }
 
   function updateTool() {

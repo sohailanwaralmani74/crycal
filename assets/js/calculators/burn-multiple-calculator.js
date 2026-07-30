@@ -71,7 +71,7 @@
       netBurn: netBurn,
       netNewArr: netNewArr,
       burnMultiple: burnMultiple
-    };
+    }
     updateCharts(lastChartData);
 
     if (typeof window.logHistory === 'function') {
@@ -117,7 +117,7 @@
           plugins: { legend: { display: false } },
           scales: { y: { beginAtZero: true, ticks: { color: '#8899aa' } }, x: { ticks: { color: '#8899aa' } } }
         }
-      };
+      }
     }
     if (tab === 'benchmarkTier') {
       return {
@@ -136,7 +136,7 @@
           plugins: { legend: { display: false } },
           scales: { y: { beginAtZero: true, ticks: { color: '#8899aa' } }, x: { ticks: { color: '#8899aa' } } }
         }
-      };
+      }
     }
     return null;
 
@@ -153,8 +153,10 @@
 
   function resetTool() {
 
-    document.getElementById('input_netBurn').value = 300000;
-    document.getElementById('input_netNewArr').value = 200000;
+    var _el_input_netBurn = document.getElementById('input_netBurn');
+    _el_input_netBurn.value = (_el_input_netBurn.dataset && _el_input_netBurn.dataset.default !== undefined) ? _el_input_netBurn.dataset.default : (_el_input_netBurn.getAttribute('value') || '');
+    var _el_input_netNewArr = document.getElementById('input_netNewArr');
+    _el_input_netNewArr.value = (_el_input_netNewArr.dataset && _el_input_netNewArr.dataset.default !== undefined) ? _el_input_netNewArr.dataset.default : (_el_input_netNewArr.getAttribute('value') || '');
     updateTool();
 
   }
@@ -169,9 +171,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

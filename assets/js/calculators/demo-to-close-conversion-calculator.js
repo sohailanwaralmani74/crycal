@@ -38,7 +38,7 @@
       demos: parseFloat(document.getElementById('input_demos_held')?.value) || 0,
       closed: parseFloat(document.getElementById('input_deals_closed')?.value) || 0,
       avgSize: parseFloat(document.getElementById('input_avg_deal_size')?.value) || 0
-    };
+    }
   }
 
   function updateTool() {

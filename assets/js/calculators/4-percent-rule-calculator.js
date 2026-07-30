@@ -17,7 +17,7 @@
       inflationRate: inflationRate / 100,
       expectedReturn: expectedReturn / 100,
       retirementYears: retirementYears
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -80,7 +80,7 @@
       balancePoints: balancePoints,
       withdrawalPoints: withdrawalPoints,
       error: null
-    };
+    }
   }
 
   function updateTool() {
@@ -110,7 +110,7 @@
     var chartPayload = {
       balancePoints: result.balancePoints,
       withdrawalPoints: result.withdrawalPoints
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -171,7 +171,7 @@
           },
           interaction: { intersect: false, mode: 'index' }
         }
-      };
+      }
     }
 
     if (tab === 'withdrawal' && data.withdrawalPoints && data.withdrawalPoints.length > 0) {
@@ -198,7 +198,7 @@
             y: { grid: { color: 'rgba(255,255,255,0.04)' }, ticks: { color: '#8899aa', font: { size: 9 }, callback: currencyTick } }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -214,11 +214,16 @@
   }
 
   function resetTool() {
-    document.getElementById('input_portfolioValue').value = 1000000;
-    document.getElementById('input_withdrawalRate').value = 4;
-    document.getElementById('input_inflationRate').value = 3;
-    document.getElementById('input_expectedReturn').value = 6;
-    document.getElementById('input_retirementYears').value = 30;
+    var _el_input_portfolioValue = document.getElementById('input_portfolioValue');
+    _el_input_portfolioValue.value = (_el_input_portfolioValue.dataset && _el_input_portfolioValue.dataset.default !== undefined) ? _el_input_portfolioValue.dataset.default : (_el_input_portfolioValue.getAttribute('value') || '');
+    var _el_input_withdrawalRate = document.getElementById('input_withdrawalRate');
+    _el_input_withdrawalRate.value = (_el_input_withdrawalRate.dataset && _el_input_withdrawalRate.dataset.default !== undefined) ? _el_input_withdrawalRate.dataset.default : (_el_input_withdrawalRate.getAttribute('value') || '');
+    var _el_input_inflationRate = document.getElementById('input_inflationRate');
+    _el_input_inflationRate.value = (_el_input_inflationRate.dataset && _el_input_inflationRate.dataset.default !== undefined) ? _el_input_inflationRate.dataset.default : (_el_input_inflationRate.getAttribute('value') || '');
+    var _el_input_expectedReturn = document.getElementById('input_expectedReturn');
+    _el_input_expectedReturn.value = (_el_input_expectedReturn.dataset && _el_input_expectedReturn.dataset.default !== undefined) ? _el_input_expectedReturn.dataset.default : (_el_input_expectedReturn.getAttribute('value') || '');
+    var _el_input_retirementYears = document.getElementById('input_retirementYears');
+    _el_input_retirementYears.value = (_el_input_retirementYears.dataset && _el_input_retirementYears.dataset.default !== undefined) ? _el_input_retirementYears.dataset.default : (_el_input_retirementYears.getAttribute('value') || '');
     updateTool();
   }
 
@@ -232,9 +237,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

@@ -199,13 +199,13 @@ faq:
   - question: "What is a 401k calculator?"
     answer: "A 401k calculator is a retirement planning tool that estimates how much your 401k account will grow over time based on your contributions, employer match, and investment returns."
   - question: "How does the 401k calculator work?"
-    answer: "It uses your current age, retirement age, current balance, salary, contribution percentage, employer match, expected returns, and fees to project your 401k balance at retirement. It also shows the breakdown of contributions, employer match, and investment returns."
+    answer: "The 401k calculator projects your retirement balance using your current age, salary, contribution rates, expected returns, and fees. It also provides a detailed breakdown of your personal contributions versus employer matches and investment earnings."
   - question: "What is the 401k contribution limit?"
-    answer: "For 2024, the employee contribution limit is $23,000 (under 50) and $30,500 (age 50+). The total limit (employee + employer) is $69,000 (under 50) and $76,500 (age 50+). This calculator assumes you stay within these limits."
+    answer: "For 2024, the base employee 401k contribution limit is $23,000, rising to $30,500 for those aged 50 and older. The total limit for combined employee and employer contributions is $69,000, or $76,500 for those 50 and older."
   - question: "What is a good 401k match?"
-    answer: "A common employer match is 50% or 100% of employee contributions up to a certain percentage of salary (often 3-6%). This calculator uses a fixed match percentage, but you can adjust it to match your employer's policy."
+    answer: "A strong employer match typically covers 50% or 100% of your contributions up to 3% to 6% of your salary. You can adjust the fixed match percentage in the calculator to reflect your company's specific policy."
   - question: "How do fees impact my 401k growth?"
-    answer: "Even small fees (0.5-1%) can significantly reduce your retirement savings over decades. This calculator subtracts annual fees from your balance to show the impact."
+    answer: "Even small management fees of 0.5% to 1% can significantly reduce your total retirement savings over decades of investing. The calculator automatically subtracts annual fees from your balance to show their exact long-term impact."
 
 ---
 
@@ -274,19 +274,19 @@ A 401k calculator is a retirement planning tool that estimates how much your 401
 
 ### How does the 401k calculator work?
 
-It uses your current age, retirement age, current balance, salary, contribution percentage, employer match, expected returns, and fees to project your 401k balance at retirement. It also shows the breakdown of contributions, employer match, and investment returns.
+The 401k calculator projects your retirement balance using your current age, salary, contribution rates, expected returns, and fees. It also provides a detailed breakdown of your personal contributions versus employer matches and investment earnings.
 
 ### What is the 401k contribution limit?
 
-This vary on country or state level, Employer policies and so on. Search for you employer policies or state rules you are living in.
+For 2024, the base employee 401k contribution limit is $23,000, rising to $30,500 for those aged 50 and older. The total limit for combined employee and employer contributions is $69,000, or $76,500 for those 50 and older.
 
 ### What is a good 401k match?
 
-A common employer match is 50% or 100% of employee contributions up to a certain percentage of salary (often 3-6%). This calculator uses a fixed match percentage, but you can adjust it to match your employer's policy.
+A strong employer match typically covers 50% or 100% of your contributions up to 3% to 6% of your salary. You can adjust the fixed match percentage in the calculator to reflect your company's specific policy.
 
 ### How do fees impact my 401k growth?
 
-Even small fees (0.5-1%) can significantly reduce your retirement savings over decades. This calculator subtracts annual fees from your balance to show the impact.
+Even small management fees of 0.5% to 1% can significantly reduce your total retirement savings over decades of investing. The calculator automatically subtracts annual fees from your balance to show their exact long-term impact.
 
 ---
 

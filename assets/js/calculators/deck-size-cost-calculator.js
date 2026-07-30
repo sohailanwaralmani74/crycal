@@ -8,15 +8,13 @@
     cedar: 25.00,
     composite: 40.00,
     premium_hardwood: 55.00
-  };
-
+  }
   var RAILING_RATES = {
     none: 0.00,
     wood: 25.00,
     aluminum: 45.00,
     glass: 75.00
-  };
-
+  }
   function getGlobalCurrency() {
     var picker = document.getElementById('globalCurrencyPicker');
     return picker ? picker.value : 'USD';
@@ -181,7 +179,6 @@
     var target = document.querySelector('.chart-tab[data-tab="' + tabId + '"]');
     if (target) target.classList.add('active');
     calculate();
-  };
-
+  }
   document.addEventListener('DOMContentLoaded', init);
 })();

@@ -195,11 +195,11 @@ faq:
   - question: "What is tick value?"
     answer: "Tick value is the monetary value of one tick movement per contract. For ES, the tick value is $12.50 per tick."
   - question: "How is futures position size calculated?"
-    answer: "Position Size = Risk Amount ÷ (Stop Distance in Points × Value Per Point). This gives you the number of contracts to trade."
+    answer: "Position Size is calculated by dividing your Risk Amount by the product of your Stop Distance in Points and Value Per Point. This formula gives you the exact number of contracts to trade."
   - question: "What is the value per point?"
-    answer: "Value Per Point = Tick Value ÷ Tick Size. For ES: $12.50 ÷ 0.25 = $50.00 per point."
+    answer: "The value per point is calculated by dividing the tick value by the tick size. For ES, $12.50 divided by 0.25 equals $50.00 per point."
   - question: "Can I use this calculator for any futures market?"
-    answer: "Yes — just enter the correct tick size and tick value for the contract you're trading (e.g., NQ, CL, GC, etc.)."
+    answer: "Yes — just enter the correct tick size and tick value for the specific contract you are trading (e.g., NQ, CL, GC) into the calculator."
 
 ---
 
@@ -267,15 +267,15 @@ Tick value is the monetary value of one tick movement per contract. For ES, the 
 
 ### How is futures position size calculated?
 
-Position Size = Risk Amount ÷ (Stop Distance in Points × Value Per Point). This gives you the number of contracts to trade.
+Position Size is calculated by dividing your Risk Amount by the product of your Stop Distance in Points and Value Per Point. This formula gives you the exact number of contracts to trade.
 
 ### What is the value per point?
 
-Value Per Point = Tick Value ÷ Tick Size. For ES: $12.50 ÷ 0.25 = $50.00 per point.
+The value per point is calculated by dividing the tick value by the tick size. For ES, $12.50 divided by 0.25 equals $50.00 per point.
 
 ### Can I use this calculator for any futures market?
 
-Yes — just enter the correct tick size and tick value for the contract you're trading (e.g., NQ, CL, GC, etc.).
+Yes — just enter the correct tick size and tick value for the specific contract you are trading (e.g., NQ, CL, GC) into the calculator.
 
 ---
 

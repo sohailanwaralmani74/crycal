@@ -125,15 +125,15 @@ faq:
   - question: "How many square feet are in a box of hardwood flooring?"
     answer: "A standard carton of solid or engineered hardwood flooring typically contains between 18 and 25 square feet, depending on board length and plank width."
   - question: "Why is a 10% to 15% waste factor mandatory for hardwood flooring?"
-    answer: "Hardwood boards contain natural imperfections, knot cutouts, and end-trim scrap. In addition, installer staggered joint rules require trimming plank ends."
+    answer: "A 10% to 15% waste factor is mandatory for hardwood flooring because boards contain natural imperfections, knot cutouts, and end-trim scrap. In addition, staggered joint rules require trimming plank ends."
   - question: "What is the difference in installation cost between solid and engineered hardwood?"
-    answer: "Solid hardwood is nail-down or staple-down ($4.00 to $8.00/sq ft labor). Engineered hardwood can be glued, floated, or stapled ($3.00 to $6.00/sq ft labor)."
+    answer: "The difference in installation cost between solid and engineered hardwood comes down to method: solid hardwood is nail-down or staple-down at $4.00 to $8.00/sq ft, while engineered hardwood can be glued, floated, or stapled at $3.00 to $6.00/sq ft."
   - question: "Can I install solid hardwood in basements or over concrete?"
-    answer: "Solid hardwood should NOT be installed below grade or directly over concrete slabs due to moisture expansion. Engineered hardwood or floating floor systems are required."
+    answer: "No — solid hardwood should NOT be installed in basements or directly over concrete slabs due to moisture expansion. Engineered hardwood or floating floor systems are required in those environments."
   - question: "How many extra cartons of hardwood should I store?"
-    answer: "Always order and save 1 to 2 extra unopened cartons for future plank replacement in case of water damage, scratches, or room modifications."
+    answer: "You should always order and save 1 to 2 extra unopened cartons of hardwood for future plank replacement in case of water damage, scratches, or room modifications."
   - question: "How do I calculate hardwood cost for multi-room projects?"
-    answer: "Measure each room separately, sum total net square footage, apply a global 10% to 12% waste factor, and divide by carton coverage."
+    answer: "To calculate hardwood cost for multi-room projects, measure each room separately, sum the total net square footage, apply a global 10% to 12% waste factor, and divide by carton coverage."
 ---
 
 # Hardwood Flooring Calculator - Calculate Tiles, Planks & Material Need
@@ -201,21 +201,21 @@ A standard carton of solid or engineered hardwood flooring typically contains be
 
 ### Why is a 10% to 15% waste factor mandatory for hardwood flooring?
 
-Hardwood boards contain natural imperfections, knot cutouts, and end-trim scrap. In addition, installer staggered joint rules require trimming plank ends.
+A 10% to 15% waste factor is mandatory for hardwood flooring because boards contain natural imperfections, knot cutouts, and end-trim scrap. In addition, staggered joint rules require trimming plank ends.
 
 ### What is the difference in installation cost between solid and engineered hardwood?
 
-Solid hardwood is nail-down or staple-down ($4.00 to $8.00/sq ft labor). Engineered hardwood can be glued, floated, or stapled ($3.00 to $6.00/sq ft labor).
+The difference in installation cost between solid and engineered hardwood comes down to method: solid hardwood is nail-down or staple-down at $4.00 to $8.00/sq ft, while engineered hardwood can be glued, floated, or stapled at $3.00 to $6.00/sq ft.
 
 ### Can I install solid hardwood in basements or over concrete?
 
-Solid hardwood should NOT be installed below grade or directly over concrete slabs due to moisture expansion. Engineered hardwood or floating floor systems are required.
+No — solid hardwood should NOT be installed in basements or directly over concrete slabs due to moisture expansion. Engineered hardwood or floating floor systems are required in those environments.
 
 ### How many extra cartons of hardwood should I store?
 
-Always order and save 1 to 2 extra unopened cartons for future plank replacement in case of water damage, scratches, or room modifications.
+You should always order and save 1 to 2 extra unopened cartons of hardwood for future plank replacement in case of water damage, scratches, or room modifications.
 
 ### How do I calculate hardwood cost for multi-room projects?
 
-Measure each room separately, sum total net square footage, apply a global 10% to 12% waste factor, and divide by carton coverage.
+To calculate hardwood cost for multi-room projects, measure each room separately, sum the total net square footage, apply a global 10% to 12% waste factor, and divide by carton coverage.
 

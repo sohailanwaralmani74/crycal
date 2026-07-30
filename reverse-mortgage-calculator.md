@@ -141,13 +141,13 @@ faq:
   - question: "What is a reverse mortgage calculator?"
     answer: "A reverse mortgage calculator estimates how much a senior homeowner can borrow against their home equity based on their age, home value, and interest rate."
   - question: "How does a reverse mortgage calculator work?"
-    answer: "It uses the principal limit factor based on the borrower's age and interest rate to calculate the maximum loan amount available. The result is then adjusted for existing mortgage balances and fees."
+    answer: "A reverse mortgage calculator uses a principal limit factor based on the borrower's age and interest rate to determine the maximum loan amount available. This initial result is then adjusted for existing mortgage balances and upfront fees."
   - question: "Who is eligible for a reverse mortgage?"
     answer: "Reverse mortgages are available to homeowners aged 62 and older who have significant equity in their primary residence."
   - question: "What is the difference between a reverse mortgage and a home equity loan?"
-    answer: "A reverse mortgage does not require monthly payments. The loan is repaid when the borrower sells the home, moves out, or passes away. A home equity loan requires regular monthly payments."
+    answer: "Unlike a home equity loan that requires regular monthly payments, a reverse mortgage does not require monthly payments. The reverse mortgage loan is repaid when the borrower sells the home, moves out, or passes away."
   - question: "How is the loan amount determined?"
-    answer: "The maximum loan amount is based on the borrower's age, interest rate, and home value. The older the borrower and the lower the interest rate, the more they can borrow."
+    answer: "The maximum reverse mortgage loan amount is based on the borrower's age, interest rate, and home value. The older the borrower and the lower the interest rate, the more they can borrow."
 
 ---
 
@@ -215,7 +215,7 @@ A reverse mortgage calculator estimates how much a senior homeowner can borrow a
 
 ### How does a reverse mortgage calculator work?
 
-It uses the principal limit factor based on the borrower's age and interest rate to calculate the maximum loan amount available.
+A reverse mortgage calculator uses a principal limit factor based on the borrower's age and interest rate to determine the maximum loan amount available. This initial result is then adjusted for existing mortgage balances and upfront fees.
 
 ### Who is eligible for a reverse mortgage?
 
@@ -223,9 +223,9 @@ Reverse mortgages are available to homeowners aged 62 and older who have signifi
 
 ### What is the difference between a reverse mortgage and a home equity loan?
 
-A reverse mortgage does not require monthly payments. The loan is repaid when the borrower sells the home, moves out, or passes away. A home equity loan requires regular monthly payments.
+Unlike a home equity loan that requires regular monthly payments, a reverse mortgage does not require monthly payments. The reverse mortgage loan is repaid when the borrower sells the home, moves out, or passes away.
 
 ### How is the loan amount determined?
 
-The maximum loan amount is based on the borrower's age, interest rate, and home value. The older the borrower and the lower the interest rate, the more they can borrow.
+The maximum reverse mortgage loan amount is based on the borrower's age, interest rate, and home value. The older the borrower and the lower the interest rate, the more they can borrow.
 

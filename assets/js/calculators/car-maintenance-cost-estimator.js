@@ -7,15 +7,14 @@
     'mid-tier': 1.00,
     'luxury': 1.45,
     'german-luxury': 1.95
-  };
-
+  }
   function getInputs() {
     return {
       vehicleAge: parseFloat(document.getElementById('input_vehicleAge').value) || 0,
       currentOdometer: parseFloat(document.getElementById('input_currentOdometer').value) || 0,
       annualMiles: parseFloat(document.getElementById('input_annualMiles').value) || 12000,
       brandCategory: document.getElementById('input_brandCategory').value || 'mid-tier'
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -74,7 +73,7 @@
       maintenancePerMile: maintenancePerMile,
       fiveYearMaintenanceCost: fiveYearTotal,
       brandFactor: brandFactor
-    };
+    }
   }
 
   function updateTool() {
@@ -152,7 +151,7 @@
             }
           }
         }
-      };
+      }
     } else if (tab === 'breakdown') {
       var annual = result.estimatedAnnualMaintenance;
       return {
@@ -178,7 +177,7 @@
             title: { display: true, text: 'Maintenance Cost Category Allocation', font: { size: 14 }, color: '#e8edf0' }
           }
         }
-      };
+      }
     }
     return null;
   }
@@ -189,9 +188,12 @@
   }
 
   function resetTool() {
-    document.getElementById('input_vehicleAge').value = 4;
-    document.getElementById('input_currentOdometer').value = 48000;
-    document.getElementById('input_annualMiles').value = 12000;
+    var _el_input_vehicleAge = document.getElementById('input_vehicleAge');
+    _el_input_vehicleAge.value = (_el_input_vehicleAge.dataset && _el_input_vehicleAge.dataset.default !== undefined) ? _el_input_vehicleAge.dataset.default : (_el_input_vehicleAge.getAttribute('value') || '');
+    var _el_input_currentOdometer = document.getElementById('input_currentOdometer');
+    _el_input_currentOdometer.value = (_el_input_currentOdometer.dataset && _el_input_currentOdometer.dataset.default !== undefined) ? _el_input_currentOdometer.dataset.default : (_el_input_currentOdometer.getAttribute('value') || '');
+    var _el_input_annualMiles = document.getElementById('input_annualMiles');
+    _el_input_annualMiles.value = (_el_input_annualMiles.dataset && _el_input_annualMiles.dataset.default !== undefined) ? _el_input_annualMiles.dataset.default : (_el_input_annualMiles.getAttribute('value') || '');
     document.getElementById('input_brandCategory').value = 'mid-tier';
     updateTool();
   }
@@ -206,9 +208,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

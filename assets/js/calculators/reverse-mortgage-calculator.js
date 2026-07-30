@@ -22,7 +22,7 @@
       paymentOption: paymentOption,
       termYears: termYears,
       propertyType: propertyType
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -161,7 +161,7 @@
       option: option,
       factor: factor,
       error: null
-    };
+    }
   }
 
   // ── Main Update ──
@@ -228,7 +228,7 @@
       principalLimit: result.principalLimit,
       initialFees: result.initialFees,
       homeValue: inputs.homeValue
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -291,7 +291,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -309,12 +309,17 @@
 
   // ── Reset Tool ──
   function resetTool() {
-    document.getElementById('input_borrowerAge').value = 65;
-    document.getElementById('input_homeValue').value = 300000;
-    document.getElementById('input_loanBalance').value = 0;
-    document.getElementById('input_interestRate').value = 7.0;
+    var _el_input_borrowerAge = document.getElementById('input_borrowerAge');
+    _el_input_borrowerAge.value = (_el_input_borrowerAge.dataset && _el_input_borrowerAge.dataset.default !== undefined) ? _el_input_borrowerAge.dataset.default : (_el_input_borrowerAge.getAttribute('value') || '');
+    var _el_input_homeValue = document.getElementById('input_homeValue');
+    _el_input_homeValue.value = (_el_input_homeValue.dataset && _el_input_homeValue.dataset.default !== undefined) ? _el_input_homeValue.dataset.default : (_el_input_homeValue.getAttribute('value') || '');
+    var _el_input_loanBalance = document.getElementById('input_loanBalance');
+    _el_input_loanBalance.value = (_el_input_loanBalance.dataset && _el_input_loanBalance.dataset.default !== undefined) ? _el_input_loanBalance.dataset.default : (_el_input_loanBalance.getAttribute('value') || '');
+    var _el_input_interestRate = document.getElementById('input_interestRate');
+    _el_input_interestRate.value = (_el_input_interestRate.dataset && _el_input_interestRate.dataset.default !== undefined) ? _el_input_interestRate.dataset.default : (_el_input_interestRate.getAttribute('value') || '');
     document.getElementById('input_paymentOption').value = 'lump-sum';
-    document.getElementById('input_termYears').value = 10;
+    var _el_input_termYears = document.getElementById('input_termYears');
+    _el_input_termYears.value = (_el_input_termYears.dataset && _el_input_termYears.dataset.default !== undefined) ? _el_input_termYears.dataset.default : (_el_input_termYears.getAttribute('value') || '');
     document.getElementById('input_propertyType').value = 'single-family';
     updateTool();
   }
@@ -331,9 +336,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

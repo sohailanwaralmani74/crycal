@@ -111,13 +111,13 @@ faq:
   - question: "What is a 6/12 roof pitch in degrees?"
     answer: "A 6/12 roof pitch (6 inches of rise per 12 inches of run) equals an angle of 26.57 degrees with a slope of 50% and a rafter multiplier of 1.118."
   - question: "How do you calculate roof pitch angle in degrees?"
-    answer: "The formula is: Pitch Angle (Degrees) = arctan(Rise / Run) * (180 / π). For a 6/12 pitch: arctan(6/12) = 26.57°."
+    answer: "Calculate roof pitch angle in degrees using the formula: Pitch Angle = arctan(Rise / Run) × (180 / π). For example, a 6/12 pitch equals 26.57°."
   - question: "What is the rafter multiplier for a 8/12 roof pitch?"
     answer: "The rafter multiplier (pitch factor) for an 8/12 pitch is 1.202. Multiply your flat footprint area by 1.202 to get the actual sloped roof surface area."
   - question: "What is considered a low-slope vs steep-slope roof?"
     answer: "Low-slope roofs have a pitch less than 4/12 (under 18.43°). Steep-slope roofs have a pitch of 4/12 or greater, requiring shingles or metal panels."
   - question: "How do you measure roof pitch from inside the attic?"
-    answer: "Place a 12-inch level horizontally against the underside of an exposed roof rafter. Measure vertically from the 12-inch mark on the level up to the bottom edge of the rafter."
+    answer: "To measure roof pitch from inside the attic, place a 12-inch level horizontally against the underside of an exposed roof rafter, then measure vertically from the 12-inch mark on the level up to the bottom edge of the rafter."
   - question: "What is a 12/12 roof pitch?"
     answer: "A 12/12 pitch has 12 inches of vertical rise for every 12 inches of horizontal run, resulting in a 45-degree angle and a rafter multiplier of 1.414."
   - question: "Why is the rafter multiplier important for shingle estimates?"
@@ -207,7 +207,7 @@ A 6/12 roof pitch (6 inches of rise per 12 inches of run) equals an angle of 26.
 
 ### How do you calculate roof pitch angle in degrees?
 
-The formula is: Pitch Angle (Degrees) = arctan(Rise / Run) * (180 / π). For a 6/12 pitch: arctan(6/12) = 26.57°.
+Calculate roof pitch angle in degrees using the formula: Pitch Angle = arctan(Rise / Run) × (180 / π). For example, a 6/12 pitch equals 26.57°.
 
 ### What is the rafter multiplier for a 8/12 roof pitch?
 
@@ -219,7 +219,7 @@ Low-slope roofs have a pitch less than 4/12 (under 18.43°). Steep-slope roofs h
 
 ### How do you measure roof pitch from inside the attic?
 
-Place a 12-inch level horizontally against the underside of an exposed roof rafter. Measure vertically from the 12-inch mark on the level up to the bottom edge of the rafter.
+To measure roof pitch from inside the attic, place a 12-inch level horizontally against the underside of an exposed roof rafter, then measure vertically from the 12-inch mark on the level up to the bottom edge of the rafter.
 
 ### What is a 12/12 roof pitch?
 

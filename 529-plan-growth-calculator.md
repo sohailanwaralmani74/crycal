@@ -124,7 +124,7 @@ faq:
   - question: "How is 529 plan growth calculated?"
     answer: "529 plan growth is calculated using compound interest on the current balance plus the future value of ongoing monthly contributions, similar to a standard investment growth projection."
   - question: "Do 529 plan contributions reduce federal taxes?"
-    answer: "No, 529 contributions are not deductible on federal taxes. However, many states offer a state income tax deduction or credit for contributions to their own 529 plan."
+    answer: "529 plan contributions are not deductible on federal taxes, but many states offer a state income tax deduction or credit for contributions to their own 529 plan."
   - question: "Are 529 plan withdrawals taxed?"
     answer: "Withdrawals are tax-free at the federal level (and often state level) as long as they're used for qualified education expenses like tuition, fees, room and board, and books."
 ---
@@ -207,7 +207,7 @@ A 529 plan is a tax-advantaged savings account designed to help families save fo
 
 ### Do 529 plan contributions reduce federal taxes?
 
-No, 529 contributions are not deductible on federal taxes. However, many states offer a state income tax deduction or credit for contributions to their own 529 plan.
+529 plan contributions are not deductible on federal taxes, but many states offer a state income tax deduction or credit for contributions to their own 529 plan.
 
 ### Are 529 plan withdrawals taxed?
 

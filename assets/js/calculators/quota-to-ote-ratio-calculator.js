@@ -37,7 +37,7 @@
     return {
       quota: parseFloat(document.getElementById('input_annual_quota')?.value) || 0,
       ote: parseFloat(document.getElementById('input_annual_ote')?.value) || 0
-    };
+    }
   }
 
   function updateTool() {

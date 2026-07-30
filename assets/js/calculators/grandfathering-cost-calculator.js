@@ -10,7 +10,7 @@
       newPrice: parseFloat(document.getElementById('input_newPrice').value) || 0,
       grandfatheringDurationMonths: parseFloat(document.getElementById('input_grandfatheringDurationMonths').value) || 0,
       estimatedChurnIfPriceRaised: (parseFloat(document.getElementById('input_estimatedChurnIfPriceRaised').value) || 0) / 100
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -76,7 +76,7 @@
       netMRRDeltaFromHike: netMRRDeltaFromHike,
       monthLabels: monthLabels,
       cumulativeTimeline: cumulativeTimeline
-    };
+    }
   }
 
   function updateTool() {

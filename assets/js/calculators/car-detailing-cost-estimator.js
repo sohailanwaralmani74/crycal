@@ -9,7 +9,7 @@
       addon_paint_correction: document.getElementById('input_addon_paint_correction').value || "none",
       addon_headlight: document.getElementById('input_addon_headlight').value || "no",
       addon_engine_bay: document.getElementById('input_addon_engine_bay').value || "no"
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -83,7 +83,7 @@
       addons_total: addons_total,
       est_hours: est_hours,
       package_label: inp.package_tier.toUpperCase()
-    };
+    }
   }
 
   function updateTool() {
@@ -99,8 +99,7 @@
     var chartData = {
       labels: ['Adjusted Base Package', 'Add-on Treatments', 'Total Detail Price'],
       values: [parseFloat(res.base_adjusted.toFixed(2)), parseFloat(res.addons_total.toFixed(2)), parseFloat(res.total_cost.toFixed(2))]
-    };
-
+    }
     updateCharts(chartData);
 
     if (typeof window.logHistory === 'function') {

@@ -126,17 +126,17 @@ howto:
 
 faq:
   - question: "What is a T-molding floor transition?"
-    answer: "A T-molding is a T-shaped transition strip used to connect two floors of equal height (such as wood-to-tile or laminate-to-laminate) while leaving a required 1/4\" to 3/8\" expansion gap between the floating floors."
+    answer: "A T-molding floor transition is a T-shaped strip used to connect two floors of equal height, such as wood-to-tile, while leaving a required expansion gap between floating floors."
   - question: "What is the difference between a T-molding and a reducer?"
-    answer: "A T-molding connects two floors that are flush in height. A reducer features a sloped ramp design to smoothly bridge floors of unequal heights (e.g., 1/2\" hardwood down to 1/8\" sheet vinyl)."
+    answer: "A T-molding connects two floors that are flush in height, while a reducer features a sloped ramp design to smoothly bridge floors of unequal heights."
   - question: "What is an end cap / square nose transition?"
-    answer: "An end cap (or threshold molding) has a square vertical edge designed to terminate a floor against sliding glass door tracks, fireplace hearths, or exterior doorway sills."
+    answer: "An end cap or square nose transition has a square vertical edge designed to terminate a floor against sliding glass door tracks, fireplace hearths, or exterior doorway sills."
   - question: "How wide is a standard doorway transition strip?"
-    answer: "Standard residential doorways are 30 to 36 inches (2.5 to 3 feet) wide. Buying a 72-inch molding stick allows you to yield two standard 36-inch doorway pieces from a single stick."
+    answer: "Standard residential doorway transition strips cover 30 to 36 inches in width. Purchasing a 72-inch molding stick yields two standard 36-inch doorway pieces from a single stick."
   - question: "Why do floating floors require transition moldings?"
-    answer: "Floating floors (laminate, LVP, engineered wood) expand and contract with humidity. Transition moldings cover the expansion gap while allowing each room's floor to move independently without buckling."
+    answer: "Floating floors require transition moldings because materials like laminate and engineered wood expand and contract with humidity. Transition moldings cover the necessary expansion gap, allowing each room's floor to move independently without buckling."
   - question: "How do snap-in metal track transitions work?"
-    answer: "An aluminum U-channel track is screwed or glued to the subfloor in the expansion gap. The vinyl or wood molding top cap snaps firmly into the track, hiding fasteners."
+    answer: "Snap-in metal track transitions work by securing an aluminum U-channel track to the subfloor within the expansion gap. The molding top cap then snaps firmly into this track, hiding all fasteners."
 ---
 
 # Floor Transition Strip Calculator - Calculate Tiles, Planks & Material Need
@@ -189,25 +189,25 @@ $$\text{Metal Mounting Track Feet} = \text{Net Seam Distance (ft)}$$
 
 ### What is a T-molding floor transition?
 
-A T-molding is a T-shaped transition strip used to connect two floors of equal height (such as wood-to-tile or laminate-to-laminate) while leaving a required 1/4" to 3/8" expansion gap between the floating floors.
+A T-molding floor transition is a T-shaped strip used to connect two floors of equal height, such as wood-to-tile, while leaving a required expansion gap between floating floors.
 
 ### What is the difference between a T-molding and a reducer?
 
-A T-molding connects two floors that are flush in height. A reducer features a sloped ramp design to smoothly bridge floors of unequal heights (e.g., 1/2" hardwood down to 1/8" sheet vinyl).
+A T-molding connects two floors that are flush in height, while a reducer features a sloped ramp design to smoothly bridge floors of unequal heights.
 
 ### What is an end cap / square nose transition?
 
-An end cap (or threshold molding) has a square vertical edge designed to terminate a floor against sliding glass door tracks, fireplace hearths, or exterior doorway sills.
+An end cap or square nose transition has a square vertical edge designed to terminate a floor against sliding glass door tracks, fireplace hearths, or exterior doorway sills.
 
 ### How wide is a standard doorway transition strip?
 
-Standard residential doorways are 30 to 36 inches (2.5 to 3 feet) wide. Buying a 72-inch molding stick allows you to yield two standard 36-inch doorway pieces from a single stick.
+Standard residential doorway transition strips cover 30 to 36 inches in width. Purchasing a 72-inch molding stick yields two standard 36-inch doorway pieces from a single stick.
 
 ### Why do floating floors require transition moldings?
 
-Floating floors (laminate, LVP, engineered wood) expand and contract with humidity. Transition moldings cover the expansion gap while allowing each room's floor to move independently without buckling.
+Floating floors require transition moldings because materials like laminate and engineered wood expand and contract with humidity. Transition moldings cover the necessary expansion gap, allowing each room's floor to move independently without buckling.
 
 ### How do snap-in metal track transitions work?
 
-An aluminum U-channel track is screwed or glued to the subfloor in the expansion gap. The vinyl or wood molding top cap snaps firmly into the track, hiding fasteners.
+Snap-in metal track transitions work by securing an aluminum U-channel track to the subfloor within the expansion gap. The molding top cap then snaps firmly into this track, hiding all fasteners.
 

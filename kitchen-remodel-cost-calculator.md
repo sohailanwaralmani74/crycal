@@ -149,12 +149,19 @@ howto:
 
 faq:
   - question: "How much does a full kitchen remodel cost?"
+    answer: "Nationally, the average mid-range kitchen remodel costs approximately $35,000 to $45,000. Minor cosmetic updates average $15,000 to $25,000, while high-end luxury kitchens range from $65,000 to $120,000+."
   - question: "What is the 30/20/20/30 rule for kitchen remodeling?"
+    answer: "The 30/20/20/30 rule allocates 30% of your total budget to cabinetry and hardware, 20% to countertops and backsplash, 20% to appliances and fixtures, and 30% to contractor labor and trade installation."
   - question: "Which component is the most expensive in a kitchen remodel?"
+    answer: "Kitchen cabinetry is consistently the most expensive material purchase, accounting for 30% to 35% of total project costs."
   - question: "How much does labor cost in a kitchen renovation?"
+    answer: "Contractor and skilled trade labor (carpenters, plumbers, electricians, tile setters) typically accounts for 25% to 35% of total renovation expenditures."
   - question: "Can I save money by refacing cabinets instead of replacing them?"
+    answer: "Cabinet refacing (replacing doors and drawer fronts while retaining original cabinet boxes) saves 30% to 50% compared to brand new custom cabinetry."
   - question: "What percentage of home value should I spend on a kitchen remodel?"
+    answer: "Real estate experts recommend spending 5% to 15% of your home's total appraised market value on a kitchen remodel to maximize equity return without over-improving."
   - question: "Is my personal data saved when using this calculator?"
+    answer: "Your personal data is not saved when using this calculator, as all calculations run locally in your web browser."
 ---
 
 # Kitchen Remodel Cost Calculator - Calculate Project Timeline & Budget
@@ -241,9 +248,13 @@ Contractor and skilled trade labor (carpenters, plumbers, electricians, tile set
 
 ### Can I save money by refacing cabinets instead of replacing them?
 
-Yes. Cabinet refacing (replacing doors and drawer fronts while retaining original cabinet boxes) saves 30% to 50% compared to brand new custom cabinetry.
+Cabinet refacing (replacing doors and drawer fronts while retaining original cabinet boxes) saves 30% to 50% compared to brand new custom cabinetry.
 
 ### What percentage of home value should I spend on a kitchen remodel?
 
 Real estate experts recommend spending 5% to 15% of your home's total appraised market value on a kitchen remodel to maximize equity return without over-improving.
+
+### Is my personal data saved when using this calculator?
+
+Your personal data is not saved when using this calculator, as all calculations run locally in your web browser.
 

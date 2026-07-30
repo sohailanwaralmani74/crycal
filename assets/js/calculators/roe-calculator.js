@@ -14,7 +14,7 @@
       netIncome: netIncome,
       shareholdersEquity: shareholdersEquity,
       averageEquity: averageEquity
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -99,8 +99,7 @@
       'Net Income': netIncome,
       'Shareholders\' Equity': equityUsed,
       'ROE': roe * 100
-    };
-
+    }
     return {
       roe: roe,
       performance: performance,
@@ -109,7 +108,7 @@
       netIncome: netIncome,
       equityUsed: equityUsed,
       error: null
-    };
+    }
   }
 
   // ── Main Update ──
@@ -157,7 +156,7 @@
       roe: result.roe,
       netIncome: result.netIncome,
       equityUsed: result.equityUsed
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -248,7 +247,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'comparison') {
@@ -281,7 +280,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -299,9 +298,12 @@
 
   // ── Reset Tool ──
   function resetTool() {
-    document.getElementById('input_netIncome').value = 500000;
-    document.getElementById('input_shareholdersEquity').value = 2500000;
-    document.getElementById('input_averageEquity').value = 0;
+    var _el_input_netIncome = document.getElementById('input_netIncome');
+    _el_input_netIncome.value = (_el_input_netIncome.dataset && _el_input_netIncome.dataset.default !== undefined) ? _el_input_netIncome.dataset.default : (_el_input_netIncome.getAttribute('value') || '');
+    var _el_input_shareholdersEquity = document.getElementById('input_shareholdersEquity');
+    _el_input_shareholdersEquity.value = (_el_input_shareholdersEquity.dataset && _el_input_shareholdersEquity.dataset.default !== undefined) ? _el_input_shareholdersEquity.dataset.default : (_el_input_shareholdersEquity.getAttribute('value') || '');
+    var _el_input_averageEquity = document.getElementById('input_averageEquity');
+    _el_input_averageEquity.value = (_el_input_averageEquity.dataset && _el_input_averageEquity.dataset.default !== undefined) ? _el_input_averageEquity.dataset.default : (_el_input_averageEquity.getAttribute('value') || '');
     updateTool();
   }
 
@@ -317,9 +319,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

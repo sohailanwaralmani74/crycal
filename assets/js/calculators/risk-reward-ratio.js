@@ -19,7 +19,7 @@
       positionSize: parseFloat(document.getElementById('input_positionSize').value) || 0,
       perUnitValue: parseFloat(document.getElementById('input_perUnitValue').value) || 0,
       compoundingFrequency: document.getElementById('input_compoundingFrequency').value || 'monthly'
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -110,7 +110,7 @@
         riskRewardRatio: '1:' + riskRewardRatio.toFixed(2),
         riskAmount: riskAmount,
         rewardAmount: rewardAmount
-      };
+      }
       window.logHistory(snapshot);
     }
     if (typeof window.renderPresetDropdown === 'function') {
@@ -180,7 +180,7 @@
               }
             }
           }
-        };
+        }
       } else {
         // Show price levels
         var minPrice = Math.min(data.stopLossPrice, data.entryPrice, data.takeProfitPrice, data.requiredTP12);
@@ -224,7 +224,7 @@
               }
             }
           }
-        };
+        }
       }
     }
 
@@ -239,13 +239,20 @@
 
   // ── Reset Tool ──
   function resetTool() {
-    document.getElementById('input_entryPrice').value = 100.00;
-    document.getElementById('input_stopLossPrice').value = 95.00;
-    document.getElementById('input_takeProfitPrice').value = 110.00;
-    document.getElementById('input_accountBalance').value = 10000;
-    document.getElementById('input_riskPercent').value = 1.0;
-    document.getElementById('input_positionSize').value = 100;
-    document.getElementById('input_perUnitValue').value = 1;
+    var _el_input_entryPrice = document.getElementById('input_entryPrice');
+    _el_input_entryPrice.value = (_el_input_entryPrice.dataset && _el_input_entryPrice.dataset.default !== undefined) ? _el_input_entryPrice.dataset.default : (_el_input_entryPrice.getAttribute('value') || '');
+    var _el_input_stopLossPrice = document.getElementById('input_stopLossPrice');
+    _el_input_stopLossPrice.value = (_el_input_stopLossPrice.dataset && _el_input_stopLossPrice.dataset.default !== undefined) ? _el_input_stopLossPrice.dataset.default : (_el_input_stopLossPrice.getAttribute('value') || '');
+    var _el_input_takeProfitPrice = document.getElementById('input_takeProfitPrice');
+    _el_input_takeProfitPrice.value = (_el_input_takeProfitPrice.dataset && _el_input_takeProfitPrice.dataset.default !== undefined) ? _el_input_takeProfitPrice.dataset.default : (_el_input_takeProfitPrice.getAttribute('value') || '');
+    var _el_input_accountBalance = document.getElementById('input_accountBalance');
+    _el_input_accountBalance.value = (_el_input_accountBalance.dataset && _el_input_accountBalance.dataset.default !== undefined) ? _el_input_accountBalance.dataset.default : (_el_input_accountBalance.getAttribute('value') || '');
+    var _el_input_riskPercent = document.getElementById('input_riskPercent');
+    _el_input_riskPercent.value = (_el_input_riskPercent.dataset && _el_input_riskPercent.dataset.default !== undefined) ? _el_input_riskPercent.dataset.default : (_el_input_riskPercent.getAttribute('value') || '');
+    var _el_input_positionSize = document.getElementById('input_positionSize');
+    _el_input_positionSize.value = (_el_input_positionSize.dataset && _el_input_positionSize.dataset.default !== undefined) ? _el_input_positionSize.dataset.default : (_el_input_positionSize.getAttribute('value') || '');
+    var _el_input_perUnitValue = document.getElementById('input_perUnitValue');
+    _el_input_perUnitValue.value = (_el_input_perUnitValue.dataset && _el_input_perUnitValue.dataset.default !== undefined) ? _el_input_perUnitValue.dataset.default : (_el_input_perUnitValue.getAttribute('value') || '');
     document.getElementById('input_compoundingFrequency').value = 'monthly';
     if (typeof window.updateTool === 'function') window.updateTool();
   }
@@ -262,9 +269,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
   });
 
 })();

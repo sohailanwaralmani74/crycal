@@ -17,7 +17,7 @@
       catchUp60to63: catchUp60to63,
       employerContributionPercent: employerContributionPercent / 100,
       overallLimit: overallLimit
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -86,7 +86,7 @@
       totalContribution: employeeDeferral + actualEmployerContribution,
       remainingRoom: Math.max(0, remainingRoom),
       error: null
-    };
+    }
   }
 
   function updateTool() {
@@ -119,13 +119,20 @@
   }
 
   function resetTool() {
-    document.getElementById('input_netSelfEmploymentIncome').value = 150000;
-    document.getElementById('input_age').value = 45;
-    document.getElementById('input_employeeDeferralLimit').value = 23500;
-    document.getElementById('input_catchUp50').value = 7500;
-    document.getElementById('input_catchUp60to63').value = 11250;
-    document.getElementById('input_employerContributionPercent').value = 20;
-    document.getElementById('input_overallLimit').value = 70000;
+    var _el_input_netSelfEmploymentIncome = document.getElementById('input_netSelfEmploymentIncome');
+    _el_input_netSelfEmploymentIncome.value = (_el_input_netSelfEmploymentIncome.dataset && _el_input_netSelfEmploymentIncome.dataset.default !== undefined) ? _el_input_netSelfEmploymentIncome.dataset.default : (_el_input_netSelfEmploymentIncome.getAttribute('value') || '');
+    var _el_input_age = document.getElementById('input_age');
+    _el_input_age.value = (_el_input_age.dataset && _el_input_age.dataset.default !== undefined) ? _el_input_age.dataset.default : (_el_input_age.getAttribute('value') || '');
+    var _el_input_employeeDeferralLimit = document.getElementById('input_employeeDeferralLimit');
+    _el_input_employeeDeferralLimit.value = (_el_input_employeeDeferralLimit.dataset && _el_input_employeeDeferralLimit.dataset.default !== undefined) ? _el_input_employeeDeferralLimit.dataset.default : (_el_input_employeeDeferralLimit.getAttribute('value') || '');
+    var _el_input_catchUp50 = document.getElementById('input_catchUp50');
+    _el_input_catchUp50.value = (_el_input_catchUp50.dataset && _el_input_catchUp50.dataset.default !== undefined) ? _el_input_catchUp50.dataset.default : (_el_input_catchUp50.getAttribute('value') || '');
+    var _el_input_catchUp60to63 = document.getElementById('input_catchUp60to63');
+    _el_input_catchUp60to63.value = (_el_input_catchUp60to63.dataset && _el_input_catchUp60to63.dataset.default !== undefined) ? _el_input_catchUp60to63.dataset.default : (_el_input_catchUp60to63.getAttribute('value') || '');
+    var _el_input_employerContributionPercent = document.getElementById('input_employerContributionPercent');
+    _el_input_employerContributionPercent.value = (_el_input_employerContributionPercent.dataset && _el_input_employerContributionPercent.dataset.default !== undefined) ? _el_input_employerContributionPercent.dataset.default : (_el_input_employerContributionPercent.getAttribute('value') || '');
+    var _el_input_overallLimit = document.getElementById('input_overallLimit');
+    _el_input_overallLimit.value = (_el_input_overallLimit.dataset && _el_input_overallLimit.dataset.default !== undefined) ? _el_input_overallLimit.dataset.default : (_el_input_overallLimit.getAttribute('value') || '');
     updateTool();
   }
 
@@ -138,9 +145,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

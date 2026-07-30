@@ -16,7 +16,7 @@
       annualReturn: parseFloat(document.getElementById('input_annualReturn').value) || 0,
       investmentPeriod: parseFloat(document.getElementById('input_investmentPeriod').value) || 0,
       compoundingFrequency: document.getElementById('input_compoundingFrequency').value
-    };
+    }
   }
 
   // ── Get compounding periods per year ──
@@ -27,7 +27,7 @@
       'quarterly': 4,
       'monthly': 12,
       'daily': 365
-    };
+    }
     return map[frequency] || 12;
   }
 
@@ -92,7 +92,7 @@
       totalReturns: totalReturns,
       cagr: cagr,
       yearData: yearData
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -132,7 +132,7 @@
         annualReturn: inputs.annualReturn,
         investmentPeriod: inputs.investmentPeriod,
         compoundingFrequency: inputs.compoundingFrequency
-      };
+      }
       window.logHistory(inputSnapshot);
     }
 
@@ -220,7 +220,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'breakdown') {
@@ -249,7 +249,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'contributions') {
@@ -301,7 +301,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -344,11 +344,10 @@
       }
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') {
-        window.updateTool();
-      }
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') {
+      window.updateTool();
+    }
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

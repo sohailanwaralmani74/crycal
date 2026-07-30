@@ -9,7 +9,7 @@
       current_odometer: parseFloat(document.getElementById('input_current_odometer').value) || 35000,
       driving_habit: parseFloat(document.getElementById('input_driving_habit').value) || 1.0,
       annual_miles: parseFloat(document.getElementById('input_annual_miles').value) || 12000
-    };
+    }
   }
 
   function setOutputText(id, text) {
@@ -39,7 +39,7 @@
       months_remaining: months_remaining,
       miles_per_mm: miles_per_mm,
       life_pct: life_pct
-    };
+    }
   }
 
   function updateTool() {
@@ -55,8 +55,7 @@
     var chartData = {
       labels: ['0 mi (New)', 'Current (' + Math.round(inp.current_odometer) + ' mi)', 'Target Replace (' + Math.round(res.replace_odometer) + ' mi)'],
       values: [inp.new_pad_thickness, inp.current_pad_thickness, inp.replace_threshold]
-    };
-
+    }
     updateCharts(chartData);
 
     if (typeof window.logHistory === 'function') {

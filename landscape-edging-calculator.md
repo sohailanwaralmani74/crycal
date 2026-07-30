@@ -150,7 +150,7 @@ faq:
   - question: "What is the average cost of garden landscape edging per foot?"
     answer: "Standard black plastic coil edging costs $0.60 to $1.20 per linear foot. Metal or aluminum edging costs $2.50 to $4.50 per foot, and stone or concrete pavers range from $3.50 to $8.00+ per foot."
   - question: "Can I install garden edging on slope inclines?"
-    answer: "Yes, flexible plastic and bendable aluminum edging conform well to slope contours. Increase stake frequency on steep inclines to prevent soil movement and washouts."
+    answer: "Flexible plastic and bendable aluminum edging conform well to slope contours. Increase stake frequency on steep inclines to prevent soil movement and washouts."
 ---
 
 # Landscape Edging Calculator - Calculate Mulch, Sod & Material Volume
@@ -236,5 +236,5 @@ Standard black plastic coil edging costs $0.60 to $1.20 per linear foot. Metal o
 
 ### Can I install garden edging on slope inclines?
 
-Yes, flexible plastic and bendable aluminum edging conform well to slope contours. Increase stake frequency on steep inclines to prevent soil movement and washouts.
+Flexible plastic and bendable aluminum edging conform well to slope contours. Increase stake frequency on steep inclines to prevent soil movement and washouts.
 

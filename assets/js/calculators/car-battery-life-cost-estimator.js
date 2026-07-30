@@ -8,7 +8,7 @@
       climate: document.getElementById('input_climate').value || "moderate",
       driving_routine: document.getElementById('input_driving_routine').value || "highway",
       diy_or_shop: document.getElementById('input_diy_or_shop').value || "mechanic"
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -82,7 +82,7 @@
       replacement_cost: replacement_cost,
       status: status,
       monthly_cost: monthly_cost
-    };
+    }
   }
 
   function updateTool() {
@@ -98,8 +98,7 @@
     var chartData = {
       labels: ['Flooded Lead-Acid', 'AGM Battery', 'Gel Cell Battery'],
       values: [130, 230, 260]
-    };
-
+    }
     updateCharts(chartData);
 
     if (typeof window.logHistory === 'function') {

@@ -11,7 +11,7 @@
       annualDepreciation: parseFloat(document.getElementById('input_annualDepreciation').value) || 0,
       annualLoanInterest: parseFloat(document.getElementById('input_annualLoanInterest').value) || 0,
       annualTollsParking: parseFloat(document.getElementById('input_annualTollsParking').value) || 0
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -57,7 +57,7 @@
       tripCost100Miles: tripCost100Miles,
       variableAnnual: variableAnnual,
       fixedAnnual: fixedAnnual
-    };
+    }
   }
 
   function updateTool() {
@@ -138,7 +138,7 @@
             }
           }
         }
-      };
+      }
     } else if (tab === 'fixedVsVariable') {
       return {
         type: 'doughnut',
@@ -161,7 +161,7 @@
             title: { display: true, text: 'Fixed Overhead vs Variable Expense Share', font: { size: 14 }, color: '#e8edf0' }
           }
         }
-      };
+      }
     }
     return null;
   }
@@ -172,13 +172,20 @@
   }
 
   function resetTool() {
-    document.getElementById('input_annualMiles').value = 15000;
-    document.getElementById('input_annualFuelCost').value = 2100;
-    document.getElementById('input_annualInsurance').value = 1500;
-    document.getElementById('input_annualMaintenance').value = 900;
-    document.getElementById('input_annualDepreciation').value = 2500;
-    document.getElementById('input_annualLoanInterest').value = 800;
-    document.getElementById('input_annualTollsParking').value = 400;
+    var _el_input_annualMiles = document.getElementById('input_annualMiles');
+    _el_input_annualMiles.value = (_el_input_annualMiles.dataset && _el_input_annualMiles.dataset.default !== undefined) ? _el_input_annualMiles.dataset.default : (_el_input_annualMiles.getAttribute('value') || '');
+    var _el_input_annualFuelCost = document.getElementById('input_annualFuelCost');
+    _el_input_annualFuelCost.value = (_el_input_annualFuelCost.dataset && _el_input_annualFuelCost.dataset.default !== undefined) ? _el_input_annualFuelCost.dataset.default : (_el_input_annualFuelCost.getAttribute('value') || '');
+    var _el_input_annualInsurance = document.getElementById('input_annualInsurance');
+    _el_input_annualInsurance.value = (_el_input_annualInsurance.dataset && _el_input_annualInsurance.dataset.default !== undefined) ? _el_input_annualInsurance.dataset.default : (_el_input_annualInsurance.getAttribute('value') || '');
+    var _el_input_annualMaintenance = document.getElementById('input_annualMaintenance');
+    _el_input_annualMaintenance.value = (_el_input_annualMaintenance.dataset && _el_input_annualMaintenance.dataset.default !== undefined) ? _el_input_annualMaintenance.dataset.default : (_el_input_annualMaintenance.getAttribute('value') || '');
+    var _el_input_annualDepreciation = document.getElementById('input_annualDepreciation');
+    _el_input_annualDepreciation.value = (_el_input_annualDepreciation.dataset && _el_input_annualDepreciation.dataset.default !== undefined) ? _el_input_annualDepreciation.dataset.default : (_el_input_annualDepreciation.getAttribute('value') || '');
+    var _el_input_annualLoanInterest = document.getElementById('input_annualLoanInterest');
+    _el_input_annualLoanInterest.value = (_el_input_annualLoanInterest.dataset && _el_input_annualLoanInterest.dataset.default !== undefined) ? _el_input_annualLoanInterest.dataset.default : (_el_input_annualLoanInterest.getAttribute('value') || '');
+    var _el_input_annualTollsParking = document.getElementById('input_annualTollsParking');
+    _el_input_annualTollsParking.value = (_el_input_annualTollsParking.dataset && _el_input_annualTollsParking.dataset.default !== undefined) ? _el_input_annualTollsParking.dataset.default : (_el_input_annualTollsParking.getAttribute('value') || '');
     updateTool();
   }
 
@@ -192,9 +199,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

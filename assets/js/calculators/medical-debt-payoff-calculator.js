@@ -8,7 +8,7 @@
       totalMedicalBill: parseFloat(document.getElementById('input_totalMedicalBill').value) || 0,
       hardshipDiscountPercent: parseFloat(document.getElementById('input_hardshipDiscountPercent').value) || 0,
       paymentPlanMonths: parseFloat(document.getElementById('input_paymentPlanMonths').value) || 24
-    };
+    }
   }
 
   function formatCurrencyLocal(amount) {
@@ -58,7 +58,7 @@
       monthlyPmt: monthlyPmt,
       schedule: schedule,
       totalBill: bill
-    };
+    }
   }
 
   function updateTool() {
@@ -121,7 +121,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'timeline') {
@@ -153,7 +153,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;

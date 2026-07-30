@@ -16,7 +16,7 @@
       purchasePrice: purchasePrice,
       daysToMaturity: daysToMaturity,
       calculationType: calculationType
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -102,7 +102,7 @@
       daysToMaturity: days,
       discount: discount,
       error: null
-    };
+    }
   }
 
   // ── Main Update ──
@@ -165,7 +165,7 @@
       showDiscount: result.showDiscount,
       showInvestment: result.showInvestment,
       discount: result.discount
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -259,7 +259,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'growth') {
@@ -341,7 +341,7 @@
             mode: 'index'
           }
         }
-      };
+      }
     }
 
     return null;
@@ -359,9 +359,12 @@
 
   // ── Reset Tool ──
   function resetTool() {
-    document.getElementById('input_faceValue').value = 10000;
-    document.getElementById('input_purchasePrice').value = 9800;
-    document.getElementById('input_daysToMaturity').value = 91;
+    var _el_input_faceValue = document.getElementById('input_faceValue');
+    _el_input_faceValue.value = (_el_input_faceValue.dataset && _el_input_faceValue.dataset.default !== undefined) ? _el_input_faceValue.dataset.default : (_el_input_faceValue.getAttribute('value') || '');
+    var _el_input_purchasePrice = document.getElementById('input_purchasePrice');
+    _el_input_purchasePrice.value = (_el_input_purchasePrice.dataset && _el_input_purchasePrice.dataset.default !== undefined) ? _el_input_purchasePrice.dataset.default : (_el_input_purchasePrice.getAttribute('value') || '');
+    var _el_input_daysToMaturity = document.getElementById('input_daysToMaturity');
+    _el_input_daysToMaturity.value = (_el_input_daysToMaturity.dataset && _el_input_daysToMaturity.dataset.default !== undefined) ? _el_input_daysToMaturity.dataset.default : (_el_input_daysToMaturity.getAttribute('value') || '');
     document.getElementById('input_calculationType').value = 'both';
     updateTool();
   }
@@ -378,9 +381,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

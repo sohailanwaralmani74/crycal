@@ -14,7 +14,7 @@
       brandShare: brandShare,
       performanceShare: performanceShare,
       expectedPerformanceCac: expectedPerformanceCac
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -63,7 +63,7 @@
       directAcquisitions: directAcquisitions,
       longTermBrandImpact: organicLift,
       error: null
-    };
+    }
   }
 
   function updateTool() {
@@ -90,7 +90,7 @@
       performanceBudget: result.performanceBudget,
       acquisitions: result.directAcquisitions,
       lift: result.longTermBrandImpact
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -138,7 +138,7 @@
             title: { display: true, text: 'Ad Budget Allocation Split ($)', color: '#e8edf0' }
           }
         }
-      };
+      }
     }
 
     if (tab === 'impact') {
@@ -169,7 +169,7 @@
             x: { ticks: { color: '#8899aa' } }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -182,10 +182,14 @@
   }
 
   function resetTool() {
-    document.getElementById('input_totalAdBudget').value = 40000;
-    document.getElementById('input_brandShare').value = 60;
-    document.getElementById('input_performanceShare').value = 40;
-    document.getElementById('input_expectedPerformanceCac').value = 800;
+    var _el_input_totalAdBudget = document.getElementById('input_totalAdBudget');
+    _el_input_totalAdBudget.value = (_el_input_totalAdBudget.dataset && _el_input_totalAdBudget.dataset.default !== undefined) ? _el_input_totalAdBudget.dataset.default : (_el_input_totalAdBudget.getAttribute('value') || '');
+    var _el_input_brandShare = document.getElementById('input_brandShare');
+    _el_input_brandShare.value = (_el_input_brandShare.dataset && _el_input_brandShare.dataset.default !== undefined) ? _el_input_brandShare.dataset.default : (_el_input_brandShare.getAttribute('value') || '');
+    var _el_input_performanceShare = document.getElementById('input_performanceShare');
+    _el_input_performanceShare.value = (_el_input_performanceShare.dataset && _el_input_performanceShare.dataset.default !== undefined) ? _el_input_performanceShare.dataset.default : (_el_input_performanceShare.getAttribute('value') || '');
+    var _el_input_expectedPerformanceCac = document.getElementById('input_expectedPerformanceCac');
+    _el_input_expectedPerformanceCac.value = (_el_input_expectedPerformanceCac.dataset && _el_input_expectedPerformanceCac.dataset.default !== undefined) ? _el_input_expectedPerformanceCac.dataset.default : (_el_input_expectedPerformanceCac.getAttribute('value') || '');
     updateTool();
   }
 
@@ -199,9 +203,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

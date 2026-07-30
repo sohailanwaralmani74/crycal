@@ -9,7 +9,7 @@
       recoveryMonths: parseFloat(document.getElementById('input_recoveryMonths').value) || 12,
       outOfPocketMedical: parseFloat(document.getElementById('input_outOfPocketMedical').value) || 0,
       experimentalTreatment: parseFloat(document.getElementById('input_experimentalTreatment').value) || 0
-    };
+    }
   }
 
   function formatCurrencyLocal(amount) {
@@ -42,7 +42,7 @@
     return {
       lostIncome: lostIncome,
       totalCoverage: totalCoverage
-    };
+    }
   }
 
   function updateTool() {
@@ -101,7 +101,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'comparison') {
@@ -134,7 +134,7 @@
             y: { stacked: true, beginAtZero: true }
           }
         }
-      };
+      }
     }
 
     return null;

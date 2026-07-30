@@ -8,7 +8,7 @@
       totalInitialCashInvested: parseFloat(document.getElementById('input_totalInitialCashInvested').value) || 0,
       annualNoi: parseFloat(document.getElementById('input_annualNoi').value) || 0,
       annualDebtService: parseFloat(document.getElementById('input_annualDebtService').value) || 0
-    };
+    }
   }
 
   function formatCurrencyLocal(amount) {
@@ -49,7 +49,7 @@
       cocReturn: cocReturn,
       noi: noi,
       debt: debt
-    };
+    }
   }
 
   function updateTool() {
@@ -108,7 +108,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'return') {
@@ -133,7 +133,7 @@
             y: { beginAtZero: true }
           }
         }
-      };
+      }
     }
 
     return null;

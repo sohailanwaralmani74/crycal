@@ -73,7 +73,7 @@
       expansionArpu: expansionArpu,
       arpu: arpu,
       annualArpu: annualArpu
-    };
+    }
     updateCharts(lastChartData);
 
     if (typeof window.logHistory === 'function') {
@@ -118,7 +118,7 @@
           maintainAspectRatio: false,
           plugins: { legend: { position: 'bottom', labels: { color: '#e8edf0' } } }
         }
-      };
+      }
     }
     if (tab === 'annualizedChart') {
       return {
@@ -137,7 +137,7 @@
           plugins: { legend: { display: false } },
           scales: { y: { beginAtZero: true, ticks: { color: '#8899aa' } }, x: { ticks: { color: '#8899aa' } } }
         }
-      };
+      }
     }
     return null;
 
@@ -154,9 +154,12 @@
 
   function resetTool() {
 
-    document.getElementById('input_totalMrr').value = 50000;
-    document.getElementById('input_totalUsers').value = 1000;
-    document.getElementById('input_expansionRev').value = 5000;
+    var _el_input_totalMrr = document.getElementById('input_totalMrr');
+    _el_input_totalMrr.value = (_el_input_totalMrr.dataset && _el_input_totalMrr.dataset.default !== undefined) ? _el_input_totalMrr.dataset.default : (_el_input_totalMrr.getAttribute('value') || '');
+    var _el_input_totalUsers = document.getElementById('input_totalUsers');
+    _el_input_totalUsers.value = (_el_input_totalUsers.dataset && _el_input_totalUsers.dataset.default !== undefined) ? _el_input_totalUsers.dataset.default : (_el_input_totalUsers.getAttribute('value') || '');
+    var _el_input_expansionRev = document.getElementById('input_expansionRev');
+    _el_input_expansionRev.value = (_el_input_expansionRev.dataset && _el_input_expansionRev.dataset.default !== undefined) ? _el_input_expansionRev.dataset.default : (_el_input_expansionRev.getAttribute('value') || '');
     updateTool();
 
   }
@@ -171,9 +174,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

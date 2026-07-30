@@ -16,7 +16,7 @@
       accountBalance: parseFloat(document.getElementById('input_accountBalance').value) || 0,
       fractionalKelly: parseFloat(document.getElementById('input_fractionalKelly').value) || 100,
       compoundingFrequency: document.getElementById('input_compoundingFrequency').value || 'monthly'
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -100,7 +100,7 @@
         winLossRatio: inputs.winLossRatio,
         optimalBetSize: optimalBetSize,
         optimalAmount: optimalAmount
-      };
+      }
       window.logHistory(snapshot);
     }
     if (typeof window.renderPresetDropdown === 'function') {
@@ -158,7 +158,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -172,10 +172,14 @@
 
   // ── Reset Tool ──
   function resetTool() {
-    document.getElementById('input_winProbability').value = 55.0;
-    document.getElementById('input_winLossRatio').value = 1.5;
-    document.getElementById('input_accountBalance').value = 10000;
-    document.getElementById('input_fractionalKelly').value = 100;
+    var _el_input_winProbability = document.getElementById('input_winProbability');
+    _el_input_winProbability.value = (_el_input_winProbability.dataset && _el_input_winProbability.dataset.default !== undefined) ? _el_input_winProbability.dataset.default : (_el_input_winProbability.getAttribute('value') || '');
+    var _el_input_winLossRatio = document.getElementById('input_winLossRatio');
+    _el_input_winLossRatio.value = (_el_input_winLossRatio.dataset && _el_input_winLossRatio.dataset.default !== undefined) ? _el_input_winLossRatio.dataset.default : (_el_input_winLossRatio.getAttribute('value') || '');
+    var _el_input_accountBalance = document.getElementById('input_accountBalance');
+    _el_input_accountBalance.value = (_el_input_accountBalance.dataset && _el_input_accountBalance.dataset.default !== undefined) ? _el_input_accountBalance.dataset.default : (_el_input_accountBalance.getAttribute('value') || '');
+    var _el_input_fractionalKelly = document.getElementById('input_fractionalKelly');
+    _el_input_fractionalKelly.value = (_el_input_fractionalKelly.dataset && _el_input_fractionalKelly.dataset.default !== undefined) ? _el_input_fractionalKelly.dataset.default : (_el_input_fractionalKelly.getAttribute('value') || '');
     document.getElementById('input_compoundingFrequency').value = 'monthly';
     if (typeof window.updateTool === 'function') window.updateTool();
   }
@@ -192,9 +196,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
   });
 
 })();

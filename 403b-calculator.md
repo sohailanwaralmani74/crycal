@@ -144,9 +144,9 @@ faq:
   - question: "How is 403(b) growth calculated?"
     answer: "403(b) growth is calculated by compounding your existing balance and ongoing contributions (both yours and your employer's match) at your expected rate of return over your years until retirement."
   - question: "Does my employer match count toward my contribution limit?"
-    answer: "No. Employer matching contributions do not count against your individual employee elective deferral limit, though they do count toward the overall combined contribution limit for the plan."
+    answer: "Employer matching contributions do not count against your individual employee elective deferral limit, though they do count toward the overall combined contribution limit for the plan."
   - question: "What's the difference between a 403(b) and a 401(k)?"
-    answer: "They function very similarly, but 403(b) plans are offered by nonprofit, educational, and religious organizations, while 401(k) plans are offered by for-profit employers. Both offer tax-deferred (or Roth) growth."
+    answer: "The two plans function very similarly, but 403(b) plans are offered by nonprofit, educational, and religious organizations, while 401(k) plans are offered by for-profit employers. Both offer tax-deferred (or Roth) growth."
 ---
 
 # 403b Calculator - Estimate Retirement Account Wealth
@@ -231,9 +231,9 @@ A 403(b) plan is a tax-advantaged retirement savings plan available to employees
 
 ### Does my employer match count toward my contribution limit?
 
-No. Employer matching contributions do not count against your individual employee elective deferral limit, though they do count toward the overall combined contribution limit for the plan.
+Employer matching contributions do not count against your individual employee elective deferral limit, though they do count toward the overall combined contribution limit for the plan.
 
 ### What's the difference between a 403(b) and a 401(k)?
 
-They function very similarly, but 403(b) plans are offered by nonprofit, educational, and religious organizations, while 401(k) plans are offered by for-profit employers. Both offer tax-deferred (or Roth) growth.
+The two plans function very similarly, but 403(b) plans are offered by nonprofit, educational, and religious organizations, while 401(k) plans are offered by for-profit employers. Both offer tax-deferred (or Roth) growth.
 

@@ -52,8 +52,7 @@
       poolVolumeGallons: poolVolumeGallons,
       waterRatePer1000: waterRatePer1000,
       sewerRatePer1000: sewerRatePer1000
-    };
-
+    }
     renderChart(lastData);
 
     if (typeof window.logHistory === 'function') {
@@ -135,19 +134,17 @@
       waterRatePer1000: 6.00,
       sewerRatePer1000: 4.00,
       waterTruckFee: 0
-    };
+    }
     Object.keys(defaults).forEach(function (key) {
       var el = document.getElementById('input_' + key);
       if (el) el.value = defaults[key];
     });
     calculate();
-  };
-
+  }
   window.switchChartTab = function (tabId) {
     currentTab = tabId;
     if (lastData) renderChart(lastData);
-  };
-
+  }
   document.addEventListener('DOMContentLoaded', function () {
     calculate();
   });

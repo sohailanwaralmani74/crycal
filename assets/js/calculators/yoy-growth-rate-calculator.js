@@ -11,7 +11,7 @@
     return {
       priorYearRevenue: parseFloat(document.getElementById('input_priorYearRevenue').value) || 0,
       currentYearRevenue: parseFloat(document.getElementById('input_currentYearRevenue').value) || 0
-    };
+    }
   }
 
   function formatCurrency(amount) {

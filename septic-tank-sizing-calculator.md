@@ -128,12 +128,19 @@ howto:
 
 faq:
   - question: "Why are septic tanks sized by bedroom count instead of bathroom count?"
+    answer: "Health departments use bedroom counts because bedrooms determine long-term potential occupancy (2 persons per bedroom). Bathrooms indicate fixture convenience rather than overall daily wastewater generation."
   - question: "What is the minimum septic tank size for a 3-bedroom home?"
+    answer: "The national standard minimum septic tank capacity for a 3-bedroom home is 1,000 gallons (or 1,250 gallons if an in-sink garbage disposal is installed)."
   - question: "How does a garbage disposal affect septic tank sizing?"
+    answer: "Garbage disposals shred un-digested food waste into fine particles that settle slowly into sludge. Disposals increase solid accumulation rates by 30% to 50%, requiring a 20% larger tank capacity and more frequent pumping."
   - question: "What is a soil percolation test (perc test)?"
+    answer: "A perc test measures how fast water drains through native soil, expressed in Minutes Per Inch (MPI). Fast sandy soil (5–15 MPI) requires smaller drain fields, while heavy clay soil (60–90 MPI) requires large absorption fields or engineered mound systems."
   - question: "How large does a septic drain field need to be?"
+    answer: "For a 3-bedroom home (450 GPD) in average soil (30 MPI), a gravel trench drain field requires approximately 750 square feet of trench bottom area (approx 250 linear feet of 3-foot wide trench)."
   - question: "What happens if a septic tank is undersized?"
+    answer: "An undersized tank shortens hydraulic retention time, allowing suspended solids and grease to escape into the leach field pipes, blinding soil pores and causing premature drain field failure."
   - question: "Is my personal data saved when using this calculator?"
+    answer: "No. All calculations run 100% locally within your web browser."
 
 ---
 
@@ -227,4 +234,8 @@ For a 3-bedroom home (450 GPD) in average soil (30 MPI), a gravel trench drain f
 ### What happens if a septic tank is undersized?
 
 An undersized tank shortens hydraulic retention time, allowing suspended solids and grease to escape into the leach field pipes, blinding soil pores and causing premature drain field failure.
+
+### Is my personal data saved when using this calculator?
+
+No. All calculations run 100% locally within your web browser.
 

@@ -12,7 +12,7 @@
       annualMaintenance: parseFloat(document.getElementById('input_annualMaintenance').value) || 0,
       annualTaxFees: parseFloat(document.getElementById('input_annualTaxFees').value) || 0,
       depreciationRate: parseFloat(document.getElementById('input_depreciationRate').value) || 15
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -93,7 +93,7 @@
       monthlyTco: monthlyTco,
       costPerMile: costPerMile,
       yearlyCosts: yearlyCosts
-    };
+    }
   }
 
   function updateTool() {
@@ -160,7 +160,7 @@
             title: { display: true, text: '5-Year TCO Cost Breakdown', font: { size: 14 }, color: '#e8edf0' }
           }
         }
-      };
+      }
     } else if (tab === 'yearly') {
       var labels = ['Year 1', 'Year 2', 'Year 3', 'Year 4', 'Year 5'];
       var cumulativeData = result.yearlyCosts.map(function(item) { return Math.round(item.cumulative); });
@@ -197,7 +197,7 @@
             }
           }
         }
-      };
+      }
     }
     return null;
   }
@@ -208,14 +208,22 @@
   }
 
   function resetTool() {
-    document.getElementById('input_purchasePrice').value = 35000;
-    document.getElementById('input_annualMiles').value = 12000;
-    document.getElementById('input_mpg').value = 28;
-    document.getElementById('input_gasPrice').value = 3.50;
-    document.getElementById('input_annualInsurance').value = 1600;
-    document.getElementById('input_annualMaintenance').value = 800;
-    document.getElementById('input_annualTaxFees').value = 400;
-    document.getElementById('input_depreciationRate').value = 15;
+    var _el_input_purchasePrice = document.getElementById('input_purchasePrice');
+    _el_input_purchasePrice.value = (_el_input_purchasePrice.dataset && _el_input_purchasePrice.dataset.default !== undefined) ? _el_input_purchasePrice.dataset.default : (_el_input_purchasePrice.getAttribute('value') || '');
+    var _el_input_annualMiles = document.getElementById('input_annualMiles');
+    _el_input_annualMiles.value = (_el_input_annualMiles.dataset && _el_input_annualMiles.dataset.default !== undefined) ? _el_input_annualMiles.dataset.default : (_el_input_annualMiles.getAttribute('value') || '');
+    var _el_input_mpg = document.getElementById('input_mpg');
+    _el_input_mpg.value = (_el_input_mpg.dataset && _el_input_mpg.dataset.default !== undefined) ? _el_input_mpg.dataset.default : (_el_input_mpg.getAttribute('value') || '');
+    var _el_input_gasPrice = document.getElementById('input_gasPrice');
+    _el_input_gasPrice.value = (_el_input_gasPrice.dataset && _el_input_gasPrice.dataset.default !== undefined) ? _el_input_gasPrice.dataset.default : (_el_input_gasPrice.getAttribute('value') || '');
+    var _el_input_annualInsurance = document.getElementById('input_annualInsurance');
+    _el_input_annualInsurance.value = (_el_input_annualInsurance.dataset && _el_input_annualInsurance.dataset.default !== undefined) ? _el_input_annualInsurance.dataset.default : (_el_input_annualInsurance.getAttribute('value') || '');
+    var _el_input_annualMaintenance = document.getElementById('input_annualMaintenance');
+    _el_input_annualMaintenance.value = (_el_input_annualMaintenance.dataset && _el_input_annualMaintenance.dataset.default !== undefined) ? _el_input_annualMaintenance.dataset.default : (_el_input_annualMaintenance.getAttribute('value') || '');
+    var _el_input_annualTaxFees = document.getElementById('input_annualTaxFees');
+    _el_input_annualTaxFees.value = (_el_input_annualTaxFees.dataset && _el_input_annualTaxFees.dataset.default !== undefined) ? _el_input_annualTaxFees.dataset.default : (_el_input_annualTaxFees.getAttribute('value') || '');
+    var _el_input_depreciationRate = document.getElementById('input_depreciationRate');
+    _el_input_depreciationRate.value = (_el_input_depreciationRate.dataset && _el_input_depreciationRate.dataset.default !== undefined) ? _el_input_depreciationRate.dataset.default : (_el_input_depreciationRate.getAttribute('value') || '');
     updateTool();
   }
 
@@ -229,9 +237,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

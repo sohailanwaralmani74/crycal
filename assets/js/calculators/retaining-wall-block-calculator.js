@@ -7,8 +7,7 @@
     'standard_12x6': { faceSqFt: 0.50, lengthInches: 12 },
     'jumbo_18x8': { faceSqFt: 1.00, lengthInches: 18 },
     'mini_8x4': { faceSqFt: 0.2222, lengthInches: 8 }
-  };
-
+  }
   function getGlobalCurrency() {
     var picker = document.getElementById('globalCurrencyPicker');
     return picker ? picker.value : 'USD';
@@ -160,7 +159,6 @@
     var target = document.querySelector('.chart-tab[data-tab="' + tabId + '"]');
     if (target) target.classList.add('active');
     calculate();
-  };
-
+  }
   document.addEventListener('DOMContentLoaded', init);
 })();

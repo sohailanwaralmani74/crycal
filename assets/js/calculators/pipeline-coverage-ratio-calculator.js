@@ -24,7 +24,7 @@
     return {
       pipeline: parseFloat(document.getElementById('input_pipeline_value')?.value) || 0,
       target: parseFloat(document.getElementById('input_sales_target')?.value) || 0
-    };
+    }
   }
 
   function updateTool() {

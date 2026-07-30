@@ -122,13 +122,13 @@ faq:
   - question: "What is the average SaaS spend per employee?"
     answer: "Growing tech companies average $150 to $300 per employee per month in internal software tool subscriptions ($1,800 to $3,600 per employee annually)."
   - question: "How is total annual SaaS stack cost calculated?"
-    answer: "Formula: Total Annual Stack Cost = [(Total Employees × Per-Seat Cost) + Flat Monthly Spend] × 12 months."
+    answer: "The total annual SaaS stack cost formula is [(Total Employees × Per-Seat Cost) + Flat Monthly Spend] × 12 months."
   - question: "How much SaaS budget is typically wasted on unused licenses?"
     answer: "Industry audits show companies waste 15% to 30% of their SaaS budget on inactive, redundant, or unassigned software seats."
   - question: "What is SaaS sprawl?"
     answer: "SaaS sprawl occurs when uncoordinated departments purchase overlapping software subscriptions without central IT oversight, inflating company software expenses."
   - question: "How can IT and finance leaders reduce SaaS stack costs?"
-    answer: "Reduce SaaS spend by performing quarterly license audits (pruning inactive seats), consolidating duplicate tools, negotiating annual upfront enterprise discounts, and centralizing procurement."
+    answer: "IT and finance leaders can reduce SaaS spend by performing quarterly license audits (pruning inactive seats), consolidating duplicate tools, negotiating annual upfront enterprise discounts, and centralizing procurement."
 ---
 
 # Saas Tool Stack Cost Calculator - Calculate OpEx & Headcount Budget
@@ -194,7 +194,7 @@ Growing tech companies average $150 to $300 per employee per month in internal s
 
 ### How is total annual SaaS stack cost calculated?
 
-Formula: Total Annual Stack Cost = [(Total Employees × Per-Seat Cost) + Flat Monthly Spend] × 12 months.
+The total annual SaaS stack cost formula is [(Total Employees × Per-Seat Cost) + Flat Monthly Spend] × 12 months.
 
 ### How much SaaS budget is typically wasted on unused licenses?
 
@@ -206,4 +206,4 @@ SaaS sprawl occurs when uncoordinated departments purchase overlapping software 
 
 ### How can IT and finance leaders reduce SaaS stack costs?
 
-Reduce SaaS spend by performing quarterly license audits (pruning inactive seats), consolidating duplicate tools, negotiating annual upfront enterprise discounts, and centralizing procurement.
+IT and finance leaders can reduce SaaS spend by performing quarterly license audits (pruning inactive seats), consolidating duplicate tools, negotiating annual upfront enterprise discounts, and centralizing procurement.

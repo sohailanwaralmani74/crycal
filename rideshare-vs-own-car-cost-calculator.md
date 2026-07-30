@@ -135,19 +135,19 @@ howto:
 
 faq:
   - question: "Is it cheaper to rely on Uber/Lyft or own a personal car?"
-    answer: "Relying on Uber/Lyft is generally cheaper if you travel fewer than 10 to 12 trips per week in urban areas with high parking costs. For suburban or daily highway commuters (15+ trips/week), owning a car is typically more cost-effective."
+    answer: "Relying on Uber/Lyft is generally cheaper if you travel fewer than 10 to 12 trips per week in urban areas with high parking costs. For suburban or daily highway commuters, owning a personal car is typically more cost-effective."
   - question: "What hidden costs are involved in owning a personal car?"
     answer: "Beyond car payments and fuel, car ownership includes auto insurance premiums, registration tag fees, routine maintenance (oil, tires, brakes), unexpected repairs, parking permits, and vehicle depreciation."
   - question: "How does surge pricing affect rideshare costs?"
-    answer: "Prime time or surge pricing during bad weather, rush hour, or concert events can double or triple standard Uber/Lyft fares, increasing monthly rideshare budgets unpredictably."
+    answer: "Surge pricing during bad weather, rush hour, or concert events can double or triple standard Uber/Lyft fares, unpredictably increasing your monthly rideshare budget."
   - question: "What is the average monthly cost of owning a new car in the US?"
-    answer: "According to AAA, the average total cost to own and operate a new vehicle is approximately $800 to $1,000 per month (including loan payments, insurance, fuel, and depreciation)."
+    answer: "According to AAA, the average total cost to own and operate a new vehicle is approximately $800 to $1,000 per month, including loan payments, insurance, fuel, and depreciation."
   - question: "Does owning a car outright (paid off) beat rideshare services?"
-    answer: "Yes. Once a personal car is paid off (eliminating the monthly car payment), monthly ownership expenses drop significantly to just insurance, fuel, and maintenance, easily beating high rideshare usage."
+    answer: "Yes — once a personal car is paid off, monthly ownership expenses drop significantly to just insurance, fuel, and maintenance, which easily beats high rideshare usage."
   - question: "What lifestyle factors favor owning a car over rideshare?"
     answer: "Car ownership offers immediate availability, road trip capability, child safety seat convenience, personal storage space, and zero waiting time during peak demand periods."
   - question: "Is my personal budget data private?"
-    answer: "Yes. All computations execute locally inside your web browser without logging."
+    answer: "Yes — all your budget data remains private because the computations execute locally inside your web browser without logging any information."
 
 ---
 
@@ -233,7 +233,7 @@ S_{annual} = |\Delta C_{monthly}| \times 12
 
 ### Is it cheaper to rely on Uber/Lyft or own a personal car?
 
-Relying on Uber/Lyft is generally cheaper if you travel fewer than **10 to 12 trips per week** in urban areas with high parking costs. For suburban or daily highway commuters (15+ trips/week), owning a car is typically more cost-effective.
+Relying on Uber/Lyft is generally cheaper if you travel fewer than 10 to 12 trips per week in urban areas with high parking costs. For suburban or daily highway commuters, owning a personal car is typically more cost-effective.
 
 ### What hidden costs are involved in owning a personal car?
 
@@ -241,15 +241,15 @@ Beyond car payments and fuel, car ownership includes auto insurance premiums, re
 
 ### How does surge pricing affect rideshare costs?
 
-Prime time or surge pricing during bad weather, rush hour, or concert events can double or triple standard Uber/Lyft fares, increasing monthly rideshare budgets unpredictably.
+Surge pricing during bad weather, rush hour, or concert events can double or triple standard Uber/Lyft fares, unpredictably increasing your monthly rideshare budget.
 
 ### What is the average monthly cost of owning a new car in the US?
 
-According to AAA, the average total cost to own and operate a new vehicle is approximately **$800 to $1,000 per month** (including loan payments, insurance, fuel, and depreciation).
+According to AAA, the average total cost to own and operate a new vehicle is approximately $800 to $1,000 per month, including loan payments, insurance, fuel, and depreciation.
 
 ### Does owning a car outright (paid off) beat rideshare services?
 
-Yes. Once a personal car is paid off (eliminating the monthly car payment), monthly ownership expenses drop significantly to just insurance, fuel, and maintenance, easily beating high rideshare usage.
+Yes — once a personal car is paid off, monthly ownership expenses drop significantly to just insurance, fuel, and maintenance, which easily beats high rideshare usage.
 
 ### What lifestyle factors favor owning a car over rideshare?
 
@@ -257,4 +257,4 @@ Car ownership offers immediate availability, road trip capability, child safety 
 
 ### Is my personal budget data private?
 
-Yes. All computations execute locally inside your web browser without logging.
+Yes — all your budget data remains private because the computations execute locally inside your web browser without logging any information.

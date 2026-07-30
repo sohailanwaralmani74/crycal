@@ -8,7 +8,7 @@
       annualPropertyTax: parseFloat(document.getElementById('input_annualPropertyTax').value) || 0,
       annualHomeInsurance: parseFloat(document.getElementById('input_annualHomeInsurance').value) || 0,
       monthlyPmi: parseFloat(document.getElementById('input_monthlyPmi').value) || 0
-    };
+    }
   }
 
   function formatCurrencyLocal(amount) {
@@ -45,7 +45,7 @@
       monthlyIns: monthlyIns,
       totalMonthlyEscrow: totalMonthlyEscrow,
       totalAnnualEscrow: totalAnnualEscrow
-    };
+    }
   }
 
   function updateTool() {
@@ -106,7 +106,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'annual') {
@@ -144,7 +144,7 @@
             y: { stacked: true, beginAtZero: true }
           }
         }
-      };
+      }
     }
 
     return null;

@@ -9,7 +9,7 @@
       interestRate: parseFloat(document.getElementById('input_interestRate').value) || 0,
       remainingMonths: parseInt(document.getElementById('input_remainingMonths').value, 10) || 48,
       extraMonthlyPayment: parseFloat(document.getElementById('input_extraMonthlyPayment').value) || 0
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -50,7 +50,7 @@
         totalRemainingInterest: 0,
         stdSchedule: [],
         extraSchedule: []
-      };
+      }
     }
 
     var stdPmt = 0;
@@ -100,7 +100,7 @@
       totalRemainingInterest: extraTotalInterest,
       stdSchedule: stdSchedule,
       extraSchedule: extraSchedule
-    };
+    }
   }
 
   function updateTool() {
@@ -190,7 +190,7 @@
             }
           }
         }
-      };
+      }
     } else if (tab === 'interest') {
       return {
         type: 'bar',
@@ -221,7 +221,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;

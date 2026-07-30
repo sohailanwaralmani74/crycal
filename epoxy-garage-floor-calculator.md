@@ -145,19 +145,19 @@ howto:
 
 faq:
   - question: "How many gallons of epoxy are needed for a 2-car garage?"
-    answer: "A standard 2-car garage (400 to 500 sq ft) requires 2 to 3 gallons of 100% solids epoxy per coat. A complete 2-coat system (primer/basecoat + clear topcoat) typically requires 4 to 6 total gallons."
+    answer: "A standard 2-car garage of 400 to 500 square feet requires 4 to 6 total gallons of epoxy for a complete 2-coat system (primer/basecoat plus clear topcoat). For a single coat of 100% solids epoxy, you need 2 to 3 gallons."
   - question: "What is the difference between 100% solids epoxy and water-based epoxy?"
-    answer: "100% solids epoxy contains no evaporating solvents or water, curing to 100% of its wet film thickness (10-12 mils per coat). Water-based epoxy contains 40-60% water, evaporating during cure to leave a thin 2-3 mil protective layer."
+    answer: "100% solids epoxy contains no evaporating solvents and cures to its full applied thickness of 10-12 mils per coat, providing maximum durability. In contrast, water-based epoxy contains 40-60% water that evaporates during curing, leaving a much thinner 2-3 mil protective layer."
   - question: "How many pounds of decorative flakes are needed for a full broadcast garage floor?"
-    answer: "A full refusal broadcast (where flakes completely cover the base coat until no epoxy shows through) requires approximately 0.5 lbs of vinyl flakes per square foot—or 250 lbs of flakes for a 500 sq ft garage."
+    answer: "A full refusal broadcast requires approximately 0.5 pounds of vinyl flakes per square foot, which equates to 250 pounds of flakes for a 500-square-foot garage. This density completely covers the base coat until no underlying epoxy shows through."
   - question: "Is a clear polyaspartic topcoat necessary over epoxy flakes?"
-    answer: "Yes. Decorative vinyl flakes create a rough, raised surface that traps dirt and oil. A clear polyaspartic or urethane topcoat seals the flakes, provides UV yellowing protection, and creates a smooth cleanable surface."
+    answer: "A clear polyaspartic topcoat is necessary over epoxy flakes to seal the rough, raised surface and prevent it from trapping dirt and oil. The topcoat also provides UV yellowing protection and creates a smooth, easy-to-clean finish."
   - question: "How much surface prep is required before applying garage floor epoxy?"
-    answer: "Concrete must be mechanically diamond ground or acid etched to achieve a Concrete Surface Profile (CSP) of 2 to 3 (similar to 80-grit sandpaper). Skipping surface prep causes 90% of DIY epoxy floor peeling failures."
+    answer: "Before applying garage floor epoxy, you must mechanically diamond grind or acid etch the concrete to achieve a Concrete Surface Profile (CSP) of 2 to 3, similar to 80-grit sandpaper. Proper preparation is critical, as skipping this step causes 90% of DIY epoxy floor peeling failures."
   - question: "How long does garage epoxy take to dry before parking cars?"
-    answer: "Standard 100% solids epoxy requires 24 hours for foot traffic and 3 to 7 days for vehicle traffic. Fast-curing polyaspartic topcoats allow vehicle parking within 24 to 48 hours."
+    answer: "Standard 100% solids epoxy takes 3 to 7 days to dry sufficiently for vehicle traffic, though it can handle foot traffic after 24 hours. Fast-curing polyaspartic topcoats significantly reduce this wait, allowing vehicle parking within 24 to 48 hours."
   - question: "What is the average cost per square foot for epoxy garage floor materials?"
-    answer: "DIY water-based kits cost $1.00 to $2.00 per sq ft in materials. High-performance commercial 100% solids epoxy systems with flakes and polyaspartic topcoat cost $3.00 to $5.00 per sq ft in materials."
+    answer: "The average material cost for a high-performance commercial 100% solids epoxy system with flakes and a polyaspartic topcoat is $3.00 to $5.00 per square foot. DIY water-based kits are cheaper, costing $1.00 to $2.00 per square foot in materials."
 ---
 
 # Epoxy Garage Floor Calculator - Calculate Volume, Bags & Materials
@@ -236,28 +236,28 @@ Material breakdown and coverage rates for a standard 2-car garage ($24'\times 24
 
 ### How many gallons of epoxy are needed for a 2-car garage?
 
-A standard 2-car garage (400 to 500 sq ft) requires 2 to 3 gallons of 100% solids epoxy per coat. A complete 2-coat system (primer/basecoat + clear topcoat) typically requires 4 to 6 total gallons.
+A standard 2-car garage of 400 to 500 square feet requires 4 to 6 total gallons of epoxy for a complete 2-coat system (primer/basecoat plus clear topcoat). For a single coat of 100% solids epoxy, you need 2 to 3 gallons.
 
 ### What is the difference between 100% solids epoxy and water-based epoxy?
 
-100% solids epoxy contains no evaporating solvents or water, curing to 100% of its wet film thickness (10-12 mils per coat). Water-based epoxy contains 40-60% water, evaporating during cure to leave a thin 2-3 mil protective layer.
+100% solids epoxy contains no evaporating solvents and cures to its full applied thickness of 10-12 mils per coat, providing maximum durability. In contrast, water-based epoxy contains 40-60% water that evaporates during curing, leaving a much thinner 2-3 mil protective layer.
 
 ### How many pounds of decorative flakes are needed for a full broadcast garage floor?
 
-A full refusal broadcast (where flakes completely cover the base coat until no epoxy shows through) requires approximately 0.5 lbs of vinyl flakes per square foot—or 250 lbs of flakes for a 500 sq ft garage.
+A full refusal broadcast requires approximately 0.5 pounds of vinyl flakes per square foot, which equates to 250 pounds of flakes for a 500-square-foot garage. This density completely covers the base coat until no underlying epoxy shows through.
 
 ### Is a clear polyaspartic topcoat necessary over epoxy flakes?
 
-Yes. Decorative vinyl flakes create a rough, raised surface that traps dirt and oil. A clear polyaspartic or urethane topcoat seals the flakes, provides UV yellowing protection, and creates a smooth cleanable surface.
+A clear polyaspartic topcoat is necessary over epoxy flakes to seal the rough, raised surface and prevent it from trapping dirt and oil. The topcoat also provides UV yellowing protection and creates a smooth, easy-to-clean finish.
 
 ### How much surface prep is required before applying garage floor epoxy?
 
-Concrete must be mechanically diamond ground or acid etched to achieve a Concrete Surface Profile (CSP) of 2 to 3 (similar to 80-grit sandpaper). Skipping surface prep causes 90% of DIY epoxy floor peeling failures.
+Before applying garage floor epoxy, you must mechanically diamond grind or acid etch the concrete to achieve a Concrete Surface Profile (CSP) of 2 to 3, similar to 80-grit sandpaper. Proper preparation is critical, as skipping this step causes 90% of DIY epoxy floor peeling failures.
 
 ### How long does garage epoxy take to dry before parking cars?
 
-Standard 100% solids epoxy requires 24 hours for foot traffic and 3 to 7 days for vehicle traffic. Fast-curing polyaspartic topcoats allow vehicle parking within 24 to 48 hours.
+Standard 100% solids epoxy takes 3 to 7 days to dry sufficiently for vehicle traffic, though it can handle foot traffic after 24 hours. Fast-curing polyaspartic topcoats significantly reduce this wait, allowing vehicle parking within 24 to 48 hours.
 
 ### What is the average cost per square foot for epoxy garage floor materials?
 
-DIY water-based kits cost $1.00 to $2.00 per sq ft in materials. High-performance commercial 100% solids epoxy systems with flakes and polyaspartic topcoat cost $3.00 to $5.00 per sq ft in materials.
+The average material cost for a high-performance commercial 100% solids epoxy system with flakes and a polyaspartic topcoat is $3.00 to $5.00 per square foot. DIY water-based kits are cheaper, costing $1.00 to $2.00 per square foot in materials.

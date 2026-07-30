@@ -140,19 +140,19 @@ howto:
 
 faq:
   - question: "How long does it take to charge an electric car at home?"
-    answer: "Using a 240V Level 2 charger (7.6 kW to 11.5 kW), a typical EV takes 5 to 8 hours for a 10% to 80% charge. Using a standard 120V wall outlet (Level 1), it takes 40 to 60+ hours."
+    answer: "Charging a typical electric car at home takes 5 to 8 hours to reach an 80% charge when using a 240V Level 2 charger. If you rely on a standard 120V Level 1 wall outlet, the same charge requires 40 to 60 hours."
   - question: "Why does DC Fast Charging slow down after 80%?"
-    answer: "To prevent thermal breakdown and lithium plating, EV battery management systems (BMS) taper charging power significantly once the state of charge exceeds 80%."
+    answer: "DC Fast Charging slows down after 80% because the vehicle's battery management system intentionally tapers power to prevent thermal breakdown and lithium plating. This safety mechanism protects the battery cells from long-term degradation."
   - question: "What limits my charging speed: the charger or the vehicle?"
-    answer: "Charging speed is determined by whichever device has the lower power capacity: the EV's maximum acceptance rate or the charging station's maximum output rate."
+    answer: "Your charging speed is limited by whichever component has the lower power capacity—either the electric vehicle's maximum acceptance rate or the charging station's maximum output rate."
   - question: "What is the difference between Level 1, Level 2, and DC Fast Charging?"
-    answer: "Level 1 operates on 120V AC (~1.4 kW, 3–5 mi/hr range added). Level 2 operates on 240V AC (3.7–19.2 kW, 15–45 mi/hr range added). DC Fast Charging delivers 50–350 kW direct current (100–600+ mi/hr range added)."
+    answer: "Level 1 operates on a standard 120V outlet to add 3 to 5 miles of range per hour, while Level 2 uses 240V to add 15 to 45 miles per hour. DC Fast Charging bypasses onboard converters to deliver high-voltage direct current, adding hundreds of miles of range in under an hour."
   - question: "How many miles of range do I get per hour of charging?"
-    answer: "A standard 11.5 kW Level 2 home charger adds approximately 35 to 40 miles of driving range for every hour connected."
+    answer: "You get approximately 35 to 40 miles of driving range for every hour of charging when using a standard 11.5 kW Level 2 home charger."
   - question: "How does cold weather affect charging time?"
-    answer: "Cold temperatures increase battery internal resistance, causing the vehicle's computer to throttle charging power until the battery conditions itself to optimal thermal levels."
+    answer: "Cold weather significantly increases charging time because low temperatures raise the battery's internal resistance. The vehicle's computer automatically throttles incoming charging power until the battery warms to its optimal operating temperature."
   - question: "Does the EV charging time calculator store my data?"
-    answer: "No. All calculations run strictly in your local browser."
+    answer: "The EV charging time calculator does not store your data because all calculations run entirely locally within your web browser."
 
 ---
 
@@ -267,28 +267,28 @@ T_{\text{hours}} = \frac{E_{\text{delivered}}}{P_{\text{effective}}} \times M_{\
 
 ### How long does it take to charge an electric car at home?
 
-Using a 240V Level 2 charger (7.6 kW to 11.5 kW), a typical EV takes 5 to 8 hours for a 10% to 80% charge. Using a standard 120V wall outlet (Level 1), it takes 40 to 60+ hours.
+Charging a typical electric car at home takes 5 to 8 hours to reach an 80% charge when using a 240V Level 2 charger. If you rely on a standard 120V Level 1 wall outlet, the same charge requires 40 to 60 hours.
 
 ### Why does DC Fast Charging slow down after 80%?
 
-To prevent thermal breakdown and lithium plating, EV battery management systems (BMS) taper charging power significantly once the state of charge exceeds 80%.
+DC Fast Charging slows down after 80% because the vehicle's battery management system intentionally tapers power to prevent thermal breakdown and lithium plating. This safety mechanism protects the battery cells from long-term degradation.
 
 ### What limits my charging speed: the charger or the vehicle?
 
-Charging speed is determined by whichever device has the lower power capacity: the EV's maximum acceptance rate or the charging station's maximum output rate.
+Your charging speed is limited by whichever component has the lower power capacity—either the electric vehicle's maximum acceptance rate or the charging station's maximum output rate.
 
 ### What is the difference between Level 1, Level 2, and DC Fast Charging?
 
-Level 1 operates on 120V AC (~1.4 kW, 3–5 mi/hr range added). Level 2 operates on 240V AC (3.7–19.2 kW, 15–45 mi/hr range added). DC Fast Charging delivers 50–350 kW direct current (100–600+ mi/hr range added).
+Level 1 operates on a standard 120V outlet to add 3 to 5 miles of range per hour, while Level 2 uses 240V to add 15 to 45 miles per hour. DC Fast Charging bypasses onboard converters to deliver high-voltage direct current, adding hundreds of miles of range in under an hour.
 
 ### How many miles of range do I get per hour of charging?
 
-A standard 11.5 kW Level 2 home charger adds approximately 35 to 40 miles of driving range for every hour connected.
+You get approximately 35 to 40 miles of driving range for every hour of charging when using a standard 11.5 kW Level 2 home charger.
 
 ### How does cold weather affect charging time?
 
-Cold temperatures increase battery internal resistance, causing the vehicle's computer to throttle charging power until the battery conditions itself to optimal thermal levels.
+Cold weather significantly increases charging time because low temperatures raise the battery's internal resistance. The vehicle's computer automatically throttles incoming charging power until the battery warms to its optimal operating temperature.
 
 ### Does the EV charging time calculator store my data?
 
-No. All calculations run strictly in your local browser.
+The EV charging time calculator does not store your data because all calculations run entirely locally within your web browser.

@@ -8,7 +8,7 @@
       expectedLowestMonthlyIncome: parseFloat(document.getElementById('input_expectedLowestMonthlyIncome').value) || 0,
       essentialMonthlyExpenses: parseFloat(document.getElementById('input_essentialMonthlyExpenses').value) || 0,
       discretionaryWants: parseFloat(document.getElementById('input_discretionaryWants').value) || 0
-    };
+    }
   }
 
   function formatCurrencyLocal(amount) {
@@ -46,7 +46,7 @@
       inc: inc,
       essentials: inputs.essentialMonthlyExpenses,
       wants: inputs.discretionaryWants
-    };
+    }
   }
 
   function updateTool() {
@@ -105,7 +105,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'buffer') {
@@ -130,7 +130,7 @@
             y: { beginAtZero: true }
           }
         }
-      };
+      }
     }
 
     return null;

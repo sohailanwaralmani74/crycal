@@ -22,7 +22,7 @@
       improvementCosts: parseFloat(document.getElementById('input_improvementCosts').value) || 0,
       inflationAdjustment: document.getElementById('input_inflationAdjustment').value === 'true',
       inflationRate: parseFloat(document.getElementById('input_inflationRate').value) || 0
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -141,7 +141,7 @@
         totalGain: totalGain,
         taxOwed: taxOwed,
         netProceeds: netProceeds
-      };
+      }
       window.logHistory(snapshot);
     }
     if (typeof window.renderPresetDropdown === 'function') {
@@ -188,7 +188,7 @@
               title: { display: true, text: 'No data to display', font: { size: 14 } }
             }
           }
-        };
+        }
       }
 
       return {
@@ -221,7 +221,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'comparison') {
@@ -254,7 +254,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'distribution') {
@@ -292,7 +292,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -306,17 +306,26 @@
 
   // ── Reset Tool ──
   function resetTool() {
-    document.getElementById('input_salePrice').value = 50000;
-    document.getElementById('input_purchasePrice').value = 30000;
+    var _el_input_salePrice = document.getElementById('input_salePrice');
+    _el_input_salePrice.value = (_el_input_salePrice.dataset && _el_input_salePrice.dataset.default !== undefined) ? _el_input_salePrice.dataset.default : (_el_input_salePrice.getAttribute('value') || '');
+    var _el_input_purchasePrice = document.getElementById('input_purchasePrice');
+    _el_input_purchasePrice.value = (_el_input_purchasePrice.dataset && _el_input_purchasePrice.dataset.default !== undefined) ? _el_input_purchasePrice.dataset.default : (_el_input_purchasePrice.getAttribute('value') || '');
     document.getElementById('input_holdingPeriod').value = 'long-term';
-    document.getElementById('input_holdingPeriodYears').value = 2;
-    document.getElementById('input_longTermRate').value = 15.0;
-    document.getElementById('input_shortTermRate').value = 25.0;
-    document.getElementById('input_exemptionAmount').value = 0;
-    document.getElementById('input_sellingCosts').value = 0;
-    document.getElementById('input_improvementCosts').value = 0;
+    var _el_input_holdingPeriodYears = document.getElementById('input_holdingPeriodYears');
+    _el_input_holdingPeriodYears.value = (_el_input_holdingPeriodYears.dataset && _el_input_holdingPeriodYears.dataset.default !== undefined) ? _el_input_holdingPeriodYears.dataset.default : (_el_input_holdingPeriodYears.getAttribute('value') || '');
+    var _el_input_longTermRate = document.getElementById('input_longTermRate');
+    _el_input_longTermRate.value = (_el_input_longTermRate.dataset && _el_input_longTermRate.dataset.default !== undefined) ? _el_input_longTermRate.dataset.default : (_el_input_longTermRate.getAttribute('value') || '');
+    var _el_input_shortTermRate = document.getElementById('input_shortTermRate');
+    _el_input_shortTermRate.value = (_el_input_shortTermRate.dataset && _el_input_shortTermRate.dataset.default !== undefined) ? _el_input_shortTermRate.dataset.default : (_el_input_shortTermRate.getAttribute('value') || '');
+    var _el_input_exemptionAmount = document.getElementById('input_exemptionAmount');
+    _el_input_exemptionAmount.value = (_el_input_exemptionAmount.dataset && _el_input_exemptionAmount.dataset.default !== undefined) ? _el_input_exemptionAmount.dataset.default : (_el_input_exemptionAmount.getAttribute('value') || '');
+    var _el_input_sellingCosts = document.getElementById('input_sellingCosts');
+    _el_input_sellingCosts.value = (_el_input_sellingCosts.dataset && _el_input_sellingCosts.dataset.default !== undefined) ? _el_input_sellingCosts.dataset.default : (_el_input_sellingCosts.getAttribute('value') || '');
+    var _el_input_improvementCosts = document.getElementById('input_improvementCosts');
+    _el_input_improvementCosts.value = (_el_input_improvementCosts.dataset && _el_input_improvementCosts.dataset.default !== undefined) ? _el_input_improvementCosts.dataset.default : (_el_input_improvementCosts.getAttribute('value') || '');
     document.getElementById('input_inflationAdjustment').value = 'false';
-    document.getElementById('input_inflationRate').value = 3.0;
+    var _el_input_inflationRate = document.getElementById('input_inflationRate');
+    _el_input_inflationRate.value = (_el_input_inflationRate.dataset && _el_input_inflationRate.dataset.default !== undefined) ? _el_input_inflationRate.dataset.default : (_el_input_inflationRate.getAttribute('value') || '');
     if (typeof window.updateTool === 'function') window.updateTool();
   }
 
@@ -332,9 +341,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
   });
 
 })();

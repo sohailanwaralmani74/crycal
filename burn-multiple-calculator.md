@@ -89,18 +89,18 @@ howto:
     - name: "Inspect Interactive Charts"
       text: "Switch visual chart tabs to analyze detailed breakdowns and curves."
 faq:
-  - q: "What is the Burn Multiple?"
-    a: "The Burn Multiple measures how much net cash a SaaS startup burns for every dollar of net new Annual Recurring Revenue (ARR) generated."
-  - q: "What is a good Burn Multiple benchmark?"
-    a: "Under 1.0x is amazing (elite efficiency). 1.0x to 1.5x is good. 1.5x to 2.0x is suspect. Above 2.5x is dangerous."
-  - q: "How does stage affect Burn Multiple expectations?"
-    a: "Early Seed stage companies naturally have higher Burn Multiples (2.0x+) due to R&D setup costs. Series A and B startups must trim their Burn Multiple under 1.5x."
-  - q: "What causes a high Burn Multiple?"
-    a: "High Burn Multiples are caused by excessive engineering overhead, high customer churn, inefficient ad channels, or over-staffed sales teams."
-  - q: "How can startups improve their Burn Multiple?"
-    a: "Improve the metric by increasing pricing tiers, trimming non-performing marketing campaigns, automating customer success, and delaying non-essential hiring."
-  - q: "How often should Burn Multiple be evaluated?"
-    a: "Calculate Burn Multiple quarterly on a 6-month trailing basis to smooth out lumpy enterprise deal closings."
+  - question: "What is the Burn Multiple?"
+    answer: "The Burn Multiple measures how much net cash a SaaS startup burns for every dollar of net new Annual Recurring Revenue (ARR) generated."
+  - question: "What is a good Burn Multiple benchmark?"
+    answer: "A good Burn Multiple benchmark is under 1.0x for elite efficiency, while 1.0x to 1.5x is good, 1.5x to 2.0x is suspect, and above 2.5x is dangerous."
+  - question: "How does stage affect Burn Multiple expectations?"
+    answer: "Early Seed stage companies naturally have higher Burn Multiples (2.0x+) due to R&D setup costs. Series A and B startups must trim their Burn Multiple under 1.5x."
+  - question: "What causes a high Burn Multiple?"
+    answer: "High Burn Multiples are caused by excessive engineering overhead, high customer churn, inefficient ad channels, or over-staffed sales teams."
+  - question: "How can startups improve their Burn Multiple?"
+    answer: "Startups can improve their Burn Multiple by increasing pricing tiers, trimming non-performing marketing campaigns, automating customer success, and delaying non-essential hiring."
+  - question: "How often should Burn Multiple be evaluated?"
+    answer: "You should calculate the Burn Multiple quarterly on a 6-month trailing basis to smooth out lumpy enterprise deal closings."
 ---
 
 # Burn Multiple Calculator - Calculate Startup Net Burn Multiple
@@ -150,7 +150,7 @@ The Burn Multiple measures how much net cash a SaaS startup burns for every doll
 
 ### What is a good Burn Multiple benchmark?
 
-Under 1.0x is amazing (elite efficiency). 1.0x to 1.5x is good. 1.5x to 2.0x is suspect. Above 2.5x is dangerous.
+A good Burn Multiple benchmark is under 1.0x for elite efficiency, while 1.0x to 1.5x is good, 1.5x to 2.0x is suspect, and above 2.5x is dangerous.
 
 ### How does stage affect Burn Multiple expectations?
 
@@ -162,9 +162,9 @@ High Burn Multiples are caused by excessive engineering overhead, high customer 
 
 ### How can startups improve their Burn Multiple?
 
-Improve the metric by increasing pricing tiers, trimming non-performing marketing campaigns, automating customer success, and delaying non-essential hiring.
+Startups can improve their Burn Multiple by increasing pricing tiers, trimming non-performing marketing campaigns, automating customer success, and delaying non-essential hiring.
 
 ### How often should Burn Multiple be evaluated?
 
-Calculate Burn Multiple quarterly on a 6-month trailing basis to smooth out lumpy enterprise deal closings.
+You should calculate the Burn Multiple quarterly on a 6-month trailing basis to smooth out lumpy enterprise deal closings.
 

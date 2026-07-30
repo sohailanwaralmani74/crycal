@@ -7,7 +7,7 @@
     return {
       totalWeddingBudget: parseFloat(document.getElementById('input_totalWeddingBudget').value) || 0,
       guestCount: parseFloat(document.getElementById('input_guestCount').value) || 120
-    };
+    }
   }
 
   function formatCurrencyLocal(amount) {
@@ -54,7 +54,7 @@
       decor: decor,
       perGuest: perGuest,
       budget: b
-    };
+    }
   }
 
   function updateTool() {
@@ -117,7 +117,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'perGuest') {
@@ -142,7 +142,7 @@
             y: { beginAtZero: true }
           }
         }
-      };
+      }
     }
 
     return null;

@@ -113,13 +113,13 @@ faq:
   - question: "What is the annual gift tax exclusion limit?"
     answer: "For tax year 2024, the IRS annual exclusion limit is $18,000 per donor per recipient ($36,000 for married couples splitting gifts)."
   - question: "Do reportable gifts automatically trigger immediate out-of-pocket taxes?"
-    answer: "No. Gifting above the annual exclusion requires filing IRS Form 709, but taxes are offset by your lifetime estate and gift tax exemption ($13.61 Million in 2024)."
+    answer: "No — reportable gifts do not automatically trigger immediate out-of-pocket taxes. Gifting above the annual exclusion requires filing IRS Form 709, but taxes are offset by your lifetime estate and gift tax exemption ($13.61 Million in 2024)."
   - question: "Can married couples double their annual gift exclusion?"
-    answer: "Yes. Through gift splitting, a married couple can combine their annual exclusions to give up to $36,000 per recipient per year without filing Form 709."
+    answer: "Yes — through gift splitting, a married couple can double their annual gift exclusion to give up to $36,000 per recipient per year without filing Form 709."
   - question: "Which gifts are completely exempt from IRS gift tax limits?"
-    answer: "Tuition paid directly to an educational institution, medical payments paid directly to healthcare providers, gifts to a spouse, and gifts to political organizations are fully exempt."
+    answer: "Tuition paid directly to an educational institution, medical payments directly to healthcare providers, gifts to a spouse, and gifts to political organizations are completely exempt from IRS gift tax limits."
   - question: "When is IRS Form 709 due?"
-    answer: "IRS Form 709 must be filed by April 15th of the year following the calendar year in which the gift was made, concurrent with your individual tax return."
+    answer: "IRS Form 709 is due by April 15th of the year following the calendar year in which the gift was made, concurrent with your individual tax return."
 ---
 
 # Gift Tax Calculator - Calculate Tax Liability & Savings
@@ -199,17 +199,17 @@ For tax year 2024, the IRS annual exclusion limit is $18,000 per donor per recip
 
 ### Do reportable gifts automatically trigger immediate out-of-pocket taxes?
 
-No. Gifting above the annual exclusion requires filing IRS Form 709, but taxes are offset by your lifetime estate and gift tax exemption ($13.61 Million in 2024).
+No — reportable gifts do not automatically trigger immediate out-of-pocket taxes. Gifting above the annual exclusion requires filing IRS Form 709, but taxes are offset by your lifetime estate and gift tax exemption ($13.61 Million in 2024).
 
 ### Can married couples double their annual gift exclusion?
 
-Yes. Through gift splitting, a married couple can combine their annual exclusions to give up to $36,000 per recipient per year without filing Form 709.
+Yes — through gift splitting, a married couple can double their annual gift exclusion to give up to $36,000 per recipient per year without filing Form 709.
 
 ### Which gifts are completely exempt from IRS gift tax limits?
 
-Tuition paid directly to an educational institution, medical payments paid directly to healthcare providers, gifts to a spouse, and gifts to political organizations are fully exempt.
+Tuition paid directly to an educational institution, medical payments directly to healthcare providers, gifts to a spouse, and gifts to political organizations are completely exempt from IRS gift tax limits.
 
 ### When is IRS Form 709 due?
 
-IRS Form 709 must be filed by April 15th of the year following the calendar year in which the gift was made, concurrent with your individual tax return.
+IRS Form 709 is due by April 15th of the year following the calendar year in which the gift was made, concurrent with your individual tax return.
 

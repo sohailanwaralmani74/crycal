@@ -131,7 +131,7 @@ faq:
   - question: "What is the formula for board feet?"
     answer: "The formula for board feet when length is in feet is: Board Feet = (Thickness in inches × Width in inches × Length in feet) / 12. If length is measured in inches, divide by 144: Board Feet = (Thickness in inches × Width in inches × Length in inches) / 144."
   - question: "How do you calculate board feet for rough vs dressed lumber?"
-    answer: "Rough-sawn hardwood is sold by nominal thickness quarters (e.g., 4/4 = 1\", 5/4 = 1.25\", 8/4 = 2\"). Board feet is calculated based on nominal un-surfaced dimensions prior to planing, even though surfaced boards are slightly thinner."
+    answer: "Board feet is calculated based on nominal un-surfaced dimensions prior to planing, even though dressed surfaced boards are slightly thinner. Rough-sawn hardwood is sold by nominal thickness quarters (e.g., 4/4 = 1\", 5/4 = 1.25\", 8/4 = 2\")."
   - question: "How many board feet are in a 2x4 8 feet long?"
     answer: "A 2x4-8' board contains 5.33 board feet. Nominal calculation: (2 inches × 4 inches × 8 feet) / 12 = 5.333 BF."
   - question: "What is the difference between linear feet and board feet?"
@@ -196,7 +196,7 @@ The formula for board feet when length is in feet is: Board Feet = (Thickness in
 
 ### How do you calculate board feet for rough vs dressed lumber?
 
-Rough-sawn hardwood is sold by nominal thickness quarters (e.g., 4/4 = 1", 5/4 = 1.25", 8/4 = 2"). Board feet is calculated based on nominal un-surfaced dimensions prior to planing, even though surfaced boards are slightly thinner.
+Board feet is calculated based on nominal un-surfaced dimensions prior to planing, even though dressed surfaced boards are slightly thinner. Rough-sawn hardwood is sold by nominal thickness quarters (e.g., 4/4 = 1", 5/4 = 1.25", 8/4 = 2").
 
 ### How many board feet are in a 2x4 8 feet long?
 

@@ -11,7 +11,7 @@
       diy_hours_spent: parseFloat(document.getElementById('input_diy_hours_spent').value) || 5.0,
       user_hourly_value: parseFloat(document.getElementById('input_user_hourly_value').value) || 30,
       shop_fees_pct: parseFloat(document.getElementById('input_shop_fees_pct').value) || 10
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -57,7 +57,7 @@
       direct_cash_savings: direct_cash_savings,
       net_true_savings: net_true_savings,
       breakeven_labor_val: breakeven_labor_val
-    };
+    }
   }
 
   function updateTool() {
@@ -77,8 +77,7 @@
         parseFloat(res.diy_cash_outlay.toFixed(2)),
         parseFloat((res.diy_cash_outlay + (inp.diy_hours_spent * inp.user_hourly_value)).toFixed(2))
       ]
-    };
-
+    }
     updateCharts(chartData);
 
     if (typeof window.logHistory === 'function') {

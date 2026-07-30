@@ -10,7 +10,7 @@
       last_replaced_odometer: parseFloat(document.getElementById('input_last_replaced_odometer').value) || 0,
       annual_miles: parseFloat(document.getElementById('input_annual_miles').value) || 12000,
       include_water_pump: document.getElementById('input_include_water_pump').value || "yes"
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -63,7 +63,7 @@
       service_due_odometer: service_due_odometer,
       estimated_service_cost: estimated_service_cost,
       risk_level: risk_level
-    };
+    }
   }
 
   function updateTool() {
@@ -81,8 +81,7 @@
     var chartData = {
       labels: ['Preventative Service Cost', 'Engine Failure Repair Cost'],
       values: [parseFloat(res.estimated_service_cost.toFixed(2)), repair_cost_if_snapped]
-    };
-
+    }
     updateCharts(chartData);
 
     if (typeof window.logHistory === 'function') {

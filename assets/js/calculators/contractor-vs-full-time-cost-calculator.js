@@ -16,7 +16,7 @@
       ftBaseSalary: ftBaseSalary,
       ftBenefitsTaxesPercent: ftBenefitsTaxesPercent / 100,
       ftEquipmentOverhead: ftEquipmentOverhead
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -70,7 +70,7 @@
       ftBenefitsCost: ftBenefitsCost,
       overhead: overhead,
       error: null
-    };
+    }
   }
 
   function updateTool() {
@@ -98,7 +98,7 @@
       ftSalary: result.ftSalary,
       ftBenefitsCost: result.ftBenefitsCost,
       overhead: result.overhead
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -155,7 +155,7 @@
             x: { ticks: { color: '#8899aa' } }
           }
         }
-      };
+      }
     }
 
     if (tab === 'breakdown') {
@@ -177,7 +177,7 @@
             title: { display: true, text: 'Full-Time Employee Cost Breakdown ($)', color: '#e8edf0' }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -190,11 +190,16 @@
   }
 
   function resetTool() {
-    document.getElementById('input_contractorHourlyRate').value = 95;
-    document.getElementById('input_contractorWeeklyHours').value = 40;
-    document.getElementById('input_ftBaseSalary').value = 130000;
-    document.getElementById('input_ftBenefitsTaxesPercent').value = 25;
-    document.getElementById('input_ftEquipmentOverhead').value = 10000;
+    var _el_input_contractorHourlyRate = document.getElementById('input_contractorHourlyRate');
+    _el_input_contractorHourlyRate.value = (_el_input_contractorHourlyRate.dataset && _el_input_contractorHourlyRate.dataset.default !== undefined) ? _el_input_contractorHourlyRate.dataset.default : (_el_input_contractorHourlyRate.getAttribute('value') || '');
+    var _el_input_contractorWeeklyHours = document.getElementById('input_contractorWeeklyHours');
+    _el_input_contractorWeeklyHours.value = (_el_input_contractorWeeklyHours.dataset && _el_input_contractorWeeklyHours.dataset.default !== undefined) ? _el_input_contractorWeeklyHours.dataset.default : (_el_input_contractorWeeklyHours.getAttribute('value') || '');
+    var _el_input_ftBaseSalary = document.getElementById('input_ftBaseSalary');
+    _el_input_ftBaseSalary.value = (_el_input_ftBaseSalary.dataset && _el_input_ftBaseSalary.dataset.default !== undefined) ? _el_input_ftBaseSalary.dataset.default : (_el_input_ftBaseSalary.getAttribute('value') || '');
+    var _el_input_ftBenefitsTaxesPercent = document.getElementById('input_ftBenefitsTaxesPercent');
+    _el_input_ftBenefitsTaxesPercent.value = (_el_input_ftBenefitsTaxesPercent.dataset && _el_input_ftBenefitsTaxesPercent.dataset.default !== undefined) ? _el_input_ftBenefitsTaxesPercent.dataset.default : (_el_input_ftBenefitsTaxesPercent.getAttribute('value') || '');
+    var _el_input_ftEquipmentOverhead = document.getElementById('input_ftEquipmentOverhead');
+    _el_input_ftEquipmentOverhead.value = (_el_input_ftEquipmentOverhead.dataset && _el_input_ftEquipmentOverhead.dataset.default !== undefined) ? _el_input_ftEquipmentOverhead.dataset.default : (_el_input_ftEquipmentOverhead.getAttribute('value') || '');
     updateTool();
   }
 
@@ -208,9 +213,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

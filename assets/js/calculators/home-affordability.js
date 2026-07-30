@@ -23,7 +23,7 @@
       frontEndRatio: parseFloat(document.getElementById('input_frontEndRatio').value) || 28,
       backEndRatio: parseFloat(document.getElementById('input_backEndRatio').value) || 36,
       compoundingFrequency: document.getElementById('input_compoundingFrequency').value
-    };
+    }
   }
 
   // ── Get compounding periods per year ──
@@ -34,7 +34,7 @@
       'quarterly': 4,
       'semi-annually': 2,
       'annually': 1
-    };
+    }
     return map[frequency] || 12;
   }
 
@@ -132,7 +132,7 @@
       monthlyPI: finalMonthlyPI,
       maxHousingPayment: maxHousingPayment,
       monthlyIncome: monthlyIncome
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -177,7 +177,7 @@
         frontEndRatio: inputs.frontEndRatio,
         backEndRatio: inputs.backEndRatio,
         compoundingFrequency: inputs.compoundingFrequency
-      };
+      }
       window.logHistory(snapshot);
     }
     if (typeof window.renderPresetDropdown === 'function') {
@@ -232,7 +232,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'dti') {
@@ -278,7 +278,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'affordability') {
@@ -312,7 +312,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     return null;
@@ -345,9 +345,8 @@
       var defaultVal = el.dataset.default || el.getAttribute('value') || '';
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
     var picker = document.getElementById('baseCurrency');
     if (picker) {
       picker.addEventListener('change', function() {

@@ -8,8 +8,7 @@
     pex: { '1/2"': 0.475, '3/4"': 0.671, '1"': 0.862, '1-1/4"': 1.054, '1-1/2"': 1.244 },
     copper: { '1/2"': 0.527, '3/4"': 0.745, '1"': 0.995, '1-1/4"': 1.245, '1-1/2"': 1.481 },
     cpvc: { '1/2"': 0.489, '3/4"': 0.715, '1"': 0.921, '1-1/4"': 1.155, '1-1/2"': 1.362 }
-  };
-
+  }
   function wsfuToGPM(wsfu, systemType) {
     if (systemType === 'flush_valve') {
       if (wsfu <= 10) return 15 + (wsfu * 1.5);
@@ -161,7 +160,6 @@
     var target = document.querySelector('.chart-tab[data-tab="' + tabId + '"]');
     if (target) target.classList.add('active');
     calculate();
-  };
-
+  }
   document.addEventListener('DOMContentLoaded', init);
 })();

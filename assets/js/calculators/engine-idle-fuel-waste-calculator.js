@@ -7,15 +7,14 @@
     'med-v6': 0.60,
     'large-v8': 0.90,
     'diesel-truck': 1.10
-  };
-
+  }
   function getInputs() {
     return {
       dailyIdleMinutes: parseFloat(document.getElementById('input_dailyIdleMinutes').value) || 0,
       engineDisplacement: document.getElementById('input_engineDisplacement').value || 'med-v6',
       daysPerYear: parseFloat(document.getElementById('input_daysPerYear').value) || 260,
       gasPrice: parseFloat(document.getElementById('input_gasPrice').value) || 0
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -56,7 +55,7 @@
       annualGallonsWasted: annualGallonsWasted,
       annualMoneyWasted: annualMoneyWasted,
       annualCo2Wasted: annualCo2Wasted
-    };
+    }
   }
 
   function updateTool() {
@@ -130,7 +129,7 @@
             }
           }
         }
-      };
+      }
     } else if (tab === 'dailyVsAnnual') {
       var daily = result.dailyGallonsWasted * inputs.gasPrice;
       var monthly = daily * 21.6;
@@ -170,7 +169,7 @@
             }
           }
         }
-      };
+      }
     }
     return null;
   }
@@ -181,10 +180,13 @@
   }
 
   function resetTool() {
-    document.getElementById('input_dailyIdleMinutes').value = 25;
+    var _el_input_dailyIdleMinutes = document.getElementById('input_dailyIdleMinutes');
+    _el_input_dailyIdleMinutes.value = (_el_input_dailyIdleMinutes.dataset && _el_input_dailyIdleMinutes.dataset.default !== undefined) ? _el_input_dailyIdleMinutes.dataset.default : (_el_input_dailyIdleMinutes.getAttribute('value') || '');
     document.getElementById('input_engineDisplacement').value = 'med-v6';
-    document.getElementById('input_daysPerYear').value = 260;
-    document.getElementById('input_gasPrice').value = 3.60;
+    var _el_input_daysPerYear = document.getElementById('input_daysPerYear');
+    _el_input_daysPerYear.value = (_el_input_daysPerYear.dataset && _el_input_daysPerYear.dataset.default !== undefined) ? _el_input_daysPerYear.dataset.default : (_el_input_daysPerYear.getAttribute('value') || '');
+    var _el_input_gasPrice = document.getElementById('input_gasPrice');
+    _el_input_gasPrice.value = (_el_input_gasPrice.dataset && _el_input_gasPrice.dataset.default !== undefined) ? _el_input_gasPrice.dataset.default : (_el_input_gasPrice.getAttribute('value') || '');
     updateTool();
   }
 
@@ -198,9 +200,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

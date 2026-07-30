@@ -24,7 +24,7 @@
       nonBillableHours: nonBillableHours,
       hourlyRate: hourlyRate,
       daysOff: daysOff
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -102,15 +102,13 @@
     var timeData = {
       'Billable Hours': billableHoursPerYear,
       'Non-Billable Hours': nonBillableHoursPerYear
-    };
-
+    }
     var rateData = {
       'Hourly Rate': hourlyRate > 0 ? hourlyRate : recommendedRate,
       'Total Revenue': hourlyRate > 0 ? projectedRevenue : totalRevenue,
       'Pre-Tax Income': hourlyRate > 0 ? projectedPreTax : preTaxIncome,
       'Take-Home Income': hourlyRate > 0 ? projectedTakeHome : desiredIncome
-    };
-
+    }
     return {
       preTaxIncome: preTaxIncome,
       totalRevenue: totalRevenue,
@@ -126,7 +124,7 @@
       timeData: timeData,
       rateData: rateData,
       error: null
-    };
+    }
   }
 
   // ── Main Update ──
@@ -190,7 +188,7 @@
       hourlyRate: inputs.hourlyRate,
       recommendedRate: result.recommendedRate,
       desiredIncome: inputs.desiredIncome
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -253,7 +251,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'comparison') {
@@ -314,7 +312,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -332,14 +330,22 @@
 
   // ── Reset Tool ──
   function resetTool() {
-    document.getElementById('input_desiredIncome').value = 80000;
-    document.getElementById('input_taxRate').value = 25.0;
-    document.getElementById('input_businessExpenses').value = 5000;
-    document.getElementById('input_billableHoursPerWeek').value = 30;
-    document.getElementById('input_weeksPerYear').value = 48;
-    document.getElementById('input_nonBillableHours').value = 10;
-    document.getElementById('input_hourlyRate').value = 0;
-    document.getElementById('input_daysOff').value = 20;
+    var _el_input_desiredIncome = document.getElementById('input_desiredIncome');
+    _el_input_desiredIncome.value = (_el_input_desiredIncome.dataset && _el_input_desiredIncome.dataset.default !== undefined) ? _el_input_desiredIncome.dataset.default : (_el_input_desiredIncome.getAttribute('value') || '');
+    var _el_input_taxRate = document.getElementById('input_taxRate');
+    _el_input_taxRate.value = (_el_input_taxRate.dataset && _el_input_taxRate.dataset.default !== undefined) ? _el_input_taxRate.dataset.default : (_el_input_taxRate.getAttribute('value') || '');
+    var _el_input_businessExpenses = document.getElementById('input_businessExpenses');
+    _el_input_businessExpenses.value = (_el_input_businessExpenses.dataset && _el_input_businessExpenses.dataset.default !== undefined) ? _el_input_businessExpenses.dataset.default : (_el_input_businessExpenses.getAttribute('value') || '');
+    var _el_input_billableHoursPerWeek = document.getElementById('input_billableHoursPerWeek');
+    _el_input_billableHoursPerWeek.value = (_el_input_billableHoursPerWeek.dataset && _el_input_billableHoursPerWeek.dataset.default !== undefined) ? _el_input_billableHoursPerWeek.dataset.default : (_el_input_billableHoursPerWeek.getAttribute('value') || '');
+    var _el_input_weeksPerYear = document.getElementById('input_weeksPerYear');
+    _el_input_weeksPerYear.value = (_el_input_weeksPerYear.dataset && _el_input_weeksPerYear.dataset.default !== undefined) ? _el_input_weeksPerYear.dataset.default : (_el_input_weeksPerYear.getAttribute('value') || '');
+    var _el_input_nonBillableHours = document.getElementById('input_nonBillableHours');
+    _el_input_nonBillableHours.value = (_el_input_nonBillableHours.dataset && _el_input_nonBillableHours.dataset.default !== undefined) ? _el_input_nonBillableHours.dataset.default : (_el_input_nonBillableHours.getAttribute('value') || '');
+    var _el_input_hourlyRate = document.getElementById('input_hourlyRate');
+    _el_input_hourlyRate.value = (_el_input_hourlyRate.dataset && _el_input_hourlyRate.dataset.default !== undefined) ? _el_input_hourlyRate.dataset.default : (_el_input_hourlyRate.getAttribute('value') || '');
+    var _el_input_daysOff = document.getElementById('input_daysOff');
+    _el_input_daysOff.value = (_el_input_daysOff.dataset && _el_input_daysOff.dataset.default !== undefined) ? _el_input_daysOff.dataset.default : (_el_input_daysOff.getAttribute('value') || '');
     updateTool();
   }
 
@@ -355,9 +361,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

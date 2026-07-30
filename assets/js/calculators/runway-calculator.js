@@ -14,7 +14,7 @@
       monthlyRevenue: monthlyRevenue,
       monthlyExpenses: monthlyExpenses,
       growthRate: growthRate / 100
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -55,7 +55,7 @@
         zeroCashMonth: 'Default (Profitable)',
         runwayStatus: '🟢 Profitable / Cash Flow Positive',
         monthlyData: []
-      };
+      }
     }
 
     var months = 0;
@@ -107,7 +107,7 @@
       zeroCashMonth: zeroCashDate,
       runwayStatus: status,
       monthlyData: monthlyData
-    };
+    }
   }
 
   function updateTool() {
@@ -193,7 +193,7 @@
             x: { ticks: { color: '#8899aa', maxTicksLimit: 12 } }
           }
         }
-      };
+      }
     }
 
     if (tab === 'burnVsRev') {
@@ -233,7 +233,7 @@
             x: { ticks: { color: '#8899aa', maxTicksLimit: 12 } }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -257,6 +257,6 @@
   window.switchChartTab = switchChartTab;
 
   document.addEventListener('DOMContentLoaded', function() {
-    setTimeout(function() { updateTool(); }, 150);
+        updateTool();;
   });
 })();

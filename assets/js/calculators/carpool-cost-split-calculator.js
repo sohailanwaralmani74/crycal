@@ -10,7 +10,7 @@
       monthly_tolls_parking: parseFloat(document.getElementById('input_monthly_tolls_parking').value) || 100,
       wear_tear_rate: parseFloat(document.getElementById('input_wear_tear_rate').value) || 0.15,
       num_riders: parseInt(document.getElementById('input_num_riders').value) || 4
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -58,7 +58,7 @@
       cost_per_rider_daily: cost_per_rider_daily,
       driver_reimbursement: driver_reimbursement,
       ratio_text: fuel_pct.toFixed(0) + '% Fuel / ' + wear_pct.toFixed(0) + '% Wear'
-    };
+    }
   }
 
   function updateTool() {
@@ -79,8 +79,7 @@
         parseFloat(inp.monthly_tolls_parking.toFixed(2)),
         parseFloat(res.cost_per_rider_monthly.toFixed(2))
       ]
-    };
-
+    }
     updateCharts(chartData);
 
     if (typeof window.logHistory === 'function') {

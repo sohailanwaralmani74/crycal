@@ -75,7 +75,7 @@
       arpa: arpa,
       annualArpa: annualArpa,
       arpuPerSeat: arpuPerSeat
-    };
+    }
     updateCharts(lastChartData);
 
     if (typeof window.logHistory === 'function') {
@@ -121,7 +121,7 @@
           plugins: { legend: { display: false } },
           scales: { y: { beginAtZero: true, ticks: { color: '#8899aa' } }, x: { ticks: { color: '#8899aa' } } }
         }
-      };
+      }
     }
     if (tab === 'tierComparison') {
       return {
@@ -140,7 +140,7 @@
           plugins: { legend: { display: false } },
           scales: { y: { beginAtZero: true, ticks: { color: '#8899aa' } }, x: { ticks: { color: '#8899aa' } } }
         }
-      };
+      }
     }
     return null;
 
@@ -157,9 +157,12 @@
 
   function resetTool() {
 
-    document.getElementById('input_mrr').value = 120000;
-    document.getElementById('input_accounts').value = 200;
-    document.getElementById('input_seatsPerAccount').value = 15;
+    var _el_input_mrr = document.getElementById('input_mrr');
+    _el_input_mrr.value = (_el_input_mrr.dataset && _el_input_mrr.dataset.default !== undefined) ? _el_input_mrr.dataset.default : (_el_input_mrr.getAttribute('value') || '');
+    var _el_input_accounts = document.getElementById('input_accounts');
+    _el_input_accounts.value = (_el_input_accounts.dataset && _el_input_accounts.dataset.default !== undefined) ? _el_input_accounts.dataset.default : (_el_input_accounts.getAttribute('value') || '');
+    var _el_input_seatsPerAccount = document.getElementById('input_seatsPerAccount');
+    _el_input_seatsPerAccount.value = (_el_input_seatsPerAccount.dataset && _el_input_seatsPerAccount.dataset.default !== undefined) ? _el_input_seatsPerAccount.dataset.default : (_el_input_seatsPerAccount.getAttribute('value') || '');
     updateTool();
 
   }
@@ -174,9 +177,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

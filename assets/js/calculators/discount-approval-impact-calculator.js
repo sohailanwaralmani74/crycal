@@ -38,7 +38,7 @@
       base: parseFloat(document.getElementById('input_base_price')?.value) || 0,
       disc: parseFloat(document.getElementById('input_discount_percent')?.value) || 0,
       vol: parseFloat(document.getElementById('input_volume')?.value) || 0
-    };
+    }
   }
 
   function updateTool() {

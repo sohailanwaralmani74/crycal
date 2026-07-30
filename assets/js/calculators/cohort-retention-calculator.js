@@ -14,7 +14,7 @@
       month3Active: parseFloat(document.getElementById('input_month3Active').value) || 0,
       month6Active: parseFloat(document.getElementById('input_month6Active').value) || 0,
       month12Active: parseFloat(document.getElementById('input_month12Active').value) || 0
-    };
+    }
   }
 
   function formatPercentage(value) {

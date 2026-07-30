@@ -17,7 +17,7 @@
       annualReturn: parseFloat(document.getElementById('input_annualReturn').value) || 0,
       contributionFrequency: document.getElementById('input_contributionFrequency').value || 'monthly',
       compoundingFrequency: document.getElementById('input_compoundingFrequency').value || 'monthly'
-    };
+    }
   }
 
   // ── Get periods per year ──
@@ -26,7 +26,7 @@
       'monthly': 12,
       'quarterly': 4,
       'yearly': 1
-    };
+    }
     return map[frequency] || 12;
   }
 
@@ -38,7 +38,7 @@
       'quarterly': 4,
       'semi-annually': 2,
       'annually': 1
-    };
+    }
     return map[frequency] || 12;
   }
 
@@ -116,7 +116,7 @@
       totalInterest: totalInterest,
       growthData: growthData,
       totalPeriods: totalPeriods
-    };
+    }
   }
 
   // ── Main Update ──
@@ -169,7 +169,7 @@
         requiredContribution: requiredContribution,
         totalContributions: totalContributions,
         totalInterest: totalInterest
-      };
+      }
       window.logHistory(snapshot);
     }
     if (typeof window.renderPresetDropdown === 'function') {
@@ -216,7 +216,7 @@
               title: { display: true, text: 'No data', font: { size: 14 } }
             }
           }
-        };
+        }
       }
 
       var labels = growthData.map(function(d) { return d.period; });
@@ -283,7 +283,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -297,10 +297,14 @@
 
   // ── Reset Tool ──
   function resetTool() {
-    document.getElementById('input_targetAmount').value = 10000;
-    document.getElementById('input_currentSavings').value = 0;
-    document.getElementById('input_timeYears').value = 2;
-    document.getElementById('input_annualReturn').value = 4.0;
+    var _el_input_targetAmount = document.getElementById('input_targetAmount');
+    _el_input_targetAmount.value = (_el_input_targetAmount.dataset && _el_input_targetAmount.dataset.default !== undefined) ? _el_input_targetAmount.dataset.default : (_el_input_targetAmount.getAttribute('value') || '');
+    var _el_input_currentSavings = document.getElementById('input_currentSavings');
+    _el_input_currentSavings.value = (_el_input_currentSavings.dataset && _el_input_currentSavings.dataset.default !== undefined) ? _el_input_currentSavings.dataset.default : (_el_input_currentSavings.getAttribute('value') || '');
+    var _el_input_timeYears = document.getElementById('input_timeYears');
+    _el_input_timeYears.value = (_el_input_timeYears.dataset && _el_input_timeYears.dataset.default !== undefined) ? _el_input_timeYears.dataset.default : (_el_input_timeYears.getAttribute('value') || '');
+    var _el_input_annualReturn = document.getElementById('input_annualReturn');
+    _el_input_annualReturn.value = (_el_input_annualReturn.dataset && _el_input_annualReturn.dataset.default !== undefined) ? _el_input_annualReturn.dataset.default : (_el_input_annualReturn.getAttribute('value') || '');
     document.getElementById('input_contributionFrequency').value = 'monthly';
     document.getElementById('input_compoundingFrequency').value = 'monthly';
     if (typeof window.updateTool === 'function') window.updateTool();
@@ -317,9 +321,8 @@
       var defaultVal = el.dataset.default || el.getAttribute('value') || '';
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
     var picker = document.getElementById('baseCurrency');
     if (picker) {
       picker.addEventListener('change', function() {

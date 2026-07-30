@@ -131,11 +131,11 @@ faq:
   - question: "What is 1-foot rollout in 0-60 testing?"
     answer: "Drag strip timing equipment allows 1 foot of rolling distance before starting the timer, which subtracts approximately 0.2 to 0.3 seconds from raw standing start times."
   - question: "What power-to-weight ratio is required for a sub-4.0 second 0-60 time?"
-    answer: "Achieving sub-4.0 second 0-60 mph acceleration generally requires a weight-to-power ratio below 9.0 lbs/hp along with performance tires or AWD traction."
+    answer: "Achieving a sub-4.0 second 0-60 mph acceleration generally requires a weight-to-power ratio below 9.0 lbs/hp along with performance tires or AWD traction."
   - question: "How does vehicle weight impact acceleration?"
-    answer: "According to Newton's Second Law ($F = ma$), reducing vehicle mass increases acceleration for any given thrust force."
+    answer: "According to Newton's Second Law ($F = ma$), a vehicle's acceleration is inversely proportional to its mass, meaning reducing vehicle weight increases acceleration for any given thrust force."
   - question: "Does the 0-60 mph estimator store my data?"
-    answer: "No. All calculations run 100% locally within your web browser."
+    answer: "The 0-60 mph estimator runs all calculations 100% locally within your web browser without storing, transmitting, or logging your vehicle data."
 
 ---
 
@@ -271,12 +271,12 @@ Drag strip timing equipment allows 1 foot of rolling distance before starting th
 
 ### What power-to-weight ratio is required for a sub-4.0 second 0-60 time?
 
-Achieving sub-4.0 second 0-60 mph acceleration generally requires a weight-to-power ratio below 9.0 lbs/hp along with performance tires or AWD traction.
+Achieving a sub-4.0 second 0-60 mph acceleration generally requires a weight-to-power ratio below 9.0 lbs/hp along with performance tires or AWD traction.
 
 ### How does vehicle weight impact acceleration?
 
-According to Newton's Second Law ($F = ma$), reducing vehicle mass increases acceleration for any given thrust force.
+According to Newton's Second Law ($F = ma$), a vehicle's acceleration is inversely proportional to its mass, meaning reducing vehicle weight increases acceleration for any given thrust force.
 
 ### Does the 0-60 mph estimator store my data?
 
-No. All calculations run 100% locally within your web browser.
+The 0-60 mph estimator runs all calculations 100% locally within your web browser without storing, transmitting, or logging your vehicle data.

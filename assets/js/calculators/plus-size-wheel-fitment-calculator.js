@@ -9,7 +9,7 @@
       target_upsize: parseInt(document.getElementById('input_target_upsize').value) || 1,
       new_width: parseFloat(document.getElementById('input_new_width').value) || 225,
       new_aspect: parseFloat(document.getElementById('input_new_aspect').value) || 45
-    };
+    }
   }
 
   function setOutputText(id, text) {
@@ -47,7 +47,7 @@
       pct_diff: pct_diff,
       speedo_60: speedo_60,
       status: status
-    };
+    }
   }
 
   function updateTool() {
@@ -63,8 +63,7 @@
     var chartData = {
       labels: ['OEM Diameter (in)', 'Plus Sized Diameter (in)'],
       values: [parseFloat(res.oem_diam_in.toFixed(2)), parseFloat(res.new_diam_in.toFixed(2))]
-    };
-
+    }
     updateCharts(chartData);
 
     if (typeof window.logHistory === 'function') {

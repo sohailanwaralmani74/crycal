@@ -14,7 +14,7 @@
       annualRate: parseFloat(document.getElementById('input_annualRate').value) || 0,
       targetTime: parseFloat(document.getElementById('input_targetTime').value) || 0,
       principal: parseFloat(document.getElementById('input_principal').value) || 0
-    };
+    }
   }
 
   // ── Calculate Time to Double (Exact) ──
@@ -52,8 +52,7 @@
       exactTime: 0,
       exactRate: 0,
       yearData: []
-    };
-
+    }
     // Mode 1: Calculate time to double (targetTime = 0)
     if (targetTime === 0) {
       result.ruleOf72Estimate = rate > 0 ? 72 / rate : Infinity;
@@ -164,7 +163,7 @@
         annualRate: inputs.annualRate,
         targetTime: inputs.targetTime,
         principal: inputs.principal
-      };
+      }
       window.logHistory(inputSnapshot);
     }
 
@@ -233,7 +232,7 @@
               }
             }
           }
-        };
+        }
       }
 
       var labels = yearData.map(function(d) { return d.year.toFixed(1); });
@@ -287,7 +286,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'breakdown') {
@@ -315,7 +314,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     return null;
@@ -358,11 +357,10 @@
       }
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') {
-        window.updateTool();
-      }
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') {
+      window.updateTool();
+    }
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

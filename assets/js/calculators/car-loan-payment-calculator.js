@@ -11,7 +11,7 @@
       interestRate: parseFloat(document.getElementById('input_interestRate').value) || 0,
       loanTermMonths: parseInt(document.getElementById('input_loanTermMonths').value, 10) || 60,
       salesTaxRate: parseFloat(document.getElementById('input_salesTaxRate').value) || 0
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -86,7 +86,7 @@
       totalSalesTax: salesTax,
       totalCost: totalCost,
       schedule: schedule
-    };
+    }
   }
 
   function updateTool() {
@@ -152,7 +152,7 @@
             title: { display: true, text: 'Auto Financing Cost Distribution' }
           }
         }
-      };
+      }
     } else if (tab === 'schedule') {
       var labels = res.schedule.map(function(s) { return 'Mo ' + s.month; });
       var balances = res.schedule.map(function(s) { return Math.round(s.balance); });
@@ -184,7 +184,7 @@
             }
           }
         }
-      };
+      }
     }
     return null;
   }

@@ -8,7 +8,7 @@
       totalGiftAmount: parseFloat(document.getElementById('input_totalGiftAmount').value) || 0,
       giftYear: document.getElementById('input_giftYear').value,
       isGiftSplitting: document.getElementById('input_isGiftSplitting').value
-    };
+    }
   }
 
   function formatCurrencyLocal(amount) {
@@ -52,7 +52,7 @@
       taxFreeExclusion: taxFreeExclusion,
       reportable: reportable,
       gift: gift
-    };
+    }
   }
 
   function updateTool() {
@@ -111,7 +111,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     return null;

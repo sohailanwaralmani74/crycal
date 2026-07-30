@@ -11,7 +11,7 @@
       spouseOwnPia: spouseOwnPia,
       claimingAge: claimingAgeMonths,
       fullRetirementAge: fullRetirementAge
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -81,7 +81,7 @@
       higherOfTwo: higherOfTwo,
       reductionPercent: reductionPercent,
       error: null
-    };
+    }
   }
 
   function updateTool() {
@@ -114,10 +114,14 @@
   }
 
   function resetTool() {
-    document.getElementById('input_workerPia').value = 2800;
-    document.getElementById('input_spouseOwnPia').value = 0;
-    document.getElementById('input_claimingAgeMonths').value = 67;
-    document.getElementById('input_fullRetirementAge').value = 67;
+    var _el_input_workerPia = document.getElementById('input_workerPia');
+    _el_input_workerPia.value = (_el_input_workerPia.dataset && _el_input_workerPia.dataset.default !== undefined) ? _el_input_workerPia.dataset.default : (_el_input_workerPia.getAttribute('value') || '');
+    var _el_input_spouseOwnPia = document.getElementById('input_spouseOwnPia');
+    _el_input_spouseOwnPia.value = (_el_input_spouseOwnPia.dataset && _el_input_spouseOwnPia.dataset.default !== undefined) ? _el_input_spouseOwnPia.dataset.default : (_el_input_spouseOwnPia.getAttribute('value') || '');
+    var _el_input_claimingAgeMonths = document.getElementById('input_claimingAgeMonths');
+    _el_input_claimingAgeMonths.value = (_el_input_claimingAgeMonths.dataset && _el_input_claimingAgeMonths.dataset.default !== undefined) ? _el_input_claimingAgeMonths.dataset.default : (_el_input_claimingAgeMonths.getAttribute('value') || '');
+    var _el_input_fullRetirementAge = document.getElementById('input_fullRetirementAge');
+    _el_input_fullRetirementAge.value = (_el_input_fullRetirementAge.dataset && _el_input_fullRetirementAge.dataset.default !== undefined) ? _el_input_fullRetirementAge.dataset.default : (_el_input_fullRetirementAge.getAttribute('value') || '');
     updateTool();
   }
 
@@ -130,9 +134,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

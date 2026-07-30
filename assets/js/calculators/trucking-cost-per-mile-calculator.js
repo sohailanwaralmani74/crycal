@@ -30,7 +30,7 @@
       loadMiles: loadMiles,
       loadRate: loadRate,
       desiredMargin: desiredMargin / 100
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -104,8 +104,7 @@
       'Maintenance': maintenanceReserve,
       'Tires': tireReplacement,
       'Driver Pay': driverPay
-    };
-
+    }
     return {
       fixedPerDay: fixedPerDay,
       fixedPerMile: fixedPerMile,
@@ -118,7 +117,7 @@
       recommendedRate: recommendedRate,
       chartData: chartData,
       error: null
-    };
+    }
   }
 
   // ── Main Update ──
@@ -169,7 +168,7 @@
 
     var chartPayload = {
       chartData: result.chartData
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -257,7 +256,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -275,17 +274,28 @@
 
   // ── Reset Tool ──
   function resetTool() {
-    document.getElementById('input_truckPayment').value = 1200;
-    document.getElementById('input_insurance').value = 800;
-    document.getElementById('input_fuelPrice').value = 3.50;
-    document.getElementById('input_avgMpg').value = 6.5;
-    document.getElementById('input_maintenanceReserve').value = 0.15;
-    document.getElementById('input_tireReplacement').value = 0.05;
-    document.getElementById('input_driverPay').value = 0.40;
-    document.getElementById('input_totalMiles').value = 10000;
-    document.getElementById('input_loadMiles').value = 500;
-    document.getElementById('input_loadRate').value = 2.50;
-    document.getElementById('input_desiredMargin').value = 15.0;
+    var _el_input_truckPayment = document.getElementById('input_truckPayment');
+    _el_input_truckPayment.value = (_el_input_truckPayment.dataset && _el_input_truckPayment.dataset.default !== undefined) ? _el_input_truckPayment.dataset.default : (_el_input_truckPayment.getAttribute('value') || '');
+    var _el_input_insurance = document.getElementById('input_insurance');
+    _el_input_insurance.value = (_el_input_insurance.dataset && _el_input_insurance.dataset.default !== undefined) ? _el_input_insurance.dataset.default : (_el_input_insurance.getAttribute('value') || '');
+    var _el_input_fuelPrice = document.getElementById('input_fuelPrice');
+    _el_input_fuelPrice.value = (_el_input_fuelPrice.dataset && _el_input_fuelPrice.dataset.default !== undefined) ? _el_input_fuelPrice.dataset.default : (_el_input_fuelPrice.getAttribute('value') || '');
+    var _el_input_avgMpg = document.getElementById('input_avgMpg');
+    _el_input_avgMpg.value = (_el_input_avgMpg.dataset && _el_input_avgMpg.dataset.default !== undefined) ? _el_input_avgMpg.dataset.default : (_el_input_avgMpg.getAttribute('value') || '');
+    var _el_input_maintenanceReserve = document.getElementById('input_maintenanceReserve');
+    _el_input_maintenanceReserve.value = (_el_input_maintenanceReserve.dataset && _el_input_maintenanceReserve.dataset.default !== undefined) ? _el_input_maintenanceReserve.dataset.default : (_el_input_maintenanceReserve.getAttribute('value') || '');
+    var _el_input_tireReplacement = document.getElementById('input_tireReplacement');
+    _el_input_tireReplacement.value = (_el_input_tireReplacement.dataset && _el_input_tireReplacement.dataset.default !== undefined) ? _el_input_tireReplacement.dataset.default : (_el_input_tireReplacement.getAttribute('value') || '');
+    var _el_input_driverPay = document.getElementById('input_driverPay');
+    _el_input_driverPay.value = (_el_input_driverPay.dataset && _el_input_driverPay.dataset.default !== undefined) ? _el_input_driverPay.dataset.default : (_el_input_driverPay.getAttribute('value') || '');
+    var _el_input_totalMiles = document.getElementById('input_totalMiles');
+    _el_input_totalMiles.value = (_el_input_totalMiles.dataset && _el_input_totalMiles.dataset.default !== undefined) ? _el_input_totalMiles.dataset.default : (_el_input_totalMiles.getAttribute('value') || '');
+    var _el_input_loadMiles = document.getElementById('input_loadMiles');
+    _el_input_loadMiles.value = (_el_input_loadMiles.dataset && _el_input_loadMiles.dataset.default !== undefined) ? _el_input_loadMiles.dataset.default : (_el_input_loadMiles.getAttribute('value') || '');
+    var _el_input_loadRate = document.getElementById('input_loadRate');
+    _el_input_loadRate.value = (_el_input_loadRate.dataset && _el_input_loadRate.dataset.default !== undefined) ? _el_input_loadRate.dataset.default : (_el_input_loadRate.getAttribute('value') || '');
+    var _el_input_desiredMargin = document.getElementById('input_desiredMargin');
+    _el_input_desiredMargin.value = (_el_input_desiredMargin.dataset && _el_input_desiredMargin.dataset.default !== undefined) ? _el_input_desiredMargin.dataset.default : (_el_input_desiredMargin.getAttribute('value') || '');
     updateTool();
   }
 
@@ -301,9 +311,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

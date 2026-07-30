@@ -116,19 +116,19 @@ howto:
 
 faq:
   - question: "How many 80lb bags of concrete do I need for 1 cubic yard?"
-  - answer: "You need 45 bags of 80 lb pre-mix concrete to equal 1 cubic yard (27 cubic feet) of concrete."
+    answer: "You need 45 bags of 80 lb pre-mix concrete to equal 1 cubic yard (27 cubic feet) of concrete."
   - question: "How many 60lb bags of concrete make 1 cubic yard?"
-  - answer: "You need 60 bags of 60 lb pre-mix concrete to equal 1 cubic yard of concrete."
+    answer: "You need 60 bags of 60 lb pre-mix concrete to equal 1 cubic yard of concrete."
   - question: "What is the yield of an 80lb concrete bag?"
-  - answer: "An 80 lb bag of pre-mix concrete yields approximately 0.60 cubic feet (0.022 cubic yards) of mixed wet concrete."
+    answer: "An 80 lb bag of pre-mix concrete yields approximately 0.60 cubic feet (0.022 cubic yards) of mixed wet concrete."
   - question: "What is the yield of a 60lb concrete bag?"
-  - answer: "A 60 lb bag of pre-mix concrete yields approximately 0.45 cubic feet (0.017 cubic yards) of mixed wet concrete."
+    answer: "A 60 lb bag of pre-mix concrete yields approximately 0.45 cubic feet (0.017 cubic yards) of mixed wet concrete."
   - question: "Are 80lb bags cheaper per cubic foot than 60lb bags?"
-  - answer: "Yes, 80 lb bags almost always offer a lower price per cubic foot of concrete compared to 60 lb or 40 lb bags."
+    answer: "Yes, 80 lb bags almost always offer a lower price per cubic foot of concrete compared to 60 lb or 40 lb bags."
   - question: "When should I switch from bags to ready-mix truck delivery?"
-  - answer: "For projects requiring more than 1 cubic yard (45 bags of 80lb concrete), ready-mix truck delivery is faster, less labor-intensive, and often cheaper."
+    answer: "For projects requiring more than 1 cubic yard (45 bags of 80lb concrete), ready-mix truck delivery is faster, less labor-intensive, and often cheaper than bags."
   - question: "Is my calculation data saved?"
-  - answer: "No. All calculation logic executes locally inside your web browser."
+    answer: "Your calculation data is never saved, because all calculation logic executes locally inside your web browser."
 ---
 
 # Concrete Bag Calculator - Calculate Volume, Bags & Materials
@@ -203,5 +203,8 @@ Yes, 80 lb bags almost always offer a lower price per cubic foot of concrete com
 
 ### When should I switch from bags to ready-mix truck delivery?
 
-For projects requiring more than 1 cubic yard (45 bags of 80lb concrete), ready-mix truck delivery is faster, less labor-intensive, and often cheaper.
+For projects requiring more than 1 cubic yard (45 bags of 80lb concrete), ready-mix truck delivery is faster, less labor-intensive, and often cheaper than bags.
 
+### Is my calculation data saved?
+
+Your calculation data is never saved, because all calculation logic executes locally inside your web browser.

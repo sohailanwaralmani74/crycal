@@ -11,7 +11,7 @@
       armIntroYears: parseFloat(document.getElementById('input_armIntroYears').value) || 5,
       armExpectedRateIncrease: parseFloat(document.getElementById('input_armExpectedRateIncrease').value) || 0,
       armMaxCapRate: parseFloat(document.getElementById('input_armMaxCapRate').value) || 0
-    };
+    }
   }
 
   function calculateMonthlyPayment(P, annualRate, months) {
@@ -114,7 +114,7 @@
       totalFixedInterest: totalFixedInterest,
       totalArmInterest: totalArmInterest,
       yearlyData: yearlyData
-    };
+    }
   }
 
   function updateTool() {
@@ -201,7 +201,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'cumulative') {
@@ -238,7 +238,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;

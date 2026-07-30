@@ -19,7 +19,7 @@
       numberVehicles: parseFloat(document.getElementById('input_numberVehicles').value) || 0,
       umbrellaDeductible: parseFloat(document.getElementById('input_umbrellaDeductible').value) || 0,
       riskFactors: document.getElementById('input_riskFactors').value || 'moderate'
-    };
+    }
   }
 
   // ── Get Risk Multiplier ──
@@ -28,7 +28,7 @@
       'low': 1.0,
       'moderate': 1.2,
       'high': 1.5
-    };
+    }
     return map[risk] || 1.2;
   }
 
@@ -115,7 +115,7 @@
         annualIncome: inputs.annualIncome,
         recommendedCoverage: recommendedCoverage,
         estimatedPremium: estimatedPremium
-      };
+      }
       window.logHistory(snapshot);
     }
     if (typeof window.renderPresetDropdown === 'function') {
@@ -168,7 +168,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'breakdown') {
@@ -196,7 +196,7 @@
               title: { display: true, text: 'No data to display', font: { size: 14 } }
             }
           }
-        };
+        }
       }
 
       return {
@@ -229,7 +229,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     return null;
@@ -243,13 +243,20 @@
 
   // ── Reset Tool ──
   function resetTool() {
-    document.getElementById('input_netWorth').value = 500000;
-    document.getElementById('input_annualIncome').value = 100000;
-    document.getElementById('input_homeLiability').value = 300000;
-    document.getElementById('input_autoLiability').value = 300000;
-    document.getElementById('input_numberProperties').value = 1;
-    document.getElementById('input_numberVehicles').value = 2;
-    document.getElementById('input_umbrellaDeductible').value = 0;
+    var _el_input_netWorth = document.getElementById('input_netWorth');
+    _el_input_netWorth.value = (_el_input_netWorth.dataset && _el_input_netWorth.dataset.default !== undefined) ? _el_input_netWorth.dataset.default : (_el_input_netWorth.getAttribute('value') || '');
+    var _el_input_annualIncome = document.getElementById('input_annualIncome');
+    _el_input_annualIncome.value = (_el_input_annualIncome.dataset && _el_input_annualIncome.dataset.default !== undefined) ? _el_input_annualIncome.dataset.default : (_el_input_annualIncome.getAttribute('value') || '');
+    var _el_input_homeLiability = document.getElementById('input_homeLiability');
+    _el_input_homeLiability.value = (_el_input_homeLiability.dataset && _el_input_homeLiability.dataset.default !== undefined) ? _el_input_homeLiability.dataset.default : (_el_input_homeLiability.getAttribute('value') || '');
+    var _el_input_autoLiability = document.getElementById('input_autoLiability');
+    _el_input_autoLiability.value = (_el_input_autoLiability.dataset && _el_input_autoLiability.dataset.default !== undefined) ? _el_input_autoLiability.dataset.default : (_el_input_autoLiability.getAttribute('value') || '');
+    var _el_input_numberProperties = document.getElementById('input_numberProperties');
+    _el_input_numberProperties.value = (_el_input_numberProperties.dataset && _el_input_numberProperties.dataset.default !== undefined) ? _el_input_numberProperties.dataset.default : (_el_input_numberProperties.getAttribute('value') || '');
+    var _el_input_numberVehicles = document.getElementById('input_numberVehicles');
+    _el_input_numberVehicles.value = (_el_input_numberVehicles.dataset && _el_input_numberVehicles.dataset.default !== undefined) ? _el_input_numberVehicles.dataset.default : (_el_input_numberVehicles.getAttribute('value') || '');
+    var _el_input_umbrellaDeductible = document.getElementById('input_umbrellaDeductible');
+    _el_input_umbrellaDeductible.value = (_el_input_umbrellaDeductible.dataset && _el_input_umbrellaDeductible.dataset.default !== undefined) ? _el_input_umbrellaDeductible.dataset.default : (_el_input_umbrellaDeductible.getAttribute('value') || '');
     document.getElementById('input_riskFactors').value = 'moderate';
     if (typeof window.updateTool === 'function') window.updateTool();
   }
@@ -265,9 +272,8 @@
       var defaultVal = el.dataset.default || el.getAttribute('value') || '';
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
     var picker = document.getElementById('baseCurrency');
     if (picker) {
       picker.addEventListener('change', function() {

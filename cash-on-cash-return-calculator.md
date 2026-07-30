@@ -108,19 +108,19 @@ howto:
 
 faq:
   - question: "What is Cash-on-Cash Return in real estate?"
-    answer: "Cash-on-Cash return measures the annual pre-tax cash flow earned on a rental property relative to the total out-of-pocket cash invested."
+    answer: "Cash-on-Cash Return in real estate measures the annual pre-tax cash flow earned on a rental property relative to the total out-of-pocket cash invested."
   - question: "How does Cash-on-Cash return differ from Cap Rate?"
-    answer: "Cap rate evaluates property performance assuming an all-cash purchase without debt, whereas Cash-on-Cash return measures actual cash yield after mortgage payments."
+    answer: "Cash-on-Cash return measures actual cash yield after mortgage payments, whereas Cap Rate evaluates property performance assuming an all-cash purchase without debt."
   - question: "What is considered a good Cash-on-Cash return?"
-    answer: "Real estate investors generally target a Cash-on-Cash return between 8% and 12%, depending on property location, asset class, and market interest rates."
+    answer: "Real estate investors generally consider a good Cash-on-Cash return to be between 8% and 12%, depending on property location, asset class, and market interest rates."
   - question: "What costs should be included in total initial cash invested?"
-    answer: "Initial cash invested must include down payment, lender origination fees, closing costs, title insurance, and initial renovation or rehab costs."
+    answer: "Total initial cash invested must include the down payment, lender origination fees, closing costs, title insurance, and initial renovation or rehab costs."
   - question: "How does leverage affect Cash-on-Cash return?"
-    answer: "Mortgage leverage amplifies Cash-on-Cash return when property NOI yields exceed interest rates, allowing investors to achieve higher yields on smaller cash outlays."
+    answer: "Mortgage leverage amplifies Cash-on-Cash return when property net operating income yields exceed interest rates, allowing investors to achieve higher yields on smaller cash outlays."
   - question: "Does Cash-on-Cash return include property appreciation or tax benefits?"
-    answer: "No. Cash-on-Cash return strictly isolates immediate cash flow yield, excluding principal reduction, property appreciation, or tax depreciation benefits."
+    answer: "Cash-on-Cash return does not include property appreciation or tax benefits; it strictly isolates immediate cash flow yield, excluding principal reduction and tax depreciation benefits."
   - question: "Is my property investment data private?"
-    answer: "Yes, 100%. All calculation algorithms execute locally inside your web browser. No property address, purchase price, or cash flow figures are transmitted or stored."
+    answer: "Your property investment data is 100% private because all calculation algorithms execute locally inside your web browser. No property address, purchase price, or cash flow figures are transmitted or stored."
 ---
 
 # Cash on Cash Return Calculator - Calculate Return, Yield & Portfolio Risk
@@ -191,28 +191,28 @@ The benchmark table below compares Cash-on-Cash yields and net cash flow across 
 
 ### What is Cash-on-Cash Return in real estate?
 
-Cash-on-Cash return measures the annual pre-tax cash flow earned on a rental property relative to the total out-of-pocket cash invested.
+Cash-on-Cash Return in real estate measures the annual pre-tax cash flow earned on a rental property relative to the total out-of-pocket cash invested.
 
 ### How does Cash-on-Cash return differ from Cap Rate?
 
-Cap rate evaluates property performance assuming an all-cash purchase without debt, whereas Cash-on-Cash return measures actual cash yield after mortgage payments.
+Cash-on-Cash return measures actual cash yield after mortgage payments, whereas Cap Rate evaluates property performance assuming an all-cash purchase without debt.
 
 ### What is considered a good Cash-on-Cash return?
 
-Real estate investors generally target a Cash-on-Cash return between 8% and 12%, depending on property location, asset class, and market interest rates.
+Real estate investors generally consider a good Cash-on-Cash return to be between 8% and 12%, depending on property location, asset class, and market interest rates.
 
 ### What costs should be included in total initial cash invested?
 
-Initial cash invested must include down payment, lender origination fees, closing costs, title insurance, and initial renovation or rehab costs.
+Total initial cash invested must include the down payment, lender origination fees, closing costs, title insurance, and initial renovation or rehab costs.
 
 ### How does leverage affect Cash-on-Cash return?
 
-Mortgage leverage amplifies Cash-on-Cash return when property NOI yields exceed interest rates, allowing investors to achieve higher yields on smaller cash outlays.
+Mortgage leverage amplifies Cash-on-Cash return when property net operating income yields exceed interest rates, allowing investors to achieve higher yields on smaller cash outlays.
 
 ### Does Cash-on-Cash return include property appreciation or tax benefits?
 
-No. Cash-on-Cash return strictly isolates immediate cash flow yield, excluding principal reduction, property appreciation, or tax depreciation benefits.
+Cash-on-Cash return does not include property appreciation or tax benefits; it strictly isolates immediate cash flow yield, excluding principal reduction and tax depreciation benefits.
 
 ### Is my property investment data private?
 
-Yes, 100%. All calculation algorithms execute locally inside your web browser. No property address, purchase price, or cash flow figures are transmitted or stored.
+Your property investment data is 100% private because all calculation algorithms execute locally inside your web browser. No property address, purchase price, or cash flow figures are transmitted or stored.

@@ -14,7 +14,7 @@
       billableHours: billableHours,
       adminHours: adminHours,
       hourlyBillingRate: hourlyBillingRate
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -62,7 +62,7 @@
       billableHours: billable,
       adminHours: inputs.adminHours,
       error: null
-    };
+    }
   }
 
   function updateTool() {
@@ -89,7 +89,7 @@
       adminHours: result.adminHours,
       weeklyRevenue: result.weeklyBilledRevenue,
       annualRevenue: result.annualBilledRevenue
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -137,7 +137,7 @@
             title: { display: true, text: 'Weekly Work Hours Split', color: '#e8edf0' }
           }
         }
-      };
+      }
     }
 
     if (tab === 'revenue') {
@@ -168,7 +168,7 @@
             x: { ticks: { color: '#8899aa' } }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -181,10 +181,14 @@
   }
 
   function resetTool() {
-    document.getElementById('input_totalWeeklyHours').value = 40;
-    document.getElementById('input_billableHours').value = 28;
-    document.getElementById('input_adminHours').value = 12;
-    document.getElementById('input_hourlyBillingRate').value = 150;
+    var _el_input_totalWeeklyHours = document.getElementById('input_totalWeeklyHours');
+    _el_input_totalWeeklyHours.value = (_el_input_totalWeeklyHours.dataset && _el_input_totalWeeklyHours.dataset.default !== undefined) ? _el_input_totalWeeklyHours.dataset.default : (_el_input_totalWeeklyHours.getAttribute('value') || '');
+    var _el_input_billableHours = document.getElementById('input_billableHours');
+    _el_input_billableHours.value = (_el_input_billableHours.dataset && _el_input_billableHours.dataset.default !== undefined) ? _el_input_billableHours.dataset.default : (_el_input_billableHours.getAttribute('value') || '');
+    var _el_input_adminHours = document.getElementById('input_adminHours');
+    _el_input_adminHours.value = (_el_input_adminHours.dataset && _el_input_adminHours.dataset.default !== undefined) ? _el_input_adminHours.dataset.default : (_el_input_adminHours.getAttribute('value') || '');
+    var _el_input_hourlyBillingRate = document.getElementById('input_hourlyBillingRate');
+    _el_input_hourlyBillingRate.value = (_el_input_hourlyBillingRate.dataset && _el_input_hourlyBillingRate.dataset.default !== undefined) ? _el_input_hourlyBillingRate.dataset.default : (_el_input_hourlyBillingRate.getAttribute('value') || '');
     updateTool();
   }
 
@@ -198,9 +202,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

@@ -20,7 +20,7 @@
       weeksPerYear: parseFloat(document.getElementById('input_weeksPerYear').value) || 52,
       taxRate: parseFloat(document.getElementById('input_taxRate').value) || 0,
       otherDeductions: parseFloat(document.getElementById('input_otherDeductions').value) || 0
-    };
+    }
   }
 
   // ── Convert any amount at a given pay period into an annual figure ──
@@ -67,7 +67,7 @@
       annualOtherDeductions: annualOtherDeductions,
       totalDeductions: totalDeductions,
       takeHomePay: takeHomePay
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -148,7 +148,7 @@
           plugins: { legend: { display: false }, title: { display: true, text: 'Pay by Period', font: { size: 14 } } },
           scales: { y: { beginAtZero: true, ticks: { callback: function (v) { return symbol + v.toFixed(0); } } } }
         }
-      };
+      }
     }
 
     if (tab === 'raise') {
@@ -174,7 +174,7 @@
           plugins: { legend: { display: false }, title: { display: true, text: 'Annual Salary at Different Raise Percentages', font: { size: 14 } } },
           scales: { y: { beginAtZero: true, ticks: { callback: function (v) { return symbol + v.toFixed(0); } } } }
         }
-      };
+      }
     }
 
     if (tab === 'workdays') {
@@ -201,7 +201,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'takehome') {
@@ -228,7 +228,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     return null;

@@ -49,8 +49,7 @@
       'R19': { '16': 77.5,  '24': 118.9 },
       'R30': { '16': 48.75, '24': 74.75 },
       'R38': { '16': 42.8,  '24': 65.6 }
-    };
-
+    }
     var pkgCoverage = (coverageMap[rValue] && coverageMap[rValue][studSpacing]) ? coverageMap[rValue][studSpacing] : 100;
 
     var effectiveSqFt = area * (1 + (wastePct / 100));
@@ -147,7 +146,6 @@
     var target = document.querySelector('.chart-tab[data-tab="' + tabId + '"]');
     if (target) target.classList.add('active');
     calculate();
-  };
-
+  }
   document.addEventListener('DOMContentLoaded', init);
 })();

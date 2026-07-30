@@ -136,9 +136,9 @@ faq:
   - question: "What thickness of closed cell spray foam is needed for a vapor barrier?"
     answer: "Closed cell spray foam functions as a code-compliant vapor retarder/barrier when applied at a minimum thickness of 1.5 to 2.0 inches."
   - question: "Does this calculator include over-spray and stud trimming waste?"
-    answer: "Yes, the calculator includes an adjustable over-spray and wall stud shaving waste allowance (default 10%)."
+    answer: "The spray foam calculator includes an adjustable over-spray and wall stud shaving waste allowance (default 10%)."
   - question: "Is my personal calculation data uploaded anywhere?"
-    answer: "No. All computations process locally inside your Web browser."
+    answer: "All spray foam calculations process locally inside your Web browser, and no personal data is uploaded."
 ---
 
 # Spray Foam Insulation Calculator - Calculate BTU Load & R-Value Insulation
@@ -215,8 +215,8 @@ Closed cell spray foam functions as a code-compliant vapor retarder/barrier when
 
 ### Does this calculator include over-spray and stud trimming waste?
 
-Yes, the calculator includes an adjustable over-spray and wall stud shaving waste allowance (default 10%).
+The spray foam calculator includes an adjustable over-spray and wall stud shaving waste allowance (default 10%).
 
 ### Is my personal calculation data uploaded anywhere?
 
-No. All computations process locally inside your Web browser.
+All spray foam calculations process locally inside your Web browser, and no personal data is uploaded.

@@ -118,7 +118,7 @@ faq:
   - question: "How many rolls of sod do I need for 1,000 square feet?"
     answer: "With a standard 5% waste factor, 1,000 sq ft requires 1,050 sq ft of sod, which equals 105 individual 10 sq ft rolls (or 2.33 pallets, rounded up to 3 pallets)."
   - question: "Why should I add 5% to 10% waste for sod?"
-    answer: "Cutting sod to fit curved garden edges, trees, stepping stones, and fence borders creates non-reusable scrap pieces."
+    answer: "You should add a 5% to 10% waste factor for sod because cutting it to fit curved garden edges, trees, stepping stones, and fence borders creates non-reusable scrap pieces."
   - question: "How much does a pallet of sod cost?"
     answer: "A pallet of sod costs between $180 and $350 depending on grass species (Bermuda, Zoysia, St. Augustine, Tall Fescue, or Kentucky Bluegrass) and regional farm proximity."
   - question: "How much does a pallet of sod weigh?"
@@ -187,7 +187,7 @@ With a standard 5% waste factor, 1,000 sq ft requires 1,050 sq ft of sod, which 
 
 ### Why should I add 5% to 10% waste for sod?
 
-Cutting sod to fit curved garden edges, trees, stepping stones, and fence borders creates non-reusable scrap pieces.
+You should add a 5% to 10% waste factor for sod because cutting it to fit curved garden edges, trees, stepping stones, and fence borders creates non-reusable scrap pieces.
 
 ### How much does a pallet of sod cost?
 

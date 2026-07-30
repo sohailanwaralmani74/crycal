@@ -17,7 +17,7 @@
       exemptions: parseFloat(document.getElementById('input_exemptions').value) || 0,
       timeYears: parseFloat(document.getElementById('input_timeYears').value) || 0,
       annualAppreciation: parseFloat(document.getElementById('input_annualAppreciation').value) || 0
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -94,7 +94,7 @@
         taxRate: inputs.taxRate,
         annualTax: annualTax,
         effectiveTaxRate: effectiveTaxRate
-      };
+      }
       window.logHistory(snapshot);
     }
     if (typeof window.renderPresetDropdown === 'function') {
@@ -141,7 +141,7 @@
               title: { display: true, text: 'Enter years to see tax projection', font: { size: 14 } }
             }
           }
-        };
+        }
       }
 
       var labels = yearData.map(function(d) { return d.year; });
@@ -194,7 +194,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -208,12 +208,18 @@
 
   // ── Reset Tool ──
   function resetTool() {
-    document.getElementById('input_propertyValue').value = 350000;
-    document.getElementById('input_assessmentRatio').value = 100.0;
-    document.getElementById('input_taxRate').value = 1.2;
-    document.getElementById('input_exemptions').value = 0;
-    document.getElementById('input_timeYears').value = 5;
-    document.getElementById('input_annualAppreciation').value = 2.0;
+    var _el_input_propertyValue = document.getElementById('input_propertyValue');
+    _el_input_propertyValue.value = (_el_input_propertyValue.dataset && _el_input_propertyValue.dataset.default !== undefined) ? _el_input_propertyValue.dataset.default : (_el_input_propertyValue.getAttribute('value') || '');
+    var _el_input_assessmentRatio = document.getElementById('input_assessmentRatio');
+    _el_input_assessmentRatio.value = (_el_input_assessmentRatio.dataset && _el_input_assessmentRatio.dataset.default !== undefined) ? _el_input_assessmentRatio.dataset.default : (_el_input_assessmentRatio.getAttribute('value') || '');
+    var _el_input_taxRate = document.getElementById('input_taxRate');
+    _el_input_taxRate.value = (_el_input_taxRate.dataset && _el_input_taxRate.dataset.default !== undefined) ? _el_input_taxRate.dataset.default : (_el_input_taxRate.getAttribute('value') || '');
+    var _el_input_exemptions = document.getElementById('input_exemptions');
+    _el_input_exemptions.value = (_el_input_exemptions.dataset && _el_input_exemptions.dataset.default !== undefined) ? _el_input_exemptions.dataset.default : (_el_input_exemptions.getAttribute('value') || '');
+    var _el_input_timeYears = document.getElementById('input_timeYears');
+    _el_input_timeYears.value = (_el_input_timeYears.dataset && _el_input_timeYears.dataset.default !== undefined) ? _el_input_timeYears.dataset.default : (_el_input_timeYears.getAttribute('value') || '');
+    var _el_input_annualAppreciation = document.getElementById('input_annualAppreciation');
+    _el_input_annualAppreciation.value = (_el_input_annualAppreciation.dataset && _el_input_annualAppreciation.dataset.default !== undefined) ? _el_input_annualAppreciation.dataset.default : (_el_input_annualAppreciation.getAttribute('value') || '');
     if (typeof window.updateTool === 'function') window.updateTool();
   }
 
@@ -228,9 +234,8 @@
       var defaultVal = el.dataset.default || el.getAttribute('value') || '';
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
     var picker = document.getElementById('baseCurrency');
     if (picker) {
       picker.addEventListener('change', function() {

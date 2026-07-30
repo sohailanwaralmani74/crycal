@@ -8,7 +8,7 @@
       vehicle_mpg: parseFloat(document.getElementById('input_vehicle_mpg').value) || 25.0,
       gas_price: parseFloat(document.getElementById('input_gas_price').value) || 3.60,
       num_passengers: parseInt(document.getElementById('input_num_passengers').value) || 3
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -47,7 +47,7 @@
       total_cost: total_cost,
       cost_per_person: cost_per_person,
       cost_per_mile: cost_per_mile
-    };
+    }
   }
 
   function updateTool() {
@@ -70,8 +70,7 @@
     var chartData = {
       labels: passengerLabels,
       values: passengerValues
-    };
-
+    }
     updateCharts(chartData);
 
     if (typeof window.logHistory === 'function') {

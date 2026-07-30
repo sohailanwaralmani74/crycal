@@ -17,7 +17,7 @@
       averageReturn: parseFloat(document.getElementById('input_averageReturn').value) || 0,
       volatility: parseFloat(document.getElementById('input_volatility').value) || 0,
       dcaVsLumpSum: document.getElementById('input_dcaVsLumpSum').value === 'true'
-    };
+    }
   }
 
   // ── Simulate Price Path ──
@@ -110,7 +110,7 @@
       finalPrice: finalPrice,
       prices: prices,
       totalSharesDCA: sharesDCATotal
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -152,7 +152,7 @@
         averageReturn: inputs.averageReturn,
         volatility: inputs.volatility,
         dcaVsLumpSum: inputs.dcaVsLumpSum ? 'Yes' : 'No'
-      };
+      }
       window.logHistory(inputSnapshot);
     }
 
@@ -237,7 +237,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'shares') {
@@ -282,7 +282,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'comparison' && inputs.dcaVsLumpSum && inputs.initialInvestment > 0) {
@@ -320,7 +320,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -363,11 +363,10 @@
       }
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') {
-        window.updateTool();
-      }
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') {
+      window.updateTool();
+    }
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

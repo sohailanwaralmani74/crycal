@@ -12,7 +12,7 @@
       hoursSaved: parseFloat(document.getElementById('input_customerMonthlyHoursSaved').value) || 0,
       hourlyValue: parseFloat(document.getElementById('input_customerHourlyValue').value) || 0,
       valueCapture: (parseFloat(document.getElementById('input_valueCapturePercent').value) || 20) / 100
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -60,7 +60,7 @@
       monthlyValueCreated: monthlyValueCreated,
       optimalTargetPrice: hybridPrice,
       grossMarginAtTarget: grossMarginAtTarget
-    };
+    }
   }
 
   function updateTool() {

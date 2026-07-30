@@ -121,7 +121,7 @@ faq:
   - question: "What internal sales costs should vendors include?"
     answer: "Vendors should include Partner Account Manager (PAM) salaries, deal desk legal costs, solution architect demo support, and partner portal software fees."
   - question: "Is partner payout data kept confidential?"
-    answer: "Yes, 100%. All calculation algorithms execute locally inside your web browser. No partnership agreement data is stored or transmitted."
+    answer: "All partner payout calculation algorithms execute locally inside your web browser, ensuring your partnership agreement data remains 100% confidential and is never stored or transmitted."
 ---
 
 # Channel Partner Sales Split Calculator - Calculate Sales Funnel Conversions
@@ -216,4 +216,4 @@ Vendors should include Partner Account Manager (PAM) salaries, deal desk legal c
 
 ### Is partner payout data kept confidential?
 
-Yes, 100%. All calculation algorithms execute locally inside your web browser. No partnership agreement data is stored or transmitted.
+All partner payout calculation algorithms execute locally inside your web browser, ensuring your partnership agreement data remains 100% confidential and is never stored or transmitted.

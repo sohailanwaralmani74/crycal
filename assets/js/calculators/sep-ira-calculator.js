@@ -11,7 +11,7 @@
       contributionPercent: contributionPercent / 100,
       irsAnnualLimit: irsAnnualLimit,
       marginalTaxRate: marginalTaxRate / 100
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -70,7 +70,7 @@
       taxSavings: taxSavings,
       takeHomeAfterContribution: takeHomeAfterContribution,
       error: null
-    };
+    }
   }
 
   function updateTool() {
@@ -103,10 +103,14 @@
   }
 
   function resetTool() {
-    document.getElementById('input_annualCompensation').value = 120000;
-    document.getElementById('input_contributionPercent').value = 20;
-    document.getElementById('input_irsAnnualLimit').value = 70000;
-    document.getElementById('input_marginalTaxRate').value = 24;
+    var _el_input_annualCompensation = document.getElementById('input_annualCompensation');
+    _el_input_annualCompensation.value = (_el_input_annualCompensation.dataset && _el_input_annualCompensation.dataset.default !== undefined) ? _el_input_annualCompensation.dataset.default : (_el_input_annualCompensation.getAttribute('value') || '');
+    var _el_input_contributionPercent = document.getElementById('input_contributionPercent');
+    _el_input_contributionPercent.value = (_el_input_contributionPercent.dataset && _el_input_contributionPercent.dataset.default !== undefined) ? _el_input_contributionPercent.dataset.default : (_el_input_contributionPercent.getAttribute('value') || '');
+    var _el_input_irsAnnualLimit = document.getElementById('input_irsAnnualLimit');
+    _el_input_irsAnnualLimit.value = (_el_input_irsAnnualLimit.dataset && _el_input_irsAnnualLimit.dataset.default !== undefined) ? _el_input_irsAnnualLimit.dataset.default : (_el_input_irsAnnualLimit.getAttribute('value') || '');
+    var _el_input_marginalTaxRate = document.getElementById('input_marginalTaxRate');
+    _el_input_marginalTaxRate.value = (_el_input_marginalTaxRate.dataset && _el_input_marginalTaxRate.dataset.default !== undefined) ? _el_input_marginalTaxRate.dataset.default : (_el_input_marginalTaxRate.getAttribute('value') || '');
     updateTool();
   }
 
@@ -119,9 +123,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

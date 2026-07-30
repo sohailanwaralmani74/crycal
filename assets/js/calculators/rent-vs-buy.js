@@ -28,7 +28,7 @@
       yearsToCompare: parseFloat(document.getElementById('input_yearsToCompare').value) || 0,
       sellingCosts: parseFloat(document.getElementById('input_sellingCosts').value) || 0,
       compoundingFrequency: document.getElementById('input_compoundingFrequency').value
-    };
+    }
   }
 
   // ── Get compounding periods per year ──
@@ -39,7 +39,7 @@
       'quarterly': 4,
       'semi-annually': 2,
       'annually': 1
-    };
+    }
     return map[frequency] || 12;
   }
 
@@ -198,7 +198,7 @@
       loanAmount: loanAmount,
       monthlyMortgage: monthlyMortgage,
       buyNetGainWithOpportunity: buyNetGainWithOpportunity
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -262,7 +262,7 @@
         yearsToCompare: inputs.yearsToCompare,
         sellingCosts: inputs.sellingCosts,
         compoundingFrequency: inputs.compoundingFrequency
-      };
+      }
       window.logHistory(snapshot);
     }
     if (typeof window.renderPresetDropdown === 'function') {
@@ -336,7 +336,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'breakdown') {
@@ -381,7 +381,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'cumulative') {
@@ -432,7 +432,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'breakEven') {
@@ -494,7 +494,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -527,9 +527,8 @@
       var defaultVal = el.dataset.default || el.getAttribute('value') || '';
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
     var picker = document.getElementById('baseCurrency');
     if (picker) {
       picker.addEventListener('change', function() {

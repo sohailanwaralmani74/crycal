@@ -8,8 +8,7 @@
     'pea_gravel': 1.35,
     'bank_run': 1.25,
     'dense_base': 1.50
-  };
-
+  }
   function getGlobalCurrency() {
     var picker = document.getElementById('globalCurrencyPicker');
     return picker ? picker.value : 'USD';
@@ -156,7 +155,6 @@
     var target = document.querySelector('.chart-tab[data-tab="' + tabId + '"]');
     if (target) target.classList.add('active');
     calculate();
-  };
-
+  }
   document.addEventListener('DOMContentLoaded', init);
 })();

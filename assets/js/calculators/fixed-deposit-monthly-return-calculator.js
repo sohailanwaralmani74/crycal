@@ -16,7 +16,7 @@
       interestRate: interestRate / 100,
       tenureMonths: tenureMonths,
       compoundingFrequency: compoundingFrequency
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -139,7 +139,7 @@
       rate: rate,
       months: months,
       freq: freq
-    };
+    }
   }
 
   // ── Main Update ──
@@ -183,7 +183,7 @@
       principal: result.principal,
       monthlyInterest: result.monthlyInterest,
       months: result.months
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -289,7 +289,7 @@
             mode: 'index'
           }
         }
-      };
+      }
     }
 
     if (tab === 'breakdown') {
@@ -322,7 +322,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -340,9 +340,12 @@
 
   // ── Reset Tool ──
   function resetTool() {
-    document.getElementById('input_principal').value = 100000;
-    document.getElementById('input_interestRate').value = 7.5;
-    document.getElementById('input_tenureMonths').value = 12;
+    var _el_input_principal = document.getElementById('input_principal');
+    _el_input_principal.value = (_el_input_principal.dataset && _el_input_principal.dataset.default !== undefined) ? _el_input_principal.dataset.default : (_el_input_principal.getAttribute('value') || '');
+    var _el_input_interestRate = document.getElementById('input_interestRate');
+    _el_input_interestRate.value = (_el_input_interestRate.dataset && _el_input_interestRate.dataset.default !== undefined) ? _el_input_interestRate.dataset.default : (_el_input_interestRate.getAttribute('value') || '');
+    var _el_input_tenureMonths = document.getElementById('input_tenureMonths');
+    _el_input_tenureMonths.value = (_el_input_tenureMonths.dataset && _el_input_tenureMonths.dataset.default !== undefined) ? _el_input_tenureMonths.dataset.default : (_el_input_tenureMonths.getAttribute('value') || '');
     document.getElementById('input_compoundingFrequency').value = 'monthly';
     updateTool();
   }
@@ -359,9 +362,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

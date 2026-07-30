@@ -18,7 +18,7 @@
       unitType: document.getElementById('input_unitType').value || 'pips',
       positionUnit: document.getElementById('input_positionUnit').value || 'lots',
       compoundingFrequency: document.getElementById('input_compoundingFrequency').value || 'monthly'
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -109,7 +109,7 @@
         unitValue: inputs.unitValue,
         positionSize: positionSize,
         riskAmount: riskAmount
-      };
+      }
       window.logHistory(snapshot);
     }
     if (typeof window.renderPresetDropdown === 'function') {
@@ -164,7 +164,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     return null;
@@ -178,10 +178,14 @@
 
   // ── Reset Tool ──
   function resetTool() {
-    document.getElementById('input_accountBalance').value = 10000;
-    document.getElementById('input_riskPercent').value = 1.0;
-    document.getElementById('input_stopLoss').value = 50;
-    document.getElementById('input_unitValue').value = 10;
+    var _el_input_accountBalance = document.getElementById('input_accountBalance');
+    _el_input_accountBalance.value = (_el_input_accountBalance.dataset && _el_input_accountBalance.dataset.default !== undefined) ? _el_input_accountBalance.dataset.default : (_el_input_accountBalance.getAttribute('value') || '');
+    var _el_input_riskPercent = document.getElementById('input_riskPercent');
+    _el_input_riskPercent.value = (_el_input_riskPercent.dataset && _el_input_riskPercent.dataset.default !== undefined) ? _el_input_riskPercent.dataset.default : (_el_input_riskPercent.getAttribute('value') || '');
+    var _el_input_stopLoss = document.getElementById('input_stopLoss');
+    _el_input_stopLoss.value = (_el_input_stopLoss.dataset && _el_input_stopLoss.dataset.default !== undefined) ? _el_input_stopLoss.dataset.default : (_el_input_stopLoss.getAttribute('value') || '');
+    var _el_input_unitValue = document.getElementById('input_unitValue');
+    _el_input_unitValue.value = (_el_input_unitValue.dataset && _el_input_unitValue.dataset.default !== undefined) ? _el_input_unitValue.dataset.default : (_el_input_unitValue.getAttribute('value') || '');
     document.getElementById('input_unitType').value = 'pips';
     document.getElementById('input_positionUnit').value = 'lots';
     document.getElementById('input_compoundingFrequency').value = 'monthly';
@@ -200,9 +204,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
   });
 
 })();

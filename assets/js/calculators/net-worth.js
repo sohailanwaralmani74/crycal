@@ -23,7 +23,7 @@
       studentLoans: parseFloat(document.getElementById('input_studentLoans').value) || 0,
       personalLoans: parseFloat(document.getElementById('input_personalLoans').value) || 0,
       otherLiabilities: parseFloat(document.getElementById('input_otherLiabilities').value) || 0
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -181,7 +181,7 @@
         totalAssets: totalAssets,
         totalLiabilities: totalLiabilities,
         netWorth: netWorth
-      };
+      }
       window.logHistory(snapshot);
     }
     if (typeof window.renderPresetDropdown === 'function') {
@@ -243,7 +243,7 @@
               title: { display: true, text: 'No assets entered', font: { size: 14 } }
             }
           }
-        };
+        }
       }
 
       return {
@@ -276,7 +276,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'liabilities') {
@@ -295,7 +295,7 @@
               title: { display: true, text: 'No liabilities entered', font: { size: 14 } }
             }
           }
-        };
+        }
       }
 
       return {
@@ -328,7 +328,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'comparison') {
@@ -361,7 +361,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -375,18 +375,30 @@
 
   // ── Reset Tool ──
   function resetTool() {
-    document.getElementById('input_cash').value = 10000;
-    document.getElementById('input_investments').value = 25000;
-    document.getElementById('input_retirement').value = 30000;
-    document.getElementById('input_realEstate').value = 250000;
-    document.getElementById('input_vehicles').value = 15000;
-    document.getElementById('input_otherAssets').value = 0;
-    document.getElementById('input_mortgageBalance').value = 200000;
-    document.getElementById('input_creditCardDebt').value = 5000;
-    document.getElementById('input_autoLoans').value = 10000;
-    document.getElementById('input_studentLoans').value = 0;
-    document.getElementById('input_personalLoans').value = 0;
-    document.getElementById('input_otherLiabilities').value = 0;
+    var _el_input_cash = document.getElementById('input_cash');
+    _el_input_cash.value = (_el_input_cash.dataset && _el_input_cash.dataset.default !== undefined) ? _el_input_cash.dataset.default : (_el_input_cash.getAttribute('value') || '');
+    var _el_input_investments = document.getElementById('input_investments');
+    _el_input_investments.value = (_el_input_investments.dataset && _el_input_investments.dataset.default !== undefined) ? _el_input_investments.dataset.default : (_el_input_investments.getAttribute('value') || '');
+    var _el_input_retirement = document.getElementById('input_retirement');
+    _el_input_retirement.value = (_el_input_retirement.dataset && _el_input_retirement.dataset.default !== undefined) ? _el_input_retirement.dataset.default : (_el_input_retirement.getAttribute('value') || '');
+    var _el_input_realEstate = document.getElementById('input_realEstate');
+    _el_input_realEstate.value = (_el_input_realEstate.dataset && _el_input_realEstate.dataset.default !== undefined) ? _el_input_realEstate.dataset.default : (_el_input_realEstate.getAttribute('value') || '');
+    var _el_input_vehicles = document.getElementById('input_vehicles');
+    _el_input_vehicles.value = (_el_input_vehicles.dataset && _el_input_vehicles.dataset.default !== undefined) ? _el_input_vehicles.dataset.default : (_el_input_vehicles.getAttribute('value') || '');
+    var _el_input_otherAssets = document.getElementById('input_otherAssets');
+    _el_input_otherAssets.value = (_el_input_otherAssets.dataset && _el_input_otherAssets.dataset.default !== undefined) ? _el_input_otherAssets.dataset.default : (_el_input_otherAssets.getAttribute('value') || '');
+    var _el_input_mortgageBalance = document.getElementById('input_mortgageBalance');
+    _el_input_mortgageBalance.value = (_el_input_mortgageBalance.dataset && _el_input_mortgageBalance.dataset.default !== undefined) ? _el_input_mortgageBalance.dataset.default : (_el_input_mortgageBalance.getAttribute('value') || '');
+    var _el_input_creditCardDebt = document.getElementById('input_creditCardDebt');
+    _el_input_creditCardDebt.value = (_el_input_creditCardDebt.dataset && _el_input_creditCardDebt.dataset.default !== undefined) ? _el_input_creditCardDebt.dataset.default : (_el_input_creditCardDebt.getAttribute('value') || '');
+    var _el_input_autoLoans = document.getElementById('input_autoLoans');
+    _el_input_autoLoans.value = (_el_input_autoLoans.dataset && _el_input_autoLoans.dataset.default !== undefined) ? _el_input_autoLoans.dataset.default : (_el_input_autoLoans.getAttribute('value') || '');
+    var _el_input_studentLoans = document.getElementById('input_studentLoans');
+    _el_input_studentLoans.value = (_el_input_studentLoans.dataset && _el_input_studentLoans.dataset.default !== undefined) ? _el_input_studentLoans.dataset.default : (_el_input_studentLoans.getAttribute('value') || '');
+    var _el_input_personalLoans = document.getElementById('input_personalLoans');
+    _el_input_personalLoans.value = (_el_input_personalLoans.dataset && _el_input_personalLoans.dataset.default !== undefined) ? _el_input_personalLoans.dataset.default : (_el_input_personalLoans.getAttribute('value') || '');
+    var _el_input_otherLiabilities = document.getElementById('input_otherLiabilities');
+    _el_input_otherLiabilities.value = (_el_input_otherLiabilities.dataset && _el_input_otherLiabilities.dataset.default !== undefined) ? _el_input_otherLiabilities.dataset.default : (_el_input_otherLiabilities.getAttribute('value') || '');
     if (typeof window.updateTool === 'function') window.updateTool();
   }
 
@@ -402,9 +414,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
   });
 
 })();

@@ -18,7 +18,7 @@
       deductible: parseFloat(document.getElementById('input_deductible').value) || 0,
       additionalLivingExpenses: parseFloat(document.getElementById('input_additionalLivingExpenses').value) || 0,
       personalPropertyDeductible: parseFloat(document.getElementById('input_personalPropertyDeductible').value) || 0
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -99,7 +99,7 @@
         propertyValue: inputs.propertyValue,
         totalCoverage: totalCoverage,
         recommendedMonthlyPremium: estimatedPremium
-      };
+      }
       window.logHistory(snapshot);
     }
     if (typeof window.renderPresetDropdown === 'function') {
@@ -148,7 +148,7 @@
               title: { display: true, text: 'No coverage data', font: { size: 14 } }
             }
           }
-        };
+        }
       }
 
       return {
@@ -181,7 +181,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'comparison') {
@@ -214,7 +214,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -228,13 +228,20 @@
 
   // ── Reset Tool ──
   function resetTool() {
-    document.getElementById('input_propertyValue').value = 350000;
-    document.getElementById('input_personalPropertyPercent').value = 50.0;
-    document.getElementById('input_liabilityCoverage').value = 300000;
-    document.getElementById('input_medicalPayments').value = 5000;
-    document.getElementById('input_deductible').value = 1000;
-    document.getElementById('input_additionalLivingExpenses').value = 12;
-    document.getElementById('input_personalPropertyDeductible').value = 0;
+    var _el_input_propertyValue = document.getElementById('input_propertyValue');
+    _el_input_propertyValue.value = (_el_input_propertyValue.dataset && _el_input_propertyValue.dataset.default !== undefined) ? _el_input_propertyValue.dataset.default : (_el_input_propertyValue.getAttribute('value') || '');
+    var _el_input_personalPropertyPercent = document.getElementById('input_personalPropertyPercent');
+    _el_input_personalPropertyPercent.value = (_el_input_personalPropertyPercent.dataset && _el_input_personalPropertyPercent.dataset.default !== undefined) ? _el_input_personalPropertyPercent.dataset.default : (_el_input_personalPropertyPercent.getAttribute('value') || '');
+    var _el_input_liabilityCoverage = document.getElementById('input_liabilityCoverage');
+    _el_input_liabilityCoverage.value = (_el_input_liabilityCoverage.dataset && _el_input_liabilityCoverage.dataset.default !== undefined) ? _el_input_liabilityCoverage.dataset.default : (_el_input_liabilityCoverage.getAttribute('value') || '');
+    var _el_input_medicalPayments = document.getElementById('input_medicalPayments');
+    _el_input_medicalPayments.value = (_el_input_medicalPayments.dataset && _el_input_medicalPayments.dataset.default !== undefined) ? _el_input_medicalPayments.dataset.default : (_el_input_medicalPayments.getAttribute('value') || '');
+    var _el_input_deductible = document.getElementById('input_deductible');
+    _el_input_deductible.value = (_el_input_deductible.dataset && _el_input_deductible.dataset.default !== undefined) ? _el_input_deductible.dataset.default : (_el_input_deductible.getAttribute('value') || '');
+    var _el_input_additionalLivingExpenses = document.getElementById('input_additionalLivingExpenses');
+    _el_input_additionalLivingExpenses.value = (_el_input_additionalLivingExpenses.dataset && _el_input_additionalLivingExpenses.dataset.default !== undefined) ? _el_input_additionalLivingExpenses.dataset.default : (_el_input_additionalLivingExpenses.getAttribute('value') || '');
+    var _el_input_personalPropertyDeductible = document.getElementById('input_personalPropertyDeductible');
+    _el_input_personalPropertyDeductible.value = (_el_input_personalPropertyDeductible.dataset && _el_input_personalPropertyDeductible.dataset.default !== undefined) ? _el_input_personalPropertyDeductible.dataset.default : (_el_input_personalPropertyDeductible.getAttribute('value') || '');
     if (typeof window.updateTool === 'function') window.updateTool();
   }
 
@@ -249,9 +256,8 @@
       var defaultVal = el.dataset.default || el.getAttribute('value') || '';
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
     var picker = document.getElementById('baseCurrency');
     if (picker) {
       picker.addEventListener('change', function() {

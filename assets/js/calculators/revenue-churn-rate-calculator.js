@@ -12,7 +12,7 @@
       startingMrr: parseFloat(document.getElementById('input_startingMrr').value) || 0,
       grossLostMrr: parseFloat(document.getElementById('input_grossLostMrr').value) || 0,
       expansionMrr: parseFloat(document.getElementById('input_expansionMrr').value) || 0
-    };
+    }
   }
 
   function formatPercentage(value) {

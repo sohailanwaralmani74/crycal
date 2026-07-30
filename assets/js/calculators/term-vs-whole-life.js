@@ -17,7 +17,7 @@
       investmentReturn: parseFloat(document.getElementById('input_investmentReturn').value) || 0,
       inflationRate: parseFloat(document.getElementById('input_inflationRate').value) || 0,
       compoundingFrequency: document.getElementById('input_compoundingFrequency').value
-    };
+    }
   }
 
   // ── Get compounding periods per year ──
@@ -28,7 +28,7 @@
       'quarterly': 4,
       'semi-annually': 2,
       'annually': 1
-    };
+    }
     return map[frequency] || 12;
   }
 
@@ -186,7 +186,7 @@
       recommendation: recommendation,
       yearData: yearData,
       termLength: inputs.termLength
-    };
+    }
   }
 
   // ── Main Update ──
@@ -217,7 +217,7 @@
         cashValue: result.cashValue,
         investedValue: result.investedValue,
         recommendation: result.recommendation
-      };
+      }
       window.logHistory(snapshot);
     }
     if (typeof window.renderPresetDropdown === 'function') {
@@ -293,7 +293,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'growth') {
@@ -367,7 +367,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'breakdown') {
@@ -405,7 +405,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;

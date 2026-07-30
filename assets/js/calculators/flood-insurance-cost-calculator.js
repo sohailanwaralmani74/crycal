@@ -9,7 +9,7 @@
       contentsCoverage: parseFloat(document.getElementById('input_contentsCoverage').value) || 0,
       floodZoneRisk: document.getElementById('input_floodZoneRisk').value,
       deductibleAmount: parseFloat(document.getElementById('input_deductibleAmount').value) || 1250
-    };
+    }
   }
 
   function formatCurrencyLocal(amount) {
@@ -71,7 +71,7 @@
       monthlyCost: monthlyCost,
       bldgPrem: bldgPrem,
       contPrem: contPrem
-    };
+    }
   }
 
   function updateTool() {
@@ -130,7 +130,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'risk') {
@@ -155,7 +155,7 @@
             y: { beginAtZero: true }
           }
         }
-      };
+      }
     }
 
     return null;

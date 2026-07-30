@@ -9,7 +9,7 @@
       originalCostBasis: parseFloat(document.getElementById('input_originalCostBasis').value) || 0,
       replacementPropertyPurchasePrice: parseFloat(document.getElementById('input_replacementPropertyPurchasePrice').value) || 0,
       capitalGainsTaxRate: parseFloat(document.getElementById('input_capitalGainsTaxRate').value) || 0
-    };
+    }
   }
 
   function formatCurrencyLocal(amount) {
@@ -56,7 +56,7 @@
       deferredTax: deferredTax,
       bootTax: bootTax,
       totalPotentialTax: totalPotentialTax
-    };
+    }
   }
 
   function updateTool() {
@@ -116,7 +116,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'comparison') {
@@ -148,7 +148,7 @@
             y: { beginAtZero: true }
           }
         }
-      };
+      }
     }
 
     return null;

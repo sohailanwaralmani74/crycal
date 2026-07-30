@@ -166,7 +166,7 @@ faq:
   - question: "Do grout joints affect the tile count calculation?"
     answer: "Grout joint widths (1/8\" to 1/4\") reduce the required tile area slightly, but in practice, installers treat this extra space as a safety margin for edge cuts and layout alignment."
   - question: "Should I buy extra tiles for future repairs?"
-    answer: "Yes. Keeping 1 full extra box (or 5% to 10% extra) of your specific dye lot is strongly recommended for future plumbing repairs, cracked tiles, or remodeling."
+    answer: "Keeping 1 full extra box (or 5% to 10% extra) of your specific tile dye lot is strongly recommended for future plumbing repairs, cracked tiles, or remodeling."
 ---
 
 # Tile Calculator - Calculate Tile Box Quantity & Square Feet
@@ -249,5 +249,5 @@ Grout joint widths (1/8" to 1/4") reduce the required tile area slightly, but in
 
 ### Should I buy extra tiles for future repairs?
 
-Yes. Keeping 1 full extra box (or 5% to 10% extra) of your specific dye lot is strongly recommended for future plumbing repairs, cracked tiles, or remodeling.
+Keeping 1 full extra box (or 5% to 10% extra) of your specific tile dye lot is strongly recommended for future plumbing repairs, cracked tiles, or remodeling.
 

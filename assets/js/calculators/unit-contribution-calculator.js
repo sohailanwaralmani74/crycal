@@ -76,7 +76,7 @@
       smbMargin: smbMargin,
       midMargin: midMargin,
       entMargin: entMargin
-    };
+    }
     updateCharts(lastChartData);
 
     if (typeof window.logHistory === 'function') {
@@ -122,7 +122,7 @@
           plugins: { legend: { display: false } },
           scales: { y: { beginAtZero: true, ticks: { color: '#8899aa' } }, x: { ticks: { color: '#8899aa' } } }
         }
-      };
+      }
     }
     if (tab === 'marginPctChart') {
       return {
@@ -141,7 +141,7 @@
           plugins: { legend: { display: false } },
           scales: { y: { beginAtZero: true, ticks: { color: '#8899aa' } }, x: { ticks: { color: '#8899aa' } } }
         }
-      };
+      }
     }
     return null;
 
@@ -158,12 +158,18 @@
 
   function resetTool() {
 
-    document.getElementById('input_smbArpu').value = 50;
-    document.getElementById('input_smbCogs').value = 10;
-    document.getElementById('input_midArpu').value = 500;
-    document.getElementById('input_midCogs').value = 75;
-    document.getElementById('input_entArpu').value = 3000;
-    document.getElementById('input_entCogs').value = 350;
+    var _el_input_smbArpu = document.getElementById('input_smbArpu');
+    _el_input_smbArpu.value = (_el_input_smbArpu.dataset && _el_input_smbArpu.dataset.default !== undefined) ? _el_input_smbArpu.dataset.default : (_el_input_smbArpu.getAttribute('value') || '');
+    var _el_input_smbCogs = document.getElementById('input_smbCogs');
+    _el_input_smbCogs.value = (_el_input_smbCogs.dataset && _el_input_smbCogs.dataset.default !== undefined) ? _el_input_smbCogs.dataset.default : (_el_input_smbCogs.getAttribute('value') || '');
+    var _el_input_midArpu = document.getElementById('input_midArpu');
+    _el_input_midArpu.value = (_el_input_midArpu.dataset && _el_input_midArpu.dataset.default !== undefined) ? _el_input_midArpu.dataset.default : (_el_input_midArpu.getAttribute('value') || '');
+    var _el_input_midCogs = document.getElementById('input_midCogs');
+    _el_input_midCogs.value = (_el_input_midCogs.dataset && _el_input_midCogs.dataset.default !== undefined) ? _el_input_midCogs.dataset.default : (_el_input_midCogs.getAttribute('value') || '');
+    var _el_input_entArpu = document.getElementById('input_entArpu');
+    _el_input_entArpu.value = (_el_input_entArpu.dataset && _el_input_entArpu.dataset.default !== undefined) ? _el_input_entArpu.dataset.default : (_el_input_entArpu.getAttribute('value') || '');
+    var _el_input_entCogs = document.getElementById('input_entCogs');
+    _el_input_entCogs.value = (_el_input_entCogs.dataset && _el_input_entCogs.dataset.default !== undefined) ? _el_input_entCogs.dataset.default : (_el_input_entCogs.getAttribute('value') || '');
     updateTool();
 
   }
@@ -178,9 +184,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

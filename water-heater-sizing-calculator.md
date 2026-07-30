@@ -136,12 +136,19 @@ howto:
 
 faq:
   - question: "What is First Hour Rating (FHR) for tank water heaters?"
+    answer: "First Hour Rating (FHR) is the standardized Yellow EnergyGuide metric representing the total number of gallons of hot water a storage tank heater can supply in one hour starting with a full tank of hot water."
   - question: "How do I size a tankless water heater?"
+    answer: "Add up the flow rates (GPM) of all fixtures you plan to run at the exact same time, then calculate the temperature rise (ΔT = T_output - T_incoming). Select a unit rated for that GPM flow at your calculated ΔT."
   - question: "What is temperature rise (Delta T) in water heater sizing?"
+    answer: "Temperature rise (ΔT) is the temperature difference between incoming cold groundwater and desired hot tap water (120°F). The larger the ΔT, the more energy required, reducing the max GPM a tankless unit can produce."
   - question: "What size water heater do I need for a family of 4?"
+    answer: "A typical family of 4 requires a 50-gallon gas tank (FHR 65–75 gallons), a 66–80 gallon electric/heat pump tank (FHR 60–70 gallons), or a 7.5 to 9.5 GPM gas tankless unit."
   - question: "Why does incoming groundwater temperature affect tankless water heater capacity?"
+    answer: "Tankless units heat water instantly as it passes through the heat exchanger. Heating 40°F winter groundwater to 120°F (ΔT = 80°F) takes double the heating energy of warming 60°F groundwater (ΔT = 60°F)."
   - question: "Is a gas tankless water heater better than an electric tankless?"
+    answer: "Gas tankless units output 160,000 to 199,000 BTU/hr, easily supplying 7 to 10 GPM for whole homes. Electric tankless units require massive electrical panel upgrades (120A to 150A dedicated circuits) and are generally limited to warm climates or single-point-of-use fixtures."
   - question: "Is my personal data saved when using this calculator?"
+    answer: "No. All calculations run 100% locally within your web browser."
 
 ---
 
@@ -237,4 +244,8 @@ Tankless units heat water instantly as it passes through the heat exchanger. Hea
 ### Is a gas tankless water heater better than an electric tankless?
 
 Gas tankless units output 160,000 to 199,000 BTU/hr, easily supplying 7 to 10 GPM for whole homes. Electric tankless units require massive electrical panel upgrades (120A to 150A dedicated circuits) and are generally limited to warm climates or single-point-of-use fixtures.
+
+### Is my personal data saved when using this calculator?
+
+No. All calculations run 100% locally within your web browser.
 

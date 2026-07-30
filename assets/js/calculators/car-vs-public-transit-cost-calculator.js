@@ -11,7 +11,7 @@
       carMaintenance: parseFloat(document.getElementById('input_carMaintenance').value) || 0,
       transitPass: parseFloat(document.getElementById('input_transitPass').value) || 0,
       occasionalRideshare: parseFloat(document.getElementById('input_occasionalRideshare').value) || 0
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -51,7 +51,7 @@
       monthlySavings: monthlySavings,
       annualSavings: annualSavings,
       fiveYearSavings: fiveYearSavings
-    };
+    }
   }
 
   function updateTool() {
@@ -126,7 +126,7 @@
             }
           }
         }
-      };
+      }
     } else if (tab === 'breakdown') {
       return {
         type: 'doughnut',
@@ -152,7 +152,7 @@
             title: { display: true, text: 'Car Monthly Expense Breakdown', font: { size: 14 }, color: '#e8edf0' }
           }
         }
-      };
+      }
     }
     return null;
   }
@@ -163,13 +163,20 @@
   }
 
   function resetTool() {
-    document.getElementById('input_carPayment').value = 450;
-    document.getElementById('input_carInsurance').value = 140;
-    document.getElementById('input_monthlyFuel').value = 150;
-    document.getElementById('input_parkingTolls').value = 100;
-    document.getElementById('input_carMaintenance').value = 80;
-    document.getElementById('input_transitPass').value = 120;
-    document.getElementById('input_occasionalRideshare').value = 50;
+    var _el_input_carPayment = document.getElementById('input_carPayment');
+    _el_input_carPayment.value = (_el_input_carPayment.dataset && _el_input_carPayment.dataset.default !== undefined) ? _el_input_carPayment.dataset.default : (_el_input_carPayment.getAttribute('value') || '');
+    var _el_input_carInsurance = document.getElementById('input_carInsurance');
+    _el_input_carInsurance.value = (_el_input_carInsurance.dataset && _el_input_carInsurance.dataset.default !== undefined) ? _el_input_carInsurance.dataset.default : (_el_input_carInsurance.getAttribute('value') || '');
+    var _el_input_monthlyFuel = document.getElementById('input_monthlyFuel');
+    _el_input_monthlyFuel.value = (_el_input_monthlyFuel.dataset && _el_input_monthlyFuel.dataset.default !== undefined) ? _el_input_monthlyFuel.dataset.default : (_el_input_monthlyFuel.getAttribute('value') || '');
+    var _el_input_parkingTolls = document.getElementById('input_parkingTolls');
+    _el_input_parkingTolls.value = (_el_input_parkingTolls.dataset && _el_input_parkingTolls.dataset.default !== undefined) ? _el_input_parkingTolls.dataset.default : (_el_input_parkingTolls.getAttribute('value') || '');
+    var _el_input_carMaintenance = document.getElementById('input_carMaintenance');
+    _el_input_carMaintenance.value = (_el_input_carMaintenance.dataset && _el_input_carMaintenance.dataset.default !== undefined) ? _el_input_carMaintenance.dataset.default : (_el_input_carMaintenance.getAttribute('value') || '');
+    var _el_input_transitPass = document.getElementById('input_transitPass');
+    _el_input_transitPass.value = (_el_input_transitPass.dataset && _el_input_transitPass.dataset.default !== undefined) ? _el_input_transitPass.dataset.default : (_el_input_transitPass.getAttribute('value') || '');
+    var _el_input_occasionalRideshare = document.getElementById('input_occasionalRideshare');
+    _el_input_occasionalRideshare.value = (_el_input_occasionalRideshare.dataset && _el_input_occasionalRideshare.dataset.default !== undefined) ? _el_input_occasionalRideshare.dataset.default : (_el_input_occasionalRideshare.getAttribute('value') || '');
     updateTool();
   }
 
@@ -183,9 +190,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

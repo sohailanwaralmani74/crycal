@@ -10,7 +10,7 @@
       interestRate: parseFloat(document.getElementById('input_interestRate').value) || 0,
       loanTermMonths: parseInt(document.getElementById('input_loanTermMonths').value, 10) || 48,
       balloonAmount: parseFloat(document.getElementById('input_balloonAmount').value) || 0
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -52,7 +52,7 @@
         finalBalloonPayment: 0,
         totalInterestPaid: 0,
         totalInterestStandard: 0
-      };
+      }
     }
 
     var balloonPmt = 0;
@@ -81,7 +81,7 @@
       finalBalloonPayment: F,
       totalInterestPaid: Math.max(0, totalInterestPaid),
       totalInterestStandard: Math.max(0, totalInterestStandard)
-    };
+    }
   }
 
   function updateTool() {
@@ -154,7 +154,7 @@
             }
           }
         }
-      };
+      }
     } else if (tab === 'loan_comparison') {
       return {
         type: 'bar',
@@ -187,7 +187,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;

@@ -120,7 +120,7 @@ faq:
   - question: "How is the adjusted cost per share calculated?"
     answer: "Adjusted Cost Per Share = Total Cost Basis ÷ New Shares. The total cost basis remains unchanged in a stock split."
   - question: "Does a stock split affect my total cost basis?"
-    answer: "No. The total cost basis remains unchanged. Only the number of shares and the cost per share are adjusted."
+    answer: "A stock split does not affect your total cost basis. Only the number of shares and the cost per share are adjusted."
 
 ---
 
@@ -223,5 +223,5 @@ Adjusted Cost Per Share = Total Cost Basis ÷ New Shares. The total cost basis r
 
 ### Does a stock split affect my total cost basis?
 
-No. The total cost basis remains unchanged. Only the number of shares and the cost per share are adjusted.
+A stock split does not affect your total cost basis. Only the number of shares and the cost per share are adjusted.
 

@@ -11,7 +11,7 @@
       enterpriseACV: parseFloat(document.getElementById('input_enterpriseACV').value) || 0,
       enterpriseDealsPerYear: parseFloat(document.getElementById('input_enterpriseDealsPerYear').value) || 0,
       enterpriseSalesCycleDays: parseFloat(document.getElementById('input_enterpriseSalesCycleDays').value) || 0
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -58,7 +58,7 @@
       smbRevenuePercent: smbRevenuePercent,
       enterpriseRevenuePercent: enterpriseRevenuePercent,
       dealEquivalent: dealEquivalent
-    };
+    }
   }
 
   function updateTool() {

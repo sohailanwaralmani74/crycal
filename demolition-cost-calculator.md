@@ -130,15 +130,15 @@ howto:
 
 faq:
   - question: "How much does interior demolition cost per square foot?"
-    answer: "Interior gut demolition typically costs between $2.00 and $6.00 per square foot depending on structural complexity, plaster vs drywall removal, electrical disconnects, and regional labor rates."
+    answer: "Interior gut demolition typically costs between $2.00 and $6.00 per square foot. This price depends on structural complexity, plaster versus drywall removal, electrical disconnects, and regional labor rates."
   - question: "What size dumpster do I need for a 1,000 sq ft house gut demolition?"
-    answer: "A full interior gut of a 1,000 sq ft house generates approximately 15 to 20 tons of construction debris (heavy tile, plaster, flooring, framing), requiring two 30-yard or 40-yard roll-off dumpsters."
+    answer: "A full interior gut of a 1,000-square-foot house requires two 30-yard or 40-yard roll-off dumpsters. This project generates approximately 15 to 20 tons of construction debris, including heavy tile, plaster, flooring, and framing."
   - question: "How much weight can a 20-yard roll-off dumpster hold?"
-    answer: "A standard 20-yard dumpster holds up to 10 cubic yards of dense material or 20 cubic yards of light material, with a weight allowance limit of 2 to 3 tons (4,000 to 6,000 lbs)."
+    answer: "A standard 20-yard dumpster has a weight allowance limit of 2 to 3 tons (4,000 to 6,000 pounds). It holds up to 10 cubic yards of dense material or 20 cubic yards of light material."
   - question: "What are landfill tipping fees?"
-    answer: "Landfill tipping fees are charges assessed by municipal solid waste facilities or recycling centers to dump commercial construction debris, averaging $50 to $90 per ton across North America."
+    answer: "Landfill tipping fees are charges assessed by municipal solid waste facilities or recycling centers to dump commercial construction debris. These fees average $50 to $90 per ton across North America."
   - question: "Does demolition cost include hazardous material removal (asbestos/lead)?"
-    answer: "No. Standard demolition quotes cover non-hazardous materials. Asbestos abatement (popcorn ceilings, pipe wrap, vinyl tile) or lead paint containment adds $5.00 to $15.00 per square foot."
+    answer: "Standard demolition quotes cover non-hazardous materials only and exclude hazardous material removal. Asbestos abatement or lead paint containment adds $5.00 to $15.00 per square foot to your total costs."
   - question: "What utility disconnects are required before interior demolition?"
     answer: "Main electric service must be shut off, gas lines capped by a licensed plumber, and water supplies isolated before tearing into interior walls or ceiling drywall."
 ---
@@ -204,23 +204,23 @@ The table below presents labor cost, debris weight, recommended roll-off dumpste
 
 ### How much does interior demolition cost per square foot?
 
-Interior gut demolition typically costs between $2.00 and $6.00 per square foot depending on structural complexity, plaster vs drywall removal, electrical disconnects, and regional labor rates.
+Interior gut demolition typically costs between $2.00 and $6.00 per square foot. This price depends on structural complexity, plaster versus drywall removal, electrical disconnects, and regional labor rates.
 
 ### What size dumpster do I need for a 1,000 sq ft house gut demolition?
 
-A full interior gut of a 1,000 sq ft house generates approximately 15 to 20 tons of construction debris (heavy tile, plaster, flooring, framing), requiring two 30-yard or 40-yard roll-off dumpsters.
+A full interior gut of a 1,000-square-foot house requires two 30-yard or 40-yard roll-off dumpsters. This project generates approximately 15 to 20 tons of construction debris, including heavy tile, plaster, flooring, and framing.
 
 ### How much weight can a 20-yard roll-off dumpster hold?
 
-A standard 20-yard dumpster holds up to 10 cubic yards of dense material or 20 cubic yards of light material, with a weight allowance limit of 2 to 3 tons (4,000 to 6,000 lbs).
+A standard 20-yard dumpster has a weight allowance limit of 2 to 3 tons (4,000 to 6,000 pounds). It holds up to 10 cubic yards of dense material or 20 cubic yards of light material.
 
 ### What are landfill tipping fees?
 
-Landfill tipping fees are charges assessed by municipal solid waste facilities or recycling centers to dump commercial construction debris, averaging $50 to $90 per ton across North America.
+Landfill tipping fees are charges assessed by municipal solid waste facilities or recycling centers to dump commercial construction debris. These fees average $50 to $90 per ton across North America.
 
 ### Does demolition cost include hazardous material removal (asbestos/lead)?
 
-No. Standard demolition quotes cover non-hazardous materials. Asbestos abatement (popcorn ceilings, pipe wrap, vinyl tile) or lead paint containment adds $5.00 to $15.00 per square foot.
+Standard demolition quotes cover non-hazardous materials only and exclude hazardous material removal. Asbestos abatement or lead paint containment adds $5.00 to $15.00 per square foot to your total costs.
 
 ### What utility disconnects are required before interior demolition?
 

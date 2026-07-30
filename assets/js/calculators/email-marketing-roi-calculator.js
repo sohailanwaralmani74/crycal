@@ -20,7 +20,7 @@
       clickRate: clickRate / 100,
       conversionRate: conversionRate / 100,
       averageDealValue: averageDealValue
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -70,7 +70,7 @@
       netEmailProfit: netProfit,
       emailRoi: roiPercent,
       error: null
-    };
+    }
   }
 
   function updateTool() {
@@ -104,7 +104,7 @@
       opens: result.opens,
       clicks: result.clicks,
       deals: result.closedDeals
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -161,7 +161,7 @@
             x: { ticks: { color: '#8899aa' } }
           }
         }
-      };
+      }
     }
 
     if (tab === 'funnel') {
@@ -192,7 +192,7 @@
             x: { ticks: { color: '#8899aa' } }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -205,13 +205,20 @@
   }
 
   function resetTool() {
-    document.getElementById('input_softwareCost').value = 500;
-    document.getElementById('input_teamLaborCost').value = 2500;
-    document.getElementById('input_monthlyEmailsSent').value = 50000;
-    document.getElementById('input_openRate').value = 25;
-    document.getElementById('input_clickRate').value = 3.5;
-    document.getElementById('input_conversionRate').value = 2.0;
-    document.getElementById('input_averageDealValue').value = 1500;
+    var _el_input_softwareCost = document.getElementById('input_softwareCost');
+    _el_input_softwareCost.value = (_el_input_softwareCost.dataset && _el_input_softwareCost.dataset.default !== undefined) ? _el_input_softwareCost.dataset.default : (_el_input_softwareCost.getAttribute('value') || '');
+    var _el_input_teamLaborCost = document.getElementById('input_teamLaborCost');
+    _el_input_teamLaborCost.value = (_el_input_teamLaborCost.dataset && _el_input_teamLaborCost.dataset.default !== undefined) ? _el_input_teamLaborCost.dataset.default : (_el_input_teamLaborCost.getAttribute('value') || '');
+    var _el_input_monthlyEmailsSent = document.getElementById('input_monthlyEmailsSent');
+    _el_input_monthlyEmailsSent.value = (_el_input_monthlyEmailsSent.dataset && _el_input_monthlyEmailsSent.dataset.default !== undefined) ? _el_input_monthlyEmailsSent.dataset.default : (_el_input_monthlyEmailsSent.getAttribute('value') || '');
+    var _el_input_openRate = document.getElementById('input_openRate');
+    _el_input_openRate.value = (_el_input_openRate.dataset && _el_input_openRate.dataset.default !== undefined) ? _el_input_openRate.dataset.default : (_el_input_openRate.getAttribute('value') || '');
+    var _el_input_clickRate = document.getElementById('input_clickRate');
+    _el_input_clickRate.value = (_el_input_clickRate.dataset && _el_input_clickRate.dataset.default !== undefined) ? _el_input_clickRate.dataset.default : (_el_input_clickRate.getAttribute('value') || '');
+    var _el_input_conversionRate = document.getElementById('input_conversionRate');
+    _el_input_conversionRate.value = (_el_input_conversionRate.dataset && _el_input_conversionRate.dataset.default !== undefined) ? _el_input_conversionRate.dataset.default : (_el_input_conversionRate.getAttribute('value') || '');
+    var _el_input_averageDealValue = document.getElementById('input_averageDealValue');
+    _el_input_averageDealValue.value = (_el_input_averageDealValue.dataset && _el_input_averageDealValue.dataset.default !== undefined) ? _el_input_averageDealValue.dataset.default : (_el_input_averageDealValue.getAttribute('value') || '');
     updateTool();
   }
 
@@ -225,9 +232,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

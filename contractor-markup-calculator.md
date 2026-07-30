@@ -121,7 +121,7 @@ faq:
   - question: "What is a normal contractor markup percentage?"
     answer: "Residential remodeling contractors typically markup costs between 25% and 50% (resulting in 20% to 33% profit margins). Specialty trade subcontractors (electrical, plumbing) markup materials 30% to 60%, while large commercial general contractors markup 10% to 20%."
   - question: "Why do contractors fail when confusing markup with margin?"
-    answer: "If a contractor has 20% overhead expenses and applies a 20% markup to direct costs, they will lose money. A 20% markup yields only a 16.7% gross margin, which fails to cover the 20% overhead requirement."
+    answer: "Contractors fail when confusing markup with margin because if a contractor has 20% overhead expenses and applies a 20% markup to direct costs, they will lose money. A 20% markup yields only a 16.7% gross margin, which fails to cover the 20% overhead requirement."
   - question: "What formula converts profit margin percentage to markup percentage?"
     answer: "To convert desired margin % to markup %: \\text{Markup %} = \\frac{\\text{Margin %}}{100 - \\text{Margin %}} \\times 100. For example, a 25% margin requires a 33.3% markup."
   - question: "What direct costs should be included in a contractor bid?"
@@ -199,7 +199,7 @@ Residential remodeling contractors typically markup costs between 25% and 50% (r
 
 ### Why do contractors fail when confusing markup with margin?
 
-If a contractor has 20% overhead expenses and applies a 20% markup to direct costs, they will lose money. A 20% markup yields only a 16.7% gross margin, which fails to cover the 20% overhead requirement.
+Contractors fail when confusing markup with margin because if a contractor has 20% overhead expenses and applies a 20% markup to direct costs, they will lose money. A 20% markup yields only a 16.7% gross margin, which fails to cover the 20% overhead requirement.
 
 ### What formula converts profit margin percentage to markup percentage?
 

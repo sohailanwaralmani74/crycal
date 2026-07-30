@@ -7,8 +7,7 @@
     rotor: { radius: 35, gpm: 3.0, pr: 0.45 },
     spray: { radius: 15, gpm: 1.5, pr: 1.55 },
     rotary_nozzle: { radius: 20, gpm: 0.8, pr: 0.40 }
-  };
-
+  }
   function init() {
     var calcBtn = document.getElementById('btn_calculate');
     var resetBtn = document.getElementById('btn_reset');
@@ -143,7 +142,6 @@
     var target = document.querySelector('.chart-tab[data-tab="' + tabId + '"]');
     if (target) target.classList.add('active');
     calculate();
-  };
-
+  }
   document.addEventListener('DOMContentLoaded', init);
 })();

@@ -134,7 +134,7 @@ faq:
   - question: "What is the difference between 3-coat, 2-coat, and 1-coat stucco?"
     answer: "3-coat stucco is traditional 7/8 in plaster over wood framing and wire lath. 2-coat is 1/2 in applied directly over masonry or CMU block. 1-coat is a modern 3/8 in fiber-reinforced polymer mix over rigid foam insulation."
   - question: "Does this calculator include waste factors?"
-    answer: "Yes, the calculator automatically adds a 10% material waste factor to account for wall texture, board scrap, and mixer residual."
+    answer: "The stucco calculator automatically adds a 10% material waste factor to account for wall texture, board scrap, and mixer residual."
   - question: "How much lath wire and building paper are needed for stucco?"
     answer: "For wood-framed walls, you will need 1 roll of grade D building paper per 500 sq ft and expanded metal lath sheets equaling your total net wall square footage plus 10% for lap joints."
 ---
@@ -203,7 +203,7 @@ Exterior stucco costs between $8.00 and $15.00 per square foot installed for 3-c
 
 ### Does this calculator include waste factors?
 
-Yes, the calculator automatically adds a 10% material waste factor to account for wall texture, board scrap, and mixer residual.
+The stucco calculator automatically adds a 10% material waste factor to account for wall texture, board scrap, and mixer residual.
 
 ### How much lath wire and building paper are needed for stucco?
 

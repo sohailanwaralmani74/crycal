@@ -11,7 +11,7 @@
       featureUsageRate: (parseFloat(document.getElementById('input_featureUsageRate').value) || 0) / 100,
       upgradeConversionRate: (parseFloat(document.getElementById('input_upgradeConversionRate').value) || 0) / 100,
       churnFromGatingRate: (parseFloat(document.getElementById('input_churnFromGatingRate').value) || 0) / 100
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -73,7 +73,7 @@
       netAnnualARRImpact: netAnnualARRImpact,
       monthLabels: monthLabels,
       cumulativeTimeline: cumulativeTimeline
-    };
+    }
   }
 
   function updateTool() {

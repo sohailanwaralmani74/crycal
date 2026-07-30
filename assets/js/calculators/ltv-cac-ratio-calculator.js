@@ -70,7 +70,7 @@
       cac: cac,
       targetRatio: targetRatio,
       ratio: ratio
-    };
+    }
     updateCharts(lastChartData);
 
     if (typeof window.logHistory === 'function') {
@@ -116,7 +116,7 @@
           plugins: { legend: { display: false } },
           scales: { y: { beginAtZero: true, ticks: { color: '#8899aa' } }, x: { ticks: { color: '#8899aa' } } }
         }
-      };
+      }
     }
     if (tab === 'benchmark') {
       return {
@@ -135,7 +135,7 @@
           plugins: { legend: { display: false } },
           scales: { y: { beginAtZero: true, ticks: { color: '#8899aa' } }, x: { ticks: { color: '#8899aa' } } }
         }
-      };
+      }
     }
     return null;
 
@@ -152,9 +152,12 @@
 
   function resetTool() {
 
-    document.getElementById('input_ltv').value = 4800;
-    document.getElementById('input_cac').value = 1200;
-    document.getElementById('input_targetRatio').value = 3.0;
+    var _el_input_ltv = document.getElementById('input_ltv');
+    _el_input_ltv.value = (_el_input_ltv.dataset && _el_input_ltv.dataset.default !== undefined) ? _el_input_ltv.dataset.default : (_el_input_ltv.getAttribute('value') || '');
+    var _el_input_cac = document.getElementById('input_cac');
+    _el_input_cac.value = (_el_input_cac.dataset && _el_input_cac.dataset.default !== undefined) ? _el_input_cac.dataset.default : (_el_input_cac.getAttribute('value') || '');
+    var _el_input_targetRatio = document.getElementById('input_targetRatio');
+    _el_input_targetRatio.value = (_el_input_targetRatio.dataset && _el_input_targetRatio.dataset.default !== undefined) ? _el_input_targetRatio.dataset.default : (_el_input_targetRatio.getAttribute('value') || '');
     updateTool();
 
   }
@@ -169,9 +172,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

@@ -25,8 +25,7 @@
       '16': { df_no2: 239, syp_no2: 229, spf_no2: 217, hem_fir_no2: 225 },
       '24': { df_no2: 195, syp_no2: 187, spf_no2: 177, hem_fir_no2: 184 }
     }
-  };
-
+  }
   function init() {
     var calcBtn = document.getElementById('btn_calculate');
     var resetBtn = document.getElementById('btn_reset');
@@ -170,7 +169,6 @@
     var target = document.querySelector('.chart-tab[data-tab="' + tabId + '"]');
     if (target) target.classList.add('active');
     calculate();
-  };
-
+  }
   document.addEventListener('DOMContentLoaded', init);
 })();

@@ -13,7 +13,7 @@
       addon2AttachRate: (parseFloat(document.getElementById('input_addon2AttachRate').value) || 0) / 100,
       premiumSupportPrice: parseFloat(document.getElementById('input_premiumSupportPrice').value) || 0,
       premiumSupportAttachRate: (parseFloat(document.getElementById('input_premiumSupportAttachRate').value) || 0) / 100
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -65,7 +65,7 @@
       totalBlendedMRR: totalBlendedMRR,
       expansionARR: expansionARR,
       expansionArpuPercentage: expansionArpuPercentage
-    };
+    }
   }
 
   function updateTool() {

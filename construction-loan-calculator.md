@@ -132,7 +132,7 @@ faq:
   - question: "What happens if home construction runs over schedule or budget?"
     answer: "Lenders build contingency reserves (usually 5% to 10%) into construction budgets, and loan extensions can be granted, though additional interest charges accrue during delayed building months."
   - question: "Is home building financial data kept private in this tool?"
-    answer: "Yes, all construction loan calculations run 100% locally inside your web browser. No project budgets, interest rates, or land values leave your device."
+    answer: "All construction loan calculations run 100% locally inside your web browser, ensuring that no project budgets, interest rates, or land values leave your device."
 ---
 
 # Construction Loan Calculator - Calculate Home Loan Payment & Amortization
@@ -215,4 +215,4 @@ Lenders build contingency reserves (usually 5% to 10%) into construction budgets
 
 ### Is home building financial data kept private in this tool?
 
-Yes, all construction loan calculations run 100% locally inside your web browser. No project budgets, interest rates, or land values leave your device.
+All construction loan calculations run 100% locally inside your web browser, ensuring that no project budgets, interest rates, or land values leave your device.

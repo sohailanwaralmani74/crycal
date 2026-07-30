@@ -12,7 +12,7 @@
       startingRevenue: parseFloat(document.getElementById('input_startingRevenue').value) || 0,
       endingRevenue: parseFloat(document.getElementById('input_endingRevenue').value) || 0,
       durationMonths: parseFloat(document.getElementById('input_durationMonths').value) || 1
-    };
+    }
   }
 
   function formatCurrency(amount) {

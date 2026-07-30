@@ -17,7 +17,7 @@
       dividendGrowthRate: parseFloat(document.getElementById('input_dividendGrowthRate').value) || 0,
       timeYears: parseFloat(document.getElementById('input_timeYears').value) || 0,
       reinvestDividends: document.getElementById('input_reinvestDividends').value === 'true'
-    };
+    }
   }
 
   // ── Calculate Portfolio with DRIP ──
@@ -135,7 +135,7 @@
       yearData: yearData,
       totalShares: shares,
       finalSharePrice: sharePrice
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -177,7 +177,7 @@
         dividendGrowthRate: inputs.dividendGrowthRate,
         timeYears: inputs.timeYears,
         reinvestDividends: inputs.reinvestDividends ? 'Yes' : 'No'
-      };
+      }
       window.logHistory(inputSnapshot);
     }
 
@@ -276,7 +276,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'comparison') {
@@ -323,7 +323,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'breakdown') {
@@ -350,7 +350,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     return null;
@@ -393,11 +393,10 @@
       }
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') {
-        window.updateTool();
-      }
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') {
+      window.updateTool();
+    }
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

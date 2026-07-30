@@ -120,7 +120,7 @@ faq:
   - question: "What is 'boot' in a 1031 exchange?"
     answer: "Boot is any non-like-kind property received in an exchange, such as cash kept or debt reduction. Boot is fully taxable up to the total realized capital gain."
   - question: "Can a primary residence qualify for a 1031 exchange?"
-    answer: "No. Section 1031 applies exclusively to real estate held for investment or productive use in a trade or business. Primary residences do not qualify."
+    answer: "A primary residence cannot qualify for a 1031 exchange, because Section 1031 applies exclusively to real estate held for investment or productive business use."
   - question: "Who holds the funds during a 1031 exchange?"
     answer: "A Qualified Intermediary (QI) must hold all sale proceeds. If the seller touches or receives the cash directly, the 1031 exchange is disqualified and taxes become immediately due."
   - question: "What qualifies as 'like-kind' real estate?"
@@ -178,7 +178,7 @@ Boot is any non-like-kind property received in an exchange, such as cash kept or
 
 ### Can a primary residence qualify for a 1031 exchange?
 
-No. Section 1031 applies exclusively to real estate held for investment or productive use in a trade or business. Primary residences do not qualify.
+A primary residence cannot qualify for a 1031 exchange, because Section 1031 applies exclusively to real estate held for investment or productive business use.
 
 ### Who holds the funds during a 1031 exchange?
 

@@ -18,7 +18,7 @@
       needsPercentage: parseFloat(document.getElementById('input_needsPercentage').value) || 50,
       wantsPercentage: parseFloat(document.getElementById('input_wantsPercentage').value) || 30,
       savingsPercentage: parseFloat(document.getElementById('input_savingsPercentage').value) || 20
-    };
+    }
   }
 
   // ── Get Frequency Multiplier ──
@@ -149,7 +149,7 @@
         needsAmount: needsAmount,
         wantsAmount: wantsAmount,
         savingsAmount: savingsAmount
-      };
+      }
       window.logHistory(snapshot);
     }
     if (typeof window.renderPresetDropdown === 'function') {
@@ -195,7 +195,7 @@
             title: { display: true, text: 'No data to display', font: { size: 14 } }
           }
         }
-      };
+      }
     }
 
     if (tab === 'breakdown') {
@@ -229,7 +229,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'comparison') {
@@ -266,7 +266,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'distribution') {
@@ -304,7 +304,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -319,12 +319,17 @@
   // ── Reset Tool ──
   function resetTool() {
     document.getElementById('input_incomeType').value = 'net';
-    document.getElementById('input_totalIncome').value = 5000;
+    var _el_input_totalIncome = document.getElementById('input_totalIncome');
+    _el_input_totalIncome.value = (_el_input_totalIncome.dataset && _el_input_totalIncome.dataset.default !== undefined) ? _el_input_totalIncome.dataset.default : (_el_input_totalIncome.getAttribute('value') || '');
     document.getElementById('input_payFrequency').value = 'monthly';
-    document.getElementById('input_taxRate').value = 0;
-    document.getElementById('input_needsPercentage').value = 50.0;
-    document.getElementById('input_wantsPercentage').value = 30.0;
-    document.getElementById('input_savingsPercentage').value = 20.0;
+    var _el_input_taxRate = document.getElementById('input_taxRate');
+    _el_input_taxRate.value = (_el_input_taxRate.dataset && _el_input_taxRate.dataset.default !== undefined) ? _el_input_taxRate.dataset.default : (_el_input_taxRate.getAttribute('value') || '');
+    var _el_input_needsPercentage = document.getElementById('input_needsPercentage');
+    _el_input_needsPercentage.value = (_el_input_needsPercentage.dataset && _el_input_needsPercentage.dataset.default !== undefined) ? _el_input_needsPercentage.dataset.default : (_el_input_needsPercentage.getAttribute('value') || '');
+    var _el_input_wantsPercentage = document.getElementById('input_wantsPercentage');
+    _el_input_wantsPercentage.value = (_el_input_wantsPercentage.dataset && _el_input_wantsPercentage.dataset.default !== undefined) ? _el_input_wantsPercentage.dataset.default : (_el_input_wantsPercentage.getAttribute('value') || '');
+    var _el_input_savingsPercentage = document.getElementById('input_savingsPercentage');
+    _el_input_savingsPercentage.value = (_el_input_savingsPercentage.dataset && _el_input_savingsPercentage.dataset.default !== undefined) ? _el_input_savingsPercentage.dataset.default : (_el_input_savingsPercentage.getAttribute('value') || '');
     if (typeof window.updateTool === 'function') window.updateTool();
   }
 
@@ -340,9 +345,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
   });
 
 })();

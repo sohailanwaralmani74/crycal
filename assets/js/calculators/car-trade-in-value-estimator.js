@@ -7,8 +7,7 @@
     'good': 0.95,
     'fair': 0.82,
     'poor': 0.68
-  };
-
+  }
   function getInputs() {
     return {
       baseMarketValue: parseFloat(document.getElementById('input_baseMarketValue').value) || 0,
@@ -16,7 +15,7 @@
       odometerReading: parseFloat(document.getElementById('input_odometerReading').value) || 0,
       expectedMiles: parseFloat(document.getElementById('input_expectedMiles').value) || 0,
       stateSalesTaxRate: parseFloat(document.getElementById('input_stateSalesTaxRate').value) || 6.0
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -65,7 +64,7 @@
       privatePartyBonus: privatePartyBonus,
       tradeInTaxCredit: tradeInTaxCredit,
       netDifference: netDifference
-    };
+    }
   }
 
   function updateTool() {
@@ -140,7 +139,7 @@
             }
           }
         }
-      };
+      }
     } else if (tab === 'netBenefit') {
       return {
         type: 'bar',
@@ -176,7 +175,7 @@
             }
           }
         }
-      };
+      }
     }
     return null;
   }
@@ -187,11 +186,15 @@
   }
 
   function resetTool() {
-    document.getElementById('input_baseMarketValue').value = 22000;
+    var _el_input_baseMarketValue = document.getElementById('input_baseMarketValue');
+    _el_input_baseMarketValue.value = (_el_input_baseMarketValue.dataset && _el_input_baseMarketValue.dataset.default !== undefined) ? _el_input_baseMarketValue.dataset.default : (_el_input_baseMarketValue.getAttribute('value') || '');
     document.getElementById('input_vehicleCondition').value = 'good';
-    document.getElementById('input_odometerReading').value = 55000;
-    document.getElementById('input_expectedMiles').value = 45000;
-    document.getElementById('input_stateSalesTaxRate').value = 6.0;
+    var _el_input_odometerReading = document.getElementById('input_odometerReading');
+    _el_input_odometerReading.value = (_el_input_odometerReading.dataset && _el_input_odometerReading.dataset.default !== undefined) ? _el_input_odometerReading.dataset.default : (_el_input_odometerReading.getAttribute('value') || '');
+    var _el_input_expectedMiles = document.getElementById('input_expectedMiles');
+    _el_input_expectedMiles.value = (_el_input_expectedMiles.dataset && _el_input_expectedMiles.dataset.default !== undefined) ? _el_input_expectedMiles.dataset.default : (_el_input_expectedMiles.getAttribute('value') || '');
+    var _el_input_stateSalesTaxRate = document.getElementById('input_stateSalesTaxRate');
+    _el_input_stateSalesTaxRate.value = (_el_input_stateSalesTaxRate.dataset && _el_input_stateSalesTaxRate.dataset.default !== undefined) ? _el_input_stateSalesTaxRate.dataset.default : (_el_input_stateSalesTaxRate.getAttribute('value') || '');
     updateTool();
   }
 
@@ -205,9 +208,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

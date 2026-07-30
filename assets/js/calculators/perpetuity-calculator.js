@@ -9,7 +9,7 @@
       cashFlow: cashFlow,
       discountRate: discountRate / 100,
       growthRate: growthRate / 100
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -71,7 +71,7 @@
       valueIn10Years: valueIn10Years,
       totalCashFlow10yr: totalCashFlow10yr,
       error: null
-    };
+    }
   }
 
   function updateTool() {
@@ -105,9 +105,12 @@
   }
 
   function resetTool() {
-    document.getElementById('input_cashFlow').value = 5000;
-    document.getElementById('input_discountRate').value = 8;
-    document.getElementById('input_growthRate').value = 0;
+    var _el_input_cashFlow = document.getElementById('input_cashFlow');
+    _el_input_cashFlow.value = (_el_input_cashFlow.dataset && _el_input_cashFlow.dataset.default !== undefined) ? _el_input_cashFlow.dataset.default : (_el_input_cashFlow.getAttribute('value') || '');
+    var _el_input_discountRate = document.getElementById('input_discountRate');
+    _el_input_discountRate.value = (_el_input_discountRate.dataset && _el_input_discountRate.dataset.default !== undefined) ? _el_input_discountRate.dataset.default : (_el_input_discountRate.getAttribute('value') || '');
+    var _el_input_growthRate = document.getElementById('input_growthRate');
+    _el_input_growthRate.value = (_el_input_growthRate.dataset && _el_input_growthRate.dataset.default !== undefined) ? _el_input_growthRate.dataset.default : (_el_input_growthRate.getAttribute('value') || '');
     updateTool();
   }
 
@@ -120,9 +123,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

@@ -121,17 +121,17 @@ faq:
   - question: "How many square feet does a 4x8 sheet of OSB cover?"
     answer: "A standard 4 ft by 8 ft OSB panel covers exactly 32 square feet."
   - question: "How many sheets of OSB do I need for 1,200 sq ft?"
-    answer: "For 1,200 sq ft, you need 38 sheets net (1200 / 32). With a 10% waste allowance, order 42 total OSB panels."
+    answer: "For 1,200 square feet, you need 38 net sheets of OSB, but you should order 42 total panels to include a 10% waste allowance."
   - question: "What OSB thickness should be used for roof decking?"
-    answer: "7/16-inch or 1/2-inch APA-rated OSB is standard for roof rafters or trusses spaced 24 inches on-center. 5/8-inch is used for heavy snow loads."
+    answer: "For roof decking, 7/16-inch or 1/2-inch APA-rated OSB is standard for rafters or trusses spaced 24 inches on-center, while 5/8-inch is recommended for heavy snow loads."
   - question: "What OSB thickness is required for subflooring?"
     answer: "Subfloors require 23/32-inch (3/4-inch nominal) tongue-and-groove (T&G) OSB panels glued and screwed to floor joists spaced 16 inches on-center."
   - question: "Which side of OSB sheathing faces out on a roof deck?"
-    answer: "The textured, grid-marked non-skid side faces UP/OUT for worker safety, with the smooth stamped side facing down into the attic space."
+    answer: "The textured, grid-marked non-skid side of OSB sheathing faces out on a roof deck for worker safety, with the smooth stamped side facing down into the attic space."
   - question: "Should OSB sheathing panels be installed with a expansion gap?"
-    answer: "Yes, APA guidelines mandate leaving a 1/8-inch expansion gap at all panel edge and end joints to prevent buckling from humidity."
+    answer: "Yes — APA guidelines mandate leaving a 1/8-inch expansion gap at all OSB panel edge and end joints to prevent buckling from humidity."
   - question: "Is OSB better or cheaper than CDX plywood for wall framing?"
-    answer: "OSB is typically 20% to 30% cheaper than CDX plywood while offering consistent density without core voids or knots."
+    answer: "OSB is typically 20% to 30% cheaper than CDX plywood for wall framing, while offering consistent density without core voids or knots."
 ---
 
 # OSB Sheathing Calculator - Calculate Board Feet & Wood Quantity
@@ -218,11 +218,11 @@ A standard 4 ft by 8 ft OSB panel covers exactly 32 square feet.
 
 ### How many sheets of OSB do I need for 1,200 sq ft?
 
-For 1,200 sq ft, you need 38 sheets net (1200 / 32). With a 10% waste allowance, order 42 total OSB panels.
+For 1,200 square feet, you need 38 net sheets of OSB, but you should order 42 total panels to include a 10% waste allowance.
 
 ### What OSB thickness should be used for roof decking?
 
-7/16-inch or 1/2-inch APA-rated OSB is standard for roof rafters or trusses spaced 24 inches on-center. 5/8-inch is used for heavy snow loads.
+For roof decking, 7/16-inch or 1/2-inch APA-rated OSB is standard for rafters or trusses spaced 24 inches on-center, while 5/8-inch is recommended for heavy snow loads.
 
 ### What OSB thickness is required for subflooring?
 
@@ -230,12 +230,12 @@ Subfloors require 23/32-inch (3/4-inch nominal) tongue-and-groove (T&G) OSB pane
 
 ### Which side of OSB sheathing faces out on a roof deck?
 
-The textured, grid-marked non-skid side faces UP/OUT for worker safety, with the smooth stamped side facing down into the attic space.
+The textured, grid-marked non-skid side of OSB sheathing faces out on a roof deck for worker safety, with the smooth stamped side facing down into the attic space.
 
 ### Should OSB sheathing panels be installed with a expansion gap?
 
-Yes, APA guidelines mandate leaving a 1/8-inch expansion gap at all panel edge and end joints to prevent buckling from humidity.
+Yes — APA guidelines mandate leaving a 1/8-inch expansion gap at all OSB panel edge and end joints to prevent buckling from humidity.
 
 ### Is OSB better or cheaper than CDX plywood for wall framing?
 
-OSB is typically 20% to 30% cheaper than CDX plywood while offering consistent density without core voids or knots.
+OSB is typically 20% to 30% cheaper than CDX plywood for wall framing, while offering consistent density without core voids or knots.

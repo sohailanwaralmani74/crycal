@@ -147,17 +147,17 @@ howto:
 
 faq:
   - question: "How many gallons of paint do I need for a 2,000 sq ft house?"
-    answer: "A 2,000 sq ft two-story house typically has around 2,200 to 2,500 sq ft of exterior wall area. For 2 coats of paint, you will need approximately 12 to 15 gallons for the siding body and 2 to 3 gallons for trim."
+    answer: "A 2,000-square-foot two-story house requires approximately 12 to 15 gallons for the siding body and 2 to 3 gallons for trim when applying two coats. This estimate assumes a typical exterior wall area of 2,200 to 2,500 square feet."
   - question: "How much exterior paint does 1 gallon cover?"
-    answer: "One gallon of exterior acrylic latex paint covers 350 to 400 sq ft on smooth vinyl or painted wood, but only 200 to 250 sq ft on rough stucco, unsealed brick, or weathered wood."
+    answer: "One gallon of exterior acrylic latex paint covers 350 to 400 square feet on smooth vinyl or painted wood. Coverage drops to 200 to 250 square feet on rough stucco, unsealed brick, or weathered wood."
   - question: "Should I apply 1 coat or 2 coats of exterior paint?"
-    answer: "Two coats are strongly recommended for exterior paint jobs to provide UV protection, weather resistance, and color uniformity. One coat is acceptable only for exact-color touch-ups over intact paint."
+    answer: "Apply two coats for exterior paint jobs to ensure UV protection, weather resistance, and color uniformity. Apply only one coat for exact-color touch-ups over intact paint."
   - question: "How do I calculate trim and soffit paint separately?"
-    answer: "Multiply total linear feet of trim by 1 foot average width to estimate trim square footage. Trim usually requires 1 to 3 gallons of semi-gloss exterior paint depending on house size."
+    answer: "Multiply your total linear feet of trim by an average 1-foot width to estimate your trim square footage. Trim usually requires 1 to 3 gallons of semi-gloss exterior paint, depending on house size."
   - question: "How much does professional exterior paint cost per gallon?"
-    answer: "High-quality 100% acrylic exterior latex paint ranges from $40 to $70 per gallon. Premium grade paints with self-priming formulas can cost up to $85 per gallon."
+    answer: "High-quality 100% acrylic exterior latex paint ranges from $40 to $70 per gallon. Premium-grade paints with self-priming formulas can cost up to $85 per gallon."
   - question: "Does stucco require more paint than wood siding?"
-    answer: "Yes. Stucco is highly porous and textured, absorbing up to 40% more paint than smooth lap siding. First coats on unpainted stucco require elastomeric paint or masonry primer."
+    answer: "Stucco requires up to 40% more paint than smooth lap siding due to its highly porous and textured surface. Apply elastomeric paint or masonry primer for the first coat on unpainted stucco."
 ---
 
 # Exterior Siding Paint Calculator - Calculate Paint Coverage & Sheet Count
@@ -215,25 +215,25 @@ $$\text{Total Paint Cost} = (\lceil \text{Body Gallons} \rceil + \lceil \text{Tr
 
 ### How many gallons of paint do I need for a 2,000 sq ft house?
 
-A 2,000 sq ft two-story house typically has around 2,200 to 2,500 sq ft of exterior wall area. For 2 coats of paint, you will need approximately 12 to 15 gallons for the siding body and 2 to 3 gallons for trim.
+A 2,000-square-foot two-story house requires approximately 12 to 15 gallons for the siding body and 2 to 3 gallons for trim when applying two coats. This estimate assumes a typical exterior wall area of 2,200 to 2,500 square feet.
 
 ### How much exterior paint does 1 gallon cover?
 
-One gallon of exterior acrylic latex paint covers 350 to 400 sq ft on smooth vinyl or painted wood, but only 200 to 250 sq ft on rough stucco, unsealed brick, or weathered wood.
+One gallon of exterior acrylic latex paint covers 350 to 400 square feet on smooth vinyl or painted wood. Coverage drops to 200 to 250 square feet on rough stucco, unsealed brick, or weathered wood.
 
 ### Should I apply 1 coat or 2 coats of exterior paint?
 
-Two coats are strongly recommended for exterior paint jobs to provide UV protection, weather resistance, and color uniformity. One coat is acceptable only for exact-color touch-ups over intact paint.
+Apply two coats for exterior paint jobs to ensure UV protection, weather resistance, and color uniformity. Apply only one coat for exact-color touch-ups over intact paint.
 
 ### How do I calculate trim and soffit paint separately?
 
-Multiply total linear feet of trim by 1 foot average width to estimate trim square footage. Trim usually requires 1 to 3 gallons of semi-gloss exterior paint depending on house size.
+Multiply your total linear feet of trim by an average 1-foot width to estimate your trim square footage. Trim usually requires 1 to 3 gallons of semi-gloss exterior paint, depending on house size.
 
 ### How much does professional exterior paint cost per gallon?
 
-High-quality 100% acrylic exterior latex paint ranges from $40 to $70 per gallon. Premium grade paints with self-priming formulas can cost up to $85 per gallon.
+High-quality 100% acrylic exterior latex paint ranges from $40 to $70 per gallon. Premium-grade paints with self-priming formulas can cost up to $85 per gallon.
 
 ### Does stucco require more paint than wood siding?
 
-Yes. Stucco is highly porous and textured, absorbing up to 40% more paint than smooth lap siding. First coats on unpainted stucco require elastomeric paint or masonry primer.
+Stucco requires up to 40% more paint than smooth lap siding due to its highly porous and textured surface. Apply elastomeric paint or masonry primer for the first coat on unpainted stucco.
 

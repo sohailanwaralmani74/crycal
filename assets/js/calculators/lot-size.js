@@ -17,7 +17,7 @@
       pipValue: parseFloat(document.getElementById('input_pipValue').value) || 0,
       accountCurrency: document.getElementById('input_accountCurrency').value || 'USD',
       compoundingFrequency: document.getElementById('input_compoundingFrequency').value || 'monthly'
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -118,7 +118,7 @@
         pipValue: inputs.pipValue,
         positionSizeLots: positionSizeLots,
         riskAmount: riskAmount
-      };
+      }
       window.logHistory(snapshot);
     }
     if (typeof window.renderPresetDropdown === 'function') {
@@ -173,7 +173,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'comparison') {
@@ -203,7 +203,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -217,10 +217,14 @@
 
   // ── Reset Tool ──
   function resetTool() {
-    document.getElementById('input_accountBalance').value = 10000;
-    document.getElementById('input_riskPercent').value = 1.0;
-    document.getElementById('input_stopLossPips').value = 50;
-    document.getElementById('input_pipValue').value = 10;
+    var _el_input_accountBalance = document.getElementById('input_accountBalance');
+    _el_input_accountBalance.value = (_el_input_accountBalance.dataset && _el_input_accountBalance.dataset.default !== undefined) ? _el_input_accountBalance.dataset.default : (_el_input_accountBalance.getAttribute('value') || '');
+    var _el_input_riskPercent = document.getElementById('input_riskPercent');
+    _el_input_riskPercent.value = (_el_input_riskPercent.dataset && _el_input_riskPercent.dataset.default !== undefined) ? _el_input_riskPercent.dataset.default : (_el_input_riskPercent.getAttribute('value') || '');
+    var _el_input_stopLossPips = document.getElementById('input_stopLossPips');
+    _el_input_stopLossPips.value = (_el_input_stopLossPips.dataset && _el_input_stopLossPips.dataset.default !== undefined) ? _el_input_stopLossPips.dataset.default : (_el_input_stopLossPips.getAttribute('value') || '');
+    var _el_input_pipValue = document.getElementById('input_pipValue');
+    _el_input_pipValue.value = (_el_input_pipValue.dataset && _el_input_pipValue.dataset.default !== undefined) ? _el_input_pipValue.dataset.default : (_el_input_pipValue.getAttribute('value') || '');
     document.getElementById('input_accountCurrency').value = 'USD';
     document.getElementById('input_compoundingFrequency').value = 'monthly';
     if (typeof window.updateTool === 'function') window.updateTool();
@@ -238,9 +242,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
   });
 
 })();

@@ -130,17 +130,17 @@ howto:
 
 faq:
   - question: "What is head-to-head coverage in irrigation design?"
-    answer: "Head-to-head coverage means every sprinkler head throws water all the way to the location of the adjacent sprinkler heads. This 100% overlap pattern eliminates dry spots, accounts for wind drift, and ensures uniform turf moisture."
+    answer: "Head-to-head coverage means every irrigation sprinkler throws water all the way to adjacent sprinkler heads, ensuring uniform turf moisture without dry spots."
   - question: "How do I calculate my outdoor faucet flow rate in GPM?"
-    answer: "Time how many seconds it takes to fill a 5-gallon bucket from an outdoor spigot with no hose attached. Divide 300 by the seconds to find GPM (e.g., 25 seconds to fill = 300 / 25 = 12 GPM)."
+    answer: "To calculate your outdoor faucet flow rate in GPM, time how many seconds it takes to fill a 5-gallon bucket and divide 300 by that number."
   - question: "Why do I need to divide my sprinkler system into multiple zones?"
-    answer: "Residential water meters and supply lines rarely supply enough GPM to run all sprinkler heads simultaneously. Splitting heads into separate valve zones ensures each head receives adequate water pressure and flow."
+    answer: "Dividing a sprinkler system into multiple valve zones ensures each head receives adequate water pressure, since residential supply lines rarely provide enough flow to run all heads simultaneously."
   - question: "Can I mix rotors and fixed spray heads on the same valve zone?"
-    answer: "No. Never mix rotors and spray heads on the same zone because spray heads apply water at over twice the rate of rotors (1.5–2.0 in/hr vs 0.5 in/hr), causing heavy overwatering or severe dry patches."
+    answer: "You must never mix rotors and fixed spray heads on the same irrigation zone because spray heads apply water at over twice the rate of rotors, which causes severe dry patches and overwatering."
   - question: "What water pressure (PSI) is needed for residential sprinklers?"
-    answer: "Standard spray heads perform best at 30 PSI, gear-driven rotors require 45 to 50 PSI, and rotary nozzles (MP Rotators) operate optimal at 40 PSI. High pressure (>70 PSI) requires a pressure regulator."
+    answer: "Standard residential spray heads perform best at 30 PSI, rotary nozzles operate optimally at 40 PSI, and gear-driven rotors require 45 to 50 PSI."
   - question: "How long should I run each sprinkler zone?"
-    answer: "With spray heads (1.5 in/hr rate), run zones for 15 to 20 minutes. With rotors or MP Rotators (~0.5 in/hr rate), run zones for 40 to 50 minutes to deliver 0.5 inches of water per session."
+    answer: "You should run spray head zones for 15 to 20 minutes and rotor zones for 40 to 50 minutes to deliver a half-inch of water per watering session."
 ---
 
 # Irrigation Sprinkler Coverage Calculator - Calculate Mulch, Sod & Material Volume
@@ -205,25 +205,24 @@ The table below illustrates recommended head counts, GPM requirements, and zone 
 
 ### What is head-to-head coverage in irrigation design?
 
-Head-to-head coverage means every sprinkler head throws water all the way to the location of the adjacent sprinkler heads. This 100% overlap pattern eliminates dry spots, accounts for wind drift, and ensures uniform turf moisture.
+Head-to-head coverage means every irrigation sprinkler throws water all the way to adjacent sprinkler heads, ensuring uniform turf moisture without dry spots.
 
 ### How do I calculate my outdoor faucet flow rate in GPM?
 
-Time how many seconds it takes to fill a 5-gallon bucket from an outdoor spigot with no hose attached. Divide 300 by the seconds to find GPM (e.g., 25 seconds to fill = 300 / 25 = 12 GPM).
+To calculate your outdoor faucet flow rate in GPM, time how many seconds it takes to fill a 5-gallon bucket and divide 300 by that number.
 
 ### Why do I need to divide my sprinkler system into multiple zones?
 
-Residential water meters and supply lines rarely supply enough GPM to run all sprinkler heads simultaneously. Splitting heads into separate valve zones ensures each head receives adequate water pressure and flow.
+Dividing a sprinkler system into multiple valve zones ensures each head receives adequate water pressure, since residential supply lines rarely provide enough flow to run all heads simultaneously.
 
 ### Can I mix rotors and fixed spray heads on the same valve zone?
 
-No. Never mix rotors and spray heads on the same zone because spray heads apply water at over twice the rate of rotors (1.5–2.0 in/hr vs 0.5 in/hr), causing heavy overwatering or severe dry patches.
+You must never mix rotors and fixed spray heads on the same irrigation zone because spray heads apply water at over twice the rate of rotors, which causes severe dry patches and overwatering.
 
 ### What water pressure (PSI) is needed for residential sprinklers?
 
-Standard spray heads perform best at 30 PSI, gear-driven rotors require 45 to 50 PSI, and rotary nozzles (MP Rotators) operate optimal at 40 PSI. High pressure (>70 PSI) requires a pressure regulator.
+Standard residential spray heads perform best at 30 PSI, rotary nozzles operate optimally at 40 PSI, and gear-driven rotors require 45 to 50 PSI.
 
 ### How long should I run each sprinkler zone?
 
-With spray heads (1.5 in/hr rate), run zones for 15 to 20 minutes. With rotors or MP Rotators (~0.5 in/hr rate), run zones for 40 to 50 minutes to deliver 0.5 inches of water per session.
-
+You should run spray head zones for 15 to 20 minutes and rotor zones for 40 to 50 minutes to deliver a half-inch of water per watering session.

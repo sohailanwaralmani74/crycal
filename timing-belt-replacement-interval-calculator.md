@@ -154,7 +154,7 @@ faq:
   - question: "What is the difference between a timing belt and a timing chain?"
     answer: "Timing belts are made of rubber and require periodic replacement every 60k-100k miles. Timing chains are made of metal, lubricated by engine oil, and usually last the full life of the vehicle."
   - question: "Is my vehicle schedule data kept private?"
-    answer: "Yes. All calculations process 100% locally within your web browser."
+    answer: "All vehicle schedule calculations process 100% locally within your web browser."
 
 ---
 
@@ -257,7 +257,7 @@ On most engines, the timing belt drives the water pump. Replacing the water pump
 
 ### What is the 60,000 to 100,000 mile timing belt rule?
 
-Automotive manufacturers specify replacing timing belts every **60,000 to 105,000 miles (or 7 to 10 years)** because rubber degrades over time regardless of driving conditions.
+Automotive manufacturers specify replacing timing belts every 60,000 to 105,000 miles (or 7 to 10 years) because rubber degrades over time regardless of driving conditions.
 
 ### What is the difference between a timing belt and a timing chain?
 
@@ -265,4 +265,4 @@ Timing belts are made of rubber and require periodic replacement every 60k-100k 
 
 ### Is my vehicle schedule data kept private?
 
-Yes. All calculations process 100% locally within your web browser.
+All vehicle schedule calculations process 100% locally within your web browser.

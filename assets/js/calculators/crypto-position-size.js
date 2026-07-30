@@ -20,7 +20,7 @@
       contractType: document.getElementById('input_contractType').value || 'linear',
       contractSize: parseFloat(document.getElementById('input_contractSize').value) || 1,
       leverage: parseFloat(document.getElementById('input_leverage').value) || 1
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -110,7 +110,7 @@
         contractType: inputs.contractType,
         positionSizeContracts: positionSizeContracts,
         riskAmount: riskAmount
-      };
+      }
       window.logHistory(snapshot);
     }
     if (typeof window.renderPresetDropdown === 'function') {
@@ -194,7 +194,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -208,14 +208,21 @@
 
   // ── Reset Tool ──
   function resetTool() {
-    document.getElementById('input_accountBalance').value = 10000;
-    document.getElementById('input_riskPercent').value = 1.0;
-    document.getElementById('input_entryPrice').value = 60000;
-    document.getElementById('input_stopLossPrice').value = 58200;
-    document.getElementById('input_currentPrice').value = 60000;
+    var _el_input_accountBalance = document.getElementById('input_accountBalance');
+    _el_input_accountBalance.value = (_el_input_accountBalance.dataset && _el_input_accountBalance.dataset.default !== undefined) ? _el_input_accountBalance.dataset.default : (_el_input_accountBalance.getAttribute('value') || '');
+    var _el_input_riskPercent = document.getElementById('input_riskPercent');
+    _el_input_riskPercent.value = (_el_input_riskPercent.dataset && _el_input_riskPercent.dataset.default !== undefined) ? _el_input_riskPercent.dataset.default : (_el_input_riskPercent.getAttribute('value') || '');
+    var _el_input_entryPrice = document.getElementById('input_entryPrice');
+    _el_input_entryPrice.value = (_el_input_entryPrice.dataset && _el_input_entryPrice.dataset.default !== undefined) ? _el_input_entryPrice.dataset.default : (_el_input_entryPrice.getAttribute('value') || '');
+    var _el_input_stopLossPrice = document.getElementById('input_stopLossPrice');
+    _el_input_stopLossPrice.value = (_el_input_stopLossPrice.dataset && _el_input_stopLossPrice.dataset.default !== undefined) ? _el_input_stopLossPrice.dataset.default : (_el_input_stopLossPrice.getAttribute('value') || '');
+    var _el_input_currentPrice = document.getElementById('input_currentPrice');
+    _el_input_currentPrice.value = (_el_input_currentPrice.dataset && _el_input_currentPrice.dataset.default !== undefined) ? _el_input_currentPrice.dataset.default : (_el_input_currentPrice.getAttribute('value') || '');
     document.getElementById('input_contractType').value = 'linear';
-    document.getElementById('input_contractSize').value = 1;
-    document.getElementById('input_leverage').value = 1;
+    var _el_input_contractSize = document.getElementById('input_contractSize');
+    _el_input_contractSize.value = (_el_input_contractSize.dataset && _el_input_contractSize.dataset.default !== undefined) ? _el_input_contractSize.dataset.default : (_el_input_contractSize.getAttribute('value') || '');
+    var _el_input_leverage = document.getElementById('input_leverage');
+    _el_input_leverage.value = (_el_input_leverage.dataset && _el_input_leverage.dataset.default !== undefined) ? _el_input_leverage.dataset.default : (_el_input_leverage.getAttribute('value') || '');
     if (typeof window.updateTool === 'function') window.updateTool();
   }
 
@@ -231,9 +238,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
   });
 
 })();

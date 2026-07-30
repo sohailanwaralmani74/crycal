@@ -38,7 +38,7 @@
       deal: parseFloat(document.getElementById('input_total_deal_size')?.value) || 0,
       margin: parseFloat(document.getElementById('input_partner_margin')?.value) || 0,
       cost: parseFloat(document.getElementById('input_internal_cost')?.value) || 0
-    };
+    }
   }
 
   function updateTool() {

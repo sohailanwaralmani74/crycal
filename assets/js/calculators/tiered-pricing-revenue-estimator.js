@@ -12,7 +12,7 @@
       proMixPercent: parseFloat(document.getElementById('input_proMixPercent').value) || 0,
       enterprisePrice: parseFloat(document.getElementById('input_enterprisePrice').value) || 0,
       enterpriseMixPercent: parseFloat(document.getElementById('input_enterpriseMixPercent').value) || 0
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -71,7 +71,7 @@
       totalMRR: totalMRR,
       totalARR: totalARR,
       blendedARPU: blendedARPU
-    };
+    }
   }
 
   function updateTool() {

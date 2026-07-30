@@ -13,7 +13,7 @@
       tierDowngradeMrr: parseFloat(document.getElementById('input_tierDowngradeMrr').value) || 0,
       seatRemovalMrr: parseFloat(document.getElementById('input_seatRemovalMrr').value) || 0,
       featureDiscountMrr: parseFloat(document.getElementById('input_featureDiscountMrr').value) || 0
-    };
+    }
   }
 
   function formatCurrency(amount) {

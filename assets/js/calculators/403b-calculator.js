@@ -21,7 +21,7 @@
       annualReturn: annualReturn / 100,
       yearsToRetirement: yearsToRetirement,
       annualSalaryGrowth: annualSalaryGrowth / 100
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -95,7 +95,7 @@
       totalGrowth: totalGrowth,
       dataPoints: dataPoints,
       error: null
-    };
+    }
   }
 
   function updateTool() {
@@ -127,7 +127,7 @@
       totalYourContributions: result.totalYourContributions,
       totalEmployerContributions: result.totalEmployerContributions,
       totalGrowth: result.totalGrowth
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -195,7 +195,7 @@
           },
           interaction: { intersect: false, mode: 'index' }
         }
-      };
+      }
     }
 
     if (tab === 'breakdown') {
@@ -217,7 +217,7 @@
             title: { display: true, text: 'Contribution Sources', font: { size: 14, color: '#e8edf0' } }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -233,13 +233,20 @@
   }
 
   function resetTool() {
-    document.getElementById('input_currentBalance').value = 40000;
-    document.getElementById('input_annualSalary').value = 75000;
-    document.getElementById('input_contributionPercent').value = 8;
-    document.getElementById('input_employerMatchPercent').value = 3;
-    document.getElementById('input_annualReturn').value = 7;
-    document.getElementById('input_yearsToRetirement').value = 25;
-    document.getElementById('input_annualSalaryGrowth').value = 2.5;
+    var _el_input_currentBalance = document.getElementById('input_currentBalance');
+    _el_input_currentBalance.value = (_el_input_currentBalance.dataset && _el_input_currentBalance.dataset.default !== undefined) ? _el_input_currentBalance.dataset.default : (_el_input_currentBalance.getAttribute('value') || '');
+    var _el_input_annualSalary = document.getElementById('input_annualSalary');
+    _el_input_annualSalary.value = (_el_input_annualSalary.dataset && _el_input_annualSalary.dataset.default !== undefined) ? _el_input_annualSalary.dataset.default : (_el_input_annualSalary.getAttribute('value') || '');
+    var _el_input_contributionPercent = document.getElementById('input_contributionPercent');
+    _el_input_contributionPercent.value = (_el_input_contributionPercent.dataset && _el_input_contributionPercent.dataset.default !== undefined) ? _el_input_contributionPercent.dataset.default : (_el_input_contributionPercent.getAttribute('value') || '');
+    var _el_input_employerMatchPercent = document.getElementById('input_employerMatchPercent');
+    _el_input_employerMatchPercent.value = (_el_input_employerMatchPercent.dataset && _el_input_employerMatchPercent.dataset.default !== undefined) ? _el_input_employerMatchPercent.dataset.default : (_el_input_employerMatchPercent.getAttribute('value') || '');
+    var _el_input_annualReturn = document.getElementById('input_annualReturn');
+    _el_input_annualReturn.value = (_el_input_annualReturn.dataset && _el_input_annualReturn.dataset.default !== undefined) ? _el_input_annualReturn.dataset.default : (_el_input_annualReturn.getAttribute('value') || '');
+    var _el_input_yearsToRetirement = document.getElementById('input_yearsToRetirement');
+    _el_input_yearsToRetirement.value = (_el_input_yearsToRetirement.dataset && _el_input_yearsToRetirement.dataset.default !== undefined) ? _el_input_yearsToRetirement.dataset.default : (_el_input_yearsToRetirement.getAttribute('value') || '');
+    var _el_input_annualSalaryGrowth = document.getElementById('input_annualSalaryGrowth');
+    _el_input_annualSalaryGrowth.value = (_el_input_annualSalaryGrowth.dataset && _el_input_annualSalaryGrowth.dataset.default !== undefined) ? _el_input_annualSalaryGrowth.dataset.default : (_el_input_annualSalaryGrowth.getAttribute('value') || '');
     updateTool();
   }
 
@@ -253,9 +260,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

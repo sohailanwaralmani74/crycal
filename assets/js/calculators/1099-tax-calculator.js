@@ -34,7 +34,7 @@
       federalTaxRate: federalTaxRate / 100,
       savePercentage: savePercentage / 100,
       quarterlyPayment: quarterlyPayment
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -129,14 +129,12 @@
       'Self-Employment Tax': seTax,
       'Federal Income Tax': federalTax,
       'State Income Tax': stateTax
-    };
-
+    }
     var comparisonData = {
       'Net Income': netProfit,
       'Total Tax': totalTax,
       'Take-Home': netProfit - totalTax
-    };
-
+    }
     return {
       seTax: seTax,
       seTaxDeduction: seTaxDeduction,
@@ -153,7 +151,7 @@
       chartData: chartData,
       comparisonData: comparisonData,
       error: null
-    };
+    }
   }
 
   // ── Main Update ──
@@ -207,7 +205,7 @@
       comparisonData: result.comparisonData,
       totalTax: result.totalTax,
       netProfit: result.netProfit
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -270,7 +268,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'comparison') {
@@ -331,7 +329,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -350,18 +348,30 @@
   // ── Reset Tool ──
   function resetTool() {
     document.getElementById('input_filingStatus').value = 'single';
-    document.getElementById('input_federalIncome').value = 50000;
-    document.getElementById('input_stateIncome').value = 0;
-    document.getElementById('input_businessExpenses').value = 5000;
-    document.getElementById('input_otherDeductions').value = 14600;
-    document.getElementById('input_dependents').value = 0;
-    document.getElementById('input_childTaxCredit').value = 2000;
-    document.getElementById('input_otherCredits').value = 0;
-    document.getElementById('input_estimatedPayments').value = 0;
-    document.getElementById('input_stateTaxRate').value = 5.0;
-    document.getElementById('input_federalTaxRate').value = 22.0;
-    document.getElementById('input_savePercentage').value = 30.0;
-    document.getElementById('input_quarterlyPayment').value = 0;
+    var _el_input_federalIncome = document.getElementById('input_federalIncome');
+    _el_input_federalIncome.value = (_el_input_federalIncome.dataset && _el_input_federalIncome.dataset.default !== undefined) ? _el_input_federalIncome.dataset.default : (_el_input_federalIncome.getAttribute('value') || '');
+    var _el_input_stateIncome = document.getElementById('input_stateIncome');
+    _el_input_stateIncome.value = (_el_input_stateIncome.dataset && _el_input_stateIncome.dataset.default !== undefined) ? _el_input_stateIncome.dataset.default : (_el_input_stateIncome.getAttribute('value') || '');
+    var _el_input_businessExpenses = document.getElementById('input_businessExpenses');
+    _el_input_businessExpenses.value = (_el_input_businessExpenses.dataset && _el_input_businessExpenses.dataset.default !== undefined) ? _el_input_businessExpenses.dataset.default : (_el_input_businessExpenses.getAttribute('value') || '');
+    var _el_input_otherDeductions = document.getElementById('input_otherDeductions');
+    _el_input_otherDeductions.value = (_el_input_otherDeductions.dataset && _el_input_otherDeductions.dataset.default !== undefined) ? _el_input_otherDeductions.dataset.default : (_el_input_otherDeductions.getAttribute('value') || '');
+    var _el_input_dependents = document.getElementById('input_dependents');
+    _el_input_dependents.value = (_el_input_dependents.dataset && _el_input_dependents.dataset.default !== undefined) ? _el_input_dependents.dataset.default : (_el_input_dependents.getAttribute('value') || '');
+    var _el_input_childTaxCredit = document.getElementById('input_childTaxCredit');
+    _el_input_childTaxCredit.value = (_el_input_childTaxCredit.dataset && _el_input_childTaxCredit.dataset.default !== undefined) ? _el_input_childTaxCredit.dataset.default : (_el_input_childTaxCredit.getAttribute('value') || '');
+    var _el_input_otherCredits = document.getElementById('input_otherCredits');
+    _el_input_otherCredits.value = (_el_input_otherCredits.dataset && _el_input_otherCredits.dataset.default !== undefined) ? _el_input_otherCredits.dataset.default : (_el_input_otherCredits.getAttribute('value') || '');
+    var _el_input_estimatedPayments = document.getElementById('input_estimatedPayments');
+    _el_input_estimatedPayments.value = (_el_input_estimatedPayments.dataset && _el_input_estimatedPayments.dataset.default !== undefined) ? _el_input_estimatedPayments.dataset.default : (_el_input_estimatedPayments.getAttribute('value') || '');
+    var _el_input_stateTaxRate = document.getElementById('input_stateTaxRate');
+    _el_input_stateTaxRate.value = (_el_input_stateTaxRate.dataset && _el_input_stateTaxRate.dataset.default !== undefined) ? _el_input_stateTaxRate.dataset.default : (_el_input_stateTaxRate.getAttribute('value') || '');
+    var _el_input_federalTaxRate = document.getElementById('input_federalTaxRate');
+    _el_input_federalTaxRate.value = (_el_input_federalTaxRate.dataset && _el_input_federalTaxRate.dataset.default !== undefined) ? _el_input_federalTaxRate.dataset.default : (_el_input_federalTaxRate.getAttribute('value') || '');
+    var _el_input_savePercentage = document.getElementById('input_savePercentage');
+    _el_input_savePercentage.value = (_el_input_savePercentage.dataset && _el_input_savePercentage.dataset.default !== undefined) ? _el_input_savePercentage.dataset.default : (_el_input_savePercentage.getAttribute('value') || '');
+    var _el_input_quarterlyPayment = document.getElementById('input_quarterlyPayment');
+    _el_input_quarterlyPayment.value = (_el_input_quarterlyPayment.dataset && _el_input_quarterlyPayment.dataset.default !== undefined) ? _el_input_quarterlyPayment.dataset.default : (_el_input_quarterlyPayment.getAttribute('value') || '');
     updateTool();
   }
 
@@ -377,9 +387,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

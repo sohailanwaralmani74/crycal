@@ -14,7 +14,7 @@
       seatAddonMrr: parseFloat(document.getElementById('input_seatAddonMrr').value) || 0,
       crossSellMrr: parseFloat(document.getElementById('input_crossSellMrr').value) || 0,
       usageOverageMrr: parseFloat(document.getElementById('input_usageOverageMrr').value) || 0
-    };
+    }
   }
 
   function formatCurrency(amount) {

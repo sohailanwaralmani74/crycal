@@ -14,7 +14,7 @@
       perSeatToolsCost: perSeatToolsCost,
       flatMonthlyToolsCost: flatMonthlyToolsCost,
       unusedLicensesPercent: unusedLicensesPercent / 100
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -64,7 +64,7 @@
       effectiveAnnualSpend: effectiveAnnualSpend,
       flat: flat,
       error: null
-    };
+    }
   }
 
   function updateTool() {
@@ -91,7 +91,7 @@
       flatSpend: result.flat,
       effectiveSpend: result.effectiveAnnualSpend,
       wastedSpend: result.annualWastedSpend
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -139,7 +139,7 @@
             title: { display: true, text: 'Monthly SaaS Stack Cost Components ($)', color: '#e8edf0' }
           }
         }
-      };
+      }
     }
 
     if (tab === 'waste') {
@@ -170,7 +170,7 @@
             x: { ticks: { color: '#8899aa' } }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -183,10 +183,14 @@
   }
 
   function resetTool() {
-    document.getElementById('input_totalEmployees').value = 45;
-    document.getElementById('input_perSeatToolsCost').value = 160;
-    document.getElementById('input_flatMonthlyToolsCost').value = 2500;
-    document.getElementById('input_unusedLicensesPercent').value = 12;
+    var _el_input_totalEmployees = document.getElementById('input_totalEmployees');
+    _el_input_totalEmployees.value = (_el_input_totalEmployees.dataset && _el_input_totalEmployees.dataset.default !== undefined) ? _el_input_totalEmployees.dataset.default : (_el_input_totalEmployees.getAttribute('value') || '');
+    var _el_input_perSeatToolsCost = document.getElementById('input_perSeatToolsCost');
+    _el_input_perSeatToolsCost.value = (_el_input_perSeatToolsCost.dataset && _el_input_perSeatToolsCost.dataset.default !== undefined) ? _el_input_perSeatToolsCost.dataset.default : (_el_input_perSeatToolsCost.getAttribute('value') || '');
+    var _el_input_flatMonthlyToolsCost = document.getElementById('input_flatMonthlyToolsCost');
+    _el_input_flatMonthlyToolsCost.value = (_el_input_flatMonthlyToolsCost.dataset && _el_input_flatMonthlyToolsCost.dataset.default !== undefined) ? _el_input_flatMonthlyToolsCost.dataset.default : (_el_input_flatMonthlyToolsCost.getAttribute('value') || '');
+    var _el_input_unusedLicensesPercent = document.getElementById('input_unusedLicensesPercent');
+    _el_input_unusedLicensesPercent.value = (_el_input_unusedLicensesPercent.dataset && _el_input_unusedLicensesPercent.dataset.default !== undefined) ? _el_input_unusedLicensesPercent.dataset.default : (_el_input_unusedLicensesPercent.getAttribute('value') || '');
     updateTool();
   }
 
@@ -200,9 +204,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

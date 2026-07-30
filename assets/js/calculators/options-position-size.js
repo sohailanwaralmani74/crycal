@@ -18,7 +18,7 @@
       contractMultiplier: parseFloat(document.getElementById('input_contractMultiplier').value) || 100,
       underlyingPrice: parseFloat(document.getElementById('input_underlyingPrice').value) || 0,
       compoundingFrequency: document.getElementById('input_compoundingFrequency').value || 'monthly'
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -94,7 +94,7 @@
         delta: inputs.delta,
         numberOfContracts: Math.round(numberOfContracts),
         totalPremiumCost: totalPremiumCost
-      };
+      }
       window.logHistory(snapshot);
     }
     if (typeof window.renderPresetDropdown === 'function') {
@@ -169,7 +169,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -183,12 +183,18 @@
 
   // ── Reset Tool ──
   function resetTool() {
-    document.getElementById('input_accountBalance').value = 25000;
-    document.getElementById('input_riskPercent').value = 1.0;
-    document.getElementById('input_optionPremium').value = 2.50;
-    document.getElementById('input_delta').value = 0.50;
-    document.getElementById('input_contractMultiplier').value = 100;
-    document.getElementById('input_underlyingPrice').value = 0;
+    var _el_input_accountBalance = document.getElementById('input_accountBalance');
+    _el_input_accountBalance.value = (_el_input_accountBalance.dataset && _el_input_accountBalance.dataset.default !== undefined) ? _el_input_accountBalance.dataset.default : (_el_input_accountBalance.getAttribute('value') || '');
+    var _el_input_riskPercent = document.getElementById('input_riskPercent');
+    _el_input_riskPercent.value = (_el_input_riskPercent.dataset && _el_input_riskPercent.dataset.default !== undefined) ? _el_input_riskPercent.dataset.default : (_el_input_riskPercent.getAttribute('value') || '');
+    var _el_input_optionPremium = document.getElementById('input_optionPremium');
+    _el_input_optionPremium.value = (_el_input_optionPremium.dataset && _el_input_optionPremium.dataset.default !== undefined) ? _el_input_optionPremium.dataset.default : (_el_input_optionPremium.getAttribute('value') || '');
+    var _el_input_delta = document.getElementById('input_delta');
+    _el_input_delta.value = (_el_input_delta.dataset && _el_input_delta.dataset.default !== undefined) ? _el_input_delta.dataset.default : (_el_input_delta.getAttribute('value') || '');
+    var _el_input_contractMultiplier = document.getElementById('input_contractMultiplier');
+    _el_input_contractMultiplier.value = (_el_input_contractMultiplier.dataset && _el_input_contractMultiplier.dataset.default !== undefined) ? _el_input_contractMultiplier.dataset.default : (_el_input_contractMultiplier.getAttribute('value') || '');
+    var _el_input_underlyingPrice = document.getElementById('input_underlyingPrice');
+    _el_input_underlyingPrice.value = (_el_input_underlyingPrice.dataset && _el_input_underlyingPrice.dataset.default !== undefined) ? _el_input_underlyingPrice.dataset.default : (_el_input_underlyingPrice.getAttribute('value') || '');
     document.getElementById('input_compoundingFrequency').value = 'monthly';
     if (typeof window.updateTool === 'function') window.updateTool();
   }
@@ -205,9 +211,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
   });
 
 })();

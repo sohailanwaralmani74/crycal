@@ -20,7 +20,7 @@
       feeRate: parseFloat(document.getElementById('input_feeRate').value) || 0,
       inflationRate: parseFloat(document.getElementById('input_inflationRate').value) || 0,
       compoundingFrequency: document.getElementById('input_compoundingFrequency').value
-    };
+    }
   }
 
   // ── Get compounding periods per year ──
@@ -31,7 +31,7 @@
       'quarterly': 4,
       'monthly': 12,
       'daily': 365
-    };
+    }
     return map[frequency] || 12;
   }
 
@@ -142,7 +142,7 @@
       yearData: yearData,
       yearsToRetirement: yearsToRetirement,
       netReturn: netReturn
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -187,7 +187,7 @@
         feeRate: inputs.feeRate,
         inflationRate: inputs.inflationRate,
         compoundingFrequency: inputs.compoundingFrequency
-      };
+      }
       window.logHistory(inputSnapshot);
     }
 
@@ -275,7 +275,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'breakdown') {
@@ -303,7 +303,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'contributions') {
@@ -351,7 +351,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -394,11 +394,10 @@
       }
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') {
-        window.updateTool();
-      }
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') {
+      window.updateTool();
+    }
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

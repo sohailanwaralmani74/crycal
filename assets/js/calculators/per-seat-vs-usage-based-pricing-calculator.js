@@ -12,7 +12,7 @@
       pricePerUsageUnit: parseFloat(document.getElementById('input_pricePerUsageUnit').value) || 0,
       annualSeatGrowth: (parseFloat(document.getElementById('input_annualSeatGrowth').value) || 0) / 100,
       annualUsageGrowth: (parseFloat(document.getElementById('input_annualUsageGrowth').value) || 0) / 100
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -73,7 +73,7 @@
       monthLabels: monthLabels,
       seatTimeline: seatTimeline,
       usageTimeline: usageTimeline
-    };
+    }
   }
 
   function updateTool() {

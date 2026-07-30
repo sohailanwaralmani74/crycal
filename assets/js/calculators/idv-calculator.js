@@ -13,8 +13,7 @@
     4: 40,   // 4 years
     5: 50,   // 5 years
     6: 60,   // 6+ years (capped)
-  };
-
+  }
   // ── Get Inputs ──
   function getInputs() {
     var exShowroomPrice = parseFloat(document.getElementById('input_exShowroomPrice').value) || 0;
@@ -27,7 +26,7 @@
       registrationYear: registrationYear,
       depreciationRate: depreciationRate / 100, // Convert to decimal
       accessories: accessories
-    };
+    }
   }
 
   // ── Get Auto Depreciation Rate ──
@@ -101,7 +100,7 @@
       accessoriesIDV: accessoriesIDV,
       premiumEstimate: premiumEstimate,
       age: age
-    };
+    }
   }
 
   // ── Main Update ──
@@ -133,7 +132,7 @@
       depreciation: result.totalDepreciation,
       totalIDV: result.idv,
       age: result.age
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -188,7 +187,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -206,10 +205,13 @@
 
   // ── Reset Tool ──
   function resetTool() {
-    document.getElementById('input_exShowroomPrice').value = 1000000;
+    var _el_input_exShowroomPrice = document.getElementById('input_exShowroomPrice');
+    _el_input_exShowroomPrice.value = (_el_input_exShowroomPrice.dataset && _el_input_exShowroomPrice.dataset.default !== undefined) ? _el_input_exShowroomPrice.dataset.default : (_el_input_exShowroomPrice.getAttribute('value') || '');
     document.getElementById('input_registrationYear').value = '2025';
-    document.getElementById('input_depreciationRate').value = 15;
-    document.getElementById('input_accessories').value = 0;
+    var _el_input_depreciationRate = document.getElementById('input_depreciationRate');
+    _el_input_depreciationRate.value = (_el_input_depreciationRate.dataset && _el_input_depreciationRate.dataset.default !== undefined) ? _el_input_depreciationRate.dataset.default : (_el_input_depreciationRate.getAttribute('value') || '');
+    var _el_input_accessories = document.getElementById('input_accessories');
+    _el_input_accessories.value = (_el_input_accessories.dataset && _el_input_accessories.dataset.default !== undefined) ? _el_input_accessories.dataset.default : (_el_input_accessories.getAttribute('value') || '');
     updateTool();
   }
 
@@ -261,9 +263,8 @@
       });
     }
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

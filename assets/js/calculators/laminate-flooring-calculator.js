@@ -57,8 +57,7 @@
       underlaymentCost: underlaymentCost,
       totalCartonsNeeded: totalCartonsNeeded,
       underlaymentRollsNeeded: underlaymentRollsNeeded
-    };
-
+    }
     renderChart(lastData);
 
     if (typeof window.logHistory === 'function') {
@@ -134,19 +133,17 @@
       underlaymentRollSqFt: 100,
       pricePerSqFt: 2.75,
       underlaymentCostPerRoll: 35.00
-    };
+    }
     Object.keys(defaults).forEach(function (key) {
       var el = document.getElementById('input_' + key);
       if (el) el.value = defaults[key];
     });
     calculate();
-  };
-
+  }
   window.switchChartTab = function (tabId) {
     currentTab = tabId;
     if (lastData) renderChart(lastData);
-  };
-
+  }
   document.addEventListener('DOMContentLoaded', function () {
     calculate();
   });

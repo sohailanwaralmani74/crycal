@@ -11,7 +11,7 @@
       newCarInterestRate: parseFloat(document.getElementById('input_newCarInterestRate').value) || 0,
       newCarTermMonths: parseInt(document.getElementById('input_newCarTermMonths').value, 10) || 60,
       newCarDownPayment: parseFloat(document.getElementById('input_newCarDownPayment').value) || 0
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -75,7 +75,7 @@
       baseMonthlyPayment: baseMonthlyPayment,
       basePrincipal: basePrincipal,
       totalInterestBase: Math.max(0, totalInterestBase)
-    };
+    }
   }
 
   function updateTool() {
@@ -140,7 +140,7 @@
             title: { display: true, text: 'New Financed Loan Principal Composition' }
           }
         }
-      };
+      }
     } else if (tab === 'payment_impact') {
       return {
         type: 'bar',
@@ -171,7 +171,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;

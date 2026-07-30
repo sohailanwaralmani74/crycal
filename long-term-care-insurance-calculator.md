@@ -287,7 +287,7 @@ This **long term care insurance cost estimator** is designed for:
 
 ### What is long-term care insurance?
 
-Long‑term care insurance helps cover the cost of care services not covered by health insurance, such as nursing home care, assisted living, and in‑home care.
+Long-term care insurance helps cover the cost of care services that are not typically covered by health insurance, such as nursing home care, assisted living, and in-home care.
 
 ### How much does long-term care insurance cost?
 

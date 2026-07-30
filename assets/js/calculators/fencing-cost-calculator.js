@@ -9,8 +9,7 @@
     'chain_link': { '4': 14.00, '6': 18.00, '8': 22.00, gateUnit: 200 },
     'aluminum_ornamental': { '4': 38.00, '6': 45.00, '8': 55.00, gateUnit: 350 },
     'composite': { '4': 42.00, '6': 50.00, '8': 62.00, gateUnit: 400 }
-  };
-
+  }
   function getGlobalCurrency() {
     var picker = document.getElementById('globalCurrencyPicker');
     return picker ? picker.value : 'USD';
@@ -169,7 +168,6 @@
     var target = document.querySelector('.chart-tab[data-tab="' + tabId + '"]');
     if (target) target.classList.add('active');
     calculate();
-  };
-
+  }
   document.addEventListener('DOMContentLoaded', init);
 })();

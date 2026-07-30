@@ -22,7 +22,7 @@
       dps: dps,
       equity: equity,
       netIncome: netIncome
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -120,8 +120,7 @@
       'ROE Contribution': roeCalculated * 100,
       'Retention Ratio': retentionCalculated * 100,
       'Sustainable Growth Rate': sgr * 100
-    };
-
+    }
     return {
       sgr: sgr,
       roeCalculated: roeCalculated,
@@ -132,7 +131,7 @@
       recommendation: recommendation,
       chartData: chartData,
       error: null
-    };
+    }
   }
 
   // ── Main Update ──
@@ -183,7 +182,7 @@
       sgr: result.sgr,
       retention: result.retentionCalculated,
       roe: result.roeCalculated
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -261,7 +260,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'comparison') {
@@ -294,7 +293,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -312,13 +311,20 @@
 
   // ── Reset Tool ──
   function resetTool() {
-    document.getElementById('input_roe').value = 15.0;
-    document.getElementById('input_retentionRatio').value = 60.0;
-    document.getElementById('input_dividendPayoutRatio').value = 40.0;
-    document.getElementById('input_eps').value = 5.00;
-    document.getElementById('input_dps').value = 2.00;
-    document.getElementById('input_equity').value = 1000000;
-    document.getElementById('input_netIncome').value = 150000;
+    var _el_input_roe = document.getElementById('input_roe');
+    _el_input_roe.value = (_el_input_roe.dataset && _el_input_roe.dataset.default !== undefined) ? _el_input_roe.dataset.default : (_el_input_roe.getAttribute('value') || '');
+    var _el_input_retentionRatio = document.getElementById('input_retentionRatio');
+    _el_input_retentionRatio.value = (_el_input_retentionRatio.dataset && _el_input_retentionRatio.dataset.default !== undefined) ? _el_input_retentionRatio.dataset.default : (_el_input_retentionRatio.getAttribute('value') || '');
+    var _el_input_dividendPayoutRatio = document.getElementById('input_dividendPayoutRatio');
+    _el_input_dividendPayoutRatio.value = (_el_input_dividendPayoutRatio.dataset && _el_input_dividendPayoutRatio.dataset.default !== undefined) ? _el_input_dividendPayoutRatio.dataset.default : (_el_input_dividendPayoutRatio.getAttribute('value') || '');
+    var _el_input_eps = document.getElementById('input_eps');
+    _el_input_eps.value = (_el_input_eps.dataset && _el_input_eps.dataset.default !== undefined) ? _el_input_eps.dataset.default : (_el_input_eps.getAttribute('value') || '');
+    var _el_input_dps = document.getElementById('input_dps');
+    _el_input_dps.value = (_el_input_dps.dataset && _el_input_dps.dataset.default !== undefined) ? _el_input_dps.dataset.default : (_el_input_dps.getAttribute('value') || '');
+    var _el_input_equity = document.getElementById('input_equity');
+    _el_input_equity.value = (_el_input_equity.dataset && _el_input_equity.dataset.default !== undefined) ? _el_input_equity.dataset.default : (_el_input_equity.getAttribute('value') || '');
+    var _el_input_netIncome = document.getElementById('input_netIncome');
+    _el_input_netIncome.value = (_el_input_netIncome.dataset && _el_input_netIncome.dataset.default !== undefined) ? _el_input_netIncome.dataset.default : (_el_input_netIncome.getAttribute('value') || '');
     updateTool();
   }
 
@@ -334,9 +340,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

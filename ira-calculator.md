@@ -185,7 +185,7 @@ howto:
 
 faq:
   - question: "What is an IRA calculator?"
-    answer: "An IRA calculator projects how much your Individual Retirement Account (IRA) will grow by the time you retire. It estimates the future value of your IRA based on your contributions, investment returns, fees, and time horizon."
+    answer: "An IRA calculator projects how much your Individual Retirement Account (IRA) will grow by the time you retire. The tool estimates the future value of your IRA based on your contributions, investment returns, fees, and time horizon."
   - question: "How is this different from an RMD calculator?"
     answer: "An IRA calculator is used during the accumulation phase to estimate growth before retirement. An RMD (Required Minimum Distribution) calculator is used during the distribution phase to determine mandatory withdrawals after you reach a certain age."
   - question: "What is the IRA contribution limit?"
@@ -193,7 +193,7 @@ faq:
   - question: "What is the difference between Traditional and Roth IRA?"
     answer: "Traditional IRA contributions are tax-deductible, and withdrawals are taxed in retirement. Roth IRA contributions are made with after-tax dollars, but withdrawals in retirement are tax-free. This calculator works for both — it projects your balance regardless of tax treatment."
   - question: "How do fees affect my IRA growth?"
-    answer: "Even small fees can significantly reduce your retirement savings over decades. This calculator subtracts annual fees from your balance to show the impact."
+    answer: "Annual fees can significantly reduce your IRA growth over decades. This calculator subtracts annual fees from your balance to show the impact."
 
 ---
 
@@ -249,7 +249,7 @@ The Inflation-Adjusted Value is calculated by discounting the final balance usin
 
 ### What is an IRA calculator?
 
-An IRA calculator projects how much your Individual Retirement Account (IRA) will grow by the time you retire. It estimates the future value of your IRA based on your contributions, investment returns, fees, and time horizon.
+An IRA calculator projects how much your Individual Retirement Account (IRA) will grow by the time you retire. The tool estimates the future value of your IRA based on your contributions, investment returns, fees, and time horizon.
 
 ### How is this different from an RMD calculator?
 
@@ -265,7 +265,7 @@ Traditional IRA contributions are tax-deductible, and withdrawals are taxed in r
 
 ### How do fees affect my IRA growth?
 
-Even small fees can significantly reduce your retirement savings over decades. This calculator subtracts annual fees from your balance to show the impact.
+Annual fees can significantly reduce your IRA growth over decades. This calculator subtracts annual fees from your balance to show the impact.
 
 ---
 

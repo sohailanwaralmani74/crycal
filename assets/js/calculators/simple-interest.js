@@ -14,7 +14,7 @@
       principal: parseFloat(document.getElementById('input_principal').value) || 0,
       annualRate: parseFloat(document.getElementById('input_annualRate').value) || 0,
       timeYears: parseFloat(document.getElementById('input_timeYears').value) || 0
-    };
+    }
   }
 
   // ── Calculate Simple Interest ──
@@ -46,7 +46,7 @@
       P: P,
       r: r,
       t: t
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -82,7 +82,7 @@
         principal: inputs.principal,
         annualRate: inputs.annualRate,
         timeYears: inputs.timeYears
-      };
+      }
       window.logHistory(inputSnapshot);
     }
 
@@ -159,7 +159,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'breakdown') {
@@ -186,7 +186,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     return null;
@@ -229,11 +229,10 @@
       }
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') {
-        window.updateTool();
-      }
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') {
+      window.updateTool();
+    }
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

@@ -66,7 +66,7 @@
       arrGrowthRate: arrGrowthRate,
       fcfMargin: fcfMargin,
       score: score
-    };
+    }
     updateCharts(lastChartData);
 
     if (typeof window.logHistory === 'function') {
@@ -112,7 +112,7 @@
           plugins: { legend: { display: false } },
           scales: { y: { ticks: { color: '#8899aa' } }, x: { ticks: { color: '#8899aa' } } }
         }
-      };
+      }
     }
     if (tab === 'benchmarkComparison') {
       return {
@@ -131,7 +131,7 @@
           plugins: { legend: { display: false } },
           scales: { y: { beginAtZero: true, ticks: { color: '#8899aa' } }, x: { ticks: { color: '#8899aa' } } }
         }
-      };
+      }
     }
     return null;
 
@@ -148,8 +148,10 @@
 
   function resetTool() {
 
-    document.getElementById('input_arrGrowthRate').value = 35;
-    document.getElementById('input_fcfMargin').value = 10;
+    var _el_input_arrGrowthRate = document.getElementById('input_arrGrowthRate');
+    _el_input_arrGrowthRate.value = (_el_input_arrGrowthRate.dataset && _el_input_arrGrowthRate.dataset.default !== undefined) ? _el_input_arrGrowthRate.dataset.default : (_el_input_arrGrowthRate.getAttribute('value') || '');
+    var _el_input_fcfMargin = document.getElementById('input_fcfMargin');
+    _el_input_fcfMargin.value = (_el_input_fcfMargin.dataset && _el_input_fcfMargin.dataset.default !== undefined) ? _el_input_fcfMargin.dataset.default : (_el_input_fcfMargin.getAttribute('value') || '');
     updateTool();
 
   }
@@ -164,9 +166,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

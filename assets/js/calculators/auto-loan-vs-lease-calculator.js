@@ -13,7 +13,7 @@
       leaseMonthlyPayment: parseFloat(document.getElementById('input_leaseMonthlyPayment').value) || 0,
       leaseDownPayment: parseFloat(document.getElementById('input_leaseDownPayment').value) || 0,
       leaseResidualValue: parseFloat(document.getElementById('input_leaseResidualValue').value) || 0
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -100,7 +100,7 @@
       netCostLoan: netCostLoanAtLeaseEnd,
       netCostLease: netCostLease,
       recommendedOption: recommended
-    };
+    }
   }
 
   function updateTool() {
@@ -174,7 +174,7 @@
             }
           }
         }
-      };
+      }
     } else if (tab === 'equity_trajectory') {
       return {
         type: 'bar',
@@ -207,7 +207,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;

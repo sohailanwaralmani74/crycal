@@ -146,11 +146,11 @@ faq:
   - question: "What is the maximum span for a 2x6 joist?"
     answer: "A 2x6 Southern Pine #2 joist spaced 16 inches on-center spans up to 9 feet 9 inches for residential floors, or 9 feet 0 inches for exterior decks."
   - question: "Does 12-inch joist spacing allow longer clear spans than 16-inch spacing?"
-    answer: "Yes, decreasing joist spacing from 16 inches to 12 inches on-center increases allowable clear span length by approximately 10% to 15%."
+    answer: "Decreasing joist spacing from 16 inches to 12 inches on-center increases allowable clear span length by approximately 10% to 15%."
   - question: "What is the difference between L/360 and L/240 deflection limits?"
     answer: "L/360 mandates that maximum joist bending deflection under full live load cannot exceed the span length divided by 360 (prevents cracked drywall ceilings). L/240 is less stringent (span / 240) and applies to decks or roofs."
   - question: "Can I use 2x10 joists spaced at 24 inches on-center for a living room?"
-    answer: "Yes, but 24-inch joist spacing reduces maximum span from 16'1\" down to 13'8\" and requires 3/4-inch subflooring to prevent floor bounciness."
+    answer: "You can use 2x10 joists spaced at 24 inches on-center for a living room, but this wider spacing reduces the maximum span from 16'1\" down to 13'8\" and requires 3/4-inch subflooring to prevent floor bounciness."
   - question: "Which wood species has the highest structural span rating?"
     answer: "Southern Yellow Pine #2 and Douglas Fir-Larch #2 have the highest modulus of elasticity ($E$) and bending strength ($F_b$), allowing longer spans than Spruce-Pine-Fir (SPF)."
 ---
@@ -244,7 +244,7 @@ A 2x6 Southern Pine #2 joist spaced 16 inches on-center spans up to 9 feet 9 inc
 
 ### Does 12-inch joist spacing allow longer clear spans than 16-inch spacing?
 
-Yes, decreasing joist spacing from 16 inches to 12 inches on-center increases allowable clear span length by approximately 10% to 15%.
+Decreasing joist spacing from 16 inches to 12 inches on-center increases allowable clear span length by approximately 10% to 15%.
 
 ### What is the difference between L/360 and L/240 deflection limits?
 
@@ -252,7 +252,7 @@ L/360 mandates that maximum joist bending deflection under full live load cannot
 
 ### Can I use 2x10 joists spaced at 24 inches on-center for a living room?
 
-Yes, but 24-inch joist spacing reduces maximum span from 16'1" down to 13'8" and requires 3/4-inch subflooring to prevent floor bounciness.
+You can use 2x10 joists spaced at 24 inches on-center for a living room, but this wider spacing reduces the maximum span from 16'1" down to 13'8" and requires 3/4-inch subflooring to prevent floor bounciness.
 
 ### Which wood species has the highest structural span rating?
 

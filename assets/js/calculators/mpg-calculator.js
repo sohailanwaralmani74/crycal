@@ -8,7 +8,7 @@
       endingOdometer: parseFloat(document.getElementById('input_endingOdometer').value) || 0,
       gallonsPumped: parseFloat(document.getElementById('input_gallonsPumped').value) || 0.1,
       gasPrice: parseFloat(document.getElementById('input_gasPrice').value) || 0
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -47,7 +47,7 @@
       distanceDriven: distanceDriven,
       costPerMile: costPerMile,
       costPer100Miles: costPer100Miles
-    };
+    }
   }
 
   function updateTool() {
@@ -123,7 +123,7 @@
             }
           }
         }
-      };
+      }
     } else if (tab === 'costBreakdown') {
       var cpm = result.costPerMile;
       return {
@@ -161,7 +161,7 @@
             }
           }
         }
-      };
+      }
     }
     return null;
   }
@@ -172,10 +172,14 @@
   }
 
   function resetTool() {
-    document.getElementById('input_startingOdometer').value = 45000;
-    document.getElementById('input_endingOdometer').value = 45350;
-    document.getElementById('input_gallonsPumped').value = 11.8;
-    document.getElementById('input_gasPrice').value = 3.55;
+    var _el_input_startingOdometer = document.getElementById('input_startingOdometer');
+    _el_input_startingOdometer.value = (_el_input_startingOdometer.dataset && _el_input_startingOdometer.dataset.default !== undefined) ? _el_input_startingOdometer.dataset.default : (_el_input_startingOdometer.getAttribute('value') || '');
+    var _el_input_endingOdometer = document.getElementById('input_endingOdometer');
+    _el_input_endingOdometer.value = (_el_input_endingOdometer.dataset && _el_input_endingOdometer.dataset.default !== undefined) ? _el_input_endingOdometer.dataset.default : (_el_input_endingOdometer.getAttribute('value') || '');
+    var _el_input_gallonsPumped = document.getElementById('input_gallonsPumped');
+    _el_input_gallonsPumped.value = (_el_input_gallonsPumped.dataset && _el_input_gallonsPumped.dataset.default !== undefined) ? _el_input_gallonsPumped.dataset.default : (_el_input_gallonsPumped.getAttribute('value') || '');
+    var _el_input_gasPrice = document.getElementById('input_gasPrice');
+    _el_input_gasPrice.value = (_el_input_gasPrice.dataset && _el_input_gasPrice.dataset.default !== undefined) ? _el_input_gasPrice.dataset.default : (_el_input_gasPrice.getAttribute('value') || '');
     updateTool();
   }
 
@@ -189,9 +193,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

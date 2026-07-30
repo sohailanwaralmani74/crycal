@@ -8,7 +8,7 @@
       loanAmount: parseFloat(document.getElementById('input_loanAmount').value) || 0,
       interestRate: parseFloat(document.getElementById('input_interestRate').value) || 0,
       loanTermYears: parseFloat(document.getElementById('input_loanTermYears').value) || 15
-    };
+    }
   }
 
   function formatCurrencyLocal(amount) {
@@ -63,7 +63,7 @@
       totalInterest: totalInterest,
       principal: P,
       yearlyData: yearlyData
-    };
+    }
   }
 
   function updateTool() {
@@ -125,7 +125,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'amortization') {
@@ -157,7 +157,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;

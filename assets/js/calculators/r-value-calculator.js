@@ -11,8 +11,7 @@
     'rigid_polyiso': 6.00,
     'rigid_xps': 5.00,
     'mineral_wool': 4.20
-  };
-
+  }
   function init() {
     var calcBtn = document.getElementById('btn_calculate');
     var resetBtn = document.getElementById('btn_reset');
@@ -154,7 +153,6 @@
     var target = document.querySelector('.chart-tab[data-tab="' + tabId + '"]');
     if (target) target.classList.add('active');
     calculate();
-  };
-
+  }
   document.addEventListener('DOMContentLoaded', init);
 })();

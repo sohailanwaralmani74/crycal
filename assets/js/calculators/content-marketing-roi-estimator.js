@@ -18,7 +18,7 @@
       visitToLeadRate: visitToLeadRate / 100,
       leadToPaidRate: leadToPaidRate / 100,
       avgAcv: avgAcv
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -70,7 +70,7 @@
       contentRoi: contentRoi,
       annualCustomers: annualCustomers,
       error: null
-    };
+    }
   }
 
   function updateTool() {
@@ -103,7 +103,7 @@
       monthlyVisits: result.projectedAnnualVisits,
       annualLeads: result.annualLeads,
       annualCustomers: result.annualCustomers
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -160,7 +160,7 @@
             x: { ticks: { color: '#8899aa' } }
           }
         }
-      };
+      }
     }
 
     if (tab === 'traffic') {
@@ -191,7 +191,7 @@
             x: { ticks: { color: '#8899aa' } }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -204,12 +204,18 @@
   }
 
   function resetTool() {
-    document.getElementById('input_monthlyContentBudget').value = 8000;
-    document.getElementById('input_articlesPerMonth').value = 8;
-    document.getElementById('input_avgOrganicTrafficPerArticle').value = 1200;
-    document.getElementById('input_visitToLeadRate').value = 2.0;
-    document.getElementById('input_leadToPaidRate').value = 5.0;
-    document.getElementById('input_avgAcv').value = 2400;
+    var _el_input_monthlyContentBudget = document.getElementById('input_monthlyContentBudget');
+    _el_input_monthlyContentBudget.value = (_el_input_monthlyContentBudget.dataset && _el_input_monthlyContentBudget.dataset.default !== undefined) ? _el_input_monthlyContentBudget.dataset.default : (_el_input_monthlyContentBudget.getAttribute('value') || '');
+    var _el_input_articlesPerMonth = document.getElementById('input_articlesPerMonth');
+    _el_input_articlesPerMonth.value = (_el_input_articlesPerMonth.dataset && _el_input_articlesPerMonth.dataset.default !== undefined) ? _el_input_articlesPerMonth.dataset.default : (_el_input_articlesPerMonth.getAttribute('value') || '');
+    var _el_input_avgOrganicTrafficPerArticle = document.getElementById('input_avgOrganicTrafficPerArticle');
+    _el_input_avgOrganicTrafficPerArticle.value = (_el_input_avgOrganicTrafficPerArticle.dataset && _el_input_avgOrganicTrafficPerArticle.dataset.default !== undefined) ? _el_input_avgOrganicTrafficPerArticle.dataset.default : (_el_input_avgOrganicTrafficPerArticle.getAttribute('value') || '');
+    var _el_input_visitToLeadRate = document.getElementById('input_visitToLeadRate');
+    _el_input_visitToLeadRate.value = (_el_input_visitToLeadRate.dataset && _el_input_visitToLeadRate.dataset.default !== undefined) ? _el_input_visitToLeadRate.dataset.default : (_el_input_visitToLeadRate.getAttribute('value') || '');
+    var _el_input_leadToPaidRate = document.getElementById('input_leadToPaidRate');
+    _el_input_leadToPaidRate.value = (_el_input_leadToPaidRate.dataset && _el_input_leadToPaidRate.dataset.default !== undefined) ? _el_input_leadToPaidRate.dataset.default : (_el_input_leadToPaidRate.getAttribute('value') || '');
+    var _el_input_avgAcv = document.getElementById('input_avgAcv');
+    _el_input_avgAcv.value = (_el_input_avgAcv.dataset && _el_input_avgAcv.dataset.default !== undefined) ? _el_input_avgAcv.dataset.default : (_el_input_avgAcv.getAttribute('value') || '');
     updateTool();
   }
 
@@ -223,9 +229,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

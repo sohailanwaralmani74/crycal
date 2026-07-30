@@ -114,19 +114,19 @@ howto:
 
 faq:
   - question: "What is the federal estate tax exemption?"
-    answer: "The federal estate tax exemption is the dollar threshold below which an estate pays zero federal estate tax ($13.61 Million per individual in 2024, or $27.22 Million for married couples)."
+    answer: "The federal estate tax exemption is the dollar threshold below which an estate pays zero federal estate tax, set at $13.61 million per individual or $27.22 million for married couples in 2024."
   - question: "What assets are included in a decedent's gross estate?"
-    answer: "Gross estate includes real estate, stocks, bonds, business interests, bank accounts, retirement plans, personal property, and life insurance policy death benefits owned by the decedent."
+    answer: "A decedent's gross estate includes all owned assets such as real estate, stocks, bonds, business interests, bank accounts, retirement plans, personal property, and life insurance policy death benefits."
   - question: "How does the marital deduction affect federal estate taxes?"
-    answer: "The unlimited marital deduction allows individuals to transfer unlimited asset amounts to a surviving U.S. citizen spouse completely free of federal estate taxes."
+    answer: "The unlimited marital deduction eliminates federal estate taxes on asset transfers by allowing individuals to pass an unlimited amount of wealth to a surviving U.S. citizen spouse."
   - question: "What is estate tax portability for married couples?"
-    answer: "Portability allows a surviving spouse to elect to transfer any unused portion of their deceased spouse's federal lifetime estate tax exemption (DSUE) to their own exemption."
+    answer: "Estate tax portability allows a surviving spouse to transfer any unused portion of their deceased spouse's federal lifetime estate tax exemption to their own exemption."
   - question: "What is the federal estate tax rate on taxable assets?"
-    answer: "Assets in net taxable estates exceeding the federal lifetime exemption limit are taxed at a top progressive federal estate tax rate of 40%."
+    answer: "The federal estate tax applies a top progressive rate of 40% to assets in a net taxable estate that exceed the federal lifetime exemption limit."
   - question: "How do state estate taxes differ from federal estate taxes?"
-    answer: "Several states impose separate state-level estate or inheritance taxes with significantly lower exemption thresholds (ranging from $1 Million to $6 Million)."
+    answer: "State estate taxes operate separately from the federal system and often feature significantly lower exemption thresholds, typically ranging from $1 million to $6 million depending on the state."
   - question: "Is confidential estate and asset data kept private?"
-    answer: "Yes, all estate tax calculations run 100% locally inside your web browser. No asset valuations, debt figures, or estate details are stored or transmitted."
+    answer: "All estate and asset data remains completely private because the calculator runs 100% locally inside your web browser without storing or transmitting your financial figures."
 ---
 
 # Estate Tax Calculator - Calculate Tax Liability & Savings
@@ -185,28 +185,28 @@ Where $A_{gross}$ includes all taxable assets, $D_{estate}$ includes liabilities
 
 ### What is the federal estate tax exemption?
 
-The federal estate tax exemption is the dollar threshold below which an estate pays zero federal estate tax ($13.61 Million per individual in 2024, or $27.22 Million for married couples).
+The federal estate tax exemption is the dollar threshold below which an estate pays zero federal estate tax, set at $13.61 million per individual or $27.22 million for married couples in 2024.
 
 ### What assets are included in a decedent's gross estate?
 
-Gross estate includes real estate, stocks, bonds, business interests, bank accounts, retirement plans, personal property, and life insurance policy death benefits owned by the decedent.
+A decedent's gross estate includes all owned assets such as real estate, stocks, bonds, business interests, bank accounts, retirement plans, personal property, and life insurance policy death benefits.
 
 ### How does the marital deduction affect federal estate taxes?
 
-The unlimited marital deduction allows individuals to transfer unlimited asset amounts to a surviving U.S. citizen spouse completely free of federal estate taxes.
+The unlimited marital deduction eliminates federal estate taxes on asset transfers by allowing individuals to pass an unlimited amount of wealth to a surviving U.S. citizen spouse.
 
 ### What is estate tax portability for married couples?
 
-Portability allows a surviving spouse to elect to transfer any unused portion of their deceased spouse's federal lifetime estate tax exemption (DSUE) to their own exemption.
+Estate tax portability allows a surviving spouse to transfer any unused portion of their deceased spouse's federal lifetime estate tax exemption to their own exemption.
 
 ### What is the federal estate tax rate on taxable assets?
 
-Assets in net taxable estates exceeding the federal lifetime exemption limit are taxed at a top progressive federal estate tax rate of 40%.
+The federal estate tax applies a top progressive rate of 40% to assets in a net taxable estate that exceed the federal lifetime exemption limit.
 
 ### How do state estate taxes differ from federal estate taxes?
 
-Several states impose separate state-level estate or inheritance taxes with significantly lower exemption thresholds (ranging from $1 Million to $6 Million).
+State estate taxes operate separately from the federal system and often feature significantly lower exemption thresholds, typically ranging from $1 million to $6 million depending on the state.
 
 ### Is confidential estate and asset data kept private?
 
-Yes, all estate tax calculations run 100% locally inside your web browser. No asset valuations, debt figures, or estate details are stored or transmitted.
+All estate and asset data remains completely private because the calculator runs 100% locally inside your web browser without storing or transmitting your financial figures.

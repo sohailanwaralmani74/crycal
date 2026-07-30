@@ -10,7 +10,7 @@
       priceIncreasePercent: (parseFloat(document.getElementById('input_priceIncreasePercent').value) || 0) / 100,
       estimatedChurnPercent: (parseFloat(document.getElementById('input_estimatedChurnPercent').value) || 0) / 100,
       newCustomerAcquisitionMonthly: parseFloat(document.getElementById('input_newCustomerAcquisitionMonthly').value) || 0
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -71,7 +71,7 @@
       maxTolerableChurn: maxTolerableChurn,
       churnRates: churnRates,
       sensitivityMRR: sensitivityMRR
-    };
+    }
   }
 
   function updateTool() {

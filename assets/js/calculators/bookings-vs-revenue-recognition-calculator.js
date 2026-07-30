@@ -12,7 +12,7 @@
       contractAcv: parseFloat(document.getElementById('input_contractAcv').value) || 0,
       contractTermMonths: parseFloat(document.getElementById('input_contractTermMonths').value) || 12,
       upfrontPaymentPct: parseFloat(document.getElementById('input_upfrontPaymentPct').value) || 100
-    };
+    }
   }
 
   function formatCurrency(amount) {

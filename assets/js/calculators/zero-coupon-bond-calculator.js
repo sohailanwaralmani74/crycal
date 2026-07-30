@@ -4,8 +4,7 @@
     'annually': 1,
     'semiannually': 2,
     'quarterly': 4
-  };
-
+  }
   function getInputs() {
     var calculationMode = document.getElementById('input_calculationMode').value;
     var faceValue = parseFloat(document.getElementById('input_faceValue').value) || 0;
@@ -21,7 +20,7 @@
       purchasePrice: purchasePrice,
       yearsToMaturity: yearsToMaturity,
       compoundingFrequency: compoundingFrequency
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -91,7 +90,7 @@
       totalGain: totalGain,
       totalReturnPercent: totalReturnPercent,
       error: null
-    };
+    }
   }
 
   function updateTool() {
@@ -127,10 +126,14 @@
 
   function resetTool() {
     document.getElementById('input_calculationMode').value = 'price';
-    document.getElementById('input_faceValue').value = 1000;
-    document.getElementById('input_yieldRate').value = 5;
-    document.getElementById('input_purchasePrice').value = 700;
-    document.getElementById('input_yearsToMaturity').value = 10;
+    var _el_input_faceValue = document.getElementById('input_faceValue');
+    _el_input_faceValue.value = (_el_input_faceValue.dataset && _el_input_faceValue.dataset.default !== undefined) ? _el_input_faceValue.dataset.default : (_el_input_faceValue.getAttribute('value') || '');
+    var _el_input_yieldRate = document.getElementById('input_yieldRate');
+    _el_input_yieldRate.value = (_el_input_yieldRate.dataset && _el_input_yieldRate.dataset.default !== undefined) ? _el_input_yieldRate.dataset.default : (_el_input_yieldRate.getAttribute('value') || '');
+    var _el_input_purchasePrice = document.getElementById('input_purchasePrice');
+    _el_input_purchasePrice.value = (_el_input_purchasePrice.dataset && _el_input_purchasePrice.dataset.default !== undefined) ? _el_input_purchasePrice.dataset.default : (_el_input_purchasePrice.getAttribute('value') || '');
+    var _el_input_yearsToMaturity = document.getElementById('input_yearsToMaturity');
+    _el_input_yearsToMaturity.value = (_el_input_yearsToMaturity.dataset && _el_input_yearsToMaturity.dataset.default !== undefined) ? _el_input_yearsToMaturity.dataset.default : (_el_input_yearsToMaturity.getAttribute('value') || '');
     document.getElementById('input_compoundingFrequency').value = 'annually';
     updateTool();
   }
@@ -144,9 +147,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

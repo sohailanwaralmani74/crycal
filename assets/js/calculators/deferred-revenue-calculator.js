@@ -12,7 +12,7 @@
       annualBillingAmount: parseFloat(document.getElementById('input_annualBillingAmount').value) || 0,
       billingPeriodMonths: parseFloat(document.getElementById('input_billingPeriodMonths').value) || 12,
       monthsElapsed: parseFloat(document.getElementById('input_monthsElapsed').value) || 0
-    };
+    }
   }
 
   function formatCurrency(amount) {

@@ -133,7 +133,7 @@ faq:
   - question: "How much water is added to dry ceiling texture mix?"
     answer: "A standard 50 lb bag of un-thinned texture compound typically requires 4 to 5 gallons of clean water, mixed to a thick pancake batter consistency."
   - question: "Should ceilings be primed before spraying texture?"
-    answer: "Yes. Raw drywall ceilings must be sealed with a quality drywall primer sealer before spraying texture to ensure uniform adhesion and prevent compound flaking."
+    answer: "Raw drywall ceilings must be sealed with a quality drywall primer sealer before spraying texture to ensure uniform adhesion and prevent compound flaking."
   - question: "How much does ceiling texture compound cost per square foot?"
     answer: "Dry texture compound materials cost $0.03 to $0.08 per square foot. Total contractor-installed ceiling texturing ranges from $1.25 to $2.50 per square foot."
 ---
@@ -213,7 +213,7 @@ A standard 50 lb bag of un-thinned texture compound typically requires 4 to 5 ga
 
 ### Should ceilings be primed before spraying texture?
 
-Yes. Raw drywall ceilings must be sealed with a quality drywall primer sealer before spraying texture to ensure uniform adhesion and prevent compound flaking.
+Raw drywall ceilings must be sealed with a quality drywall primer sealer before spraying texture to ensure uniform adhesion and prevent compound flaking.
 
 ### How much does ceiling texture compound cost per square foot?
 

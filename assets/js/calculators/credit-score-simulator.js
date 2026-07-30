@@ -17,7 +17,7 @@
       creditAge: parseFloat(document.getElementById('input_creditAge').value) || 8,
       inquiries: parseFloat(document.getElementById('input_inquiries').value) || 2,
       accountMix: document.getElementById('input_accountMix').value || 'good'
-    };
+    }
   }
 
   // ── Score each factor ──
@@ -69,7 +69,7 @@
       'good': 80,
       'average': 55,
       'poor': 25
-    };
+    }
     return map[mix] || 50;
   }
 
@@ -116,7 +116,7 @@
       iScore: iScore,
       mScore: mScore,
       weightedScore: weightedScore
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -164,7 +164,7 @@
         simulatedScore: result.finalScore,
         scoreChange: result.change,
         scoreCategory: result.category
-      };
+      }
       window.logHistory(snapshot);
     }
     if (typeof window.renderPresetDropdown === 'function') {
@@ -222,7 +222,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'breakdown') {
@@ -275,7 +275,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'projection') {
@@ -330,7 +330,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -344,11 +344,16 @@
 
   // ── Reset Tool ──
   function resetTool() {
-    document.getElementById('input_baseScore').value = 700;
-    document.getElementById('input_paymentHistory').value = 98.0;
-    document.getElementById('input_creditUtilization').value = 30.0;
-    document.getElementById('input_creditAge').value = 8;
-    document.getElementById('input_inquiries').value = 2;
+    var _el_input_baseScore = document.getElementById('input_baseScore');
+    _el_input_baseScore.value = (_el_input_baseScore.dataset && _el_input_baseScore.dataset.default !== undefined) ? _el_input_baseScore.dataset.default : (_el_input_baseScore.getAttribute('value') || '');
+    var _el_input_paymentHistory = document.getElementById('input_paymentHistory');
+    _el_input_paymentHistory.value = (_el_input_paymentHistory.dataset && _el_input_paymentHistory.dataset.default !== undefined) ? _el_input_paymentHistory.dataset.default : (_el_input_paymentHistory.getAttribute('value') || '');
+    var _el_input_creditUtilization = document.getElementById('input_creditUtilization');
+    _el_input_creditUtilization.value = (_el_input_creditUtilization.dataset && _el_input_creditUtilization.dataset.default !== undefined) ? _el_input_creditUtilization.dataset.default : (_el_input_creditUtilization.getAttribute('value') || '');
+    var _el_input_creditAge = document.getElementById('input_creditAge');
+    _el_input_creditAge.value = (_el_input_creditAge.dataset && _el_input_creditAge.dataset.default !== undefined) ? _el_input_creditAge.dataset.default : (_el_input_creditAge.getAttribute('value') || '');
+    var _el_input_inquiries = document.getElementById('input_inquiries');
+    _el_input_inquiries.value = (_el_input_inquiries.dataset && _el_input_inquiries.dataset.default !== undefined) ? _el_input_inquiries.dataset.default : (_el_input_inquiries.getAttribute('value') || '');
     document.getElementById('input_accountMix').value = 'good';
     if (typeof window.updateTool === 'function') window.updateTool();
   }
@@ -364,9 +369,8 @@
       var defaultVal = el.dataset.default || el.getAttribute('value') || '';
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
     var picker = document.getElementById('baseCurrency');
     if (picker) {
       picker.addEventListener('change', function() {

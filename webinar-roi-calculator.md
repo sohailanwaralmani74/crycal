@@ -150,7 +150,7 @@ faq:
   - question: "How can I increase webinar attendance?"
     answer: "Increase attendance by sending 24-hour and 1-hour SMS/email reminders, partnering with co-marketing guests, and holding live Q&A sessions with exclusive attendee bonuses."
   - question: "What should be included in total webinar cost?"
-    answer: "Include ad promotion spend (LinkedIn/Google), landing page software fees, speaker fees, and internal team preparation labor."
+    answer: "Total webinar costs should include ad promotion spend (LinkedIn/Google), landing page software fees, speaker fees, and internal team preparation labor."
 ---
 
 # Webinar Roi Calculator - Calculate Customer Acquisition & Ad Return
@@ -232,4 +232,4 @@ Increase attendance by sending 24-hour and 1-hour SMS/email reminders, partnerin
 
 ### What should be included in total webinar cost?
 
-Include ad promotion spend (LinkedIn/Google), landing page software fees, speaker fees, and internal team preparation labor.
+Total webinar costs should include ad promotion spend (LinkedIn/Google), landing page software fees, speaker fees, and internal team preparation labor.

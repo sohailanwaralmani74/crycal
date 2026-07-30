@@ -12,7 +12,7 @@
       startingCustomers: parseFloat(document.getElementById('input_startingCustomers').value) || 0,
       lostCustomers: parseFloat(document.getElementById('input_lostCustomers').value) || 0,
       newCustomers: parseFloat(document.getElementById('input_newCustomers').value) || 0
-    };
+    }
   }
 
   function formatPercentage(value) {

@@ -16,7 +16,7 @@
       officePerksMonthly: officePerksMonthly,
       remoteStipendMonthly: remoteStipendMonthly,
       annualOffsiteBudget: annualOffsiteBudget
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -70,7 +70,7 @@
       costPerEmployeeOffice: costPerEmployeeOffice,
       costPerEmployeeRemote: costPerEmployeeRemote,
       error: null
-    };
+    }
   }
 
   function updateTool() {
@@ -97,7 +97,7 @@
       remoteCost: result.annualRemoteCost,
       perEmpOffice: result.costPerEmployeeOffice,
       perEmpRemote: result.costPerEmployeeRemote
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -154,7 +154,7 @@
             x: { ticks: { color: '#8899aa' } }
           }
         }
-      };
+      }
     }
 
     if (tab === 'perCapita') {
@@ -185,7 +185,7 @@
             x: { ticks: { color: '#8899aa' } }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -198,11 +198,16 @@
   }
 
   function resetTool() {
-    document.getElementById('input_headcount').value = 50;
-    document.getElementById('input_officeLeaseMonthly').value = 18000;
-    document.getElementById('input_officePerksMonthly').value = 4000;
-    document.getElementById('input_remoteStipendMonthly').value = 150;
-    document.getElementById('input_annualOffsiteBudget').value = 50000;
+    var _el_input_headcount = document.getElementById('input_headcount');
+    _el_input_headcount.value = (_el_input_headcount.dataset && _el_input_headcount.dataset.default !== undefined) ? _el_input_headcount.dataset.default : (_el_input_headcount.getAttribute('value') || '');
+    var _el_input_officeLeaseMonthly = document.getElementById('input_officeLeaseMonthly');
+    _el_input_officeLeaseMonthly.value = (_el_input_officeLeaseMonthly.dataset && _el_input_officeLeaseMonthly.dataset.default !== undefined) ? _el_input_officeLeaseMonthly.dataset.default : (_el_input_officeLeaseMonthly.getAttribute('value') || '');
+    var _el_input_officePerksMonthly = document.getElementById('input_officePerksMonthly');
+    _el_input_officePerksMonthly.value = (_el_input_officePerksMonthly.dataset && _el_input_officePerksMonthly.dataset.default !== undefined) ? _el_input_officePerksMonthly.dataset.default : (_el_input_officePerksMonthly.getAttribute('value') || '');
+    var _el_input_remoteStipendMonthly = document.getElementById('input_remoteStipendMonthly');
+    _el_input_remoteStipendMonthly.value = (_el_input_remoteStipendMonthly.dataset && _el_input_remoteStipendMonthly.dataset.default !== undefined) ? _el_input_remoteStipendMonthly.dataset.default : (_el_input_remoteStipendMonthly.getAttribute('value') || '');
+    var _el_input_annualOffsiteBudget = document.getElementById('input_annualOffsiteBudget');
+    _el_input_annualOffsiteBudget.value = (_el_input_annualOffsiteBudget.dataset && _el_input_annualOffsiteBudget.dataset.default !== undefined) ? _el_input_annualOffsiteBudget.dataset.default : (_el_input_annualOffsiteBudget.getAttribute('value') || '');
     updateTool();
   }
 
@@ -216,9 +221,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

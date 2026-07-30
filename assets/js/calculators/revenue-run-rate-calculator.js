@@ -12,7 +12,7 @@
       inputRevenue: parseFloat(document.getElementById('input_inputRevenue').value) || 0,
       periodType: document.getElementById('input_periodType').value || 'monthly',
       monthlyGrowthRatePct: parseFloat(document.getElementById('input_monthlyGrowthRatePct').value) || 0
-    };
+    }
   }
 
   function formatCurrency(amount) {

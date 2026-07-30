@@ -144,7 +144,7 @@ faq:
   - question: "How many blocks cover 1 square foot of wall?"
     answer: "For standard 12 in × 6 in blocks (0.5 sq ft face area per block), exactly 2 blocks cover 1 square foot of wall face area."
   - question: "Do retaining walls need a buried base course?"
-    answer: "Yes. Retaining walls require a minimum of 1 course (or 1 inch of depth per foot of wall height) buried below ground level on a 6-inch compacted crushed stone leveling pad."
+    answer: "Retaining walls require a minimum of 1 course (or 1 inch of depth per foot of wall height) buried below ground level on a 6-inch compacted crushed stone leveling pad."
   - question: "When is geogrid soil reinforcement required?"
     answer: "Segmental retaining walls over 3 to 4 feet in height generally require geogrid soil reinforcement layers embedded back into the hillside, engineered plans, and building permits."
   - question: "How much does a retaining wall cost per square foot?"
@@ -209,7 +209,7 @@ For standard 12 in × 6 in blocks (0.5 sq ft face area per block), exactly 2 blo
 
 ### Do retaining walls need a buried base course?
 
-Yes. Retaining walls require a minimum of 1 course (or 1 inch of depth per foot of wall height) buried below ground level on a 6-inch compacted crushed stone leveling pad.
+Retaining walls require a minimum of 1 course (or 1 inch of depth per foot of wall height) buried below ground level on a 6-inch compacted crushed stone leveling pad.
 
 ### When is geogrid soil reinforcement required?
 

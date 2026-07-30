@@ -9,7 +9,7 @@
       sharePrice1: parseFloat(document.getElementById('input_sharePrice1').value) || 0,
       shareCount2: parseFloat(document.getElementById('input_shareCount2').value) || 0,
       sharePrice2: parseFloat(document.getElementById('input_sharePrice2').value) || 0
-    };
+    }
   }
 
   function formatCurrencyLocal(amount) {
@@ -56,7 +56,7 @@
       avgCost: avgCost,
       cost1: cost1,
       cost2: cost2
-    };
+    }
   }
 
   function updateTool() {
@@ -117,7 +117,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'costVsAverage') {
@@ -154,7 +154,7 @@
             y: { beginAtZero: true }
           }
         }
-      };
+      }
     }
 
     return null;

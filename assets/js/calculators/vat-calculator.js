@@ -16,7 +16,7 @@
       netAmount: netAmount,
       grossAmount: grossAmount,
       vatRate: vatRate / 100
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -68,7 +68,7 @@
         netAmount: net,
         grossAmount: grossResult,
         effectiveRate: rate
-      };
+      }
     } else if (type === 'gross-to-net') {
       if (gross <= 0) {
         return { error: 'Enter a valid gross amount' };
@@ -80,7 +80,7 @@
         netAmount: netResult,
         grossAmount: gross,
         effectiveRate: rate
-      };
+      }
     } else if (type === 'vat-only') {
       // VAT Only: user enters either net or gross
       if (net > 0 && gross === 0) {
@@ -90,7 +90,7 @@
           netAmount: net,
           grossAmount: net + vatOnly,
           effectiveRate: rate
-        };
+        }
       } else if (gross > 0 && net === 0) {
         var netOnly = gross / (1 + rate);
         var vatOnlyGross = gross - netOnly;
@@ -99,7 +99,7 @@
           netAmount: netOnly,
           grossAmount: gross,
           effectiveRate: rate
-        };
+        }
       } else if (net > 0 && gross > 0) {
         // Both provided — use net
         var vatBoth = net * rate;
@@ -108,7 +108,7 @@
           netAmount: net,
           grossAmount: net + vatBoth,
           effectiveRate: rate
-        };
+        }
       } else {
         return { error: 'Enter a net or gross amount' };
       }
@@ -153,7 +153,7 @@
       vatAmount: result.vatAmount,
       grossAmount: result.grossAmount,
       vatRate: result.effectiveRate
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -214,7 +214,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -233,9 +233,12 @@
   // ── Reset Tool ──
   function resetTool() {
     document.getElementById('input_calculationType').value = 'net-to-gross';
-    document.getElementById('input_netAmount').value = 1000;
-    document.getElementById('input_grossAmount').value = 1200;
-    document.getElementById('input_vatRate').value = 20.0;
+    var _el_input_netAmount = document.getElementById('input_netAmount');
+    _el_input_netAmount.value = (_el_input_netAmount.dataset && _el_input_netAmount.dataset.default !== undefined) ? _el_input_netAmount.dataset.default : (_el_input_netAmount.getAttribute('value') || '');
+    var _el_input_grossAmount = document.getElementById('input_grossAmount');
+    _el_input_grossAmount.value = (_el_input_grossAmount.dataset && _el_input_grossAmount.dataset.default !== undefined) ? _el_input_grossAmount.dataset.default : (_el_input_grossAmount.getAttribute('value') || '');
+    var _el_input_vatRate = document.getElementById('input_vatRate');
+    _el_input_vatRate.value = (_el_input_vatRate.dataset && _el_input_vatRate.dataset.default !== undefined) ? _el_input_vatRate.dataset.default : (_el_input_vatRate.getAttribute('value') || '');
     updateTool();
   }
 
@@ -281,9 +284,8 @@
     // Initial toggle
     toggleInputs();
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

@@ -100,15 +100,15 @@ howto:
 
 faq:
   - question: "How should a wedding budget be allocated across categories?"
-    answer: "Industry benchmarks suggest allocating approximately 45-50% for venue and catering, 10-12% for photography/video, 10% for music/entertainment, 10% for flowers/decor, 8% for attire/beauty, and 8-10% for emergency cushion and gifts."
+    answer: "Industry benchmarks suggest allocating approximately 45-50% for venue and catering, 10-12% for photography and video, 10% for music, 10% for flowers, 8% for attire, and 8-10% for an emergency cushion."
   - question: "What is the average cost per guest for a wedding?"
-    answer: "The average cost per guest ranges from $150 to $350+ depending on venue location, dinner service style (plated vs buffet), and open bar options."
+    answer: "The average wedding cost per guest ranges from $150 to $350 or more, depending on venue location, dinner service style, and open bar options."
   - question: "How can couples prevent wedding budget overspending?"
-    answer: "Keep a strict guest count, secure 15% emergency cash cushion, limit bar options to beer and wine, and avoid locking in venue contracts before agreeing on a total budget cap."
+    answer: "Couples can prevent wedding budget overspending by keeping a strict guest count, securing a 15% emergency cash cushion, limiting bar options to beer and wine, and avoiding locking in venue contracts before agreeing on a total budget cap."
   - question: "Should hidden costs like tips and service fees be included in the budget?"
-    answer: "Yes! Service charges (often 20-24% added by venues) and sales taxes can add thousands to catering contracts. Always factor these into your venue/catering allocation."
+    answer: "Hidden costs like tips, service charges, and sales taxes must be included in the wedding budget because they can add thousands to catering contracts. Venues often add 20-24% in service fees, requiring careful factoring into your venue and catering allocation."
   - question: "How does guest count impact overall wedding expenses?"
-    answer: "Guest count directly drives catering, bar costs, table rentals, invitation counts, and favor costs—representing over 50% of variable wedding expenses."
+    answer: "Guest count directly drives catering, bar costs, table rentals, invitation counts, and favor costs, representing over 50% of variable wedding expenses."
   - question: "What is a reasonable buffer for unexpected wedding expenses?"
     answer: "Financial planners recommend holding back 10% to 15% of your total budget for last-minute additions, weather backup plans, overtime vendor fees, and tips."
 ---
@@ -170,23 +170,23 @@ Planning a wedding requires balancing multiple vendor contracts simultaneously. 
 
 ### How should a wedding budget be allocated across categories?
 
-Industry benchmarks suggest allocating approximately 45-50% for venue and catering, 10-12% for photography/video, 10% for music/entertainment, 10% for flowers/decor, 8% for attire/beauty, and 8-10% for emergency cushion and gifts.
+Industry benchmarks suggest allocating approximately 45-50% for venue and catering, 10-12% for photography and video, 10% for music, 10% for flowers, 8% for attire, and 8-10% for an emergency cushion.
 
 ### What is the average cost per guest for a wedding?
 
-The average cost per guest ranges from $150 to $350+ depending on venue location, dinner service style (plated vs buffet), and open bar options.
+The average wedding cost per guest ranges from $150 to $350 or more, depending on venue location, dinner service style, and open bar options.
 
 ### How can couples prevent wedding budget overspending?
 
-Keep a strict guest count, secure 15% emergency cash cushion, limit bar options to beer and wine, and avoid locking in venue contracts before agreeing on a total budget cap.
+Couples can prevent wedding budget overspending by keeping a strict guest count, securing a 15% emergency cash cushion, limiting bar options, and avoiding locking in venue contracts before agreeing on a total budget cap.
 
 ### Should hidden costs like tips and service fees be included in the budget?
 
-Yes! Service charges (often 20-24% added by venues) and sales taxes can add thousands to catering contracts. Always factor these into your venue/catering allocation.
+Hidden costs like tips, service charges, and sales taxes must be included in the wedding budget because they can add thousands to catering contracts. Venues often add 20-24% in service fees, requiring careful factoring into your venue and catering allocation.
 
 ### How does guest count impact overall wedding expenses?
 
-Guest count directly drives catering, bar costs, table rentals, invitation counts, and favor costs—representing over 50% of variable wedding expenses.
+Guest count directly drives catering, bar costs, table rentals, invitation counts, and favor costs, representing over 50% of variable wedding expenses.
 
 ### What is a reasonable buffer for unexpected wedding expenses?
 

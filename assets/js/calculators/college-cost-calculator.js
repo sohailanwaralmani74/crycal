@@ -9,7 +9,7 @@
       roomAndBoardAnnual: parseFloat(document.getElementById('input_roomAndBoardAnnual').value) || 0,
       yearsUntilCollege: parseFloat(document.getElementById('input_yearsUntilCollege').value) || 10,
       tuitionInflationRate: parseFloat(document.getElementById('input_tuitionInflationRate').value) || 5.0
-    };
+    }
   }
 
   function formatCurrencyLocal(amount) {
@@ -61,7 +61,7 @@
       yearCosts: yearCosts,
       startAnnual: startAnnual,
       uninflatedTotal: baseAnnual * 4
-    };
+    }
   }
 
   function updateTool() {
@@ -125,7 +125,7 @@
             y: { beginAtZero: true }
           }
         }
-      };
+      }
     }
 
     if (tab === 'inflation') {
@@ -148,7 +148,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     return null;

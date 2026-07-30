@@ -125,7 +125,7 @@ faq:
   - question: "What is the draw period on a HELOC?"
     answer: "The draw period (typically 10 years) is the initial phase during which you can withdraw cash up to your credit limit and make minimum interest-only monthly payments."
   - question: "What is the repayment period on a HELOC?"
-    answer: "The repayment period (typically 10 to 20 years) begins after the draw period ends. You can no longer borrow money and must make fully amortizing principal and interest payments."
+    answer: "The repayment period on a HELOC (typically 10 to 20 years) begins after the draw period ends, at which point you can no longer borrow money and must make fully amortizing principal and interest payments."
   - question: "What causes HELOC payment shock?"
     answer: "Payment shock occurs when the draw period ends and monthly payments abruptly jump because you begin paying back principal in addition to interest."
   - question: "Are HELOC interest rates fixed or variable?"
@@ -133,7 +133,7 @@ faq:
   - question: "Is interest paid on a HELOC tax-deductible?"
     answer: "HELOC interest is tax-deductible only if loan proceeds are used exclusively to buy, build, or substantially improve the primary or secondary residence securing the loan."
   - question: "Is my personal financial information stored?"
-    answer: "No, 100%. All calculation formulas run locally within your web browser. No personal equity or credit line metrics are stored or transmitted."
+    answer: "No — your personal financial information is never stored. All calculation formulas run locally within your web browser, and no personal equity or credit line metrics are stored or transmitted."
 ---
 
 # HELOC Calculator - Calculate Monthly HELOC Draw & Interest Payment
@@ -214,7 +214,7 @@ The draw period (typically 10 years) is the initial phase during which you can w
 
 ### What is the repayment period on a HELOC?
 
-The repayment period (typically 10 to 20 years) begins after the draw period ends. You can no longer borrow money and must make fully amortizing principal and interest payments.
+The repayment period on a HELOC (typically 10 to 20 years) begins after the draw period ends, at which point you can no longer borrow money and must make fully amortizing principal and interest payments.
 
 ### What causes HELOC payment shock?
 
@@ -230,4 +230,4 @@ HELOC interest is tax-deductible only if loan proceeds are used exclusively to b
 
 ### Is my personal financial information stored?
 
-No, 100%. All calculation formulas run locally within your web browser. No personal equity or credit line metrics are stored or transmitted.
+No — your personal financial information is never stored. All calculation formulas run locally within your web browser, and no personal equity or credit line metrics are stored or transmitted.

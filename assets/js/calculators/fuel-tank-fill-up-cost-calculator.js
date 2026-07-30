@@ -7,15 +7,14 @@
     'midgrade': 0.35,
     'premium': 0.70,
     'diesel': 0.45
-  };
-
+  }
   function getInputs() {
     return {
       tankCapacity: parseFloat(document.getElementById('input_tankCapacity').value) || 16,
       currentFuelLevel: parseFloat(document.getElementById('input_currentFuelLevel').value) || 25,
       gasPrice: parseFloat(document.getElementById('input_gasPrice').value) || 0,
       fuelGrade: document.getElementById('input_fuelGrade').value || 'regular'
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -59,7 +58,7 @@
       fullTankCost: fullTankCost,
       estimatedRangeAdded: estimatedRangeAdded,
       effectivePrice: effectivePrice
-    };
+    }
   }
 
   function updateTool() {
@@ -138,7 +137,7 @@
             }
           }
         }
-      };
+      }
     } else if (tab === 'fuelGradeComparison') {
       var baseP = inputs.gasPrice;
       return {
@@ -176,7 +175,7 @@
             }
           }
         }
-      };
+      }
     }
     return null;
   }
@@ -187,9 +186,12 @@
   }
 
   function resetTool() {
-    document.getElementById('input_tankCapacity').value = 16;
-    document.getElementById('input_currentFuelLevel').value = 25;
-    document.getElementById('input_gasPrice').value = 3.55;
+    var _el_input_tankCapacity = document.getElementById('input_tankCapacity');
+    _el_input_tankCapacity.value = (_el_input_tankCapacity.dataset && _el_input_tankCapacity.dataset.default !== undefined) ? _el_input_tankCapacity.dataset.default : (_el_input_tankCapacity.getAttribute('value') || '');
+    var _el_input_currentFuelLevel = document.getElementById('input_currentFuelLevel');
+    _el_input_currentFuelLevel.value = (_el_input_currentFuelLevel.dataset && _el_input_currentFuelLevel.dataset.default !== undefined) ? _el_input_currentFuelLevel.dataset.default : (_el_input_currentFuelLevel.getAttribute('value') || '');
+    var _el_input_gasPrice = document.getElementById('input_gasPrice');
+    _el_input_gasPrice.value = (_el_input_gasPrice.dataset && _el_input_gasPrice.dataset.default !== undefined) ? _el_input_gasPrice.dataset.default : (_el_input_gasPrice.getAttribute('value') || '');
     document.getElementById('input_fuelGrade').value = 'regular';
     updateTool();
   }
@@ -204,9 +206,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

@@ -20,7 +20,7 @@
       seriesAPre: seriesAPre,
       seriesBInv: seriesBInv,
       seriesBPre: seriesBPre
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -79,7 +79,7 @@
       seedInvPct: seedInvPct,
       seriesAInvPct: seriesAInvPct,
       seriesBInvPct: seriesBInvPct
-    };
+    }
   }
 
   function updateTool() {
@@ -162,7 +162,7 @@
             x: { ticks: { color: '#8899aa' } }
           }
         }
-      };
+      }
     }
 
     if (tab === 'capTableProgression') {
@@ -215,7 +215,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -242,6 +242,6 @@
   window.switchChartTab = switchChartTab;
 
   document.addEventListener('DOMContentLoaded', function() {
-    setTimeout(function() { updateTool(); }, 150);
+        updateTool();;
   });
 })();

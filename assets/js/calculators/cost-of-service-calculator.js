@@ -76,7 +76,7 @@
       devOpsSalaries: devOpsSalaries,
       infrastructureCostPerAccount: infrastructureCostPerAccount,
       humanCostPerAccount: humanCostPerAccount
-    };
+    }
     updateCharts(lastChartData);
 
     if (typeof window.logHistory === 'function') {
@@ -121,7 +121,7 @@
           maintainAspectRatio: false,
           plugins: { legend: { position: 'bottom', labels: { color: '#e8edf0' } } }
         }
-      };
+      }
     }
     if (tab === 'perAccountComponent') {
       return {
@@ -140,7 +140,7 @@
           plugins: { legend: { display: false } },
           scales: { y: { beginAtZero: true, ticks: { color: '#8899aa' } }, x: { ticks: { color: '#8899aa' } } }
         }
-      };
+      }
     }
     return null;
 
@@ -157,11 +157,16 @@
 
   function resetTool() {
 
-    document.getElementById('input_awsCost').value = 12000;
-    document.getElementById('input_thirdPartyApis').value = 4000;
-    document.getElementById('input_csSalaries').value = 24000;
-    document.getElementById('input_devOpsSalaries').value = 10000;
-    document.getElementById('input_activeAccounts').value = 500;
+    var _el_input_awsCost = document.getElementById('input_awsCost');
+    _el_input_awsCost.value = (_el_input_awsCost.dataset && _el_input_awsCost.dataset.default !== undefined) ? _el_input_awsCost.dataset.default : (_el_input_awsCost.getAttribute('value') || '');
+    var _el_input_thirdPartyApis = document.getElementById('input_thirdPartyApis');
+    _el_input_thirdPartyApis.value = (_el_input_thirdPartyApis.dataset && _el_input_thirdPartyApis.dataset.default !== undefined) ? _el_input_thirdPartyApis.dataset.default : (_el_input_thirdPartyApis.getAttribute('value') || '');
+    var _el_input_csSalaries = document.getElementById('input_csSalaries');
+    _el_input_csSalaries.value = (_el_input_csSalaries.dataset && _el_input_csSalaries.dataset.default !== undefined) ? _el_input_csSalaries.dataset.default : (_el_input_csSalaries.getAttribute('value') || '');
+    var _el_input_devOpsSalaries = document.getElementById('input_devOpsSalaries');
+    _el_input_devOpsSalaries.value = (_el_input_devOpsSalaries.dataset && _el_input_devOpsSalaries.dataset.default !== undefined) ? _el_input_devOpsSalaries.dataset.default : (_el_input_devOpsSalaries.getAttribute('value') || '');
+    var _el_input_activeAccounts = document.getElementById('input_activeAccounts');
+    _el_input_activeAccounts.value = (_el_input_activeAccounts.dataset && _el_input_activeAccounts.dataset.default !== undefined) ? _el_input_activeAccounts.dataset.default : (_el_input_activeAccounts.getAttribute('value') || '');
     updateTool();
 
   }
@@ -176,9 +181,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

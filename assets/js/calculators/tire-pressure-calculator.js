@@ -10,7 +10,7 @@
       towing_weight: parseFloat(document.getElementById('input_towing_weight').value) || 0,
       max_vehicle_payload: parseFloat(document.getElementById('input_max_vehicle_payload').value) || 1500,
       max_tire_psi: parseFloat(document.getElementById('input_max_tire_psi').value) || 50
-    };
+    }
   }
 
   function setOutputText(id, text) {
@@ -40,7 +40,7 @@
       load_adj: load_adj,
       max_tire_psi: inp.max_tire_psi,
       net_diff: net_diff
-    };
+    }
   }
 
   function updateTool() {
@@ -56,8 +56,7 @@
     var chartData = {
       labels: ['OEM Baseline', 'Temp Adjustment', 'Load Adjustment', 'Target Cold PSI'],
       values: [inp.base_psi, parseFloat(res.temp_adj.toFixed(1)), parseFloat(res.load_adj.toFixed(1)), parseFloat(res.rec_cold_psi.toFixed(1))]
-    };
-
+    }
     updateCharts(chartData);
 
     if (typeof window.logHistory === 'function') {

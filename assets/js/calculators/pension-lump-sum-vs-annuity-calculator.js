@@ -26,7 +26,7 @@
       lifeExpectancy: lifeExpectancy,
       currentAge: currentAge,
       inflationRate: inflationRate / 100
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -128,7 +128,7 @@
       returnRate: returnRate,
       years: years,
       currentAge: currentAge
-    };
+    }
   }
 
   // ── Find Break-Even Age ──
@@ -194,7 +194,7 @@
       monthlyAnnuity: result.monthlyAnnuity,
       years: result.years,
       currentAge: result.currentAge
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -325,7 +325,7 @@
             mode: 'index'
           }
         }
-      };
+      }
     }
 
     if (tab === 'breakdown') {
@@ -358,7 +358,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -376,12 +376,18 @@
 
   // ── Reset Tool ──
   function resetTool() {
-    document.getElementById('input_lumpSum').value = 250000;
-    document.getElementById('input_monthlyAnnuity').value = 1200;
-    document.getElementById('input_investmentReturn').value = 6.0;
-    document.getElementById('input_lifeExpectancy').value = 85;
-    document.getElementById('input_currentAge').value = 65;
-    document.getElementById('input_inflationRate').value = 2.5;
+    var _el_input_lumpSum = document.getElementById('input_lumpSum');
+    _el_input_lumpSum.value = (_el_input_lumpSum.dataset && _el_input_lumpSum.dataset.default !== undefined) ? _el_input_lumpSum.dataset.default : (_el_input_lumpSum.getAttribute('value') || '');
+    var _el_input_monthlyAnnuity = document.getElementById('input_monthlyAnnuity');
+    _el_input_monthlyAnnuity.value = (_el_input_monthlyAnnuity.dataset && _el_input_monthlyAnnuity.dataset.default !== undefined) ? _el_input_monthlyAnnuity.dataset.default : (_el_input_monthlyAnnuity.getAttribute('value') || '');
+    var _el_input_investmentReturn = document.getElementById('input_investmentReturn');
+    _el_input_investmentReturn.value = (_el_input_investmentReturn.dataset && _el_input_investmentReturn.dataset.default !== undefined) ? _el_input_investmentReturn.dataset.default : (_el_input_investmentReturn.getAttribute('value') || '');
+    var _el_input_lifeExpectancy = document.getElementById('input_lifeExpectancy');
+    _el_input_lifeExpectancy.value = (_el_input_lifeExpectancy.dataset && _el_input_lifeExpectancy.dataset.default !== undefined) ? _el_input_lifeExpectancy.dataset.default : (_el_input_lifeExpectancy.getAttribute('value') || '');
+    var _el_input_currentAge = document.getElementById('input_currentAge');
+    _el_input_currentAge.value = (_el_input_currentAge.dataset && _el_input_currentAge.dataset.default !== undefined) ? _el_input_currentAge.dataset.default : (_el_input_currentAge.getAttribute('value') || '');
+    var _el_input_inflationRate = document.getElementById('input_inflationRate');
+    _el_input_inflationRate.value = (_el_input_inflationRate.dataset && _el_input_inflationRate.dataset.default !== undefined) ? _el_input_inflationRate.dataset.default : (_el_input_inflationRate.getAttribute('value') || '');
     updateTool();
   }
 
@@ -397,9 +403,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

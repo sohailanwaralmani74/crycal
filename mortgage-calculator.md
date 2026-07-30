@@ -180,7 +180,7 @@ howto:
 
 faq:
   - question: "How does the mortgage calculator work?"
-    answer: "It calculates your monthly mortgage payment based on the loan amount, interest rate, loan term, property taxes, insurance, and PMI. The payment is then broken down into principal, interest, taxes, insurance, and PMI."
+    answer: "The mortgage calculator computes your monthly payment based on the loan amount, interest rate, loan term, property taxes, insurance, and PMI. The payment is then broken down into principal, interest, taxes, insurance, and PMI."
   - question: "What is PMI and when do I pay it?"
     answer: "Private Mortgage Insurance (PMI) is required when your down payment is less than 20% of the home price. It protects the lender if you default. You can request cancellation once your equity reaches 20%."
   - question: "What is the formula used for mortgage calculations?"
@@ -247,7 +247,7 @@ Where:
 
 ### How does the mortgage calculator work?
 
-It calculates your monthly mortgage payment based on the loan amount, interest rate, loan term, property taxes, insurance, and PMI. The payment is then broken down into principal, interest, taxes, insurance, and PMI.
+The mortgage calculator computes your monthly payment based on the loan amount, interest rate, loan term, property taxes, insurance, and PMI. The payment is then broken down into principal, interest, taxes, insurance, and PMI.
 
 ### What is PMI and when do I pay it?
 

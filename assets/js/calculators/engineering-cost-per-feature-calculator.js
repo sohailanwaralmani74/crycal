@@ -16,7 +16,7 @@
       avgAnnualDevSalary: avgAnnualDevSalary,
       designerPmCost: designerPmCost,
       cloudTestingCost: cloudTestingCost
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -67,7 +67,7 @@
       pmDesign: pmDesign,
       qaCloud: qaCloud,
       error: null
-    };
+    }
   }
 
   function updateTool() {
@@ -94,7 +94,7 @@
       pmDesign: result.pmDesign,
       qaCloud: result.qaCloud,
       totalCost: result.totalFeatureCost
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -142,7 +142,7 @@
             title: { display: true, text: 'Feature R&D Cost Component Split ($)', color: '#e8edf0' }
           }
         }
-      };
+      }
     }
 
     if (tab === 'payback') {
@@ -173,7 +173,7 @@
             x: { ticks: { color: '#8899aa' } }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -186,11 +186,16 @@
   }
 
   function resetTool() {
-    document.getElementById('input_engineersAssigned').value = 4;
-    document.getElementById('input_sprintWeeks').value = 6;
-    document.getElementById('input_avgAnnualDevSalary').value = 150000;
-    document.getElementById('input_designerPmCost').value = 12000;
-    document.getElementById('input_cloudTestingCost').value = 3000;
+    var _el_input_engineersAssigned = document.getElementById('input_engineersAssigned');
+    _el_input_engineersAssigned.value = (_el_input_engineersAssigned.dataset && _el_input_engineersAssigned.dataset.default !== undefined) ? _el_input_engineersAssigned.dataset.default : (_el_input_engineersAssigned.getAttribute('value') || '');
+    var _el_input_sprintWeeks = document.getElementById('input_sprintWeeks');
+    _el_input_sprintWeeks.value = (_el_input_sprintWeeks.dataset && _el_input_sprintWeeks.dataset.default !== undefined) ? _el_input_sprintWeeks.dataset.default : (_el_input_sprintWeeks.getAttribute('value') || '');
+    var _el_input_avgAnnualDevSalary = document.getElementById('input_avgAnnualDevSalary');
+    _el_input_avgAnnualDevSalary.value = (_el_input_avgAnnualDevSalary.dataset && _el_input_avgAnnualDevSalary.dataset.default !== undefined) ? _el_input_avgAnnualDevSalary.dataset.default : (_el_input_avgAnnualDevSalary.getAttribute('value') || '');
+    var _el_input_designerPmCost = document.getElementById('input_designerPmCost');
+    _el_input_designerPmCost.value = (_el_input_designerPmCost.dataset && _el_input_designerPmCost.dataset.default !== undefined) ? _el_input_designerPmCost.dataset.default : (_el_input_designerPmCost.getAttribute('value') || '');
+    var _el_input_cloudTestingCost = document.getElementById('input_cloudTestingCost');
+    _el_input_cloudTestingCost.value = (_el_input_cloudTestingCost.dataset && _el_input_cloudTestingCost.dataset.default !== undefined) ? _el_input_cloudTestingCost.dataset.default : (_el_input_cloudTestingCost.getAttribute('value') || '');
     updateTool();
   }
 
@@ -204,9 +209,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

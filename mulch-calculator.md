@@ -137,7 +137,7 @@ faq:
   - question: "How much does a cubic yard of mulch cover at 2 inches depth?"
     answer: "One cubic yard of mulch covers 162 square feet at a depth of 2 inches, 108 square feet at 3 inches, and 81 square feet at 4 inches."
   - question: "Is my calculation saved or shared with third parties?"
-    answer: "No. All computations take place locally inside your browser ensuring 100% data privacy."
+    answer: "Your calculations are not saved or shared. All computations take place locally inside your browser ensuring 100% data privacy."
 ---
 
 # Mulch Calculator - Calculate Mulch, Sod & Material Volume
@@ -216,4 +216,4 @@ One cubic yard of mulch covers 162 square feet at a depth of 2 inches, 108 squar
 
 ### Is my calculation saved or shared with third parties?
 
-No. All computations take place locally inside your browser ensuring 100% data privacy.
+Your calculations are not saved or shared. All computations take place locally inside your browser ensuring 100% data privacy.

@@ -12,7 +12,7 @@
       newLogoMrr: parseFloat(document.getElementById('input_newLogoMrr').value) || 0,
       expansionMrr: parseFloat(document.getElementById('input_expansionMrr').value) || 0,
       reactivatedMrr: parseFloat(document.getElementById('input_reactivatedMrr').value) || 0
-    };
+    }
   }
 
   function formatCurrency(amount) {

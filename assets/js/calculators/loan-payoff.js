@@ -16,7 +16,7 @@
       monthlyPayment: parseFloat(document.getElementById('input_monthlyPayment').value) || 0,
       extraMonthlyPayment: parseFloat(document.getElementById('input_extraMonthlyPayment').value) || 0,
       compoundingFrequency: document.getElementById('input_compoundingFrequency').value
-    };
+    }
   }
 
   // ── Get compounding periods per year ──
@@ -27,7 +27,7 @@
       'quarterly': 4,
       'semi-annually': 2,
       'annually': 1
-    };
+    }
     return map[frequency] || 12;
   }
 
@@ -64,7 +64,7 @@
       totalInterest: totalInterest,
       schedule: schedule,
       finalPayment: totalPayment
-    };
+    }
   }
 
   // ── Main Calculation ──
@@ -110,7 +110,7 @@
       newSchedule: withExtra.schedule,
       originalPayoffDate: originalDate,
       newPayoffDate: newDate
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -166,7 +166,7 @@
         monthlyPayment: inputs.monthlyPayment,
         extraMonthlyPayment: inputs.extraMonthlyPayment,
         compoundingFrequency: inputs.compoundingFrequency
-      };
+      }
       window.logHistory(snapshot);
     }
     if (typeof window.renderPresetDropdown === 'function') {
@@ -254,7 +254,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'timeline') {
@@ -319,7 +319,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'breakdown') {
@@ -353,7 +353,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     return null;
@@ -386,9 +386,8 @@
       var defaultVal = el.dataset.default || el.getAttribute('value') || '';
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
     var picker = document.getElementById('baseCurrency');
     if (picker) {
       picker.addEventListener('change', function() {

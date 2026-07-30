@@ -156,7 +156,7 @@ faq:
   - question: "What is the required handrail grip size (graspability)?"
     answer: "Type I graspable handrails must have a circular cross-section diameter between 1.25 inches and 2.0 inches, or non-circular perimeter between 4.0 and 6.25 inches."
   - question: "Are safety end returns required on stair handrails?"
-    answer: "Yes. Building codes require handrail ends to return smoothly to the wall, post, or safety end terminal to prevent clothing or purse straps from catching."
+    answer: "Building codes require handrail ends to return smoothly to the wall, post, or safety end terminal to prevent clothing or purse straps from catching."
 ---
 
 # Stair Handrail Calculator - Calculate Board Feet & Wood Quantity
@@ -258,4 +258,4 @@ Type I graspable handrails must have a circular cross-section diameter between 1
 
 ### Are safety end returns required on stair handrails?
 
-Yes. Building codes require handrail ends to return smoothly to the wall, post, or safety end terminal to prevent clothing or purse straps from catching.
+Building codes require handrail ends to return smoothly to the wall, post, or safety end terminal to prevent clothing or purse straps from catching.

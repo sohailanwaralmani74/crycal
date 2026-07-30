@@ -8,7 +8,7 @@
       amount: parseFloat(document.getElementById('input_amount').value) || 0,
       gstRate: parseFloat(document.getElementById('input_gstRate').value) || 0,
       calculationType: document.getElementById('input_calculationType').value
-    };
+    }
   }
 
   function formatCurrencyLocal(amount) {
@@ -57,7 +57,7 @@
       net: net,
       gst: gst,
       gross: gross
-    };
+    }
   }
 
   function updateTool() {
@@ -118,7 +118,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'comparison') {
@@ -151,7 +151,7 @@
             y: { stacked: true, beginAtZero: true }
           }
         }
-      };
+      }
     }
 
     return null;

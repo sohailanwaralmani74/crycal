@@ -14,7 +14,7 @@
       strikePrice: strikePrice,
       exitPrice: exitPrice,
       taxRate: taxRate / 100
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -64,7 +64,7 @@
       taxAmt: taxAmt,
       netTakeHome: netTakeHome,
       sensitivity: sensitivity
-    };
+    }
   }
 
   function updateTool() {
@@ -158,7 +158,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'gainVsSharePrice') {
@@ -194,7 +194,7 @@
             x: { ticks: { color: '#8899aa' } }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -218,6 +218,6 @@
   window.switchChartTab = switchChartTab;
 
   document.addEventListener('DOMContentLoaded', function() {
-    setTimeout(function() { updateTool(); }, 150);
+        updateTool();;
   });
 })();

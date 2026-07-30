@@ -151,7 +151,7 @@ faq:
   - question: "What size lumber board should be used for stair stringers?"
     answer: "Stair stringers must be cut from 2x12 structural lumber boards. Never use 2x10s for cut stringers, as notch cutouts leave insufficient throat strength."
   - question: "How do I adjust the bottom and top of a cut stringer?"
-    answer: "You must deduct the thickness of one tread board (e.g. 1.0 or 1.5 inches) from the bottom of the stringer so the first step matches all upper risers."
+    answer: "To adjust a cut stringer, deduct the thickness of one tread board (e.g. 1.0 or 1.5 inches) from the bottom of the stringer so the first step matches all upper risers."
 ---
 
 # Stair Stringer Calculator - Calculate Board Feet & Wood Quantity
@@ -235,5 +235,5 @@ Stair stringers must be cut from 2x12 structural lumber boards. Never use 2x10s 
 
 ### How do I adjust the bottom and top of a cut stringer?
 
-You must deduct the thickness of one tread board (e.g. 1.0 or 1.5 inches) from the bottom of the stringer so the first step matches all upper risers.
+To adjust a cut stringer, deduct the thickness of one tread board (e.g. 1.0 or 1.5 inches) from the bottom of the stringer so the first step matches all upper risers.
 

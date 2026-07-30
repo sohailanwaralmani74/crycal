@@ -48,7 +48,7 @@
       appraisal: appraisal,
       survey: survey,
       miscFees: miscFees
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -137,7 +137,7 @@
         'Title Insurance': inputs.titleInsurance,
         'Miscellaneous': inputs.miscFees
       }
-    };
+    }
   }
 
   // ── Main Update ──
@@ -176,7 +176,7 @@
       sellerItems: result.sellerItems,
       buyerTotal: result.buyerTotal,
       sellerTotal: result.sellerTotal
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -239,7 +239,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'sellerBreakdown') {
@@ -270,7 +270,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'comparison') {
@@ -307,7 +307,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -325,20 +325,34 @@
 
   // ── Reset Tool ──
   function resetTool() {
-    document.getElementById('input_purchasePrice').value = 685000;
-    document.getElementById('input_loanAmount').value = 548000;
-    document.getElementById('input_downPaymentPercent').value = 20;
-    document.getElementById('input_annualPropertyTax').value = 12000;
-    document.getElementById('input_escrowMonths').value = 6;
-    document.getElementById('input_titleInsurance').value = 3500;
-    document.getElementById('input_attorneyFees').value = 2500;
-    document.getElementById('input_bankFees').value = 1500;
-    document.getElementById('input_sellerAgentCommission').value = 3.0;
-    document.getElementById('input_buyerAgentCommission').value = 3.0;
-    document.getElementById('input_homeInspection').value = 600;
-    document.getElementById('input_appraisal').value = 550;
-    document.getElementById('input_survey').value = 500;
-    document.getElementById('input_miscFees').value = 500;
+    var _el_input_purchasePrice = document.getElementById('input_purchasePrice');
+    _el_input_purchasePrice.value = (_el_input_purchasePrice.dataset && _el_input_purchasePrice.dataset.default !== undefined) ? _el_input_purchasePrice.dataset.default : (_el_input_purchasePrice.getAttribute('value') || '');
+    var _el_input_loanAmount = document.getElementById('input_loanAmount');
+    _el_input_loanAmount.value = (_el_input_loanAmount.dataset && _el_input_loanAmount.dataset.default !== undefined) ? _el_input_loanAmount.dataset.default : (_el_input_loanAmount.getAttribute('value') || '');
+    var _el_input_downPaymentPercent = document.getElementById('input_downPaymentPercent');
+    _el_input_downPaymentPercent.value = (_el_input_downPaymentPercent.dataset && _el_input_downPaymentPercent.dataset.default !== undefined) ? _el_input_downPaymentPercent.dataset.default : (_el_input_downPaymentPercent.getAttribute('value') || '');
+    var _el_input_annualPropertyTax = document.getElementById('input_annualPropertyTax');
+    _el_input_annualPropertyTax.value = (_el_input_annualPropertyTax.dataset && _el_input_annualPropertyTax.dataset.default !== undefined) ? _el_input_annualPropertyTax.dataset.default : (_el_input_annualPropertyTax.getAttribute('value') || '');
+    var _el_input_escrowMonths = document.getElementById('input_escrowMonths');
+    _el_input_escrowMonths.value = (_el_input_escrowMonths.dataset && _el_input_escrowMonths.dataset.default !== undefined) ? _el_input_escrowMonths.dataset.default : (_el_input_escrowMonths.getAttribute('value') || '');
+    var _el_input_titleInsurance = document.getElementById('input_titleInsurance');
+    _el_input_titleInsurance.value = (_el_input_titleInsurance.dataset && _el_input_titleInsurance.dataset.default !== undefined) ? _el_input_titleInsurance.dataset.default : (_el_input_titleInsurance.getAttribute('value') || '');
+    var _el_input_attorneyFees = document.getElementById('input_attorneyFees');
+    _el_input_attorneyFees.value = (_el_input_attorneyFees.dataset && _el_input_attorneyFees.dataset.default !== undefined) ? _el_input_attorneyFees.dataset.default : (_el_input_attorneyFees.getAttribute('value') || '');
+    var _el_input_bankFees = document.getElementById('input_bankFees');
+    _el_input_bankFees.value = (_el_input_bankFees.dataset && _el_input_bankFees.dataset.default !== undefined) ? _el_input_bankFees.dataset.default : (_el_input_bankFees.getAttribute('value') || '');
+    var _el_input_sellerAgentCommission = document.getElementById('input_sellerAgentCommission');
+    _el_input_sellerAgentCommission.value = (_el_input_sellerAgentCommission.dataset && _el_input_sellerAgentCommission.dataset.default !== undefined) ? _el_input_sellerAgentCommission.dataset.default : (_el_input_sellerAgentCommission.getAttribute('value') || '');
+    var _el_input_buyerAgentCommission = document.getElementById('input_buyerAgentCommission');
+    _el_input_buyerAgentCommission.value = (_el_input_buyerAgentCommission.dataset && _el_input_buyerAgentCommission.dataset.default !== undefined) ? _el_input_buyerAgentCommission.dataset.default : (_el_input_buyerAgentCommission.getAttribute('value') || '');
+    var _el_input_homeInspection = document.getElementById('input_homeInspection');
+    _el_input_homeInspection.value = (_el_input_homeInspection.dataset && _el_input_homeInspection.dataset.default !== undefined) ? _el_input_homeInspection.dataset.default : (_el_input_homeInspection.getAttribute('value') || '');
+    var _el_input_appraisal = document.getElementById('input_appraisal');
+    _el_input_appraisal.value = (_el_input_appraisal.dataset && _el_input_appraisal.dataset.default !== undefined) ? _el_input_appraisal.dataset.default : (_el_input_appraisal.getAttribute('value') || '');
+    var _el_input_survey = document.getElementById('input_survey');
+    _el_input_survey.value = (_el_input_survey.dataset && _el_input_survey.dataset.default !== undefined) ? _el_input_survey.dataset.default : (_el_input_survey.getAttribute('value') || '');
+    var _el_input_miscFees = document.getElementById('input_miscFees');
+    _el_input_miscFees.value = (_el_input_miscFees.dataset && _el_input_miscFees.dataset.default !== undefined) ? _el_input_miscFees.dataset.default : (_el_input_miscFees.getAttribute('value') || '');
     updateTool();
   }
 
@@ -354,9 +368,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

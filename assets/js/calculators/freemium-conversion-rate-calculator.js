@@ -10,7 +10,7 @@
       conversionRate: (parseFloat(document.getElementById('input_conversionRate').value) || 0) / 100,
       avgPaidPrice: parseFloat(document.getElementById('input_avgPaidPrice').value) || 0,
       paidMonthlyChurn: (parseFloat(document.getElementById('input_paidMonthlyChurn').value) || 0) / 100
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -81,7 +81,7 @@
       rateArrValues: rateArrValues,
       monthLabels: monthLabels,
       mrrTimeline: mrrTimeline
-    };
+    }
   }
 
   function updateTool() {

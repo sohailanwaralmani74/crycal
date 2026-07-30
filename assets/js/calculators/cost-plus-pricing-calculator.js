@@ -11,7 +11,7 @@
       paymentProcessingRate: (parseFloat(document.getElementById('input_paymentProcessingRate').value) || 0) / 100,
       targetGrossMargin: (parseFloat(document.getElementById('input_targetGrossMargin').value) || 0) / 100,
       expectedCustomers: parseFloat(document.getElementById('input_expectedCustomers').value) || 0
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -62,7 +62,7 @@
       annualRevenuePotential: annualRevenuePotential,
       marginTargets: marginTargets,
       sensitivityPrices: sensitivityPrices
-    };
+    }
   }
 
   function updateTool() {

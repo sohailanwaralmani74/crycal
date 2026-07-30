@@ -149,11 +149,11 @@ faq:
   - question: "How many bricks are in a cube (pallet) of bricks?"
     answer: "A standard cube (pallet) of modular face bricks typically contains 500 to 525 bricks, weighing approximately 2,000 to 2,400 lbs."
   - question: "How many 80 lb bags of mortar are needed per 100 bricks?"
-    answer: "Laying 1,000 standard modular bricks requires approximately 7 to 8 bags (80 lb each) of Type N masonry mortar mix—or roughly 1 bag per 125 to 140 bricks."
+    answer: "You need about one 80 lb bag of mortar per 125 to 140 bricks, meaning you need just under one bag per 100 bricks (or 7 to 8 bags per 1,000 bricks)."
   - question: "What is the difference between modular, queen, and king size bricks?"
     answer: "Modular bricks (6.86/sq ft) are smaller and laid on 4-inch module grids. Queen bricks (5.76/sq ft) and King bricks (4.50/sq ft) are larger, requiring fewer bricks and less mortar per square foot."
   - question: "How do you account for windows and doors in brick wall calculations?"
-    answer: "Calculate total gross wall square footage (Length x Height), measure each door and window opening (Width x Height), subtract opening areas from gross wall area, and apply your 5% waste factor."
+    answer: "To account for windows and doors in brick wall calculations, calculate total gross wall square footage, measure each opening, subtract opening areas from the gross wall area, and then apply your waste factor."
   - question: "What waste percentage should be added for brick masonry?"
     answer: "Add 5% waste for simple straight wall runs. Add 8% to 10% waste for walls with arches, soldier courses, angled corners, or custom cuts."
   - question: "How much does 1,000 face bricks cost?"
@@ -244,7 +244,7 @@ A standard cube (pallet) of modular face bricks typically contains 500 to 525 br
 
 ### How many 80 lb bags of mortar are needed per 100 bricks?
 
-Laying 1,000 standard modular bricks requires approximately 7 to 8 bags (80 lb each) of Type N masonry mortar mix—or roughly 1 bag per 125 to 140 bricks.
+You need about one 80 lb bag of mortar per 125 to 140 bricks, meaning you need just under one bag per 100 bricks (or 7 to 8 bags per 1,000 bricks).
 
 ### What is the difference between modular, queen, and king size bricks?
 
@@ -252,7 +252,7 @@ Modular bricks (6.86/sq ft) are smaller and laid on 4-inch module grids. Queen b
 
 ### How do you account for windows and doors in brick wall calculations?
 
-Calculate total gross wall square footage (Length x Height), measure each door and window opening (Width x Height), subtract opening areas from gross wall area, and apply your 5% waste factor.
+To account for windows and doors in brick wall calculations, calculate total gross wall square footage, measure each opening, subtract opening areas from the gross wall area, and then apply your waste factor.
 
 ### What waste percentage should be added for brick masonry?
 

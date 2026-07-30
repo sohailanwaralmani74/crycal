@@ -8,15 +8,14 @@
     truck:   [0.15, 0.11, 0.10, 0.08, 0.07],
     luxury:  [0.25, 0.16, 0.14, 0.12, 0.10],
     electric:[0.27, 0.17, 0.15, 0.12, 0.10]
-  };
-
+  }
   function getInputs() {
     return {
       initialValue: parseFloat(document.getElementById('input_initialValue').value) || 0,
       vehicleType: document.getElementById('input_vehicleType').value || 'sedan',
       vehicleAge: parseFloat(document.getElementById('input_vehicleAge').value) || 0,
       annualMiles: parseFloat(document.getElementById('input_annualMiles').value) || 12000
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -86,7 +85,7 @@
       depreciationPercent5Yr: depreciationPercent5Yr,
       yearlyValues: yearlyValues,
       yearlyLosses: yearlyLosses
-    };
+    }
   }
 
   function updateTool() {
@@ -164,7 +163,7 @@
             }
           }
         }
-      };
+      }
     } else if (tab === 'yearlyLoss') {
       var labels2 = ['Year 1', 'Year 2', 'Year 3', 'Year 4', 'Year 5'];
       var lossesData = result.yearlyLosses.map(function(val) { return Math.round(val); });
@@ -199,7 +198,7 @@
             }
           }
         }
-      };
+      }
     }
     return null;
   }
@@ -210,10 +209,13 @@
   }
 
   function resetTool() {
-    document.getElementById('input_initialValue').value = 32000;
+    var _el_input_initialValue = document.getElementById('input_initialValue');
+    _el_input_initialValue.value = (_el_input_initialValue.dataset && _el_input_initialValue.dataset.default !== undefined) ? _el_input_initialValue.dataset.default : (_el_input_initialValue.getAttribute('value') || '');
     document.getElementById('input_vehicleType').value = 'sedan';
-    document.getElementById('input_vehicleAge').value = 0;
-    document.getElementById('input_annualMiles').value = 12000;
+    var _el_input_vehicleAge = document.getElementById('input_vehicleAge');
+    _el_input_vehicleAge.value = (_el_input_vehicleAge.dataset && _el_input_vehicleAge.dataset.default !== undefined) ? _el_input_vehicleAge.dataset.default : (_el_input_vehicleAge.getAttribute('value') || '');
+    var _el_input_annualMiles = document.getElementById('input_annualMiles');
+    _el_input_annualMiles.value = (_el_input_annualMiles.dataset && _el_input_annualMiles.dataset.default !== undefined) ? _el_input_annualMiles.dataset.default : (_el_input_annualMiles.getAttribute('value') || '');
     updateTool();
   }
 
@@ -227,9 +229,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

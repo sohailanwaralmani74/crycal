@@ -121,23 +121,23 @@ howto:
 
 faq:
   - question: "What is a VAT calculator?"
-    answer: "A VAT calculator is a tool that calculates Value Added Tax on goods and services. It can add VAT to a net price, remove VAT from a gross price, or reverse-calculate VAT from a total amount."
+    answer: "A VAT calculator calculates Value Added Tax on goods and services, allowing you to add VAT to a net price, remove VAT from a gross price, or reverse-calculate VAT from a total amount."
   - question: "How do I use the VAT calculator South Africa?"
-    answer: "Set the VAT rate to 15% and enter your amount. Our SA VAT calculator handles both adding and removing VAT."
+    answer: "To calculate South African VAT, set the VAT rate to 15% and enter your amount; the calculator will handle adding or removing the tax."
   - question: "How do I remove VAT from a price?"
-    answer: "Use the 'Gross to Net' mode on our remove VAT calculator. Enter the gross price and VAT rate, and the calculator will show the net price excluding VAT."
+    answer: "To remove VAT from a price, use the Gross to Net mode, enter the gross price and VAT rate, and the calculator will display the net price excluding VAT."
   - question: "What is a reverse VAT calculator?"
-    answer: "A reverse VAT calculator extracts the VAT amount from a gross price. It's useful when you know the total including VAT but need to know how much is tax."
+    answer: "A reverse VAT calculator extracts the VAT amount from a gross price, which is useful when you know the total including VAT but need to find the tax portion."
   - question: "Is there a VAT calculator for the UAE?"
-    answer: "Yes — use our VAT calculator UAE by setting the VAT rate to 5% (the standard UAE VAT rate)."
+    answer: "Yes — you can calculate UAE VAT by setting the VAT rate to the standard 5%."
   - question: "Can I use this as a VAT calculator for Ireland?"
-    answer: "Yes — our VAT calculator Ireland supports the 23% standard Irish VAT rate."
+    answer: "Yes — you can calculate Irish VAT by setting the rate to the standard 23%."
   - question: "Is there an online VAT calculator UK?"
-    answer: "Yes — our online VAT calculator UK works with the 20% standard UK VAT rate."
+    answer: "Yes — you can calculate UK VAT by setting the rate to the standard 20%."
   - question: "What is an ex VAT calculator?"
-    answer: "An ex VAT calculator shows the price before VAT is added. It's useful for business pricing and invoicing."
+    answer: "An ex VAT calculator shows the price before VAT is added, which is useful for business pricing and invoicing."
   - question: "What is the difference between VAT and sales tax?"
-    answer: "VAT is applied at each stage of production, while sales tax is applied only at the final point of sale to the consumer."
+    answer: "VAT is applied at each stage of production, whereas sales tax is applied only at the final point of sale to the consumer."
 
 ---
 
@@ -254,41 +254,37 @@ The tool updates instantly as you adjust any input — no "Calculate" button req
 
 ### What is a VAT calculator?
 
-A VAT calculator is a tool that calculates Value Added Tax on goods and services. It can add VAT to a net price, remove VAT from a gross price, or calculate VAT from a total amount.
+A VAT calculator calculates Value Added Tax on goods and services, allowing you to add VAT to a net price, remove VAT from a gross price, or reverse-calculate VAT from a total amount.
 
-### How do I add VAT to a price?
+### How do I use the VAT calculator South Africa?
 
-Use the "Net to Gross" mode. Enter the net price and VAT rate, and the calculator will show the gross price including VAT.
+To calculate South African VAT, set the VAT rate to 15% and enter your amount; the calculator will handle adding or removing the tax.
 
 ### How do I remove VAT from a price?
 
-Use the "Gross to Net" mode. Enter the gross price and VAT rate, and the calculator will show the net price excluding VAT.
+To remove VAT from a price, use the Gross to Net mode, enter the gross price and VAT rate, and the calculator will display the net price excluding VAT.
 
-### How do I reverse calculate VAT?
+### What is a reverse VAT calculator?
 
-Use the "Gross to Net" mode. Enter the gross price and VAT rate, and the calculator will show the VAT amount extracted from the gross price.
+A reverse VAT calculator extracts the VAT amount from a gross price, which is useful when you know the total including VAT but need to find the tax portion.
 
-### What is the VAT rate in the UK?
+### Is there a VAT calculator for the UAE?
 
-The standard UK VAT rate is 20%.
+Yes — you can calculate UAE VAT by setting the VAT rate to the standard 5%.
 
-### What is the VAT rate in South Africa?
+### Can I use this as a VAT calculator for Ireland?
 
-The standard South Africa VAT rate is 15%.
+Yes — you can calculate Irish VAT by setting the rate to the standard 23%.
 
-### What is the VAT rate in the UAE?
+### Is there an online VAT calculator UK?
 
-The standard UAE VAT rate is 5%.
+Yes — you can calculate UK VAT by setting the rate to the standard 20%.
 
-### What is the VAT rate in Ireland?
+### What is an ex VAT calculator?
 
-The standard Ireland VAT rate is 23%.
+An ex VAT calculator shows the price before VAT is added, which is useful for business pricing and invoicing.
 
-### What is the VAT rate in Malta?
+### What is the difference between VAT and sales tax?
 
-The standard Malta VAT rate is 18%.
-
-### What is the VAT rate in the Philippines?
-
-The standard Philippines VAT rate is 12%.
+VAT is applied at each stage of production, whereas sales tax is applied only at the final point of sale to the consumer.
 

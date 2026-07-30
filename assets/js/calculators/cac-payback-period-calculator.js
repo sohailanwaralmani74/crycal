@@ -69,7 +69,7 @@
       cac: cac,
       monthlyGrossProfit: monthlyGrossProfit,
       paybackMonths: paybackMonths
-    };
+    }
     updateCharts(lastChartData);
 
     if (typeof window.logHistory === 'function') {
@@ -118,7 +118,7 @@
           maintainAspectRatio: false,
           scales: { y: { ticks: { color: '#8899aa' } }, x: { ticks: { color: '#8899aa' } } }
         }
-      };
+      }
     }
     if (tab === 'comparison') {
       return {
@@ -137,7 +137,7 @@
           plugins: { legend: { display: false } },
           scales: { y: { beginAtZero: true, ticks: { color: '#8899aa' } }, x: { ticks: { color: '#8899aa' } } }
         }
-      };
+      }
     }
     return null;
 
@@ -154,9 +154,12 @@
 
   function resetTool() {
 
-    document.getElementById('input_cac').value = 1500;
-    document.getElementById('input_arpu').value = 150;
-    document.getElementById('input_grossMargin').value = 80;
+    var _el_input_cac = document.getElementById('input_cac');
+    _el_input_cac.value = (_el_input_cac.dataset && _el_input_cac.dataset.default !== undefined) ? _el_input_cac.dataset.default : (_el_input_cac.getAttribute('value') || '');
+    var _el_input_arpu = document.getElementById('input_arpu');
+    _el_input_arpu.value = (_el_input_arpu.dataset && _el_input_arpu.dataset.default !== undefined) ? _el_input_arpu.dataset.default : (_el_input_arpu.getAttribute('value') || '');
+    var _el_input_grossMargin = document.getElementById('input_grossMargin');
+    _el_input_grossMargin.value = (_el_input_grossMargin.dataset && _el_input_grossMargin.dataset.default !== undefined) ? _el_input_grossMargin.dataset.default : (_el_input_grossMargin.getAttribute('value') || '');
     updateTool();
 
   }
@@ -171,9 +174,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

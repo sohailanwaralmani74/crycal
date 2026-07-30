@@ -157,7 +157,7 @@ faq:
   - question: "What is the standard concrete mix ratio for general construction?"
     answer: "The standard mix ratio for general structural concrete (3000 PSI) is 1 part Portland cement, 2 parts clean sand, and 3 parts coarse gravel aggregate by volume."
   - question: "Why do dry concrete ingredients take up more volume than wet concrete?"
-    answer: "When water is added to dry cement, sand, and gravel, water fills the microscopic air voids between aggregate particles. It requires approximately 1.54 cubic feet of dry ingredients to yield 1.0 cubic foot of wet mixed concrete."
+    answer: "Dry concrete ingredients take up more volume than wet concrete because when water is added to dry cement, sand, and gravel, it fills the microscopic air voids between aggregate particles. It requires approximately 1.54 cubic feet of dry ingredients to yield 1.0 cubic foot of wet mixed concrete."
   - question: "How many 94lb bags of cement are in a cubic yard of concrete?"
     answer: "A standard 3000 PSI (1:2:3) mix requires approximately 5.5 to 6.0 bags of 94lb Portland cement per cubic yard of wet concrete."
   - question: "How much water is needed per bag of Portland cement?"
@@ -167,7 +167,7 @@ faq:
   - question: "What mix ratio should I use for a high-strength driveway slab?"
     answer: "For driveways exposed to heavy vehicle traffic and freeze-thaw cycles, a 1:1.5:3 or 1:1.5:2 mix ratio yielding 3,500 to 4,000 PSI is recommended."
   - question: "How much aggregate waste should I allow for jobsite concrete mixing?"
-    answer: "Adding a 10% waste and spillage allowance accounts for ground loss, shovel residue, uneven subgrade, and mixing equipment retention."
+    answer: "You should allow a 10% aggregate waste and spillage allowance for jobsite concrete mixing to account for ground loss, shovel residue, uneven subgrade, and mixing equipment retention."
 ---
 
 # Concrete Mix Ratio Calculator - Calculate Volume, Bags & Materials
@@ -264,7 +264,7 @@ The standard mix ratio for general structural concrete (3000 PSI) is 1 part Port
 
 ### Why do dry concrete ingredients take up more volume than wet concrete?
 
-When water is added to dry cement, sand, and gravel, water fills the microscopic air voids between aggregate particles. It requires approximately 1.54 cubic feet of dry ingredients to yield 1.0 cubic foot of wet mixed concrete.
+Dry concrete ingredients take up more volume than wet concrete because when water is added to dry cement, sand, and gravel, it fills the microscopic air voids between aggregate particles. It requires approximately 1.54 cubic feet of dry ingredients to yield 1.0 cubic foot of wet mixed concrete.
 
 ### How many 94lb bags of cement are in a cubic yard of concrete?
 
@@ -284,4 +284,4 @@ For driveways exposed to heavy vehicle traffic and freeze-thaw cycles, a 1:1.5:3
 
 ### How much aggregate waste should I allow for jobsite concrete mixing?
 
-Adding a 10% waste and spillage allowance accounts for ground loss, shovel residue, uneven subgrade, and mixing equipment retention.
+You should allow a 10% aggregate waste and spillage allowance for jobsite concrete mixing to account for ground loss, shovel residue, uneven subgrade, and mixing equipment retention.

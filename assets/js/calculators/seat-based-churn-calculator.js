@@ -25,7 +25,7 @@
       startSeats: parseFloat(document.getElementById('input_start_seats')?.value) || 0,
       addedSeats: parseFloat(document.getElementById('input_added_seats')?.value) || 0,
       endSeats: parseFloat(document.getElementById('input_end_seats')?.value) || 0
-    };
+    }
   }
 
   function updateTool() {

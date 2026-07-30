@@ -7,7 +7,7 @@
     return {
       itemPrice: parseFloat(document.getElementById('input_itemPrice').value) || 0,
       combinedSalesTaxRate: parseFloat(document.getElementById('input_combinedSalesTaxRate').value) || 0
-    };
+    }
   }
 
   function formatCurrencyLocal(amount) {
@@ -45,7 +45,7 @@
       tax: tax,
       total: total,
       price: price
-    };
+    }
   }
 
   function updateTool() {
@@ -103,7 +103,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     return null;

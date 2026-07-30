@@ -9,7 +9,7 @@
       interestRate: parseFloat(document.getElementById('input_interestRate').value) || 0,
       minPaymentPercent: parseFloat(document.getElementById('input_minPaymentPercent').value) || 2.5,
       fixedPaymentTarget: parseFloat(document.getElementById('input_fixedPaymentTarget').value) || 0
-    };
+    }
   }
 
   function formatCurrencyLocal(amount) {
@@ -91,7 +91,7 @@
       interestSaved: interestSaved,
       minSchedule: minSchedule,
       fixSchedule: fixSchedule
-    };
+    }
   }
 
   function updateTool() {
@@ -194,7 +194,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'interest') {
@@ -226,7 +226,7 @@
             y: { beginAtZero: true }
           }
         }
-      };
+      }
     }
 
     return null;

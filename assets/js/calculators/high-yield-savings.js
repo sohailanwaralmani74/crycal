@@ -16,7 +16,7 @@
       apy: parseFloat(document.getElementById('input_apy').value) || 0,
       timeYears: parseFloat(document.getElementById('input_timeYears').value) || 0,
       compoundingFrequency: document.getElementById('input_compoundingFrequency').value
-    };
+    }
   }
 
   // ── Get compounding periods per year ──
@@ -26,7 +26,7 @@
       'monthly': 12,
       'quarterly': 4,
       'annually': 1
-    };
+    }
     return map[frequency] || 12;
   }
 
@@ -118,7 +118,7 @@ for (var j = 0; j <= t * 12; j++) {
       t: t,
       initial: initial,
       PMT: PMT
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -159,7 +159,7 @@ for (var j = 0; j <= t * 12; j++) {
         apy: inputs.apy,
         timeYears: inputs.timeYears,
         compoundingFrequency: inputs.compoundingFrequency
-      };
+      }
       window.logHistory(inputSnapshot);
     }
 
@@ -247,7 +247,7 @@ for (var j = 0; j <= t * 12; j++) {
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'breakdown') {
@@ -277,7 +277,7 @@ for (var j = 0; j <= t * 12; j++) {
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'monthly') {
@@ -323,7 +323,7 @@ for (var j = 0; j <= t * 12; j++) {
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -366,11 +366,10 @@ for (var j = 0; j <= t * 12; j++) {
       }
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') {
-        window.updateTool();
-      }
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') {
+      window.updateTool();
+    }
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

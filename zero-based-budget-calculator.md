@@ -99,7 +99,7 @@ faq:
   - question: "What is Zero-Based Budgeting (ZBB)?"
     answer: "Zero-Based Budgeting is a personal finance method where your total monthly net income minus total monthly expenses, debt payments, and savings allocations equals exactly zero ($0.00)."
   - question: "Does Zero-Based Budgeting mean keeping $0 in your checking account?"
-    answer: "No. A zero-based budget allocates every dollar to a specific budget category, including emergency savings and checking account buffer categories."
+    answer: "Zero-Based Budgeting does not mean keeping $0 in your checking account because the budget allocates every dollar to a specific budget category, including emergency savings and checking account buffer categories."
   - question: "How does Zero-Based Budgeting differ from the 50/30/20 budget rule?"
     answer: "The 50/30/20 rule uses percentage guidelines for needs, wants, and savings, while Zero-Based Budgeting assigns explicit dollar amounts to every single category until no unallocated funds remain."
   - question: "What should I do if my remaining balance is positive (surplus)?"
@@ -109,7 +109,7 @@ faq:
   - question: "How often should a Zero-Based Budget be updated?"
     answer: "You should create a fresh zero-based budget at the start of every month or pay period to accommodate seasonal expense changes and irregular income."
   - question: "Is my personal budget and income data kept private?"
-    answer: "Yes, 100%. All calculation algorithms execute locally inside your web browser. No income, debt, or personal expense data is stored or transmitted."
+    answer: "Your personal budget and income data are kept 100% private because all calculation algorithms execute locally inside your web browser. No income, debt, or personal expense data is stored or transmitted."
 ---
 
 # Zero Based Budget Calculator - Plan Monthly Income & Expenses
@@ -191,7 +191,7 @@ Zero-Based Budgeting is a personal finance method where your total monthly net i
 
 ### Does Zero-Based Budgeting mean keeping $0 in your checking account?
 
-No. A zero-based budget allocates every dollar to a specific budget category, including emergency savings and checking account buffer categories.
+Zero-Based Budgeting does not mean keeping $0 in your checking account because the budget allocates every dollar to a specific budget category, including emergency savings and checking account buffer categories.
 
 ### How does Zero-Based Budgeting differ from the 50/30/20 budget rule?
 
@@ -211,4 +211,4 @@ You should create a fresh zero-based budget at the start of every month or pay p
 
 ### Is my personal budget and income data kept private?
 
-Yes, 100%. All calculation algorithms execute locally inside your web browser. No income, debt, or personal expense data is stored or transmitted.
+Your personal budget and income data are kept 100% private because all calculation algorithms execute locally inside your web browser. No income, debt, or personal expense data is stored or transmitted.

@@ -12,7 +12,7 @@
       preValuation: preVal,
       investmentAmount: invAmt,
       existingShares: existShares
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -74,7 +74,7 @@
       preValuation: pre,
       investmentAmount: inv,
       existingShares: existS
-    };
+    }
   }
 
   function updateTool() {
@@ -163,7 +163,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'shareDistribution') {
@@ -185,7 +185,7 @@
             title: { display: true, text: 'Post-Round Total Share Distribution', color: '#e8edf0' }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -208,6 +208,6 @@
   window.switchChartTab = switchChartTab;
 
   document.addEventListener('DOMContentLoaded', function() {
-    setTimeout(function() { updateTool(); }, 150);
+        updateTool();;
   });
 })();

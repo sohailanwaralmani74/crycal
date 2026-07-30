@@ -26,7 +26,7 @@
       pipSize: parseFloat(document.getElementById('input_pipSize').value) || 0,
       contractSize: parseFloat(document.getElementById('input_contractSize').value) || 0,
       tradeSize: parseFloat(document.getElementById('input_tradeSize').value) || 0
-    };
+    }
   }
 
   // ── Format a currency amount in a SPECIFIC currency code (not just the global one) ──
@@ -76,7 +76,7 @@
           date: data.time_last_update_utc || null,
           same: false,
           fetchedAt: now
-        };
+        }
         rateCache[cacheKey] = result;
         return result;
       });
@@ -129,7 +129,7 @@
         tradeSize: tradeSize,
         pipSize: pipSize,
         contractSize: contractSize
-      };
+      }
       lastChartData = chartPayload;
       updateCharts(chartPayload);
 
@@ -235,7 +235,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'comparison') {
@@ -275,7 +275,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -297,9 +297,12 @@
     if (assetEl) assetEl.value = '';
     var quoteEl = document.getElementById('input_quoteCurrency');
     if (quoteEl) quoteEl.value = 'USD';
-    document.getElementById('input_pipSize').value = 0.0001;
-    document.getElementById('input_contractSize').value = 100000;
-    document.getElementById('input_tradeSize').value = 1.0;
+    var _el_input_pipSize = document.getElementById('input_pipSize');
+    _el_input_pipSize.value = (_el_input_pipSize.dataset && _el_input_pipSize.dataset.default !== undefined) ? _el_input_pipSize.dataset.default : (_el_input_pipSize.getAttribute('value') || '');
+    var _el_input_contractSize = document.getElementById('input_contractSize');
+    _el_input_contractSize.value = (_el_input_contractSize.dataset && _el_input_contractSize.dataset.default !== undefined) ? _el_input_contractSize.dataset.default : (_el_input_contractSize.getAttribute('value') || '');
+    var _el_input_tradeSize = document.getElementById('input_tradeSize');
+    _el_input_tradeSize.value = (_el_input_tradeSize.dataset && _el_input_tradeSize.dataset.default !== undefined) ? _el_input_tradeSize.dataset.default : (_el_input_tradeSize.getAttribute('value') || '');
     if (typeof window.updateTool === 'function') window.updateTool();
   }
 
@@ -315,9 +318,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

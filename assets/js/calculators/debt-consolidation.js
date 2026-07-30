@@ -18,7 +18,7 @@
       newLoanTerm: parseFloat(document.getElementById('input_newLoanTerm').value) || 0,
       originationFee: parseFloat(document.getElementById('input_originationFee').value) || 0,
       compoundingFrequency: document.getElementById('input_compoundingFrequency').value || 'monthly'
-    };
+    }
   }
 
   // ── Get compounding periods per year ──
@@ -29,7 +29,7 @@
       'quarterly': 4,
       'semi-annually': 2,
       'annually': 1
-    };
+    }
     return map[frequency] || 12;
   }
 
@@ -131,7 +131,7 @@
         newLoanRate: inputs.newLoanRate,
         monthlySavings: monthlySavings,
         totalInterestSaved: totalInterestSaved
-      };
+      }
       window.logHistory(snapshot);
     }
     if (typeof window.renderPresetDropdown === 'function') {
@@ -184,7 +184,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'timeline') {
@@ -217,7 +217,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -231,12 +231,18 @@
 
   // ── Reset Tool ──
   function resetTool() {
-    document.getElementById('input_totalDebt').value = 25000;
-    document.getElementById('input_currentAvgRate').value = 18.0;
-    document.getElementById('input_currentMonthlyPayment').value = 800;
-    document.getElementById('input_newLoanRate').value = 9.0;
-    document.getElementById('input_newLoanTerm').value = 3;
-    document.getElementById('input_originationFee').value = 0;
+    var _el_input_totalDebt = document.getElementById('input_totalDebt');
+    _el_input_totalDebt.value = (_el_input_totalDebt.dataset && _el_input_totalDebt.dataset.default !== undefined) ? _el_input_totalDebt.dataset.default : (_el_input_totalDebt.getAttribute('value') || '');
+    var _el_input_currentAvgRate = document.getElementById('input_currentAvgRate');
+    _el_input_currentAvgRate.value = (_el_input_currentAvgRate.dataset && _el_input_currentAvgRate.dataset.default !== undefined) ? _el_input_currentAvgRate.dataset.default : (_el_input_currentAvgRate.getAttribute('value') || '');
+    var _el_input_currentMonthlyPayment = document.getElementById('input_currentMonthlyPayment');
+    _el_input_currentMonthlyPayment.value = (_el_input_currentMonthlyPayment.dataset && _el_input_currentMonthlyPayment.dataset.default !== undefined) ? _el_input_currentMonthlyPayment.dataset.default : (_el_input_currentMonthlyPayment.getAttribute('value') || '');
+    var _el_input_newLoanRate = document.getElementById('input_newLoanRate');
+    _el_input_newLoanRate.value = (_el_input_newLoanRate.dataset && _el_input_newLoanRate.dataset.default !== undefined) ? _el_input_newLoanRate.dataset.default : (_el_input_newLoanRate.getAttribute('value') || '');
+    var _el_input_newLoanTerm = document.getElementById('input_newLoanTerm');
+    _el_input_newLoanTerm.value = (_el_input_newLoanTerm.dataset && _el_input_newLoanTerm.dataset.default !== undefined) ? _el_input_newLoanTerm.dataset.default : (_el_input_newLoanTerm.getAttribute('value') || '');
+    var _el_input_originationFee = document.getElementById('input_originationFee');
+    _el_input_originationFee.value = (_el_input_originationFee.dataset && _el_input_originationFee.dataset.default !== undefined) ? _el_input_originationFee.dataset.default : (_el_input_originationFee.getAttribute('value') || '');
     document.getElementById('input_compoundingFrequency').value = 'monthly';
     if (typeof window.updateTool === 'function') window.updateTool();
   }
@@ -252,9 +258,8 @@
       var defaultVal = el.dataset.default || el.getAttribute('value') || '';
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
     var picker = document.getElementById('baseCurrency');
     if (picker) {
       picker.addEventListener('change', function() {

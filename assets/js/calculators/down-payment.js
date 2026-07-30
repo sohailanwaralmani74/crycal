@@ -19,7 +19,7 @@
       insurance: parseFloat(document.getElementById('input_insurance').value) || 0,
       pmiRate: parseFloat(document.getElementById('input_pmiRate').value) || 0,
       compoundingFrequency: document.getElementById('input_compoundingFrequency').value || 'monthly'
-    };
+    }
   }
 
   // ── Get compounding periods per year ──
@@ -30,7 +30,7 @@
       'quarterly': 4,
       'semi-annually': 2,
       'annually': 1
-    };
+    }
     return map[frequency] || 12;
   }
 
@@ -95,7 +95,7 @@
         downPaymentAmount: downPaymentAmount,
         loanAmount: loanAmount,
         monthlyPayment: totalMonthly
-      };
+      }
       window.logHistory(snapshot);
     }
     if (typeof window.renderPresetDropdown === 'function') {
@@ -149,7 +149,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     return null;
@@ -163,13 +163,20 @@
 
   // ── Reset Tool ──
   function resetTool() {
-    document.getElementById('input_homePrice').value = 350000;
-    document.getElementById('input_downPaymentPercent').value = 20.0;
-    document.getElementById('input_interestRate').value = 6.5;
-    document.getElementById('input_loanTerm').value = 30;
-    document.getElementById('input_propertyTax').value = 1.2;
-    document.getElementById('input_insurance').value = 0.5;
-    document.getElementById('input_pmiRate').value = 0.5;
+    var _el_input_homePrice = document.getElementById('input_homePrice');
+    _el_input_homePrice.value = (_el_input_homePrice.dataset && _el_input_homePrice.dataset.default !== undefined) ? _el_input_homePrice.dataset.default : (_el_input_homePrice.getAttribute('value') || '');
+    var _el_input_downPaymentPercent = document.getElementById('input_downPaymentPercent');
+    _el_input_downPaymentPercent.value = (_el_input_downPaymentPercent.dataset && _el_input_downPaymentPercent.dataset.default !== undefined) ? _el_input_downPaymentPercent.dataset.default : (_el_input_downPaymentPercent.getAttribute('value') || '');
+    var _el_input_interestRate = document.getElementById('input_interestRate');
+    _el_input_interestRate.value = (_el_input_interestRate.dataset && _el_input_interestRate.dataset.default !== undefined) ? _el_input_interestRate.dataset.default : (_el_input_interestRate.getAttribute('value') || '');
+    var _el_input_loanTerm = document.getElementById('input_loanTerm');
+    _el_input_loanTerm.value = (_el_input_loanTerm.dataset && _el_input_loanTerm.dataset.default !== undefined) ? _el_input_loanTerm.dataset.default : (_el_input_loanTerm.getAttribute('value') || '');
+    var _el_input_propertyTax = document.getElementById('input_propertyTax');
+    _el_input_propertyTax.value = (_el_input_propertyTax.dataset && _el_input_propertyTax.dataset.default !== undefined) ? _el_input_propertyTax.dataset.default : (_el_input_propertyTax.getAttribute('value') || '');
+    var _el_input_insurance = document.getElementById('input_insurance');
+    _el_input_insurance.value = (_el_input_insurance.dataset && _el_input_insurance.dataset.default !== undefined) ? _el_input_insurance.dataset.default : (_el_input_insurance.getAttribute('value') || '');
+    var _el_input_pmiRate = document.getElementById('input_pmiRate');
+    _el_input_pmiRate.value = (_el_input_pmiRate.dataset && _el_input_pmiRate.dataset.default !== undefined) ? _el_input_pmiRate.dataset.default : (_el_input_pmiRate.getAttribute('value') || '');
     document.getElementById('input_compoundingFrequency').value = 'monthly';
     if (typeof window.updateTool === 'function') window.updateTool();
   }
@@ -185,9 +192,8 @@
       var defaultVal = el.dataset.default || el.getAttribute('value') || '';
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
     var picker = document.getElementById('baseCurrency');
     if (picker) {
       picker.addEventListener('change', function() {

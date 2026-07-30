@@ -10,7 +10,7 @@
       premiumPaid: parseFloat(document.getElementById('input_premiumPaid').value) || 0,
       contractCount: parseFloat(document.getElementById('input_contractCount').value) || 1,
       targetStockPrice: parseFloat(document.getElementById('input_targetStockPrice').value) || 0
-    };
+    }
   }
 
   function formatCurrencyLocal(amount) {
@@ -79,7 +79,7 @@
       netProfit: netProfit,
       roi: roi,
       payoffPoints: payoffPoints
-    };
+    }
   }
 
   function updateTool() {
@@ -152,7 +152,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'breakdown') {
@@ -184,7 +184,7 @@
             y: { beginAtZero: true }
           }
         }
-      };
+      }
     }
 
     return null;

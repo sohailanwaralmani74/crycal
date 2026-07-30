@@ -9,7 +9,7 @@
       callStrikePrice: parseFloat(document.getElementById('input_callStrikePrice').value) || 0,
       callPremiumReceived: parseFloat(document.getElementById('input_callPremiumReceived').value) || 0,
       daysToExpiration: parseFloat(document.getElementById('input_daysToExpiration').value) || 30
-    };
+    }
   }
 
   function formatCurrencyLocal(amount) {
@@ -58,7 +58,7 @@
       maxProfitTotal: maxProfitTotal,
       premTotal: prem * 100,
       capGainTotal: capGain * 100
-    };
+    }
   }
 
   function updateTool() {
@@ -130,7 +130,7 @@
             y: { stacked: true, beginAtZero: true }
           }
         }
-      };
+      }
     }
 
     if (tab === 'risk') {
@@ -154,7 +154,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     return null;

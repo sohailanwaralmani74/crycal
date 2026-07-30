@@ -115,17 +115,17 @@ howto:
       text: "Switch visual chart tabs to analyze detailed breakdowns and curves."
 faq:
   - q: "What is Customer Acquisition Cost (CAC)?"
-    a: "Customer Acquisition Cost (CAC) is the total financial expenditure required to acquire a single new paying customer, including marketing spend, sales expenses, personnel salaries, software tools, and agency fees divided by new customer volume."
+    a: "Customer Acquisition Cost (CAC) is the total financial expenditure required to acquire a single new paying customer. You calculate CAC by dividing all marketing spend, sales salaries, software tools, and agency fees by new customer volume."
   - q: "What is the difference between Paid CAC and Fully-Loaded CAC?"
-    a: "Paid CAC only counts direct media ad spend divided by new accounts, while Fully-Loaded CAC incorporates sales salaries, bonuses, software infrastructure, and agency retainers for true financial clarity."
+    a: "Paid CAC only counts direct media ad spend divided by new accounts. Fully-Loaded CAC provides true financial clarity by incorporating sales salaries, bonuses, software infrastructure, and agency retainers."
   - q: "Why is fully-loaded CAC important for SaaS startups?"
-    a: "Fully-loaded CAC reveals true unit economics. Relying solely on ad spend leads to underestimating payback periods, burning cash rapidly, and making flawed growth hiring decisions."
+    a: "Fully-loaded CAC reveals true unit economics for SaaS startups. Relying solely on ad spend leads to underestimating payback periods, burning cash rapidly, and making flawed growth hiring decisions."
   - q: "What is a good CAC benchmark for B2B SaaS?"
-    a: "A healthy CAC target aligns with customer ARPU. The venture standard requires an LTV:CAC ratio of at least 3:1 and a CAC payback period under 12 months for SMBs or under 18 months for Enterprise SaaS."
+    a: "A good CAC benchmark for B2B SaaS aligns with customer ARPU and requires an LTV:CAC ratio of at least 3:1. The venture standard also expects a CAC payback period under 12 months for SMBs or under 18 months for Enterprise SaaS."
   - q: "How can SaaS companies reduce CAC?"
-    a: "Teams can lower CAC by sharpening ad targeting, optimizing website conversion rates, building organic SEO inbound engines, and leveraging product-led growth (PLG) freemium loops."
+    a: "SaaS companies can reduce CAC by sharpening ad targeting, optimizing website conversion rates, building organic SEO inbound engines, and leveraging product-led growth (PLG) freemium loops."
   - q: "How frequently should CAC be recalculated?"
-    a: "Calculate CAC monthly and evaluate it on a trailing 3-month average to smooth out sales commission spikes, seasonal ad spend, and recruitment timing."
+    a: "Companies should recalculate CAC monthly and evaluate it on a trailing 3-month average. This smoothes out sales commission spikes, seasonal ad spend, and recruitment timing."
 ---
 
 # Customer Acquisition Cost (CAC) Calculator - Calculate Sales & Marketing Acquisition Spend
@@ -171,25 +171,25 @@ Where all input values are evaluated over a standardized monthly or annual accou
 
 ### What is Customer Acquisition Cost (CAC)?
 
-Customer Acquisition Cost (CAC) is the total financial expenditure required to acquire a single new paying customer, including marketing spend, sales expenses, personnel salaries, software tools, and agency fees divided by new customer volume.
+Customer Acquisition Cost (CAC) is the total financial expenditure required to acquire a single new paying customer. You calculate CAC by dividing all marketing spend, sales salaries, software tools, and agency fees by new customer volume.
 
 ### What is the difference between Paid CAC and Fully-Loaded CAC?
 
-Paid CAC only counts direct media ad spend divided by new accounts, while Fully-Loaded CAC incorporates sales salaries, bonuses, software infrastructure, and agency retainers for true financial clarity.
+Paid CAC only counts direct media ad spend divided by new accounts. Fully-Loaded CAC provides true financial clarity by incorporating sales salaries, bonuses, software infrastructure, and agency retainers.
 
 ### Why is fully-loaded CAC important for SaaS startups?
 
-Fully-loaded CAC reveals true unit economics. Relying solely on ad spend leads to underestimating payback periods, burning cash rapidly, and making flawed growth hiring decisions.
+Fully-loaded CAC reveals true unit economics for SaaS startups. Relying solely on ad spend leads to underestimating payback periods, burning cash rapidly, and making flawed growth hiring decisions.
 
 ### What is a good CAC benchmark for B2B SaaS?
 
-A healthy CAC target aligns with customer ARPU. The venture standard requires an LTV:CAC ratio of at least 3:1 and a CAC payback period under 12 months for SMBs or under 18 months for Enterprise SaaS.
+A good CAC benchmark for B2B SaaS aligns with customer ARPU and requires an LTV:CAC ratio of at least 3:1. The venture standard also expects a CAC payback period under 12 months for SMBs or under 18 months for Enterprise SaaS.
 
 ### How can SaaS companies reduce CAC?
 
-Teams can lower CAC by sharpening ad targeting, optimizing website conversion rates, building organic SEO inbound engines, and leveraging product-led growth (PLG) freemium loops.
+SaaS companies can reduce CAC by sharpening ad targeting, optimizing website conversion rates, building organic SEO inbound engines, and leveraging product-led growth (PLG) freemium loops.
 
 ### How frequently should CAC be recalculated?
 
-Calculate CAC monthly and evaluate it on a trailing 3-month average to smooth out sales commission spikes, seasonal ad spend, and recruitment timing.
+Companies should recalculate CAC monthly and evaluate it on a trailing 3-month average. This smoothes out sales commission spikes, seasonal ad spend, and recruitment timing.
 

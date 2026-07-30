@@ -9,8 +9,7 @@
     'single': { phaseOutStart: 146000, phaseOutEnd: 161000 },
     'married-joint': { phaseOutStart: 230000, phaseOutEnd: 240000 },
     'married-separate': { phaseOutStart: 0, phaseOutEnd: 10000 }
-  };
-
+  }
   // ── Get Inputs ──
   function getInputs() {
     var annualIncome = parseFloat(document.getElementById('input_annualIncome').value) || 0;
@@ -29,7 +28,7 @@
       taxRate: taxRate / 100,
       growthRate: growthRate / 100,
       investmentHorizon: investmentHorizon
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -146,7 +145,7 @@
       taxRate: taxRate,
       growthRate: growthRate,
       horizon: horizon
-    };
+    }
   }
 
   // ── Main Update ──
@@ -197,7 +196,7 @@
       taxableAmount: result.taxableAmount,
       contribution: result.contribution,
       horizon: result.horizon
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -310,7 +309,7 @@
             mode: 'index'
           }
         }
-      };
+      }
     }
 
     if (tab === 'breakdown') {
@@ -343,7 +342,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -361,13 +360,19 @@
 
   // ── Reset Tool ──
   function resetTool() {
-    document.getElementById('input_annualIncome').value = 150000;
+    var _el_input_annualIncome = document.getElementById('input_annualIncome');
+    _el_input_annualIncome.value = (_el_input_annualIncome.dataset && _el_input_annualIncome.dataset.default !== undefined) ? _el_input_annualIncome.dataset.default : (_el_input_annualIncome.getAttribute('value') || '');
     document.getElementById('input_filingStatus').value = 'single';
-    document.getElementById('input_contributionAmount').value = 7000;
-    document.getElementById('input_existingIRA').value = 0;
-    document.getElementById('input_taxRate').value = 24;
-    document.getElementById('input_growthRate').value = 7.0;
-    document.getElementById('input_investmentHorizon').value = 30;
+    var _el_input_contributionAmount = document.getElementById('input_contributionAmount');
+    _el_input_contributionAmount.value = (_el_input_contributionAmount.dataset && _el_input_contributionAmount.dataset.default !== undefined) ? _el_input_contributionAmount.dataset.default : (_el_input_contributionAmount.getAttribute('value') || '');
+    var _el_input_existingIRA = document.getElementById('input_existingIRA');
+    _el_input_existingIRA.value = (_el_input_existingIRA.dataset && _el_input_existingIRA.dataset.default !== undefined) ? _el_input_existingIRA.dataset.default : (_el_input_existingIRA.getAttribute('value') || '');
+    var _el_input_taxRate = document.getElementById('input_taxRate');
+    _el_input_taxRate.value = (_el_input_taxRate.dataset && _el_input_taxRate.dataset.default !== undefined) ? _el_input_taxRate.dataset.default : (_el_input_taxRate.getAttribute('value') || '');
+    var _el_input_growthRate = document.getElementById('input_growthRate');
+    _el_input_growthRate.value = (_el_input_growthRate.dataset && _el_input_growthRate.dataset.default !== undefined) ? _el_input_growthRate.dataset.default : (_el_input_growthRate.getAttribute('value') || '');
+    var _el_input_investmentHorizon = document.getElementById('input_investmentHorizon');
+    _el_input_investmentHorizon.value = (_el_input_investmentHorizon.dataset && _el_input_investmentHorizon.dataset.default !== undefined) ? _el_input_investmentHorizon.dataset.default : (_el_input_investmentHorizon.getAttribute('value') || '');
     updateTool();
   }
 
@@ -383,9 +388,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

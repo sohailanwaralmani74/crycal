@@ -18,7 +18,7 @@
       vestingYears: vestingYears,
       cliffMonths: cliffMonths,
       monthsElapsed: monthsElapsed
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -80,7 +80,7 @@
       vestedPercentage: vestedPct,
       scheduleData: scheduleData,
       totalShares: totalS
-    };
+    }
   }
 
   function updateTool() {
@@ -168,7 +168,7 @@
             x: { ticks: { color: '#8899aa' } }
           }
         }
-      };
+      }
     }
 
     if (tab === 'equityStatus') {
@@ -190,7 +190,7 @@
             title: { display: true, text: 'Vested vs Unvested Equity', color: '#e8edf0' }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -216,6 +216,6 @@
   window.switchChartTab = switchChartTab;
 
   document.addEventListener('DOMContentLoaded', function() {
-    setTimeout(function() { updateTool(); }, 150);
+        updateTool();;
   });
 })();

@@ -22,7 +22,7 @@
   function getInputs() {
     return {
       taxableIncome: parseFloat(document.getElementById('input_taxableIncome').value) || 0
-    };
+    }
   }
 
   // ── Get brackets from UI ──
@@ -96,7 +96,7 @@
       totalTax: totalTax,
       breakdown: breakdown,
       marginalRate: breakdown.length > 0 ? breakdown[breakdown.length - 1].rate : 0
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -166,7 +166,7 @@
         marginalRate: result.marginalRate,
         effectiveRate: effectiveRate.toFixed(1),
         totalTax: totalTax
-      };
+      }
       window.logHistory(snapshot);
     }
     if (typeof window.renderPresetDropdown === 'function') {
@@ -204,7 +204,7 @@
             title: { display: true, text: 'No tax brackets defined', font: { size: 14 } }
           }
         }
-      };
+      }
     }
 
     if (tab === 'breakdown') {
@@ -246,7 +246,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'distribution') {
@@ -287,7 +287,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -429,9 +429,8 @@
       });
     }
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
   });
 
 })();

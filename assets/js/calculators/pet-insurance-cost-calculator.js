@@ -26,7 +26,7 @@
       reimbursementRate: reimbursementRate,
       annualLimit: annualLimit,
       baseRate: baseRate
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -109,8 +109,7 @@
       'Deductible Adjustment': baseRate * (deductibleFactor - 1),
       'Reimbursement Adjustment': baseRate * (reimbursementFactor - 1),
       'Limit Adjustment': baseRate * (limitFactor - 1)
-    };
-
+    }
     // ── Clean up chart data ──
     var cleanChartData = {};
     for (var key in chartData) {
@@ -125,7 +124,7 @@
       costRange: formatCurrencyFull(lowerRange) + ' – ' + formatCurrencyFull(upperRange),
       chartData: cleanChartData,
       error: null
-    };
+    }
   }
 
   // ── Main Update ──
@@ -168,7 +167,7 @@
     var chartPayload = {
       chartData: result.chartData,
       monthlyPremium: result.monthlyPremium
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -261,7 +260,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -280,14 +279,19 @@
   // ── Reset Tool ──
   function resetTool() {
     document.getElementById('input_petType').value = 'Dog';
-    document.getElementById('input_petAge').value = 3;
+    var _el_input_petAge = document.getElementById('input_petAge');
+    _el_input_petAge.value = (_el_input_petAge.dataset && _el_input_petAge.dataset.default !== undefined) ? _el_input_petAge.dataset.default : (_el_input_petAge.getAttribute('value') || '');
     document.getElementById('input_breed').value = 'Mixed';
     document.getElementById('input_location').value = 'Suburban';
     document.getElementById('input_coverageType').value = 'Comprehensive';
-    document.getElementById('input_deductible').value = 500;
-    document.getElementById('input_reimbursementRate').value = 80;
-    document.getElementById('input_annualLimit').value = 10000;
-    document.getElementById('input_baseRate').value = 40;
+    var _el_input_deductible = document.getElementById('input_deductible');
+    _el_input_deductible.value = (_el_input_deductible.dataset && _el_input_deductible.dataset.default !== undefined) ? _el_input_deductible.dataset.default : (_el_input_deductible.getAttribute('value') || '');
+    var _el_input_reimbursementRate = document.getElementById('input_reimbursementRate');
+    _el_input_reimbursementRate.value = (_el_input_reimbursementRate.dataset && _el_input_reimbursementRate.dataset.default !== undefined) ? _el_input_reimbursementRate.dataset.default : (_el_input_reimbursementRate.getAttribute('value') || '');
+    var _el_input_annualLimit = document.getElementById('input_annualLimit');
+    _el_input_annualLimit.value = (_el_input_annualLimit.dataset && _el_input_annualLimit.dataset.default !== undefined) ? _el_input_annualLimit.dataset.default : (_el_input_annualLimit.getAttribute('value') || '');
+    var _el_input_baseRate = document.getElementById('input_baseRate');
+    _el_input_baseRate.value = (_el_input_baseRate.dataset && _el_input_baseRate.dataset.default !== undefined) ? _el_input_baseRate.dataset.default : (_el_input_baseRate.getAttribute('value') || '');
     updateTool();
   }
 
@@ -303,9 +307,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

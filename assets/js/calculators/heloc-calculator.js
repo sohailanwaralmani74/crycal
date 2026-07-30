@@ -9,7 +9,7 @@
       interestRate: parseFloat(document.getElementById('input_interestRate').value) || 0,
       drawPeriodYears: parseFloat(document.getElementById('input_drawPeriodYears').value) || 10,
       repaymentPeriodYears: parseFloat(document.getElementById('input_repaymentPeriodYears').value) || 20
-    };
+    }
   }
 
   function formatCurrencyLocal(amount) {
@@ -54,7 +54,7 @@
       totalDrawInterest: totalDrawInterest,
       totalRepaymentInterest: totalRepaymentInterest,
       creditLine: P
-    };
+    }
   }
 
   function updateTool() {
@@ -118,7 +118,7 @@
             y: { beginAtZero: true }
           }
         }
-      };
+      }
     }
 
     if (tab === 'interest') {
@@ -141,7 +141,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     return null;

@@ -9,7 +9,7 @@
       hours_per_day: parseFloat(document.getElementById('input_hours_per_day').value) || 8,
       workdays_per_month: parseInt(document.getElementById('input_workdays_per_month').value) || 20,
       employer_subsidy: parseFloat(document.getElementById('input_employer_subsidy').value) || 50
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -65,7 +65,7 @@
       net_meter: net_meter,
       winner: winner,
       annual_savings: Math.max(0, annual_savings)
-    };
+    }
   }
 
   function updateTool() {
@@ -81,8 +81,7 @@
     var chartData = {
       labels: ['Monthly Permit Pass', 'Daily Garage Rates', 'Street Meter Parking'],
       values: [parseFloat(res.net_permit.toFixed(2)), parseFloat(res.net_daily.toFixed(2)), parseFloat(res.net_meter.toFixed(2))]
-    };
-
+    }
     updateCharts(chartData);
 
     if (typeof window.logHistory === 'function') {

@@ -8,7 +8,7 @@
       totalPortfolioValue: parseFloat(document.getElementById('input_totalPortfolioValue').value) || 0,
       currentStockPercent: parseFloat(document.getElementById('input_currentStockPercent').value) || 0,
       targetStockPercent: parseFloat(document.getElementById('input_targetStockPercent').value) || 0
-    };
+    }
   }
 
   function formatCurrencyLocal(amount) {
@@ -60,7 +60,7 @@
       diff: diff,
       actionStr: actionStr,
       total: total
-    };
+    }
   }
 
   function updateTool() {
@@ -130,7 +130,7 @@
             y: { beginAtZero: true }
           }
         }
-      };
+      }
     }
 
     if (tab === 'trade') {
@@ -153,7 +153,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     return null;

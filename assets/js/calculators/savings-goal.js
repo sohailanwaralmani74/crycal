@@ -17,7 +17,7 @@
       annualRate: parseFloat(document.getElementById('input_annualRate').value) || 0,
       compoundingFrequency: document.getElementById('input_compoundingFrequency').value,
       timeYears: parseFloat(document.getElementById('input_timeYears').value) || 0
-    };
+    }
   }
 
   // ── Get compounding periods per year ──
@@ -28,7 +28,7 @@
       'quarterly': 4,
       'monthly': 12,
       'daily': 365
-    };
+    }
     return map[frequency] || 12;
   }
 
@@ -128,8 +128,7 @@
       fundingGap: 0,
       yearData: [],
       progressPercentage: 0
-    };
-
+    }
     // If target time is set, calculate required monthly contribution
     if (t > 0) {
       result.requiredMonthly = solveForContribution(target, current, inputs.annualRate, t, n);
@@ -251,7 +250,7 @@
         annualRate: inputs.annualRate,
         compoundingFrequency: inputs.compoundingFrequency,
         timeYears: inputs.timeYears
-      };
+      }
       window.logHistory(inputSnapshot);
     }
 
@@ -351,7 +350,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'progress') {
@@ -390,7 +389,7 @@
           },
           cutout: '65%'
         }
-      };
+      }
     }
 
     if (tab === 'breakdown') {
@@ -420,7 +419,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     return null;
@@ -463,11 +462,10 @@
       }
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') {
-        window.updateTool();
-      }
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') {
+      window.updateTool();
+    }
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

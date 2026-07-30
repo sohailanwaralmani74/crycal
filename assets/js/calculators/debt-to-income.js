@@ -20,7 +20,7 @@
       personalLoanPayment: parseFloat(document.getElementById('input_personalLoanPayment').value) || 0,
       otherDebtPayment: parseFloat(document.getElementById('input_otherDebtPayment').value) || 0,
       includeFrontEnd: document.getElementById('input_includeFrontEnd').value === 'true'
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -166,7 +166,7 @@
         totalMonthlyDebt: totalDebt,
         dtiRatio: dtiDisplay.toFixed(1),
         dtiCategory: dtiCategory
-      };
+      }
       window.logHistory(snapshot);
     }
     if (typeof window.renderPresetDropdown === 'function') {
@@ -222,7 +222,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'breakdown') {
@@ -252,7 +252,7 @@
               title: { display: true, text: 'No debt entered', font: { size: 14 } }
             }
           }
-        };
+        }
       }
 
       return {
@@ -285,7 +285,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'distribution') {
@@ -330,7 +330,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -344,14 +344,22 @@
 
   // ── Reset Tool ──
   function resetTool() {
-    document.getElementById('input_monthlyIncome').value = 6000;
-    document.getElementById('input_otherIncome').value = 0;
-    document.getElementById('input_mortgagePayment').value = 1500;
-    document.getElementById('input_carPayment').value = 400;
-    document.getElementById('input_creditCardMinimum').value = 200;
-    document.getElementById('input_studentLoanPayment').value = 300;
-    document.getElementById('input_personalLoanPayment').value = 0;
-    document.getElementById('input_otherDebtPayment').value = 0;
+    var _el_input_monthlyIncome = document.getElementById('input_monthlyIncome');
+    _el_input_monthlyIncome.value = (_el_input_monthlyIncome.dataset && _el_input_monthlyIncome.dataset.default !== undefined) ? _el_input_monthlyIncome.dataset.default : (_el_input_monthlyIncome.getAttribute('value') || '');
+    var _el_input_otherIncome = document.getElementById('input_otherIncome');
+    _el_input_otherIncome.value = (_el_input_otherIncome.dataset && _el_input_otherIncome.dataset.default !== undefined) ? _el_input_otherIncome.dataset.default : (_el_input_otherIncome.getAttribute('value') || '');
+    var _el_input_mortgagePayment = document.getElementById('input_mortgagePayment');
+    _el_input_mortgagePayment.value = (_el_input_mortgagePayment.dataset && _el_input_mortgagePayment.dataset.default !== undefined) ? _el_input_mortgagePayment.dataset.default : (_el_input_mortgagePayment.getAttribute('value') || '');
+    var _el_input_carPayment = document.getElementById('input_carPayment');
+    _el_input_carPayment.value = (_el_input_carPayment.dataset && _el_input_carPayment.dataset.default !== undefined) ? _el_input_carPayment.dataset.default : (_el_input_carPayment.getAttribute('value') || '');
+    var _el_input_creditCardMinimum = document.getElementById('input_creditCardMinimum');
+    _el_input_creditCardMinimum.value = (_el_input_creditCardMinimum.dataset && _el_input_creditCardMinimum.dataset.default !== undefined) ? _el_input_creditCardMinimum.dataset.default : (_el_input_creditCardMinimum.getAttribute('value') || '');
+    var _el_input_studentLoanPayment = document.getElementById('input_studentLoanPayment');
+    _el_input_studentLoanPayment.value = (_el_input_studentLoanPayment.dataset && _el_input_studentLoanPayment.dataset.default !== undefined) ? _el_input_studentLoanPayment.dataset.default : (_el_input_studentLoanPayment.getAttribute('value') || '');
+    var _el_input_personalLoanPayment = document.getElementById('input_personalLoanPayment');
+    _el_input_personalLoanPayment.value = (_el_input_personalLoanPayment.dataset && _el_input_personalLoanPayment.dataset.default !== undefined) ? _el_input_personalLoanPayment.dataset.default : (_el_input_personalLoanPayment.getAttribute('value') || '');
+    var _el_input_otherDebtPayment = document.getElementById('input_otherDebtPayment');
+    _el_input_otherDebtPayment.value = (_el_input_otherDebtPayment.dataset && _el_input_otherDebtPayment.dataset.default !== undefined) ? _el_input_otherDebtPayment.dataset.default : (_el_input_otherDebtPayment.getAttribute('value') || '');
     document.getElementById('input_includeFrontEnd').value = 'false';
     if (typeof window.updateTool === 'function') window.updateTool();
   }
@@ -368,9 +376,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
   });
 
 })();

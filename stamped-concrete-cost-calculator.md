@@ -137,7 +137,7 @@ faq:
   - question: "What materials are needed for stamped concrete?"
     answer: "Key materials include ready-mix concrete, rebar mesh, dry-shake color hardener or integral pigment, powdered/liquid antique release agent, flexible polyurethane texture stamps, and UV-resistant acrylic sealer."
   - question: "Is stamped concrete cheaper than pavers or natural stone?"
-    answer: "Yes. Stamped concrete ($12–$22/sq ft) is significantly cheaper than natural bluestone or flagstone ($25–$45/sq ft) and comparable to high-end interlocking paver stones."
+    answer: "Stamped concrete ($12–$22/sq ft) is significantly cheaper than natural bluestone or flagstone ($25–$45/sq ft) and comparable to high-end interlocking paver stones."
   - question: "How often does stamped concrete need to be resealed?"
     answer: "Decorative stamped concrete should be resealed every 2 to 3 years with a high-grade solvent-based or water-based acrylic sealer to maintain gloss and color vibrancy."
   - question: "Does stamped concrete crack?"
@@ -204,7 +204,7 @@ Key materials include ready-mix concrete, rebar mesh, dry-shake color hardener o
 
 ### Is stamped concrete cheaper than pavers or natural stone?
 
-Yes. Stamped concrete ($12–$22/sq ft) is significantly cheaper than natural bluestone or flagstone ($25–$45/sq ft) and comparable to high-end interlocking paver stones.
+Stamped concrete ($12–$22/sq ft) is significantly cheaper than natural bluestone or flagstone ($25–$45/sq ft) and comparable to high-end interlocking paver stones.
 
 ### How often does stamped concrete need to be resealed?
 

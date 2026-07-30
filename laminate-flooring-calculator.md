@@ -139,7 +139,7 @@ howto:
 
 faq:
   - question: "Do I need underlayment for laminate flooring?"
-    answer: "Yes. Unless your laminate planks come manufactured with pre-attached foam backing, separate foam or felt underlayment is required to smooth minor subfloor imperfections, reduce sound, and act as a vapor barrier."
+    answer: "Unless your laminate planks come manufactured with pre-attached foam backing, separate foam or felt underlayment is required to smooth minor subfloor imperfections, reduce sound, and act as a vapor barrier."
   - question: "How many square feet are in a box of laminate flooring?"
     answer: "Most residential laminate flooring cartons contain between 18 and 26 square feet per box."
   - question: "How many underlayment rolls do I need?"
@@ -149,7 +149,7 @@ faq:
   - question: "Why is a 3/8-inch expansion gap required around laminate perimeter?"
     answer: "Laminate expands and contracts with changes in seasonal humidity. Leaving a 1/4\" to 3/8\" gap against walls (covered by baseboards or quarter-round molding) prevents buckling."
   - question: "Can laminate flooring be installed over concrete?"
-    answer: "Yes, provided you use an underlayment with an integrated 6-mil polyethylene vapor barrier film to block subfloor moisture."
+    answer: "You can install laminate flooring over concrete provided you use an underlayment with an integrated 6-mil polyethylene vapor barrier film to block subfloor moisture."
 ---
 
 # Laminate Flooring Calculator - Calculate Tiles, Planks & Material Need
@@ -211,7 +211,7 @@ Below is an estimated material breakdown for a **400 sq ft room** with **24 sq f
 
 ### Do I need underlayment for laminate flooring?
 
-Yes. Unless your laminate planks come manufactured with pre-attached foam backing, separate foam or felt underlayment is required to smooth minor subfloor imperfections, reduce sound, and act as a vapor barrier.
+Unless your laminate planks come manufactured with pre-attached foam backing, separate foam or felt underlayment is required to smooth minor subfloor imperfections, reduce sound, and act as a vapor barrier.
 
 ### How many square feet are in a box of laminate flooring?
 
@@ -231,5 +231,5 @@ Laminate expands and contracts with changes in seasonal humidity. Leaving a 1/4"
 
 ### Can laminate flooring be installed over concrete?
 
-Yes, provided you use an underlayment with an integrated 6-mil polyethylene vapor barrier film to block subfloor moisture.
+You can install laminate flooring over concrete provided you use an underlayment with an integrated 6-mil polyethylene vapor barrier film to block subfloor moisture.
 

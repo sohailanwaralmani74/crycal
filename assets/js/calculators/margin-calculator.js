@@ -9,7 +9,7 @@
       initialMarginPercent: parseFloat(document.getElementById('input_initialMarginPercent').value) || 50,
       marginInterestRate: parseFloat(document.getElementById('input_marginInterestRate').value) || 0,
       maintenanceMarginPercent: parseFloat(document.getElementById('input_maintenanceMarginPercent').value) || 25
-    };
+    }
   }
 
   function formatCurrencyLocal(amount) {
@@ -55,7 +55,7 @@
       annualInterest: annualInterest,
       maxDropPct: maxDropPct,
       total: total
-    };
+    }
   }
 
   function updateTool() {
@@ -117,7 +117,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'risk') {
@@ -149,7 +149,7 @@
             y: { beginAtZero: true, max: 100 }
           }
         }
-      };
+      }
     }
 
     return null;

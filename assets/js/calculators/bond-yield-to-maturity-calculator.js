@@ -13,7 +13,7 @@
       couponRate: couponRate / 100,
       yearsToMaturity: yearsToMaturity,
       paymentsPerYear: paymentsPerYear
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -116,7 +116,7 @@
       currentYield: currentYield,
       totalReturn: totalReturn,
       error: null
-    };
+    }
   }
 
   function updateTool() {
@@ -152,10 +152,14 @@
   }
 
   function resetTool() {
-    document.getElementById('input_faceValue').value = 1000;
-    document.getElementById('input_currentPrice').value = 950;
-    document.getElementById('input_couponRate').value = 5;
-    document.getElementById('input_yearsToMaturity').value = 10;
+    var _el_input_faceValue = document.getElementById('input_faceValue');
+    _el_input_faceValue.value = (_el_input_faceValue.dataset && _el_input_faceValue.dataset.default !== undefined) ? _el_input_faceValue.dataset.default : (_el_input_faceValue.getAttribute('value') || '');
+    var _el_input_currentPrice = document.getElementById('input_currentPrice');
+    _el_input_currentPrice.value = (_el_input_currentPrice.dataset && _el_input_currentPrice.dataset.default !== undefined) ? _el_input_currentPrice.dataset.default : (_el_input_currentPrice.getAttribute('value') || '');
+    var _el_input_couponRate = document.getElementById('input_couponRate');
+    _el_input_couponRate.value = (_el_input_couponRate.dataset && _el_input_couponRate.dataset.default !== undefined) ? _el_input_couponRate.dataset.default : (_el_input_couponRate.getAttribute('value') || '');
+    var _el_input_yearsToMaturity = document.getElementById('input_yearsToMaturity');
+    _el_input_yearsToMaturity.value = (_el_input_yearsToMaturity.dataset && _el_input_yearsToMaturity.dataset.default !== undefined) ? _el_input_yearsToMaturity.dataset.default : (_el_input_yearsToMaturity.getAttribute('value') || '');
     document.getElementById('input_paymentsPerYear').value = '2';
     updateTool();
   }
@@ -169,9 +173,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

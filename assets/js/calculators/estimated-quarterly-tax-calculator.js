@@ -8,7 +8,7 @@
       annualNetSelfEmploymentIncome: parseFloat(document.getElementById('input_annualNetSelfEmploymentIncome').value) || 0,
       filingStatus: document.getElementById('input_filingStatus').value,
       stateTaxRate: parseFloat(document.getElementById('input_stateTaxRate').value) || 0
-    };
+    }
   }
 
   function formatCurrencyLocal(amount) {
@@ -66,7 +66,7 @@
       stateTax: stateTax,
       totalAnnualTax: totalAnnualTax,
       quarterlyPmt: quarterlyPmt
-    };
+    }
   }
 
   function updateTool() {
@@ -127,7 +127,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'quarterly') {
@@ -152,7 +152,7 @@
             y: { beginAtZero: true }
           }
         }
-      };
+      }
     }
 
     return null;

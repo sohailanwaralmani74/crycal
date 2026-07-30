@@ -9,7 +9,7 @@
       costBasis: parseFloat(document.getElementById('input_costBasis').value) || 0,
       holdingPeriod: document.getElementById('input_holdingPeriod').value,
       incomeBracketRate: parseFloat(document.getElementById('input_incomeBracketRate').value) || 0
-    };
+    }
   }
 
   function formatCurrencyLocal(amount) {
@@ -54,7 +54,7 @@
       taxOwed: taxOwed,
       netProfit: netProfit,
       basis: basis
-    };
+    }
   }
 
   function updateTool() {
@@ -116,7 +116,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'taxability') {
@@ -149,7 +149,7 @@
             y: { stacked: true, beginAtZero: true }
           }
         }
-      };
+      }
     }
 
     return null;

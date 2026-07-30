@@ -132,17 +132,17 @@ howto:
 
 faq:
   - question: "What is the standard minimum walkway clearance in living room design?"
-    answer: "Main traffic pathways require 30 to 36 inches of unobstructed width so two people can pass each other comfortably. Secondary pathways between accent chairs or end tables require a minimum of 24 inches."
+    answer: "Standard living room design requires 30 to 36 inches of unobstructed width for main traffic pathways, allowing two people to pass comfortably. Secondary pathways between accent chairs or end tables need a minimum of 24 inches."
   - question: "How far should a coffee table be from a sofa?"
-    answer: "Place your coffee table 14 to 18 inches away from the front edge of the sofa seat cushion. This allows comfortable legroom while keeping drinks and remotes within arm's reach without standing up."
+    answer: "A coffee table should sit 14 to 18 inches away from the front edge of a sofa seat cushion. This spacing provides comfortable legroom while keeping drinks and remotes within easy arm's reach."
   - question: "What percentage of a room should be covered by furniture?"
-    answer: "Ideally, furniture should occupy 30% to 40% of total room square footage. Covering more than 50% makes a room feel cramped and cluttered, while under 20% can feel cavernous and unanchored."
+    answer: "Furniture should ideally cover 30% to 40% of a room's total square footage. Covering more than 50% makes a space feel cluttered, while covering under 20% leaves the room feeling unanchored."
   - question: "How far should a sofa be from a TV screen?"
-    answer: "The ideal TV viewing distance is approximately 1.5 to 2.5 times the diagonal screen size. For a 65-inch TV, position the sofa 8 to 11 feet away (96 to 132 inches)."
+    answer: "A sofa should sit at a distance of 1.5 to 2.5 times the diagonal screen size away from a TV. For example, you should position a sofa 8 to 11 feet away from a 65-inch television."
   - question: "How much space is needed behind dining room chairs?"
-    answer: "Leave at least 36 inches between the edge of a dining table and surrounding walls or sideboards so guests can pull chairs back and walk behind seated diners easily."
+    answer: "Dining room chairs require at least 36 inches of clearance between the table edge and surrounding walls or sideboards. This space ensures guests can easily pull chairs back and walk behind seated diners."
   - question: "Can a sofa block a window?"
-    answer: "While it is best to leave windows clear, low-backed sofas (under sill height) can sit in front of windows without blocking natural light. Ensure at least a 2-inch gap between sofa back cushions and window drapes."
+    answer: "A sofa can safely sit in front of a window if it features a low back that remains under the sill height to preserve natural light. You must also leave at least a 2-inch gap between the sofa's back cushions and any window drapes."
 ---
 
 # Furniture Layout Scale Calculator - Calculate Dimensions, Spacing & Cut Widths
@@ -204,25 +204,25 @@ The table below demonstrates furniture density ratios, remaining open room spans
 
 ### What is the standard minimum walkway clearance in living room design?
 
-Main traffic pathways require 30 to 36 inches of unobstructed width so two people can pass each other comfortably. Secondary pathways between accent chairs or end tables require a minimum of 24 inches.
+Standard living room design requires 30 to 36 inches of unobstructed width for main traffic pathways, allowing two people to pass comfortably. Secondary pathways between accent chairs or end tables need a minimum of 24 inches.
 
 ### How far should a coffee table be from a sofa?
 
-Place your coffee table 14 to 18 inches away from the front edge of the sofa seat cushion. This allows comfortable legroom while keeping drinks and remotes within arm's reach without standing up.
+A coffee table should sit 14 to 18 inches away from the front edge of a sofa seat cushion. This spacing provides comfortable legroom while keeping drinks and remotes within easy arm's reach.
 
 ### What percentage of a room should be covered by furniture?
 
-Ideally, furniture should occupy 30% to 40% of total room square footage. Covering more than 50% makes a room feel cramped and cluttered, while under 20% can feel cavernous and unanchored.
+Furniture should ideally cover 30% to 40% of a room's total square footage. Covering more than 50% makes a space feel cluttered, while covering under 20% leaves the room feeling unanchored.
 
 ### How far should a sofa be from a TV screen?
 
-The ideal TV viewing distance is approximately 1.5 to 2.5 times the diagonal screen size. For a 65-inch TV, position the sofa 8 to 11 feet away (96 to 132 inches).
+A sofa should sit at a distance of 1.5 to 2.5 times the diagonal screen size away from a TV. For example, you should position a sofa 8 to 11 feet away from a 65-inch television.
 
 ### How much space is needed behind dining room chairs?
 
-Leave at least 36 inches between the edge of a dining table and surrounding walls or sideboards so guests can pull chairs back and walk behind seated diners easily.
+Dining room chairs require at least 36 inches of clearance between the table edge and surrounding walls or sideboards. This space ensures guests can easily pull chairs back and walk behind seated diners.
 
 ### Can a sofa block a window?
 
-While it is best to leave windows clear, low-backed sofas (under sill height) can sit in front of windows without blocking natural light. Ensure at least a 2-inch gap between sofa back cushions and window drapes.
+A sofa can safely sit in front of a window if it features a low back that remains under the sill height to preserve natural light. You must also leave at least a 2-inch gap between the sofa's back cushions and any window drapes.
 

@@ -9,7 +9,7 @@
       monthly_car_payment: parseFloat(document.getElementById('input_monthly_car_payment').value) || 450,
       monthly_insurance: parseFloat(document.getElementById('input_monthly_insurance').value) || 140,
       monthly_gas_maintenance: parseFloat(document.getElementById('input_monthly_gas_maintenance').value) || 200
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -60,7 +60,7 @@
       monthly_diff: monthly_diff,
       winner: winner,
       annual_savings: annual_savings
-    };
+    }
   }
 
   function updateTool() {
@@ -76,8 +76,7 @@
     var chartData = {
       labels: ['Rideshare Monthly Total', 'Own Car Total (Loan + Ins + Gas)'],
       values: [parseFloat(res.rideshare_monthly.toFixed(2)), parseFloat(res.own_car_monthly.toFixed(2))]
-    };
-
+    }
     updateCharts(chartData);
 
     if (typeof window.logHistory === 'function') {

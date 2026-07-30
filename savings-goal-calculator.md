@@ -153,13 +153,13 @@ howto:
 
 faq:
   - question: "How does the Savings Goal Calculator work?"
-    answer: "It calculates either the time needed to reach your target or the monthly contribution required based on your current savings, interest rate, and target amount."
+    answer: "The Savings Goal Calculator computes either the time needed to reach your target or the monthly contribution required based on your current savings, interest rate, and target amount."
   - question: "What if I set both monthly contribution and time?"
-    answer: "The calculator will show both the time to reach your goal AND the required monthly contribution. If you want to see a specific scenario, adjust one of the inputs to see how it affects the other."
+    answer: "If you set both monthly contribution and time, the calculator will show both the time to reach your goal and the required monthly contribution. Adjust one of the inputs to see how it affects the other."
   - question: "What is a realistic interest rate for savings?"
     answer: "High-yield savings accounts currently offer 4-5%. Investment accounts may average 7-10% over the long term. Use a rate that matches your savings vehicle."
   - question: "Can I use this for debt repayment goals?"
-    answer: "Yes. Enter your current balance as current savings, your target balance (0) as the target amount, and your monthly payment as the monthly contribution."
+    answer: "You can use the calculator for debt repayment goals by entering your current balance as current savings, your target balance as 0, and your monthly payment as the monthly contribution."
 
 ---
 
@@ -223,11 +223,11 @@ The tool updates instantly — you'll see the time to reach your goal, the requi
 
 ### How does the Savings Goal Calculator work?
 
-It calculates either the time needed to reach your target or the monthly contribution required based on your current savings, interest rate, and target amount.
+The Savings Goal Calculator computes either the time needed to reach your target or the monthly contribution required based on your current savings, interest rate, and target amount.
 
 ### What if I set both monthly contribution and time?
 
-The calculator will show both the time to reach your goal AND the required monthly contribution. If you want to see a specific scenario, adjust one of the inputs to see how it affects the other.
+If you set both monthly contribution and time, the calculator will show both the time to reach your goal and the required monthly contribution. Adjust one of the inputs to see how it affects the other.
 
 ### What is a realistic interest rate for savings?
 
@@ -235,7 +235,7 @@ High-yield savings accounts currently offer 4-5%. Investment accounts may averag
 
 ### Can I use this for debt repayment goals?
 
-Yes. Enter your current balance as current savings, your target balance (0) as the target amount, and your monthly payment as the monthly contribution.
+You can use the calculator for debt repayment goals by entering your current balance as current savings, your target balance as 0, and your monthly payment as the monthly contribution.
 
 ---
 

@@ -20,7 +20,7 @@
       eliminationPeriod: parseFloat(document.getElementById('input_eliminationPeriod').value) || 0,
       inflationRate: parseFloat(document.getElementById('input_inflationRate').value) || 0,
       investmentReturn: parseFloat(document.getElementById('input_investmentReturn').value) || 0
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -85,7 +85,7 @@
       targetIncome: targetIncome,
       existingBenefits: existingBenefits,
       employerBenefitAmount: employerBenefitAmount
-    };
+    }
   }
 
   // ── Main Update ──
@@ -112,7 +112,7 @@
         monthlyGap: result.monthlyGap,
         totalNeed: result.adjustedNeed,
         recommendedBenefit: result.recommendedBenefit
-      };
+      }
       window.logHistory(snapshot);
     }
     if (typeof window.renderPresetDropdown === 'function') {
@@ -171,7 +171,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'comparison') {
@@ -207,7 +207,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'allocation') {
@@ -253,7 +253,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;

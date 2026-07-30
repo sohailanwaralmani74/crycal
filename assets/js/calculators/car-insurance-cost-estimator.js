@@ -10,7 +10,7 @@
       coverageLevel: document.getElementById('input_coverageLevel').value || 'full-coverage',
       deductible: parseFloat(document.getElementById('input_deductible').value) || 500,
       drivingRecord: document.getElementById('input_drivingRecord').value || 'clean'
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -95,7 +95,7 @@
       catFactor: catFactor,
       recFactor: recFactor,
       dedFactor: dedFactor
-    };
+    }
   }
 
   function updateTool() {
@@ -174,7 +174,7 @@
             }
           }
         }
-      };
+      }
     } else if (tab === 'deductibleImpact') {
       var baseAnnual = result.annualPremium / result.dedFactor;
       var deductibles = [250, 500, 1000, 2000];
@@ -213,7 +213,7 @@
             }
           }
         }
-      };
+      }
     }
     return null;
   }
@@ -224,11 +224,14 @@
   }
 
   function resetTool() {
-    document.getElementById('input_vehicleValue').value = 28000;
-    document.getElementById('input_driverAge').value = 30;
+    var _el_input_vehicleValue = document.getElementById('input_vehicleValue');
+    _el_input_vehicleValue.value = (_el_input_vehicleValue.dataset && _el_input_vehicleValue.dataset.default !== undefined) ? _el_input_vehicleValue.dataset.default : (_el_input_vehicleValue.getAttribute('value') || '');
+    var _el_input_driverAge = document.getElementById('input_driverAge');
+    _el_input_driverAge.value = (_el_input_driverAge.dataset && _el_input_driverAge.dataset.default !== undefined) ? _el_input_driverAge.dataset.default : (_el_input_driverAge.getAttribute('value') || '');
     document.getElementById('input_carCategory').value = 'sedan';
     document.getElementById('input_coverageLevel').value = 'full-coverage';
-    document.getElementById('input_deductible').value = 500;
+    var _el_input_deductible = document.getElementById('input_deductible');
+    _el_input_deductible.value = (_el_input_deductible.dataset && _el_input_deductible.dataset.default !== undefined) ? _el_input_deductible.dataset.default : (_el_input_deductible.getAttribute('value') || '');
     document.getElementById('input_drivingRecord').value = 'clean';
     updateTool();
   }
@@ -243,9 +246,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

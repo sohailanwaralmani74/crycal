@@ -125,15 +125,15 @@ faq:
   - question: "How many cubic yards of topsoil do I need for 500 sq ft at 4 inches depth?"
     answer: "For 500 sq ft at 4 inches depth, you need approximately 6.17 cubic yards (or 166.7 cubic feet) of topsoil."
   - question: "How much does a cubic yard of topsoil weigh?"
-    answer: "A cubic yard of topsoil weighs between 1.08 and 1.35 tons (2,150 to 2,700 lbs) depending on moisture content and organic soil composition. Standard dry-to-moist topsoil averages 1.3 tons/yd³."
+    answer: "A cubic yard of topsoil weighs between 1.08 and 1.35 tons (2,150 to 2,700 lbs) depending on moisture content and organic soil composition. Standard dry-to-moist topsoil averages 1.3 tons per cubic yard."
   - question: "How many 40 lb bags of topsoil are in a cubic yard?"
     answer: "At a standard density of 1.3 tons per cubic yard (2,600 lbs), one cubic yard equals 65 bags of 40 lb topsoil."
   - question: "How deep should topsoil be for a new lawn?"
-    answer: "New lawns require at least 4 to 6 inches of quality topsoil over subsoil to promote deep root growth and grass health."
+    answer: "New lawns require at least 4 to 6 inches of quality topsoil over the subsoil to promote deep root growth and grass health."
   - question: "How much topsoil is needed to top-dress a lawn?"
-    answer: "Top-dressing existing turf typically requires a thin layer of 1/4 to 1/2 inch (approx 0.77 to 1.54 cubic yards per 1,000 sq ft)."
+    answer: "Top-dressing existing turf typically requires a thin layer of 1/4 to 1/2 inch of topsoil, which equals approximately 0.77 to 1.54 cubic yards per 1,000 square feet."
   - question: "Is bulk topsoil cheaper than buying 40 lb bags?"
-    answer: "Yes, bulk topsoil costs $25 to $45 per yard, whereas 65 bags of 40 lb topsoil ($3.50/bag) cost around $227. Bulk is over 75% cheaper for projects requiring more than 1 cubic yard."
+    answer: "Yes — bulk topsoil is over 75% cheaper for projects requiring more than 1 cubic yard. Bulk topsoil costs $25 to $45 per yard, whereas 65 bags of 40 lb topsoil ($3.50 per bag) cost around $227."
 ---
 
 # Topsoil Calculator - Calculate Mulch, Sod & Material Volume
@@ -196,7 +196,7 @@ For 500 sq ft at 4 inches depth, you need approximately 6.17 cubic yards (or 166
 
 ### How much does a cubic yard of topsoil weigh?
 
-A cubic yard of topsoil weighs between 1.08 and 1.35 tons (2,150 to 2,700 lbs) depending on moisture content and organic soil composition. Standard dry-to-moist topsoil averages 1.3 tons/yd³.
+A cubic yard of topsoil weighs between 1.08 and 1.35 tons (2,150 to 2,700 lbs) depending on moisture content and organic soil composition. Standard dry-to-moist topsoil averages 1.3 tons per cubic yard.
 
 ### How many 40 lb bags of topsoil are in a cubic yard?
 
@@ -204,13 +204,13 @@ At a standard density of 1.3 tons per cubic yard (2,600 lbs), one cubic yard equ
 
 ### How deep should topsoil be for a new lawn?
 
-New lawns require at least 4 to 6 inches of quality topsoil over subsoil to promote deep root growth and grass health.
+New lawns require at least 4 to 6 inches of quality topsoil over the subsoil to promote deep root growth and grass health.
 
 ### How much topsoil is needed to top-dress a lawn?
 
-Top-dressing existing turf typically requires a thin layer of 1/4 to 1/2 inch (approx 0.77 to 1.54 cubic yards per 1,000 sq ft).
+Top-dressing existing turf typically requires a thin layer of 1/4 to 1/2 inch of topsoil, which equals approximately 0.77 to 1.54 cubic yards per 1,000 square feet.
 
 ### Is bulk topsoil cheaper than buying 40 lb bags?
 
-Yes, bulk topsoil costs $25 to $45 per yard, whereas 65 bags of 40 lb topsoil ($3.50/bag) cost around $227. Bulk is over 75% cheaper for projects requiring more than 1 cubic yard.
+Yes — bulk topsoil is over 75% cheaper for projects requiring more than 1 cubic yard. Bulk topsoil costs $25 to $45 per yard, whereas 65 bags of 40 lb topsoil ($3.50 per bag) cost around $227.
 

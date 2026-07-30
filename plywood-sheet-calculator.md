@@ -130,17 +130,17 @@ howto:
 
 faq:
   - question: "How many square feet are in a standard 4x8 sheet of plywood?"
-    answer: "A standard 4x8 sheet of plywood or OSB covers exactly 32 square feet ($4 \text{ ft} \times 8 \text{ ft} = 32 \text{ sq ft}$)."
+    answer: "A standard 4x8 sheet of plywood or OSB covers exactly 32 square feet ($4 \\text{ ft} \\times 8 \\text{ ft} = 32 \\text{ sq ft}$)."
   - question: "How many sheets of plywood do I need for 1,000 square feet?"
-    answer: "Without waste, 1,000 sq ft requires 31.25 sheets ($1,000 / 32 = 31.25$). Including a standard 10% waste factor, you will need 35 sheets of 4x8 plywood."
+    answer: "For 1,000 square feet, you will need 31.25 sheets without waste ($1,000 / 32 = 31.25$), or 35 sheets of 4x8 plywood when including a standard 10% waste factor."
   - question: "What waste factor should I use for plywood sheathing?"
-    answer: "Use 10% waste for simple subfloors and rectangular walls. Use 15% for roofs with dormers, hips, and valleys, or 20% for irregular angled architecture."
+    answer: "For plywood sheathing, use a 10% waste factor for simple subfloors and rectangular walls, 15% for roofs with dormers, hips, and valleys, or 20% for irregular angled architecture."
   - question: "What is the difference between OSB and Plywood sheathing?"
-    answer: "OSB (Oriented Strand Board) is made from compressed wood strands and is generally cheaper and more uniform. CDX Plywood is made from layered wood veneers, offering better moisture resistance and stiffness."
+    answer: "OSB (Oriented Strand Board) is made from compressed wood strands and is generally cheaper and more uniform, whereas CDX Plywood is made from layered wood veneers offering better moisture resistance and stiffness."
   - question: "What thickness plywood should be used for subfloors vs roof sheathing?"
-    answer: "Subfloors typically require 3/4-inch tongue-and-groove CDX plywood or OSB over joists spaced 16 inches on-center. Roof sheathing typically uses 1/2-inch or 5/8-inch OSB/plywood with H-clips."
+    answer: "Subfloors typically require 3/4-inch tongue-and-groove CDX plywood or OSB over joists spaced 16 inches on-center, while roof sheathing typically uses 1/2-inch or 5/8-inch OSB/plywood with H-clips."
   - question: "How many sheets of OSB are in a standard mill pallet / lift?"
-    answer: "A full mill bundle/pallet of 7/16-inch OSB typically contains 80 sheets. A lift of 23/32-inch subfloor panels typically contains 45 sheets."
+    answer: "A full mill bundle or pallet of 7/16-inch OSB typically contains 80 sheets, whereas a lift of 23/32-inch subfloor panels typically contains 45 sheets."
 ---
 
 # Plywood Sheet Calculator - Calculate Board Feet & Wood Quantity
@@ -206,21 +206,21 @@ A standard 4x8 sheet of plywood or OSB covers exactly 32 square feet ($4 \text{ 
 
 ### How many sheets of plywood do I need for 1,000 square feet?
 
-Without waste, 1,000 sq ft requires 31.25 sheets ($1,000 / 32 = 31.25$). Including a standard 10% waste factor, you will need 35 sheets of 4x8 plywood.
+For 1,000 square feet, you will need 31.25 sheets without waste ($1,000 / 32 = 31.25$), or 35 sheets of 4x8 plywood when including a standard 10% waste factor.
 
 ### What waste factor should I use for plywood sheathing?
 
-Use 10% waste for simple subfloors and rectangular walls. Use 15% for roofs with dormers, hips, and valleys, or 20% for irregular angled architecture.
+For plywood sheathing, use a 10% waste factor for simple subfloors and rectangular walls, 15% for roofs with dormers, hips, and valleys, or 20% for irregular angled architecture.
 
 ### What is the difference between OSB and Plywood sheathing?
 
-OSB (Oriented Strand Board) is made from compressed wood strands and is generally cheaper and more uniform. CDX Plywood is made from layered wood veneers, offering better moisture resistance and stiffness.
+OSB (Oriented Strand Board) is made from compressed wood strands and is generally cheaper and more uniform, whereas CDX Plywood is made from layered wood veneers offering better moisture resistance and stiffness.
 
 ### What thickness plywood should be used for subfloors vs roof sheathing?
 
-Subfloors typically require 3/4-inch tongue-and-groove CDX plywood or OSB over joists spaced 16 inches on-center. Roof sheathing typically uses 1/2-inch or 5/8-inch OSB/plywood with H-clips.
+Subfloors typically require 3/4-inch tongue-and-groove CDX plywood or OSB over joists spaced 16 inches on-center, while roof sheathing typically uses 1/2-inch or 5/8-inch OSB/plywood with H-clips.
 
 ### How many sheets of OSB are in a standard mill pallet / lift?
 
-A full mill bundle/pallet of 7/16-inch OSB typically contains 80 sheets. A lift of 23/32-inch subfloor panels typically contains 45 sheets.
+A full mill bundle or pallet of 7/16-inch OSB typically contains 80 sheets, whereas a lift of 23/32-inch subfloor panels typically contains 45 sheets.
 

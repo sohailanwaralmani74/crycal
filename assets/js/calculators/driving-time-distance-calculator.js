@@ -9,7 +9,7 @@
       rest_duration: parseFloat(document.getElementById('input_rest_duration').value) || 20,
       start_hour: parseInt(document.getElementById('input_start_hour').value) || 8,
       start_minute: parseInt(document.getElementById('input_start_minute').value) || 0
-    };
+    }
   }
 
   function setOutputText(id, text) {
@@ -60,7 +60,7 @@
       total_rest_hours: total_rest_hours,
       total_trip_hours: total_trip_hours,
       eta_str: eta_str
-    };
+    }
   }
 
   function updateTool() {
@@ -76,8 +76,7 @@
     var chartData = {
       labels: ['Pure Driving Time (hrs)', 'Rest Break Time (hrs)', 'Total Elapsed Trip (hrs)'],
       values: [parseFloat(res.pure_hours.toFixed(2)), parseFloat(res.total_rest_hours.toFixed(2)), parseFloat(res.total_trip_hours.toFixed(2))]
-    };
-
+    }
     updateCharts(chartData);
 
     if (typeof window.logHistory === 'function') {

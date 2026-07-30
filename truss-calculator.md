@@ -141,7 +141,7 @@ faq:
   - question: "How far apart are gable end trusses installed from standard trusses?"
     answer: "Gable end trusses sit flush on top of the end wall plate. The first common truss is set exactly 24 inches (or 16 inches) on-center inward from the gable truss."
   - question: "Do gable end trusses require structural interior support?"
-    answer: "No, gable end trusses rest continuously along the exterior end wall top plate, transferring vertical loads directly into the end wall framing."
+    answer: "Gable end trusses rest continuously along the exterior end wall top plate, transferring vertical loads directly into the end wall framing."
 ---
 
 # Truss Calculator - Calculate Shingles, Squares & Flashing
@@ -244,4 +244,4 @@ Gable end trusses sit flush on top of the end wall plate. The first common truss
 
 ### Do gable end trusses require structural interior support?
 
-No, gable end trusses rest continuously along the exterior end wall top plate, transferring vertical loads directly into the end wall framing.
+Gable end trusses rest continuously along the exterior end wall top plate, transferring vertical loads directly into the end wall framing.

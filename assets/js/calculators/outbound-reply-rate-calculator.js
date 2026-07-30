@@ -25,7 +25,7 @@
       sent: parseFloat(document.getElementById('input_emails_sent')?.value) || 0,
       replies: parseFloat(document.getElementById('input_replies_received')?.value) || 0,
       positive: parseFloat(document.getElementById('input_positive_replies')?.value) || 0
-    };
+    }
   }
 
   function updateTool() {

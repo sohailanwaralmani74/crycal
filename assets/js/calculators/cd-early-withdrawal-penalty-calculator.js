@@ -16,7 +16,7 @@
       interestRate: interestRate / 100,
       withdrawalMonth: withdrawalMonth,
       penaltyMonths: penaltyMonths
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -83,8 +83,7 @@
       'Total Interest': totalInterest,
       'Penalty': penaltyAmount,
       'Net Proceeds': netProceeds
-    };
-
+    }
     return {
       totalInterest: totalInterest,
       penaltyAmount: penaltyAmount,
@@ -93,7 +92,7 @@
       effectiveRate: effectiveRate,
       chartData: chartData,
       error: null
-    };
+    }
   }
 
   function updateTool() {
@@ -131,7 +130,7 @@
 
     var chartPayload = {
       chartData: result.chartData
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
   }
@@ -203,7 +202,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -219,11 +218,16 @@
   }
 
   function resetTool() {
-    document.getElementById('input_depositAmount').value = 10000;
-    document.getElementById('input_termMonths').value = 12;
-    document.getElementById('input_interestRate').value = 4.50;
-    document.getElementById('input_withdrawalMonth').value = 6;
-    document.getElementById('input_penaltyMonths').value = 3;
+    var _el_input_depositAmount = document.getElementById('input_depositAmount');
+    _el_input_depositAmount.value = (_el_input_depositAmount.dataset && _el_input_depositAmount.dataset.default !== undefined) ? _el_input_depositAmount.dataset.default : (_el_input_depositAmount.getAttribute('value') || '');
+    var _el_input_termMonths = document.getElementById('input_termMonths');
+    _el_input_termMonths.value = (_el_input_termMonths.dataset && _el_input_termMonths.dataset.default !== undefined) ? _el_input_termMonths.dataset.default : (_el_input_termMonths.getAttribute('value') || '');
+    var _el_input_interestRate = document.getElementById('input_interestRate');
+    _el_input_interestRate.value = (_el_input_interestRate.dataset && _el_input_interestRate.dataset.default !== undefined) ? _el_input_interestRate.dataset.default : (_el_input_interestRate.getAttribute('value') || '');
+    var _el_input_withdrawalMonth = document.getElementById('input_withdrawalMonth');
+    _el_input_withdrawalMonth.value = (_el_input_withdrawalMonth.dataset && _el_input_withdrawalMonth.dataset.default !== undefined) ? _el_input_withdrawalMonth.dataset.default : (_el_input_withdrawalMonth.getAttribute('value') || '');
+    var _el_input_penaltyMonths = document.getElementById('input_penaltyMonths');
+    _el_input_penaltyMonths.value = (_el_input_penaltyMonths.dataset && _el_input_penaltyMonths.dataset.default !== undefined) ? _el_input_penaltyMonths.dataset.default : (_el_input_penaltyMonths.getAttribute('value') || '');
     updateTool();
   }
 
@@ -237,9 +241,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

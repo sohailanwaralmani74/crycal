@@ -10,7 +10,7 @@
       loanTermYears: parseFloat(document.getElementById('input_loanTermYears').value) || 30,
       upfrontFeeRate: parseFloat(document.getElementById('input_upfrontFeeRate').value) || 1.0,
       annualFeeRate: parseFloat(document.getElementById('input_annualFeeRate').value) || 0.35
-    };
+    }
   }
 
   function formatCurrencyLocal(amount) {
@@ -69,7 +69,7 @@
       monthlyUsdaFee: monthlyUsdaFee,
       totalMonthly: totalMonthly,
       yearlyData: yearlyData
-    };
+    }
   }
 
   function updateTool() {
@@ -133,7 +133,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'amortization') {
@@ -165,7 +165,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;

@@ -12,7 +12,7 @@
       annualRecurringRevenue: annualRecurringRevenue,
       fullTimeEmployees: fullTimeEmployees,
       targetBenchmark: targetBenchmark
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -63,7 +63,7 @@
       benchmarkDifference: variance,
       productivityRating: rating,
       error: null
-    };
+    }
   }
 
   function updateTool() {
@@ -92,7 +92,7 @@
       targetBenchmark: inputs.targetBenchmark,
       arr: inputs.annualRecurringRevenue,
       ftes: inputs.fullTimeEmployees
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -149,7 +149,7 @@
             x: { ticks: { color: '#8899aa' } }
           }
         }
-      };
+      }
     }
 
     if (tab === 'scale') {
@@ -180,7 +180,7 @@
             x: { ticks: { color: '#8899aa' } }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -193,9 +193,12 @@
   }
 
   function resetTool() {
-    document.getElementById('input_annualRecurringRevenue').value = 5000000;
-    document.getElementById('input_fullTimeEmployees').value = 25;
-    document.getElementById('input_targetBenchmark').value = 200000;
+    var _el_input_annualRecurringRevenue = document.getElementById('input_annualRecurringRevenue');
+    _el_input_annualRecurringRevenue.value = (_el_input_annualRecurringRevenue.dataset && _el_input_annualRecurringRevenue.dataset.default !== undefined) ? _el_input_annualRecurringRevenue.dataset.default : (_el_input_annualRecurringRevenue.getAttribute('value') || '');
+    var _el_input_fullTimeEmployees = document.getElementById('input_fullTimeEmployees');
+    _el_input_fullTimeEmployees.value = (_el_input_fullTimeEmployees.dataset && _el_input_fullTimeEmployees.dataset.default !== undefined) ? _el_input_fullTimeEmployees.dataset.default : (_el_input_fullTimeEmployees.getAttribute('value') || '');
+    var _el_input_targetBenchmark = document.getElementById('input_targetBenchmark');
+    _el_input_targetBenchmark.value = (_el_input_targetBenchmark.dataset && _el_input_targetBenchmark.dataset.default !== undefined) ? _el_input_targetBenchmark.dataset.default : (_el_input_targetBenchmark.getAttribute('value') || '');
     updateTool();
   }
 
@@ -209,9 +212,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

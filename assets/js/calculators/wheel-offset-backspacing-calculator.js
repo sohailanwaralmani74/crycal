@@ -7,7 +7,7 @@
       current_offset: parseFloat(document.getElementById('input_current_offset').value) || 45,
       new_width: parseFloat(document.getElementById('input_new_width').value) || 9.0,
       new_offset: parseFloat(document.getElementById('input_new_offset').value) || 35
-    };
+    }
   }
 
   function setOutputText(id, text) {
@@ -43,7 +43,7 @@
       inner_change_mm: inner_change_mm,
       outer_change_mm: outer_change_mm,
       summary: summary
-    };
+    }
   }
 
   function updateTool() {
@@ -59,8 +59,7 @@
     var chartData = {
       labels: ['Current Backspacing (in)', 'New Backspacing (in)', 'Outer Extension (mm/10)'],
       values: [parseFloat(res.curr_bs.toFixed(2)), parseFloat(res.new_bs.toFixed(2)), parseFloat((res.outer_change_mm / 10.0).toFixed(2))]
-    };
-
+    }
     updateCharts(chartData);
 
     if (typeof window.logHistory === 'function') {

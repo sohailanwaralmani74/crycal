@@ -21,8 +21,7 @@
     '2020-05': { fixed: 0.0000, inflation: 0.0022 },
     '2019-11': { fixed: 0.0000, inflation: 0.0020 },
     '2019-05': { fixed: 0.0000, inflation: 0.0070 },
-  };
-
+  }
   // ── Get Inputs ──
   function getInputs() {
     var purchaseDate = document.getElementById('input_purchaseDate').value;
@@ -37,7 +36,7 @@
       fixedRate: fixedRate / 100,
       inflationRate: inflationRate / 100,
       redemptionMonth: redemptionMonth
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -209,7 +208,7 @@
       nextRateChange: nextRateChange,
       dataPoints: dataPoints,
       purchaseAmount: purchaseAmount
-    };
+    }
   }
 
   // ── Main Update ──
@@ -254,7 +253,7 @@
       currentValue: result.currentValue,
       totalInterest: result.totalInterest,
       purchaseAmount: result.purchaseAmount
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -358,7 +357,7 @@
             mode: 'index'
           }
         }
-      };
+      }
     }
 
     if (tab === 'breakdown') {
@@ -394,7 +393,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -417,9 +416,12 @@
       dateInput.value = '';
     }
 
-    document.getElementById('input_purchaseAmount').value = 10000;
-    document.getElementById('input_fixedRate').value = 0.90;
-    document.getElementById('input_inflationRate').value = 1.68;
+    var _el_input_purchaseAmount = document.getElementById('input_purchaseAmount');
+    _el_input_purchaseAmount.value = (_el_input_purchaseAmount.dataset && _el_input_purchaseAmount.dataset.default !== undefined) ? _el_input_purchaseAmount.dataset.default : (_el_input_purchaseAmount.getAttribute('value') || '');
+    var _el_input_fixedRate = document.getElementById('input_fixedRate');
+    _el_input_fixedRate.value = (_el_input_fixedRate.dataset && _el_input_fixedRate.dataset.default !== undefined) ? _el_input_fixedRate.dataset.default : (_el_input_fixedRate.getAttribute('value') || '');
+    var _el_input_inflationRate = document.getElementById('input_inflationRate');
+    _el_input_inflationRate.value = (_el_input_inflationRate.dataset && _el_input_inflationRate.dataset.default !== undefined) ? _el_input_inflationRate.dataset.default : (_el_input_inflationRate.getAttribute('value') || '');
 
     var monthInput = document.getElementById('input_redemptionMonth');
     if (monthInput) monthInput.value = '';
@@ -458,9 +460,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

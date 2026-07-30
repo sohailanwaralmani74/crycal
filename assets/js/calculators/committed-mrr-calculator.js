@@ -14,7 +14,7 @@
       pendingExpansionMrr: parseFloat(document.getElementById('input_pendingExpansionMrr').value) || 0,
       knownChurnMrr: parseFloat(document.getElementById('input_knownChurnMrr').value) || 0,
       knownContractionMrr: parseFloat(document.getElementById('input_knownContractionMrr').value) || 0
-    };
+    }
   }
 
   function formatCurrency(amount) {

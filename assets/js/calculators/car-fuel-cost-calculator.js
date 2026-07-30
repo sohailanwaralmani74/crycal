@@ -7,7 +7,7 @@
       annualMiles: parseFloat(document.getElementById('input_annualMiles').value) || 0,
       mpg: parseFloat(document.getElementById('input_mpg').value) || 1,
       fuelPrice: parseFloat(document.getElementById('input_fuelPrice').value) || 0
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -50,7 +50,7 @@
       gallonsPerYear: gallonsPerYear,
       costPerMile: costPerMile,
       fiveYearFuelCost: fiveYearFuelCost
-    };
+    }
   }
 
   function updateTool() {
@@ -126,7 +126,7 @@
             }
           }
         }
-      };
+      }
     } else if (tab === 'mileageSensitivity') {
       var mileages = [5000, 10000, 12000, 15000, 20000, 25000];
       var costs = mileages.map(function(m) {
@@ -165,7 +165,7 @@
             }
           }
         }
-      };
+      }
     }
     return null;
   }
@@ -176,9 +176,12 @@
   }
 
   function resetTool() {
-    document.getElementById('input_annualMiles').value = 12000;
-    document.getElementById('input_mpg').value = 25;
-    document.getElementById('input_fuelPrice').value = 3.50;
+    var _el_input_annualMiles = document.getElementById('input_annualMiles');
+    _el_input_annualMiles.value = (_el_input_annualMiles.dataset && _el_input_annualMiles.dataset.default !== undefined) ? _el_input_annualMiles.dataset.default : (_el_input_annualMiles.getAttribute('value') || '');
+    var _el_input_mpg = document.getElementById('input_mpg');
+    _el_input_mpg.value = (_el_input_mpg.dataset && _el_input_mpg.dataset.default !== undefined) ? _el_input_mpg.dataset.default : (_el_input_mpg.getAttribute('value') || '');
+    var _el_input_fuelPrice = document.getElementById('input_fuelPrice');
+    _el_input_fuelPrice.value = (_el_input_fuelPrice.dataset && _el_input_fuelPrice.dataset.default !== undefined) ? _el_input_fuelPrice.dataset.default : (_el_input_fuelPrice.getAttribute('value') || '');
     updateTool();
   }
 
@@ -192,9 +195,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

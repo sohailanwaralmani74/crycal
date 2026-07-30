@@ -16,7 +16,7 @@
       growthRate: growthRate,
       nrr: nrr,
       grossMargin: grossMargin
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -69,7 +69,7 @@
       nrrAdj: nrrAdj,
       gmAdj: gmAdj,
       totalAdj: totalAdj
-    };
+    }
   }
 
   function updateTool() {
@@ -154,7 +154,7 @@
             x: { ticks: { color: '#8899aa' } }
           }
         }
-      };
+      }
     }
 
     if (tab === 'multipleBreakdown') {
@@ -190,7 +190,7 @@
             x: { ticks: { color: '#8899aa' } }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -215,6 +215,6 @@
   window.switchChartTab = switchChartTab;
 
   document.addEventListener('DOMContentLoaded', function() {
-    setTimeout(function() { updateTool(); }, 150);
+        updateTool();;
   });
 })();

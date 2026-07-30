@@ -147,7 +147,7 @@ faq:
   - question: "How long does spackle take to dry before painting?"
     answer: "Lightweight spackle dries in 30 minutes to 2 hours for small holes. Heavy-duty spackle in deep holes (over 1/2 inch) can take 4 to 8 hours to dry completely."
   - question: "Do I need to prime spackled wall repairs before painting?"
-    answer: "Yes. Raw spackle is porous and will absorb paint unevenly, causing shiny or dull spots ('flashing'). Apply 1 coat of drywall primer or self-priming paint over patches."
+    answer: "You need to prime spackled wall repairs before painting because raw spackle is porous and will absorb paint unevenly, causing shiny or dull spots ('flashing'). Apply 1 coat of drywall primer or self-priming paint over patches."
   - question: "How much does a tub of spackle cost?"
     answer: "An 8 fl oz tub costs $4 to $6, a 16 fl oz pint tub costs $7 to $11, and a 32 fl oz quart tub costs $12 to $18 at hardware stores."
 ---
@@ -224,7 +224,7 @@ Lightweight spackle dries in 30 minutes to 2 hours for small holes. Heavy-duty s
 
 ### Do I need to prime spackled wall repairs before painting?
 
-Yes. Raw spackle is porous and will absorb paint unevenly, causing shiny or dull spots ("flashing"). Apply 1 coat of drywall primer or self-priming paint over patches.
+You need to prime spackled wall repairs before painting because raw spackle is porous and will absorb paint unevenly, causing shiny or dull spots ("flashing"). Apply 1 coat of drywall primer or self-priming paint over patches.
 
 ### How much does a tub of spackle cost?
 

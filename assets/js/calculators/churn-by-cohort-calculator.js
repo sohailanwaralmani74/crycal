@@ -24,7 +24,7 @@
     return {
       startingUsers: parseFloat(document.getElementById('input_starting_users')?.value) || 0,
       activeUsers: parseFloat(document.getElementById('input_active_users')?.value) || 0
-    };
+    }
   }
 
   function updateTool() {

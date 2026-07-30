@@ -139,17 +139,17 @@ howto:
 
 faq:
   - question: "What is a wallpaper pattern repeat?"
-    answer: "A pattern repeat is the vertical distance between where a specific print motif begins and where it repeats again down the roll (typically 6 to 24 inches). Matching these motifs side-by-side creates seamless continuous wall designs."
+    answer: "A wallpaper pattern repeat is the vertical distance between where a specific print motif begins and where it repeats again down the roll. Matching these motifs side-by-side creates seamless continuous wall designs."
   - question: "How does a pattern repeat increase wallpaper waste?"
-    answer: "When hanging patterned wallpaper, each strip must be trimmed so its pattern aligns perfectly with the adjacent strip. A large 24-inch repeat can generate up to 25% to 30% off-cut waste."
+    answer: "A pattern repeat increases wallpaper waste because each strip must be trimmed so its pattern aligns perfectly with the adjacent strip, which can generate up to 25% to 30% off-cut waste for large repeats."
   - question: "What is the difference between a single roll and a double roll?"
-    answer: "In North America, wallpaper is priced by the single roll but usually sold and packaged as a double roll (approx. 20.5 inches wide by 33 feet long, yielding ~56 sq ft)."
+    answer: "In North America, wallpaper is priced by the single roll but is usually sold and packaged as a double roll, which yields approximately 56 square feet."
   - question: "How many strips can I get out of a 33-foot double roll?"
-    answer: "For an 8-foot ceiling with a solid match (0 repeat), a 33-foot roll yields 4 full strips. With an 18-inch or 24-inch pattern repeat, cut lengths increase, yielding only 3 full strips per roll."
+    answer: "For an 8-foot ceiling with a solid match, a 33-foot roll yields 4 full strips, whereas an 18-inch or 24-inch pattern repeat increases cut lengths, yielding only 3 full strips per roll."
   - question: "What is a straight match vs. a drop match?"
-    answer: "In a straight match, the pattern aligns horizontally across adjacent strips. In a drop match (half-drop), the pattern shifts downward on every alternating strip, requiring extra material to align."
+    answer: "In a straight match, the pattern aligns horizontally across adjacent strips, while in a drop match, the pattern shifts downward on every alternating strip, requiring extra material to align."
   - question: "Should I subtract window and door openings from my wall area?"
-    answer: "Only subtract large patio doors or garage-sized openings. For standard single windows or interior doors, keep wall area solid to ensure you have enough full-length strips for surrounding wall sections."
+    answer: "You should only subtract large patio doors or garage-sized openings from your wall area; for standard single windows or interior doors, keep the wall area solid to ensure you have enough full-length strips."
 ---
 
 # Wallpaper Pattern Repeat Calculator - Calculate Dimensions, Spacing & Cut Widths
@@ -215,25 +215,25 @@ The table below illustrates how increasing vertical pattern repeats affect strip
 
 ### What is a wallpaper pattern repeat?
 
-A pattern repeat is the vertical distance between where a specific print motif begins and where it repeats again down the roll (typically 6 to 24 inches). Matching these motifs side-by-side creates seamless continuous wall designs.
+A wallpaper pattern repeat is the vertical distance between where a specific print motif begins and where it repeats again down the roll. Matching these motifs side-by-side creates seamless continuous wall designs.
 
 ### How does a pattern repeat increase wallpaper waste?
 
-When hanging patterned wallpaper, each strip must be trimmed so its pattern aligns perfectly with the adjacent strip. A large 24-inch repeat can generate up to 25% to 30% off-cut waste.
+A pattern repeat increases wallpaper waste because each strip must be trimmed so its pattern aligns perfectly with the adjacent strip, which can generate up to 25% to 30% off-cut waste for large repeats.
 
 ### What is the difference between a single roll and a double roll?
 
-In North America, wallpaper is priced by the single roll but usually sold and packaged as a double roll (approx. 20.5 inches wide by 33 feet long, yielding ~56 sq ft).
+In North America, wallpaper is priced by the single roll but is usually sold and packaged as a double roll, which yields approximately 56 square feet.
 
 ### How many strips can I get out of a 33-foot double roll?
 
-For an 8-foot ceiling with a solid match (0 repeat), a 33-foot roll yields 4 full strips. With an 18-inch or 24-inch pattern repeat, cut lengths increase, yielding only 3 full strips per roll.
+For an 8-foot ceiling with a solid match, a 33-foot roll yields 4 full strips, whereas an 18-inch or 24-inch pattern repeat increases cut lengths, yielding only 3 full strips per roll.
 
 ### What is a straight match vs. a drop match?
 
-In a straight match, the pattern aligns horizontally across adjacent strips. In a drop match (half-drop), the pattern shifts downward on every alternating strip, requiring extra material to align.
+In a straight match, the pattern aligns horizontally across adjacent strips, while in a drop match, the pattern shifts downward on every alternating strip, requiring extra material to align.
 
 ### Should I subtract window and door openings from my wall area?
 
-Only subtract large patio doors or garage-sized openings. For standard single windows or interior doors, keep wall area solid to ensure you have enough full-length strips for surrounding wall sections.
+You should only subtract large patio doors or garage-sized openings from your wall area; for standard single windows or interior doors, keep the wall area solid to ensure you have enough full-length strips.
 

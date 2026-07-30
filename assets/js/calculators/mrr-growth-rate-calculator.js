@@ -79,7 +79,7 @@
       contractionMrr: contractionMrr,
       churnedMrr: churnedMrr,
       endingMrr: endingMrr
-    };
+    }
     updateCharts(lastChartData);
 
     if (typeof window.logHistory === 'function') {
@@ -125,7 +125,7 @@
           plugins: { legend: { display: false } },
           scales: { y: { ticks: { color: '#8899aa' } }, x: { ticks: { color: '#8899aa' } } }
         }
-      };
+      }
     }
     if (tab === 'retentionSplit') {
       return {
@@ -144,7 +144,7 @@
           plugins: { legend: { display: false } },
           scales: { y: { beginAtZero: true, ticks: { color: '#8899aa' } }, x: { ticks: { color: '#8899aa' } } }
         }
-      };
+      }
     }
     return null;
 
@@ -161,11 +161,16 @@
 
   function resetTool() {
 
-    document.getElementById('input_startMrr').value = 50000;
-    document.getElementById('input_newMrr').value = 6000;
-    document.getElementById('input_expansionMrr').value = 2500;
-    document.getElementById('input_contractionMrr').value = 1000;
-    document.getElementById('input_churnedMrr').value = 1500;
+    var _el_input_startMrr = document.getElementById('input_startMrr');
+    _el_input_startMrr.value = (_el_input_startMrr.dataset && _el_input_startMrr.dataset.default !== undefined) ? _el_input_startMrr.dataset.default : (_el_input_startMrr.getAttribute('value') || '');
+    var _el_input_newMrr = document.getElementById('input_newMrr');
+    _el_input_newMrr.value = (_el_input_newMrr.dataset && _el_input_newMrr.dataset.default !== undefined) ? _el_input_newMrr.dataset.default : (_el_input_newMrr.getAttribute('value') || '');
+    var _el_input_expansionMrr = document.getElementById('input_expansionMrr');
+    _el_input_expansionMrr.value = (_el_input_expansionMrr.dataset && _el_input_expansionMrr.dataset.default !== undefined) ? _el_input_expansionMrr.dataset.default : (_el_input_expansionMrr.getAttribute('value') || '');
+    var _el_input_contractionMrr = document.getElementById('input_contractionMrr');
+    _el_input_contractionMrr.value = (_el_input_contractionMrr.dataset && _el_input_contractionMrr.dataset.default !== undefined) ? _el_input_contractionMrr.dataset.default : (_el_input_contractionMrr.getAttribute('value') || '');
+    var _el_input_churnedMrr = document.getElementById('input_churnedMrr');
+    _el_input_churnedMrr.value = (_el_input_churnedMrr.dataset && _el_input_churnedMrr.dataset.default !== undefined) ? _el_input_churnedMrr.dataset.default : (_el_input_churnedMrr.getAttribute('value') || '');
     updateTool();
 
   }
@@ -180,9 +185,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

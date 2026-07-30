@@ -75,7 +75,7 @@
       grossMargin: grossMargin,
       avgLifespanMonths: avgLifespanMonths,
       ltv: ltv
-    };
+    }
     updateCharts(lastChartData);
 
     if (typeof window.logHistory === 'function') {
@@ -121,7 +121,7 @@
           plugins: { legend: { display: false } },
           scales: { y: { beginAtZero: true, ticks: { color: '#8899aa' } }, x: { ticks: { color: '#8899aa' } } }
         }
-      };
+      }
     }
     if (tab === 'lifespan') {
       var months = [6, 12, 18, 24, 30, 36];
@@ -143,7 +143,7 @@
           maintainAspectRatio: false,
           scales: { y: { beginAtZero: true, ticks: { color: '#8899aa' } }, x: { ticks: { color: '#8899aa' } } }
         }
-      };
+      }
     }
     return null;
 
@@ -160,10 +160,14 @@
 
   function resetTool() {
 
-    document.getElementById('input_arpu').value = 150;
-    document.getElementById('input_grossMargin').value = 80;
-    document.getElementById('input_churnRate').value = 2.5;
-    document.getElementById('input_expansionRate').value = 0.5;
+    var _el_input_arpu = document.getElementById('input_arpu');
+    _el_input_arpu.value = (_el_input_arpu.dataset && _el_input_arpu.dataset.default !== undefined) ? _el_input_arpu.dataset.default : (_el_input_arpu.getAttribute('value') || '');
+    var _el_input_grossMargin = document.getElementById('input_grossMargin');
+    _el_input_grossMargin.value = (_el_input_grossMargin.dataset && _el_input_grossMargin.dataset.default !== undefined) ? _el_input_grossMargin.dataset.default : (_el_input_grossMargin.getAttribute('value') || '');
+    var _el_input_churnRate = document.getElementById('input_churnRate');
+    _el_input_churnRate.value = (_el_input_churnRate.dataset && _el_input_churnRate.dataset.default !== undefined) ? _el_input_churnRate.dataset.default : (_el_input_churnRate.getAttribute('value') || '');
+    var _el_input_expansionRate = document.getElementById('input_expansionRate');
+    _el_input_expansionRate.value = (_el_input_expansionRate.dataset && _el_input_expansionRate.dataset.default !== undefined) ? _el_input_expansionRate.dataset.default : (_el_input_expansionRate.getAttribute('value') || '');
     updateTool();
 
   }
@@ -178,9 +182,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

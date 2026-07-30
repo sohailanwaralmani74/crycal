@@ -109,15 +109,15 @@ faq:
   - question: "What is ASC 606 / IFRS 15 revenue recognition?"
     answer: "ASC 606 is the accounting standard requiring companies to recognize subscription revenue ratably over the duration of the software contract service period, regardless of when cash is billed or paid."
   - question: "How is monthly recognized revenue calculated under ASC 606?"
-    answer: "Monthly Recognized Revenue = Total Contract Value / Contract Term in Months."
+    answer: "Under ASC 606, monthly recognized revenue is calculated by dividing total contract value by the contract term in months."
   - question: "What happens to upfront cash collected under ASC 606?"
     answer: "Upfront cash collected is initially placed on the balance sheet as Deferred Revenue (unearned revenue liability) and recognized into Income Statement revenue equal installments each month."
   - question: "Why do SaaS founders confuse Bookings with Recognized Revenue?"
-    answer: "Founders often treat a $120,000 upfront annual cash payment as $120,000 of immediate revenue, whereas GAAP accounting requires recognizing $10,000 per month across 12 months."
+    answer: "Founders often confuse bookings with recognized revenue by treating an upfront annual cash payment as immediate revenue, whereas GAAP accounting requires recognizing the cash ratably across the service months."
   - question: "What is the impact of multi-year prepaid contracts on revenue recognition?"
-    answer: "A 3-year $360,000 prepaid contract creates $360,000 in immediate cash bookings and billings, but GAAP revenue recognition remains $10,000 per month ($120,000/year)."
+    answer: "A multi-year prepaid contract creates immediate cash bookings and billings, but GAAP revenue recognition remains ratably spread per month over the entire term length."
   - question: "Why is GAAP revenue recognition critical for SaaS audit and valuation?"
-    answer: "Auditors, banks, and enterprise buyers evaluate GAAP revenue to verify compliance, rule out artificially inflated sales figures, and assess true operational performance."
+    answer: "GAAP revenue recognition is critical for SaaS audit and valuation because auditors, banks, and enterprise buyers evaluate GAAP revenue to verify compliance, rule out artificially inflated sales figures, and assess true operational performance."
 
 ---
 
@@ -180,7 +180,7 @@ ASC 606 is the accounting standard requiring companies to recognize subscription
 
 ### How is monthly recognized revenue calculated under ASC 606?
 
-Monthly Recognized Revenue = Total Contract Value / Contract Term in Months.
+Under ASC 606, monthly recognized revenue is calculated by dividing total contract value by the contract term in months.
 
 ### What happens to upfront cash collected under ASC 606?
 
@@ -188,12 +188,12 @@ Upfront cash collected is initially placed on the balance sheet as Deferred Reve
 
 ### Why do SaaS founders confuse Bookings with Recognized Revenue?
 
-Founders often treat a $120,000 upfront annual cash payment as $120,000 of immediate revenue, whereas GAAP accounting requires recognizing $10,000 per month across 12 months.
+Founders often confuse bookings with recognized revenue by treating an upfront annual cash payment as immediate revenue, whereas GAAP accounting requires recognizing the cash ratably across the service months.
 
 ### What is the impact of multi-year prepaid contracts on revenue recognition?
 
-A 3-year $360,000 prepaid contract creates $360,000 in immediate cash bookings and billings, but GAAP revenue recognition remains $10,000 per month ($120,000/year).
+A multi-year prepaid contract creates immediate cash bookings and billings, but GAAP revenue recognition remains ratably spread per month over the entire term length.
 
 ### Why is GAAP revenue recognition critical for SaaS audit and valuation?
 
-Auditors, banks, and enterprise buyers evaluate GAAP revenue to verify compliance, rule out artificially inflated sales figures, and assess true operational performance.
+GAAP revenue recognition is critical for SaaS audit and valuation because auditors, banks, and enterprise buyers evaluate GAAP revenue to verify compliance, rule out artificially inflated sales figures, and assess true operational performance.

@@ -10,7 +10,7 @@
       totalNewCustomers: parseFloat(document.getElementById('input_totalNewCustomers').value) || 0,
       annualPlanTakeRate: (parseFloat(document.getElementById('input_annualPlanTakeRate').value) || 0) / 100,
       monthlyChurnRate: (parseFloat(document.getElementById('input_monthlyChurnRate').value) || 0) / 100
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -85,7 +85,7 @@
       monthLabels: monthLabels,
       monthlyCashTimeline: monthlyCashTimeline,
       cumulativeCashTimeline: cumulativeCashTimeline
-    };
+    }
   }
 
   function updateTool() {

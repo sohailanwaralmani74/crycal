@@ -137,12 +137,19 @@ howto:
 
 faq:
   - question: "What is a typical labor-to-material ratio in construction?"
+    answer: "The standard rule of thumb for labor-to-material ratio across residential building is a 50/50 split. However, material-heavy trades like roofing average 40/60, while labor-intensive trades like painting average 65/35."
   - question: "How do contractors calculate their hourly labor rate?"
+    answer: "Contractors calculate hourly labor rates by adding direct wages, payroll taxes (FICA), worker's compensation insurance, employee benefits, and allocated business overhead expenses."
   - question: "What is a normal contractor markup percentage for overhead and profit?"
+    answer: "Standard general contractor markup for overhead and profit ranges from 15% to 25% above hard direct costs. The industry benchmark \"10 and 10\" rule equals approximately a 21% compounding markup."
   - question: "Why is labor more expensive than materials in custom tile or painting?"
+    answer: "Labor is more expensive than materials in custom tile or painting because these tasks require high manual craftsmanship, surface preparation, precision cutting, and drying times relative to the physical cost of raw materials."
   - question: "How can homeowners verify if a contractor quote is fair?"
+    answer: "Homeowners can verify if a contractor quote is fair by asking for an itemized breakdown of material allowances versus labor hours. Then, calculate the implied hourly worker rate by dividing labor cost by estimated crew hours."
   - question: "What is crew hourly burn rate?"
+    answer: "Crew hourly burn rate is the total hourly cost of all workers active on site. For example, a 4-person crew billed at $50/hr per worker has a crew hourly burn rate of $200/hr."
   - question: "Is my personal data saved when using this calculator?"
+    answer: "Your personal data is never saved when using this calculator because all calculations are performed locally in your browser."
 ---
 
 # Contractor Labor Cost Calculator - Calculate Project Timeline & Budget
@@ -216,25 +223,29 @@ General contractors frequently charge what is known in the industry as **"10 and
 
 ### What is a typical labor-to-material ratio in construction?
 
-The standard rule of thumb across residential building is a 50/50 split (labor cost equals material cost). However, material-heavy trades like roofing average 40/60, while labor-intensive trades like painting average 65/35.
+The standard rule of thumb for labor-to-material ratio across residential building is a 50/50 split. However, material-heavy trades like roofing average 40/60, while labor-intensive trades like painting average 65/35.
 
 ### How do contractors calculate their hourly labor rate?
 
-Contractors calculate hourly billing rates by adding direct wages + payroll taxes (FICA) + worker's compensation insurance + employee benefits + allocated business overhead expenses.
+Contractors calculate hourly labor rates by adding direct wages, payroll taxes (FICA), worker's compensation insurance, employee benefits, and allocated business overhead expenses.
 
 ### What is a normal contractor markup percentage for overhead and profit?
 
-Standard general contractor markup ranges from 15% to 25% above hard direct costs. The industry benchmark "10 and 10" rule equals approximately 21% compounding markup.
+Standard general contractor markup for overhead and profit ranges from 15% to 25% above hard direct costs. The industry benchmark "10 and 10" rule equals approximately a 21% compounding markup.
 
 ### Why is labor more expensive than materials in custom tile or painting?
 
-Custom tile setting and interior painting require high manual craftsmanship, surface preparation, precision cutting, and drying times relative to the physical cost of raw tile boxes or paint cans.
+Labor is more expensive than materials in custom tile or painting because these tasks require high manual craftsmanship, surface preparation, precision cutting, and drying times relative to the physical cost of raw materials.
 
 ### How can homeowners verify if a contractor quote is fair?
 
-Ask for an itemized breakdown of material allowances versus labor hours. Calculate the implied hourly worker rate by dividing labor cost by estimated crew hours.
+Homeowners can verify if a contractor quote is fair by asking for an itemized breakdown of material allowances versus labor hours. Then, calculate the implied hourly worker rate by dividing labor cost by estimated crew hours.
 
 ### What is crew hourly burn rate?
 
-Crew hourly burn rate is the total hourly cost of all workers active on site (e.g., a 4-person crew billed at $50/hr per worker has an hourly burn rate of $200/hr).
+Crew hourly burn rate is the total hourly cost of all workers active on site. For example, a 4-person crew billed at $50/hr per worker has a crew hourly burn rate of $200/hr.
+
+### Is my personal data saved when using this calculator?
+
+Your personal data is never saved when using this calculator because all calculations are performed locally in your browser.
 

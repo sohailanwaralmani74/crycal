@@ -10,7 +10,7 @@
       inflationRate: (isNaN(inflationRate) ? 0 : inflationRate) / 100,
       investmentAmount: investmentAmount,
       hasNominal: !isNaN(nominalRate)
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -72,7 +72,7 @@
       realValueAfter1Year: realValueAfter1Year,
       purchasingPowerLoss: purchasingPowerLoss,
       error: null
-    };
+    }
   }
 
   function updateTool() {
@@ -106,9 +106,12 @@
   }
 
   function resetTool() {
-    document.getElementById('input_nominalRate').value = 8;
-    document.getElementById('input_inflationRate').value = 3.2;
-    document.getElementById('input_investmentAmount').value = 10000;
+    var _el_input_nominalRate = document.getElementById('input_nominalRate');
+    _el_input_nominalRate.value = (_el_input_nominalRate.dataset && _el_input_nominalRate.dataset.default !== undefined) ? _el_input_nominalRate.dataset.default : (_el_input_nominalRate.getAttribute('value') || '');
+    var _el_input_inflationRate = document.getElementById('input_inflationRate');
+    _el_input_inflationRate.value = (_el_input_inflationRate.dataset && _el_input_inflationRate.dataset.default !== undefined) ? _el_input_inflationRate.dataset.default : (_el_input_inflationRate.getAttribute('value') || '');
+    var _el_input_investmentAmount = document.getElementById('input_investmentAmount');
+    _el_input_investmentAmount.value = (_el_input_investmentAmount.dataset && _el_input_investmentAmount.dataset.default !== undefined) ? _el_input_investmentAmount.dataset.default : (_el_input_investmentAmount.getAttribute('value') || '');
     updateTool();
   }
 
@@ -121,9 +124,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

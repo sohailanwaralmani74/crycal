@@ -24,7 +24,7 @@
     return {
       achieved: parseFloat(document.getElementById('input_achieved_sales')?.value) || 0,
       quota: parseFloat(document.getElementById('input_sales_quota')?.value) || 0
-    };
+    }
   }
 
   function updateTool() {

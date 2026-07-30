@@ -16,7 +16,7 @@
       gaSpend: gaSpend,
       hostingSpend: hostingSpend,
       annualGrowthRate: annualGrowthRate / 100
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -74,7 +74,7 @@
       ga: ga,
       hosting: hosting,
       error: null
-    };
+    }
   }
 
   function updateTool() {
@@ -103,7 +103,7 @@
       hosting: result.hosting,
       annualOpex: result.totalAnnualOpex,
       nextYearOpex: result.projectedNextYearOpex
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -151,7 +151,7 @@
             title: { display: true, text: 'Monthly Departmental OpEx Split ($)', color: '#e8edf0' }
           }
         }
-      };
+      }
     }
 
     if (tab === 'projection') {
@@ -182,7 +182,7 @@
             x: { ticks: { color: '#8899aa' } }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -195,11 +195,16 @@
   }
 
   function resetTool() {
-    document.getElementById('input_rdSpend').value = 45000;
-    document.getElementById('input_smSpend').value = 35000;
-    document.getElementById('input_gaSpend').value = 15000;
-    document.getElementById('input_hostingSpend').value = 8000;
-    document.getElementById('input_annualGrowthRate').value = 15;
+    var _el_input_rdSpend = document.getElementById('input_rdSpend');
+    _el_input_rdSpend.value = (_el_input_rdSpend.dataset && _el_input_rdSpend.dataset.default !== undefined) ? _el_input_rdSpend.dataset.default : (_el_input_rdSpend.getAttribute('value') || '');
+    var _el_input_smSpend = document.getElementById('input_smSpend');
+    _el_input_smSpend.value = (_el_input_smSpend.dataset && _el_input_smSpend.dataset.default !== undefined) ? _el_input_smSpend.dataset.default : (_el_input_smSpend.getAttribute('value') || '');
+    var _el_input_gaSpend = document.getElementById('input_gaSpend');
+    _el_input_gaSpend.value = (_el_input_gaSpend.dataset && _el_input_gaSpend.dataset.default !== undefined) ? _el_input_gaSpend.dataset.default : (_el_input_gaSpend.getAttribute('value') || '');
+    var _el_input_hostingSpend = document.getElementById('input_hostingSpend');
+    _el_input_hostingSpend.value = (_el_input_hostingSpend.dataset && _el_input_hostingSpend.dataset.default !== undefined) ? _el_input_hostingSpend.dataset.default : (_el_input_hostingSpend.getAttribute('value') || '');
+    var _el_input_annualGrowthRate = document.getElementById('input_annualGrowthRate');
+    _el_input_annualGrowthRate.value = (_el_input_annualGrowthRate.dataset && _el_input_annualGrowthRate.dataset.default !== undefined) ? _el_input_annualGrowthRate.dataset.default : (_el_input_annualGrowthRate.getAttribute('value') || '');
     updateTool();
   }
 
@@ -213,9 +218,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

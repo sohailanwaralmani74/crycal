@@ -8,7 +8,7 @@
       annualTaxableIncome: parseFloat(document.getElementById('input_annualTaxableIncome').value) || 0,
       currentStateTaxRate: parseFloat(document.getElementById('input_currentStateTaxRate').value) || 0,
       targetStateTaxRate: parseFloat(document.getElementById('input_targetStateTaxRate').value) || 0
-    };
+    }
   }
 
   function formatCurrencyLocal(amount) {
@@ -47,7 +47,7 @@
       tarTax: tarTax,
       annualSavings: annualSavings,
       monthlySavings: annualSavings / 12
-    };
+    }
   }
 
   function updateTool() {
@@ -110,7 +110,7 @@
             y: { beginAtZero: true }
           }
         }
-      };
+      }
     }
 
     if (tab === 'monthly') {
@@ -135,7 +135,7 @@
             y: { beginAtZero: true }
           }
         }
-      };
+      }
     }
 
     return null;

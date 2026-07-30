@@ -12,7 +12,7 @@
     return {
       totalDebt: totalDebt,
       totalCreditLimit: totalCreditLimit
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -52,7 +52,7 @@
         category: '—',
         remainingCredit: 0,
         dataPoints: {}
-      };
+      }
     }
 
     var utilization = (debt / limit) * 100;
@@ -88,8 +88,7 @@
     var dataPoints = {
       'Used Credit': debt,
       'Available Credit': remaining
-    };
-
+    }
     return {
       utilization: utilization,
       assessment: assessment,
@@ -97,7 +96,7 @@
       category: category,
       remainingCredit: remaining,
       dataPoints: dataPoints
-    };
+    }
   }
 
   // ── Main Update ──
@@ -126,7 +125,7 @@
     var chartPayload = {
       dataPoints: result.dataPoints,
       utilization: result.utilization
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -183,7 +182,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -201,8 +200,10 @@
 
   // ── Reset Tool ──
   function resetTool() {
-    document.getElementById('input_totalDebt').value = 5000;
-    document.getElementById('input_totalCreditLimit').value = 20000;
+    var _el_input_totalDebt = document.getElementById('input_totalDebt');
+    _el_input_totalDebt.value = (_el_input_totalDebt.dataset && _el_input_totalDebt.dataset.default !== undefined) ? _el_input_totalDebt.dataset.default : (_el_input_totalDebt.getAttribute('value') || '');
+    var _el_input_totalCreditLimit = document.getElementById('input_totalCreditLimit');
+    _el_input_totalCreditLimit.value = (_el_input_totalCreditLimit.dataset && _el_input_totalCreditLimit.dataset.default !== undefined) ? _el_input_totalCreditLimit.dataset.default : (_el_input_totalCreditLimit.getAttribute('value') || '');
     updateTool();
   }
 
@@ -218,9 +219,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

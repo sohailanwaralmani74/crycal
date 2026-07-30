@@ -19,7 +19,7 @@
       currentAnnualHealthcareCost: currentAnnualHealthcareCost,
       healthcareInflationRate: healthcareInflationRate / 100,
       discountRate: discountRate / 100
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -93,7 +93,7 @@
       annualPoints: annualPoints,
       cumulativePoints: cumulativePoints,
       error: null
-    };
+    }
   }
 
   function updateTool() {
@@ -123,7 +123,7 @@
     var chartPayload = {
       annualPoints: result.annualPoints,
       cumulativePoints: result.cumulativePoints
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -181,7 +181,7 @@
             y: { grid: { color: 'rgba(255,255,255,0.04)' }, ticks: { color: '#8899aa', font: { size: 9 }, callback: currencyTick } }
           }
         }
-      };
+      }
     }
 
     if (tab === 'cumulative' && data.cumulativePoints && data.cumulativePoints.length > 0) {
@@ -207,7 +207,7 @@
           },
           interaction: { intersect: false, mode: 'index' }
         }
-      };
+      }
     }
 
     return null;
@@ -223,12 +223,18 @@
   }
 
   function resetTool() {
-    document.getElementById('input_currentAge').value = 55;
-    document.getElementById('input_retirementAge').value = 65;
-    document.getElementById('input_lifeExpectancy').value = 90;
-    document.getElementById('input_currentAnnualHealthcareCost').value = 7000;
-    document.getElementById('input_healthcareInflationRate').value = 5.5;
-    document.getElementById('input_discountRate').value = 5;
+    var _el_input_currentAge = document.getElementById('input_currentAge');
+    _el_input_currentAge.value = (_el_input_currentAge.dataset && _el_input_currentAge.dataset.default !== undefined) ? _el_input_currentAge.dataset.default : (_el_input_currentAge.getAttribute('value') || '');
+    var _el_input_retirementAge = document.getElementById('input_retirementAge');
+    _el_input_retirementAge.value = (_el_input_retirementAge.dataset && _el_input_retirementAge.dataset.default !== undefined) ? _el_input_retirementAge.dataset.default : (_el_input_retirementAge.getAttribute('value') || '');
+    var _el_input_lifeExpectancy = document.getElementById('input_lifeExpectancy');
+    _el_input_lifeExpectancy.value = (_el_input_lifeExpectancy.dataset && _el_input_lifeExpectancy.dataset.default !== undefined) ? _el_input_lifeExpectancy.dataset.default : (_el_input_lifeExpectancy.getAttribute('value') || '');
+    var _el_input_currentAnnualHealthcareCost = document.getElementById('input_currentAnnualHealthcareCost');
+    _el_input_currentAnnualHealthcareCost.value = (_el_input_currentAnnualHealthcareCost.dataset && _el_input_currentAnnualHealthcareCost.dataset.default !== undefined) ? _el_input_currentAnnualHealthcareCost.dataset.default : (_el_input_currentAnnualHealthcareCost.getAttribute('value') || '');
+    var _el_input_healthcareInflationRate = document.getElementById('input_healthcareInflationRate');
+    _el_input_healthcareInflationRate.value = (_el_input_healthcareInflationRate.dataset && _el_input_healthcareInflationRate.dataset.default !== undefined) ? _el_input_healthcareInflationRate.dataset.default : (_el_input_healthcareInflationRate.getAttribute('value') || '');
+    var _el_input_discountRate = document.getElementById('input_discountRate');
+    _el_input_discountRate.value = (_el_input_discountRate.dataset && _el_input_discountRate.dataset.default !== undefined) ? _el_input_discountRate.dataset.default : (_el_input_discountRate.getAttribute('value') || '');
     updateTool();
   }
 
@@ -242,9 +248,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

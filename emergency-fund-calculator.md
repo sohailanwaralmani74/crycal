@@ -181,13 +181,13 @@ howto:
 
 faq:
   - question: "How much should I have in my emergency fund?"
-    answer: "Financial experts typically recommend 3-6 months of essential expenses. This calculator helps you find your specific target based on your actual monthly expenses."
+    answer: "You should have 3 to 6 months of essential living expenses saved in your emergency fund. This recommended target ensures you can cover housing, food, and utilities during a sudden job loss or medical emergency."
   - question: "What counts as an emergency expense?"
-    answer: "Emergency expenses include job loss, medical emergencies, urgent home repairs, car repairs, and unexpected essential expenses that you can't cover with your regular income."
+    answer: "Emergency expenses include unexpected, essential costs like sudden medical bills, urgent home and car repairs, or living expenses during a job loss. These are mandatory financial obligations that cannot be covered by your regular monthly income."
   - question: "What is a good emergency fund target?"
-    answer: "A good emergency fund target depends on your situation. Single-income households or freelancers may need 6-9 months. Dual-income households with stable jobs may need 3-4 months."
+    answer: "A good emergency fund target is 6 to 9 months of expenses for single-income households or freelancers, while dual-income households with stable jobs typically need 3 to 4 months. The exact amount depends on your income stability and mandatory monthly financial obligations."
   - question: "Should I include debt payments in my emergency fund calculation?"
-    answer: "Yes — include minimum debt payments as part of your essential expenses. This ensures you can keep paying your debts even during a financial emergency."
+    answer: "You should include minimum debt payments in your emergency fund calculation to protect your credit score during a financial crisis. Adding these payments to your essential expenses ensures you can continue servicing loans and credit cards even if you lose your income."
 
 ---
 
@@ -244,19 +244,19 @@ An emergency fund is the foundation of financial security. This emergency fund c
 
 ### How much should I have in my emergency fund?
 
-Financial experts typically recommend 3-6 months of essential expenses. This calculator helps you find your specific target based on your actual monthly expenses.
+You should have 3 to 6 months of essential living expenses saved in your emergency fund. This recommended target ensures you can cover housing, food, and utilities during a sudden job loss or medical emergency.
 
 ### What counts as an emergency expense?
 
-Emergency expenses include job loss, medical emergencies, urgent home repairs, car repairs, and unexpected essential expenses that you can't cover with your regular income.
+Emergency expenses include unexpected, essential costs like sudden medical bills, urgent home and car repairs, or living expenses during a job loss. These are mandatory financial obligations that cannot be covered by your regular monthly income.
 
 ### What is a good emergency fund target?
 
-A good emergency fund target depends on your situation. Single-income households or freelancers may need 6-9 months. Dual-income households with stable jobs may need 3-4 months.
+A good emergency fund target is 6 to 9 months of expenses for single-income households or freelancers, while dual-income households with stable jobs typically need 3 to 4 months. The exact amount depends on your income stability and mandatory monthly financial obligations.
 
 ### Should I include debt payments in my emergency fund calculation?
 
-Yes — include minimum debt payments as part of your essential expenses. This ensures you can keep paying your debts even during a financial emergency.
+You should include minimum debt payments in your emergency fund calculation to protect your credit score during a financial crisis. Adding these payments to your essential expenses ensures you can continue servicing loans and credit cards even if you lose your income.
 
 ---
 

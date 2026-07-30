@@ -15,7 +15,7 @@
       yoyGrowth: growth,
       nrr: nrr,
       targetRound: round
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -95,7 +95,7 @@
       arr: arr,
       growth: growth,
       nrr: nrr
-    };
+    }
   }
 
   function updateTool() {
@@ -178,7 +178,7 @@
             x: { ticks: { color: '#8899aa' } }
           }
         }
-      };
+      }
     }
 
     if (tab === 'stageProgression') {
@@ -217,7 +217,7 @@
             x: { ticks: { color: '#8899aa' } }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -242,6 +242,6 @@
   window.switchChartTab = switchChartTab;
 
   document.addEventListener('DOMContentLoaded', function() {
-    setTimeout(function() { updateTool(); }, 150);
+        updateTool();;
   });
 })();

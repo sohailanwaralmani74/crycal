@@ -8,8 +8,7 @@
     'knockdown': { baseCoverage: 400, baseWeight: 50 },
     'orange_peel': { baseCoverage: 500, baseWeight: 50 },
     'smooth_skim': { baseCoverage: 250, baseWeight: 40 }
-  };
-
+  }
   function getGlobalCurrency() {
     var picker = document.getElementById('globalCurrencyPicker');
     return picker ? picker.value : 'USD';
@@ -145,7 +144,6 @@
     var target = document.querySelector('.chart-tab[data-tab="' + tabId + '"]');
     if (target) target.classList.add('active');
     calculate();
-  };
-
+  }
   document.addEventListener('DOMContentLoaded', init);
 })();

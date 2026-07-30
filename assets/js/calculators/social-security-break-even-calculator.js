@@ -13,8 +13,7 @@
     '66-8': 66.6667,
     '66-10': 66.8333,
     '67': 67.0
-  };
-
+  }
   // ── Get Inputs ──
   function getInputs() {
     var fraBenefit = parseFloat(document.getElementById('input_fraBenefit').value) || 0;
@@ -29,7 +28,7 @@
       fraBenefit: fraBenefit,
       fraAge: fraAge,
       lifeExpectancy: lifeExpectancy
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -133,7 +132,7 @@
       cumulativeData: cumulativeData,
       fraBenefit: fraBenefit,
       lifeExpectancy: lifeExpectancy
-    };
+    }
   }
 
   // ── Find Break-Even Age ──
@@ -207,7 +206,7 @@
       breakEven62vs70: result.breakEven62vs70,
       breakEven67vs70: result.breakEven67vs70,
       lifeExpectancy: result.lifeExpectancy
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -341,7 +340,7 @@
             mode: 'index'
           }
         }
-      };
+      }
     }
 
     if (tab === 'comparison') {
@@ -398,7 +397,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -416,9 +415,11 @@
 
   // ── Reset Tool ──
   function resetTool() {
-    document.getElementById('input_fraBenefit').value = 2000;
+    var _el_input_fraBenefit = document.getElementById('input_fraBenefit');
+    _el_input_fraBenefit.value = (_el_input_fraBenefit.dataset && _el_input_fraBenefit.dataset.default !== undefined) ? _el_input_fraBenefit.dataset.default : (_el_input_fraBenefit.getAttribute('value') || '');
     document.getElementById('input_fraAge').value = '67';
-    document.getElementById('input_lifeExpectancy').value = 85;
+    var _el_input_lifeExpectancy = document.getElementById('input_lifeExpectancy');
+    _el_input_lifeExpectancy.value = (_el_input_lifeExpectancy.dataset && _el_input_lifeExpectancy.dataset.default !== undefined) ? _el_input_lifeExpectancy.dataset.default : (_el_input_lifeExpectancy.getAttribute('value') || '');
     updateTool();
   }
 
@@ -478,9 +479,8 @@
 
     attachNumberInputGuards();
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

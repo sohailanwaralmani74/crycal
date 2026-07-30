@@ -19,7 +19,7 @@
       postIntroRate: parseFloat(document.getElementById('input_postIntroRate').value) || 0,
       monthlyPaymentTransfer: parseFloat(document.getElementById('input_monthlyPaymentTransfer').value) || 0,
       compoundingFrequency: document.getElementById('input_compoundingFrequency').value || 'monthly'
-    };
+    }
   }
 
   // ── Get compounding periods per year ──
@@ -30,7 +30,7 @@
       'quarterly': 4,
       'semi-annually': 2,
       'annually': 1
-    };
+    }
     return map[frequency] || 12;
   }
 
@@ -160,7 +160,7 @@
         introRate: inputs.introRate,
         interestSaved: interestSaved,
         transferFeeAmount: transferFeeAmount
-      };
+      }
       window.logHistory(snapshot);
     }
     if (typeof window.renderPresetDropdown === 'function') {
@@ -213,7 +213,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'timeline') {
@@ -243,7 +243,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -257,13 +257,20 @@
 
   // ── Reset Tool ──
   function resetTool() {
-    document.getElementById('input_debtBalance').value = 5000;
-    document.getElementById('input_currentRate').value = 22.0;
-    document.getElementById('input_currentMonthlyPayment').value = 200;
-    document.getElementById('input_introRate').value = 18;
-    document.getElementById('input_transferFee').value = 3.0;
-    document.getElementById('input_postIntroRate').value = 22.0;
-    document.getElementById('input_monthlyPaymentTransfer').value = 200;
+    var _el_input_debtBalance = document.getElementById('input_debtBalance');
+    _el_input_debtBalance.value = (_el_input_debtBalance.dataset && _el_input_debtBalance.dataset.default !== undefined) ? _el_input_debtBalance.dataset.default : (_el_input_debtBalance.getAttribute('value') || '');
+    var _el_input_currentRate = document.getElementById('input_currentRate');
+    _el_input_currentRate.value = (_el_input_currentRate.dataset && _el_input_currentRate.dataset.default !== undefined) ? _el_input_currentRate.dataset.default : (_el_input_currentRate.getAttribute('value') || '');
+    var _el_input_currentMonthlyPayment = document.getElementById('input_currentMonthlyPayment');
+    _el_input_currentMonthlyPayment.value = (_el_input_currentMonthlyPayment.dataset && _el_input_currentMonthlyPayment.dataset.default !== undefined) ? _el_input_currentMonthlyPayment.dataset.default : (_el_input_currentMonthlyPayment.getAttribute('value') || '');
+    var _el_input_introRate = document.getElementById('input_introRate');
+    _el_input_introRate.value = (_el_input_introRate.dataset && _el_input_introRate.dataset.default !== undefined) ? _el_input_introRate.dataset.default : (_el_input_introRate.getAttribute('value') || '');
+    var _el_input_transferFee = document.getElementById('input_transferFee');
+    _el_input_transferFee.value = (_el_input_transferFee.dataset && _el_input_transferFee.dataset.default !== undefined) ? _el_input_transferFee.dataset.default : (_el_input_transferFee.getAttribute('value') || '');
+    var _el_input_postIntroRate = document.getElementById('input_postIntroRate');
+    _el_input_postIntroRate.value = (_el_input_postIntroRate.dataset && _el_input_postIntroRate.dataset.default !== undefined) ? _el_input_postIntroRate.dataset.default : (_el_input_postIntroRate.getAttribute('value') || '');
+    var _el_input_monthlyPaymentTransfer = document.getElementById('input_monthlyPaymentTransfer');
+    _el_input_monthlyPaymentTransfer.value = (_el_input_monthlyPaymentTransfer.dataset && _el_input_monthlyPaymentTransfer.dataset.default !== undefined) ? _el_input_monthlyPaymentTransfer.dataset.default : (_el_input_monthlyPaymentTransfer.getAttribute('value') || '');
     document.getElementById('input_compoundingFrequency').value = 'monthly';
     if (typeof window.updateTool === 'function') window.updateTool();
   }
@@ -279,9 +286,8 @@
       var defaultVal = el.dataset.default || el.getAttribute('value') || '';
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
     var picker = document.getElementById('baseCurrency');
     if (picker) {
       picker.addEventListener('change', function() {

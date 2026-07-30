@@ -38,7 +38,7 @@
       length: parseFloat(document.getElementById('input_cycle_length')?.value) || 0,
       aeCost: parseFloat(document.getElementById('input_ae_cost')?.value) || 0,
       sdrCost: parseFloat(document.getElementById('input_sdr_cost')?.value) || 0
-    };
+    }
   }
 
   function updateTool() {

@@ -76,7 +76,7 @@
       agencyCost: agencyCost,
       cac: cac,
       paidCac: paidCac
-    };
+    }
     updateCharts(lastChartData);
 
     if (typeof window.logHistory === 'function') {
@@ -121,7 +121,7 @@
           maintainAspectRatio: false,
           plugins: { legend: { position: 'bottom', labels: { color: '#e8edf0' } } }
         }
-      };
+      }
     }
     if (tab === 'comparison') {
       return {
@@ -143,7 +143,7 @@
             x: { ticks: { color: '#8899aa' } }
           }
         }
-      };
+      }
     }
     return null;
 
@@ -160,11 +160,16 @@
 
   function resetTool() {
 
-    document.getElementById('input_adSpend').value = 15000;
-    document.getElementById('input_salaries').value = 25000;
-    document.getElementById('input_softwareCost').value = 5000;
-    document.getElementById('input_agencyCost').value = 5000;
-    document.getElementById('input_newCustomers').value = 50;
+    var _el_input_adSpend = document.getElementById('input_adSpend');
+    _el_input_adSpend.value = (_el_input_adSpend.dataset && _el_input_adSpend.dataset.default !== undefined) ? _el_input_adSpend.dataset.default : (_el_input_adSpend.getAttribute('value') || '');
+    var _el_input_salaries = document.getElementById('input_salaries');
+    _el_input_salaries.value = (_el_input_salaries.dataset && _el_input_salaries.dataset.default !== undefined) ? _el_input_salaries.dataset.default : (_el_input_salaries.getAttribute('value') || '');
+    var _el_input_softwareCost = document.getElementById('input_softwareCost');
+    _el_input_softwareCost.value = (_el_input_softwareCost.dataset && _el_input_softwareCost.dataset.default !== undefined) ? _el_input_softwareCost.dataset.default : (_el_input_softwareCost.getAttribute('value') || '');
+    var _el_input_agencyCost = document.getElementById('input_agencyCost');
+    _el_input_agencyCost.value = (_el_input_agencyCost.dataset && _el_input_agencyCost.dataset.default !== undefined) ? _el_input_agencyCost.dataset.default : (_el_input_agencyCost.getAttribute('value') || '');
+    var _el_input_newCustomers = document.getElementById('input_newCustomers');
+    _el_input_newCustomers.value = (_el_input_newCustomers.dataset && _el_input_newCustomers.dataset.default !== undefined) ? _el_input_newCustomers.dataset.default : (_el_input_newCustomers.getAttribute('value') || '');
     updateTool();
 
   }
@@ -179,9 +184,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

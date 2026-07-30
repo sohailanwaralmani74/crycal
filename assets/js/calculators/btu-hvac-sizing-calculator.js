@@ -9,16 +9,14 @@
     'zone3': 25,
     'zone4': 20,
     'zone5': 20
-  };
-
+  }
   var baseHeatingBTU = {
     'zone1': 30,
     'zone2': 35,
     'zone3': 45,
     'zone4': 55,
     'zone5': 60
-  };
-
+  }
   function init() {
     var calcBtn = document.getElementById('btn_calculate');
     var resetBtn = document.getElementById('btn_reset');
@@ -157,7 +155,6 @@
     var target = document.querySelector('.chart-tab[data-tab="' + tabId + '"]');
     if (target) target.classList.add('active');
     calculate();
-  };
-
+  }
   document.addEventListener('DOMContentLoaded', init);
 })();

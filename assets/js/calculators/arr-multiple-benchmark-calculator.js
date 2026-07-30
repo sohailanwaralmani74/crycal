@@ -16,7 +16,7 @@
       yoyGrowth: growth,
       nrr: nrr,
       ruleOf40: r40
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -80,7 +80,7 @@
       p75: 12.0,
       p90: 16.0,
       targetValuation: targetVal
-    };
+    }
   }
 
   function updateTool() {
@@ -162,7 +162,7 @@
             x: { ticks: { color: '#8899aa' } }
           }
         }
-      };
+      }
     }
 
     if (tab === 'valuationGap') {
@@ -193,7 +193,7 @@
             x: { ticks: { color: '#8899aa' } }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -218,6 +218,6 @@
   window.switchChartTab = switchChartTab;
 
   document.addEventListener('DOMContentLoaded', function() {
-    setTimeout(function() { updateTool(); }, 150);
+        updateTool();;
   });
 })();

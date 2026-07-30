@@ -17,8 +17,7 @@
     110: 5.4, 111: 5.1, 112: 4.8, 113: 4.5, 114: 4.3,
     115: 4.0, 116: 3.8, 117: 3.5, 118: 3.3, 119: 3.0,
     120: 2.8
-  };
-
+  }
   // ── Get Inputs ──
   function getInputs() {
     var age = parseFloat(document.getElementById('input_age').value) || 0;
@@ -31,7 +30,7 @@
       accountBalance: accountBalance,
       spouseBeneficiary: spouseBeneficiary,
       accountType: accountType
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -103,7 +102,7 @@
         taxPenalty: 0,
         rmdPercentage: 0,
         error: 'Enter valid values (age ≥ 70, balance > 0)'
-      };
+      }
     }
 
     var factor = getLifeExpectancyFactor(age, spouseAge);
@@ -120,7 +119,7 @@
       taxPenalty10: taxPenalty10,
       rmdPercentage: rmdPercentage,
       error: null
-    };
+    }
   }
 
   // ── Generate Projection ──
@@ -194,7 +193,7 @@
       accountBalance: inputs.accountBalance,
       age: inputs.age,
       projection: projection
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -257,7 +256,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'projection') {
@@ -323,7 +322,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -341,9 +340,12 @@
 
   // ── Reset Tool ──
   function resetTool() {
-    document.getElementById('input_age').value = 73;
-    document.getElementById('input_accountBalance').value = 500000;
-    document.getElementById('input_spouseBeneficiary').value = 0;
+    var _el_input_age = document.getElementById('input_age');
+    _el_input_age.value = (_el_input_age.dataset && _el_input_age.dataset.default !== undefined) ? _el_input_age.dataset.default : (_el_input_age.getAttribute('value') || '');
+    var _el_input_accountBalance = document.getElementById('input_accountBalance');
+    _el_input_accountBalance.value = (_el_input_accountBalance.dataset && _el_input_accountBalance.dataset.default !== undefined) ? _el_input_accountBalance.dataset.default : (_el_input_accountBalance.getAttribute('value') || '');
+    var _el_input_spouseBeneficiary = document.getElementById('input_spouseBeneficiary');
+    _el_input_spouseBeneficiary.value = (_el_input_spouseBeneficiary.dataset && _el_input_spouseBeneficiary.dataset.default !== undefined) ? _el_input_spouseBeneficiary.dataset.default : (_el_input_spouseBeneficiary.getAttribute('value') || '');
     document.getElementById('input_accountType').value = 'traditional-ira';
     updateTool();
   }
@@ -360,9 +362,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

@@ -59,8 +59,7 @@
       roofLengthFt: roofLengthFt,
       roofSides: roofSides,
       wasteMultiplier: wasteMultiplier
-    };
-
+    }
     renderChart(lastData);
 
     if (typeof window.logHistory === 'function') {
@@ -143,19 +142,17 @@
       roofSides: 2,
       pricePerLinFt: 4.5,
       wastePercent: 10
-    };
+    }
     Object.keys(defaults).forEach(function (key) {
       var el = document.getElementById('input_' + key);
       if (el) el.value = defaults[key];
     });
     calculate();
-  };
-
+  }
   window.switchChartTab = function (tabId) {
     currentTab = tabId;
     if (lastData) renderChart(lastData);
-  };
-
+  }
   document.addEventListener('DOMContentLoaded', function () {
     calculate();
   });

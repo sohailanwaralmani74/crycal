@@ -11,7 +11,7 @@
       tier4Price: parseFloat(document.getElementById('input_tier4Price').value) || 0,
       totalSeatsPurchased: parseFloat(document.getElementById('input_totalSeatsPurchased').value) || 0,
       discountStructure: document.getElementById('input_discountStructure').value || 'Graduated Tiered'
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -99,7 +99,7 @@
       t4Cost: t4Cost,
       seatPoints: seatPoints,
       curveEffectiveRates: curveEffectiveRates
-    };
+    }
   }
 
   function updateTool() {

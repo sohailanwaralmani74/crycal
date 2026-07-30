@@ -24,7 +24,7 @@
     return {
       totalChurned: parseFloat(document.getElementById('input_total_churned')?.value) || 0,
       involuntaryChurned: parseFloat(document.getElementById('input_involuntary_churned')?.value) || 0
-    };
+    }
   }
 
   function updateTool() {

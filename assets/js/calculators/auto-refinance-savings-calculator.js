@@ -11,7 +11,7 @@
       newInterestRate: parseFloat(document.getElementById('input_newInterestRate').value) || 0,
       newLoanTermMonths: parseInt(document.getElementById('input_newLoanTermMonths').value, 10) || 48,
       refinancingFees: parseFloat(document.getElementById('input_refinancingFees').value) || 0
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -53,7 +53,7 @@
         monthlySavings: 0,
         netInterestSavings: 0,
         breakEvenMonths: 'N/A'
-      };
+      }
     }
 
     var m1 = (r1 > 0) ? (B * r1 * Math.pow(1 + r1, n1)) / (Math.pow(1 + r1, n1) - 1) : B / n1;
@@ -84,7 +84,7 @@
       breakEvenMonths: breakEven,
       totalInterest1: Math.max(0, totalInterest1),
       totalInterest2: Math.max(0, totalInterest2)
-    };
+    }
   }
 
   function updateTool() {
@@ -159,7 +159,7 @@
             }
           }
         }
-      };
+      }
     } else if (tab === 'cumulative_savings') {
       var n2 = inputs.newLoanTermMonths;
       var labels = [];
@@ -198,7 +198,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;

@@ -10,7 +10,7 @@
       transportationTotal: parseFloat(document.getElementById('input_transportationTotal').value) || 0,
       lodgingNightlyRate: parseFloat(document.getElementById('input_lodgingNightlyRate').value) || 0,
       dailyFoodActivityPerPerson: parseFloat(document.getElementById('input_dailyFoodActivityPerPerson').value) || 0
-    };
+    }
   }
 
   function formatCurrencyLocal(amount) {
@@ -56,7 +56,7 @@
       totalTransit: inputs.transportationTotal,
       totalLodging: totalLodging,
       totalFoodActivity: totalFoodActivity
-    };
+    }
   }
 
   function updateTool() {
@@ -117,7 +117,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'perPerson') {
@@ -149,7 +149,7 @@
             y: { beginAtZero: true }
           }
         }
-      };
+      }
     }
 
     return null;

@@ -18,7 +18,7 @@
       s1_w: s1_w, s1_ar: s1_ar, s1_r: s1_r,
       s2_w: s2_w, s2_ar: s2_ar, s2_r: s2_r,
       targetSpeed: targetSpeed
-    };
+    }
   }
 
   function setOutputText(id, text) {
@@ -53,7 +53,7 @@
       s2_revs: s2_revs,
       diff_pct: diff_pct,
       actual_speed: actual_speed
-    };
+    }
   }
 
   function updateTool() {
@@ -73,8 +73,7 @@
       labels: ['Overall Diameter (in)', 'Sidewall Height (in)', 'Section Width (in)'],
       t1: [parseFloat(res.s1_diam_in.toFixed(2)), parseFloat(res.s1_sw_in.toFixed(2)), parseFloat((inputs.s1_w / 25.4).toFixed(2))],
       t2: [parseFloat(res.s2_diam_in.toFixed(2)), parseFloat(res.s2_sw_in.toFixed(2)), parseFloat((inputs.s2_w / 25.4).toFixed(2))]
-    };
-
+    }
     lastChartData = chartData;
     updateCharts(chartData);
 

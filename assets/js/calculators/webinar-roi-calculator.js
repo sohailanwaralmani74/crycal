@@ -18,7 +18,7 @@
       attendeeToDemoRate: attendeeToDemoRate / 100,
       demoToClosedRate: demoToClosedRate / 100,
       averageAcv: averageAcv
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -67,7 +67,7 @@
       netWebinarProfit: netProfit,
       webinarRoi: webinarRoi,
       error: null
-    };
+    }
   }
 
   function updateTool() {
@@ -101,7 +101,7 @@
       cost: inputs.webinarCost,
       netArr: result.netPipelineArr,
       netProfit: result.netWebinarProfit
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -158,7 +158,7 @@
             x: { ticks: { color: '#8899aa' } }
           }
         }
-      };
+      }
     }
 
     if (tab === 'roi') {
@@ -189,7 +189,7 @@
             x: { ticks: { color: '#8899aa' } }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -202,12 +202,18 @@
   }
 
   function resetTool() {
-    document.getElementById('input_webinarCost').value = 5000;
-    document.getElementById('input_registrants').value = 800;
-    document.getElementById('input_attendanceRate').value = 40;
-    document.getElementById('input_attendeeToDemoRate').value = 15;
-    document.getElementById('input_demoToClosedRate').value = 20;
-    document.getElementById('input_averageAcv').value = 6000;
+    var _el_input_webinarCost = document.getElementById('input_webinarCost');
+    _el_input_webinarCost.value = (_el_input_webinarCost.dataset && _el_input_webinarCost.dataset.default !== undefined) ? _el_input_webinarCost.dataset.default : (_el_input_webinarCost.getAttribute('value') || '');
+    var _el_input_registrants = document.getElementById('input_registrants');
+    _el_input_registrants.value = (_el_input_registrants.dataset && _el_input_registrants.dataset.default !== undefined) ? _el_input_registrants.dataset.default : (_el_input_registrants.getAttribute('value') || '');
+    var _el_input_attendanceRate = document.getElementById('input_attendanceRate');
+    _el_input_attendanceRate.value = (_el_input_attendanceRate.dataset && _el_input_attendanceRate.dataset.default !== undefined) ? _el_input_attendanceRate.dataset.default : (_el_input_attendanceRate.getAttribute('value') || '');
+    var _el_input_attendeeToDemoRate = document.getElementById('input_attendeeToDemoRate');
+    _el_input_attendeeToDemoRate.value = (_el_input_attendeeToDemoRate.dataset && _el_input_attendeeToDemoRate.dataset.default !== undefined) ? _el_input_attendeeToDemoRate.dataset.default : (_el_input_attendeeToDemoRate.getAttribute('value') || '');
+    var _el_input_demoToClosedRate = document.getElementById('input_demoToClosedRate');
+    _el_input_demoToClosedRate.value = (_el_input_demoToClosedRate.dataset && _el_input_demoToClosedRate.dataset.default !== undefined) ? _el_input_demoToClosedRate.dataset.default : (_el_input_demoToClosedRate.getAttribute('value') || '');
+    var _el_input_averageAcv = document.getElementById('input_averageAcv');
+    _el_input_averageAcv.value = (_el_input_averageAcv.dataset && _el_input_averageAcv.dataset.default !== undefined) ? _el_input_averageAcv.dataset.default : (_el_input_averageAcv.getAttribute('value') || '');
     updateTool();
   }
 
@@ -221,9 +227,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

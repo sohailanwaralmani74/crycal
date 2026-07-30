@@ -117,7 +117,7 @@ faq:
   - question: "What is a target-date fund?"
     answer: "A target-date fund automatically adjusts its asset allocation over time, shifting from aggressive equities to conservative bonds as you approach your target retirement year."
   - question: "How often should asset allocation models be reviewed?"
-    answer: "Review your asset allocation annually or whenever major life events occur (marriage, career changes, birth of a child, approaching retirement)."
+    answer: "You should review your asset allocation annually or whenever major life events occur (marriage, career changes, birth of a child, approaching retirement)."
 ---
 
 # Asset Allocation Calculator - Calculate Return, Yield & Portfolio Risk
@@ -190,5 +190,5 @@ A target-date fund automatically adjusts its asset allocation over time, shiftin
 
 ### How often should asset allocation models be reviewed?
 
-Review your asset allocation annually or whenever major life events occur (marriage, career changes, birth of a child, approaching retirement).
+You should review your asset allocation annually or whenever major life events occur (marriage, career changes, birth of a child, approaching retirement).
 

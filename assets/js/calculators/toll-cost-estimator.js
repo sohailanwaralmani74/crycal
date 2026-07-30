@@ -8,7 +8,7 @@
       vehicle_axles: parseFloat(document.getElementById('input_vehicle_axles').value) || 1.0,
       payment_method: parseFloat(document.getElementById('input_payment_method').value) || 0.75,
       travel_time: parseFloat(document.getElementById('input_travel_time').value) || 1.0
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -52,7 +52,7 @@
       transponder_savings: transponder_savings,
       cash_total: cash_total,
       peak_surcharge: peak_surcharge
-    };
+    }
   }
 
   function updateTool() {
@@ -68,8 +68,7 @@
     var chartData = {
       labels: ['Your Selection', 'Pay-by-Plate / Cash Rate'],
       values: [parseFloat(res.total_cost.toFixed(2)), parseFloat(res.cash_total.toFixed(2))]
-    };
-
+    }
     updateCharts(chartData);
 
     if (typeof window.logHistory === 'function') {

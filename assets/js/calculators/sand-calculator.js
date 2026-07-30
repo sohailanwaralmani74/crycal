@@ -56,8 +56,7 @@
       total50lbBags: total50lbBags,
       totalMaterialCost: totalMaterialCost,
       baggedCost: baggedCost
-    };
-
+    }
     renderChart(lastData);
 
     if (typeof window.logHistory === 'function') {
@@ -132,19 +131,17 @@
       sandType: "paver_sand",
       pricePerTon: 40.00,
       wastePercentage: 10
-    };
+    }
     Object.keys(defaults).forEach(function (key) {
       var el = document.getElementById('input_' + key);
       if (el) el.value = defaults[key];
     });
     calculate();
-  };
-
+  }
   window.switchChartTab = function (tabId) {
     currentTab = tabId;
     if (lastData) renderChart(lastData);
-  };
-
+  }
   document.addEventListener('DOMContentLoaded', function () {
     calculate();
   });

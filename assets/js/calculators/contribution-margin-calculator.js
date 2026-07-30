@@ -74,7 +74,7 @@
       variableCogs: variableCogs,
       variableSm: variableSm,
       variableCs: variableCs
-    };
+    }
     updateCharts(lastChartData);
 
     if (typeof window.logHistory === 'function') {
@@ -119,7 +119,7 @@
           maintainAspectRatio: false,
           plugins: { legend: { position: 'bottom', labels: { color: '#e8edf0' } } }
         }
-      };
+      }
     }
     if (tab === 'variableCostBreakdown') {
       return {
@@ -138,7 +138,7 @@
           plugins: { legend: { display: false } },
           scales: { y: { beginAtZero: true, ticks: { color: '#8899aa' } }, x: { ticks: { color: '#8899aa' } } }
         }
-      };
+      }
     }
     return null;
 
@@ -155,10 +155,14 @@
 
   function resetTool() {
 
-    document.getElementById('input_totalRevenue').value = 150000;
-    document.getElementById('input_variableCogs').value = 22000;
-    document.getElementById('input_variableSm').value = 35000;
-    document.getElementById('input_variableCs').value = 13000;
+    var _el_input_totalRevenue = document.getElementById('input_totalRevenue');
+    _el_input_totalRevenue.value = (_el_input_totalRevenue.dataset && _el_input_totalRevenue.dataset.default !== undefined) ? _el_input_totalRevenue.dataset.default : (_el_input_totalRevenue.getAttribute('value') || '');
+    var _el_input_variableCogs = document.getElementById('input_variableCogs');
+    _el_input_variableCogs.value = (_el_input_variableCogs.dataset && _el_input_variableCogs.dataset.default !== undefined) ? _el_input_variableCogs.dataset.default : (_el_input_variableCogs.getAttribute('value') || '');
+    var _el_input_variableSm = document.getElementById('input_variableSm');
+    _el_input_variableSm.value = (_el_input_variableSm.dataset && _el_input_variableSm.dataset.default !== undefined) ? _el_input_variableSm.dataset.default : (_el_input_variableSm.getAttribute('value') || '');
+    var _el_input_variableCs = document.getElementById('input_variableCs');
+    _el_input_variableCs.value = (_el_input_variableCs.dataset && _el_input_variableCs.dataset.default !== undefined) ? _el_input_variableCs.dataset.default : (_el_input_variableCs.getAttribute('value') || '');
     updateTool();
 
   }
@@ -173,9 +177,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

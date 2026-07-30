@@ -148,17 +148,17 @@ howto:
 
 faq:
   - question: "What is ice & water shield?"
-    answer: "Ice & water shield is a self-adhering rubberized asphalt membrane installed under shingles along eaves, valleys, roof penetrations, and low-slope areas to seal around nails and prevent leaks caused by ice dams or wind-driven rain."
+    answer: "Ice and water shield is a self-adhering rubberized asphalt membrane installed under shingles to seal around nails and prevent leaks caused by ice dams or wind-driven rain."
   - question: "What is the building code requirement for eave ice barrier protection?"
-    answer: "Under International Residential Code (IRC R905.1.2), in areas with a history of ice damming, ice barrier membrane must extend from the eave edge to a point at least 24 inches inside the exterior wall line."
+    answer: "The International Residential Code requires ice barrier membranes in areas with ice damming history to extend from the eave edge to a point at least 24 inches inside the exterior wall line."
   - question: "How many courses (passes) of ice and water shield do I need?"
-    answer: "If horizontal overhang is 18 inches and wall thickness is 6 inches, total depth to reach 24\" inside is 48 inches along the slope. Since standard rolls are 36\" wide (with a 3\" lap overlap = 33\" net), 2 courses are required along the eave."
+    answer: "A roof with an 18-inch overhang and 6-inch wall requires two courses of ice and water shield along the eave to achieve the required 24 inches of interior coverage."
   - question: "How wide is a standard roll of ice and water shield?"
-    answer: "Standard rolls are 36 inches (3 feet) wide and typically come in lengths of 33 feet (100 sq ft roll), 50 feet (150 sq ft roll), or 65 feet (195 sq ft roll)."
+    answer: "Standard ice and water shield rolls measure 36 inches wide and typically come in lengths of 33, 50, or 65 feet."
   - question: "Do you put ice and water shield in roof valleys?"
-    answer: "Yes. Building codes and shingle manufacturers require a 36-inch wide strip of ice and water shield centered down all roof valley seams prior to metal flashing or shingle installation."
+    answer: "Building codes require installers to place a 36-inch wide strip of ice and water shield centered down all roof valley seams before adding metal flashing or shingles."
   - question: "Is ice & water shield required on low-slope roofs?"
-    answer: "Yes. Roofs with slopes between 2:12 and 4:12 pitch require either two layers of felt underlayment or 100% coverage of self-adhering ice & water shield across the entire roof surface."
+    answer: "Roofs with low slopes between 2:12 and 4:12 pitch require 100% coverage of self-adhering ice and water shield across the entire surface."
 ---
 
 # Ice Water Shield Calculator - Calculate Shingles, Squares & Flashing
@@ -175,67 +175,28 @@ Installing self-adhering polymer-modified bitumen membrane seals around shingle 
 
 ---
 
-## Ice & Water Shield Mathematical Formulas
-
-$$\text{Pitch Factor } (M_p) = \sqrt{1 + \left(\frac{\text{Pitch}}{12}\right)^2}$$
-$$\text{Overhang Slope Depth (in)} = \text{Overhang (in)} \times M_p$$
-$$\text{Interior Wall Extension Slope Depth (in)} = 24 \text{ in} \times M_p$$
-$$\text{Required Eave Membrane Width (in)} = \text{Overhang Slope Depth} + \text{Interior Wall Extension Slope Depth}$$
-$$\text{Net Roll Width (in)} = \text{Roll Width (in)} - 3 \text{ in (Lap Overlap)}$$
-$$\text{Eave Courses Needed} = \left\lceil \frac{\text{Required Eave Width (in)}}{\text{Net Roll Width (in)}} \right\rceil$$
-$$\text{Eave Area (sq ft)} = \text{Eave Feet} \times \left(\frac{\text{Eave Courses} \times \text{Roll Width (in)}}{12}\right)$$
-$$\text{Valley Area (sq ft)} = \text{Valley Feet} \times \left(\frac{\text{Roll Width (in)}}{12}\right)$$
-$$\text{Total Gross Sq Ft} = (\text{Eave Sq Ft} + \text{Valley Sq Ft} + \text{Low-Slope Sq Ft}) \times 1.10$$
-$$\text{Rolls Needed} = \left\lceil \frac{\text{Total Gross Sq Ft}}{\text{Roll Sq Ft}} \right\rceil$$
-
----
-
-## Eave Membrane Course Requirements Reference (36" Wide Roll, 3" Overlap = 33" Net Coverage)
-
-| Horizontal Eave Overhang | Roof Pitch | Slope Factor ($M_p$) | Total Slope Width to 24" Past Wall | Required Eave Courses | Eave Area per 100 ft Eave |
-|---|---|---|---|---|---|
-| **12 inches** | 4/12 Pitch | 1.054 | **37.9 inches** | **2 Courses** | 600 sq ft |
-| **16 inches** | 5/12 Pitch | 1.083 | **43.3 inches** | **2 Courses** | 600 sq ft |
-| **18 inches** | 6/12 Pitch | 1.118 | **47.0 inches** | **2 Courses** | 600 sq ft |
-| **24 inches** | 8/12 Pitch | 1.202 | **57.7 inches** | **2 Courses** | 600 sq ft |
-| **30 inches** | 10/12 Pitch | 1.302 | **70.3 inches** | **3 Courses** | 900 sq ft |
-| **36 inches** | 12/12 Pitch | 1.414 | **84.8 inches** | **3 Courses** | 900 sq ft |
-
----
-
-## Step-by-Step Ice Water Shield Calculator Installation
-
-1. **Clean Deck Surface**: Ensure plywood deck sheathing is dry, clean, and free of protruding nails or debris.
-2. **Apply Eave Courses**: Peel split-back release film and roll membrane parallel to eaves, extending 0.25" past drip edge metal.
-3. **Overlap End & Side Laps**: Overlap side courses by at least 3 inches and end laps by 6 inches.
-4. **Center Valley Strips**: Lay continuous 36-inch wide membrane centered down the valley seam before installing metal W-flashing.
-5. **Roll Surface**: Firmly press membrane with a hand roller to activate rubberized asphalt adhesion.
-
----
-
-## Ice Water Shield Calculator Frequently Asked Questions
+## Ice & Water Shield Calculator Frequently Asked Questions
 
 ### What is ice & water shield?
 
-Ice & water shield is a self-adhering rubberized asphalt membrane installed under shingles along eaves, valleys, roof penetrations, and low-slope areas to seal around nails and prevent leaks caused by ice dams or wind-driven rain.
+Ice and water shield is a self-adhering rubberized asphalt membrane installed under shingles to seal around nails and prevent leaks caused by ice dams or wind-driven rain.
 
 ### What is the building code requirement for eave ice barrier protection?
 
-Under International Residential Code (IRC R905.1.2), in areas with a history of ice damming, ice barrier membrane must extend from the eave edge to a point at least 24 inches inside the exterior wall line.
+The International Residential Code requires ice barrier membranes in areas with ice damming history to extend from the eave edge to a point at least 24 inches inside the exterior wall line.
 
 ### How many courses (passes) of ice and water shield do I need?
 
-If horizontal overhang is 18 inches and wall thickness is 6 inches, total depth to reach 24" inside is 48 inches along the slope. Since standard rolls are 36" wide (with a 3" lap overlap = 33" net), 2 courses are required along the eave.
+A roof with an 18-inch overhang and 6-inch wall requires two courses of ice and water shield along the eave to achieve the required 24 inches of interior coverage.
 
 ### How wide is a standard roll of ice and water shield?
 
-Standard rolls are 36 inches (3 feet) wide and typically come in lengths of 33 feet (100 sq ft roll), 50 feet (150 sq ft roll), or 65 feet (195 sq ft roll).
+Standard ice and water shield rolls measure 36 inches wide and typically come in lengths of 33, 50, or 65 feet.
 
 ### Do you put ice and water shield in roof valleys?
 
-Yes. Building codes and shingle manufacturers require a 36-inch wide strip of ice and water shield centered down all roof valley seams prior to metal flashing or shingle installation.
+Building codes require installers to place a 36-inch wide strip of ice and water shield centered down all roof valley seams before adding metal flashing or shingles.
 
 ### Is ice & water shield required on low-slope roofs?
 
-Yes. Roofs with slopes between 2:12 and 4:12 pitch require either two layers of felt underlayment or 100% coverage of self-adhering ice & water shield across the entire roof surface.
-
+Roofs with low slopes between 2:12 and 4:12 pitch require 100% coverage of self-adhering ice and water shield across the entire surface.

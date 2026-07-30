@@ -14,7 +14,7 @@
       investmentAmount: invAmt,
       poolPercent: poolPct,
       founderShares: fShares
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -72,7 +72,7 @@
       effPre: effPre,
       preValuation: pre,
       investmentAmount: inv
-    };
+    }
   }
 
   function updateTool() {
@@ -155,7 +155,7 @@
             x: { ticks: { color: '#8899aa' } }
           }
         }
-      };
+      }
     }
 
     if (tab === 'capTableComparison') {
@@ -199,7 +199,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -223,6 +223,6 @@
   window.switchChartTab = switchChartTab;
 
   document.addEventListener('DOMContentLoaded', function() {
-    setTimeout(function() { updateTool(); }, 150);
+        updateTool();;
   });
 })();

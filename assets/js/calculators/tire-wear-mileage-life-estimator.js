@@ -9,7 +9,7 @@
       utqg_rating: parseFloat(document.getElementById('input_utqg_rating').value) || 500,
       annual_miles: parseFloat(document.getElementById('input_annual_miles').value) || 12000,
       driving_style: parseFloat(document.getElementById('input_driving_style').value) || 1.0
-    };
+    }
   }
 
   function setOutputText(id, text) {
@@ -40,7 +40,7 @@
       months_remaining: months_remaining,
       miles_per_32nd: miles_per_32nd,
       pct_worn: pct_worn
-    };
+    }
   }
 
   function updateTool() {
@@ -56,8 +56,7 @@
     var chartData = {
       labels: ['0 mi (New)', 'Current (' + Math.round(inp.current_odometer) + ' mi)', 'Projected Limit (' + Math.round(res.total_lifespan) + ' mi)'],
       values: [inp.starting_tread, inp.current_tread, 2.0]
-    };
-
+    }
     updateCharts(chartData);
 
     if (typeof window.logHistory === 'function') {

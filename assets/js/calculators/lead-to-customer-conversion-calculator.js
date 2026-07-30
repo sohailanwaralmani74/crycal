@@ -24,7 +24,7 @@
     return {
       leads: parseFloat(document.getElementById('input_total_leads')?.value) || 0,
       customers: parseFloat(document.getElementById('input_new_customers')?.value) || 0
-    };
+    }
   }
 
   function updateTool() {

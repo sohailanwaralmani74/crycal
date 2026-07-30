@@ -23,7 +23,7 @@
     return {
       extraMonthlyPayment: parseFloat(document.getElementById('input_extraMonthlyPayment').value) || 0,
       compoundingFrequency: document.getElementById('input_compoundingFrequency').value
-    };
+    }
   }
 
   // ── Get debts from UI ──
@@ -62,7 +62,7 @@
         payoffDate: null,
         schedule: [],
         payoffOrder: []
-      };
+      }
     }
 
     // Sort by interest rate (highest to lowest)
@@ -81,7 +81,7 @@
         originalBalance: d.balance,
         paidOff: false,
         paidOffMonth: null
-      };
+      }
     });
 
     var totalInterest = 0;
@@ -190,7 +190,7 @@
       payoffDate: payoffDate,
       schedule: schedule,
       payoffOrder: payoffOrder
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -368,7 +368,7 @@
         totalInterest: result.totalInterest,
         totalMonths: result.totalMonths,
         payoffDate: formatDate(result.payoffDate)
-      };
+      }
       window.logHistory(snapshot);
     }
     if (typeof window.renderPresetDropdown === 'function') {
@@ -413,7 +413,7 @@
             title: { display: true, text: 'No debts added yet', font: { size: 14 } }
           }
         }
-      };
+      }
     }
 
     var schedule = result.schedule;
@@ -459,7 +459,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'breakdown') {
@@ -494,7 +494,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'timeline') {
@@ -547,7 +547,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -564,7 +564,8 @@
     debts = defaultDebts.slice();
     debtCounter = debts.length;
     renderDebts();
-    document.getElementById('input_extraMonthlyPayment').value = 100;
+    var _el_input_extraMonthlyPayment = document.getElementById('input_extraMonthlyPayment');
+    _el_input_extraMonthlyPayment.value = (_el_input_extraMonthlyPayment.dataset && _el_input_extraMonthlyPayment.dataset.default !== undefined) ? _el_input_extraMonthlyPayment.dataset.default : (_el_input_extraMonthlyPayment.getAttribute('value') || '');
     if (typeof window.updateTool === 'function') window.updateTool();
   }
 
@@ -593,9 +594,8 @@
       });
     }
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

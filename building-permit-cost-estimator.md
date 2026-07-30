@@ -142,13 +142,13 @@ faq:
   - question: "What is construction project valuation?"
     answer: "Construction valuation is the total estimated fair market cost of materials, labor, overhead, and contractor profit required to complete the project, as declared on building permit applications."
   - question: "Are electrical, plumbing, and HVAC permits included in the main building permit?"
-    answer: "No. Most municipalities require separate trade sub-permits for electrical, plumbing, and mechanical work. Trade permits typically cost 15% to 25% of the main building permit fee, or flat minimum fees of $75 to $150 per trade."
+    answer: "Most municipalities require separate trade sub-permits for electrical, plumbing, and mechanical work, so they are not included in the main building permit. Trade permits typically cost 15% to 25% of the main building permit fee, or flat minimum fees of $75 to $150 per trade."
   - question: "What is a plan review fee?"
     answer: "Plan review fees cover the cost of municipal plan examiners and structural engineers reviewing blueprint drawings for building code compliance before issuing a permit. It is usually assessed as a 25% to 50% surcharge on top of the base permit fee."
   - question: "What happens if I start construction without a building permit?"
     answer: "Starting work without a permit results in Stop Work orders, double or triple permit penalty fines, potential demolition of uninspected work, and severe title complications when selling the property."
   - question: "How long does it take to get a building permit issued?"
-    answer: "Simple over-the-counter permits (roofing, water heaters) are issued same-day. Major residential additions, structural remodels, or new home construction require 2 to 6 weeks for plan review."
+    answer: "Getting a building permit issued takes varying amounts of time depending on the project: simple over-the-counter permits are issued same-day, while major residential additions, structural remodels, or new home construction require 2 to 6 weeks for plan review."
 ---
 
 # Building Permit Cost Estimator - Calculate Project Timeline & Budget
@@ -223,7 +223,7 @@ Construction valuation is the total estimated fair market cost of materials, lab
 
 ### Are electrical, plumbing, and HVAC permits included in the main building permit?
 
-No. Most municipalities require separate trade sub-permits for electrical, plumbing, and mechanical work. Trade permits typically cost 15% to 25% of the main building permit fee, or flat minimum fees of $75 to $150 per trade.
+Most municipalities require separate trade sub-permits for electrical, plumbing, and mechanical work, so they are not included in the main building permit. Trade permits typically cost 15% to 25% of the main building permit fee, or flat minimum fees of $75 to $150 per trade.
 
 ### What is a plan review fee?
 
@@ -235,5 +235,5 @@ Starting work without a permit results in Stop Work orders, double or triple per
 
 ### How long does it take to get a building permit issued?
 
-Simple over-the-counter permits (roofing, water heaters) are issued same-day. Major residential additions, structural remodels, or new home construction require 2 to 6 weeks for plan review.
+Getting a building permit issued takes varying amounts of time depending on the project: simple over-the-counter permits are issued same-day, while major residential additions, structural remodels, or new home construction require 2 to 6 weeks for plan review.
 

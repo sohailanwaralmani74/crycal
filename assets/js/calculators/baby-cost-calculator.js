@@ -9,7 +9,7 @@
       diapersFormulaMonthly: parseFloat(document.getElementById('input_diapersFormulaMonthly').value) || 0,
       nurseryGearOneTime: parseFloat(document.getElementById('input_nurseryGearOneTime').value) || 0,
       outOfPocketMedical: parseFloat(document.getElementById('input_outOfPocketMedical').value) || 0
-    };
+    }
   }
 
   function formatCurrencyLocal(amount) {
@@ -46,7 +46,7 @@
       annualSupplies: annualSupplies,
       totalFirstYear: totalFirstYear,
       avgMonthly: avgMonthly
-    };
+    }
   }
 
   function updateTool() {
@@ -105,7 +105,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'recurringVsOneTime') {
@@ -140,7 +140,7 @@
             y: { stacked: true, beginAtZero: true }
           }
         }
-      };
+      }
     }
 
     return null;

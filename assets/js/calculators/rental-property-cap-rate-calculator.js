@@ -8,7 +8,7 @@
       propertyMarketValue: parseFloat(document.getElementById('input_propertyMarketValue').value) || 0,
       grossAnnualRentalIncome: parseFloat(document.getElementById('input_grossAnnualRentalIncome').value) || 0,
       annualOperatingExpenses: parseFloat(document.getElementById('input_annualOperatingExpenses').value) || 0
-    };
+    }
   }
 
   function formatCurrencyLocal(amount) {
@@ -49,7 +49,7 @@
       capRate: capRate,
       gross: gross,
       exp: exp
-    };
+    }
   }
 
   function updateTool() {
@@ -108,7 +108,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'capRate') {
@@ -133,7 +133,7 @@
             y: { beginAtZero: true }
           }
         }
-      };
+      }
     }
 
     return null;

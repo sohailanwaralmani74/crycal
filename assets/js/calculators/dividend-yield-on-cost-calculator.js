@@ -16,7 +16,7 @@
       sharesHeld: sharesHeld,
       annualDividendPerShare: annualDividendPerShare,
       dividendGrowthRate: dividendGrowthRate / 100
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -64,7 +64,7 @@
         yieldDifference: 0,
         projectedIncome: 0,
         error: 'Enter valid values (price > 0, shares > 0, dividend > 0)'
-      };
+      }
     }
 
     var totalInvestment = purchasePrice * shares;
@@ -89,7 +89,7 @@
       yieldDifference: yieldDifference,
       projectedIncome: projectedIncome,
       error: null
-    };
+    }
   }
 
   // ── Main Update ──
@@ -140,7 +140,7 @@
       sharesHeld: inputs.sharesHeld,
       dividend: inputs.annualDividendPerShare,
       growthRate: inputs.dividendGrowthRate
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -280,7 +280,7 @@
             mode: 'index'
           }
         }
-      };
+      }
     }
 
     if (tab === 'comparison') {
@@ -327,7 +327,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'breakdown') {
@@ -363,7 +363,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -381,10 +381,14 @@
 
   // ── Reset Tool ──
   function resetTool() {
-    document.getElementById('input_purchasePrice').value = 50.00;
-    document.getElementById('input_sharesHeld').value = 100;
-    document.getElementById('input_annualDividendPerShare').value = 2.00;
-    document.getElementById('input_dividendGrowthRate').value = 5.0;
+    var _el_input_purchasePrice = document.getElementById('input_purchasePrice');
+    _el_input_purchasePrice.value = (_el_input_purchasePrice.dataset && _el_input_purchasePrice.dataset.default !== undefined) ? _el_input_purchasePrice.dataset.default : (_el_input_purchasePrice.getAttribute('value') || '');
+    var _el_input_sharesHeld = document.getElementById('input_sharesHeld');
+    _el_input_sharesHeld.value = (_el_input_sharesHeld.dataset && _el_input_sharesHeld.dataset.default !== undefined) ? _el_input_sharesHeld.dataset.default : (_el_input_sharesHeld.getAttribute('value') || '');
+    var _el_input_annualDividendPerShare = document.getElementById('input_annualDividendPerShare');
+    _el_input_annualDividendPerShare.value = (_el_input_annualDividendPerShare.dataset && _el_input_annualDividendPerShare.dataset.default !== undefined) ? _el_input_annualDividendPerShare.dataset.default : (_el_input_annualDividendPerShare.getAttribute('value') || '');
+    var _el_input_dividendGrowthRate = document.getElementById('input_dividendGrowthRate');
+    _el_input_dividendGrowthRate.value = (_el_input_dividendGrowthRate.dataset && _el_input_dividendGrowthRate.dataset.default !== undefined) ? _el_input_dividendGrowthRate.dataset.default : (_el_input_dividendGrowthRate.getAttribute('value') || '');
     updateTool();
   }
 
@@ -400,9 +404,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

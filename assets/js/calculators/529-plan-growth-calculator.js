@@ -17,7 +17,7 @@
       annualReturn: annualReturn / 100,
       yearsUntilCollege: yearsUntilCollege,
       stateTaxDeductionRate: stateTaxDeductionRate / 100
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -102,7 +102,7 @@
       totalTaxSavings: totalTaxSavings,
       dataPoints: dataPoints,
       error: null
-    };
+    }
   }
 
   function updateTool() {
@@ -135,7 +135,7 @@
       projectedBalance: result.projectedBalance,
       totalGrowth: result.totalGrowth,
       totalContributions: result.totalContributions
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -207,7 +207,7 @@
           },
           interaction: { intersect: false, mode: 'index' }
         }
-      };
+      }
     }
 
     if (tab === 'breakdown') {
@@ -228,7 +228,7 @@
             title: { display: true, text: 'Contributions vs Growth', font: { size: 14, color: '#e8edf0' } }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -244,11 +244,16 @@
   }
 
   function resetTool() {
-    document.getElementById('input_currentBalance').value = 5000;
-    document.getElementById('input_monthlyContribution').value = 250;
-    document.getElementById('input_annualReturn').value = 6;
-    document.getElementById('input_yearsUntilCollege').value = 15;
-    document.getElementById('input_stateTaxDeductionRate').value = 0;
+    var _el_input_currentBalance = document.getElementById('input_currentBalance');
+    _el_input_currentBalance.value = (_el_input_currentBalance.dataset && _el_input_currentBalance.dataset.default !== undefined) ? _el_input_currentBalance.dataset.default : (_el_input_currentBalance.getAttribute('value') || '');
+    var _el_input_monthlyContribution = document.getElementById('input_monthlyContribution');
+    _el_input_monthlyContribution.value = (_el_input_monthlyContribution.dataset && _el_input_monthlyContribution.dataset.default !== undefined) ? _el_input_monthlyContribution.dataset.default : (_el_input_monthlyContribution.getAttribute('value') || '');
+    var _el_input_annualReturn = document.getElementById('input_annualReturn');
+    _el_input_annualReturn.value = (_el_input_annualReturn.dataset && _el_input_annualReturn.dataset.default !== undefined) ? _el_input_annualReturn.dataset.default : (_el_input_annualReturn.getAttribute('value') || '');
+    var _el_input_yearsUntilCollege = document.getElementById('input_yearsUntilCollege');
+    _el_input_yearsUntilCollege.value = (_el_input_yearsUntilCollege.dataset && _el_input_yearsUntilCollege.dataset.default !== undefined) ? _el_input_yearsUntilCollege.dataset.default : (_el_input_yearsUntilCollege.getAttribute('value') || '');
+    var _el_input_stateTaxDeductionRate = document.getElementById('input_stateTaxDeductionRate');
+    _el_input_stateTaxDeductionRate.value = (_el_input_stateTaxDeductionRate.dataset && _el_input_stateTaxDeductionRate.dataset.default !== undefined) ? _el_input_stateTaxDeductionRate.dataset.default : (_el_input_stateTaxDeductionRate.getAttribute('value') || '');
     updateTool();
   }
 
@@ -262,9 +267,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

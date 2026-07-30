@@ -25,7 +25,7 @@
       usage: parseFloat(document.getElementById('input_product_usage')?.value) || 0,
       support: parseFloat(document.getElementById('input_support_tickets')?.value) || 0,
       feedback: parseFloat(document.getElementById('input_customer_feedback')?.value) || 0
-    };
+    }
   }
 
   function updateTool() {

@@ -13,8 +13,7 @@
     'quarterly': 4,
     'semi-annually': 2,
     'annually': 1
-  };
-
+  }
   var COMPOUNDING_LABELS = {
     'daily': 'Daily (365x/year)',
     'weekly': 'Weekly (52x/year)',
@@ -23,8 +22,7 @@
     'quarterly': 'Quarterly (4x/year)',
     'semi-annually': 'Semi-Annually (2x/year)',
     'annually': 'Annually (1x/year)'
-  };
-
+  }
   // ── Get Inputs ──
   function getInputs() {
     var calculationType = document.getElementById('input_calculationType').value;
@@ -35,7 +33,7 @@
       calculationType: calculationType,
       rate: rate / 100,
       compoundingFrequency: compoundingFrequency
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -84,7 +82,7 @@
         formula: 'APY = (1 + APR ÷ n)^n − 1',
         explanation: 'APR of ' + formatPercentShort(rate) + ' compounded ' + COMPOUNDING_LABELS[freq] + ' results in APY of ' + formatPercentShort(apy) + '. The difference is ' + formatPercentShort(difference) + '.',
         direction: 'apr-to-apy'
-      };
+      }
     } else {
       // APY → APR
       var apr = n * (Math.pow(1 + rate, 1 / n) - 1);
@@ -98,7 +96,7 @@
         formula: 'APR = n × ((1 + APY)^(1/n) − 1)',
         explanation: 'APY of ' + formatPercentShort(rate) + ' compounded ' + COMPOUNDING_LABELS[freq] + ' results in APR of ' + formatPercentShort(apr) + '. The difference is ' + formatPercentShort(difference) + '.',
         direction: 'apy-to-apr'
-      };
+      }
     }
 
     return result;
@@ -146,7 +144,7 @@
       effectiveRate: result.effectiveRate,
       rateDifference: result.rateDifference,
       direction: result.direction
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -232,7 +230,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -251,7 +249,8 @@
   // ── Reset Tool ──
   function resetTool() {
     document.getElementById('input_calculationType').value = 'apr-to-apy';
-    document.getElementById('input_rate').value = 6.0;
+    var _el_input_rate = document.getElementById('input_rate');
+    _el_input_rate.value = (_el_input_rate.dataset && _el_input_rate.dataset.default !== undefined) ? _el_input_rate.dataset.default : (_el_input_rate.getAttribute('value') || '');
     document.getElementById('input_compoundingFrequency').value = 'monthly';
     updateTool();
   }
@@ -268,9 +267,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

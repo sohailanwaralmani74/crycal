@@ -171,12 +171,19 @@ howto:
 
 faq:
   - question: "What is the difference between running watts and starting surge watts?"
+    answer: "Running watts refer to the continuous electrical power required to keep an appliance operating. Starting surge watts represent the brief 2- to 3-second power spike needed by electric motors to break static friction and start spinning."
   - question: "Why do electric motors require starting surge wattage?"
+    answer: "Electric motors require starting surge wattage because their magnetic rotor field collapses when stopped. Upon starting, the stationary motor draws a brief inrush current of up to 300% to 500% of its normal operating power to overcome static resistance."
   - question: "What size generator is needed to run a 3.5 ton central air conditioner?"
+    answer: "A 3.5-ton central air conditioner requires a minimum 14kW to 18kW standby generator to handle its 5,000 running watts and up to 13,500 starting surge watts alongside other household essentials. You can also install a Soft Start kit to reduce this surge demand by 60% to 70%."
   - question: "Can a 7,500 watt portable generator power a whole house?"
+    answer: "A 7,500-watt running portable generator can power essential circuits like a refrigerator, sump pump, gas furnace, lights, and microwave. However, it cannot simultaneously run large electrical loads like electric water heaters or central AC systems."
   - question: "When should I choose a standby generator over a portable generator?"
+    answer: "You should choose a 14kW to 26kW standby generator if you want automatic startup within 10 seconds of a blackout, direct utility gas hookup to avoid gasoline refueling, and full whole-house cooling."
   - question: "What size transfer switch do I need for my generator?"
+    answer: "Portable 5kW to 12kW generators require a 30A or 50A manual transfer switch with a 4-prong NEMA inlet box. Whole-house standby generators require a 100A or 200A automatic transfer switch."
   - question: "Is my personal data saved when using this calculator?"
+    answer: "All calculations run locally in your browser, ensuring your personal data is never saved or transmitted to our servers."
 
 ---
 
@@ -251,25 +258,29 @@ Where:
 
 ### What is the difference between running watts and starting surge watts?
 
-Running (continuous) watts is the electrical power required to keep an appliance operating. Starting (surge) watts is the brief 2 to 3 second power spike required by electric motor rotors to break static friction and get spinning.
+Running watts refer to the continuous electrical power required to keep an appliance operating. Starting surge watts represent the brief 2- to 3-second power spike needed by electric motors to break static friction and start spinning.
 
 ### Why do electric motors require starting surge wattage?
 
-When an electric motor stops, its magnetic rotor field collapses. Upon starting, the stationary motor acts almost as a direct short circuit for a fraction of a second, drawing up to 300% to 500% of its normal operating current (inrush current).
+Electric motors require starting surge wattage because their magnetic rotor field collapses when stopped. Upon starting, the stationary motor draws a brief inrush current of up to 300% to 500% of its normal operating power to overcome static resistance.
 
 ### What size generator is needed to run a 3.5 ton central air conditioner?
 
-A 3.5 ton central AC requires approx 5,000 running watts and up to 13,500 starting surge watts. Combined with household refrigerators and lights, you need a minimum **14kW to 18kW standby generator** (or install a Soft Start kit on the compressor to reduce surge by 60–70%).
+A 3.5-ton central air conditioner requires a minimum 14kW to 18kW standby generator to handle its 5,000 running watts and up to 13,500 starting surge watts alongside other household essentials. You can also install a Soft Start kit to reduce this surge demand by 60% to 70%.
 
 ### Can a 7,500 watt portable generator power a whole house?
 
-A 7,500W running / 9,500W surge portable generator can easily run essential household circuits (refrigerator, sump pump, gas furnace, lights, TV, and microwave), but cannot run large electric water heaters or 4-ton central AC systems simultaneously.
+A 7,500-watt running portable generator can power essential circuits like a refrigerator, sump pump, gas furnace, lights, and microwave. However, it cannot simultaneously run large electrical loads like electric water heaters or central AC systems.
 
 ### When should I choose a standby generator over a portable generator?
 
-Choose a standby generator (Generac, Kohler, Briggs & Stratton 14kW–26kW) if you want automatic hands-free startup within 10 seconds of a blackout, direct utility gas hookup (no gasoline refueling), and full whole-house AC cooling.
+You should choose a 14kW to 26kW standby generator if you want automatic startup within 10 seconds of a blackout, direct utility gas hookup to avoid gasoline refueling, and full whole-house cooling.
 
 ### What size transfer switch do I need for my generator?
 
-For portable generators (5kW–12kW), a 30A or 50A manual transfer switch with a 4-prong NEMA L14-30 or CS6365 inlet box is standard. Whole-house standby generators utilize a 100A or 200A automatic transfer switch (ATS).
+Portable 5kW to 12kW generators require a 30A or 50A manual transfer switch with a 4-prong NEMA inlet box. Whole-house standby generators require a 100A or 200A automatic transfer switch.
+
+### Is my personal data saved when using this calculator?
+
+All calculations run locally in your browser, ensuring your personal data is never saved or transmitted to our servers.
 

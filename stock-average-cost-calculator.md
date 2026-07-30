@@ -114,7 +114,7 @@ howto:
 
 faq:
   - question: "How is weighted average cost per share calculated?"
-    answer: "Add the total dollars spent across all buy orders and divide by the total number of shares purchased."
+    answer: "To calculate the weighted average cost per share, add the total dollars spent across all buy orders and divide by the total number of shares purchased."
   - question: "What is Dollar-Cost Averaging (DCA)?"
     answer: "Dollar-cost averaging is an investment strategy where you invest equal dollar amounts at regular intervals, buying more shares when prices are low and fewer when prices are high."
   - question: "How does averaging down help investors?"
@@ -122,9 +122,9 @@ faq:
   - question: "What is the difference between simple average price and weighted average price?"
     answer: "A simple average adds prices together and divides by purchase count. A weighted average factors in share quantities, providing the exact true cost basis per share."
   - question: "Does stock cost basis affect capital gains tax when selling?"
-    answer: "Yes! Your cost basis determines your taxable gain or loss upon sale. Tax accounting methods include FIFO (First In, First Out), LIFO, and Specific Identification."
+    answer: "Your stock cost basis determines your taxable gain or loss upon sale. Tax accounting methods include FIFO (First In, First Out), LIFO, and Specific Identification."
   - question: "Can this calculator be used for cryptocurrency purchases?"
-    answer: "Yes! The weighted average cost math applies identically to stocks, ETFs, mutual funds, and cryptocurrencies."
+    answer: "You can use this calculator for cryptocurrency purchases because the weighted average cost math applies identically to stocks, ETFs, mutual funds, and cryptocurrencies."
 ---
 
 # Stock Average Cost Calculator - Calculate Return, Yield & Portfolio Risk
@@ -177,7 +177,7 @@ Using this interactive calculation engine provides a clear, quantitative roadmap
 
 ### How is weighted average cost per share calculated?
 
-Add the total dollars spent across all buy orders and divide by the total number of shares purchased.
+To calculate the weighted average cost per share, add the total dollars spent across all buy orders and divide by the total number of shares purchased.
 
 ### What is Dollar-Cost Averaging (DCA)?
 
@@ -193,9 +193,9 @@ A simple average adds prices together and divides by purchase count. A weighted 
 
 ### Does stock cost basis affect capital gains tax when selling?
 
-Yes! Your cost basis determines your taxable gain or loss upon sale. Tax accounting methods include FIFO (First In, First Out), LIFO, and Specific Identification.
+Your stock cost basis determines your taxable gain or loss upon sale. Tax accounting methods include FIFO (First In, First Out), LIFO, and Specific Identification.
 
 ### Can this calculator be used for cryptocurrency purchases?
 
-Yes! The weighted average cost math applies identically to stocks, ETFs, mutual funds, and cryptocurrencies.
+You can use this calculator for cryptocurrency purchases because the weighted average cost math applies identically to stocks, ETFs, mutual funds, and cryptocurrencies.
 

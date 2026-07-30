@@ -24,7 +24,7 @@
     return {
       churnedPool: parseFloat(document.getElementById('input_total_churned_pool')?.value) || 0,
       reactivated: parseFloat(document.getElementById('input_reactivated_customers')?.value) || 0
-    };
+    }
   }
 
   function updateTool() {

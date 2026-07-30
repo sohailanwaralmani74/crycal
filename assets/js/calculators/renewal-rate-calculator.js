@@ -13,7 +13,7 @@
       renewedContractsCount: parseFloat(document.getElementById('input_renewedContractsCount').value) || 0,
       expiringContractsValue: parseFloat(document.getElementById('input_expiringContractsValue').value) || 0,
       renewedContractsValue: parseFloat(document.getElementById('input_renewedContractsValue').value) || 0
-    };
+    }
   }
 
   function formatCurrency(amount) {

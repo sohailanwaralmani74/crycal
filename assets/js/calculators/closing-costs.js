@@ -23,7 +23,7 @@
       homeownersInsurance: parseFloat(document.getElementById('input_homeownersInsurance').value) || 0,
       propertyTaxEscrow: parseFloat(document.getElementById('input_propertyTaxEscrow').value) || 0,
       otherClosingCosts: parseFloat(document.getElementById('input_otherClosingCosts').value) || 0
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -88,7 +88,7 @@
         loanAmount: inputs.loanAmount,
         totalClosingCosts: totalClosingCosts,
         percentOfLoan: percentOfLoan.toFixed(2)
-      };
+      }
       window.logHistory(snapshot);
     }
     if (typeof window.renderPresetDropdown === 'function') {
@@ -143,7 +143,7 @@
               title: { display: true, text: 'No closing costs entered', font: { size: 14 } }
             }
           }
-        };
+        }
       }
 
       return {
@@ -176,7 +176,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'comparison') {
@@ -212,7 +212,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -226,18 +226,30 @@
 
   // ── Reset Tool ──
   function resetTool() {
-    document.getElementById('input_loanAmount').value = 300000;
-    document.getElementById('input_originationFee').value = 1500;
-    document.getElementById('input_appraisalFee').value = 500;
-    document.getElementById('input_titleInsurance').value = 2000;
-    document.getElementById('input_escrowFees').value = 800;
-    document.getElementById('input_recordingFees').value = 300;
-    document.getElementById('input_inspectionFees').value = 400;
-    document.getElementById('input_surveyFee').value = 250;
-    document.getElementById('input_prepaidInterest').value = 500;
-    document.getElementById('input_homeownersInsurance').value = 1200;
-    document.getElementById('input_propertyTaxEscrow').value = 1500;
-    document.getElementById('input_otherClosingCosts').value = 0;
+    var _el_input_loanAmount = document.getElementById('input_loanAmount');
+    _el_input_loanAmount.value = (_el_input_loanAmount.dataset && _el_input_loanAmount.dataset.default !== undefined) ? _el_input_loanAmount.dataset.default : (_el_input_loanAmount.getAttribute('value') || '');
+    var _el_input_originationFee = document.getElementById('input_originationFee');
+    _el_input_originationFee.value = (_el_input_originationFee.dataset && _el_input_originationFee.dataset.default !== undefined) ? _el_input_originationFee.dataset.default : (_el_input_originationFee.getAttribute('value') || '');
+    var _el_input_appraisalFee = document.getElementById('input_appraisalFee');
+    _el_input_appraisalFee.value = (_el_input_appraisalFee.dataset && _el_input_appraisalFee.dataset.default !== undefined) ? _el_input_appraisalFee.dataset.default : (_el_input_appraisalFee.getAttribute('value') || '');
+    var _el_input_titleInsurance = document.getElementById('input_titleInsurance');
+    _el_input_titleInsurance.value = (_el_input_titleInsurance.dataset && _el_input_titleInsurance.dataset.default !== undefined) ? _el_input_titleInsurance.dataset.default : (_el_input_titleInsurance.getAttribute('value') || '');
+    var _el_input_escrowFees = document.getElementById('input_escrowFees');
+    _el_input_escrowFees.value = (_el_input_escrowFees.dataset && _el_input_escrowFees.dataset.default !== undefined) ? _el_input_escrowFees.dataset.default : (_el_input_escrowFees.getAttribute('value') || '');
+    var _el_input_recordingFees = document.getElementById('input_recordingFees');
+    _el_input_recordingFees.value = (_el_input_recordingFees.dataset && _el_input_recordingFees.dataset.default !== undefined) ? _el_input_recordingFees.dataset.default : (_el_input_recordingFees.getAttribute('value') || '');
+    var _el_input_inspectionFees = document.getElementById('input_inspectionFees');
+    _el_input_inspectionFees.value = (_el_input_inspectionFees.dataset && _el_input_inspectionFees.dataset.default !== undefined) ? _el_input_inspectionFees.dataset.default : (_el_input_inspectionFees.getAttribute('value') || '');
+    var _el_input_surveyFee = document.getElementById('input_surveyFee');
+    _el_input_surveyFee.value = (_el_input_surveyFee.dataset && _el_input_surveyFee.dataset.default !== undefined) ? _el_input_surveyFee.dataset.default : (_el_input_surveyFee.getAttribute('value') || '');
+    var _el_input_prepaidInterest = document.getElementById('input_prepaidInterest');
+    _el_input_prepaidInterest.value = (_el_input_prepaidInterest.dataset && _el_input_prepaidInterest.dataset.default !== undefined) ? _el_input_prepaidInterest.dataset.default : (_el_input_prepaidInterest.getAttribute('value') || '');
+    var _el_input_homeownersInsurance = document.getElementById('input_homeownersInsurance');
+    _el_input_homeownersInsurance.value = (_el_input_homeownersInsurance.dataset && _el_input_homeownersInsurance.dataset.default !== undefined) ? _el_input_homeownersInsurance.dataset.default : (_el_input_homeownersInsurance.getAttribute('value') || '');
+    var _el_input_propertyTaxEscrow = document.getElementById('input_propertyTaxEscrow');
+    _el_input_propertyTaxEscrow.value = (_el_input_propertyTaxEscrow.dataset && _el_input_propertyTaxEscrow.dataset.default !== undefined) ? _el_input_propertyTaxEscrow.dataset.default : (_el_input_propertyTaxEscrow.getAttribute('value') || '');
+    var _el_input_otherClosingCosts = document.getElementById('input_otherClosingCosts');
+    _el_input_otherClosingCosts.value = (_el_input_otherClosingCosts.dataset && _el_input_otherClosingCosts.dataset.default !== undefined) ? _el_input_otherClosingCosts.dataset.default : (_el_input_otherClosingCosts.getAttribute('value') || '');
     if (typeof window.updateTool === 'function') window.updateTool();
   }
 
@@ -252,9 +264,8 @@
       var defaultVal = el.dataset.default || el.getAttribute('value') || '';
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
     var picker = document.getElementById('baseCurrency');
     if (picker) {
       picker.addEventListener('change', function() {

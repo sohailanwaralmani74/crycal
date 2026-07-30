@@ -15,7 +15,7 @@
       finalValue: parseFloat(document.getElementById('input_finalValue').value) || 0,
       years: parseFloat(document.getElementById('input_years').value) || 0,
       compoundingFrequency: document.getElementById('input_compoundingFrequency').value || 'annually'
-    };
+    }
   }
 
   // ── Get compounding periods per year ──
@@ -26,7 +26,7 @@
       'quarterly': 4,
       'semi-annually': 2,
       'annually': 1
-    };
+    }
     return map[frequency] || 1;
   }
 
@@ -114,7 +114,7 @@
         years: years,
         cagr: cagr,
         totalReturn: totalReturn
-      };
+      }
       window.logHistory(snapshot);
     }
     if (typeof window.renderPresetDropdown === 'function') {
@@ -173,7 +173,7 @@
               }
             }
           }
-        };
+        }
       }
 
       var labels = yearData.map(function(d) { return d.year.toFixed(1); });
@@ -216,7 +216,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -230,9 +230,12 @@
 
   // ── Reset Tool ──
   function resetTool() {
-    document.getElementById('input_initialValue').value = 10000;
-    document.getElementById('input_finalValue').value = 18000;
-    document.getElementById('input_years').value = 5;
+    var _el_input_initialValue = document.getElementById('input_initialValue');
+    _el_input_initialValue.value = (_el_input_initialValue.dataset && _el_input_initialValue.dataset.default !== undefined) ? _el_input_initialValue.dataset.default : (_el_input_initialValue.getAttribute('value') || '');
+    var _el_input_finalValue = document.getElementById('input_finalValue');
+    _el_input_finalValue.value = (_el_input_finalValue.dataset && _el_input_finalValue.dataset.default !== undefined) ? _el_input_finalValue.dataset.default : (_el_input_finalValue.getAttribute('value') || '');
+    var _el_input_years = document.getElementById('input_years');
+    _el_input_years.value = (_el_input_years.dataset && _el_input_years.dataset.default !== undefined) ? _el_input_years.dataset.default : (_el_input_years.getAttribute('value') || '');
     document.getElementById('input_compoundingFrequency').value = 'annually';
     if (typeof window.updateTool === 'function') window.updateTool();
   }
@@ -248,9 +251,8 @@
       var defaultVal = el.dataset.default || el.getAttribute('value') || '';
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
     var picker = document.getElementById('baseCurrency');
     if (picker) {
       picker.addEventListener('change', function() {

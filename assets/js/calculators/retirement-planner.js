@@ -46,7 +46,7 @@
       socialSecurity: socialSecurity,
       otherIncome: otherIncome,
       inflationAdjustment: inflationAdjustment
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -242,8 +242,7 @@
       'Withdrawal from Savings': retirementIncome,
       'Social Security / Pension': socialSecurity,
       'Other Income': otherIncome
-    };
-
+    }
     var status = '';
     if (shortfall >= 0) {
       var surplusPercent = (shortfall / afterTaxExpenses) * 100;
@@ -285,7 +284,7 @@
       income: income,
       savings: savings,
       swr: swr
-    };
+    }
   }
 
   // ── Main Update ──
@@ -377,7 +376,7 @@
       shortfall: result.shortfall,
       progressToFire: result.progressToFire,
       fireNumber: result.fireNumber
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -447,7 +446,7 @@
           },
           interaction: { intersect: false, mode: 'index' }
         }
-      };
+      }
     }
 
     if (tab === 'income') {
@@ -479,7 +478,7 @@
           },
           interaction: { intersect: false, mode: 'index' }
         }
-      };
+      }
     }
 
     if (tab === 'breakdown') {
@@ -505,7 +504,7 @@
             title: { display: true, text: 'Retirement Income Sources', font: { size: 14, color: '#e8edf0' } }
           }
         }
-      };
+      }
     }
 
     if (tab === 'depletion') {
@@ -542,7 +541,7 @@
           },
           interaction: { intersect: false, mode: 'index' }
         }
-      };
+      }
     }
 
     return null;
@@ -560,21 +559,36 @@
 
   // ── Reset Tool ──
   function resetTool() {
-    document.getElementById('input_currentAge').value = 35;
-    document.getElementById('input_retirementAge').value = 65;
-    document.getElementById('input_currentAnnualIncome').value = 80000;
-    document.getElementById('input_currentSavings').value = 50000;
-    document.getElementById('input_annualContribution').value = 10000;
-    document.getElementById('input_employerMatch').value = 5.0;
-    document.getElementById('input_expectedReturn').value = 7.0;
-    document.getElementById('input_inflationRate').value = 2.5;
-    document.getElementById('input_retirementExpenses').value = 50000;
-    document.getElementById('input_currentTaxRate').value = 22.0;
-    document.getElementById('input_retirementTaxRate').value = 15.0;
-    document.getElementById('input_safeWithdrawalRate').value = 4.0;
-    document.getElementById('input_lifeExpectancy').value = 90;
-    document.getElementById('input_socialSecurity').value = 0;
-    document.getElementById('input_otherIncome').value = 0;
+    var _el_input_currentAge = document.getElementById('input_currentAge');
+    _el_input_currentAge.value = (_el_input_currentAge.dataset && _el_input_currentAge.dataset.default !== undefined) ? _el_input_currentAge.dataset.default : (_el_input_currentAge.getAttribute('value') || '');
+    var _el_input_retirementAge = document.getElementById('input_retirementAge');
+    _el_input_retirementAge.value = (_el_input_retirementAge.dataset && _el_input_retirementAge.dataset.default !== undefined) ? _el_input_retirementAge.dataset.default : (_el_input_retirementAge.getAttribute('value') || '');
+    var _el_input_currentAnnualIncome = document.getElementById('input_currentAnnualIncome');
+    _el_input_currentAnnualIncome.value = (_el_input_currentAnnualIncome.dataset && _el_input_currentAnnualIncome.dataset.default !== undefined) ? _el_input_currentAnnualIncome.dataset.default : (_el_input_currentAnnualIncome.getAttribute('value') || '');
+    var _el_input_currentSavings = document.getElementById('input_currentSavings');
+    _el_input_currentSavings.value = (_el_input_currentSavings.dataset && _el_input_currentSavings.dataset.default !== undefined) ? _el_input_currentSavings.dataset.default : (_el_input_currentSavings.getAttribute('value') || '');
+    var _el_input_annualContribution = document.getElementById('input_annualContribution');
+    _el_input_annualContribution.value = (_el_input_annualContribution.dataset && _el_input_annualContribution.dataset.default !== undefined) ? _el_input_annualContribution.dataset.default : (_el_input_annualContribution.getAttribute('value') || '');
+    var _el_input_employerMatch = document.getElementById('input_employerMatch');
+    _el_input_employerMatch.value = (_el_input_employerMatch.dataset && _el_input_employerMatch.dataset.default !== undefined) ? _el_input_employerMatch.dataset.default : (_el_input_employerMatch.getAttribute('value') || '');
+    var _el_input_expectedReturn = document.getElementById('input_expectedReturn');
+    _el_input_expectedReturn.value = (_el_input_expectedReturn.dataset && _el_input_expectedReturn.dataset.default !== undefined) ? _el_input_expectedReturn.dataset.default : (_el_input_expectedReturn.getAttribute('value') || '');
+    var _el_input_inflationRate = document.getElementById('input_inflationRate');
+    _el_input_inflationRate.value = (_el_input_inflationRate.dataset && _el_input_inflationRate.dataset.default !== undefined) ? _el_input_inflationRate.dataset.default : (_el_input_inflationRate.getAttribute('value') || '');
+    var _el_input_retirementExpenses = document.getElementById('input_retirementExpenses');
+    _el_input_retirementExpenses.value = (_el_input_retirementExpenses.dataset && _el_input_retirementExpenses.dataset.default !== undefined) ? _el_input_retirementExpenses.dataset.default : (_el_input_retirementExpenses.getAttribute('value') || '');
+    var _el_input_currentTaxRate = document.getElementById('input_currentTaxRate');
+    _el_input_currentTaxRate.value = (_el_input_currentTaxRate.dataset && _el_input_currentTaxRate.dataset.default !== undefined) ? _el_input_currentTaxRate.dataset.default : (_el_input_currentTaxRate.getAttribute('value') || '');
+    var _el_input_retirementTaxRate = document.getElementById('input_retirementTaxRate');
+    _el_input_retirementTaxRate.value = (_el_input_retirementTaxRate.dataset && _el_input_retirementTaxRate.dataset.default !== undefined) ? _el_input_retirementTaxRate.dataset.default : (_el_input_retirementTaxRate.getAttribute('value') || '');
+    var _el_input_safeWithdrawalRate = document.getElementById('input_safeWithdrawalRate');
+    _el_input_safeWithdrawalRate.value = (_el_input_safeWithdrawalRate.dataset && _el_input_safeWithdrawalRate.dataset.default !== undefined) ? _el_input_safeWithdrawalRate.dataset.default : (_el_input_safeWithdrawalRate.getAttribute('value') || '');
+    var _el_input_lifeExpectancy = document.getElementById('input_lifeExpectancy');
+    _el_input_lifeExpectancy.value = (_el_input_lifeExpectancy.dataset && _el_input_lifeExpectancy.dataset.default !== undefined) ? _el_input_lifeExpectancy.dataset.default : (_el_input_lifeExpectancy.getAttribute('value') || '');
+    var _el_input_socialSecurity = document.getElementById('input_socialSecurity');
+    _el_input_socialSecurity.value = (_el_input_socialSecurity.dataset && _el_input_socialSecurity.dataset.default !== undefined) ? _el_input_socialSecurity.dataset.default : (_el_input_socialSecurity.getAttribute('value') || '');
+    var _el_input_otherIncome = document.getElementById('input_otherIncome');
+    _el_input_otherIncome.value = (_el_input_otherIncome.dataset && _el_input_otherIncome.dataset.default !== undefined) ? _el_input_otherIncome.dataset.default : (_el_input_otherIncome.getAttribute('value') || '');
     document.getElementById('input_inflationAdjustment').value = 'expenses';
     updateTool();
   }
@@ -593,9 +607,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

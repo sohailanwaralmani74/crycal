@@ -16,7 +16,7 @@
       currentHeadcount: currentHeadcount,
       avgSalaryPerHire: avgSalaryPerHire,
       arrPerEmployeeTarget: arrPerEmployeeTarget
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -64,7 +64,7 @@
       projectedArrGrowth: projectedArrGrowth,
       currentHeadcount: currentHeadcount,
       error: null
-    };
+    }
   }
 
   function updateTool() {
@@ -91,7 +91,7 @@
       newHiresNeeded: result.newHiresNeeded,
       totalFutureHeadcount: result.totalFutureHeadcount,
       additionalPayrollOpex: result.additionalPayrollOpex
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -148,7 +148,7 @@
             x: { ticks: { color: '#8899aa' } }
           }
         }
-      };
+      }
     }
 
     if (tab === 'opex') {
@@ -179,7 +179,7 @@
             x: { ticks: { color: '#8899aa' } }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -192,11 +192,16 @@
   }
 
   function resetTool() {
-    document.getElementById('input_currentArr').value = 3000000;
-    document.getElementById('input_targetArr').value = 6000000;
-    document.getElementById('input_currentHeadcount').value = 18;
-    document.getElementById('input_avgSalaryPerHire').value = 140000;
-    document.getElementById('input_arrPerEmployeeTarget').value = 180000;
+    var _el_input_currentArr = document.getElementById('input_currentArr');
+    _el_input_currentArr.value = (_el_input_currentArr.dataset && _el_input_currentArr.dataset.default !== undefined) ? _el_input_currentArr.dataset.default : (_el_input_currentArr.getAttribute('value') || '');
+    var _el_input_targetArr = document.getElementById('input_targetArr');
+    _el_input_targetArr.value = (_el_input_targetArr.dataset && _el_input_targetArr.dataset.default !== undefined) ? _el_input_targetArr.dataset.default : (_el_input_targetArr.getAttribute('value') || '');
+    var _el_input_currentHeadcount = document.getElementById('input_currentHeadcount');
+    _el_input_currentHeadcount.value = (_el_input_currentHeadcount.dataset && _el_input_currentHeadcount.dataset.default !== undefined) ? _el_input_currentHeadcount.dataset.default : (_el_input_currentHeadcount.getAttribute('value') || '');
+    var _el_input_avgSalaryPerHire = document.getElementById('input_avgSalaryPerHire');
+    _el_input_avgSalaryPerHire.value = (_el_input_avgSalaryPerHire.dataset && _el_input_avgSalaryPerHire.dataset.default !== undefined) ? _el_input_avgSalaryPerHire.dataset.default : (_el_input_avgSalaryPerHire.getAttribute('value') || '');
+    var _el_input_arrPerEmployeeTarget = document.getElementById('input_arrPerEmployeeTarget');
+    _el_input_arrPerEmployeeTarget.value = (_el_input_arrPerEmployeeTarget.dataset && _el_input_arrPerEmployeeTarget.dataset.default !== undefined) ? _el_input_arrPerEmployeeTarget.dataset.default : (_el_input_arrPerEmployeeTarget.getAttribute('value') || '');
     updateTool();
   }
 
@@ -210,9 +215,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

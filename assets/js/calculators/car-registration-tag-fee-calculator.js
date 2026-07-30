@@ -9,7 +9,7 @@
       vehicleAge: parseFloat(document.getElementById('input_vehicleAge').value) || 0,
       stateFeeModel: document.getElementById('input_stateFeeModel').value || 'hybrid',
       adValoremRate: parseFloat(document.getElementById('input_adValoremRate').value) || 1.5
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -86,7 +86,7 @@
       monthlyEquivalent: monthlyEquivalent,
       fiveYearTagTotal: fiveYearTagTotal,
       yearlyFeeList: yearlyFeeList
-    };
+    }
   }
 
   function updateTool() {
@@ -149,7 +149,7 @@
             title: { display: true, text: 'Annual Fee vs Tax Split', font: { size: 14 }, color: '#e8edf0' }
           }
         }
-      };
+      }
     } else if (tab === 'ageTrend') {
       var labels = ['Year 1', 'Year 2', 'Year 3', 'Year 4', 'Year 5'];
       var chartValues = result.yearlyFeeList.map(function(val) { return Math.round(val); });
@@ -186,7 +186,7 @@
             }
           }
         }
-      };
+      }
     }
     return null;
   }
@@ -197,11 +197,15 @@
   }
 
   function resetTool() {
-    document.getElementById('input_vehicleValue').value = 25000;
-    document.getElementById('input_vehicleWeight').value = 3500;
-    document.getElementById('input_vehicleAge').value = 3;
+    var _el_input_vehicleValue = document.getElementById('input_vehicleValue');
+    _el_input_vehicleValue.value = (_el_input_vehicleValue.dataset && _el_input_vehicleValue.dataset.default !== undefined) ? _el_input_vehicleValue.dataset.default : (_el_input_vehicleValue.getAttribute('value') || '');
+    var _el_input_vehicleWeight = document.getElementById('input_vehicleWeight');
+    _el_input_vehicleWeight.value = (_el_input_vehicleWeight.dataset && _el_input_vehicleWeight.dataset.default !== undefined) ? _el_input_vehicleWeight.dataset.default : (_el_input_vehicleWeight.getAttribute('value') || '');
+    var _el_input_vehicleAge = document.getElementById('input_vehicleAge');
+    _el_input_vehicleAge.value = (_el_input_vehicleAge.dataset && _el_input_vehicleAge.dataset.default !== undefined) ? _el_input_vehicleAge.dataset.default : (_el_input_vehicleAge.getAttribute('value') || '');
     document.getElementById('input_stateFeeModel').value = 'hybrid';
-    document.getElementById('input_adValoremRate').value = 1.5;
+    var _el_input_adValoremRate = document.getElementById('input_adValoremRate');
+    _el_input_adValoremRate.value = (_el_input_adValoremRate.dataset && _el_input_adValoremRate.dataset.default !== undefined) ? _el_input_adValoremRate.dataset.default : (_el_input_adValoremRate.getAttribute('value') || '');
     updateTool();
   }
 
@@ -215,9 +219,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

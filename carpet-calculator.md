@@ -147,17 +147,17 @@ howto:
 
 faq:
   - question: "How do I convert square feet to square yards of carpet?"
-    answer: "To convert square feet to square yards, divide total square feet by 9 (since 1 square yard = 3 ft x 3 ft = 9 sq ft)."
+    answer: "To convert square feet to square yards of carpet, divide total square feet by 9 since one square yard equals 9 square feet."
   - question: "Why is carpet sold by the square yard?"
-    answer: "Carpet rolls are manufactured in standard 12-foot (4-yard) widths, making square yards the traditional unit of measure for mills, distributors, and installers."
+    answer: "Carpet is sold by the square yard because carpet rolls are manufactured in standard 12-foot (4-yard) widths, making square yards the traditional unit of measure for mills, distributors, and installers."
   - question: "How wide is a standard roll of carpet?"
-    answer: "The industry standard carpet roll width is 12 feet (3.66 meters). Some commercial carpet styles are available in 15-foot widths."
+    answer: "The industry standard carpet roll width is 12 feet (3.66 meters). Some commercial carpet styles are also available in 15-foot widths."
   - question: "How much seam waste should I allow when ordering carpet?"
-    answer: "Add a 10% waste factor for rectangular rooms. For rooms wider than 12 feet requiring seams, or carpet with repeating patterns, add 15% to 20% waste."
+    answer: "You should allow a 10% seam waste factor when ordering carpet for rectangular rooms. For rooms wider than 12 feet requiring seams, or carpet with repeating patterns, add 15% to 20% waste."
   - question: "Do I need the same amount of padding as carpet?"
-    answer: "Padding is sold in square yards just like carpet. You need slightly less padding because pad rolls can be seamed anywhere without worrying about carpet pile direction."
+    answer: "You need slightly less padding than carpet because pad rolls can be seamed anywhere without worrying about carpet pile direction, though padding is also sold in square yards."
   - question: "What thickness carpet pad is best?"
-    answer: "For residential plush carpet, a 7/16-inch thick, 6 lb to 8 lb density rebond foam pad provides optimal durability and comfort underfoot."
+    answer: "For residential plush carpet, a 7/16-inch thick, 6-pound to 8-pound density rebond foam pad provides optimal durability and comfort underfoot."
   - question: "How much does carpet installation cost per square yard?"
     answer: "Residential carpet installation labor typically costs $5.00 to $10.00 per square yard, excluding old carpet removal and tack strip replacement."
 ---
@@ -235,27 +235,27 @@ $$C_{	ext{total}} = A_{	ext{carpet\_sqyd}} 	imes (P_{	ext{carpet}} + P_{	ext{pad
 
 ### How do I convert square feet to square yards of carpet?
 
-To convert square feet to square yards, divide total square feet by 9 (since 1 square yard = 3 ft x 3 ft = 9 sq ft).
+To convert square feet to square yards of carpet, divide total square feet by 9 since one square yard equals 9 square feet.
 
 ### Why is carpet sold by the square yard?
 
-Carpet rolls are manufactured in standard 12-foot (4-yard) widths, making square yards the traditional unit of measure for mills, distributors, and installers.
+Carpet is sold by the square yard because carpet rolls are manufactured in standard 12-foot (4-yard) widths, making square yards the traditional unit of measure for mills, distributors, and installers.
 
 ### How wide is a standard roll of carpet?
 
-The industry standard carpet roll width is 12 feet (3.66 meters). Some commercial carpet styles are available in 15-foot widths.
+The industry standard carpet roll width is 12 feet (3.66 meters). Some commercial carpet styles are also available in 15-foot widths.
 
 ### How much seam waste should I allow when ordering carpet?
 
-Add a 10% waste factor for rectangular rooms. For rooms wider than 12 feet requiring seams, or carpet with repeating patterns, add 15% to 20% waste.
+You should allow a 10% seam waste factor when ordering carpet for rectangular rooms. For rooms wider than 12 feet requiring seams, or carpet with repeating patterns, add 15% to 20% waste.
 
 ### Do I need the same amount of padding as carpet?
 
-Padding is sold in square yards just like carpet. You need slightly less padding because pad rolls can be seamed anywhere without worrying about carpet pile direction.
+You need slightly less padding than carpet because pad rolls can be seamed anywhere without worrying about carpet pile direction, though padding is also sold in square yards.
 
 ### What thickness carpet pad is best?
 
-For residential plush carpet, a 7/16-inch thick, 6 lb to 8 lb density rebond foam pad provides optimal durability and comfort underfoot.
+For residential plush carpet, a 7/16-inch thick, 6-pound to 8-pound density rebond foam pad provides optimal durability and comfort underfoot.
 
 ### How much does carpet installation cost per square yard?
 

@@ -134,19 +134,19 @@ howto:
 
 faq:
   - question: "Rule of thumb for door and window header sizing?"
-    answer: "A common traditional rule of thumb is header depth in inches equals opening width in feet plus 2 inches (e.g., 4-ft opening = double 2x6; 6-ft opening = double 2x8; 8-ft opening = double 2x10). However, heavy snow or multi-story loads require calculated engineering."
+    answer: "A common traditional rule of thumb states that header depth in inches should equal the opening width in feet plus two inches, meaning a 4-foot opening requires a double 2x6. However, heavy snow or multi-story loads require calculated engineering."
   - question: "How many jack studs (trimmers) are required per side for a header?"
-    answer: "Openings up to 6 feet wide supporting a single story typically require 1 jack stud per side. Openings from 6 to 10 feet wide require 2 jack studs per side. Spans over 10 feet or heavy multi-story loads require 3 jack studs or steel bearing plates."
+    answer: "Openings up to 6 feet wide supporting a single story require one jack stud per side, while openings 6 to 10 feet wide require two jack studs per side. Spans over 10 feet or heavy multi-story loads require three jack studs or steel bearing plates."
   - question: "When should engineered LVL headers be used instead of dimensional lumber?"
-    answer: "Engineered LVL headers (Laminated Veneer Lumber) should be used for spans exceeding 8 to 10 feet, wide garage door openings (16 ft), or heavily loaded exterior walls where dimensional lumber exceeds maximum depth limits."
+    answer: "You should use engineered LVL headers for spans exceeding 8 to 10 feet, wide garage door openings, or heavily loaded exterior walls where dimensional lumber exceeds maximum depth limits."
   - question: "What is tributary width in header load calculations?"
-    answer: "Tributary width is half the span of joists or rafters supported by the wall containing the header. For a 28-foot wide building where rafters span center-to-ridge, the tributary roof width supported by an exterior wall is 14 feet."
+    answer: "Tributary width is half the span of joists or rafters supported by the wall containing the header. For example, in a 28-foot wide building where rafters span center-to-ridge, the tributary roof width supported by an exterior wall is 14 feet."
   - question: "What deflection limits apply to window and door headers?"
-    answer: "Building codes (IRC) mandate a maximum deflection limit of L/240 for total load and L/360 for live load on standard exterior walls. Openings with sensitive glass or sliding doors often require L/480 to prevent binding."
+    answer: "Building codes mandate a maximum deflection limit of L/240 for total load and L/360 for live load on standard exterior walls. Openings with sensitive glass or sliding doors often require L/480 to prevent binding."
   - question: "Can non-bearing interior wall headers be smaller?"
-    answer: "Yes, non-load-bearing interior partition wall headers do not support floor or roof loads. Double 2x4 headers are structurally sufficient for non-bearing spans up to 8 feet wide."
+    answer: "Non-load-bearing interior partition wall headers can be smaller because they do not support floor or roof loads. Double 2x4 headers are structurally sufficient for these non-bearing spans up to 8 feet wide."
   - question: "How is a double 2x header insulated in exterior framing?"
-    answer: "Standard 2x dimensional lumber headers are 3.5 inches thick in a 2x6 wall (5.5 inches deep), leaving a 2-inch interior gap that should be filled with rigid foam insulation (R-10 to R-13) to prevent thermal bridging."
+    answer: "Standard 2x dimensional lumber headers are 3.5 inches thick in a 5.5-inch deep 2x6 wall, leaving a 2-inch interior gap. You should fill this gap with rigid foam insulation (R-10 to R-13) to prevent thermal bridging."
 ---
 
 # Header Beam Size Calculator - Calculate Board Feet & Wood Quantity
@@ -224,28 +224,28 @@ Maximum allowable clear spans for double $2\times$ headers supporting roof + 1 c
 
 ### Rule of thumb for door and window header sizing?
 
-A common traditional rule of thumb is header depth in inches equals opening width in feet plus 2 inches (e.g., 4-ft opening = double 2x6; 6-ft opening = double 2x8; 8-ft opening = double 2x10). However, heavy snow or multi-story loads require calculated engineering.
+A common traditional rule of thumb states that header depth in inches should equal the opening width in feet plus two inches, meaning a 4-foot opening requires a double 2x6. However, heavy snow or multi-story loads require calculated engineering.
 
 ### How many jack studs (trimmers) are required per side for a header?
 
-Openings up to 6 feet wide supporting a single story typically require 1 jack stud per side. Openings from 6 to 10 feet wide require 2 jack studs per side. Spans over 10 feet or heavy multi-story loads require 3 jack studs or steel bearing plates.
+Openings up to 6 feet wide supporting a single story require one jack stud per side, while openings 6 to 10 feet wide require two jack studs per side. Spans over 10 feet or heavy multi-story loads require three jack studs or steel bearing plates.
 
 ### When should engineered LVL headers be used instead of dimensional lumber?
 
-Engineered LVL headers (Laminated Veneer Lumber) should be used for spans exceeding 8 to 10 feet, wide garage door openings (16 ft), or heavily loaded exterior walls where dimensional lumber exceeds maximum depth limits.
+You should use engineered LVL headers for spans exceeding 8 to 10 feet, wide garage door openings, or heavily loaded exterior walls where dimensional lumber exceeds maximum depth limits.
 
 ### What is tributary width in header load calculations?
 
-Tributary width is half the span of joists or rafters supported by the wall containing the header. For a 28-foot wide building where rafters span center-to-ridge, the tributary roof width supported by an exterior wall is 14 feet.
+Tributary width is half the span of joists or rafters supported by the wall containing the header. For example, in a 28-foot wide building where rafters span center-to-ridge, the tributary roof width supported by an exterior wall is 14 feet.
 
 ### What deflection limits apply to window and door headers?
 
-Building codes (IRC) mandate a maximum deflection limit of L/240 for total load and L/360 for live load on standard exterior walls. Openings with sensitive glass or sliding doors often require L/480 to prevent binding.
+Building codes mandate a maximum deflection limit of L/240 for total load and L/360 for live load on standard exterior walls. Openings with sensitive glass or sliding doors often require L/480 to prevent binding.
 
 ### Can non-bearing interior wall headers be smaller?
 
-Yes, non-load-bearing interior partition wall headers do not support floor or roof loads. Double 2x4 headers are structurally sufficient for non-bearing spans up to 8 feet wide.
+Non-load-bearing interior partition wall headers can be smaller because they do not support floor or roof loads. Double 2x4 headers are structurally sufficient for these non-bearing spans up to 8 feet wide.
 
 ### How is a double 2x header insulated in exterior framing?
 
-Standard 2x dimensional lumber headers are 3.5 inches thick in a 2x6 wall (5.5 inches deep), leaving a 2-inch interior gap that should be filled with rigid foam insulation (R-10 to R-13) to prevent thermal bridging.
+Standard 2x dimensional lumber headers are 3.5 inches thick in a 5.5-inch deep 2x6 wall, leaving a 2-inch interior gap. You should fill this gap with rigid foam insulation (R-10 to R-13) to prevent thermal bridging.

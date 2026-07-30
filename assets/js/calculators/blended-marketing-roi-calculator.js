@@ -16,7 +16,7 @@
       socialMediaSpend: socialMediaSpend,
       partnerAffiliateSpend: partnerAffiliateSpend,
       totalRevenueGenerated: totalRevenueGenerated
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -60,7 +60,7 @@
       blendedRoi: blendedRoi,
       blendedRoas: blendedRoas,
       error: null
-    };
+    }
   }
 
   function updateTool() {
@@ -90,7 +90,7 @@
       totalSpend: result.totalMarketingSpend,
       revenue: inputs.totalRevenueGenerated,
       netProfit: result.netProfit
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -138,7 +138,7 @@
             title: { display: true, text: 'Channel Spend Distribution ($)', color: '#e8edf0' }
           }
         }
-      };
+      }
     }
 
     if (tab === 'returns') {
@@ -169,7 +169,7 @@
             x: { ticks: { color: '#8899aa' } }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -182,11 +182,16 @@
   }
 
   function resetTool() {
-    document.getElementById('input_paidAdSpend').value = 20000;
-    document.getElementById('input_organicContentSpend').value = 8000;
-    document.getElementById('input_socialMediaSpend').value = 5000;
-    document.getElementById('input_partnerAffiliateSpend').value = 4000;
-    document.getElementById('input_totalRevenueGenerated').value = 148000;
+    var _el_input_paidAdSpend = document.getElementById('input_paidAdSpend');
+    _el_input_paidAdSpend.value = (_el_input_paidAdSpend.dataset && _el_input_paidAdSpend.dataset.default !== undefined) ? _el_input_paidAdSpend.dataset.default : (_el_input_paidAdSpend.getAttribute('value') || '');
+    var _el_input_organicContentSpend = document.getElementById('input_organicContentSpend');
+    _el_input_organicContentSpend.value = (_el_input_organicContentSpend.dataset && _el_input_organicContentSpend.dataset.default !== undefined) ? _el_input_organicContentSpend.dataset.default : (_el_input_organicContentSpend.getAttribute('value') || '');
+    var _el_input_socialMediaSpend = document.getElementById('input_socialMediaSpend');
+    _el_input_socialMediaSpend.value = (_el_input_socialMediaSpend.dataset && _el_input_socialMediaSpend.dataset.default !== undefined) ? _el_input_socialMediaSpend.dataset.default : (_el_input_socialMediaSpend.getAttribute('value') || '');
+    var _el_input_partnerAffiliateSpend = document.getElementById('input_partnerAffiliateSpend');
+    _el_input_partnerAffiliateSpend.value = (_el_input_partnerAffiliateSpend.dataset && _el_input_partnerAffiliateSpend.dataset.default !== undefined) ? _el_input_partnerAffiliateSpend.dataset.default : (_el_input_partnerAffiliateSpend.getAttribute('value') || '');
+    var _el_input_totalRevenueGenerated = document.getElementById('input_totalRevenueGenerated');
+    _el_input_totalRevenueGenerated.value = (_el_input_totalRevenueGenerated.dataset && _el_input_totalRevenueGenerated.dataset.default !== undefined) ? _el_input_totalRevenueGenerated.dataset.default : (_el_input_totalRevenueGenerated.getAttribute('value') || '');
     updateTool();
   }
 
@@ -200,9 +205,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

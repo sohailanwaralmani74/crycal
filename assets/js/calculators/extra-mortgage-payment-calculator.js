@@ -10,7 +10,7 @@
       remainingYears: parseFloat(document.getElementById('input_remainingYears').value) || 25,
       extraMonthlyPayment: parseFloat(document.getElementById('input_extraMonthlyPayment').value) || 0,
       lumpSumPayment: parseFloat(document.getElementById('input_lumpSumPayment').value) || 0
-    };
+    }
   }
 
   function formatCurrencyLocal(amount) {
@@ -91,7 +91,7 @@
       monthCount: monthCount,
       stdSchedule: stdSchedule,
       extraSchedule: extraSchedule
-    };
+    }
   }
 
   function updateTool() {
@@ -187,7 +187,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'interest') {
@@ -224,7 +224,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;

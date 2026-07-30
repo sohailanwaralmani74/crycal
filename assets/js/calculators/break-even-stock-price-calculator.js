@@ -9,7 +9,7 @@
       buyPricePerShare: parseFloat(document.getElementById('input_buyPricePerShare').value) || 0,
       buyCommissionFee: parseFloat(document.getElementById('input_buyCommissionFee').value) || 0,
       sellCommissionFee: parseFloat(document.getElementById('input_sellCommissionFee').value) || 0
-    };
+    }
   }
 
   function formatCurrencyLocal(amount) {
@@ -54,7 +54,7 @@
       breakEvenSellPrice: breakEvenSellPrice,
       reqGainPct: reqGainPct,
       totalFees: buyFee + sellFee
-    };
+    }
   }
 
   function updateTool() {
@@ -114,7 +114,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'priceIncrease') {
@@ -146,7 +146,7 @@
             y: { beginAtZero: true }
           }
         }
-      };
+      }
     }
 
     return null;

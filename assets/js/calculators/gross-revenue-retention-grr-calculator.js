@@ -12,7 +12,7 @@
       startingMrr: parseFloat(document.getElementById('input_startingMrr').value) || 0,
       contractionMrr: parseFloat(document.getElementById('input_contractionMrr').value) || 0,
       churnedMrr: parseFloat(document.getElementById('input_churnedMrr').value) || 0
-    };
+    }
   }
 
   function formatCurrency(amount) {

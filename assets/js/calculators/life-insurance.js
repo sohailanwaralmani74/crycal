@@ -21,7 +21,7 @@
       existingSavings: parseFloat(document.getElementById('input_existingSavings').value) || 0,
       inflationRate: parseFloat(document.getElementById('input_inflationRate').value) || 0,
       investmentReturn: parseFloat(document.getElementById('input_investmentReturn').value) || 0
-    };
+    }
   }
 
   // ── Calculate Present Value of Future Income ──
@@ -78,7 +78,7 @@
       totalNeed: totalNeed,
       adjustedNeed: adjustedNeed,
       recommendedCoverage: recommendedCoverage
-    };
+    }
   }
 
   // ── Main Update ──
@@ -109,7 +109,7 @@
         investmentReturn: inputs.investmentReturn,
         totalNeed: result.totalNeed,
         recommendedCoverage: result.recommendedCoverage
-      };
+      }
       window.logHistory(snapshot);
     }
     if (typeof window.renderPresetDropdown === 'function') {
@@ -163,7 +163,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'comparison') {
@@ -199,7 +199,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'allocation') {
@@ -235,7 +235,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;

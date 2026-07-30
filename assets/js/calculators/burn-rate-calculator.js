@@ -16,7 +16,7 @@
       marketingAds: marketingAds,
       officeOther: officeOther,
       monthlyCashIn: monthlyCashIn
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -60,7 +60,7 @@
       marketingAds: inputs.marketingAds,
       officeOther: inputs.officeOther,
       monthlyCashIn: inputs.monthlyCashIn
-    };
+    }
   }
 
   function updateTool() {
@@ -133,7 +133,7 @@
             title: { display: true, text: 'Gross Monthly Spend Distribution', color: '#e8edf0' }
           }
         }
-      };
+      }
     }
 
     if (tab === 'grossVsNet') {
@@ -164,7 +164,7 @@
             x: { ticks: { color: '#8899aa' } }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -189,6 +189,6 @@
   window.switchChartTab = switchChartTab;
 
   document.addEventListener('DOMContentLoaded', function() {
-    setTimeout(function() { updateTool(); }, 150);
+        updateTool();;
   });
 })();

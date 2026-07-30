@@ -12,7 +12,7 @@
       adSpend: adSpend,
       revenueGenerated: revenueGenerated,
       profitMargin: profitMargin / 100
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -60,7 +60,7 @@
       breakEvenRoas: breakEvenRoas,
       isProfitable: isProfitable,
       error: null
-    };
+    }
   }
 
   function updateTool() {
@@ -90,7 +90,7 @@
       netProfit: result.netProfit,
       roasRatio: result.roasRatio,
       breakEvenRoas: result.breakEvenRoas
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -147,7 +147,7 @@
             x: { ticks: { color: '#8899aa' } }
           }
         }
-      };
+      }
     }
 
     if (tab === 'roi') {
@@ -178,7 +178,7 @@
             x: { ticks: { color: '#8899aa' } }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -191,9 +191,12 @@
   }
 
   function resetTool() {
-    document.getElementById('input_adSpend').value = 10000;
-    document.getElementById('input_revenueGenerated').value = 45000;
-    document.getElementById('input_profitMargin').value = 70;
+    var _el_input_adSpend = document.getElementById('input_adSpend');
+    _el_input_adSpend.value = (_el_input_adSpend.dataset && _el_input_adSpend.dataset.default !== undefined) ? _el_input_adSpend.dataset.default : (_el_input_adSpend.getAttribute('value') || '');
+    var _el_input_revenueGenerated = document.getElementById('input_revenueGenerated');
+    _el_input_revenueGenerated.value = (_el_input_revenueGenerated.dataset && _el_input_revenueGenerated.dataset.default !== undefined) ? _el_input_revenueGenerated.dataset.default : (_el_input_revenueGenerated.getAttribute('value') || '');
+    var _el_input_profitMargin = document.getElementById('input_profitMargin');
+    _el_input_profitMargin.value = (_el_input_profitMargin.dataset && _el_input_profitMargin.dataset.default !== undefined) ? _el_input_profitMargin.dataset.default : (_el_input_profitMargin.getAttribute('value') || '');
     updateTool();
   }
 
@@ -207,9 +210,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

@@ -16,7 +16,7 @@
       ownPct: ownPct / 100,
       capMult: capMult,
       exitVal: exitVal
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -78,7 +78,7 @@
       partDiff: partDiff,
       exitVal: exitVal,
       invested: inv
-    };
+    }
   }
 
   function updateTool() {
@@ -168,7 +168,7 @@
             x: { ticks: { color: '#8899aa' } }
           }
         }
-      };
+      }
     }
 
     if (tab === 'waterfallAtExit') {
@@ -190,7 +190,7 @@
             title: { display: true, text: 'Exit Proceeds Share Breakdown ($)', color: '#e8edf0' }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -215,6 +215,6 @@
   window.switchChartTab = switchChartTab;
 
   document.addEventListener('DOMContentLoaded', function() {
-    setTimeout(function() { updateTool(); }, 150);
+        updateTool();;
   });
 })();

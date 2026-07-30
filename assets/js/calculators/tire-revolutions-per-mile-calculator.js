@@ -7,7 +7,7 @@
       aspect_ratio: parseFloat(document.getElementById('input_aspect_ratio').value) || 50,
       rim_diameter: parseFloat(document.getElementById('input_rim_diameter').value) || 17,
       load_deflection: parseFloat(document.getElementById('input_load_deflection').value) || 3.0
-    };
+    }
   }
 
   function setOutputText(id, text) {
@@ -35,7 +35,7 @@
       diam_loaded: diam_loaded,
       circ_loaded: circ_loaded,
       dist_per_rev_ft: dist_per_rev_ft
-    };
+    }
   }
 
   function updateTool() {
@@ -51,8 +51,7 @@
     var chartData = {
       labels: ['Revs / Mile', 'Revs / KM', 'Loaded Circumference (in)'],
       values: [Math.round(res.revs_mile), Math.round(res.revs_km), parseFloat(res.circ_loaded.toFixed(2))]
-    };
-
+    }
     updateCharts(chartData);
 
     if (typeof window.logHistory === 'function') {

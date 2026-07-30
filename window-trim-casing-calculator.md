@@ -133,12 +133,19 @@ howto:
 
 faq:
   - question: "What is the difference between window casing, stool, and apron?"
+    answer: "Window casing is the decorative trim framing the top and sides, the window stool is the flat horizontal shelf at the bottom sill, and the apron is the decorative trim board mounted flat against the wall directly underneath the stool."
   - question: "How do I calculate 45-degree miter cuts for window casing?"
+    answer: "To calculate 45-degree miter cuts for window casing, add twice the width of the trim profile to the inside window opening dimension, because the outside edge of the mitered board flares outwards."
   - question: "What is a window stool horn?"
+    answer: "A window stool horn is the notched side extension of the horizontal stool board that projects past the side casing on the left and right sides, typically extending 2 to 3 inches beyond the casing."
   - question: "How much extra trim should I buy for miter waste?"
+    answer: "You should add a minimum 10% to 15% waste allowance to account for miter cut ends, blade kerf, knots, and defect trimming on stock moulding sticks."
   - question: "Is picture-frame window casing cheaper than traditional stool and apron trim?"
+    answer: "Yes — picture-frame casing uses 45-degree mitered casing trim on all four sides instead of a stool and apron, reducing total material cost and installation labor time."
   - question: "What size stock moulding boards should I purchase?"
+    answer: "Purchasing 16-foot moulding boards provides superior cut yields with minimal scrap waste compared to 8-foot boards, allowing you to cut complete side legs and headers from a single continuous stick."
   - question: "Is my personal data saved when using this calculator?"
+    answer: "No personal data is saved when using this calculator, as all computations are processed locally in your web browser."
 
 ---
 
@@ -217,25 +224,29 @@ Where:
 
 ### What is the difference between window casing, stool, and apron?
 
-**Window casing** is the decorative trim framing the top and sides. The **window stool** is the flat horizontal shelf at the bottom sill. The **apron** is the decorative trim board mounted flat against the wall directly underneath the stool.
+Window casing is the decorative trim framing the top and sides, the window stool is the flat horizontal shelf at the bottom sill, and the apron is the decorative trim board mounted flat against the wall directly underneath the stool.
 
 ### How do I calculate 45-degree miter cuts for window casing?
 
-Because 45-degree miter cuts flare outwards, the outside edge of top and side casing boards is longer than the inside window opening by exactly the width of the trim profile on each end ($+2 \times W_{\text{casing}}$).
+To calculate 45-degree miter cuts for window casing, add twice the width of the trim profile to the inside window opening dimension, because the outside edge of the mitered board flares outwards.
 
 ### What is a window stool horn?
 
-A window stool horn is the notched side extension of the horizontal stool board that projects past the side casing on the left and right sides (typically extending 2 to 3 inches beyond the casing).
+A window stool horn is the notched side extension of the horizontal stool board that projects past the side casing on the left and right sides, typically extending 2 to 3 inches beyond the casing.
 
 ### How much extra trim should I buy for miter waste?
 
-Add a minimum **10% to 15% waste allowance** to account for miter cut ends, blade kerf, knots, and defect trimming on stock moulding sticks.
+You should add a minimum 10% to 15% waste allowance to account for miter cut ends, blade kerf, knots, and defect trimming on stock moulding sticks.
 
 ### Is picture-frame window casing cheaper than traditional stool and apron trim?
 
-Yes. Picture-frame casing uses 45-degree mitered casing trim on all 4 sides (no stool or apron), reducing total material cost and installation labor time.
+Yes — picture-frame casing uses 45-degree mitered casing trim on all four sides instead of a stool and apron, reducing total material cost and installation labor time.
 
 ### What size stock moulding boards should I purchase?
 
-16-foot moulding boards provide superior cut yields with minimal scrap waste compared to 8-foot boards, allowing you to cut complete side legs and headers from a single continuous stick.
+Purchasing 16-foot moulding boards provides superior cut yields with minimal scrap waste compared to 8-foot boards, allowing you to cut complete side legs and headers from a single continuous stick.
+
+### Is my personal data saved when using this calculator?
+
+No personal data is saved when using this calculator, as all computations are processed locally in your web browser.
 

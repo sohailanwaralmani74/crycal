@@ -23,7 +23,7 @@
     return {
       extraMonthlyPayment: parseFloat(document.getElementById('input_extraMonthlyPayment').value) || 0,
       compoundingFrequency: document.getElementById('input_compoundingFrequency').value
-    };
+    }
   }
 
   // ── Get subscriptions from UI ──
@@ -131,7 +131,7 @@
         totalMonthly: totalMonthly,
         totalYearly: totalYearly,
         totalSubscriptions: totalSubscriptions
-      };
+      }
       window.logHistory(snapshot);
     }
     if (typeof window.renderPresetDropdown === 'function') {
@@ -169,7 +169,7 @@
             title: { display: true, text: 'No subscriptions added', font: { size: 14 } }
           }
         }
-      };
+      }
     }
 
     var colors = ['#C08A2E', '#2F6F5E', '#4A90D9', '#B23A3A', '#8E44AD', '#2C3E50', '#F39C12', '#1ABC9C', '#DCE1E3'];
@@ -209,7 +209,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'comparison') {
@@ -232,7 +232,7 @@
               title: { display: true, text: 'No category data', font: { size: 14 } }
             }
           }
-        };
+        }
       }
 
       return {
@@ -264,7 +264,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -281,7 +281,8 @@
     subscriptions = defaultSubscriptions.slice();
     subscriptionCounter = subscriptions.length;
     renderSubscriptions();
-    document.getElementById('input_extraMonthlyPayment').value = 0;
+    var _el_input_extraMonthlyPayment = document.getElementById('input_extraMonthlyPayment');
+    _el_input_extraMonthlyPayment.value = (_el_input_extraMonthlyPayment.dataset && _el_input_extraMonthlyPayment.dataset.default !== undefined) ? _el_input_extraMonthlyPayment.dataset.default : (_el_input_extraMonthlyPayment.getAttribute('value') || '');
     if (typeof window.updateTool === 'function') window.updateTool();
   }
 
@@ -399,9 +400,8 @@
       });
     }
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

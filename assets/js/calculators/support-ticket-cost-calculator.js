@@ -14,7 +14,7 @@
       monthlySupportSoftware: monthlySupportSoftware,
       monthlyTicketVolume: monthlyTicketVolume,
       avgResolutionTimeMinutes: avgResolutionTimeMinutes
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -70,7 +70,7 @@
       payroll: payroll,
       software: software,
       error: null
-    };
+    }
   }
 
   function updateTool() {
@@ -97,7 +97,7 @@
       software: result.software,
       costPerTicket: result.costPerTicket,
       volume: inputs.monthlyTicketVolume
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -145,7 +145,7 @@
             title: { display: true, text: 'Monthly Support Budget Breakdown ($)', color: '#e8edf0' }
           }
         }
-      };
+      }
     }
 
     if (tab === 'unit') {
@@ -176,7 +176,7 @@
             x: { ticks: { color: '#8899aa' } }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -189,10 +189,14 @@
   }
 
   function resetTool() {
-    document.getElementById('input_monthlySupportPayroll').value = 18000;
-    document.getElementById('input_monthlySupportSoftware').value = 2000;
-    document.getElementById('input_monthlyTicketVolume').value = 1250;
-    document.getElementById('input_avgResolutionTimeMinutes').value = 18;
+    var _el_input_monthlySupportPayroll = document.getElementById('input_monthlySupportPayroll');
+    _el_input_monthlySupportPayroll.value = (_el_input_monthlySupportPayroll.dataset && _el_input_monthlySupportPayroll.dataset.default !== undefined) ? _el_input_monthlySupportPayroll.dataset.default : (_el_input_monthlySupportPayroll.getAttribute('value') || '');
+    var _el_input_monthlySupportSoftware = document.getElementById('input_monthlySupportSoftware');
+    _el_input_monthlySupportSoftware.value = (_el_input_monthlySupportSoftware.dataset && _el_input_monthlySupportSoftware.dataset.default !== undefined) ? _el_input_monthlySupportSoftware.dataset.default : (_el_input_monthlySupportSoftware.getAttribute('value') || '');
+    var _el_input_monthlyTicketVolume = document.getElementById('input_monthlyTicketVolume');
+    _el_input_monthlyTicketVolume.value = (_el_input_monthlyTicketVolume.dataset && _el_input_monthlyTicketVolume.dataset.default !== undefined) ? _el_input_monthlyTicketVolume.dataset.default : (_el_input_monthlyTicketVolume.getAttribute('value') || '');
+    var _el_input_avgResolutionTimeMinutes = document.getElementById('input_avgResolutionTimeMinutes');
+    _el_input_avgResolutionTimeMinutes.value = (_el_input_avgResolutionTimeMinutes.dataset && _el_input_avgResolutionTimeMinutes.dataset.default !== undefined) ? _el_input_avgResolutionTimeMinutes.dataset.default : (_el_input_avgResolutionTimeMinutes.getAttribute('value') || '');
     updateTool();
   }
 
@@ -206,9 +210,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

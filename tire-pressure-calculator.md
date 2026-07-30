@@ -140,17 +140,17 @@ howto:
 
 faq:
   - question: "How much does tire pressure drop when temperature decreases?"
-    answer: "As a general rule of thumb, tire pressure drops by approximately 1 PSI for every 10°F (5.6°C) drop in ambient temperature due to thermal contraction of air inside the tire."
+    answer: "Tire pressure drops by approximately 1 PSI for every 10°F (5.6°C) decrease in ambient temperature due to the thermal contraction of air inside the tire."
   - question: "Should I add extra PSI when towing or hauling heavy loads?"
-    answer: "Yes. Adding 2 to 6 PSI (without exceeding the tire sidewall max PSI rating) helps support heavy cargo loads, reduces sidewall flexing, prevents overheating, and improves stability."
+    answer: "Yes — adding 2 to 6 PSI helps support heavy cargo loads, reduces sidewall flexing, prevents overheating, and improves stability, provided you do not exceed the tire sidewall maximum PSI rating."
   - question: "When should tire pressure be measured?"
-    answer: "Tire pressure must be measured when tires are 'cold'—meaning the car has been parked for at least 3 hours or driven less than 1 mile at low speeds."
+    answer: "Tire pressure must be measured when tires are cold, meaning the vehicle has been parked for at least 3 hours or driven less than 1 mile at low speeds."
   - question: "Can cold tire PSI exceed the number on the vehicle door jamb?"
-    answer: "Yes, when compensating for heavy payloads or severe winter cold, as long as it does not exceed the Maximum PSI rating stamped directly on the tire sidewall."
+    answer: "Yes — cold tire PSI can exceed the door jamb recommendation when compensating for heavy payloads or severe winter cold, as long as it does not exceed the maximum PSI rating stamped directly on the tire sidewall."
   - question: "What happens if tires are underinflated in cold weather?"
-    answer: "Underinflated tires suffer from increased rolling resistance, reduced fuel economy, accelerated shoulder tread wear, sluggish handling, and higher risk of hydroplaning."
+    answer: "Underinflated tires in cold weather suffer from increased rolling resistance, reduced fuel economy, accelerated shoulder tread wear, sluggish handling, and a higher risk of hydroplaning."
   - question: "Does driving increase tire pressure?"
-    answer: "Yes. Friction and heat generated while driving typically increase internal tire pressure by 3 to 5 PSI above cold inflation pressure."
+    answer: "Yes — the friction and heat generated while driving typically increase internal tire pressure by 3 to 5 PSI above the cold inflation pressure."
 
 ---
 
@@ -230,25 +230,25 @@ P_{target} = \min\left(P_{base} + \Delta P_{temp} + \Delta P_{load},\, P_{sidewa
 
 ### How much does tire pressure drop when temperature decreases?
 
-As a general rule of thumb, tire pressure drops by approximately **1 PSI for every 10°F (5.6°C)** drop in ambient temperature due to thermal contraction of air inside the tire.
+Tire pressure drops by approximately **1 PSI for every 10°F (5.6°C)** decrease in ambient temperature due to the thermal contraction of air inside the tire.
 
 ### Should I add extra PSI when towing or hauling heavy loads?
 
-Yes. Adding **2 to 6 PSI** (without exceeding the tire sidewall max PSI rating) helps support heavy cargo loads, reduces sidewall flexing, prevents overheating, and improves stability.
+Yes — adding **2 to 6 PSI** helps support heavy cargo loads, reduces sidewall flexing, prevents overheating, and improves stability, provided you do not exceed the tire sidewall maximum PSI rating.
 
 ### When should tire pressure be measured?
 
-Tire pressure must be measured when tires are **cold**—meaning the car has been parked for at least 3 hours or driven less than 1 mile at low speeds.
+Tire pressure must be measured when tires are **cold**, meaning the vehicle has been parked for at least 3 hours or driven less than 1 mile at low speeds.
 
 ### Can cold tire PSI exceed the number on the vehicle door jamb?
 
-Yes, when compensating for heavy payloads or severe winter cold, as long as it does not exceed the Maximum PSI rating stamped directly on the tire sidewall.
+Yes — cold tire PSI can exceed the door jamb recommendation when compensating for heavy payloads or severe winter cold, as long as it does not exceed the maximum PSI rating stamped directly on the tire sidewall.
 
 ### What happens if tires are underinflated in cold weather?
 
-Underinflated tires suffer from increased rolling resistance, reduced fuel economy, accelerated shoulder tread wear, sluggish handling, and higher risk of hydroplaning.
+Underinflated tires in cold weather suffer from increased rolling resistance, reduced fuel economy, accelerated shoulder tread wear, sluggish handling, and a higher risk of hydroplaning.
 
 ### Does driving increase tire pressure?
 
-Yes. Friction and heat generated while driving typically increase internal tire pressure by **3 to 5 PSI** above cold inflation pressure.
+Yes — the friction and heat generated while driving typically increase internal tire pressure by **3 to 5 PSI** above the cold inflation pressure.
 

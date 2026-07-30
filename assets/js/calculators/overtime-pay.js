@@ -20,7 +20,7 @@
       doubleTimeThreshold: Math.max(0, parseFloat(document.getElementById('input_doubleTimeThreshold').value) || 0),
       doubleTimeMultiplier: parseFloat(document.getElementById('input_doubleTimeMultiplier').value) || 1,
       periodsPerYear: Math.max(1, parseFloat(document.getElementById('input_periodsPerYear').value) || 52)
-    };
+    }
   }
 
   // ── Split hours into regular / overtime / double-time tiers ──
@@ -63,7 +63,7 @@
       doubleTimePay: doubleTimePay,
       totalPay: totalPay,
       annualProjection: annualProjection
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -143,7 +143,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'hoursBreakdown') {
@@ -168,7 +168,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'scenario') {
@@ -183,7 +183,7 @@
           doubleTimeThreshold: inputs.doubleTimeThreshold,
           doubleTimeMultiplier: inputs.doubleTimeMultiplier,
           periodsPerYear: inputs.periodsPerYear
-        };
+        }
         return calculateOvertime(scenarioInputs).totalPay;
       });
       var colors2 = extraHoursOptions.map(function (e) { return e === 0 ? '#2F6F5E' : '#C08A2E'; });
@@ -200,7 +200,7 @@
           plugins: { legend: { display: false }, title: { display: true, text: 'Total Pay With Additional Hours', font: { size: 14 } } },
           scales: { y: { beginAtZero: true, ticks: { callback: function (v) { return symbol + v.toFixed(0); } } } }
         }
-      };
+      }
     }
 
     return null;

@@ -101,15 +101,15 @@ faq:
   - q: "What is CAC Payback Period?"
     a: "CAC Payback Period is the number of months required for a customer's monthly gross profit to fully offset the upfront cost spent to acquire them."
   - q: "Why is CAC Payback Period critical for cash runway?"
-    a: "SaaS businesses pay acquisition costs on day one but collect subscription revenue over time. Long payback periods burn cash rapidly, risking insolvency."
+    a: "CAC Payback Period is critical for cash runway because SaaS businesses pay acquisition costs on day one but collect subscription revenue over time. Long payback periods burn cash rapidly, risking insolvency."
   - q: "What is a good CAC payback benchmark for SaaS?"
-    a: "For SMB SaaS, under 12 months is elite. For Mid-Market, 12-18 months is standard. For Enterprise SaaS, 18-24 months is acceptable with multi-year commitments."
+    a: "For SMB SaaS, a good CAC payback benchmark is under 12 months. For Mid-Market, 12-18 months is standard, while Enterprise SaaS can accept 18-24 months with multi-year commitments."
   - q: "Why use Gross Margin instead of Revenue?"
-    a: "Revenue overstates cash recovery because servicing customers incurs infrastructure hosting and support staff costs."
+    a: "Using Gross Margin instead of Revenue is necessary because revenue overstates cash recovery, as servicing customers incurs infrastructure hosting and support staff costs."
   - q: "How does annual upfront billing affect payback?"
-    a: "Upfront annual prepayments recover CAC immediately on day one, reducing effective payback to zero months."
+    a: "Annual upfront billing affects payback by recovering customer acquisition costs immediately on day one, which reduces the effective payback to zero months."
   - q: "How can I reduce my CAC payback period?"
-    a: "Reduce payback by offering discounts on annual upfront plans, expanding add-on feature sales, and lowering paid ad customer acquisition costs."
+    a: "Reduce your CAC payback period by offering discounts on annual upfront plans, expanding add-on feature sales, and lowering paid ad customer acquisition costs."
 ---
 
 # CAC Payback Period Calculator - Calculate CAC Payback Duration
@@ -157,21 +157,21 @@ CAC Payback Period is the number of months required for a customer's monthly gro
 
 ### Why is CAC Payback Period critical for cash runway?
 
-SaaS businesses pay acquisition costs on day one but collect subscription revenue over time. Long payback periods burn cash rapidly, risking insolvency.
+CAC Payback Period is critical for cash runway because SaaS businesses pay acquisition costs on day one but collect subscription revenue over time. Long payback periods burn cash rapidly, risking insolvency.
 
 ### What is a good CAC payback benchmark for SaaS?
 
-For SMB SaaS, under 12 months is elite. For Mid-Market, 12-18 months is standard. For Enterprise SaaS, 18-24 months is acceptable with multi-year commitments.
+For SMB SaaS, a good CAC payback benchmark is under 12 months. For Mid-Market, 12-18 months is standard, while Enterprise SaaS can accept 18-24 months with multi-year commitments.
 
 ### Why use Gross Margin instead of Revenue?
 
-Revenue overstates cash recovery because servicing customers incurs infrastructure hosting and support staff costs.
+Using Gross Margin instead of Revenue is necessary because revenue overstates cash recovery, as servicing customers incurs infrastructure hosting and support staff costs.
 
 ### How does annual upfront billing affect payback?
 
-Upfront annual prepayments recover CAC immediately on day one, reducing effective payback to zero months.
+Annual upfront billing affects payback by recovering customer acquisition costs immediately on day one, which reduces the effective payback to zero months.
 
 ### How can I reduce my CAC payback period?
 
-Reduce payback by offering discounts on annual upfront plans, expanding add-on feature sales, and lowering paid ad customer acquisition costs.
+Reduce your CAC payback period by offering discounts on annual upfront plans, expanding add-on feature sales, and lowering paid ad customer acquisition costs.
 

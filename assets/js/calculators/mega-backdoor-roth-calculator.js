@@ -15,7 +15,7 @@
       catchUpAmount: catchUpAmount,
       annualReturn: annualReturn / 100,
       yearsToGrow: yearsToGrow
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -70,7 +70,7 @@
       projectedRothValue: projectedRothValue,
       totalGrowth: totalGrowth,
       error: null
-    };
+    }
   }
 
   function updateTool() {
@@ -103,12 +103,18 @@
   }
 
   function resetTool() {
-    document.getElementById('input_employeeContribution').value = 23500;
-    document.getElementById('input_employerContribution').value = 8000;
-    document.getElementById('input_overallLimit').value = 70000;
-    document.getElementById('input_catchUpAmount').value = 0;
-    document.getElementById('input_annualReturn').value = 7;
-    document.getElementById('input_yearsToGrow').value = 20;
+    var _el_input_employeeContribution = document.getElementById('input_employeeContribution');
+    _el_input_employeeContribution.value = (_el_input_employeeContribution.dataset && _el_input_employeeContribution.dataset.default !== undefined) ? _el_input_employeeContribution.dataset.default : (_el_input_employeeContribution.getAttribute('value') || '');
+    var _el_input_employerContribution = document.getElementById('input_employerContribution');
+    _el_input_employerContribution.value = (_el_input_employerContribution.dataset && _el_input_employerContribution.dataset.default !== undefined) ? _el_input_employerContribution.dataset.default : (_el_input_employerContribution.getAttribute('value') || '');
+    var _el_input_overallLimit = document.getElementById('input_overallLimit');
+    _el_input_overallLimit.value = (_el_input_overallLimit.dataset && _el_input_overallLimit.dataset.default !== undefined) ? _el_input_overallLimit.dataset.default : (_el_input_overallLimit.getAttribute('value') || '');
+    var _el_input_catchUpAmount = document.getElementById('input_catchUpAmount');
+    _el_input_catchUpAmount.value = (_el_input_catchUpAmount.dataset && _el_input_catchUpAmount.dataset.default !== undefined) ? _el_input_catchUpAmount.dataset.default : (_el_input_catchUpAmount.getAttribute('value') || '');
+    var _el_input_annualReturn = document.getElementById('input_annualReturn');
+    _el_input_annualReturn.value = (_el_input_annualReturn.dataset && _el_input_annualReturn.dataset.default !== undefined) ? _el_input_annualReturn.dataset.default : (_el_input_annualReturn.getAttribute('value') || '');
+    var _el_input_yearsToGrow = document.getElementById('input_yearsToGrow');
+    _el_input_yearsToGrow.value = (_el_input_yearsToGrow.dataset && _el_input_yearsToGrow.dataset.default !== undefined) ? _el_input_yearsToGrow.dataset.default : (_el_input_yearsToGrow.getAttribute('value') || '');
     updateTool();
   }
 
@@ -121,9 +127,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

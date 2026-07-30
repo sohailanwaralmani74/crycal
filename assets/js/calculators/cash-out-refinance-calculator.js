@@ -10,7 +10,7 @@
       maxLtvPercent: parseFloat(document.getElementById('input_maxLtvPercent').value) || 80,
       newInterestRate: parseFloat(document.getElementById('input_newInterestRate').value) || 0,
       newLoanTermYears: parseFloat(document.getElementById('input_newLoanTermYears').value) || 30
-    };
+    }
   }
 
   function formatCurrencyLocal(amount) {
@@ -54,7 +54,7 @@
       cashOut: cashOut,
       newMonthlyPmt: newMonthlyPmt,
       retainedEquity: retainedEquity
-    };
+    }
   }
 
   function updateTool() {
@@ -115,7 +115,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'equity') {
@@ -148,7 +148,7 @@
             y: { stacked: true, beginAtZero: true }
           }
         }
-      };
+      }
     }
 
     return null;

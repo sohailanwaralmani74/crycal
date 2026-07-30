@@ -10,7 +10,7 @@
       interestRate: parseFloat(document.getElementById('input_interestRate').value) || 0,
       loanTermYears: parseFloat(document.getElementById('input_loanTermYears').value) || 30,
       annualMipRate: parseFloat(document.getElementById('input_annualMipRate').value) || 0.55
-    };
+    }
   }
 
   function formatCurrencyLocal(amount) {
@@ -59,7 +59,7 @@
       monthlyMip: monthlyMip,
       totalMonthly: totalMonthly,
       baseLoan: baseLoan
-    };
+    }
   }
 
   function updateTool() {
@@ -122,7 +122,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'lifetime') {
@@ -157,7 +157,7 @@
             y: { stacked: true, beginAtZero: true }
           }
         }
-      };
+      }
     }
 
     return null;

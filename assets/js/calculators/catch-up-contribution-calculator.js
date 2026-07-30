@@ -13,7 +13,7 @@
       standardLimit: standardLimit,
       catchUp50: catchUp50,
       catchUp60to63: catchUp60to63
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -75,7 +75,7 @@
       totalContributionLimit: totalContributionLimit,
       percentIncrease: percentIncrease,
       error: null
-    };
+    }
   }
 
   function updateTool() {
@@ -108,10 +108,14 @@
 
   function resetTool() {
     document.getElementById('input_accountType').value = '401k';
-    document.getElementById('input_age').value = 55;
-    document.getElementById('input_standardLimit').value = 23500;
-    document.getElementById('input_catchUp50').value = 7500;
-    document.getElementById('input_catchUp60to63').value = 11250;
+    var _el_input_age = document.getElementById('input_age');
+    _el_input_age.value = (_el_input_age.dataset && _el_input_age.dataset.default !== undefined) ? _el_input_age.dataset.default : (_el_input_age.getAttribute('value') || '');
+    var _el_input_standardLimit = document.getElementById('input_standardLimit');
+    _el_input_standardLimit.value = (_el_input_standardLimit.dataset && _el_input_standardLimit.dataset.default !== undefined) ? _el_input_standardLimit.dataset.default : (_el_input_standardLimit.getAttribute('value') || '');
+    var _el_input_catchUp50 = document.getElementById('input_catchUp50');
+    _el_input_catchUp50.value = (_el_input_catchUp50.dataset && _el_input_catchUp50.dataset.default !== undefined) ? _el_input_catchUp50.dataset.default : (_el_input_catchUp50.getAttribute('value') || '');
+    var _el_input_catchUp60to63 = document.getElementById('input_catchUp60to63');
+    _el_input_catchUp60to63.value = (_el_input_catchUp60to63.dataset && _el_input_catchUp60to63.dataset.default !== undefined) ? _el_input_catchUp60to63.dataset.default : (_el_input_catchUp60to63.getAttribute('value') || '');
     updateTool();
   }
 
@@ -124,9 +128,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

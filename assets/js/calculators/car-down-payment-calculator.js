@@ -9,7 +9,7 @@
       interestRate: parseFloat(document.getElementById('input_interestRate').value) || 0,
       loanTermMonths: parseInt(document.getElementById('input_loanTermMonths').value, 10) || 60,
       tradeInValue: parseFloat(document.getElementById('input_tradeInValue').value) || 0
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -69,7 +69,7 @@
       interestAt30: res30.totalInterest,
       interestSaved20vs10: interestSaved20vs10,
       interestSaved30vs10: interestSaved30vs10
-    };
+    }
   }
 
   function updateTool() {
@@ -142,7 +142,7 @@
             }
           }
         }
-      };
+      }
     } else if (tab === 'interest_comparison') {
       return {
         type: 'bar',
@@ -173,7 +173,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;

@@ -8,7 +8,7 @@
       homeSize: document.getElementById('input_homeSize').value,
       moveDistanceMiles: parseFloat(document.getElementById('input_moveDistanceMiles').value) || 0,
       moveType: document.getElementById('input_moveType').value
-    };
+    }
   }
 
   function formatCurrencyLocal(amount) {
@@ -60,7 +60,7 @@
       movingCost: movingCost,
       packingSupplies: packingSupplies,
       totalWithCushion: totalWithCushion
-    };
+    }
   }
 
   function updateTool() {
@@ -120,7 +120,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'methodComparison') {
@@ -153,7 +153,7 @@
             y: { stacked: true, beginAtZero: true }
           }
         }
-      };
+      }
     }
 
     return null;

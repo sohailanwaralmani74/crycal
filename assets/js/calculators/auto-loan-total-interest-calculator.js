@@ -7,7 +7,7 @@
     return {
       loanAmount: parseFloat(document.getElementById('input_loanAmount').value) || 0,
       interestRate: parseFloat(document.getElementById('input_interestRate').value) || 0
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -58,7 +58,7 @@
       res60: res60,
       res72: res72,
       res84: res84
-    };
+    }
   }
 
   function updateTool() {
@@ -134,7 +134,7 @@
             }
           }
         }
-      };
+      }
     } else if (tab === 'payment_by_term') {
       return {
         type: 'line',
@@ -169,7 +169,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;

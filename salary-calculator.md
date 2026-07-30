@@ -142,17 +142,17 @@ structured_data:
 
 faq:
   - question: "How do I convert an hourly wage to an annual salary?"
-    answer: "Multiply your hourly rate by the number of hours you work per day, then by the number of days you work per week, then by the number of weeks you work per year. This calculator does that automatically and also works in reverse, from annual down to hourly."
+    answer: "To convert an hourly wage to an annual salary, multiply your hourly rate by the number of hours you work per day, then by the number of days you work per week, then by the number of weeks you work per year."
   - question: "Does this work for any country or currency?"
-    answer: "Yes. The math is based purely on your pay amount and your work schedule (hours per day, days per week, weeks per year), with no country-specific tax rules built in, so it works with any currency and any work pattern worldwide."
+    answer: "The Salary Calculator works for any country or currency because the math is based purely on your pay amount and your work schedule, with no country-specific tax rules built in."
   - question: "Why is my monthly pay not exactly my annual pay divided by 12?"
-    answer: "It is — monthly pay here is always annual divided by 12. What can look inconsistent is weekly or biweekly pay, since a year has slightly more than 52 weeks; use the Working Weeks Per Year field to match your actual schedule, including unpaid time off."
+    answer: "Monthly pay in the calculator is exactly your annual pay divided by 12. Weekly or biweekly pay can look inconsistent since a year has slightly more than 52 weeks, so use the Working Weeks Per Year field to match your actual schedule."
   - question: "How do I account for unpaid vacation or time off?"
-    answer: "Lower the Working Weeks Per Year field below 52 to reflect only the weeks you're actually paid for. This adjusts every converted figure to reflect your real annual pay rather than a theoretical full-year number."
+    answer: "Account for unpaid vacation by lowering the Working Weeks Per Year field below 52 to reflect only the weeks you are actually paid for. This adjusts every converted figure to reflect your real annual pay rather than a theoretical full-year number."
   - question: "Is this calculator showing gross or net pay?"
-    answer: "Both. The hourly-through-annual figures are gross pay. If you enter your own tax rate and other deductions, the calculator also shows an estimated Take-Home Pay — but it uses the rate you provide rather than looking up any country's actual tax brackets."
+    answer: "The calculator shows both gross and net pay. Hourly-through-annual figures are gross pay, while the estimated Take-Home Pay is calculated using the tax rate and other deductions you enter."
   - question: "How is Take-Home Pay calculated?"
-    answer: "Take-Home Pay is your annual gross salary minus your entered tax rate applied to that gross amount, minus your entered Other Deductions (annualized the same way your salary is). It reflects your own numbers, not a built-in tax table, so accuracy depends on the rate you provide."
+    answer: "Take-Home Pay is your annual gross salary minus your entered tax rate applied to that gross amount, minus your entered Other Deductions (annualized the same way your salary is)."
 ---
 
 # Salary Calculator - Convert Annual Salary to Hourly & Monthly Pay
@@ -182,27 +182,27 @@ The **Working Weeks Per Year** field is the most commonly overlooked input. A fu
 
 ### How do I convert an hourly wage to an annual salary?
 
-Multiply your hourly rate by the number of hours you work per day, then by the number of days you work per week, then by the number of weeks you work per year. This calculator does that automatically and also works in reverse, from annual down to hourly.
+To convert an hourly wage to an annual salary, multiply your hourly rate by the number of hours you work per day, then by the number of days you work per week, then by the number of weeks you work per year.
 
 ### Does this work for any country or currency?
 
-Yes. The math is based purely on your pay amount and your work schedule (hours per day, days per week, weeks per year), with no country-specific tax rules built in, so it works with any currency and any work pattern worldwide.
+The Salary Calculator works for any country or currency because the math is based purely on your pay amount and your work schedule, with no country-specific tax rules built in.
 
 ### Why is my monthly pay not exactly my annual pay divided by 12?
 
-It is — monthly pay here is always annual divided by 12. What can look inconsistent is weekly or biweekly pay, since a year has slightly more than 52 weeks; use the Working Weeks Per Year field to match your actual schedule, including unpaid time off.
+Monthly pay in the calculator is exactly your annual pay divided by 12. Weekly or biweekly pay can look inconsistent since a year has slightly more than 52 weeks, so use the Working Weeks Per Year field to match your actual schedule.
 
 ### How do I account for unpaid vacation or time off?
 
-Lower the Working Weeks Per Year field below 52 to reflect only the weeks you're actually paid for. This adjusts every converted figure to reflect your real annual pay rather than a theoretical full-year number.
+Account for unpaid vacation by lowering the Working Weeks Per Year field below 52 to reflect only the weeks you are actually paid for. This adjusts every converted figure to reflect your real annual pay rather than a theoretical full-year number.
 
 ### Is this calculator showing gross or net pay?
 
-Both. The hourly-through-annual figures are gross pay. If you enter your own tax rate and other deductions, the calculator also shows an estimated Take-Home Pay — but it uses the rate you provide rather than looking up any country's actual tax brackets.
+The calculator shows both gross and net pay. Hourly-through-annual figures are gross pay, while the estimated Take-Home Pay is calculated using the tax rate and other deductions you enter.
 
 ### How is Take-Home Pay calculated?
 
-Take-Home Pay is your annual gross salary minus your entered tax rate applied to that gross amount, minus your entered Other Deductions (annualized the same way your salary is). It reflects your own numbers, not a built-in tax table, so accuracy depends on the rate you provide.
+Take-Home Pay is your annual gross salary minus your entered tax rate applied to that gross amount, minus your entered Other Deductions (annualized the same way your salary is).
 
 ---
 

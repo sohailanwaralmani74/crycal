@@ -128,15 +128,15 @@ howto:
 
 faq:
   - question: "What is gross burn rate vs net burn rate?"
-    answer: "Gross burn rate is total operating expenditure in a given month. Net burn rate is gross expenses minus cash incoming from customer revenue (Gross Expenses − Revenue = Net Burn)."
+    answer: "Gross burn rate is total operating expenditure in a given month, whereas net burn rate is gross expenses minus incoming cash from customer revenue."
   - question: "How do you calculate monthly burn rate?"
-    answer: "Gross Burn = Payroll + Infrastructure + Marketing + Admin. Net Burn = Gross Burn − Monthly Cash Receipts."
+    answer: "To calculate gross monthly burn rate, add payroll, infrastructure, marketing, and admin costs. To calculate net monthly burn rate, subtract monthly cash receipts from your gross burn."
   - question: "What is a good Burn Multiple for a SaaS startup?"
-    answer: "Burn Multiple = Net Burn / Net New ARR generated. A Burn Multiple under 1.0x is considered incredible, 1.0x–1.5x is good, and above 2.5x indicates capital inefficiency."
+    answer: "A good Burn Multiple for a SaaS startup is between 1.0x and 1.5x, with under 1.0x considered incredible. Above 2.5x indicates capital inefficiency since Burn Multiple equals Net Burn divided by Net New ARR generated."
   - question: "Why do investors care about burn rate?"
-    answer: "Burn rate determines how fast a company consumes investor capital. Uncontrolled burn shortens runway and forces diluted emergency fundraising rounds."
+    answer: "Investors care about burn rate because it determines how fast a company consumes investor capital. Uncontrolled burn shortens a startup's runway and forces diluted emergency fundraising rounds."
   - question: "How can a startup reduce net burn rate?"
-    answer: "Startups reduce net burn by increasing monthly cash collections, pausing non-performing ad channels, negotiating vendor software discounts, and freezing non-critical headcount."
+    answer: "A startup can reduce its net burn rate by increasing monthly cash collections, pausing non-performing ad channels, negotiating vendor software discounts, and freezing non-critical headcount."
 
 ---
 
@@ -193,21 +193,21 @@ $$\text{Net Burn Ratio (\%)} = \left( \frac{\text{Net Burn}}{\text{Gross Burn}} 
 
 ### What is gross burn rate vs net burn rate?
 
-Gross burn rate is total operating expenditure in a given month. Net burn rate is gross expenses minus cash incoming from customer revenue (Gross Expenses − Revenue = Net Burn).
+Gross burn rate is total operating expenditure in a given month, whereas net burn rate is gross expenses minus incoming cash from customer revenue.
 
 ### How do you calculate monthly burn rate?
 
-Gross Burn = Payroll + Infrastructure + Marketing + Admin. Net Burn = Gross Burn − Monthly Cash Receipts.
+To calculate gross monthly burn rate, add payroll, infrastructure, marketing, and admin costs. To calculate net monthly burn rate, subtract monthly cash receipts from your gross burn.
 
 ### What is a good Burn Multiple for a SaaS startup?
 
-Burn Multiple = Net Burn / Net New ARR generated. A Burn Multiple under 1.0x is considered incredible, 1.0x–1.5x is good, and above 2.5x indicates capital inefficiency.
+A good Burn Multiple for a SaaS startup is between 1.0x and 1.5x, with under 1.0x considered incredible. Above 2.5x indicates capital inefficiency since Burn Multiple equals Net Burn divided by Net New ARR generated.
 
 ### Why do investors care about burn rate?
 
-Burn rate determines how fast a company consumes investor capital. Uncontrolled burn shortens runway and forces diluted emergency fundraising rounds.
+Investors care about burn rate because it determines how fast a company consumes investor capital. Uncontrolled burn shortens a startup's runway and forces diluted emergency fundraising rounds.
 
 ### How can a startup reduce net burn rate?
 
-Startups reduce net burn by increasing monthly cash collections, pausing non-performing ad channels, negotiating vendor software discounts, and freezing non-critical headcount.
+A startup can reduce its net burn rate by increasing monthly cash collections, pausing non-performing ad channels, negotiating vendor software discounts, and freezing non-critical headcount.
 

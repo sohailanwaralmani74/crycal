@@ -14,7 +14,7 @@
       formSubmissions: formSubmissions,
       adSpendOnPage: adSpendOnPage,
       leadValue: leadValue
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -62,7 +62,7 @@
       returnOnPageSpend: returnOnPageSpend,
       nonConvertedVisitors: visitors - submissions,
       error: null
-    };
+    }
   }
 
   function updateTool() {
@@ -89,7 +89,7 @@
       submissions: inputs.formSubmissions,
       costPerSubmission: result.costPerSubmission,
       leadValue: inputs.leadValue
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -146,7 +146,7 @@
             x: { ticks: { color: '#8899aa' } }
           }
         }
-      };
+      }
     }
 
     if (tab === 'cost') {
@@ -177,7 +177,7 @@
             x: { ticks: { color: '#8899aa' } }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -190,10 +190,14 @@
   }
 
   function resetTool() {
-    document.getElementById('input_uniqueVisitors').value = 10000;
-    document.getElementById('input_formSubmissions').value = 450;
-    document.getElementById('input_adSpendOnPage').value = 6000;
-    document.getElementById('input_leadValue').value = 80;
+    var _el_input_uniqueVisitors = document.getElementById('input_uniqueVisitors');
+    _el_input_uniqueVisitors.value = (_el_input_uniqueVisitors.dataset && _el_input_uniqueVisitors.dataset.default !== undefined) ? _el_input_uniqueVisitors.dataset.default : (_el_input_uniqueVisitors.getAttribute('value') || '');
+    var _el_input_formSubmissions = document.getElementById('input_formSubmissions');
+    _el_input_formSubmissions.value = (_el_input_formSubmissions.dataset && _el_input_formSubmissions.dataset.default !== undefined) ? _el_input_formSubmissions.dataset.default : (_el_input_formSubmissions.getAttribute('value') || '');
+    var _el_input_adSpendOnPage = document.getElementById('input_adSpendOnPage');
+    _el_input_adSpendOnPage.value = (_el_input_adSpendOnPage.dataset && _el_input_adSpendOnPage.dataset.default !== undefined) ? _el_input_adSpendOnPage.dataset.default : (_el_input_adSpendOnPage.getAttribute('value') || '');
+    var _el_input_leadValue = document.getElementById('input_leadValue');
+    _el_input_leadValue.value = (_el_input_leadValue.dataset && _el_input_leadValue.dataset.default !== undefined) ? _el_input_leadValue.dataset.default : (_el_input_leadValue.getAttribute('value') || '');
     updateTool();
   }
 
@@ -207,9 +211,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

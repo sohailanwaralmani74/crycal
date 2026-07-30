@@ -25,7 +25,7 @@
       totalChurned: parseFloat(document.getElementById('input_total_churned')?.value) || 0,
       earlyChurn: parseFloat(document.getElementById('input_month_1_to_3')?.value) || 0,
       renewalChurn: parseFloat(document.getElementById('input_month_11_to_12')?.value) || 0
-    };
+    }
   }
 
   function updateTool() {

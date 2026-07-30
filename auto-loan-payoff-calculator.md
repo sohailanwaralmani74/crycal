@@ -123,19 +123,19 @@ howto:
 
 faq:
   - question: "How does an extra monthly payment reduce my auto loan payoff time?"
-    answer: "Because auto loans use simple interest accrued daily, extra payments go 100% toward reducing the principal balance. A lower principal balance means less daily interest accrues, allowing future standard payments to cover even more principal and drastically shortening your payoff timeline."
+    answer: "Extra payments go 100% toward reducing the principal balance because auto loans use simple interest accrued daily. A lower principal balance means less daily interest accrues, allowing future standard payments to cover more principal and shorten your payoff timeline."
   - question: "Are auto loans subject to prepayment penalties?"
-    answer: "Most modern consumer auto loans in the United States do not have prepayment penalties. However, it is important to check your original finance agreement or ask your lender to ensure your contract uses simple interest without prepayment fees."
+    answer: "Most modern consumer auto loans in the United States do not have prepayment penalties. Check your original finance agreement or ask your lender to ensure your contract uses simple interest without prepayment fees."
   - question: "Should I notify my lender when making extra payments?"
-    answer: "Yes, ensure your additional funds are designated specifically as an 'Extra Principal Payment' rather than an advance payment on next month's standard bill. Advancing the payment date does not reduce interest accrual as effectively as direct principal reduction."
+    answer: "Yes — ensure your additional funds are designated specifically as an 'Extra Principal Payment' rather than an advance payment on next month's standard bill. Advancing the payment date does not reduce interest accrual as effectively as direct principal reduction."
   - question: "Is paying off a car loan early better than investing?"
-    answer: "Paying off a high-interest auto loan (e.g., 7% or higher) yields a guaranteed return equal to your loan's interest rate. If your loan interest rate is low (e.g., under 4%), you might earn a higher net return by investing extra cash in high-yield savings or market index funds."
+    answer: "Paying off a high-interest auto loan yields a guaranteed return equal to your loan's interest rate. If your loan interest rate is low, you might earn a higher net return by investing extra cash in high-yield savings or market index funds."
   - question: "Does paying off a car loan early affect my credit score?"
-    answer: "Paying off an auto loan closes an active installment account, which may cause a minor, temporary dip in your credit score due to reduced credit mix. However, the long-term savings on interest and reduced debt-to-income ratio far outweigh any brief credit score fluctuation."
+    answer: "Paying off an auto loan closes an active installment account, which may cause a minor, temporary dip in your credit score due to reduced credit mix. The long-term savings on interest and reduced debt-to-income ratio far outweigh any brief credit score fluctuation."
   - question: "What is the bi-weekly auto payment strategy?"
-    answer: "Making half of your monthly payment every two weeks results in 26 half-payments per year—the equivalent of 13 full monthly payments annually. This extra full payment per year accelerates payoff and reduces overall interest."
+    answer: "The bi-weekly auto payment strategy involves making half of your monthly payment every two weeks. This results in 26 half-payments per year, equalling 13 full monthly payments annually, which accelerates payoff and reduces overall interest."
   - question: "Is my personal financial information secure?"
-    answer: "Yes. All calculations are computed entirely on your device inside your browser runtime. No data is stored, tracked, or sent to external servers."
+    answer: "Yes — all calculations are computed entirely on your device inside your browser runtime. No data is stored, tracked, or sent to external servers."
 
 ---
 
@@ -271,28 +271,28 @@ Assuming a **$22,000 remaining balance** at **7.25% APR** with **48 remaining mo
 
 ### How does an extra monthly payment reduce my auto loan payoff time?
 
-Because auto loans use simple interest accrued daily, extra payments go 100% toward reducing the principal balance. A lower principal balance means less daily interest accrues, allowing future standard payments to cover even more principal and drastically shortening your payoff timeline.
+Because auto loans use simple interest accrued daily, extra payments go 100% toward reducing the principal balance. A lower principal balance means less daily interest accrues, allowing future standard payments to cover more principal and shorten your payoff timeline.
 
 ### Are auto loans subject to prepayment penalties?
 
-Most modern consumer auto loans in the United States do not have prepayment penalties. However, it is important to check your original finance agreement or ask your lender to ensure your contract uses simple interest without prepayment fees.
+Most modern consumer auto loans in the United States do not have prepayment penalties. Check your original finance agreement or ask your lender to ensure your contract uses simple interest without prepayment fees.
 
 ### Should I notify my lender when making extra payments?
 
-Yes, ensure your additional funds are designated specifically as an 'Extra Principal Payment' rather than an advance payment on next month's standard bill. Advancing the payment date does not reduce interest accrual as effectively as direct principal reduction.
+Yes — ensure your additional funds are designated specifically as an 'Extra Principal Payment' rather than an advance payment on next month's standard bill. Advancing the payment date does not reduce interest accrual as effectively as direct principal reduction.
 
 ### Is paying off a car loan early better than investing?
 
-Paying off a high-interest auto loan (e.g., 7% or higher) yields a guaranteed return equal to your loan's interest rate. If your loan interest rate is low (e.g., under 4%), you might earn a higher net return by investing extra cash in high-yield savings or market index funds.
+Paying off a high-interest auto loan yields a guaranteed return equal to your loan's interest rate. If your loan interest rate is low, you might earn a higher net return by investing extra cash in high-yield savings or market index funds.
 
 ### Does paying off a car loan early affect my credit score?
 
-Paying off an auto loan closes an active installment account, which may cause a minor, temporary dip in your credit score due to reduced credit mix. However, the long-term savings on interest and reduced debt-to-income ratio far outweigh any brief credit score fluctuation.
+Paying off an auto loan closes an active installment account, which may cause a minor, temporary dip in your credit score due to reduced credit mix. The long-term savings on interest and reduced debt-to-income ratio far outweigh any brief credit score fluctuation.
 
 ### What is the bi-weekly auto payment strategy?
 
-Making half of your monthly payment every two weeks results in 26 half-payments per year—the equivalent of 13 full monthly payments annually. This extra full payment per year accelerates payoff and reduces overall interest.
+The bi-weekly auto payment strategy involves making half of your monthly payment every two weeks. This results in 26 half-payments per year, equalling 13 full monthly payments annually, which accelerates payoff and reduces overall interest.
 
 ### Is my personal financial information secure?
 
-Yes. All calculations are computed entirely on your device inside your browser runtime. No data is stored, tracked, or sent to external servers.
+Yes — all calculations are computed entirely on your device inside your browser runtime. No data is stored, tracked, or sent to external servers.

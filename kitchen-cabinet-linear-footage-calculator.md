@@ -143,7 +143,7 @@ faq:
   - question: "How wide are standard kitchen cabinet boxes?"
     answer: "Kitchen cabinet widths increase in 3-inch increments, typically ranging from 9 inches to 36 inches wide. Base cabinet standard depth is 24 inches, while upper wall cabinet standard depth is 12 inches."
   - question: "Does linear footage include appliances like refrigerators and dishwashers?"
-    answer: "No. Deduct the width of freestanding ranges (30\"), dishwashers (24\"), and refrigerators (36\") from your base cabinet wall measurements, as no cabinet box sits underneath those appliances."
+    answer: "Linear footage does not include appliances. Deduct the width of freestanding ranges (30\"), dishwashers (24\"), and refrigerators (36\") from your base cabinet wall measurements, as no cabinet box sits underneath those appliances."
 ---
 
 # Kitchen Cabinet Linear Footage Calculator - Calculate Dimensions, Spacing & Cut Widths
@@ -229,5 +229,5 @@ Kitchen cabinet widths increase in 3-inch increments, typically ranging from 9 i
 
 ### Does linear footage include appliances like refrigerators and dishwashers?
 
-No. Deduct the width of freestanding ranges (30"), dishwashers (24"), and refrigerators (36") from your base cabinet wall measurements, as no cabinet box sits underneath those appliances.
+Linear footage does not include appliances. Deduct the width of freestanding ranges (30"), dishwashers (24"), and refrigerators (36") from your base cabinet wall measurements, as no cabinet box sits underneath those appliances.
 

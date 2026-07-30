@@ -142,19 +142,19 @@ howto:
 
 faq:
   - question: "How far apart should rebar be spaced in a concrete slab?"
-  - answer: "Standard residential slab rebar spacing ranges from 12 to 18 inches center-to-center in a crisscross grid pattern."
+    answer: "Standard residential slab rebar spacing ranges from 12 to 18 inches center-to-center in a crisscross grid pattern."
   - question: "What size rebar is best for driveways and patios?"
-  - answer: "#4 rebar (1/2-inch diameter) is the standard recommendation for residential concrete driveways, patios, and garage slabs."
+    answer: "#4 rebar (1/2-inch diameter) is the standard recommendation for residential concrete driveways, patios, and garage slabs."
   - question: "How much lap splice overlap is required for rebar?"
-  - answer: "Code generally requires a lap splice overlap equal to 30 to 40 times the bar diameter, which is approximately 12 to 18 inches for #4 rebar."
+    answer: "Code generally requires a lap splice overlap equal to 30 to 40 times the bar diameter, which is approximately 12 to 18 inches for #4 rebar."
   - question: "How heavy is #4 rebar per foot?"
-  - answer: "#4 rebar weighs 0.668 lbs per linear foot. A standard 20-foot stick weighs approximately 13.36 lbs."
+    answer: "#4 rebar weighs 0.668 lbs per linear foot. A standard 20-foot stick weighs approximately 13.36 lbs."
   - question: "Why is edge clearance required for rebar?"
-  - answer: "Maintaining 2 to 3 inches of concrete coverage around rebar prevents moisture penetration, rust corrosion, and concrete spalling."
+    answer: "Maintaining 2 to 3 inches of concrete coverage around rebar prevents moisture penetration, rust corrosion, and concrete spalling."
   - question: "What length do rebar sticks come in?"
-  - answer: "Standard rebar is sold in 20-foot long sticks at building supply yards."
+    answer: "Standard rebar is sold in 20-foot long sticks at building supply yards."
   - question: "Is my data stored on external servers?"
-  - answer: "No. All calculation logic runs locally inside your browser."
+    answer: "No. All calculation logic runs locally inside your browser."
 ---
 
 # Rebar Calculator - Calculate Volume, Bags & Materials
@@ -216,7 +216,7 @@ Standard residential slab rebar spacing ranges from 12 to 18 inches center-to-ce
 
 ### What size rebar is best for driveways and patios?
 
-4 rebar (1/2-inch diameter) is the standard recommendation for residential concrete driveways, patios, and garage slabs.
+#4 rebar (1/2-inch diameter) is the standard recommendation for residential concrete driveways, patios, and garage slabs.
 
 ### How much lap splice overlap is required for rebar?
 
@@ -224,7 +224,7 @@ Code generally requires a lap splice overlap equal to 30 to 40 times the bar dia
 
 ### How heavy is #4 rebar per foot?
 
-4 rebar weighs 0.668 lbs per linear foot. A standard 20-foot stick weighs approximately 13.36 lbs.
+#4 rebar weighs 0.668 lbs per linear foot. A standard 20-foot stick weighs approximately 13.36 lbs.
 
 ### Why is edge clearance required for rebar?
 

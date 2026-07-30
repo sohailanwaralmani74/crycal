@@ -82,7 +82,7 @@
       c2023Cogs: c2023Cogs,
       c2024Rev: c2024Rev,
       c2024Cogs: c2024Cogs
-    };
+    }
     updateCharts(lastChartData);
 
     if (typeof window.logHistory === 'function') {
@@ -128,7 +128,7 @@
           plugins: { legend: { display: false } },
           scales: { y: { beginAtZero: true, ticks: { color: '#8899aa' } }, x: { ticks: { color: '#8899aa' } } }
         }
-      };
+      }
     }
     if (tab === 'cohortRevenueCogs') {
       return {
@@ -145,7 +145,7 @@
           maintainAspectRatio: false,
           scales: { y: { beginAtZero: true, ticks: { color: '#8899aa' } }, x: { ticks: { color: '#8899aa' } } }
         }
-      };
+      }
     }
     return null;
 
@@ -162,12 +162,18 @@
 
   function resetTool() {
 
-    document.getElementById('input_c2022Rev').value = 120000;
-    document.getElementById('input_c2022Cogs').value = 36000;
-    document.getElementById('input_c2023Rev').value = 250000;
-    document.getElementById('input_c2023Cogs').value = 60000;
-    document.getElementById('input_c2024Rev').value = 450000;
-    document.getElementById('input_c2024Cogs').value = 90000;
+    var _el_input_c2022Rev = document.getElementById('input_c2022Rev');
+    _el_input_c2022Rev.value = (_el_input_c2022Rev.dataset && _el_input_c2022Rev.dataset.default !== undefined) ? _el_input_c2022Rev.dataset.default : (_el_input_c2022Rev.getAttribute('value') || '');
+    var _el_input_c2022Cogs = document.getElementById('input_c2022Cogs');
+    _el_input_c2022Cogs.value = (_el_input_c2022Cogs.dataset && _el_input_c2022Cogs.dataset.default !== undefined) ? _el_input_c2022Cogs.dataset.default : (_el_input_c2022Cogs.getAttribute('value') || '');
+    var _el_input_c2023Rev = document.getElementById('input_c2023Rev');
+    _el_input_c2023Rev.value = (_el_input_c2023Rev.dataset && _el_input_c2023Rev.dataset.default !== undefined) ? _el_input_c2023Rev.dataset.default : (_el_input_c2023Rev.getAttribute('value') || '');
+    var _el_input_c2023Cogs = document.getElementById('input_c2023Cogs');
+    _el_input_c2023Cogs.value = (_el_input_c2023Cogs.dataset && _el_input_c2023Cogs.dataset.default !== undefined) ? _el_input_c2023Cogs.dataset.default : (_el_input_c2023Cogs.getAttribute('value') || '');
+    var _el_input_c2024Rev = document.getElementById('input_c2024Rev');
+    _el_input_c2024Rev.value = (_el_input_c2024Rev.dataset && _el_input_c2024Rev.dataset.default !== undefined) ? _el_input_c2024Rev.dataset.default : (_el_input_c2024Rev.getAttribute('value') || '');
+    var _el_input_c2024Cogs = document.getElementById('input_c2024Cogs');
+    _el_input_c2024Cogs.value = (_el_input_c2024Cogs.dataset && _el_input_c2024Cogs.dataset.default !== undefined) ? _el_input_c2024Cogs.dataset.default : (_el_input_c2024Cogs.getAttribute('value') || '');
     updateTool();
 
   }
@@ -182,9 +188,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

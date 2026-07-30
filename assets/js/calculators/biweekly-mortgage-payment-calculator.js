@@ -8,7 +8,7 @@
       homeLoanBalance: parseFloat(document.getElementById('input_homeLoanBalance').value) || 0,
       interestRate: parseFloat(document.getElementById('input_interestRate').value) || 0,
       loanTermYears: parseFloat(document.getElementById('input_loanTermYears').value) || 30
-    };
+    }
   }
 
   function formatCurrencyLocal(amount) {
@@ -93,7 +93,7 @@
       yearsSaved: yearsSaved,
       monthlySchedule: monthlySchedule,
       biweeklySchedule: biweeklySchedule
-    };
+    }
   }
 
   function updateTool() {
@@ -190,7 +190,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'interest') {
@@ -227,7 +227,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;

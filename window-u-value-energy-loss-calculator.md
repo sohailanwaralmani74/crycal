@@ -143,12 +143,19 @@ howto:
 
 faq:
   - question: "What is the difference between U-value (U-factor) and R-value?"
+    answer: "R-value measures resistance to heat flow, whereas U-value measures the rate of heat flow through a material. They are mathematical reciprocals of each other, meaning R = 1/U and U = 1/R."
   - question: "How do I convert U-value to R-value?"
+    answer: "To convert U-value to R-value, divide 1 by the U-value. For example, an Energy Star window with a U-value of 0.27 has an equivalent R-value of 3.70 (1 / 0.27 = 3.70)."
   - question: "What is a good Energy Star U-value for windows?"
+    answer: "In Northern US climates, a good Energy Star U-value for windows is 0.27 or lower, while in Southern climates, a U-factor of 0.30 to 0.40 with a low Solar Heat Gain Coefficient is recommended."
   - question: "How much heat is lost through single pane vs double pane windows?"
+    answer: "Single-pane clear glass loses four times more heat than an Energy Star double-pane Low-E window. Upgrading to double-pane windows saves up to 75% of conductive window energy loss."
   - question: "What is Heating Degree Days (HDD)?"
+    answer: "Heating Degree Days (HDD) is a geographic weather index representing how cold a climate is over a year, measured by the sum of daily temperature differences below 65°F."
   - question: "How long does it take for new Energy Star windows to pay for themselves?"
+    answer: "Depending on climate severity and fuel costs, replacing single-pane windows with Energy Star double-pane windows yields typical utility savings of $200 to $500 per year, providing full thermal payback over time."
   - question: "Is my personal data saved when using this calculator?"
+    answer: "No personal data is saved when using this calculator, as all computations are processed locally in your web browser."
 
 ---
 
@@ -226,25 +233,29 @@ Where:
 
 ### What is the difference between U-value (U-factor) and R-value?
 
-**R-value** measures resistance to heat flow (higher is better). **U-value (U-factor)** measures the rate of heat flow through a material (lower is better). They are mathematical reciprocals of each other: $R = 1/U$ and $U = 1/R$.
+R-value measures resistance to heat flow, whereas U-value measures the rate of heat flow through a material. They are mathematical reciprocals of each other, meaning R = 1/U and U = 1/R.
 
 ### How do I convert U-value to R-value?
 
-Divide 1 by the U-value. For example, an Energy Star window with a U-value of $0.27$ has an equivalent R-value of $1 / 0.27 = 3.70$.
+To convert U-value to R-value, divide 1 by the U-value. For example, an Energy Star window with a U-value of 0.27 has an equivalent R-value of 3.70 (1 / 0.27 = 3.70).
 
 ### What is a good Energy Star U-value for windows?
 
-In Northern US climates, Energy Star requires a U-factor of **0.27 or lower**. In Southern climates, a U-factor of **0.30 to 0.40** with a low Solar Heat Gain Coefficient (SHGC) is recommended.
+In Northern US climates, a good Energy Star U-value for windows is 0.27 or lower, while in Southern climates, a U-factor of 0.30 to 0.40 with a low Solar Heat Gain Coefficient is recommended.
 
 ### How much heat is lost through single pane vs double pane windows?
 
-Single-pane clear glass ($U=1.10$) loses **4 times more heat** than an Energy Star double-pane Low-E window ($U=0.27$). Upgrading saves up to 75% of conductive window energy loss.
+Single-pane clear glass loses four times more heat than an Energy Star double-pane Low-E window. Upgrading to double-pane windows saves up to 75% of conductive window energy loss.
 
 ### What is Heating Degree Days (HDD)?
 
-Heating Degree Days (HDD) is a geographic weather index representing how cold a climate is over a year. It measures the sum of daily temperature differences below $65^\circ\text{F}$ (e.g., Chicago has ~6,300 HDD; Atlanta has ~2,800 HDD).
+Heating Degree Days (HDD) is a geographic weather index representing how cold a climate is over a year, measured by the sum of daily temperature differences below 65°F.
 
 ### How long does it take for new Energy Star windows to pay for themselves?
 
-Depending on climate severity and fuel costs, replacing single-pane windows with Energy Star double-pane windows yields typical utility savings of $200 to $500 per year, providing complete thermal payback over time while dramatically improving room comfort.
+Depending on climate severity and fuel costs, replacing single-pane windows with Energy Star double-pane windows yields typical utility savings of $200 to $500 per year, providing full thermal payback over time.
+
+### Is my personal data saved when using this calculator?
+
+No personal data is saved when using this calculator, as all computations are processed locally in your web browser.
 

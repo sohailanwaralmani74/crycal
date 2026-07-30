@@ -136,12 +136,19 @@ howto:
 
 faq:
   - question: "What is the standard size for a 2-car garage door?"
+    answer: "The standard size for a 2-car garage door is 16 feet wide by 7 feet high (16x7). Many modern homes accommodate trucks or large SUVs by using wider 18x7 or taller 16x8 doors."
   - question: "What is the standard size for a 1-car garage door?"
+    answer: "The standard size for a 1-car garage door is either 8 feet wide by 7 feet high (8x7) or 9 feet wide by 7 feet high (9x7)."
   - question: "How much headroom clearance is needed for a garage door?"
+    answer: "Standard curved tracks require 12 inches of headroom clearance for manual operation, or 14 inches when installing a central trolley electric opener."
   - question: "What is a low-headroom garage door track?"
+    answer: "A low-headroom garage door track uses a secondary top track to guide the top door panel horizontally, allowing installation in garages with less than 12 inches of ceiling headroom."
   - question: "What is the difference between torsion springs and extension springs?"
+    answer: "Torsion springs mount horizontally on a steel shaft above the door header to provide safe, smooth operation. In contrast, extension springs stretch along the side ceiling tracks and typically support lighter doors."
   - question: "How much backroom depth is required for an automatic garage door opener?"
+    answer: "An automatic trolley garage door opener requires a backroom depth equal to the door height plus 4 feet (48 inches). For example, a 7-foot door needs at least 11 feet of clear ceiling depth."
   - question: "Is my personal data saved when using this calculator?"
+    answer: "All calculations run locally in your browser, ensuring your personal data is never saved or transmitted to our servers."
 
 ---
 
@@ -216,25 +223,29 @@ $$\text{Sideroom Minimum} = 3.75\text{ inches (Extension Springs)} \quad \text{o
 
 ### What is the standard size for a 2-car garage door?
 
-The standard size for a double 2-car garage door is **16 feet wide by 7 feet high (16x7)**. Many modern homes with trucks or large SUVs use **18x7** or **16x8** doors for extra clearance.
+The standard size for a 2-car garage door is 16 feet wide by 7 feet high (16x7). Many modern homes accommodate trucks or large SUVs by using wider 18x7 or taller 16x8 doors.
 
 ### What is the standard size for a 1-car garage door?
 
-The standard size for a single 1-car garage door is **8 feet wide by 7 feet high (8x7)** or **9 feet wide by 7 feet high (9x7)**.
+The standard size for a 1-car garage door is either 8 feet wide by 7 feet high (8x7) or 9 feet wide by 7 feet high (9x7).
 
 ### How much headroom clearance is needed for a garage door?
 
-Standard curved tracks require **12 inches** of headroom for manual operation, or **14 inches** if installing a central trolley electric garage door opener.
+Standard curved tracks require 12 inches of headroom clearance for manual operation, or 14 inches when installing a central trolley electric opener.
 
 ### What is a low-headroom garage door track?
 
-If available ceiling headroom is less than 12 inches (down to 7 inches), a low-headroom double-track system is installed. It uses a secondary top track to guide the top door panel horizontally without needing full curved clearance.
+A low-headroom garage door track uses a secondary top track to guide the top door panel horizontally, allowing installation in garages with less than 12 inches of ceiling headroom.
 
 ### What is the difference between torsion springs and extension springs?
 
-**Torsion springs** are mounted horizontally on a steel shaft directly above the door header, providing safer, smoother, and longer-lasting operation (10,000 to 20,000 cycles). **Extension springs** stretch along the side ceiling tracks and are generally used on lighter budget doors.
+Torsion springs mount horizontally on a steel shaft above the door header to provide safe, smooth operation. In contrast, extension springs stretch along the side ceiling tracks and typically support lighter doors.
 
 ### How much backroom depth is required for an automatic garage door opener?
 
-An automatic trolley opener requires a backroom depth equal to the **door height plus 4 feet (48 inches)**. For a 7-foot door, you need at least **11 feet of clear ceiling depth**.
+An automatic trolley garage door opener requires a backroom depth equal to the door height plus 4 feet (48 inches). For example, a 7-foot door needs at least 11 feet of clear ceiling depth.
+
+### Is my personal data saved when using this calculator?
+
+All calculations run locally in your browser, ensuring your personal data is never saved or transmitted to our servers.
 

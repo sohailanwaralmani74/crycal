@@ -16,7 +16,7 @@
       roleBaseSalary: roleBaseSalary,
       externalRecruiterFee: externalRecruiterFee / 100,
       internalHiringHours: internalHiringHours
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -69,7 +69,7 @@
       dailyCostOfVacancy: dailyCostOfVacancy,
       days: days,
       error: null
-    };
+    }
   }
 
   function updateTool() {
@@ -99,7 +99,7 @@
       internal: result.internalLaborCost,
       dailyCost: result.dailyCostOfVacancy,
       days: result.days
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -147,7 +147,7 @@
             title: { display: true, text: 'Total Vacancy Cost Component Breakdown ($)', color: '#e8edf0' }
           }
         }
-      };
+      }
     }
 
     if (tab === 'timeline') {
@@ -185,7 +185,7 @@
             x: { ticks: { color: '#8899aa' } }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -198,11 +198,16 @@
   }
 
   function resetTool() {
-    document.getElementById('input_daysToFill').value = 45;
-    document.getElementById('input_annualTargetRevenue').value = 250000;
-    document.getElementById('input_roleBaseSalary').value = 120000;
-    document.getElementById('input_externalRecruiterFee').value = 20;
-    document.getElementById('input_internalHiringHours').value = 35;
+    var _el_input_daysToFill = document.getElementById('input_daysToFill');
+    _el_input_daysToFill.value = (_el_input_daysToFill.dataset && _el_input_daysToFill.dataset.default !== undefined) ? _el_input_daysToFill.dataset.default : (_el_input_daysToFill.getAttribute('value') || '');
+    var _el_input_annualTargetRevenue = document.getElementById('input_annualTargetRevenue');
+    _el_input_annualTargetRevenue.value = (_el_input_annualTargetRevenue.dataset && _el_input_annualTargetRevenue.dataset.default !== undefined) ? _el_input_annualTargetRevenue.dataset.default : (_el_input_annualTargetRevenue.getAttribute('value') || '');
+    var _el_input_roleBaseSalary = document.getElementById('input_roleBaseSalary');
+    _el_input_roleBaseSalary.value = (_el_input_roleBaseSalary.dataset && _el_input_roleBaseSalary.dataset.default !== undefined) ? _el_input_roleBaseSalary.dataset.default : (_el_input_roleBaseSalary.getAttribute('value') || '');
+    var _el_input_externalRecruiterFee = document.getElementById('input_externalRecruiterFee');
+    _el_input_externalRecruiterFee.value = (_el_input_externalRecruiterFee.dataset && _el_input_externalRecruiterFee.dataset.default !== undefined) ? _el_input_externalRecruiterFee.dataset.default : (_el_input_externalRecruiterFee.getAttribute('value') || '');
+    var _el_input_internalHiringHours = document.getElementById('input_internalHiringHours');
+    _el_input_internalHiringHours.value = (_el_input_internalHiringHours.dataset && _el_input_internalHiringHours.dataset.default !== undefined) ? _el_input_internalHiringHours.dataset.default : (_el_input_internalHiringHours.getAttribute('value') || '');
     updateTool();
   }
 
@@ -216,9 +221,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

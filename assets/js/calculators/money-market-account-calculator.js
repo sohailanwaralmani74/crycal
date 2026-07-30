@@ -11,8 +11,7 @@
     'monthly': 12,
     'quarterly': 4,
     'annually': 1
-  };
-
+  }
   // ── Get Inputs ──
   function getInputs() {
     var initialDeposit = parseFloat(document.getElementById('input_initialDeposit').value) || 0;
@@ -29,7 +28,7 @@
       compoundingFrequency: compoundingFrequency,
       timeYears: timeYears,
       taxRate: taxRate / 100
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -146,7 +145,7 @@
       monthlyEarnings: monthlyEarnings,
       dataPoints: dataPoints,
       error: null
-    };
+    }
   }
 
   // ── Main Update ──
@@ -194,7 +193,7 @@
       endingBalance: result.endingBalance,
       totalInterest: result.totalInterest,
       totalContributions: result.totalContributions
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -317,7 +316,7 @@
             mode: 'index'
           }
         }
-      };
+      }
     }
 
     if (tab === 'breakdown') {
@@ -353,7 +352,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -371,12 +370,17 @@
 
   // ── Reset Tool ──
   function resetTool() {
-    document.getElementById('input_initialDeposit').value = 10000;
-    document.getElementById('input_monthlyContribution').value = 500;
-    document.getElementById('input_apy').value = 4.50;
+    var _el_input_initialDeposit = document.getElementById('input_initialDeposit');
+    _el_input_initialDeposit.value = (_el_input_initialDeposit.dataset && _el_input_initialDeposit.dataset.default !== undefined) ? _el_input_initialDeposit.dataset.default : (_el_input_initialDeposit.getAttribute('value') || '');
+    var _el_input_monthlyContribution = document.getElementById('input_monthlyContribution');
+    _el_input_monthlyContribution.value = (_el_input_monthlyContribution.dataset && _el_input_monthlyContribution.dataset.default !== undefined) ? _el_input_monthlyContribution.dataset.default : (_el_input_monthlyContribution.getAttribute('value') || '');
+    var _el_input_apy = document.getElementById('input_apy');
+    _el_input_apy.value = (_el_input_apy.dataset && _el_input_apy.dataset.default !== undefined) ? _el_input_apy.dataset.default : (_el_input_apy.getAttribute('value') || '');
     document.getElementById('input_compoundingFrequency').value = 'daily';
-    document.getElementById('input_timeYears').value = 5;
-    document.getElementById('input_taxRate').value = 0;
+    var _el_input_timeYears = document.getElementById('input_timeYears');
+    _el_input_timeYears.value = (_el_input_timeYears.dataset && _el_input_timeYears.dataset.default !== undefined) ? _el_input_timeYears.dataset.default : (_el_input_timeYears.getAttribute('value') || '');
+    var _el_input_taxRate = document.getElementById('input_taxRate');
+    _el_input_taxRate.value = (_el_input_taxRate.dataset && _el_input_taxRate.dataset.default !== undefined) ? _el_input_taxRate.dataset.default : (_el_input_taxRate.getAttribute('value') || '');
     updateTool();
   }
 
@@ -392,9 +396,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

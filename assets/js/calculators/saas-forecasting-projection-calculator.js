@@ -14,7 +14,7 @@
       monthlyExpansionRatePct: parseFloat(document.getElementById('input_monthlyExpansionRatePct').value) || 0,
       monthlyChurnRatePct: parseFloat(document.getElementById('input_monthlyChurnRatePct').value) || 0,
       forecastYears: parseFloat(document.getElementById('input_forecastYears').value) || 3
-    };
+    }
   }
 
   function formatCurrency(amount) {

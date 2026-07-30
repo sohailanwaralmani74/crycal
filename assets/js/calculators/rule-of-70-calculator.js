@@ -6,7 +6,7 @@
     return {
       growthRate: growthRate / 100,
       initialValue: initialValue
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -57,7 +57,7 @@
       doublingYearsExact: doublingYearsExact,
       doubledValue: doubledValue,
       error: null
-    };
+    }
   }
 
   function updateTool() {
@@ -90,8 +90,10 @@
   }
 
   function resetTool() {
-    document.getElementById('input_growthRate').value = 7;
-    document.getElementById('input_initialValue').value = 10000;
+    var _el_input_growthRate = document.getElementById('input_growthRate');
+    _el_input_growthRate.value = (_el_input_growthRate.dataset && _el_input_growthRate.dataset.default !== undefined) ? _el_input_growthRate.dataset.default : (_el_input_growthRate.getAttribute('value') || '');
+    var _el_input_initialValue = document.getElementById('input_initialValue');
+    _el_input_initialValue.value = (_el_input_initialValue.dataset && _el_input_initialValue.dataset.default !== undefined) ? _el_input_initialValue.dataset.default : (_el_input_initialValue.getAttribute('value') || '');
     updateTool();
   }
 
@@ -104,9 +106,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

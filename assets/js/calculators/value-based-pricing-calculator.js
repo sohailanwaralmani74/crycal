@@ -10,7 +10,7 @@
       directCostSavingsMonthly: parseFloat(document.getElementById('input_directCostSavingsMonthly').value) || 0,
       revenueIncreaseMonthly: parseFloat(document.getElementById('input_revenueIncreaseMonthly').value) || 0,
       targetValueSharePercent: (parseFloat(document.getElementById('input_targetValueSharePercent').value) || 0) / 100
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -62,7 +62,7 @@
       paybackPeriodDays: paybackPeriodDays,
       shares: shares,
       sharePrices: sharePrices
-    };
+    }
   }
 
   function updateTool() {

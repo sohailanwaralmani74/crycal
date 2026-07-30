@@ -18,7 +18,7 @@
       medicareRate: parseFloat(document.getElementById('input_medicareRate').value) || 0,
       pensionRate: parseFloat(document.getElementById('input_pensionRate').value) || 0,
       otherDeductions: parseFloat(document.getElementById('input_otherDeductions').value) || 0
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -146,7 +146,7 @@
         incomeTaxRate: inputs.incomeTaxRate,
         takeHomePay: takeHomePerPeriod,
         totalDeductions: totalDeductionsPerPeriod
-      };
+      }
       window.logHistory(snapshot);
     }
     if (typeof window.renderPresetDropdown === 'function') {
@@ -195,7 +195,7 @@
             title: { display: true, text: 'No data to display', font: { size: 14 } }
           }
         }
-      };
+      }
     }
 
     if (tab === 'breakdown') {
@@ -229,7 +229,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'comparison') {
@@ -266,7 +266,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'distribution') {
@@ -302,7 +302,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -316,13 +316,19 @@
 
   // ── Reset Tool ──
   function resetTool() {
-    document.getElementById('input_grossSalary').value = 75000;
+    var _el_input_grossSalary = document.getElementById('input_grossSalary');
+    _el_input_grossSalary.value = (_el_input_grossSalary.dataset && _el_input_grossSalary.dataset.default !== undefined) ? _el_input_grossSalary.dataset.default : (_el_input_grossSalary.getAttribute('value') || '');
     document.getElementById('input_payFrequency').value = 'bi-weekly';
-    document.getElementById('input_incomeTaxRate').value = 20.0;
-    document.getElementById('input_socialSecurityRate').value = 6.2;
-    document.getElementById('input_medicareRate').value = 1.45;
-    document.getElementById('input_pensionRate').value = 5.0;
-    document.getElementById('input_otherDeductions').value = 0;
+    var _el_input_incomeTaxRate = document.getElementById('input_incomeTaxRate');
+    _el_input_incomeTaxRate.value = (_el_input_incomeTaxRate.dataset && _el_input_incomeTaxRate.dataset.default !== undefined) ? _el_input_incomeTaxRate.dataset.default : (_el_input_incomeTaxRate.getAttribute('value') || '');
+    var _el_input_socialSecurityRate = document.getElementById('input_socialSecurityRate');
+    _el_input_socialSecurityRate.value = (_el_input_socialSecurityRate.dataset && _el_input_socialSecurityRate.dataset.default !== undefined) ? _el_input_socialSecurityRate.dataset.default : (_el_input_socialSecurityRate.getAttribute('value') || '');
+    var _el_input_medicareRate = document.getElementById('input_medicareRate');
+    _el_input_medicareRate.value = (_el_input_medicareRate.dataset && _el_input_medicareRate.dataset.default !== undefined) ? _el_input_medicareRate.dataset.default : (_el_input_medicareRate.getAttribute('value') || '');
+    var _el_input_pensionRate = document.getElementById('input_pensionRate');
+    _el_input_pensionRate.value = (_el_input_pensionRate.dataset && _el_input_pensionRate.dataset.default !== undefined) ? _el_input_pensionRate.dataset.default : (_el_input_pensionRate.getAttribute('value') || '');
+    var _el_input_otherDeductions = document.getElementById('input_otherDeductions');
+    _el_input_otherDeductions.value = (_el_input_otherDeductions.dataset && _el_input_otherDeductions.dataset.default !== undefined) ? _el_input_otherDeductions.dataset.default : (_el_input_otherDeductions.getAttribute('value') || '');
     if (typeof window.updateTool === 'function') window.updateTool();
   }
 
@@ -338,9 +344,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
   });
 
 })();

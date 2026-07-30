@@ -10,8 +10,7 @@
     '26-30': 1.20,
     '31-65': 1.00,
     '66+': 1.15
-  };
-
+  }
   var HISTORY_FACTORS = {
     'clean': 1.00,
     'one-accident': 1.35,
@@ -19,36 +18,31 @@
     'one-violation': 1.20,
     'multiple-violations': 1.60,
     'sr22': 2.50
-  };
-
+  }
   var LOCATION_FACTORS = {
     'rural': 0.85,
     'suburban': 1.00,
     'urban': 1.25,
     'high-risk': 1.60
-  };
-
+  }
   var COVERAGE_FACTORS = {
     'liability-only': 0.60,
     'comprehensive': 0.85,
     'full': 1.00,
     'premium-full': 1.25
-  };
-
+  }
   var DEDUCTIBLE_FACTORS = {
     '250': 1.15,
     '500': 1.00,
     '1000': 0.85,
     '2000': 0.70,
     '5000': 0.55
-  };
-
+  }
   var MILEAGE_FACTORS = {
     'low': 0.90,
     'medium': 1.00,
     'high': 1.10
-  };
-
+  }
   // ── Get Age Factor ──
   function getAgeFactor(age) {
     if (age >= 16 && age <= 25) return AGE_FACTORS['16-25'];
@@ -83,7 +77,7 @@
       coverageType: coverageType,
       deductible: deductible,
       annualMileage: annualMileage
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -164,8 +158,7 @@
       'Coverage Adjustment': baseRate * (coverageFactor - 1),
       'Deductible Adjustment': baseRate * (deductibleFactor - 1),
       'Mileage Adjustment': baseRate * (mileageFactor - 1)
-    };
-
+    }
     // ── Risk Assessment ──
     var riskScore = 0;
     riskScore += age < 25 ? 2 : 0;
@@ -205,8 +198,7 @@
       'Coverage Adjustment': breakdown['Coverage Adjustment'],
       'Deductible Adjustment': breakdown['Deductible Adjustment'],
       'Mileage Adjustment': breakdown['Mileage Adjustment']
-    };
-
+    }
     // ── Clean up chart data (remove zero values) ──
     var cleanChartData = {};
     for (var key in chartData) {
@@ -225,7 +217,7 @@
       breakdown: breakdown,
       riskScore: riskScore,
       error: null
-    };
+    }
   }
 
   // ── Main Update ──
@@ -269,7 +261,7 @@
       chartData: result.chartData,
       totalPremium: result.totalPremium,
       basePremium: result.basePremium
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -358,7 +350,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -376,13 +368,16 @@
 
   // ── Reset Tool ──
   function resetTool() {
-    document.getElementById('input_vehicleValue').value = 30000;
-    document.getElementById('input_driverAge').value = 35;
+    var _el_input_vehicleValue = document.getElementById('input_vehicleValue');
+    _el_input_vehicleValue.value = (_el_input_vehicleValue.dataset && _el_input_vehicleValue.dataset.default !== undefined) ? _el_input_vehicleValue.dataset.default : (_el_input_vehicleValue.getAttribute('value') || '');
+    var _el_input_driverAge = document.getElementById('input_driverAge');
+    _el_input_driverAge.value = (_el_input_driverAge.dataset && _el_input_driverAge.dataset.default !== undefined) ? _el_input_driverAge.dataset.default : (_el_input_driverAge.getAttribute('value') || '');
     document.getElementById('input_drivingHistory').value = 'clean';
     document.getElementById('input_location').value = 'suburban';
     document.getElementById('input_coverageType').value = 'full';
     document.getElementById('input_deductible').value = '500';
-    document.getElementById('input_annualMileage').value = 12000;
+    var _el_input_annualMileage = document.getElementById('input_annualMileage');
+    _el_input_annualMileage.value = (_el_input_annualMileage.dataset && _el_input_annualMileage.dataset.default !== undefined) ? _el_input_annualMileage.dataset.default : (_el_input_annualMileage.getAttribute('value') || '');
     updateTool();
   }
 
@@ -398,9 +393,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

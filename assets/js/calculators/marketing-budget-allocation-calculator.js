@@ -18,7 +18,7 @@
       linkedinShare: linkedinShare,
       seoShare: seoShare,
       eventsShare: eventsShare
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -80,7 +80,7 @@
       seoAcq: seoAcq,
       eventsAcq: eventsAcq,
       error: null
-    };
+    }
   }
 
   function updateTool() {
@@ -107,7 +107,7 @@
     var chartPayload = {
       allocations: [result.ppcAllocation, result.linkedinAllocation, result.seoAllocation, result.eventsAllocation],
       acquisitions: [result.ppcAcq, result.linkedinAcq, result.seoAcq, result.eventsAcq]
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -157,7 +157,7 @@
             title: { display: true, text: 'Monthly Budget Distribution ($)', color: '#e8edf0' }
           }
         }
-      };
+      }
     }
 
     if (tab === 'acquisitions') {
@@ -188,7 +188,7 @@
             x: { ticks: { color: '#8899aa' } }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -201,12 +201,18 @@
   }
 
   function resetTool() {
-    document.getElementById('input_monthlyBudget').value = 50000;
-    document.getElementById('input_targetCac').value = 1200;
-    document.getElementById('input_ppcShare').value = 40;
-    document.getElementById('input_linkedinShare').value = 30;
-    document.getElementById('input_seoShare').value = 20;
-    document.getElementById('input_eventsShare').value = 10;
+    var _el_input_monthlyBudget = document.getElementById('input_monthlyBudget');
+    _el_input_monthlyBudget.value = (_el_input_monthlyBudget.dataset && _el_input_monthlyBudget.dataset.default !== undefined) ? _el_input_monthlyBudget.dataset.default : (_el_input_monthlyBudget.getAttribute('value') || '');
+    var _el_input_targetCac = document.getElementById('input_targetCac');
+    _el_input_targetCac.value = (_el_input_targetCac.dataset && _el_input_targetCac.dataset.default !== undefined) ? _el_input_targetCac.dataset.default : (_el_input_targetCac.getAttribute('value') || '');
+    var _el_input_ppcShare = document.getElementById('input_ppcShare');
+    _el_input_ppcShare.value = (_el_input_ppcShare.dataset && _el_input_ppcShare.dataset.default !== undefined) ? _el_input_ppcShare.dataset.default : (_el_input_ppcShare.getAttribute('value') || '');
+    var _el_input_linkedinShare = document.getElementById('input_linkedinShare');
+    _el_input_linkedinShare.value = (_el_input_linkedinShare.dataset && _el_input_linkedinShare.dataset.default !== undefined) ? _el_input_linkedinShare.dataset.default : (_el_input_linkedinShare.getAttribute('value') || '');
+    var _el_input_seoShare = document.getElementById('input_seoShare');
+    _el_input_seoShare.value = (_el_input_seoShare.dataset && _el_input_seoShare.dataset.default !== undefined) ? _el_input_seoShare.dataset.default : (_el_input_seoShare.getAttribute('value') || '');
+    var _el_input_eventsShare = document.getElementById('input_eventsShare');
+    _el_input_eventsShare.value = (_el_input_eventsShare.dataset && _el_input_eventsShare.dataset.default !== undefined) ? _el_input_eventsShare.dataset.default : (_el_input_eventsShare.getAttribute('value') || '');
     updateTool();
   }
 
@@ -220,9 +226,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

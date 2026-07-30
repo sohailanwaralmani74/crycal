@@ -8,7 +8,7 @@
       remainingMortgageBalance: parseFloat(document.getElementById('input_remainingMortgageBalance').value) || 0,
       monthlyMortgagePayment: parseFloat(document.getElementById('input_monthlyMortgagePayment').value) || 0,
       emergencyCushionMonths: parseFloat(document.getElementById('input_emergencyCushionMonths').value) || 12
-    };
+    }
   }
 
   function formatCurrencyLocal(amount) {
@@ -43,7 +43,7 @@
       totalNeeded: totalNeeded,
       cushion: cushion,
       balance: bal
-    };
+    }
   }
 
   function updateTool() {
@@ -102,7 +102,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     return null;

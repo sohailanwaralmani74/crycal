@@ -145,17 +145,17 @@ howto:
 
 faq:
   - question: "How far apart should fence posts be spaced?"
-    answer: "Standard fence post spacing is 8 feet on-center for residential wood or vinyl privacy fences. In areas with high wind loads or for heavy-duty metal fencing, 6-foot spacing is recommended."
+    answer: "Standard fence post spacing is 8 feet on-center for residential wood or vinyl privacy fences, but 6-foot spacing is highly recommended in areas with strong wind loads or for heavy-duty metal fencing."
   - question: "How many bags of concrete do I need per fence post?"
-    answer: "Most standard 4x4 fence posts set in a 10-inch wide by 24-to-36 inch deep hole require 1.5 to 2 bags (50 lb or 80 lb) of fast-setting concrete mix."
+    answer: "You need 1.5 to 2 bags of fast-setting concrete mix per standard 4x4 fence post when setting it in a 10-inch wide by 24-to-36 inch deep hole."
   - question: "How deep should a fence post hole be dug?"
-    answer: "A fence post hole should be dug to a depth equal to 1/3 to 1/2 of the above-ground post height, or below the local frost line (typically 24 to 36 inches deep)."
+    answer: "A fence post hole must be dug to a depth equal to 1/3 to 1/2 of the post's above-ground height, or below your local frost line. This depth typically ranges from 24 to 36 inches."
   - question: "What size post hole diameter is recommended?"
-    answer: "The hole diameter should be 3 times the width of the post. For a standard 4x4 post (3.5 inches actual), dig a 10 to 12-inch wide hole."
+    answer: "Your post hole diameter should be three times the width of the post itself. For example, a standard 4x4 post requires a 10- to 12-inch wide hole."
   - question: "Should gate posts be larger than regular line posts?"
-    answer: "Yes, gate posts endure heavy rotational loads. Use 6x6 posts or heavy-gauge steel for gate support to prevent sagging and misalignment over time."
+    answer: "Gate posts should be larger than regular line posts because they endure heavy rotational loads. Using 6x6 posts or heavy-gauge steel for gates prevents the doors from sagging and misaligning over time."
   - question: "Is fast-setting concrete better than standard concrete for fence posts?"
-    answer: "Fast-setting concrete (like Quikrete Fast-Set) allows you to pour dry mix into the hole and add water without premixing, hardening in 20 to 40 minutes."
+    answer: "Fast-setting concrete is better for fence posts because you can pour the dry mix directly into the hole and add water without premixing. This type of concrete hardens in just 20 to 40 minutes, significantly accelerating installation."
 ---
 
 # Fence Post Calculator - Calculate Board Feet & Wood Quantity
@@ -218,25 +218,25 @@ The table below shows total post counts and concrete bag requirements (based on 
 
 ### How far apart should fence posts be spaced?
 
-Standard fence post spacing is 8 feet on-center for residential wood or vinyl privacy fences. In areas with high wind loads or for heavy-duty metal fencing, 6-foot spacing is recommended.
+Standard fence post spacing is 8 feet on-center for residential wood or vinyl privacy fences, but 6-foot spacing is highly recommended in areas with strong wind loads or for heavy-duty metal fencing.
 
 ### How many bags of concrete do I need per fence post?
 
-Most standard 4x4 fence posts set in a 10-inch wide by 24-to-36 inch deep hole require 1.5 to 2 bags (50 lb or 80 lb) of fast-setting concrete mix.
+You need 1.5 to 2 bags of fast-setting concrete mix per standard 4x4 fence post when setting it in a 10-inch wide by 24-to-36 inch deep hole.
 
 ### How deep should a fence post hole be dug?
 
-A fence post hole should be dug to a depth equal to 1/3 to 1/2 of the above-ground post height, or below the local frost line (typically 24 to 36 inches deep).
+A fence post hole must be dug to a depth equal to 1/3 to 1/2 of the post's above-ground height, or below your local frost line. This depth typically ranges from 24 to 36 inches.
 
 ### What size post hole diameter is recommended?
 
-The hole diameter should be 3 times the width of the post. For a standard 4x4 post (3.5 inches actual), dig a 10 to 12-inch wide hole.
+Your post hole diameter should be three times the width of the post itself. For example, a standard 4x4 post requires a 10- to 12-inch wide hole.
 
 ### Should gate posts be larger than regular line posts?
 
-Yes, gate posts endure heavy rotational loads. Use 6x6 posts or heavy-gauge steel for gate support to prevent sagging and misalignment over time.
+Gate posts should be larger than regular line posts because they endure heavy rotational loads. Using 6x6 posts or heavy-gauge steel for gates prevents the doors from sagging and misaligning over time.
 
 ### Is fast-setting concrete better than standard concrete for fence posts?
 
-Fast-setting concrete (like Quikrete Fast-Set) allows you to pour dry mix into the hole and add water without premixing, hardening in 20 to 40 minutes.
+Fast-setting concrete is better for fence posts because you can pour the dry mix directly into the hole and add water without premixing. This type of concrete hardens in just 20 to 40 minutes, significantly accelerating installation.
 

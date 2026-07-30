@@ -109,15 +109,15 @@ faq:
   - question: "What is Revenue Per Employee (RPE)?"
     answer: "Revenue Per Employee (RPE) is an operational efficiency ratio calculated by dividing a company's total annual revenue by its total full-time employee headcount."
   - question: "How is Revenue Per Employee calculated?"
-    answer: "Formula: Revenue Per Employee = Total Annual Revenue / Total Full-Time Employees."
+    answer: "Calculate Revenue Per Employee by dividing total annual revenue by total full-time employees."
   - question: "What is a good Revenue Per Employee for SaaS?"
-    answer: "For SaaS companies, $150,000 to $250,000 RPE is considered healthy. Top-tier public SaaS companies (Apple, Microsoft, Salesforce, Zoom) achieve $300,000 to $1,000,000+ RPE."
+    answer: "A healthy Revenue Per Employee for SaaS companies ranges from $150,000 to $250,000. Top-tier public SaaS companies achieve $300,000 to over $1,000,000 in revenue per employee."
   - question: "Why is Revenue Per Employee an important metric for investors?"
-    answer: "Venture capital and private equity investors use RPE to gauge organizational leverage, automation efficiency, and over-hiring risks during scale."
+    answer: "Investors use Revenue Per Employee to gauge organizational leverage, automation efficiency, and over-hiring risks during scale."
   - question: "How does headcount growth affect RPE during early scaling?"
-    answer: "RPE often dips temporarily during aggressive hiring sprees before new hires reach full productivity ramps."
+    answer: "Revenue Per Employee typically dips temporarily during aggressive hiring sprees before new hires reach full productivity ramps."
   - question: "How can a company increase Revenue Per Employee?"
-    answer: "Increase RPE by automating manual customer support workflows, expanding self-serve PLG tiers, optimizing pricing models, and upskilling existing team members."
+    answer: "A company can increase Revenue Per Employee by automating manual customer support workflows, expanding self-serve tiers, optimizing pricing models, and upskilling existing team members."
 ---
 
 # Revenue per Employee Calculator - Calculate OpEx & Headcount Budget
@@ -178,20 +178,20 @@ Revenue Per Employee (RPE) is an operational efficiency ratio calculated by divi
 
 ### How is Revenue Per Employee calculated?
 
-Formula: Revenue Per Employee = Total Annual Revenue / Total Full-Time Employees.
+Calculate Revenue Per Employee by dividing total annual revenue by total full-time employees.
 
 ### What is a good Revenue Per Employee for SaaS?
 
-For SaaS companies, $150,000 to $250,000 RPE is considered healthy. Top-tier public SaaS companies (Apple, Microsoft, Salesforce, Zoom) achieve $300,000 to $1,000,000+ RPE.
+A healthy Revenue Per Employee for SaaS companies ranges from $150,000 to $250,000. Top-tier public SaaS companies achieve $300,000 to over $1,000,000 in revenue per employee.
 
 ### Why is Revenue Per Employee an important metric for investors?
 
-Venture capital and private equity investors use RPE to gauge organizational leverage, automation efficiency, and over-hiring risks during scale.
+Investors use Revenue Per Employee to gauge organizational leverage, automation efficiency, and over-hiring risks during scale.
 
 ### How does headcount growth affect RPE during early scaling?
 
-RPE often dips temporarily during aggressive hiring sprees before new hires reach full productivity ramps.
+Revenue Per Employee typically dips temporarily during aggressive hiring sprees before new hires reach full productivity ramps.
 
 ### How can a company increase Revenue Per Employee?
 
-Increase RPE by automating manual customer support workflows, expanding self-serve PLG tiers, optimizing pricing models, and upskilling existing team members.
+A company can increase Revenue Per Employee by automating manual customer support workflows, expanding self-serve tiers, optimizing pricing models, and upskilling existing team members.

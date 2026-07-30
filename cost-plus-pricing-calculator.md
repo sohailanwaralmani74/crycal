@@ -146,9 +146,9 @@ faq:
   - question: "What expenses are excluded from SaaS COGS?"
     answer: "Sales commissions, marketing ad spend, software R&D engineering salaries, administrative overhead, and legal fees are Operating Expenses (OpEx), not COGS."
   - question: "Why is 75% to 85% considered the standard B2B SaaS gross margin?"
-    answer: "A high gross margin (75%+) ensures sufficient gross profit dollars to reinvest in sales, marketing, and R&D engineering required for rapid software growth."
+    answer: "75% to 85% is considered the standard B2B SaaS gross margin because a high gross margin ensures sufficient gross profit dollars to reinvest in sales, marketing, and R&D engineering required for rapid software growth."
   - question: "How does payment processing fee affect cost-plus calculations?"
-    answer: "Because payment fees (e.g. 2.9% + $0.30) are charged on top of total gross revenue, they must be incorporated into the margin divisor formula."
+    answer: "Payment processing fees affect cost-plus calculations because they are charged on top of total gross revenue and must be incorporated into the margin divisor formula."
   - question: "What are the limitations of cost-plus pricing?"
     answer: "Cost-plus pricing ignores customer willingness to pay, competitor price points, and perceived software value, often underpricing highly valuable software."
 
@@ -224,11 +224,11 @@ Sales commissions, marketing ad spend, software R&D engineering salaries, admini
 
 ### Why is 75% to 85% considered the standard B2B SaaS gross margin?
 
-A high gross margin (75%+) ensures sufficient gross profit dollars to reinvest in sales, marketing, and R&D engineering required for rapid software growth.
+75% to 85% is considered the standard B2B SaaS gross margin because a high gross margin ensures sufficient gross profit dollars to reinvest in sales, marketing, and R&D engineering required for rapid software growth.
 
 ### How does payment processing fee affect cost-plus calculations?
 
-Because payment fees (e.g. 2.9% + $0.30) are charged on top of total gross revenue, they must be incorporated into the margin divisor formula.
+Payment processing fees affect cost-plus calculations because they are charged on top of total gross revenue and must be incorporated into the margin divisor formula.
 
 ### What are the limitations of cost-plus pricing?
 

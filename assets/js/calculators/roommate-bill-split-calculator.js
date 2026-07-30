@@ -9,7 +9,7 @@
       totalUtilities: parseFloat(document.getElementById('input_totalUtilities').value) || 0,
       roommateCount: parseFloat(document.getElementById('input_roommateCount').value) || 2,
       splitMethod: document.getElementById('input_splitMethod').value
-    };
+    }
   }
 
   function formatCurrencyLocal(amount) {
@@ -50,7 +50,7 @@
       perPerson: perPerson,
       rent: rent,
       util: util
-    };
+    }
   }
 
   function updateTool() {
@@ -109,7 +109,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'perRoommate') {
@@ -134,7 +134,7 @@
             y: { beginAtZero: true }
           }
         }
-      };
+      }
     }
 
     return null;

@@ -82,7 +82,7 @@
       starterCount: starterCount,
       proCount: proCount,
       enterpriseCount: enterpriseCount
-    };
+    }
     updateCharts(lastChartData);
 
     if (typeof window.logHistory === 'function') {
@@ -127,7 +127,7 @@
           maintainAspectRatio: false,
           plugins: { legend: { position: 'bottom', labels: { color: '#e8edf0' } } }
         }
-      };
+      }
     }
     if (tab === 'subscriberByTier') {
       return {
@@ -146,7 +146,7 @@
           plugins: { legend: { display: false } },
           scales: { y: { beginAtZero: true, ticks: { color: '#8899aa' } }, x: { ticks: { color: '#8899aa' } } }
         }
-      };
+      }
     }
     return null;
 
@@ -163,12 +163,18 @@
 
   function resetTool() {
 
-    document.getElementById('input_starterCount').value = 120;
-    document.getElementById('input_starterPrice').value = 29;
-    document.getElementById('input_proCount').value = 80;
-    document.getElementById('input_proPrice').value = 99;
-    document.getElementById('input_enterpriseCount').value = 15;
-    document.getElementById('input_enterprisePrice').value = 499;
+    var _el_input_starterCount = document.getElementById('input_starterCount');
+    _el_input_starterCount.value = (_el_input_starterCount.dataset && _el_input_starterCount.dataset.default !== undefined) ? _el_input_starterCount.dataset.default : (_el_input_starterCount.getAttribute('value') || '');
+    var _el_input_starterPrice = document.getElementById('input_starterPrice');
+    _el_input_starterPrice.value = (_el_input_starterPrice.dataset && _el_input_starterPrice.dataset.default !== undefined) ? _el_input_starterPrice.dataset.default : (_el_input_starterPrice.getAttribute('value') || '');
+    var _el_input_proCount = document.getElementById('input_proCount');
+    _el_input_proCount.value = (_el_input_proCount.dataset && _el_input_proCount.dataset.default !== undefined) ? _el_input_proCount.dataset.default : (_el_input_proCount.getAttribute('value') || '');
+    var _el_input_proPrice = document.getElementById('input_proPrice');
+    _el_input_proPrice.value = (_el_input_proPrice.dataset && _el_input_proPrice.dataset.default !== undefined) ? _el_input_proPrice.dataset.default : (_el_input_proPrice.getAttribute('value') || '');
+    var _el_input_enterpriseCount = document.getElementById('input_enterpriseCount');
+    _el_input_enterpriseCount.value = (_el_input_enterpriseCount.dataset && _el_input_enterpriseCount.dataset.default !== undefined) ? _el_input_enterpriseCount.dataset.default : (_el_input_enterpriseCount.getAttribute('value') || '');
+    var _el_input_enterprisePrice = document.getElementById('input_enterprisePrice');
+    _el_input_enterprisePrice.value = (_el_input_enterprisePrice.dataset && _el_input_enterprisePrice.dataset.default !== undefined) ? _el_input_enterprisePrice.dataset.default : (_el_input_enterprisePrice.getAttribute('value') || '');
     updateTool();
 
   }
@@ -183,9 +189,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

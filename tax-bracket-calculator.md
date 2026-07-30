@@ -97,8 +97,8 @@ howto:
 faq:
   - question: "How does this tax bracket calculator work?"
     answer: "You define your own tax brackets with From, To, and Rate. The calculator applies them in order to your income."
-  - question: "Can I use this for any country?"
-    answer: "Yes — this tool is designed for any progressive tax system. Just enter your country's brackets."
+  - question: "Can I use the Tax Bracket Calculator globally?"
+    answer: "You can use the Tax Bracket Calculator globally because it is designed for any progressive tax system. Just enter your country's specific tax brackets."
   - question: "What is the difference between marginal and effective tax rate?"
     answer: "Your marginal rate is the rate you pay on your last dollar of income. Your effective rate is the average rate you pay on all your income."
   - question: "How do I add a tax bracket?"
@@ -177,7 +177,7 @@ You define your own tax brackets with From, To, and Rate. The calculator applies
 
 ### Can I use the Tax Bracket Calculator globally?
 
-Yes — this tool is designed for any progressive tax system. Just enter your country's brackets.
+You can use the Tax Bracket Calculator globally because it is designed for any progressive tax system. Just enter your country's specific tax brackets.
 
 ### What is the difference between marginal and effective tax rate?
 

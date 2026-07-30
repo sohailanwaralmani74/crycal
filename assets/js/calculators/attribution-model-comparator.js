@@ -14,7 +14,7 @@
       firstTouchSharePercent: firstTouchSharePercent / 100,
       lastTouchSharePercent: lastTouchSharePercent / 100,
       touchpointCount: touchpointCount
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -59,7 +59,7 @@
       linearAttribution: linearCreditPerTouch,
       channelVariance: variance,
       error: null
-    };
+    }
   }
 
   function updateTool() {
@@ -87,7 +87,7 @@
       lastTouch: result.lastTouchAttribution,
       linearTouch: result.linearAttribution,
       touchpoints: inputs.touchpointCount
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -144,7 +144,7 @@
             x: { ticks: { color: '#8899aa' } }
           }
         }
-      };
+      }
     }
 
     if (tab === 'touchpoints') {
@@ -182,7 +182,7 @@
             x: { ticks: { color: '#8899aa' } }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -195,10 +195,14 @@
   }
 
   function resetTool() {
-    document.getElementById('input_totalRevenue').value = 100000;
-    document.getElementById('input_firstTouchSharePercent').value = 50;
-    document.getElementById('input_lastTouchSharePercent').value = 50;
-    document.getElementById('input_touchpointCount').value = 4;
+    var _el_input_totalRevenue = document.getElementById('input_totalRevenue');
+    _el_input_totalRevenue.value = (_el_input_totalRevenue.dataset && _el_input_totalRevenue.dataset.default !== undefined) ? _el_input_totalRevenue.dataset.default : (_el_input_totalRevenue.getAttribute('value') || '');
+    var _el_input_firstTouchSharePercent = document.getElementById('input_firstTouchSharePercent');
+    _el_input_firstTouchSharePercent.value = (_el_input_firstTouchSharePercent.dataset && _el_input_firstTouchSharePercent.dataset.default !== undefined) ? _el_input_firstTouchSharePercent.dataset.default : (_el_input_firstTouchSharePercent.getAttribute('value') || '');
+    var _el_input_lastTouchSharePercent = document.getElementById('input_lastTouchSharePercent');
+    _el_input_lastTouchSharePercent.value = (_el_input_lastTouchSharePercent.dataset && _el_input_lastTouchSharePercent.dataset.default !== undefined) ? _el_input_lastTouchSharePercent.dataset.default : (_el_input_lastTouchSharePercent.getAttribute('value') || '');
+    var _el_input_touchpointCount = document.getElementById('input_touchpointCount');
+    _el_input_touchpointCount.value = (_el_input_touchpointCount.dataset && _el_input_touchpointCount.dataset.default !== undefined) ? _el_input_touchpointCount.dataset.default : (_el_input_touchpointCount.getAttribute('value') || '');
     updateTool();
   }
 
@@ -212,9 +216,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

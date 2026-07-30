@@ -37,7 +37,7 @@
     return {
       totalRevenue: parseFloat(document.getElementById('input_total_revenue')?.value) || 0,
       deals: parseFloat(document.getElementById('input_number_of_deals')?.value) || 0
-    };
+    }
   }
 
   function updateTool() {

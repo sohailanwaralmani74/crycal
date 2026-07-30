@@ -16,7 +16,7 @@
       discountRate: discountRate / 100,
       seriesAPre: seriesAPre,
       seriesAPrice: seriesAPrice
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -77,7 +77,7 @@
       safeEquityPct: safeEquityPct,
       effectiveDiscPct: effectiveDiscPct,
       safeAmount: amt
-    };
+    }
   }
 
   function updateTool() {
@@ -159,7 +159,7 @@
             x: { ticks: { color: '#8899aa' } }
           }
         }
-      };
+      }
     }
 
     if (tab === 'equitySplit') {
@@ -184,7 +184,7 @@
             title: { display: true, text: 'Implied Cap Table Split (%)', color: '#e8edf0' }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -209,6 +209,6 @@
   window.switchChartTab = switchChartTab;
 
   document.addEventListener('DOMContentLoaded', function() {
-    setTimeout(function() { updateTool(); }, 150);
+        updateTool();;
   });
 })();

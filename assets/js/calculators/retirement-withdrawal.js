@@ -19,7 +19,7 @@
       withdrawalAdjustment: document.getElementById('input_withdrawalAdjustment').value,
       compoundingFrequency: document.getElementById('input_compoundingFrequency').value,
       sustainableRate: parseFloat(document.getElementById('input_sustainableRate').value) || 4.0
-    };
+    }
   }
 
   // ── Get compounding periods per year ──
@@ -30,7 +30,7 @@
       'quarterly': 4,
       'monthly': 12,
       'daily': 365
-    };
+    }
     return map[frequency] || 12;
   }
 
@@ -61,7 +61,7 @@
         endingBalance: balance,
         withdrawalRate: 0,
         yearData: [{ age: age, balance: balance, withdrawal: 0, return: 0 }]
-      };
+      }
     }
 
     // If no savings, funds last 0 years
@@ -73,7 +73,7 @@
         endingBalance: 0,
         withdrawalRate: 0,
         yearData: [{ age: age, balance: 0, withdrawal: 0, return: 0 }]
-      };
+      }
     }
 
     // Calculate current withdrawal rate
@@ -128,7 +128,7 @@
       endingBalance: balance,
       withdrawalRate: withdrawalRate,
       yearData: yearData
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -186,7 +186,7 @@
         withdrawalAdjustment: inputs.withdrawalAdjustment,
         compoundingFrequency: inputs.compoundingFrequency,
         sustainableRate: inputs.sustainableRate
-      };
+      }
       window.logHistory(inputSnapshot);
     }
 
@@ -243,7 +243,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'balance') {
@@ -286,7 +286,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'withdrawals') {
@@ -335,7 +335,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'breakdown') {
@@ -365,7 +365,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     return null;
@@ -408,11 +408,10 @@
       }
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') {
-        window.updateTool();
-      }
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') {
+      window.updateTool();
+    }
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

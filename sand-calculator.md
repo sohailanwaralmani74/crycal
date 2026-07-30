@@ -128,19 +128,19 @@ howto:
 
 faq:
   - question: "How many tons of sand are in a cubic yard?"
-  - answer: "One cubic yard of dry sand weighs approximately 1.35 tons (2,700 lbs). Damp sand can weigh up to 1.50 tons per cubic yard."
+    answer: "One cubic yard of dry sand weighs approximately 1.35 tons (2,700 lbs). Damp sand can weigh up to 1.50 tons per cubic yard."
   - question: "How thick should the sand bed be under patio pavers?"
-  - answer: "Interlocking brick and concrete pavers require a uniform 1-inch (25mm) layer of coarse concrete sand screed over a compacted gravel base."
+    answer: "Interlocking brick and concrete pavers require a uniform 1-inch (25mm) layer of coarse concrete sand screed over a compacted gravel base."
   - question: "How many 50lb bags of sand equal 1 cubic yard?"
-  - answer: "It takes 54 bags of 50 lb sand to equal 1 cubic yard of sand."
+    answer: "It takes 54 bags of 50 lb sand to equal 1 cubic yard of sand."
   - question: "What is the difference between concrete sand and masonry sand?"
-  - answer: "Concrete sand (paver sand) has coarse, angular grains ideal for paver bedding and locking joints. Masonry sand is finely washed and screened for smooth mortar mixing."
+    answer: "Concrete sand (paver sand) has coarse, angular grains ideal for paver bedding and locking joints. Masonry sand is finely washed and screened for smooth mortar mixing."
   - question: "How many square feet does 1 ton of sand cover at 1 inch depth?"
-  - answer: "One ton of sand (approx. 0.74 cu yds) covers approximately 240 square feet at a depth of 1 inch."
+    answer: "One ton of sand (approx. 0.74 cu yds) covers approximately 240 square feet at a depth of 1 inch."
   - question: "When is bulk sand cheaper than buying 50lb bags?"
-  - answer: "For projects requiring more than 0.5 cubic yards (27 bags of 50lb sand), ordering bulk sand from a landscape supply yard is significantly cheaper."
+    answer: "For projects requiring more than 0.5 cubic yards (27 bags of 50lb sand), ordering bulk sand from a landscape supply yard is significantly cheaper."
   - question: "Is my personal data saved?"
-  - answer: "No. All computations execute locally inside your web browser."
+    answer: "No personal data is saved because all computations execute locally inside your web browser."
 ---
 
 # Sand Calculator - Calculate Volume, Bags & Materials
@@ -219,3 +219,6 @@ One ton of sand (approx. 0.74 cu yds) covers approximately 240 square feet at a 
 
 For projects requiring more than 0.5 cubic yards (27 bags of 50lb sand), ordering bulk sand from a landscape supply yard is significantly cheaper.
 
+### Is my personal data saved?
+
+No personal data is saved because all computations execute locally inside your web browser.

@@ -14,7 +14,7 @@
       benefitsTaxPercent: benefitsTaxPercent / 100,
       annualEquipmentOverhead: annualEquipmentOverhead,
       bonusCommission: bonusCommission
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -64,7 +64,7 @@
       overhead: overhead,
       bonus: bonus,
       error: null
-    };
+    }
   }
 
   function updateTool() {
@@ -92,7 +92,7 @@
       overhead: result.overhead,
       bonus: result.bonus,
       totalFullyLoadedCost: result.totalFullyLoadedCost
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -140,7 +140,7 @@
             title: { display: true, text: 'Fully-Loaded Expense Component Split ($)', color: '#e8edf0' }
           }
         }
-      };
+      }
     }
 
     if (tab === 'comparison') {
@@ -171,7 +171,7 @@
             x: { ticks: { color: '#8899aa' } }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -184,10 +184,14 @@
   }
 
   function resetTool() {
-    document.getElementById('input_baseSalary').value = 120000;
-    document.getElementById('input_benefitsTaxPercent').value = 25;
-    document.getElementById('input_annualEquipmentOverhead').value = 10000;
-    document.getElementById('input_bonusCommission').value = 15000;
+    var _el_input_baseSalary = document.getElementById('input_baseSalary');
+    _el_input_baseSalary.value = (_el_input_baseSalary.dataset && _el_input_baseSalary.dataset.default !== undefined) ? _el_input_baseSalary.dataset.default : (_el_input_baseSalary.getAttribute('value') || '');
+    var _el_input_benefitsTaxPercent = document.getElementById('input_benefitsTaxPercent');
+    _el_input_benefitsTaxPercent.value = (_el_input_benefitsTaxPercent.dataset && _el_input_benefitsTaxPercent.dataset.default !== undefined) ? _el_input_benefitsTaxPercent.dataset.default : (_el_input_benefitsTaxPercent.getAttribute('value') || '');
+    var _el_input_annualEquipmentOverhead = document.getElementById('input_annualEquipmentOverhead');
+    _el_input_annualEquipmentOverhead.value = (_el_input_annualEquipmentOverhead.dataset && _el_input_annualEquipmentOverhead.dataset.default !== undefined) ? _el_input_annualEquipmentOverhead.dataset.default : (_el_input_annualEquipmentOverhead.getAttribute('value') || '');
+    var _el_input_bonusCommission = document.getElementById('input_bonusCommission');
+    _el_input_bonusCommission.value = (_el_input_bonusCommission.dataset && _el_input_bonusCommission.dataset.default !== undefined) ? _el_input_bonusCommission.dataset.default : (_el_input_bonusCommission.getAttribute('value') || '');
     updateTool();
   }
 
@@ -201,9 +205,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

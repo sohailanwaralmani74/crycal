@@ -21,7 +21,7 @@
       currentSavings: parseFloat(document.getElementById('input_currentSavings').value) || 0,
       targetMonths: parseFloat(document.getElementById('input_targetMonths').value) || 0,
       monthlyContribution: parseFloat(document.getElementById('input_monthlyContribution').value) || 0
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -129,7 +129,7 @@
         emergencyFundTarget: fundTarget,
         currentSavings: inputs.currentSavings,
         progressPercentage: progress.toFixed(1)
-      };
+      }
       window.logHistory(snapshot);
     }
     if (typeof window.renderPresetDropdown === 'function') {
@@ -180,7 +180,7 @@
               title: { display: true, text: 'No expenses entered', font: { size: 14 } }
             }
           }
-        };
+        }
       }
 
       return {
@@ -213,7 +213,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'progress') {
@@ -248,7 +248,7 @@
           },
           cutout: '65%'
         }
-      };
+      }
     }
 
     if (tab === 'comparison') {
@@ -318,7 +318,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -332,16 +332,26 @@
 
   // ── Reset Tool ──
   function resetTool() {
-    document.getElementById('input_housingExpenses').value = 1500;
-    document.getElementById('input_foodExpenses').value = 600;
-    document.getElementById('input_transportationExpenses').value = 400;
-    document.getElementById('input_insuranceExpenses').value = 200;
-    document.getElementById('input_debtPayments').value = 300;
-    document.getElementById('input_healthcareExpenses').value = 150;
-    document.getElementById('input_personalExpenses').value = 200;
-    document.getElementById('input_currentSavings').value = 0;
-    document.getElementById('input_targetMonths').value = 6;
-    document.getElementById('input_monthlyContribution').value = 200;
+    var _el_input_housingExpenses = document.getElementById('input_housingExpenses');
+    _el_input_housingExpenses.value = (_el_input_housingExpenses.dataset && _el_input_housingExpenses.dataset.default !== undefined) ? _el_input_housingExpenses.dataset.default : (_el_input_housingExpenses.getAttribute('value') || '');
+    var _el_input_foodExpenses = document.getElementById('input_foodExpenses');
+    _el_input_foodExpenses.value = (_el_input_foodExpenses.dataset && _el_input_foodExpenses.dataset.default !== undefined) ? _el_input_foodExpenses.dataset.default : (_el_input_foodExpenses.getAttribute('value') || '');
+    var _el_input_transportationExpenses = document.getElementById('input_transportationExpenses');
+    _el_input_transportationExpenses.value = (_el_input_transportationExpenses.dataset && _el_input_transportationExpenses.dataset.default !== undefined) ? _el_input_transportationExpenses.dataset.default : (_el_input_transportationExpenses.getAttribute('value') || '');
+    var _el_input_insuranceExpenses = document.getElementById('input_insuranceExpenses');
+    _el_input_insuranceExpenses.value = (_el_input_insuranceExpenses.dataset && _el_input_insuranceExpenses.dataset.default !== undefined) ? _el_input_insuranceExpenses.dataset.default : (_el_input_insuranceExpenses.getAttribute('value') || '');
+    var _el_input_debtPayments = document.getElementById('input_debtPayments');
+    _el_input_debtPayments.value = (_el_input_debtPayments.dataset && _el_input_debtPayments.dataset.default !== undefined) ? _el_input_debtPayments.dataset.default : (_el_input_debtPayments.getAttribute('value') || '');
+    var _el_input_healthcareExpenses = document.getElementById('input_healthcareExpenses');
+    _el_input_healthcareExpenses.value = (_el_input_healthcareExpenses.dataset && _el_input_healthcareExpenses.dataset.default !== undefined) ? _el_input_healthcareExpenses.dataset.default : (_el_input_healthcareExpenses.getAttribute('value') || '');
+    var _el_input_personalExpenses = document.getElementById('input_personalExpenses');
+    _el_input_personalExpenses.value = (_el_input_personalExpenses.dataset && _el_input_personalExpenses.dataset.default !== undefined) ? _el_input_personalExpenses.dataset.default : (_el_input_personalExpenses.getAttribute('value') || '');
+    var _el_input_currentSavings = document.getElementById('input_currentSavings');
+    _el_input_currentSavings.value = (_el_input_currentSavings.dataset && _el_input_currentSavings.dataset.default !== undefined) ? _el_input_currentSavings.dataset.default : (_el_input_currentSavings.getAttribute('value') || '');
+    var _el_input_targetMonths = document.getElementById('input_targetMonths');
+    _el_input_targetMonths.value = (_el_input_targetMonths.dataset && _el_input_targetMonths.dataset.default !== undefined) ? _el_input_targetMonths.dataset.default : (_el_input_targetMonths.getAttribute('value') || '');
+    var _el_input_monthlyContribution = document.getElementById('input_monthlyContribution');
+    _el_input_monthlyContribution.value = (_el_input_monthlyContribution.dataset && _el_input_monthlyContribution.dataset.default !== undefined) ? _el_input_monthlyContribution.dataset.default : (_el_input_monthlyContribution.getAttribute('value') || '');
     if (typeof window.updateTool === 'function') window.updateTool();
   }
 
@@ -357,9 +367,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
   });
 
 })();

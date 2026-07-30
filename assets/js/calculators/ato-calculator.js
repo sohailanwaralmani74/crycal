@@ -32,7 +32,7 @@
 
     // ── Financial Year Label ──
     financialYear: '2025/26'
-  };
+  }
   // ──────────────────────────────────────────────────────────────
 
   // ── Calculate Individual Income Tax (progressive) ──
@@ -95,7 +95,7 @@
       paygInstalments: paygInstalments,
       gstFreq: gstFreq,
       superFreq: superFreq
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -181,14 +181,12 @@
       'PAYG Withholding': payg,
       'Superannuation': superLiability,
       'Income Tax': incomeTax
-    };
-
+    }
     var comparisonData = {
       'Total Income': income,
       'Total BAS Liability': totalBas,
       'Net Income': income - totalBas
-    };
-
+    }
     return {
       netGst: netGst,
       paygLiability: payg,
@@ -201,7 +199,7 @@
       chartData: chartData,
       comparisonData: comparisonData,
       error: null
-    };
+    }
   }
 
   // ── Main Update ──
@@ -252,7 +250,7 @@
       comparisonData: result.comparisonData,
       totalBas: result.totalBas,
       totalIncome: inputs.totalIncome
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -315,7 +313,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'comparison') {
@@ -376,7 +374,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -395,13 +393,20 @@
   // ── Reset Tool ──
   function resetTool() {
     document.getElementById('input_businessType').value = 'sole-trader';
-    document.getElementById('input_totalIncome').value = 100000;
-    document.getElementById('input_gstCollected').value = 10000;
-    document.getElementById('input_gstPaid').value = 4000;
-    document.getElementById('input_paygWithholding').value = 5000;
-    document.getElementById('input_superGuarantee').value = 12.0;
-    document.getElementById('input_deductions').value = 20000;
-    document.getElementById('input_paygInstalments').value = 0;
+    var _el_input_totalIncome = document.getElementById('input_totalIncome');
+    _el_input_totalIncome.value = (_el_input_totalIncome.dataset && _el_input_totalIncome.dataset.default !== undefined) ? _el_input_totalIncome.dataset.default : (_el_input_totalIncome.getAttribute('value') || '');
+    var _el_input_gstCollected = document.getElementById('input_gstCollected');
+    _el_input_gstCollected.value = (_el_input_gstCollected.dataset && _el_input_gstCollected.dataset.default !== undefined) ? _el_input_gstCollected.dataset.default : (_el_input_gstCollected.getAttribute('value') || '');
+    var _el_input_gstPaid = document.getElementById('input_gstPaid');
+    _el_input_gstPaid.value = (_el_input_gstPaid.dataset && _el_input_gstPaid.dataset.default !== undefined) ? _el_input_gstPaid.dataset.default : (_el_input_gstPaid.getAttribute('value') || '');
+    var _el_input_paygWithholding = document.getElementById('input_paygWithholding');
+    _el_input_paygWithholding.value = (_el_input_paygWithholding.dataset && _el_input_paygWithholding.dataset.default !== undefined) ? _el_input_paygWithholding.dataset.default : (_el_input_paygWithholding.getAttribute('value') || '');
+    var _el_input_superGuarantee = document.getElementById('input_superGuarantee');
+    _el_input_superGuarantee.value = (_el_input_superGuarantee.dataset && _el_input_superGuarantee.dataset.default !== undefined) ? _el_input_superGuarantee.dataset.default : (_el_input_superGuarantee.getAttribute('value') || '');
+    var _el_input_deductions = document.getElementById('input_deductions');
+    _el_input_deductions.value = (_el_input_deductions.dataset && _el_input_deductions.dataset.default !== undefined) ? _el_input_deductions.dataset.default : (_el_input_deductions.getAttribute('value') || '');
+    var _el_input_paygInstalments = document.getElementById('input_paygInstalments');
+    _el_input_paygInstalments.value = (_el_input_paygInstalments.dataset && _el_input_paygInstalments.dataset.default !== undefined) ? _el_input_paygInstalments.dataset.default : (_el_input_paygInstalments.getAttribute('value') || '');
     document.getElementById('input_gstFreq').value = 'quarterly';
     document.getElementById('input_superFreq').value = 'quarterly';
     updateTool();
@@ -419,9 +424,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

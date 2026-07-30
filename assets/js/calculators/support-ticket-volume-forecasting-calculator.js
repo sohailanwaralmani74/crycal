@@ -16,7 +16,7 @@
       projectedCustomers: projectedCustomers,
       deflectionRate: deflectionRate / 100,
       ticketsPerAgentMonthly: ticketsPerAgentMonthly
-    };
+    }
   }
 
   function setOutputText(id, text) {
@@ -54,7 +54,7 @@
       currTickets: currTickets,
       deflectedCount: projectedGrossTickets - projectedNetTickets,
       error: null
-    };
+    }
   }
 
   function updateTool() {
@@ -81,7 +81,7 @@
       grossTickets: result.projectedGrossTickets,
       netTickets: result.projectedNetTickets,
       deflectedCount: result.deflectedCount
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -138,7 +138,7 @@
             x: { ticks: { color: '#8899aa' } }
           }
         }
-      };
+      }
     }
 
     if (tab === 'deflection') {
@@ -160,7 +160,7 @@
             title: { display: true, text: 'Projected Ticket Deflection Split', color: '#e8edf0' }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -173,11 +173,16 @@
   }
 
   function resetTool() {
-    document.getElementById('input_currentCustomers').value = 1200;
-    document.getElementById('input_currentMonthlyTickets').value = 1800;
-    document.getElementById('input_projectedCustomers').value = 3500;
-    document.getElementById('input_deflectionRate').value = 15;
-    document.getElementById('input_ticketsPerAgentMonthly').value = 300;
+    var _el_input_currentCustomers = document.getElementById('input_currentCustomers');
+    _el_input_currentCustomers.value = (_el_input_currentCustomers.dataset && _el_input_currentCustomers.dataset.default !== undefined) ? _el_input_currentCustomers.dataset.default : (_el_input_currentCustomers.getAttribute('value') || '');
+    var _el_input_currentMonthlyTickets = document.getElementById('input_currentMonthlyTickets');
+    _el_input_currentMonthlyTickets.value = (_el_input_currentMonthlyTickets.dataset && _el_input_currentMonthlyTickets.dataset.default !== undefined) ? _el_input_currentMonthlyTickets.dataset.default : (_el_input_currentMonthlyTickets.getAttribute('value') || '');
+    var _el_input_projectedCustomers = document.getElementById('input_projectedCustomers');
+    _el_input_projectedCustomers.value = (_el_input_projectedCustomers.dataset && _el_input_projectedCustomers.dataset.default !== undefined) ? _el_input_projectedCustomers.dataset.default : (_el_input_projectedCustomers.getAttribute('value') || '');
+    var _el_input_deflectionRate = document.getElementById('input_deflectionRate');
+    _el_input_deflectionRate.value = (_el_input_deflectionRate.dataset && _el_input_deflectionRate.dataset.default !== undefined) ? _el_input_deflectionRate.dataset.default : (_el_input_deflectionRate.getAttribute('value') || '');
+    var _el_input_ticketsPerAgentMonthly = document.getElementById('input_ticketsPerAgentMonthly');
+    _el_input_ticketsPerAgentMonthly.value = (_el_input_ticketsPerAgentMonthly.dataset && _el_input_ticketsPerAgentMonthly.dataset.default !== undefined) ? _el_input_ticketsPerAgentMonthly.dataset.default : (_el_input_ticketsPerAgentMonthly.getAttribute('value') || '');
     updateTool();
   }
 
@@ -191,9 +196,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

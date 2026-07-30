@@ -140,19 +140,19 @@ howto:
 
 faq:
   - question: "How many downspouts do I need for a 150 ft gutter run?"
-    answer: "A 150 ft roof eave run requires approximately 5 downspouts when spaced every 30 to 35 feet, or 4 downspouts if spaced every 40 feet."
+    answer: "A 150-foot gutter run requires approximately five downspouts when spaced every 30 to 35 feet, or four downspouts if spaced every 40 feet."
   - question: "How far apart should downspouts be placed?"
-    answer: "Downspouts should be installed every 30 to 40 linear feet along a gutter run. Downspouts are also required at corners or ends where roof valleys concentrate flow."
+    answer: "You should place downspouts every 30 to 40 linear feet along a gutter run, as well as at corners or ends where roof valleys concentrate water flow."
   - question: "How much do seamless aluminum gutters cost per linear foot?"
-    answer: "Seamless 5-inch or 6-inch aluminum K-style gutters cost between $6.00 and $12.00 per linear foot installed, depending on regional labor and house height."
+    answer: "Seamless 5-inch or 6-inch aluminum K-style gutters typically cost between $6.00 and $12.00 per linear foot installed, depending on regional labor rates and house height."
   - question: "How many elbow fittings are needed per downspout?"
-    answer: "Each downspout installation requires 3 elbow fittings: 2 elbows at the top wall offset transition under the soffit, and 1 splash elbow at the bottom base discharge."
+    answer: "Each downspout installation requires three elbow fittings: two elbows at the top wall offset transition under the soffit, and one splash elbow at the bottom base discharge."
   - question: "What size gutters should I install: 5-inch or 6-inch?"
-    answer: "5-inch K-style gutters are standard for average residential roofs. 6-inch gutters are recommended for steep roofs, metal roofing, or large roof drainage areas."
+    answer: "You should install 5-inch K-style gutters for average residential roofs, while 6-inch gutters are necessary for steep roofs, metal roofing, or large roof drainage areas."
   - question: "Are micro-mesh gutter guards worth installing?"
-    answer: "Yes, stainless steel micro-mesh guards prevent leaves and pine needles from clogging downspouts, reducing maintenance and preventing fascia wood rot."
+    answer: "Micro-mesh gutter guards are worth installing because their stainless steel screens prevent leaves and pine needles from clogging downspouts, which reduces maintenance and prevents fascia wood rot."
   - question: "How much slope do rain gutters require for proper drainage?"
-    answer: "Gutters should slope downward toward downspouts at a minimum rate of 1/4 inch per 10 linear feet (or 1/2 inch per 20 feet) of continuous gutter run."
+    answer: "Rain gutters require a downward slope toward downspouts at a minimum rate of 1/4 inch per 10 linear feet, or 1/2 inch per 20 feet of continuous gutter run, for proper drainage."
 ---
 
 # Gutter Length Calculator - Calculate Shingles, Squares & Flashing
@@ -233,28 +233,28 @@ The reference table below illustrates standard residential gutter system specifi
 
 ### How many downspouts do I need for a 150 ft gutter run?
 
-A 150 ft roof eave run requires approximately 5 downspouts when spaced every 30 to 35 feet, or 4 downspouts if spaced every 40 feet.
+A 150-foot gutter run requires approximately five downspouts when spaced every 30 to 35 feet, or four downspouts if spaced every 40 feet.
 
 ### How far apart should downspouts be placed?
 
-Downspouts should be installed every 30 to 40 linear feet along a gutter run. Downspouts are also required at corners or ends where roof valleys concentrate flow.
+You should place downspouts every 30 to 40 linear feet along a gutter run, as well as at corners or ends where roof valleys concentrate water flow.
 
 ### How much do seamless aluminum gutters cost per linear foot?
 
-Seamless 5-inch or 6-inch aluminum K-style gutters cost between $6.00 and $12.00 per linear foot installed, depending on regional labor and house height.
+Seamless 5-inch or 6-inch aluminum K-style gutters typically cost between $6.00 and $12.00 per linear foot installed, depending on regional labor rates and house height.
 
 ### How many elbow fittings are needed per downspout?
 
-Each downspout installation requires 3 elbow fittings: 2 elbows at the top wall offset transition under the soffit, and 1 splash elbow at the bottom base discharge.
+Each downspout installation requires three elbow fittings: two elbows at the top wall offset transition under the soffit, and one splash elbow at the bottom base discharge.
 
 ### What size gutters should I install: 5-inch or 6-inch?
 
-5-inch K-style gutters are standard for average residential roofs. 6-inch gutters are recommended for steep roofs, metal roofing, or large roof drainage areas.
+You should install 5-inch K-style gutters for average residential roofs, while 6-inch gutters are necessary for steep roofs, metal roofing, or large roof drainage areas.
 
 ### Are micro-mesh gutter guards worth installing?
 
-Yes, stainless steel micro-mesh guards prevent leaves and pine needles from clogging downspouts, reducing maintenance and preventing fascia wood rot.
+Micro-mesh gutter guards are worth installing because their stainless steel screens prevent leaves and pine needles from clogging downspouts, which reduces maintenance and prevents fascia wood rot.
 
 ### How much slope do rain gutters require for proper drainage?
 
-Gutters should slope downward toward downspouts at a minimum rate of 1/4 inch per 10 linear feet (or 1/2 inch per 20 feet) of continuous gutter run.
+Rain gutters require a downward slope toward downspouts at a minimum rate of 1/4 inch per 10 linear feet, or 1/2 inch per 20 feet of continuous gutter run, for proper drainage.

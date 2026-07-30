@@ -30,7 +30,7 @@
       baseRate: baseRate,
       healthFactor: healthFactor,
       genderFactor: genderFactor
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -132,8 +132,7 @@
       'Elimination Period Adjustment': baseRate * coverageFactor * (eliminationFactor - 1),
       'Inflation Protection': baseRate * coverageFactor * (inflationFactor - 1),
       'Marital Status Adjustment': baseRate * coverageFactor * (maritalFactor - 1)
-    };
-
+    }
     return {
       monthlyPremium: monthlyPremium,
       annualPremium: annualPremium,
@@ -141,7 +140,7 @@
       totalLifetimeBenefit: totalLifetimeBenefit,
       breakdown: breakdown,
       error: null
-    };
+    }
   }
 
   // ── Main Update ──
@@ -205,7 +204,7 @@
       breakdown: result.breakdown,
       monthlyPremium: result.monthlyPremium,
       annualPremium: result.annualPremium
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -319,7 +318,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -337,17 +336,24 @@
 
   // ── Reset Tool ──
   function resetTool() {
-    document.getElementById('input_age').value = 55;
+    var _el_input_age = document.getElementById('input_age');
+    _el_input_age.value = (_el_input_age.dataset && _el_input_age.dataset.default !== undefined) ? _el_input_age.dataset.default : (_el_input_age.getAttribute('value') || '');
     document.getElementById('input_gender').value = 'male';
     document.getElementById('input_healthStatus').value = 'good';
-    document.getElementById('input_coverageAmount').value = 50000;
-    document.getElementById('input_benefitPeriod').value = 5;
-    document.getElementById('input_eliminationPeriod').value = 90;
+    var _el_input_coverageAmount = document.getElementById('input_coverageAmount');
+    _el_input_coverageAmount.value = (_el_input_coverageAmount.dataset && _el_input_coverageAmount.dataset.default !== undefined) ? _el_input_coverageAmount.dataset.default : (_el_input_coverageAmount.getAttribute('value') || '');
+    var _el_input_benefitPeriod = document.getElementById('input_benefitPeriod');
+    _el_input_benefitPeriod.value = (_el_input_benefitPeriod.dataset && _el_input_benefitPeriod.dataset.default !== undefined) ? _el_input_benefitPeriod.dataset.default : (_el_input_benefitPeriod.getAttribute('value') || '');
+    var _el_input_eliminationPeriod = document.getElementById('input_eliminationPeriod');
+    _el_input_eliminationPeriod.value = (_el_input_eliminationPeriod.dataset && _el_input_eliminationPeriod.dataset.default !== undefined) ? _el_input_eliminationPeriod.dataset.default : (_el_input_eliminationPeriod.getAttribute('value') || '');
     document.getElementById('input_inflationProtection').value = 'no';
     document.getElementById('input_maritalStatus').value = 'single';
-    document.getElementById('input_baseRate').value = 0;
-    document.getElementById('input_healthFactor').value = 1.00;
-    document.getElementById('input_genderFactor').value = 1.00;
+    var _el_input_baseRate = document.getElementById('input_baseRate');
+    _el_input_baseRate.value = (_el_input_baseRate.dataset && _el_input_baseRate.dataset.default !== undefined) ? _el_input_baseRate.dataset.default : (_el_input_baseRate.getAttribute('value') || '');
+    var _el_input_healthFactor = document.getElementById('input_healthFactor');
+    _el_input_healthFactor.value = (_el_input_healthFactor.dataset && _el_input_healthFactor.dataset.default !== undefined) ? _el_input_healthFactor.dataset.default : (_el_input_healthFactor.getAttribute('value') || '');
+    var _el_input_genderFactor = document.getElementById('input_genderFactor');
+    _el_input_genderFactor.value = (_el_input_genderFactor.dataset && _el_input_genderFactor.dataset.default !== undefined) ? _el_input_genderFactor.dataset.default : (_el_input_genderFactor.getAttribute('value') || '');
     updateTool();
   }
 
@@ -363,9 +369,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

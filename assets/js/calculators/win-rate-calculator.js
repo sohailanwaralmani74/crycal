@@ -24,7 +24,7 @@
     return {
       wonDeals: parseFloat(document.getElementById('input_won_deals')?.value) || 0,
       totalOpp: parseFloat(document.getElementById('input_total_opportunities')?.value) || 0
-    };
+    }
   }
 
   function updateTool() {

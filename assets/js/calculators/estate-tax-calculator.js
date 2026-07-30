@@ -9,7 +9,7 @@
       estateDebtsExpenses: parseFloat(document.getElementById('input_estateDebtsExpenses').value) || 0,
       maritalBequests: parseFloat(document.getElementById('input_maritalBequests').value) || 0,
       filingStatus: document.getElementById('input_filingStatus').value
-    };
+    }
   }
 
   function formatCurrencyLocal(amount) {
@@ -54,7 +54,7 @@
       taxableOverExemption: taxableOverExemption,
       estateTaxOwed: estateTaxOwed,
       exemption: exemption
-    };
+    }
   }
 
   function updateTool() {
@@ -115,7 +115,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'taxability') {
@@ -149,7 +149,7 @@
             y: { stacked: true, beginAtZero: true }
           }
         }
-      };
+      }
     }
 
     return null;

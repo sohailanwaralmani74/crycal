@@ -14,7 +14,7 @@
       investment: investment,
       founderOwn: founderOwn,
       poolPercent: poolPercent
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -64,7 +64,7 @@
       founderVal: founderVal,
       poolPct: pool,
       fOwnPre: fOwnPre
-    };
+    }
   }
 
   function updateTool() {
@@ -146,7 +146,7 @@
             title: { display: true, text: 'Post-Round Ownership (%)', color: '#e8edf0' }
           }
         }
-      };
+      }
     }
 
     if (tab === 'preVsPostOwnership') {
@@ -186,7 +186,7 @@
             x: { ticks: { color: '#8899aa' } }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -210,6 +210,6 @@
   window.switchChartTab = switchChartTab;
 
   document.addEventListener('DOMContentLoaded', function() {
-    setTimeout(function() { updateTool(); }, 150);
+        updateTool();;
   });
 })();

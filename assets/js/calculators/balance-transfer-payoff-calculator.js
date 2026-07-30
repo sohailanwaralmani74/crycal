@@ -9,7 +9,7 @@
       transferFeePercent: parseFloat(document.getElementById('input_transferFeePercent').value) || 3.0,
       introMonths: parseFloat(document.getElementById('input_introMonths').value) || 18,
       regularAprAfterIntro: parseFloat(document.getElementById('input_regularAprAfterIntro').value) || 24.99
-    };
+    }
   }
 
   function formatCurrencyLocal(amount) {
@@ -67,7 +67,7 @@
       potentialInterestSaved: potentialInterestSaved,
       schedule: schedule,
       transferAmount: P
-    };
+    }
   }
 
   function updateTool() {
@@ -131,7 +131,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'timeline') {
@@ -163,7 +163,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;

@@ -9,7 +9,7 @@
       downPaymentPercent: parseFloat(document.getElementById('input_downPaymentPercent').value) || 20,
       interestRate: parseFloat(document.getElementById('input_interestRate').value) || 0,
       loanTermYears: parseFloat(document.getElementById('input_loanTermYears').value) || 30
-    };
+    }
   }
 
   function formatCurrencyLocal(amount) {
@@ -66,7 +66,7 @@
       monthlyPmt: monthlyPmt,
       totalInterest: totalInterest,
       yearlyData: yearlyData
-    };
+    }
   }
 
   function updateTool() {
@@ -130,7 +130,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'amortization') {
@@ -162,7 +162,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;

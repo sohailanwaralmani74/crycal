@@ -20,7 +20,7 @@
       pensionRate: parseFloat(document.getElementById('input_pensionRate').value) || 0,
       otherDeductions: parseFloat(document.getElementById('input_otherDeductions').value) || 0,
       expenseDeduction: parseFloat(document.getElementById('input_expenseDeduction').value) || 0
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -171,7 +171,7 @@
         payFrequency: freq,
         totalTax: totalTaxPerPeriod,
         netEarnings: netEarningsPerPeriod
-      };
+      }
       window.logHistory(snapshot);
     }
     if (typeof window.renderPresetDropdown === 'function') {
@@ -220,7 +220,7 @@
             title: { display: true, text: 'No data to display', font: { size: 14 } }
           }
         }
-      };
+      }
     }
 
     if (tab === 'breakdown') {
@@ -254,7 +254,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'comparison') {
@@ -291,7 +291,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'distribution') {
@@ -327,7 +327,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -341,15 +341,23 @@
 
   // ── Reset Tool ──
   function resetTool() {
-    document.getElementById('input_netProfit').value = 80000;
+    var _el_input_netProfit = document.getElementById('input_netProfit');
+    _el_input_netProfit.value = (_el_input_netProfit.dataset && _el_input_netProfit.dataset.default !== undefined) ? _el_input_netProfit.dataset.default : (_el_input_netProfit.getAttribute('value') || '');
     document.getElementById('input_payFrequency').value = 'yearly';
-    document.getElementById('input_incomeTaxRate').value = 22.0;
-    document.getElementById('input_socialSecurityRate').value = 12.4;
-    document.getElementById('input_socialSecurityCap').value = 0;
-    document.getElementById('input_medicareRate').value = 2.9;
-    document.getElementById('input_pensionRate').value = 0;
-    document.getElementById('input_otherDeductions').value = 0;
-    document.getElementById('input_expenseDeduction').value = 0;
+    var _el_input_incomeTaxRate = document.getElementById('input_incomeTaxRate');
+    _el_input_incomeTaxRate.value = (_el_input_incomeTaxRate.dataset && _el_input_incomeTaxRate.dataset.default !== undefined) ? _el_input_incomeTaxRate.dataset.default : (_el_input_incomeTaxRate.getAttribute('value') || '');
+    var _el_input_socialSecurityRate = document.getElementById('input_socialSecurityRate');
+    _el_input_socialSecurityRate.value = (_el_input_socialSecurityRate.dataset && _el_input_socialSecurityRate.dataset.default !== undefined) ? _el_input_socialSecurityRate.dataset.default : (_el_input_socialSecurityRate.getAttribute('value') || '');
+    var _el_input_socialSecurityCap = document.getElementById('input_socialSecurityCap');
+    _el_input_socialSecurityCap.value = (_el_input_socialSecurityCap.dataset && _el_input_socialSecurityCap.dataset.default !== undefined) ? _el_input_socialSecurityCap.dataset.default : (_el_input_socialSecurityCap.getAttribute('value') || '');
+    var _el_input_medicareRate = document.getElementById('input_medicareRate');
+    _el_input_medicareRate.value = (_el_input_medicareRate.dataset && _el_input_medicareRate.dataset.default !== undefined) ? _el_input_medicareRate.dataset.default : (_el_input_medicareRate.getAttribute('value') || '');
+    var _el_input_pensionRate = document.getElementById('input_pensionRate');
+    _el_input_pensionRate.value = (_el_input_pensionRate.dataset && _el_input_pensionRate.dataset.default !== undefined) ? _el_input_pensionRate.dataset.default : (_el_input_pensionRate.getAttribute('value') || '');
+    var _el_input_otherDeductions = document.getElementById('input_otherDeductions');
+    _el_input_otherDeductions.value = (_el_input_otherDeductions.dataset && _el_input_otherDeductions.dataset.default !== undefined) ? _el_input_otherDeductions.dataset.default : (_el_input_otherDeductions.getAttribute('value') || '');
+    var _el_input_expenseDeduction = document.getElementById('input_expenseDeduction');
+    _el_input_expenseDeduction.value = (_el_input_expenseDeduction.dataset && _el_input_expenseDeduction.dataset.default !== undefined) ? _el_input_expenseDeduction.dataset.default : (_el_input_expenseDeduction.getAttribute('value') || '');
     if (typeof window.updateTool === 'function') window.updateTool();
   }
 
@@ -365,9 +373,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
   });
 
 })();

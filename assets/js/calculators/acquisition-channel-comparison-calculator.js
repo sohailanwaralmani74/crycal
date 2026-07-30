@@ -18,7 +18,7 @@
       channel2Deals: channel2Deals,
       arpu: arpu,
       grossMargin: grossMargin / 100
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -73,7 +73,7 @@
       channel2Payback: c2Payback,
       bestChannel: winner,
       error: null
-    };
+    }
   }
 
   function updateTool() {
@@ -102,7 +102,7 @@
       c2Cac: result.channel2Cac,
       c1Payback: result.channel1Payback,
       c2Payback: result.channel2Payback
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -159,7 +159,7 @@
             x: { ticks: { color: '#8899aa' } }
           }
         }
-      };
+      }
     }
 
     if (tab === 'payback') {
@@ -190,7 +190,7 @@
             x: { ticks: { color: '#8899aa' } }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -203,12 +203,18 @@
   }
 
   function resetTool() {
-    document.getElementById('input_channel1Spend').value = 15000;
-    document.getElementById('input_channel1Deals').value = 15;
-    document.getElementById('input_channel2Spend').value = 8000;
-    document.getElementById('input_channel2Deals').value = 16;
-    document.getElementById('input_arpu').value = 150;
-    document.getElementById('input_grossMargin').value = 80;
+    var _el_input_channel1Spend = document.getElementById('input_channel1Spend');
+    _el_input_channel1Spend.value = (_el_input_channel1Spend.dataset && _el_input_channel1Spend.dataset.default !== undefined) ? _el_input_channel1Spend.dataset.default : (_el_input_channel1Spend.getAttribute('value') || '');
+    var _el_input_channel1Deals = document.getElementById('input_channel1Deals');
+    _el_input_channel1Deals.value = (_el_input_channel1Deals.dataset && _el_input_channel1Deals.dataset.default !== undefined) ? _el_input_channel1Deals.dataset.default : (_el_input_channel1Deals.getAttribute('value') || '');
+    var _el_input_channel2Spend = document.getElementById('input_channel2Spend');
+    _el_input_channel2Spend.value = (_el_input_channel2Spend.dataset && _el_input_channel2Spend.dataset.default !== undefined) ? _el_input_channel2Spend.dataset.default : (_el_input_channel2Spend.getAttribute('value') || '');
+    var _el_input_channel2Deals = document.getElementById('input_channel2Deals');
+    _el_input_channel2Deals.value = (_el_input_channel2Deals.dataset && _el_input_channel2Deals.dataset.default !== undefined) ? _el_input_channel2Deals.dataset.default : (_el_input_channel2Deals.getAttribute('value') || '');
+    var _el_input_arpu = document.getElementById('input_arpu');
+    _el_input_arpu.value = (_el_input_arpu.dataset && _el_input_arpu.dataset.default !== undefined) ? _el_input_arpu.dataset.default : (_el_input_arpu.getAttribute('value') || '');
+    var _el_input_grossMargin = document.getElementById('input_grossMargin');
+    _el_input_grossMargin.value = (_el_input_grossMargin.dataset && _el_input_grossMargin.dataset.default !== undefined) ? _el_input_grossMargin.dataset.default : (_el_input_grossMargin.getAttribute('value') || '');
     updateTool();
   }
 
@@ -222,9 +228,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

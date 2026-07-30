@@ -9,7 +9,7 @@
       payFrequency: document.getElementById('input_payFrequency').value,
       filingStatus: document.getElementById('input_filingStatus').value,
       childDependents: parseFloat(document.getElementById('input_childDependents').value) || 0
-    };
+    }
   }
 
   function formatCurrencyLocal(amount) {
@@ -78,7 +78,7 @@
       taxPerCheck: taxPerCheck,
       netTakeHome: netTakeHome,
       netAnnualTax: netAnnualTax
-    };
+    }
   }
 
   function updateTool() {
@@ -139,7 +139,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'annual') {
@@ -172,7 +172,7 @@
             y: { stacked: true, beginAtZero: true }
           }
         }
-      };
+      }
     }
 
     return null;

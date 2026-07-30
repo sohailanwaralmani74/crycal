@@ -11,7 +11,7 @@
       expectedPromoSignups: parseFloat(document.getElementById('input_expectedPromoSignups').value) || 0,
       postDiscountRetentionRate: (parseFloat(document.getElementById('input_postDiscountRetentionRate').value) || 0) / 100,
       cogsPerCustomerMonthly: parseFloat(document.getElementById('input_cogsPerCustomerMonthly').value) || 0
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -81,7 +81,7 @@
       campaignGrossProfit: campaignGrossProfit,
       monthLabels: monthLabels,
       monthlyRevenueArray: monthlyRevenueArray
-    };
+    }
   }
 
   function updateTool() {

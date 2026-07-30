@@ -9,7 +9,7 @@
       gasPrice: parseFloat(document.getElementById('input_gasPrice').value) || 0,
       evEfficiency: parseFloat(document.getElementById('input_evEfficiency').value) || 30,
       electricityRate: parseFloat(document.getElementById('input_electricityRate').value) || 0.16
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -55,7 +55,7 @@
       fiveYearEvSavings: fiveYearEvSavings,
       gasCostPerMile: gasCostPerMile,
       evCostPerMile: evCostPerMile
-    };
+    }
   }
 
   function updateTool() {
@@ -131,7 +131,7 @@
             }
           }
         }
-      };
+      }
     } else if (tab === 'cumulative') {
       var years = ['Year 1', 'Year 2', 'Year 3', 'Year 4', 'Year 5'];
       var gasCumulative = years.map(function(y, i) { return Math.round(result.annualGasCost * (i + 1)); });
@@ -179,7 +179,7 @@
             }
           }
         }
-      };
+      }
     }
     return null;
   }
@@ -190,11 +190,16 @@
   }
 
   function resetTool() {
-    document.getElementById('input_annualMiles').value = 13500;
-    document.getElementById('input_gasCarMpg').value = 27;
-    document.getElementById('input_gasPrice').value = 3.60;
-    document.getElementById('input_evEfficiency').value = 30;
-    document.getElementById('input_electricityRate').value = 0.16;
+    var _el_input_annualMiles = document.getElementById('input_annualMiles');
+    _el_input_annualMiles.value = (_el_input_annualMiles.dataset && _el_input_annualMiles.dataset.default !== undefined) ? _el_input_annualMiles.dataset.default : (_el_input_annualMiles.getAttribute('value') || '');
+    var _el_input_gasCarMpg = document.getElementById('input_gasCarMpg');
+    _el_input_gasCarMpg.value = (_el_input_gasCarMpg.dataset && _el_input_gasCarMpg.dataset.default !== undefined) ? _el_input_gasCarMpg.dataset.default : (_el_input_gasCarMpg.getAttribute('value') || '');
+    var _el_input_gasPrice = document.getElementById('input_gasPrice');
+    _el_input_gasPrice.value = (_el_input_gasPrice.dataset && _el_input_gasPrice.dataset.default !== undefined) ? _el_input_gasPrice.dataset.default : (_el_input_gasPrice.getAttribute('value') || '');
+    var _el_input_evEfficiency = document.getElementById('input_evEfficiency');
+    _el_input_evEfficiency.value = (_el_input_evEfficiency.dataset && _el_input_evEfficiency.dataset.default !== undefined) ? _el_input_evEfficiency.dataset.default : (_el_input_evEfficiency.getAttribute('value') || '');
+    var _el_input_electricityRate = document.getElementById('input_electricityRate');
+    _el_input_electricityRate.value = (_el_input_electricityRate.dataset && _el_input_electricityRate.dataset.default !== undefined) ? _el_input_electricityRate.dataset.default : (_el_input_electricityRate.getAttribute('value') || '');
     updateTool();
   }
 
@@ -208,9 +213,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

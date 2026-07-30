@@ -17,7 +17,7 @@
       lowPremium: parseFloat(document.getElementById('input_lowPremium').value) || 0,
       policyTerm: parseFloat(document.getElementById('input_policyTerm').value) || 0,
       compoundingFrequency: document.getElementById('input_compoundingFrequency').value || 'monthly'
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -81,7 +81,7 @@
         lowDeductible: inputs.lowDeductible,
         monthlyPremiumSavings: monthlyPremiumSavings,
         breakEvenMonths: breakEvenMonths
-      };
+      }
       window.logHistory(snapshot);
     }
     if (typeof window.renderPresetDropdown === 'function') {
@@ -134,7 +134,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'timeline') {
@@ -167,7 +167,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -181,11 +181,16 @@
 
   // ── Reset Tool ──
   function resetTool() {
-    document.getElementById('input_highDeductible').value = 2000;
-    document.getElementById('input_lowDeductible').value = 500;
-    document.getElementById('input_highPremium').value = 300;
-    document.getElementById('input_lowPremium').value = 450;
-    document.getElementById('input_policyTerm').value = 5;
+    var _el_input_highDeductible = document.getElementById('input_highDeductible');
+    _el_input_highDeductible.value = (_el_input_highDeductible.dataset && _el_input_highDeductible.dataset.default !== undefined) ? _el_input_highDeductible.dataset.default : (_el_input_highDeductible.getAttribute('value') || '');
+    var _el_input_lowDeductible = document.getElementById('input_lowDeductible');
+    _el_input_lowDeductible.value = (_el_input_lowDeductible.dataset && _el_input_lowDeductible.dataset.default !== undefined) ? _el_input_lowDeductible.dataset.default : (_el_input_lowDeductible.getAttribute('value') || '');
+    var _el_input_highPremium = document.getElementById('input_highPremium');
+    _el_input_highPremium.value = (_el_input_highPremium.dataset && _el_input_highPremium.dataset.default !== undefined) ? _el_input_highPremium.dataset.default : (_el_input_highPremium.getAttribute('value') || '');
+    var _el_input_lowPremium = document.getElementById('input_lowPremium');
+    _el_input_lowPremium.value = (_el_input_lowPremium.dataset && _el_input_lowPremium.dataset.default !== undefined) ? _el_input_lowPremium.dataset.default : (_el_input_lowPremium.getAttribute('value') || '');
+    var _el_input_policyTerm = document.getElementById('input_policyTerm');
+    _el_input_policyTerm.value = (_el_input_policyTerm.dataset && _el_input_policyTerm.dataset.default !== undefined) ? _el_input_policyTerm.dataset.default : (_el_input_policyTerm.getAttribute('value') || '');
     document.getElementById('input_compoundingFrequency').value = 'monthly';
     if (typeof window.updateTool === 'function') window.updateTool();
   }
@@ -201,9 +206,8 @@
       var defaultVal = el.dataset.default || el.getAttribute('value') || '';
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
     var picker = document.getElementById('baseCurrency');
     if (picker) {
       picker.addEventListener('change', function() {

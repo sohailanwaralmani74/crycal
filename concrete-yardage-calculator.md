@@ -115,13 +115,13 @@ howto:
 
 faq:
   - question: "How do you calculate cubic yards of concrete?"
-    answer: "Multiply Length (ft) × Width (ft) × Thickness (ft) and divide by 27. (Thickness in feet = Inches / 12)."
+    answer: "To calculate cubic yards of concrete, multiply length (ft) by width (ft) by thickness (ft) and divide by 27. Convert thickness to feet by dividing inches by 12."
   - question: "How many 80lb bags of concrete make a cubic yard?"
     answer: "It takes 45 bags of 80 lb pre-mix concrete to equal 1 cubic yard (27 cubic feet)."
   - question: "How many 60lb bags of concrete make a cubic yard?"
     answer: "It takes 60 bags of 60 lb pre-mix concrete to equal 1 cubic yard (27 cubic feet)."
   - question: "Why should you add a waste factor to concrete calculations?"
-    answer: "Subgrades are rarely perfectly level, and forms flex under pressure. Adding a 5% to 10% waste factor prevents running short during a pour."
+    answer: "You should add a waste factor to concrete calculations because subgrades are rarely perfectly level and forms flex under pressure. Adding a 5% to 10% waste factor prevents running short during a pour."
   - question: "What thickness is recommended for concrete slabs?"
     answer: "Standard walkways and patios require 4 inches. Residential driveways require 5 to 6 inches, while heavy equipment pads require 6+ inches with rebar reinforcement."
   - question: "When is ready-mix truck delivery cheaper than buying bags?"
@@ -167,7 +167,7 @@ $$\text{80 lb Bags} = \lceil \text{Total cu ft} \times 0.6 \rceil \quad | \quad 
 
 ### How do you calculate cubic yards of concrete?
 
-Multiply Length (ft) × Width (ft) × Thickness (ft) and divide by 27. (Thickness in feet = Inches / 12).
+To calculate cubic yards of concrete, multiply length (ft) by width (ft) by thickness (ft) and divide by 27. Convert thickness to feet by dividing inches by 12.
 
 ### How many 80lb bags of concrete make a cubic yard?
 
@@ -179,7 +179,7 @@ It takes 60 bags of 60 lb pre-mix concrete to equal 1 cubic yard (27 cubic feet)
 
 ### Why should you add a waste factor to concrete calculations?
 
-Subgrades are rarely perfectly level, and forms flex under pressure. Adding a 5% to 10% waste factor prevents running short during a pour.
+You should add a waste factor to concrete calculations because subgrades are rarely perfectly level and forms flex under pressure. Adding a 5% to 10% waste factor prevents running short during a pour.
 
 ### What thickness is recommended for concrete slabs?
 

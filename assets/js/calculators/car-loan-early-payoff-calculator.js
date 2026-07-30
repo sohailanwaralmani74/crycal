@@ -10,7 +10,7 @@
       remainingMonths: parseInt(document.getElementById('input_remainingMonths').value, 10) || 48,
       paymentFrequency: document.getElementById('input_paymentFrequency').value,
       extraPaymentAmount: parseFloat(document.getElementById('input_extraPaymentAmount').value) || 0
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -52,7 +52,7 @@
         newPayoffDate: '0 Mos',
         stdSchedule: [],
         accSchedule: []
-      };
+      }
     }
 
     var stdPmt = (r > 0) ? (P * r * Math.pow(1 + r, n)) / (Math.pow(1 + r, n) - 1) : P / n;
@@ -103,7 +103,7 @@
       accSchedule: accSchedule,
       stdInterest: Math.max(0, stdInterest),
       accInterest: Math.max(0, accTotalInterest)
-    };
+    }
   }
 
   function updateTool() {
@@ -195,7 +195,7 @@
             }
           }
         }
-      };
+      }
     } else if (tab === 'interest_saved_chart') {
       return {
         type: 'bar',
@@ -226,7 +226,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;

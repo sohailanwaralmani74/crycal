@@ -8,7 +8,7 @@
       propertyPurchasePrice: parseFloat(document.getElementById('input_propertyPurchasePrice').value) || 0,
       landValuePercent: parseFloat(document.getElementById('input_landValuePercent').value) || 20,
       capitalImprovements: parseFloat(document.getElementById('input_capitalImprovements').value) || 0
-    };
+    }
   }
 
   function formatCurrencyLocal(amount) {
@@ -59,7 +59,7 @@
       annualDep: annualDep,
       monthlyDep: monthlyDep,
       timeline: timeline
-    };
+    }
   }
 
   function updateTool() {
@@ -121,7 +121,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'timeline') {
@@ -153,7 +153,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;

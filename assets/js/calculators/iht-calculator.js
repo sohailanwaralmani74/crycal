@@ -33,7 +33,7 @@
 
     // Tax year label
     taxYear: '2025/26'
-  };
+  }
   // ──────────────────────────────────────────────────────────────
 
   // ── Get Inputs ──
@@ -54,7 +54,7 @@
       giftsLast7Years: giftsLast7Years,
       charityPercentage: charityPercentage / 100,
       trustsAndOthers: trustsAndOthers
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -172,14 +172,12 @@
       'Tax Due': totalTax,
       'Charity Tax Reduction': charityTaxReduction,
       'Gifts Tax': giftsTax
-    };
-
+    }
     var comparisonData = {
       'Total Estate': totalEstate,
       'Total Tax': totalTax,
       'Net Estate': totalEstate - totalTax
-    };
-
+    }
     return {
       totalTax: totalTax,
       effectiveRate: effectiveRate,
@@ -192,7 +190,7 @@
       chartData: chartData,
       comparisonData: comparisonData,
       error: null
-    };
+    }
   }
 
   // ── Main Update ──
@@ -243,7 +241,7 @@
       comparisonData: result.comparisonData,
       totalTax: result.totalTax,
       totalEstate: inputs.totalEstate
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -305,7 +303,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'comparison') {
@@ -366,7 +364,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -384,13 +382,18 @@
 
   // ── Reset Tool ──
   function resetTool() {
-    document.getElementById('input_totalEstate').value = 500000;
-    document.getElementById('input_mainResidence').value = 300000;
+    var _el_input_totalEstate = document.getElementById('input_totalEstate');
+    _el_input_totalEstate.value = (_el_input_totalEstate.dataset && _el_input_totalEstate.dataset.default !== undefined) ? _el_input_totalEstate.dataset.default : (_el_input_totalEstate.getAttribute('value') || '');
+    var _el_input_mainResidence = document.getElementById('input_mainResidence');
+    _el_input_mainResidence.value = (_el_input_mainResidence.dataset && _el_input_mainResidence.dataset.default !== undefined) ? _el_input_mainResidence.dataset.default : (_el_input_mainResidence.getAttribute('value') || '');
     document.getElementById('input_residenceToDescendants').value = 'yes';
     document.getElementById('input_spouseTransfer').value = 'no';
-    document.getElementById('input_giftsLast7Years').value = 0;
-    document.getElementById('input_charityPercentage').value = 0;
-    document.getElementById('input_trustsAndOthers').value = 0;
+    var _el_input_giftsLast7Years = document.getElementById('input_giftsLast7Years');
+    _el_input_giftsLast7Years.value = (_el_input_giftsLast7Years.dataset && _el_input_giftsLast7Years.dataset.default !== undefined) ? _el_input_giftsLast7Years.dataset.default : (_el_input_giftsLast7Years.getAttribute('value') || '');
+    var _el_input_charityPercentage = document.getElementById('input_charityPercentage');
+    _el_input_charityPercentage.value = (_el_input_charityPercentage.dataset && _el_input_charityPercentage.dataset.default !== undefined) ? _el_input_charityPercentage.dataset.default : (_el_input_charityPercentage.getAttribute('value') || '');
+    var _el_input_trustsAndOthers = document.getElementById('input_trustsAndOthers');
+    _el_input_trustsAndOthers.value = (_el_input_trustsAndOthers.dataset && _el_input_trustsAndOthers.dataset.default !== undefined) ? _el_input_trustsAndOthers.dataset.default : (_el_input_trustsAndOthers.getAttribute('value') || '');
     updateTool();
   }
 
@@ -406,9 +409,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

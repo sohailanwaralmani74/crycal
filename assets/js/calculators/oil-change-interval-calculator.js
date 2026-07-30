@@ -8,7 +8,7 @@
       last_change_mileage: parseFloat(document.getElementById('input_last_change_mileage').value) || 45000,
       last_change_months_ago: parseFloat(document.getElementById('input_last_change_months_ago').value) || 4,
       annual_mileage: parseFloat(document.getElementById('input_annual_mileage').value) || 12000
-    };
+    }
   }
 
   function setOutputText(id, text) {
@@ -65,7 +65,7 @@
       rec_interval_months: rec_interval_months,
       miles_remaining: miles_remaining,
       status: status
-    };
+    }
   }
 
   function updateTool() {
@@ -81,8 +81,7 @@
     var chartData = {
       labels: ['Conventional', 'Synthetic Blend', 'Full Synthetic', 'High-Mileage'],
       values: [4000, 6000, 9000, 11000]
-    };
-
+    }
     updateCharts(chartData);
 
     if (typeof window.logHistory === 'function') {

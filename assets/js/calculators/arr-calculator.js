@@ -72,7 +72,7 @@
       contractArr: contractArr,
       arr: arr,
       impliedQuarterlyRevenue: impliedQuarterlyRevenue
-    };
+    }
     updateCharts(lastChartData);
 
     if (typeof window.logHistory === 'function') {
@@ -117,7 +117,7 @@
           maintainAspectRatio: false,
           plugins: { legend: { position: 'bottom', labels: { color: '#e8edf0' } } }
         }
-      };
+      }
     }
     if (tab === 'quarterlyProjection') {
       var qVal = data.impliedQuarterlyRevenue;
@@ -137,7 +137,7 @@
           plugins: { legend: { display: false } },
           scales: { y: { beginAtZero: true, ticks: { color: '#8899aa' } }, x: { ticks: { color: '#8899aa' } } }
         }
-      };
+      }
     }
     return null;
 
@@ -154,9 +154,12 @@
 
   function resetTool() {
 
-    document.getElementById('input_currentMrr').value = 85000;
-    document.getElementById('input_annualPrepaidContracts').value = 120000;
-    document.getElementById('input_contractTermYears').value = 1.0;
+    var _el_input_currentMrr = document.getElementById('input_currentMrr');
+    _el_input_currentMrr.value = (_el_input_currentMrr.dataset && _el_input_currentMrr.dataset.default !== undefined) ? _el_input_currentMrr.dataset.default : (_el_input_currentMrr.getAttribute('value') || '');
+    var _el_input_annualPrepaidContracts = document.getElementById('input_annualPrepaidContracts');
+    _el_input_annualPrepaidContracts.value = (_el_input_annualPrepaidContracts.dataset && _el_input_annualPrepaidContracts.dataset.default !== undefined) ? _el_input_annualPrepaidContracts.dataset.default : (_el_input_annualPrepaidContracts.getAttribute('value') || '');
+    var _el_input_contractTermYears = document.getElementById('input_contractTermYears');
+    _el_input_contractTermYears.value = (_el_input_contractTermYears.dataset && _el_input_contractTermYears.dataset.default !== undefined) ? _el_input_contractTermYears.dataset.default : (_el_input_contractTermYears.getAttribute('value') || '');
     updateTool();
 
   }
@@ -171,9 +174,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

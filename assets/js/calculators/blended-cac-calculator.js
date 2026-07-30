@@ -81,7 +81,7 @@
       blendedCac: blendedCac,
       paidCustomers: paidCustomers,
       organicCustomers: organicCustomers
-    };
+    }
     updateCharts(lastChartData);
 
     if (typeof window.logHistory === 'function') {
@@ -127,7 +127,7 @@
           plugins: { legend: { display: false } },
           scales: { y: { beginAtZero: true, ticks: { color: '#8899aa' } }, x: { ticks: { color: '#8899aa' } } }
         }
-      };
+      }
     }
     if (tab === 'customerShare') {
       return {
@@ -145,7 +145,7 @@
           maintainAspectRatio: false,
           plugins: { legend: { position: 'bottom', labels: { color: '#e8edf0' } } }
         }
-      };
+      }
     }
     return null;
 
@@ -162,11 +162,16 @@
 
   function resetTool() {
 
-    document.getElementById('input_paidSpend').value = 20000;
-    document.getElementById('input_organicSpend').value = 5000;
-    document.getElementById('input_teamSalaries').value = 15000;
-    document.getElementById('input_paidCustomers').value = 40;
-    document.getElementById('input_organicCustomers').value = 60;
+    var _el_input_paidSpend = document.getElementById('input_paidSpend');
+    _el_input_paidSpend.value = (_el_input_paidSpend.dataset && _el_input_paidSpend.dataset.default !== undefined) ? _el_input_paidSpend.dataset.default : (_el_input_paidSpend.getAttribute('value') || '');
+    var _el_input_organicSpend = document.getElementById('input_organicSpend');
+    _el_input_organicSpend.value = (_el_input_organicSpend.dataset && _el_input_organicSpend.dataset.default !== undefined) ? _el_input_organicSpend.dataset.default : (_el_input_organicSpend.getAttribute('value') || '');
+    var _el_input_teamSalaries = document.getElementById('input_teamSalaries');
+    _el_input_teamSalaries.value = (_el_input_teamSalaries.dataset && _el_input_teamSalaries.dataset.default !== undefined) ? _el_input_teamSalaries.dataset.default : (_el_input_teamSalaries.getAttribute('value') || '');
+    var _el_input_paidCustomers = document.getElementById('input_paidCustomers');
+    _el_input_paidCustomers.value = (_el_input_paidCustomers.dataset && _el_input_paidCustomers.dataset.default !== undefined) ? _el_input_paidCustomers.dataset.default : (_el_input_paidCustomers.getAttribute('value') || '');
+    var _el_input_organicCustomers = document.getElementById('input_organicCustomers');
+    _el_input_organicCustomers.value = (_el_input_organicCustomers.dataset && _el_input_organicCustomers.dataset.default !== undefined) ? _el_input_organicCustomers.dataset.default : (_el_input_organicCustomers.getAttribute('value') || '');
     updateTool();
 
   }
@@ -181,9 +186,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

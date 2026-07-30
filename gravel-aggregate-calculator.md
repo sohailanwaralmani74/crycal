@@ -136,13 +136,13 @@ faq:
   - question: "How thick should a gravel driveway be?"
   - answer: "A gravel driveway should have a total depth of 4 to 6 inches, typically consisting of a 3-inch subbase of heavy crushed stone topped with 2 inches of decorative gravel."
   - question: "Why do I need to add a compaction factor to gravel calculations?"
-  - answer: "When gravel is spread and compacted with a plate compactor or driven over, its volume decreases by 10% to 15% as smaller stones settle into air gaps."
+    answer: "Adding a compaction factor to gravel calculations is necessary because gravel volume decreases by 10% to 15% when spread and compacted, as smaller stones settle into air gaps."
   - question: "How much does a yard of gravel cost?"
-  - answer: "Bulk gravel costs between $35 and $65 per cubic yard ($40 to $75 per ton), depending on material type and local quarry proximity."
+    answer: "A yard of bulk gravel costs between $35 and $65 per cubic yard ($40 to $75 per ton), depending on material type and local quarry proximity."
   - question: "What is the difference between pea gravel and crushed stone?"
   - answer: "Pea gravel consists of naturally rounded, smooth river stones ideal for pathways, whereas crushed stone has sharp angular edges that interlock tightly for stable driveways."
   - question: "Is my personal data saved?"
-  - answer: "No. All calculations run locally in your web browser."
+    answer: "No — your personal data is not saved. All calculations run locally in your web browser."
 ---
 
 # Gravel Aggregate Calculator - Calculate Volume, Bags & Materials
@@ -209,13 +209,17 @@ A gravel driveway should have a total depth of 4 to 6 inches, typically consisti
 
 ### Why do I need to add a compaction factor to gravel calculations?
 
-When gravel is spread and compacted with a plate compactor or driven over, its volume decreases by 10% to 15% as smaller stones settle into air gaps.
+Adding a compaction factor to gravel calculations is necessary because gravel volume decreases by 10% to 15% when spread and compacted, as smaller stones settle into air gaps.
 
 ### How much does a yard of gravel cost?
 
-Bulk gravel costs between $35 and $65 per cubic yard ($40 to $75 per ton), depending on material type and local quarry proximity.
+A yard of bulk gravel costs between $35 and $65 per cubic yard ($40 to $75 per ton), depending on material type and local quarry proximity.
 
 ### What is the difference between pea gravel and crushed stone?
 
 Pea gravel consists of naturally rounded, smooth river stones ideal for pathways, whereas crushed stone has sharp angular edges that interlock tightly for stable driveways.
+
+### Is my personal data saved?
+
+No — your personal data is not saved. All calculations run locally in your web browser.
 

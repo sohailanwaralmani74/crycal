@@ -33,7 +33,7 @@
     return {
       payFrequency: document.getElementById('input_payFrequency').value || 'monthly',
       compoundingFrequency: document.getElementById('input_compoundingFrequency').value || 'monthly'
-    };
+    }
   }
 
   // ── Get incomes from UI ──
@@ -143,7 +143,7 @@
         totalIncome: totalIncome,
         totalExpenses: totalExpenses,
         remaining: remaining
-      };
+      }
       window.logHistory(snapshot);
     }
     if (typeof window.renderPresetDropdown === 'function') {
@@ -183,7 +183,7 @@
               title: { display: true, text: 'No expenses entered', font: { size: 14 } }
             }
           }
-        };
+        }
       }
 
       var labels = expenseData.map(function(e) { return e.name; });
@@ -220,7 +220,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'comparison') {
@@ -257,7 +257,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -472,9 +472,8 @@
       });
     }
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

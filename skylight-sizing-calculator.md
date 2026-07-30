@@ -144,7 +144,7 @@ faq:
   - question: "Should skylights face North, South, East, or West?"
     answer: "North-facing skylights provide steady, cool diffuse daylight without solar heat gain. South-facing skylights provide intense warmth and light. East yields morning sun, and West provides late afternoon illumination."
   - question: "Can a skylight be too big for a room?"
-    answer: "Yes. Oversized skylights exceeding 12% of floor area can cause severe summer overheating and excessive winter thermal heat loss unless equipped with Low-E coatings or blinds."
+    answer: "Oversized skylights exceeding 12% of floor area can cause severe summer overheating and excessive winter thermal heat loss unless equipped with Low-E coatings or blinds."
 ---
 
 # Skylight Sizing Calculator - Calculate Shingles, Squares & Flashing
@@ -215,5 +215,5 @@ North-facing skylights provide steady, cool diffuse daylight without solar heat 
 
 ### Can a skylight be too big for a room?
 
-Yes. Oversized skylights exceeding 12% of floor area can cause severe summer overheating and excessive winter thermal heat loss unless equipped with Low-E coatings or blinds.
+Oversized skylights exceeding 12% of floor area can cause severe summer overheating and excessive winter thermal heat loss unless equipped with Low-E coatings or blinds.
 

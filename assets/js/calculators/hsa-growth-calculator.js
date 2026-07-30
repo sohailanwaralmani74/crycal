@@ -19,7 +19,7 @@
       annualReturn: annualReturn / 100,
       yearsToGrow: yearsToGrow,
       marginalTaxRate: marginalTaxRate / 100
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -102,7 +102,7 @@
       totalTaxSavings: totalTaxSavings,
       dataPoints: dataPoints,
       error: null
-    };
+    }
   }
 
   function updateTool() {
@@ -134,7 +134,7 @@
       projectedBalance: result.projectedBalance,
       totalGrowth: result.totalGrowth,
       totalContributions: result.totalContributions
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -207,7 +207,7 @@
           },
           interaction: { intersect: false, mode: 'index' }
         }
-      };
+      }
     }
 
     if (tab === 'breakdown') {
@@ -228,7 +228,7 @@
             title: { display: true, text: 'Contributions vs Growth', font: { size: 14, color: '#e8edf0' } }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -244,12 +244,18 @@
   }
 
   function resetTool() {
-    document.getElementById('input_currentBalance').value = 3000;
-    document.getElementById('input_annualContribution').value = 3000;
-    document.getElementById('input_employerContribution').value = 1000;
-    document.getElementById('input_annualReturn').value = 6;
-    document.getElementById('input_yearsToGrow').value = 20;
-    document.getElementById('input_marginalTaxRate').value = 24;
+    var _el_input_currentBalance = document.getElementById('input_currentBalance');
+    _el_input_currentBalance.value = (_el_input_currentBalance.dataset && _el_input_currentBalance.dataset.default !== undefined) ? _el_input_currentBalance.dataset.default : (_el_input_currentBalance.getAttribute('value') || '');
+    var _el_input_annualContribution = document.getElementById('input_annualContribution');
+    _el_input_annualContribution.value = (_el_input_annualContribution.dataset && _el_input_annualContribution.dataset.default !== undefined) ? _el_input_annualContribution.dataset.default : (_el_input_annualContribution.getAttribute('value') || '');
+    var _el_input_employerContribution = document.getElementById('input_employerContribution');
+    _el_input_employerContribution.value = (_el_input_employerContribution.dataset && _el_input_employerContribution.dataset.default !== undefined) ? _el_input_employerContribution.dataset.default : (_el_input_employerContribution.getAttribute('value') || '');
+    var _el_input_annualReturn = document.getElementById('input_annualReturn');
+    _el_input_annualReturn.value = (_el_input_annualReturn.dataset && _el_input_annualReturn.dataset.default !== undefined) ? _el_input_annualReturn.dataset.default : (_el_input_annualReturn.getAttribute('value') || '');
+    var _el_input_yearsToGrow = document.getElementById('input_yearsToGrow');
+    _el_input_yearsToGrow.value = (_el_input_yearsToGrow.dataset && _el_input_yearsToGrow.dataset.default !== undefined) ? _el_input_yearsToGrow.dataset.default : (_el_input_yearsToGrow.getAttribute('value') || '');
+    var _el_input_marginalTaxRate = document.getElementById('input_marginalTaxRate');
+    _el_input_marginalTaxRate.value = (_el_input_marginalTaxRate.dataset && _el_input_marginalTaxRate.dataset.default !== undefined) ? _el_input_marginalTaxRate.dataset.default : (_el_input_marginalTaxRate.getAttribute('value') || '');
     updateTool();
   }
 
@@ -263,9 +269,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

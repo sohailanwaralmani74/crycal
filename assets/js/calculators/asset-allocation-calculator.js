@@ -8,7 +8,7 @@
       currentAge: parseFloat(document.getElementById('input_currentAge').value) || 35,
       riskTolerance: document.getElementById('input_riskTolerance').value,
       totalInvestableAssets: parseFloat(document.getElementById('input_totalInvestableAssets').value) || 0
-    };
+    }
   }
 
   function formatCurrencyLocal(amount) {
@@ -59,7 +59,7 @@
       bondsVal: bondsVal,
       cashVal: cashVal,
       total: total
-    };
+    }
   }
 
   function updateTool() {
@@ -120,7 +120,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'portfolioValues') {
@@ -158,7 +158,7 @@
             y: { stacked: true, beginAtZero: true }
           }
         }
-      };
+      }
     }
 
     return null;

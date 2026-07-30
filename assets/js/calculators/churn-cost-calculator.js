@@ -13,7 +13,7 @@
       monthlyChurnRatePct: parseFloat(document.getElementById('input_monthlyChurnRatePct').value) || 0,
       averageCac: parseFloat(document.getElementById('input_averageCac').value) || 0,
       arpu: parseFloat(document.getElementById('input_arpu').value) || 1
-    };
+    }
   }
 
   function formatCurrency(amount) {

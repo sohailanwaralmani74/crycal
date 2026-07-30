@@ -24,7 +24,7 @@
     return {
       visitors: parseFloat(document.getElementById('input_visitors')?.value) || 0,
       leads: parseFloat(document.getElementById('input_leads')?.value) || 0
-    };
+    }
   }
 
   function updateTool() {

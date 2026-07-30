@@ -10,7 +10,7 @@
       contractTermMonths: parseFloat(document.getElementById('input_contractTermMonths').value) || 12,
       amortizedMonthlyMarkup: (parseFloat(document.getElementById('input_amortizedMonthlyMarkup').value) || 0) / 100,
       customerCapExPreference: document.getElementById('input_customerCapExPreference').value || 'Upfront Setup Fee'
-    };
+    }
   }
 
   function formatCurrency(amount) {
@@ -81,7 +81,7 @@
       monthLabels: monthLabels,
       upfrontCumulative: upfrontCumulative,
       amortizedCumulative: amortizedCumulative
-    };
+    }
   }
 
   function updateTool() {

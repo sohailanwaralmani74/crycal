@@ -143,7 +143,7 @@ faq:
   - question: "What is an amortization calculator?"
     answer: "An amortization calculator shows you how each loan payment is split between principal and interest. It generates a complete amortization schedule, helping you understand exactly how your loan balance decreases over time."
   - question: "How does a loan amortization calculator work?"
-    answer: "It uses your loan amount, interest rate, and term to calculate your fixed monthly payment. Then it breaks down every payment into principal and interest portions, tracking the remaining balance month by month until the loan is fully paid off."
+    answer: "A loan amortization calculator uses your loan amount, interest rate, and term to calculate your fixed monthly payment. Then it breaks down every payment into principal and interest portions, tracking the remaining balance month by month until the loan is fully paid off."
   - question: "What is a loan amortization schedule?"
     answer: "A loan amortization schedule is a table showing every payment on a loan — broken down into how much reduces your debt (principal) and how much goes to the lender as interest. It maps the full life of the loan from the first payment to the last."
   - question: "What is the amortization formula?"
@@ -211,7 +211,7 @@ An amortization calculator shows you how each loan payment is split between prin
 
 ### How does a loan amortization calculator work?
 
-It uses your loan amount, interest rate, and term to calculate your fixed monthly payment. Then it breaks down every payment into principal and interest portions, tracking the remaining balance month by month until the loan is fully paid off.
+A loan amortization calculator uses your loan amount, interest rate, and term to calculate your fixed monthly payment. Then it breaks down every payment into principal and interest portions, tracking the remaining balance month by month until the loan is fully paid off.
 
 ### What is a loan amortization schedule?
 

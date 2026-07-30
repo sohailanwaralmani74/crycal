@@ -9,7 +9,7 @@
       interestRate: parseFloat(document.getElementById('input_interestRate').value) || 0,
       constructionMonths: parseFloat(document.getElementById('input_constructionMonths').value) || 12,
       avgDrawPercent: parseFloat(document.getElementById('input_avgDrawPercent').value) || 50
-    };
+    }
   }
 
   function formatCurrencyLocal(amount) {
@@ -53,7 +53,7 @@
       totalConstructionInterest: totalConstructionInterest,
       finalMonthlyPmt: finalMonthlyPmt,
       avgDrawnBalance: avgDrawnBalance
-    };
+    }
   }
 
   function updateTool() {
@@ -113,7 +113,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'comparison') {
@@ -145,7 +145,7 @@
             y: { beginAtZero: true }
           }
         }
-      };
+      }
     }
 
     return null;

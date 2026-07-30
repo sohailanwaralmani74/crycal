@@ -6,14 +6,13 @@
     'gasoline': 19.64,
     'diesel': 22.38,
     'e85': 13.90
-  };
-
+  }
   function getInputs() {
     return {
       annualMiles: parseFloat(document.getElementById('input_annualMiles').value) || 0,
       mpg: parseFloat(document.getElementById('input_mpg').value) || 1,
       fuelType: document.getElementById('input_fuelType').value || 'gasoline'
-    };
+    }
   }
 
   function setOutputText(id, text) {
@@ -45,7 +44,7 @@
       annualCo2Pounds: annualCo2Pounds,
       co2PerMile: co2PerMile,
       treesNeededToOffset: treesNeededToOffset
-    };
+    }
   }
 
   function updateTool() {
@@ -121,7 +120,7 @@
             }
           }
         }
-      };
+      }
     } else if (tab === 'offsetTrees') {
       return {
         type: 'bar',
@@ -156,7 +155,7 @@
             }
           }
         }
-      };
+      }
     }
     return null;
   }
@@ -167,8 +166,10 @@
   }
 
   function resetTool() {
-    document.getElementById('input_annualMiles').value = 12500;
-    document.getElementById('input_mpg').value = 24;
+    var _el_input_annualMiles = document.getElementById('input_annualMiles');
+    _el_input_annualMiles.value = (_el_input_annualMiles.dataset && _el_input_annualMiles.dataset.default !== undefined) ? _el_input_annualMiles.dataset.default : (_el_input_annualMiles.getAttribute('value') || '');
+    var _el_input_mpg = document.getElementById('input_mpg');
+    _el_input_mpg.value = (_el_input_mpg.dataset && _el_input_mpg.dataset.default !== undefined) ? _el_input_mpg.dataset.default : (_el_input_mpg.getAttribute('value') || '');
     document.getElementById('input_fuelType').value = 'gasoline';
     updateTool();
   }
@@ -183,9 +184,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

@@ -163,7 +163,7 @@ faq:
   - question: "What is a pip value?"
     answer: "A pip value is the monetary value of one pip movement. For a standard lot in most USD pairs, 1 pip is worth $10."
   - question: "Can I use this calculator for any currency pair?"
-    answer: "Yes — just enter the correct pip value for your pair. For JPY pairs, the pip value is typically different (e.g., ¥1,000 for a standard lot)."
+    answer: "You can use this calculator for any currency pair by simply entering the correct pip value for your pair. For JPY pairs, the pip value is typically different (e.g., ¥1,000 for a standard lot)."
 
 ---
 
@@ -227,7 +227,7 @@ A pip value is the monetary value of one pip movement. For a standard lot in mos
 
 ### Can I use this calculator for any currency pair?
 
-Yes — just enter the correct pip value for your pair. For JPY pairs, the pip value is typically different (e.g., ¥1,000 for a standard lot).
+You can use this calculator for any currency pair by simply entering the correct pip value for your pair. For JPY pairs, the pip value is typically different (e.g., ¥1,000 for a standard lot).
 
 ---
 

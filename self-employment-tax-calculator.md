@@ -189,9 +189,9 @@ faq:
   - question: "How is self-employment tax calculated?"
     answer: "Self-employment tax is calculated on your net profit from self-employment. In many countries, it includes social security and Medicare contributions at rates that may be higher than employee rates because you pay both shares."
   - question: "Can I deduct business expenses?"
-    answer: "Yes — you can enter deductible business expenses, which reduce your net income subject to tax."
+    answer: "You can deduct business expenses in the calculator, which reduces your net income subject to tax."
   - question: "Does this calculator work for any country?"
-    answer: "Yes — you enter your own tax rates, social security rates, and caps. The tool works for any country's self-employment tax system."
+    answer: "The calculator works for any country because you can enter your own tax rates, social security rates, and caps to match your local self-employment tax system."
 
 ---
 
@@ -260,11 +260,11 @@ Self-employment tax is calculated on your net profit from self-employment. In ma
 
 ### Can I deduct business expenses?
 
-Yes — you can enter deductible business expenses, which reduce your net income subject to tax.
+You can deduct business expenses in the calculator, which reduces your net income subject to tax.
 
 ### Does this calculator work for any country?
 
-Yes — you enter your own tax rates, social security rates, and caps. The tool works for any country's self-employment tax system.
+The calculator works for any country because you can enter your own tax rates, social security rates, and caps to match your local self-employment tax system.
 
 ---
 

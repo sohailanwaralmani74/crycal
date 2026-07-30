@@ -121,7 +121,7 @@
     return {
       biweeklyIncome: incomeInput ? parseFloat(incomeInput.value) || 0 : 0,
       otherIncome: otherIncomeInput ? parseFloat(otherIncomeInput.value) || 0 : 0
-    };
+    }
   }
 
   // ── Calculate (All amounts are biweekly) ──
@@ -141,7 +141,7 @@
       totalExpenses: totalExpenses,
       remaining: remaining,
       status: status
-    };
+    }
   }
 
   // ── Update Outputs ──
@@ -227,7 +227,7 @@
               title: { display: true, text: 'No expenses entered', font: { size: 14 } }
             }
           }
-        };
+        }
       }
       var labels = expenseData.map(function(e) { return e.name; });
       var amounts = expenseData.map(function(e) { return e.amount; });
@@ -262,7 +262,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'comparison') {
@@ -298,7 +298,7 @@
             }
           }
         }
-      };
+      }
     }
     return null;
   }
@@ -350,9 +350,8 @@
       });
     }
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
   });
 
 })();

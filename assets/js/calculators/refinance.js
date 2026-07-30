@@ -18,7 +18,7 @@
       newTerm: parseFloat(document.getElementById('input_newTerm').value) || 0,
       closingCosts: parseFloat(document.getElementById('input_closingCosts').value) || 0,
       compoundingFrequency: document.getElementById('input_compoundingFrequency').value
-    };
+    }
   }
 
   // ── Get compounding periods per year ──
@@ -29,7 +29,7 @@
       'quarterly': 4,
       'semi-annually': 2,
       'annually': 1
-    };
+    }
     return map[frequency] || 12;
   }
 
@@ -154,7 +154,7 @@
       cumulativeData: cumulativeData,
       currentAmort: currentAmort,
       newAmort: newAmort
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -208,7 +208,7 @@
         newTerm: inputs.newTerm,
         closingCosts: inputs.closingCosts,
         compoundingFrequency: inputs.compoundingFrequency
-      };
+      }
       window.logHistory(snapshot);
     }
     if (typeof window.renderPresetDropdown === 'function') {
@@ -282,7 +282,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'savings') {
@@ -341,7 +341,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'breakdown') {
@@ -376,7 +376,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     return null;
@@ -409,9 +409,8 @@
       var defaultVal = el.dataset.default || el.getAttribute('value') || '';
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
     var picker = document.getElementById('baseCurrency');
     if (picker) {
       picker.addEventListener('change', function() {

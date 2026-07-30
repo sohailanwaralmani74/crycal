@@ -99,13 +99,13 @@ howto:
 
 faq:
   - question: "What is a biweekly budget?"
-    answer: "A biweekly budget is a budgeting method based on a biweekly pay cycle. You plan your expenses around two paychecks per month, which helps you manage cash flow more effectively."
+    answer: "A biweekly budget is a budgeting method based on a biweekly pay cycle. Planning your expenses around two paychecks per month helps you manage cash flow more effectively."
   - question: "How is biweekly income calculated?"
-    answer: "Biweekly income is multiplied by 26 and divided by 12 to get an average monthly income."
+    answer: "To calculate average monthly income from a biweekly paycheck, multiply your biweekly income by 26 and divide by 12."
   - question: "What expenses should I include?"
-    answer: "Include all recurring monthly expenses: rent, utilities, groceries, transportation, insurance, debt payments, and any other regular bills."
+    answer: "A biweekly budget should include all recurring monthly expenses like rent, utilities, groceries, transportation, insurance, and debt payments."
   - question: "What if I have a surplus or deficit?"
-    answer: "A surplus means you have money left over to save or invest. A deficit means you're spending more than you earn and need to reduce expenses or increase income."
+    answer: "A budget surplus means you have money left over to save or invest. A budget deficit means you're spending more than you earn and must reduce expenses or increase income."
 
 ---
 
@@ -174,18 +174,18 @@ Using this interactive calculation engine provides a clear, quantitative roadmap
 
 ### What is a biweekly budget?
 
-A biweekly budget is a budgeting method based on a biweekly pay cycle. You plan your expenses around two paychecks per month, which helps you manage cash flow more effectively.
+A biweekly budget is a budgeting method based on a biweekly pay cycle. Planning your expenses around two paychecks per month helps you manage cash flow more effectively.
 
 ### How is biweekly income calculated?
 
-Biweekly income is multiplied by 26 and divided by 12 to get an average monthly income.
+To calculate average monthly income from a biweekly paycheck, multiply your biweekly income by 26 and divide by 12.
 
 ### What expenses should I include?
 
-Include all recurring monthly expenses: rent, utilities, groceries, transportation, insurance, debt payments, and any other regular bills.
+A biweekly budget should include all recurring monthly expenses like rent, utilities, groceries, transportation, insurance, and debt payments.
 
 ### What if I have a surplus or deficit?
 
-A surplus means you have money left over to save or invest. A deficit means you're spending more than you earn and need to reduce expenses or increase income.
+A budget surplus means you have money left over to save or invest. A budget deficit means you're spending more than you earn and must reduce expenses or increase income.
 
 ---

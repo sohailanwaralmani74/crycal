@@ -148,7 +148,7 @@ faq:
   - question: "How deep should a retaining wall base course be buried?"
     answer: "The bottom row (base course) of retaining wall blocks must be buried below ground level on a compacted 6-inch crushed stone leveling pad (approx. 1 inch of embedment per foot of wall height)."
   - question: "Do I need top capstones for my segmental retaining wall?"
-    answer: "Yes. Capstones seal the top course of hollow or pin-connected wall blocks, preventing rainwater penetration into block cores and providing a clean finished aesthetic."
+    answer: "Capstones seal the top course of hollow or pin-connected wall blocks, preventing rainwater penetration into block cores and providing a clean finished aesthetic."
   - question: "When does a retaining wall require building permits and geogrid?"
     answer: "Retaining walls exceeding 3 to 4 feet in total height generally require engineered geogrid soil reinforcement layers and building permits."
 ---
@@ -230,7 +230,7 @@ The bottom row (base course) of retaining wall blocks must be buried below groun
 
 ### Do I need top capstones for my segmental retaining wall?
 
-Yes. Capstones seal the top course of hollow or pin-connected wall blocks, preventing rainwater penetration into block cores and providing a clean finished aesthetic.
+Capstones seal the top course of hollow or pin-connected wall blocks, preventing rainwater penetration into block cores and providing a clean finished aesthetic.
 
 ### When does a retaining wall require building permits and geogrid?
 

@@ -20,7 +20,7 @@
       initialDeposit: initialDeposit,
       monthlyContribution: monthlyContribution,
       cdRate: cdRate / 100
-    };
+    }
   }
 
   // ── Format Currency ──
@@ -147,7 +147,7 @@
       weightedAvgRate: weightedAvgRate,
       scheduleData: scheduleData,
       annualRate: annualRate
-    };
+    }
   }
 
   // ── Render Ladder Schedule ──
@@ -234,7 +234,7 @@
       totalMatured: result.totalMatured,
       annualRate: result.annualRate,
       rungs: result.rungs
-    };
+    }
     lastChartData = chartPayload;
     updateCharts(chartPayload);
 
@@ -339,7 +339,7 @@
             mode: 'index'
           }
         }
-      };
+      }
     }
 
     if (tab === 'breakdown') {
@@ -375,7 +375,7 @@
             }
           }
         }
-      };
+      }
     }
 
     return null;
@@ -393,12 +393,18 @@
 
   // ── Reset Tool ──
   function resetTool() {
-    document.getElementById('input_targetAmount').value = 25000;
-    document.getElementById('input_numRungs').value = 5;
-    document.getElementById('input_ladderLength').value = 60;
-    document.getElementById('input_initialDeposit').value = 0;
-    document.getElementById('input_monthlyContribution').value = 0;
-    document.getElementById('input_cdRate').value = 4.50;
+    var _el_input_targetAmount = document.getElementById('input_targetAmount');
+    _el_input_targetAmount.value = (_el_input_targetAmount.dataset && _el_input_targetAmount.dataset.default !== undefined) ? _el_input_targetAmount.dataset.default : (_el_input_targetAmount.getAttribute('value') || '');
+    var _el_input_numRungs = document.getElementById('input_numRungs');
+    _el_input_numRungs.value = (_el_input_numRungs.dataset && _el_input_numRungs.dataset.default !== undefined) ? _el_input_numRungs.dataset.default : (_el_input_numRungs.getAttribute('value') || '');
+    var _el_input_ladderLength = document.getElementById('input_ladderLength');
+    _el_input_ladderLength.value = (_el_input_ladderLength.dataset && _el_input_ladderLength.dataset.default !== undefined) ? _el_input_ladderLength.dataset.default : (_el_input_ladderLength.getAttribute('value') || '');
+    var _el_input_initialDeposit = document.getElementById('input_initialDeposit');
+    _el_input_initialDeposit.value = (_el_input_initialDeposit.dataset && _el_input_initialDeposit.dataset.default !== undefined) ? _el_input_initialDeposit.dataset.default : (_el_input_initialDeposit.getAttribute('value') || '');
+    var _el_input_monthlyContribution = document.getElementById('input_monthlyContribution');
+    _el_input_monthlyContribution.value = (_el_input_monthlyContribution.dataset && _el_input_monthlyContribution.dataset.default !== undefined) ? _el_input_monthlyContribution.dataset.default : (_el_input_monthlyContribution.getAttribute('value') || '');
+    var _el_input_cdRate = document.getElementById('input_cdRate');
+    _el_input_cdRate.value = (_el_input_cdRate.dataset && _el_input_cdRate.dataset.default !== undefined) ? _el_input_cdRate.dataset.default : (_el_input_cdRate.getAttribute('value') || '');
     updateTool();
   }
 
@@ -414,9 +420,8 @@
       if (defaultVal && el.value === '') el.value = defaultVal;
     });
 
-    setTimeout(function() {
-      if (typeof window.updateTool === 'function') window.updateTool();
-    }, 150);
+    
+    if (typeof window.updateTool === 'function') window.updateTool();
 
     var picker = document.getElementById('baseCurrency');
     if (picker) {

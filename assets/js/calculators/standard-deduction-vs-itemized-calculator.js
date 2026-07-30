@@ -9,7 +9,7 @@
       stateAndLocalTaxes: parseFloat(document.getElementById('input_stateAndLocalTaxes').value) || 0,
       mortgageInterestPaid: parseFloat(document.getElementById('input_mortgageInterestPaid').value) || 0,
       charitableContributions: parseFloat(document.getElementById('input_charitableContributions').value) || 0
-    };
+    }
   }
 
   function formatCurrencyLocal(amount) {
@@ -59,7 +59,7 @@
       strategy: strategy,
       extraSavings: extraSavings,
       salt: salt
-    };
+    }
   }
 
   function updateTool() {
@@ -130,7 +130,7 @@
             y: { beginAtZero: true }
           }
         }
-      };
+      }
     }
 
     if (tab === 'itemizedBreakdown') {
@@ -153,7 +153,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     return null;

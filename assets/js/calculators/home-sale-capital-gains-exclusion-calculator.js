@@ -10,7 +10,7 @@
       capitalImprovementCosts: parseFloat(document.getElementById('input_capitalImprovementCosts').value) || 0,
       sellingExpenses: parseFloat(document.getElementById('input_sellingExpenses').value) || 0,
       filingStatus: document.getElementById('input_filingStatus').value
-    };
+    }
   }
 
   function formatCurrencyLocal(amount) {
@@ -60,7 +60,7 @@
       realizedGain: realizedGain,
       allowedExclusion: allowedExclusion,
       taxableGain: taxableGain
-    };
+    }
   }
 
   function updateTool() {
@@ -121,7 +121,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     if (tab === 'taxability') {
@@ -154,7 +154,7 @@
             y: { stacked: true, beginAtZero: true }
           }
         }
-      };
+      }
     }
 
     return null;

@@ -174,7 +174,7 @@ faq:
   - question: "What counts as Savings / Debt?"
     answer: "Savings includes emergency funds, retirement contributions, investments, and extra debt payments beyond the minimum."
   - question: "Can I customize the percentages?"
-    answer: "Yes — you can adjust the percentages to fit your personal financial goals and situation."
+    answer: "You can adjust the 50/30/20 percentages to fit your personal financial goals and situation."
 
 ---
 
@@ -251,6 +251,6 @@ Savings includes emergency funds, retirement contributions, investments, and ext
 
 ### Can I customize the percentages?
 
-Yes — you can adjust the percentages to fit your personal financial goals and situation.
+You can adjust the 50/30/20 percentages to fit your personal financial goals and situation.
 
 ---

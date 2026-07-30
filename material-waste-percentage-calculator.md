@@ -136,12 +136,19 @@ howto:
 
 faq:
   - question: "What is the standard waste factor percentage in construction?"
+    answer: "The industry standard waste factor across most residential construction materials (flooring, drywall, roofing, siding) is 10%."
   - question: "Why do contractors need to add a waste percentage to material orders?"
+    answer: "Off-cut scrap pieces created when cutting materials around corners, doors, and outlets are rarely large enough to reuse. Waste allowance ensures tradesmen do not run out of materials mid-job."
   - question: "How do you calculate material total order with waste?"
+    answer: "Multiply net quantity by (1 + Waste % / 100). For example, 1,000 sq ft with 10% waste equals 1,000 × 1.10 = 1,100 sq ft."
   - question: "How much waste percentage should I add for diagonal or herringbone tile?"
+    answer: "Add 15% to 20% waste allowance for diagonal, chevron, or herringbone patterns because perimeter cuts produce triangular scraps that cannot be re-installed elsewhere."
   - question: "What happens if I order zero waste allowance?"
+    answer: "Ordering zero waste almost guarantees running out of material before project completion. Re-ordering later risks freight delays and color dye-lot mismatches between production runs."
   - question: "Should I keep leftover construction materials after the job?"
+    answer: "Keeping 1 full extra carton of flooring, tile, or siding allows easy future repair of water damage or cracked tiles without needing to replace the entire room."
   - question: "Is my personal data saved when using this calculator?"
+    answer: "Your personal data is not saved when using this calculator, as all calculations run locally in your web browser."
 ---
 
 # Material Waste Percentage Calculator - Calculate Project Timeline & Budget
@@ -239,5 +246,9 @@ Ordering zero waste almost guarantees running out of material before project com
 
 ### Should I keep leftover construction materials after the job?
 
-Yes. Keeping 1 full extra carton of flooring, tile, or siding allows easy future repair of water damage or cracked tiles without needing to replace the entire room.
+Keeping 1 full extra carton of flooring, tile, or siding allows easy future repair of water damage or cracked tiles without needing to replace the entire room.
+
+### Is my personal data saved when using this calculator?
+
+Your personal data is not saved when using this calculator, as all calculations run locally in your web browser.
 

@@ -8,7 +8,7 @@
       totalDebtBalance: parseFloat(document.getElementById('input_totalDebtBalance').value) || 0,
       averageInterestRate: parseFloat(document.getElementById('input_averageInterestRate').value) || 0,
       monthlyBudget: parseFloat(document.getElementById('input_monthlyBudget').value) || 0
-    };
+    }
   }
 
   function formatCurrencyLocal(amount) {
@@ -48,7 +48,7 @@
         debtFreeDateStr: 'Payment too low to cover interest',
         totalInterest: 0,
         schedule: []
-      };
+      }
     }
 
     var bal = P;
@@ -76,7 +76,7 @@
       totalInterest: totalInterest,
       schedule: schedule,
       principal: P
-    };
+    }
   }
 
   function updateTool() {
@@ -155,7 +155,7 @@
             }
           }
         }
-      };
+      }
     }
 
     if (tab === 'principalVsInterest') {
@@ -178,7 +178,7 @@
           },
           cutout: '60%'
         }
-      };
+      }
     }
 
     return null;

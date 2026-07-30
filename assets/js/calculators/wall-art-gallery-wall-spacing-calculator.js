@@ -56,8 +56,7 @@
       targetCenterHeight: targetCenterHeight,
       frameHeightInches: frameHeightInches,
       frameTopHangingHeight: frameTopHangingHeight
-    };
-
+    }
     renderChart(lastData);
 
     if (typeof window.logHistory === 'function') {
@@ -140,19 +139,17 @@
       frameWidthInches: 20,
       frameHeightInches: 24,
       targetCenterHeight: 57
-    };
+    }
     Object.keys(defaults).forEach(function (key) {
       var el = document.getElementById('input_' + key);
       if (el) el.value = defaults[key];
     });
     calculate();
-  };
-
+  }
   window.switchChartTab = function (tabId) {
     currentTab = tabId;
     if (lastData) renderChart(lastData);
-  };
-
+  }
   document.addEventListener('DOMContentLoaded', function () {
     calculate();
   });
