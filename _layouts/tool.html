@@ -31,7 +31,7 @@ layout: default
     <select id="baseCurrency" class="currency-select"></select>
     <input type="text" id="presetNameInput" placeholder="Name this setup..." class="preset-name-input">
     <button id="resetBtn" class="btn">↺ Reset</button>
-    <button id="shareBtn" class="btn btn-primary">↗ Share Caluclation</button>
+    <button id="shareBtn" class="btn btn-primary">↗ Share Calculation</button>
   </div>
 
   <!-- INPUTS AREA — DYNAMIC SINGLE ROW -->
@@ -337,7 +337,7 @@ layout: default
       "@type": "ListItem",
       "position": {{ forloop.index }},
       "name": "{{ item.name }}",
-      "item": "{{ site.url }}{{ item.url }}"
+      "item": "{{ site.url }}{{ item.url | default: page.permalink  }}"
     }{% unless forloop.last %},{% endunless %}
     {% endfor %}
   ]
