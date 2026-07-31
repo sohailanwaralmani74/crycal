@@ -593,6 +593,13 @@
   category: budgeting
   type: tool
   short_name: Trucking Cost Per Mile
+
+- url: /tip-calculator
+  title: Tip Calculator – Free Gratuity & Bill Split Calculator
+  category: budgeting
+  type: tool
+  short_name: Tip Calculator
+
 # ============================================================
 # INVESTING
 # ============================================================
@@ -1556,6 +1563,12 @@
   type: tool
   short_name: Home Renovation Cost
 
+- url: /cubic-feet-calculator
+  title: Cubic Feet Calculator – Calculate Volume in ft³, in³, yd³, m³
+  category: project-cost-planning
+  type: tool
+  short_name: Cubic Feet Calculator
+  
 - url: /home-addition-cost-calculator
   title: Home Addition Cost Calculator – Room Addition Cost Per Sq Ft
   category: project-cost-planning
