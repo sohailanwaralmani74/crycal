@@ -88,7 +88,7 @@ A business generating $100,000 in one-time sales this month has no guarantee of 
 
 This predictability is exactly why investors, lenders, and business owners weight MRR so heavily when valuing subscription companies. It converts an uncertain future into a forecastable one, which is also why metrics like **MRR growth rate**, **net revenue retention**, and **churn rate** are almost always reported alongside it rather than in isolation.
 
-**Want to see what your business's recurring revenue could look like at different growth rates?** Try our **[Projected Revenue Calculator](/growth/projected-revenue-calculator)** — plug in your current MRR, growth rate, and churn assumptions to see where your recurring revenue is headed over the next 12, 24, or 36 months.
+**Want to see what your business's recurring revenue could look like at different growth rates?** Try our **[Projected Revenue Calculator](/projected-revenue-calculator)** — plug in your current MRR, growth rate, and churn assumptions to see where your recurring revenue is headed over the next 12, 24, or 36 months.
 
 ## Common Mistakes When Calculating MRR
 
