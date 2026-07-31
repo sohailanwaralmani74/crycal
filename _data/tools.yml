@@ -7,6 +7,18 @@
   type: tool
   short_name: CD Penalty Calculator
 
+- url: /projected-revenue-calculator
+  title: Projected Revenue Calculator | Forecast Sales & Business Growth
+  category: growth
+  type: tool
+  short_name: Projected Revenue Calculator  
+
+- url: /cd-calculator
+  title: CD Calculator | Compare Certificate of Deposit Rates & APY
+  category: growth
+  type: tool
+  short_name: CD Calculator
+
 - url: /rule-of-70-calculator
   title: Rule of 70 Calculator – Estimate Doubling Time for Growth
   category: growth
@@ -3090,4 +3102,4 @@
 
 
 
-
+
