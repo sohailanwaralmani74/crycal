@@ -21,6 +21,31 @@ This page lists every public page on Wanjaaro. Use these links to navigate the f
 - <a href="insurance">Insurance</a> — Coverage-planning tools for life and disability insurance.
 - <a href="tax">Tax</a> — Income calculators covering tax brackets, take-home pay, and capital gains.
 - <a href="budgeting">Budgeting</a> — Everyday money management tools including budgeting, net worth, and emergency fund calculators.
+- <a href="education">Education</a> — Higher education calculators including AP scores, 529 plan growth, college cost inflation, and student loan payoff.
+
+---
+
+## AP Scores
+
+- <a href="/apush-score-calculator">APUSH Score Calculator</a> — Estimate AP US History exam score (1–5) based on MCQ, SAQ, DBQ, and LEQ.
+- <a href="/ap-biology-score-calculator">AP Biology Score Calculator</a> — Calculate AP Biology composite score and 1–5 AP grade.
+- <a href="/ap-chemistry-score-calculator">AP Chemistry Score Calculator</a> — Estimate AP Chemistry score from MCQ and FRQ points.
+- <a href="/ap-psychology-score-calculator">AP Psychology Score Calculator</a> — Calculate AP Psychology exam grade (1–5).
+- <a href="/ap-english-language-score-calculator">AP English Language Calculator</a> — Estimate AP English Language & Composition score.
+- <a href="/ap-english-literature-score-calculator">AP English Literature Calculator</a> — Estimate AP English Literature & Composition score.
+- <a href="/ap-calculus-ab-score-calculator">AP Calculus AB Calculator</a> — Calculate AP Calculus AB composite score and grade.
+- <a href="/ap-calculus-bc-score-calculator">AP Calculus BC Calculator</a> — Estimate AP Calculus BC composite score and grade.
+- <a href="/ap-us-government-score-calculator">AP US Government Calculator</a> — Calculate AP US Government & Politics score.
+- <a href="/ap-world-history-score-calculator">AP World History Calculator</a> — Estimate AP World History: Modern score.
+- <a href="/ap-human-geography-score-calculator">AP Human Geography Calculator</a> — Project AP Human Geography exam grade.
+- <a href="/ap-statistics-score-calculator">AP Statistics Calculator</a> — Calculate AP Statistics exam grade (1–5).
+- <a href="/ap-physics-1-score-calculator">AP Physics 1 Calculator</a> — Estimate AP Physics 1 score from MCQ and FRQ points.
+- <a href="/ap-environmental-science-score-calculator">AP Environmental Science Calculator</a> — Calculate AP Environmental Science score.
+- <a href="/ap-computer-science-a-score-calculator">AP Computer Science A Calculator</a> — Project AP Computer Science A grade.
+- <a href="/ap-computer-science-principles-score-calculator">AP Computer Science Principles Calculator</a> — Calculate AP CSP score with Create task.
+- <a href="/ap-microeconomics-score-calculator">AP Microeconomics Calculator</a> — Estimate AP Microeconomics composite score.
+- <a href="/ap-macroeconomics-score-calculator">AP Macroeconomics Calculator</a> — Estimate AP Macroeconomics composite score.
+
 
 ---
 

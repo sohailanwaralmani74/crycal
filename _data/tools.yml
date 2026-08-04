@@ -3110,3 +3110,115 @@
   category: saas-team-operations
   type: tool
   short_name: Time-to-Hire Cost
+
+# ============================================================
+# AP SCORES
+# ============================================================
+- url: /apush-score-calculator
+  title: APUSH Score Calculator | AP US History Score Estimator
+  category: ap-scores
+  type: tool
+  short_name: APUSH Score Calculator
+
+- url: /ap-biology-score-calculator
+  title: AP Biology Score Calculator | Estimate Your 1-5 Grade
+  category: ap-scores
+  type: tool
+  short_name: AP Biology Calculator
+
+- url: /ap-chemistry-score-calculator
+  title: AP Chemistry Score Calculator | AP Exam Curve Estimator
+  category: ap-scores
+  type: tool
+  short_name: AP Chemistry Calculator
+
+- url: /ap-psychology-score-calculator
+  title: AP Psychology Score Calculator | Calculate AP Psych Grade
+  category: ap-scores
+  type: tool
+  short_name: AP Psychology Calculator
+
+- url: /ap-english-language-score-calculator
+  title: AP English Language Score Calculator | AP Lang Estimator
+  category: ap-scores
+  type: tool
+  short_name: AP Eng Language Calculator
+
+- url: /ap-english-literature-score-calculator
+  title: AP English Literature Score Calculator | AP Lit Estimator
+  category: ap-scores
+  type: tool
+  short_name: AP Eng Literature Calculator
+
+- url: /ap-calculus-ab-score-calculator
+  title: AP Calculus AB Score Calculator | Predict Your 1-5 Score
+  category: ap-scores
+  type: tool
+  short_name: AP Calculus AB Calculator
+
+- url: /ap-calculus-bc-score-calculator
+  title: AP Calculus BC Score Calculator | AP Calc BC Curve Estimator
+  category: ap-scores
+  type: tool
+  short_name: AP Calculus BC Calculator
+
+- url: /ap-us-government-score-calculator
+  title: AP US Government Score Calculator | AP Gov Curve Estimator
+  category: ap-scores
+  type: tool
+  short_name: AP US Gov Calculator
+
+- url: /ap-world-history-score-calculator
+  title: AP World History Score Calculator | AP World Modern Curve
+  category: ap-scores
+  type: tool
+  short_name: AP World History Calculator
+
+- url: /ap-human-geography-score-calculator
+  title: AP Human Geography Score Calculator | Estimate AP Grade
+  category: ap-scores
+  type: tool
+  short_name: AP Human Geography Calculator
+
+- url: /ap-statistics-score-calculator
+  title: AP Statistics Score Calculator | Predict Your AP Stat Score
+  category: ap-scores
+  type: tool
+  short_name: AP Statistics Calculator
+
+- url: /ap-physics-1-score-calculator
+  title: AP Physics 1 Score Calculator | AP Physics Grade Estimator
+  category: ap-scores
+  type: tool
+  short_name: AP Physics 1 Calculator
+
+- url: /ap-environmental-science-score-calculator
+  title: AP Environmental Science Score Calculator | AP APES Curve
+  category: ap-scores
+  type: tool
+  short_name: AP Env Science Calculator
+
+- url: /ap-computer-science-a-score-calculator
+  title: AP Computer Science A Score Calculator | AP CS A Estimator
+  category: ap-scores
+  type: tool
+  short_name: AP CS A Calculator
+
+- url: /ap-computer-science-principles-score-calculator
+  title: AP Computer Science Principles Score Calculator | AP CSP
+  category: ap-scores
+  type: tool
+  short_name: AP CSP Calculator
+
+- url: /ap-microeconomics-score-calculator
+  title: AP Microeconomics Score Calculator | Estimate AP Micro Grade
+  category: ap-scores
+  type: tool
+  short_name: AP Microeconomics Calculator
+
+- url: /ap-macroeconomics-score-calculator
+  title: AP Macroeconomics Score Calculator | Estimate AP Macro Grade
+  category: ap-scores
+  type: tool
+  short_name: AP Macroeconomics Calculator
+

@@ -192,3 +192,24 @@ saas-team-operations:
   parent_url: /saas#saas-team-operations
   shortName: Team & Operations
 
+education:
+  parent: Education
+  parent_url: /education
+  shortName: Education
+
+college-savings:
+  parent: College Savings & Planning
+  parent_url: /education#college-savings
+  shortName: College Savings
+
+student-loans:
+  parent: Student Loans & Debt
+  parent_url: /education#student-loans
+  shortName: Student Loans
+
+ap-scores:
+  parent: AP Scores
+  parent_url: /education#ap-scores
+  shortName: AP Scores
+
+

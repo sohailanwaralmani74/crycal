@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "Wanjaaro | 500+ Free Calculators for Finance, Construction, Auto & SaaS"
-description: Explore 500+ free, browser-based calculators across Finance, Construction, Automotive, and SaaS. 100% private, client-side math, no signup required.
+title: "Wanjaaro | 500+ Free Calculators for Finance, Construction, Auto, SaaS & Education"
+description: Explore 500+ free, browser-based calculators across Finance, Construction, Automotive, SaaS, and Education (AP Scores, College Savings, Student Loans). 100% private, client-side math, no signup required.
 is_homepage: true
 permalink: /
-keywords: free online calculators, private browser calculators, financial calculators no signup, construction material estimator, car loan calculator, saas unit economics calculator, mrr calculator, concrete yardage calculator, mortgage calculator, auto loan payoff calculator
+keywords: free online calculators, private browser calculators, ap score calculator, apush score calculator, financial calculators no signup, construction material estimator, car loan calculator, saas unit economics calculator, mrr calculator, concrete yardage calculator, mortgage calculator, auto loan payoff calculator
 ---
 
 <!-- ============================================================ -->
@@ -42,9 +42,9 @@ keywords: free online calculators, private browser calculators, financial calcul
     "price": "0",
     "priceCurrency": "USD"
   },
-  "description": "Comprehensive suite of 500+ online calculators spanning Personal Finance, Heavy Construction & Building Materials, Automotive Ownership & EVs, and SaaS Unit Economics. All calculations execute client-side inside the user's browser with no server data logging.",
+  "description": "Comprehensive suite of 500+ online calculators spanning Personal Finance, Heavy Construction & Building Materials, Automotive Ownership & EVs, SaaS Unit Economics, and Academic Education & AP Exam Scores. All calculations execute client-side inside the user's browser with no server data logging.",
   "featureList": [
-    "500+ specialized calculators across 36 subcategories",
+    "500+ specialized calculators across 39 subcategories",
     "100% client-side local browser calculation execution",
     "No user registration or account creation required",
     "Real-time live recalculation on input changes",
@@ -88,7 +88,7 @@ keywords: free online calculators, private browser calculators, financial calcul
       "name": "What is Wanjaaro?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Wanjaaro is a free, browser-based multi-disciplinary calculator ecosystem. It hosts 500+ interactive calculators across four master hubs: Personal & Business Finance, Construction & Building Materials, Automotive & Vehicle Economics, and SaaS & Subscription Metrics."
+        "text": "Wanjaaro is a free, browser-based multi-disciplinary calculator ecosystem. It hosts 500+ interactive calculators across five master hubs: Personal & Business Finance, Construction & Building Materials, Automotive & Vehicle Economics, SaaS & Subscription Metrics, and Education & AP Exam Scores."
       }
     },
     {
@@ -112,7 +112,7 @@ keywords: free online calculators, private browser calculators, financial calcul
       "name": "What master categories and industries does Wanjaaro cover?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Wanjaaro covers four master hubs: Personal Finance (Growth, Retirement, Mortgages, Debt, Taxes, Insurance, Budgeting, Investing), Construction & Building (Concrete, Framing, Roofing, Flooring, Drywall, HVAC, Landscaping, Electrical, Plumbing, Windows/Doors), Automotive (Car Loans, TCO, Fuel, EVs, Performance, Tires, Trip Planning, Repairs), and SaaS Business (Pricing, Unit Economics, MRR/ARR, Churn, Sales Funnel, Fundraising, Marketing ROI, Operations)."
+        "text": "Wanjaaro covers five master hubs: Personal Finance (Growth, Retirement, Mortgages, Debt, Taxes, Insurance, Budgeting, Investing), Construction & Building (Concrete, Framing, Roofing, Flooring, Drywall, HVAC, Landscaping, Electrical, Plumbing, Windows/Doors), Automotive (Car Loans, TCO, Fuel, EVs, Performance, Tires, Trip Planning, Repairs), SaaS Business (Pricing, Unit Economics, MRR/ARR, Churn, Sales Funnel, Fundraising, Marketing ROI, Operations), and Education (AP Exam Scores, College Savings & 529 Planning, Student Loans)."
       }
     },
     {
@@ -142,7 +142,7 @@ keywords: free online calculators, private browser calculators, financial calcul
 <section class="hero-section">
   <h1>500+ Free Online Calculators — Instant, Accurate &amp; 100% Private</h1>
   <p>
-    Welcome to <strong>Wanjaaro</strong>, the ultimate multi-disciplinary calculation engine. Access over <strong>500 specialized calculators</strong> across Personal Finance, Heavy Construction, Automotive Economics, and SaaS Business Metrics. Every calculation runs locally in your browser—no signup, no email required, and zero server data tracking.
+    Welcome to <strong>Wanjaaro</strong>, the ultimate multi-disciplinary calculation engine. Access over <strong>500 specialized calculators</strong> across Personal Finance, Heavy Construction, Automotive Economics, SaaS Business Metrics, and Education &amp; AP Exam Curves. Every calculation runs locally in your browser—no signup, no email required, and zero server data tracking.
   </p>
   
   <div class="hero-cta">
@@ -150,6 +150,7 @@ keywords: free online calculators, private browser calculators, financial calcul
     <a href="/construction" class="btn-secondary">Explore Construction Hub</a>
     <a href="/automotive" class="btn-secondary">Explore Automotive Hub</a>
     <a href="/saas" class="btn-secondary">Explore SaaS Hub</a>
+    <a href="/education" class="btn-secondary">Explore Education Hub</a>
   </div>
   
   <!-- Platform Trust Stats Badges -->
@@ -159,11 +160,11 @@ keywords: free online calculators, private browser calculators, financial calcul
       <span class="stat-label">Free Online Calculators</span>
     </div>
     <div class="stat-card">
-      <span class="stat-number">4</span>
+      <span class="stat-number">5</span>
       <span class="stat-label">Master Industry Hubs</span>
     </div>
     <div class="stat-card">
-      <span class="stat-number">36</span>
+      <span class="stat-number">39</span>
       <span class="stat-label">Specialized Categories</span>
     </div>
     <div class="stat-card">
@@ -289,6 +290,32 @@ keywords: free online calculators, private browser calculators, financial calcul
       </div>
     </div>
 
+    <!-- 5. EDUCATION HUB -->
+    <div class="cat-section-card">
+      <div class="cat-header">
+        <div class="cat-header-title">
+          <span class="cat-icon">🎓</span>
+          <h2><a href="/education">Education &amp; College Hub</a></h2>
+          <span class="tool-count-badge">21+ Calculators</span>
+        </div>
+        <a href="/education" class="cat-view-link">View Master Education Hub &rarr;</a>
+      </div>
+      <p class="cat-description">
+        Comprehensive academic and higher education tools—estimate official AP exam scores (APUSH, AP Bio, AP Chem, AP Calc, AP Psych), project 4-year college tuition with inflation, calculate tax-free 529 savings growth, and model student loan payoff strategies.
+      </p>
+      <div class="cat-tool-grid">
+        <a href="/apush-score-calculator" class="cat-tool-item"><span class="tool-name">APUSH Score Calculator</span><span class="tool-arrow">&rarr;</span></a>
+        <a href="/ap-biology-score-calculator" class="cat-tool-item"><span class="tool-name">AP Biology Score Calculator</span><span class="tool-arrow">&rarr;</span></a>
+        <a href="/ap-calculus-ab-score-calculator" class="cat-tool-item"><span class="tool-name">AP Calculus AB Calculator</span><span class="tool-arrow">&rarr;</span></a>
+        <a href="/college-cost-calculator" class="cat-tool-item"><span class="tool-name">College Cost Calculator</span><span class="tool-arrow">&rarr;</span></a>
+        <a href="/529-plan-growth-calculator" class="cat-tool-item"><span class="tool-name">529 Plan Growth Calculator</span><span class="tool-arrow">&rarr;</span></a>
+        <a href="/student-loan-payoff-calculator" class="cat-tool-item"><span class="tool-name">Student Loan Payoff</span><span class="tool-arrow">&rarr;</span></a>
+      </div>
+      <div class="cat-card-footer">
+        <a href="/education" class="cat-view-all-btn">Browse All 21+ Education Tools &rarr;</a>
+      </div>
+    </div>
+
   </div>
 </section>
 
@@ -388,12 +415,13 @@ keywords: free online calculators, private browser calculators, financial calcul
 <section class="content-section final-cta">
   <h2>Start Running Your Numbers Now</h2>
   <p>
-    Explore 500+ free, instant, and private online calculators across Finance, Construction, Automotive, and SaaS.
+    Explore 500+ free, instant, and private online calculators across Finance, Construction, Automotive, SaaS, and Education.
   </p>
   <p class="cta-buttons">
     <a href="/finance" class="btn-primary">Finance Calculators</a>
     <a href="/construction" class="btn-secondary">Construction Calculators</a>
     <a href="/automotive" class="btn-secondary">Automotive Calculators</a>
     <a href="/saas" class="btn-secondary">SaaS Calculators</a>
+    <a href="/education" class="btn-secondary">Education Calculators</a>
   </p>
 </section>
