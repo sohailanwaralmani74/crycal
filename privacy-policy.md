@@ -3,6 +3,7 @@ layout: default
 title: Privacy Policy — Wanjaaro Financial Calculators
 description: Wanjaaro does not collect, store, or share your personal or financial data. All calculations run locally in your browser. Read our full privacy policy.
 permalink: /privacy-policy
+is_homepage: true
 ---
 
 # Privacy Policy – Wanjaaro Financial Calculators
