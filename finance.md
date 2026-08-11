@@ -57,7 +57,7 @@ is_homepage: true
       <div class="cat-tool-grid">
         {% for tool in growth_tools limit: 6 %}
           <a href="{{ tool.url }}" class="cat-tool-item">
-            <span class="tool-name">{{ tool.title }}</span>
+            <span class="tool-name">{{ tool.short_name | default: tool.title }}</span>
             <span class="tool-arrow">&rarr;</span>
           </a>
         {% endfor %}
@@ -84,7 +84,7 @@ is_homepage: true
       <div class="cat-tool-grid">
         {% for tool in retirement_tools limit: 6 %}
           <a href="{{ tool.url }}" class="cat-tool-item">
-            <span class="tool-name">{{ tool.title }}</span>
+            <span class="tool-name">{{ tool.short_name | default: tool.title }}</span>
             <span class="tool-arrow">&rarr;</span>
           </a>
         {% endfor %}
@@ -111,7 +111,7 @@ is_homepage: true
       <div class="cat-tool-grid">
         {% for tool in mortgage_tools limit: 6 %}
           <a href="{{ tool.url }}" class="cat-tool-item">
-            <span class="tool-name">{{ tool.title }}</span>
+            <span class="tool-name">{{ tool.short_name | default: tool.title }}</span>
             <span class="tool-arrow">&rarr;</span>
           </a>
         {% endfor %}
@@ -138,7 +138,7 @@ is_homepage: true
       <div class="cat-tool-grid">
         {% for tool in debt_tools limit: 6 %}
           <a href="{{ tool.url }}" class="cat-tool-item">
-            <span class="tool-name">{{ tool.title }}</span>
+            <span class="tool-name">{{ tool.short_name | default: tool.title }}</span>
             <span class="tool-arrow">&rarr;</span>
           </a>
         {% endfor %}
@@ -165,7 +165,7 @@ is_homepage: true
       <div class="cat-tool-grid">
         {% for tool in insurance_tools limit: 6 %}
           <a href="{{ tool.url }}" class="cat-tool-item">
-            <span class="tool-name">{{ tool.title }}</span>
+            <span class="tool-name">{{ tool.short_name | default: tool.title }}</span>
             <span class="tool-arrow">&rarr;</span>
           </a>
         {% endfor %}
@@ -192,7 +192,7 @@ is_homepage: true
       <div class="cat-tool-grid">
         {% for tool in tax_tools limit: 6 %}
           <a href="{{ tool.url }}" class="cat-tool-item">
-            <span class="tool-name">{{ tool.title }}</span>
+            <span class="tool-name">{{ tool.short_name | default: tool.title }}</span>
             <span class="tool-arrow">&rarr;</span>
           </a>
         {% endfor %}
@@ -219,7 +219,7 @@ is_homepage: true
       <div class="cat-tool-grid">
         {% for tool in budgeting_tools limit: 6 %}
           <a href="{{ tool.url }}" class="cat-tool-item">
-            <span class="tool-name">{{ tool.title }}</span>
+            <span class="tool-name">{{ tool.short_name | default: tool.title }}</span>
             <span class="tool-arrow">&rarr;</span>
           </a>
         {% endfor %}
@@ -246,7 +246,7 @@ is_homepage: true
       <div class="cat-tool-grid">
         {% for tool in investing_tools limit: 6 %}
           <a href="{{ tool.url }}" class="cat-tool-item">
-            <span class="tool-name">{{ tool.title }}</span>
+            <span class="tool-name">{{ tool.short_name | default: tool.title }}</span>
             <span class="tool-arrow">&rarr;</span>
           </a>
         {% endfor %}

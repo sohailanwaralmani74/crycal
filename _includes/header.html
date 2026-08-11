@@ -114,38 +114,52 @@
     <nav class="desktop-nav" role="navigation" aria-label="Main navigation">
       <ul class="nav-list">
 
-        <!-- Master Category: Finance -->
+        <!-- Master Categories: Finance Subcategories -->
         <li class="nav-item">
-          <a href="/finance" class="nav-link">
-            <span>Finance</span>
+          <a href="/growth" class="nav-link">
+            <span>Growth</span>
           </a>
         </li>
 
-        <!-- Master Category: Construction -->
         <li class="nav-item">
-          <a href="/construction" class="nav-link">
-            <span>Construction</span>
+          <a href="/retirement" class="nav-link">
+            <span>Retirement</span>
           </a>
         </li>
 
-        <!-- Master Category: Automotive -->
         <li class="nav-item">
-          <a href="/automotive" class="nav-link">
-            <span>Automotive</span>
+          <a href="/mortgage" class="nav-link">
+            <span>Mortgage</span>
           </a>
         </li>
 
-        <!-- Master Category: SaaS -->
         <li class="nav-item">
-          <a href="/saas" class="nav-link">
-            <span>SaaS</span>
+          <a href="/debt" class="nav-link">
+            <span>Debt</span>
           </a>
         </li>
 
-        <!-- Master Category: Education -->
         <li class="nav-item">
-          <a href="/education" class="nav-link">
-            <span>Education</span>
+          <a href="/insurance" class="nav-link">
+            <span>Insurance</span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="/tax" class="nav-link">
+            <span>Tax</span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="/budgeting" class="nav-link">
+            <span>Budgeting</span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="/investing" class="nav-link">
+            <span>Investing</span>
           </a>
         </li>
       </ul>
@@ -158,7 +172,7 @@
           <circle cx="11" cy="11" r="8"></circle>
           <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
         </svg>
-        <input type="text" id="headerSearchInput" class="header-search-input" placeholder="Search 590+ calculators..." aria-label="Search calculators" autocomplete="off" />
+        <input type="text" id="headerSearchInput" class="header-search-input" placeholder="Search 170+ finance calculators..." aria-label="Search calculators" autocomplete="off" />
         <button type="button" id="headerSearchClear" class="search-clear-btn" aria-label="Clear search" style="display: none;">&times;</button>
       </div>
       <div id="headerSearchResults" class="header-search-results" style="display: none;" role="listbox"></div>
@@ -185,94 +199,22 @@
           <circle cx="11" cy="11" r="8"></circle>
           <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
         </svg>
-        <input type="text" id="mobileSearchInput" class="header-search-input" placeholder="Search 590+ calculators..." aria-label="Search calculators" autocomplete="off" />
+        <input type="text" id="mobileSearchInput" class="header-search-input" placeholder="Search 170+ finance calculators..." aria-label="Search calculators" autocomplete="off" />
         <button type="button" id="mobileSearchClear" class="search-clear-btn" aria-label="Clear search" style="display: none;">&times;</button>
       </div>
       <div id="mobileSearchResults" class="header-search-results" style="display: none;" role="listbox"></div>
     </div>
 
     <ul class="mobile-nav-list">
-
-      <!-- Finance Category & Subcategories -->
-      <li class="mobile-accordion">
-        <button class="mobile-accordion-trigger" aria-expanded="false">Finance</button>
-        <ul class="mobile-sub-nav">
-          <li><a href="/finance"><strong>All Finance Calculators</strong></a></li>
-          <li><a href="/growth">Growth &amp; Savings</a></li>
-          <li><a href="/retirement">Retirement Planning</a></li>
-          <li><a href="/mortgage">Mortgage &amp; Real Estate</a></li>
-          <li><a href="/debt">Debt &amp; Loans</a></li>
-          <li><a href="/insurance">Insurance &amp; Protection</a></li>
-          <li><a href="/tax">Tax Calculators</a></li>
-          <li><a href="/budgeting">Budgeting &amp; Income</a></li>
-          <li><a href="/investing">Investing &amp; Trading</a></li>
-        </ul>
-      </li>
-
-      <!-- Construction Category & Subcategories -->
-      <li class="mobile-accordion">
-        <button class="mobile-accordion-trigger" aria-expanded="false">Construction</button>
-        <ul class="mobile-sub-nav">
-          <li><a href="/construction"><strong>All Construction Calculators</strong></a></li>
-          <li><a href="/concrete-masonry">Concrete &amp; Masonry</a></li>
-          <li><a href="/lumber-framing">Lumber &amp; Framing</a></li>
-          <li><a href="/roofing">Roofing</a></li>
-          <li><a href="/flooring">Flooring</a></li>
-          <li><a href="/drywall-paint">Drywall &amp; Paint</a></li>
-          <li><a href="/insulation-hvac">Insulation &amp; HVAC</a></li>
-          <li><a href="/landscaping-outdoor">Landscaping &amp; Outdoor</a></li>
-          <li><a href="/home-decor-interior">Home Decor &amp; Interior</a></li>
-          <li><a href="/project-cost-planning">Project Cost &amp; Planning</a></li>
-          <li><a href="/electrical">Electrical</a></li>
-          <li><a href="/plumbing">Plumbing</a></li>
-          <li><a href="/windows-doors">Windows &amp; Doors</a></li>
-        </ul>
-      </li>
-
-      <!-- Automotive Category & Subcategories -->
-      <li class="mobile-accordion">
-        <button class="mobile-accordion-trigger" aria-expanded="false">Automotive</button>
-        <ul class="mobile-sub-nav">
-          <li><a href="/automotive"><strong>All Automotive Calculators</strong></a></li>
-          <li><a href="/auto-loan-financing">Loan &amp; Financing</a></li>
-          <li><a href="/auto-cost-ownership">Cost of Ownership</a></li>
-          <li><a href="/auto-fuel-efficiency">Fuel &amp; Efficiency</a></li>
-          <li><a href="/electric-vehicle-ev">Electric Vehicle (EV)</a></li>
-          <li><a href="/auto-performance-specs">Performance &amp; Specs</a></li>
-          <li><a href="/auto-tires-wheels">Tires &amp; Wheels</a></li>
-          <li><a href="/auto-driving-trip-planning">Driving &amp; Trip Planning</a></li>
-          <li><a href="/auto-maintenance-repair">Maintenance &amp; Repair</a></li>
-        </ul>
-      </li>
-
-      <!-- SaaS Category & Subcategories -->
-      <li class="mobile-accordion">
-        <button class="mobile-accordion-trigger" aria-expanded="false">SaaS</button>
-        <ul class="mobile-sub-nav">
-          <li><a href="/saas"><strong>All SaaS Calculators</strong></a></li>
-          <li><a href="/saas-pricing-packaging">Pricing &amp; Packaging</a></li>
-          <li><a href="/saas-unit-economics">Unit Economics</a></li>
-          <li><a href="/saas-revenue-growth-metrics">Revenue &amp; Growth Metrics</a></li>
-          <li><a href="/saas-churn-retention">Churn &amp; Retention</a></li>
-          <li><a href="/saas-sales-funnel">Sales &amp; Funnel</a></li>
-          <li><a href="/saas-fundraising-valuation">Fundraising &amp; Valuation</a></li>
-          <li><a href="/saas-marketing-ads">Marketing &amp; Ads</a></li>
-          <li><a href="/saas-team-operations">Team &amp; Operations</a></li>
-        </ul>
-      </li>
-
-      <!-- Education Category & Subcategories -->
-      <li class="mobile-accordion">
-        <button class="mobile-accordion-trigger" aria-expanded="false">Education</button>
-        <ul class="mobile-sub-nav">
-          <li><a href="/education"><strong>All Education Calculators</strong></a></li>
-          <li><a href="/education#ap-scores">AP Scores &amp; Exam Curves</a></li>
-          <li><a href="/college-cost-calculator">College Cost Calculator</a></li>
-          <li><a href="/529-plan-growth-calculator">529 Plan Growth</a></li>
-          <li><a href="/student-loan-payoff-calculator">Student Loan Payoff</a></li>
-        </ul>
-      </li>
-
+      <li><a href="/finance"><strong>All Finance Calculators</strong></a></li>
+      <li><a href="/growth">Growth &amp; Savings</a></li>
+      <li><a href="/retirement">Retirement Planning</a></li>
+      <li><a href="/mortgage">Mortgage &amp; Real Estate</a></li>
+      <li><a href="/debt">Debt &amp; Loans</a></li>
+      <li><a href="/insurance">Insurance &amp; Protection</a></li>
+      <li><a href="/tax">Tax Calculators</a></li>
+      <li><a href="/budgeting">Budgeting &amp; Income</a></li>
+      <li><a href="/investing">Investing &amp; Trading</a></li>
     </ul>
   </nav>
   <div class="overlay" id="overlay"></div>

@@ -18,7 +18,7 @@ All our calculators run entirely in your browser. Your income, balances, and fin
 
 ## What We Offer
 
-Wanjaaro provides **58 unique financial calculators**, grouped into eight categories:
+Wanjaaro provides **170+ unique financial calculators**, grouped into eight master categories:
 
 - **Growth**: Savings and investment tools including Compound Interest, Simple Interest, Savings Goal, High Yield Savings, Rule of 72, Dividend Reinvestment, Dollar Cost Averaging, and Investment calculators.
 - **Retirement**: Long-term planning calculators for 401(k), IRA, Roth IRA, retirement withdrawal rates, and FIRE.

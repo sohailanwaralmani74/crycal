@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "Wanjaaro | 500+ Free Calculators for Finance, Construction, Auto, SaaS & Education"
-description: Explore 500+ free, browser-based calculators across Finance, Construction, Automotive, SaaS, and Education (AP Scores, College Savings, Student Loans). 100% private, client-side math, no signup required.
+title: "Wanjaaro | 170+ Free Online Financial Calculators"
+description: Explore 170+ free, browser-based financial calculators across Growth, Retirement, Mortgages, Debt, Insurance, Taxes, Budgeting, and Investing. 100% private, client-side math, no signup required.
 is_homepage: true
 permalink: /
-keywords: free online calculators, private browser calculators, ap score calculator, apush score calculator, financial calculators no signup, construction material estimator, car loan calculator, saas unit economics calculator, mrr calculator, concrete yardage calculator, mortgage calculator, auto loan payoff calculator
+keywords: free financial calculators, private browser calculators, compound interest calculator, mortgage calculator, debt payoff calculator, tax bracket calculator, retirement calculator, investment calculator
 ---
 
 <!-- ============================================================ -->
@@ -15,11 +15,11 @@ keywords: free online calculators, private browser calculators, ap score calcula
   "@context": "https://schema.org",
   "@type": "WebSite",
   "name": "Wanjaaro",
-  "url": "https://Wanjaaro.com/",
-  "description": "500+ free, browser-based calculators across Finance, Construction, Automotive, and SaaS. 100% client-side calculation engine with zero data tracking.",
+  "url": "https://wanjaaro.com/",
+  "description": "170+ free, browser-based financial calculators across Growth, Retirement, Mortgages, Debt, Insurance, Taxes, Budgeting, and Investing. 100% client-side calculation engine with zero data tracking.",
   "potentialAction": {
     "@type": "SearchAction",
-    "target": "https://Wanjaaro.com/sitemap?q={search_term_string}",
+    "target": "https://wanjaaro.com/sitemap?q={search_term_string}",
     "query-input": "required name=search_term_string"
   }
 }
@@ -32,9 +32,9 @@ keywords: free online calculators, private browser calculators, ap score calcula
 {
   "@context": "https://schema.org",
   "@type": "WebApplication",
-  "name": "Wanjaaro Calculator Engine",
-  "url": "https://Wanjaaro.com/",
-  "applicationCategory": "UtilitiesApplication",
+  "name": "Wanjaaro Financial Calculator Engine",
+  "url": "https://wanjaaro.com/",
+  "applicationCategory": "FinanceApplication",
   "operatingSystem": "All modern Web Browsers (Desktop, Tablet, Mobile)",
   "browserRequirements": "Requires JavaScript enabled",
   "offers": {
@@ -42,9 +42,9 @@ keywords: free online calculators, private browser calculators, ap score calcula
     "price": "0",
     "priceCurrency": "USD"
   },
-  "description": "Comprehensive suite of 500+ online calculators spanning Personal Finance, Heavy Construction & Building Materials, Automotive Ownership & EVs, SaaS Unit Economics, and Academic Education & AP Exam Scores. All calculations execute client-side inside the user's browser with no server data logging.",
+  "description": "Comprehensive suite of 170+ online financial calculators spanning Growth, Retirement Planning, Mortgages & Real Estate, Debt & Loans, Insurance & Protection, Tax Calculators, Budgeting & Income, and Investing & Trading. All calculations execute client-side inside the user's browser with no server data logging.",
   "featureList": [
-    "500+ specialized calculators across 39 subcategories",
+    "170+ specialized financial calculators across 8 master categories",
     "100% client-side local browser calculation execution",
     "No user registration or account creation required",
     "Real-time live recalculation on input changes",
@@ -65,7 +65,7 @@ keywords: free online calculators, private browser calculators, ap score calcula
   "@context": "https://schema.org",
   "@type": "Person",
   "name": "Sohail Anwar",
-  "url": "https://Wanjaaro.com/about-us",
+  "url": "https://wanjaaro.com/about-us",
   "jobTitle": "Lead Software Engineer & Platform Architect",
   "sameAs": [
     "https://www.linkedin.com/in/sohail-anwar-a63063162",
@@ -88,7 +88,7 @@ keywords: free online calculators, private browser calculators, ap score calcula
       "name": "What is Wanjaaro?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Wanjaaro is a free, browser-based multi-disciplinary calculator ecosystem. It hosts 500+ interactive calculators across five master hubs: Personal & Business Finance, Construction & Building Materials, Automotive & Vehicle Economics, SaaS & Subscription Metrics, and Education & AP Exam Scores."
+        "text": "Wanjaaro is a free, browser-based financial calculator ecosystem. It hosts 170+ interactive calculators across eight master financial categories: Growth & Savings, Retirement Planning, Mortgage & Real Estate, Debt & Loans, Insurance & Protection, Tax Calculators, Budgeting & Income, and Investing & Trading."
       }
     },
     {
@@ -96,7 +96,7 @@ keywords: free online calculators, private browser calculators, ap score calcula
       "name": "How does Wanjaaro protect user data privacy?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Wanjaaro operates on a 100% client-side architecture. Every mathematical calculation, chart generation, and data log executes locally inside your web browser. No personal inputs, loan balances, salary figures, or project measurements are ever uploaded, saved to a database, or transmitted to any external server."
+        "text": "Wanjaaro operates on a 100% client-side architecture. Every mathematical calculation, chart generation, and data log executes locally inside your web browser. No personal inputs, loan balances, salary figures, or investment details are ever uploaded, saved to a database, or transmitted to any external server."
       }
     },
     {
@@ -104,15 +104,15 @@ keywords: free online calculators, private browser calculators, ap score calcula
       "name": "Do I need to sign up or create an account to use Wanjaaro calculators?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. All 500+ calculators on Wanjaaro are completely free and accessible without registration, email submission, or subscription fees."
+        "text": "No. All 170+ financial calculators on Wanjaaro are completely free and accessible without registration, email submission, or subscription fees."
       }
     },
     {
       "@type": "Question",
-      "name": "What master categories and industries does Wanjaaro cover?",
+      "name": "What master financial categories does Wanjaaro cover?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Wanjaaro covers five master hubs: Personal Finance (Growth, Retirement, Mortgages, Debt, Taxes, Insurance, Budgeting, Investing), Construction & Building (Concrete, Framing, Roofing, Flooring, Drywall, HVAC, Landscaping, Electrical, Plumbing, Windows/Doors), Automotive (Car Loans, TCO, Fuel, EVs, Performance, Tires, Trip Planning, Repairs), SaaS Business (Pricing, Unit Economics, MRR/ARR, Churn, Sales Funnel, Fundraising, Marketing ROI, Operations), and Education (AP Exam Scores, College Savings & 529 Planning, Student Loans)."
+        "text": "Wanjaaro covers eight master categories: Growth & Savings, Retirement Planning, Mortgage & Real Estate, Debt & Loans, Insurance & Protection, Tax Calculators, Budgeting & Income, and Investing & Trading."
       }
     },
     {
@@ -120,7 +120,7 @@ keywords: free online calculators, private browser calculators, ap score calcula
       "name": "How accurate are the mathematical formulas on Wanjaaro?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Wanjaaro tools use standard industry financial compound interest formulas, building code volume calculations, ASTM material density constants, physics equations, and ASC 606 revenue recognition standards. Every calculator displays its exact mathematical formula, step-by-step guidance, and real-world benchmark tables."
+        "text": "Wanjaaro tools use standard industry financial compound interest formulas, amortization schedules, tax bracket rate structures, and investment risk algorithms. Every calculator displays its exact mathematical formula, step-by-step guidance, and breakdown tables."
       }
     },
     {
@@ -140,32 +140,35 @@ keywords: free online calculators, private browser calculators, ap score calcula
 <!-- ============================================================ -->
 
 <section class="hero-section">
-  <h1>500+ Free Online Calculators — Instant, Accurate &amp; 100% Private</h1>
+  <h1>170+ Free Online Financial Calculators — Instant, Accurate &amp; 100% Private</h1>
   <p>
-    Welcome to <strong>Wanjaaro</strong>, the ultimate multi-disciplinary calculation engine. Access over <strong>500 specialized calculators</strong> across Personal Finance, Heavy Construction, Automotive Economics, SaaS Business Metrics, and Education &amp; AP Exam Curves. Every calculation runs locally in your browser—no signup, no email required, and zero server data tracking.
+    Welcome to <strong>Wanjaaro</strong>, your premier financial calculation engine. Access over <strong>170 specialized calculators</strong> across Growth, Retirement, Mortgages, Debt, Insurance, Taxes, Budgeting, and Investing. Every calculation runs locally in your browser—no signup, no email required, and zero server data tracking.
   </p>
   
   <div class="hero-cta">
-    <a href="/finance" class="btn-primary">Explore Finance Hub</a>
-    <a href="/construction" class="btn-secondary">Explore Construction Hub</a>
-    <a href="/automotive" class="btn-secondary">Explore Automotive Hub</a>
-    <a href="/saas" class="btn-secondary">Explore SaaS Hub</a>
-    <a href="/education" class="btn-secondary">Explore Education Hub</a>
+    <a href="/growth" class="btn-primary">Growth &amp; Savings</a>
+    <a href="/retirement" class="btn-secondary">Retirement Planning</a>
+    <a href="/mortgage" class="btn-secondary">Mortgage &amp; Real Estate</a>
+    <a href="/debt" class="btn-secondary">Debt &amp; Loans</a>
+    <a href="/insurance" class="btn-secondary">Insurance &amp; Protection</a>
+    <a href="/tax" class="btn-secondary">Tax Calculators</a>
+    <a href="/budgeting" class="btn-secondary">Budgeting &amp; Income</a>
+    <a href="/investing" class="btn-secondary">Investing &amp; Trading</a>
   </div>
   
   <!-- Platform Trust Stats Badges -->
   <div class="finance-stats-grid">
     <div class="stat-card">
-      <span class="stat-number">500+</span>
-      <span class="stat-label">Free Online Calculators</span>
+      <span class="stat-number">170+</span>
+      <span class="stat-label">Free Financial Calculators</span>
     </div>
     <div class="stat-card">
-      <span class="stat-number">5</span>
-      <span class="stat-label">Master Industry Hubs</span>
+      <span class="stat-number">8</span>
+      <span class="stat-label">Master Finance Categories</span>
     </div>
     <div class="stat-card">
-      <span class="stat-number">39</span>
-      <span class="stat-label">Specialized Categories</span>
+      <span class="stat-number">170+</span>
+      <span class="stat-label">World Currencies</span>
     </div>
     <div class="stat-card">
       <span class="stat-number">100%</span>
@@ -179,140 +182,226 @@ keywords: free online calculators, private browser calculators, ap score calcula
 <!-- ============================================================ -->
 
 <section class="content-section categories-section">
-  <h2>Explore Our Master Calculator Hubs</h2>
+  <h2>Explore Our Master Financial Categories</h2>
   <p>
-    Whether you are balancing a family budget, estimating materials for a commercial construction site, calculating vehicle depreciation, or auditing SaaS subscription unit economics, Wanjaaro provides dedicated tools built to exact industry standards.
+    Whether you are building a compound growth trajectory, planning retirement, estimating home mortgage payments, optimizing debt paydown, or sizing investment positions, Wanjaaro provides dedicated financial tools built to exact industry standards.
   </p>
 
   <div class="finance-categories-list">
     
-    <!-- 1. FINANCE HUB -->
+    <!-- 1. Growth & Savings -->
+    {% assign growth_tools = site.data.tools | where: "category", "growth" %}
     <div class="cat-section-card">
       <div class="cat-header">
         <div class="cat-header-title">
-          <span class="cat-icon">💰</span>
-          <h2><a href="/finance">Finance &amp; Investment Hub</a></h2>
-          <span class="tool-count-badge">169 Calculators</span>
+          <span class="cat-icon">📈</span>
+          <h2><a href="/growth">Growth &amp; Savings</a></h2>
+          <span class="tool-count-badge">{{ growth_tools | size }} Calculators</span>
         </div>
-        <a href="/finance" class="cat-view-link">View Master Finance Hub &rarr;</a>
+        <a href="/growth" class="cat-view-link">View All Growth Tools &rarr;</a>
       </div>
       <p class="cat-description">
-        Comprehensive financial planning tools covering compound interest, retirement trajectories (401k/IRA/FIRE), mortgage payments, debt payoff (snowball/avalanche), tax brackets, income tax, budgeting, and active trading risk management.
+        Calculate compound interest, CAGR, savings goals, T-Bill yields, fixed deposits, CD penalties, and inflation impact over time.
       </p>
       <div class="cat-tool-grid">
-        <a href="/compound-interest-calculator" class="cat-tool-item"><span class="tool-name">Compound Interest Calculator</span><span class="tool-arrow">&rarr;</span></a>
-        <a href="/mortgage-payoff-calculator" class="cat-tool-item"><span class="tool-name">Mortgage Payoff Calculator</span><span class="tool-arrow">&rarr;</span></a>
-        <a href="/debt-snowball-calculator" class="cat-tool-item"><span class="tool-name">Debt Snowball Calculator</span><span class="tool-arrow">&rarr;</span></a>
-        <a href="/tax-bracket-calculator" class="cat-tool-item"><span class="tool-name">Tax Bracket Calculator</span><span class="tool-arrow">&rarr;</span></a>
-        <a href="/4-percent-rule-calculator" class="cat-tool-item"><span class="tool-name">4% Rule FIRE Calculator</span><span class="tool-arrow">&rarr;</span></a>
-        <a href="/position-size-calculator" class="cat-tool-item"><span class="tool-name">Position Size Calculator</span><span class="tool-arrow">&rarr;</span></a>
+        {% for tool in growth_tools limit: 6 %}
+          <a href="{{ tool.url }}" class="cat-tool-item">
+            <span class="tool-name">{{ tool.short_name | default: tool.title }}</span>
+            <span class="tool-arrow">&rarr;</span>
+          </a>
+        {% endfor %}
       </div>
       <div class="cat-card-footer">
-        <a href="/finance" class="cat-view-all-btn">Browse All 169 Personal Finance Tools &rarr;</a>
+        <a href="/growth" class="cat-view-all-btn">View All {{ growth_tools | size }} Growth Tools &rarr;</a>
       </div>
     </div>
 
-    <!-- 2. CONSTRUCTION & BUILDING HUB -->
+    <!-- 2. Retirement Planning -->
+    {% assign retirement_tools = site.data.tools | where: "category", "retirement" %}
     <div class="cat-section-card">
       <div class="cat-header">
         <div class="cat-header-title">
-          <span class="cat-icon">🧱</span>
-          <h2><a href="/construction">Construction &amp; Building Hub</a></h2>
-          <span class="tool-count-badge">145 Calculators</span>
+          <span class="cat-icon">🏖️</span>
+          <h2><a href="/retirement">Retirement Planning</a></h2>
+          <span class="tool-count-badge">{{ retirement_tools | size }} Calculators</span>
         </div>
-        <a href="/construction" class="cat-view-link">View Master Construction Hub &rarr;</a>
+        <a href="/retirement" class="cat-view-link">View All Retirement Tools &rarr;</a>
       </div>
       <p class="cat-description">
-        Estimating tools for contractors, builders, trade specialists, and DIY home renovators. Calculate concrete yardage, framing studs, roof pitch &amp; shingles, flooring materials, drywall sheets, paint coverage, HVAC BTUs, electrical AWG wire sizes, and plumbing pipe flow.
+        Plan your retirement horizon with 401(k), IRA, Roth IRA, RMD, FIRE, Social Security spousal benefits, and annuity payout calculators.
       </p>
       <div class="cat-tool-grid">
-        <a href="/concrete-yardage-calculator" class="cat-tool-item"><span class="tool-name">Concrete Yardage Calculator</span><span class="tool-arrow">&rarr;</span></a>
-        <a href="/board-feet-calculator" class="cat-tool-item"><span class="tool-name">Board Feet Calculator</span><span class="tool-arrow">&rarr;</span></a>
-        <a href="/roofing-square-calculator" class="cat-tool-item"><span class="tool-name">Roofing Square Calculator</span><span class="tool-arrow">&rarr;</span></a>
-        <a href="/flooring-square-footage-calculator" class="cat-tool-item"><span class="tool-name">Flooring Sq Ft Calculator</span><span class="tool-arrow">&rarr;</span></a>
-        <a href="/drywall-sheet-calculator" class="cat-tool-item"><span class="tool-name">Drywall Sheet Calculator</span><span class="tool-arrow">&rarr;</span></a>
-        <a href="/btu-hvac-sizing-calculator" class="cat-tool-item"><span class="tool-name">HVAC BTU Sizing Calculator</span><span class="tool-arrow">&rarr;</span></a>
+        {% for tool in retirement_tools limit: 6 %}
+          <a href="{{ tool.url }}" class="cat-tool-item">
+            <span class="tool-name">{{ tool.short_name | default: tool.title }}</span>
+            <span class="tool-arrow">&rarr;</span>
+          </a>
+        {% endfor %}
       </div>
       <div class="cat-card-footer">
-        <a href="/construction" class="cat-view-all-btn">Browse All 145 Construction &amp; Materials Tools &rarr;</a>
+        <a href="/retirement" class="cat-view-all-btn">View All {{ retirement_tools | size }} Retirement Tools &rarr;</a>
       </div>
     </div>
 
-    <!-- 3. AUTOMOTIVE HUB -->
+    <!-- 3. Mortgage & Real Estate -->
+    {% assign mortgage_tools = site.data.tools | where: "category", "mortgage" %}
     <div class="cat-section-card">
       <div class="cat-header">
         <div class="cat-header-title">
-          <span class="cat-icon">🚘</span>
-          <h2><a href="/automotive">Automotive &amp; Vehicle Hub</a></h2>
-          <span class="tool-count-badge">61 Calculators</span>
+          <span class="cat-icon">🏡</span>
+          <h2><a href="/mortgage">Mortgage &amp; Real Estate</a></h2>
+          <span class="tool-count-badge">{{ mortgage_tools | size }} Calculators</span>
         </div>
-        <a href="/automotive" class="cat-view-link">View Master Automotive Hub &rarr;</a>
+        <a href="/mortgage" class="cat-view-link">View All Mortgage Tools &rarr;</a>
       </div>
       <p class="cat-description">
-        Car buyers, drivers, EV owners, and auto enthusiasts tools. Calculate monthly car payments, 5-year True Cost of Ownership (TCO), gas mileage (MPG), EV charging payback, 0-60 mph acceleration times, tire size comparisons, and vehicle maintenance intervals.
+        Estimate monthly home payments, ARM vs Fixed rates, VA, FHA, USDA, HELOCs, cash-out refinancing, and home equity loans.
       </p>
       <div class="cat-tool-grid">
-        <a href="/car-loan-payment-calculator" class="cat-tool-item"><span class="tool-name">Car Loan Payment Calculator</span><span class="tool-arrow">&rarr;</span></a>
-        <a href="/car-true-cost-of-ownership-calculator" class="cat-tool-item"><span class="tool-name">5-Year TCO Calculator</span><span class="tool-arrow">&rarr;</span></a>
-        <a href="/mpg-calculator" class="cat-tool-item"><span class="tool-name">MPG Fuel Calculator</span><span class="tool-arrow">&rarr;</span></a>
-        <a href="/ev-charging-cost-calculator" class="cat-tool-item"><span class="tool-name">EV Charging Cost Calculator</span><span class="tool-arrow">&rarr;</span></a>
-        <a href="/zero-to-sixty-mph-estimator" class="cat-tool-item"><span class="tool-name">0-60 mph Acceleration Estimator</span><span class="tool-arrow">&rarr;</span></a>
-        <a href="/tire-size-comparison-calculator" class="cat-tool-item"><span class="tool-name">Tire Size Comparison</span><span class="tool-arrow">&rarr;</span></a>
+        {% for tool in mortgage_tools limit: 6 %}
+          <a href="{{ tool.url }}" class="cat-tool-item">
+            <span class="tool-name">{{ tool.short_name | default: tool.title }}</span>
+            <span class="tool-arrow">&rarr;</span>
+          </a>
+        {% endfor %}
       </div>
       <div class="cat-card-footer">
-        <a href="/automotive" class="cat-view-all-btn">Browse All 61 Automotive &amp; EV Tools &rarr;</a>
+        <a href="/mortgage" class="cat-view-all-btn">View All {{ mortgage_tools | size }} Mortgage Tools &rarr;</a>
       </div>
     </div>
 
-    <!-- 4. SAAS & SUBSCRIPTION BUSINESS HUB -->
+    <!-- 4. Debt & Loans -->
+    {% assign debt_tools = site.data.tools | where: "category", "debt" %}
     <div class="cat-section-card">
       <div class="cat-header">
         <div class="cat-header-title">
-          <span class="cat-icon">🚀</span>
-          <h2><a href="/saas">SaaS &amp; Subscription Business Hub</a></h2>
-          <span class="tool-count-badge">121 Calculators</span>
+          <span class="cat-icon">💳</span>
+          <h2><a href="/debt">Debt &amp; Loans</a></h2>
+          <span class="tool-count-badge">{{ debt_tools | size }} Calculators</span>
         </div>
-        <a href="/saas" class="cat-view-link">View Master SaaS Hub &rarr;</a>
+        <a href="/debt" class="cat-view-link">View All Debt Tools &rarr;</a>
       </div>
       <p class="cat-description">
-        Calculators for software founders, operators, CFOs, and growth marketers. Model subscription pricing models, Customer Acquisition Cost (CAC), Lifetime Value (LTV), MRR/ARR trajectories, Net Revenue Retention (NRR), churn impact, sales pipeline win rates, cash runway, valuation multiples, and marketing ROAS.
+        Eliminate debt faster with Debt Snowball, Debt Avalanche, Credit Card Payoff, Amortization schedules, and Loan Payoff calculators.
       </p>
       <div class="cat-tool-grid">
-        <a href="/saas-pricing-calculator" class="cat-tool-item"><span class="tool-name">SaaS Pricing Calculator</span><span class="tool-arrow">&rarr;</span></a>
-        <a href="/cac-customer-acquisition-cost-calculator" class="cat-tool-item"><span class="tool-name">CAC Calculator</span><span class="tool-arrow">&rarr;</span></a>
-        <a href="/ltv-customer-lifetime-value-calculator" class="cat-tool-item"><span class="tool-name">LTV Calculator</span><span class="tool-arrow">&rarr;</span></a>
-        <a href="/mrr-calculator" class="cat-tool-item"><span class="tool-name">MRR Calculator</span><span class="tool-arrow">&rarr;</span></a>
-        <a href="/customer-churn-rate-calculator" class="cat-tool-item"><span class="tool-name">Customer Churn Rate</span><span class="tool-arrow">&rarr;</span></a>
-        <a href="/arr-multiple-benchmark-calculator" class="cat-tool-item"><span class="tool-name">ARR Valuation Multiples</span><span class="tool-arrow">&rarr;</span></a>
+        {% for tool in debt_tools limit: 6 %}
+          <a href="{{ tool.url }}" class="cat-tool-item">
+            <span class="tool-name">{{ tool.short_name | default: tool.title }}</span>
+            <span class="tool-arrow">&rarr;</span>
+          </a>
+        {% endfor %}
       </div>
       <div class="cat-card-footer">
-        <a href="/saas" class="cat-view-all-btn">Browse All 121 SaaS &amp; Subscription Tools &rarr;</a>
+        <a href="/debt" class="cat-view-all-btn">View All {{ debt_tools | size }} Debt Tools &rarr;</a>
       </div>
     </div>
 
-    <!-- 5. EDUCATION HUB -->
+    <!-- 5. Insurance & Protection -->
+    {% assign insurance_tools = site.data.tools | where: "category", "insurance" %}
     <div class="cat-section-card">
       <div class="cat-header">
         <div class="cat-header-title">
-          <span class="cat-icon">🎓</span>
-          <h2><a href="/education">Education &amp; College Hub</a></h2>
-          <span class="tool-count-badge">21+ Calculators</span>
+          <span class="cat-icon">🛡️</span>
+          <h2><a href="/insurance">Insurance &amp; Protection</a></h2>
+          <span class="tool-count-badge">{{ insurance_tools | size }} Calculators</span>
         </div>
-        <a href="/education" class="cat-view-link">View Master Education Hub &rarr;</a>
+        <a href="/insurance" class="cat-view-link">View All Insurance Tools &rarr;</a>
       </div>
       <p class="cat-description">
-        Comprehensive academic and higher education tools—estimate official AP exam scores (APUSH, AP Bio, AP Chem, AP Calc, AP Psych), project 4-year college tuition with inflation, calculate tax-free 529 savings growth, and model student loan payoff strategies.
+        Protect your family and assets with Life Insurance, Disability, Term vs Whole Life, Pet Insurance, and Flood Insurance cost estimators.
       </p>
       <div class="cat-tool-grid">
-        <a href="/apush-score-calculator" class="cat-tool-item"><span class="tool-name">APUSH Score Calculator</span><span class="tool-arrow">&rarr;</span></a>
-        <a href="/ap-biology-score-calculator" class="cat-tool-item"><span class="tool-name">AP Biology Score Calculator</span><span class="tool-arrow">&rarr;</span></a>
-        <a href="/ap-calculus-ab-score-calculator" class="cat-tool-item"><span class="tool-name">AP Calculus AB Calculator</span><span class="tool-arrow">&rarr;</span></a>
-        <a href="/college-cost-calculator" class="cat-tool-item"><span class="tool-name">College Cost Calculator</span><span class="tool-arrow">&rarr;</span></a>
-        <a href="/529-plan-growth-calculator" class="cat-tool-item"><span class="tool-name">529 Plan Growth Calculator</span><span class="tool-arrow">&rarr;</span></a>
-        <a href="/student-loan-payoff-calculator" class="cat-tool-item"><span class="tool-name">Student Loan Payoff</span><span class="tool-arrow">&rarr;</span></a>
+        {% for tool in insurance_tools limit: 6 %}
+          <a href="{{ tool.url }}" class="cat-tool-item">
+            <span class="tool-name">{{ tool.short_name | default: tool.title }}</span>
+            <span class="tool-arrow">&rarr;</span>
+          </a>
+        {% endfor %}
       </div>
       <div class="cat-card-footer">
-        <a href="/education" class="cat-view-all-btn">Browse All 21+ Education Tools &rarr;</a>
+        <a href="/insurance" class="cat-view-all-btn">View All {{ insurance_tools | size }} Insurance Tools &rarr;</a>
+      </div>
+    </div>
+
+    <!-- 6. Tax Calculators -->
+    {% assign tax_tools = site.data.tools | where: "category", "tax" %}
+    <div class="cat-section-card">
+      <div class="cat-header">
+        <div class="cat-header-title">
+          <span class="cat-icon">📊</span>
+          <h2><a href="/tax">Tax Calculators</a></h2>
+          <span class="tool-count-badge">{{ tax_tools | size }} Calculators</span>
+        </div>
+        <a href="/tax" class="cat-view-link">View All Tax Tools &rarr;</a>
+      </div>
+      <p class="cat-description">
+        Plan tax liabilities with Federal Brackets, Take-Home Pay, Capital Gains, Self-Employment Tax, 1099, Crypto Tax, and Estate Tax calculators.
+      </p>
+      <div class="cat-tool-grid">
+        {% for tool in tax_tools limit: 6 %}
+          <a href="{{ tool.url }}" class="cat-tool-item">
+            <span class="tool-name">{{ tool.short_name | default: tool.title }}</span>
+            <span class="tool-arrow">&rarr;</span>
+          </a>
+        {% endfor %}
+      </div>
+      <div class="cat-card-footer">
+        <a href="/tax" class="cat-view-all-btn">View All {{ tax_tools | size }} Tax Tools &rarr;</a>
+      </div>
+    </div>
+
+    <!-- 7. Budgeting & Income -->
+    {% assign budgeting_tools = site.data.tools | where: "category", "budgeting" %}
+    <div class="cat-section-card">
+      <div class="cat-header">
+        <div class="cat-header-title">
+          <span class="cat-icon">📝</span>
+          <h2><a href="/budgeting">Budgeting &amp; Income</a></h2>
+          <span class="tool-count-badge">{{ budgeting_tools | size }} Calculators</span>
+        </div>
+        <a href="/budgeting" class="cat-view-link">View All Budgeting Tools &rarr;</a>
+      </div>
+      <p class="cat-description">
+        Manage cash flow with 50/30/20 Budgeting, Net Worth tracking, Emergency Funds, DTI ratios, Hourly-to-Salary conversions, and Roommate Bill Splitting.
+      </p>
+      <div class="cat-tool-grid">
+        {% for tool in budgeting_tools limit: 6 %}
+          <a href="{{ tool.url }}" class="cat-tool-item">
+            <span class="tool-name">{{ tool.short_name | default: tool.title }}</span>
+            <span class="tool-arrow">&rarr;</span>
+          </a>
+        {% endfor %}
+      </div>
+      <div class="cat-card-footer">
+        <a href="/budgeting" class="cat-view-all-btn">View All {{ budgeting_tools | size }} Budgeting Tools &rarr;</a>
+      </div>
+    </div>
+
+    <!-- 8. Investing & Trading -->
+    {% assign investing_tools = site.data.tools | where: "category", "investing" %}
+    <div class="cat-section-card">
+      <div class="cat-header">
+        <div class="cat-header-title">
+          <span class="cat-icon">💵</span>
+          <h2><a href="/investing">Investing &amp; Trading</a></h2>
+          <span class="tool-count-badge">{{ investing_tools | size }} Calculators</span>
+        </div>
+        <a href="/investing" class="cat-view-link">View All Investing Tools &rarr;</a>
+      </div>
+      <p class="cat-description">
+        Trade smarter with Position Size, Risk/Reward Ratio, Kelly Criterion, Options Profit, Crypto Position Size, Futures, and Margin calculators.
+      </p>
+      <div class="cat-tool-grid">
+        {% for tool in investing_tools limit: 6 %}
+          <a href="{{ tool.url }}" class="cat-tool-item">
+            <span class="tool-name">{{ tool.short_name | default: tool.title }}</span>
+            <span class="tool-arrow">&rarr;</span>
+          </a>
+        {% endfor %}
+      </div>
+      <div class="cat-card-footer">
+        <a href="/investing" class="cat-view-all-btn">View All {{ investing_tools | size }} Investing Tools &rarr;</a>
       </div>
     </div>
 
@@ -332,14 +421,14 @@ keywords: free online calculators, private browser calculators, ap score calcula
   <div class="feature-group">
     <h3>🔒 Total Data Privacy &amp; Local Processing</h3>
     <p>
-      Every formula is compiled in JavaScript and executed directly inside your web browser. Your confidential loan figures, salary numbers, trade-in valuations, and business metrics are never transmitted across the network or stored on server databases.
+      Every formula is compiled in JavaScript and executed directly inside your web browser. Your confidential loan figures, salary numbers, mortgage inputs, and investment strategies are never transmitted across the network or stored on server databases.
     </p>
   </div>
 
   <div class="feature-group">
     <h3>⚡ Instant Live Recalculation &amp; Zero Latency</h3>
     <p>
-      Sliders and input fields trigger live, millisecond calculations. Adjusting your interest rate, concrete slab thickness, EV battery capacity, or churn percentage immediately updates results and charts without reloading the page.
+      Sliders and input fields trigger live, millisecond calculations. Adjusting your interest rate, loan term, monthly contribution, or tax rate immediately updates results and breakdown charts without reloading the page.
     </p>
   </div>
 
@@ -368,14 +457,14 @@ keywords: free online calculators, private browser calculators, ap score calcula
   <div class="faq-item">
     <h3>What is Wanjaaro?</h3>
     <p>
-      Wanjaaro is a free, browser-based multi-disciplinary calculator platform. It provides over 500 specialized calculators across four core industries: Personal &amp; Corporate Finance, Heavy Construction &amp; Materials, Automotive &amp; Electric Vehicles, and SaaS Subscription Business Metrics.
+      Wanjaaro is a free, browser-based financial calculator platform. It provides over 170 specialized calculators across eight core financial categories: Growth &amp; Savings, Retirement Planning, Mortgage &amp; Real Estate, Debt &amp; Loans, Insurance &amp; Protection, Tax Calculators, Budgeting &amp; Income, and Investing &amp; Trading.
     </p>
   </div>
 
   <div class="faq-item">
     <h3>Are Wanjaaro calculators 100% free with no hidden fees?</h3>
     <p>
-      Yes. All 500+ calculators across all 36 subcategories are completely free to use. There are no registration forms, paid paywalls, credit card requirements, or premium tier restrictions.
+      Yes. All 170+ calculators across all 8 master categories are completely free to use. There are no registration forms, paid paywalls, credit card requirements, or premium tier restrictions.
     </p>
   </div>
 
@@ -396,7 +485,7 @@ keywords: free online calculators, private browser calculators, ap score calcula
   <div class="faq-item">
     <h3>How accurate are the mathematical formulas on Wanjaaro?</h3>
     <p>
-      All mathematical engines strictly adhere to standard financial compound interest models, building code volume calculations, ASTM material density constants, physics equations, and ASC 606 revenue recognition standards.
+      All mathematical engines strictly adhere to standard financial compound interest models, amortization schedules, tax bracket rate structures, and investment risk algorithms.
     </p>
   </div>
 
@@ -415,13 +504,16 @@ keywords: free online calculators, private browser calculators, ap score calcula
 <section class="content-section final-cta">
   <h2>Start Running Your Numbers Now</h2>
   <p>
-    Explore 500+ free, instant, and private online calculators across Finance, Construction, Automotive, SaaS, and Education.
+    Explore 170+ free, instant, and private online financial calculators across Growth, Retirement, Mortgages, Debt, Insurance, Taxes, Budgeting, and Investing.
   </p>
   <p class="cta-buttons">
-    <a href="/finance" class="btn-primary">Finance Calculators</a>
-    <a href="/construction" class="btn-secondary">Construction Calculators</a>
-    <a href="/automotive" class="btn-secondary">Automotive Calculators</a>
-    <a href="/saas" class="btn-secondary">SaaS Calculators</a>
-    <a href="/education" class="btn-secondary">Education Calculators</a>
+    <a href="/growth" class="btn-primary">Growth &amp; Savings</a>
+    <a href="/retirement" class="btn-secondary">Retirement Planning</a>
+    <a href="/mortgage" class="btn-secondary">Mortgage &amp; Real Estate</a>
+    <a href="/debt" class="btn-secondary">Debt &amp; Loans</a>
+    <a href="/insurance" class="btn-secondary">Insurance &amp; Protection</a>
+    <a href="/tax" class="btn-secondary">Tax Calculators</a>
+    <a href="/budgeting" class="btn-secondary">Budgeting &amp; Income</a>
+    <a href="/investing" class="btn-secondary">Investing &amp; Trading</a>
   </p>
 </section>
