@@ -496,7 +496,9 @@ keywords: free financial calculators, private browser calculators, compound inte
     </p>
   </div>
 </section>
-
+<div style="margin: 1rem;">
+<a href="https://twelve.tools" target="_blank"><img src="https://twelve.tools/badge0-white.svg" alt="Featured on Twelve Tools" width="148" height="40"></a>
+</div>
 <!-- ============================================================ -->
 <!-- CALL TO ACTION                                               -->
 <!-- ============================================================ -->
