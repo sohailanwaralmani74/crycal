@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Wanjaaro | 170+ Free Online Financial Calculators"
-description: Explore 170+ free, browser-based financial calculators across Growth, Retirement, Mortgages, Debt, Insurance, Taxes, Budgeting, and Investing. 100% private, client-side math, no signup required.
+description: Explore 170+ free, browser-based financial calculators across Growth, Retirement, Mortgages, Debt, Insurance, Taxes, Budgeting, and Investing.
 is_homepage: true
 permalink: /
 keywords: free financial calculators, private browser calculators, compound interest calculator, mortgage calculator, debt payoff calculator, tax bracket calculator, retirement calculator, investment calculator
