@@ -215,69 +215,117 @@ faq:
 
 ---
 
-# Closing Costs Calculator - Calculate Home Loan Payment & Amortization
+# Closing Costs Calculator – Know What You'll Pay Before You Sign
 
-Use this closing costs calculator to estimate the total fees and expenses you'll pay at closing. Enter your loan amount and the costs for origination, appraisal, title insurance, escrow, recording, inspection, survey, prepaid interest, homeowner's insurance, property tax escrow, and other fees — the tool shows your total closing costs and percentage of the loan amount. This closing cost estimator helps you budget for your home purchase or refinance.
+Buying or refinancing a home is exciting—but the closing table can bring some unwelcome surprises if you're not prepared. Our **Closing Costs Calculator** helps you estimate all those fees and expenses upfront, so you can budget with confidence and walk into closing with your eyes wide open.
 
 <!-- more -->
 
-## Why Use This Closing Costs Calculator
+## Why This Calculator Is Your Closing Day Ally
 
-Closing costs can be a significant expense when buying or refinancing a home. This closing costs calculator helps you:
+Closing costs can add thousands to your home purchase or refinance. Our **closing costs calculator** helps you:
 
-- **💰 Estimate Total Costs** — see the full picture of what you'll pay at closing.
-- **📊 Understand the Breakdown** — see each cost component individually.
-- **📈 See Percentage of Loan** — understand closing costs as a percentage of your mortgage.
-- **🔁 Compare Scenarios** — adjust costs to see how they affect your total.
-- **📜 Track Your History** — save, review, and export past calculations.
-- **🔒 100% Private** — all calculations run locally.
-
----
-
-## How Closing Costs Calculator Fees Are Calculated
-
-**Total Closing Costs = Sum of All Individual Closing Cost Components**
-
-**Percentage of Loan Amount = (Total Closing Costs ÷ Loan Amount) × 100**
+- **💰 See the Full Picture** — get a complete estimate of everything you'll pay at closing
+- **📊 Understand the Breakdown** — see each cost component individually, so nothing is overlooked
+- **📈 Know Your Percentage** — see closing costs as a percentage of your loan amount
+- **🔁 Compare Scenarios** — adjust costs to see how they affect your total
+- **📜 Save Your Calculations** — export to CSV or Excel for your records
+- **🔒 100% Private** — everything runs locally, nothing is stored
 
 ---
 
-## How to Use This Closing Cost Estimator
+## What Goes Into Closing Costs?
 
-1.  Select your **account currency** from the picker in the site header.
-2.  Enter your **loan amount**.
-3.  Enter each closing cost component:
-    - Loan Origination Fee
-    - Appraisal Fee
-    - Title Insurance
-    - Escrow / Settlement Fees
-    - Recording & Transfer Fees
-    - Inspection Fees
-    - Survey Fee
-    - Prepaid Interest
-    - Homeowner's Insurance (first year)
-    - Property Tax Escrow
-    - Other Closing Costs
-4.  View your results instantly — see your total closing costs, percentage of loan, and detailed breakdown.
+**Total Closing Costs =** The sum of all individual fees and expenses you'll pay at closing.
+
+**Percentage of Loan =** (Total Closing Costs ÷ Loan Amount) × 100
+
+Here's what's typically included:
+
+- **Loan Origination Fee** — what the lender charges to process your loan
+- **Appraisal Fee** — the cost to have your home valued
+- **Title Insurance** — protects against title disputes
+- **Escrow / Settlement Fees** — for managing the closing process
+- **Recording & Transfer Fees** — government fees to record the transaction
+- **Inspection Fees** — home inspection, pest inspection, etc.
+- **Survey Fee** — if a property survey is required
+- **Prepaid Interest** — interest that accrues between closing and your first payment
+- **Homeowner's Insurance** — your first year's premium
+- **Property Tax Escrow** — prepaid property taxes
+- **Other Closing Costs** — any additional fees specific to your situation
 
 ---
 
-## Closing Costs Calculator Frequently Asked Questions
+## Real-World Example: See the Numbers
 
-### What are closing costs?
+**Scenario:** You're buying a home with a **$300,000 mortgage**. Here's what your closing costs might look like:
 
-Closing costs are fees and expenses paid at the closing of a real estate transaction. They include lender fees, third-party fees, and prepaid items like insurance and taxes.
+| Cost Component | Estimated Amount |
+|----------------|------------------|
+| Loan Origination Fee | $3,000 |
+| Appraisal Fee | $500 |
+| Title Insurance | $1,200 |
+| Escrow / Settlement Fees | $800 |
+| Recording & Transfer Fees | $400 |
+| Inspection Fees | $400 |
+| Survey Fee | $300 |
+| Prepaid Interest | $600 |
+| Homeowner's Insurance (1st year) | $1,200 |
+| Property Tax Escrow | $2,500 |
+| Other Costs | $500 |
+| **Total Closing Costs** | **$11,400** |
+| **Percentage of Loan** | **3.8%** |
+
+*Now you know exactly what to expect—no surprises at the closing table.*
+
+---
+
+## How to Use This Calculator
+
+Getting your closing cost estimate is quick and straightforward:
+
+1. **Pick your currency** from the selector in the site header.
+2. **Enter your loan amount** — the total mortgage you're taking out.
+3. **Enter each closing cost component** — add amounts for origination, appraisal, title insurance, escrow, recording fees, inspections, survey, prepaid interest, insurance, tax escrow, and any other costs.
+4. **View your results instantly** — see your total closing costs, percentage of loan, and a detailed breakdown.
+
+---
+
+## Who Benefits From This Calculator?
+
+- **Homebuyers** — planning their purchase budget
+- **Refinancers** — estimating costs before committing
+- **Anyone** — wondering "how much will closing costs actually be?"
+- **Sellers** — understanding what they might contribute to buyer closing costs
+
+---
+
+## Common Questions About Closing Costs
+
+### What are closing costs in plain English?
+
+They're all the fees and expenses you pay to finalize a real estate transaction—everything from lender fees and appraisals to title insurance and prepaid taxes. They're paid at the "closing" table when you sign your final paperwork.
 
 ### How much are closing costs typically?
 
-Closing costs typically range from 2% to 5% of the loan amount. This calculator helps you get a more precise estimate based on your specific costs.
+Most buyers pay **2% to 5% of the loan amount** in closing costs. For a $300,000 mortgage, that's $6,000 to $15,000—a significant amount to budget for.
 
 ### Who pays closing costs?
 
-Closing costs are typically paid by the buyer, though sellers may contribute to some costs. The buyer and seller can negotiate who pays which fees.
+The **buyer** typically pays most closing costs, but it's negotiable. In some transactions, the seller agrees to cover a portion of the buyer's costs as part of the deal. This is more common in a buyer's market or with motivated sellers.
 
 ### Can I roll closing costs into my mortgage?
 
-Some closing costs can be financed into the loan amount, but this increases your loan balance and total interest. Not all costs can be rolled in.
+Yes—you can often finance some or all of your closing costs into the loan amount. But this increases your loan balance, which means more interest over time and potentially a higher monthly payment. Not all costs can be rolled in.
 
+### What if my closing costs are higher than I expected?
+
+That's exactly why this calculator is so useful. By estimating costs upfront, you can:
+- **Shop around** for better rates on specific fees (like title insurance or inspections)
+- **Negotiate** with the seller to cover some costs
+- **Adjust your budget** before you're at the closing table
+
+---
+
+> **🏠 Quick Tip:** Ask your lender for a Loan Estimate when you apply for a mortgage. It's a standard form that itemizes your estimated closing costs—and it's a great starting point for using this calculator. Always compare estimates from at least 2-3 lenders.
 ---

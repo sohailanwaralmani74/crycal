@@ -127,74 +127,112 @@ faq:
     answer: "529 plan funds can be transferred tax-free to siblings or family members, used for trade schools/apprenticeships, or rolled into a Roth IRA (up to $35,000 lifetime limit)."
 ---
 
-# College Cost Calculator - Plan Monthly Income & Expenses
+# College Cost Calculator – Plan Ahead for Your Child's Education
 
-Project 4-year university tuition and room and board expenses adjusted for inflation with our free **College Cost Calculator**.
+College costs are rising fast—and they'll likely keep going. Our **College Cost Calculator** helps you cut through the uncertainty. Enter today's costs, your timeline, and expected inflation, and we'll show you exactly what you'll need to save—so you can plan ahead with confidence.
 
 <!-- more -->
 
-## Inflation Adjustment Formula
+## How This College Savings Planner Works
 
-$$\text{Future Annual Cost} = (\text{Tuition} + \text{Room \& Board}) \times (1 + r)^{\text{Years}}$$
-$$\text{Projected 4-Year Total} = \sum_{y=0}^{3} \text{Future Annual Cost} \times (1 + r)^y$$
+College tuition has historically risen at about **5% per year**—roughly double the general rate of inflation. That means a degree that costs $37,000 today could cost $76,920 in 15 years. Our calculator helps you prepare for that reality.
+
+We project your child's college costs using:
+
+**Future Annual Cost =** (Today's Tuition + Room & Board) × (1 + Inflation Rate)^Years Until College
+
+**Projected 4-Year Total =** The sum of Year 1 through Year 4 costs, each adjusted for inflation
 
 ---
 
-## 4-Year College Cost Projection Table ($37,000 Current Base Cost, 5% Inflation)
+## Real-World Example: See the Numbers
+
+Let's say today's annual college cost (tuition + room & board) is **$37,000**, and you're expecting **5% inflation**. Here's what that looks like:
 
 | Years Until College | Projected Year 1 Cost | Projected 4-Year Total | Monthly Savings Goal (0% Return) |
 |---|---|---|---|
-| **5 Years** | $47,222 / yr | **$196,878** | **$3,281 / month** |
-| **10 Years** | $60,268 / yr | **$251,273** | **$2,093 / month** |
-| **15 Years** | $76,920 / yr | **$320,698** | **$1,781 / month** |
+| **5 Years** | $47,222 / year | **$196,878** | $3,281 / month |
+| **10 Years** | $60,268 / year | **$251,273** | $2,093 / month |
+| **15 Years** | $76,920 / year | **$320,698** | $1,781 / month |
+
+*The earlier you start, the smaller your monthly savings goal—even if the total cost is higher. Time is your biggest ally.*
 
 ---
 
-## How to Use This College Cost Calculator
+## How to Use This Calculator
 
-1. Select your preferred **account currency** from the header picker.
-2. Enter **current annual tuition** and **room & board** costs.
-3. Input **years until college** begins (e.g., 10 years).
-4. Set expected **tuition inflation rate** (default 5.0%).
-5. View projected 4-year total cost and monthly savings targets.
+Getting your college savings projection is quick and straightforward:
+
+1. **Pick your currency** from the selector in the site header.
+2. **Enter today's annual tuition and room & board costs** — look up current rates at the schools you're considering.
+3. **Enter years until college begins** — how old is your child now? (e.g., 10 years).
+4. **Set expected tuition inflation** — 5% is a safe historical average, but you can adjust it.
+5. **View your results instantly** — see projected 4-year total cost and monthly savings targets.
 
 ---
 
+## Who Benefits From This Calculator?
 
-## Strategic Guidance for College Cost Calculator
+- **Parents** — planning for their children's education
+- **Grandparents** — contributing to a 529 plan or other savings
+- **Financial planners** — helping families prepare for future costs
+- **Anyone** — wanting to get a realistic picture of what college will cost
 
-Using this interactive calculation engine provides a clear, quantitative roadmap for your decisions. By eliminating mathematical uncertainty, you can optimize financial allocations, compare scenarios side-by-side, and make data-driven choices.
+---
 
-### Key Tactical Benefits of College Cost Calculator
+## Smart College Savings Strategies
 
-- **Mathematical Certainty**: Eliminates guesswork by modeling multi-variable compounding and precise cost structures.
-- **Scenario Comparison**: Test multiple interest rates, payment timelines, and capital allocations in real-time.
-- **Privacy Assurance**: All data remains 100% confidential within your local browser memory, with zero remote server logging.
-- **Export & Audit Readiness**: Log calculations to local browser storage, export full histories to CSV/Excel, or share via link.
+| Strategy | Why It Works |
+|----------|--------------|
+| **Start early** | The earlier you start, the less you need to save each month—even for larger total costs. |
+| **Use a 529 Plan** | Your investments grow tax-free, and withdrawals for qualified expenses are also tax-free. |
+| **Automate your savings** | Set up monthly transfers so you never miss a contribution. |
+| **Look for scholarships** | Every dollar of scholarship money is a dollar you don't need to save. |
+| **Consider public vs. private** | In-state public universities average $100,000–$120,000 total over 4 years, while private universities average $220,000–$300,000+. |
 
-## College Cost Calculator Frequently Asked Questions
+---
 
-### Why does education inflation matter for college planning?
+## Common Questions About College Costs
 
-College tuition historically increases at 4% to 6% per year—roughly double the general rate of inflation. Accounting for tuition inflation ensures your 529 savings goals remain accurate.
+### Why does education inflation matter?
 
-### What expenses are included in 4-year college costs?
+College costs have historically risen at 4% to 6% per year—about double the general inflation rate. If you don't account for it, you could be thousands of dollars short when your child starts college.
 
-College costs include tuition, mandatory student fees, room and board, textbooks, supplies, transportation, and personal living expenses.
+### What expenses are included in "college costs"?
+
+Typically, this includes:
+- Tuition and mandatory fees
+- Room and board (on-campus housing and meal plan)
+- Textbooks and supplies
+- Transportation
+- Personal living expenses
 
 ### How does a 529 College Savings Plan help?
 
-A 529 plan allows your investments to grow 100% tax-free, and withdrawals used for qualified higher education expenses are completely tax-free.
+A **529 plan** allows your savings to grow completely tax-free, and withdrawals used for qualified higher education expenses are also tax-free. Many states also offer tax deductions for contributions.
 
-### What is the average cost of a 4-year public vs private university?
+### What's the average cost of a 4-year public vs. private university today?
 
-Currently, in-state public university 4-year costs average $100,000–$120,000 total, while private universities average $220,000–$300,000+ total.
+- **In-state public university:** ~$100,000–$120,000 total for 4 years
+- **Private university:** ~$220,000–$300,000+ total for 4 years
 
-### How much should parents save per month for college?
+These numbers rise with inflation—use the calculator to project your actual timeline.
 
-Starting at birth, saving $250 to $400 per month in a 529 plan can cover 50% to 75% of a 4-year in-state public college total cost.
+### How much should I save per month for college?
 
-### What happens if a child decides not to go to college?
+It depends on your timeline and goals. Starting at birth, saving **$250 to $400 per month** in a 529 plan can cover 50% to 75% of a 4-year in-state public college total cost. The calculator gives you a personalized number based on your situation.
 
-529 plan funds can be transferred tax-free to siblings or family members, used for trade schools/apprenticeships, or rolled into a Roth IRA (up to $35,000 lifetime limit).
+### What if my child doesn't go to college?
+
+Good news: 529 plan funds can be:
+- Transferred tax-free to siblings or other family members
+- Used for trade schools, apprenticeships, or vocational programs
+- Rolled into a Roth IRA (up to $35,000 lifetime limit, subject to rules)
+
+The money doesn't get wasted—it can still be put to good use.
+
+---
+
+> **🎓 Quick Tip:** Even small contributions add up over time. Starting with $50 or $100 a month now—and increasing it as your income grows—can make a huge difference by the time your child reaches college age. The key is to start.
+---
 

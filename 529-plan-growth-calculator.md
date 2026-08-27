@@ -129,88 +129,88 @@ faq:
     answer: "Withdrawals are tax-free at the federal level (and often state level) as long as they're used for qualified education expenses like tuition, fees, room and board, and books."
 ---
 
-# 529 Plan Growth Calculator - Project Tax-Free Educational Savings
+# 529 Plan Growth Calculator – Watch Your College Savings Grow Tax-Free
 
-Use the **529 Plan Growth Calculator** to project how your college savings will grow tax-free with regular contributions and compound returns.
+Saving for college can feel overwhelming, but our **529 Plan Growth Calculator** makes it easier to see where you're headed. Just plug in your current savings, monthly contributions, and expected returns—and we'll show you what your education fund could look like when your child heads to campus.
 
 <!-- more -->
 
-## How the 529 Plan Growth Calculator Works
+## How This College Savings Planner Works
 
-A **529 plan** lets your education savings grow tax-free, and many states offer a tax deduction for contributions. This calculator projects your balance at the time you'll need the funds.
+A **529 plan** is one of the smartest ways to save for education—your money grows tax-free, and many states even offer tax breaks for contributions. This tool takes the guesswork out of your savings journey.
 
-This **529 growth calculator** computes:
+Here's what you'll see:
 
-- **Projected Balance at College** — your estimated total when funds are needed
-- **Total Contributions** — money you put in over time
-- **Total Tax-Free Growth** — investment gains, untaxed
-- **Annual & Total State Tax Savings** — estimated deduction benefit
-
----
-
-## 529 Plan Growth Formula
-
-**Balance = P × (1 + r/12)^(12×t) + PMT × [((1 + r/12)^(12×t) − 1) ÷ (r/12)]**
-
-Where:
-- **P** = Current 529 balance
-- **PMT** = Monthly contribution
-- **r** = Expected annual return (as a decimal)
-- **t** = Years until college
+- **Projected Balance at College Time** — your estimated total when you need it most
+- **Total Contributions** — everything you've put in over the years
+- **Total Tax-Free Growth** — the investment gains you've earned, completely untaxed
+- **Annual & Total State Tax Savings** — estimated tax benefits from your contributions
 
 ---
 
-## 529 Plan Growth Examples
+## The Math Behind It (Kept Simple)
+
+We use compound growth on your current balance, plus the future value of your monthly contributions:
+
+**Your Balance Grows** = Your current savings grow with compound returns, and every monthly contribution adds to the pot—all multiplied by your expected annual return over the years until college.
+
+---
+
+## Real-Life Examples
 
 ### Example 1: Starting Early
 
-| Variable | Value |
-|----------|-------|
+| Input | Your Numbers |
+|-------|---------------|
 | Current Balance | $5,000 |
 | Monthly Contribution | $250 |
-| Annual Return | 6% |
+| Expected Annual Return | 6% |
 | Years Until College | 15 |
 | **Projected Balance** | **$83,043** |
 
+*Starting early makes a huge difference—time is your biggest ally in college savings.*
+
 ### Example 2: Shorter Time Horizon
 
-| Variable | Value |
-|----------|-------|
+| Input | Your Numbers |
+|-------|---------------|
 | Current Balance | $15,000 |
 | Monthly Contribution | $400 |
-| Annual Return | 5% |
+| Expected Annual Return | 5% |
 | Years Until College | 8 |
 | **Projected Balance** | **$68,489** |
 
----
-
-## Who Benefits from the 529 Plan Growth Calculator?
-
-This **college savings calculator** is designed for:
-
-- **Parents** planning ahead for their children's education
-- **Grandparents** contributing to a grandchild's 529 plan
-- **Financial planners** modeling education savings scenarios
-- **Anyone** deciding how much to contribute monthly to reach a college savings goal
+*Even with less time, consistent contributions can still build a solid education fund.*
 
 ---
 
-## 529 Plan Growth Calculator Frequently Asked Questions
+## Who Is This Calculator For?
 
-### What is a 529 plan?
+This college savings tool is perfect for:
 
-A 529 plan is a tax-advantaged savings account designed to help families save for education expenses, with earnings growing tax-free and tax-free withdrawals for qualified education costs.
+- **Parents** — planning ahead for your children's education
+- **Grandparents** — contributing to a grandchild's 529 plan
+- **Financial planners** — modeling education savings scenarios for clients
+- **Anyone** — wondering how much to save each month to reach a college goal
 
-### How is 529 plan growth calculated?
+---
 
-529 plan growth is calculated using compound interest on the current balance plus the future value of ongoing monthly contributions, similar to a standard investment growth projection.
+## Common Questions About 529 Plans
 
-### Do 529 plan contributions reduce federal taxes?
+### What exactly is a 529 plan?
 
-529 plan contributions are not deductible on federal taxes, but many states offer a state income tax deduction or credit for contributions to their own 529 plan.
+Think of it as a tax-advantaged savings account specifically for education. Your money grows tax-free, and when you use it for qualified education expenses like tuition, fees, room and board, or books, withdrawals are also tax-free.
 
-### Are 529 plan withdrawals taxed?
+### How does my 529 plan grow?
 
-Withdrawals are tax-free at the federal level (and often state level) as long as they're used for qualified education expenses like tuition, fees, room and board, and books.
+Your money grows through compound interest—your current balance earns returns, and every contribution you make adds to the base that continues to grow over time. It works like any investment account, but with valuable tax advantages.
 
+### Do 529 contributions reduce my federal taxes?
+
+Not on your federal return—but many states offer a tax deduction or credit for contributions made to their own 529 plan. Our calculator shows you exactly what that benefit could look like.
+
+### Are 529 withdrawals taxed?
+
+Nope! As long as you use the money for qualified education expenses, your withdrawals are completely tax-free at the federal level—and typically at the state level too.
+---
 

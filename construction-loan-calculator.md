@@ -141,37 +141,43 @@ Calculate interest-only draw payments during home building and project final **P
 
 <!-- more -->
 
-## Why Use the Construction Loan Calculator?
+## Why Use This Construction Loan Calculator?
 
-Building a custom home or undertaking a major residential renovation requires specialized financing distinct from traditional mortgage loans. A construction loan operates as a short-term line of credit where funds are disbursed in stage-based draws (e.g., site prep, framing, electrical/plumbing rough-in, drywall, and final finishes) to contractors as building milestones are verified by bank inspectors.
+Building a custom home or tackling a major renovation is an exciting journey—but the financing can feel like a maze. A **construction loan** isn't like a standard mortgage. Instead of getting all the money upfront, funds are released in stages as your builder hits key milestones: site prep, framing, electrical and plumbing rough-in, drywall, and final finishes. Each stage is verified by a bank inspector before the next payment is released.
 
-During the construction phase, borrowers pay interest only on the cumulative funds actually drawn, rather than accruing interest on the total approved loan amount. Once home construction is finished, the loan converts into a permanent long-term amortizing mortgage (under a single-close loan) or requires refinancing into a conventional mortgage. Modeling monthly interest-only draw costs during the build phase helps homeowners budget housing expenses while managing simultaneous rent or existing mortgage obligations. This calculator computes draw interest and permanent mortgage payments securely and privately.
+<!-- more -->
 
-## Construction Loan Calculator Mathematical Formulas & Mechanics
+The good news? During construction, you only pay **interest on the money you've actually drawn**—not the full loan amount. Once your home is complete, the loan either converts into a permanent mortgage (with a single-close loan) or you refinance into a traditional home loan.
 
-Construction loan calculations estimate average monthly interest-only payments during the build phase ($P_{draw}$) and final amortizing payments ($P_{perm}$) upon completion.
+Our calculator helps you plan ahead—estimating both your monthly interest payments during construction and your final mortgage payment once the home is complete. No surprises, just clarity.
 
-### 1. Construction Phase Draw Interest
+---
 
-Given total construction loan ($L_{total}$), average drawn percentage ($D_{\%}$), construction duration in months ($m$), and annual interest rate ($r_{annual}$):
+## How the Math Works (Made Simple)
 
-$$\text{Average Drawn Principal } L_{avg} = L_{total} \times \left(\frac{D_{\%}}{100}\right)$$
+We calculate two key numbers: your monthly interest payments during the build phase and your permanent mortgage payment after completion.
 
-$$P_{draw} = L_{avg} \times \left(\frac{r_{annual}}{1200}\right)$$
+### 1. Interest-Only Payments During Construction
 
-$$\text{Total Construction Interest } I_{build} = P_{draw} \times m$$
+**Average Drawn Principal =** Total Loan Amount × Average Draw Percentage
 
-### 2. Post-Construction Permanent Mortgage Installment
+**Monthly Build Interest =** Average Drawn Principal × (Annual Rate ÷ 12)
 
-Upon home completion, the full principal ($L_{total}$) converts to a permanent 30-year ($N_{months} = 360$) amortizing mortgage at rate $r_{perm} = \frac{r_{annual}}{1200}$:
+**Total Interest During Build =** Monthly Build Interest × Construction Duration (in months)
 
-$$P_{perm} = L_{total} \times \left[ \frac{r_{perm}(1 + r_{perm})^{360}}{(1 + r_{perm})^{360} - 1} \right]$$
+### 2. Permanent Mortgage Payment After Completion
 
-Where $L_{total}$ is total build cost, $D_{\%}$ is average draw %, $P_{draw}$ is monthly build interest, and $P_{perm}$ is final monthly mortgage payment.
+Once your home is finished, your full loan balance converts to a standard 30-year amortizing mortgage.
 
-## Construction Loan Calculator Benchmarks & Comparison Table
+**Monthly Permanent Payment =** Total Loan Amount × Standard Mortgage Payment Formula
 
-| Construction Loan Budget | Interest Rate % | Build Duration | Avg Draw % | Monthly Build Interest | Total Build Interest | Permanent 30-Yr Payment |
+---
+
+## Real-World Examples: See the Numbers
+
+Here's how different construction budgets and interest rates affect your monthly payments:
+
+| Construction Budget | Interest Rate | Build Duration | Avg Draw % | Monthly Build Interest | Total Build Interest | Permanent 30-Yr Payment |
 |---|---|---|---|---|---|---|
 | **$300,000** | 7.00% | 9 Months | 50% | $875.00 | $7,875.00 | **$1,995.91** |
 | **$450,000** | 7.50% | 12 Months | 50% | $1,406.25 | $16,875.00 | **$3,146.47** |
@@ -179,40 +185,58 @@ Where $L_{total}$ is total build cost, $D_{\%}$ is average draw %, $P_{draw}$ is
 | **$650,000** | 8.00% | 15 Months | 50% | $2,166.67 | $32,500.00 | **$4,769.43** |
 | **$1,000,000** | 7.25% | 18 Months | 55% | $3,322.92 | $59,812.50 | **$6,821.76** |
 
-## How to Use the Construction Loan Calculator Step-by-Step
+---
 
-1. **Enter Total Construction Budget**: Input total approved loan principal needed to cover land and building costs.
-2. **Specify Construction Interest Rate**: Input expected annual interest rate charged during short-term building draws.
-3. **Select Construction Duration**: Input estimated building timeframe in months (typically 6 to 18 months).
-4. **Select Average Draw Percentage**: Choose average drawn balance percentage (typically 50% to 60%).
-5. **Review Phased Monthly Costs**: Analyze monthly interest-only payments during construction and permanent monthly mortgage payments.
+## How to Use This Calculator
 
-## Construction Loan Calculator Frequently Asked Questions
+Getting your construction loan estimate is quick and easy:
+
+1. **Enter your total construction budget** — the full amount you're borrowing for land and building costs.
+2. **Enter your interest rate** — the annual rate on your construction loan.
+3. **Select your build duration** — how many months construction is expected to take (typically 6–18 months).
+4. **Select your average draw percentage** — typically 50% to 60% (more on this below).
+5. **Review your results** — see your monthly interest payments during construction and your permanent monthly mortgage payment.
+
+---
+
+## Who Benefits From This Calculator?
+
+This construction loan tool is designed for:
+
+- **Custom home builders** — planning their financing before breaking ground
+- **Homeowners** — undertaking major renovations with construction financing
+- **Real estate investors** — building or flipping properties
+- **Anyone** — wondering how much their construction loan will cost month-to-month
+
+---
+
+## Common Questions About Construction Loans
 
 ### How does a residential construction loan work?
 
-A construction loan is a short-term, interest-only loan used to fund building a custom home. Funds are disbursed in periodic draws to builders as construction milestones are completed.
+It's a short-term, interest-only loan used to fund building a custom home. Your builder draws funds in stages as work progresses—and you only pay interest on what's been drawn.
 
-### What is the difference between a single-closing (construction-to-permanent) and two-closing loan?
+### What's the difference between a single-closing and two-closing loan?
 
-A single-closing loan automatically converts your construction loan into a permanent long-term mortgage upon home completion, saving closing costs, whereas a two-closing loan requires separate closings.
+- **Single-closing (construction-to-permanent)** — your construction loan automatically converts to a permanent mortgage when the home is finished. You save on closing costs and paperwork.
+- **Two-closing** — you close on the construction loan, then later close separately on a permanent mortgage. More steps, but sometimes better terms.
 
-### How are monthly interest payments calculated during the construction phase?
+### How are monthly interest payments calculated during construction?
 
-During building, borrowers pay interest only on the funds actually drawn down by the builder rather than the total approved loan principal amount.
+You pay interest only on the funds your builder has drawn down so far—not the full loan amount. That means your payments start small and gradually increase as more funds are released.
 
-### What average draw percentage occurs during home construction?
+### What does "average draw percentage" mean?
 
-Because draws scale up as building progresses from land prep to interior finishes, the average outstanding drawn balance typically equals approximately 50% to 60% of total construction principal.
+Because draws happen in stages, your outstanding balance starts at 0% and gradually climbs to 100% by completion. On average, the outstanding balance is about **50% to 60%** of the total loan throughout the build—which is what we use to estimate your interest payments.
 
-### What down payment is required for custom home construction loans?
+### What down payment is required for a construction loan?
 
-Construction loans present higher risk for lenders, typically requiring equity or down payment of 20% to 30% of total land and construction appraisal value.
+Construction loans are considered higher risk, so lenders typically require a **20% to 30% down payment** based on the total appraised value of the land and completed home.
 
-### What happens if home construction runs over schedule or budget?
+### What if construction runs over budget or behind schedule?
 
-Lenders build contingency reserves (usually 5% to 10%) into construction budgets, and loan extensions can be granted, though additional interest charges accrue during delayed building months.
+Lenders usually include a **contingency reserve (5–10%)** in the budget for unexpected costs. If the build takes longer, you'll accrue more interest—so it's worth building a buffer into your timeline.
 
-### Is home building financial data kept private in this tool?
+### Is my data private?
 
-All construction loan calculations run 100% locally inside your web browser, ensuring that no project budgets, interest rates, or land values leave your device.
+**Absolutely.** All calculations run locally in your browser. No project budgets, interest rates, or land values are ever stored or transmitted.

@@ -126,87 +126,85 @@ faq:
     answer: "The classic 4% rule doesn't adjust for market downturns, which is a key criticism — some retirees use more flexible strategies that reduce withdrawals during down markets to improve portfolio longevity."
 ---
 
-# 4% Rule FIRE Calculator - Calculate Safe Retirement Withdrawal Rate
+# 4% Rule FIRE Calculator – How Much Can You Safely Withdraw?
 
-Use the **4% Rule Calculator** to estimate how much you can safely withdraw from your retirement portfolio each year without running out of money.
+Wondering how much you can take from your retirement savings each year without running out? Our **4% Rule Calculator** gives you a clear, data-backed answer in seconds.
 
 <!-- more -->
 
-## How the 4% Rule Calculator Works
+## What This Calculator Does
 
-The **4% rule** is a classic retirement planning guideline: withdraw 4% of your portfolio in year one, then increase that dollar amount each year by inflation, regardless of market performance.
+The **4% rule** is one of the most trusted retirement guidelines out there. Here's the simple idea: withdraw 4% of your portfolio in your first year of retirement, then increase that dollar amount each year to keep up with inflation—no matter what the market does.
 
-This **safe withdrawal rate calculator** computes:
+This tool crunches the numbers for you and shows:
 
-- **Initial Annual Withdrawal** — your first year's withdrawal amount
-- **Initial Monthly Withdrawal** — the monthly equivalent
-- **Inflation-Adjusted Withdrawal in Final Year** — what you'll withdraw by the end
-- **Projected Ending Balance** — what's left after your retirement period
-
----
-
-## 4% Rule Formula
-
-**Year 1 Withdrawal = Portfolio Value × Withdrawal Rate**
-
-**Each Subsequent Year's Withdrawal = Prior Year's Withdrawal × (1 + Inflation Rate)**
-
-**Portfolio Balance = (Prior Balance − Withdrawal) × (1 + Expected Return)**
+- **Your first year's withdrawal** — both annual and monthly amounts  
+- **Your final year's withdrawal** — adjusted for inflation over time  
+- **Your projected ending balance** — what's left after your retirement years
 
 ---
 
-## 4% Rule Examples
+## The Math Behind It (Made Simple)
 
-### Example 1: Classic 4% Rule
+**First year withdrawal** = Your total portfolio × 4% (or whatever rate you choose)
 
-| Variable | Value |
-|----------|-------|
+**Every year after** = Previous year's withdrawal × (1 + inflation rate)
+
+**Portfolio balance update** = (Previous balance − withdrawal) × (1 + expected return)
+
+---
+
+## Real-Life Examples
+
+### Example 1: The Classic 4% Approach
+
+| Input | Your Numbers |
+|-------|---------------|
 | Portfolio Value | $1,000,000 |
 | Withdrawal Rate | 4% |
 | Inflation Rate | 3% |
 | Expected Return | 6% |
 | Retirement Years | 30 |
-| **Initial Annual Withdrawal** | **$40,000** |
+| **Your First Annual Withdrawal** | **$40,000** |
 
-### Example 2: More Conservative 3.5% Rate
+### Example 2: Playing It Safer with 3.5%
 
-| Variable | Value |
-|----------|-------|
+| Input | Your Numbers |
+|-------|---------------|
 | Portfolio Value | $750,000 |
 | Withdrawal Rate | 3.5% |
 | Inflation Rate | 2.5% |
 | Expected Return | 6% |
 | Retirement Years | 35 |
-| **Initial Annual Withdrawal** | **$26,250** |
+| **Your First Annual Withdrawal** | **$26,250** |
 
 ---
 
-## Who Benefits from the 4% Rule Calculator?
+## Who Is This Calculator For?
 
-This **safe withdrawal rate calculator** is designed for:
+You'll find this tool especially helpful if you're:
 
-- **Pre-retirees** planning how much they can spend annually in retirement
-- **Retirees** evaluating whether their current withdrawal rate is sustainable
-- **FIRE (Financial Independence, Retire Early) followers** stress-testing longer retirement horizons
-- **Financial planners** modeling client withdrawal strategies
+- **Nearing retirement** and wondering what your annual budget could look like  
+- **Already retired** and checking if your current withdrawals are sustainable  
+- **Pursuing FIRE (Financial Independence, Retire Early)** and stress-testing a longer retirement horizon  
+- **A financial planner** looking for a quick, clear way to model client scenarios
 
 ---
 
-## 4% Rule FIRE Calculator Frequently Asked Questions
+## Common Questions About the 4% Rule
 
-### What is the 4% rule?
+### What exactly is the 4% rule?
 
-The 4% rule is a retirement withdrawal guideline suggesting that withdrawing 4% of your portfolio in the first year of retirement, then adjusting that dollar amount for inflation each subsequent year, has historically had a high probability of lasting 30 years without depleting the portfolio.
+It's a simple retirement guideline: withdraw 4% of your portfolio in year one, then increase that dollar amount by inflation each year. Historically, this approach has given retirees a strong chance of making their money last 30 years.
 
-### Is the 4% rule still considered safe?
+### Is the 4% rule still safe today?
 
-The 4% rule remains a widely used starting point, though many financial planners now suggest a more conservative rate (around 3-3.5%) given current market valuations, longer lifespans, and lower expected future returns, or recommend a flexible, dynamic withdrawal strategy instead.
+Many experts still use it as a solid starting point. That said, some now recommend a more conservative rate—around 3% to 3.5%—given today's market conditions, longer lifespans, and lower expected returns. Others prefer a flexible approach that adjusts withdrawals based on portfolio performance.
 
-### How does the withdrawal amount change over time?
+### Does my withdrawal amount change over time?
 
-Under the classic 4% rule, the dollar amount of your withdrawal increases each year by the inflation rate, keeping your purchasing power constant regardless of portfolio performance.
+Yes—under the classic rule, your withdrawal dollar amount goes up each year with inflation. This keeps your purchasing power steady, regardless of how your investments perform.
 
-### What happens if the market drops significantly?
+### What if the market takes a big hit?
 
-The classic 4% rule doesn't adjust for market downturns, which is a key criticism — some retirees use more flexible strategies that reduce withdrawals during down markets to improve portfolio longevity.
-
+That's the catch with the classic 4% rule—it doesn't adjust for market drops. That's why many retirees now use dynamic strategies that cut back on spending during down years to help their portfolio last longer.

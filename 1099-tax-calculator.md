@@ -234,67 +234,85 @@ faq:
 
 ---
 
-# 1099 Tax Calculator - Calculate Self-Employment & Quarterly Tax
+# 1099 Tax Calculator – Know What You Owe, Save Smart, and Stay Ahead
 
-Estimate your 1099 tax liability with our free **1099 Tax Calculator**. Enter your income, business expenses, filing status, and deductions to see your self-employment tax, federal tax, state tax, and quarterly payments — all without your data leaving your browser.
+If you're a freelancer, gig worker, or independent contractor, tax season can feel like a guessing game. Our **1099 Tax Calculator** takes the guesswork out—estimating your self-employment tax, federal and state income tax, and quarterly payments so you can plan ahead with confidence.
 
 <!-- more -->
 
-## How Does the 1099 Tax Calculator Work?
+## How This Tax Estimator Works
 
-A **1099 tax calculator** estimates the total tax owed by independent contractors, freelancers, and self-employed individuals who receive 1099 income. It calculates **self-employment tax (15.3%)**, **federal income tax**, and **state income tax** based on the user's net profit, filing status, deductions, and credits.
+A **1099 tax calculator** does more than just crunch numbers—it gives you a clear picture of your total tax liability. We calculate:
 
-**1099 taxes** differ from W-2 taxes because there is no automatic withholding. Workers must pay self-employment tax in addition to income tax and are responsible for making quarterly estimated tax payments to the IRS and state tax authorities.
+- **Self-Employment Tax (15.3%)** — covers Social Security and Medicare (your share as both employee and employer)
+- **Federal Income Tax** — based on your net profit, filing status, and deductions
+- **State Income Tax** — because where you live matters
+- **Quarterly Estimated Payments** — so you know exactly when and how much to pay
 
-## How Much Should I Save for 1099 Taxes?
-
-The **1099 tax calculator** provides a personalized **savings recommendation** based on the user's income, deductions, and effective tax rate. A common rule of thumb is to save **25-35%** of 1099 income for taxes, but the exact amount depends on:
-
-- Total 1099 income
-- Business expenses and deductions
-- Filing status and dependents
-- State tax rate
-- Estimated tax payments already made
-
-The calculator shows the exact amount to save per paycheck to avoid a tax surprise at filing time.
-
-## Who Benefits from the 1099 Tax Calculator?
-
-This **independent contractor tax estimator** is designed for:
-
-- **Freelancers** and **gig workers** needing to estimate quarterly taxes
-- **Independent contractors** receiving 1099-NEC or 1099-MISC forms
-- **Self-employed individuals** calculating self-employment tax and deductions
-- **1099 employees** comparing tax liability with W-2 income
-- **Anyone** needing to know **how much to save for 1099 taxes**
-
-The tool handles **1099 tax calculator with deductions**, **1099 tax calculator with dependents**, and **1099 tax calculator federal and state** — all in one place.
+*Why is this different from W-2?* When you're self-employed, taxes aren't automatically withheld. You're responsible for paying both income tax and self-employment tax—and making estimated payments four times a year.
 
 ---
 
-## 1099 Tax Calculator Frequently Asked Questions
+## How Much Should You Save for Taxes?
 
-### What is a 1099 tax calculator?
+We give you a personalized **savings recommendation** based on your specific situation. While a common rule of thumb is to save **25-35%** of your income for taxes, the exact number depends on:
 
-A 1099 tax calculator estimates the self-employment tax, federal income tax, and state income tax owed by independent contractors, freelancers, and other self-employed individuals who receive 1099 income.
+- Your total 1099 income
+- Business expenses and deductions you can claim
+- Your filing status and dependents
+- Your state's tax rate
+- Any estimated payments you've already made
+
+The calculator shows you exactly how much to set aside from each paycheck—so you're never caught off guard.
+
+---
+
+## Who Is This Calculator For?
+
+This independent contractor tax estimator is perfect for:
+
+- **Freelancers and gig workers** — Uber drivers, designers, writers, consultants, and more
+- **Independent contractors** — receiving 1099-NEC or 1099-MISC forms
+- **Self-employed professionals** — wanting to estimate taxes and plan deductions
+- **Anyone** — comparing 1099 vs. W-2 tax liability
+- **Anyone** — asking "how much should I save for taxes?"
+
+We handle everything—deductions, dependents, federal and state taxes—all in one place.
+
+---
+
+## Common Questions About 1099 Taxes
+
+### What exactly is a 1099 tax calculator?
+
+It's a tool that estimates your total tax liability as a self-employed worker—including self-employment tax, federal income tax, and state income tax—based on your income, expenses, and personal situation.
 
 ### How is self-employment tax calculated?
 
-Self-employment tax is 15.3% — 12.4% for Social Security and 2.9% for Medicare. It applies to your net profit (income minus business expenses) for the year.
+Self-employment tax is **15.3%** of your net profit (income minus business expenses). That breaks down to 12.4% for Social Security and 2.9% for Medicare. Unlike W-2 workers, you pay both the employee and employer portions.
 
-### What is the difference between 1099 and W-2 taxes?
+### What's the difference between 1099 and W-2 taxes?
 
-W-2 employees have taxes withheld automatically from their paychecks. 1099 workers must pay self-employment tax (15.3%) in addition to income tax and are responsible for making quarterly estimated tax payments.
+- **W-2 employees** have taxes withheld automatically from each paycheck—their employer handles the math.
+- **1099 workers** are responsible for paying self-employment tax (15.3%) on top of income tax, and must make quarterly estimated payments to the IRS and state.
 
 ### How much should I save for 1099 taxes?
 
-A common rule of thumb is to save 25-35% of your 1099 income for taxes. The calculator provides a personalized recommendation based on your income, deductions, and tax rate.
+A good starting point is **25-35%** of your net income. But the exact amount varies—use our calculator to get a personalized number based on your actual income, deductions, and tax rate.
 
-### When are 1099 quarterly tax payments due?
+### When are quarterly tax payments due?
 
-Quarterly estimated tax payments are typically due in April, June, September, and January. The calculator shows your estimated quarterly payment amount.
+Estimated payments are typically due in **April, June, September, and January**. Your calculator results show you exactly how much to pay and when.
 
 ### What deductions can I claim as a 1099 worker?
 
-Common deductions include home office, supplies, travel, meals, insurance, vehicle expenses, equipment, and professional services. Enter your business expenses in the calculator.
+Common deductions include:
+- Home office expenses
+- Supplies and equipment
+- Travel and meals
+- Vehicle expenses
+- Insurance premiums
+- Professional services (accountants, lawyers, etc.)
 
+Enter your business expenses in the calculator to see how they reduce your tax liability.
+---

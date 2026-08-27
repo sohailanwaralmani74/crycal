@@ -170,104 +170,106 @@ faq:
     answer: "Yes! If benchmark market interest rates decline after your introductory period ends, your ARM interest rate and monthly payment will adjust downward, subject to the loan's rate floor."
 ---
 
-# Arm vs Fixed Rate Mortgage Calculator - Calculate Home Loan Payment & Amortization
+# ARM vs Fixed Rate Mortgage Calculator – Which Loan Is Right for You?
 
-Choosing between an **Adjustable-Rate Mortgage (ARM)** and a **30-Year Fixed-Rate Mortgage** is one of the most critical decisions when financing a home. Our free **ARM vs Fixed-Rate Mortgage Calculator** empowers homebuyers and real estate investors to compare initial monthly payment savings, estimate post-intro rate resets, and model worst-case lifetime payment caps.
+Choosing between an Adjustable-Rate Mortgage (ARM) and a 30-Year Fixed-Rate Mortgage is one of the biggest decisions you'll make when buying a home. Our **ARM vs Fixed Rate Mortgage Calculator** helps you compare side-by-side—so you can see the numbers and choose with confidence.
 
 <!-- more -->
 
-## Why Compare ARM vs Fixed-Rate Mortgages?
+## Why Compare These Two Mortgage Types?
 
-Mortgage interest rate dynamics heavily influence your long-term cost of homeownership. Selecting between a fixed or adjustable loan structure requires balancing guaranteed monthly stability against lower early cash flow obligations:
+Your mortgage rate shapes your monthly budget and your long-term financial future. Here's why this comparison matters:
 
-- **📉 Lower Introductory Monthly Payments**: Hybrid ARMs (such as 5/1, 7/1, or 10/1 loans) typically offer initial teaser interest rates 0.50% to 1.50% lower than standard 30-year fixed mortgages.
-- **🛡️ Rate Cap Protection**: Built-in lifetime rate caps prevent runaway interest rate increases, establishing a clear ceiling on your maximum worst-case monthly payment.
-- **⏳ Strategic Flexibility**: Ideal for homeowners planning to relocate, trade up to a larger home, or refinance within 5 to 7 years before rate adjustments begin.
-- **📊 Year-by-Year Payment Trajectory**: View side-by-side payment projections and cumulative lifetime interest comparisons over the full 30-year term.
-- **🌍 170+ World Currencies**: Automatically format all monetary outputs into your local currency using the header currency picker.
-- **🔒 100% Private & Local**: All calculation logic executes locally in your browser — zero financial data is ever collected or sent to a server.
-
----
-
-## ARM vs Fixed-Rate Mortgage Formulas
-
-### 1. Fixed-Rate Monthly Amortization Formula
-
-$$\text{PMT}_{\text{Fixed}} = P \times \frac{r(1 + r)^n}{(1 + r)^n - 1}$$
-
-Where:
-- **$P$** = Total Loan Principal Amount
-- **$r$** = Monthly Fixed Interest Rate ($\text{Annual Rate} \div 12$)
-- **$n$** = Total Repayment Months ($30 \text{ years} \times 12 = 360 \text{ months}$)
-
-### 2. ARM Adjusted Rate & Lifetime Cap Calculation
-
-$$\text{ARM Rate}_t = \min\left(\text{Initial Rate} + (t \times \text{Annual Increase}), \text{Lifetime Max Cap}\right)$$
-
-Where **$t$** represents the number of years elapsed after the introductory fixed period expires.
+- **📉 Lower Initial Payments** — ARMs typically start with rates 0.50% to 1.50% lower than fixed-rate loans, giving you more breathing room early on
+- **🛡️ Rate Protection Built In** — Lifetime caps on ARMs prevent runaway rate increases, so you know your worst-case scenario
+- **⏳ Strategic Flexibility** — Ideal if you're planning to move, upgrade, or refinance within 5–7 years
+- **📊 See the Full Picture** — Side-by-side projections show monthly payments, total interest, and year-by-year trajectories over the full 30-year term
+- **🌍 170+ Currencies Supported** — All amounts format automatically to your local currency
+- **🔒 100% Private** — Everything runs locally in your browser; your financial data never leaves your device
 
 ---
 
-## Side-by-Side Comparison Scenario ($400,000 Loan)
+## The Math Behind It (Made Simple)
 
-The table below illustrates how a 5/1 ARM compares to a 30-Year Fixed-Rate Mortgage over various timeframes on a $400,000 home loan:
+### Fixed-Rate Monthly Payment
 
-| Metric / Scenario | 30-Year Fixed (6.75%) | 5/1 ARM Initial (5.50%) | 5/1 ARM Max Cap (10.50%) |
+**Fixed Payment =** Loan Amount × Monthly Rate × (1 + Monthly Rate)^Total Payments ÷ ((1 + Monthly Rate)^Total Payments − 1)
+
+- **Monthly Rate** = Annual Rate ÷ 12
+- **Total Payments** = Years × 12
+
+### ARM Rate After Adjustment
+
+**ARM Rate After t Years =** The lower of:
+1. Initial Rate + (t × Annual Increase)
+2. Lifetime Maximum Cap
+
+---
+
+## Side-by-Side Example: $400,000 Home Loan
+
+Here's how a **5/1 ARM** stacks up against a **30-Year Fixed** mortgage:
+
+| Metric | 30-Year Fixed (6.75%) | 5/1 ARM Initial (5.50%) | 5/1 ARM Max Cap (10.50%) |
 |---|---|---|---|
-| **Monthly Payment (P&I)** | **$2,594.30** | **$2,271.16** | **$3,658.45** |
-| **Monthly Cash Savings (Years 1–5)** | $0.00 | **+$323.14 / month** | -$1,064.15 / month |
-| **5-Year Cumulative Savings** | $0.00 | **+$19,388.40** | N/A |
-| **Total 30-Year Interest Paid** | **$533,948** | Projections Vary | Max $780,000+ |
+| **Monthly Payment** | **$2,594** | **$2,271** | **$3,658** |
+| **Monthly Savings (Years 1–5)** | — | **+$323/month** | −$1,064/month |
+| **5-Year Cumulative Savings** | — | **+$19,388** | N/A |
+| **30-Year Total Interest** | **$533,948** | Varies | Max $780,000+ |
 
 ---
 
-## Key Strategies: Fixed vs Adjustable Rates
+## Which One Should You Choose?
 
-### When to Choose a Fixed-Rate Mortgage
+### Go With a Fixed-Rate Mortgage If:
 
-- **Long-Term Homeownership**: If you plan to stay in the home for 10, 15, or 30 years.
-- **Budget Certainty**: If you prefer guaranteed, predictable housing payments that never change.
-- **Low Interest Rate Environments**: When prevailing market mortgage rates are near historical lows.
+- **You're staying put** — planning to live in the home for 10, 15, or 30 years
+- **You crave stability** — you want predictable payments that never change
+- **Rates are low** — you're locking in a historically favorable rate
 
-### When to Choose an Adjustable-Rate Mortgage (ARM)
+### Go With an ARM If:
 
-- **Short-Term Ownership**: If you plan to sell or move within 3 to 7 years.
-- **Aggressive Refinancing Plan**: If you expect market interest rates to drop before the intro period ends.
-- **Rapid Principal Reduction**: If you plan to apply large extra principal payments during the low-rate intro period.
-
----
-
-## How to Use the Arm vs Fixed Rate Mortgage Calculator
-
-1. Select your preferred **account currency** from the global picker in the site header.
-2. Enter your total **home loan amount** (e.g., $400,000).
-3. Input the current **fixed mortgage rate** offered by lenders (e.g., 6.75%).
-4. Input the **ARM initial rate** (e.g., 5.50%).
-5. Specify the **ARM intro period** in years (e.g., 5 years for a 5/1 ARM).
-6. Set expected **annual rate increases** and the **maximum rate cap** limit.
-7. Review instant outputs and toggle between **Monthly Payment** and **Total Interest** charts.
+- **You're not staying long** — planning to sell or move within 3–7 years
+- **You'll refinance** — you expect rates to drop before your intro period ends
+- **You'll pay extra** — you plan to make large principal payments during the low-rate period
 
 ---
 
-## Arm vs Fixed Rate Mortgage Calculator Frequently Asked Questions
+## How to Use This Calculator
 
-### What is the difference between a Fixed-Rate and Adjustable-Rate Mortgage (ARM)?
+1. **Pick your currency** from the global selector in the site header.
+2. **Enter your loan amount** (e.g., $400,000).
+3. **Input the fixed mortgage rate** offered by lenders (e.g., 6.75%).
+4. **Input the ARM initial rate** (e.g., 5.50%).
+5. **Set the ARM intro period** — 5, 7, or 10 years.
+6. **Add expected annual rate increases** and the **maximum rate cap**.
+7. View instant results — compare monthly payments, total interest, and switch between charts.
 
-A fixed-rate mortgage maintains the exact same interest rate and monthly principal and interest payment for the entire loan term (such as 15 or 30 years). An ARM offers a lower introductory interest rate for a fixed initial period (such as 5, 7, or 10 years), after which the interest rate adjusts periodically based on prevailing financial market benchmarks.
+---
 
-### What do the numbers in a 5/1, 7/1, or 10/1 ARM mean?
+## Common Questions About ARM vs Fixed Mortgages
 
-The first number represents the initial fixed-rate period in years (e.g., 5 years for a 5/1 ARM). The second number indicates how frequently the interest rate adjusts after the intro period ends (e.g., "1" means the rate adjusts once every year).
+### What's the difference between a Fixed-Rate and ARM?
 
-### When does choosing a hybrid ARM make financial sense?
+A **fixed-rate mortgage** keeps the same interest rate and payment for the entire loan term — usually 15 or 30 years. An **ARM** starts with a lower introductory rate for a set period (5, 7, or 10 years), then adjusts periodically based on market rates.
 
-An ARM makes strong financial sense if you plan to sell the home, relocate, or refinance into a fixed-rate loan before the initial intro period expires. It is also beneficial for buyers who expect aggressive income growth or plan to pay down loan principal quickly.
+### What do 5/1, 7/1, and 10/1 ARMs mean?
 
-### What are ARM rate caps and how do they protect borrowers?
+- The **first number** = how many years the initial fixed rate lasts (5, 7, or 10 years).
+- The **second number** = how often the rate adjusts afterward (1 = once per year).
 
-Rate caps limit how much your interest rate can adjust. Initial caps limit the first rate change, periodic caps limit subsequent annual adjustments, and lifetime caps establish the absolute maximum interest rate allowed over the 30-year loan life.
+### When does an ARM make sense?
 
-### Can ARM monthly payments decrease if interest rates drop?
+If you plan to **sell, move, or refinance** before the introductory period ends, an ARM can save you thousands in interest. It's also a good fit if you expect your income to grow or plan to pay down principal aggressively.
 
-Yes! If benchmark market interest rates decline after your introductory period ends, your ARM interest rate and monthly payment will adjust downward, subject to the loan's rate floor.
+### What are ARM rate caps?
 
+Caps protect you from runaway rate increases:
+- **Initial cap** — limits the first rate change
+- **Periodic cap** — limits annual adjustments after that
+- **Lifetime cap** — sets the absolute maximum rate over the life of the loan
+
+### Can my ARM payment go down?
+
+Yes! If benchmark interest rates drop after your intro period ends, your ARM rate and monthly payment can decrease — subject to the loan's floor.
+---

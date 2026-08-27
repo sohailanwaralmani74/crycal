@@ -127,64 +127,96 @@ faq:
     answer: "Nearly all real property within the U.S. is like-kind to other U.S. real property (e.g., selling a single-family rental to buy an apartment building or commercial retail space)."
 ---
 
-# 1031 Exchange Calculator - Estimate Tax Deferral & Reinvestment
+# 1031 Exchange Calculator – Defer Your Capital Gains Taxes Smartly
 
-Calculate capital gains tax deferrals, boot liability, and replacement property cost requirements under **IRS Section 1031** like-kind exchanges with our free calculator.
+Selling an investment property and worried about the tax hit? Our **1031 Exchange Calculator** helps you estimate exactly how much tax you can defer under IRS Section 1031—so you can keep more of your money working for you.
 
 <!-- more -->
 
-## Key 1031 Exchange Rules
+## Key Rules You Should Know
 
-- **Equal or Greater Value Rule**: To defer 100% of taxes, the replacement property purchase price must be equal to or greater than the net sale price of the relinquished property.
-- **45-Day Identification Period**: Investors have 45 calendar days from sale closing to identify replacement properties.
-- **180-Day Exchange Period**: Replacement property acquisition must close within 180 calendar days of selling the original property.
+Before diving in, here are the three critical timelines and rules that govern a 1031 exchange:
+
+- **Equal or Greater Value Rule** — To defer 100% of your taxes, your replacement property must cost at least as much as your relinquished property sold for.
+- **45-Day Identification Period** — You have 45 calendar days from the sale closing to identify potential replacement properties in writing.
+- **180-Day Exchange Period** — You must close on your replacement property within 180 calendar days of selling your original property.
 
 ---
 
-## 1031 Exchange Scenario Table ($850,000 Relinquished Sale / $350,000 Basis)
+## Real-World Scenario: See How It Works
 
-| Replacement Property Purchase Price | Realized Capital Gain | Taxable Boot (Cash Keep) | Capital Gains Tax Deferred | Taxable Boot Owed (25%) |
+*Let's say you sell a property for $850,000, and your adjusted cost basis is $350,000. Here's how different replacement property prices affect your tax deferral:*
+
+| Replacement Property Price | Realized Capital Gain | Taxable Boot (Cash Kept) | Capital Gains Tax Deferred | Tax Owed on Boot (25%) |
 |---|---|---|---|---|
-| **$950,000 (Greater Value)** | $500,000 | $0.00 | **$125,000 (100% Deferred)**| **$0.00** |
-| **$850,000 (Equal Value)** | $500,000 | $0.00 | **$125,000 (100% Deferred)**| **$0.00** |
-| **$750,000 ($100k Less)** | $500,000 | $100,000 | **$100,000 Deferred** | **$25,000 Tax Owed (Boot)** |
+| **$950,000 (Greater Value)** | $500,000 | $0.00 | **$125,000 (100% Deferred)** | **$0.00** |
+| **$850,000 (Equal Value)** | $500,000 | $0.00 | **$125,000 (100% Deferred)** | **$0.00** |
+| **$750,000 ($100k Less)** | $500,000 | $100,000 | **$100,000 Deferred** | **$25,000 Tax Owed** |
+
+*The takeaway? If you keep any cash (boot), you'll owe taxes on that amount—so reinvesting all proceeds into a like-kind property maximizes your deferral.*
 
 ---
 
-## How to Use This 1031 Exchange Calculator
+## The Math Behind the Tool (Made Simple)
 
-1. Select your preferred **account currency** from the header picker.
-2. Enter **relinquished property sale price** (e.g., $850,000).
-3. Input **adjusted cost basis** (purchase price - depreciation + improvements).
-4. Enter target **replacement property purchase price** (e.g., $950,000).
-5. Set combined **capital gains tax rate (%)**.
-6. View total realized capital gain, tax deferred amount, and taxable boot liability.
+Your realized capital gain is calculated as:
+
+**Capital Gain = Sale Price of Relinquished Property − Adjusted Cost Basis**
+
+Your **adjusted cost basis** is what you originally paid, plus improvements, minus any depreciation taken over the years.
+
+If your replacement property costs less than your sale price, the difference becomes **boot**—cash you keep—which is taxable.
+
+**Tax Deferred** = Total Capital Gain − Taxable Boot
 
 ---
 
-## 1031 Exchange Calculator Frequently Asked Questions
+## How to Use This Calculator
 
-### What is an IRS Section 1031 Like-Kind Exchange?
+Getting your tax deferral estimate is quick and straightforward:
 
-Section 1031 allows real estate investors to defer paying capital gains and depreciation recapture taxes upon selling an investment property by reinvesting the proceeds into a replacement like-kind property.
+1. **Pick your currency** from the selector in the site header.
+2. **Enter your relinquished property sale price** (e.g., $850,000).
+3. **Input your adjusted cost basis** — your purchase price, plus improvements, minus depreciation.
+4. **Set your target replacement property price** (e.g., $950,000).
+5. **Enter your combined capital gains tax rate** (federal + state).
+6. View your results instantly — total capital gain, tax deferred, and any taxable boot liability.
 
-### What are the key timelines for a 1031 exchange?
+---
 
-Investors have 45 calendar days from sale closing to formally identify replacement properties, and must close on the replacement property within 180 calendar days.
+## Who Benefits from the 1031 Exchange Calculator?
 
-### What is 'boot' in a 1031 exchange?
+This tool is designed for:
 
-Boot is any non-like-kind property received in an exchange, such as cash kept or debt reduction. Boot is fully taxable up to the total realized capital gain.
+- **Real estate investors** — planning their next 1031 exchange
+- **Property flippers** — understanding tax implications before selling
+- **Financial advisors** — modeling client investment property transitions
+- **Anyone** — considering a like-kind exchange and wanting to see the numbers
 
-### Can a primary residence qualify for a 1031 exchange?
+---
 
-A primary residence cannot qualify for a 1031 exchange, because Section 1031 applies exclusively to real estate held for investment or productive business use.
+## Common Questions About 1031 Exchanges
 
-### Who holds the funds during a 1031 exchange?
+### What is a 1031 like-kind exchange?
 
-A Qualified Intermediary (QI) must hold all sale proceeds. If the seller touches or receives the cash directly, the 1031 exchange is disqualified and taxes become immediately due.
+It's a tax-deferral strategy under IRS Section 1031 that allows real estate investors to sell an investment property and reinvest the proceeds into a "like-kind" property—without paying capital gains taxes on the sale, as long as certain rules are followed.
 
-### What qualifies as 'like-kind' real estate?
+### What are the critical timelines?
 
-Nearly all real property within the U.S. is like-kind to other U.S. real property (e.g., selling a single-family rental to buy an apartment building or commercial retail space).
+You have **45 days** to identify replacement properties after closing, and **180 days** total to complete the purchase. Miss these deadlines, and your exchange fails.
 
+### What exactly is 'boot'?
+
+Boot is any cash or non-real estate value you receive or keep from the exchange—like leftover sale proceeds or debt reduction. Boot is taxable up to the amount of your realized capital gain.
+
+### Can I use a 1031 exchange for my primary residence?
+
+No—Section 1031 applies only to property held for investment or business use, not your personal home.
+
+### Who handles the money during the exchange?
+
+A **Qualified Intermediary (QI)** must hold all sale proceeds. If you take possession of the cash directly, the exchange is disqualified and taxes become due immediately.
+
+### What counts as 'like-kind' property?
+
+Nearly all U.S. real estate qualifies as like-kind to other U.S. real estate. You can sell a single-family rental and buy an apartment building, commercial space, or even vacant land—as long as it's held for investment or business use.

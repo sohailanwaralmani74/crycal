@@ -120,75 +120,53 @@ faq:
     answer: "You should review your asset allocation annually or whenever major life events occur (marriage, career changes, birth of a child, approaching retirement)."
 ---
 
-# Asset Allocation Calculator - Calculate Return, Yield & Portfolio Risk
+# Asset Allocation Calculator – Match Your Money to Your Life Goals
 
-Calculate optimal stock, bond, and cash asset allocation weights based on age and risk tolerance models with our free **Asset Allocation Calculator**.
+Not sure how much of your portfolio should be in stocks vs. bonds? Our **Asset Allocation Calculator** gives you a clear, age-based starting point — so you can invest with confidence.
 
 <!-- more -->
 
-## Rule of 110 Formula
+## The Simple Rule
 
-$$\text{Target Stock \%} = 110 - \text{Current Age}$$
-$$\text{Target Bond \%} = \text{Current Age} - 10$$
-$$\text{Target Cash \%} = 10\%$$
+**Rule of 110**: Stock % = 110 − Your Age. The rest goes to bonds and cash. Younger = more stocks. Older = more bonds.
 
+## Example: $150,000 at Age 35
+
+| Risk Profile | Stocks | Bonds | Cash |
+|---|---|---|---|
+| Conservative | 60% ($90k) | 30% ($45k) | 10% ($15k) |
+| Moderate | **75% ($112.5k)** | **15% ($22.5k)** | **10% ($15k)** |
+| Aggressive | 85% ($127.5k) | 5% ($7.5k) | 10% ($15k) |
+
+## How to Use
+
+1. Pick your currency.
+2. Enter your age.
+3. Choose your risk level (Conservative, Moderate, Aggressive).
+4. Enter your portfolio size.
+5. Get your allocation — instantly.
+
+## Why It Matters
+
+- **No guesswork** — clear math, clear answers
+- **Test scenarios** — adjust age or risk to see what changes
+- **100% private** — everything runs locally, nothing is stored
+- **Export & share** — save or share your allocation plan
+
+## Who Is This For?
+
+- New investors getting started
+- Mid-career savers fine-tuning
+- Retirees shifting to stability
+- Anyone who wants a clear starting point
+
+## Common Questions
+
+**What's the Rule of 110?** Subtract your age from 110 to find your stock percentage. At 35, that's 75% stocks.
+
+**Why does age matter?** More time = more room for growth. Less time = more need for stability.
+
+**What's the difference?** Stocks = growth. Bonds = stability. Cash = safety.
+
+**How often should I review?** At least once a year, or after major life changes.
 ---
-
-## Asset Class Breakdown Table ($150,000 Portfolio, Age 35)
-
-| Risk Profile | Stock Allocation  | Bond Allocation  | Cash Reserve  | Risk/Return Profile |
-|---|---|---|---|---|
-| **Conservative** | 60% ($90,000) | 30% ($45,000) | 10% ($15,000) | Low Volatility / Capital Preservation |
-| **Moderate Growth** | **75% ($112,500)** | **15% ($22,500)** | **10% ($15,000)** | **Balanced Growth & Risk** |
-| **Aggressive Growth** | 85% ($127,500) | 5% ($7,500) | 10% ($15,000) | Maximum Growth / High Volatility |
-
----
-
-## How to Use This Asset Allocation Calculator
-
-1. Select your preferred **account currency** from the header picker.
-2. Enter your **current age** (e.g., 35).
-3. Select your **risk tolerance profile** (Conservative, Moderate, Aggressive).
-4. Input your **total investable assets** (e.g., $150,000).
-5. View dollar allocations across stocks, bonds, and cash.
-
----
-
-
-## Strategic Guidance for Asset Allocation Calculator
-
-Using this interactive calculation engine provides a clear, quantitative roadmap for your decisions. By eliminating mathematical uncertainty, you can optimize financial allocations, compare scenarios side-by-side, and make data-driven choices.
-
-### Key Tactical Benefits of Asset Allocation Calculator
-
-- **Mathematical Certainty**: Eliminates guesswork by modeling multi-variable compounding and precise cost structures.
-- **Scenario Comparison**: Test multiple interest rates, payment timelines, and capital allocations in real-time.
-- **Privacy Assurance**: All data remains 100% confidential within your local browser memory, with zero remote server logging.
-- **Export & Audit Readiness**: Log calculations to local browser storage, export full histories to CSV/Excel, or share via link.
-
-## Asset Allocation Calculator Frequently Asked Questions
-
-### What is the Rule of 110 in asset allocation?
-
-The Rule of 110 estimates your stock allocation percentage by subtracting your age from 110 (e.g., at age 35, 110 - 35 = 75% stocks, with 25% allocated to bonds and cash).
-
-### Why does age play a key role in asset allocation?
-
-Younger investors have decades to recover from short-term stock market downturns and benefit from higher equity growth, while retirees require capital preservation and steady fixed income.
-
-### What is the difference between stocks, bonds, and cash reserves?
-
-Stocks offer high long-term capital growth with higher volatility. Bonds provide steady interest income and downside protection. Cash reserves offer emergency liquidity with zero volatility.
-
-### How does risk tolerance adjust standard age-based rules?
-
-Aggressive investors add 10% to 15% more stock exposure to standard age rules, while conservative investors reduce stock exposure by 10% to 15% in favor of bonds.
-
-### What is a target-date fund?
-
-A target-date fund automatically adjusts its asset allocation over time, shifting from aggressive equities to conservative bonds as you approach your target retirement year.
-
-### How often should asset allocation models be reviewed?
-
-You should review your asset allocation annually or whenever major life events occur (marriage, career changes, birth of a child, approaching retirement).
-

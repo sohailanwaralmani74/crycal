@@ -123,64 +123,102 @@ faq:
     answer: "Yes! A Dependent Care FSA allows you to set aside up to $5,000 per year pre-tax for eligible daycare expenses, saving $1,000+ in income taxes."
 ---
 
-# Baby Cost Calculator - Plan Monthly Income & Expenses
+# Baby Cost Calculator – Plan Your Finances for Your New Arrival
 
-Estimate total first-year newborn expenses including daycare, diapers, nursery gear, and medical bills with our free **Baby Cost Calculator**.
+Welcoming a new baby is one of life's most exciting moments—but it also comes with a long list of new expenses. Our **Baby Cost Calculator** helps you estimate the real cost of your baby's first year, from diapers and daycare to nursery gear and medical bills. No surprises—just a clear picture of what to expect.
 
 <!-- more -->
 
-## Key First-Year Infant Expense Categories
+## What to Budget For in Year One
 
-- **🧸 One-Time Setup Costs**: Stroller, car seat, crib, nursery furniture, and clothing.
-- **🍼 Monthly Recurring Expenses**: Diapers, wipes, formula, healthcare premiums, and daycare.
+Your baby's first year comes with two main types of expenses:
+
+- **🧸 One-Time Setup Costs** — stroller, car seat, crib, nursery furniture, and those adorable (but pricey) baby clothes
+- **🍼 Monthly Recurring Expenses** — diapers, wipes, formula, healthcare premiums, and the big one: childcare
 
 ---
 
-## First-Year Expense Budget Breakdown Table
+## A Realistic First-Year Budget Breakdown
+
+Here's what a typical first year looks like for many families:
 
 | Category | Frequency | Monthly Cost | Annual Total | % of Year 1 Cost |
 |---|---|---|---|---|
 | **Childcare / Daycare** | Monthly | $1,100.00 | **$13,200.00** | 60.3% |
 | **Diapers, Formula & Wipes** | Monthly | $250.00 | **$3,000.00** | 13.7% |
 | **Nursery Setup & Gear** | One-Time | — | **$2,200.00** | 10.0% |
-| **Birth & Pediatric Medical**| One-Time | — | **$3,500.00** | 16.0% |
-| **TOTAL FIRST YEAR** | **Combined** | **$1,825.00 / mo** | **$21,900.00** | **100.0%** |
+| **Birth & Pediatric Medical** | One-Time | — | **$3,500.00** | 16.0% |
+| **TOTAL FIRST YEAR** | Combined | **$1,825.00 / mo** | **$21,900.00** | **100.0%** |
+
+*As you can see, childcare alone can eat up over 60% of your first-year baby budget—so it's worth planning ahead.*
 
 ---
 
-## How to Use This Baby Cost Calculator
+## How to Use This Calculator
 
-1. Select your preferred **account currency** from the header picker.
-2. Enter expected **monthly daycare costs** (e.g., $1,100).
-3. Input monthly **diapers, wipes, and formula expenses** (e.g., $250).
-4. Enter initial one-time **nursery gear** and **medical out-of-pocket** estimates.
-5. View total first-year expense commitment and average monthly budget.
+Getting your personalized estimate is quick and straightforward:
+
+1. **Choose your currency** from the selector in the site header.
+2. **Enter your expected monthly daycare costs** (e.g., $1,100).
+3. **Add monthly diaper, wipes, and formula expenses** (e.g., $250).
+4. **Estimate one-time nursery gear** and **medical out-of-pocket costs**.
+5. See your total first-year commitment and average monthly budget—instantly.
 
 ---
 
-## Baby Cost Calculator Frequently Asked Questions
+## Smart Tips to Save on Baby Costs
+
+Welcoming a baby doesn't have to break the bank. Here are some practical ways to save:
+
+- **Buy convertible cribs** — they grow with your child from infant to toddler
+- **Accept secondhand** — gently used clothing, gear, and toys from family and friends can save hundreds
+- **Focus registry gifts on safety essentials** — like a quality car seat and crib mattress
+- **Plan your health insurance** — understand your out-of-pocket maximum before delivery
+- **Use a Dependent Care FSA** — set aside up to $5,000 pre-tax for daycare expenses and save $1,000+ in taxes
+
+---
+
+## Who Is This Calculator For?
+
+This baby cost estimator is perfect for:
+
+- **Expecting parents** — planning your budget before the baby arrives
+- **New parents** — tracking actual expenses vs. expectations
+- **Grandparents** — understanding the financial reality of raising a child today
+- **Financial planners** — helping clients prepare for family expansion
+- **Anyone** — thinking about starting a family and wanting to be financially prepared
+
+---
+
+## Common Questions About Baby Costs
 
 ### How much does a baby cost in the first year on average?
 
-On average, parents spend between $12,000 and $20,000+ during a baby's first year, with infant childcare and medical out-of-pocket expenses representing the largest portion.
+Most parents spend between **$12,000 and $20,000+** during the first year. The biggest factors are childcare costs and medical expenses—both vary widely based on where you live.
 
-### What is the single largest expense in a baby's first year?
+### What's the single biggest expense in year one?
 
-Infant daycare or full-time nanny care is almost universally the single largest expense, often ranging from $800 to $2,500+ per month depending on region.
+**Childcare**—hands down. Full-time daycare or a nanny can cost anywhere from $800 to $2,500+ per month, depending on your location.
 
-### How much should parents budget for diapers and wipes per month?
+### How much should I budget for diapers and wipes each month?
 
-Expect to spend between $70 and $110 per month on diapers and wipes during the first year, as newborns go through 8 to 12 diapers per day.
+Plan for about **$70 to $110 per month**. Newborns go through 8–12 diapers a day, so those costs add up fast!
 
-### How can expecting parents reduce nursery and gear costs?
+### How can I save on nursery and gear costs?
 
-Buy convertible cribs that grow with the child, accept secondhand clothing and gear from family/friends, and focus registry gifts on essential safety items like car seats.
+- Buy a **convertible crib** that lasts from baby to toddler
+- **Accept hand-me-downs** from friends and family
+- **Prioritize your registry** for big-ticket safety items (car seat, crib mattress)
+- Check out **secondhand stores** for gently used clothing and toys
 
-### How do health insurance deductibles impact birth medical costs?
+### How do health insurance deductibles affect birth costs?
 
-Out-of-pocket medical costs depend on your health plan's maximum annual out-of-pocket limit. Most parents meet their deductible and out-of-pocket maximum during the birth year.
+Your out-of-pocket costs will depend on your plan's **annual maximum out-of-pocket limit**. Most families hit their deductible and out-of-pocket max during the birth year, so it's worth planning for that expense.
 
-### Should parents set up a Dependent Care FSA (DCFSA)?
+### What's a Dependent Care FSA and should I use one?
 
-Yes! A Dependent Care FSA allows you to set aside up to $5,000 per year pre-tax for eligible daycare expenses, saving $1,000+ in income taxes.
+A **Dependent Care FSA** lets you set aside up to **$5,000 pre-tax** for eligible daycare expenses. It can save you **$1,000+ in taxes** each year—definitely worth considering if your employer offers it.
 
+---
+
+> **👶 Quick Tip:** Start budgeting early. Even setting aside a small amount each month during pregnancy can make the first year feel much more manageable. Every little bit helps when you're preparing for your newest family member.

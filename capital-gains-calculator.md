@@ -210,70 +210,111 @@ faq:
 
 ---
 
-# Capital Gains Calculator - Calculate Tax Liability & Savings
+# Capital Gains Calculator – Know Your Investment Tax Before You Sell
 
-Use this capital gains calculator to calculate the tax on your investment profits. Enter the sale price, purchase price, holding period, tax rates, costs, and exemptions — the tool works for any country. Whether you're selling stocks, real estate, or cryptocurrency, this capital gains tax calculator gives you an accurate estimate of your tax liability.
+Selling stocks, crypto, or real estate? Before you celebrate your gains, it's worth knowing what the taxman will take. Our **Capital Gains Calculator** gives you a clear, accurate estimate of your tax liability—so you can plan your sale with confidence and avoid any surprises come tax time.
 
 <!-- more -->
 
-## Why Use This Capital Gains Tax Calculator
+## Why This Calculator Is Essential for Investors
 
-Understanding your capital gains tax is essential for investment planning. This capital gains calculator helps you:
+Understanding your capital gains tax isn't just about compliance—it's about smart planning. This calculator helps you:
 
-- **💰 Calculate Your Tax** — see exactly how much tax you owe.
-- **📊 Understand Your Gain** — see the breakdown of your profit.
-- **🌍 Works for Any Country** — enter your own rates and exemptions.
-- **📈 Visualize Your Tax** — see breakdown charts.
-- **📜 Track Your History** — save, review, and export past calculations.
-- **🔒 100% Private** — all calculations run locally.
-
----
-
-## How Capital Gains Tax Is Calculated
-
-**Total Gain = Sale Price − (Purchase Price + Improvement Costs + Selling Costs)**
-
-**Cost Basis = Purchase Price + Improvement Costs + Selling Costs**
-
-**Taxable Gain = Total Gain − Exemption Amount**
-
-**Tax Owed = Taxable Gain × Applicable Tax Rate**
-
-**Net Proceeds = Sale Price − Tax Owed − Selling Costs**
+- **💰 See Exactly What You Owe** — no guessing, just a clear number
+- **📊 Break Down Your Gain** — understand what portion is profit and what's tax
+- **🌍 Works for Any Country** — enter your own rates, exemptions, and rules
+- **📈 Visualize the Breakdown** — clear charts that show where your money goes
+- **📜 Save Your Calculations** — export to CSV or Excel for your records
+- **🔒 100% Private** — everything runs locally, nothing is stored
 
 ---
 
-## How to Use This Capital Gains Calculator
+## How Capital Gains Tax Works (Made Simple)
 
-1.  Select your **account currency** from the picker in the site header.
-2.  Enter the **sale price** of the asset.
-3.  Enter the **purchase price** of the asset.
-4.  Select the **holding period** (long-term or short-term).
-5.  Enter your **long-term and short-term tax rates**.
-6.  Enter any **exemption / allowance** amount.
-7.  Enter **selling costs** (brokerage, fees).
-8.  Enter **improvement costs**.
-9.  Toggle **inflation adjustment** if applicable.
-10. View your results instantly — see your total gain, tax owed, and net proceeds.
+**Total Gain =** Sale Price − (Purchase Price + Improvements + Selling Costs)
+
+**Your Cost Basis =** Purchase Price + Improvements + Selling Costs  
+*(This is your total investment in the asset.)*
+
+**Taxable Gain =** Total Gain − Any Exemptions or Allowances
+
+**Tax Owed =** Taxable Gain × Your Applicable Tax Rate
+
+**Net Proceeds =** Sale Price − Tax Owed − Selling Costs
+
+---
+
+## Real-World Example: See It in Action
+
+Let's say you bought crypto for **$10,000**, spent **$500** on improvements, and sold it for **$25,000** with **$200** in selling fees:
+
+| Step | Calculation | Result |
+|------|-------------|--------|
+| Cost Basis | $10,000 + $500 + $200 | $10,700 |
+| Total Gain | $25,000 − $10,700 | $14,300 |
+| Taxable Gain (after $3,000 exemption) | $14,300 − $3,000 | $11,300 |
+| Tax Owed (at 15% long-term rate) | $11,300 × 15% | $1,695 |
+| Net Proceeds | $25,000 − $1,695 − $200 | $23,105 |
+
+*You walked away with $23,105 after tax and fees—knowing exactly what to expect.*
 
 ---
 
-## Capital Gains Calculator Frequently Asked Questions
+## How to Use This Calculator
 
-### What is capital gains tax?
+Getting your tax estimate is quick and straightforward:
 
-Capital gains tax is a tax on the profit from the sale of an asset. It applies to stocks, real estate, crypto, and other investments.
-
-### What is the difference between short-term and long-term capital gains?
-
-Short-term capital gains are from assets held for less than the long-term threshold (typically 1 year in many countries). Long-term gains are from assets held for longer and are often taxed at a lower rate.
-
-### How is the cost basis calculated?
-
-Cost basis = Purchase Price + Improvement Costs + Selling Costs. It represents your total investment in the asset.
-
-### Can I use the Capital Gains Calculator globally?
-
-Yes — you enter your own tax rates and exemption amounts. This tool works for any country's capital gains tax system.
+1. **Pick your currency** from the selector in the site header.
+2. **Enter the sale price** — what you sold the asset for.
+3. **Enter the purchase price** — what you originally paid.
+4. **Select the holding period** — short-term or long-term (this affects your tax rate).
+5. **Enter your long-term and short-term tax rates** — check your country's rules.
+6. **Add any exemption or allowance** — like the $3,000 annual exemption in some countries.
+7. **Enter selling costs** — brokerage fees, transaction fees, etc.
+8. **Enter improvement costs** — any money you put into improving the asset.
+9. **Toggle inflation adjustment** if it applies in your country.
+10. **View your results instantly** — total gain, tax owed, and net proceeds.
 
 ---
+
+## Who Benefits From This Calculator?
+
+This capital gains tax tool is designed for:
+
+- **Investors** — selling stocks, crypto, or other securities
+- **Property owners** — selling real estate or land
+- **Traders** — who need to estimate taxes on frequent trades
+- **Anyone** — wanting to avoid surprises at tax time
+- **Financial planners** — modeling tax scenarios for clients
+
+---
+
+## Common Questions About Capital Gains Tax
+
+### What is capital gains tax in plain English?
+
+It's the tax you pay on the profit you make when you sell an asset for more than you paid for it. That could be stocks, crypto, real estate, or even collectibles.
+
+### What's the difference between short-term and long-term gains?
+
+- **Short-term** — you held the asset for less than the long-term threshold (typically 1 year in many countries). Taxed at your ordinary income tax rate.
+- **Long-term** — you held the asset for longer. Often taxed at a lower, preferential rate.
+
+### What goes into my cost basis?
+
+Your cost basis = what you paid for the asset + any improvements + selling costs. It's your total investment in the asset, and it reduces your taxable gain.
+
+### Can I use this calculator for any country?
+
+**Yes.** You enter your own tax rates, exemptions, and rules. The calculator works for any country's capital gains tax system.
+
+### How can I reduce my capital gains tax?
+
+- **Hold assets longer** — to qualify for long-term rates
+- **Use exemptions** — like annual allowances or primary residence exclusions
+- **Tax-loss harvesting** — sell losing investments to offset gains
+- **Use tax-advantaged accounts** — like ISAs, IRAs, or 401(k)s
+
+---
+
+> **💡 Quick Tip:** Always run the numbers before you sell. Knowing your tax liability upfront helps you decide whether to sell now, wait, or structure your sale differently. A little planning can save you a lot in taxes.

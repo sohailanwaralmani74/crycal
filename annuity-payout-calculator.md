@@ -107,87 +107,104 @@ faq:
     answer: "For non-qualified annuities purchased with after-tax dollars, a portion of each payment (the return of principal) is typically tax-free, while the interest/earnings portion is taxable as ordinary income. Qualified annuities (funded with pre-tax dollars) are generally fully taxable."
 ---
 
-# Annuity Payout Calculator - Calculate Guaranteed Retirement Payouts
+# Annuity Payout Calculator – Plan Your Guaranteed Retirement Income
 
-Use the **Annuity Payout Calculator** to estimate your fixed periodic payment from an annuity, based on principal, interest rate, and payout term.
+Thinking about turning a lump sum into a steady stream of retirement income? Our **Annuity Payout Calculator** shows you exactly what your fixed payments would look like—so you can plan your golden years with confidence.
 
 <!-- more -->
 
-## How the Annuity Payout Calculator Works
+## How This Annuity Calculator Works
 
-An **annuity payout** converts a lump sum into a stream of fixed periodic payments over a set term, with each payment including both a return of principal and interest earned.
+An **annuity payout** converts a lump sum into regular, predictable payments over a set period. Each payment includes a portion of your principal plus the interest it earns along the way.
 
-This **annuity payout calculator** computes:
+Here's what we'll show you:
 
-- **Payment Amount** — your fixed periodic payment
-- **Total Payments Received** — the sum of all payments over the term
-- **Total Interest Earned** — how much of your payout is interest, not principal
-- **Number of Payments** — total number of payments you'll receive
-
----
-
-## Annuity Payout Formula
-
-**Payment = P × r ÷ [1 − (1 + r)^(−n)]**
-
-Where:
-- **P** = Principal (premium paid)
-- **r** = Periodic interest rate (annual rate ÷ payments per year)
-- **n** = Total number of payments
+- **Your Fixed Payment Amount** — know exactly what you'll receive each period
+- **Total Payments Received** — the full sum you'll collect over the term
+- **Total Interest Earned** — how much of your payout comes from investment growth
+- **Number of Payments** — exactly how many checks you'll get
 
 ---
 
-## Annuity Payout Examples
+## The Math Behind It (Made Simple)
+
+**Your Payment =** Principal × Rate ÷ [1 − (1 + Rate)^(-Total Payments)]
+
+Here's what each part means:
+
+- **Principal** — your initial lump sum
+- **Rate** — your interest rate per payment period (annual rate ÷ payments per year)
+- **Total Payments** — number of payments over the entire term
+
+*Think of it like this: your money earns interest, and that interest is spread evenly across all your payments—giving you a steady, predictable income.*
+
+---
+
+## Real-Life Examples
 
 ### Example 1: 20-Year Monthly Payout
 
-| Variable | Value |
-|----------|-------|
+| Input | Your Numbers |
+|-------|---------------|
 | Principal | $250,000 |
-| Annual Rate | 5% |
+| Annual Interest Rate | 5% |
 | Payout Term | 20 years |
-| Frequency | Monthly |
-| **Monthly Payment** | **$1,649** |
+| Payment Frequency | Monthly |
+| **Your Monthly Payment** | **$1,649** |
+
+*With monthly payments over 20 years, you'll receive a steady check while your principal continues to earn interest.*
 
 ### Example 2: 15-Year Annual Payout
 
-| Variable | Value |
-|----------|-------|
+| Input | Your Numbers |
+|-------|---------------|
 | Principal | $500,000 |
-| Annual Rate | 4.5% |
+| Annual Interest Rate | 4.5% |
 | Payout Term | 15 years |
-| Frequency | Annually |
-| **Annual Payment** | **$46,635** |
+| Payment Frequency | Annually |
+| **Your Annual Payment** | **$46,635** |
+
+*Choosing annual payments gives you a bigger check each year, perfect if you prefer lumpier income timing.*
 
 ---
 
-## Who Benefits from the Annuity Payout Calculator?
+## Who Is This Calculator For?
 
-This **annuity calculator** is designed for:
+This annuity tool is perfect for:
 
-- **Retirees** considering converting savings into a guaranteed income stream
-- **Annuity holders** estimating their expected payments
-- **Financial planners** comparing annuity payout options for clients
-- **Anyone** evaluating structured settlement or pension buyout offers
+- **Retirees** — considering converting savings into guaranteed income
+- **Annuity holders** — wanting to estimate your expected payments
+- **Financial planners** — comparing payout options for clients
+- **Anyone** — evaluating structured settlement or pension buyout offers
 
 ---
 
-## Annuity Payout Calculator Frequently Asked Questions
+## Common Questions About Annuity Payouts
 
-### What is an annuity payout?
+### What exactly is an annuity payout?
 
-An annuity payout is the fixed periodic payment an annuity holder receives in exchange for a lump-sum premium, calculated so that the principal plus interest is paid out evenly over the chosen term.
+It's a fixed, periodic payment you receive from a lump sum you've invested in an annuity. Each payment includes both a return of your original principal and the interest it's earned.
 
-### How is the annuity payment calculated?
+### How is my annuity payment calculated?
 
-The payment is calculated using the annuity payment formula, which amortizes the principal plus interest evenly across all payments over the payout term at the given interest rate.
+Your payment is calculated using a formula that spreads your principal plus earned interest evenly across all your payments over the chosen term—giving you a predictable income stream.
 
 ### What's the difference between a period-certain and lifetime annuity?
 
-A period-certain annuity pays out over a fixed number of years regardless of whether the holder is alive, while a lifetime annuity pays for as long as the holder lives, which involves actuarial calculations based on life expectancy rather than a fixed term.
+- **Period-certain** — pays for a fixed number of years, whether you're alive or not.
+- **Lifetime annuity** — pays as long as you live. The payment amount depends on your life expectancy and is calculated differently.
 
-### Are annuity payments taxed?
+*This calculator estimates a period-certain payout. Lifetime payments vary by provider and are based on actuarial tables.*
 
-For non-qualified annuities purchased with after-tax dollars, a portion of each payment (the return of principal) is typically tax-free, while the interest/earnings portion is taxable as ordinary income. Qualified annuities (funded with pre-tax dollars) are generally fully taxable.
+### Are my annuity payments taxable?
 
-<p class="tool-disclaimer">This calculator estimates a fixed period-certain payout. Lifetime annuity payments depend on actuarial life expectancy factors and will vary by provider.</p>
+It depends on how the annuity was funded:
+
+- **Non-qualified annuities** (after-tax dollars) — a portion of each payment is a tax-free return of principal; the interest portion is taxed as ordinary income.
+- **Qualified annuities** (pre-tax dollars, like an IRA rollover) — generally fully taxable as ordinary income.
+
+Always consult a tax professional for your specific situation.
+
+---
+
+> **📌 Note:** This calculator estimates a fixed period-certain payout. Lifetime annuity payments depend on actuarial life expectancy factors and will vary by provider. Always confirm details with your annuity provider or financial advisor before making decisions.

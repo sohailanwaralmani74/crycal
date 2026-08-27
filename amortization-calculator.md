@@ -153,77 +153,95 @@ faq:
 
 ---
 
-# Amortization Calculator - Breakdown Principal vs Interest Payments
+# Amortization Calculator – See Exactly How Your Loan Payments Work
 
-Use this amortization calculator to generate a complete loan amortization schedule. Enter your loan amount, interest rate, term, and optional extra payment — the tool shows your monthly payment, total interest, and a full breakdown of every payment. Whether you're planning a mortgage, auto loan, or personal loan, this loan amortization calculator helps you understand exactly how your payments reduce your balance over time.
+Ever wondered where your monthly loan payment actually goes? Our **Amortization Calculator** breaks it all down—showing you exactly how much goes toward principal versus interest, month by month. Whether you're planning a mortgage, auto loan, or personal loan, this tool gives you the full picture.
 
 <!-- more -->
 
-## Why Use This Amortization Schedule Calculator
+## Why You'll Love This Loan Calculator
 
-Understanding how your loan payments work is essential for smart financial planning. This loan amortization calculator helps you:
+Understanding your loan inside and out is one of the smartest financial moves you can make. Here's what our amortization calculator helps you do:
 
-- **📋 See the Full Picture** — every payment, principal, and interest for the life of your loan.
-- **💰 Calculate Total Interest** — know exactly how much you'll pay in interest over the life of the loan.
-- **🔁 Test Extra Payments** — see how extra payments shorten your term and save you money.
-- **📊 Visualize Your Loan** — charts show your balance and interest breakdown over time.
-- **📜 Track Your History** — save, review, and export past calculations to CSV or Excel.
-- **🔒 100% Private** — all calculations run locally; your data never leaves your browser.
+- **📋 See the Full Life of Your Loan** — every single payment, broken down by principal and interest
+- **💰 Know Your Total Interest** — see exactly how much you'll pay the lender over the life of the loan
+- **🔁 Test Extra Payments** — find out how adding just a little extra each month can save you time and money
+- **📊 Visualize Your Progress** — charts that show your balance shrinking and interest breakdown over time
+- **📜 Keep a Record** — save, review, and export your amortization schedules to CSV or Excel
+- **🔒 100% Private** — everything runs locally in your browser; your numbers never leave your device
 
 ---
 
-## Amortization Formula Used by This Tool
+## The Math Behind It (Made Simple)
 
 We use the standard amortization formula to calculate your fixed monthly payment:
 
-**M = P × r × (1 + r)^n ÷ ((1 + r)^n − 1)**
+**Monthly Payment =**  
+Loan Amount × Monthly Rate × (1 + Monthly Rate)^Total Payments ÷ ((1 + Monthly Rate)^Total Payments − 1)
 
-Where:
+Here's what each part means:
 
-- **M** = Monthly Payment
-- **P** = Loan Amount (Principal)
-- **r** = Monthly Interest Rate (Annual Rate ÷ 12)
-- **n** = Total Number of Payments (Loan Term × 12)
+- **Monthly Rate** = Your annual interest rate divided by 12
+- **Total Payments** = Your loan term in years × 12
 
-Each payment is then broken down into:
+Each payment is then split into:
 
-- **Interest Portion** = Remaining Balance × Monthly Rate
-- **Principal Portion** = Monthly Payment − Interest Portion
-
----
-
-## How to Use This Mortgage Amortization Calculator
-
-1.  Select your **account currency** from the picker in the site header.
-2.  Enter your **loan amount**.
-3.  Enter your **annual interest rate** (APR).
-4.  Enter your **loan term** in years.
-5.  Set an optional **extra monthly payment** to see how it affects your loan.
-6.  The tool updates instantly — see your monthly payment, total interest, payoff date, and complete amortization schedule.
+- **Interest Portion** = Remaining Balance × Monthly Rate *(what the lender earns)*
+- **Principal Portion** = Monthly Payment − Interest Portion *(what actually reduces your debt)*
 
 ---
 
-## Amortization Calculator Frequently Asked Questions
+## How to Use This Calculator
+
+Getting your full amortization schedule is quick and easy:
+
+1. **Pick your currency** from the selector in the site header.
+2. **Enter your loan amount** (the total you're borrowing).
+3. **Add your annual interest rate** (APR).
+4. **Set your loan term** in years.
+5. Want to see how extra payments help? Add an optional **extra monthly payment**.
+6. Watch your results appear instantly — monthly payment, total interest, payoff date, and a complete payment-by-payment breakdown.
+
+---
+
+## Amortization in Action: A Quick Example
+
+| Input | Your Numbers |
+|-------|---------------|
+| Loan Amount | $250,000 |
+| Interest Rate | 6.5% |
+| Loan Term | 30 years |
+| Extra Payment | $0 |
+
+| Result | Value |
+|--------|-------|
+| Monthly Payment | $1,580 |
+| Total Interest | $318,800 |
+| Payoff Date | 30 years |
+
+*Now imagine adding just $100 extra each month — you'd save thousands in interest and shave years off your loan term!*
+
+---
+
+## Common Questions About Amortization
 
 ### What is an amortization calculator?
 
-An amortization calculator shows you how each loan payment is split between principal and interest. It generates a complete amortization schedule, helping you understand exactly how your loan balance decreases over time.
+It's a tool that shows you exactly how each loan payment is divided between principal and interest. It generates a complete schedule so you can see your loan balance shrink month by month.
 
 ### How does a loan amortization calculator work?
 
-A loan amortization calculator uses your loan amount, interest rate, and term to calculate your fixed monthly payment. Then it breaks down every payment into principal and interest portions, tracking the remaining balance month by month until the loan is fully paid off.
+It takes your loan amount, interest rate, and term to calculate your fixed payment. Then it breaks down every single payment into principal and interest, tracking your remaining balance until the loan is fully paid off.
 
 ### What is a loan amortization schedule?
 
-A loan amortization schedule is a table showing every payment on a loan — broken down into how much reduces your debt (principal) and how much goes to the lender as interest. It maps the full life of the loan from the first payment to the last.
+Think of it as a roadmap for your loan. It's a table that shows every payment over the life of your loan—how much goes to principal, how much to interest, and what's left on your balance after each payment.
 
-### What is the amortization formula?
+### What's the amortization formula?
 
-The amortization formula calculates the fixed monthly payment needed to repay a loan. It is: M = P × r × (1 + r)^n / ((1 + r)^n − 1), where M is the monthly payment, P is the principal, r is the monthly interest rate, and n is the total number of payments.
+The formula calculates the fixed monthly payment you need to repay a loan. It factors in your loan amount, interest rate, and term to give you a consistent payment that covers both principal and interest over time.
 
-### How does making extra payments affect my loan?
+### How do extra payments help?
 
-Extra payments reduce your principal faster, which lowers the total interest you pay and shortens your loan term. This amortization calculator shows you exactly how much time and money you can save.
-
+Extra payments go straight to reducing your principal, which means you pay less interest overall and finish paying off your loan sooner. Our calculator shows you exactly how much time and money you'll save with those extra contributions.
 ---
-

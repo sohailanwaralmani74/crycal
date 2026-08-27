@@ -149,91 +149,92 @@ faq:
     answer: "The two plans function very similarly, but 403(b) plans are offered by nonprofit, educational, and religious organizations, while 401(k) plans are offered by for-profit employers. Both offer tax-deferred (or Roth) growth."
 ---
 
-# 403b Calculator - Estimate Retirement Account Wealth
+# 403(b) Calculator – Plan Your Retirement with Confidence
 
-Use the **403(b) Calculator** to project your retirement account growth based on salary, contribution rate, employer match, and investment returns.
+If you work in education, a nonprofit, or a religious organization, your 403(b) is likely your primary retirement vehicle. Our **403(b) Calculator** helps you see exactly where you're headed—projecting your balance at retirement based on your salary, contributions, employer match, and expected returns.
 
 <!-- more -->
 
-## How the 403(b) Calculator Works
+## How This 403(b) Planner Works
 
-A **403(b) plan** is a tax-advantaged retirement account for employees of schools, nonprofits, and certain religious organizations. This calculator projects your balance at retirement, factoring in rising salary and employer matching.
+A **403(b) plan** works a lot like a 401(k)—but it's designed specifically for employees of public schools, nonprofits, and certain religious organizations. This tool takes your current savings, contributions, employer match, and projected salary growth, then shows you what your retirement picture could look like.
 
-This **403(b) calculator** computes:
+Here's what you'll get:
 
-- **Projected Balance at Retirement** — your estimated ending balance
-- **Total Your Contributions** — cumulative employee contributions over time
-- **Total Employer Match** — cumulative employer contributions
-- **Total Investment Growth** — how much your money grew from returns
-
----
-
-## 403(b) Growth Formula
-
-Each year, contributions are calculated as:
-
-**Your Contribution = Salary × Contribution % (Salary grows annually by Salary Growth Rate)**
-
-**Employer Match = Salary × Employer Match %**
-
-The combined balance compounds monthly at the expected annual return until retirement.
+- **Your Projected Balance at Retirement** — a clear estimate of what you'll have saved
+- **Your Total Contributions** — everything you've put in over the years
+- **Your Employer's Total Match** — the full value of what your employer contributed
+- **Total Investment Growth** — how much your money earned from compound returns
 
 ---
 
-## 403(b) Examples
+## The Math Behind the Scenes (Kept Simple)
 
-### Example 1: Mid-Career Educator
+Each year, we calculate contributions like this:
 
-| Variable | Value |
-|----------|-------|
+**Your Contribution** = Your salary × your contribution percentage  
+*(Your salary grows each year based on the salary growth rate you set)*
+
+**Employer Match** = Your salary × employer match percentage
+
+Your total balance compounds monthly at your expected annual return until you retire—giving you a realistic projection of your retirement wealth.
+
+---
+
+## Real-Life Examples
+
+### Example 1: A Mid-Career Educator
+
+| Input | Your Numbers |
+|-------|---------------|
 | Current Balance | $40,000 |
 | Annual Salary | $75,000 |
-| Contribution Rate | 8% |
+| Your Contribution Rate | 8% |
 | Employer Match | 3% |
-| Annual Return | 7% |
-| Years to Retirement | 25 |
-| **Projected Balance** | **$556,000+** |
+| Expected Annual Return | 7% |
+| Years Until Retirement | 25 |
+| **Estimated Retirement Balance** | **$556,000+** |
 
-### Example 2: Early-Career Nonprofit Employee
+### Example 2: An Early-Career Nonprofit Professional
 
-| Variable | Value |
-|----------|-------|
+| Input | Your Numbers |
+|-------|---------------|
 | Current Balance | $5,000 |
 | Annual Salary | $55,000 |
-| Contribution Rate | 6% |
+| Your Contribution Rate | 6% |
 | Employer Match | 2% |
-| Annual Return | 7% |
-| Years to Retirement | 35 |
-| **Projected Balance** | **$480,000+** |
+| Expected Annual Return | 7% |
+| Years Until Retirement | 35 |
+| **Estimated Retirement Balance** | **$480,000+** |
 
 ---
 
-## Who Benefits from the 403(b) Calculator?
+## Who Is This Calculator For?
 
-This **403(b) calculator** is designed for:
+This tool is especially helpful if you're:
 
-- **Teachers and school employees** planning for retirement
-- **Nonprofit employees** projecting long-term savings growth
-- **Healthcare workers** at nonprofit hospitals maximizing employer match
-- **Financial planners** modeling retirement scenarios for nonprofit-sector clients
+- **A teacher or school employee** — planning for a comfortable retirement
+- **Working at a nonprofit** — wanting to maximize your long-term savings
+- **In healthcare at a nonprofit hospital** — making the most of your employer match
+- **A financial planner** — modeling retirement scenarios for nonprofit-sector clients
 
 ---
 
-## 403b Calculator Frequently Asked Questions
+## Common Questions About 403(b) Plans
 
-### What is a 403(b) plan?
+### What exactly is a 403(b) plan?
 
-A 403(b) plan is a tax-advantaged retirement savings plan available to employees of public schools, nonprofit organizations, and certain ministers, functioning similarly to a 401(k) offered by for-profit employers.
+Think of it as the nonprofit version of a 401(k). It's a tax-advantaged retirement savings plan available to employees of public schools, nonprofits, and certain religious organizations. It works much the same way—you contribute pre-tax (or Roth) dollars, and your money grows tax-deferred.
 
-### How is 403(b) growth calculated?
+### How is my 403(b) growth calculated?
 
-403(b) growth is calculated by compounding your existing balance and ongoing contributions (both yours and your employer's match) at your expected rate of return over your years until retirement.
+Your balance grows through a combination of compound returns on your existing savings, plus ongoing contributions from both you and your employer—all multiplied by your expected rate of return over your remaining working years.
 
-### Does my employer match count toward my contribution limit?
+### Does my employer's match count toward my contribution limit?
 
-Employer matching contributions do not count against your individual employee elective deferral limit, though they do count toward the overall combined contribution limit for the plan.
+No—your employer's matching contributions don't count against your personal elective deferral limit. However, they do count toward the overall combined contribution limit for the plan.
 
 ### What's the difference between a 403(b) and a 401(k)?
 
-The two plans function very similarly, but 403(b) plans are offered by nonprofit, educational, and religious organizations, while 401(k) plans are offered by for-profit employers. Both offer tax-deferred (or Roth) growth.
-
+They're very similar! The key difference is the type of employer: 403(b) plans are for nonprofits, schools, and religious organizations, while 401(k) plans are for for-profit companies. Both offer tax-deferred (or Roth) growth and similar contribution structures.
+---

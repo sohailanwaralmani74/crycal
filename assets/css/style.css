@@ -3,11 +3,11 @@
 ════════════════════════════════════════ */
 
 :root {
-  --ink: #0B2027;
+  --ink: #083848;
   --paper: #FFFFFF;
   --surface: #F4F6F5;
-  --accent: #C08A2E;
-  --profit: #2F6F5E;
+  --accent: #07dbd7;
+  --profit: #07dbd7;
   --loss: #B23A3A;
   --text-primary: var(--ink);
   --text-muted: #4A5B64;

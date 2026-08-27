@@ -4,21 +4,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
   <meta name="p:domain_verify" content="aa664de7480cdb801dd52bd92865874c"/>
   <meta name="5942a151831a50ef6c77896289baa4ec9e4f2cd7" content="5942a151831a50ef6c77896289baa4ec9e4f2cd7" />
-  <title>{% if page.title %}{{ page.title | escape }} {% else %}Wanjaaro — Free Personal Finance Calculators{% endif %}</title>
+  <title>{% if page.title %}{{ page.title | escape }} {% else %}Wanjaaros — Free Personal Finance Calculators{% endif %}</title>
   
   {% if page.description %}
     <meta name="description" content="{{ page.description | escape }}">
   {% else %}
-    <meta name="description" content="Free, browser-based position size calculators for Forex, Stocks, Crypto, Options, and Futures. No signup, no server uploads — your data stays local.">
+    <meta name="description" content="Free, browser-based financial calculators for personal finance decisions. No signup, no server uploads — your data stays local.">
   {% endif %}
 
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   
   <!-- Favicon placeholder -->
-  <link rel="icon" href="/assets/img/favicon/wanjaaro.ico" type="image/x-icon">
+  <link rel="icon" href="/assets/img/favicon/wanjaaro.webp" type="image/x-icon">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}Wanjaaro — Trading Calculators{% endif %}">
+  <meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}Wanjaaros — Trading Calculators{% endif %}">
   <meta property="og:description" content="{% if page.description %}{{ page.description | escape }}{% else %}Free browser-based position size calculators for traders. No signup required.{% endif %}">
   <meta property="og:url" content="{{ page.url | absolute_url }}">
   <meta property="og:type" content="website">
@@ -27,7 +27,7 @@
   <meta property="og:image:height" content="630">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{% if page.title %}{{ page.title | escape }}{% else %}Wanjaaro — Trading Calculators{% endif %}">
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title | escape }}{% else %}Wanjaaros — Trading Calculators{% endif %}">
   <meta name="twitter:description" content="{% if page.description %}{{ page.description | escape }}{% else %}Free browser-based position size calculators for traders. No signup required.{% endif %}">
   <meta name="twitter:image" content="{% if page.image %}{{ page.image | absolute_url }}{% else %}{% assign og_slug = page.name | remove: '.html' | remove: '.md' %}{% assign og_image_path = '/assets/img/' | append: og_slug | append: '.webp' %}{{ og_image_path | absolute_url }}{% endif %}">
   <!-- Fonts: Georgia + system-ui (no external requests) -->

@@ -9,9 +9,9 @@ shortName: "Budgeting"
 ---
 
 <section class="hero-section">
-  <h1>Budgeting — Household Cash Flow &amp; Expense Calculators</h1>
+  <h1>Budgeting — Take Control of Your Money, One Dollar at a Time</h1>
   <p>
-    Focused on mastering personal cash flow, emergency financial reserves, household expense sharing, and net worth growth. Utilize our five specialized budgeting calculators to create structured monthly spending plans and build financial stability.
+    Mastering your cash flow is the first step to financial freedom. Whether you're building an emergency fund, tracking your net worth, or splitting household expenses, our five specialized budgeting calculators give you the clarity you need to make smarter money decisions every day.
   </p>
 </section>
 
@@ -34,53 +34,58 @@ shortName: "Budgeting"
 <!-- ============================================================ -->
 
 <section class="content-section">
-  <h2>Structured Household Budgeting & Wealth Tracking</h2>
+  <h2>Where Your Money Goes—and Where You Want It to Go</h2>
   <p>
-    Budgeting provides the structural foundation for all personal financial success. Without clear tracking of monthly gross income, fixed overhead, variable discretionary spending, and net savings rates, it is impossible to optimize long-term wealth building or debt elimination. A proactive budget converts income into intentional financial progress.
+    Budgeting isn't about restriction—it's about intention. Without a clear picture of your income, fixed costs, and spending habits, it's nearly impossible to build wealth or get out of debt. A good budget turns your money into a tool that works for you, not against you.
   </p>
   <p>
-    Our <strong>50/30/20 Budget Calculator</strong> implements the popular allocation framework, dividing net income into 50% Needs (housing, utilities, food), 30% Wants (entertainment, hobbies), and 20% Financial Goals (savings, debt payoff, investments). For wage earners, the <strong>Hourly to Salary Calculator</strong> converts hourly rates, overtime hours, and pay periods into clear gross and net annualized compensation.
+    Our <strong>50/30/20 Budget Calculator</strong> makes the popular budgeting framework simple: 50% of your income goes to Needs (housing, utilities, groceries), 30% to Wants (dining out, hobbies, entertainment), and 20% to Financial Goals (savings, debt payoff, investing). For hourly workers, the <strong>Hourly to Salary Calculator</strong> converts your hourly rate, overtime, and pay schedule into a clear annual salary—so you always know your true earning power.
   </p>
   <p>
-    To protect against economic uncertainty, the <strong>Emergency Fund Calculator</strong> computes ideal 3-to-6-month cash reserve targets based on essential monthly expenses. Additionally, our <strong>Net Worth Calculator</strong> aggregates total personal assets against liabilities to track overall financial health over time.
+    Life throws curveballs—that's why the <strong>Emergency Fund Calculator</strong> helps you figure out exactly how much you need to set aside for a rainy day. And to see the big picture, our <strong>Net Worth Calculator</strong> aggregates all your assets and liabilities, giving you a snapshot of your overall financial health. Plus, the <strong>Debt-to-Income Ratio Calculator</strong> shows you where you stand relative to what lenders look for—essential knowledge whether you're applying for a mortgage or just keeping tabs on your financial fitness.
   </p>
 
-  <h2>Essential Budgeting Benchmarks & Metrics</h2>
+  <h2>Key Benchmarks to Keep You on Track</h2>
   <p>
-    Track these widely accepted financial planning benchmarks to gauge cash flow health:
+    These widely followed financial guidelines can help you measure your progress and stay on course:
   </p>
   <ul>
-    <li><strong>50/30/20 Rule Guideline:</strong> Allocate up to 50% of take-home pay for essential needs, 30% for discretionary wants, and a minimum of 20% toward savings and debt elimination.</li>
-    <li><strong>Emergency Reserve Benchmark:</strong> Maintain 3 months of essential living expenses for dual-income households, and 6 months of expenses for single-income or variable 1099 earners.</li>
-    <li><strong>Savings Rate Benchmark:</strong> A baseline healthy personal savings rate is 15% to 20% of gross annual income; early retirement (FIRE) plans target 50%+ savings rates.</li>
-    <li><strong>Housing Expense Ceiling:</strong> Keep total housing expenses (rent or mortgage, utilities, insurance) under 30% of gross monthly income to avoid being house poor.</li>
+    <li><strong>50/30/20 Rule</strong> — Keep essential Needs under 50% of your take-home pay, limit Wants to 30%, and prioritize at least 20% toward savings and debt.</li>
+    <li><strong>Emergency Fund Target</strong> — Aim for 3 months of expenses if you have a stable dual-income household, and 6 months if you're a freelancer, single earner, or have variable income.</li>
+    <li><strong>Healthy Savings Rate</strong> — A solid goal is 15% to 20% of your gross income. If FIRE (Financial Independence, Retire Early) is your goal, you'll want to aim for 50% or more.</li>
+    <li><strong>Housing Cost Ceiling</strong> — Keep total housing costs (rent or mortgage, utilities, insurance) under 30% of your gross monthly income to avoid being house poor.</li>
   </ul>
 
-  <h2>Step-by-Step Practical Guide to Building a Budget</h2>
+  <h2>Build Your Budget in 5 Simple Steps</h2>
   <p>
-    Follow these five practical steps to establish an intentional spending and savings routine:
+    Ready to take control? Follow these steps to create a budget that actually works for your life:
   </p>
   <ol>
-    <li><strong>Calculate Net Monthly Take-Home Pay:</strong> Determine total net monthly income after taxes, healthcare deductions, and mandatory retirement contributions.</li>
-    <li><strong>Audit Fixed Monthly Overhead:</strong> Categorize non-negotiable living costs including rent/mortgage, utilities, insurance, minimum debt payments, and basic groceries.</li>
-    <li><strong>Set Target Savings &amp; Investment Contributions:</strong> Automate transfers of at least 20% of net income to savings goals and investment accounts before spending.</li>
-    <li><strong>Allocate Discretionary Wants Pool:</strong> Establish clear monthly spending caps for dining out, subscriptions, recreation, and personal shopping.</li>
-    <li><strong>Track Net Worth Quarterly:</strong> Update total assets (bank balances, investments, property equity) minus liabilities (loans, credit card debt) every 90 days.</li>
+    <li><strong>Know your net income</strong> — figure out exactly what hits your bank account each month after taxes and deductions.</li>
+    <li><strong>List your fixed costs</strong> — rent, utilities, insurance, minimum debt payments, and groceries. These are your non-negotiables.</li>
+    <li><strong>Set savings and investment goals</strong> — automate at least 20% of your income to savings or investment accounts before you spend anything else.</li>
+    <li><strong>Give yourself a wants budget</strong> — decide how much you can comfortably spend on dining out, entertainment, and personal treats each month.</li>
+    <li><strong>Track your net worth quarterly</strong> — every 90 days, add up your assets (cash, investments, home equity) and subtract your liabilities (loans, credit cards) to see your progress.</li>
   </ol>
 
   <h2>Frequently Asked Questions</h2>
-  <h3>What is the 50/30/20 budget rule and how does it work?</h3>
+  <h3>What is the 50/30/20 rule and how do I use it?</h3>
   <p>
-    The 50/30/20 rule is a simple budgeting framework that splits take-home income into three categories: 50% for essential needs (housing, groceries, utilities), 30% for lifestyle wants (dining out, entertainment), and 20% for financial goals (savings, debt payoff).
+    It's a simple way to organize your money: 50% of your take-home pay goes to Needs (rent, groceries, utilities), 30% to Wants (eating out, movies, subscriptions), and 20% to Savings and Debt Payoff. It's a great starting point for anyone new to budgeting.
   </p>
-  <h3>How many months of living expenses should be in an emergency fund?</h3>
+  <h3>How much should I have in my emergency fund?</h3>
   <p>
-    Financial experts generally recommend saving 3 to 6 months of essential living expenses. Dual-income families with stable jobs can aim for 3 months, while freelancers, single earners, or those with high commission income should maintain 6 months or more.
+    Most experts recommend 3 to 6 months of essential living expenses. If you have a stable job and a partner who also works, 3 months might be enough. If you're self-employed, a freelancer, or the sole earner in your household, aim for 6 months or more.
   </p>
-  <h3>How do I convert an hourly wage into an annual salary?</h3>
+  <h3>How do I convert my hourly wage to a salary?</h3>
   <p>
-    Multiply your hourly rate by the number of hours worked per week (typically 40), then multiply by 52 weeks per year. For example, $25 per hour × 40 hours × 52 weeks equals an annual gross salary of $52,000.
+    Multiply your hourly rate by the number of hours you work per week (typically 40), then multiply that by 52 weeks. For example: $25/hour × 40 hours × 52 weeks = $52,000 per year. Our <strong>Hourly to Salary Calculator</strong> does this for you in seconds—and even factors in overtime.
   </p>
+  <h3>What's a good debt-to-income (DTI) ratio?</h3>
+  <p>
+    Lenders typically look for a DTI of 36% or lower. That means your total monthly debt payments (including your mortgage, car loans, and credit cards) should be less than 36% of your gross monthly income. Our <strong>Debt-to-Income Ratio Calculator</strong> helps you figure out exactly where you stand.
+  </p>
+</section>
 
   <h3>Related Finance Categories</h3>
   <div class="related-cats-grid">

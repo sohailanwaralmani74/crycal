@@ -179,53 +179,49 @@ faq:
 
 ---
 
-# Barista Fire Calculator - Calculate & Optimize Results
+# Barista FIRE Calculator – Semi-Retire Sooner Than You Think
 
-Calculate your **Barista FIRE number** with our free Barista FIRE Calculator. Enter your current savings, retirement expenses, and expected part-time income to find out when you can semi-retire and enjoy a flexible lifestyle — all without your data leaving your browser.
+What if you could ditch the 9-to-5 grind years—or even decades—earlier than traditional retirement? That's exactly what Barista FIRE makes possible. Our **Barista FIRE Calculator** shows you how much you need to save so you can trade full-time work for a flexible, part-time lifestyle—without running out of money.
 
 <!-- more -->
 
-## Why Use This Barista FIRE Calculator
+## Why This Calculator Changes the Game
 
-Barista FIRE is the sweet spot where you've saved enough that a part-time job can cover your remaining expenses. Our **Barista FIRE Calculator** helps you:
+Barista FIRE is the sweet spot where you've saved enough that a part-time job can cover your remaining expenses. Our calculator helps you:
 
-- 🏖️ **Find Your Barista FIRE Number** — know exactly how much you need to semi-retire.
-- 📊 **Compare Full FIRE vs Barista FIRE** — see the difference part-time work makes.
-- 💰 **Plan Your Part-Time Income** — understand how much you need to earn.
-- ⏱️ **Estimate Your Timeline** — discover when you can transition to semi-retirement.
-- 📈 **Visualize Growth** — watch your portfolio grow to your Barista FIRE target.
-- 🔒 **100% Private** — all calculations run locally in your browser.
+- 🏖️ **Find Your Barista FIRE Number** — know exactly how much you need to semi-retire
+- 📊 **Compare Full FIRE vs Barista FIRE** — see how much time and money part-time work saves you
+- 💰 **Plan Your Part-Time Income** — figure out how much you need to earn to make it work
+- ⏱️ **Estimate Your Timeline** — discover when you can transition to semi-retirement
+- 📈 **Visualize Your Progress** — watch your portfolio grow toward your target
+- 🔒 **100% Private** — all calculations run locally in your browser
 
 ---
 
-## What Is Barista FIRE?
+## What Exactly Is Barista FIRE?
 
-Barista FIRE is a flexible approach to early retirement where you:
+Think of Barista FIRE as **semi-retirement**—the best of both worlds. You:
 
-- **Semi-retire early** (often in your 30s, 40s, or 50s)
-- **Work part-time** (like a barista, consultant, or freelancer) to cover some expenses
+- **Step away from full-time work** earlier than traditional retirement
+- **Work part-time** (think: a coffee shop, consulting, freelancing, or any flexible gig)
 - **Let your investments** cover the rest of your living costs
-- **Enjoy more freedom** without the pressure of full-time work
+- **Enjoy more freedom** without the stress of saving for full retirement
 
-This approach is more accessible than traditional FIRE because your savings target is lower — you only need to cover the **gap** between your expenses and your part-time income.
+The beauty? Your savings target is much lower than traditional FIRE because you only need to cover the **gap** between your expenses and your part-time income.
 
 ---
 
-## The Barista FIRE Formula
+## The Simple Math Behind Barista FIRE
 
-The Barista FIRE formula calculates how much you need invested so your portfolio covers the gap between your expenses and part-time income.
+### Step 1: Your Full FIRE Number (No Work at All)
+**Full FIRE Number =** Annual Expenses ÷ Safe Withdrawal Rate
 
-**Step 1: Calculate Your Full FIRE Number (No Part-Time Work)**
+If you need $50,000 per year and use the 4% rule, your full FIRE number is **$1,250,000**.
 
-**Full FIRE Number = Annual Expenses ÷ Safe Withdrawal Rate**
+### Step 2: Your Barista FIRE Number (With Part-Time Work)
+**Barista FIRE Number =** (Annual Expenses – Part-Time Income) ÷ Safe Withdrawal Rate
 
-Using the 4% rule: if you need $50,000 per year, your full FIRE number is $1,250,000.
-
-**Step 2: Calculate Your Barista FIRE Number (With Part-Time Work)**
-
-**Barista FIRE Number = (Annual Expenses – Annual Part-Time Income) ÷ Safe Withdrawal Rate**
-
-**Example:**
+**Here's a real example:**
 
 | Variable | Value |
 |----------|-------|
@@ -233,45 +229,32 @@ Using the 4% rule: if you need $50,000 per year, your full FIRE number is $1,250
 | Part-Time Income | $25,000 |
 | Expenses Gap | $25,000 |
 | Safe Withdrawal Rate | 4% |
-| **Barista FIRE Number** | **$25,000 ÷ 0.04 = $625,000** |
+| **Barista FIRE Number** | **$625,000** |
 
-You need $625,000 invested, not $1,250,000 — that's **half the savings target**!
+*That's half the savings target—$625,000 vs. $1,250,000!*
 
 ---
 
 ## Barista FIRE vs Other FIRE Approaches
 
-| FIRE Type | Savings Target | Work Status | Ideal For |
-|-----------|---------------|-------------|-----------|
-| **Full FIRE** | Expenses ÷ SWR | No work | Those who want complete freedom |
-| **Barista FIRE** | (Expenses – Part-Time Income) ÷ SWR | Part-time work | Those who enjoy some work but want flexibility |
+| FIRE Type | Savings Target | Work Status | Best For |
+|-----------|---------------|-------------|----------|
+| **Full FIRE** | Expenses ÷ SWR | No work | Complete financial independence |
+| **Barista FIRE** | (Expenses – Part-Time Income) ÷ SWR | Part-time | Those who enjoy some structure but want flexibility |
 | **Coast FIRE** | FIRE Target ÷ (1 + Return)^Years | Any work (no more saving) | Those who want to stop saving entirely |
-| **Lean FIRE** | Minimal Expenses ÷ SWR | No work | Those who can live on very little |
-| **Fat FIRE** | High Expenses ÷ SWR | No work | Those who want luxury retirement |
+| **Lean FIRE** | Minimal Expenses ÷ SWR | No work | Minimalists who live on very little |
+| **Fat FIRE** | High Expenses ÷ SWR | No work | Luxury retirement with plenty of cushion |
 
 ---
 
-## How to Use This Barista FIRE Calculator
+## Meet Sarah: Barista FIRE in Real Life
 
-1. **Enter your current age** — your age today.
-2. **Set your target full retirement age** — when you plan to fully retire.
-3. **Enter your current retirement savings** — how much you have saved today.
-4. **Enter your expected annual retirement expenses** — how much you'll need per year.
-5. **Enter your expected part-time income** — how much you'll earn from part-time work.
-6. **Set your safe withdrawal rate** — the 4% rule is standard (adjustable).
-7. **Enter your expected annual return** — use a realistic long-term rate (7% is common).
-8. **View your results** — see your Barista FIRE number, progress, and timeline.
-
----
-
-## Example: Barista FIRE in Action
-
-**Meet Sarah (Age 32):**
+**Sarah is 32.** Here's her plan:
 
 | Variable | Value |
 |----------|-------|
 | Annual Expenses | $55,000 |
-| Part-Time Income (Barista) | $30,000 |
+| Part-Time Income | $30,000 |
 | Expenses Gap | $25,000 |
 | Safe Withdrawal Rate | 4% |
 | Current Savings | $200,000 |
@@ -280,43 +263,82 @@ You need $625,000 invested, not $1,250,000 — that's **half the savings target*
 | **Years to Barista FIRE** | **~16 years** |
 | **Barista FIRE Age** | **48** |
 
-Sarah can semi-retire at age 48 with $625,000 invested, earning $30,000/year from part-time work, and letting her investments cover the remaining $25,000/year.
+*At 48, Sarah can semi-retire with $625,000 invested, earn $30,000/year from part-time work, and let her investments cover the remaining $25,000/year.*
 
 ---
 
-## How Part-Time Income Affects Your Timeline
+## How Part-Time Income Accelerates Your Timeline
+
+The more you earn from part-time work, the faster you reach Barista FIRE:
 
 | Part-Time Income | Barista FIRE Number | Years to Barista FIRE |
 |------------------|---------------------|-----------------------|
 | $0 (Full FIRE) | $1,250,000 | ~30 years |
 | $15,000 | $875,000 | ~23 years |
-| $25,000 | $625,000 | ~17 years |
+| **$25,000** | **$625,000** | **~17 years** |
 | $35,000 | $375,000 | ~10 years |
 | $45,000 | $125,000 | ~3 years |
 
-Higher part-time income = lower savings target = faster Barista FIRE.
+*The takeaway? Even a modest part-time income slashes your savings target—and your timeline.*
 
 ---
 
-## Barista Fire Calculator Frequently Asked Questions
+## How to Use This Calculator
 
-### What is Barista FIRE?
+Getting your personalized Barista FIRE plan is quick and easy:
 
-Barista FIRE is a variation of the FIRE movement where you semi-retire early and work a part-time job to cover a portion of your living expenses. Your investments cover the rest.
+1. **Enter your current age** — where you are right now.
+2. **Set your target full retirement age** — when you want to stop working entirely.
+3. **Enter your current retirement savings** — what you've already saved.
+4. **Enter your expected annual expenses in retirement** — what you'll need each year.
+5. **Enter your expected part-time income** — how much you'll earn from your flexible gig.
+6. **Set your safe withdrawal rate** — 4% is standard, but you can adjust it.
+7. **Enter your expected annual return** — a realistic long-term rate (7% is common).
+8. **View your results instantly** — see your Barista FIRE number, progress, and timeline.
+
+---
+
+## Who Is This Calculator For?
+
+This Barista FIRE tool is perfect for:
+
+- **Anyone dreaming of early retirement** — but worried about saving a million+
+- **Savers** — who want to escape the 9-to-5 but still enjoy some work
+- **Creative, flexible thinkers** — who want to design their own work-life balance
+- **Anyone** — curious about the FIRE movement and its more accessible options
+
+---
+
+## Common Questions About Barista FIRE
+
+### What is Barista FIRE in plain English?
+
+It's semi-retirement. You leave full-time work early, pick up a part-time gig (like a barista, consultant, or freelancer) to cover some expenses, and let your investments handle the rest. It's more accessible than traditional FIRE because you need less saved.
 
 ### How is Barista FIRE different from Coast FIRE?
 
-Coast FIRE means you stop saving entirely and let compound interest work. Barista FIRE means you continue working part-time to cover some expenses while your investments grow.
+- **Coast FIRE** — you stop saving entirely and let compound interest do the work; you may still work full-time.
+- **Barista FIRE** — you continue working part-time to cover a portion of your living expenses while your investments cover the rest.
 
-### How is Barista FIRE calculated?
+### How is the Barista FIRE number calculated?
 
-Barista FIRE Number = (Annual Expenses – Annual Part-Time Income) ÷ Safe Withdrawal Rate.
+**Barista FIRE Number =** (Annual Expenses – Annual Part-Time Income) ÷ Safe Withdrawal Rate.
 
-### What is a good Barista FIRE number?
+Simple math, life-changing results.
 
-Your Barista FIRE number depends on your expenses and part-time income. For example, if your annual expenses are $50,000 and you earn $25,000 from part-time work, your Barista FIRE number is $625,000.
+### What's a typical Barista FIRE number?
 
-### How many hours will I need to work in Barista FIRE?
+It completely depends on your expenses and part-time income. For example, if your annual expenses are $50,000 and you earn $25,000 from part-time work, your target is $625,000. If you earn $35,000, your target drops to $375,000.
 
-The calculator estimates your hours based on your part-time income and hourly rate. If you earn $25,000 per year at $25/hour, you'd work about 20 hours per week.
+### How many hours would I need to work in Barista FIRE?
 
+That's up to you! If you earn $25,000 per year at $25/hour, you'd work about **20 hours per week**. Our calculator shows you the numbers based on your income and hourly rate.
+
+### Is Barista FIRE realistic?
+
+Absolutely—especially if you're flexible about where you live, what you do, and how much you spend. The key is covering that gap between your expenses and your part-time income. The smaller the gap, the sooner you're there.
+
+---
+
+> **☕ Quick Tip:** Barista FIRE isn't just about coffee shop jobs—it's about any flexible, part-time work you enjoy. Consulting, freelance writing, teaching, or turning a hobby into income all count. The point isn't the job title—it's the freedom to design your own life.
+---

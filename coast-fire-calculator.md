@@ -160,113 +160,136 @@ faq:
 
 ---
 
-# Coast Fire Calculator - Calculate & Optimize Results
+# Coast FIRE Calculator – Reach the Point Where Your Money Does All the Work
 
-Calculate your **Coast FIRE number** with our free Coast FIRE Calculator. Enter your current savings, retirement goals, and expected returns to see when you can stop contributing and let compound interest carry you to retirement — all without your data leaving your browser.
+Imagine the day you stop saving for retirement—because you've already saved enough. That's Coast FIRE. Our **Coast FIRE Calculator** helps you find that number and see how close you are to financial freedom. No more aggressive saving—just let compound interest carry you the rest of the way.
 
 <!-- more -->
 
-## Why Use This Coast FIRE Calculator
+## Why This Calculator Changes Everything
 
-Coast FIRE is the financial sweet spot where you've saved enough that your investments will grow to fully fund your retirement — without adding another dollar. Our **Coast FIRE Calculator** helps you:
+Coast FIRE is the sweet spot where your existing investments will grow to fully fund your retirement—without you adding another dollar. Our **Coast FIRE Calculator** helps you:
 
-- 💰 **Find Your Coast FIRE Number** — know exactly how much you need today to coast to retirement.
-- 📈 **Track Your Progress** — see how close you are to financial independence.
-- 🏖️ **Plan Your Freedom** — discover when you can stop aggressive saving and start living more freely.
-- 📊 **Visualize Growth** — watch your portfolio grow to your retirement target.
-- 🔒 **100% Private** — all calculations run locally in your browser.
-
----
-
-## What Is Coast FIRE?
-
-Coast FIRE is a variant of the FIRE (Financial Independence, Retire Early) movement. It means you've saved and invested enough that your existing portfolio — left alone to grow at a normal market rate — will reach your retirement number on its own, without any additional contributions.[reference:0][reference:1]
-
-Think of it as hitting the savings finish line early. Your money does the rest of the work through compound interest.[reference:2]
-
-Once you hit your Coast FIRE number:
-- You can stop saving for retirement entirely[reference:3]
-- You can take lower-paying but more fulfilling jobs[reference:4]
-- You can work fewer hours or pursue passion projects[reference:5]
-- You're no longer stressed about hitting a specific savings target each month[reference:6]
+- 💰 **Find Your Coast FIRE Number** — know exactly how much you need today to coast to retirement
+- 📈 **Track Your Progress** — see how close you are to financial independence
+- 🏖️ **Plan Your Freedom** — discover when you can stop aggressive saving and start living more freely
+- 📊 **Visualize Your Growth** — watch your portfolio grow to your retirement target over time
+- 🔒 **100% Private** — all calculations run locally in your browser
 
 ---
 
-## The Coast FIRE Formula
+## What Is Coast FIRE? (The Short Version)
 
-The Coast FIRE formula calculates how much you need invested **today** so compound growth alone covers your retirement goal.[reference:7][reference:8]
+**Coast FIRE** means you've saved and invested enough that your existing portfolio—left alone to grow at a normal market rate—will reach your retirement number on its own, without any additional contributions.
 
-**Step 1: Calculate Your FIRE Number**
+Think of it as hitting the savings finish line early. Your money does the rest of the work through the magic of compound interest.
 
-**FIRE Number = Annual Retirement Spending ÷ Safe Withdrawal Rate**
+**Once you hit your Coast FIRE number:**
 
-Using the 4% rule: if you need $50,000 per year in retirement, your FIRE number is $1,250,000.[reference:9]
+- You can stop saving for retirement entirely
+- You can take lower-paying but more fulfilling jobs
+- You can work fewer hours or pursue passion projects
+- You're no longer stressed about hitting a specific savings target each month
 
-**Step 2: Calculate Your Coast FIRE Number**
+You're not necessarily retired—you're just **coasting**.
 
-**Coast FIRE Number = FIRE Number ÷ (1 + Expected Return)^Years to Retirement**[reference:10][reference:11]
+---
 
-**Example:**
+## The Simple Math Behind Coast FIRE
+
+### Step 1: Your Full FIRE Number
+**FIRE Number =** Annual Retirement Spending ÷ Safe Withdrawal Rate
+
+If you need $50,000 per year and use the 4% rule, your full FIRE number is **$1,250,000**.
+
+### Step 2: Your Coast FIRE Number
+**Coast FIRE Number =** FIRE Number ÷ (1 + Expected Return)^Years to Retirement
+
+**Here's a real example:**
 
 | Variable | Value |
 |----------|-------|
-| Annual Retirement Spending              | $50,000 |
-| Safe Withdrawal Rate                    | 4% |
-| FIRE Number                             | $1,250,000 |
-| Current Age                             | 30 |
-| Retirement Age                          | 65 |
-| Years to Retirement                     | 35 |
-| Expected Return                         | 7% |
-| **Coast FIRE Number**                   | **$1,250,000 ÷ (1.07)^35 = $117,000** |
+| Annual Retirement Spending | $50,000 |
+| Safe Withdrawal Rate | 4% |
+| FIRE Number | $1,250,000 |
+| Current Age | 30 |
+| Retirement Age | 65 |
+| Years to Retirement | 35 |
+| Expected Return | 7% |
+| **Coast FIRE Number** | **$1,250,000 ÷ (1.07)^35 = $117,000** |
 
-If you have $117,000 invested at age 30, you can stop saving and still have $1.25 million by age 65.[reference:12]
-
----
-
-## How to Use This Coast FIRE Calculator
-
-1. **Enter your current age** — your age today.
-2. **Set your target retirement age** — when you plan to retire.
-3. **Enter your current retirement savings** — how much you have saved today.
-4. **Enter your expected annual retirement spending** — how much you'll need per year in retirement.
-5. **Set your safe withdrawal rate** — the 4% rule is standard (adjustable).
-6. **Enter your expected annual return** — use a realistic long-term rate (7% is common).
-7. **View your results** — see your Coast FIRE number, progress, and timeline.
-
-The tool updates instantly as you adjust any input — no "Calculate" button required.
+*If you have $117,000 invested at age 30, you can stop saving and still have $1.25 million by age 65. That's the power of compound interest.*
 
 ---
 
-## Coast FIRE Examples
+## Coast FIRE in Real Life: See the Scenarios
 
-| Scenario | Age | Savings | Return | Spending | Coast FIRE Number | Status |
-|----------|-----|---------|--------|----------|-------------------|--------|
+| Scenario | Age | Current Savings | Return | Retirement Spending | Coast FIRE Number | Status |
+|----------|-----|-----------------|--------|---------------------|-------------------|--------|
 | Early Starter | 25 | $50,000 | 7% | $40,000 | $82,000 | Not yet |
 | On Track | 35 | $200,000 | 7% | $60,000 | $221,000 | Approaching |
-| Coast Achieved | 40 | $300,000 | 7% | $50,000 | $310,000 | ✅ Achieved! |
-| Coast Exceeded | 45 | $500,000 | 7% | $50,000 | $221,000 | ✅ Exceeded |
+| **Coast Achieved** | **40** | **$300,000** | **7%** | **$50,000** | **$310,000** | **✅ You're there!** |
+| Coast Exceeded | 45 | $500,000 | 7% | $50,000 | $221,000 | ✅ Well ahead |
 
 ---
 
-## Coast Fire Calculator Frequently Asked Questions
+## How to Use This Calculator
 
-### What is Coast FIRE?
+Getting your Coast FIRE number is quick and straightforward:
 
-Coast FIRE is the point where your existing investments will grow to fully fund your retirement without any additional contributions. You can stop saving and let compound interest do the rest.[reference:13]
+1. **Enter your current age** — how old you are right now.
+2. **Set your target retirement age** — when you want to stop working entirely.
+3. **Enter your current retirement savings** — what you've saved so far.
+4. **Enter your expected annual retirement spending** — how much you'll need each year in retirement.
+5. **Set your safe withdrawal rate** — 4% is the standard, but you can adjust it.
+6. **Enter your expected annual return** — a realistic long-term rate (7% is common for stock-heavy portfolios).
+7. **View your results instantly** — see your Coast FIRE number, your progress, and your timeline.
+
+The tool updates in real time—no "Calculate" button required.
+
+---
+
+## Who Benefits From This Calculator?
+
+- **Young professionals** — who want to know if they're on track to coast
+- **Mid-career savers** — looking to reduce stress and enjoy life more
+- **Anyone** — dreaming of financial independence
+- **Career-changers** — wanting to take a lower-paying, more fulfilling job
+- **Curious savers** — wondering "how much is enough to just let it grow?"
+
+---
+
+## Common Questions About Coast FIRE
+
+### What is Coast FIRE in plain English?
+
+It's the point where your existing investments will grow to fully fund your retirement—without you adding another dollar. You can stop saving and let compound interest do the rest. You're not retired yet, but you're no longer stressed about saving.
 
 ### How is Coast FIRE calculated?
 
-The Coast FIRE formula is: Coast FIRE Number = FIRE Target / (1 + Return Rate)^Years to Retirement. This calculates how much you need invested today to reach your retirement goal through compound growth alone.[reference:14]
+**Coast FIRE Number =** FIRE Target ÷ (1 + Return Rate)^Years to Retirement
 
-### What is the FIRE number?
+This tells you how much you need invested today to reach your retirement goal through compound growth alone.
 
-Your FIRE number is the total amount you need to retire. It's calculated as: Annual Retirement Spending ÷ Safe Withdrawal Rate. Using the 4% rule, if you need $50,000 per year, your FIRE number is $1,250,000.[reference:15]
+### What's the FIRE number?
 
-### What is a good Coast FIRE progress percentage?
+It's the total amount you need to retire. You calculate it as: **Annual Retirement Spending ÷ Safe Withdrawal Rate**. Using the 4% rule, if you need $50,000 per year, your FIRE number is $1,250,000.
 
-100% means you've reached Coast FIRE. Below 100%, you still need to save more. Above 100%, your portfolio is already on track to exceed your retirement goal.[reference:16]
+### What's a good Coast FIRE progress percentage?
+
+- **100%** — you've reached Coast FIRE
+- **Below 100%** — you still need to save more
+- **Above 100%** — your portfolio is already on track to exceed your retirement goal
 
 ### Is the 4% safe withdrawal rate still valid?
 
-The 4% rule is a guideline based on historical market data. Many experts suggest 3.5-4% for longer retirements. You can adjust this rate in the calculator to match your risk tolerance.
+The 4% rule is a widely used guideline based on historical market data. Many experts suggest 3.5% to 4% for longer retirements. You can adjust this rate in the calculator to match your risk tolerance.
 
+### What if the market doesn't perform as expected?
+
+That's a valid concern. The calculator uses a fixed return assumption, but real markets fluctuate. Most Coast FIRE planners use a conservative return estimate (like 6-7%) and monitor their progress over time. If markets underperform, you can always choose to save a little more.
+
+---
+
+> **🏖️ Quick Tip:** Coast FIRE isn't about quitting work entirely—it's about having the **freedom** to choose work you love without worrying about saving for retirement. Once you hit your Coast FIRE number, you can relax, work less, or pursue passion projects. Your future is already taken care of.
+---
