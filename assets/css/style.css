@@ -631,14 +631,14 @@ h4 { font-size: 1.1rem;  border-left: 0.1500rem solid transparent; border-left-c
 }
 
 .tool-main {
-  flex: 0 0 79%;
-  max-width: 79%;
+  flex: 0 0 74%;
+  max-width: 74%;
   min-width: 0;
 }
 
 .tool-sidebar {
-  flex: 0 0 20%;
-  max-width: 20%;
+  flex: 0 0 25%;
+  max-width: 25%;
   align-self: flex-start;
   position: sticky;
   top: 5rem; /* Adjust based on your header height */
