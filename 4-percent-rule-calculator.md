@@ -208,3 +208,4 @@ Yes—under the classic rule, your withdrawal dollar amount goes up each year wi
 ### What if the market takes a big hit?
 
 That's the catch with the classic 4% rule—it doesn't adjust for market drops. That's why many retirees now use dynamic strategies that cut back on spending during down years to help their portfolio last longer.
+---

@@ -218,44 +218,36 @@ The tool updates instantly as you adjust any input—no "Calculate" button requi
 
 ### What is compound interest?
 
-Compound interest is the interest earned on both your initial principal and the accumulated interest from previous periods. It's often called "interest on interest" and is the single most powerful force in long-term wealth building. When you use a **compound interest calculator**, you can see exactly how your money multiplies over time.
+Compound interest is the interest earned on both your initial principal and the accumulated interest from previous periods. It's often called "interest on interest" and is the single most powerful force in long-term wealth building — a compound interest calculator lets you see exactly how that plays out for your own numbers.
 
 ### How does compounding frequency affect my returns?
 
-More frequent compounding (daily vs monthly vs annual) results in higher returns because interest is calculated and added more often. The difference becomes more significant over longer periods—daily compounding typically yields the highest return for a given rate. A **daily compound interest calculator** can show you the maximum growth potential, while a **compound int calculator** with monthly frequency gives you a more conservative projection.
+More frequent compounding (daily vs. monthly vs. annual) results in higher returns, because interest is calculated and added more often. The difference becomes more significant over longer periods — daily compounding typically yields the highest return for a given rate, while monthly compounding gives a slightly more conservative projection.
 
 ### What is a realistic annual return rate to use?
 
-Use 7-10% for long-term stock market averages (historically accurate), 3-5% for conservative bonds or high-yield savings, and adjust based on your risk tolerance. Always use realistic, conservative estimates for planning. You can **estimate compound interest** with different rates to see how they affect your outcomes.
+Use 7-10% for long-term stock market averages (historically accurate), 3-5% for conservative bonds or high-yield savings, and adjust based on your risk tolerance. Always plan with realistic, conservative estimates rather than best-case numbers.
 
 ### Does this calculator adjust for inflation?
 
-Yes. Enter your expected inflation rate, and the "Inflation-Adjusted Value" output shows your future balance in today's dollars, giving you a clearer picture of real purchasing power. This helps you **figure compound interest** in terms of actual buying power, not just nominal returns.
+Yes. Enter your expected inflation rate, and the "Inflation-Adjusted Value" output shows your future balance in today's dollars — giving you a clearer picture of real purchasing power rather than just a nominal total.
 
 ### Is my financial data safe?
 
-Yes. Absolutely. All calculations run locally in your browser. We do not collect, store, or transmit any of your data. Your privacy is built into the tool's design—so when you **compute compound interest**, your numbers never leave your device.
+Yes. All calculations run locally in your browser. We do not collect, store, or transmit any of your data — your numbers never leave your device.
 
 ### Can I save or share my calculation?
 
-Yes. Use the **Share** button to generate a unique URL containing your exact inputs. Bookmark it, share it, or revisit it later—no account needed. This makes it easy to **find compound interest calculator** results you've previously run or share them with a financial advisor.
+Yes. Use the **Share** button to generate a unique URL containing your exact inputs. Bookmark it, revisit it later, or share it with a financial advisor — no account needed.
 
 ### What's the difference between simple and compound interest?
 
-**Simple interest** is calculated only on the principal amount. **Compound interest** is calculated on the principal plus any accumulated interest. That's why compound interest grows faster—it's interest on interest. Our calculator handles both, but it's specifically designed as a **compound and interest calculator** for long-term growth projections.
-
-### Can I use this as a cumulative interest calculator?
-
-Absolutely. Our calculator shows your total interest earned over the entire period—making it a perfect **cumulative interest calculator** for tracking your investment's total return. You can also use it as a **calculator cumulative interest** tool to see how much you've earned in total.
+Simple interest is calculated only on the principal amount. Compound interest is calculated on the principal plus any interest already earned — which is why it grows faster over time. This calculator handles both.
 
 ### What is the compound annual growth rate (CAGR)?
 
-CAGR is the annualized rate of return that would be required for an investment to grow from its initial value to its final value over a specific period. It's similar to a **compound growth rate calculator** concept—smoothing out volatility to show a consistent yearly growth rate.
-
-### Is this a good tool for figuring compound interest?
-
-Yes! Whether you're **figuring compound interest** for a retirement account, education savings, or investment portfolio, this tool gives you clear, accurate projections. It's designed to help you **compute compound interest** quickly and confidently, whether you're a beginner or an experienced investor.
+CAGR is the annualized rate of return that would be needed for an investment to grow from its starting value to its ending value over a given period. It's a related but different calculation from what this tool projects — CAGR works backward from a known start and end value, while this calculator projects forward from a rate you enter. If you're solving for CAGR specifically, use our [CAGR Calculator](https://wanjaaro.com/compound-annual-growth-rate-calculator).
 
 ---
 
-> **📈 Quick Tip:** The earlier you start saving, the more powerful compound interest becomes. Even small monthly contributions can grow into significant wealth over decades. Use this **calculate compound interest calculator** to experiment with different scenarios and find the savings rate that works for you.
+> **📈 Quick Tip:** The earlier you start saving, the more powerful compound interest becomes. Even small monthly contributions can grow into significant wealth over decades — try adjusting the inputs above to find a savings rate that works for you.
