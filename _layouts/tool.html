@@ -75,11 +75,6 @@ layout: default
       {% endfor %}
     </div>
 
-    <!-- ============================================================ -->
-    <!-- CRITICAL SEO FIX: Server-side conditional rendering          -->
-    <!-- Replaces "display: none" which Googlebot still reads in HTML -->
-    <!-- ============================================================ -->
-
     {% if page.tool_id == 'tax-bracket-calculator' %}
     <div id="bracketSection">
       <div class="debt-list-container" id="bracketList"></div>
