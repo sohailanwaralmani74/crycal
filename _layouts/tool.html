@@ -8,7 +8,6 @@ layout: default
 <div class="hero-section">
   {% assign content_parts = content | split: '<!-- more -->' %}
   {{ content_parts[0] }}
-
 </div>
 
 <!-- ============================================================ -->
@@ -18,8 +17,7 @@ layout: default
 
   <div class="tool-header">
     {{ page.title }}
-
-    <button class="btn-history" id="historyBtn" >📜 History</button>
+    <button class="btn-history" id="historyBtn">📜 History</button>
   </div>
 
   <!-- TOOLBAR -->
@@ -37,129 +35,100 @@ layout: default
   <!-- INPUTS AREA — DYNAMIC SINGLE ROW -->
   <div class="inputs-area" id="inputsArea">
     <div class="input-row-single" id="inputRow">
-  {% for input in page.inputs %}
-  <div class="input-group">
-    <label for="input_{{ input.id }}">{{ input.label }}</label>
-    <div class="input-wrapper">
-      {% if input.prefix %}
-      <span class="input-prefix">{{ input.prefix }}</span>
-      {% endif %}
+      {% for input in page.inputs %}
+      <div class="input-group">
+        <label for="input_{{ input.id }}">{{ input.label }}</label>
+        <div class="input-wrapper">
+          {% if input.prefix %}
+          <span class="input-prefix">{{ input.prefix }}</span>
+          {% endif %}
 
-      {% if input.type == "select" %}
-      <select id="input_{{ input.id }}" data-default="{{ input.default }}">
-        {% for option in input.options %}
-        {% if option.value %}
-        <option value="{{ option.value }}" {% if option.value == input.default %}selected{% endif %}>{{ option.label }}</option>
-        {% else %}
-        <option value="{{ option }}" {% if option == input.default %}selected{% endif %}>{{ option }}</option>
-        {% endif %}
-        {% endfor %}
-      </select>
+          {% if input.type == "select" %}
+          <select id="input_{{ input.id }}" data-default="{{ input.default }}">
+            {% for option in input.options %}
+            {% if option.value %}
+            <option value="{{ option.value }}" {% if option.value == input.default %}selected{% endif %}>{{ option.label }}</option>
+            {% else %}
+            <option value="{{ option }}" {% if option == input.default %}selected{% endif %}>{{ option }}</option>
+            {% endif %}
+            {% endfor %}
+          </select>
 
-      {% elsif input.type == "date" %}
-      <input type="date" id="input_{{ input.id }}" value="{{ input.default }}" placeholder="{{ input.placeholder }}"
-        data-default="{{ input.default }}">
+          {% elsif input.type == "date" %}
+          <input type="date" id="input_{{ input.id }}" value="{{ input.default }}" placeholder="{{ input.placeholder }}" data-default="{{ input.default }}">
 
-      {% elsif input.type == "month" %}
-      <input type="month" id="input_{{ input.id }}" value="{{ input.default }}" placeholder="{{ input.placeholder }}"
-        data-default="{{ input.default }}">
+          {% elsif input.type == "month" %}
+          <input type="month" id="input_{{ input.id }}" value="{{ input.default }}" placeholder="{{ input.placeholder }}" data-default="{{ input.default }}">
 
-      {% elsif input.type == "text" %}
-      <input type="text" id="input_{{ input.id }}" value="{{ input.default }}" placeholder="{{ input.placeholder }}"
-        list="{{ input.datalist }}" data-default="{{ input.default }}">
+          {% elsif input.type == "text" %}
+          <input type="text" id="input_{{ input.id }}" value="{{ input.default }}" placeholder="{{ input.placeholder }}" list="{{ input.datalist }}" data-default="{{ input.default }}">
 
-      {% else %}
-      <input type="number" id="input_{{ input.id }}" value="{{ input.default }}" step="{{ input.step }}"
-        min="{{ input.min }}" max="{{ input.max }}" placeholder="{{ input.placeholder }}"
-        data-default="{{ input.default }}">
-      {% endif %}
+          {% else %}
+          <input type="number" id="input_{{ input.id }}" value="{{ input.default }}" step="{{ input.step }}" min="{{ input.min }}" max="{{ input.max }}" placeholder="{{ input.placeholder }}" data-default="{{ input.default }}">
+          {% endif %}
 
-      {% if input.suffix %}
-      <span class="input-suffix">{{ input.suffix }}</span>
-      {% endif %}
+          {% if input.suffix %}
+          <span class="input-suffix">{{ input.suffix }}</span>
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
     </div>
-  </div>
-  {% endfor %}
-</div>
 
-    <!-- BRACKET LIST (for Tax Bracket Calculator) -->
-<div id="bracketSection" style="display: none;">
-  <div class="debt-list-container" id="bracketList"></div>
-  <button class="btn-add-debt" id="addBracketBtn">+ Add Bracket</button>
-</div>
+    <!-- ============================================================ -->
+    <!-- CRITICAL SEO FIX: Server-side conditional rendering          -->
+    <!-- Replaces "display: none" which Googlebot still reads in HTML -->
+    <!-- ============================================================ -->
 
-<script>
-  var toolId = document.getElementById('toolContainer').dataset.toolId;
-  if (toolId === 'tax-bracket-calculator') {
-    document.getElementById('bracketSection').style.display = 'block';
-  }
-</script>
-    <!-- DEBT LIST (for Debt Snowball only) -->
-<div id="debtSection" style="display: none;">
-  <div class="debt-list-container" id="debtList"></div>
-  <button class="btn-add-debt" id="addDebtBtn">+ Add Debt</button>
-</div>
+    {% if page.tool_id == 'tax-bracket-calculator' %}
+    <div id="bracketSection">
+      <div class="debt-list-container" id="bracketList"></div>
+      <button class="btn-add-debt" id="addBracketBtn">+ Add Bracket</button>
+    </div>
+    {% endif %}
 
-<script>
-  // Show debt section for debt-snowball and debt-avalanche
-  var toolId = document.getElementById('toolContainer').dataset.toolId;
-  if (toolId === 'debt-snowball' || toolId === 'debt-avalanche') {
-    document.getElementById('debtSection').style.display = 'block';
-  }
-</script>
+    {% if page.tool_id == 'debt-snowball' or page.tool_id == 'debt-avalanche' %}
+    <div id="debtSection">
+      <div class="debt-list-container" id="debtList"></div>
+      <button class="btn-add-debt" id="addDebtBtn">+ Add Debt</button>
+    </div>
+    {% endif %}
 
-<!-- SUBSCRIPTION LIST (for Subscription Tracker) -->
-<div id="subscriptionSection" style="display: none;">
-  <div class="subscription-list-container" id="subscriptionList"></div>
-  <button class="btn-add-sub" id="addSubscriptionBtn">+ Add Subscription</button>
-</div>
+    {% if page.tool_id == 'subscription-tracker' %}
+    <div id="subscriptionSection">
+      <div class="subscription-list-container" id="subscriptionList"></div>
+      <button class="btn-add-sub" id="addSubscriptionBtn">+ Add Subscription</button>
+    </div>
+    {% endif %}
 
-<script>
-  var toolId = document.getElementById('toolContainer').dataset.toolId;
-  if (toolId === 'subscription-tracker') {
-    document.getElementById('subscriptionSection').style.display = 'block';
-  }
-</script>
-<!-- ZERO-BASED BUDGET LISTS -->
-<div id="budgetSection" style="display: none;">
-  <div style="margin-top: 0.75rem;">
-    <h4 style="margin-bottom: 0.3rem;">Income</h4>
-    <div class="income-list-container" id="incomeList"></div>
-    <button class="btn-add-income" id="addIncomeBtn">+ Add Income</button>
-  </div>
-  <div style="margin-top: 1rem;">
-    <h4 style="margin-bottom: 0.3rem;">Expenses</h4>
-    <div class="expense-list-container" id="expenseList"></div>
-    <button class="btn-add-expense" id="addExpenseBtn">+ Add Expense</button>
-  </div>
-</div>
+    {% if page.tool_id == 'zero-based-budget' %}
+    <div id="budgetSection">
+      <div style="margin-top: 0.75rem;">
+        <h4 style="margin-bottom: 0.3rem;">Income</h4>
+        <div class="income-list-container" id="incomeList"></div>
+        <button class="btn-add-income" id="addIncomeBtn">+ Add Income</button>
+      </div>
+      <div style="margin-top: 1rem;">
+        <h4 style="margin-bottom: 0.3rem;">Expenses</h4>
+        <div class="expense-list-container" id="expenseList"></div>
+        <button class="btn-add-expense" id="addExpenseBtn">+ Add Expense</button>
+      </div>
+    </div>
+    {% endif %}
 
-<script>
-  var toolId = document.getElementById('toolContainer').dataset.toolId;
-  if (toolId === 'zero-based-budget') {
-    document.getElementById('budgetSection').style.display = 'block';
-  }
-</script>
+    {% if page.tool_id == 'biweekly-budget' %}
+    <div id="expenseSection">
+      <div class="debt-list-container" id="expenseListByWeekly"></div>
+      <button class="btn-add-debt" id="addExpenseBtnByWeekly">+ Add Expense</button>
+    </div>
+    {% endif %}
 
-<!-- EXPENSE LIST (for Biweekly Budget) -->
-<div id="expenseSection" style="display: none;">
-  <div class="debt-list-container" id="expenseListByWeekly"></div>
-  <button class="btn-add-debt" id="addExpenseBtnByWeekly">+ Add Expense</button>
-</div>
-
-<script>
-  var toolId = document.getElementById('toolContainer').dataset.toolId;
-  if (toolId === 'biweekly-budget') {
-    document.getElementById('expenseSection').style.display = 'block';
-  }
-</script>
     <!-- Global datalist for currency inputs -->
     <datalist id="currencyList"></datalist>
   </div>
 
   <!-- GRID: OUTPUTS (60%) + CHARTS (40%) -->
   <div class="calculator-grid">
-
     <div class="output-panel">
       <div class="output-card">
         {% for output in page.outputs %}
@@ -177,56 +146,24 @@ layout: default
     <div class="chart-panel">
       <div class="chart-tabs" id="chartTabs">
         {% for tab in page.charts.tabs %}
-        <button class="chart-tab-btn {% if forloop.first %}active{% endif %}" data-tab="{{ tab.id }}">{{ tab.label
-          }}</button>
+        <button class="chart-tab-btn {% if forloop.first %}active{% endif %}" data-tab="{{ tab.id }}">{{ tab.label }}</button>
         {% endfor %}
       </div>
       <div class="chart-container" id="chartContainer">
         <canvas id="chartCanvas"></canvas>
       </div>
     </div>
-  
   </div>
+
   <!-- ─── RETIREMENT PLANNER TIPS ─── -->
-{% if page.show_tips %}
+  {% if page.show_tips %}
   <style>
-    /* Inline CSS for tips */
-    .tips-container {
-      display: flex;
-      flex-direction: column;
-      gap: 0.75rem;
-      width: 100%;
-    }
-    .tip-item {
-      background: rgba(255, 255, 255, 0.03);
-      border: 1px solid rgba(255, 255, 255, 0.06);
-      border-radius: 8px;
-      padding: 0.75rem 1rem;
-      text-align: left;
-    }
-    .tip-type {
-      font-size: 0.7rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      color: #8899aa;
-      margin-bottom: 0.2rem;
-    }
-    .tip-title {
-      font-weight: 600;
-      font-size: 0.95rem;
-    }
-    .tip-advice {
-      font-size: 0.9rem;
-      margin: 0.25rem 0;
-    }
-    .tip-action {
-      color: #4ade80;
-      font-size: 0.85rem;
-      padding-top: 0.3rem;
-      border-top: 1px solid rgba(255, 255, 255, 0.04);
-      margin-top: 0.3rem;
-    }
+    .tips-container { display: flex; flex-direction: column; gap: 0.75rem; width: 100%; }
+    .tip-item { background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.06); border-radius: 8px; padding: 0.75rem 1rem; text-align: left; }
+    .tip-type { font-size: 0.7rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: #8899aa; margin-bottom: 0.2rem; }
+    .tip-title { font-weight: 600; font-size: 0.95rem; }
+    .tip-advice { font-size: 0.9rem; margin: 0.25rem 0; }
+    .tip-action { color: #4ade80; font-size: 0.85rem; padding-top: 0.3rem; border-top: 1px solid rgba(255, 255, 255, 0.04); margin-top: 0.3rem; }
   </style>
   <div class="output-group" id="retirement-tips">
     <label>💡 Personalized Tips</label>
@@ -236,16 +173,15 @@ layout: default
       </div>
     </div>
   </div>
-{% endif %}
-  <div class="tool-disclaimer">
-  </div>
+  {% endif %}
 
+  <div class="tool-disclaimer"></div>
 </div>
 
 <!-- ============================================================ -->
-<!-- 3. HISTORY POPUP                                              -->
+<!-- 3. HISTORY POPUP (Only render if history_columns is defined) -->
 <!-- ============================================================ -->
-
+{% if page.history_columns or page.show_history %}
 <div class="history-overlay" id="historyOverlay">
   <div class="history-modal">
     <div class="history-modal-header">
@@ -278,35 +214,32 @@ layout: default
     </div>
   </div>
 </div>
+{% endif %}
 
 <div style="display:flex; gap:15px; align-items:center; margin-top:1rem; flex-direction: row;">
-  <span >Formula And Content By</span>
+  <span>Formula And Content By</span>
   <a href="/gourav-mishra" style="display:flex; gap:10px; align-items:center;" class="link">
     <img src="/assets/img/gourav-mishra.webp" alt="Gourav Mishra" style="width:30px; height:30px; border-radius:50%;">
-    
     <span class="author-name">Gourav Mishra</span>
   </a>
 
-  <span >Build By</span>
+  <span>Build By</span>
   <a href="/sohail-anwar" style="display:flex; gap:10px; align-items:center;" class="link">
     <img src="/assets/img/sohail-anwar.webp" alt="Sohail Anwar" style="width:30px; height:30px; border-radius:50%;">
-    
     <span class="author-name">Sohail Anwar</span>
   </a>
 
-  <span >Code Reviewed By</span>
+  <span>Code Reviewed By</span>
   <a href="/saeed-ahmed" style="display:flex; gap:10px; align-items:center;" class="link">
     <img src="/assets/img/saeed-ahmed.webp" alt="Saeed Ahmed" style="width:30px; height:30px; border-radius:50%;">
-    
     <span class="author-name">Saeed Ahmed</span>
   </a>
-
 </div>
 
-<!-- Column config for the history table/exports — read by data.js at runtime
-     so renderHistory()/exportHistoryCSV()/exportHistoryExcel() stay generic
-     across every tool instead of hardcoding one tool's fields. -->
+<!-- Column config for the history table/exports -->
+{% if page.history_columns or page.show_history %}
 <script type="application/json" id="historyColumnsConfig">{{ page.history_columns | jsonify }}</script>
+{% endif %}
 
 <!-- ============================================================ -->
 <!-- 4. REST OF CONTENT (How-to, FAQs, etc.)                      -->
@@ -318,36 +251,37 @@ layout: default
   </article>
   {% endif %}
 </div>
+
 <!-- ============================================================ -->
 <!-- 5. JSON-LD SCHEMA                                             -->
 <!-- ============================================================ -->
-
 {% if page.structured_data %}
 <script type="application/ld+json">
-    {{ page.structured_data | jsonify }}
-  </script>
+  {{ page.structured_data | jsonify }}
+</script>
 {% endif %}
 
 {% if page.faq %}
 <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {% for qa in page.faq %}
-        {
-          "@type": "Question",
-          "name": {{ qa.question | jsonify }},
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": {{ qa.answer | jsonify }}
-          }
-        }{% unless forloop.last %},{% endunless %}
-        {% endfor %}
-      ]
-    }
-  </script>
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {% for qa in page.faq %}
+      {
+        "@type": "Question",
+        "name": {{ qa.question | jsonify }},
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": {{ qa.answer | jsonify }}
+        }
+      }{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ]
+  }
+</script>
 {% endif %}
+
 {% if page.breadcrumb %}
 <script type="application/ld+json">
 {
@@ -359,7 +293,7 @@ layout: default
       "@type": "ListItem",
       "position": {{ forloop.index }},
       "name": "{{ item.name }}",
-      "item": "{{ site.url }}{{ item.url | default: page.permalink  }}"
+      "item": "{{ site.url }}{{ item.url | default: page.permalink }}"
     }{% unless forloop.last %},{% endunless %}
     {% endfor %}
   ]
@@ -391,7 +325,6 @@ layout: default
 <!-- ============================================================ -->
 <!-- 6. SCRIPTS                                                   -->
 <!-- ============================================================ -->
-
 <script src="assets/js/chart.umd.min.js" defer></script>
 <script src="assets/js/xlsx.full.min.js" defer></script>
 <script src="{{ page.js_file }}" defer></script>
@@ -403,56 +336,76 @@ layout: default
     var closeBtn = document.getElementById('historyCloseBtn');
 
     function openHistory() {
+      if (!overlay) return;
       overlay.classList.add('open');
       document.body.style.overflow = 'hidden';
       if (typeof window.renderHistory === 'function') window.renderHistory();
     }
     function closeHistory() {
+      if (!overlay) return;
       overlay.classList.remove('open');
       document.body.style.overflow = '';
     }
     if (openBtn) openBtn.addEventListener('click', openHistory);
     if (closeBtn) closeBtn.addEventListener('click', closeHistory);
-    overlay.addEventListener('click', function (e) {
-      if (e.target === overlay) closeHistory();
-    });
+    if (overlay) {
+      overlay.addEventListener('click', function (e) {
+        if (e.target === overlay) closeHistory();
+      });
+    }
     document.addEventListener('keydown', function (e) {
-      if (e.key === 'Escape' && overlay.classList.contains('open')) closeHistory();
+      if (e.key === 'Escape' && overlay && overlay.classList.contains('open')) closeHistory();
     });
 
-    document.getElementById('shareBtn').addEventListener('click', function () {
-      var shareURL = buildShareURL();
-      if (navigator.share) {
-        navigator.share({ title: document.title, url: shareURL });
-      } else {
-        navigator.clipboard.writeText(shareURL).then(function () {
-          alert('Shareable link copied!');
-        }).catch(function () {
-          prompt('Copy this link:', shareURL);
-        });
-      }
-    });
-
-    document.getElementById('exportCsvBtn').addEventListener('click', function () {
-      if (typeof window.exportHistoryCSV === 'function') window.exportHistoryCSV();
-    });
-    document.getElementById('exportExcelBtn').addEventListener('click', function () {
-      if (typeof window.exportHistoryExcel === 'function') window.exportHistoryExcel();
-    });
-    document.getElementById('clearHistoryBtn').addEventListener('click', function () {
-      if (confirm('Delete all history?')) {
-        if (typeof window.clearHistory === 'function') {
-          window.clearHistory();
-          if (typeof window.renderHistory === 'function') window.renderHistory();
+    var shareBtn = document.getElementById('shareBtn');
+    if (shareBtn) {
+      shareBtn.addEventListener('click', function () {
+        var shareURL = typeof buildShareURL === 'function' ? buildShareURL() : window.location.href;
+        if (navigator.share) {
+          navigator.share({ title: document.title, url: shareURL });
+        } else {
+          navigator.clipboard.writeText(shareURL).then(function () {
+            alert('Shareable link copied!');
+          }).catch(function () {
+            prompt('Copy this link:', shareURL);
+          });
         }
-      }
-    });
+      });
+    }
 
-    document.getElementById('resetBtn').addEventListener('click', function () {
-      if (typeof window.resetTool === 'function') window.resetTool();
-    });
+    var exportCsvBtn = document.getElementById('exportCsvBtn');
+    if (exportCsvBtn) {
+      exportCsvBtn.addEventListener('click', function () {
+        if (typeof window.exportHistoryCSV === 'function') window.exportHistoryCSV();
+      });
+    }
+    
+    var exportExcelBtn = document.getElementById('exportExcelBtn');
+    if (exportExcelBtn) {
+      exportExcelBtn.addEventListener('click', function () {
+        if (typeof window.exportHistoryExcel === 'function') window.exportHistoryExcel();
+      });
+    }
+    
+    var clearHistoryBtn = document.getElementById('clearHistoryBtn');
+    if (clearHistoryBtn) {
+      clearHistoryBtn.addEventListener('click', function () {
+        if (confirm('Delete all history?')) {
+          if (typeof window.clearHistory === 'function') {
+            window.clearHistory();
+            if (typeof window.renderHistory === 'function') window.renderHistory();
+          }
+        }
+      });
+    }
 
-    // ── Auto-Save Preset: User types name → saves automatically ──
+    var resetBtn = document.getElementById('resetBtn');
+    if (resetBtn) {
+      resetBtn.addEventListener('click', function () {
+        if (typeof window.resetTool === 'function') window.resetTool();
+      });
+    }
+
     var presetNameInput = document.getElementById('presetNameInput');
     if (presetNameInput) {
       presetNameInput.addEventListener('change', function () {
@@ -473,30 +426,30 @@ layout: default
       });
     }
 
-    // ── Load Preset ──
-    document.getElementById('presetDropdown').addEventListener('change', function () {
-      if (this.value && typeof window.loadPreset === 'function') {
-        window.loadPreset(this.value);
-        this.selectedIndex = 0;
-      }
-    });
+    var presetDropdown = document.getElementById('presetDropdown');
+    if (presetDropdown) {
+      presetDropdown.addEventListener('change', function () {
+        if (this.value && typeof window.loadPreset === 'function') {
+          window.loadPreset(this.value);
+          this.selectedIndex = 0;
+        }
+      });
+    }
 
-    // ── Render preset dropdown on load ──
     if (typeof window.renderPresetDropdown === 'function') {
       window.renderPresetDropdown();
     }
-    // ── Apply URL parameters (if any) BEFORE initial update ──
+    
     if (typeof window.applyURLParams === 'function') {
       window.applyURLParams();
     }
 
-    // ── Initial update after DOM is ready ──
     setTimeout(function () {
       if (typeof window.updateTool === 'function') {
         window.updateTool();
       }
     }, 150);
-    // ── Auto-update on input change (debounced on keystrokes to limit API calls) ──
+    
     var debouncedUpdate = typeof window.debounce === 'function'
       ? window.debounce(function () { if (typeof window.updateTool === 'function') window.updateTool(); }, 350)
       : function () { if (typeof window.updateTool === 'function') window.updateTool(); };
