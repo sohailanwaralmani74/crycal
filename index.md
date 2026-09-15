@@ -140,21 +140,11 @@ keywords: free financial calculators, private browser calculators, compound inte
 <!-- ============================================================ -->
 
 <section class="hero-section">
-<h1>Over 170 Free Financial Calculators – Fast, Reliable, and Completely Private</h1>
+<h1>Free Financial Calculators for Real Money Decisions</h1>
 <p>
-  Welcome to <strong>Wanjaaros</strong> – your go-to toolbox for money math that actually makes sense. We’ve gathered <strong>170+ practical calculators</strong> covering everything from growth and retirement to mortgages, debt, insurance, taxes, budgeting, and investing. No logins, no email requests, and no sneaky tracking—every single calculation happens right on your device, so your numbers stay yours and yours alone.
+ Calculate mortgage payments, loan costs, debt payoff, savings growth, retirement needs, taxes, and more. Enter your numbers and see what the result means for your financial decision.
+ Free to use · No signup · Calculations run in your browser · Your financial data stays on your device
 </p>
-  
-  <div class="hero-cta">
-    <a href="/growth" class="btn-primary">Growth &amp; Savings</a>
-    <a href="/retirement" class="btn-secondary">Retirement Planning</a>
-    <a href="/mortgage" class="btn-secondary">Mortgage &amp; Real Estate</a>
-    <a href="/debt" class="btn-secondary">Debt &amp; Loans</a>
-    <a href="/insurance" class="btn-secondary">Insurance &amp; Protection</a>
-    <a href="/tax" class="btn-secondary">Tax Calculators</a>
-    <a href="/budgeting" class="btn-secondary">Budgeting &amp; Income</a>
-    <a href="/investing" class="btn-secondary">Investing &amp; Trading</a>
-  </div>
   
   <!-- Platform Trust Stats Badges -->
   <div class="finance-stats-grid">
@@ -182,9 +172,9 @@ keywords: free financial calculators, private browser calculators, compound inte
 <!-- ============================================================ -->
 
 <section class="content-section categories-section">
-  <h2>Explore Our Complete Collection of Financial Tools</h2>
+  <h2>Explore Our Financial Calculators</h2>
 <p>
-  Whether you're growing your savings, mapping out retirement, weighing mortgage options, tackling debt, or figuring out where to invest next—<strong>Wanjaaros</strong> has a tool for you. Every calculator is built on proven, reliable formulas, so you can trust the numbers and focus on what matters most: your next move.
+ Wanjaaro brings together 170+ financial calculators covering savings, retirement, mortgages, debt, insurance, taxes, budgeting, and investing. Choose a category below to find the calculator you need.
 </p>
 
   <div class="finance-categories-list">
@@ -201,7 +191,7 @@ keywords: free financial calculators, private browser calculators, compound inte
         <a href="/growth" class="cat-view-link">View All Growth Tools &rarr;</a>
       </div>
       <p class="cat-description">
-  Whether you're projecting investment growth, comparing T-Bill yields, estimating CD penalties, or seeing how inflation eats into your savings over time—our calculators give you straight answers, fast.
+  Whether you're projecting investment growth, comparing T-Bill yields, estimating CD penalties, or seeing how inflation affects your savings, these calculators help you work through the numbers and compare different scenarios.
 </p>
       <div class="cat-tool-grid">
         {% for tool in growth_tools limit: 6 %}
@@ -228,7 +218,7 @@ keywords: free financial calculators, private browser calculators, compound inte
         <a href="/retirement" class="cat-view-link">View All Retirement Tools &rarr;</a>
       </div>
       <p class="cat-description">
-  From maximizing your 401(k) and IRA contributions to navigating RMDs, FIRE timelines, spousal benefits, and annuity income—our retirement tools help you see the big picture and every detail in between.
+  From 401(k) and IRA contributions to RMDs, FIRE timelines, spousal benefits, and annuity income, these calculators cover the numbers you’re likely to run into while planning for retirement. Use them to estimate, compare, and see how different choices affect your plan.
 </p>
       <div class="cat-tool-grid">
         {% for tool in retirement_tools limit: 6 %}
@@ -255,7 +245,7 @@ keywords: free financial calculators, private browser calculators, compound inte
         <a href="/mortgage" class="cat-view-link">View All Mortgage Tools &rarr;</a>
       </div>
       <p class="cat-description">
-  Whether you're crunching monthly payments, weighing ARM against fixed rates, or exploring VA, FHA, USDA, HELOCs, refinancing, or home equity loans—our mortgage calculators give you the numbers you need to make smart housing decisions.
+  Compare monthly payments, fixed and adjustable rates, refinancing options, and home equity loans. These calculators also cover VA, FHA, USDA, HELOCs, and affordability, so you can work out the costs before making a decision.
 </p>
       <div class="cat-tool-grid">
         {% for tool in mortgage_tools limit: 6 %}
@@ -282,7 +272,7 @@ keywords: free financial calculators, private browser calculators, compound inte
         <a href="/debt" class="cat-view-link">View All Debt Tools &rarr;</a>
       </div>
       <p class="cat-description">
-  Ready to crush your debt? Choose between Debt Snowball or Debt Avalanche, map out credit card payoff plans, track amortization schedules, and calculate loan payoff dates—all with clear, simple tools that keep you motivated and on track.
+  Compare the Debt Snowball and Debt Avalanche methods, estimate credit card payoff times, review amortization schedules, and see when a loan could be paid off. These calculators help you compare different payoff amounts and timelines.
 </p>
       <div class="cat-tool-grid">
         {% for tool in debt_tools limit: 6 %}
@@ -309,7 +299,7 @@ keywords: free financial calculators, private browser calculators, compound inte
         <a href="/insurance" class="cat-view-link">View All Insurance Tools &rarr;</a>
       </div>
       <p class="cat-description">
-  Whether you're comparing term vs. whole life, estimating disability coverage, or exploring pet and flood insurance costs—we've got straightforward calculators that help you protect your loved ones and assets without the confusion.
+  Compare term and whole life insurance, estimate disability coverage, and explore pet and flood insurance costs. These calculators help you work out how much coverage you may need and what it could cost to protect your family, income, home, and other important assets.
 </p>
       <div class="cat-tool-grid">
         {% for tool in insurance_tools limit: 6 %}
@@ -336,7 +326,7 @@ keywords: free financial calculators, private browser calculators, compound inte
         <a href="/tax" class="cat-view-link">View All Tax Tools &rarr;</a>
       </div>
       <p class="cat-description">
-  Take the guesswork out of tax planning with calculators for federal brackets, take-home pay, capital gains, self-employment taxes, 1099 income, crypto gains, and estate taxes—so you know exactly where you stand and can plan ahead with confidence.
+  Calculate federal tax brackets, take-home pay, capital gains, self-employment taxes, 1099 income, crypto gains, and estate taxes. These calculators help you estimate what you may owe, see how different income or deductions affect your tax bill, and plan ahead for upcoming tax payments.
 </p>
       <div class="cat-tool-grid">
         {% for tool in tax_tools limit: 6 %}
@@ -363,7 +353,7 @@ keywords: free financial calculators, private browser calculators, compound inte
         <a href="/budgeting" class="cat-view-link">View All Budgeting Tools &rarr;</a>
       </div>
       <p class="cat-description">
-  From mastering the 50/30/20 rule and tracking your net worth to building emergency funds, calculating DTI, converting hourly pay to salary, and splitting bills fairly—our budgeting tools help you take control of your cash flow with ease.
+ Use the 50/30/20 rule, track your net worth, build an emergency fund, calculate your debt-to-income ratio, convert hourly pay to an annual salary, and split shared bills fairly. These calculators help you build a workable budget, balance income against expenses, and see how much you can set aside for savings, debt, and everyday spending.
 </p>
       <div class="cat-tool-grid">
         {% for tool in budgeting_tools limit: 6 %}
@@ -390,7 +380,7 @@ keywords: free financial calculators, private browser calculators, compound inte
         <a href="/investing" class="cat-view-link">View All Investing Tools &rarr;</a>
       </div>
 <p class="cat-description">
-  Whether you're fine-tuning position sizes, weighing risk vs. reward, applying the Kelly Criterion, or modeling options, crypto, futures, and margin trades—our calculators help you trade smarter, not harder.
+  Calculate position sizes, compare potential risk and reward, apply the Kelly Criterion, and model options, crypto, futures, and margin trades. These calculators help you estimate potential gains and losses, understand how leverage can increase losses, and see how much of your trading capital could be at risk—including the possibility of losing your entire investment.
 </p>
       <div class="cat-tool-grid">
         {% for tool in investing_tools limit: 6 %}
@@ -413,37 +403,27 @@ keywords: free financial calculators, private browser calculators, compound inte
 <!-- ============================================================ -->
 
 <section class="content-section features-section">
-  <h2>Why Wanjaaros? Because Your Data Stays Yours.</h2>
-  <p>
-    Most financial calculators ask for your personal info, store your numbers on their servers, or make you wait while pages reload. Not us. <strong>Wanjaaros runs entirely in your browser</strong>—so your financial details never leave your device.
-  </p>
+  <h2>Why Wanjaaro? Your Financial Data Stays on Your Device.</h2>
+  <p> You don't need to send your income, savings, debt, or other financial details to a server just to use a calculator. <strong>Wanjaaro runs its calculations in your browser</strong>, so the numbers you enter stay on your device instead of being uploaded to us. </p>
 
   <div class="feature-group">
     <h3>🔒 Your Privacy, Protected</h3>
-    <p>
-      Every calculation happens right where you are—inside your browser. Your income, mortgage details, investment plans, and salary figures never get sent over the internet or saved on any server. What you calculate stays between you and your screen.
-    </p>
+<p>
+  Every calculation runs inside your browser. Your income, mortgage details, investment plans, and salary figures are not sent to our servers or stored by us. The numbers you enter stay on your device while you use the calculator.
+</p>
+
   </div>
 
   <div class="feature-group">
     <h3>⚡ Instant Results, No Waiting</h3>
-    <p>
-      Slide a number, tweak a rate, or adjust a term—and see the results update instantly. No page refreshes, no loading spinners. Just fast, responsive calculations that keep up with your thinking.
-    </p>
+<p>
+  Change a number, adjust a rate, or try a different term and see the results update instantly. There are no page refreshes or loading screens between changes, so you can adjust the numbers and compare the results as you go.
+</p>
+
   </div>
 
   <div class="feature-group">
-    <h3>📊 Compare, Visualize &amp; Share</h3>
-    <p>
-      See your options side-by-side with interactive charts powered by Chart.js. Save your calculations locally, export data to CSV or Excel, or share a custom link with your team, advisor, or family—so everyone stays on the same page.
-    </p>
-  </div>
-
-  <div class="feature-group">
-    <h3>📘 Built by Someone Who Knows the Numbers</h3>
-    <p>
-      Wanjaaros was created by <a href="/about-us">Sohail Anwar</a>, a fintech systems engineer with over a decade of experience in mortgage underwriting, banking compliance, and trade execution. Every tool comes with clear formulas, step-by-step guides, and real-world examples—so you're not just getting answers, you're understanding them.
-    </p>
+    <h3>📊 Compare, Visualize &amp; Share</h3> <p> Compare different scenarios with interactive charts and see how changing the numbers affects the results. Save calculations in your browser, export them to CSV or Excel, or create a custom link that includes your calculation settings so someone else can open and view the same results. </p>
   </div>
 </section>
 
@@ -455,23 +435,4 @@ keywords: free financial calculators, private browser calculators, compound inte
 <a href="https://dealmyapp.com/listings/Wanjaaros"><img src="https://dealmyapp.com/badges/listed-on-dealmyapp-light.svg" alt="Listed on DealMyApp" width="200" height="40"></a>
 <a href="https://twelve.tools" target="_blank"><img src="https://twelve.tools/badge0-white.svg" alt="Featured on Twelve Tools" width="148" height="40"></a>
 </div>
-<!-- ============================================================ -->
-<!-- CALL TO ACTION                                               -->
-<!-- ============================================================ -->
 
-<section class="content-section final-cta">
-<h2>Let's Crunch Those Numbers</h2>
-<p>
-  With over 170 calculators at your fingertips—covering growth, retirement, mortgages, debt, insurance, taxes, budgeting, and investing—you've got everything you need to make confident money moves. All free, all instant, and all private. Start exploring now.
-</p>
-  <p class="cta-buttons">
-    <a href="/growth" class="btn-primary">Growth &amp; Savings</a>
-    <a href="/retirement" class="btn-secondary">Retirement Planning</a>
-    <a href="/mortgage" class="btn-secondary">Mortgage &amp; Real Estate</a>
-    <a href="/debt" class="btn-secondary">Debt &amp; Loans</a>
-    <a href="/insurance" class="btn-secondary">Insurance &amp; Protection</a>
-    <a href="/tax" class="btn-secondary">Tax Calculators</a>
-    <a href="/budgeting" class="btn-secondary">Budgeting &amp; Income</a>
-    <a href="/investing" class="btn-secondary">Investing &amp; Trading</a>
-  </p>
-</section>
