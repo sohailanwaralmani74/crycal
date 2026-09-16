@@ -253,7 +253,7 @@ is_homepage: true
         <strong>Tools he owns:</strong> Validates banking &amp; insurance Tools, including repurchase, mortgage, and claims.
       </p>
       <button class="gm-verify" id="gmVerifyBtn" aria-expanded="false" aria-controls="gmVerifyNote">
-        ✓ Datafrog-verified expertise
+        ✓ Wanjaaro-verified expertise
       </button>
       <p class="gm-verify-note" id="gmVerifyNote">
         Verified means: continuous professional experience since 2013 in designing and delivering

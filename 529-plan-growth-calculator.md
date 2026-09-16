@@ -2,7 +2,7 @@
 layout: tool
 title: "529 Plan Growth Calculator | College Savings & Compound Growth"
 description: "Use the 529 Plan Growth Calculator to project how your college savings will grow tax-free with regular contributions and compound returns."
-permalink: /529-plan-growth-calculator
+permalink: /529-plan-growth-calculator/
 tool_id: 529-plan-growth-calculator
 category: growth
 hide_sidebar: true

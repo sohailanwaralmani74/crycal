@@ -2,7 +2,7 @@
 layout: tool
 title: "Baby Cost Calculator | Income & Expense Planning"
 description: "Estimate first-year baby expenses including diapers, nursery gear, formula, medical care, and childcare."
-permalink: /baby-cost-calculator
+permalink: /baby-cost-calculator/
 tool_id: baby-cost-calculator
 category: budgeting
 hide_sidebar: true

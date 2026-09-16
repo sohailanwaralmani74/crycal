@@ -2,7 +2,7 @@
 layout: tool
 title: "4% Rule FIRE Calculator | Retirement Portfolio & Withdrawals"
 description: "Use the 4% Rule Calculator to estimate how much you can safely withdraw from your retirement portfolio each year without running out of money."
-permalink: /4-percent-rule-calculator
+permalink: /4-percent-rule-calculator/
 tool_id: 4-percent-rule-calculator
 category: retirement
 hide_sidebar: true

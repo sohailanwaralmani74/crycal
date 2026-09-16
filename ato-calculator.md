@@ -2,7 +2,7 @@
 layout: tool
 title: "ATO Tax Calculator | Australian Income Tax & Deductions"
 description: "Calculate Australian Tax Office (ATO) BAS liabilities, GST, PAYG withholding, and Superannuation Guarantee contributions. 100% private browser execution."
-permalink: /ato-calculator
+permalink: /ato-calculator/
 tool_id: ato-calculator
 category: tax
 hide_sidebar: true

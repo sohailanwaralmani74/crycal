@@ -2,7 +2,7 @@
 layout: tool
 title: "1099 Tax Calculator | Self-Employment Tax Rate"
 description: "Use our free 1099 Tax Calculator to estimate federal and state self-employment tax, quarterly payments, and how much to save for taxes as an..."
-permalink: /1099-tax-calculator
+permalink: /1099-tax-calculator/
 tool_id: 1099-tax-calculator
 category: tax
 hide_sidebar: true

@@ -2,7 +2,7 @@
 layout: tool
 title: "403b Calculator | Retirement Savings & Tax-Deferred Growth"
 description: "Use the 403(b) Calculator to project your retirement account growth based on salary, contribution rate, employer match, and investment returns."
-permalink: /403b-calculator
+permalink: /403b-calculator/
 tool_id: 403b-calculator
 category: retirement
 hide_sidebar: true

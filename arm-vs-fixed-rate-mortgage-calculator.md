@@ -2,7 +2,7 @@
 layout: tool
 title: "Arm vs Fixed Rate Mortgage Calculator | Mortgage Payment &"
 description: "Compare initial monthly payments, maximum rate adjustment risk, and total 30-year interest costs between Adjustable-Rate (ARM) and Fixed-Rate mortgages."
-permalink: /arm-vs-fixed-rate-mortgage-calculator
+permalink: /arm-vs-fixed-rate-mortgage-calculator/
 tool_id: arm-vs-fixed-rate-mortgage
 category: mortgage
 hide_sidebar: true

@@ -1,6 +1,6 @@
 title: "Wanjaaro — Free Online Financial Calculators"
 description: "Calculate compound interest, retirement savings, mortgage payments, debt payoff, and more with Wanjaaro. Free browser-based financial calculators — accurate, fast, and secure."
-permalink: ':title'
+permalink: /:title/
 baseurl: ""
 url: "https://wanjaaro.com" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
@@ -36,7 +36,6 @@ plugins:
 toc:
   min_level: 2  # Adjust if you want to skip h1
   max_level: 6
-  list_class: toc
   list_class: toc__list
   sublist_class: toc__sublist
 

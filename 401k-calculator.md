@@ -2,7 +2,7 @@
 layout: tool
 title: "401k Calculator | Retirement Savings & Employer Match"
 description: "Estimate your 401k retirement savings with our free 401k calculator. Plan your contributions, employer match, and see your projected growth."
-permalink: /401k-calculator
+permalink: /401k-calculator/
 tool_id: 401k
 category: retirement
 hide_sidebar: true

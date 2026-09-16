@@ -2,7 +2,7 @@
 layout: tool
 title: "Asset Allocation Calculator | Investment & Portfolio Return"
 description: "Calculate optimal stock, bond, and cash asset allocation weights based on age and risk tolerance models."
-permalink: /asset-allocation-calculator
+permalink: /asset-allocation-calculator/
 tool_id: asset-allocation-calculator
 category: investing
 hide_sidebar: true

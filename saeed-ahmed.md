@@ -244,7 +244,7 @@ is_homepage: true
         <strong>Tools he owns:</strong> Builds and maintains the dev utilities, data converters, and API integrations.
       </p>
       <button class="gm-verify" id="gmVerifyBtn" aria-expanded="false" aria-controls="gmVerifyNote">
-        ✓ Datafrog-verified expertise
+        ✓ Wanjaaro-verified expertise
       </button>
       <p class="gm-verify-note" id="gmVerifyNote">
         Verified means: continuous professional experience as a full‑stack developer since 2018,

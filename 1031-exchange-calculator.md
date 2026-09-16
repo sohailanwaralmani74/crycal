@@ -2,7 +2,7 @@
 layout: tool
 title: "1031 Exchange Calculator | Capital Gains Tax Deferral"
 description: "Calculate capital gains tax deferrals, boot liability, and replacement property cost requirements under IRS Section 1031 exchanges."
-permalink: /1031-exchange-calculator
+permalink: /1031-exchange-calculator/
 tool_id: 1031-exchange-calculator
 category: investing
 hide_sidebar: true

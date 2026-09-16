@@ -239,13 +239,13 @@ is_homepage: true
       <p class="gm-bio">
         Gourav has spent <strong>9+ years</strong> in mortgage risk, underwriting, and fraud evaluation,
         reviewing financial applications for accuracy, compliance, and risk exposure. He applies that
-        same scrutiny to every Tools on Datafrog.tools — checking formulas against the standard
+        same scrutiny to every tool on Wanjaaro — checking formulas against the standard
         financial methodology before they're published.
         <br><br>
-        <strong>Tools he owns:</strong> Reviews all  — mortgages, loans, and investment returns.
+        <strong>Tools he owns:</strong> Reviews all calculators — mortgages, loans, and investment returns.
       </p>
       <button class="gm-verify" id="gmVerifyBtn" aria-expanded="false" aria-controls="gmVerifyNote">
-        ✓ Datafrog-verified expertise
+        ✓ Wanjaaro-verified expertise
       </button>
       <p class="gm-verify-note" id="gmVerifyNote">
         Verified means: real, continuous professional experience in mortgage underwriting and credit
@@ -323,7 +323,7 @@ is_homepage: true
   </div>
 
   <div class="gm-panel" id="panel-method" role="tabpanel" aria-labelledby="tab-method">
-    <h2 style="font-size:1.2rem; margin-bottom:1rem;">How Gourav verifies every Tools on Datafrog</h2>
+    <h2 style="font-size:1.2rem; margin-bottom:1rem;">How Gourav verifies every tool on Wanjaaro</h2>
     <div class="gm-method-item">
       <span class="gm-method-icon">01</span>
       <span class="gm-method-text">Every formula is checked against the recognized standard for that

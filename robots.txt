@@ -17,6 +17,5 @@ Disallow: /*?fbclid=
 # Block any internal/admin/staging paths — only if these actually exist on your host
 Disallow: /admin/
 Disallow: /staging/
-Disallow: /*.json$
 
 Sitemap: https://wanjaaro.com/sitemap.xml

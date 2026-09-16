@@ -2,7 +2,7 @@
 layout: tool
 title: "50/30/20 Budget Calculator | Needs, Wants & Savings Budgeting"
 description: "Allocate your income using the 50/30/20 rule. Enter your after-tax income and see how much to spend on Needs, Wants, and Savings."
-permalink: /50-30-20-budget-calculator
+permalink: /50-30-20-budget-calculator/
 tool_id: 503020-budget
 category: budgeting
 hide_sidebar: true

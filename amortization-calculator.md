@@ -2,7 +2,7 @@
 layout: tool
 title: "Amortization Calculator | Loan Payment & Interest Schedule"
 description: "Free online Amortization. Calculate loan payments, interest growth, taxes, and financial metrics with instant browser math and charts."
-permalink: /amortization-calculator
+permalink: /amortization-calculator/
 tool_id: amortization
 category: debt
 hide_sidebar: true

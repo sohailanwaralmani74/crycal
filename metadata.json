@@ -1,0 +1,8 @@
+{
+  "name": "Wanjaaro Financial Calculators",
+  "description": "Suite of 170+ free browser-based personal finance, mortgage, tax, debt, and retirement calculators.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

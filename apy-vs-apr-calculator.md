@@ -2,7 +2,7 @@
 layout: tool
 title: "APY vs APR Calculator | Effective vs Nominal Interest Rates"
 description: "Use our free APY vs APR Calculator to convert between Annual Percentage Rate and Annual Percentage Yield."
-permalink: /apy-vs-apr-calculator
+permalink: /apy-vs-apr-calculator/
 tool_id: apy-vs-apr-calculator
 category: growth
 hide_sidebar: true

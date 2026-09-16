@@ -1,0 +1,19 @@
+{
+  "name": "wanjaaro-calculators",
+  "version": "1.0.0",
+  "description": "Wanjaaro — Free Online Financial Calculators",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "build": "node build.js"
+  },
+  "dependencies": {
+    "express": "^4.22.3",
+    "gray-matter": "^4.0.3",
+    "js-yaml": "^4.3.2",
+    "liquidjs": "^10.29.0",
+    "marked": "^15.0.12",
+    "serve-static": "^1.16.2"
+  }
+}

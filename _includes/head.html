@@ -18,8 +18,8 @@
   <link rel="icon" href="/assets/img/favicon/wanjaaro.webp" type="image/x-icon">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}Wanjaaros — Trading Calculators{% endif %}">
-  <meta property="og:description" content="{% if page.description %}{{ page.description | escape }}{% else %}Free browser-based position size calculators for traders. No signup required.{% endif %}">
+  <meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}Wanjaaro — Free Personal Finance Calculators{% endif %}">
+  <meta property="og:description" content="{% if page.description %}{{ page.description | escape }}{% else %}Free, browser-based financial calculators for personal finance decisions. No signup, no server uploads — your data stays local.{% endif %}">
   <meta property="og:url" content="{{ page.url | absolute_url }}">
   <meta property="og:type" content="website">
 <meta property="og:image" content="{% if page.image %}{{ page.image | absolute_url }}{% else %}{% assign og_slug = page.name | remove: '.html' | remove: '.md' %}{{ '/assets/img/' | append: og_slug | append: '.webp' | absolute_url }}{% endif %}">  <meta property="og:image:type" content="image/webp">
@@ -27,8 +27,8 @@
   <meta property="og:image:height" content="630">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{% if page.title %}{{ page.title | escape }}{% else %}Wanjaaros — Trading Calculators{% endif %}">
-  <meta name="twitter:description" content="{% if page.description %}{{ page.description | escape }}{% else %}Free browser-based position size calculators for traders. No signup required.{% endif %}">
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title | escape }}{% else %}Wanjaaro — Free Personal Finance Calculators{% endif %}">
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description | escape }}{% else %}Free, browser-based financial calculators for personal finance decisions. No signup, no server uploads — your data stays local.{% endif %}">
   <meta name="twitter:image" content="{% if page.image %}{{ page.image | absolute_url }}{% else %}{% assign og_slug = page.name | remove: '.html' | remove: '.md' %}{% assign og_image_path = '/assets/img/' | append: og_slug | append: '.webp' %}{{ og_image_path | absolute_url }}{% endif %}">
   <!-- Fonts: Georgia + system-ui (no external requests) -->
   <style>
@@ -36,9 +36,9 @@
   </style>
 
   <!-- Global CSS -->
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="assets/css/tool.css">
-  <script src="assets/js/data.js"></script>
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/tool.css">
+  <script src="/assets/js/data.js"></script>
 
   <!-- KaTeX Math Rendering for LaTeX formulas -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" crossorigin="anonymous">

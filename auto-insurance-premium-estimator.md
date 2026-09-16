@@ -2,7 +2,7 @@
 layout: tool
 title: "Auto Insurance Premium Estimator | Insurance Policy & Coverage"
 description: "Estimate your car insurance premium with our free Auto Insurance Premium Estimator."
-permalink: /auto-insurance-premium-estimator
+permalink: /auto-insurance-premium-estimator/
 tool_id: auto-insurance-premium-estimator
 category: insurance
 hide_sidebar: true
