@@ -1,37 +1,32 @@
-# _data/categories.yml
-growth:
-  parent: Growth
-  parent_url: /growth
+# Construction calculator navigation categories.
+concrete-foundations:
+  name: Concrete & Foundations
+  description: Concrete quantities, slabs, footings, piers, rebar, and foundation materials.
 
-retirement:
-  parent: Retirement
-  parent_url: /retirement
+earthwork-site:
+  name: Earthwork & Site Work
+  description: Excavation, grading, aggregate, drainage, soil, and site preparation calculations.
 
-mortgage:
-  parent: Mortgage
-  parent_url: /mortgage
+framing-structures:
+  name: Framing & Structures
+  description: Lumber, studs, joists, rafters, sheathing, decks, stairs, and structural quantities.
 
-debt:
-  parent: Debt
-  parent_url: /debt
-  shortName: Debt
+roofing-exterior:
+  name: Roofing & Exterior
+  description: Roof area, shingles, underlayment, siding, gutters, and exterior material calculations.
 
-insurance:
-  parent: Insurance
-  parent_url: /insurance
+masonry:
+  name: Masonry & Block
+  description: Brick, block, mortar, wall area, and masonry material calculations.
 
-tax:
-  parent: Tax
-  parent_url: /tax
+finishes:
+  name: Drywall & Finishes
+  description: Drywall, plaster, paint, tile, flooring, insulation, and finish-material calculations.
 
-budgeting:
-  parent: Budgeting
-  parent_url: /budgeting
+trades:
+  name: Plumbing, Electrical & HVAC
+  description: Practical building-service calculations for plumbing, electrical, ventilation, and HVAC work.
 
-investing:
-  parent: Investing
-  parent_url: /investing
-
-blog:
-  parent: Blog
-  parent_url: /blog
+estimating:
+  name: Estimating & Project Costs
+  description: Material quantities, waste, labor, project costs, and construction estimating tools.
