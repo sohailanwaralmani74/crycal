@@ -1,43 +1,23 @@
-title: "Wanjaaro — Free Online Financial Calculators"
-description: "Calculate compound interest, retirement savings, mortgage payments, debt payoff, and more with Wanjaaro. Free browser-based financial calculators — accurate, fast, and secure."
-permalink: /:title/
+title: "Wanjaaro — Free Construction Calculators"
+description: "Free browser-based construction calculators for concrete, earthwork, framing, roofing, masonry, finishes, building services, and project estimating."
+permalink: /:title
 baseurl: ""
-url: "https://wanjaaro.com" # the base hostname & protocol for your site, e.g. http://example.com
-site-twitter: #if your site has a twitter account, enter it here
-image: 
-# Author Settings
-author: Wanjaaro # add your name
-author-img: wanjaaro.webp # add your photo
-about-author: "Explore the right calculators for savings, retirement, mortgages, debt, and budgeting to plan smarter"
-social-twitter: # add your Twitter handle
-social-facebook: # add your Facebook handle
-social-github: wanjaaro # add your Github handle
-social-linkedin: # add your Linkedin handle
-social-email: # add your Email address
+url: "https://wanjaaro.com"
 
-# Disqus
-discus-identifier: wanjaaro # add your discus identifier
-
-# Tracker
-analytics: # Google Analytics
-
-# Build Settings
 markdown: kramdown
 kramdown:
   input: Kramdown
-  
+
 plugins:
   - jekyll-sitemap
-  - jekyll-paginate
   - jemoji
   - jekyll-toc
-  - jekyll-livereload
   - jekyll-redirect-from
+
 toc:
-  min_level: 2  # Adjust if you want to skip h1
+  min_level: 2
   max_level: 6
   list_class: toc__list
   sublist_class: toc__sublist
-
 
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
