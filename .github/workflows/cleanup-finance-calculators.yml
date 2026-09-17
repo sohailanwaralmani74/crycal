@@ -1,0 +1,222 @@
+name: Rebuild Construction Foundation
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Remove old calculator pages and rebuild foundation data
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          # Remove every root Markdown page that uses the old calculator layout
+          # or exposes a calculator tool_id.
+          for file in *.md; do
+            [ -f "$file" ] || continue
+            [ "$file" = "index.md" ] && continue
+            [ "$file" = "about-us.md" ] && continue
+            if grep -qE '^(layout: tool|tool_id:)' "$file"; then
+              rm -f "$file"
+            fi
+          done
+
+          # Remove old finance category hubs if present.
+          for file in growth.md retirement.md mortgage.md debt.md insurance.md tax.md budgeting.md investing.md savings.md; do
+            rm -f "$file"
+          done
+
+          cat > _data/tools.yml <<'EOF'
+# Construction calculator registry.
+# Individual calculators will be added as standalone pages during the rebuild.
+[]
+EOF
+
+          cat > _data/categories.yml <<'EOF'
+# Construction calculator navigation categories.
+concrete-foundations:
+  name: Concrete & Foundations
+  description: Concrete quantities, slabs, footings, piers, rebar, and foundation materials.
+
+earthwork-site:
+  name: Earthwork & Site Work
+  description: Excavation, grading, aggregate, drainage, soil, and site preparation calculations.
+
+framing-structures:
+  name: Framing & Structures
+  description: Lumber, studs, joists, rafters, sheathing, decks, stairs, and structural quantities.
+
+roofing-exterior:
+  name: Roofing & Exterior
+  description: Roof area, shingles, underlayment, siding, gutters, and exterior material calculations.
+
+masonry:
+  name: Masonry & Block
+  description: Brick, block, mortar, wall area, and masonry material calculations.
+
+finishes:
+  name: Drywall & Finishes
+  description: Drywall, plaster, paint, tile, flooring, insulation, and finish-material calculations.
+
+trades:
+  name: Plumbing, Electrical & HVAC
+  description: Practical building-service calculations for plumbing, electrical, ventilation, and HVAC work.
+
+estimating:
+  name: Estimating & Project Costs
+  description: Material quantities, waste, labor, project costs, and construction estimating tools.
+EOF
+
+          cat > index.md <<'EOF'
+---
+layout: default
+title: "Wanjaaro | Free Construction Calculators"
+description: Free, browser-based construction calculators for concrete, foundations, earthwork, framing, roofing, masonry, finishes, building services, and project estimating.
+is_homepage: true
+permalink: /
+keywords: construction calculators, concrete calculator, foundation calculator, excavation calculator, framing calculator, roofing calculator, masonry calculator, building cost calculator
+---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Wanjaaro",
+  "url": "https://wanjaaro.com/",
+  "description": "Free, browser-based construction calculators for common building measurements, quantities, materials, and project estimates."
+}
+</script>
+
+<section class="hero-section">
+  <h1>Free Construction Calculators</h1>
+  <p>
+    Practical calculators for builders, contractors, estimators, tradespeople, renovators, and homeowners. Calculate quantities, measurements, materials, and project estimates directly in your browser.
+  </p>
+
+  <div class="construction-value-grid">
+    <div class="stat-card">
+      <span class="stat-number">Free</span>
+      <span class="stat-label">Browser-Based Tools</span>
+    </div>
+    <div class="stat-card">
+      <span class="stat-number">8</span>
+      <span class="stat-label">Construction Categories</span>
+    </div>
+    <div class="stat-card">
+      <span class="stat-number">No</span>
+      <span class="stat-label">Account Required</span>
+    </div>
+    <div class="stat-card">
+      <span class="stat-number">Fast</span>
+      <span class="stat-label">Instant Calculations</span>
+    </div>
+  </div>
+</section>
+
+<section class="content-section categories-section">
+  <h2>Browse Construction Calculators by Category</h2>
+  <p>
+    Calculators are organized by the type of construction work they support, so you can move from a measurement or material question to the specific calculation you need.
+  </p>
+
+  <div class="construction-category-grid">
+    <a class="category-card" href="#concrete-foundations" id="concrete-foundations">
+      <span class="category-icon">▦</span>
+      <h3>Concrete &amp; Foundations</h3>
+      <p>Concrete volume, slabs, footings, piers, reinforcement, and foundation quantities.</p>
+    </a>
+
+    <a class="category-card" href="#earthwork-site" id="earthwork-site">
+      <span class="category-icon">⌂</span>
+      <h3>Earthwork &amp; Site Work</h3>
+      <p>Excavation, grading, aggregate, soil, drainage, and site-preparation calculations.</p>
+    </a>
+
+    <a class="category-card" href="#framing-structures" id="framing-structures">
+      <span class="category-icon">╋</span>
+      <h3>Framing &amp; Structures</h3>
+      <p>Lumber, studs, joists, rafters, sheathing, decks, stairs, and structural quantities.</p>
+    </a>
+
+    <a class="category-card" href="#roofing-exterior" id="roofing-exterior">
+      <span class="category-icon">⌂</span>
+      <h3>Roofing &amp; Exterior</h3>
+      <p>Roof area, shingles, underlayment, siding, gutters, and exterior materials.</p>
+    </a>
+
+    <a class="category-card" href="#masonry" id="masonry">
+      <span class="category-icon">▤</span>
+      <h3>Masonry &amp; Block</h3>
+      <p>Brick, block, mortar, wall dimensions, and masonry material quantities.</p>
+    </a>
+
+    <a class="category-card" href="#finishes" id="finishes">
+      <span class="category-icon">▥</span>
+      <h3>Drywall &amp; Finishes</h3>
+      <p>Drywall, plaster, paint, tile, flooring, insulation, and finish materials.</p>
+    </a>
+
+    <a class="category-card" href="#trades" id="trades">
+      <span class="category-icon">⚙</span>
+      <h3>Plumbing, Electrical &amp; HVAC</h3>
+      <p>Building-service calculations for plumbing, electrical, ventilation, and HVAC work.</p>
+    </a>
+
+    <a class="category-card" href="#estimating" id="estimating">
+      <span class="category-icon">▧</span>
+      <h3>Estimating &amp; Project Costs</h3>
+      <p>Material quantities, waste, labor, project costs, and construction estimating.</p>
+    </a>
+  </div>
+</section>
+
+<section class="content-section">
+  <h2>Built Around the Way Construction Work Is Calculated</h2>
+  <div class="feature-grid">
+    <div>
+      <h3>Use familiar measurements</h3>
+      <p>Enter dimensions and quantities using practical construction units and get results without unnecessary setup.</p>
+    </div>
+    <div>
+      <h3>See the calculation clearly</h3>
+      <p>Each calculator will show its inputs, assumptions, formula basis, result, and relevant quantity breakdown.</p>
+    </div>
+    <div>
+      <h3>Work on any screen</h3>
+      <p>The new interface is being designed for desktop, tablet, and mobile use from the start.</p>
+    </div>
+  </div>
+</section>
+
+<section class="content-section">
+  <h2>Construction Calculator Library</h2>
+  <p>
+    The calculator library is being rebuilt as individual, focused pages rather than a single generic calculator template. New tools will be published category by category as they are completed and tested.
+  </p>
+</section>
+EOF
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "rebuild: reset site for construction calculators" || exit 0
+          git push
+
+      - name: Remove temporary cleanup workflow
+        if: success()
+        shell: bash
+        run: |
+          git rm -f .github/workflows/cleanup-finance-calculators.yml
+          git commit -m "chore: remove temporary rebuild workflow"
+          git push
