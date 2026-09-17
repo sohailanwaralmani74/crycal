@@ -1,345 +1,42 @@
 <header class="site-header" role="banner">
-  <style>
-    @media (max-width: 64rem) {
-      .header-inner .desktop-search-container,
-      .header-inner .header-search-container {
-        display: none !important;
-      }
-    }
-    .mobile-search-container {
-      display: block;
-      margin-bottom: 1.25rem;
-      width: 100%;
-      position: relative;
-    }
-    .mobile-search-container .header-search-input-wrapper {
-      position: relative;
-      display: flex;
-      align-items: center;
-      background: var(--surface, #f8fafc);
-      border: 1px solid var(--border-default, #cbd5e1);
-      border-radius: 20px;
-      padding: 0.4rem 0.75rem 0.4rem 2.2rem;
-    }
-    .mobile-search-container .header-search-input {
-      width: 100%;
-      border: none;
-      background: transparent;
-      font-size: 0.875rem;
-      color: var(--text-primary, #0f172a);
-      outline: none;
-    }
-    .mobile-search-container .search-icon {
-      position: absolute;
-      left: 0.75rem;
-      color: var(--text-muted, #64748b);
-      pointer-events: none;
-    }
-    .mobile-search-container .search-clear-btn {
-      background: none;
-      border: none;
-      font-size: 1.2rem;
-      color: var(--text-muted, #64748b);
-      cursor: pointer;
-      padding: 0 0.25rem;
-      line-height: 1;
-    }
-    .mobile-search-container .header-search-results {
-      position: relative;
-      top: 0.5rem;
-      left: 0;
-      right: 0;
-      width: 100%;
-      z-index: 1010;
-      background: var(--paper, #ffffff);
-      border: 1px solid var(--border-default, #cbd5e1);
-      border-radius: 8px;
-      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
-      max-height: 320px;
-      overflow-y: auto;
-      margin-bottom: 1rem;
-    }
-    .mobile-search-container .search-result-item {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 0.65rem 0.9rem;
-      border-bottom: 1px solid var(--border-default, #e2e8f0);
-      color: var(--text-primary, #0f172a);
-      text-decoration: none;
-      transition: background 0.15s;
-    }
-    .mobile-search-container .search-result-item:last-child {
-      border-bottom: none;
-    }
-    .mobile-search-container .search-result-item:hover,
-    .mobile-search-container .search-result-item:focus {
-      background: var(--surface, #f1f5f9);
-    }
-    .mobile-search-container .search-result-info {
-      display: flex;
-      flex-direction: column;
-      gap: 0.15rem;
-    }
-    .mobile-search-container .search-result-title {
-      font-size: 0.875rem;
-      font-weight: 600;
-      color: var(--text-primary, #0f172a);
-    }
-    .mobile-search-container .search-result-cat {
-      font-size: 0.7rem;
-      font-weight: 700;
-      color: var(--accent, #0284c7);
-      letter-spacing: 0.05em;
-    }
-    .mobile-search-container .search-no-results {
-      padding: 0.8rem 1rem;
-      font-size: 0.85rem;
-      color: var(--text-muted, #64748b);
-      text-align: center;
-    }
-  </style>
-
   <div class="header-inner">
+    <a href="/" class="site-logo" aria-label="Wanjaaro home"><span>Wan</span><b>jaaro</b></a>
 
-    <!-- Logo -->
-    <div class="column" id="logo-column">
-      <a href="./" class="site-logo" title="Wanjaaros — Calculations & Conversions">
-        <span class="logo-text">Wan</span><span class="logo-accent">Jaaro</span>
-      </a>
-      <span class="logo-tagline">Personal Finance Calculators</span>
-    </div>
-
-    <!-- Desktop Navigation -->
-    <nav class="desktop-nav" role="navigation" aria-label="Main navigation">
-      <ul class="nav-list">
-
-        <!-- Master Categories: Finance Subcategories -->
-        <li class="nav-item">
-          <a href="/growth" class="nav-link">
-            <span>Growth</span>
-          </a>
-        </li>
-
-        <li class="nav-item">
-          <a href="/retirement" class="nav-link">
-            <span>Retirement</span>
-          </a>
-        </li>
-
-        <li class="nav-item">
-          <a href="/mortgage" class="nav-link">
-            <span>Mortgage</span>
-          </a>
-        </li>
-
-        <li class="nav-item">
-          <a href="/debt" class="nav-link">
-            <span>Debt</span>
-          </a>
-        </li>
-
-        <li class="nav-item">
-          <a href="/insurance" class="nav-link">
-            <span>Insurance</span>
-          </a>
-        </li>
-
-        <li class="nav-item">
-          <a href="/tax" class="nav-link">
-            <span>Tax</span>
-          </a>
-        </li>
-
-        <li class="nav-item">
-          <a href="/budgeting" class="nav-link">
-            <span>Budgeting</span>
-          </a>
-        </li>
-
-        <li class="nav-item">
-          <a href="/investing" class="nav-link">
-            <span>Investing</span>
-          </a>
-        </li>
-      </ul>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="/concrete-slab-calculator">Concrete</a>
+      <a href="/excavation-calculator">Earthwork</a>
+      <a href="/board-foot-calculator">Framing</a>
+      <a href="/roof-pitch-calculator">Roofing</a>
+      <a href="/cmu-block-calculator">Masonry</a>
+      <a href="/drywall-calculator">Finishes</a>
+      <a href="/voltage-drop-calculator">Trades</a>
+      <a href="/construction-cost-calculator">Estimating</a>
     </nav>
 
-    <!-- Header Search Bar (Desktop Only) -->
-    <div class="header-search-container desktop-search-container">
-      <div class="header-search-input-wrapper">
-        <svg class="search-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
-          <circle cx="11" cy="11" r="8"></circle>
-          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-        </svg>
-        <input type="text" id="headerSearchInput" class="header-search-input" placeholder="Search 170+ finance calculators..." aria-label="Search calculators" autocomplete="off" />
-        <button type="button" id="headerSearchClear" class="search-clear-btn" aria-label="Clear search" style="display: none;">&times;</button>
-      </div>
-      <div id="headerSearchResults" class="header-search-results" style="display: none;" role="listbox"></div>
-    </div>
-
-    <!-- Hamburger (Mobile) -->
-    <button class="hamburger" id="hamburger" aria-label="Open navigation menu" aria-expanded="false"
-      aria-controls="mobileDrawer">
+    <button class="hamburger" id="hamburger" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="mobileDrawer">
       <span></span><span></span><span></span>
     </button>
-
   </div>
 
-  <!-- Gold Rule -->
-  <div class="gold-rule"></div>
-
-  <!-- ═══ MOBILE DRAWER ═══ -->
   <nav class="mobile-drawer" id="mobileDrawer" aria-label="Mobile navigation" aria-hidden="true" inert>
-    <span class="logo-text">Wan</span><span class="logo-accent">jaaro</span>
-    <!-- Mobile Search Bar (Only inside drawer on mobile) -->
-    <div class="header-search-container mobile-search-container">
-      <div class="header-search-input-wrapper">
-        <svg class="search-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
-          <circle cx="11" cy="11" r="8"></circle>
-          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-        </svg>
-        <input type="text" id="mobileSearchInput" class="header-search-input" placeholder="Search 170+ finance calculators..." aria-label="Search calculators" autocomplete="off" />
-        <button type="button" id="mobileSearchClear" class="search-clear-btn" aria-label="Clear search" style="display: none;">&times;</button>
-      </div>
-      <div id="mobileSearchResults" class="header-search-results" style="display: none;" role="listbox"></div>
-    </div>
-
-    <ul class="mobile-nav-list">
-      <li><a href="/finance"><strong>All Finance Calculators</strong></a></li>
-      <li><a href="/growth">Growth &amp; Savings</a></li>
-      <li><a href="/retirement">Retirement Planning</a></li>
-      <li><a href="/mortgage">Mortgage &amp; Real Estate</a></li>
-      <li><a href="/debt">Debt &amp; Loans</a></li>
-      <li><a href="/insurance">Insurance &amp; Protection</a></li>
-      <li><a href="/tax">Tax Calculators</a></li>
-      <li><a href="/budgeting">Budgeting &amp; Income</a></li>
-      <li><a href="/investing">Investing &amp; Trading</a></li>
-    </ul>
+    <a href="/" class="mobile-home">Wanjaaro</a>
+    <a href="/concrete-slab-calculator">Concrete</a>
+    <a href="/excavation-calculator">Earthwork</a>
+    <a href="/board-foot-calculator">Framing</a>
+    <a href="/roof-pitch-calculator">Roofing</a>
+    <a href="/cmu-block-calculator">Masonry</a>
+    <a href="/drywall-calculator">Finishes</a>
+    <a href="/voltage-drop-calculator">Trades</a>
+    <a href="/construction-cost-calculator">Estimating</a>
   </nav>
   <div class="overlay" id="overlay"></div>
-
-  <!-- JSON Data for Live Search Filtering -->
-  <script id="site-tools-json" type="application/json">
-  {{ site.data.tools | jsonify }}
-  </script>
-
-  <script>
-  (function() {
-    function setupSearch() {
-      var toolsDataEl = document.getElementById('site-tools-json');
-      if (!toolsDataEl) return;
-
-      var tools = [];
-      try {
-        tools = JSON.parse(toolsDataEl.textContent || '[]');
-      } catch (e) {
-        tools = [];
-      }
-
-      function initSearch(inputId, clearId, resultsId) {
-        var searchInput = document.getElementById(inputId);
-        var searchClear = document.getElementById(clearId);
-        var searchResults = document.getElementById(resultsId);
-
-        if (!searchInput || !searchResults) return;
-
-        function handleSearch() {
-          var query = searchInput.value.trim().toLowerCase();
-          if (!query) {
-            searchResults.style.display = 'none';
-            if (searchClear) searchClear.style.display = 'none';
-            searchResults.innerHTML = '';
-            return;
-          }
-
-          if (searchClear) searchClear.style.display = 'block';
-
-          var matches = tools.filter(function(t) {
-            if (!t) return false;
-            var title = (t.title || '').toLowerCase();
-            var shortName = (t.short_name || '').toLowerCase();
-            var cat = (t.category || '').toLowerCase();
-            var url = (t.url || '').toLowerCase();
-            return title.indexOf(query) !== -1 || shortName.indexOf(query) !== -1 || cat.indexOf(query) !== -1 || url.indexOf(query) !== -1;
-          });
-
-          matches.sort(function(a, b) {
-            var aTitle = (a.short_name || a.title || '').toLowerCase();
-            var bTitle = (b.short_name || b.title || '').toLowerCase();
-            var aStarts = aTitle.indexOf(query) === 0;
-            var bStarts = bTitle.indexOf(query) === 0;
-            if (aStarts && !bStarts) return -1;
-            if (!aStarts && bStarts) return 1;
-            return 0;
-          });
-
-          renderResults(searchResults, matches.slice(0, 10), query);
-        }
-
-        searchInput.addEventListener('input', handleSearch);
-        searchInput.addEventListener('focus', function() {
-          if (searchInput.value.trim()) handleSearch();
-        });
-
-        if (searchClear) {
-          searchClear.addEventListener('click', function() {
-            searchInput.value = '';
-            handleSearch();
-            searchInput.focus();
-          });
-        }
-
-        document.addEventListener('click', function(e) {
-          if (!searchInput.contains(e.target) && !searchResults.contains(e.target)) {
-            searchResults.style.display = 'none';
-          }
-        });
-
-        document.addEventListener('keydown', function(e) {
-          if (e.key === 'Escape') {
-            searchResults.style.display = 'none';
-          }
-        });
-      }
-
-      function renderResults(container, list, query) {
-        if (list.length === 0) {
-          container.innerHTML = '<div class="search-no-results">No calculators found matching "<strong>' + escapeHtml(query) + '</strong>"</div>';
-          container.style.display = 'block';
-          return;
-        }
-
-        var html = '';
-        list.forEach(function(item) {
-          var catName = item.category ? item.category.toUpperCase() : 'CALCULATOR';
-          var title = item.short_name || item.title || 'Calculator';
-          html += '<a href="' + item.url + '" class="search-result-item">' +
-                    '<div class="search-result-info">' +
-                      '<span class="search-result-title">' + escapeHtml(title) + '</span>' +
-                      '<span class="search-result-cat">' + escapeHtml(catName) + '</span>' +
-                    '</div>' +
-                    '<svg class="search-result-arrow" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>' +
-                  '</a>';
-        });
-
-        container.innerHTML = html;
-        container.style.display = 'block';
-      }
-
-      function escapeHtml(str) {
-        return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
-      }
-
-      initSearch('headerSearchInput', 'headerSearchClear', 'headerSearchResults');
-      initSearch('mobileSearchInput', 'mobileSearchClear', 'mobileSearchResults');
-    }
-
-    if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', setupSearch);
-    } else {
-      setupSearch();
-    }
-  })();
-  </script>
 </header>
+<script>
+(function(){
+  var btn=document.getElementById('hamburger'), drawer=document.getElementById('mobileDrawer'), overlay=document.getElementById('overlay');
+  if(!btn||!drawer||!overlay)return;
+  function close(){btn.classList.remove('active');btn.setAttribute('aria-expanded','false');drawer.classList.remove('active');drawer.setAttribute('aria-hidden','true');drawer.setAttribute('inert','');overlay.classList.remove('active');document.body.style.overflow='';}
+  function open(){btn.classList.add('active');btn.setAttribute('aria-expanded','true');drawer.classList.add('active');drawer.setAttribute('aria-hidden','false');drawer.removeAttribute('inert');overlay.classList.add('active');document.body.style.overflow='hidden';}
+  btn.addEventListener('click',function(){drawer.classList.contains('active')?close():open();}); overlay.addEventListener('click',close); document.addEventListener('keydown',function(e){if(e.key==='Escape')close();});
+})();
+</script>
