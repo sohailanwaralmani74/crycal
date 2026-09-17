@@ -1,94 +1,86 @@
 ---
 layout: calculator
 title: "Concrete Slab Calculator — Calculate Concrete Needed"
-description: "Calculate concrete volume and cubic yards needed for a slab from length, width, thickness, and waste. Free browser calculator."
+description: "Calculate concrete volume and cubic yards needed for a rectangular slab. Enter dimensions, choose units, add waste, and get an instant estimate."
 permalink: /concrete-slab-calculator
 category: concrete
 ---
 
 <script type="application/ld+json">
-{
-  "@context":"https://schema.org",
-  "@type":"WebApplication",
-  "name":"Concrete Slab Calculator",
-  "url":"https://wanjaaro.com/concrete-slab-calculator",
-  "applicationCategory":"UtilitiesApplication",
-  "operatingSystem":"Any",
-  "description":"Browser-based calculator for estimating concrete volume and cubic yards required for a slab."
-}
+{"@context":"https://schema.org","@type":"WebApplication","name":"Concrete Slab Calculator","url":"https://wanjaaro.com/concrete-slab-calculator","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","description":"Browser-based calculator for estimating concrete volume and cubic yards required for a rectangular slab."}
 </script>
 
-<div class="calculator-page" data-calculator="concrete-slab">
-  <div class="calc-breadcrumb"><a href="/">Home</a> / <a href="/">Concrete</a> / Concrete Slab Calculator</div>
-  <header class="calc-hero">
-    <div class="eyebrow">Concrete &amp; Foundations</div>
+<div class="slab-page" data-calculator="concrete-slab">
+  <nav class="slab-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><a href="/">Concrete</a><span>/</span><span aria-current="page">Concrete Slab Calculator</span></nav>
+
+  <header class="slab-hero">
+    <p class="slab-eyebrow">Concrete &amp; Foundations</p>
     <h1>Concrete Slab Calculator</h1>
-    <p>Calculate the concrete volume for a rectangular slab and estimate the amount to order in cubic yards. Add a waste allowance to account for normal job-site variation.</p>
+    <p>Calculate how much concrete you need for a rectangular slab. Enter the slab dimensions, choose your units, and add a waste allowance to get the estimated order quantity.</p>
   </header>
 
-  <div class="calc-layout">
-    <section class="calc-main">
-      <div class="calc-card">
-        <div class="calc-card-header"><h2>Slab dimensions</h2><p>Enter the finished slab dimensions. Use the unit selector beside each value.</p></div>
-        <div class="calc-body">
-          <div class="field-grid">
-            <div class="field"><label for="length">Length</label><div class="field-control"><input id="length" type="number" min="0" step="any" value="20" inputmode="decimal"><select id="lengthUnit" aria-label="Length unit"><option value="ft">ft</option><option value="m">m</option></select></div></div>
-            <div class="field"><label for="width">Width</label><div class="field-control"><input id="width" type="number" min="0" step="any" value="10" inputmode="decimal"><select id="widthUnit" aria-label="Width unit"><option value="ft">ft</option><option value="m">m</option></select></div></div>
-            <div class="field"><label for="thickness">Thickness</label><div class="field-control"><input id="thickness" type="number" min="0" step="any" value="4" inputmode="decimal"><select id="thicknessUnit" aria-label="Thickness unit"><option value="in">in</option><option value="ft">ft</option><option value="cm">cm</option><option value="m">m</option></select></div></div>
-            <div class="field"><label for="waste">Waste allowance</label><div class="field-control"><input id="waste" type="number" min="0" max="100" step="0.5" value="10" inputmode="decimal"><select disabled aria-label="Waste unit"><option>%</option></select></div><div class="hint">A common estimating allowance; adjust for your project.</div></div>
-          </div>
-          <div id="calcError" class="error" role="alert"></div>
-          <div class="actions"><button class="btn btn-primary" id="calculate" type="button">Calculate</button><button class="btn btn-secondary" id="share" type="button" disabled>Share Calculation</button></div>
+  <div class="slab-workspace">
+    <div class="slab-tool">
+      <section class="slab-panel input-panel">
+        <div class="panel-heading"><h2>Slab dimensions</h2><p>Enter the finished dimensions of the slab.</p></div>
+        <div class="slab-fields">
+          <div class="slab-field"><label for="length">Length</label><div class="unit-control"><input id="length" type="number" min="0" step="any" value="20" inputmode="decimal"><select id="lengthUnit" aria-label="Length unit"><option value="ft">ft</option><option value="m">m</option><option value="in">in</option><option value="cm">cm</option></select></div></div>
+          <div class="slab-field"><label for="width">Width</label><div class="unit-control"><input id="width" type="number" min="0" step="any" value="10" inputmode="decimal"><select id="widthUnit" aria-label="Width unit"><option value="ft">ft</option><option value="m">m</option><option value="in">in</option><option value="cm">cm</option></select></div></div>
+          <div class="slab-field"><label for="thickness">Thickness</label><div class="unit-control"><input id="thickness" type="number" min="0" step="any" value="4" inputmode="decimal"><select id="thicknessUnit" aria-label="Thickness unit"><option value="in">in</option><option value="ft">ft</option><option value="cm">cm</option><option value="m">m</option></select></div></div>
+          <div class="slab-field"><label for="waste">Waste allowance</label><div class="unit-control"><input id="waste" type="number" min="0" max="100" step="0.5" value="10" inputmode="decimal"><span class="unit-static">%</span></div></div>
         </div>
+        <p class="field-note">Waste is an estimating allowance. Adjust it for site conditions, forms, grade changes, and supplier requirements.</p>
+        <div id="calcError" class="slab-error" role="alert"></div>
+        <div class="slab-actions"><button id="calculate" class="slab-btn primary" type="button">Calculate</button><button id="share" class="slab-btn secondary" type="button" disabled>Share Calculation</button></div>
+      </section>
+
+      <section class="slab-panel result-panel" aria-live="polite">
+        <div class="result-heading"><div><p class="result-label">Estimated order quantity</p><div class="result-main"><span id="yards">—</span><span>yd³</span></div></div><p class="result-context">Includes your selected waste allowance.</p></div>
+        <div class="result-details">
+          <div><span>Base volume</span><strong id="baseVolume">—</strong></div>
+          <div><span>With waste</span><strong id="wasteVolume">—</strong></div>
+          <div><span>Cubic feet</span><strong id="cubicFeet">—</strong></div>
+        </div>
+      </section>
+
+      <div class="slab-info-row">
+        <section class="slab-panel info-panel"><h2>Formula</h2><p>Volume = Length × Width × Thickness</p><p>Cubic yards = Cubic feet ÷ 27</p><p>Order volume = Volume × (1 + waste ÷ 100)</p></section>
+        <section class="slab-panel info-panel"><h2>How it works</h2><p>All dimensions are converted to feet before the volume is calculated. The base volume is converted to cubic yards, then the selected waste allowance is added.</p></section>
       </div>
 
-      <section class="result-card" aria-live="polite">
-        <div class="result-top"><div class="result-kicker">Concrete required</div><div class="result-number"><span id="yards">—</span><span class="result-unit">yd³</span></div></div>
-        <div class="result-grid">
-          <div class="result-stat"><span class="result-label">Base volume</span><span class="result-value" id="baseVolume">—</span></div>
-          <div class="result-stat"><span class="result-label">With waste</span><span class="result-value" id="wasteVolume">—</span></div>
-          <div class="result-stat"><span class="result-label">Cubic feet</span><span class="result-value" id="cubicFeet">—</span></div>
-        </div>
-        <div class="result-note">Order quantities should be confirmed against the supplier's load requirements, site conditions, forms, reinforcement, and any required over-excavation or grade changes.</div>
-      </section>
-
-      <section class="info-grid">
-        <article class="info-card"><h2>Formula</h2><div class="formula">Volume = Length × Width × Thickness<br>Cubic yards = Cubic feet ÷ 27<br>Order volume = Volume × (1 + waste ÷ 100)</div></article>
-        <article class="info-card"><h2>How it works</h2><p>The calculator converts all dimensions to feet, multiplies length × width × thickness, converts the result from cubic feet to cubic yards, then applies the selected waste allowance.</p></article>
-      </section>
-
-      <section class="calc-card history"><div class="calc-card-header"><h2>Calculation history</h2><p>Successful calculations are stored in this browser only. No account is required.</p></div><div class="calc-body"><div id="historyList" class="history-list"><div class="empty">No saved calculations yet.</div></div></div></section>
-    </section>
-    <aside class="side-ad" aria-label="Advertisement">Advertisement</aside>
+      <section class="slab-panel history-panel"><div class="panel-heading"><h2>Calculation history</h2><p>Saved locally in this browser. No account is required.</p></div><div id="historyList" class="history-list"><p class="history-empty">No saved calculations yet.</p></div></section>
+    </div>
+    <aside class="slab-ad" aria-label="Advertisement"><span>Advertisement</span></aside>
   </div>
 </div>
 
+<style>
+:root{--slab-ink:#263238;--slab-muted:#66737a;--slab-border:#d9dfe2;--slab-paper:#fff;--slab-surface:#f6f7f7;--slab-accent:#176b68;--slab-accent-dark:#0f514f}
+.slab-page{font-family:var(--font-sans);max-width:1180px;margin:0 auto;padding:0 28px 60px;color:var(--slab-ink)}
+.slab-breadcrumb{display:flex;gap:9px;align-items:center;font-size:13px;color:var(--slab-muted);padding:20px 0}.slab-breadcrumb a{color:var(--slab-muted);text-decoration:none}.slab-breadcrumb a:hover{color:var(--slab-accent)}
+.slab-hero{padding:18px 0 28px;border-bottom:1px solid var(--slab-border)}.slab-eyebrow{font-size:12px;font-weight:600;letter-spacing:.07em;text-transform:uppercase;color:var(--slab-accent);margin:0 0 8px}.slab-hero h1{font-family:var(--font-sans);font-size:34px;line-height:1.2;letter-spacing:-.025em;font-weight:650;margin:0 0 10px}.slab-hero>p:last-child{max-width:760px;font-size:16px;line-height:1.65;color:var(--slab-muted);margin:0}
+.slab-workspace{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:28px;margin-top:28px}.slab-tool{min-width:0}.slab-ad{min-height:280px;border:1px dashed #cbd2d5;background:#fafafa;display:flex;align-items:center;justify-content:center;color:#8a9499;font-size:11px;text-transform:uppercase;letter-spacing:.08em}
+.slab-panel{background:var(--slab-paper);border:1px solid var(--slab-border);border-radius:6px}.input-panel{padding:24px}.panel-heading h2,.info-panel h2{font-family:var(--font-sans);font-size:18px;font-weight:650;line-height:1.3;margin:0 0 4px}.panel-heading p{font-size:13px;color:var(--slab-muted);margin:0}.slab-fields{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin-top:22px}.slab-field label{display:block;font-size:13px;font-weight:600;margin:0 0 7px;color:#35434a}.unit-control{height:44px;display:flex;border:1px solid #cbd3d7;border-radius:5px;background:#fff;overflow:hidden}.unit-control:focus-within{border-color:var(--slab-accent);box-shadow:0 0 0 2px rgba(23,107,104,.10)}.unit-control input{min-width:0;flex:1;border:0;outline:0;padding:0 11px;font:inherit;font-size:15px;color:var(--slab-ink);background:transparent}.unit-control select,.unit-static{width:58px;border:0;border-left:1px solid #dfe4e6;background:#f7f8f8;padding:0 8px;font-size:13px;color:#4d5a60;display:flex;align-items:center;justify-content:center}.unit-control select{cursor:pointer}.field-note{font-size:12px;line-height:1.5;color:var(--slab-muted);margin:12px 0 0}.slab-error{display:none;color:#9b3d32;font-size:13px;margin-top:14px}.slab-error.show{display:block}.slab-actions{display:flex;gap:10px;margin-top:22px}.slab-btn{height:42px;padding:0 17px;border-radius:5px;font:600 14px var(--font-sans);cursor:pointer}.slab-btn.primary{border:1px solid var(--slab-accent);background:var(--slab-accent);color:#fff}.slab-btn.primary:hover{background:var(--slab-accent-dark)}.slab-btn.secondary{border:1px solid #cbd3d7;background:#fff;color:#344248}.slab-btn.secondary:hover:not(:disabled){border-color:var(--slab-accent);color:var(--slab-accent)}.slab-btn:disabled{opacity:.48;cursor:not-allowed}
+.result-panel{margin-top:18px;padding:24px;background:#f2f6f5;border-color:#c9d9d7}.result-heading{display:flex;justify-content:space-between;align-items:flex-end;gap:20px}.result-label{font-size:12px;font-weight:650;letter-spacing:.06em;text-transform:uppercase;color:#52706d;margin:0 0 4px}.result-main{display:flex;align-items:baseline;gap:8px;color:#164f4c}.result-main span:first-child{font-size:38px;line-height:1.1;font-weight:700;letter-spacing:-.025em}.result-main span:last-child{font-size:17px;font-weight:600}.result-context{font-size:12px;color:var(--slab-muted);margin:0}.result-details{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid #d3dfdd;margin-top:20px;padding-top:16px;gap:20px}.result-details div{display:flex;flex-direction:column;gap:3px}.result-details span{font-size:12px;color:var(--slab-muted)}.result-details strong{font-size:16px;font-weight:650;color:#26383b}
+.slab-info-row{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:18px}.info-panel{padding:20px}.info-panel p{font-size:13px;line-height:1.6;color:var(--slab-muted);margin:8px 0 0}.history-panel{margin-top:18px;padding:20px}.history-list{margin-top:18px}.history-empty{font-size:13px;color:var(--slab-muted);margin:0}.history-item{display:flex;align-items:center;justify-content:space-between;gap:15px;padding:13px 0;border-top:1px solid #e4e8e9}.history-item:first-child{border-top:0}.history-item strong{font-size:14px}.history-meta{font-size:11px;color:#7b858a;margin-top:2px}.history-actions{display:flex;gap:7px}.mini-btn{font:600 12px var(--font-sans);border:1px solid #ccd4d7;background:#fff;border-radius:4px;padding:7px 10px;cursor:pointer}.mini-btn:hover{border-color:var(--slab-accent);color:var(--slab-accent)}
+@media(max-width:900px){.slab-workspace{grid-template-columns:1fr}.slab-ad{min-height:150px;order:2}.slab-fields{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.slab-page{padding:0 16px 40px}.slab-hero h1{font-size:28px}.slab-fields{grid-template-columns:1fr}.slab-info-row{grid-template-columns:1fr}.result-heading{display:block}.result-context{margin-top:10px}.result-details{grid-template-columns:1fr 1fr}.slab-actions{flex-wrap:wrap}.slab-btn{flex:1}.history-item{align-items:flex-start;flex-direction:column}.slab-ad{min-height:120px}}
+</style>
+
 <script>
-(function(){
-  'use strict';
-  var KEY='wanjaaro:concrete-slab-history:v1', last=null;
-  var $=function(id){return document.getElementById(id)};
-  function num(id){return parseFloat($(id).value)}
-  function toFeet(value,unit){if(unit==='m')return value*3.280839895; if(unit==='cm')return value*0.03280839895; if(unit==='in')return value/12; return value}
-  function round(v,d){var p=Math.pow(10,d);return Math.round(v*p)/p}
-  function read(){return {length:num('length'),width:num('width'),thickness:num('thickness'),waste:num('waste'),lengthUnit:$('lengthUnit').value,widthUnit:$('widthUnit').value,thicknessUnit:$('thicknessUnit').value}}
-  function calculate(save){
-    var x=read(), err=$('calcError');
-    if(![x.length,x.width,x.thickness,x.waste].every(Number.isFinite)||x.length<=0||x.width<=0||x.thickness<=0||x.waste<0||x.waste>100){err.textContent='Enter positive dimensions and a waste allowance from 0% to 100%.';err.classList.add('show');$('share').disabled=true;return false}
-    err.classList.remove('show');
-    var l=toFeet(x.length,x.lengthUnit), w=toFeet(x.width,x.widthUnit), t=toFeet(x.thickness,x.thicknessUnit), base=l*w*t, ordered=base*(1+x.waste/100), yards=ordered/27;
-    $('yards').textContent=round(yards,2).toLocaleString();$('baseVolume').textContent=round(base/27,2).toLocaleString()+' yd³';$('wasteVolume').textContent=round(ordered/27,2).toLocaleString()+' yd³';$('cubicFeet').textContent=round(ordered,1).toLocaleString()+' ft³';$('share').disabled=false;
-    last={inputs:x,result:{yards:round(yards,2),baseYards:round(base/27,2),cubicFeet:round(ordered,1)},time:new Date().toISOString()};
-    if(save!==false)saveHistory(last); return true;
-  }
-  function loadHistory(){try{return JSON.parse(localStorage.getItem(KEY)||'[]')}catch(e){return []}}
-  function saveHistory(item){var h=loadHistory();h.unshift(item);h=h.slice(0,20);try{localStorage.setItem(KEY,JSON.stringify(h))}catch(e){} renderHistory()}
-  function renderHistory(){var list=$('historyList'),h=loadHistory();if(!h.length){list.innerHTML='<div class="empty">No saved calculations yet.</div>';return}list.innerHTML=h.map(function(item,i){var d=new Date(item.time);return '<div class="history-item"><div><strong>'+item.result.yards.toLocaleString()+' yd³</strong><div class="history-meta">'+d.toLocaleString()+'</div></div><div class="history-actions"><button class="mini-btn" data-restore="'+i+'">Restore</button><button class="mini-btn" data-delete="'+i+'">Delete</button></div></div>'}).join('')}
-  function restore(i){var h=loadHistory(),x=h[i]&&h[i].inputs;if(!x)return; $('length').value=x.length;$('width').value=x.width;$('thickness').value=x.thickness;$('waste').value=x.waste;$('lengthUnit').value=x.lengthUnit;$('widthUnit').value=x.widthUnit;$('thicknessUnit').value=x.thicknessUnit;calculate(false);window.scrollTo({top:0,behavior:'smooth'})}
-  $('calculate').addEventListener('click',function(){calculate(true)});$('share').addEventListener('click',function(){if(!last||!calculate(false))return;var payload=btoa(unescape(encodeURIComponent(JSON.stringify(last.inputs)))).replace(/\+/g,'-').replace(/\//g,'_').replace(/=+$/,'');var url=location.origin+location.pathname+'?share='+payload;navigator.clipboard?navigator.clipboard.writeText(url).then(function(){alert('Share URL copied to clipboard.')},function(){prompt('Copy this share URL:',url)}):prompt('Copy this share URL:',url)});
-  $('historyList').addEventListener('click',function(e){var r=e.target.getAttribute('data-restore'),d=e.target.getAttribute('data-delete');if(r!==null)restore(+r);if(d!==null){var h=loadHistory();h.splice(+d,1);localStorage.setItem(KEY,JSON.stringify(h));renderHistory()}});
-  var params=new URLSearchParams(location.search),share=params.get('share');
-  if(share){try{var input=JSON.parse(decodeURIComponent(escape(atob(share.replace(/-/g,'+').replace(/_/g,'/')))));Object.keys(input).forEach(function(k){if($(k)||$(k+'Unit')){if($(k))$(k).value=input[k];else $(k+'Unit').value=input[k]}});calculate(false);var m=document.querySelector('meta[name="robots"]');if(m)m.content='noindex,follow';}catch(e){}}
-  renderHistory(); if(!share)calculate(false);
+(function(){'use strict';
+var KEY='wanjaaro:concrete-slab-history:v2',last=null,$=function(id){return document.getElementById(id)};
+function n(id){return parseFloat($(id).value)}
+function feet(v,u){return u==='m'?v*3.280839895:u==='cm'?v*.03280839895:u==='in'?v/12:v}
+function r(v,d){var p=Math.pow(10,d);return Math.round(v*p)/p}
+function read(){return{length:n('length'),width:n('width'),thickness:n('thickness'),waste:n('waste'),lengthUnit:$('lengthUnit').value,widthUnit:$('widthUnit').value,thicknessUnit:$('thicknessUnit').value}}
+function calculate(save){var x=read(),err=$('calcError');if(![x.length,x.width,x.thickness,x.waste].every(Number.isFinite)||x.length<=0||x.width<=0||x.thickness<=0||x.waste<0||x.waste>100){err.textContent='Enter positive dimensions and a waste allowance from 0% to 100%.';err.classList.add('show');$('share').disabled=true;return false}err.classList.remove('show');var base=feet(x.length,x.lengthUnit)*feet(x.width,x.widthUnit)*feet(x.thickness,x.thicknessUnit),ordered=base*(1+x.waste/100),yards=ordered/27;$('yards').textContent=r(yards,2).toLocaleString();$('baseVolume').textContent=r(base/27,2).toLocaleString()+' yd³';$('wasteVolume').textContent=r(ordered/27,2).toLocaleString()+' yd³';$('cubicFeet').textContent=r(ordered,1).toLocaleString()+' ft³';$('share').disabled=false;last={inputs:x,result:{yards:r(yards,2),baseYards:r(base/27,2),cubicFeet:r(ordered,1)},time:new Date().toISOString()};if(save!==false)saveHistory(last);return true}
+function history(){try{return JSON.parse(localStorage.getItem(KEY)||'[]')}catch(e){return[]}}
+function saveHistory(x){var h=history();h.unshift(x);try{localStorage.setItem(KEY,JSON.stringify(h.slice(0,20)))}catch(e){}renderHistory()}
+function renderHistory(){var list=$('historyList'),h=history();if(!h.length){list.innerHTML='<p class="history-empty">No saved calculations yet.</p>';return}list.innerHTML=h.map(function(x,i){return'<div class="history-item"><div><strong>'+x.result.yards.toLocaleString()+' yd³</strong><div class="history-meta">'+new Date(x.time).toLocaleString()+'</div></div><div class="history-actions"><button class="mini-btn" data-r="'+i+'">Restore</button><button class="mini-btn" data-d="'+i+'">Delete</button></div></div>'}).join('')}
+function restore(i){var x=history()[i].inputs;['length','width','thickness','waste'].forEach(function(k){$(k).value=x[k]});$('lengthUnit').value=x.lengthUnit;$('widthUnit').value=x.widthUnit;$('thicknessUnit').value=x.thicknessUnit;calculate(false);window.scrollTo({top:0,behavior:'smooth'})}
+$('calculate').addEventListener('click',function(){calculate(true)});$('share').addEventListener('click',function(){if(!last||!calculate(false))return;var payload=btoa(unescape(encodeURIComponent(JSON.stringify(last.inputs)))).replace(/\+/g,'-').replace(/\//g,'_').replace(/=+$/,'');var url=location.origin+location.pathname+'?share='+payload;if(navigator.clipboard){navigator.clipboard.writeText(url).then(function(){var b=$('share');b.textContent='Copied';setTimeout(function(){b.textContent='Share Calculation'},1500)},function(){prompt('Copy this share URL:',url)})}else prompt('Copy this share URL:',url)});
+$('historyList').addEventListener('click',function(e){var ri=e.target.getAttribute('data-r'),di=e.target.getAttribute('data-d');if(ri!==null)restore(+ri);if(di!==null){var h=history();h.splice(+di,1);localStorage.setItem(KEY,JSON.stringify(h));renderHistory()}});
+var share=new URLSearchParams(location.search).get('share');if(share){try{var x=JSON.parse(decodeURIComponent(escape(atob(share.replace(/-/g,'+').replace(/_/g,'/')))));Object.keys(x).forEach(function(k){if($(k))$(k).value=x[k]});calculate(false);var meta=document.querySelector('meta[name="robots"]');if(meta)meta.content='noindex,follow'}catch(e){}}else calculate(false);renderHistory();
 })();
 </script>
