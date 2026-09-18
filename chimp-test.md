@@ -10,7 +10,8 @@ sidebar_subtitle: "Ayumu working memory limit"
 sidebar_icon: "🐒"
 ---
 
-<div class="benchmark-hero">
+<div class="benchmark-container">
+  <div class="benchmark-hero">
         <span class="benchmark-badge playable">Memory Benchmark</span>
         <h1>The Chimp Test (Ayumu Benchmark)</h1>
         <p>
@@ -88,11 +89,7 @@ sidebar_icon: "🐒"
         {% include mobile-ad.html %}
       </div>
     </div>
-
-    <!-- Sidebar Column: 25% Desktop / 5th Item on Mobile -->
-    {% include sidebar-tools.html %}
   </div>
-</div>
 
 <script>
 (function() {
