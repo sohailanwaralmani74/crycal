@@ -3,13 +3,14 @@ layout: default
 title: "WPM Typing Speed Test — Wanjaaro"
 description: "Test your Words Per Minute (WPM) and typing accuracy with a calibrated 60-second real-time typing speed test."
 permalink: /typing-test
+category: typing
+sidebar: true
+sidebar_title: "Typing Speed (WPM)"
+sidebar_subtitle: "60-second typing velocity"
+sidebar_icon: "⌨️"
 ---
 
-<div class="benchmark-container">
-  <div class="benchmark-layout-split">
-    <!-- Main Column: 75% Desktop / Primary Flow on Mobile -->
-    <div class="benchmark-main-column">
-      <div class="benchmark-hero">
+<div class="benchmark-hero">
         <span class="benchmark-badge playable">Typing Benchmark</span>
         <h1>WPM Typing Speed Test</h1>
         <p>Type the passage below as quickly and accurately as possible. The 60-second timer begins with your first keystroke.</p>
