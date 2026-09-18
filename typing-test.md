@@ -10,7 +10,8 @@ sidebar_subtitle: "60-second typing velocity"
 sidebar_icon: "⌨️"
 ---
 
-<div class="benchmark-hero">
+<div class="benchmark-container">
+  <div class="benchmark-hero">
         <span class="benchmark-badge playable">Typing Benchmark</span>
         <h1>WPM Typing Speed Test</h1>
         <p>Type the passage below as quickly and accurately as possible. The 60-second timer begins with your first keystroke.</p>
@@ -86,11 +87,7 @@ sidebar_icon: "⌨️"
         {% include mobile-ad.html %}
       </div>
     </div>
-
-    <!-- Sidebar Column: 25% Desktop / 5th Item on Mobile -->
-    {% include sidebar-tools.html %}
   </div>
-</div>
 
 <script>
 (function() {
