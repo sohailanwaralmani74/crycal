@@ -3,13 +3,14 @@ layout: default
 title: "Chimp Test (Working Memory) — Wanjaaro"
 description: "Can you beat Ayumu the chimpanzee? Numbers flash on a grid; once you click 1, the rest hide. Click in sequence from memory."
 permalink: /chimp-test
+category: memory
+sidebar: true
+sidebar_title: "Chimp Test"
+sidebar_subtitle: "Ayumu working memory limit"
+sidebar_icon: "🐒"
 ---
 
-<div class="benchmark-container">
-  <div class="benchmark-layout-split">
-    <!-- Main Column: 75% Desktop / Primary Flow on Mobile -->
-    <div class="benchmark-main-column">
-      <div class="benchmark-hero">
+<div class="benchmark-hero">
         <span class="benchmark-badge playable">Memory Benchmark</span>
         <h1>The Chimp Test (Ayumu Benchmark)</h1>
         <p>
