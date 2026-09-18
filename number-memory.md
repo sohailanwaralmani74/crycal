@@ -3,13 +3,14 @@ layout: default
 title: "Number Memory Test (Digit Span) — Wanjaaro"
 description: "Test your short-term digit memory capacity. Memorize an increasingly long number displayed on screen."
 permalink: /number-memory
+category: memory
+sidebar: true
+sidebar_title: "Number Memory"
+sidebar_subtitle: "Digit span memory test"
+sidebar_icon: "🔢"
 ---
 
-<div class="benchmark-container">
-  <div class="benchmark-layout-split">
-    <!-- Main Column: 75% Desktop / Primary Flow on Mobile -->
-    <div class="benchmark-main-column">
-      <div class="benchmark-hero">
+<div class="benchmark-hero">
         <span class="benchmark-badge playable">Memory Benchmark</span>
         <h1>Number Memory Test</h1>
         <p>
