@@ -3,13 +3,14 @@ layout: default
 title: "Visual Reaction Time Test — Wanjaaro"
 description: "Test your reaction time in milliseconds with this calibrated visual benchmark. Average human reaction time is ~250ms."
 permalink: /reaction-time
+category: reflex
+sidebar: true
+sidebar_title: "Visual Reaction Time"
+sidebar_subtitle: "Calibrated reflex speed (ms)"
+sidebar_icon: "⚡"
 ---
 
-<div class="benchmark-container">
-<div class="benchmark-layout-split">
-  <!-- Main Column: 75% Desktop / Primary Flow on Mobile -->
-  <div class="benchmark-main-column">
-    <div class="benchmark-hero">
+<div class="benchmark-hero">
       <span class="benchmark-badge playable">Reflex Benchmark</span>
       <h1>Visual Reaction Time Test</h1>
       <p>When the red box turns <strong style="color: var(--success-text);">green</strong>, click or tap anywhere as quickly as you can. Avoid clicking too early!</p>
