@@ -3,13 +3,14 @@ layout: default
 title: "Stroop Effect Test (Cognitive Inhibition) — Wanjaaro"
 description: "Test cognitive conflict and mental flexibility. Name the color of the ink, not the printed word, across 20 rapid-fire trials."
 permalink: /stroop-test
+category: cognitive
+sidebar: true
+sidebar_title: "Stroop Effect"
+sidebar_subtitle: "Cognitive color-word inhibition"
+sidebar_icon: "🎨"
 ---
 
-<div class="benchmark-container">
-  <div class="benchmark-layout-split">
-    <!-- Main Column: 75% Desktop / Primary Flow on Mobile -->
-    <div class="benchmark-main-column">
-      <div class="benchmark-hero">
+<div class="benchmark-hero">
         <span class="benchmark-badge playable">Cognitive Benchmark</span>
         <h1>Stroop Effect Test</h1>
         <p>
