@@ -2,19 +2,12 @@
 User-agent: *
 Allow: /
 
-# Block crawling of parameterized "share calculation" URLs
-# (prevents infinite input combinations from being crawled as separate pages —
-# adjust the parameter name to whatever your Share feature actually uses)
-Disallow: /*?share=
-Disallow: /*?shared=
-Disallow: /*?calc=
-
-# Block tracking/marketing parameter variants of real pages
+# Block tracking/marketing parameter variants
 Disallow: /*?utm_*
 Disallow: /*?ref=
 Disallow: /*?fbclid=
 
-# Block any internal/admin/staging paths — only if these actually exist on your host
+# Block any internal/admin/staging paths
 Disallow: /admin/
 Disallow: /staging/
 

@@ -1,36 +1,32 @@
 ---
 layout: default
-title: Privacy Policy — Wanjaaro Financial Calculators
-description: Wanjaaro does not collect, store, or share your personal or financial data. All calculations run locally in your browser. Read our full privacy policy.
+title: Privacy Policy — Wanjaaro
+description: Wanjaaro does not collect, store, or sell your personal data. Read our full privacy policy.
 permalink: /privacy-policy
-is_homepage: true
 ---
 
-# Privacy Policy – Wanjaaro Financial Calculators
+# Privacy Policy
 
-Wanjaaro is committed to protecting your privacy. This policy explains how we handle your data when you use our website and tools.
+Wanjaaro is committed to respecting and protecting user privacy. This policy explains how information is handled across our website.
 
 ## Data Collection
 
-**We do not collect any personal or financial data.**
+**We do not collect, harvest, or sell personal data.**
 
-All calculators on Wanjaaro run entirely in your browser using JavaScript. Your income, account balance, loan amount, interest rate, and any other inputs are processed locally on your device. Nothing is transmitted to our servers.
+Our web tools operate client-side directly within your browser. Information you enter into input fields or forms (aside from the voluntary contact form) remains local to your device and is not transmitted to our servers.
 
-## Cookies and Analytics
+## Analytics & Performance
 
-We do not use cookies for tracking or personalisation. We may use a privacy-respecting analytics tool (such as Ahrefs or Plausible) to understand which pages are visited and how users interact with the site. These analytics are anonymised and do not identify individual users.
+We may use privacy-preserving analytics to understand aggregated traffic patterns (such as page views and general browser types). These analytics are anonymized and do not track or identify individual users across the web.
 
 ## Third-Party Services
 
-If you contact us via the contact form, your message is forwarded through Formspree, a third-party email forwarding service. We do not store your message on our servers. Formspree's privacy policy applies to that transmission.
-
-## Your Rights
-
-Because we collect no personal data, there is nothing to access, correct, or delete. If you have questions about our privacy practices, you can <a href="contact-us">contact us</a>.
+When you submit a message through our contact form, your inquiry is securely processed to allow us to respond. We do not use your contact information for marketing, newsletters, or third-party sharing.
 
 ## Changes to This Policy
 
-We may update this policy occasionally. Any changes will be posted on this page with an updated date.
+We may update this Privacy Policy from time to time. Any updates will be posted directly to this page.
 
 ---
 
+If you have questions about our privacy practices, please [contact us](/contact-us).

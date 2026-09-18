@@ -1,7 +1,7 @@
 {
-  "name": "wanjaaro-calculators",
+  "name": "wanjaaro",
   "version": "1.0.0",
-  "description": "Wanjaaro — Free Online Financial Calculators",
+  "description": "Wanjaaro — Modern Browser-Based Tools and Utilities",
   "main": "server.js",
   "scripts": {
     "dev": "node server.js",

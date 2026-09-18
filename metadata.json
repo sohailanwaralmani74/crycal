@@ -1,6 +1,6 @@
 {
-  "name": "Wanjaaro — Construction & Engineering Calculators",
-  "description": "Browser-based construction and engineering calculators with bespoke layouts for materials, structural framing, concrete, and roofing.",
+  "name": "Wanjaaro — Benchmark, Reflex & Skill Tests",
+  "description": "Fast, browser-based human benchmark tests, reflex games, memory challenges, typing speed, and cognitive puzzles. 100% client-side with instant feedback.",
   "requestFramePermissions": [],
   "majorCapabilities": [
     "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"

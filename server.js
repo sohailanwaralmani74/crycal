@@ -254,7 +254,7 @@ app.get('/sitemap.xml', (req, res) => {
 
   for (const [slug, item] of pageRegistry.entries()) {
     if (!slug || slug === 'index' || slug === '404' || slug === '404.html') continue;
-    const priority = item.type === 'root' ? (slug.endsWith('calculator') ? '0.9' : '0.8') : '0.7';
+    const priority = item.type === 'root' ? '0.8' : '0.7';
     xml += `  <url>\n    <loc>${baseUrl}/${slug}</loc>\n    <changefreq>weekly</changefreq>\n    <priority>${priority}</priority>\n  </url>\n`;
   }
 
@@ -311,5 +311,5 @@ app.use((err, req, res, next) => {
 
 // Start Server
 app.listen(PORT, '0.0.0.0', () => {
-  console.log(`[Wanjaaro Calculators] Dev server listening on port ${PORT}`);
+  console.log(`[Wanjaaro] Dev server listening on port ${PORT}`);
 });

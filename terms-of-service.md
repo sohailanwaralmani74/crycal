@@ -1,51 +1,42 @@
 ---
 layout: default
-title: Terms of Service — Wanjaaro Financial Calculators
-description: Terms of use for Wanjaaro's free financial calculators. All tools are for educational and illustrative purposes only. Not financial advice.
+title: Terms of Service — Wanjaaro
+description: Terms of service and acceptable use for Wanjaaro.
 permalink: /terms-of-service
 ---
 
-# Terms of Service for Wanjaaro Financial Calculators
+# Terms of Service
 
-By using Wanjaaro, you agree to the following terms and conditions. Please read them carefully.
+By accessing or using Wanjaaro, you agree to the following terms and conditions. Please read them carefully.
 
 ## 1. Acceptance of Terms
 
-By accessing or using any calculator, tool, or content on Wanjaaro, you agree to be bound by these Terms of Service. If you do not agree, please do not use the site.
+By accessing or using any part of Wanjaaro, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use the website.
 
-## 2. Educational and Illustrative Purposes Only
+## 2. Informational Purposes Only
 
-**All calculators and content on Wanjaaro are provided for educational and illustrative purposes only.**
+All content, tools, and materials on Wanjaaro are provided for general informational and illustrative purposes only. Outputs and content do not constitute professional, legal, financial, or engineering advice.
 
-Calculator results are mathematical estimates based on the inputs you provide. They are not financial, tax, legal, or investment advice. You are solely responsible for your financial decisions.
+## 3. Disclaimer of Warranties
 
-## 3. No Warranty
-
-Wanjaaro provides its tools "as is" and "as available." We make no representations or warranties of any kind, express or implied, regarding the accuracy, reliability, or completeness of any calculation.
-
-Interest rates, tax rules, insurance premiums, and other real-world figures change over time and vary by provider, jurisdiction, and individual circumstances. We do not guarantee that any figures produced by our calculators will match actual outcomes from a bank, lender, insurer, or tax authority.
+Wanjaaro provides its website and tools on an "as is" and "as available" basis. We make no representations or warranties of any kind, express or implied, regarding the accuracy, completeness, or reliability of any tool or content.
 
 ## 4. Limitation of Liability
 
-To the fullest extent permitted by law, Wanjaaro and its operators shall not be liable for any direct, indirect, incidental, consequential, or punitive damages arising from your use of this site or its tools.
+To the fullest extent permitted by law, Wanjaaro and its creators shall not be liable for any direct, indirect, incidental, special, consequential, or punitive damages resulting from your use of, or inability to use, this website.
 
-This includes, but is not limited to, financial losses or any other losses resulting from reliance on calculator outputs.
+## 5. Intellectual Property
 
-## 5. No Data Collection
+All content, design, and code on Wanjaaro are the intellectual property of Wanjaaro unless otherwise noted. You may not reproduce, distribute, or create derivative works without prior written consent.
 
-We do not collect, store, or transmit your personal or financial data. All calculations run locally in your browser. For more details, see our <a href="privacy-policy">Privacy Policy</a>.
+## 6. Privacy
 
-## 6. Intellectual Property
+We respect user privacy. Tools operate client-side and we do not harvest or sell personal data. For more information, please review our [Privacy Policy](/privacy-policy).
 
-All content, design, and code on Wanjaaro is the intellectual property of Wanjaaro. You may not reproduce, distribute, or modify any part of the site without prior written permission.
+## 7. Modifications to Terms
 
-## 7. Changes to These Terms
+We reserve the right to modify these Terms of Service at any time. Changes will be posted directly to this page. Continued use of the website following any changes signifies acceptance of the updated terms.
 
-We may update these Terms of Service occasionally. Any changes will be posted on this page with an updated date. Continued use of the site constitutes acceptance of the updated terms.
+## 8. Contact Information
 
-## 8. Contact
-
-If you have questions about these terms, please <a href="contact-us">contact us</a>.
-
----
-
+If you have questions regarding these Terms of Service, please [contact us](/contact-us).

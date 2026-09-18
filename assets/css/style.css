@@ -379,7 +379,7 @@ h4 { font-size: 1.1rem;  border-left: 0.1500rem solid transparent; border-left-c
   color: var(--accent);
 }
 
-/* 3-Column Calculator Grid */
+/* 3-Column Grid */
 .mega-grid-3col {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -2372,3 +2372,465 @@ h4 { font-size: 1.1rem;  border-left: 0.1500rem solid transparent; border-left-c
     font-size: 1.25rem;
   }
 }
+
+/* ════════════════════════════════════════
+   WANJAARO BENCHMARK & TEST STYLES
+════════════════════════════════════════ */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #082633;
+  color: #fff;
+  border-bottom: 2px solid #07dbd7;
+}
+
+.header-inner {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.25rem;
+}
+
+.site-logo {
+  text-decoration: none;
+  font-size: 1.45rem;
+  font-weight: 800;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+}
+
+.site-logo span {
+  color: #ffffff;
+}
+
+.site-logo b {
+  color: #07dbd7;
+  font-weight: 800;
+}
+
+.desktop-nav {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  flex: 1;
+  justify-content: center;
+}
+
+.nav-item {
+  color: #d7e4ea;
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 600;
+  padding: 0.45rem 0.65rem;
+  border-radius: 6px;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+}
+
+.nav-item:hover, .nav-item:focus {
+  background: rgba(255, 255, 255, 0.12);
+  color: #ffffff;
+}
+
+.nav-item.active {
+  background: rgba(7, 219, 215, 0.15);
+  color: #07dbd7;
+}
+
+.nav-highlight {
+  background: rgba(7, 219, 215, 0.18);
+  color: #07dbd7;
+  border: 1px solid rgba(7, 219, 215, 0.4);
+  font-weight: 700;
+}
+
+.nav-highlight:hover {
+  background: #07dbd7;
+  color: #082633;
+}
+
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  padding: 8px;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.hamburger span {
+  display: block;
+  height: 2px;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 2px;
+  transition: 0.2s;
+}
+
+.mobile-drawer {
+  display: none;
+}
+
+.mobile-nav-heading {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #7ba2b2;
+  font-weight: 800;
+  padding: 0.75rem 0.5rem 0.25rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.mobile-nav-heading:first-of-type {
+  border-top: none;
+}
+
+.mobile-drawer a {
+  color: #e3edf1;
+  text-decoration: none;
+  padding: 0.55rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.925rem;
+  font-weight: 600;
+  display: block;
+}
+
+.mobile-drawer a:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+}
+
+.mobile-drawer a.mobile-home {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: #07dbd7;
+  padding-bottom: 0.5rem;
+}
+
+.mobile-drawer a.mobile-highlight {
+  background: rgba(7, 219, 215, 0.15);
+  color: #07dbd7;
+  font-weight: 700;
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  inset: 3.5rem 0 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 998;
+}
+
+.overlay.active {
+  display: block;
+}
+
+@media (max-width: 1024px) {
+  .desktop-nav {
+    display: none;
+  }
+  .hamburger {
+    display: flex;
+  }
+  .mobile-drawer {
+    position: fixed;
+    top: 3.5rem;
+    right: 0;
+    width: min(320px, 85vw);
+    height: calc(100vh - 3.5rem);
+    background: #082633;
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    overflow-y: auto;
+    transform: translateX(100%);
+    transition: transform 0.2s ease;
+    z-index: 999;
+  }
+  .mobile-drawer.active {
+    transform: translateX(0);
+  }
+}
+
+/* ── Footer ── */
+.site-footer {
+  background: #082633;
+  color: #b0c6cf;
+  padding: 3rem 1.5rem 1.5rem;
+  margin-top: 4rem;
+  border-top: 1px solid #143b4d;
+}
+
+.footer-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1.5fr 1fr;
+  gap: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.footer-brand a {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-brand p {
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: #90a9b4;
+  margin-top: 0.75rem;
+  max-width: 380px;
+}
+
+.footer-nav-group h4 {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #07dbd7;
+  margin-bottom: 1rem;
+  padding-left: 0;
+  border-left: none;
+}
+
+.footer-category-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.4rem 1rem;
+}
+
+.footer-category-links a, .footer-links a {
+  color: #b0c6cf;
+  text-decoration: none;
+  font-size: 0.85rem;
+  transition: color 0.15s;
+}
+
+.footer-category-links a:hover, .footer-links a:hover {
+  color: #07dbd7;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding-top: 1.25rem;
+  font-size: 0.8rem;
+  color: #728c98;
+}
+
+@media (max-width: 800px) {
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+/* ── Benchmark Cards & Arenas ── */
+.benchmark-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 4rem;
+}
+
+.benchmark-hero {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.benchmark-hero h1 {
+  font-size: clamp(2rem, 3.5vw, 2.75rem);
+  color: var(--ink);
+  margin-bottom: 0.75rem;
+  border-left: none;
+  padding-left: 0;
+}
+
+.benchmark-hero p {
+  font-size: 1.15rem;
+  color: var(--text-muted);
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.benchmark-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.benchmark-card {
+  background: #ffffff;
+  border: 1px solid var(--border-default);
+  border-radius: 12px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+  text-decoration: none;
+  color: inherit;
+}
+
+.benchmark-card:hover {
+  transform: translateY(-2px);
+  border-color: #07dbd7;
+  box-shadow: 0 10px 25px rgba(8, 38, 51, 0.08);
+}
+
+.benchmark-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.85rem;
+}
+
+.benchmark-card-icon {
+  font-size: 1.8rem;
+}
+
+.benchmark-badge {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--ink);
+}
+
+.benchmark-badge.playable {
+  background: rgba(7, 219, 215, 0.15);
+  color: #067c7a;
+}
+
+.benchmark-badge.daily {
+  background: #fff3d4;
+  color: #8c5d00;
+}
+
+.benchmark-card-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--ink);
+  margin-bottom: 0.5rem;
+}
+
+.benchmark-card-desc {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+  flex-grow: 1;
+}
+
+.benchmark-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #f0f2f3;
+  padding-top: 0.85rem;
+  font-size: 0.85rem;
+}
+
+.benchmark-pb {
+  color: #067c7a;
+  font-weight: 600;
+}
+
+.benchmark-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: #083848;
+  font-weight: 700;
+}
+
+/* ── Interactive Test Arena ── */
+.test-arena {
+  width: 100%;
+  min-height: 420px;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2.5rem 1.5rem;
+  user-select: none;
+  cursor: pointer;
+  transition: background 0.12s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.test-arena h2 {
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  font-weight: 800;
+  border-left: none;
+  padding-left: 0;
+  margin: 0 0 1rem;
+  color: #ffffff;
+}
+
+.test-arena p {
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 0.9);
+  max-width: 600px;
+  margin: 0;
+}
+
+.test-stats-bar {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1.5rem;
+  background: var(--surface);
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  border: 1px solid var(--border-default);
+}
+
+.test-stat-item {
+  text-align: center;
+}
+
+.test-stat-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  font-weight: 700;
+}
+
+.test-stat-val {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--ink);
+  margin-top: 0.2rem;
+}
+

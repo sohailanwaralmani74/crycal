@@ -1,18 +1,17 @@
 ---
 layout: default
-title: Contact Wanjaaro — Financial Calculator Help & Support
-description: Have questions about our financial calculators? Contact the Wanjaaro team for support, feedback, or feature requests.
+title: Contact Wanjaaro
+description: Contact the Wanjaaro team for support, inquiries, or feedback.
 permalink: /contact-us
-is_homepage: true
 ---
 
-# Contact Wanjaaro – Financial Calculator Help
+# Contact Wanjaaro
 
-We'd love to hear from you. Whether you have a question about a calculator, a feature request, or just want to share feedback — reach out.
+We would love to hear from you. Whether you have a question, a feature suggestion, or feedback — reach out.
 
 ## Contact Form
 
-You can also use the form below to send us a message directly. All messages are forwarded to our team via a secure, third-party form service. We do not store or retain your personal data beyond what's needed to respond.
+You can use the form below to send us a message directly. All messages are forwarded securely. We do not store or retain your personal data beyond what is needed to respond.
 
 <form id="contactForm" action="https://formsubmit.co/aefed7cae4aaf06e0f4785c109bc6fba" method="POST">
   
@@ -36,7 +35,7 @@ You can also use the form below to send us a message directly. All messages are 
     <select id="subject" name="subject">
       <option value="general">General Inquiry</option>
       <option value="feedback">Feedback / Suggestion</option>
-      <option value="bug">Bug Report</option>
+      <option value="bug">Technical Issue / Bug Report</option>
       <option value="feature">Feature Request</option>
       <option value="other">Other</option>
     </select>
@@ -52,7 +51,7 @@ You can also use the form below to send us a message directly. All messages are 
 
 <div id="contactSuccessMessage" style="display:none;" class="content-block">
   <h2>Thanks — your message is on its way</h2>
-  <p>I've received your message and will get back to you as soon as I can. Appreciate you reaching out.</p>
+  <p>We've received your message and will get back to you as soon as possible.</p>
 </div>
 
 <script>
@@ -64,4 +63,4 @@ You can also use the form below to send us a message directly. All messages are 
 
 ---
 
-**Privacy note:** For more details, see our <a href="privacy-policy">Privacy Policy</a>.
+**Privacy note:** For more details, see our <a href="/privacy-policy">Privacy Policy</a>.

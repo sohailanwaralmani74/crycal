@@ -179,7 +179,7 @@ async function buildAll() {
 
   for (const [slug, item] of routes.entries()) {
     if (!slug || slug === 'index' || slug === '404' || slug === '404.html') continue;
-    const priority = slug.endsWith('calculator') ? '0.9' : '0.8';
+    const priority = '0.8';
     xml += `  <url>\n    <loc>${baseUrl}/${slug}</loc>\n    <changefreq>weekly</changefreq>\n    <priority>${priority}</priority>\n  </url>\n`;
   }
   xml += '</urlset>';
