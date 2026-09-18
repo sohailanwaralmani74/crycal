@@ -396,11 +396,11 @@ p {
   top: calc(100% + 0.45rem);
   left: 50%;
   transform: translateX(-50%);
-  width: min(760px, calc(100vw - 2rem));
+  width: min(500px, calc(100vw - 2rem));
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1.25rem;
-  padding: 1.25rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+  padding: 1rem;
   background: var(--surface-white);
   border: 1px solid var(--border-light);
   border-radius: var(--radius-md);
@@ -456,6 +456,15 @@ p {
   .mobile-category-tools { max-height: none; }
 }
 
+
+/* Keep desktop mega menus centered within the navigation area. */
+@media (min-width: 861px) {
+  .desktop-nav { position: relative; justify-content: center; }
+  .nav-category .mega-menu { max-width: 500px; }
+  .nav-category:last-child .mega-menu { left: auto; right: 0; transform: translateY(-6px); }
+  .nav-category:last-child:hover > .mega-menu,
+  .nav-category:last-child:focus-within > .mega-menu { transform: translateY(0); }
+}
 /* Mobile Hamburger Button */
 .hamburger {
   display: none;
