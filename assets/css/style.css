@@ -324,10 +324,18 @@ p {
   margin: 0 auto;
   padding: 0 1.25rem;
   height: 4rem;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
   align-items: center;
-  justify-content: space-between;
   gap: 1.5rem;
+}
+
+.site-logo {
+  justify-self: start;
+}
+
+.hamburger {
+  justify-self: end;
 }
 
 /* Brand Logo */
@@ -459,11 +467,26 @@ p {
 
 /* Keep desktop mega menus centered within the navigation area. */
 @media (min-width: 861px) {
-  .desktop-nav { position: relative; justify-content: center; }
-  .nav-category .mega-menu { max-width: 500px; }
-  .nav-category:last-child .mega-menu { left: auto; right: 0; transform: translateY(-6px); }
+  .desktop-nav {
+    position: relative;
+    justify-content: center;
+    grid-column: 2;
+  }
+
+  .nav-category .mega-menu {
+    max-width: 500px;
+  }
+
+  .nav-category:last-child .mega-menu {
+    left: 50%;
+    right: auto;
+    transform: translate(-50%, -6px);
+  }
+
   .nav-category:last-child:hover > .mega-menu,
-  .nav-category:last-child:focus-within > .mega-menu { transform: translateY(0); }
+  .nav-category:last-child:focus-within > .mega-menu {
+    transform: translate(-50%, 0);
+  }
 }
 /* Mobile Hamburger Button */
 .hamburger {
