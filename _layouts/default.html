@@ -14,6 +14,57 @@
         {{ content }}
       {% endif %}
     </main>
+    <script>
+    (function() {
+      function initStickySidebar() {
+        document.querySelectorAll('.benchmark-layout-split').forEach(function(layout) {
+          var sidebar = layout.querySelector('.tool-sidebar');
+          var main = layout.querySelector('.benchmark-main-column');
+          if (!sidebar || !main) return;
+          var media = window.matchMedia('(min-width: 861px)');
+          var topOffset = 90;
+          var ticking = false;
+          function clearPositioning() {
+            sidebar.classList.remove('sidebar-is-fixed', 'sidebar-is-stopped');
+            sidebar.style.removeProperty('--sidebar-stop-top');
+          }
+          function updatePosition() {
+            ticking = false;
+            if (!media.matches) { clearPositioning(); return; }
+            var sidebarRect = sidebar.getBoundingClientRect();
+            var mainRect = main.getBoundingClientRect();
+            var layoutRect = layout.getBoundingClientRect();
+            var sidebarHeight = sidebarRect.height;
+            var sidebarDocumentTop = sidebarRect.top + window.scrollY;
+            var fixStart = sidebarDocumentTop - topOffset;
+            var stopTop = mainRect.bottom - sidebarHeight - layoutRect.top;
+            if (window.scrollY < fixStart) { clearPositioning(); return; }
+            if (window.scrollY + topOffset + sidebarHeight >= mainRect.bottom + window.scrollY) {
+              sidebar.classList.remove('sidebar-is-fixed');
+              sidebar.classList.add('sidebar-is-stopped');
+              sidebar.style.setProperty('--sidebar-stop-top', Math.max(0, stopTop) + 'px');
+              return;
+            }
+            sidebar.classList.remove('sidebar-is-stopped');
+            sidebar.classList.add('sidebar-is-fixed');
+            sidebar.style.removeProperty('--sidebar-stop-top');
+          }
+          function requestUpdate() {
+            if (!ticking) {
+              ticking = true;
+              window.requestAnimationFrame(updatePosition);
+            }
+          }
+          window.addEventListener('scroll', requestUpdate, { passive: true });
+          window.addEventListener('resize', requestUpdate);
+          media.addEventListener('change', requestUpdate);
+          updatePosition();
+        });
+      }
+      if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initStickySidebar);
+      else initStickySidebar();
+    })();
+    </script>
     {% include footer.html %}
   </div>
 </body>
