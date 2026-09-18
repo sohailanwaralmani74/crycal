@@ -1645,9 +1645,10 @@ p {
    JavaScript switches it to absolute at the bottom of the main column.
    Mobile keeps the existing stacked layout unchanged. */
 @media (min-width: 861px) {
-  .benchmark-container {
-    --sidebar-width: 320px;
+  .benchmark-layout-split {
+    position: relative;
     --sidebar-right: max(1.25rem, calc((100vw - var(--max-width)) / 2 + 1.25rem));
+    --sidebar-width: calc((min(var(--max-width), calc(100vw - 2.5rem)) - 2.25rem) / 4);
   }
 
   .benchmark-layout-split > .tool-sidebar.sidebar-is-fixed {
@@ -1670,7 +1671,7 @@ p {
 }
 
 @media (min-width: 861px) and (max-width: 1024px) {
-  .benchmark-container {
-    --sidebar-width: 280px;
+  .benchmark-layout-split {
+    --sidebar-width: calc((100% - 1.5rem) / 4);
   }
 }
