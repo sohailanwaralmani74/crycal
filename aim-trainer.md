@@ -10,7 +10,8 @@ sidebar_subtitle: "Flick precision & target speed"
 sidebar_icon: "🎯"
 ---
 
-<div class="benchmark-hero">
+<div class="benchmark-container">
+  <div class="benchmark-hero">
         <span class="benchmark-badge playable">Aim Benchmark</span>
         <h1>Flick-Shot Aim Trainer</h1>
         <p>Click 30 targets as quickly and accurately as possible. Test your mouse precision, reaction speed, and flick consistency.</p>
@@ -87,11 +88,7 @@ sidebar_icon: "🎯"
         {% include mobile-ad.html %}
       </div>
     </div>
-
-    <!-- Sidebar Column: 25% Desktop / 5th Item on Mobile -->
-    {% include sidebar-tools.html %}
   </div>
-</div>
 
 <script>
 (function() {
