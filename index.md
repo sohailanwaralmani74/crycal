@@ -1,300 +1,354 @@
 ---
 layout: default
-title: "Wanjaaro — Human Benchmark, Reflex & Brain Games"
-description: "Benchmark your reaction time, mouse aim precision, memory capacity, typing speed, and cognitive reflexes. Free, pure client-side, zero accounts required."
+title: "Wanjaaro — Human Benchmark & Skill Tests"
+description: "Free browser-based tests for reaction time, aim and precision, memory, typing, perception, timing, cognitive skills, and puzzles. Test yourself without an account."
 is_homepage: true
 permalink: /
 ---
 
 <div class="benchmark-container">
-  <!-- Hero Section -->
+
   <section class="benchmark-hero">
-    <span class="benchmark-badge playable">Human Benchmark &amp; Skill Testing</span>
-    <h1>Calibrate Your Brain &amp; Reflexes</h1>
+    <span class="benchmark-badge playable">Browser-Based Human Performance Tests</span>
+    <h1>Test Your Reaction Time, Memory, Typing &amp; More</h1>
     <p>
-      Precise, browser-based benchmarks for visual reaction speed, mouse aim, working memory, typing velocity, and cognitive control. 100% client-side with millisecond accuracy.
+      Wanjaaro is a collection of interactive browser tests and skill challenges for measuring and practicing reaction speed, motor precision, memory, typing performance, perception, timing, and cognitive skills. Tests run directly in your browser, with no account required.
     </p>
-    
+
     <div class="hero-actions">
-      <a href="/reaction-time" class="btn btn-primary">
-        ⚡ Test Reaction Time
-      </a>
-      <a href="/aim-trainer" class="btn btn-accent">
-        🎯 Start Aim Trainer
-      </a>
-      <a href="/daily" class="btn btn-outline">
-        🗓️ Daily Challenge
-      </a>
+      <a href="/reflex" class="btn btn-primary">⚡ Test Reaction &amp; Reflexes</a>
+      <a href="/memory" class="btn btn-accent">🧠 Test Memory</a>
+      <a href="/typing" class="btn btn-outline">⌨️ Test Typing</a>
     </div>
   </section>
 
-  <!-- Personal Benchmark Dashboard -->
-  <section class="benchmark-dashboard">
+  <section class="benchmark-dashboard" aria-labelledby="wanjaaro-overview">
     <div class="dashboard-header">
       <div class="dashboard-title-group">
-        <h2>Your Personal Benchmarks</h2>
-        <p>Scores saved locally in your browser</p>
+        <h2 id="wanjaaro-overview">What You Can Test</h2>
+        <p>Different tests focus on different parts of human performance.</p>
       </div>
-      <span class="benchmark-badge playable" id="dashboard-status">All Systems Calibrated</span>
+      <span class="benchmark-badge playable">Free to Use</span>
     </div>
 
     <div class="dashboard-grid">
       <div class="dashboard-stat-tile">
-        <div class="dashboard-stat-label">Reaction Time</div>
-        <div class="dashboard-stat-value" id="dash-rt">--</div>
+        <div class="dashboard-stat-label">Reaction</div>
+        <div class="dashboard-stat-value">Speed</div>
       </div>
       <div class="dashboard-stat-tile">
-        <div class="dashboard-stat-label">Aim Trainer</div>
-        <div class="dashboard-stat-value" id="dash-aim">--</div>
+        <div class="dashboard-stat-label">Aim</div>
+        <div class="dashboard-stat-value">Precision</div>
       </div>
       <div class="dashboard-stat-tile">
-        <div class="dashboard-stat-label">Chimp Test</div>
-        <div class="dashboard-stat-value" id="dash-chimp">--</div>
+        <div class="dashboard-stat-label">Memory</div>
+        <div class="dashboard-stat-value">Recall</div>
       </div>
       <div class="dashboard-stat-tile">
-        <div class="dashboard-stat-label">Sequence Memory</div>
-        <div class="dashboard-stat-value" id="dash-seq">--</div>
+        <div class="dashboard-stat-label">Typing</div>
+        <div class="dashboard-stat-value">WPM</div>
       </div>
       <div class="dashboard-stat-tile">
-        <div class="dashboard-stat-label">Typing Speed</div>
-        <div class="dashboard-stat-value" id="dash-wpm">--</div>
+        <div class="dashboard-stat-label">Perception</div>
+        <div class="dashboard-stat-value">Accuracy</div>
       </div>
       <div class="dashboard-stat-tile">
-        <div class="dashboard-stat-label">Clock Precision</div>
-        <div class="dashboard-stat-value" id="dash-clock">--</div>
+        <div class="dashboard-stat-label">Timing</div>
+        <div class="dashboard-stat-value">Precision</div>
       </div>
     </div>
   </section>
 
-  <!-- Core Category Navigation Grid -->
-  <section>
+  <section aria-labelledby="test-categories">
     <div class="category-section-header">
       <div>
-        <h2>Benchmark Categories</h2>
-        <p>Explore standardized tests across neurological and motor disciplines</p>
+        <h2 id="test-categories">Human Benchmark Test Categories</h2>
+        <p>Choose a category to see the tests and challenges available in that area.</p>
       </div>
     </div>
 
     <div class="benchmark-card-grid">
-      <!-- 1. Reflex & Reaction -->
+
       <a href="/reflex" class="benchmark-card">
         <div>
           <div class="benchmark-card-header">
             <span class="benchmark-card-icon">⚡</span>
-            <span class="benchmark-badge playable">6 Tests</span>
+            <span class="benchmark-badge playable">Reaction</span>
           </div>
           <div class="benchmark-card-title">Reflex &amp; Reaction</div>
-          <div class="benchmark-card-desc">Visual reaction time, audio latency, red-light/green-light inhibition, whack-a-mole, and anticipation tests.</div>
+          <div class="benchmark-card-desc">
+            Tests focused on visual and audio response speed, anticipation, inhibition, and peripheral-response tasks.
+          </div>
         </div>
         <div class="benchmark-card-footer">
-          <span class="benchmark-pb">Neurological Speed</span>
-          <span class="benchmark-btn">Explore Category &rarr;</span>
+          <span class="benchmark-pb">Response Speed</span>
+          <span class="benchmark-btn">View Tests &rarr;</span>
         </div>
       </a>
 
-      <!-- 2. Aim & Precision -->
       <a href="/aim" class="benchmark-card">
         <div>
           <div class="benchmark-card-header">
             <span class="benchmark-card-icon">🎯</span>
-            <span class="benchmark-badge playable">6 Tests</span>
+            <span class="benchmark-badge playable">Precision</span>
           </div>
           <div class="benchmark-card-title">Aim &amp; Precision</div>
-          <div class="benchmark-card-desc">Canvas flick-shot aim trainer, click accuracy bullseye, moving target tracking, and hand steadiness tests.</div>
+          <div class="benchmark-card-desc">
+            Interactive tests for click accuracy, target tracking, flicking, grid targeting, double-click speed, and hand control.
+          </div>
         </div>
         <div class="benchmark-card-footer">
-          <span class="benchmark-pb">Motor Calibration</span>
-          <span class="benchmark-btn">Explore Category &rarr;</span>
+          <span class="benchmark-pb">Motor Precision</span>
+          <span class="benchmark-btn">View Tests &rarr;</span>
         </div>
       </a>
 
-      <!-- 3. Memory -->
       <a href="/memory" class="benchmark-card">
         <div>
           <div class="benchmark-card-header">
             <span class="benchmark-card-icon">🧠</span>
-            <span class="benchmark-badge playable">6 Tests</span>
+            <span class="benchmark-badge playable">Memory</span>
           </div>
           <div class="benchmark-card-title">Memory Tests</div>
-          <div class="benchmark-card-desc">Simon sequence memory, Chimp test (Ayumu benchmark), number memory digit span, and visual grid pattern retention.</div>
+          <div class="benchmark-card-desc">
+            Challenges covering sequence recall, number memory, card matching, visual grids, word recall, and the Chimp Test.
+          </div>
         </div>
         <div class="benchmark-card-footer">
-          <span class="benchmark-pb">Working Memory</span>
-          <span class="benchmark-btn">Explore Category &rarr;</span>
+          <span class="benchmark-pb">Recall &amp; Retention</span>
+          <span class="benchmark-btn">View Tests &rarr;</span>
         </div>
       </a>
 
-      <!-- 4. Typing -->
       <a href="/typing" class="benchmark-card">
         <div>
           <div class="benchmark-card-header">
             <span class="benchmark-card-icon">⌨️</span>
-            <span class="benchmark-badge playable">5 Tests</span>
+            <span class="benchmark-badge playable">Typing</span>
           </div>
           <div class="benchmark-card-title">Typing Speed &amp; Accuracy</div>
-          <div class="benchmark-card-desc">60-second WPM speed test, typing error penalties, keyboard rollover (NKRO) matrix tester, and code snippet typing.</div>
+          <div class="benchmark-card-desc">
+            Typing challenges for words-per-minute, accuracy, keyboard rollover and ghosting, code typing, and typing consistency.
+          </div>
         </div>
         <div class="benchmark-card-footer">
-          <span class="benchmark-pb">Keystroke Fluency</span>
-          <span class="benchmark-btn">Explore Category &rarr;</span>
+          <span class="benchmark-pb">Keystroke Performance</span>
+          <span class="benchmark-btn">View Tests &rarr;</span>
         </div>
       </a>
 
-      <!-- 5. Perception & Senses -->
       <a href="/perception" class="benchmark-card">
         <div>
           <div class="benchmark-card-header">
             <span class="benchmark-card-icon">👁️</span>
-            <span class="benchmark-badge playable">5 Tests</span>
+            <span class="benchmark-badge playable">Perception</span>
           </div>
           <div class="benchmark-card-title">Perception &amp; Senses</div>
-          <div class="benchmark-card-desc">Subtle color difference discrimination, interactive optical illusions, tone pitch matching, and symmetry spotting.</div>
+          <div class="benchmark-card-desc">
+            Visual and auditory challenges involving color discrimination, optical illusions, pitch matching, symmetry, and contrast.
+          </div>
         </div>
         <div class="benchmark-card-footer">
-          <span class="benchmark-pb">Sensory Acuity</span>
-          <span class="benchmark-btn">Explore Category &rarr;</span>
+          <span class="benchmark-pb">Sensory Tasks</span>
+          <span class="benchmark-btn">View Tests &rarr;</span>
         </div>
       </a>
 
-      <!-- 6. Timing & Rhythm -->
       <a href="/timing" class="benchmark-card">
         <div>
           <div class="benchmark-card-header">
             <span class="benchmark-card-icon">⏱️</span>
-            <span class="benchmark-badge playable">4 Tests</span>
+            <span class="benchmark-badge playable">Timing</span>
           </div>
           <div class="benchmark-card-title">Timing &amp; Rhythm</div>
-          <div class="benchmark-card-desc">Stop the clock at 5.000s, rhythm tap beat synchronization, 10-second internal clock test, and metronome tempo keeping.</div>
+          <div class="benchmark-card-desc">
+            Challenges for stopping at a target time, keeping a beat, estimating elapsed time, and synchronizing with a metronome.
+          </div>
         </div>
         <div class="benchmark-card-footer">
-          <span class="benchmark-pb">Internal Clock</span>
-          <span class="benchmark-btn">Explore Category &rarr;</span>
+          <span class="benchmark-pb">Time Control</span>
+          <span class="benchmark-btn">View Tests &rarr;</span>
         </div>
       </a>
 
-      <!-- 7. Cognitive Games -->
       <a href="/cognitive" class="benchmark-card">
         <div>
           <div class="benchmark-card-header">
             <span class="benchmark-card-icon">🧩</span>
-            <span class="benchmark-badge playable">5 Games</span>
+            <span class="benchmark-badge playable">Cognitive</span>
           </div>
           <div class="benchmark-card-title">Quick-Fire Cognitive</div>
-          <div class="benchmark-card-desc">Stroop effect color conflict, mental math speed sprint, odd-one-out visual search, and divided attention dual-tasking.</div>
+          <div class="benchmark-card-desc">
+            Fast challenges involving color-word interference, mental arithmetic, visual search, pattern discrimination, and divided attention.
+          </div>
         </div>
         <div class="benchmark-card-footer">
-          <span class="benchmark-pb">Executive Function</span>
-          <span class="benchmark-btn">Explore Category &rarr;</span>
+          <span class="benchmark-pb">Cognitive Tasks</span>
+          <span class="benchmark-btn">View Tests &rarr;</span>
         </div>
       </a>
 
-      <!-- 8. Logic Puzzles -->
       <a href="/puzzles" class="benchmark-card">
         <div>
           <div class="benchmark-card-header">
             <span class="benchmark-card-icon">🔢</span>
-            <span class="benchmark-badge playable">5 Puzzles</span>
+            <span class="benchmark-badge playable">Puzzles</span>
           </div>
           <div class="benchmark-card-title">Logic Puzzles</div>
-          <div class="benchmark-card-desc">15-puzzle sliding tiles, word scramble anagrams, classic Minesweeper speed clears, and 2048 number merge.</div>
+          <div class="benchmark-card-desc">
+            Browser puzzles including sliding tiles, word scrambles, Minesweeper, 2048, and mini-Sudoku challenges.
+          </div>
         </div>
         <div class="benchmark-card-footer">
           <span class="benchmark-pb">Problem Solving</span>
-          <span class="benchmark-btn">Explore Category &rarr;</span>
+          <span class="benchmark-btn">View Tests &rarr;</span>
         </div>
       </a>
 
-      <!-- 9. Daily Challenge -->
       <a href="/daily" class="benchmark-card">
         <div>
           <div class="benchmark-card-header">
             <span class="benchmark-card-icon">🗓️</span>
-            <span class="benchmark-badge daily">Daily Synchronized</span>
+            <span class="benchmark-badge daily">Daily</span>
           </div>
-          <div class="benchmark-card-title">Daily Challenge Hub</div>
-          <div class="benchmark-card-desc">A synchronized daily test that resets at midnight UTC. Track your daily completion streak and share results.</div>
+          <div class="benchmark-card-title">Daily Challenges</div>
+          <div class="benchmark-card-desc">
+            Repeatable daily challenges for memory, reaction time, typing, and pattern-based tasks using a shared daily challenge concept.
+          </div>
         </div>
         <div class="benchmark-card-footer">
-          <span class="benchmark-pb" id="dash-streak">0 Day Streak</span>
-          <span class="benchmark-btn">Today's Seed &rarr;</span>
+          <span class="benchmark-pb">Daily Practice</span>
+          <span class="benchmark-btn">View Daily Tests &rarr;</span>
         </div>
       </a>
+
     </div>
   </section>
 
-  <!-- Interactive Mini-Utility: Coin Flip & Dice Roller -->
-  <section class="benchmark-dashboard" style="margin-top: 3.5rem;">
+  <section class="benchmark-dashboard" aria-labelledby="how-works">
     <div class="dashboard-header">
-      <div>
-        <span class="benchmark-badge playable">Site Utility</span>
-        <h3 style="margin-top: 0.35rem;">Quick Decision: Dice Roller &amp; Coin Flip</h3>
-      </div>
-      <div style="display: flex; gap: 0.75rem;">
-        <button id="util-coin-btn" class="btn btn-primary" style="padding: 0.5rem 1rem; min-height: 38px;">
-          🪙 Flip Coin
-        </button>
-        <button id="util-dice-btn" class="btn btn-accent" style="padding: 0.5rem 1rem; min-height: 38px;">
-          🎲 Roll D6
-        </button>
+      <div class="dashboard-title-group">
+        <h2 id="how-works">How Wanjaaro Works</h2>
+        <p>Simple browser tests without an account or complicated setup.</p>
       </div>
     </div>
-    <div id="util-output" style="font-size: 1.35rem; font-weight: 800; color: var(--ink-900); min-height: 40px; display: flex; align-items: center;">
-      Ready — click a tool above
+
+    <div class="dashboard-grid">
+      <div class="dashboard-stat-tile">
+        <div class="dashboard-stat-label">1. Choose</div>
+        <div class="dashboard-stat-value">A Test</div>
+      </div>
+      <div class="dashboard-stat-tile">
+        <div class="dashboard-stat-label">2. Play</div>
+        <div class="dashboard-stat-value">In Browser</div>
+      </div>
+      <div class="dashboard-stat-tile">
+        <div class="dashboard-stat-label">3. Measure</div>
+        <div class="dashboard-stat-value">Your Result</div>
+      </div>
+      <div class="dashboard-stat-tile">
+        <div class="dashboard-stat-label">4. Repeat</div>
+        <div class="dashboard-stat-value">And Improve</div>
+      </div>
+    </div>
+
+    <p style="margin: 1.25rem 0 0;">
+      Wanjaaro is designed for quick, repeatable browser-based testing. Your interaction with a test is handled on the page, and supported personal benchmark values can be stored locally in your browser. No account is required to start a test.
+    </p>
+  </section>
+
+  <section aria-labelledby="about-tests">
+    <div class="category-section-header">
+      <div>
+        <h2 id="about-tests">What These Tests Measure</h2>
+        <p>Wanjaaro separates different skills instead of treating every result as the same kind of benchmark.</p>
+      </div>
+    </div>
+
+    <div class="benchmark-dashboard">
+      <p>
+        <strong>Reaction time</strong> focuses on the delay between a stimulus and your response.
+        <strong>Aim and precision</strong> focuses on controlled pointer movement and target accuracy.
+        <strong>Memory</strong> challenges recall and retention.
+        <strong>Typing</strong> measures speed, accuracy, and consistency while entering text.
+      </p>
+      <p>
+        <strong>Perception</strong> uses visual or auditory discrimination tasks.
+        <strong>Timing</strong> challenges your ability to estimate or synchronize with time.
+        <strong>Cognitive tests</strong> use short tasks involving attention, interference, calculation, or visual search.
+        <strong>Puzzles</strong> add structured problem-solving challenges.
+      </p>
     </div>
   </section>
+
+  <section class="benchmark-dashboard" aria-labelledby="privacy">
+    <div class="dashboard-header">
+      <div class="dashboard-title-group">
+        <h2 id="privacy">Browser-Based &amp; Account-Free</h2>
+        <p>Start a test without creating a profile.</p>
+      </div>
+      <span class="benchmark-badge playable">No Account Required</span>
+    </div>
+    <p>
+      Wanjaaro is built around interactive tests that run in the browser. The site does not require an account to use the tests, and supported benchmark values can remain in local browser storage rather than requiring a server-side profile.
+    </p>
+  </section>
+
 </div>
 
 <script>
 (function() {
-  // Populate Dashboard Stats from localStorage
+  // Populate supported personal benchmark values from localStorage.
   var rt = localStorage.getItem('wanjaaro_pb_reaction_time');
-  if (rt) document.getElementById('dash-rt').textContent = rt + ' ms';
-
   var aim = localStorage.getItem('wanjaaro_pb_aim');
-  if (aim) document.getElementById('dash-aim').textContent = aim + ' ms';
-
   var chimp = localStorage.getItem('wanjaaro_pb_chimp');
-  if (chimp) document.getElementById('dash-chimp').textContent = chimp + ' Numbers';
-
   var seq = localStorage.getItem('wanjaaro_pb_sequence');
-  if (seq) document.getElementById('dash-seq').textContent = 'Lvl ' + seq;
-
   var wpm = localStorage.getItem('wanjaaro_pb_wpm');
-  if (wpm) document.getElementById('dash-wpm').textContent = wpm + ' WPM';
-
   var clock = localStorage.getItem('wanjaaro_pb_stopclock');
-  if (clock) document.getElementById('dash-clock').textContent = '±' + clock + ' ms';
 
-  var streak = localStorage.getItem('wanjaaro_daily_streak') || '0';
-  document.getElementById('dash-streak').textContent = streak + (streak === '1' ? ' Day Streak' : ' Days Streak');
-
-  // Coin Flip & Dice Roller
-  var out = document.getElementById('util-output');
-  document.getElementById('util-coin-btn').addEventListener('click', function() {
-    out.textContent = 'Flipping...';
-    setTimeout(function() {
-      var isHeads = Math.random() > 0.5;
-      out.textContent = isHeads ? '🪙 Heads!' : '🪙 Tails!';
-    }, 200);
-  });
-
-  document.getElementById('util-dice-btn').addEventListener('click', function() {
-    out.textContent = 'Rolling...';
-    setTimeout(function() {
-      var roll = Math.floor(1 + Math.random() * 6);
-      var diceIcons = ['⚀', '⚁', '⚂', '⚃', '⚄', '⚅'];
-      out.textContent = diceIcons[roll - 1] + ' Rolled a ' + roll + '!';
-    }, 200);
-  });
+  // Keep this page free of assumptions about individual test-page availability.
+  // Dashboard values can be restored here when the corresponding tests exist.
+  void rt; void aim; void chimp; void seq; void wpm; void clock;
 })();
 </script>
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "Wanjaaro",
-  "url": "https://wanjaaro.com/",
-  "description": "Benchmark your reflexes, aim precision, memory capacity, and typing speed with millisecond precision."
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://wanjaaro.com/#website",
+      "name": "Wanjaaro",
+      "url": "https://wanjaaro.com/",
+      "description": "Free browser-based human performance tests and skill challenges covering reaction time, aim and precision, memory, typing, perception, timing, cognitive tasks, and puzzles."
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://wanjaaro.com/#homepage",
+      "url": "https://wanjaaro.com/",
+      "name": "Wanjaaro — Human Benchmark & Skill Tests",
+      "description": "A collection of browser-based human performance tests and skill challenges.",
+      "isPartOf": {
+        "@id": "https://wanjaaro.com/#website"
+      },
+      "mainEntity": {
+        "@type": "ItemList",
+        "name": "Wanjaaro test categories",
+        "numberOfItems": 9,
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Reflex & Reaction", "url": "https://wanjaaro.com/reflex" },
+          { "@type": "ListItem", "position": 2, "name": "Aim & Precision", "url": "https://wanjaaro.com/aim" },
+          { "@type": "ListItem", "position": 3, "name": "Memory Tests", "url": "https://wanjaaro.com/memory" },
+          { "@type": "ListItem", "position": 4, "name": "Typing Speed & Accuracy", "url": "https://wanjaaro.com/typing" },
+          { "@type": "ListItem", "position": 5, "name": "Perception & Senses", "url": "https://wanjaaro.com/perception" },
+          { "@type": "ListItem", "position": 6, "name": "Timing & Rhythm", "url": "https://wanjaaro.com/timing" },
+          { "@type": "ListItem", "position": 7, "name": "Quick-Fire Cognitive", "url": "https://wanjaaro.com/cognitive" },
+          { "@type": "ListItem", "position": 8, "name": "Logic Puzzles", "url": "https://wanjaaro.com/puzzles" },
+          { "@type": "ListItem", "position": 9, "name": "Daily Challenges", "url": "https://wanjaaro.com/daily" }
+        ]
+      }
+    }
+  ]
 }
 </script>
