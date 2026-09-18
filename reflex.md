@@ -1,121 +1,276 @@
 ---
 layout: default
-title: "Reflex & Reaction Time Tests — Wanjaaro"
-description: "Benchmark your reaction speed with visual, audio, peripheral, and anticipation reaction tests. Accurate to the millisecond."
+title: "Reflex & Reaction Tests — Wanjaaro"
+description: "Free browser-based reaction tests for visual response speed, audio response, inhibition, anticipation, and peripheral reaction. No account required."
 permalink: /reflex
 ---
 
 <div class="benchmark-container">
-  <div class="benchmark-hero">
-    <span class="benchmark-badge playable">Category</span>
+
+  <section class="benchmark-hero">
+    <span class="benchmark-badge playable">Human Performance Tests</span>
     <h1>Reflex &amp; Reaction Tests</h1>
-    <p>Measure your neurological reaction speed, physical response latency, and trigger anticipation. Benchmark against global human reaction distributions.</p>
-  </div>
+    <p>
+      Test how quickly you respond to visual and audio signals, how well you control early responses, and how accurately you react to targets outside your central focus. These browser-based tests are designed for quick, repeatable reaction challenges without an account.
+    </p>
+  </section>
 
-  <div class="benchmark-card-grid">
-    <!-- Test 1: Visual Reaction Time -->
-    <a href="/reaction-time" class="benchmark-card">
+  <section aria-labelledby="reflex-tests">
+    <div class="category-section-header">
       <div>
-        <div class="benchmark-card-header">
-          <span class="benchmark-card-icon">⚡</span>
-          <span class="benchmark-badge playable">Playable Now</span>
-        </div>
-        <div class="benchmark-card-title">Visual Reaction Time</div>
-        <div class="benchmark-card-desc">Click as fast as possible when the screen turns green. Measures optical reflex latency across 5 rounds with false-start detection.</div>
+        <h2 id="reflex-tests">Reaction Tests</h2>
+        <p>Each test focuses on a different part of response speed or reaction control.</p>
       </div>
-      <div class="benchmark-card-footer">
-        <span class="benchmark-pb" id="pb-reaction-time">Avg: ~250ms</span>
-        <span class="benchmark-btn">Start Test &rarr;</span>
-      </div>
-    </a>
+    </div>
 
-    <!-- Test 2: Audio Reaction Time -->
-    <a href="/reaction-time?mode=audio" class="benchmark-card">
-      <div>
-        <div class="benchmark-card-header">
-          <span class="benchmark-card-icon">🔊</span>
-          <span class="benchmark-badge playable">Playable Now</span>
-        </div>
-        <div class="benchmark-card-title">Audio Reaction Time</div>
-        <div class="benchmark-card-desc">React purely to acoustic triggers. Auditory signals reach the human brain faster than visual ones (typically ~170ms).</div>
-      </div>
-      <div class="benchmark-card-footer">
-        <span class="benchmark-pb">Avg: ~170ms</span>
-        <span class="benchmark-btn">Start Test &rarr;</span>
-      </div>
-    </a>
+    <div class="benchmark-card-grid">
 
-    <!-- Test 3: Red Light / Green Light -->
-    <a href="/reaction-time?mode=redgreen" class="benchmark-card">
-      <div>
-        <div class="benchmark-card-header">
-          <span class="benchmark-card-icon">🚦</span>
-          <span class="benchmark-badge playable">Playable Now</span>
+      <a href="/reaction-time" class="benchmark-card">
+        <div>
+          <div class="benchmark-card-header">
+            <span class="benchmark-card-icon">⚡</span>
+            <span class="benchmark-badge playable">Playable Now</span>
+          </div>
+          <div class="benchmark-card-title">Visual Reaction Time</div>
+          <div class="benchmark-card-desc">
+            Wait for the visual signal and respond as quickly as possible. Multiple rounds provide a simple way to compare your response times.
+          </div>
         </div>
-        <div class="benchmark-card-title">Red Light, Green Light</div>
-        <div class="benchmark-card-desc">Sprint your clicks during green lights, but stop immediately on red. Sudden stops test impulse inhibition and brake reflexes.</div>
-      </div>
-      <div class="benchmark-card-footer">
-        <span class="benchmark-pb">Inhibition Test</span>
-        <span class="benchmark-btn">Start Test &rarr;</span>
-      </div>
-    </a>
+        <div class="benchmark-card-footer">
+          <span class="benchmark-pb">Visual Response</span>
+          <span class="benchmark-btn">Start Test &rarr;</span>
+        </div>
+      </a>
 
-    <!-- Test 4: Whack-a-Mole Speed -->
-    <a href="/aim-trainer?mode=mole" class="benchmark-card">
-      <div>
-        <div class="benchmark-card-header">
-          <span class="benchmark-card-icon">🔨</span>
-          <span class="benchmark-badge playable">Playable Now</span>
+      <a href="/reaction-time?mode=audio" class="benchmark-card">
+        <div>
+          <div class="benchmark-card-header">
+            <span class="benchmark-card-icon">🔊</span>
+            <span class="benchmark-badge playable">Playable Now</span>
+          </div>
+          <div class="benchmark-card-title">Audio Reaction Time</div>
+          <div class="benchmark-card-desc">
+            Respond when an audio signal occurs. The test isolates an auditory trigger instead of relying on a visual change.
+          </div>
         </div>
-        <div class="benchmark-card-title">Whack-a-Mole Speed Challenge</div>
-        <div class="benchmark-card-desc">Rapid visual pop-ups test your reaction speed combined with cursor coordination under pressure.</div>
-      </div>
-      <div class="benchmark-card-footer">
-        <span class="benchmark-pb">Spatial Reflex</span>
-        <span class="benchmark-btn">Start Test &rarr;</span>
-      </div>
-    </a>
+        <div class="benchmark-card-footer">
+          <span class="benchmark-pb">Audio Response</span>
+          <span class="benchmark-btn">Start Test &rarr;</span>
+        </div>
+      </a>
 
-    <!-- Test 5: False-Start / Anticipation -->
-    <a href="/reaction-time?mode=strict" class="benchmark-card">
-      <div>
-        <div class="benchmark-card-header">
-          <span class="benchmark-card-icon">⏱️</span>
-          <span class="benchmark-badge playable">Playable Now</span>
+      <a href="/reaction-time?mode=redgreen" class="benchmark-card">
+        <div>
+          <div class="benchmark-card-header">
+            <span class="benchmark-card-icon">🚦</span>
+            <span class="benchmark-badge playable">Playable Now</span>
+          </div>
+          <div class="benchmark-card-title">Red Light, Green Light</div>
+          <div class="benchmark-card-desc">
+            Respond during the allowed signal and stop when the signal changes. This adds response control and inhibition to the reaction task.
+          </div>
         </div>
-        <div class="benchmark-card-title">False-Start / Anticipation Test</div>
-        <div class="benchmark-card-desc">Penalizes early clicking heavily. Trains disciplined trigger control and filters out pure guesswork.</div>
-      </div>
-      <div class="benchmark-card-footer">
-        <span class="benchmark-pb">Discipline Score</span>
-        <span class="benchmark-btn">Start Test &rarr;</span>
-      </div>
-    </a>
+        <div class="benchmark-card-footer">
+          <span class="benchmark-pb">Response Control</span>
+          <span class="benchmark-btn">Start Test &rarr;</span>
+        </div>
+      </a>
 
-    <!-- Test 6: Peripheral Vision Reaction -->
-    <a href="/reaction-time?mode=peripheral" class="benchmark-card">
-      <div>
-        <div class="benchmark-card-header">
-          <span class="benchmark-card-icon">👁️</span>
-          <span class="benchmark-badge playable">Playable Now</span>
+      <a href="/aim-trainer?mode=mole" class="benchmark-card">
+        <div>
+          <div class="benchmark-card-header">
+            <span class="benchmark-card-icon">🔨</span>
+            <span class="benchmark-badge playable">Playable Now</span>
+          </div>
+          <div class="benchmark-card-title">Whack-a-Mole Speed</div>
+          <div class="benchmark-card-desc">
+            Click targets as they appear. The challenge combines visual response speed with pointer movement and target selection.
+          </div>
         </div>
-        <div class="benchmark-card-title">Peripheral Vision Reaction</div>
-        <div class="benchmark-card-desc">Keep your eyes fixed on the center crosshair while targets flash along the extreme perimeter of your monitor.</div>
+        <div class="benchmark-card-footer">
+          <span class="benchmark-pb">Target Response</span>
+          <span class="benchmark-btn">Start Test &rarr;</span>
+        </div>
+      </a>
+
+      <a href="/reaction-time?mode=strict" class="benchmark-card">
+        <div>
+          <div class="benchmark-card-header">
+            <span class="benchmark-card-icon">⏱️</span>
+            <span class="benchmark-badge playable">Playable Now</span>
+          </div>
+          <div class="benchmark-card-title">False-Start &amp; Anticipation</div>
+          <div class="benchmark-card-desc">
+            Avoid responding before the signal. Early responses are treated separately so the result reflects both speed and response control.
+          </div>
+        </div>
+        <div class="benchmark-card-footer">
+          <span class="benchmark-pb">Anticipation Control</span>
+          <span class="benchmark-btn">Start Test &rarr;</span>
+        </div>
+      </a>
+
+      <a href="/reaction-time?mode=peripheral" class="benchmark-card">
+        <div>
+          <div class="benchmark-card-header">
+            <span class="benchmark-card-icon">👁️</span>
+            <span class="benchmark-badge playable">Playable Now</span>
+          </div>
+          <div class="benchmark-card-title">Peripheral Vision Reaction</div>
+          <div class="benchmark-card-desc">
+            Keep your attention near the center while responding to targets appearing away from the central focus area.
+          </div>
+        </div>
+        <div class="benchmark-card-footer">
+          <span class="benchmark-pb">Peripheral Response</span>
+          <span class="benchmark-btn">Start Test &rarr;</span>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <section class="benchmark-dashboard" aria-labelledby="about-reflex-tests">
+    <div class="dashboard-header">
+      <div class="dashboard-title-group">
+        <h2 id="about-reflex-tests">What Reaction Tests Measure</h2>
+        <p>Reaction performance is not a single skill.</p>
       </div>
-      <div class="benchmark-card-footer">
-        <span class="benchmark-pb">Field: 180°</span>
-        <span class="benchmark-btn">Start Test &rarr;</span>
+    </div>
+
+    <p>
+      <strong>Visual reaction tests</strong> measure how quickly you respond to a visible change.
+      <strong>Audio reaction tests</strong> use a sound as the trigger.
+      <strong>Anticipation tests</strong> add a control component by penalizing responses that happen before the expected signal.
+    </p>
+    <p>
+      <strong>Target-response tests</strong> add pointer movement and target selection.
+      <strong>Peripheral-response tests</strong> move the relevant visual signal away from the center of your attention.
+      These differences matter when comparing results because two reaction tests can measure different combinations of response speed, attention, movement, and response control.
+    </p>
+  </section>
+
+  <section class="benchmark-dashboard" aria-labelledby="reaction-results">
+    <div class="dashboard-header">
+      <div class="dashboard-title-group">
+        <h2 id="reaction-results">Why Results Can Vary</h2>
+        <p>A browser reaction result is affected by more than your response alone.</p>
       </div>
-    </a>
-  </div>
+    </div>
+
+    <p>
+      Your result can vary between attempts because of attention, familiarity with the test, input-device behavior, display characteristics, browser timing, system load, and whether you anticipate the signal. For that reason, repeated attempts under similar conditions are more useful for personal comparison than treating a single score as a universal measurement.
+    </p>
+  </section>
+
+  <section class="benchmark-dashboard" aria-labelledby="reflex-setup">
+    <div class="dashboard-header">
+      <div class="dashboard-title-group">
+        <h2 id="reflex-setup">Quick Browser Test</h2>
+        <p>No account or special setup is required.</p>
+      </div>
+      <span class="benchmark-badge playable">Free to Use</span>
+    </div>
+
+    <p>
+      Choose a reaction test above and follow its on-screen instructions. The tests are designed to run directly in your browser, making it easy to repeat a test and compare your own results over time. Supported personal benchmark values can be kept in local browser storage.
+    </p>
+  </section>
+
 </div>
-<script>
-(function() {
-  var rt = localStorage.getItem('wanjaaro_pb_reaction_time');
-  if (rt) {
-    var el = document.getElementById('pb-reaction-time');
-    if (el) el.textContent = 'Your Best: ' + rt + 'ms';
-  }
-})();
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://wanjaaro.com/reflex#webpage",
+      "url": "https://wanjaaro.com/reflex",
+      "name": "Reflex & Reaction Tests — Wanjaaro",
+      "description": "Free browser-based reaction tests for visual response speed, audio response, inhibition, anticipation, and peripheral reaction.",
+      "isPartOf": {
+        "@id": "https://wanjaaro.com/#website"
+      },
+      "mainEntity": {
+        "@id": "https://wanjaaro.com/reflex#tests"
+      }
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://wanjaaro.com/reflex#collection",
+      "url": "https://wanjaaro.com/reflex",
+      "name": "Reflex & Reaction Tests",
+      "description": "A collection of browser-based tests covering visual and audio reaction, response control, anticipation, target response, and peripheral reaction.",
+      "isPartOf": {
+        "@id": "https://wanjaaro.com/#website"
+      },
+      "mainEntity": {
+        "@id": "https://wanjaaro.com/reflex#tests"
+      }
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://wanjaaro.com/reflex#tests",
+      "name": "Wanjaaro Reflex & Reaction Tests",
+      "numberOfItems": 6,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Visual Reaction Time",
+          "url": "https://wanjaaro.com/reaction-time"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Audio Reaction Time",
+          "url": "https://wanjaaro.com/reaction-time?mode=audio"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Red Light, Green Light",
+          "url": "https://wanjaaro.com/reaction-time?mode=redgreen"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Whack-a-Mole Speed",
+          "url": "https://wanjaaro.com/aim-trainer?mode=mole"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "False-Start & Anticipation",
+          "url": "https://wanjaaro.com/reaction-time?mode=strict"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Peripheral Vision Reaction",
+          "url": "https://wanjaaro.com/reaction-time?mode=peripheral"
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://wanjaaro.com/reflex#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Wanjaaro",
+          "item": "https://wanjaaro.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Reflex & Reaction Tests",
+          "item": "https://wanjaaro.com/reflex"
+        }
+      ]
+    }
+  ]
+}
 </script>
