@@ -1,92 +1,34 @@
-<!-- Sidebar Ad & Related Tools Column (Desktop 25% Right Sidebar) -->
+<!-- Shared desktop sidebar: ads + same-category related benchmarks -->
 <aside class="tool-sidebar" aria-label="Sidebar">
-  <!-- Top Sidebar Ad Slot (e.g. 300x250 Medium Rectangle or Responsive) -->
   <div class="ad-container-wrap sidebar-ad" aria-label="Advertisement">
     <div class="ad-label">Advertisement</div>
     <div class="ad-slot ad-slot-sidebar">
-      <!-- 
-        Ad Network Unit (e.g., Google AdSense 300x250 or Responsive)
-        Replace with your ad code snippet:
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
-             data-ad-slot="XXXXXXXXXX"
-             data-ad-format="rectangle"
-             data-full-width-responsive="true"></ins>
-        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-      -->
       <span class="ad-placeholder-text">Sponsor Ad (300×250)</span>
     </div>
   </div>
 
-  <!-- Related Benchmarks & Tools Widget -->
   <div class="sidebar-widget related-tools-widget">
     <div class="widget-header">
       <h3 class="widget-title">Related Benchmarks</h3>
       <a href="/" class="widget-view-all">All Tools &rarr;</a>
     </div>
-    
     <div class="related-tools-list">
-      <a href="/reaction-time" class="related-tool-item" data-tool="/reaction-time">
-        <span class="related-tool-icon">⚡</span>
-        <div class="related-tool-info">
-          <div class="related-tool-name">Visual Reaction Time</div>
-          <div class="related-tool-sub">Calibrated reflex speed (ms)</div>
-        </div>
-      </a>
-      <a href="/aim-trainer" class="related-tool-item" data-tool="/aim-trainer">
-        <span class="related-tool-icon">🎯</span>
-        <div class="related-tool-info">
-          <div class="related-tool-name">Aim Trainer</div>
-          <div class="related-tool-sub">Flick precision & target speed</div>
-        </div>
-      </a>
-      <a href="/chimp-test" class="related-tool-item" data-tool="/chimp-test">
-        <span class="related-tool-icon">🐒</span>
-        <div class="related-tool-info">
-          <div class="related-tool-name">Chimp Test</div>
-          <div class="related-tool-sub">Ayumu working memory limit</div>
-        </div>
-      </a>
-      <a href="/sequence-memory" class="related-tool-item" data-tool="/sequence-memory">
-        <span class="related-tool-icon">🧠</span>
-        <div class="related-tool-info">
-          <div class="related-tool-name">Sequence Memory</div>
-          <div class="related-tool-sub">Spatial pattern Simon test</div>
-        </div>
-      </a>
-      <a href="/typing-test" class="related-tool-item" data-tool="/typing-test">
-        <span class="related-tool-icon">⌨️</span>
-        <div class="related-tool-info">
-          <div class="related-tool-name">Typing Speed (WPM)</div>
-          <div class="related-tool-sub">60-second typing velocity</div>
-        </div>
-      </a>
-      <a href="/stop-the-clock" class="related-tool-item" data-tool="/stop-the-clock">
-        <span class="related-tool-icon">⏱️</span>
-        <div class="related-tool-info">
-          <div class="related-tool-name">Stop the Clock</div>
-          <div class="related-tool-sub">5.000s temporal calibration</div>
-        </div>
-      </a>
-      <a href="/stroop-test" class="related-tool-item" data-tool="/stroop-test">
-        <span class="related-tool-icon">🎨</span>
-        <div class="related-tool-info">
-          <div class="related-tool-name">Stroop Effect</div>
-          <div class="related-tool-sub">Cognitive color-word inhibition</div>
-        </div>
-      </a>
-      <a href="/number-memory" class="related-tool-item" data-tool="/number-memory">
-        <span class="related-tool-icon">🔢</span>
-        <div class="related-tool-info">
-          <div class="related-tool-name">Number Memory</div>
-          <div class="related-tool-sub">Digit span memory test</div>
-        </div>
-      </a>
+      {% assign related_count = 0 %}
+      {% for tool in site.pages %}
+        {% if tool.sidebar and tool.category == page.category and tool.url != page.url and related_count < 6 %}
+          <a href="{{ tool.url | relative_url }}" class="related-tool-item" data-tool="{{ tool.url | relative_url }}">
+            <span class="related-tool-icon">{{ tool.sidebar_icon }}</span>
+            <div class="related-tool-info">
+              <div class="related-tool-name">{{ tool.sidebar_title }}</div>
+              <div class="related-tool-sub">{{ tool.sidebar_subtitle }}</div>
+            </div>
+          </a>
+          {% assign related_count = related_count | plus: 1 %}
+        {% endif %}
+      {% endfor %}
     </div>
   </div>
 
-  <!-- Lower Sticky / Half-Page Ad Slot for Desktop (300x600 or 300x250) -->
   <div class="ad-container-wrap sidebar-ad sidebar-ad-lower" aria-label="Advertisement">
     <div class="ad-label">Advertisement</div>
     <div class="ad-slot ad-slot-sidebar-halfpage">
@@ -94,89 +36,3 @@
     </div>
   </div>
 </aside>
-<script>
-(function() {
-  function initStickySidebar() {
-    var layouts = document.querySelectorAll('.benchmark-layout-split');
-
-    layouts.forEach(function(layout) {
-      var sidebar = layout.querySelector('.tool-sidebar');
-      var main = layout.querySelector('.benchmark-main-column');
-      var container = layout.closest('.benchmark-container');
-
-      if (!sidebar || !main || !container) return;
-
-      var media = window.matchMedia('(min-width: 861px)');
-      var topOffset = 90;
-      var ticking = false;
-
-      function clearPositioning() {
-        sidebar.classList.remove('sidebar-is-fixed', 'sidebar-is-stopped');
-        sidebar.style.removeProperty('--sidebar-stop-top');
-      }
-
-      function updatePosition() {
-        ticking = false;
-
-        if (!media.matches) {
-          clearPositioning();
-          return;
-        }
-
-        var sidebarRect = sidebar.getBoundingClientRect();
-        var mainRect = main.getBoundingClientRect();
-        var containerRect = container.getBoundingClientRect();
-
-        var sidebarHeight = sidebarRect.height;
-        var sidebarDocumentTop = sidebarRect.top + window.scrollY;
-
-        /* Start fixing only after the sidebar reaches the header offset. */
-        var fixStart = sidebarDocumentTop - topOffset;
-
-        /*
-         * The sidebar's bottom must never pass the bottom of the left column.
-         * getBoundingClientRect() is viewport-relative, so subtracting the
-         * container top gives the correct absolute top inside the container.
-         */
-        var stopTop = mainRect.bottom - sidebarHeight - containerRect.top;
-
-        if (window.scrollY < fixStart) {
-          clearPositioning();
-          return;
-        }
-
-        if (window.scrollY + topOffset + sidebarHeight >= mainRect.bottom + window.scrollY) {
-          sidebar.classList.remove('sidebar-is-fixed');
-          sidebar.classList.add('sidebar-is-stopped');
-          sidebar.style.setProperty('--sidebar-stop-top', Math.max(0, stopTop) + 'px');
-          return;
-        }
-
-        sidebar.classList.remove('sidebar-is-stopped');
-        sidebar.classList.add('sidebar-is-fixed');
-        sidebar.style.removeProperty('--sidebar-stop-top');
-      }
-
-      function requestUpdate() {
-        if (!ticking) {
-          ticking = true;
-          window.requestAnimationFrame(updatePosition);
-        }
-      }
-
-      window.addEventListener('scroll', requestUpdate, { passive: true });
-      window.addEventListener('resize', requestUpdate);
-      media.addEventListener('change', requestUpdate);
-
-      updatePosition();
-    });
-  }
-
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initStickySidebar);
-  } else {
-    initStickySidebar();
-  }
-})();
-</script>
-
