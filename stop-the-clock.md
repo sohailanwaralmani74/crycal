@@ -3,13 +3,14 @@ layout: default
 title: "Stop the Clock (Timing Precision) — Wanjaaro"
 description: "Stop the high-speed millisecond timer as close to 5.000 seconds as possible. Test your internal rhythm and temporal calibration."
 permalink: /stop-the-clock
+category: timing
+sidebar: true
+sidebar_title: "Stop the Clock"
+sidebar_subtitle: "5.000s temporal calibration"
+sidebar_icon: "⏱️"
 ---
 
-<div class="benchmark-container">
-  <div class="benchmark-layout-split">
-    <!-- Main Column: 75% Desktop / Primary Flow on Mobile -->
-    <div class="benchmark-main-column">
-      <div class="benchmark-hero">
+<div class="benchmark-hero">
         <span class="benchmark-badge playable">Timing Benchmark</span>
         <h1>Stop the Clock Precision Test</h1>
         <p>Press Start, then press Stop when you believe the clock has reached exactly <strong>5.000 seconds</strong>. The digital display vanishes after 2.5 seconds!</p>
