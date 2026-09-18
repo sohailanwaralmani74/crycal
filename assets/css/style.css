@@ -388,6 +388,74 @@ p {
   background: rgba(7, 219, 215, 0.2);
 }
 
+
+/* Desktop category mega menus */
+.nav-category { position: relative; }
+.mega-menu {
+  position: absolute;
+  top: calc(100% + 0.45rem);
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(760px, calc(100vw - 2rem));
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
+  padding: 1.25rem;
+  background: var(--surface-white);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-xl);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transform: translate(-50%, -6px);
+  transition: opacity .15s ease, transform .15s ease, visibility .15s ease;
+  z-index: 1100;
+}
+.nav-category:hover > .mega-menu,
+.nav-category:focus-within > .mega-menu {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translate(-50%, 0);
+}
+.mega-menu-column { display: flex; flex-direction: column; gap: .2rem; }
+.mega-menu-column a {
+  padding: .55rem .65rem;
+  border-radius: var(--radius-sm);
+  color: var(--text-primary);
+  font-size: .86rem;
+  font-weight: 600;
+}
+.mega-menu-column a:hover { background: var(--surface-muted); color: var(--accent-text); }
+
+.mobile-category { display: block; }
+.mobile-category-toggle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: .65rem .75rem;
+  border: 0;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: var(--text-primary);
+  font-weight: 600;
+  text-align: left;
+  cursor: pointer;
+}
+.mobile-category-toggle:hover, .mobile-category-toggle.active { background: var(--surface-muted); color: var(--ink-900); }
+.mobile-category-toggle span { font-size: 1.1rem; color: var(--text-muted); }
+.mobile-category-tools { display: none; padding: .15rem 0 .4rem .75rem; }
+.mobile-category-tools.active { display: block; }
+.mobile-category-tools a { display: block; font-size: .9rem; padding: .5rem .75rem; font-weight: 500; }
+.mobile-category-tools .mobile-category-page { font-weight: 700; color: var(--accent-text); }
+
+@media (max-width: 860px) {
+  .desktop-nav { display: none; }
+  .mobile-category-tools { max-height: none; }
+}
+
 /* Mobile Hamburger Button */
 .hamburger {
   display: none;
