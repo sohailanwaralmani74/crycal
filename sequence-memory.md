@@ -3,13 +3,14 @@ layout: default
 title: "Sequence Memory Test — Wanjaaro"
 description: "Remember an expanding pattern of lighted squares in a 3x3 grid. Test your sequential visual-spatial memory span."
 permalink: /sequence-memory
+category: memory
+sidebar: true
+sidebar_title: "Sequence Memory"
+sidebar_subtitle: "Spatial pattern memory"
+sidebar_icon: "🧠"
 ---
 
-<div class="benchmark-container">
-  <div class="benchmark-layout-split">
-    <!-- Main Column: 75% Desktop / Primary Flow on Mobile -->
-    <div class="benchmark-main-column">
-      <div class="benchmark-hero">
+<div class="benchmark-hero">
         <span class="benchmark-badge playable">Memory Benchmark</span>
         <h1>Sequence Memory Test</h1>
         <p>Memorize the sequence of flashing tiles on the 3x3 grid. The pattern grows by one tile every round. How long of a sequence can you repeat?</p>
