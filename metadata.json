@@ -1,6 +1,6 @@
 {
-  "name": "Wanjaaro Financial Calculators",
-  "description": "Suite of 170+ free browser-based personal finance, mortgage, tax, debt, and retirement calculators.",
+  "name": "Wanjaaro — Construction & Engineering Calculators",
+  "description": "Browser-based construction and engineering calculators with bespoke layouts for materials, structural framing, concrete, and roofing.",
   "requestFramePermissions": [],
   "majorCapabilities": [
     "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"

@@ -1,32 +1,4 @@
-# Construction calculator navigation categories.
-concrete-foundations:
-  name: Concrete & Foundations
-  description: Concrete quantities, slabs, footings, piers, rebar, and foundation materials.
-
-earthwork-site:
-  name: Earthwork & Site Work
-  description: Excavation, grading, aggregate, drainage, soil, and site preparation calculations.
-
-framing-structures:
-  name: Framing & Structures
-  description: Lumber, studs, joists, rafters, sheathing, decks, stairs, and structural quantities.
-
-roofing-exterior:
-  name: Roofing & Exterior
-  description: Roof area, shingles, underlayment, siding, gutters, and exterior material calculations.
-
-masonry:
-  name: Masonry & Block
-  description: Brick, block, mortar, wall area, and masonry material calculations.
-
-finishes:
-  name: Drywall & Finishes
-  description: Drywall, plaster, paint, tile, flooring, insulation, and finish-material calculations.
-
-trades:
-  name: Plumbing, Electrical & HVAC
-  description: Practical building-service calculations for plumbing, electrical, ventilation, and HVAC work.
-
-estimating:
-  name: Estimating & Project Costs
-  description: Material quantities, waste, labor, project costs, and construction estimating tools.
+# _data/categories.yml
+blog:
+  parent: Blog
+  parent_url: /blog
