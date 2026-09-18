@@ -6,70 +6,96 @@ permalink: /sequence-memory
 ---
 
 <div class="benchmark-container">
-  <div class="benchmark-hero" style="margin-bottom: 1.5rem;">
-    <span class="benchmark-badge playable" style="margin-bottom: 0.5rem; display: inline-block;">Memory Benchmark</span>
-    <h1>Sequence Memory Test</h1>
-    <p>Memorize the sequence of flashing tiles on the 3x3 grid. The pattern grows by one tile every round. How long of a sequence can you repeat?</p>
-  </div>
+  <div class="benchmark-layout-split">
+    <!-- Main Column: 75% Desktop / Primary Flow on Mobile -->
+    <div class="benchmark-main-column">
+      <div class="benchmark-hero">
+        <span class="benchmark-badge playable">Memory Benchmark</span>
+        <h1>Sequence Memory Test</h1>
+        <p>Memorize the sequence of flashing tiles on the 3x3 grid. The pattern grows by one tile every round. How long of a sequence can you repeat?</p>
+      </div>
 
-  <!-- 3x3 Arena Grid -->
-  <div style="max-width: 440px; margin: 0 auto; position: relative;">
-    <div id="simon-grid" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; aspect-ratio: 1; background: #082633; padding: 14px; border-radius: 14px; border: 2px solid #07dbd7;">
-      <!-- 9 tiles -->
-      <div class="simon-tile" data-id="0" style="background: #143e52; border-radius: 10px; cursor: pointer; transition: background 0.15s, transform 0.1s;"></div>
-      <div class="simon-tile" data-id="1" style="background: #143e52; border-radius: 10px; cursor: pointer; transition: background 0.15s, transform 0.1s;"></div>
-      <div class="simon-tile" data-id="2" style="background: #143e52; border-radius: 10px; cursor: pointer; transition: background 0.15s, transform 0.1s;"></div>
-      <div class="simon-tile" data-id="3" style="background: #143e52; border-radius: 10px; cursor: pointer; transition: background 0.15s, transform 0.1s;"></div>
-      <div class="simon-tile" data-id="4" style="background: #143e52; border-radius: 10px; cursor: pointer; transition: background 0.15s, transform 0.1s;"></div>
-      <div class="simon-tile" data-id="5" style="background: #143e52; border-radius: 10px; cursor: pointer; transition: background 0.15s, transform 0.1s;"></div>
-      <div class="simon-tile" data-id="6" style="background: #143e52; border-radius: 10px; cursor: pointer; transition: background 0.15s, transform 0.1s;"></div>
-      <div class="simon-tile" data-id="7" style="background: #143e52; border-radius: 10px; cursor: pointer; transition: background 0.15s, transform 0.1s;"></div>
-      <div class="simon-tile" data-id="8" style="background: #143e52; border-radius: 10px; cursor: pointer; transition: background 0.15s, transform 0.1s;"></div>
+      <!-- 3x3 Arena Grid -->
+      <div class="simon-wrap">
+        <div id="simon-grid">
+          <!-- 9 tiles -->
+          <div class="simon-tile" data-id="0"></div>
+          <div class="simon-tile" data-id="1"></div>
+          <div class="simon-tile" data-id="2"></div>
+          <div class="simon-tile" data-id="3"></div>
+          <div class="simon-tile" data-id="4"></div>
+          <div class="simon-tile" data-id="5"></div>
+          <div class="simon-tile" data-id="6"></div>
+          <div class="simon-tile" data-id="7"></div>
+          <div class="simon-tile" data-id="8"></div>
+        </div>
+
+        <!-- Start Overlay -->
+        <div id="simon-overlay" class="test-modal-overlay">
+          <div class="test-arena-icon">🧠</div>
+          <h2>Sequence Memory</h2>
+          <p>
+            Watch the sequence of flashing tiles, then repeat it back in exact order.
+          </p>
+          <button id="simon-start-btn" class="btn btn-accent">
+            Start Benchmark
+          </button>
+        </div>
+      </div>
+
+      <!-- Stats Bar -->
+      <div class="test-stats-bar" style="max-width: 440px;">
+        <div class="test-stat-item">
+          <div class="test-stat-label">Level</div>
+          <div class="test-stat-val" id="simon-level">1</div>
+        </div>
+        <div class="test-stat-item">
+          <div class="test-stat-label">Sequence Length</div>
+          <div class="test-stat-val" id="simon-len">1</div>
+        </div>
+        <div class="test-stat-item">
+          <div class="test-stat-label">Personal Best</div>
+          <div class="test-stat-val" id="simon-pb" style="color: var(--accent-text);">--</div>
+        </div>
+      </div>
+
+      <!-- Game Over Summary -->
+      <div id="simon-summary" class="test-summary-card" style="display: none; max-width: 440px;">
+        <span class="benchmark-badge playable">Test Finished</span>
+        <h2 id="simon-summary-score">Level 0</h2>
+        <p class="test-summary-rating" id="simon-summary-desc">--</p>
+        
+        <div class="summary-actions">
+          <button id="simon-restart-btn" class="btn btn-primary">
+            Play Again
+          </button>
+          <button id="simon-copy-btn" class="btn btn-accent">
+            Share Score 📋
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Placement 2: Ad after Test UI -->
+      <div class="mobile-ad-post-test">
+        {% include mobile-ad.html %}
+      </div>
+
+      <!-- Benchmark Info Context -->
+      <div class="benchmark-info-section">
+        <h3>About Sequential Working Memory</h3>
+        <p>
+          Spatial sequence memory relies on the visuospatial sketchpad of your working memory system. Most healthy adults can comfortably remember patterns of 7 to 9 steps before cognitive interference occurs.
+        </p>
+      </div>
+
+      <!-- Mobile Placement 4: Ad after Content, before Related Tools -->
+      <div class="mobile-ad-post-content">
+        {% include mobile-ad.html %}
+      </div>
     </div>
 
-    <!-- Start Overlay -->
-    <div id="simon-overlay" style="position: absolute; inset: 0; background: rgba(8, 38, 51, 0.92); border-radius: 14px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 2rem; color: #ffffff;">
-      <div style="font-size: 3.5rem; margin-bottom: 0.5rem;">🧠</div>
-      <h2 style="font-size: 2.2rem; margin-bottom: 0.5rem; color: #ffffff; border: none; padding: 0;">Sequence Memory</h2>
-      <p style="color: #b0c6cf; max-width: 320px; margin-bottom: 1.5rem; font-size: 1rem; line-height: 1.5;">
-        Watch the sequence of flashing tiles, then repeat it back in exact order.
-      </p>
-      <button id="simon-start-btn" style="background: #07dbd7; color: #082633; border: none; padding: 0.85rem 2.25rem; font-size: 1.1rem; font-weight: 800; border-radius: 8px; cursor: pointer;">
-        Start Benchmark
-      </button>
-    </div>
-  </div>
-
-  <!-- Stats Bar -->
-  <div class="test-stats-bar" style="max-width: 440px; margin: 1.5rem auto 0;">
-    <div class="test-stat-item">
-      <div class="test-stat-label">Level</div>
-      <div class="test-stat-val" id="simon-level">1</div>
-    </div>
-    <div class="test-stat-item">
-      <div class="test-stat-label">Sequence Length</div>
-      <div class="test-stat-val" id="simon-len">1</div>
-    </div>
-    <div class="test-stat-item">
-      <div class="test-stat-label">Personal Best</div>
-      <div class="test-stat-val" id="simon-pb" style="color: #067c7a;">--</div>
-    </div>
-  </div>
-
-  <!-- Game Over Summary -->
-  <div id="simon-summary" style="display: none; max-width: 440px; margin: 2rem auto 0; background: #ffffff; border: 2px solid #07dbd7; border-radius: 14px; padding: 2rem; text-align: center;">
-    <span class="benchmark-badge playable" style="margin-bottom: 0.5rem; display: inline-block;">Test Finished</span>
-    <h2 style="font-size: 2.3rem; color: var(--ink); margin: 0.5rem 0; border: none; padding: 0;" id="simon-summary-score">Level 0</h2>
-    <p style="font-size: 1.05rem; color: var(--text-muted); margin-bottom: 1.5rem;" id="simon-summary-desc">--</p>
-    
-    <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
-      <button id="simon-restart-btn" style="background: #082633; color: #ffffff; border: none; padding: 0.75rem 1.75rem; border-radius: 8px; font-weight: 700; cursor: pointer; font-size: 1rem;">
-        Play Again
-      </button>
-      <button id="simon-copy-btn" style="background: #07dbd7; color: #082633; border: none; padding: 0.75rem 1.75rem; border-radius: 8px; font-weight: 700; cursor: pointer; font-size: 1rem;">
-        Share Score 📋
-      </button>
-    </div>
+    <!-- Sidebar Column: 25% Desktop / 5th Item on Mobile -->
+    {% include sidebar-tools.html %}
   </div>
 </div>
 

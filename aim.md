@@ -7,7 +7,7 @@ permalink: /aim
 
 <div class="benchmark-container">
   <div class="benchmark-hero">
-    <span class="benchmark-badge" style="background:#e0f7f6; color:#067c7a; margin-bottom: 0.5rem; display: inline-block;">Category</span>
+    <span class="benchmark-badge playable">Category</span>
     <h1>Aim &amp; Precision Tests</h1>
     <p>Calibrate mouse precision, target acquisition speed, motor steadiness, and cursor muscle memory. Built for esports players and precision computer users.</p>
   </div>

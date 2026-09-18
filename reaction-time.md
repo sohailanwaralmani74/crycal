@@ -6,80 +6,100 @@ permalink: /reaction-time
 ---
 
 <div class="benchmark-container">
-  <div class="benchmark-hero" style="margin-bottom: 1.5rem;">
-    <span class="benchmark-badge playable" style="margin-bottom: 0.5rem; display: inline-block;">Reflex Benchmark</span>
-    <h1>Visual Reaction Time Test</h1>
-    <p>When the red box turns <strong style="color:#00a389;">green</strong>, click or tap anywhere as quickly as you can. Avoid clicking too early!</p>
-  </div>
+<div class="benchmark-layout-split">
+  <!-- Main Column: 75% Desktop / Primary Flow on Mobile -->
+  <div class="benchmark-main-column">
+    <div class="benchmark-hero">
+      <span class="benchmark-badge playable">Reflex Benchmark</span>
+      <h1>Visual Reaction Time Test</h1>
+      <p>When the red box turns <strong style="color: var(--success-text);">green</strong>, click or tap anywhere as quickly as you can. Avoid clicking too early!</p>
+    </div>
 
-  <!-- Interactive Test Arena -->
-  <div id="rt-arena" class="test-arena" style="background: #2b3940; min-height: 400px;">
-    <div id="rt-icon" style="font-size: 3.5rem; margin-bottom: 1rem;">⚡</div>
-    <h2 id="rt-title" style="margin-bottom: 0.5rem;">Click to Start</h2>
-    <p id="rt-subtitle">Click anywhere in this box to begin the 5-round reaction test.</p>
-  </div>
-
-  <!-- Stats and History Bar -->
-  <div class="test-stats-bar">
-    <div class="test-stat-item">
-      <div class="test-stat-label">Round</div>
-      <div class="test-stat-val" id="rt-round">0 / 5</div>
-    </div>
-    <div class="test-stat-item">
-      <div class="test-stat-label">Current Round</div>
-      <div class="test-stat-val" id="rt-current">-- ms</div>
-    </div>
-    <div class="test-stat-item">
-      <div class="test-stat-label">Average Time</div>
-      <div class="test-stat-val" id="rt-average">-- ms</div>
-    </div>
-    <div class="test-stat-item">
-      <div class="test-stat-label">Personal Best</div>
-      <div class="test-stat-val" id="rt-pb" style="color: #067c7a;">-- ms</div>
-    </div>
-  </div>
-
-  <!-- Summary Card (Hidden until finished) -->
-  <div id="rt-summary" style="display: none; background: #ffffff; border: 2px solid #07dbd7; border-radius: 14px; padding: 2rem; margin-top: 2rem; text-align: center;">
-    <span class="benchmark-badge playable" style="margin-bottom: 0.5rem; display: inline-block;">Test Complete</span>
-    <h2 style="font-size: 2.5rem; color: var(--ink); margin: 0.5rem 0; border: none; padding: 0;" id="rt-summary-score">-- ms</h2>
-    <p style="font-size: 1.1rem; color: var(--text-muted); margin-bottom: 1.5rem;" id="rt-summary-rating">Calculating your ranking...</p>
-    
-    <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
-      <button id="rt-restart-btn" style="background: #082633; color: #ffffff; border: none; padding: 0.75rem 1.75rem; border-radius: 8px; font-weight: 700; cursor: pointer; font-size: 1rem;">
-        Try Again
-      </button>
-      <button id="rt-copy-btn" style="background: #07dbd7; color: #082633; border: none; padding: 0.75rem 1.75rem; border-radius: 8px; font-weight: 700; cursor: pointer; font-size: 1rem;">
-        Copy Result 📋
-      </button>
-    </div>
-  </div>
-
-  <!-- Explanatory Context -->
-  <div style="margin-top: 3.5rem; border-top: 1px solid var(--border-default); padding-top: 2rem;">
-    <h3 style="padding-left: 0; border-left: none; margin-bottom: 0.75rem;">About Visual Reaction Time</h3>
-    <p style="color: var(--text-muted); line-height: 1.6; margin-bottom: 1.25rem;">
-      The average human visual reaction time is between <strong>200ms and 275ms</strong>. Signals travel from your retina via the optic nerve through the visual cortex and motor cortex to send an action signal to your hand muscles.
-    </p>
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; text-align: center; margin-top: 1.5rem;">
-      <div style="background: var(--surface); padding: 1.25rem; border-radius: 8px; border: 1px solid var(--border-default);">
-        <div style="font-size: 1.3rem; font-weight: 800; color: #067c7a;">&lt; 180 ms</div>
-        <div style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.25rem;">Esports / Top 1%</div>
-      </div>
-      <div style="background: var(--surface); padding: 1.25rem; border-radius: 8px; border: 1px solid var(--border-default);">
-        <div style="font-size: 1.3rem; font-weight: 800; color: #083848;">200 – 240 ms</div>
-        <div style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.25rem;">Above Average</div>
-      </div>
-      <div style="background: var(--surface); padding: 1.25rem; border-radius: 8px; border: 1px solid var(--border-default);">
-        <div style="font-size: 1.3rem; font-weight: 800; color: var(--text-muted);">240 – 280 ms</div>
-        <div style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.25rem;">Average Human</div>
-      </div>
-      <div style="background: var(--surface); padding: 1.25rem; border-radius: 8px; border: 1px solid var(--border-default);">
-        <div style="font-size: 1.3rem; font-weight: 800; color: #b23a3a;">&gt; 300 ms</div>
-        <div style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.25rem;">Below Average</div>
+    <!-- Interactive Test Arena -->
+    <div class="test-arena-wrapper">
+      <div id="rt-arena" class="test-arena">
+        <div id="rt-icon" class="test-arena-icon">⚡</div>
+        <h2 id="rt-title">Click to Start</h2>
+        <p id="rt-subtitle">Click anywhere in this box to begin the 5-round reaction test.</p>
       </div>
     </div>
+
+    <!-- Stats and History Bar -->
+    <div class="test-stats-bar">
+      <div class="test-stat-item">
+        <div class="test-stat-label">Round</div>
+        <div class="test-stat-val" id="rt-round">0 / 5</div>
+      </div>
+      <div class="test-stat-item">
+        <div class="test-stat-label">Current Round</div>
+        <div class="test-stat-val" id="rt-current">-- ms</div>
+      </div>
+      <div class="test-stat-item">
+        <div class="test-stat-label">Average Time</div>
+        <div class="test-stat-val" id="rt-average">-- ms</div>
+      </div>
+      <div class="test-stat-item">
+        <div class="test-stat-label">Personal Best</div>
+        <div class="test-stat-val" id="rt-pb" style="color: var(--accent-text);">-- ms</div>
+      </div>
+    </div>
+
+    <!-- Summary Card (Hidden until finished) -->
+    <div id="rt-summary" class="test-summary-card" style="display: none;">
+      <span class="benchmark-badge playable">Test Complete</span>
+      <h2 id="rt-summary-score">-- ms</h2>
+      <p class="test-summary-rating" id="rt-summary-rating">Calculating your ranking...</p>
+      
+      <div class="summary-actions">
+        <button id="rt-restart-btn" class="btn btn-primary">
+          Try Again
+        </button>
+        <button id="rt-copy-btn" class="btn btn-accent">
+          Copy Result 📋
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Placement 2: Ad after Test UI -->
+    <div class="mobile-ad-post-test">
+      {% include mobile-ad.html %}
+    </div>
+
+    <!-- Explanatory Context / Content Block -->
+    <div class="benchmark-info-section">
+      <h3>About Visual Reaction Time</h3>
+      <p>
+        The average human visual reaction time is between <strong>200ms and 275ms</strong>. Signals travel from your retina via the optic nerve through the visual cortex and motor cortex to send an action signal to your hand muscles.
+      </p>
+      <div class="distribution-grid">
+        <div class="distribution-card">
+          <div class="distribution-score" style="color: var(--accent-text);">&lt; 180 ms</div>
+          <div class="distribution-label">Esports / Top 1%</div>
+        </div>
+        <div class="distribution-card">
+          <div class="distribution-score" style="color: var(--ink-900);">200 – 240 ms</div>
+          <div class="distribution-label">Above Average</div>
+        </div>
+        <div class="distribution-card">
+          <div class="distribution-score" style="color: var(--text-muted);">240 – 280 ms</div>
+          <div class="distribution-label">Average Human</div>
+        </div>
+        <div class="distribution-card">
+          <div class="distribution-score" style="color: var(--danger);">&gt; 300 ms</div>
+          <div class="distribution-label">Below Average</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Placement 4: Ad after Content, before Related Tools -->
+    <div class="mobile-ad-post-content">
+      {% include mobile-ad.html %}
+    </div>
   </div>
+
+  <!-- Sidebar Column: 25% Desktop / 5th Item (Related Tools) on Mobile -->
+  {% include sidebar-tools.html %}
+</div>
 </div>
 
 <script>

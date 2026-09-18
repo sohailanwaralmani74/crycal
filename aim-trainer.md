@@ -6,63 +6,89 @@ permalink: /aim-trainer
 ---
 
 <div class="benchmark-container">
-  <div class="benchmark-hero" style="margin-bottom: 1.5rem;">
-    <span class="benchmark-badge playable" style="margin-bottom: 0.5rem; display: inline-block;">Aim Benchmark</span>
-    <h1>Flick-Shot Aim Trainer</h1>
-    <p>Click 30 targets as quickly and accurately as possible. Test your mouse precision, reaction speed, and flick consistency.</p>
-  </div>
+  <div class="benchmark-layout-split">
+    <!-- Main Column: 75% Desktop / Primary Flow on Mobile -->
+    <div class="benchmark-main-column">
+      <div class="benchmark-hero">
+        <span class="benchmark-badge playable">Aim Benchmark</span>
+        <h1>Flick-Shot Aim Trainer</h1>
+        <p>Click 30 targets as quickly and accurately as possible. Test your mouse precision, reaction speed, and flick consistency.</p>
+      </div>
 
-  <!-- Interactive Canvas Arena -->
-  <div style="position: relative; width: 100%; max-width: 900px; margin: 0 auto;">
-    <canvas id="aim-canvas" width="860" height="500" style="display: block; width: 100%; height: auto; background: #082633; border-radius: 12px; border: 2px solid #07dbd7; cursor: crosshair; touch-action: none;"></canvas>
-    
-    <!-- Overlay for Start / Finish -->
-    <div id="aim-overlay" style="position: absolute; inset: 0; background: rgba(8, 38, 51, 0.88); border-radius: 12px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 2rem; color: #ffffff;">
-      <div style="font-size: 3.5rem; margin-bottom: 0.5rem;">🎯</div>
-      <h2 id="aim-overlay-title" style="font-size: 2.2rem; margin-bottom: 0.5rem; color: #ffffff; border: none; padding: 0;">Click to Start</h2>
-      <p id="aim-overlay-desc" style="color: #b0c6cf; max-width: 500px; margin-bottom: 1.5rem; font-size: 1.05rem;">
-        Click the button below to start. 30 targets will appear one by one across the arena. Click each one as fast as you can.
-      </p>
-      <button id="aim-start-btn" style="background: #07dbd7; color: #082633; border: none; padding: 0.85rem 2.25rem; font-size: 1.1rem; font-weight: 800; border-radius: 8px; cursor: pointer; transition: transform 0.15s;">
-        Start Aim Trainer
-      </button>
-    </div>
-  </div>
+      <!-- Interactive Canvas Arena -->
+      <div class="aim-arena-wrap">
+        <canvas id="aim-canvas" width="860" height="500"></canvas>
+        
+        <!-- Overlay for Start / Finish -->
+        <div id="aim-overlay" class="aim-overlay">
+          <div class="test-arena-icon">🎯</div>
+          <h2 id="aim-overlay-title">Click to Start</h2>
+          <p id="aim-overlay-desc">
+            Click the button below to start. 30 targets will appear one by one across the arena. Click each one as fast as you can.
+          </p>
+          <button id="aim-start-btn" class="btn btn-accent">
+            Start Aim Trainer
+          </button>
+        </div>
+      </div>
 
-  <!-- Stats Bar -->
-  <div class="test-stats-bar">
-    <div class="test-stat-item">
-      <div class="test-stat-label">Remaining</div>
-      <div class="test-stat-val" id="aim-remaining">30</div>
-    </div>
-    <div class="test-stat-item">
-      <div class="test-stat-label">Accuracy</div>
-      <div class="test-stat-val" id="aim-accuracy">100%</div>
-    </div>
-    <div class="test-stat-item">
-      <div class="test-stat-label">Avg Time / Target</div>
-      <div class="test-stat-val" id="aim-avg-time">-- ms</div>
-    </div>
-    <div class="test-stat-item">
-      <div class="test-stat-label">Personal Best</div>
-      <div class="test-stat-val" id="aim-pb" style="color: #067c7a;">-- ms</div>
-    </div>
-  </div>
+      <!-- Stats Bar -->
+      <div class="test-stats-bar">
+        <div class="test-stat-item">
+          <div class="test-stat-label">Remaining</div>
+          <div class="test-stat-val" id="aim-remaining">30</div>
+        </div>
+        <div class="test-stat-item">
+          <div class="test-stat-label">Accuracy</div>
+          <div class="test-stat-val" id="aim-accuracy">100%</div>
+        </div>
+        <div class="test-stat-item">
+          <div class="test-stat-label">Avg Time / Target</div>
+          <div class="test-stat-val" id="aim-avg-time">-- ms</div>
+        </div>
+        <div class="test-stat-item">
+          <div class="test-stat-label">Personal Best</div>
+          <div class="test-stat-val" id="aim-pb" style="color: var(--accent-text);">-- ms</div>
+        </div>
+      </div>
 
-  <!-- Result Summary Box -->
-  <div id="aim-summary" style="display: none; background: #ffffff; border: 2px solid #07dbd7; border-radius: 14px; padding: 2rem; margin-top: 2rem; text-align: center;">
-    <span class="benchmark-badge playable" style="margin-bottom: 0.5rem; display: inline-block;">Session Completed</span>
-    <h2 style="font-size: 2.3rem; color: var(--ink); margin: 0.5rem 0; border: none; padding: 0;" id="aim-summary-score">-- ms / target</h2>
-    <p style="font-size: 1.1rem; color: var(--text-muted); margin-bottom: 1.5rem;" id="aim-summary-desc">--</p>
-    
-    <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
-      <button id="aim-restart-btn" style="background: #082633; color: #ffffff; border: none; padding: 0.75rem 1.75rem; border-radius: 8px; font-weight: 700; cursor: pointer; font-size: 1rem;">
-        Play Again
-      </button>
-      <button id="aim-copy-btn" style="background: #07dbd7; color: #082633; border: none; padding: 0.75rem 1.75rem; border-radius: 8px; font-weight: 700; cursor: pointer; font-size: 1rem;">
-        Share Score 📋
-      </button>
+      <!-- Result Summary Box -->
+      <div id="aim-summary" class="test-summary-card" style="display: none;">
+        <span class="benchmark-badge playable">Session Completed</span>
+        <h2 id="aim-summary-score">-- ms / target</h2>
+        <p class="test-summary-rating" id="aim-summary-desc">--</p>
+        
+        <div class="summary-actions">
+          <button id="aim-restart-btn" class="btn btn-primary">
+            Play Again
+          </button>
+          <button id="aim-copy-btn" class="btn btn-accent">
+            Share Score 📋
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Placement 2: Ad after Test UI -->
+      <div class="mobile-ad-post-test">
+        {% include mobile-ad.html %}
+      </div>
+
+      <!-- Benchmark Info Context -->
+      <div class="benchmark-info-section">
+        <h3>About Mouse Aim &amp; Target Acquisition</h3>
+        <p>
+          Target acquisition speed measures the combined latency of visual search, ballistic arm/wrist motion (the flick), and micro-adjustments onto the target boundary. Competitive first-person shooter players typically achieve target acquisition under <strong>250ms with &gt;95% accuracy</strong>.
+        </p>
+      </div>
+
+      <!-- Mobile Placement 4: Ad after Content, before Related Tools -->
+      <div class="mobile-ad-post-content">
+        {% include mobile-ad.html %}
+      </div>
     </div>
+
+    <!-- Sidebar Column: 25% Desktop / 5th Item on Mobile -->
+    {% include sidebar-tools.html %}
   </div>
 </div>
 

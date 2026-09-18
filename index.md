@@ -9,69 +9,69 @@ permalink: /
 <div class="benchmark-container">
   <!-- Hero Section -->
   <section class="benchmark-hero">
-    <span class="benchmark-badge" style="background:#e0f7f6; color:#067c7a; margin-bottom: 0.75rem; display: inline-block;">Human Benchmark &amp; Skill Testing</span>
-    <h1 style="font-size: clamp(2.2rem, 4.5vw, 3.2rem); margin-bottom: 0.75rem;">Calibrate Your Brain &amp; Reflexes</h1>
-    <p style="font-size: 1.2rem; color: var(--text-muted); max-width: 760px; margin: 0 auto 2rem; line-height: 1.6;">
+    <span class="benchmark-badge playable">Human Benchmark &amp; Skill Testing</span>
+    <h1>Calibrate Your Brain &amp; Reflexes</h1>
+    <p>
       Precise, browser-based benchmarks for visual reaction speed, mouse aim, working memory, typing velocity, and cognitive control. 100% client-side with millisecond accuracy.
     </p>
     
-    <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; margin-bottom: 2rem;">
-      <a href="/reaction-time" class="btn-primary" style="background: #082633; color: #ffffff; padding: 0.85rem 1.85rem; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 1.05rem;">
+    <div class="hero-actions">
+      <a href="/reaction-time" class="btn btn-primary">
         ⚡ Test Reaction Time
       </a>
-      <a href="/aim-trainer" class="btn-primary" style="background: #07dbd7; color: #082633; padding: 0.85rem 1.85rem; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 1.05rem;">
+      <a href="/aim-trainer" class="btn btn-accent">
         🎯 Start Aim Trainer
       </a>
-      <a href="/daily" style="background: #ffffff; color: var(--ink); border: 1px solid var(--border-default); padding: 0.85rem 1.85rem; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 1.05rem;">
+      <a href="/daily" class="btn btn-outline">
         🗓️ Daily Challenge
       </a>
     </div>
   </section>
 
   <!-- Personal Benchmark Dashboard -->
-  <section style="background: #ffffff; border: 1px solid var(--border-default); border-radius: 14px; padding: 1.75rem; margin-bottom: 3.5rem; box-shadow: 0 4px 20px rgba(0,0,0,0.03);">
-    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.25rem; flex-wrap: wrap; gap: 0.5rem;">
-      <div>
-        <h2 style="font-size: 1.3rem; margin: 0; padding: 0; border: none; color: var(--ink);">Your Personal Benchmarks</h2>
-        <span style="font-size: 0.85rem; color: var(--text-muted);">Scores saved locally in your browser</span>
+  <section class="benchmark-dashboard">
+    <div class="dashboard-header">
+      <div class="dashboard-title-group">
+        <h2>Your Personal Benchmarks</h2>
+        <p>Scores saved locally in your browser</p>
       </div>
       <span class="benchmark-badge playable" id="dashboard-status">All Systems Calibrated</span>
     </div>
 
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 1rem; text-align: center;">
-      <div style="background: var(--surface); padding: 1rem 0.5rem; border-radius: 10px; border: 1px solid var(--border-default);">
-        <div style="font-size: 0.75rem; text-transform: uppercase; color: var(--text-muted); font-weight: 700;">Reaction Time</div>
-        <div style="font-size: 1.35rem; font-weight: 800; color: #083848; margin-top: 0.25rem;" id="dash-rt">--</div>
+    <div class="dashboard-grid">
+      <div class="dashboard-stat-tile">
+        <div class="dashboard-stat-label">Reaction Time</div>
+        <div class="dashboard-stat-value" id="dash-rt">--</div>
       </div>
-      <div style="background: var(--surface); padding: 1rem 0.5rem; border-radius: 10px; border: 1px solid var(--border-default);">
-        <div style="font-size: 0.75rem; text-transform: uppercase; color: var(--text-muted); font-weight: 700;">Aim Trainer</div>
-        <div style="font-size: 1.35rem; font-weight: 800; color: #083848; margin-top: 0.25rem;" id="dash-aim">--</div>
+      <div class="dashboard-stat-tile">
+        <div class="dashboard-stat-label">Aim Trainer</div>
+        <div class="dashboard-stat-value" id="dash-aim">--</div>
       </div>
-      <div style="background: var(--surface); padding: 1rem 0.5rem; border-radius: 10px; border: 1px solid var(--border-default);">
-        <div style="font-size: 0.75rem; text-transform: uppercase; color: var(--text-muted); font-weight: 700;">Chimp Test</div>
-        <div style="font-size: 1.35rem; font-weight: 800; color: #083848; margin-top: 0.25rem;" id="dash-chimp">--</div>
+      <div class="dashboard-stat-tile">
+        <div class="dashboard-stat-label">Chimp Test</div>
+        <div class="dashboard-stat-value" id="dash-chimp">--</div>
       </div>
-      <div style="background: var(--surface); padding: 1rem 0.5rem; border-radius: 10px; border: 1px solid var(--border-default);">
-        <div style="font-size: 0.75rem; text-transform: uppercase; color: var(--text-muted); font-weight: 700;">Sequence Memory</div>
-        <div style="font-size: 1.35rem; font-weight: 800; color: #083848; margin-top: 0.25rem;" id="dash-seq">--</div>
+      <div class="dashboard-stat-tile">
+        <div class="dashboard-stat-label">Sequence Memory</div>
+        <div class="dashboard-stat-value" id="dash-seq">--</div>
       </div>
-      <div style="background: var(--surface); padding: 1rem 0.5rem; border-radius: 10px; border: 1px solid var(--border-default);">
-        <div style="font-size: 0.75rem; text-transform: uppercase; color: var(--text-muted); font-weight: 700;">Typing Speed</div>
-        <div style="font-size: 1.35rem; font-weight: 800; color: #083848; margin-top: 0.25rem;" id="dash-wpm">--</div>
+      <div class="dashboard-stat-tile">
+        <div class="dashboard-stat-label">Typing Speed</div>
+        <div class="dashboard-stat-value" id="dash-wpm">--</div>
       </div>
-      <div style="background: var(--surface); padding: 1rem 0.5rem; border-radius: 10px; border: 1px solid var(--border-default);">
-        <div style="font-size: 0.75rem; text-transform: uppercase; color: var(--text-muted); font-weight: 700;">Clock Precision</div>
-        <div style="font-size: 1.35rem; font-weight: 800; color: #083848; margin-top: 0.25rem;" id="dash-clock">--</div>
+      <div class="dashboard-stat-tile">
+        <div class="dashboard-stat-label">Clock Precision</div>
+        <div class="dashboard-stat-value" id="dash-clock">--</div>
       </div>
     </div>
   </section>
 
   <!-- Core Category Navigation Grid -->
   <section>
-    <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 1.5rem;">
+    <div class="category-section-header">
       <div>
-        <h2 style="font-size: 1.8rem; color: var(--ink); margin: 0; padding: 0; border: none;">Benchmark Categories</h2>
-        <p style="color: var(--text-muted); margin: 0.25rem 0 0;">Explore standardized tests across neurological and motor disciplines</p>
+        <h2>Benchmark Categories</h2>
+        <p>Explore standardized tests across neurological and motor disciplines</p>
       </div>
     </div>
 
@@ -205,7 +205,7 @@ permalink: /
       </a>
 
       <!-- 9. Daily Challenge -->
-      <a href="/daily" class="benchmark-card" style="border-color: #07dbd7;">
+      <a href="/daily" class="benchmark-card">
         <div>
           <div class="benchmark-card-header">
             <span class="benchmark-card-icon">🗓️</span>
@@ -223,22 +223,22 @@ permalink: /
   </section>
 
   <!-- Interactive Mini-Utility: Coin Flip & Dice Roller -->
-  <section style="margin-top: 4rem; background: var(--surface); border-radius: 14px; border: 1px solid var(--border-default); padding: 2rem;">
-    <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; margin-bottom: 1rem;">
+  <section class="benchmark-dashboard" style="margin-top: 3.5rem;">
+    <div class="dashboard-header">
       <div>
-        <span class="benchmark-badge playable" style="margin-bottom: 0.35rem; display: inline-block;">Site Utility</span>
-        <h3 style="margin: 0; padding: 0; border: none; font-size: 1.3rem; color: var(--ink);">Quick Decision: Dice Roller &amp; Coin Flip</h3>
+        <span class="benchmark-badge playable">Site Utility</span>
+        <h3 style="margin-top: 0.35rem;">Quick Decision: Dice Roller &amp; Coin Flip</h3>
       </div>
       <div style="display: flex; gap: 0.75rem;">
-        <button id="util-coin-btn" style="background: #082633; color: #ffffff; border: none; padding: 0.6rem 1.25rem; border-radius: 6px; font-weight: 700; cursor: pointer;">
+        <button id="util-coin-btn" class="btn btn-primary" style="padding: 0.5rem 1rem; min-height: 38px;">
           🪙 Flip Coin
         </button>
-        <button id="util-dice-btn" style="background: #07dbd7; color: #082633; border: none; padding: 0.6rem 1.25rem; border-radius: 6px; font-weight: 700; cursor: pointer;">
+        <button id="util-dice-btn" class="btn btn-accent" style="padding: 0.5rem 1rem; min-height: 38px;">
           🎲 Roll D6
         </button>
       </div>
     </div>
-    <div id="util-output" style="font-size: 1.5rem; font-weight: 800; color: #083848; min-height: 40px; display: flex; align-items: center;">
+    <div id="util-output" style="font-size: 1.35rem; font-weight: 800; color: var(--ink-900); min-height: 40px; display: flex; align-items: center;">
       Ready — click a tool above
     </div>
   </section>

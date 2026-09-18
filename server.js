@@ -173,8 +173,11 @@ async function renderPage(slug, pageInfo) {
     url: slug === '' ? '/' : '/' + slug
   };
 
+  // Pre-render Liquid tags inside page content (e.g. {% include %})
+  const renderedContent = await engine.parseAndRender(pageInfo.content || '', { site, page: pageData });
+
   // Convert markdown body to HTML
-  const contentHtml = marked.parse(pageInfo.content || '');
+  const contentHtml = marked.parse(renderedContent);
 
   let finalContent = contentHtml;
   const layoutType = pageData.layout || 'default';

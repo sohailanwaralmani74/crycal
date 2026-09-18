@@ -7,7 +7,7 @@ permalink: /reflex
 
 <div class="benchmark-container">
   <div class="benchmark-hero">
-    <span class="benchmark-badge" style="background:#e0f7f6; color:#067c7a; margin-bottom: 0.5rem; display: inline-block;">Category</span>
+    <span class="benchmark-badge playable">Category</span>
     <h1>Reflex &amp; Reaction Tests</h1>
     <p>Measure your neurological reaction speed, physical response latency, and trigger anticipation. Benchmark against global human reaction distributions.</p>
   </div>

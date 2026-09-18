@@ -7,7 +7,7 @@ permalink: /perception
 
 <div class="benchmark-container">
   <div class="benchmark-hero">
-    <span class="benchmark-badge" style="background:#e0f7f6; color:#067c7a; margin-bottom: 0.5rem; display: inline-block;">Category</span>
+    <span class="benchmark-badge playable">Category</span>
     <h1>Perception &amp; Senses</h1>
     <p>Explore your visual acuity, subtle color delta sensitivity, auditory tone discrimination, and optical spatial judgments.</p>
   </div>

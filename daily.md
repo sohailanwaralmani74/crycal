@@ -7,7 +7,7 @@ permalink: /daily
 
 <div class="benchmark-container">
   <div class="benchmark-hero">
-    <span class="benchmark-badge daily" style="margin-bottom: 0.5rem; display: inline-block;">Resets at Midnight UTC</span>
+    <span class="benchmark-badge daily">Resets at Midnight UTC</span>
     <h1>Daily Benchmark Challenge</h1>
     <p>Every day at midnight, a fresh synchronized challenge unlocks. Complete today's seed, maintain your daily streak, and share your score card!</p>
   </div>
@@ -23,26 +23,26 @@ permalink: /daily
     </div>
     <div class="test-stat-item">
       <div class="test-stat-label">Status</div>
-      <div class="test-stat-val" id="daily-status" style="color:#067c7a;">Ready</div>
+      <div class="test-stat-val" id="daily-status" style="color: var(--accent-text);">Ready</div>
     </div>
   </div>
 
-  <div style="background:#ffffff; border:1px solid var(--border-default); border-radius:14px; padding:2rem; margin-bottom: 2rem;">
-    <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:1rem;">
+  <div class="benchmark-dashboard" style="margin-bottom: 2.5rem;">
+    <div class="dashboard-header">
       <div>
-        <span class="benchmark-badge playable" style="margin-bottom:0.5rem; display:inline-block;">Today's Event</span>
-        <h2 style="font-size:1.8rem; color:var(--ink); margin:0 0 0.5rem; padding-left:0; border-left:none;" id="daily-event-title">Daily Reaction Time &amp; Aim Challenge</h2>
-        <p style="color:var(--text-muted); max-width:650px; line-height:1.6; margin:0;" id="daily-event-desc">
+        <span class="benchmark-badge playable">Today's Event</span>
+        <h2 id="daily-event-title" style="margin: 0.5rem 0 0.35rem;">Daily Reaction Time &amp; Aim Challenge</h2>
+        <p id="daily-event-desc" style="max-width: 650px;">
           Test your neurological reaction speed over 5 standardized rounds. Every player worldwide gets the exact same seed pattern today!
         </p>
       </div>
-      <a href="/reaction-time?daily=true" id="daily-play-btn" class="btn-primary" style="padding: 0.85rem 1.75rem; text-decoration:none; font-weight:700; border-radius:8px; display:inline-block; font-size:1rem; background:#07dbd7; color:#082633;">
+      <a href="/reaction-time?daily=true" id="daily-play-btn" class="btn btn-accent">
         Play Today's Challenge &rarr;
       </a>
     </div>
   </div>
 
-  <h3 style="font-size:1.3rem; margin:2.5rem 0 1rem; padding-left:0; border-left:none;">Weekly Rotation Schedule</h3>
+  <h3 style="font-size: 1.3rem; margin: 2.5rem 0 1rem;">Weekly Rotation Schedule</h3>
   <div class="benchmark-card-grid">
     <div class="benchmark-card">
       <div class="benchmark-card-header">

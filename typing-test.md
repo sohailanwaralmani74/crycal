@@ -6,62 +6,88 @@ permalink: /typing-test
 ---
 
 <div class="benchmark-container">
-  <div class="benchmark-hero" style="margin-bottom: 1.5rem;">
-    <span class="benchmark-badge playable" style="margin-bottom: 0.5rem; display: inline-block;">Typing Benchmark</span>
-    <h1>WPM Typing Speed Test</h1>
-    <p>Type the passage below as quickly and accurately as possible. The 60-second timer begins with your first keystroke.</p>
-  </div>
+  <div class="benchmark-layout-split">
+    <!-- Main Column: 75% Desktop / Primary Flow on Mobile -->
+    <div class="benchmark-main-column">
+      <div class="benchmark-hero">
+        <span class="benchmark-badge playable">Typing Benchmark</span>
+        <h1>WPM Typing Speed Test</h1>
+        <p>Type the passage below as quickly and accurately as possible. The 60-second timer begins with your first keystroke.</p>
+      </div>
 
-  <!-- Typing Arena -->
-  <div style="max-width: 850px; margin: 0 auto; background: #ffffff; border: 2px solid var(--border-default); border-radius: 12px; padding: 2rem; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
-    <!-- Text Display Box -->
-    <div id="typing-words" style="font-size: 1.35rem; line-height: 1.8; color: var(--text-light); user-select: none; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace; max-height: 190px; overflow: hidden; margin-bottom: 1.5rem; border-bottom: 1px solid #eef1f2; padding-bottom: 1.25rem;">
-      <!-- Populated by JS -->
+      <!-- Typing Arena -->
+      <div class="typing-arena">
+        <!-- Text Display Box -->
+        <div id="typing-words" class="typing-words">
+          <!-- Populated by JS -->
+        </div>
+
+        <!-- Live Input Field -->
+        <div class="typing-input-row">
+          <input type="text" id="typing-input" class="typing-input" placeholder="Start typing here..." autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+          <button id="typing-reset-btn" class="btn btn-outline" style="min-height: 48px;">
+            Restart ⟳
+          </button>
+        </div>
+      </div>
+
+      <!-- Stats Bar -->
+      <div class="test-stats-bar" style="max-width: 850px;">
+        <div class="test-stat-item">
+          <div class="test-stat-label">Time Remaining</div>
+          <div class="test-stat-val" id="typing-time">60s</div>
+        </div>
+        <div class="test-stat-item">
+          <div class="test-stat-label">Speed</div>
+          <div class="test-stat-val" id="typing-wpm" style="color: var(--accent-text);">0 WPM</div>
+        </div>
+        <div class="test-stat-item">
+          <div class="test-stat-label">Accuracy</div>
+          <div class="test-stat-val" id="typing-acc">100%</div>
+        </div>
+        <div class="test-stat-item">
+          <div class="test-stat-label">Personal Best</div>
+          <div class="test-stat-val" id="typing-pb">-- WPM</div>
+        </div>
+      </div>
+
+      <!-- Summary Card -->
+      <div id="typing-summary" class="test-summary-card" style="display: none; max-width: 850px;">
+        <span class="benchmark-badge playable">Test Complete</span>
+        <h2 id="typing-summary-score">0 WPM</h2>
+        <p class="test-summary-rating" id="typing-summary-desc">--</p>
+        
+        <div class="summary-actions">
+          <button id="typing-tryagain-btn" class="btn btn-primary">
+            Try Again
+          </button>
+          <button id="typing-copy-btn" class="btn btn-accent">
+            Copy Result 📋
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Placement 2: Ad after Test UI -->
+      <div class="mobile-ad-post-test">
+        {% include mobile-ad.html %}
+      </div>
+
+      <!-- Benchmark Info Context -->
+      <div class="benchmark-info-section">
+        <h3>About WPM Typing Speed &amp; Fluidity</h3>
+        <p>
+          Words Per Minute (WPM) is standardly computed as <code>(characters / 5) / minutes</code>. The global average typing speed is roughly <strong>40 WPM</strong>. Professional typists, coders, and writers typically reach between <strong>70 and 110+ WPM</strong> with 97%+ accuracy.
+        </p>
+      </div>
+
+      <!-- Mobile Placement 4: Ad after Content, before Related Tools -->
+      <div class="mobile-ad-post-content">
+        {% include mobile-ad.html %}
+      </div>
     </div>
 
-    <!-- Live Input Field -->
-    <div style="display: flex; gap: 1rem; align-items: center;">
-      <input type="text" id="typing-input" placeholder="Start typing here..." autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" style="flex: 1; padding: 0.85rem 1.25rem; font-size: 1.2rem; border-radius: 8px; border: 2px solid #07dbd7; outline: none; font-family: inherit; color: var(--ink);">
-      <button id="typing-reset-btn" style="background: var(--surface); color: var(--ink); border: 1px solid var(--border-default); padding: 0.85rem 1.5rem; border-radius: 8px; font-weight: 700; cursor: pointer; white-space: nowrap;">
-        Restart ⟳
-      </button>
-    </div>
-  </div>
-
-  <!-- Stats Bar -->
-  <div class="test-stats-bar" style="max-width: 850px; margin: 1.5rem auto 0;">
-    <div class="test-stat-item">
-      <div class="test-stat-label">Time Remaining</div>
-      <div class="test-stat-val" id="typing-time">60s</div>
-    </div>
-    <div class="test-stat-item">
-      <div class="test-stat-label">Speed</div>
-      <div class="test-stat-val" id="typing-wpm" style="color: #067c7a;">0 WPM</div>
-    </div>
-    <div class="test-stat-item">
-      <div class="test-stat-label">Accuracy</div>
-      <div class="test-stat-val" id="typing-acc">100%</div>
-    </div>
-    <div class="test-stat-item">
-      <div class="test-stat-label">Personal Best</div>
-      <div class="test-stat-val" id="typing-pb">-- WPM</div>
-    </div>
-  </div>
-
-  <!-- Summary Card -->
-  <div id="typing-summary" style="display: none; max-width: 850px; margin: 2rem auto 0; background: #ffffff; border: 2px solid #07dbd7; border-radius: 14px; padding: 2rem; text-align: center;">
-    <span class="benchmark-badge playable" style="margin-bottom: 0.5rem; display: inline-block;">Test Complete</span>
-    <h2 style="font-size: 2.5rem; color: var(--ink); margin: 0.5rem 0; border: none; padding: 0;" id="typing-summary-score">0 WPM</h2>
-    <p style="font-size: 1.1rem; color: var(--text-muted); margin-bottom: 1.5rem;" id="typing-summary-desc">--</p>
-    
-    <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
-      <button id="typing-tryagain-btn" style="background: #082633; color: #ffffff; border: none; padding: 0.75rem 1.75rem; border-radius: 8px; font-weight: 700; cursor: pointer; font-size: 1rem;">
-        Try Again
-      </button>
-      <button id="typing-copy-btn" style="background: #07dbd7; color: #082633; border: none; padding: 0.75rem 1.75rem; border-radius: 8px; font-weight: 700; cursor: pointer; font-size: 1rem;">
-        Copy Result 📋
-      </button>
-    </div>
+    <!-- Sidebar Column: 25% Desktop / 5th Item on Mobile -->
+    {% include sidebar-tools.html %}
   </div>
 </div>
 

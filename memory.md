@@ -7,7 +7,7 @@ permalink: /memory
 
 <div class="benchmark-container">
   <div class="benchmark-hero">
-    <span class="benchmark-badge" style="background:#e0f7f6; color:#067c7a; margin-bottom: 0.5rem; display: inline-block;">Category</span>
+    <span class="benchmark-badge playable">Category</span>
     <h1>Memory Tests</h1>
     <p>Assess short-term memory span, spatial pattern recognition, numerical recall, and working memory load with cognitive neuroscience protocols.</p>
   </div>

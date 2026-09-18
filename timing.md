@@ -7,7 +7,7 @@ permalink: /timing
 
 <div class="benchmark-container">
   <div class="benchmark-hero">
-    <span class="benchmark-badge" style="background:#e0f7f6; color:#067c7a; margin-bottom: 0.5rem; display: inline-block;">Category</span>
+    <span class="benchmark-badge playable">Category</span>
     <h1>Timing &amp; Rhythm Tests</h1>
     <p>Calibrate your internal temporal clock, rhythm tap accuracy, audio synchronization, and millisecond time estimation.</p>
   </div>

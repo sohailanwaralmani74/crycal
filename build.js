@@ -113,7 +113,10 @@ async function renderPage(slug, filePath, pageData, content) {
     url: slug === '' ? '/' : '/' + slug
   };
 
-  const contentHtml = marked.parse(content || '');
+  // Pre-render Liquid tags inside page content (e.g. {% include %})
+  const renderedContent = await engine.parseAndRender(content || '', { site, page });
+
+  const contentHtml = marked.parse(renderedContent);
   let finalContent = contentHtml;
   const layoutType = page.layout || 'default';
 

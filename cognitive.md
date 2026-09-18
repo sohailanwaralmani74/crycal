@@ -7,7 +7,7 @@ permalink: /cognitive
 
 <div class="benchmark-container">
   <div class="benchmark-hero">
-    <span class="benchmark-badge" style="background:#e0f7f6; color:#067c7a; margin-bottom: 0.5rem; display: inline-block;">Category</span>
+    <span class="benchmark-badge playable">Category</span>
     <h1>Quick-Fire Cognitive Games</h1>
     <p>Test executive function, inhibitory control, working memory processing speed, and mental agility under rapid time pressure.</p>
   </div>

@@ -7,7 +7,7 @@ permalink: /puzzles
 
 <div class="benchmark-container">
   <div class="benchmark-hero">
-    <span class="benchmark-badge" style="background:#e0f7f6; color:#067c7a; margin-bottom: 0.5rem; display: inline-block;">Category</span>
+    <span class="benchmark-badge playable">Category</span>
     <h1>Logic Puzzles &amp; Spatial Games</h1>
     <p>Pure logical deduction, algorithmic spatial problem solving, and combinatorial strategy games.</p>
   </div>

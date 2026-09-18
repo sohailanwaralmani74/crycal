@@ -6,64 +6,90 @@ permalink: /chimp-test
 ---
 
 <div class="benchmark-container">
-  <div class="benchmark-hero" style="margin-bottom: 1.5rem;">
-    <span class="benchmark-badge playable" style="margin-bottom: 0.5rem; display: inline-block;">Memory Benchmark</span>
-    <h1>The Chimp Test (Ayumu Benchmark)</h1>
-    <p>
-      In 2007, researchers at Kyoto University discovered chimpanzees like <em>Ayumu</em> could memorize the positions of 9 numbers in 0.2 seconds.
-      Can your human working memory keep up?
-    </p>
-  </div>
+  <div class="benchmark-layout-split">
+    <!-- Main Column: 75% Desktop / Primary Flow on Mobile -->
+    <div class="benchmark-main-column">
+      <div class="benchmark-hero">
+        <span class="benchmark-badge playable">Memory Benchmark</span>
+        <h1>The Chimp Test (Ayumu Benchmark)</h1>
+        <p>
+          In 2007, researchers at Kyoto University discovered chimpanzees like <em>Ayumu</em> could memorize the positions of 9 numbers in 0.2 seconds.
+          Can your human working memory keep up?
+        </p>
+      </div>
 
-  <!-- Test Board Container -->
-  <div style="max-width: 600px; margin: 0 auto;">
-    <div id="chimp-board" style="position: relative; width: 100%; aspect-ratio: 1; background: #082633; border-radius: 12px; border: 2px solid #07dbd7; display: grid; grid-template-columns: repeat(5, 1fr); grid-template-rows: repeat(5, 1fr); gap: 8px; padding: 12px; user-select: none;">
-      <!-- Tiles populated by JS -->
+      <!-- Test Board Container -->
+      <div class="chimp-wrap">
+        <div id="chimp-board">
+          <!-- Tiles populated by JS -->
+        </div>
+
+        <!-- Start Overlay -->
+        <div id="chimp-overlay" class="test-modal-overlay">
+          <div class="test-arena-icon">🐒</div>
+          <h2>Chimp Test</h2>
+          <p>
+            Numbers will appear on the grid. Once you click <strong>1</strong>, all remaining numbers will hide behind blank squares. Click them in ascending order!
+          </p>
+          <button id="chimp-start-btn" class="btn btn-accent">
+            Start Test
+          </button>
+        </div>
+      </div>
+
+      <!-- Stats Bar -->
+      <div class="test-stats-bar" style="max-width: 560px;">
+        <div class="test-stat-item">
+          <div class="test-stat-label">Numbers</div>
+          <div class="test-stat-val" id="chimp-count">4</div>
+        </div>
+        <div class="test-stat-item">
+          <div class="test-stat-label">Strikes</div>
+          <div class="test-stat-val" id="chimp-strikes" style="color: var(--danger);">0 / 3</div>
+        </div>
+        <div class="test-stat-item">
+          <div class="test-stat-label">Personal Best</div>
+          <div class="test-stat-val" id="chimp-pb" style="color: var(--accent-text);">--</div>
+        </div>
+      </div>
+
+      <!-- Game Over Summary -->
+      <div id="chimp-summary" class="test-summary-card" style="display: none; max-width: 560px;">
+        <span class="benchmark-badge playable">Test Over</span>
+        <h2 id="chimp-summary-score">Level 0 (0 Numbers)</h2>
+        <p class="test-summary-rating" id="chimp-summary-desc">--</p>
+        
+        <div class="summary-actions">
+          <button id="chimp-restart-btn" class="btn btn-primary">
+            Play Again
+          </button>
+          <button id="chimp-copy-btn" class="btn btn-accent">
+            Share Score 📋
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Placement 2: Ad after Test UI -->
+      <div class="mobile-ad-post-test">
+        {% include mobile-ad.html %}
+      </div>
+
+      <!-- Benchmark Info Context -->
+      <div class="benchmark-info-section">
+        <h3>About the Ayumu Chimpanzee Test</h3>
+        <p>
+          Trained young chimpanzees can photographically capture patterns of 9 randomized digits within 60 to 200 milliseconds—faster than a human eye can make a saccadic eye movement. Humans must use working memory chunking strategies to remember sequential locations.
+        </p>
+      </div>
+
+      <!-- Mobile Placement 4: Ad after Content, before Related Tools -->
+      <div class="mobile-ad-post-content">
+        {% include mobile-ad.html %}
+      </div>
     </div>
 
-    <!-- Start Overlay -->
-    <div id="chimp-overlay" style="position: absolute; inset: 0; background: rgba(8, 38, 51, 0.92); border-radius: 12px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 2rem; color: #ffffff;">
-      <div style="font-size: 3.5rem; margin-bottom: 0.5rem;">🐒</div>
-      <h2 style="font-size: 2.2rem; margin-bottom: 0.5rem; color: #ffffff; border: none; padding: 0;">Chimp Test</h2>
-      <p style="color: #b0c6cf; max-width: 440px; margin-bottom: 1.5rem; font-size: 1.05rem; line-height: 1.5;">
-        Numbers will appear on the grid. Once you click <strong>1</strong>, all remaining numbers will hide behind blank squares. Click them in ascending order!
-      </p>
-      <button id="chimp-start-btn" style="background: #07dbd7; color: #082633; border: none; padding: 0.85rem 2.25rem; font-size: 1.1rem; font-weight: 800; border-radius: 8px; cursor: pointer;">
-        Start Test
-      </button>
-    </div>
-  </div>
-
-  <!-- Stats Bar -->
-  <div class="test-stats-bar" style="max-width: 600px; margin: 1.5rem auto 0;">
-    <div class="test-stat-item">
-      <div class="test-stat-label">Numbers</div>
-      <div class="test-stat-val" id="chimp-count">4</div>
-    </div>
-    <div class="test-stat-item">
-      <div class="test-stat-label">Strikes</div>
-      <div class="test-stat-val" id="chimp-strikes" style="color: #b23a3a;">0 / 3</div>
-    </div>
-    <div class="test-stat-item">
-      <div class="test-stat-label">Personal Best</div>
-      <div class="test-stat-val" id="chimp-pb" style="color: #067c7a;">--</div>
-    </div>
-  </div>
-
-  <!-- Game Over Summary -->
-  <div id="chimp-summary" style="display: none; max-width: 600px; margin: 2rem auto 0; background: #ffffff; border: 2px solid #07dbd7; border-radius: 14px; padding: 2rem; text-align: center;">
-    <span class="benchmark-badge playable" style="margin-bottom: 0.5rem; display: inline-block;">Test Over</span>
-    <h2 style="font-size: 2.3rem; color: var(--ink); margin: 0.5rem 0; border: none; padding: 0;" id="chimp-summary-score">Level 0 (0 Numbers)</h2>
-    <p style="font-size: 1.1rem; color: var(--text-muted); margin-bottom: 1.5rem;" id="chimp-summary-desc">--</p>
-    
-    <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
-      <button id="chimp-restart-btn" style="background: #082633; color: #ffffff; border: none; padding: 0.75rem 1.75rem; border-radius: 8px; font-weight: 700; cursor: pointer; font-size: 1rem;">
-        Play Again
-      </button>
-      <button id="chimp-copy-btn" style="background: #07dbd7; color: #082633; border: none; padding: 0.75rem 1.75rem; border-radius: 8px; font-weight: 700; cursor: pointer; font-size: 1rem;">
-        Share Score 📋
-      </button>
-    </div>
+    <!-- Sidebar Column: 25% Desktop / 5th Item on Mobile -->
+    {% include sidebar-tools.html %}
   </div>
 </div>
 

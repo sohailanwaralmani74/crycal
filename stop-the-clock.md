@@ -6,54 +6,80 @@ permalink: /stop-the-clock
 ---
 
 <div class="benchmark-container">
-  <div class="benchmark-hero" style="margin-bottom: 1.5rem;">
-    <span class="benchmark-badge playable" style="margin-bottom: 0.5rem; display: inline-block;">Timing Benchmark</span>
-    <h1>Stop the Clock Precision Test</h1>
-    <p>Press Start, then press Stop when you believe the clock has reached exactly <strong>5.000 seconds</strong>. The digital display vanishes after 2.5 seconds!</p>
-  </div>
+  <div class="benchmark-layout-split">
+    <!-- Main Column: 75% Desktop / Primary Flow on Mobile -->
+    <div class="benchmark-main-column">
+      <div class="benchmark-hero">
+        <span class="benchmark-badge playable">Timing Benchmark</span>
+        <h1>Stop the Clock Precision Test</h1>
+        <p>Press Start, then press Stop when you believe the clock has reached exactly <strong>5.000 seconds</strong>. The digital display vanishes after 2.5 seconds!</p>
+      </div>
 
-  <!-- Stopwatch Display Arena -->
-  <div style="max-width: 600px; margin: 0 auto; background: #082633; border: 2px solid #07dbd7; border-radius: 14px; padding: 3rem 1.5rem; text-align: center; color: #ffffff;">
-    <div style="font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.1em; color: #7ba2b2; margin-bottom: 0.5rem;">Target: 5.000s</div>
-    <div id="clock-display" style="font-size: clamp(3rem, 7vw, 4.8rem); font-weight: 800; font-family: monospace; letter-spacing: 0.05em; margin: 1rem 0 2rem; color: #07dbd7;">
-      0.000
+      <!-- Stopwatch Display Arena -->
+      <div class="clock-arena">
+        <div class="clock-target-hint">Target: 5.000s</div>
+        <div id="clock-display" class="clock-display">
+          0.000
+        </div>
+
+        <button id="clock-action-btn" class="btn btn-accent" style="padding: 1rem 3rem; font-size: 1.25rem;">
+          Start Timer
+        </button>
+      </div>
+
+      <!-- Stats Bar -->
+      <div class="test-stats-bar" style="max-width: 600px;">
+        <div class="test-stat-item">
+          <div class="test-stat-label">Offset Delta</div>
+          <div class="test-stat-val" id="clock-delta">±0 ms</div>
+        </div>
+        <div class="test-stat-item">
+          <div class="test-stat-label">Rating</div>
+          <div class="test-stat-val" id="clock-grade" style="color: var(--accent-text);">--</div>
+        </div>
+        <div class="test-stat-item">
+          <div class="test-stat-label">Personal Best</div>
+          <div class="test-stat-val" id="clock-pb">-- ms</div>
+        </div>
+      </div>
+
+      <!-- Summary Card -->
+      <div id="clock-summary" class="test-summary-card" style="display: none; max-width: 600px;">
+        <span class="benchmark-badge playable">Result</span>
+        <h2 id="clock-summary-score">0.000s</h2>
+        <p class="test-summary-rating" id="clock-summary-desc">--</p>
+        
+        <div class="summary-actions">
+          <button id="clock-restart-btn" class="btn btn-primary">
+            Try Again
+          </button>
+          <button id="clock-copy-btn" class="btn btn-accent">
+            Share Result 📋
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Placement 2: Ad after Test UI -->
+      <div class="mobile-ad-post-test">
+        {% include mobile-ad.html %}
+      </div>
+
+      <!-- Benchmark Info Context -->
+      <div class="benchmark-info-section">
+        <h3>About Internal Time Estimation</h3>
+        <p>
+          Humans track time intervals via neural pacemakers in the basal ganglia and cerebellum. When visual feedback is removed halfway through the timer, your brain relies entirely on internal subjective cadence. Precision within ±50ms indicates elite internal rhythm calibration.
+        </p>
+      </div>
+
+      <!-- Mobile Placement 4: Ad after Content, before Related Tools -->
+      <div class="mobile-ad-post-content">
+        {% include mobile-ad.html %}
+      </div>
     </div>
 
-    <button id="clock-action-btn" style="background: #07dbd7; color: #082633; border: none; padding: 1rem 3rem; font-size: 1.25rem; font-weight: 800; border-radius: 10px; cursor: pointer; transition: transform 0.1s;">
-      Start Timer
-    </button>
-  </div>
-
-  <!-- Stats Bar -->
-  <div class="test-stats-bar" style="max-width: 600px; margin: 1.5rem auto 0;">
-    <div class="test-stat-item">
-      <div class="test-stat-label">Offset Delta</div>
-      <div class="test-stat-val" id="clock-delta">±0 ms</div>
-    </div>
-    <div class="test-stat-item">
-      <div class="test-stat-label">Rating</div>
-      <div class="test-stat-val" id="clock-grade" style="color: #067c7a;">--</div>
-    </div>
-    <div class="test-stat-item">
-      <div class="test-stat-label">Personal Best</div>
-      <div class="test-stat-val" id="clock-pb">-- ms</div>
-    </div>
-  </div>
-
-  <!-- Summary Card -->
-  <div id="clock-summary" style="display: none; max-width: 600px; margin: 2rem auto 0; background: #ffffff; border: 2px solid #07dbd7; border-radius: 14px; padding: 2rem; text-align: center;">
-    <span class="benchmark-badge playable" style="margin-bottom: 0.5rem; display: inline-block;">Result</span>
-    <h2 style="font-size: 2.5rem; color: var(--ink); margin: 0.5rem 0; border: none; padding: 0;" id="clock-summary-score">0.000s</h2>
-    <p style="font-size: 1.1rem; color: var(--text-muted); margin-bottom: 1.5rem;" id="clock-summary-desc">--</p>
-    
-    <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
-      <button id="clock-restart-btn" style="background: #082633; color: #ffffff; border: none; padding: 0.75rem 1.75rem; border-radius: 8px; font-weight: 700; cursor: pointer; font-size: 1rem;">
-        Try Again
-      </button>
-      <button id="clock-copy-btn" style="background: #07dbd7; color: #082633; border: none; padding: 0.75rem 1.75rem; border-radius: 8px; font-weight: 700; cursor: pointer; font-size: 1rem;">
-        Share Result 📋
-      </button>
-    </div>
+    <!-- Sidebar Column: 25% Desktop / 5th Item on Mobile -->
+    {% include sidebar-tools.html %}
   </div>
 </div>
 
