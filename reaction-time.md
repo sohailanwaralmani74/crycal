@@ -10,7 +10,8 @@ sidebar_subtitle: "Calibrated reflex speed (ms)"
 sidebar_icon: "⚡"
 ---
 
-<div class="benchmark-hero">
+<div class="benchmark-container">
+  <div class="benchmark-hero">
       <span class="benchmark-badge playable">Reflex Benchmark</span>
       <h1>Visual Reaction Time Test</h1>
       <p>When the red box turns <strong style="color: var(--success-text);">green</strong>, click or tap anywhere as quickly as you can. Avoid clicking too early!</p>
@@ -97,11 +98,7 @@ sidebar_icon: "⚡"
       {% include mobile-ad.html %}
     </div>
   </div>
-
-  <!-- Sidebar Column: 25% Desktop / 5th Item (Related Tools) on Mobile -->
-  {% include sidebar-tools.html %}
-</div>
-</div>
+  </div>
 
 <script>
 (function() {
