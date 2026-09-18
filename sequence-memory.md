@@ -10,7 +10,8 @@ sidebar_subtitle: "Spatial pattern memory"
 sidebar_icon: "🧠"
 ---
 
-<div class="benchmark-hero">
+<div class="benchmark-container">
+  <div class="benchmark-hero">
         <span class="benchmark-badge playable">Memory Benchmark</span>
         <h1>Sequence Memory Test</h1>
         <p>Memorize the sequence of flashing tiles on the 3x3 grid. The pattern grows by one tile every round. How long of a sequence can you repeat?</p>
@@ -94,11 +95,7 @@ sidebar_icon: "🧠"
         {% include mobile-ad.html %}
       </div>
     </div>
-
-    <!-- Sidebar Column: 25% Desktop / 5th Item on Mobile -->
-    {% include sidebar-tools.html %}
   </div>
-</div>
 
 <script>
 (function() {
