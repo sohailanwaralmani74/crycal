@@ -1375,6 +1375,23 @@ p {
   flex-direction: column;
   gap: 1.75rem;
   min-width: 0;
+  align-self: start;
+}
+
+/* Keep the entire desktop sidebar in place while the main column scrolls.
+   Because the sidebar is a grid item, sticky positioning is constrained by
+   the height of .benchmark-layout-split: it stops when the left column ends. */
+@media (min-width: 861px) {
+  .tool-sidebar {
+    position: sticky;
+    top: 90px;
+  }
+
+  /* The sidebar itself controls the sticky behavior; do not nest another
+     sticky element inside it. */
+  .sidebar-ad-lower {
+    position: static;
+  }
 }
 
 /* Sidebar Widgets */
