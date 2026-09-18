@@ -169,6 +169,7 @@ p {
   margin: 0 auto;
   padding: 2.25rem 1.25rem 4.5rem;
   width: 100%;
+  position: relative;
 }
 
 .benchmark-hero {
@@ -1488,8 +1489,7 @@ p {
 }
 
 .sidebar-ad-lower {
-  position: sticky;
-  top: 90px;
+  position: static;
 }
 
 .ad-label {
@@ -1641,18 +1641,36 @@ p {
   }
 }
 
-/* Desktop sidebar: follow the main column and stop with its grid row.
+/* Desktop sidebar: fixed to the viewport while the main column scrolls.
+   JavaScript switches it to absolute at the bottom of the main column.
    Mobile keeps the existing stacked layout unchanged. */
 @media (min-width: 861px) {
-  .benchmark-layout-split > .tool-sidebar {
-    position: sticky;
-    top: 90px;
-    align-self: start;
-    height: fit-content;
+  .benchmark-container {
+    --sidebar-width: 320px;
+    --sidebar-right: max(1.25rem, calc((100vw - var(--max-width)) / 2 + 1.25rem));
   }
 
-  .benchmark-layout-split > .tool-sidebar .sidebar-ad-lower {
-    position: static;
-    top: auto;
+  .benchmark-layout-split > .tool-sidebar.sidebar-is-fixed {
+    position: fixed;
+    top: 90px;
+    right: var(--sidebar-right);
+    width: var(--sidebar-width);
+    align-self: start;
+    z-index: 20;
+  }
+
+  .benchmark-layout-split > .tool-sidebar.sidebar-is-stopped {
+    position: absolute;
+    top: var(--sidebar-stop-top);
+    right: 1.25rem;
+    width: var(--sidebar-width);
+    align-self: start;
+    z-index: 20;
+  }
+}
+
+@media (min-width: 861px) and (max-width: 1024px) {
+  .benchmark-container {
+    --sidebar-width: 280px;
   }
 }
