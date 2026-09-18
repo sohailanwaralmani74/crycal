@@ -25,7 +25,7 @@ permalink: /reflex
 
     <div class="benchmark-card-grid">
 
-      <a href="/reaction-time" class="benchmark-card">
+      <a href="/visual-reaction-time" class="benchmark-card">
         <div>
           <div class="benchmark-card-header">
             <span class="benchmark-card-icon">⚡</span>
@@ -219,7 +219,7 @@ permalink: /reflex
           "@type": "ListItem",
           "position": 1,
           "name": "Visual Reaction Time",
-          "url": "https://wanjaaro.com/reaction-time"
+          "url": "https://wanjaaro.com/visual-reaction-time"
         },
         {
           "@type": "ListItem",
