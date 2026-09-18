@@ -1378,22 +1378,6 @@ p {
   align-self: start;
 }
 
-/* Keep the entire desktop sidebar in place while the main column scrolls.
-   Because the sidebar is a grid item, sticky positioning is constrained by
-   the height of .benchmark-layout-split: it stops when the left column ends. */
-@media (min-width: 861px) {
-  .tool-sidebar {
-    position: sticky;
-    top: 90px;
-  }
-
-  /* The sidebar itself controls the sticky behavior; do not nest another
-     sticky element inside it. */
-  .sidebar-ad-lower {
-    position: static;
-  }
-}
-
 /* Sidebar Widgets */
 .sidebar-widget {
   background: var(--surface-white);
@@ -1654,5 +1638,21 @@ p {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
+  }
+}
+
+/* Desktop sidebar: follow the main column and stop with its grid row.
+   Mobile keeps the existing stacked layout unchanged. */
+@media (min-width: 861px) {
+  .benchmark-layout-split > .tool-sidebar {
+    position: sticky;
+    top: 90px;
+    align-self: start;
+    height: fit-content;
+  }
+
+  .benchmark-layout-split > .tool-sidebar .sidebar-ad-lower {
+    position: static;
+    top: auto;
   }
 }
