@@ -6,29 +6,6 @@
       <span class="ad-placeholder-text">Sponsor Ad (300×250)</span>
     </div>
   </div>
-
-  <div class="sidebar-widget related-tools-widget">
-    <div class="widget-header">
-      <h3 class="widget-title">Related Benchmarks</h3>
-      <a href="/" class="widget-view-all">All Tools &rarr;</a>
-    </div>
-    <div class="related-tools-list">
-      {% assign related_count = 0 %}
-      {% for tool in site.pages %}
-        {% if tool.sidebar and tool.category == page.category and tool.url != page.url and related_count < 6 %}
-          <a href="{{ tool.url | relative_url }}" class="related-tool-item" data-tool="{{ tool.url | relative_url }}">
-            <span class="related-tool-icon">{{ tool.sidebar_icon }}</span>
-            <div class="related-tool-info">
-              <div class="related-tool-name">{{ tool.sidebar_title }}</div>
-              <div class="related-tool-sub">{{ tool.sidebar_subtitle }}</div>
-            </div>
-          </a>
-          {% assign related_count = related_count | plus: 1 %}
-        {% endif %}
-      {% endfor %}
-    </div>
-  </div>
-
   <div class="ad-container-wrap sidebar-ad sidebar-ad-lower" aria-label="Advertisement">
     <div class="ad-label">Advertisement</div>
     <div class="ad-slot ad-slot-sidebar-halfpage">
