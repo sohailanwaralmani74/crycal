@@ -3,13 +3,14 @@ layout: default
 title: "Flick-Shot Aim Trainer — Wanjaaro"
 description: "Practice your mouse flicks, click precision, and target acquisition speed with 30 procedural canvas targets."
 permalink: /aim-trainer
+category: aim
+sidebar: true
+sidebar_title: "Aim Trainer"
+sidebar_subtitle: "Flick precision & target speed"
+sidebar_icon: "🎯"
 ---
 
-<div class="benchmark-container">
-  <div class="benchmark-layout-split">
-    <!-- Main Column: 75% Desktop / Primary Flow on Mobile -->
-    <div class="benchmark-main-column">
-      <div class="benchmark-hero">
+<div class="benchmark-hero">
         <span class="benchmark-badge playable">Aim Benchmark</span>
         <h1>Flick-Shot Aim Trainer</h1>
         <p>Click 30 targets as quickly and accurately as possible. Test your mouse precision, reaction speed, and flick consistency.</p>
