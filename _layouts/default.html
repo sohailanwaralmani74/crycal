@@ -4,7 +4,16 @@
 <body>
   <div class="wrapper">
     {% include header.html %}
-    <main id="content" role="main">{{ content }}</main>
+    <main id="content" role="main">
+      {% if page.sidebar %}
+        <div class="benchmark-layout-split">
+          <div class="benchmark-main-column">{{ content }}</div>
+          {% include sidebar-tools.html %}
+        </div>
+      {% else %}
+        {{ content }}
+      {% endif %}
+    </main>
     {% include footer.html %}
   </div>
 </body>
