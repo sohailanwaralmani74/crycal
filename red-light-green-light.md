@@ -148,7 +148,7 @@ sidebar_icon: "🚦"
     title.textContent = color === 'green' ? 'GO' : 'STOP';
     subtitle.textContent = color === 'green' ? 'Respond now.' : 'Do not click.';
 
-    // A red signal must advance automatically because the correct action is to do nothing.
+    // Each signal remains visible for a random 5–10 seconds.
     signalTimeoutId = setTimeout(function() {
       if (state !== 'active' || current !== color) return;
 
@@ -163,7 +163,7 @@ sidebar_icon: "🚦"
       }
 
       nextTimeoutId = setTimeout(next, 500);
-    }, 800 + Math.random() * 700);
+    }, 5000 + Math.random() * 5000);
   }
 
   function next() {
