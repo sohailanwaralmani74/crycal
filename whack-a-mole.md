@@ -35,7 +35,7 @@ sidebar_icon: "🔨"
   </section>
 
   <div class="test-arena-wrapper">
-    <div id="mole-board" style="display:grid;grid-template-columns:repeat(5,1fr);gap:10px;max-width:650px;margin:0 auto;padding:12px;"></div>
+    <div id="mole-board" style="display:grid;grid-template-columns:repeat(5,1fr);gap:6px;max-width:430px;margin:0 auto;padding:8px;"></div>
   </div>
 
   <div class="test-stats-bar" aria-label="Whack-a-mole results">
@@ -100,7 +100,7 @@ sidebar_icon: "🔨"
   for(var i=0;i<25;i++){
     var cell=document.createElement('button');
     cell.type='button'; cell.setAttribute('aria-label','Mole grid cell');
-    cell.style.cssText='aspect-ratio:1;border:1px solid var(--border-color,#ddd);border-radius:12px;background:var(--card-bg,#f7f7f7);font-size:clamp(24px,5vw,42px);cursor:pointer;';
+    cell.style.cssText='aspect-ratio:1;border:1px solid var(--border-color,#ddd);border-radius:8px;background:var(--card-bg,#f7f7f7);font-size:clamp(18px,3vw,28px);cursor:pointer;';
     cell.dataset.index=i; board.appendChild(cell); cells.push(cell);
     cell.addEventListener('click',function(){
       if(!running) return;
