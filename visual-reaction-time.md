@@ -154,26 +154,6 @@ sidebar_icon: "⚡"
   var restartBtn = document.getElementById('rt-restart-btn');
   var copyBtn = document.getElementById('rt-copy-btn');
 
-  var audioCtx = null;
-
-  function playTone(freq, duration) {
-    try {
-      if (!audioCtx) {
-        audioCtx = new (window.AudioContext || window.webkitAudioContext)();
-      }
-      var osc = audioCtx.createOscillator();
-      var gain = audioCtx.createGain();
-      osc.type = 'sine';
-      osc.frequency.value = freq;
-      gain.gain.setValueAtTime(0.1, audioCtx.currentTime);
-      gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + duration);
-      osc.connect(gain);
-      gain.connect(audioCtx.destination);
-      osc.start();
-      osc.stop(audioCtx.currentTime + duration);
-    } catch (e) {}
-  }
-
   var state = 'idle';
   var round = 0;
   var maxRounds = 5;
@@ -210,7 +190,6 @@ sidebar_icon: "⚡"
       title.textContent = 'CLICK NOW!';
       subtitle.textContent = 'Click as fast as you can!';
       startTime = performance.now();
-      playTone(880, 0.1);
     }, delay);
   }
 
@@ -221,7 +200,6 @@ sidebar_icon: "⚡"
     icon.textContent = '⚠️';
     title.textContent = 'Too Soon!';
     subtitle.textContent = 'You clicked before the screen turned green. Click here to retry this round.';
-    playTone(220, 0.2);
   }
 
   function recordSuccess() {
@@ -229,7 +207,6 @@ sidebar_icon: "⚡"
     scores.push(reactionTime);
     round++;
 
-    playTone(587, 0.1);
     currentEl.textContent = reactionTime + ' ms';
     roundEl.textContent = round + ' / ' + maxRounds;
 
