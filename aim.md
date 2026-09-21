@@ -14,7 +14,7 @@ permalink: /aim
 
   <div class="benchmark-card-grid">
     <!-- Test 7: Click Accuracy / Bullseye -->
-    <a href="/aim-trainer?mode=bullseye" class="benchmark-card">
+    <a href="/click-accuracy" class="benchmark-card">
       <div>
         <div class="benchmark-card-header">
           <span class="benchmark-card-icon">🎯</span>
@@ -30,7 +30,7 @@ permalink: /aim
     </a>
 
     <!-- Test 8: Flick-Shot Aim Trainer -->
-    <a href="/aim-trainer" class="benchmark-card">
+    <a href="/flick-shot-aim-trainer" class="benchmark-card">
       <div>
         <div class="benchmark-card-header">
           <span class="benchmark-card-icon">🔫</span>
@@ -46,7 +46,7 @@ permalink: /aim
     </a>
 
     <!-- Test 9: Moving-Target Tracking -->
-    <a href="/aim-trainer?mode=tracking" class="benchmark-card">
+    <a href="/moving-target-tracking" class="benchmark-card">
       <div>
         <div class="benchmark-card-header">
           <span class="benchmark-card-icon">🔄</span>
@@ -62,7 +62,7 @@ permalink: /aim
     </a>
 
     <!-- Test 10: Grid Shot -->
-    <a href="/aim-trainer?mode=gridshot" class="benchmark-card">
+    <a href="/grid-shot" class="benchmark-card">
       <div>
         <div class="benchmark-card-header">
           <span class="benchmark-card-icon">🔢</span>
@@ -78,7 +78,7 @@ permalink: /aim
     </a>
 
     <!-- Test 11: Double-Click Speed -->
-    <a href="/aim-trainer?mode=doubleclick" class="benchmark-card">
+    <a href="/double-click-speed" class="benchmark-card">
       <div>
         <div class="benchmark-card-header">
           <span class="benchmark-card-icon">🖱️</span>
@@ -94,7 +94,7 @@ permalink: /aim
     </a>
 
     <!-- Test 12: Steady-Hand Tracing -->
-    <a href="/aim-trainer?mode=tracing" class="benchmark-card">
+    <a href="/steady-hand-tracing" class="benchmark-card">
       <div>
         <div class="benchmark-card-header">
           <span class="benchmark-card-icon">〰️</span>
