@@ -42,7 +42,7 @@ permalink: /reflex
         </div>
       </a>
 
-      <a href="/reaction-time?mode=audio" class="benchmark-card">
+      <a href="/audio-reaction-time" class="benchmark-card">
         <div>
           <div class="benchmark-card-header">
             <span class="benchmark-card-icon">🔊</span>
@@ -59,7 +59,7 @@ permalink: /reflex
         </div>
       </a>
 
-      <a href="/reaction-time?mode=redgreen" class="benchmark-card">
+      <a href="/red-light-green-light" class="benchmark-card">
         <div>
           <div class="benchmark-card-header">
             <span class="benchmark-card-icon">🚦</span>
@@ -76,7 +76,7 @@ permalink: /reflex
         </div>
       </a>
 
-      <a href="/aim-trainer?mode=mole" class="benchmark-card">
+      <a href="/whack-a-mole" class="benchmark-card">
         <div>
           <div class="benchmark-card-header">
             <span class="benchmark-card-icon">🔨</span>
@@ -93,7 +93,7 @@ permalink: /reflex
         </div>
       </a>
 
-      <a href="/reaction-time?mode=peripheral" class="benchmark-card">
+      <a href="/peripheral-vision-reaction" class="benchmark-card">
         <div>
           <div class="benchmark-card-header">
             <span class="benchmark-card-icon">👁️</span>
@@ -208,25 +208,25 @@ permalink: /reflex
           "@type": "ListItem",
           "position": 2,
           "name": "Audio Reaction Time",
-          "url": "https://wanjaaro.com/reaction-time?mode=audio"
+          "url": "https://wanjaaro.com/audio-reaction-time"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Red Light, Green Light",
-          "url": "https://wanjaaro.com/reaction-time?mode=redgreen"
+          "url": "https://wanjaaro.com/red-light-green-light"
         },
         {
           "@type": "ListItem",
           "position": 4,
           "name": "Whack-a-Mole Speed",
-          "url": "https://wanjaaro.com/aim-trainer?mode=mole"
+          "url": "https://wanjaaro.com/whack-a-mole"
         },
         {
           "@type": "ListItem",
           "position": 5,
           "name": "Peripheral Vision Reaction",
-          "url": "https://wanjaaro.com/reaction-time?mode=peripheral"
+          "url": "https://wanjaaro.com/peripheral-vision-reaction"
         }
       ]
     },
