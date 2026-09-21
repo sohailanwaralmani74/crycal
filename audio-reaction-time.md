@@ -16,23 +16,24 @@ sidebar_icon: "🔊"
     <span class="benchmark-badge playable">Reflex Test</span>
     <h1>Audio Reaction Time Test</h1>
     <p>
-      Listen for a short tone and respond as soon as you hear it. This five-round test
-      measures the time between the audio signal and your recorded response.
+      Put your attention on the sound rather than the screen. A short tone will appear after an
+      unpredictable pause, and the test records how quickly you react to hearing it.
     </p>
   </section>
 
   <section aria-labelledby="audio-instructions">
     <div class="benchmark-content-block">
-      <h2 id="audio-instructions">How the Test Works</h2>
+      <h2 id="audio-instructions">Play the Sound Challenge</h2>
       <p>
-        Start a round, then wait without watching the test area for the signal. After a
-        random delay, Wanjaaro plays a short tone. Press the button or the Space key as
-        quickly as you can after hearing it. Responding before the tone is treated as an
-        early response and does not count as a completed round.
+        Begin a round and wait through the silent part. There is no visual countdown telling
+        you when the tone will arrive. Once you hear it, click the arena or press Space.
+        A response made during the silent period is flagged as an early response, so the
+        round can be attempted again without adding a misleading time.
       </p>
       <p>
-        Your browser must allow audio playback. Headphones or speakers can be used, but keep
-        the volume comfortable and use the same setup when comparing your own results.
+        Before starting, make sure you can clearly hear the test tone. Earbuds, headphones,
+        laptop speakers, and external speakers can all be used; keep the listening setup
+        reasonably consistent between attempts.
       </p>
     </div>
   </section>
@@ -68,8 +69,8 @@ sidebar_icon: "🔊"
     <span class="benchmark-badge playable">Test Complete</span>
     <h2 id="art-summary-score">-- ms</h2>
     <p class="test-summary-rating">
-      This is your five-round average. Repeat the test under similar audio and device
-      conditions if you want to compare your own performance over time.
+      Five completed sound responses are combined into this average. Repeating the challenge
+      with the same listening setup makes the result more useful for personal comparison.
     </p>
     <div class="summary-actions">
       <button id="art-restart-btn" class="btn btn-primary" type="button">Try Again</button>
@@ -82,57 +83,57 @@ sidebar_icon: "🔊"
   </div>
 
   <section class="benchmark-info-section" aria-labelledby="audio-measures">
-    <h2 id="audio-measures">What This Test Measures</h2>
+    <h2 id="audio-measures">Where the Number Comes From</h2>
     <p>
-      The test records the interval between the scheduled audio signal and your response.
-      It is a browser-based reaction challenge rather than a clinical or laboratory
-      measurement. Audio output, input hardware, browser timing, and system activity can
-      all be part of the measured result.
+      Wanjaaro starts its response timer when the tone is triggered and stops it when your
+      click or Space-key response is received. The displayed value is a browser timing
+      result for this particular setup, not a measurement of hearing ability or a medical
+      assessment.
     </p>
   </section>
 
   <section class="benchmark-dashboard" aria-labelledby="audio-result">
     <div class="dashboard-header">
       <div class="dashboard-title-group">
-        <h2 id="audio-result">Understanding Your Result</h2>
-        <p>The five-round average is the main result shown by this test.</p>
+        <h2 id="audio-result">Read the Five-Round Average</h2>
+        <p>The average combines the five completed sound responses.</p>
       </div>
     </div>
     <p>
-      A lower value means the recorded response interval was shorter in these rounds.
-      Rather than assigning a universal ability label, Wanjaaro keeps the result focused
-      on the actual measurements from your attempt.
+      The average is useful when you want to compare one session with another under similar
+      conditions. It should not be treated as a fixed measure of how quickly you respond in
+      every situation, because the listening environment and device can change the result.
     </p>
   </section>
 
   <section class="benchmark-dashboard" aria-labelledby="audio-factors">
     <div class="dashboard-header">
       <div class="dashboard-title-group">
-        <h2 id="audio-factors">What Can Affect the Result?</h2>
-        <p>Audio reaction results depend on more than the response itself.</p>
+        <h2 id="audio-factors">Check Your Listening Setup</h2>
+        <p>Small differences in the audio path can change the measured interval.</p>
       </div>
     </div>
     <p>
-      Speaker or headphone latency, volume, background noise, browser and system activity,
-      attention, fatigue, and familiarity with the test can change an attempt. For a
-      meaningful personal comparison, keep your audio device, browser, and general setup
-      consistent.
+      Bluetooth and wired devices can introduce different playback delays. Volume, background
+      noise, other system activity, attention, fatigue, and familiarity with the challenge
+      can also affect an attempt. If you are tracking improvement, use the same audio device
+      and a similar environment rather than comparing unrelated setups.
     </p>
   </section>
 
   <section class="benchmark-dashboard" aria-labelledby="audio-browser">
     <div class="dashboard-header">
       <div class="dashboard-title-group">
-        <h2 id="audio-browser">Browser-Based Audio Test</h2>
-        <p>No account or upload is required.</p>
+        <h2 id="audio-browser">Sound Is Generated in Your Browser</h2>
+        <p>The page does not need an uploaded audio file.</p>
       </div>
       <span class="benchmark-badge playable">Free to Use</span>
     </div>
     <p>
-      The tone is generated in your browser with the Web Audio API. Your personal-best
-      average is stored in local browser storage so it can be shown on later visits from
-      the same browser. If sound is blocked, interact with the test area first and check
-      your browser's audio or site permissions.
+      The test creates its tone locally with the Web Audio API, so there is no audio file to
+      download before a round can begin. Your personal-best average is kept in this browser's
+      local storage. If you hear nothing, interact with the test area first and check whether
+      the browser or operating system has muted the site.
     </p>
   </section>
 
@@ -269,7 +270,7 @@ sidebar_icon: "🔊"
     arena.style.background = '#082633';
     icon.textContent = '🏁';
     title.textContent = 'Test Complete: ' + average + ' ms';
-    subtitle.textContent = 'Your five-round average is shown below.';
+    subtitle.textContent = 'The completed sound trials are summarized below.';
 
     var oldPb = localStorage.getItem(pbKey);
     if (!oldPb || average < parseInt(oldPb, 10)) {
