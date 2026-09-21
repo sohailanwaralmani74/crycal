@@ -137,7 +137,7 @@ sidebar_icon: "🚦"
     signal++;
     signalsEl.textContent = signal + ' / ' + maxSignals;
     var color = Math.random() < 0.5 ? 'green' : 'red';
-    timeoutId = setTimeout(function() { show(color); }, 900 + Math.random() * 1700);
+    timeoutId = setTimeout(function() { show(color); }, 800 + Math.random() * 700);
   }
 
   function start() {
