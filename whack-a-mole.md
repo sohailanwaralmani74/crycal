@@ -45,7 +45,7 @@ sidebar_icon: "🔨"
     <div class="test-stat-item"><div class="test-stat-label">Best Hits</div><div class="test-stat-val" id="mole-pb">--</div></div>
   </div>
 
-  <div style="text-align:center;margin:20px 0;">
+  <div style="max-width:430px;margin:0 auto 10px;display:flex;justify-content:flex-end;">
     <button id="mole-start" class="btn btn-primary" type="button">Start 30-Second Round</button>
   </div>
 
