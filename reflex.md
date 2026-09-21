@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Reflex & Reaction Tests — Wanjaaro"
-description: "Free browser-based reaction tests for visual response speed, audio response, inhibition, anticipation, and peripheral reaction. No account required."
+description: "Free browser-based reaction tests for visual response speed, audio response, response control, target response, and peripheral reaction. No account required."
 permalink: /reflex
 ---
 
@@ -11,7 +11,7 @@ permalink: /reflex
     <span class="benchmark-badge playable">Human Performance Tests</span>
     <h1>Reflex &amp; Reaction Tests</h1>
     <p>
-      Test how quickly you respond to visual and audio signals, how well you control early responses, and how accurately you react to targets outside your central focus. These browser-based tests are designed for quick, repeatable reaction challenges without an account.
+      Test how quickly you respond to visual and audio signals, how well you control your responses, and how accurately you react to targets outside your central focus. These browser-based tests are designed for quick, repeatable reaction challenges without an account.
     </p>
   </section>
 
@@ -19,7 +19,7 @@ permalink: /reflex
     <div class="category-section-header">
       <div>
         <h2 id="reflex-tests">Reaction Tests</h2>
-        <p>Each test focuses on a different part of response speed or reaction control.</p>
+        <p>Each test focuses on a different part of response speed, attention, or reaction control.</p>
       </div>
     </div>
 
@@ -50,7 +50,7 @@ permalink: /reflex
           </div>
           <div class="benchmark-card-title">Audio Reaction Time</div>
           <div class="benchmark-card-desc">
-            Respond when an audio signal occurs. The test isolates an auditory trigger instead of relying on a visual change.
+            Respond when an audio signal occurs. The test uses an auditory trigger instead of relying on a visual change.
           </div>
         </div>
         <div class="benchmark-card-footer">
@@ -67,7 +67,7 @@ permalink: /reflex
           </div>
           <div class="benchmark-card-title">Red Light, Green Light</div>
           <div class="benchmark-card-desc">
-            Respond during the allowed signal and stop when the signal changes. This adds response control and inhibition to the reaction task.
+            Respond during the allowed signal and stop when the signal changes. This adds response control to the reaction task.
           </div>
         </div>
         <div class="benchmark-card-footer">
@@ -89,23 +89,6 @@ permalink: /reflex
         </div>
         <div class="benchmark-card-footer">
           <span class="benchmark-pb">Target Response</span>
-          <span class="benchmark-btn">Start Test &rarr;</span>
-        </div>
-      </a>
-
-      <a href="/reaction-time?mode=strict" class="benchmark-card">
-        <div>
-          <div class="benchmark-card-header">
-            <span class="benchmark-card-icon">⏱️</span>
-            <span class="benchmark-badge playable">Playable Now</span>
-          </div>
-          <div class="benchmark-card-title">False-Start &amp; Anticipation</div>
-          <div class="benchmark-card-desc">
-            Avoid responding before the signal. Early responses are treated separately so the result reflects both speed and response control.
-          </div>
-        </div>
-        <div class="benchmark-card-footer">
-          <span class="benchmark-pb">Anticipation Control</span>
           <span class="benchmark-btn">Start Test &rarr;</span>
         </div>
       </a>
@@ -141,7 +124,7 @@ permalink: /reflex
     <p>
       <strong>Visual reaction tests</strong> measure how quickly you respond to a visible change.
       <strong>Audio reaction tests</strong> use a sound as the trigger.
-      <strong>Anticipation tests</strong> add a control component by penalizing responses that happen before the expected signal.
+      <strong>Response-control tests</strong> add rules about when you should or should not respond.
     </p>
     <p>
       <strong>Target-response tests</strong> add pointer movement and target selection.
@@ -188,7 +171,7 @@ permalink: /reflex
       "@id": "https://wanjaaro.com/reflex#webpage",
       "url": "https://wanjaaro.com/reflex",
       "name": "Reflex & Reaction Tests — Wanjaaro",
-      "description": "Free browser-based reaction tests for visual response speed, audio response, inhibition, anticipation, and peripheral reaction.",
+      "description": "Free browser-based reaction tests for visual response speed, audio response, response control, target response, and peripheral reaction.",
       "isPartOf": {
         "@id": "https://wanjaaro.com/#website"
       },
@@ -201,7 +184,7 @@ permalink: /reflex
       "@id": "https://wanjaaro.com/reflex#collection",
       "url": "https://wanjaaro.com/reflex",
       "name": "Reflex & Reaction Tests",
-      "description": "A collection of browser-based tests covering visual and audio reaction, response control, anticipation, target response, and peripheral reaction.",
+      "description": "A collection of browser-based tests covering visual and audio reaction, response control, target response, and peripheral reaction.",
       "isPartOf": {
         "@id": "https://wanjaaro.com/#website"
       },
@@ -213,7 +196,7 @@ permalink: /reflex
       "@type": "ItemList",
       "@id": "https://wanjaaro.com/reflex#tests",
       "name": "Wanjaaro Reflex & Reaction Tests",
-      "numberOfItems": 6,
+      "numberOfItems": 5,
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -242,12 +225,6 @@ permalink: /reflex
         {
           "@type": "ListItem",
           "position": 5,
-          "name": "False-Start & Anticipation",
-          "url": "https://wanjaaro.com/reaction-time?mode=strict"
-        },
-        {
-          "@type": "ListItem",
-          "position": 6,
           "name": "Peripheral Vision Reaction",
           "url": "https://wanjaaro.com/reaction-time?mode=peripheral"
         }
