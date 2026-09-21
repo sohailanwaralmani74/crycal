@@ -34,7 +34,11 @@ sidebar_icon: "🔨"
     </p>
   </section>
 
-  <div class="test-arena-wrapper">
+  <div style="max-width:430px;margin:0 auto 8px;display:flex;justify-content:flex-end;">
+    <button id="mole-start" class="btn btn-primary" type="button">Start 30-Second Round</button>
+  </div>
+
+  <div class="test-arena-wrapper" style="margin-top:0;">
     <div id="mole-board" style="display:grid;grid-template-columns:repeat(5,1fr);gap:6px;max-width:430px;margin:0 auto;padding:8px;"></div>
   </div>
 
@@ -43,10 +47,6 @@ sidebar_icon: "🔨"
     <div class="test-stat-item"><div class="test-stat-label">Hits</div><div class="test-stat-val" id="mole-hits">0</div></div>
     <div class="test-stat-item"><div class="test-stat-label">Misses</div><div class="test-stat-val" id="mole-misses">0</div></div>
     <div class="test-stat-item"><div class="test-stat-label">Best Hits</div><div class="test-stat-val" id="mole-pb">--</div></div>
-  </div>
-
-  <div style="max-width:430px;margin:0 auto 10px;display:flex;justify-content:flex-end;">
-    <button id="mole-start" class="btn btn-primary" type="button">Start 30-Second Round</button>
   </div>
 
   <div id="mole-summary" class="test-summary-card" style="display:none;" aria-live="polite">
