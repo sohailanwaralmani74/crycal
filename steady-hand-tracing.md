@@ -22,7 +22,7 @@ sidebar_icon: "〰️"
 <script>
 (function(){
 var c=document.getElementById('trace-canvas'),x=c.getContext('2d'),prog=document.getElementById('trace-progress'),err=document.getElementById('trace-errors'),time=document.getElementById('trace-time'),pb=document.getElementById('trace-pb'),sum=document.getElementById('trace-summary'),res=document.getElementById('trace-result');
-var running=false,dragging=false,errors=0,startTime=0,lastT=0,outside=false,best=localStorage.getItem('wanjaaro_pb_steady_hand');
+var running=false,dragging=false,errors=0,startTime=0,lastT=0,outside=false,best=localStorage.getItem('wanjaaro_pb_steady_hand'),timerId=null;
 if(best)pb.textContent=best+' errors';
 
 function pathPoint(t){return{x:55+t*690,y:180+95*Math.sin(t*Math.PI*2)+35*Math.sin(t*Math.PI*5)};}
@@ -45,9 +45,12 @@ function nearest(px,py){
  return{t:bestT,d:bestD};
 }
 function coords(e){var r=c.getBoundingClientRect();return{x:(e.clientX-r.left)*c.width/r.width,y:(e.clientY-r.top)*c.height/r.height};}
-function reset(){running=false;dragging=false;errors=0;lastT=0;outside=false;prog.textContent='0%';err.textContent='0';time.textContent='--';sum.style.display='none';draw();}
+function updateTimer(){if(running){time.textContent=((performance.now()-startTime)/1000).toFixed(2)+'s';}
+}
+function reset(){if(timerId){clearInterval(timerId);timerId=null;}running=false;dragging=false;errors=0;lastT=0;outside=false;prog.textContent='0%';err.textContent='0';time.textContent='--';sum.style.display='none';draw();}
 function finish(){
  running=false;dragging=false;
+ if(timerId){clearInterval(timerId);timerId=null;}
  var sec=(performance.now()-startTime)/1000;time.textContent=sec.toFixed(2)+'s';
  res.textContent=sec.toFixed(2)+' seconds · '+errors+' errors';sum.style.display='block';
  if(!best||errors<parseInt(best,10)){localStorage.setItem('wanjaaro_pb_steady_hand',errors);pb.textContent=errors+' errors (New PB!)';best=String(errors);}
@@ -56,6 +59,7 @@ c.addEventListener('pointerdown',function(e){
  var p=coords(e),n=nearest(p.x,p.y);
  if(n.t<.08&&n.d<=30){
    running=true;dragging=true;errors=0;lastT=0;outside=false;startTime=performance.now();
+   time.textContent='0.00s';if(timerId)clearInterval(timerId);timerId=setInterval(updateTimer,50);
    prog.textContent='0%';err.textContent='0';c.setPointerCapture(e.pointerId);
  }
 });
@@ -73,8 +77,8 @@ c.addEventListener('pointerup',function(e){
  dragging=false;
  if(c.releasePointerCapture)c.releasePointerCapture(e.pointerId);
  if(n.t>.97&&n.d<=32){finish();}
- else if(n.t>.97){status.textContent='Reach the red end point while keeping the pointer inside the route.';}
- else{status.textContent='Keep dragging to the red end point.';}
+ else if(n.t>.97){time.textContent=((performance.now()-startTime)/1000).toFixed(2)+'s';}
+ else{time.textContent=((performance.now()-startTime)/1000).toFixed(2)+'s';}
 });
 c.addEventListener('pointercancel',function(){dragging=false;});
 document.getElementById('trace-restart').onclick=reset;
