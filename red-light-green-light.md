@@ -118,73 +118,155 @@ sidebar_icon: "🚦"
   var score = document.getElementById('rlgl-score');
   var restart = document.getElementById('rlgl-restart');
   var copy = document.getElementById('rlgl-copy');
-  var maxSignals = 12, signal = 0, correct = 0, errors = 0, state = 'idle', timeoutId = null;
-  var current = null, pbKey = 'wanjaaro_pb_red_green_errors';
+
+  var maxSignals = 12;
+  var signal = 0;
+  var correct = 0;
+  var errors = 0;
+  var state = 'idle';
+  var signalTimeoutId = null;
+  var nextTimeoutId = null;
+  var current = null;
+  var pbKey = 'wanjaaro_pb_red_green_errors';
+
   var oldPb = localStorage.getItem(pbKey);
   if (oldPb !== null) pbEl.textContent = oldPb;
+
+  function clearTimers() {
+    clearTimeout(signalTimeoutId);
+    clearTimeout(nextTimeoutId);
+    signalTimeoutId = null;
+    nextTimeoutId = null;
+  }
 
   function show(color) {
     current = color;
     state = 'active';
+
     arena.style.background = color === 'green' ? '#168a58' : '#a83232';
     icon.textContent = color === 'green' ? '🟢' : '🔴';
     title.textContent = color === 'green' ? 'GO' : 'STOP';
     subtitle.textContent = color === 'green' ? 'Respond now.' : 'Do not click.';
+
+    // A red signal must advance automatically because the correct action is to do nothing.
+    signalTimeoutId = setTimeout(function() {
+      if (state !== 'active' || current !== color) return;
+
+      if (color === 'red') {
+        state = 'handled';
+        title.textContent = 'Good — You Waited';
+        subtitle.textContent = 'Next signal coming...';
+      } else {
+        state = 'handled';
+        title.textContent = 'No Response';
+        subtitle.textContent = 'Green signal missed.';
+      }
+
+      nextTimeoutId = setTimeout(next, 500);
+    }, 800 + Math.random() * 700);
   }
 
   function next() {
+    clearTimers();
+
     if (signal >= maxSignals) return finish();
+
     signal++;
     signalsEl.textContent = signal + ' / ' + maxSignals;
+
     var color = Math.random() < 0.5 ? 'green' : 'red';
-    timeoutId = setTimeout(function() { show(color); }, 800 + Math.random() * 700);
+    show(color);
   }
 
   function start() {
-    clearTimeout(timeoutId);
-    signal = 0; correct = 0; errors = 0; current = null;
-    correctEl.textContent = '0'; errorsEl.textContent = '0'; signalsEl.textContent = '0 / ' + maxSignals;
+    clearTimers();
+
+    signal = 0;
+    correct = 0;
+    errors = 0;
+    current = null;
+
+    correctEl.textContent = '0';
+    errorsEl.textContent = '0';
+    signalsEl.textContent = '0 / ' + maxSignals;
     summary.style.display = 'none';
+
     state = 'running';
-    icon.textContent = '👀'; title.textContent = 'Watch the Signal'; subtitle.textContent = 'The first signal is coming.';
-    next();
+    icon.textContent = '👀';
+    title.textContent = 'Watch the Signal';
+    subtitle.textContent = 'The first signal is coming.';
+
+    nextTimeoutId = setTimeout(next, 500);
   }
 
   function respond() {
     if (state === 'idle' || state === 'finished') return start();
     if (state !== 'active') return;
-    if (current === 'green') { correct++; correctEl.textContent = correct; }
-    else { errors++; errorsEl.textContent = errors; }
+
+    clearTimeout(signalTimeoutId);
+    signalTimeoutId = null;
+
+    if (current === 'green') {
+      correct++;
+      correctEl.textContent = correct;
+      title.textContent = 'Correct';
+      subtitle.textContent = 'Wait for the next signal.';
+    } else {
+      errors++;
+      errorsEl.textContent = errors;
+      title.textContent = 'Red Signal';
+      subtitle.textContent = 'That click counts as a mistake.';
+    }
+
     state = 'handled';
-    title.textContent = current === 'green' ? 'Correct' : 'Red Signal';
-    subtitle.textContent = 'Wait for the next signal.';
-    setTimeout(next, 500);
+    nextTimeoutId = setTimeout(next, 500);
   }
 
-  arena.addEventListener('click', function(e) { e.preventDefault(); respond(); });
+  arena.addEventListener('click', function(e) {
+    e.preventDefault();
+    respond();
+  });
+
   arena.addEventListener('keydown', function(e) {
-    if (e.code === 'Space' || e.key === ' ') { e.preventDefault(); respond(); }
+    if (e.code === 'Space' || e.key === ' ') {
+      e.preventDefault();
+      respond();
+    }
   });
 
   function finish() {
-    clearTimeout(timeoutId); state = 'finished';
-    arena.style.background = '#26343b'; icon.textContent = '🏁';
-    title.textContent = 'Session Complete'; subtitle.textContent = 'Correct: ' + correct + ' · Mistakes: ' + errors;
+    clearTimers();
+    state = 'finished';
+
+    arena.style.background = '#26343b';
+    icon.textContent = '🏁';
+    title.textContent = 'Session Complete';
+    subtitle.textContent = 'Correct: ' + correct + ' · Mistakes: ' + errors;
+
     if (oldPb === null || errors < parseInt(oldPb, 10)) {
-      localStorage.setItem(pbKey, errors); pbEl.textContent = errors + ' (New PB!)';
+      localStorage.setItem(pbKey, errors);
+      pbEl.textContent = errors + ' (New PB!)';
+      oldPb = String(errors);
     }
+
     score.textContent = correct + ' correct / ' + errors + ' mistakes';
     summary.style.display = 'block';
     summary.scrollIntoView({behavior:'smooth'});
   }
 
   restart.addEventListener('click', start);
+
   copy.addEventListener('click', function() {
     var text = '🚦 Wanjaaro Red Light, Green Light: ' + correct + ' correct, ' + errors + ' mistakes\nTest: https://wanjaaro.com/red-light-green-light';
-    if (navigator.clipboard) navigator.clipboard.writeText(text).then(function() {
-      copy.textContent = 'Copied to Clipboard! ✓';
-      setTimeout(function(){ copy.textContent = 'Copy Result 📋'; }, 2000);
-    });
+
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(text).then(function() {
+        copy.textContent = 'Copied to Clipboard! ✓';
+        setTimeout(function() {
+          copy.textContent = 'Copy Result 📋';
+        }, 2000);
+      });
+    }
   });
 })();
 </script>
