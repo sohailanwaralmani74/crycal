@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Memory Capacity Tests — Wanjaaro"
-description: "Test working memory, sequential pattern recall, spatial span, and visual retention with standardized memory benchmarks."
+title: "Memory Tests — Wanjaaro"
+description: "Browser-based memory tests for sequence recall, numbers, card matching, visual locations, word recall, and spatial working memory."
 permalink: /memory
 ---
 
@@ -9,123 +9,62 @@ permalink: /memory
   <div class="benchmark-hero">
     <span class="benchmark-badge playable">Category</span>
     <h1>Memory Tests</h1>
-    <p>Assess short-term memory span, spatial pattern recognition, numerical recall, and working memory load with cognitive neuroscience protocols.</p>
+    <p>Try different memory tasks that focus on sequence recall, numbers, visual locations, words, and short-term working memory.</p>
   </div>
 
   <div class="benchmark-card-grid">
-    <!-- Test 13: Sequence Memory -->
     <a href="/sequence-memory" class="benchmark-card">
-      <div>
-        <div class="benchmark-card-header">
-          <span class="benchmark-card-icon">🧠</span>
-          <span class="benchmark-badge playable">Playable Now</span>
-        </div>
-        <div class="benchmark-card-title">Sequence Memory (Simon Pattern)</div>
-        <div class="benchmark-card-desc">Watch a 3x3 grid light up in an expanding sequence accompanied by harmonic tones. Repeat the sequence correctly as it grows.</div>
-      </div>
-      <div class="benchmark-card-footer">
-        <span class="benchmark-pb" id="pb-sequence">Avg: Level 7-9</span>
-        <span class="benchmark-btn">Start Test &rarr;</span>
-      </div>
+      <div><div class="benchmark-card-header"><span class="benchmark-card-icon">🧠</span><span class="benchmark-badge playable">Playable Now</span></div>
+      <div class="benchmark-card-title">Sequence Memory</div><div class="benchmark-card-desc">Watch a growing pattern of highlighted cells, then reproduce the sequence in the same order.</div></div>
+      <div class="benchmark-card-footer"><span class="benchmark-pb" id="pb-sequence">Best Level</span><span class="benchmark-btn">Start Test &rarr;</span></div>
     </a>
 
-    <!-- Test 18: Chimp Test -->
-    <a href="/chimp-test" class="benchmark-card">
-      <div>
-        <div class="benchmark-card-header">
-          <span class="benchmark-card-icon">🐒</span>
-          <span class="benchmark-badge playable">Playable Now</span>
-        </div>
-        <div class="benchmark-card-title">Chimp Test (Ayumu Benchmark)</div>
-        <div class="benchmark-card-desc">Numbers appear on tiles. When you click 1, all other numbers turn blank. Can you remember where they were and click them in order?</div>
-      </div>
-      <div class="benchmark-card-footer">
-        <span class="benchmark-pb" id="pb-chimp">Avg: 9 Numbers</span>
-        <span class="benchmark-btn">Start Test &rarr;</span>
-      </div>
-    </a>
-
-    <!-- Test 14: Number Memory -->
     <a href="/number-memory" class="benchmark-card">
-      <div>
-        <div class="benchmark-card-header">
-          <span class="benchmark-card-icon">🔢</span>
-          <span class="benchmark-badge playable">Playable Now</span>
-        </div>
-        <div class="benchmark-card-title">Number Memory Test</div>
-        <div class="benchmark-card-desc">Remember an increasingly long number displayed on screen for just a few seconds. The average human digit span is 7 &plusmn; 2 digits.</div>
-      </div>
-      <div class="benchmark-card-footer">
-        <span class="benchmark-pb" id="pb-number">Avg: 7 Digits</span>
-        <span class="benchmark-btn">Start Test &rarr;</span>
-      </div>
+      <div><div class="benchmark-card-header"><span class="benchmark-card-icon">🔢</span><span class="benchmark-badge playable">Playable Now</span></div>
+      <div class="benchmark-card-title">Number Memory</div><div class="benchmark-card-desc">Study a number, wait for it to disappear, and enter it correctly as the digit count increases.</div></div>
+      <div class="benchmark-card-footer"><span class="benchmark-pb" id="pb-number">Best Digits</span><span class="benchmark-btn">Start Test &rarr;</span></div>
     </a>
 
-    <!-- Test 15: Card-Matching -->
-    <a href="/chimp-test?mode=cards" class="benchmark-card">
-      <div>
-        <div class="benchmark-card-header">
-          <span class="benchmark-card-icon">🃏</span>
-          <span class="benchmark-badge playable">Playable Now</span>
-        </div>
-        <div class="benchmark-card-title">Card-Matching Concentration</div>
-        <div class="benchmark-card-desc">Flip pairs of matching cards on a hidden board. Tests visual-spatial location retention and associative memory.</div>
-      </div>
-      <div class="benchmark-card-footer">
-        <span class="benchmark-pb">Moves &amp; Time</span>
-        <span class="benchmark-btn">Start Test &rarr;</span>
-      </div>
+    <a href="/card-matching" class="benchmark-card">
+      <div><div class="benchmark-card-header"><span class="benchmark-card-icon">🃏</span><span class="benchmark-badge playable">Playable Now</span></div>
+      <div class="benchmark-card-title">Card Matching</div><div class="benchmark-card-desc">Reveal hidden cards and remember their locations to find matching pairs with as few moves as possible.</div></div>
+      <div class="benchmark-card-footer"><span class="benchmark-pb" id="pb-cards">Best Moves</span><span class="benchmark-btn">Start Test &rarr;</span></div>
     </a>
 
-    <!-- Test 16: Visual Grid Memory -->
-    <a href="/chimp-test?mode=visualgrid" class="benchmark-card">
-      <div>
-        <div class="benchmark-card-header">
-          <span class="benchmark-card-icon">🔲</span>
-          <span class="benchmark-badge playable">Playable Now</span>
-        </div>
-        <div class="benchmark-card-title">Visual Grid Memory</div>
-        <div class="benchmark-card-desc">A subset of squares in a grid flash white for 1 second. Once cleared, click only the squares that were illuminated.</div>
-      </div>
-      <div class="benchmark-card-footer">
-        <span class="benchmark-pb">Spatial Span</span>
-        <span class="benchmark-btn">Start Test &rarr;</span>
-      </div>
+    <a href="/visual-grid-memory" class="benchmark-card">
+      <div><div class="benchmark-card-header"><span class="benchmark-card-icon">🔲</span><span class="benchmark-badge playable">Playable Now</span></div>
+      <div class="benchmark-card-title">Visual Grid Memory</div><div class="benchmark-card-desc">Memorize highlighted grid cells, then select the same locations after the board clears.</div></div>
+      <div class="benchmark-card-footer"><span class="benchmark-pb" id="pb-grid-memory">Best Level</span><span class="benchmark-btn">Start Test &rarr;</span></div>
     </a>
 
-    <!-- Test 17: Word-List Recall -->
-    <a href="/chimp-test?mode=words" class="benchmark-card">
-      <div>
-        <div class="benchmark-card-header">
-          <span class="benchmark-card-icon">📖</span>
-          <span class="benchmark-badge playable">Playable Now</span>
-        </div>
-        <div class="benchmark-card-title">Word-List Recall Test</div>
-        <div class="benchmark-card-desc">Read a randomized list of 15 words for 30 seconds, then recall and type as many words as possible without order constraints.</div>
-      </div>
-      <div class="benchmark-card-footer">
-        <span class="benchmark-pb">Verbal Memory</span>
-        <span class="benchmark-btn">Start Test &rarr;</span>
-      </div>
+    <a href="/word-list-recall" class="benchmark-card">
+      <div><div class="benchmark-card-header"><span class="benchmark-card-icon">📖</span><span class="benchmark-badge playable">Playable Now</span></div>
+      <div class="benchmark-card-title">Word List Recall</div><div class="benchmark-card-desc">Study a list of words, then recall as many as you can after the list disappears.</div></div>
+      <div class="benchmark-card-footer"><span class="benchmark-pb" id="pb-words">Best Recall</span><span class="benchmark-btn">Start Test &rarr;</span></div>
+    </a>
+
+    <a href="/chimp-test" class="benchmark-card">
+      <div><div class="benchmark-card-header"><span class="benchmark-card-icon">🐒</span><span class="benchmark-badge playable">Playable Now</span></div>
+      <div class="benchmark-card-title">Chimp Test</div><div class="benchmark-card-desc">Remember the positions of numbered tiles after the labels disappear, then select them in numerical order.</div></div>
+      <div class="benchmark-card-footer"><span class="benchmark-pb" id="pb-chimp">Best Level</span><span class="benchmark-btn">Start Test &rarr;</span></div>
     </a>
   </div>
 </div>
+
 <script>
 (function() {
-  var s = localStorage.getItem('wanjaaro_pb_sequence');
-  if (s) {
-    var el = document.getElementById('pb-sequence');
-    if (el) el.textContent = 'Your Best: Level ' + s;
-  }
-  var c = localStorage.getItem('wanjaaro_pb_chimp');
-  if (c) {
-    var el2 = document.getElementById('pb-chimp');
-    if (el2) el2.textContent = 'Your Best: Level ' + c;
-  }
-  var n = localStorage.getItem('wanjaaro_pb_number');
-  if (n) {
-    var el3 = document.getElementById('pb-number');
-    if (el3) el3.textContent = 'Your Best: ' + n + ' Digits';
-  }
+  var values = [
+    ['wanjaaro_pb_sequence', 'pb-sequence', 'Your Best: Level ', ''],
+    ['wanjaaro_pb_number', 'pb-number', 'Your Best: ', ' Digits'],
+    ['wanjaaro_pb_cards', 'pb-cards', 'Your Best: ', ' Moves'],
+    ['wanjaaro_pb_grid_memory', 'pb-grid-memory', 'Your Best: Level ', ''],
+    ['wanjaaro_pb_words', 'pb-words', 'Your Best: ', ' Words'],
+    ['wanjaaro_pb_chimp', 'pb-chimp', 'Your Best: ', ' Numbers']
+  ];
+  values.forEach(function(item) {
+    var value = localStorage.getItem(item[0]);
+    var el = document.getElementById(item[1]);
+    if (value && el) el.textContent = item[2] + value + item[3];
+  });
 })();
 </script>
