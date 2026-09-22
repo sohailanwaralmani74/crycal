@@ -27,7 +27,6 @@ sidebar_icon: "⌨️"
       <button type="button" class="duration-btn" data-duration="120">2 Minutes</button>
       <button type="button" class="duration-btn" data-duration="180">3 Minutes</button>
     </div>
-    <div id="passage" class="typing-passage" aria-label="Text to type"></div>
     <textarea id="input" class="typing-input" rows="5" disabled placeholder="Your typing appears here..."></textarea>
     <div class="tool-actions"><button id="start" class="tool-btn">Start Test</button></div>
     <div class="tool-stats">
@@ -37,6 +36,11 @@ sidebar_icon: "⌨️"
       <div><strong id="errors">0</strong><span>Errors</span></div>
     </div>
     <div id="result" class="tool-result" hidden></div>
+  </section>
+
+  <section class="typing-passage-section">
+    <h2>Text to Type</h2>
+    <div id="passage" class="typing-passage" aria-label="Text to type"></div>
   </section>
 
   <section class="tool-content">
@@ -57,6 +61,8 @@ sidebar_icon: "⌨️"
 .duration-btn:hover{border-color:var(--accent)}
 .duration-btn.active{background:var(--accent);border-color:var(--accent);color:#fff}
 .duration-btn:disabled{opacity:.55;cursor:not-allowed}
+.typing-passage-section{margin:2rem 0 0;padding:1.5rem 0;border-top:1px solid var(--border-light)}
+.typing-passage-section h2{font-size:1.35rem;margin:0 0 .7rem;color:var(--ink-900)}
 .typing-passage{padding:18px;border:1px solid var(--border-color,#ddd);border-radius:10px;line-height:1.8;margin:16px 0;background:var(--card-bg,#fafafa)}
 .typing-input{width:100%;box-sizing:border-box;padding:14px;border:1px solid var(--border-color,#ddd);border-radius:10px;resize:vertical;font:inherit}
 .tool-actions{margin:14px 0}
