@@ -99,7 +99,7 @@ sidebar_icon: "🌀"
 .illusion-status{font-size:.85rem;font-weight:700;color:var(--text-secondary)}
 .illusion-stage{height:340px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;background:var(--surface-muted);border-radius:var(--radius-md);color:#222}
 .illusion-instruction{max-width:720px;margin:1rem auto;color:var(--text-secondary);line-height:1.55;font-weight:600}
-.illusion-choices,.illusion-actions{display:flex;justify-content:center;gap:.7rem;flex-wrap:wrap}
+.illusion-choices,.illusion-actions{display:flex;justify-content:center;gap:.7rem;flex-wrap:wrap}.illusion-choice.selected{background:var(--accent);color:var(--ink-950)!important;border-color:var(--accent);box-shadow:0 0 0 3px rgba(7,219,215,.2)}.illusion-choice:disabled{opacity:.55;cursor:default}
 .illusion-actions{margin-top:.7rem}
 .illusion-feedback{min-height:2.4em;margin-top:1rem;font-weight:700;color:var(--text-secondary);line-height:1.5}
 .illusion-results{display:grid;grid-template-columns:repeat(4,1fr);gap:.8rem;margin:1rem 0}
@@ -190,7 +190,7 @@ sidebar_icon: "🌀"
   function render(){
     selected=null; answered=false;
     revealBtn.disabled=true; nextBtn.hidden=true;
-    leftBtn.disabled=false; rightBtn.disabled=false;
+    leftBtn.disabled=false; rightBtn.disabled=false; leftBtn.classList.remove('selected'); rightBtn.classList.remove('selected');
     feedbackEl.textContent=''; statusEl.textContent='Make your choice';
     roundEl.textContent='Round '+(index+1)+' / '+trials.length;
     var t=trials[index];
@@ -210,13 +210,13 @@ sidebar_icon: "🌀"
   function reveal(){
     if(!answered)return;
     var t=trials[index];
-    var consistent=selected===t.illusionSide;
+    var consistent=selected===t.illusionSide;\n    leftBtn.disabled=true; rightBtn.disabled=true;
     counts.total++;
     if(consistent){
       counts[t.type]++;
-      feedbackEl.textContent='The illusion pushed the appearance toward the '+t.illusionSide+' side. Your choice followed that visual impression.';
+      feedbackEl.textContent=consistent ? 'Your choice matched the visual effect. The two physical elements are now highlighted for comparison.' : 'Your choice did not follow the visual effect in this round. The physical relationship is now highlighted for comparison.';
     }else{
-      feedbackEl.textContent='You chose against the usual illusion direction in this display. The underlying physical relationship was then revealed.';
+      feedbackEl.textContent='The physical relationship is now highlighted so you can compare it with what you saw before revealing it.';
     }
     stage.classList.add('reveal-diff');
     revealBtn.disabled=true;
