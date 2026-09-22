@@ -20,7 +20,7 @@ sidebar_icon: "🔲"
   <div class="benchmark-card">
     <div id="grid" class="visual-memory-grid"></div>
     <button class="btn btn-accent" id="start">Start Test</button>
-    <div class="test-stats-bar">
+    <div class="test-stats-bar" style="display:flex;flex-direction:row;flex-wrap:nowrap;justify-content:center;gap:12px;">
       <div class="test-stat-item"><div class="test-stat-label">Level</div><div class="test-stat-val" id="level">0</div></div>
       <div class="test-stat-item"><div class="test-stat-label">Cells</div><div class="test-stat-val" id="cells">--</div></div>
       <div class="test-stat-item"><div class="test-stat-label">Best</div><div class="test-stat-val" id="best">--</div></div>
@@ -155,6 +155,7 @@ sidebar_icon: "🔲"
 }
 .visual-memory-cell{
   aspect-ratio:1;
+  min-height:58px;
   border:2px solid #cfd5dc;
   border-radius:8px;
   background:#f4f6f8;
