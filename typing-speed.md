@@ -108,15 +108,17 @@ sidebar_icon: "⌨️"
 <script>
 (function(){
   const passages=[
-    "Clear typing starts with steady movement across the keyboard. Keep your hands relaxed and let accuracy guide your pace.",
-    "Good typing is not only about speed. Consistent finger movement and careful attention to the text help reduce unnecessary corrections.",
-    "A short typing test can show how quickly you enter ordinary text. Repeat the test under similar conditions when comparing your own results."
-  ];
+    "Clear typing starts with steady movement across the keyboard. Keep your hands relaxed and let accuracy guide your pace. Good typing is not only about speed. Consistent finger movement and careful attention to the text help reduce unnecessary corrections. When you practice, focus on keeping your hands comfortable and your keystrokes controlled rather than forcing the fastest possible pace. A stable rhythm makes it easier to notice where mistakes happen and which parts of the keyboard slow you down.",
+    "Typing is a practical skill that improves through repeated, focused use. Reading the next few words before you type them can help you maintain a smoother flow. Try to keep unnecessary backspacing to a minimum, but correct mistakes when they matter because accuracy is part of the result. Different keyboards can feel very different, so comparisons are most useful when you use the same keyboard, browser, and general setup. Short sessions also make it easier to compare changes in your own performance over time.",
+    "During a longer test, your pace may change as your hands become more comfortable or fatigue begins to appear. That is normal. The purpose of this test is to measure the text you actually enter during the selected time rather than stopping when you reach the end of a short paragraph. Use the one-minute option for a quick benchmark and the longer options when you want to see how your typing holds up over a sustained session. The timer, accuracy, errors, and WPM are updated while you type.
   const passage=document.getElementById("passage"),input=document.getElementById("input"),start=document.getElementById("start");
   const timeEl=document.getElementById("time"),wpmEl=document.getElementById("wpm"),accEl=document.getElementById("accuracy"),errorsEl=document.getElementById("errors"),result=document.getElementById("result");
   const durationButtons=[...document.querySelectorAll(".duration-btn")];
   let duration=60,text="",running=false,started=false,startTime=0,timer=null,totalErrors=0,totalTyped=0;
-  function buildText(){let blocks=[];for(let i=0;i<8;i++)blocks.push(passages[i%passages.length]);return blocks.join(" ")}
+  function buildText(){
+    const count=duration===60?1:duration===120?2:3;
+    return passages.slice(0,count).join(" ");
+  }
   function stats(elapsed){
     const minutes=Math.max(elapsed/60,1/60),wpm=Math.round((totalTyped/5)/minutes),accuracy=totalTyped?Math.max(0,Math.round((totalTyped-totalErrors)/totalTyped*100)):100;
     wpmEl.textContent=wpm;accEl.textContent=accuracy+"%";errorsEl.textContent=totalErrors;
