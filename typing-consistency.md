@@ -100,32 +100,10 @@ sidebar_icon: "📊"
   const target=document.getElementById("target"),input=document.getElementById("input"),start=document.getElementById("start"),cons=document.getElementById("consistency"),mean=document.getElementById("mean"),spread=document.getElementById("spread"),keysEl=document.getElementById("keys"),result=document.getElementById("result");
   let running=false,lastTime=0,gaps=[],typed=0;
   target.textContent=text;
-  function calc(){
-    if(!gaps.length)return;
-    const avg=gaps.reduce((a,b)=>a+b,0)/gaps.length;
-    const variance=gaps.reduce((a,b)=>a+Math.pow(b-avg,2),0)/gaps.length;
-    const sd=Math.sqrt(variance);
-    const consistency=Math.max(0,Math.min(100,Math.round(100-(sd/Math.max(avg,1))*100)));
-    mean.textContent=Math.round(avg)+" ms";spread.textContent=Math.round(sd)+" ms";cons.textContent=consistency+"%";keysEl.textContent=typed;
-    return {consistency,avg,sd};
-  }
-  function finish(){
-    if(!running)return;running=false;input.disabled=true;const s=calc();
-    const old=Number(localStorage.getItem("wanjaaro_pb_typing_consistency")||0);
-    if(s&&s.consistency>old)localStorage.setItem("wanjaaro_pb_typing_consistency",s.consistency);
-    result.hidden=false;result.innerHTML="<strong>Result:</strong> "+s.consistency+"% consistency · "+Math.round(s.avg)+" ms average gap · "+Math.round(s.sd)+" ms timing spread.";
-    start.textContent="Try Again";
-  }
-  start.addEventListener("click",()=>{
-    running=true;lastTime=0;gaps=[];typed=0;input.value="";input.disabled=false;result.hidden=true;
-    cons.textContent="—";mean.textContent="—";spread.textContent="—";keysEl.textContent="0";start.textContent="Restart Test";input.focus();
-  });
-  input.addEventListener("keydown",e=>{
-    if(!running)return;
-    const now=performance.now();
-    if(lastTime)gaps.push(now-lastTime);
-    lastTime=now;typed++;calc();
-  });
-  input.addEventListener("input",()=>{if(input.value===text)finish()});
+  function calc(){if(!gaps.length)return null;const avg=gaps.reduce((a,b)=>a+b,0)/gaps.length,variance=gaps.reduce((a,b)=>a+Math.pow(b-avg,2),0)/gaps.length,sd=Math.sqrt(variance),consistency=Math.max(0,Math.min(100,Math.round(100-(sd/Math.max(avg,1))*100)));mean.textContent=Math.round(avg)+" ms";spread.textContent=Math.round(sd)+" ms";cons.textContent=consistency+"%";keysEl.textContent=typed;return {consistency,avg,sd}}
+  function finish(){if(!running)return;running=false;input.disabled=true;const s=calc(),old=Number(localStorage.getItem("wanjaaro_pb_typing_consistency")||0);if(s&&s.consistency>old)localStorage.setItem("wanjaaro_pb_typing_consistency",s.consistency);result.hidden=false;result.innerHTML="<strong>Result:</strong> "+s.consistency+"% consistency · "+Math.round(s.avg)+" ms average gap · "+Math.round(s.sd)+" ms timing spread.";start.textContent="Try Again"}
+  start.addEventListener("click",()=>{running=true;lastTime=0;gaps=[];typed=0;input.value="";input.disabled=false;result.hidden=true;cons.textContent="—";mean.textContent="—";spread.textContent="—";keysEl.textContent="0";start.textContent="Restart Test";input.focus()});
+  input.addEventListener("keydown",e=>{if(!running||e.key.length!==1&&e.key!==" ")return;const now=performance.now();if(lastTime)gaps.push(now-lastTime);lastTime=now;typed++;calc()});
+  input.addEventListener("input",()=>{if(running&&input.value===text)finish()});
 })();
 </script>
