@@ -90,7 +90,7 @@ sidebar_icon: "⌨️"
 .tool-btn:disabled{opacity:.5;cursor:not-allowed;transform:none}
 .typing-prompt{margin:.9rem 0 .7rem}
 .typing-prompt-label,.typing-editor-label{font-size:.75rem;text-transform:uppercase;letter-spacing:.06em;font-weight:800;color:var(--text-muted);margin-bottom:.4rem}
-.typing-passage{padding:.85rem 1rem;border:1px solid var(--border-medium);border-radius:var(--radius-md);line-height:1.65;margin:0;background:var(--surface-muted);color:var(--ink-900);font-size:1rem;box-shadow:inset 0 1px 0 rgba(255,255,255,.7);max-height:150px;overflow:auto}
+.typing-passage{padding:.85rem 1rem;border:1px solid var(--border-medium);border-radius:var(--radius-md);line-height:1.65;margin:0;background:var(--surface-muted);color:var(--ink-900);font-size:1rem;box-shadow:inset 0 1px 0 rgba(255,255,255,.7);height:230px;overflow:hidden}
 .typing-editor{margin-top:.75rem}
 .typing-input{min-height:108px;max-height:150px}
 .typing-input{width:100%;box-sizing:border-box;padding:1rem 1.1rem;border:2px solid var(--border-medium);border-radius:var(--radius-md);resize:vertical;font:inherit;font-size:1.05rem;line-height:1.6;color:var(--ink-900);background:var(--surface-white);outline:none;transition:border-color .15s ease,box-shadow .15s ease}
@@ -111,7 +111,7 @@ sidebar_icon: "⌨️"
   .tool-panel{padding:1.15rem}
   .tool-stats{grid-template-columns:repeat(2,1fr)}
   .tool-hero h1{font-size:2rem}
-  .typing-passage{padding:.8rem;font-size:.96rem;max-height:125px}.typing-input{min-height:96px}
+  .typing-passage{padding:.8rem;font-size:.96rem;height:200px}.typing-input{min-height:96px}
   .tool-btn{width:100%}
   .tool-actions{flex-direction:column}
 }
