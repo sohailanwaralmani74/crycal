@@ -96,35 +96,14 @@ sidebar_icon: "🎯"
 
 <script>
 (function(){
-  const sentences=[
-    "Careful typing begins with attention to every character.",
-    "Short practice sessions can help you notice repeated typing mistakes.",
-    "Accuracy becomes easier to maintain when your hands stay relaxed."
-  ];
+  const sentences=["Careful typing begins with attention to every character.","Short practice sessions can help you notice repeated typing mistakes.","Accuracy becomes easier to maintain when your hands stay relaxed."];
   const target=document.getElementById("target"),input=document.getElementById("input"),start=document.getElementById("start"),step=document.getElementById("step"),acc=document.getElementById("accuracy"),mistakesEl=document.getElementById("mistakes"),chars=document.getElementById("chars"),result=document.getElementById("result");
-  let index=0,totalMistakes=0,totalChars=0,running=false;
+  let index=0,totalMistakes=0,totalCorrect=0,totalAttempts=0,running=false;
   function setSentence(){target.textContent=sentences[index];input.value="";input.focus();step.textContent=(index+1)+"/"+sentences.length}
-  function update(){
-    const value=input.value,t=sentences[index];
-    let wrong=0,correct=0;
-    for(let i=0;i<value.length;i++){if(value[i]===t[i])correct++;else wrong++}
-    totalMistakes=Math.max(totalMistakes,totalMistakes+wrong-(window._lastWrong||0)); window._lastWrong=wrong;
-    const typed=Math.max(value.length,1), accuracy=Math.round(Math.max(0,(correct/typed))*100);
-    acc.textContent=accuracy+"%";mistakesEl.textContent=totalMistakes;chars.textContent=totalChars+correct;
-    if(value===t){
-      totalChars+=correct; window._lastWrong=0; index++;
-      if(index<sentences.length){setSentence();return}
-      running=false;input.disabled=true;step.textContent="3/3";
-      const finalAccuracy=Math.round(Math.max(0,(totalChars/sentences.join("").length))*100);
-      acc.textContent=finalAccuracy+"%";
-      const old=Number(localStorage.getItem("wanjaaro_pb_accuracy")||0);
-      if(finalAccuracy>old)localStorage.setItem("wanjaaro_pb_accuracy",finalAccuracy);
-      result.hidden=false;result.innerHTML="<strong>Completed:</strong> "+finalAccuracy+"% accuracy · "+totalMistakes+" mistakes.";
-      start.textContent="Try Again";
-    }
-  }
-  start.addEventListener("click",function(){index=0;totalMistakes=0;totalChars=0;window._lastWrong=0;running=true;input.disabled=false;result.hidden=true;start.textContent="Restart Test";setSentence();acc.textContent="100%";mistakesEl.textContent="0";chars.textContent="0"});
-  input.addEventListener("input",function(){if(running)update()});
+  function finish(){running=false;input.disabled=true;const finalAccuracy=totalAttempts?Math.round(totalCorrect/totalAttempts*100):100;acc.textContent=finalAccuracy+"%";mistakesEl.textContent=totalMistakes;chars.textContent=totalCorrect;step.textContent="3/3";const old=Number(localStorage.getItem("wanjaaro_pb_accuracy")||0);if(finalAccuracy>old)localStorage.setItem("wanjaaro_pb_accuracy",finalAccuracy);result.hidden=false;result.innerHTML="<strong>Completed:</strong> "+finalAccuracy+"% accuracy · "+totalMistakes+" mistakes · "+totalCorrect+" correct characters.";start.textContent="Try Again"}
+  start.addEventListener("click",()=>{index=0;totalMistakes=0;totalCorrect=0;totalAttempts=0;running=true;input.disabled=false;result.hidden=true;start.textContent="Restart Test";acc.textContent="100%";mistakesEl.textContent="0";chars.textContent="0";setSentence()});
+  input.addEventListener("keydown",e=>{if(!running)return;if(e.key.length!==1&&e.key!==" ")return;const expected=sentences[index][input.value.length];totalAttempts++;if(e.key===expected)totalCorrect++;else totalMistakes++;mistakesEl.textContent=totalMistakes;acc.textContent=Math.round(totalCorrect/Math.max(totalAttempts,1)*100)+"%";chars.textContent=totalCorrect});
+  input.addEventListener("input",()=>{if(running&&input.value===sentences[index]){index++;if(index<sentences.length){setSentence();return}finish()}});
   target.textContent="Press Start Test to begin.";
 })();
 </script>
