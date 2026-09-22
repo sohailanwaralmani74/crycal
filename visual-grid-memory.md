@@ -155,9 +155,9 @@ sidebar_icon: "🔲"
 }
 .visual-memory-cell{
   aspect-ratio:1;
-  min-height:48px;
+  min-height:20px;
   border:2px solid #cfd5dc;
-  border-radius:8px;
+  border-radius:50%;
   background:#f4f6f8;
   cursor:pointer;
   transition:transform .12s ease,background .12s ease,border-color .12s ease;
