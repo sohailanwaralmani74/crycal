@@ -27,7 +27,14 @@ sidebar_icon: "⌨️"
       <button type="button" class="duration-btn" data-duration="120">2 Minutes</button>
       <button type="button" class="duration-btn" data-duration="180">3 Minutes</button>
     </div>
-    <textarea id="input" class="typing-input" rows="5" disabled placeholder="Your typing appears here..."></textarea>
+    <div class="typing-prompt">
+      <div class="typing-prompt-label">Text to Type</div>
+      <div id="passage" class="typing-passage" aria-label="Text to type">Choose a duration, then press Start Test.</div>
+    </div>
+    <div class="typing-editor">
+      <div class="typing-editor-label">Type Here</div>
+      <textarea id="input" class="typing-input" rows="4" disabled placeholder="Your typing appears here..."></textarea>
+    </div>
     <div class="tool-actions"><button id="start" class="tool-btn">Start Test</button></div>
     <div class="tool-stats">
       <div><strong id="time">60</strong><span>Seconds</span></div>
@@ -36,11 +43,6 @@ sidebar_icon: "⌨️"
       <div><strong id="errors">0</strong><span>Errors</span></div>
     </div>
     <div id="result" class="tool-result" hidden></div>
-  </section>
-
-  <section class="typing-passage-section">
-    <h2>Text to Type</h2>
-    <div id="passage" class="typing-passage" aria-label="Text to type"></div>
   </section>
 
   <section class="tool-content">
@@ -61,9 +63,9 @@ sidebar_icon: "⌨️"
 .duration-btn:hover{border-color:var(--accent)}
 .duration-btn.active{background:var(--accent);border-color:var(--accent);color:#fff}
 .duration-btn:disabled{opacity:.55;cursor:not-allowed}
-.typing-passage-section{margin:2rem 0 0;padding:1.5rem 0;border-top:1px solid var(--border-light)}
-.typing-passage-section h2{font-size:1.35rem;margin:0 0 .7rem;color:var(--ink-900)}
-.typing-passage{padding:18px;border:1px solid var(--border-color,#ddd);border-radius:10px;line-height:1.8;margin:16px 0;background:var(--card-bg,#fafafa)}
+.typing-prompt{margin:1rem 0 .75rem}
+.typing-prompt-label,.typing-editor-label{font-size:.78rem;text-transform:uppercase;letter-spacing:.06em;font-weight:800;color:var(--text-muted);margin-bottom:.4rem}
+.typing-passage{padding:.95rem 1.1rem;border:1px solid var(--border-color,#ddd);border-radius:10px;line-height:1.65;margin:0;background:var(--card-bg,#fafafa)}
 .typing-input{width:100%;box-sizing:border-box;padding:14px;border:1px solid var(--border-color,#ddd);border-radius:10px;resize:vertical;font:inherit}
 .tool-actions{margin:14px 0}
 .tool-stats{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;margin:16px 0}
@@ -86,7 +88,11 @@ sidebar_icon: "⌨️"
 .tool-btn:hover{filter:brightness(1.06);transform:translateY(-1px)}
 .tool-btn:active{transform:translateY(0)}
 .tool-btn:disabled{opacity:.5;cursor:not-allowed;transform:none}
-.typing-passage{padding:1.35rem 1.5rem;border:1px solid var(--border-medium);border-radius:var(--radius-md);line-height:1.9;margin:1rem 0 1.1rem;background:var(--surface-muted);color:var(--ink-900);font-size:1.08rem;box-shadow:inset 0 1px 0 rgba(255,255,255,.7)}
+.typing-prompt{margin:.9rem 0 .7rem}
+.typing-prompt-label,.typing-editor-label{font-size:.75rem;text-transform:uppercase;letter-spacing:.06em;font-weight:800;color:var(--text-muted);margin-bottom:.4rem}
+.typing-passage{padding:.85rem 1rem;border:1px solid var(--border-medium);border-radius:var(--radius-md);line-height:1.65;margin:0;background:var(--surface-muted);color:var(--ink-900);font-size:1rem;box-shadow:inset 0 1px 0 rgba(255,255,255,.7);max-height:150px;overflow:auto}
+.typing-editor{margin-top:.75rem}
+.typing-input{min-height:108px;max-height:150px}
 .typing-input{width:100%;box-sizing:border-box;padding:1rem 1.1rem;border:2px solid var(--border-medium);border-radius:var(--radius-md);resize:vertical;font:inherit;font-size:1.05rem;line-height:1.6;color:var(--ink-900);background:var(--surface-white);outline:none;transition:border-color .15s ease,box-shadow .15s ease}
 .typing-input:focus{border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-subtle)}
 .typing-input:disabled{background:var(--surface-muted);cursor:not-allowed}
@@ -105,7 +111,7 @@ sidebar_icon: "⌨️"
   .tool-panel{padding:1.15rem}
   .tool-stats{grid-template-columns:repeat(2,1fr)}
   .tool-hero h1{font-size:2rem}
-  .typing-passage{padding:1rem;font-size:1rem}
+  .typing-passage{padding:.8rem;font-size:.96rem;max-height:125px}.typing-input{min-height:96px}
   .tool-btn{width:100%}
   .tool-actions{flex-direction:column}
 }
