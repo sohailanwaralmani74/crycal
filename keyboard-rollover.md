@@ -78,10 +78,12 @@ sidebar_icon: "⌨️"
   keys.forEach(k=>{const el=document.createElement("div");el.className="key";el.dataset.key=k;el.textContent=k;keyboard.appendChild(el)});
   function label(e){return e.code==="Space"?"Space":e.key.length===1?e.key.toUpperCase():e.key}
   function update(){heldEl.textContent=held.size;peak=Math.max(peak,held.size);peakEl.textContent=peak;eventsEl.textContent=events;detected.textContent=held.size?"Detected: "+Array.from(held).join(" + "):"No keys currently held."}
+  function clearHeld(){held.clear();Array.from(keyboard.children).forEach(x=>x.classList.remove("active"));update()}
   function setKey(k,on){const el=Array.from(keyboard.children).find(x=>x.dataset.key===k);if(el)el.classList.toggle("active",on)}
-  window.addEventListener("keydown",e=>{if(!running)return;e.preventDefault();const k=label(e);if(!held.has(k)){held.add(k);events++;setKey(k,true);update()}});
+  window.addEventListener("keydown",e=>{if(!running)return;const k=label(e);if(!held.has(k)){held.add(k);events++;setKey(k,true);update()}});
   window.addEventListener("keyup",e=>{if(!running)return;const k=label(e);held.delete(k);setKey(k,false);update()});
-  start.addEventListener("click",()=>{running=!running;start.textContent=running?"Stop Test":"Start Test";clear.disabled=!running;if(running){held.clear();peak=0;events=0;update();keyboard.focus()}});
-  clear.addEventListener("click",()=>{held.clear();peak=0;events=0;Array.from(keyboard.children).forEach(x=>x.classList.remove("active"));update()});
+  window.addEventListener("blur",()=>{if(running)clearHeld()});
+  start.addEventListener("click",()=>{running=!running;if(running){held.clear();peak=0;events=0;start.textContent="Stop Test";clear.disabled=false;update();keyboard.focus()}else{clearHeld();start.textContent="Start Test";clear.disabled=true}});
+  clear.addEventListener("click",()=>{clearHeld();peak=0;events=0;update()});update();
 })();
 </script>
