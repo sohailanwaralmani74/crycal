@@ -82,7 +82,7 @@ sidebar_icon: "🎨"
 .color-test-top>div{padding:.7rem .45rem;background:var(--surface-muted);border:1px solid var(--border-light);border-radius:var(--radius-md)}
 .color-label{display:block;font-size:.68rem;text-transform:uppercase;letter-spacing:.05em;color:var(--text-muted);font-weight:800;margin-bottom:.25rem}
 .color-test-top strong{font-family:var(--font-mono);font-size:1.05rem}
-.color-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;max-width:520px;margin:0 auto;padding:8px}
+.color-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;max-width:400px;margin:0 auto;padding:6px}
 .color-cell{aspect-ratio:1;border:0;border-radius:10px;cursor:pointer;box-shadow:inset 0 0 0 1px rgba(0,0,0,.08);transition:transform .1s ease,box-shadow .1s ease}
 .color-cell:hover{transform:scale(1.025);box-shadow:inset 0 0 0 2px rgba(0,0,0,.18)}
 .color-cell:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
@@ -93,7 +93,7 @@ sidebar_icon: "🎨"
   .color-test-top{gap:.45rem}
   .color-test-top>div{padding:.55rem .3rem}
   .color-test-top strong{font-size:.9rem}
-  .color-grid{gap:6px;padding:4px}
+  .color-grid{gap:5px;padding:4px;max-width:300px}
 }
 </style>
 
