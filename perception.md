@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Perception & Senses Tests — Wanjaaro"
-description: "Browser-based perception tests for color, optical illusions, pitch matching, symmetry, and contrast."
+description: "Browser-based perception tests for color, pitch matching, symmetry, and contrast."
 permalink: /perception
 ---
 
@@ -28,20 +28,6 @@ permalink: /perception
       </div>
     </a>
 
-    <a href="/optical-illusion" class="benchmark-card">
-      <div>
-        <div class="benchmark-card-header">
-          <span class="benchmark-card-icon">🌀</span>
-          <span class="benchmark-badge playable">Visual</span>
-        </div>
-        <div class="benchmark-card-title">Optical Illusion Gallery</div>
-        <div class="benchmark-card-desc">Explore interactive visual illusions and make simple judgments about lines, shapes, spacing, and apparent size.</div>
-      </div>
-      <div class="benchmark-card-footer">
-        <span class="benchmark-pb">Visual Perception</span>
-        <span class="benchmark-btn">Explore &rarr;</span>
-      </div>
-    </a>
 
     <a href="/pitch-tone-matching" class="benchmark-card">
       <div>
@@ -107,10 +93,9 @@ permalink: /perception
   "@type": "CollectionPage",
   "name": "Perception & Senses Tests",
   "url": "{{ site.url }}/perception",
-  "description": "Browser-based perception tests for color, optical illusions, pitch matching, symmetry, and contrast.",
+  "description": "Browser-based perception tests for color, pitch matching, symmetry, and contrast.",
   "hasPart": [
     {"@type":"WebPage","name":"Color Perception","url":"{{ site.url }}/color-perception"},
-    {"@type":"WebPage","name":"Optical Illusion Gallery","url":"{{ site.url }}/optical-illusion"},
     {"@type":"WebPage","name":"Pitch / Tone Matching","url":"{{ site.url }}/pitch-tone-matching"},
     {"@type":"WebPage","name":"Symmetry Spotting","url":"{{ site.url }}/symmetry-spotting"},
     {"@type":"WebPage","name":"Contrast Test","url":"{{ site.url }}/contrast-test"}
