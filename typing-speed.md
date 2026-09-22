@@ -19,8 +19,13 @@ sidebar_icon: "⌨️"
 
   <section class="tool-panel">
     <div class="tool-instructions">
-      <h2>Type the Passage</h2>
-      <p>Press <strong>Start Test</strong>, then type the displayed text. The 60-second timer starts with your first character.</p>
+      <h2>Choose Your Test Length</h2>
+      <p>Select 1, 2, or 3 minutes. The test begins when you type your first character and ends automatically when the selected time expires.</p>
+    </div>
+    <div class="duration-picker" role="group" aria-label="Test duration">
+      <button type="button" class="duration-btn active" data-duration="60">1 Minute</button>
+      <button type="button" class="duration-btn" data-duration="120">2 Minutes</button>
+      <button type="button" class="duration-btn" data-duration="180">3 Minutes</button>
     </div>
     <div id="passage" class="typing-passage" aria-label="Text to type"></div>
     <textarea id="input" class="typing-input" rows="5" disabled placeholder="Your typing appears here..."></textarea>
@@ -47,6 +52,11 @@ sidebar_icon: "⌨️"
 </div>
 
 <style>
+.duration-picker{display:flex;gap:.6rem;justify-content:center;flex-wrap:wrap;margin:0 0 1.25rem}
+.duration-btn{border:1px solid var(--border-medium);background:var(--surface-white);color:var(--ink-900);border-radius:var(--radius-sm);padding:.65rem 1rem;font-weight:800;cursor:pointer}
+.duration-btn:hover{border-color:var(--accent)}
+.duration-btn.active{background:var(--accent);border-color:var(--accent);color:#fff}
+.duration-btn:disabled{opacity:.55;cursor:not-allowed}
 .typing-passage{padding:18px;border:1px solid var(--border-color,#ddd);border-radius:10px;line-height:1.8;margin:16px 0;background:var(--card-bg,#fafafa)}
 .typing-input{width:100%;box-sizing:border-box;padding:14px;border:1px solid var(--border-color,#ddd);border-radius:10px;resize:vertical;font:inherit}
 .tool-actions{margin:14px 0}
@@ -102,44 +112,36 @@ sidebar_icon: "⌨️"
     "Good typing is not only about speed. Consistent finger movement and careful attention to the text help reduce unnecessary corrections.",
     "A short typing test can show how quickly you enter ordinary text. Repeat the test under similar conditions when comparing your own results."
   ];
-  const passage=document.getElementById("passage"), input=document.getElementById("input"), start=document.getElementById("start");
-  const timeEl=document.getElementById("time"), wpmEl=document.getElementById("wpm"), accEl=document.getElementById("accuracy"), errorsEl=document.getElementById("errors"), result=document.getElementById("result");
-  let text="",running=false,startTime=0,timer=null,started=false;
-  function renderStats(){
-    const typed=input.value, correct=Math.min(typed.length,text.length);
-    let errors=0;
-    for(let i=0;i<typed.length;i++) if(typed[i]!==text[i]) errors++;
-    const elapsed=started?Math.max((performance.now()-startTime)/1000,.01):0;
-    const mins=elapsed/60;
-    const wpm=Math.round((typed.length/5)/Math.max(mins,1/60));
-    const accuracy=typed.length?Math.max(0,Math.round((typed.length-errors)/typed.length*100)):100;
-    wpmEl.textContent=running?wpm:0; accEl.textContent=accuracy+"%"; errorsEl.textContent=errors;
-    if(running) timeEl.textContent=Math.max(0,60-Math.floor((performance.now()-startTime)/1000));
-    return {wpm,accuracy,errors,correct};
+  const passage=document.getElementById("passage"),input=document.getElementById("input"),start=document.getElementById("start");
+  const timeEl=document.getElementById("time"),wpmEl=document.getElementById("wpm"),accEl=document.getElementById("accuracy"),errorsEl=document.getElementById("errors"),result=document.getElementById("result");
+  const durationButtons=[...document.querySelectorAll(".duration-btn")];
+  let duration=60,text="",running=false,started=false,startTime=0,timer=null,totalErrors=0,totalTyped=0;
+  function buildText(){let blocks=[];for(let i=0;i<8;i++)blocks.push(passages[i%passages.length]);return blocks.join(" ")}
+  function stats(elapsed){
+    const minutes=Math.max(elapsed/60,1/60),wpm=Math.round((totalTyped/5)/minutes),accuracy=totalTyped?Math.max(0,Math.round((totalTyped-totalErrors)/totalTyped*100)):100;
+    wpmEl.textContent=wpm;accEl.textContent=accuracy+"%";errorsEl.textContent=totalErrors;
+    if(running)timeEl.textContent=Math.max(0,Math.ceil(duration-elapsed));
+    return {wpm,accuracy};
   }
   function finish(){
     if(!running)return;
-    running=false; clearInterval(timer); input.disabled=true;
-    const s=renderStats(), old=Number(localStorage.getItem("wanjaaro_pb_wpm")||0);
+    running=false;clearInterval(timer);input.disabled=true;durationButtons.forEach(b=>b.disabled=false);
+    const s=stats(duration),old=Number(localStorage.getItem("wanjaaro_pb_wpm")||0);
     if(s.wpm>old)localStorage.setItem("wanjaaro_pb_wpm",s.wpm);
-    result.hidden=false;
-    result.innerHTML="<strong>Result:</strong> "+s.wpm+" WPM · "+s.accuracy+"% accuracy · "+s.errors+" errors.";
+    result.hidden=false;result.innerHTML="<strong>Result:</strong> "+s.wpm+" WPM · "+s.accuracy+"% accuracy · "+(duration/60)+" minute"+(duration>60?"s":"")+".";
     start.textContent="Try Again";
   }
   function begin(){
-    text=passages[Math.floor(Math.random()*passages.length)];
-    passage.textContent=text; input.value=""; input.disabled=false; input.focus();
-    result.hidden=true; running=true; started=false; startTime=0; timeEl.textContent="60"; wpmEl.textContent="0"; accEl.textContent="100%"; errorsEl.textContent="0"; start.textContent="Restart Test";
-    clearInterval(timer);
+    clearInterval(timer);text=buildText();passage.textContent=text;input.value="";input.disabled=false;result.hidden=true;running=true;started=false;startTime=0;totalErrors=0;totalTyped=0;
+    timeEl.textContent=duration;wpmEl.textContent="0";accEl.textContent="100%";errorsEl.textContent="0";start.textContent="Restart Test";durationButtons.forEach(b=>b.disabled=true);input.focus();
   }
+  durationButtons.forEach(button=>button.addEventListener("click",()=>{if(running)return;duration=Number(button.dataset.duration);durationButtons.forEach(b=>b.classList.toggle("active",b===button));timeEl.textContent=duration;}));
   input.addEventListener("input",function(){
     if(!running)return;
-    if(!started){started=true;startTime=performance.now();timer=setInterval(renderStats,100);}
-    renderStats();
-    if(input.value.length>=text.length) finish();
+    if(!started){started=true;startTime=performance.now();timer=setInterval(()=>{const elapsed=(performance.now()-startTime)/1000;if(elapsed>=duration)finish();else stats(elapsed)},50)}
+    totalTyped=input.value.length;totalErrors=0;for(let i=0;i<input.value.length;i++)if(input.value[i]!==text[i])totalErrors++;
+    stats(Math.min((performance.now()-startTime)/1000,duration));
   });
-  start.addEventListener("click",begin);
-  passage.textContent="Press Start Test to load a passage.";
-  window.addEventListener("beforeunload",()=>clearInterval(timer));
+  start.addEventListener("click",begin);passage.textContent="Choose a duration, then press Start Test.";window.addEventListener("beforeunload",()=>clearInterval(timer));
 })();
 </script>
