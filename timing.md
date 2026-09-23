@@ -30,7 +30,7 @@ permalink: /timing
     </a>
 
     <!-- Test 30: Rhythm Tap Game -->
-    <a href="/stop-the-clock?mode=rhythm" class="benchmark-card">
+    <a href="/rhythm-tap" class="benchmark-card">
       <div>
         <div class="benchmark-card-header">
           <span class="benchmark-card-icon">🥁</span>
@@ -46,7 +46,7 @@ permalink: /timing
     </a>
 
     <!-- Test 31: Internal Clock Test -->
-    <a href="/stop-the-clock?mode=internal10" class="benchmark-card">
+    <a href="/internal-clock" class="benchmark-card">
       <div>
         <div class="benchmark-card-header">
           <span class="benchmark-card-icon">🕰️</span>
@@ -62,7 +62,7 @@ permalink: /timing
     </a>
 
     <!-- Test 32: Metronome Sync Challenge -->
-    <a href="/stop-the-clock?mode=metronome" class="benchmark-card">
+    <a href="/metronome-sync" class="benchmark-card">
       <div>
         <div class="benchmark-card-header">
           <span class="benchmark-card-icon">🎼</span>
