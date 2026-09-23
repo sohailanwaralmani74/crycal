@@ -1,0 +1,13 @@
+---
+layout: default
+title: "Minesweeper — Wanjaaro"
+description: "Play a compact browser Minesweeper game with numbered clues, flags, and a fresh board each run."
+permalink: /minesweeper
+category: puzzles
+sidebar: true
+sidebar_title: "Minesweeper"
+sidebar_subtitle: "Clear the minefield"
+sidebar_icon: "💣"
+---
+<div class="benchmark-container"><div class="benchmark-hero"><span class="benchmark-badge playable">Puzzle Game</span><h1>Minesweeper</h1><p>Reveal safe cells, use the numbers as clues, and avoid the hidden mines.</p></div><div class="tool-panel" style="max-width:520px;margin:auto;text-align:center"><div class="test-stats-bar"><div class="test-stat-item"><div class="test-stat-label">Mines</div><div class="test-stat-val">10</div></div><div class="test-stat-item"><div class="test-stat-label">Status</div><div class="test-stat-val" id="status">Ready</div></div></div><div id="board" style="display:grid;grid-template-columns:repeat(9,1fr);gap:3px;max-width:420px;margin:20px auto"></div><button id="start" class="btn btn-primary">New Board</button></div></div>
+<script>(function(){var b=document.getElementById('board'),s=document.getElementById('start'),st=document.getElementById('status'),a=[],open=[],mines=10;function start(){a=Array(81).fill(0);open=Array(81).fill(false);var set={};while(Object.keys(set).length<mines)set[Math.floor(Math.random()*81)]=1;Object.keys(set).forEach(function(i){a[+i]=-1});for(var i=0;i<81;i++)if(a[i]!==-1){var c=0,row=Math.floor(i/9),col=i%9;for(var dr=-1;dr<=1;dr++)for(var dc=-1;dc<=1;dc++){var x=row+dr,y=col+dc;if(x>=0&&x<9&&y>=0&&y<9&&a[x*9+y]===-1)c++}a[i]=c}st.textContent='Playing';draw()}function draw(){b.innerHTML='';a.forEach(function(v,i){var x=document.createElement('button');x.type='button';x.textContent=open[i]?(v===-1?'💣':v||''):'?';x.style.cssText='aspect-ratio:1;border:1px solid var(--border-color);border-radius:5px;background:var(--surface-alt-color,#202633);color:var(--text-color);font-weight:700;cursor:pointer';x.onclick=function(){if(open[i])return;if(v===-1){open.fill(true);st.textContent='Mine Hit';draw();return}reveal(i);draw();check()};x.oncontextmenu=function(e){e.preventDefault();if(!open[i])x.textContent=x.textContent==='⚑'?'?':'⚑'};b.appendChild(x)})}function reveal(i){if(i<0||i>=81||open[i])return;open[i]=true;if(a[i]===0){var row=Math.floor(i/9),col=i%9;for(var dr=-1;dr<=1;dr++)for(var dc=-1;dc<=1;dc++){var x=row+dr,y=col+dc;if(x>=0&&x<9&&y>=0&&y<9)reveal(x*9+y)}}}function check(){var safe=0;for(var i=0;i<81;i++)if(a[i]!==-1&&open[i])safe++;if(safe===71)st.textContent='Cleared'}s.onclick=start;start()})()</script>
