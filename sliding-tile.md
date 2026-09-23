@@ -1,0 +1,15 @@
+---
+layout: default
+title: "Sliding Tile Puzzle — Wanjaaro"
+description: "Play a browser-based 15-puzzle and arrange the numbered tiles in order using the fewest moves."
+permalink: /sliding-tile
+category: puzzles
+sidebar: true
+sidebar_title: "Sliding Tile Puzzle"
+sidebar_subtitle: "Arrange 15 numbered tiles"
+sidebar_icon: "🧩"
+---
+<div class="benchmark-container"><div class="benchmark-hero"><span class="benchmark-badge playable">Puzzle Game</span><h1>Sliding Tile Puzzle</h1><p>Slide the numbered tiles into order. Use the empty space to build the sequence from 1 to 15.</p></div>
+<div class="tool-panel" style="max-width:520px;margin:auto;text-align:center"><div class="test-stats-bar"><div class="test-stat-item"><div class="test-stat-label">Moves</div><div class="test-stat-val" id="moves">0</div></div><div class="test-stat-item"><div class="test-stat-label">Time</div><div class="test-stat-val" id="time">0</div></div></div><div id="board" style="display:grid;grid-template-columns:repeat(4,1fr);gap:6px;max-width:420px;margin:20px auto"></div><button id="start" class="btn btn-primary">New Puzzle</button><div id="result" class="test-summary-card" style="display:none;margin-top:18px"></div></div>
+<div class="benchmark-info-section"><h3>How to Play</h3><p>Click a tile beside the empty space to move it. The puzzle is complete when the tiles read 1 through 15 with the empty space last.</p></div></div>
+<script>(function(){var b=document.getElementById('board'),m=document.getElementById('moves'),t=document.getElementById('time'),s=document.getElementById('start'),r=document.getElementById('result'),a=[],moves=0,start=0,timer=0;function solved(){for(var i=0;i<15;i++)if(a[i]!==i+1)return false;return a[15]===0}function draw(){b.innerHTML='';a.forEach(function(v,i){var x=document.createElement('button');x.type='button';x.textContent=v||'';x.style.cssText='aspect-ratio:1;border:1px solid var(--border-color);border-radius:9px;background:var(--surface-alt-color,#202633);color:var(--text-color);font-size:1.35rem;font-weight:700;cursor:pointer';if(!v)x.style.visibility='hidden';x.onclick=function(){var z=a.indexOf(0),row=Math.floor(i/4),col=i%4,zr=Math.floor(z/4),zc=z%4;if(Math.abs(row-zr)+Math.abs(col-zc)!==1)return;a[z]=a[i];a[i]=0;m.textContent=++moves;draw();if(solved())finish()};b.appendChild(x)})}function finish(){clearInterval(timer);r.style.display='block';r.innerHTML='<h2>Puzzle Solved</h2><p>'+moves+' moves in '+Math.floor((Date.now()-start)/1000)+' seconds.</p>'}function begin(){clearInterval(timer);a=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,0];for(var n=0;n<200;n++){var z=a.indexOf(0),q=[z-1,z+1,z-4,z+4].filter(function(i){return i>=0&&i<16&&Math.abs(Math.floor(i/4)-Math.floor(z/4))+Math.abs(i%4-z%4)===1}),i=q[Math.floor(Math.random()*q.length)];a[z]=a[i];a[i]=0}moves=0;m.textContent=0;start=Date.now();r.style.display='none';draw();timer=setInterval(function(){t.textContent=Math.floor((Date.now()-start)/1000)},250)}s.onclick=begin;begin()})();</script>
