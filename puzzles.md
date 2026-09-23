@@ -14,7 +14,7 @@ permalink: /puzzles
 
   <div class="benchmark-card-grid">
     <!-- Test 38: Sliding Tile 15-Puzzle -->
-    <a href="/chimp-test?mode=sliding" class="benchmark-card">
+    <a href="/sliding-tile" class="benchmark-card">
       <div>
         <div class="benchmark-card-header">
           <span class="benchmark-card-icon">🧩</span>
@@ -30,7 +30,7 @@ permalink: /puzzles
     </a>
 
     <!-- Test 39: Word Scramble / Anagram -->
-    <a href="/typing-test?mode=anagram" class="benchmark-card">
+    <a href="/word-scramble" class="benchmark-card">
       <div>
         <div class="benchmark-card-header">
           <span class="benchmark-card-icon">🔤</span>
@@ -46,7 +46,7 @@ permalink: /puzzles
     </a>
 
     <!-- Test 40: Minesweeper -->
-    <a href="/chimp-test?mode=minesweeper" class="benchmark-card">
+    <a href="/minesweeper" class="benchmark-card">
       <div>
         <div class="benchmark-card-header">
           <span class="benchmark-card-icon">💣</span>
@@ -62,7 +62,7 @@ permalink: /puzzles
     </a>
 
     <!-- Test 41: 2048 Number Merge -->
-    <a href="/chimp-test?mode=2048" class="benchmark-card">
+    <a href="/2048" class="benchmark-card">
       <div>
         <div class="benchmark-card-header">
           <span class="benchmark-card-icon">🔢</span>
@@ -78,7 +78,7 @@ permalink: /puzzles
     </a>
 
     <!-- Test 42: Daily Mini-Sudoku -->
-    <a href="/daily?game=sudoku" class="benchmark-card">
+    <a href="/mini-sudoku" class="benchmark-card">
       <div>
         <div class="benchmark-card-header">
           <span class="benchmark-card-icon">✍️</span>
