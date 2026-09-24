@@ -145,7 +145,7 @@ permalink: /
           </div>
           <div class="benchmark-card-title">Perception &amp; Senses</div>
           <div class="benchmark-card-desc">
-            Visual and auditory challenges involving color discrimination, optical illusions, pitch matching, symmetry, and contrast.
+            Visual and auditory challenges involving color discrimination, pitch matching, symmetry, and contrast.
           </div>
         </div>
         <div class="benchmark-card-footer">
@@ -202,6 +202,23 @@ permalink: /
         <div class="benchmark-card-footer">
           <span class="benchmark-pb">Problem Solving</span>
           <span class="benchmark-btn">View Tests &rarr;</span>
+        </div>
+      </a>
+
+      <a href="/fun" class="benchmark-card">
+        <div>
+          <div class="benchmark-card-header">
+            <span class="benchmark-card-icon">🎲</span>
+            <span class="benchmark-badge playable">Utilities</span>
+          </div>
+          <div class="benchmark-card-title">Fun Utilities</div>
+          <div class="benchmark-card-desc">
+            Simple browser tools for random choices and sharing Wanjaaro results.
+          </div>
+        </div>
+        <div class="benchmark-card-footer">
+          <span class="benchmark-pb">Quick Tools</span>
+          <span class="benchmark-btn">View Utilities &rarr;</span>
         </div>
       </a>
 
@@ -335,7 +352,7 @@ permalink: /
       "mainEntity": {
         "@type": "ItemList",
         "name": "Wanjaaro test categories",
-        "numberOfItems": 9,
+        "numberOfItems": 10,
         "itemListElement": [
           { "@type": "ListItem", "position": 1, "name": "Reflex & Reaction", "url": "https://wanjaaro.com/reflex" },
           { "@type": "ListItem", "position": 2, "name": "Aim & Precision", "url": "https://wanjaaro.com/aim" },
@@ -345,7 +362,8 @@ permalink: /
           { "@type": "ListItem", "position": 6, "name": "Timing & Rhythm", "url": "https://wanjaaro.com/timing" },
           { "@type": "ListItem", "position": 7, "name": "Quick-Fire Cognitive", "url": "https://wanjaaro.com/cognitive" },
           { "@type": "ListItem", "position": 8, "name": "Logic Puzzles", "url": "https://wanjaaro.com/puzzles" },
-          { "@type": "ListItem", "position": 9, "name": "Daily Challenges", "url": "https://wanjaaro.com/daily" }
+          { "@type": "ListItem", "position": 9, "name": "Fun Utilities", "url": "https://wanjaaro.com/fun" },
+          { "@type": "ListItem", "position": 10, "name": "Daily Challenges", "url": "https://wanjaaro.com/daily" }
         ]
       }
     }
